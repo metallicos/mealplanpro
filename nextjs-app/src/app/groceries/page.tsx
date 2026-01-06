@@ -549,59 +549,61 @@ export default function GroceriesPage() {
             </div>
 
             {/* Month & Budget Bar */}
-            <div className="card mb-6 no-print">
-                <div className="flex flex-wrap items-center gap-4">
-                    <div>
-                        <label className="form-label">Month</label>
-                        <select
-                            className="form-input"
-                            value={currentMonth}
-                            onChange={(e) => setCurrentMonth(e.target.value)}
-                        >
-                            {availableMonths.map(m => (
-                                <option key={m} value={m}>{formatMonth(m)}</option>
-                            ))}
-                        </select>
-                    </div>
+            <div className="card mb-4 no-print">
+                <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-3 sm:gap-4">
+                    <div className="flex items-center gap-3">
+                        <div>
+                            <label className="form-label text-xs sm:text-sm">Month</label>
+                            <select
+                                className="form-input text-sm"
+                                value={currentMonth}
+                                onChange={(e) => setCurrentMonth(e.target.value)}
+                            >
+                                {availableMonths.map(m => (
+                                    <option key={m} value={m}>{formatMonth(m)}</option>
+                                ))}
+                            </select>
+                        </div>
 
-                    <div className="flex-1">
-                        <label className="form-label">Monthly Budget</label>
-                        <div className="flex items-center gap-2">
-                            <div
-                                className="text-2xl font-bold cursor-pointer hover:opacity-80"
-                                style={{ color: theme.primary }}
-                                onClick={() => {
-                                    setNewBudget(currentBudget.initial_budget);
-                                    setShowBudgetModal(true);
-                                }}
-                            >
-                                {currentBudget.initial_budget.toLocaleString()} MAD
+                        <div className="flex-1">
+                            <label className="form-label text-xs sm:text-sm">Budget</label>
+                            <div className="flex items-center gap-2">
+                                <div
+                                    className="text-lg sm:text-2xl font-bold cursor-pointer hover:opacity-80"
+                                    style={{ color: theme.primary }}
+                                    onClick={() => {
+                                        setNewBudget(currentBudget.initial_budget);
+                                        setShowBudgetModal(true);
+                                    }}
+                                >
+                                    {currentBudget.initial_budget.toLocaleString()} MAD
+                                </div>
+                                <button
+                                    onClick={() => {
+                                        setNewBudget(currentBudget.initial_budget);
+                                        setShowBudgetModal(true);
+                                    }}
+                                    className="text-sm opacity-60 hover:opacity-100 hidden sm:inline"
+                                >
+                                    ✏️
+                                </button>
                             </div>
-                            <button
-                                onClick={() => {
-                                    setNewBudget(currentBudget.initial_budget);
-                                    setShowBudgetModal(true);
-                                }}
-                                className="text-sm opacity-60 hover:opacity-100"
-                            >
-                                ✏️ Edit
-                            </button>
                         </div>
                     </div>
 
-                    <div className="flex gap-2">
-                        <button onClick={handlePrint} className="btn-secondary">
-                            🖨️ Print List
+                    <div className="flex gap-2 sm:ml-auto">
+                        <button onClick={handlePrint} className="btn-secondary flex-1 sm:flex-none text-sm">
+                            🖨️ <span className="hidden sm:inline">Print</span>
                         </button>
-                        <button onClick={copyToNextMonth} className="btn-secondary">
-                            📋 Copy to Next Month
+                        <button onClick={copyToNextMonth} className="btn-secondary flex-1 sm:flex-none text-sm">
+                            📋 <span className="hidden sm:inline">Copy</span>
                         </button>
                     </div>
                 </div>
             </div>
 
             {/* Budget Overview */}
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-6 no-print">
+            <div className="grid grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-4 mb-4 no-print">
                 <div className="stat-card">
                     <div className="stat-value">{totalItems}</div>
                     <div className="stat-label">Total Items</div>
@@ -658,11 +660,11 @@ export default function GroceriesPage() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <div className="flex flex-col lg:grid lg:grid-cols-3 gap-4 lg:gap-6">
                 {/* Add Items Panel */}
-                <div className="lg:col-span-1 no-print">
-                    <div className="card sticky top-4">
-                        <h3 className="font-semibold mb-4">Add Items</h3>
+                <div className="order-2 lg:order-1 lg:col-span-1 no-print">
+                    <div className="card lg:sticky lg:top-4">
+                        <h3 className="font-semibold mb-3 text-sm sm:text-base">Add Items</h3>
 
                         {/* Search */}
                         <div className="relative mb-4">
@@ -747,7 +749,7 @@ export default function GroceriesPage() {
                 </div>
 
                 {/* Shopping List */}
-                <div className="lg:col-span-2">
+                <div className="order-1 lg:order-2 lg:col-span-2">
                     <div className="card print-area" ref={printRef}>
                         {/* Print Header */}
                         <div className="print-header hidden">
