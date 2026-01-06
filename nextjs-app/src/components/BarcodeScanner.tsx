@@ -91,6 +91,16 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                     setError('Camera access denied or not available');
                     return;
                 }
+
+                // Force video attributes for mobile
+                const video = scannerRef.current?.querySelector('video');
+                if (video) {
+                    video.setAttribute('playsinline', 'true');
+                    video.style.width = '100%';
+                    video.style.height = '100%';
+                    video.style.objectFit = 'cover';
+                }
+
                 Quagga.start();
                 setIsScanning(true);
             }
@@ -105,9 +115,11 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
     }, [lookupBarcode]);
 
     useEffect(() => {
-        startScanner();
+        // Small delay to ensure DOM is ready
+        const timer = setTimeout(startScanner, 100);
 
         return () => {
+            clearTimeout(timer);
             Quagga.stop();
             hasInitialized.current = false;
         };
