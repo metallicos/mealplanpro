@@ -1,0 +1,209 @@
+'use client';
+
+import { createContext, useContext, useState, useEffect, useCallback, ReactNode } from 'react';
+
+// Types
+export interface UserSession {
+    id: number;
+    email: string;
+    fullName: string;
+    role: 'admin' | 'master' | 'member';
+    householdId: number | null;
+    householdName?: string;
+}
+
+export interface UserSettings {
+    weight: number;
+    height: number;
+    age: number;
+    gender: 'male' | 'female';
+    activityLevel: string;
+    goal: string;
+    dailyCalorieTarget: number;
+    proteinTarget: number;
+    carbsTarget: number;
+    fatTarget: number;
+}
+
+interface UserContextType {
+    user: UserSession | null;
+    settings: UserSettings;
+    isLoading: boolean;
+    isSaving: boolean;
+    login: (email: string, pass: string) => Promise<void>;
+    logout: () => Promise<void>;
+    updateSettings: (newSettings: Partial<UserSettings>) => Promise<void>;
+    theme: {
+        primary: string;
+        secondary: string;
+        accent: string;
+        gradient: string;
+        glow: string;
+    };
+}
+
+// Default settings fallback
+const defaultSettings: UserSettings = {
+    weight: 0,
+    height: 0,
+    age: 0,
+    gender: 'male',
+    activityLevel: 'sedentary',
+    goal: 'maintain',
+    dailyCalorieTarget: 2000,
+    proteinTarget: 150,
+    carbsTarget: 200,
+    fatTarget: 66,
+};
+
+// Theme configurations
+const themes = {
+    male: {
+        primary: '#6366f1',
+        secondary: '#8b5cf6',
+        accent: '#a855f7',
+        gradient: 'linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%)',
+        glow: '0 0 30px rgba(99, 102, 241, 0.3)',
+    },
+    female: {
+        primary: '#ec4899',
+        secondary: '#f472b6',
+        accent: '#fb7185',
+        gradient: 'linear-gradient(135deg, #ec4899 0%, #f472b6 50%, #fb7185 100%)',
+        glow: '0 0 30px rgba(236, 72, 153, 0.3)',
+    },
+};
+
+const UserContext = createContext<UserContextType | undefined>(undefined);
+
+export function UserProvider({ children }: { children: ReactNode }) {
+    const [user, setUser] = useState<UserSession | null>(null);
+    const [settings, setSettings] = useState<UserSettings>(defaultSettings);
+    const [isLoading, setIsLoading] = useState(true);
+    const [isSaving, setIsSaving] = useState(false);
+
+    // Initial session check
+    useEffect(() => {
+        checkSession();
+    }, []);
+
+    const checkSession = async () => {
+        try {
+            const res = await fetch('/api/auth/me');
+            if (res.ok) {
+                const data = await res.json();
+                if (data.user) {
+                    setUser(data.user);
+                    await loadProfile(data.user.id);
+                } else {
+                    setUser(null);
+                }
+            } else {
+                setUser(null);
+            }
+        } catch (error) {
+            console.error('Session check failed', error);
+            setUser(null);
+        } finally {
+            setIsLoading(false);
+        }
+    };
+
+    const loadProfile = async (userId: number) => {
+        try {
+            const res = await fetch(`/api/profile?user_id=${userId}`); // Note: API expects user_id, make sure profile API supports int ID now
+            // Checking profile API: it expects user_id param. But I changed DB to int. 
+            // I need to update API to handle int IDs or just pass string representation.
+
+            if (res.ok) {
+                const data = await res.json();
+                setSettings({
+                    weight: data.weight || defaultSettings.weight,
+                    height: data.height || defaultSettings.height,
+                    age: data.age || defaultSettings.age,
+                    gender: data.gender || defaultSettings.gender,
+                    activityLevel: data.activityLevel || defaultSettings.activityLevel,
+                    goal: data.goal || defaultSettings.goal,
+                    dailyCalorieTarget: data.dailyCalorieTarget || defaultSettings.dailyCalorieTarget,
+                    proteinTarget: data.proteinTarget || defaultSettings.proteinTarget,
+                    carbsTarget: data.carbsTarget || defaultSettings.carbsTarget,
+                    fatTarget: data.fatTarget || defaultSettings.fatTarget,
+                });
+            }
+        } catch (error) {
+            console.error('Failed to load profile', error);
+        }
+    };
+
+    const login = async (email: string, pass: string) => {
+        const res = await fetch('/api/auth/login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email, password: pass }),
+        });
+
+        const data = await res.json();
+
+        if (!res.ok) {
+            throw new Error(data.error || 'Login failed');
+        }
+
+        setUser(data.user);
+        await loadProfile(data.user.id);
+    };
+
+    const logout = async () => {
+        await fetch('/api/auth/logout', { method: 'POST' });
+        setUser(null);
+        setSettings(defaultSettings);
+        window.location.href = '/login';
+    };
+
+    const updateSettings = async (newSettings: Partial<UserSettings>) => {
+        if (!user) return;
+
+        setIsSaving(true);
+        const updated = { ...settings, ...newSettings };
+        setSettings(updated);
+
+        try {
+            await fetch('/api/profile', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    user_id: user.id, // Using the new int ID
+                    ...updated,
+                }),
+            });
+        } catch (error) {
+            console.error('Failed to save settings:', error);
+        } finally {
+            setIsSaving(false);
+        }
+    };
+
+    // Derived theme based on gender
+    const theme = settings.gender === 'female' ? themes.female : themes.male;
+
+    // Apply theme CSS variables
+    useEffect(() => {
+        document.documentElement.style.setProperty('--accent-primary', theme.primary);
+        document.documentElement.style.setProperty('--accent-secondary', theme.secondary);
+        document.documentElement.style.setProperty('--accent-gradient', theme.gradient);
+        document.documentElement.style.setProperty('--accent-glow', theme.glow);
+    }, [theme]);
+
+    return (
+        <UserContext.Provider value={{ user, settings, isLoading, isSaving, login, logout, updateSettings, theme }}>
+            {children}
+        </UserContext.Provider>
+    );
+}
+
+export function useUser() {
+    const context = useContext(UserContext);
+    if (!context) {
+        throw new Error('useUser must be used within UserProvider');
+    }
+    return context;
+}

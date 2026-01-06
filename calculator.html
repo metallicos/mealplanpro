@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Calculator | Meal Planner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="sidebar-logo">
+                <div class="sidebar-logo-icon">🍽️</div>
+                <span class="sidebar-logo-text">MealPlan Pro</span>
+            </div>
+
+            <div class="sidebar-nav">
+                <a href="index.html" class="nav-item">
+                    <span class="nav-item-icon">📊</span>
+                    <span>Dashboard</span>
+                </a>
+                <a href="macros.html" class="nav-item">
+                    <span class="nav-item-icon">🍽️</span>
+                    <span>Track Macros</span>
+                </a>
+                <a href="calculator.html" class="nav-item active">
+                    <span class="nav-item-icon">🔢</span>
+                    <span>Calorie Calculator</span>
+                </a>
+                <a href="statistics.html" class="nav-item">
+                    <span class="nav-item-icon">📈</span>
+                    <span>Statistics</span>
+                </a>
+                <a href="groceries.html" class="nav-item">
+                    <span class="nav-item-icon">🛒</span>
+                    <span>Grocery List</span>
+                </a>
+            </div>
+
+            <div class="user-selector">
+                <p class="form-label" style="margin-bottom: 0.5rem;">Switch User</p>
+                <div class="user-toggle">
+                    <button class="user-btn active" data-user-id="1">You</button>
+                    <button class="user-btn" data-user-id="2">Wife</button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="page-header">
+                <h1 class="page-title">Calorie Calculator 🔢</h1>
+                <p class="page-subtitle">Calculate your daily calorie needs and optimal macros for fat loss.</p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 2rem;">
+                <!-- Calculator Form -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Your Stats</h3>
+                    </div>
+
+                    <form id="calculator-form">
+                        <div class="form-group">
+                            <label class="form-label">Gender</label>
+                            <div class="user-toggle">
+                                <button type="button" class="user-btn active" data-gender="male">Male</button>
+                                <button type="button" class="user-btn" data-gender="female">Female</button>
+                            </div>
+                            <input type="hidden" id="gender" value="male">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label" for="weight">Weight (kg)</label>
+                                <input type="number" id="weight" class="form-control" placeholder="e.g., 85" value="115"
+                                    min="40" max="250">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="height">Height (cm)</label>
+                                <input type="number" id="height" class="form-control" placeholder="e.g., 175"
+                                    value="175" min="120" max="250">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="age">Age</label>
+                            <input type="number" id="age" class="form-control" placeholder="e.g., 35" value="35"
+                                min="18" max="100">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="activity">Activity Level</label>
+                            <select id="activity" class="form-control">
+                                <option value="sedentary">Sedentary (desk job, little exercise)</option>
+                                <option value="light">Light (light exercise 1-3x/week)</option>
+                                <option value="moderate">Moderate (moderate exercise 3-5x/week)</option>
+                                <option value="active">Active (hard exercise 6-7x/week)</option>
+                                <option value="very_active">Very Active (athlete, physical job)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="goal">Goal</label>
+                            <select id="goal" class="form-control">
+                                <option value="aggressive_loss">Aggressive Fat Loss (-25%)</option>
+                                <option value="fat_loss" selected>Moderate Fat Loss (-20%)</option>
+                                <option value="slow_loss">Slow Fat Loss (-15%)</option>
+                                <option value="maintain">Maintain Weight</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+                            Calculate My Needs
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Results -->
+                <div class="card" id="results-card" style="display: none;">
+                    <div class="card-header">
+                        <h3 class="card-title">Your Results</h3>
+                        <button class="btn btn-sm btn-secondary" id="save-targets">Save as Targets</button>
+                    </div>
+
+                    <div class="stats-grid" style="grid-template-columns: repeat(2, 1fr);">
+                        <div class="stat-card" style="text-align: center;">
+                            <div class="stat-card-label">Maintenance Calories</div>
+                            <div class="stat-card-value" id="tdee">--</div>
+                            <div class="stat-card-label">kcal/day</div>
+                        </div>
+                        <div class="stat-card" style="text-align: center; border: 2px solid var(--accent-primary);">
+                            <div class="stat-card-label">Target Calories</div>
+                            <div class="stat-card-value" id="target-calories" style="color: var(--accent-primary);">--
+                            </div>
+                            <div class="stat-card-label">kcal/day for fat loss</div>
+                        </div>
+                    </div>
+
+                    <h4 style="margin: 1.5rem 0 1rem;">Recommended Macros</h4>
+                    <div class="stats-grid" style="grid-template-columns: repeat(3, 1fr);">
+                        <div class="stat-card">
+                            <div class="stat-card-icon protein">💪</div>
+                            <div class="stat-card-value" id="macro-protein">--</div>
+                            <div class="stat-card-label">Protein (g)</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-card-icon carbs">🍚</div>
+                            <div class="stat-card-value" id="macro-carbs">--</div>
+                            <div class="stat-card-label">Carbs (g)</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-card-icon fat">🥑</div>
+                            <div class="stat-card-value" id="macro-fat">--</div>
+                            <div class="stat-card-label">Fat (g)</div>
+                        </div>
+                    </div>
+
+                    <div
+                        style="background: var(--bg-secondary); border-radius: var(--radius-md); padding: 1rem; margin-top: 1.5rem;">
+                        <h4 style="margin-bottom: 0.5rem;">💡 Tips for Success</h4>
+                        <ul style="color: var(--text-secondary); font-size: 0.9rem; margin: 0; padding-left: 1.2rem;">
+                            <li>Prioritize protein at every meal to preserve muscle mass</li>
+                            <li>Train 30-60 min before breaking your fast for optimal fat burning</li>
+                            <li>Drink 2.5-3L of water daily and add salt to your meal</li>
+                            <li>Get 7+ hours of sleep for recovery and hormone balance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comparison Table -->
+            <div class="card" style="margin-top: 2rem;">
+                <div class="card-header">
+                    <h3 class="card-title">Side-by-Side Comparison</h3>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Metric</th>
+                            <th class="text-right">You (Male)</th>
+                            <th class="text-right">Wife (Female)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="comparison-table">
+                        <tr>
+                            <td>Current Weight</td>
+                            <td class="text-right">115 kg</td>
+                            <td class="text-right">98 kg</td>
+                        </tr>
+                        <tr>
+                            <td>Activity Level</td>
+                            <td class="text-right">Sedentary (desk job)</td>
+                            <td class="text-right">Active (physiotherapist)</td>
+                        </tr>
+                        <tr>
+                            <td>Target Calories</td>
+                            <td class="text-right" style="color: var(--accent-primary); font-weight: 600;">1,750 kcal
+                            </td>
+                            <td class="text-right" style="color: var(--accent-primary); font-weight: 600;">1,450 kcal
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Protein Target</td>
+                            <td class="text-right">150-170g</td>
+                            <td class="text-right">110-130g</td>
+                        </tr>
+                        <tr>
+                            <td>Carbs Target</td>
+                            <td class="text-right">~150g</td>
+                            <td class="text-right">~130g</td>
+                        </tr>
+                        <tr>
+                            <td>Fat Target</td>
+                            <td class="text-right">~60g</td>
+                            <td class="text-right">~50g</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        // Gender toggle
+        document.querySelectorAll('[data-gender]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('[data-gender]').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                document.getElementById('gender').value = btn.dataset.gender;
+            });
+        });
+
+        // Calculator form
+        document.getElementById('calculator-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const weight = parseFloat(document.getElementById('weight').value);
+            const height = parseInt(document.getElementById('height').value);
+            const age = parseInt(document.getElementById('age').value);
+            const gender = document.getElementById('gender').value;
+            const activity = document.getElementById('activity').value;
+            const goal = document.getElementById('goal').value;
+
+            // Calculate TDEE
+            const tdee = calculateTDEE(weight, height, age, gender, activity);
+
+            // Apply deficit based on goal
+            const deficits = {
+                aggressive_loss: 0.75,
+                fat_loss: 0.80,
+                slow_loss: 0.85,
+                maintain: 1.0
+            };
+            const targetCalories = Math.round(tdee * (deficits[goal] || 0.80));
+
+            // Calculate macros
+            const macros = calculateMacros(targetCalories, goal);
+
+            // Update UI
+            document.getElementById('tdee').textContent = tdee.toLocaleString();
+            document.getElementById('target-calories').textContent = targetCalories.toLocaleString();
+            document.getElementById('macro-protein').textContent = macros.protein;
+            document.getElementById('macro-carbs').textContent = macros.carbs;
+            document.getElementById('macro-fat').textContent = macros.fat;
+
+            document.getElementById('results-card').style.display = 'block';
+            document.getElementById('results-card').scrollIntoView({ behavior: 'smooth' });
+
+            // Store for saving
+            window.calculatedTargets = {
+                daily_calorie_target: targetCalories,
+                protein_target: macros.protein,
+                carbs_target: macros.carbs,
+                fat_target: macros.fat,
+                weight_kg: weight
+            };
+        });
+
+        // Save targets button
+        document.getElementById('save-targets').addEventListener('click', async () => {
+            if (!window.calculatedTargets) return;
+
+            try {
+                await updateUser(currentUserId, window.calculatedTargets);
+                showNotification('Targets saved successfully!', 'success');
+            } catch (error) {
+                showNotification('Failed to save targets', 'error');
+            }
+        });
+    </script>
+</body>
+
+</html>

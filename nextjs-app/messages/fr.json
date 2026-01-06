@@ -1,0 +1,105 @@
+{
+    "common": {
+        "appName": "MealPlan Pro",
+        "loading": "Chargement...",
+        "save": "Enregistrer",
+        "cancel": "Annuler",
+        "delete": "Supprimer",
+        "edit": "Modifier",
+        "create": "Créer",
+        "signOut": "Déconnexion"
+    },
+    "nav": {
+        "dashboard": "Tableau de bord",
+        "trackMacros": "Suivi des Macros",
+        "calculator": "Calculateur de Calories",
+        "mealLibrary": "Bibliothèque de Repas",
+        "statistics": "Statistiques",
+        "groceryList": "Liste de Courses",
+        "adminPanel": "Panneau Admin"
+    },
+    "auth": {
+        "signIn": "Connexion",
+        "signInToAccount": "Connectez-vous à votre compte",
+        "email": "E-mail",
+        "password": "Mot de passe",
+        "loginFailed": "Échec de connexion",
+        "demoAccounts": "Comptes Démo"
+    },
+    "dashboard": {
+        "welcomeBack": "Bon retour, {name} !",
+        "trackMacrosDesc": "Suivez vos macros, atteignez vos objectifs et réussissez votre perte de graisse.",
+        "caloriesToday": "Calories Aujourd'hui",
+        "protein": "Protéines",
+        "carbs": "Glucides",
+        "fat": "Lipides",
+        "target": "Objectif",
+        "quickActions": "Actions Rapides",
+        "logFood": "Ajouter un Repas",
+        "calculateCalories": "Calculer les Calories",
+        "viewProgress": "Voir le Progrès",
+        "browseMeals": "Parcourir les Repas",
+        "mealIdeas": "Idées de Repas pour Vous",
+        "mealIdeasDesc": "Variété internationale - options savoureuses, riches en protéines et économiques.",
+        "viewAll": "Voir Tout",
+        "gingerShot": "Shot Énergétique au Gingembre",
+        "gingerShotDesc": "Boostez votre métabolisme et énergie avant de rompre le jeûne",
+        "tip": "Astuce"
+    },
+    "family": {
+        "myFamily": "Mes Membres de Famille",
+        "manageHousehold": "Gérer les comptes de votre foyer",
+        "addMember": "Ajouter un Membre",
+        "fullName": "Nom Complet",
+        "master": "Chef de famille"
+    },
+    "admin": {
+        "title": "Administration Système",
+        "subtitle": "Gérer les comptes principaux et les foyers",
+        "createMasterAccount": "Créer un Compte Principal",
+        "householdName": "Nom du Foyer",
+        "masterFullName": "Nom Complet du Chef de Famille",
+        "members": "Membres",
+        "created": "Créé",
+        "noHouseholds": "Aucun foyer trouvé. Créez-en un pour commencer."
+    },
+    "calculator": {
+        "title": "Calculateur de Calories",
+        "subtitle": "Calculez vos besoins caloriques quotidiens et enregistrez dans votre profil.",
+        "settingsFor": "Paramètres pour {name}",
+        "gender": "Sexe",
+        "male": "Homme",
+        "female": "Femme",
+        "weight": "Poids (kg)",
+        "height": "Taille (cm)",
+        "age": "Âge",
+        "activityLevel": "Niveau d'Activité",
+        "goal": "Objectif",
+        "calculateNeeds": "Calculer Mes Besoins",
+        "yourResults": "Vos Résultats",
+        "maintenance": "Maintien (TDEE)",
+        "targetCalories": "Calories Cibles",
+        "recommendedMacros": "Macros Recommandés",
+        "saveTargets": "Enregistrer comme Objectifs",
+        "savedToProfile": "Enregistré dans le Profil",
+        "weeklyWeightProgress": "Progrès Hebdomadaire du Poids",
+        "thisWeekWeight": "Poids de cette Semaine (kg)",
+        "notes": "Notes (optionnel)",
+        "logWeight": "Enregistrer le Poids"
+    },
+    "groceries": {
+        "title": "Liste de Courses",
+        "budget": "Budget",
+        "spent": "Dépensé",
+        "remaining": "Restant",
+        "addItem": "Ajouter un Article",
+        "search": "Rechercher des articles...",
+        "allCategories": "Toutes les Catégories",
+        "purchased": "Acheté",
+        "outOfStock": "Rupture de Stock"
+    },
+    "languages": {
+        "en": "English",
+        "fr": "Français"
+    }
+}

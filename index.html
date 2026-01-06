@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Planner | Your Fat Loss Journey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="sidebar-logo">
+                <div class="sidebar-logo-icon">🍽️</div>
+                <span class="sidebar-logo-text">MealPlan Pro</span>
+            </div>
+
+            <div class="sidebar-nav">
+                <a href="index.html" class="nav-item active">
+                    <span class="nav-item-icon">📊</span>
+                    <span>Dashboard</span>
+                </a>
+                <a href="macros.html" class="nav-item">
+                    <span class="nav-item-icon">🍽️</span>
+                    <span>Track Macros</span>
+                </a>
+                <a href="calculator.html" class="nav-item">
+                    <span class="nav-item-icon">🔢</span>
+                    <span>Calorie Calculator</span>
+                </a>
+                <a href="statistics.html" class="nav-item">
+                    <span class="nav-item-icon">📈</span>
+                    <span>Statistics</span>
+                </a>
+                <a href="groceries.html" class="nav-item">
+                    <span class="nav-item-icon">🛒</span>
+                    <span>Grocery List</span>
+                </a>
+
+                <div class="nav-section-title">Meal Ideas</div>
+                <a href="#meals-grid" class="nav-item">
+                    <span class="nav-item-icon">🍗</span>
+                    <span>Browse Meals</span>
+                </a>
+            </div>
+
+            <div class="user-selector">
+                <p class="form-label" style="margin-bottom: 0.5rem;">Switch User</p>
+                <div class="user-toggle">
+                    <button class="user-btn active" data-user-id="1">You</button>
+                    <button class="user-btn" data-user-id="2">Wife</button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="page-header">
+                <h1 class="page-title">Welcome back! 👋</h1>
+                <p class="page-subtitle">Track your macros, hit your goals, and crush your fat loss journey.</p>
+            </div>
+
+            <!-- Today's Stats -->
+            <div class="stats-grid" id="stats-grid">
+                <!-- Stats will be loaded dynamically -->
+                <div class="stat-card animate-fade-in">
+                    <div class="stat-card-header">
+                        <div class="stat-card-icon calories">🔥</div>
+                    </div>
+                    <div class="stat-card-value">--</div>
+                    <div class="stat-card-label">Calories Today</div>
+                </div>
+                <div class="stat-card animate-fade-in">
+                    <div class="stat-card-header">
+                        <div class="stat-card-icon protein">💪</div>
+                    </div>
+                    <div class="stat-card-value">--</div>
+                    <div class="stat-card-label">Protein (g)</div>
+                </div>
+                <div class="stat-card animate-fade-in">
+                    <div class="stat-card-header">
+                        <div class="stat-card-icon carbs">🍚</div>
+                    </div>
+                    <div class="stat-card-value">--</div>
+                    <div class="stat-card-label">Carbs (g)</div>
+                </div>
+                <div class="stat-card animate-fade-in">
+                    <div class="stat-card-header">
+                        <div class="stat-card-icon fat">🥑</div>
+                    </div>
+                    <div class="stat-card-value">--</div>
+                    <div class="stat-card-label">Fat (g)</div>
+                </div>
+            </div>
+
+            <!-- Quick Actions -->
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Quick Actions</h3>
+                </div>
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <a href="macros.html" class="btn btn-primary">
+                        <span>➕</span> Log Food
+                    </a>
+                    <a href="calculator.html" class="btn btn-secondary">
+                        <span>🔢</span> Calculate Calories
+                    </a>
+                    <a href="statistics.html" class="btn btn-secondary">
+                        <span>📊</span> View Progress
+                    </a>
+                    <button class="btn btn-secondary" onclick="window.print()">
+                        <span>🖨️</span> Print Plan
+                    </button>
+                </div>
+            </div>
+
+            <!-- Weekly Calorie Chart -->
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">This Week's Progress</h3>
+                    <span class="badge badge-primary" id="week-avg">Avg: -- kcal</span>
+                </div>
+                <div class="chart-container">
+                    <canvas id="weeklyChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Meal Ideas Section -->
+            <section id="meals-grid">
+                <div class="card-header" style="margin-bottom: 1rem;">
+                    <h2 style="margin: 0;">Meal Ideas for You 🍽️</h2>
+                </div>
+                <p class="page-subtitle" style="margin-bottom: 1.5rem;">International variety - tasty, high-protein, and
+                    budget-friendly options.</p>
+
+                <div class="meal-grid" id="meal-list">
+                    <!-- Mediterranean -->
+                    <div class="meal-card animate-fade-in">
+                        <div class="meal-card-image" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8);">🥗
+                        </div>
+                        <div class="meal-card-content">
+                            <div class="meal-card-title">Greek Chicken Bowl</div>
+                            <div class="meal-card-meta">
+                                <span>🌍 Mediterranean</span>
+                                <span>⏱️ 25 min</span>
+                            </div>
+                            <div class="meal-card-macros">
+                                <div class="macro-item">
+                                    <div class="macro-value">450</div>
+                                    <div class="macro-label">kcal</div>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-value">42g</div>
+                                    <div class="macro-label">Protein</div>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-value">28g</div>
+                                    <div class="macro-label">Carbs</div>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-value">18g</div>
+                                    <div class="macro-label">Fat</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Asian -->
+                    <div class="meal-card animate-fade-in">
+                        <div class="meal-card-image" style="background: linear-gradient(135deg, #f59e0b, #d97706);">🍜
+                        </div>
+                        <div class="meal-card-content">
+                            <div class="meal-card-title">Beef Teriyaki Bowl</div>
+                            <div class="meal-card-meta">
+                                <span>🌏 Asian</span>
+                                <span>⏱️ 30 min</span>
+                            </div>
+                            <div class="meal-card-macros">
+                                <div class="macro-item">
+                                    <div class="macro-value">520</div>
+                                    <div class="macro-label">kcal</div>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-value">38g</div>
+                                    <div class="macro-label">Protein</div>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-value">45g</div>
+                                    <div class="macro-label">Carbs</div>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-value">20g</div>
+                                    <div class="macro-label">Fat</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mexican -->
+                    <div class="meal-card animate-fade-in">
+                        <div class="meal-card-image" style="background: linear-gradient(135deg, #22c55e, #16a34a);">🌮
+                        </div>
+                        <div class="meal-card-content">
+                            <div class="meal-card-title">Chicken Fajita Bowl</div>
+                            <div class="meal-card-meta">
+                                <span>🌎 Mexican</span>
+                                <span>⏱️ 20 min</span>
+                            </div>
+                            <div class="meal-card-macros">
+                                <div class="macro-item">
+                                    <div class="macro-value">480</div>
+                                    <div class="macro-label">kcal</div>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-value">45g</div>
+                                    <div class="macro-label">Protein</div>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-value">35g</div>
+                                    <div class="macro-label">Carbs</div>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-value">16g</div>
+                                    <div class="macro-label">Fat</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Italian -->
+                    <div class="meal-card animate-fade-in">
+                        <div class="meal-card-image" style="background: linear-gradient(135deg, #ef4444, #dc2626);">🍝
+                        </div>
+                        <div class="meal-card-content">
+                            <div class="meal-card-title">Chicken Pasta Marinara</div>
+                            <div class="meal-card-meta">
+                                <span>🇮🇹 Italian</span>
+                                <span>⏱️ 25 min</span>
+                            </div>
+                            <div class="meal-card-macros">
+                                <div class="macro-item">
+                                    <div class="macro-value">550</div>
+                                    <div class="macro-label">kcal</div>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-value">40g</div>
+                                    <div class="macro-label">Protein</div>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-value">52g</div>
+                                    <div class="macro-label">Carbs</div>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-value">18g</div>
+                                    <div class="macro-label">Fat</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Middle Eastern -->
+                    <div class="meal-card animate-fade-in">
+                        <div class="meal-card-image" style="background: linear-gradient(135deg, #a855f7, #7c3aed);">🥙
+                        </div>
+                        <div class="meal-card-content">
+                            <div class="meal-card-title">Chicken Shawarma Bowl</div>
+                            <div class="meal-card-meta">
+                                <span>🌍 Middle Eastern</span>
+                                <span>⏱️ 35 min</span>
+                            </div>
+                            <div class="meal-card-macros">
+                                <div class="macro-item">
+                                    <div class="macro-value">490</div>
+                                    <div class="macro-label">kcal</div>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-value">44g</div>
+                                    <div class="macro-label">Protein</div>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-value">32g</div>
+                                    <div class="macro-label">Carbs</div>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-value">19g</div>
+                                    <div class="macro-label">Fat</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Simple -->
+                    <div class="meal-card animate-fade-in">
+                        <div class="meal-card-image" style="background: linear-gradient(135deg, #6366f1, #4f46e5);">🍳
+                        </div>
+                        <div class="meal-card-content">
+                            <div class="meal-card-title">Steak & Eggs Power Plate</div>
+                            <div class="meal-card-meta">
+                                <span>🏋️ High Protein</span>
+                                <span>⏱️ 15 min</span>
+                            </div>
+                            <div class="meal-card-macros">
+                                <div class="macro-item">
+                                    <div class="macro-value">580</div>
+                                    <div class="macro-label">kcal</div>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-value">52g</div>
+                                    <div class="macro-label">Protein</div>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-value">8g</div>
+                                    <div class="macro-label">Carbs</div>
+                                </div>
+                                <div class="macro-item">
+                                    <div class="macro-value">38g</div>
+                                    <div class="macro-label">Fat</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Snack Ideas -->
+            <section style="margin-top: 2rem;">
+                <h2 style="margin-bottom: 1rem;">Quick Snack Ideas 🍎</h2>
+                <div class="card">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Snack</th>
+                                <th>Portion</th>
+                                <th class="text-right">Calories</th>
+                                <th class="text-right">Protein</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Greek Yogurt + Honey</td>
+                                <td>150g + 10g</td>
+                                <td class="text-right">120 kcal</td>
+                                <td class="text-right">15g</td>
+                            </tr>
+                            <tr>
+                                <td>Almonds</td>
+                                <td>30g (handful)</td>
+                                <td class="text-right">174 kcal</td>
+                                <td class="text-right">6g</td>
+                            </tr>
+                            <tr>
+                                <td>Cottage Cheese + Fruit</td>
+                                <td>100g + 50g berries</td>
+                                <td class="text-right">130 kcal</td>
+                                <td class="text-right">13g</td>
+                            </tr>
+                            <tr>
+                                <td>Boiled Eggs</td>
+                                <td>2 eggs</td>
+                                <td class="text-right">140 kcal</td>
+                                <td class="text-right">12g</td>
+                            </tr>
+                            <tr>
+                                <td>Apple + Peanut Butter</td>
+                                <td>1 apple + 20g PB</td>
+                                <td class="text-right">170 kcal</td>
+                                <td class="text-right">5g</td>
+                            </tr>
+                            <tr>
+                                <td>Hummus + Veggies</td>
+                                <td>50g + 100g veggies</td>
+                                <td class="text-right">110 kcal</td>
+                                <td class="text-right">5g</td>
+                            </tr>
+                            <tr>
+                                <td>Cheese + Apple Slices</td>
+                                <td>30g cheese + ½ apple</td>
+                                <td class="text-right">150 kcal</td>
+                                <td class="text-right">8g</td>
+                            </tr>
+                            <tr>
+                                <td>Trail Mix</td>
+                                <td>30g</td>
+                                <td class="text-right">140 kcal</td>
+                                <td class="text-right">4g</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Ginger Shot Recipe -->
+            <section style="margin-top: 2rem;">
+                <div class="card"
+                    style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(234, 88, 12, 0.1)); border-color: rgba(245, 158, 11, 0.3);">
+                    <h3 style="margin-bottom: 0.5rem;">🍋 Daily Ginger Energy Shot</h3>
+                    <p class="page-subtitle" style="margin-bottom: 1rem;">Boost metabolism and energy before breaking
+                        your fast</p>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem;">
+                        <div>
+                            <strong>Fresh ginger:</strong> 20g
+                        </div>
+                        <div>
+                            <strong>Lemon juice:</strong> 10ml
+                        </div>
+                        <div>
+                            <strong>Water:</strong> 20ml
+                        </div>
+                        <div>
+                            <strong>Honey (opt):</strong> 3g
+                        </div>
+                    </div>
+                    <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-secondary);">
+                        <strong>Tip:</strong> Make 7 shots, freeze in ice cube tray. Thaw one daily!
+                    </p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        // Load dashboard data
+        async function loadDashboard() {
+            try {
+                // Get today's log
+                const log = await getDailyLog();
+
+                // Get user targets
+                const usersResult = await api('users.php?id=' + currentUserId);
+                const user = usersResult.data;
+
+                // Update stats cards
+                const statsGrid = document.getElementById('stats-grid');
+                if (log) {
+                    statsGrid.innerHTML = `
+                        ${createStatCard('🔥', log.total_calories || 0, 'Calories Today', user.daily_calorie_target, 'calories')}
+                        ${createStatCard('💪', log.total_protein || 0, 'Protein (g)', user.protein_target, 'protein')}
+                        ${createStatCard('🍚', log.total_carbs || 0, 'Carbs (g)', user.carbs_target, 'carbs')}
+                        ${createStatCard('🥑', log.total_fat || 0, 'Fat (g)', user.fat_target, 'fat')}
+                    `;
+                }
+
+                // Load weekly chart
+                const stats = await getStatistics('week');
+                if (stats.success && stats.data.chart) {
+                    renderCaloriesChart('weeklyChart', stats.data.chart);
+                    document.getElementById('week-avg').textContent = `Avg: ${stats.data.averages.calories} kcal`;
+                }
+            } catch (error) {
+                console.error('Dashboard load error:', error);
+            }
+        }
+
+        // Refresh when user changes
+        async function refreshDailyLog() {
+            await loadDashboard();
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', loadDashboard);
+    </script>
+</body>
+
+</html>

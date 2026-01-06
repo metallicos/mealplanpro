@@ -1,0 +1,105 @@
+{
+  "common": {
+    "appName": "MealPlan Pro",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "signOut": "Sign Out"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "trackMacros": "Track Macros",
+    "calculator": "Calorie Calculator",
+    "mealLibrary": "Meal Library",
+    "statistics": "Statistics",
+    "groceryList": "Grocery List",
+    "adminPanel": "Admin Panel"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signInToAccount": "Sign in to your account",
+    "email": "Email",
+    "password": "Password",
+    "loginFailed": "Login failed",
+    "demoAccounts": "Demo Accounts"
+  },
+  "dashboard": {
+    "welcomeBack": "Welcome back, {name}!",
+    "trackMacrosDesc": "Track your macros, hit your goals, and crush your fat loss journey.",
+    "caloriesToday": "Calories Today",
+    "protein": "Protein",
+    "carbs": "Carbs",
+    "fat": "Fat",
+    "target": "Target",
+    "quickActions": "Quick Actions",
+    "logFood": "Log Food",
+    "calculateCalories": "Calculate Calories",
+    "viewProgress": "View Progress",
+    "browseMeals": "Browse Meals",
+    "mealIdeas": "Meal Ideas for You",
+    "mealIdeasDesc": "International variety - tasty, high-protein, and budget-friendly options.",
+    "viewAll": "View All",
+    "gingerShot": "Daily Ginger Energy Shot",
+    "gingerShotDesc": "Boost metabolism and energy before breaking your fast",
+    "tip": "Tip"
+  },
+  "family": {
+    "myFamily": "My Family Members",
+    "manageHousehold": "Manage your household accounts",
+    "addMember": "Add Member",
+    "fullName": "Full Name",
+    "master": "Master"
+  },
+  "admin": {
+    "title": "System Administration",
+    "subtitle": "Manage master accounts and households",
+    "createMasterAccount": "Create Master Account",
+    "householdName": "Household Name",
+    "masterFullName": "Master Full Name",
+    "members": "Members",
+    "created": "Created",
+    "noHouseholds": "No households found. Create one to get started."
+  },
+  "calculator": {
+    "title": "Calorie Calculator",
+    "subtitle": "Calculate your daily calorie needs and save to your profile.",
+    "settingsFor": "Settings for {name}",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "weight": "Weight (kg)",
+    "height": "Height (cm)",
+    "age": "Age",
+    "activityLevel": "Activity Level",
+    "goal": "Goal",
+    "calculateNeeds": "Calculate My Needs",
+    "yourResults": "Your Results",
+    "maintenance": "Maintenance (TDEE)",
+    "targetCalories": "Target Calories",
+    "recommendedMacros": "Recommended Macros",
+    "saveTargets": "Save as My Targets",
+    "savedToProfile": "Saved to Profile",
+    "weeklyWeightProgress": "Weekly Weight Progress",
+    "thisWeekWeight": "This Week's Weight (kg)",
+    "notes": "Notes (optional)",
+    "logWeight": "Log Weight"
+  },
+  "groceries": {
+    "title": "Grocery List",
+    "budget": "Budget",
+    "spent": "Spent",
+    "remaining": "Remaining",
+    "addItem": "Add Item",
+    "search": "Search items...",
+    "allCategories": "All Categories",
+    "purchased": "Purchased",
+    "outOfStock": "Out of Stock"
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français"
+  }
+}
