@@ -29,18 +29,23 @@ export default function MealsPage() {
             fetch('/api/groceries')
                 .then(res => res.json())
                 .then(data => {
-                    // Extract all item names from all budgets
+                    // API returns { "2026-01": { month, initial_budget, items }, ... }
                     const items: GroceryItem[] = [];
-                    data.budgets?.forEach((budget: { items: GroceryItem[] }) => {
-                        budget.items?.forEach((item: GroceryItem) => {
+                    // Iterate over months (keys of the returned object)
+                    Object.values(data).forEach((budget: unknown) => {
+                        const b = budget as { items?: GroceryItem[] };
+                        b.items?.forEach((item: GroceryItem) => {
                             if (!items.find(i => i.name.toLowerCase() === item.name.toLowerCase())) {
                                 items.push(item);
                             }
                         });
                     });
                     setGroceryItems(items);
+                    console.log('Loaded grocery items for filter:', items.length);
                 })
-                .catch(console.error)
+                .catch(err => {
+                    console.error('Failed to load grocery items:', err);
+                })
                 .finally(() => setLoadingGroceries(false));
         }
     }, [filterByGroceries, groceryItems.length]);

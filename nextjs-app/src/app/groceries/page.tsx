@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useUser } from '@/contexts/UserContext';
 import { groceryItemTemplates, categoryIcons, categoryNames, searchGroceryItems } from '@/lib/grocery-items';
 import type { GroceryItemTemplate } from '@/lib/grocery-items';
@@ -1210,8 +1210,8 @@ export default function GroceriesPage() {
                     </thead>
                     <tbody>
                         {Object.entries(groupedItems).map(([category, categoryItems]) => (
-                            <>
-                                <tr key={`cat-${category}`} className="category-row">
+                            <React.Fragment key={category}>
+                                <tr className="category-row">
                                     <td colSpan={6}>{categoryNames[category] || category} ({categoryItems.length})</td>
                                 </tr>
                                 {categoryItems.map((item) => (
@@ -1226,7 +1226,7 @@ export default function GroceriesPage() {
                                             <strong>{item.name}</strong>
                                         </td>
                                         <td>{item.quantity} {item.default_unit}</td>
-                                        <td>{(item.estimated_price_per_unit * item.quantity).toFixed(0)} MAD</td>
+                                        <td>{(Number(item.estimated_price_per_unit) * Number(item.quantity)).toFixed(0)} MAD</td>
                                         <td>
                                             {item.is_out_of_stock && <span className="status-badge status-oos">EPUISE</span>}
                                             {item.buy_next_month && <span className="status-badge status-next">NEXT</span>}
@@ -1235,7 +1235,7 @@ export default function GroceriesPage() {
                                         <td style={{ fontSize: '9pt', fontStyle: 'italic' }}>{item.comment || '-'}</td>
                                     </tr>
                                 ))}
-                            </>
+                            </React.Fragment>
                         ))}
                     </tbody>
                 </table>
