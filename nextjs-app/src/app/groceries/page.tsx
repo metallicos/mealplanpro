@@ -351,11 +351,11 @@ export default function GroceriesPage() {
                         <td style="text-align:center">${item.is_purchased ? '[X]' : '[ ]'}</td>
                         <td><strong>${item.name}</strong></td>
                         <td>${item.quantity} ${item.default_unit}</td>
-                        <td>${(item.estimated_price_per_unit * item.quantity).toFixed(0)} MAD</td>
+                        <td>${(Number(item.estimated_price_per_unit) * Number(item.quantity)).toFixed(0)} MAD</td>
                         <td>
                             ${item.is_out_of_stock ? '<span class="badge badge-oos">EPUISE</span>' : ''}
                             ${item.buy_next_month ? '<span class="badge badge-next">NEXT</span>' : ''}
-                            ${item.actual_price !== null ? `Paid: ${item.actual_price.toFixed(0)}` : ''}
+                            ${item.actual_price !== null && item.actual_price !== undefined ? `Paid: ${Number(item.actual_price).toFixed(0)}` : ''}
                         </td>
                         <td style="font-size:9pt;font-style:italic">${item.comment || '-'}</td>
                     </tr>
