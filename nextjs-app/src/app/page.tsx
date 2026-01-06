@@ -117,15 +117,15 @@ export default function Dashboard() {
 
       {/* Master User: Family Management */}
       {user.role === 'master' && (
-        <div className="card mb-8 border-violet-500/30 bg-violet-500/5">
-          <div className="flex items-center justify-between mb-4">
+        <div className="card mb-6 border-violet-500/30 bg-violet-500/5">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
             <div>
               <h3 className="text-lg font-semibold">My Family Members 👨‍👩‍👧‍👦</h3>
               <p className="text-sm text-[var(--text-secondary)]">Manage your household accounts</p>
             </div>
             <button
               onClick={() => setShowFamilyModal(true)}
-              className="btn-primary"
+              className="btn-primary w-full sm:w-auto"
             >
               + Add Member
             </button>
@@ -136,22 +136,22 @@ export default function Dashboard() {
       )}
 
       {/* Quick Actions */}
-      <div className="card mb-8">
+      <div className="card mb-6">
         <h3 className="text-lg font-semibold mb-4">Quick Actions</h3>
-        <div className="flex flex-wrap gap-3">
-          <Link href="/macros" className="btn-primary">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          <Link href="/macros" className="btn-primary text-center">
             <span>➕</span> Log Food
           </Link>
-          <Link href="/calculator" className="btn-secondary">
+          <Link href="/calculator" className="btn-secondary text-center">
             <span>🔢</span> Calculate Calories
           </Link>
-          <Link href="/statistics" className="btn-secondary">
+          <Link href="/statistics" className="btn-secondary text-center">
             <span>📊</span> View Progress
           </Link>
-          <Link href="/meals" className="btn-secondary">
+          <Link href="/meals" className="btn-secondary text-center">
             <span>📚</span> Browse Meals
           </Link>
-          <Link href="/groceries" className="btn-secondary">
+          <Link href="/groceries" className="btn-secondary text-center">
             <span>🛒</span> Grocery List
           </Link>
         </div>
@@ -267,18 +267,23 @@ function FamilyList({ refreshTrigger }: { refreshTrigger: number }) {
   if (loading) return <div className="text-sm text-gray-400">Loading family...</div>;
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+    <div className="flex gap-3 overflow-x-auto pb-2 sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:overflow-visible">
       {members.map(member => (
-        <div key={member.id} className="p-3 rounded-lg bg-[var(--bg-secondary)] flex items-center justify-between">
-          <div>
-            <div className="font-medium flex items-center gap-2">
-              {member.full_name}
-              {member.role === 'master' && <span className="text-xs bg-yellow-500/20 text-yellow-500 px-1 rounded">Master</span>}
-            </div>
-            <div className="text-xs text-[var(--text-muted)]">{member.email}</div>
-          </div>
-          <div className="text-2xl">
+        <div
+          key={member.id}
+          className="flex-shrink-0 w-40 sm:w-auto p-2 sm:p-3 rounded-lg bg-[var(--bg-secondary)] flex items-center gap-2"
+        >
+          <div className="text-xl sm:text-2xl">
             {member.role === 'master' ? '👑' : '👤'}
+          </div>
+          <div className="min-w-0 flex-1">
+            <div className="font-medium text-sm sm:text-base flex items-center gap-1 truncate">
+              {member.full_name}
+              {member.role === 'master' && (
+                <span className="text-[10px] sm:text-xs bg-yellow-500/20 text-yellow-500 px-1 rounded">Master</span>
+              )}
+            </div>
+            <div className="text-[10px] sm:text-xs text-[var(--text-muted)] truncate">{member.email}</div>
           </div>
         </div>
       ))}

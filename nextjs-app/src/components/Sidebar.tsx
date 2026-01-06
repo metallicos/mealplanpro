@@ -24,6 +24,7 @@ export default function Sidebar() {
     const tLang = useTranslations('languages');
 
     const [currentLocale, setCurrentLocale] = useState('en');
+    const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
         // Get current locale from cookie
@@ -34,6 +35,22 @@ export default function Sidebar() {
         if (localeCookie) setCurrentLocale(localeCookie);
     }, []);
 
+    // Close sidebar on route change (mobile)
+    useEffect(() => {
+        setIsOpen(false);
+    }, [pathname]);
+
+    // Close sidebar when clicking outside on mobile
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth >= 768) {
+                setIsOpen(false);
+            }
+        };
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
     const switchLanguage = async (locale: string) => {
         await fetch('/api/locale', {
             method: 'POST',
@@ -41,82 +58,115 @@ export default function Sidebar() {
             body: JSON.stringify({ locale }),
         });
         setCurrentLocale(locale);
-        router.refresh(); // Refresh to apply new language
+        router.refresh();
     };
 
     if (!user) return null;
 
     return (
-        <aside className="sidebar">
-            <div className="sidebar-logo">
-                <div className="sidebar-logo-icon">🍽️</div>
-                <span className="sidebar-logo-text">{tCommon('appName')}</span>
-            </div>
-
-            <nav className="flex-1">
-                {navItems.map((item) => (
-                    <Link
-                        key={item.href}
-                        href={item.href}
-                        className={`nav-item ${pathname === item.href ? 'active' : ''}`}
-                    >
-                        <span className="nav-item-icon">{item.icon}</span>
-                        <span>{t(item.labelKey)}</span>
-                    </Link>
-                ))}
-
-                {user.role === 'admin' && (
-                    <Link
-                        href="/admin"
-                        className={`nav-item ${pathname === '/admin' ? 'active' : ''}`}
-                    >
-                        <span className="nav-item-icon">⚙️</span>
-                        <span>{t('adminPanel')}</span>
-                    </Link>
-                )}
-            </nav>
-
-            <div className="mt-auto">
-                {/* Language Switcher */}
-                <div className="mb-3 px-2">
-                    <div className="flex gap-1 p-1 rounded-lg" style={{ background: 'rgba(255,255,255,0.05)' }}>
-                        <button
-                            onClick={() => switchLanguage('en')}
-                            className={`flex-1 py-1.5 px-2 text-xs rounded transition-all ${currentLocale === 'en'
-                                    ? 'bg-violet-600 text-white'
-                                    : 'text-gray-400 hover:text-white'
-                                }`}
-                        >
-                            🇬🇧 {tLang('en')}
-                        </button>
-                        <button
-                            onClick={() => switchLanguage('fr')}
-                            className={`flex-1 py-1.5 px-2 text-xs rounded transition-all ${currentLocale === 'fr'
-                                    ? 'bg-violet-600 text-white'
-                                    : 'text-gray-400 hover:text-white'
-                                }`}
-                        >
-                            🇫🇷 {tLang('fr')}
-                        </button>
-                    </div>
-                </div>
-
-                {/* User Info */}
-                <div className="p-4 rounded-lg mb-2" style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)' }}>
-                    <p className="text-sm font-medium text-white">{user.fullName}</p>
-                    <p className="text-xs text-gray-400 capitalize">{user.role}</p>
-                    {user.householdName && (
-                        <p className="text-xs text-gray-500 mt-1">🏠 {user.householdName}</p>
-                    )}
-                </div>
-
+        <>
+            {/* Mobile Header Bar */}
+            <div className="mobile-header">
                 <button
-                    onClick={() => logout()}
-                    className="flex items-center gap-2 w-full p-2 text-sm text-[var(--text-secondary)] hover:text-white transition-colors"
+                    onClick={() => setIsOpen(!isOpen)}
+                    className="hamburger-btn"
+                    aria-label="Toggle menu"
                 >
-                    <span>🚪</span> {tCommon('signOut')}
+                    <span className={`hamburger-line ${isOpen ? 'open' : ''}`}></span>
+                    <span className={`hamburger-line ${isOpen ? 'open' : ''}`}></span>
+                    <span className={`hamburger-line ${isOpen ? 'open' : ''}`}></span>
                 </button>
+                <div className="mobile-logo">
+                    <span>🍽️</span>
+                    <span>{tCommon('appName')}</span>
+                </div>
+                <div className="mobile-user">
+                    {user.fullName.split(' ')[0]}
+                </div>
             </div>
-        </aside>
+
+            {/* Backdrop for mobile */}
+            {isOpen && (
+                <div
+                    className="sidebar-backdrop"
+                    onClick={() => setIsOpen(false)}
+                />
+            )}
+
+            {/* Sidebar */}
+            <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
+                <div className="sidebar-logo">
+                    <div className="sidebar-logo-icon">🍽️</div>
+                    <span className="sidebar-logo-text">{tCommon('appName')}</span>
+                </div>
+
+                <nav className="flex-1">
+                    {navItems.map((item) => (
+                        <Link
+                            key={item.href}
+                            href={item.href}
+                            className={`nav-item ${pathname === item.href ? 'active' : ''}`}
+                            onClick={() => setIsOpen(false)}
+                        >
+                            <span className="nav-item-icon">{item.icon}</span>
+                            <span>{t(item.labelKey)}</span>
+                        </Link>
+                    ))}
+
+                    {user.role === 'admin' && (
+                        <Link
+                            href="/admin"
+                            className={`nav-item ${pathname === '/admin' ? 'active' : ''}`}
+                            onClick={() => setIsOpen(false)}
+                        >
+                            <span className="nav-item-icon">⚙️</span>
+                            <span>{t('adminPanel')}</span>
+                        </Link>
+                    )}
+                </nav>
+
+                <div className="mt-auto">
+                    {/* Language Switcher */}
+                    <div className="mb-3 px-2">
+                        <div className="flex gap-1 p-1 rounded-lg" style={{ background: 'rgba(255,255,255,0.05)' }}>
+                            <button
+                                onClick={() => switchLanguage('en')}
+                                className={`flex-1 py-1.5 px-2 text-xs rounded transition-all ${currentLocale === 'en'
+                                    ? 'bg-violet-600 text-white'
+                                    : 'text-gray-400 hover:text-white'
+                                    }`}
+                            >
+                                🇬🇧 {tLang('en')}
+                            </button>
+                            <button
+                                onClick={() => switchLanguage('fr')}
+                                className={`flex-1 py-1.5 px-2 text-xs rounded transition-all ${currentLocale === 'fr'
+                                    ? 'bg-violet-600 text-white'
+                                    : 'text-gray-400 hover:text-white'
+                                    }`}
+                            >
+                                🇫🇷 {tLang('fr')}
+                            </button>
+                        </div>
+                    </div>
+
+                    {/* User Info */}
+                    <div className="p-4 rounded-lg mb-2" style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)' }}>
+                        <p className="text-sm font-medium text-white">{user.fullName}</p>
+                        <p className="text-xs text-gray-400 capitalize">{user.role}</p>
+                        {user.householdName && (
+                            <p className="text-xs text-gray-500 mt-1">🏠 {user.householdName}</p>
+                        )}
+                    </div>
+
+                    <button
+                        onClick={() => logout()}
+                        className="flex items-center gap-2 w-full p-2 text-sm text-[var(--text-secondary)] hover:text-white transition-colors"
+                    >
+                        <span>🚪</span> {tCommon('signOut')}
+                    </button>
+                </div>
+            </aside>
+        </>
     );
 }
