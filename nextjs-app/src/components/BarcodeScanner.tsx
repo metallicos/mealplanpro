@@ -68,21 +68,25 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                     target: scannerRef.current,
                     constraints: {
                         facingMode: 'environment',
+                        width: { min: 1280, ideal: 1280 },
+                        height: { min: 720, ideal: 720 },
                         aspectRatio: { min: 1, max: 2 },
-                    },
+                        focusMode: 'continuous'
+                    } as MediaTrackConstraints, // Cast for custom constraint
                 },
                 decoder: {
-                    readers: [
-                        'ean_reader',
-                        'ean_8_reader',
-                        'upc_reader',
-                        'upc_e_reader',
-                    ],
+                    readers: ['ean_reader', 'ean_8_reader', 'upc_reader', 'upc_e_reader'],
+                    debug: {
+                        drawBoundingBox: true,
+                        showFrequency: true,
+                        drawScanline: true,
+                        showPattern: true
+                    },
                 },
                 locate: true,
                 locator: {
                     patchSize: 'medium',
-                    halfSample: true,
+                    halfSample: false,
                 },
             },
             (err) => {
@@ -92,7 +96,6 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                     return;
                 }
 
-                // Force video attributes for mobile
                 const video = scannerRef.current?.querySelector('video');
                 if (video) {
                     video.setAttribute('playsinline', 'true');
@@ -105,6 +108,28 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                 setIsScanning(true);
             }
         );
+
+        Quagga.onProcessed((result) => {
+            const drawingCtx = Quagga.canvas.ctx.overlay;
+            const drawingCanvas = Quagga.canvas.dom.overlay;
+
+            if (result && drawingCtx && drawingCanvas) {
+                if (result.boxes) {
+                    drawingCtx.clearRect(0, 0, parseInt(drawingCanvas.getAttribute("width") || '0'), parseInt(drawingCanvas.getAttribute("height") || '0'));
+                    result.boxes.filter((box) => box !== result.box).forEach((box) => {
+                        Quagga.ImageDebug.drawPath(box, { x: 0, y: 1 }, drawingCtx, { color: "green", lineWidth: 2 });
+                    });
+                }
+
+                if (result.box) {
+                    Quagga.ImageDebug.drawPath(result.box, { x: 0, y: 1 }, drawingCtx, { color: "#00F", lineWidth: 2 });
+                }
+
+                if (result.codeResult && result.codeResult.code) {
+                    Quagga.ImageDebug.drawPath(result.line, { x: 'x', y: 'y' }, drawingCtx, { color: 'red', lineWidth: 3 });
+                }
+            }
+        });
 
         Quagga.onDetected((result) => {
             const code = result.codeResult?.code;
