@@ -1,7 +1,7 @@
 'use client';
 
-import { useState, useRef, useEffect, useCallback } from 'react';
-import Quagga from '@ericblade/quagga2';
+import { useState, useEffect, useRef } from 'react';
+import { Html5Qrcode, Html5QrcodeSupportedFormats } from 'html5-qrcode';
 
 interface NutritionData {
     barcode: string;
@@ -23,244 +23,153 @@ interface BarcodeScannerProps {
 }
 
 export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScannerProps) {
-    const [isScanning, setIsScanning] = useState(false);
-    const [error, setError] = useState<string | null>(null);
-    const [lastCode, setLastCode] = useState<string | null>(null);
     const [isLoading, setIsLoading] = useState(false);
-    const scannerRef = useRef<HTMLDivElement>(null);
-    const hasInitialized = useRef(false);
-
-    const lookupBarcode = useCallback(async (barcode: string) => {
-        if (isLoading || barcode === lastCode) return;
-
-        setLastCode(barcode);
-        setIsLoading(true);
-
-        try {
-            const response = await fetch(`/api/nutrition?barcode=${barcode}`);
-            const data = await response.json();
-
-            if (data.found) {
-                // Stop scanner
-                Quagga.stop();
-                setIsScanning(false);
-                onScanResult(data.product);
-            } else {
-                setError(data.error || 'Product not found');
-                setTimeout(() => setError(null), 3000);
-            }
-        } catch (err) {
-            setError('Failed to lookup product');
-            setTimeout(() => setError(null), 3000);
-        } finally {
-            setIsLoading(false);
-        }
-    }, [isLoading, lastCode, onScanResult]);
-
-    const [debugInfo, setDebugInfo] = useState<string>('Initializing...');
-    const [torchOn, setTorchOn] = useState(false);
-
-    const toggleTorch = () => {
-        const track = Quagga.CameraAccess.getActiveTrack();
-        if (track && typeof track.getCapabilities === 'function') {
-            const capabilities = track.getCapabilities();
-            if (capabilities.torch) {
-                track.applyConstraints({ advanced: [{ torch: !torchOn }] } as any)
-                    .then(() => setTorchOn(!torchOn))
-                    .catch((e: any) => setDebugInfo('Torch error: ' + e));
-            } else {
-                setDebugInfo('Torch not supported');
-            }
-        }
-    };
-
-    const startScanner = useCallback(() => {
-        if (!scannerRef.current || hasInitialized.current) return;
-        hasInitialized.current = true;
-        setDebugInfo('Starting Quagga...');
-
-        Quagga.init(
-            {
-                inputStream: {
-                    type: 'LiveStream',
-                    target: scannerRef.current,
-                    constraints: {
-                        facingMode: 'environment',
-                        width: { min: 1280, ideal: 1280 },
-                        height: { min: 720, ideal: 720 },
-                        aspectRatio: { min: 1, max: 2 },
-                        focusMode: 'continuous'
-                    } as MediaTrackConstraints,
-                },
-                decoder: {
-                    readers: ['ean_reader', 'ean_8_reader', 'upc_reader', 'upc_e_reader'],
-                    debug: {
-                        drawBoundingBox: true,
-                        showFrequency: true,
-                        drawScanline: true,
-                        showPattern: true
-                    },
-                },
-                locate: true,
-                locator: {
-                    patchSize: 'medium',
-                    halfSample: false,
-                },
-            },
-            (err) => {
-                if (err) {
-                    console.error('Quagga init error:', err);
-                    setError('Camera access denied or not available');
-                    setDebugInfo('Init Error: ' + err);
-                    return;
-                }
-
-                const video = scannerRef.current?.querySelector('video');
-                if (video) {
-                    video.setAttribute('playsinline', 'true');
-                    video.style.width = '100%';
-                    video.style.height = '100%';
-                    video.style.objectFit = 'cover';
-                }
-
-                Quagga.start();
-                setIsScanning(true);
-                setDebugInfo('Scanner running... Point at barcode');
-            }
-        );
-
-        let frameCount = 0;
-        Quagga.onProcessed((result) => {
-            frameCount++;
-            if (frameCount % 30 === 0) {
-                setDebugInfo(`Scanning... Frames: ${frameCount}`);
-            }
-
-            const drawingCtx = Quagga.canvas.ctx.overlay;
-            const drawingCanvas = Quagga.canvas.dom.overlay;
-
-            if (result && drawingCtx && drawingCanvas) {
-                if (result.boxes) {
-                    drawingCtx.clearRect(0, 0, parseInt(drawingCanvas.getAttribute("width") || '0'), parseInt(drawingCanvas.getAttribute("height") || '0'));
-                    result.boxes.filter((box) => box !== result.box).forEach((box) => {
-                        Quagga.ImageDebug.drawPath(box, { x: 0, y: 1 }, drawingCtx, { color: "green", lineWidth: 2 });
-                    });
-                }
-
-                if (result.box) {
-                    Quagga.ImageDebug.drawPath(result.box, { x: 0, y: 1 }, drawingCtx, { color: "#00F", lineWidth: 2 });
-                }
-
-                if (result.codeResult && result.codeResult.code) {
-                    Quagga.ImageDebug.drawPath(result.line, { x: 'x', y: 'y' }, drawingCtx, { color: 'red', lineWidth: 3 });
-                }
-            }
-        });
-
-        Quagga.onDetected((result) => {
-            const code = result.codeResult?.code;
-            if (code) {
-                setDebugInfo(`Detected: ${code}`);
-                lookupBarcode(code);
-            }
-        });
-    }, [lookupBarcode, torchOn]);
+    const [error, setError] = useState<string | null>(null);
+    const scannerRef = useRef<Html5Qrcode | null>(null);
+    const [debug, setDebug] = useState('Initializing...');
 
     useEffect(() => {
+        const scannerId = "reader";
+
+        const startScanner = async () => {
+            try {
+                setDebug('Starting camera...');
+                const formatsToSupport = [
+                    Html5QrcodeSupportedFormats.EAN_13,
+                    Html5QrcodeSupportedFormats.EAN_8,
+                    Html5QrcodeSupportedFormats.UPC_A,
+                    Html5QrcodeSupportedFormats.UPC_E
+                ];
+
+                const html5QrCode = new Html5Qrcode(scannerId, {
+                    experimentalFeatures: {
+                        useBarCodeDetectorIfSupported: true
+                    }
+                });
+
+                scannerRef.current = html5QrCode;
+
+                await html5QrCode.start(
+                    { facingMode: "environment" },
+                    {
+                        fps: 10,
+                        qrbox: { width: 250, height: 250 },
+                        aspectRatio: 1.0,
+                        formatsToSupport: formatsToSupport
+                    },
+                    async (decodedText) => {
+                        // Success callback
+                        setDebug(`Detected: ${decodedText}`);
+                        if (isLoading) return; // Prevent double scan
+
+                        setIsLoading(true);
+                        // Stop scanning when found
+                        try {
+                            await html5QrCode.stop();
+                        } catch (e) {
+                            console.warn('Failed to stop scanner', e);
+                        }
+
+                        // Lookup product
+                        try {
+                            const response = await fetch(`/api/nutrition?barcode=${decodedText}`);
+                            const data = await response.json();
+
+                            if (data.found) {
+                                onScanResult(data.product);
+                            } else {
+                                setError(data.error || 'Product not found');
+                                setTimeout(() => {
+                                    setIsLoading(false);
+                                    setError(null);
+                                    // Restart scanner? Maybe just close or let user try again
+                                    // ideally we'd restart, but for now showing error is clear
+                                    onClose();
+                                }, 3000);
+                            }
+                        } catch (err) {
+                            setError('Failed to lookup product');
+                            setTimeout(() => {
+                                onClose();
+                            }, 3000);
+                        }
+                    },
+                    (errorMessage) => {
+                        // error callback (called for every frame fail)
+                        // console.log(errorMessage);
+                    }
+                );
+                setDebug('Scanner running');
+            } catch (err) {
+                console.error(err);
+                setError('Camera failed to start. Permissions?');
+                setDebug('Start Error: ' + err);
+            }
+        };
+
+        // Delay slightly for safe mount
         const timer = setTimeout(startScanner, 100);
+
         return () => {
             clearTimeout(timer);
-            Quagga.stop();
-            hasInitialized.current = false;
+            if (scannerRef.current && scannerRef.current.isScanning) {
+                scannerRef.current.stop().catch(console.error);
+                scannerRef.current.clear().catch(console.error);
+            }
         };
-    }, [startScanner]);
+    }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
     return (
-        <div className="fixed inset-0 bg-black/90 z-50 flex flex-col">
+        <div className="fixed inset-0 bg-black z-50 flex flex-col">
             {/* Header */}
-            <div className="flex items-center justify-between p-4 bg-black/50 z-10">
-                <h2 className="text-lg font-semibold text-white">📷 Scan Barcode</h2>
-                <div className="flex gap-4">
-                    <button onClick={toggleTorch} className="text-white text-sm bg-white/10 px-3 py-1 rounded">
-                        {torchOn ? '🔦 On' : '🔦 Off'}
-                    </button>
-                    <button
-                        onClick={() => {
-                            Quagga.stop();
-                            onClose();
-                        }}
-                        className="text-white text-2xl hover:opacity-70"
-                    >
-                        ✕
-                    </button>
-                </div>
-            </div>
-
-            {/* Scanner viewport */}
-            <div className="flex-1 relative overflow-hidden">
-                <div
-                    ref={scannerRef}
-                    className="absolute inset-0"
-                    style={{
-                        width: '100%',
-                        height: '100%',
+            <div className="absolute top-0 left-0 right-0 p-4 flex justify-between items-center z-10 bg-gradient-to-b from-black/70 to-transparent">
+                <h2 className="text-white font-semibold">Scan Barcode</h2>
+                <button
+                    onClick={() => {
+                        if (scannerRef.current) {
+                            scannerRef.current.stop().catch(console.error);
+                        }
+                        onClose();
                     }}
-                />
+                    className="text-white p-2 rounded-full bg-white/20 hover:bg-white/30"
+                >
+                    ✕
+                </button>
+            </div>
 
-                {/* Scanning overlay */}
-                <div className="absolute inset-0 pointer-events-none">
-                    <div className="absolute inset-x-8 top-1/2 -translate-y-1/2 h-48 border-2 border-purple-500 rounded-lg">
-                        <div className="absolute inset-0 border-4 border-transparent animate-pulse"
-                            style={{
-                                background: 'linear-gradient(90deg, transparent 0%, rgba(139, 92, 246, 0.3) 50%, transparent 100%)',
-                                animation: 'scan 2s infinite'
-                            }}
-                        />
+            {/* Camera View */}
+            <div className="flex-1 flex items-center justify-center bg-black relative">
+                <div id="reader" className="w-full h-full"></div>
+
+                {/* Overlay box */}
+                <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
+                    <div className="w-64 h-64 border-2 border-green-500 rounded-lg shadow-[0_0_0_1000px_rgba(0,0,0,0.5)]">
+                        <div className="w-full h-1 bg-green-500/50 absolute top-1/2 -translate-y-1/2 animate-pulse shadow-[0_0_10px_rgba(34,197,94,0.5)]"></div>
                     </div>
-                </div>
-
-                {/* Status messages */}
-                <div className="absolute inset-x-0 bottom-24 flex flex-col items-center gap-2 pointer-events-none">
-                    {/* Debug Info */}
-                    <div className="bg-black/50 text-green-400 font-mono text-xs px-2 py-1 rounded">
-                        {debugInfo}
-                    </div>
-
-                    {isLoading && (
-                        <div className="bg-purple-600 text-white px-4 py-2 rounded-full animate-pulse">
-                            🔍 Looking up product...
-                        </div>
-                    )}
-                    {error && (
-                        <div className="bg-red-600 text-white px-4 py-2 rounded-full">
-                            ⚠️ {error}
-                        </div>
-                    )}
                 </div>
             </div>
 
-            {/* Instructions */}
-            <div className="p-4 bg-black/50 text-center z-10">
-                <p className="text-white/80 text-sm">
-                    Point camera at product barcode
-                </p>
-                <p className="text-white/50 text-xs mt-1">
-                    Supports EAN-13, EAN-8, UPC-A, UPC-E
-                </p>
+            {/* Footer / Debug */}
+            <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/90 to-transparent text-center">
+                <p className="text-white/70 text-sm mb-2">Align barcode within the frame</p>
+                {isLoading && (
+                    <div className="inline-block px-4 py-1 bg-purple-600 rounded-full text-white text-sm animate-pulse">
+                        Searching...
+                    </div>
+                )}
+                {error && (
+                    <div className="inline-block px-4 py-1 bg-red-600 rounded-full text-white text-sm">
+                        {error}
+                    </div>
+                )}
+                <p className="text-gray-500 text-xs mt-2">{debug}</p>
             </div>
 
-            <style jsx>{`
-                @keyframes scan {
-                    0%, 100% { transform: translateX(-100%); }
-                    50% { transform: translateX(100%); }
-                }
-                :global(video), :global(canvas.drawingBuffer) {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
+            <style jsx global>{`
+                #reader video {
+                    object-fit: cover !important;
+                    width: 100% !important;
+                    height: 100% !important;
                 }
             `}</style>
         </div>
