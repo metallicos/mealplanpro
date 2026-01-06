@@ -57,9 +57,27 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
         }
     }, [isLoading, lastCode, onScanResult]);
 
+    const [debugInfo, setDebugInfo] = useState<string>('Initializing...');
+    const [torchOn, setTorchOn] = useState(false);
+
+    const toggleTorch = () => {
+        const track = Quagga.CameraAccess.getActiveTrack();
+        if (track && typeof track.getCapabilities === 'function') {
+            const capabilities = track.getCapabilities();
+            if (capabilities.torch) {
+                track.applyConstraints({ advanced: [{ torch: !torchOn }] } as any)
+                    .then(() => setTorchOn(!torchOn))
+                    .catch((e: any) => setDebugInfo('Torch error: ' + e));
+            } else {
+                setDebugInfo('Torch not supported');
+            }
+        }
+    };
+
     const startScanner = useCallback(() => {
         if (!scannerRef.current || hasInitialized.current) return;
         hasInitialized.current = true;
+        setDebugInfo('Starting Quagga...');
 
         Quagga.init(
             {
@@ -72,7 +90,7 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                         height: { min: 720, ideal: 720 },
                         aspectRatio: { min: 1, max: 2 },
                         focusMode: 'continuous'
-                    } as MediaTrackConstraints, // Cast for custom constraint
+                    } as MediaTrackConstraints,
                 },
                 decoder: {
                     readers: ['ean_reader', 'ean_8_reader', 'upc_reader', 'upc_e_reader'],
@@ -93,6 +111,7 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                 if (err) {
                     console.error('Quagga init error:', err);
                     setError('Camera access denied or not available');
+                    setDebugInfo('Init Error: ' + err);
                     return;
                 }
 
@@ -106,10 +125,17 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
 
                 Quagga.start();
                 setIsScanning(true);
+                setDebugInfo('Scanner running... Point at barcode');
             }
         );
 
+        let frameCount = 0;
         Quagga.onProcessed((result) => {
+            frameCount++;
+            if (frameCount % 30 === 0) {
+                setDebugInfo(`Scanning... Frames: ${frameCount}`);
+            }
+
             const drawingCtx = Quagga.canvas.ctx.overlay;
             const drawingCanvas = Quagga.canvas.dom.overlay;
 
@@ -134,15 +160,14 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
         Quagga.onDetected((result) => {
             const code = result.codeResult?.code;
             if (code) {
+                setDebugInfo(`Detected: ${code}`);
                 lookupBarcode(code);
             }
         });
-    }, [lookupBarcode]);
+    }, [lookupBarcode, torchOn]);
 
     useEffect(() => {
-        // Small delay to ensure DOM is ready
         const timer = setTimeout(startScanner, 100);
-
         return () => {
             clearTimeout(timer);
             Quagga.stop();
@@ -153,17 +178,22 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
     return (
         <div className="fixed inset-0 bg-black/90 z-50 flex flex-col">
             {/* Header */}
-            <div className="flex items-center justify-between p-4 bg-black/50">
+            <div className="flex items-center justify-between p-4 bg-black/50 z-10">
                 <h2 className="text-lg font-semibold text-white">📷 Scan Barcode</h2>
-                <button
-                    onClick={() => {
-                        Quagga.stop();
-                        onClose();
-                    }}
-                    className="text-white text-2xl hover:opacity-70"
-                >
-                    ✕
-                </button>
+                <div className="flex gap-4">
+                    <button onClick={toggleTorch} className="text-white text-sm bg-white/10 px-3 py-1 rounded">
+                        {torchOn ? '🔦 On' : '🔦 Off'}
+                    </button>
+                    <button
+                        onClick={() => {
+                            Quagga.stop();
+                            onClose();
+                        }}
+                        className="text-white text-2xl hover:opacity-70"
+                    >
+                        ✕
+                    </button>
+                </div>
             </div>
 
             {/* Scanner viewport */}
@@ -190,32 +220,32 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                 </div>
 
                 {/* Status messages */}
-                {isLoading && (
-                    <div className="absolute inset-x-0 bottom-24 flex justify-center">
+                <div className="absolute inset-x-0 bottom-24 flex flex-col items-center gap-2 pointer-events-none">
+                    {/* Debug Info */}
+                    <div className="bg-black/50 text-green-400 font-mono text-xs px-2 py-1 rounded">
+                        {debugInfo}
+                    </div>
+
+                    {isLoading && (
                         <div className="bg-purple-600 text-white px-4 py-2 rounded-full animate-pulse">
                             🔍 Looking up product...
                         </div>
-                    </div>
-                )}
-
-                {error && (
-                    <div className="absolute inset-x-0 bottom-24 flex justify-center">
+                    )}
+                    {error && (
                         <div className="bg-red-600 text-white px-4 py-2 rounded-full">
                             ⚠️ {error}
                         </div>
-                    </div>
-                )}
+                    )}
+                </div>
             </div>
 
             {/* Instructions */}
-            <div className="p-4 bg-black/50 text-center">
+            <div className="p-4 bg-black/50 text-center z-10">
                 <p className="text-white/80 text-sm">
-                    {isScanning
-                        ? 'Point camera at product barcode'
-                        : 'Initializing camera...'}
+                    Point camera at product barcode
                 </p>
                 <p className="text-white/50 text-xs mt-1">
-                    Supports EAN-13, EAN-8, UPC-A, UPC-E barcodes
+                    Supports EAN-13, EAN-8, UPC-A, UPC-E
                 </p>
             </div>
 
