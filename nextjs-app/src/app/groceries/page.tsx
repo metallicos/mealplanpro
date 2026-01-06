@@ -145,11 +145,11 @@ export default function GroceriesPage() {
     const purchasedItems = items.filter(i => i.is_purchased).length;
     const outOfStockItems = items.filter(i => i.is_out_of_stock).length;
     const needNextMonth = items.filter(i => i.buy_next_month).length;
-    const estimatedCost = items.reduce((sum, i) => sum + (i.estimated_price_per_unit * i.quantity), 0);
+    const estimatedCost = items.reduce((sum, i) => sum + (Number(i.estimated_price_per_unit) * Number(i.quantity)), 0);
     const actualSpent = items
-        .filter(i => i.is_purchased && i.actual_price !== null)
-        .reduce((sum, i) => sum + (i.actual_price || 0), 0);
-    const remainingBudget = currentBudget.initial_budget - actualSpent;
+        .filter(i => i.is_purchased && i.actual_price !== null && i.actual_price !== undefined)
+        .reduce((sum, i) => sum + Number(i.actual_price || 0), 0);
+    const remainingBudget = Number(currentBudget.initial_budget) - actualSpent;
 
     // Update budget
     const updateBudget = (updates: Partial<MonthlyBudget>) => {
@@ -825,9 +825,9 @@ export default function GroceriesPage() {
                                                             <span>
                                                                 {(item.estimated_price_per_unit * item.quantity).toFixed(0)} MAD
                                                             </span>
-                                                            {item.actual_price !== null && (
+                                                            {item.actual_price !== null && item.actual_price !== undefined && (
                                                                 <span style={{ color: 'var(--success)' }}>
-                                                                    (Paid: {item.actual_price.toFixed(0)} MAD)
+                                                                    (Paid: {Number(item.actual_price).toFixed(0)} MAD)
                                                                 </span>
                                                             )}
                                                         </div>
@@ -1230,7 +1230,7 @@ export default function GroceriesPage() {
                                         <td>
                                             {item.is_out_of_stock && <span className="status-badge status-oos">EPUISE</span>}
                                             {item.buy_next_month && <span className="status-badge status-next">NEXT</span>}
-                                            {item.actual_price !== null && `Paid: ${item.actual_price.toFixed(0)}`}
+                                            {item.actual_price !== null && item.actual_price !== undefined && `Paid: ${Number(item.actual_price).toFixed(0)}`}
                                         </td>
                                         <td style={{ fontSize: '9pt', fontStyle: 'italic' }}>{item.comment || '-'}</td>
                                     </tr>
