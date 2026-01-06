@@ -1,19 +1,25 @@
-import mysql from 'mysql2/promise';
+import { createClient } from '@libsql/client';
 
-const pool = mysql.createPool({
-    host: process.env.DB_HOST || '127.0.0.1',
-    port: parseInt(process.env.DB_PORT || '3306'),
-    user: process.env.DB_USER || 'root',
-    password: process.env.DB_PASSWORD || 'root',
-    database: process.env.DB_NAME || 'meal_plan_app',
-    waitForConnections: true,
-    connectionLimit: 10,
-    queueLimit: 0,
+const url = process.env.TURSO_DATABASE_URL || 'file:local.db';
+const authToken = process.env.TURSO_AUTH_TOKEN;
+
+const client = createClient({
+    url,
+    authToken,
 });
 
-export default pool;
+export default client;
 
-export async function query<T>(sql: string, params?: unknown[]): Promise<T> {
-    const [rows] = await pool.execute(sql, params);
-    return rows as T;
+export async function query<T>(sql: string, params: any[] = []): Promise<T> {
+    try {
+        // Handle MySQL vs SQLite syntax differences if any remain
+        // But mainly just execute
+        const result = await client.execute({ sql, args: params });
+
+        // Return rows properly cast
+        return result.rows as unknown as T;
+    } catch (error) {
+        console.error('Database Error:', error);
+        throw error;
+    }
 }
