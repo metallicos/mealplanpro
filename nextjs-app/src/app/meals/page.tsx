@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { mealPlans, getMealsByCuisine } from '@/lib/meal-plans';
+import { mealPlans, getUniqueCuisines } from '@/lib/meal-plans';
 import type { MealPlan } from '@/lib/types';
 
 const ITEMS_PER_PAGE = 12;
@@ -20,7 +20,7 @@ export default function MealsPage() {
     const [groceryItems, setGroceryItems] = useState<GroceryItem[]>([]);
     const [loadingGroceries, setLoadingGroceries] = useState(false);
 
-    const cuisines = useMemo(() => ['all', ...Object.keys(getMealsByCuisine())], []);
+    const cuisines = useMemo(() => ['all', ...getUniqueCuisines()], []);
 
     // Fetch grocery items when filter is enabled
     useEffect(() => {
@@ -171,12 +171,23 @@ export default function MealsPage() {
                         className="meal-card cursor-pointer"
                         onClick={() => setSelectedMeal(meal)}
                     >
-                        <div
-                            className="meal-card-image"
-                            style={{ background: `linear-gradient(135deg, ${meal.color_from}, ${meal.color_to})` }}
-                        >
-                            {meal.image_emoji}
-                        </div>
+                        {meal.image_url ? (
+                            <div
+                                className="meal-card-image"
+                                style={{
+                                    backgroundImage: `url(${meal.image_url})`,
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center'
+                                }}
+                            />
+                        ) : (
+                            <div
+                                className="meal-card-image"
+                                style={{ background: `linear-gradient(135deg, ${meal.color_from}, ${meal.color_to})` }}
+                            >
+                                {meal.image_emoji}
+                            </div>
+                        )}
                         <div className="meal-card-content">
                             <div className="meal-card-title">{meal.name}</div>
                             <div className="meal-card-meta">
@@ -293,12 +304,23 @@ export default function MealsPage() {
                         className="card max-w-2xl w-full max-h-[90vh] overflow-y-auto"
                         onClick={(e) => e.stopPropagation()}
                     >
-                        <div
-                            className="h-32 rounded-xl flex items-center justify-center text-6xl mb-4"
-                            style={{ background: `linear-gradient(135deg, ${selectedMeal.color_from}, ${selectedMeal.color_to})` }}
-                        >
-                            {selectedMeal.image_emoji}
-                        </div>
+                        {selectedMeal.image_url ? (
+                            <div
+                                className="h-48 rounded-xl mb-4"
+                                style={{
+                                    backgroundImage: `url(${selectedMeal.image_url})`,
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center'
+                                }}
+                            />
+                        ) : (
+                            <div
+                                className="h-32 rounded-xl flex items-center justify-center text-6xl mb-4"
+                                style={{ background: `linear-gradient(135deg, ${selectedMeal.color_from}, ${selectedMeal.color_to})` }}
+                            >
+                                {selectedMeal.image_emoji}
+                            </div>
+                        )}
 
                         <div className="flex items-start justify-between mb-4">
                             <div>

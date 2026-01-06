@@ -69,6 +69,7 @@ export interface MealPlan {
     name: string;
     description: string;
     cuisine: string;
+    category?: string;
     prep_time: number;
     calories: number;
     protein: number;
@@ -77,6 +78,9 @@ export interface MealPlan {
     ingredients: string[];
     instructions: string[];
     image_emoji: string;
+    image_url?: string; // Real image URL from TheMealDB
+    youtube_url?: string;
+    source_url?: string;
     color_from: string;
     color_to: string;
 }

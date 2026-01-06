@@ -172,12 +172,23 @@ export default function Dashboard() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {randomMeals.map((meal) => (
             <div key={meal.id} className="meal-card">
-              <div
-                className="meal-card-image"
-                style={{ background: `linear-gradient(135deg, ${meal.color_from}, ${meal.color_to})` }}
-              >
-                {meal.image_emoji}
-              </div>
+              {meal.image_url ? (
+                <div
+                  className="meal-card-image"
+                  style={{
+                    backgroundImage: `url(${meal.image_url})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center'
+                  }}
+                />
+              ) : (
+                <div
+                  className="meal-card-image"
+                  style={{ background: `linear-gradient(135deg, ${meal.color_from}, ${meal.color_to})` }}
+                >
+                  {meal.image_emoji}
+                </div>
+              )}
               <div className="meal-card-content">
                 <div className="meal-card-title">{meal.name}</div>
                 <div className="meal-card-meta">
