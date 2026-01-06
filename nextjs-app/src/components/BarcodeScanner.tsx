@@ -68,8 +68,7 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                     target: scannerRef.current,
                     constraints: {
                         facingMode: 'environment',
-                        width: { min: 640 },
-                        height: { min: 480 },
+                        aspectRatio: { min: 1, max: 2 },
                     },
                 },
                 decoder: {
@@ -187,6 +186,14 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                 @keyframes scan {
                     0%, 100% { transform: translateX(-100%); }
                     50% { transform: translateX(100%); }
+                }
+                :global(video), :global(canvas.drawingBuffer) {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
                 }
             `}</style>
         </div>
