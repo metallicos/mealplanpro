@@ -271,10 +271,7 @@ export default function StatisticsPage() {
                             <div className="w-3 h-3 rounded" style={{ background: theme.primary }} />
                             <span style={{ color: 'var(--text-muted)' }}>Weekly Weight</span>
                         </div>
-                        <div className="h-4 w-px" style={{ background: 'var(--border-color)' }} />
-                        <span style={{ color: 'var(--text-muted)' }}>
-                            Goal: {user?.goalWeight || '—'} kg
-                        </span>
+
                     </div>
                 )}
             </div>
