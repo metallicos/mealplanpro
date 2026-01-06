@@ -58,8 +58,8 @@ export default function LoginPage() {
                 <button
                     onClick={() => switchLanguage('en')}
                     className={`py-1.5 px-3 text-xs rounded transition-all ${currentLocale === 'en'
-                            ? 'bg-violet-600 text-white'
-                            : 'text-gray-400 hover:text-white'
+                        ? 'bg-violet-600 text-white'
+                        : 'text-gray-400 hover:text-white'
                         }`}
                 >
                     🇬🇧 {tLang('en')}
@@ -67,8 +67,8 @@ export default function LoginPage() {
                 <button
                     onClick={() => switchLanguage('fr')}
                     className={`py-1.5 px-3 text-xs rounded transition-all ${currentLocale === 'fr'
-                            ? 'bg-violet-600 text-white'
-                            : 'text-gray-400 hover:text-white'
+                        ? 'bg-violet-600 text-white'
+                        : 'text-gray-400 hover:text-white'
                         }`}
                 >
                     🇫🇷 {tLang('fr')}
@@ -121,12 +121,6 @@ export default function LoginPage() {
                         {isLoading ? '...' : t('signIn')}
                     </button>
                 </form>
-
-                <div className="mt-8 pt-6 border-t border-[var(--border-color)] text-center text-sm text-[var(--text-secondary)]">
-                    <p>{t('demoAccounts')}:</p>
-                    <p className="mt-1">Admin: admin@mealplan.com / admin123</p>
-                    <p>Master: master@mealplan.com / master123</p>
-                </div>
             </div>
         </div>
     );
