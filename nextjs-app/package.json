@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@ericblade/quagga2": "^1.12.1",
     "bcryptjs": "^3.0.3",
     "chart.js": "^4.5.1",
     "jose": "^6.1.3",

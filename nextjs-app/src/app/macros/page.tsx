@@ -1,7 +1,10 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, lazy, Suspense } from 'react';
 import { useUser } from '@/contexts/UserContext';
+
+// Lazy load the scanner to avoid SSR issues with Quagga
+const BarcodeScanner = lazy(() => import('@/components/BarcodeScanner'));
 
 // Sample foods (would come from API in production)
 const sampleFoods = [
@@ -28,8 +31,22 @@ interface LogItem {
     fat: number;
 }
 
+interface ScannedFood {
+    barcode: string;
+    name: string;
+    brand: string;
+    image_url: string | null;
+    serving_size: string;
+    calories_per_100g: number;
+    protein_per_100g: number;
+    carbs_per_100g: number;
+    fat_per_100g: number;
+    fiber_per_100g: number;
+    nutriscore: string | null;
+}
+
 export default function MacrosPage() {
-    const { userId, theme, settings } = useUser();
+    const { theme, settings } = useUser();
     const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split('T')[0]);
     const [logItems, setLogItems] = useState<LogItem[]>([]);
     const [searchQuery, setSearchQuery] = useState('');
@@ -37,6 +54,11 @@ export default function MacrosPage() {
     const [grams, setGrams] = useState(100);
     const [mealType, setMealType] = useState<'main' | 'snack'>('main');
     const [weight, setWeight] = useState<number | null>(null);
+
+    // Barcode scanner state
+    const [showScanner, setShowScanner] = useState(false);
+    const [scannedFood, setScannedFood] = useState<ScannedFood | null>(null);
+    const [scannedGrams, setScannedGrams] = useState(100);
 
     // Use targets from user settings
     const targets = {
@@ -92,6 +114,43 @@ export default function MacrosPage() {
         protein: Math.round(selectedFood.protein * grams / 100 * 10) / 10,
         carbs: Math.round(selectedFood.carbs * grams / 100 * 10) / 10,
         fat: Math.round(selectedFood.fat * grams / 100 * 10) / 10,
+    } : null;
+
+    // Handle scanned food result
+    const handleScanResult = (food: ScannedFood) => {
+        setScannedFood(food);
+        setScannedGrams(100);
+        setShowScanner(false);
+    };
+
+    // Add scanned food to log
+    const addScannedToLog = () => {
+        if (!scannedFood) return;
+
+        const multiplier = scannedGrams / 100;
+        const newItem: LogItem = {
+            id: Date.now(),
+            foodName: scannedFood.brand
+                ? `${scannedFood.name} (${scannedFood.brand})`
+                : scannedFood.name,
+            grams: scannedGrams,
+            mealType,
+            calories: Math.round(scannedFood.calories_per_100g * multiplier),
+            protein: Math.round(scannedFood.protein_per_100g * multiplier * 10) / 10,
+            carbs: Math.round(scannedFood.carbs_per_100g * multiplier * 10) / 10,
+            fat: Math.round(scannedFood.fat_per_100g * multiplier * 10) / 10,
+        };
+
+        setLogItems([...logItems, newItem]);
+        setScannedFood(null);
+        setScannedGrams(100);
+    };
+
+    const scannedPreview = scannedFood ? {
+        calories: Math.round(scannedFood.calories_per_100g * scannedGrams / 100),
+        protein: Math.round(scannedFood.protein_per_100g * scannedGrams / 100 * 10) / 10,
+        carbs: Math.round(scannedFood.carbs_per_100g * scannedGrams / 100 * 10) / 10,
+        fat: Math.round(scannedFood.fat_per_100g * scannedGrams / 100 * 10) / 10,
     } : null;
 
     return (
@@ -210,7 +269,15 @@ export default function MacrosPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 {/* Add Food Form */}
                 <div className="card">
-                    <h3 className="font-semibold mb-4">Add Food</h3>
+                    <div className="flex items-center justify-between mb-4">
+                        <h3 className="font-semibold">Add Food</h3>
+                        <button
+                            onClick={() => setShowScanner(true)}
+                            className="btn-primary text-sm flex items-center gap-2"
+                        >
+                            📷 Scan Barcode
+                        </button>
+                    </div>
 
                     <div className="space-y-4">
                         {/* Search */}
@@ -393,6 +460,173 @@ export default function MacrosPage() {
                     </button>
                 </div>
             </div>
+            {/* Barcode Scanner Modal */}
+            {showScanner && (
+                <Suspense fallback={
+                    <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center">
+                        <div className="text-white text-center">
+                            <div className="text-4xl mb-4">📷</div>
+                            <p>Loading camera...</p>
+                        </div>
+                    </div>
+                }>
+                    <BarcodeScanner
+                        onScanResult={handleScanResult}
+                        onClose={() => setShowScanner(false)}
+                    />
+                </Suspense>
+            )}
+
+            {/* Scanned Food Result Modal */}
+            {scannedFood && (
+                <div
+                    className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4"
+                    onClick={() => setScannedFood(null)}
+                >
+                    <div
+                        className="card max-w-md w-full"
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        {/* Product Image */}
+                        {scannedFood.image_url && (
+                            <div
+                                className="h-40 rounded-xl mb-4 bg-cover bg-center"
+                                style={{ backgroundImage: `url(${scannedFood.image_url})` }}
+                            />
+                        )}
+
+                        <div className="flex items-start justify-between mb-4">
+                            <div>
+                                <h3 className="text-xl font-bold">{scannedFood.name}</h3>
+                                {scannedFood.brand && (
+                                    <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
+                                        {scannedFood.brand}
+                                    </p>
+                                )}
+                            </div>
+                            <button
+                                onClick={() => setScannedFood(null)}
+                                className="text-2xl hover:opacity-70"
+                            >
+                                ✕
+                            </button>
+                        </div>
+
+                        {/* Nutri-score */}
+                        {scannedFood.nutriscore && (
+                            <div className="mb-4">
+                                <span
+                                    className="inline-block px-3 py-1 rounded-full text-sm font-bold"
+                                    style={{
+                                        background: scannedFood.nutriscore === 'a' ? '#16a34a' :
+                                            scannedFood.nutriscore === 'b' ? '#84cc16' :
+                                                scannedFood.nutriscore === 'c' ? '#facc15' :
+                                                    scannedFood.nutriscore === 'd' ? '#f97316' : '#ef4444',
+                                        color: 'white'
+                                    }}
+                                >
+                                    Nutri-Score {scannedFood.nutriscore.toUpperCase()}
+                                </span>
+                            </div>
+                        )}
+
+                        {/* Nutrition per 100g */}
+                        <div className="grid grid-cols-4 gap-2 text-center p-3 rounded-lg mb-4" style={{ background: 'var(--bg-secondary)' }}>
+                            <div>
+                                <div className="font-bold" style={{ color: 'var(--calories)' }}>
+                                    {Math.round(scannedFood.calories_per_100g)}
+                                </div>
+                                <div className="text-xs" style={{ color: 'var(--text-muted)' }}>kcal</div>
+                            </div>
+                            <div>
+                                <div className="font-bold" style={{ color: 'var(--protein)' }}>
+                                    {Math.round(scannedFood.protein_per_100g)}g
+                                </div>
+                                <div className="text-xs" style={{ color: 'var(--text-muted)' }}>Protein</div>
+                            </div>
+                            <div>
+                                <div className="font-bold" style={{ color: 'var(--carbs)' }}>
+                                    {Math.round(scannedFood.carbs_per_100g)}g
+                                </div>
+                                <div className="text-xs" style={{ color: 'var(--text-muted)' }}>Carbs</div>
+                            </div>
+                            <div>
+                                <div className="font-bold" style={{ color: 'var(--fat)' }}>
+                                    {Math.round(scannedFood.fat_per_100g)}g
+                                </div>
+                                <div className="text-xs" style={{ color: 'var(--text-muted)' }}>Fat</div>
+                            </div>
+                        </div>
+
+                        <p className="text-xs text-center mb-4" style={{ color: 'var(--text-muted)' }}>
+                            Nutrition per 100g
+                        </p>
+
+                        {/* Serving size input */}
+                        <div className="grid grid-cols-2 gap-4 mb-4">
+                            <div>
+                                <label className="form-label">Serving (grams)</label>
+                                <input
+                                    type="number"
+                                    className="form-input"
+                                    value={scannedGrams}
+                                    onChange={(e) => setScannedGrams(parseInt(e.target.value) || 0)}
+                                    min="1"
+                                />
+                            </div>
+                            <div>
+                                <label className="form-label">Meal Type</label>
+                                <select
+                                    className="form-input"
+                                    value={mealType}
+                                    onChange={(e) => setMealType(e.target.value as 'main' | 'snack')}
+                                >
+                                    <option value="main">Main Meal</option>
+                                    <option value="snack">Snack</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        {/* Preview for selected grams */}
+                        {scannedPreview && (
+                            <div className="p-3 rounded-lg mb-4" style={{ background: 'var(--accent-primary)', opacity: 0.1 }}>
+                                <div className="text-center text-sm font-medium mb-2">
+                                    For {scannedGrams}g serving:
+                                </div>
+                                <div className="grid grid-cols-4 gap-2 text-center text-sm">
+                                    <div>
+                                        <span style={{ color: 'var(--calories)' }}>{scannedPreview.calories}</span> kcal
+                                    </div>
+                                    <div>
+                                        <span style={{ color: 'var(--protein)' }}>{scannedPreview.protein}</span>g P
+                                    </div>
+                                    <div>
+                                        <span style={{ color: 'var(--carbs)' }}>{scannedPreview.carbs}</span>g C
+                                    </div>
+                                    <div>
+                                        <span style={{ color: 'var(--fat)' }}>{scannedPreview.fat}</span>g F
+                                    </div>
+                                </div>
+                            </div>
+                        )}
+
+                        <div className="flex gap-3">
+                            <button
+                                onClick={() => setScannedFood(null)}
+                                className="btn-secondary flex-1"
+                            >
+                                Cancel
+                            </button>
+                            <button
+                                onClick={addScannedToLog}
+                                className="btn-primary flex-1"
+                            >
+                                ➕ Add to Log
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            )}
         </div>
     );
 }
