@@ -20852,37 +20852,37 @@ export const mealPlans: MealPlan[] = [
 
 // Helper function to get random meals
 export function getRandomMeals(count: number = 6): MealPlan[] {
-    const shuffled = [...mealPlans].sort(() => Math.random() - 0.5);
-    return shuffled.slice(0, count);
+  const shuffled = [...mealPlans].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, count);
 }
 
 // Filter meals by cuisine
 export function getMealsByCuisine(cuisine: string): MealPlan[] {
-    return mealPlans.filter(m => m.cuisine.toLowerCase() === cuisine.toLowerCase());
+  return mealPlans.filter(m => m.cuisine.toLowerCase() === cuisine.toLowerCase());
 }
 
 // Filter meals by category
 export function getMealsByCategory(category: string): MealPlan[] {
-    return mealPlans.filter(m => m.category?.toLowerCase() === category.toLowerCase());
+  return mealPlans.filter(m => m.category?.toLowerCase() === category.toLowerCase());
 }
 
 // Search meals
 export function searchMeals(query: string): MealPlan[] {
-    const q = query.toLowerCase();
-    return mealPlans.filter(m => 
-        m.name.toLowerCase().includes(q) ||
-        m.cuisine.toLowerCase().includes(q) ||
-        m.category?.toLowerCase().includes(q) ||
-        m.ingredients.some(i => i.toLowerCase().includes(q))
-    );
+  const q = query.toLowerCase();
+  return mealPlans.filter(m =>
+    m.name.toLowerCase().includes(q) ||
+    m.cuisine.toLowerCase().includes(q) ||
+    m.category?.toLowerCase().includes(q) ||
+    m.ingredients.some(i => i.toLowerCase().includes(q))
+  );
 }
 
 // Get unique cuisines
 export function getUniqueCuisines(): string[] {
-    return [...new Set(mealPlans.map(m => m.cuisine))].sort();
+  return [...new Set(mealPlans.map(m => m.cuisine))].sort();
 }
 
 // Get unique categories
 export function getUniqueCategories(): string[] {
-    return [...new Set(mealPlans.map(m => m.category).filter(Boolean))].sort();
+  return [...new Set(mealPlans.map(m => m.category).filter(Boolean) as string[])].sort();
 }
