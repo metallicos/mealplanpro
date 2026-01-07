@@ -25,7 +25,9 @@
         "email": "E-mail",
         "password": "Mot de passe",
         "loginFailed": "Échec de connexion",
-        "demoAccounts": "Comptes Démo"
+        "demoAccounts": "Comptes Démo",
+        "noAccount": "Vous n'avez pas de compte ?",
+        "signUp": "S'inscrire"
     },
     "dashboard": {
         "welcomeBack": "Bon retour, {name} !",
