@@ -46,6 +46,41 @@ interface Rating {
     created_at: string;
 }
 
+const RecipeImage = ({ src, alt }: { src: string | null; alt: string }) => {
+    const [imgSrc, setImgSrc] = useState<string | null>(src);
+    const [hasError, setHasError] = useState(false);
+
+    useEffect(() => {
+        setImgSrc(src);
+        setHasError(false);
+    }, [src]);
+
+    if (!imgSrc || hasError) {
+        return (
+            <div
+                className="meal-card-image"
+                style={{
+                    backgroundImage: 'url(/images/placeholder.png)',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center'
+                }}
+                title={alt}
+            />
+        );
+    }
+
+    return (
+        <div className="meal-card-image relative overflow-hidden">
+            <img
+                src={imgSrc}
+                alt={alt}
+                className="w-full h-full object-cover transition-transform hover:scale-105 duration-500"
+                onError={() => setHasError(true)}
+            />
+        </div>
+    );
+};
+
 const ITEMS_PER_PAGE = 12;
 
 export default function MealsPage() {
@@ -369,23 +404,11 @@ export default function MealsPage() {
                                 </div>
                             )}
 
-                            {getImageUrl(meal) ? (
-                                <div
-                                    className="meal-card-image"
-                                    style={{
-                                        backgroundImage: `url(${getImageUrl(meal)})`,
-                                        backgroundSize: 'cover',
-                                        backgroundPosition: 'center'
-                                    }}
-                                />
-                            ) : (
-                                <div
-                                    className="meal-card-image"
-                                    style={{ background: 'linear-gradient(135deg, #6366f1, #8b5cf6)' }}
-                                >
-                                    🍽️
-                                </div>
-                            )}
+                            {/* Image with Fallback */}
+                            <RecipeImage
+                                src={getImageUrl(meal)}
+                                alt={meal.title}
+                            />
                             <div className="meal-card-content">
                                 <div className="meal-card-title">{meal.title}</div>
                                 <div className="meal-card-meta">
@@ -485,12 +508,12 @@ export default function MealsPage() {
                             {/* Header Image */}
                             <div className="relative h-64">
                                 {getImageUrl(selectedMeal) ? (
-                                    <div
-                                        className="absolute inset-0"
-                                        style={{
-                                            backgroundImage: `url(${getImageUrl(selectedMeal)})`,
-                                            backgroundSize: 'cover',
-                                            backgroundPosition: 'center'
+                                    <img
+                                        src={getImageUrl(selectedMeal) || ''}
+                                        alt={selectedMeal.title}
+                                        className="absolute inset-0 w-full h-full object-cover"
+                                        onError={(e) => {
+                                            e.currentTarget.src = '/images/placeholder.png';
                                         }}
                                     />
                                 ) : (
