@@ -59,6 +59,46 @@ export async function GET(request: Request) {
             };
         });
 
+        // --- Smart Sorting Logic ---
+        const q = query.toLowerCase();
+
+        ingredients.sort((a: any, b: any) => {
+            const nameA = a.name.toLowerCase();
+            const nameB = b.name.toLowerCase();
+
+            // 1. Exact match priority
+            if (nameA === q) return -1;
+            if (nameB === q) return 1;
+
+            // 2. "Starts with" priority (e.g. "Rice, white" > "Flour, rice")
+            const startA = nameA.startsWith(q);
+            const startB = nameB.startsWith(q);
+            if (startA && !startB) return -1;
+            if (!startA && startB) return 1;
+
+            // 3. De-prioritize "flour" unless queried
+            if (!q.includes('flour')) {
+                const flourA = nameA.includes('flour');
+                const flourB = nameB.includes('flour');
+                if (flourA && !flourB) return 1;
+                if (!flourA && flourB) return -1;
+            }
+
+            // 4. De-prioritize "baby food"
+            const babyA = nameA.includes('baby food');
+            const babyB = nameB.includes('baby food');
+            if (babyA && !babyB) return 1;
+            if (!babyA && babyB) return -1;
+
+            // 5. Shortest name priority (Simpler often means the base ingredient)
+            if (nameA.length !== nameB.length) {
+                return nameA.length - nameB.length;
+            }
+
+            return 0;
+        });
+        // ---------------------------
+
         return NextResponse.json({ ingredients });
 
     } catch (error) {
