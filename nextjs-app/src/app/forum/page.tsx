@@ -105,7 +105,7 @@ export default function CommunityPage() {
             ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {posts.map(post => (
-                        <Link href={`/community/${post.id}`} key={post.id} className="card hover:border-[var(--accent-primary)] transition-colors">
+                        <Link href={`/forum/${post.id}`} key={post.id} className="card hover:border-[var(--accent-primary)] transition-colors">
                             {post.image_url && (
                                 <div className="h-40 rounded-lg mb-4 bg-cover bg-center" style={{ backgroundImage: `url(${post.image_url})` }} />
                             )}

@@ -43,7 +43,7 @@ export default function ThreadPage() {
         try {
             const res = await fetch(`/api/forum/${id}`);
             if (!res.ok) {
-                if (res.status === 404) router.push('/community');
+                if (res.status === 404) router.push('/forum');
                 return;
             }
             const data = await res.json();
@@ -57,6 +57,7 @@ export default function ThreadPage() {
     };
 
     const handlePostComment = async (e: React.FormEvent) => {
+        // ... (unchanged)
         e.preventDefault();
         setSubmitting(true);
 
@@ -94,7 +95,7 @@ export default function ThreadPage() {
 
     return (
         <div className="animate-fade-in p-4 lg:p-8 max-w-4xl mx-auto">
-            <Link href="/community" className="text-sm text-[var(--text-secondary)] hover:text-white mb-4 inline-block">
+            <Link href="/forum" className="text-sm text-[var(--text-secondary)] hover:text-white mb-4 inline-block">
                 ← Back to Forum
             </Link>
 

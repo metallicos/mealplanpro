@@ -174,6 +174,18 @@ async function main() {
         }
     }
 
+    // Deduplicate recipes based on title
+    console.log(`\n🔍 Found ${allRecipes.length} total recipes. Deduplicating...`);
+    const uniqueRecipes = new Map();
+    for (const r of allRecipes) {
+        // Use title as key (or url if you prefer)
+        if (!uniqueRecipes.has(r.title)) {
+            uniqueRecipes.set(r.title, r);
+        }
+    }
+    allRecipes = Array.from(uniqueRecipes.values());
+    console.log(`🧩 Unique recipes to import: ${allRecipes.length}`);
+
     // Insert in batches
     console.log(`\n📥 Inserting ${allRecipes.length} recipes into database...`);
 

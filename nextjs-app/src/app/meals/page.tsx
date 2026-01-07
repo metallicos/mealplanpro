@@ -668,15 +668,8 @@ export default function MealsPage() {
                                 </div>
 
                                 {/* Source Link */}
-                                {selectedMeal.url && (
-                                    <a
-                                        href={selectedMeal.url}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="inline-flex items-center gap-2 text-violet-400 hover:text-violet-300 text-sm"
-                                    >
-                                        🔗 View original recipe
-                                    </a>
+                                {selectedMeal.url && false && (
+                                    <div />
                                 )}
                             </div>
                         </div>
