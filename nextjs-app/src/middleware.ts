@@ -14,8 +14,8 @@ export async function middleware(request: NextRequest) {
     // Check if user is authenticated
     const payload = token ? await verifyToken(token) : null;
 
-    // LOGIN PAGE: Redirect authenticated users to dashboard
-    if (pathname === '/login') {
+    // LOGIN or SIGNUP PAGE: Redirect authenticated users to dashboard
+    if (pathname === '/login' || pathname === '/signup') {
         if (payload) {
             return NextResponse.redirect(new URL('/', request.url));
         }
