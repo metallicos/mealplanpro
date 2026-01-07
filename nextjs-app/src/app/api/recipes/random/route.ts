@@ -8,14 +8,20 @@ export async function GET(request: NextRequest) {
 
     try {
         // Get random recipes using SQLite's RANDOM() function
-        const whereClause = healthyOnly ? 'WHERE is_healthy = 1' : '';
+        // Note: SQLite uses 1/0 for boolean
+        const countInt = parseInt(count.toString()); // Ensure int
 
-        const recipes = await query(`
-            SELECT * FROM recipes 
-            ${whereClause}
-            ORDER BY RANDOM() 
-            LIMIT ?
-        `, [count]);
+        let sql = 'SELECT * FROM recipes';
+        const params: any[] = [];
+
+        if (healthyOnly) {
+            sql += ' WHERE is_healthy = 1';
+        }
+
+        sql += ' ORDER BY RANDOM() LIMIT ?';
+        params.push(countInt);
+
+        const recipes = await query(sql, params);
 
         // Parse JSON fields
         const parsedRecipes = (recipes as Record<string, unknown>[]).map(recipe => ({

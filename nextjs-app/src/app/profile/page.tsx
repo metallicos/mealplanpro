@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useUser } from '@/contexts/UserContext';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function ProfilePage() {
     const { user, isLoading } = useUser();
@@ -14,6 +15,14 @@ export default function ProfilePage() {
     const [confirmPassword, setConfirmPassword] = useState('');
     const [avatarUrl, setAvatarUrl] = useState('');
 
+    // Socials
+    const [facebook, setFacebook] = useState('');
+    const [instagram, setInstagram] = useState('');
+    const [twitter, setTwitter] = useState('');
+
+    const [activeTab, setActiveTab] = useState<'profile' | 'posts'>('profile');
+    const [myPosts, setMyPosts] = useState<any[]>([]);
+
     const [isSaving, setIsSaving] = useState(false);
     const [message, setMessage] = useState<{ type: 'success' | 'error', text: string } | null>(null);
 
@@ -23,38 +32,47 @@ export default function ProfilePage() {
             setFullName(user.fullName || '');
             setEmail(user.email || '');
             setAvatarUrl(user.avatarUrl || '');
+            // Need to fetch extra profile details (socials)
+            fetch('/api/profile?user_id=' + user.id)
+                .then(res => res.json())
+                .then(data => {
+                    if (data) {
+                        setAvatarUrl(data.avatar_url || user.avatarUrl || ''); // Priority to profile
+                        // Assuming API returns socials (it does now)
+                        if (data.facebook) setFacebook(data.facebook);
+                        if (data.instagram) setInstagram(data.instagram);
+                        if (data.twitter) setTwitter(data.twitter);
+                    }
+                });
         }
     }, [user]);
 
+    useEffect(() => {
+        if (activeTab === 'posts' && user) {
+            fetch(`/api/forum?user_id=${user.id}`)
+                .then(res => res.json())
+                .then(data => setMyPosts(data.posts || []));
+        }
+    }, [activeTab, user]);
+
     const handleAvatarUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+        // ... (unchanged)
         const file = e.target.files?.[0];
         if (!file) return;
 
         const formData = new FormData();
         formData.append('file', file);
-
         try {
-            const res = await fetch('/api/upload', {
-                method: 'POST',
-                body: formData
-            });
-
+            const res = await fetch('/api/upload', { method: 'POST', body: formData });
             if (res.ok) {
                 const data = await res.json();
                 setAvatarUrl(data.url);
-            } else {
-                setMessage({ type: 'error', text: 'Failed to upload avatar' });
             }
-        } catch (err) {
-            console.error(err);
-            setMessage({ type: 'error', text: 'Upload error' });
-        }
+        } catch (err) { }
     };
 
     const generateAvatar = () => {
         const seed = Math.random().toString(36).substring(7);
-        // Using DiceBear Notionists style for specific gender-neutral look or specific style
-        // Or 'avataaars'
         const url = `https://api.dicebear.com/7.x/notionists/svg?seed=${seed}`;
         setAvatarUrl(url);
     };
@@ -74,11 +92,14 @@ export default function ProfilePage() {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    user_id: user?.id, // Explicitly target self
+                    user_id: user?.id,
                     full_name: fullName,
                     email: email,
-                    password: password || undefined, // Only send if changed
-                    avatar_url: avatarUrl
+                    password: password || undefined,
+                    avatar_url: avatarUrl,
+                    facebook,
+                    instagram,
+                    twitter
                 })
             });
 
@@ -86,11 +107,9 @@ export default function ProfilePage() {
                 setMessage({ type: 'success', text: 'Profile updated successfully!' });
                 setPassword('');
                 setConfirmPassword('');
-                // Reload to refresh session
                 setTimeout(() => window.location.reload(), 1000);
             } else {
-                const data = await res.json();
-                setMessage({ type: 'error', text: data.error || 'Failed to update profile' });
+                setMessage({ type: 'error', text: 'Failed to update profile' });
             }
         } catch (err) {
             setMessage({ type: 'error', text: 'An error occurred' });
@@ -99,133 +118,142 @@ export default function ProfilePage() {
         }
     };
 
+    const handleDeletePost = async (postId: number) => {
+        if (!confirm('Are you sure you want to delete this post?')) return;
+        try {
+            const res = await fetch(`/api/forum/${postId}`, { method: 'DELETE' });
+            if (res.ok) {
+                setMyPosts(myPosts.filter(p => p.id !== postId));
+            } else {
+                alert('Failed to delete post');
+            }
+        } catch (err) { console.error(err); }
+    };
+
     if (isLoading) return <div className="p-8 text-center">Loading...</div>;
     if (!user) return <div className="p-8 text-center">Please log in to view profile.</div>;
 
     return (
-        <div className="animate-fade-in max-w-2xl mx-auto">
+        <div className="animate-fade-in max-w-4xl mx-auto p-4">
             <h1 className="page-title mb-6">Profile Management ⚙️</h1>
 
-            <div className="card p-6">
-                {message && (
-                    <div className={`p-4 rounded-lg mb-6 ${message.type === 'success' ? 'bg-green-500/20 text-green-400' : 'bg-red-500/20 text-red-400'
-                        }`}>
-                        {message.text}
-                    </div>
-                )}
+            <div className="flex gap-4 mb-6 border-b border-gray-800">
+                <button
+                    className={`pb-2 px-4 ${activeTab === 'profile' ? 'border-b-2 border-[var(--accent-primary)] text-white' : 'text-gray-400'}`}
+                    onClick={() => setActiveTab('profile')}
+                >
+                    Edit Profile
+                </button>
+                <button
+                    className={`pb-2 px-4 ${activeTab === 'posts' ? 'border-b-2 border-[var(--accent-primary)] text-white' : 'text-gray-400'}`}
+                    onClick={() => setActiveTab('posts')}
+                >
+                    My Posts
+                </button>
+            </div>
 
-                <div className="flex flex-col md:flex-row gap-8 mb-8 items-center md:items-start">
-                    {/* Avatar Section */}
-                    <div className="text-center">
-                        <div className="w-32 h-32 rounded-full overflow-hidden bg-gray-700 mx-auto mb-4 border-4 border-[var(--accent-primary)] relative">
-                            {avatarUrl ? (
-                                <Image
-                                    src={avatarUrl}
-                                    alt="Avatar"
-                                    width={128}
-                                    height={128}
-                                    className="object-cover w-full h-full"
-                                    unoptimized // For external avatars (DiceBear)
-                                />
-                            ) : (
-                                <div className="w-full h-full flex items-center justify-center text-4xl">
-                                    {user.fullName?.[0]?.toUpperCase() || 'U'}
-                                </div>
-                            )}
+            {activeTab === 'profile' ? (
+                <div className="card p-6 max-w-2xl mx-auto">
+                    {message && (
+                        <div className={`p-4 rounded-lg mb-6 ${message.type === 'success' ? 'bg-green-500/20 text-green-400' : 'bg-red-500/20 text-red-400'}`}>
+                            {message.text}
                         </div>
+                    )}
 
-                        <div className="flex flex-col gap-2">
-                            <label className="btn-secondary text-xs py-2">
-                                📷 Upload Photo
-                                <input type="file" className="hidden" accept="image/*" onChange={handleAvatarUpload} />
-                            </label>
-                            <button
-                                type="button"
-                                onClick={generateAvatar}
-                                className="text-xs text-[var(--accent-primary)] hover:underline"
-                            >
-                                🎲 Generate Random Avatar
-                            </button>
-                        </div>
-                    </div>
-
-                    {/* Info Section */}
-                    <div className="flex-1 w-full">
-                        <div className="mb-4">
-                            <h3 className="text-xl font-bold">{user.fullName}</h3>
-                            <p className="text-[var(--text-secondary)]">{user.email}</p>
-                            <div className="flex gap-2 mt-2">
-                                <span className="badge badge-primary uppercase text-xs">{user.role}</span>
-                                {user.householdName && (
-                                    <span className="badge bg-gray-700 text-gray-300 text-xs">🏠 {user.householdName}</span>
+                    <div className="flex flex-col md:flex-row gap-8 mb-8 items-center md:items-start">
+                        {/* Avatar */}
+                        <div className="text-center">
+                            <div className="w-32 h-32 rounded-full overflow-hidden bg-gray-700 mx-auto mb-4 border-4 border-[var(--accent-primary)] relative">
+                                {avatarUrl ? (
+                                    <Image src={avatarUrl} alt="Avatar" width={128} height={128} className="object-cover w-full h-full" unoptimized />
+                                ) : (
+                                    <div className="w-full h-full flex items-center justify-center text-4xl">{user.fullName?.[0]}</div>
                                 )}
                             </div>
+                            <div className="flex flex-col gap-2">
+                                <label className="btn-secondary text-xs py-2 cursor-pointer">
+                                    📷 Upload Photo
+                                    <input type="file" className="hidden" accept="image/*" onChange={handleAvatarUpload} />
+                                </label>
+                                <button type="button" onClick={generateAvatar} className="text-xs text-[var(--accent-primary)] hover:underline">
+                                    🎲 Generate Random Avatar
+                                </button>
+                            </div>
                         </div>
 
-                        <form onSubmit={handleSubmit} className="space-y-4">
+                        {/* Info */}
+                        <form onSubmit={handleSubmit} className="flex-1 w-full space-y-4">
                             <div>
-                                <label className="form-label">Display Name</label>
-                                <input
-                                    type="text"
-                                    className="form-input"
-                                    value={fullName}
-                                    onChange={e => setFullName(e.target.value)}
-                                    required
-                                />
+                                <label className="form-label">Full Name</label>
+                                <input type="text" className="form-input" value={fullName} onChange={e => setFullName(e.target.value)} required />
                             </div>
-
                             <div>
-                                <label className="form-label">Email Address</label>
-                                <input
-                                    type="email"
-                                    className="form-input"
-                                    value={email}
-                                    onChange={e => setEmail(e.target.value)}
-                                    required
-                                />
+                                <label className="form-label">Email</label>
+                                <input type="email" className="form-input" value={email} onChange={e => setEmail(e.target.value)} required />
                             </div>
 
                             <hr className="border-gray-800 my-4" />
-
-                            <div>
-                                <label className="form-label">New Password (optional)</label>
-                                <input
-                                    type="password"
-                                    className="form-input"
-                                    placeholder="Leave blank to keep current"
-                                    value={password}
-                                    onChange={e => setPassword(e.target.value)}
-                                    minLength={6}
-                                />
+                            <h3 className="font-semibold mb-2">Social Links 🌐</h3>
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                <div>
+                                    <label className="form-label text-xs">Facebook</label>
+                                    <input className="form-input text-sm" placeholder="URL" value={facebook} onChange={e => setFacebook(e.target.value)} />
+                                </div>
+                                <div>
+                                    <label className="form-label text-xs">Instagram</label>
+                                    <input className="form-input text-sm" placeholder="URL" value={instagram} onChange={e => setInstagram(e.target.value)} />
+                                </div>
+                                <div>
+                                    <label className="form-label text-xs">Twitter/X</label>
+                                    <input className="form-input text-sm" placeholder="URL" value={twitter} onChange={e => setTwitter(e.target.value)} />
+                                </div>
                             </div>
 
+                            <hr className="border-gray-800 my-4" />
+                            <div>
+                                <label className="form-label">New Password (optional)</label>
+                                <input type="password" className="form-input" value={password} onChange={e => setPassword(e.target.value)} minLength={6} placeholder="Leave blank to keep current" />
+                            </div>
                             {password && (
                                 <div>
                                     <label className="form-label">Confirm Password</label>
-                                    <input
-                                        type="password"
-                                        className="form-input"
-                                        placeholder="Confirm new password"
-                                        value={confirmPassword}
-                                        onChange={e => setConfirmPassword(e.target.value)}
-                                        required
-                                    />
+                                    <input type="password" className="form-input" value={confirmPassword} onChange={e => setConfirmPassword(e.target.value)} required />
                                 </div>
                             )}
 
                             <div className="flex justify-end pt-4">
-                                <button
-                                    type="submit"
-                                    disabled={isSaving}
-                                    className="btn-primary"
-                                >
+                                <button type="submit" disabled={isSaving} className="btn-primary">
                                     {isSaving ? 'Saving...' : 'Save Changes'}
                                 </button>
                             </div>
                         </form>
                     </div>
                 </div>
-            </div>
+            ) : (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {myPosts.length === 0 ? (
+                        <div className="text-center py-12 text-gray-500 w-full col-span-2">You haven't posted anything yet.</div>
+                    ) : (
+                        myPosts.map(post => (
+                            <div key={post.id} className="card relative group">
+                                <Link href={`/forum/${post.id}`}>
+                                    <h3 className="font-bold text-lg mb-2">{post.title}</h3>
+                                    <p className="text-sm text-gray-400 line-clamp-2">{post.content}</p>
+                                    <div className="mt-2 text-xs text-gray-500">
+                                        ❤️ {post.likes} • 💬 {post.comment_count} • {new Date(post.created_at).toLocaleDateString()}
+                                    </div>
+                                </Link>
+                                <button
+                                    onClick={() => handleDeletePost(post.id)}
+                                    className="absolute top-4 right-4 text-red-400 opacity-0 group-hover:opacity-100 transition-opacity hover:bg-red-500/10 p-2 rounded"
+                                >
+                                    🗑️ Delete
+                                </button>
+                            </div>
+                        ))
+                    )}
+                </div>
+            )}
         </div>
     );
 }

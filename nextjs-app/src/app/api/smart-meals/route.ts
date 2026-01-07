@@ -81,7 +81,7 @@ export async function POST(request: NextRequest) {
                 // Fallback: relax constraints if no meal found (e.g. just calories)
                 const fallback = await query(`
                     SELECT * FROM recipes 
-                    WHERE kcal BETWEEN ? AND ?
+                    WHERE kcal BETWEEN ? AND ? AND is_healthy = 1
                     ORDER BY RANDOM() LIMIT 1
                 `, [minKcal * 0.5, maxKcal * 1.5]); // Wider range
 

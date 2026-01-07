@@ -68,7 +68,7 @@ export default function SmartPlan() {
         if (meal.local_image_path) {
             return `/images/recipes/${meal.local_image_path.replace('images/', '')}`;
         }
-        return meal.image_url;
+        return meal.image_url || '/images/placeholder.png';
     };
 
     if (loading) return <div className="card animate-pulse h-64 bg-gray-800/50 mb-8" />;

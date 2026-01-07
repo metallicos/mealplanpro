@@ -45,9 +45,9 @@ export default function Dashboard() {
   };
 
   useEffect(() => {
-    // Fetch random meals from API
+    // Fetch random meals from API (Healthy Only)
     setMealsLoading(true);
-    fetch('/api/recipes/random?count=6')
+    fetch('/api/recipes/random?count=6&healthy=true')
       .then(res => res.json())
       .then(data => {
         setRandomMeals(data.recipes || []);
@@ -60,7 +60,7 @@ export default function Dashboard() {
     if (meal.local_image_path) {
       return `/images/recipes/${meal.local_image_path.replace('images/', '')}`;
     }
-    return meal.image_url || null;
+    return meal.image_url || '/images/placeholder.png';
   };
 
   if (isLoading || !user) return <div className="p-8 text-center">Loading dashboard...</div>;

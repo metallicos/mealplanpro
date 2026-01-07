@@ -14,6 +14,7 @@ DROP TABLE IF EXISTS ingredients;
 DROP TABLE IF EXISTS meal_ratings;
 DROP TABLE IF EXISTS forum_posts;
 DROP TABLE IF EXISTS forum_comments;
+DROP TABLE IF EXISTS forum_likes;
 
 PRAGMA foreign_keys = ON;
 
@@ -53,6 +54,9 @@ CREATE TABLE user_profiles (
     carbs_target INTEGER,
     fat_target INTEGER,
     avatar_url TEXT,
+    facebook TEXT,
+    instagram TEXT,
+    twitter TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
@@ -188,11 +192,21 @@ CREATE TABLE forum_comments (
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
 
--- 12. Seed Admin Account
+-- 12. Create Forum Likes Table (NEW)
+CREATE TABLE forum_likes (
+    user_id INTEGER NOT NULL,
+    post_id INTEGER NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (user_id, post_id),
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY (post_id) REFERENCES forum_posts(id) ON DELETE CASCADE
+);
+
+-- 13. Seed Admin Account
 INSERT INTO users (email, password_hash, full_name, role) 
 VALUES ('admin@mealplan.com', '$2b$10$lBZBhAWKzwF6G0HiYv2vpuE90PeNxWNoD7L0r4WZTzkknB2xPKsYq', 'System Admin', 'admin');
 
--- 13. Seed Master Account
+-- 14. Seed Master Account
 INSERT INTO users (email, password_hash, full_name, role)
 VALUES ('master@mealplan.com', '$2b$10$lBZBhAWKzwF6G0HiYv2vpuE90PeNxWNoD7L0r4WZTzkknB2xPKsYq', 'John (Master)', 'master');
 
@@ -204,4 +218,3 @@ VALUES ((SELECT id FROM users WHERE email = 'master@mealplan.com'), 'The Johnson
 UPDATE users 
 SET household_id = (SELECT id FROM households WHERE name = 'The Johnsons') 
 WHERE email = 'master@mealplan.com';
-
