@@ -51,11 +51,20 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                 scannerRef.current = html5QrCode;
 
                 await html5QrCode.start(
-                    { facingMode: "environment" },
+                    {
+                        facingMode: "environment",
+                        width: { min: 640, ideal: 1920 },
+                        height: { min: 480, ideal: 1080 },
+                        focusMode: "continuous"
+                    } as any, // Cast to avoid TS issues with custom constraints
                     {
                         fps: 10,
-                        qrbox: { width: 250, height: 250 },
-                        aspectRatio: 1.0,
+                        videoConstraints: {
+                            facingMode: "environment",
+                            width: { min: 640, ideal: 1920 },
+                            height: { min: 480, ideal: 1080 },
+                            focusMode: "continuous"
+                        } as any
                     },
                     async (decodedText) => {
                         // Success callback
