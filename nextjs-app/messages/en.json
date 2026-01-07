@@ -16,7 +16,8 @@
     "mealLibrary": "Meal Library",
     "statistics": "Statistics",
     "groceryList": "Grocery List",
-    "adminPanel": "Admin Panel"
+    "adminPanel": "Admin Panel",
+    "profile": "Profile"
   },
   "auth": {
     "signIn": "Sign In",

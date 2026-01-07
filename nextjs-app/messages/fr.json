@@ -16,7 +16,8 @@
         "mealLibrary": "Bibliothèque de Repas",
         "statistics": "Statistiques",
         "groceryList": "Liste de Courses",
-        "adminPanel": "Panneau Admin"
+        "adminPanel": "Panneau Admin",
+        "profile": "Profil"
     },
     "auth": {
         "signIn": "Connexion",

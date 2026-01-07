@@ -13,6 +13,7 @@ const navItems = [
     { href: '/meals', labelKey: 'mealLibrary', icon: '📚' },
     { href: '/statistics', labelKey: 'statistics', icon: '📈' },
     { href: '/groceries', labelKey: 'groceryList', icon: '🛒' },
+    { href: '/profile', labelKey: 'profile', icon: '👤' },
 ];
 
 export default function Sidebar() {
@@ -151,13 +152,26 @@ export default function Sidebar() {
                     </div>
 
                     {/* User Info */}
-                    <div className="p-4 rounded-lg mb-2" style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)' }}>
-                        <p className="text-sm font-medium text-white">{user.fullName}</p>
-                        <p className="text-xs text-gray-400 capitalize">{user.role}</p>
+                    <Link href="/profile" className="block p-4 rounded-lg mb-2 cursor-pointer transition-colors hover:bg-white/10" style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)' }}>
+                        <div className="flex items-center gap-3">
+                            <div className="w-10 h-10 rounded-full bg-gray-600 overflow-hidden flex-shrink-0 border border-gray-400">
+                                {user.avatarUrl ? (
+                                    <img src={user.avatarUrl} alt="Avatar" className="w-full h-full object-cover" />
+                                ) : (
+                                    <div className="w-full h-full flex items-center justify-center text-white text-xs">
+                                        {user.fullName?.[0]}
+                                    </div>
+                                )}
+                            </div>
+                            <div className="min-w-0">
+                                <p className="text-sm font-medium text-white truncate">{user.fullName}</p>
+                                <p className="text-xs text-gray-400 capitalize">{user.role}</p>
+                            </div>
+                        </div>
                         {user.householdName && (
-                            <p className="text-xs text-gray-500 mt-1">🏠 {user.householdName}</p>
+                            <p className="text-xs text-gray-500 mt-2">🏠 {user.householdName}</p>
                         )}
-                    </div>
+                    </Link>
 
                     <button
                         onClick={() => logout()}

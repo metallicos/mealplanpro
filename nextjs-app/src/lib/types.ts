@@ -63,26 +63,37 @@ export interface GroceryItem {
     week_start_date: string | null;
 }
 
-// Meal plan
+// Nutritional info (per serving) - New BBC Good Food format
+export interface NutritionalInfo {
+    kcal: string;
+    fat: string;
+    saturates: string;
+    carbs: string;
+    sugars: string;
+    fibre: string;
+    protein: string;
+    salt: string;
+}
+
+// Meal/Recipe - New BBC Good Food format
 export interface MealPlan {
-    id: number;
-    name: string;
+    id?: number;
+    url?: string;
+    title: string;
     description: string;
-    cuisine: string;
-    category?: string;
-    prep_time: number;
-    calories: number;
-    protein: number;
-    carbs: number;
-    fat: number;
+    prep_time: string;
+    cook_time?: string;
+    serves: string;
     ingredients: string[];
-    instructions: string[];
-    image_emoji: string;
-    image_url?: string; // Real image URL from TheMealDB
-    youtube_url?: string;
-    source_url?: string;
-    color_from: string;
-    color_to: string;
+    method: string[];
+    nutritional_info: NutritionalInfo;
+    image_url: string;
+    local_image_path: string;
+    // Category & flags
+    category: string;        // e.g., "healthy", "cuisine", "cakes-baking", "ramadan"
+    subcategory?: string;    // e.g., "gluten-free", "moroccan", "chocolate-cake"
+    isHealthy: boolean;      // true for all recipes from healthy folder
+    tags?: string[];
 }
 
 // Statistics

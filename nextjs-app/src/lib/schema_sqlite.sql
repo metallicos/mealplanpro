@@ -9,6 +9,11 @@ DROP TABLE IF EXISTS grocery_budgets;
 DROP TABLE IF EXISTS user_profiles;
 DROP TABLE IF EXISTS users;
 DROP TABLE IF EXISTS households;
+DROP TABLE IF EXISTS recipes;
+DROP TABLE IF EXISTS ingredients;
+DROP TABLE IF EXISTS meal_ratings;
+DROP TABLE IF EXISTS forum_posts;
+DROP TABLE IF EXISTS forum_comments;
 
 PRAGMA foreign_keys = ON;
 
@@ -47,6 +52,7 @@ CREATE TABLE user_profiles (
     protein_target INTEGER,
     carbs_target INTEGER,
     fat_target INTEGER,
+    avatar_url TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
@@ -95,11 +101,98 @@ CREATE TABLE weight_logs (
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
 
--- 7. Seed Admin Account
+-- 7. Create Recipes Table (NEW)
+CREATE TABLE recipes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    description TEXT,
+    url TEXT,
+    prep_time TEXT,
+    cook_time TEXT,
+    serves TEXT,
+    -- Nutritional info (per serving)
+    kcal INTEGER DEFAULT 0,
+    protein REAL DEFAULT 0,
+    carbs REAL DEFAULT 0,
+    fat REAL DEFAULT 0,
+    fibre REAL DEFAULT 0,
+    sugars REAL DEFAULT 0,
+    salt REAL DEFAULT 0,
+    saturates REAL DEFAULT 0,
+    -- Ingredients and method stored as JSON arrays
+    ingredients TEXT, -- JSON array
+    method TEXT, -- JSON array
+    -- Images
+    image_url TEXT,
+    local_image_path TEXT,
+    -- Category info
+    category TEXT NOT NULL, -- 'healthy', 'cuisine', 'cakes-baking', 'ramadan', 'international'
+    subcategory TEXT,
+    is_healthy BOOLEAN DEFAULT 0,
+    tags TEXT, -- JSON array
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Create index for faster queries
+CREATE INDEX idx_recipes_category ON recipes(category);
+CREATE INDEX idx_recipes_is_healthy ON recipes(is_healthy);
+CREATE INDEX idx_recipes_title ON recipes(title);
+
+-- 8. Create Ingredients Table (NEW)
+CREATE TABLE ingredients (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    calories INTEGER NOT NULL, -- per 100g
+    protein REAL NOT NULL,    -- per 100g
+    carbs REAL NOT NULL,      -- per 100g
+    fat REAL NOT NULL,        -- per 100g
+    fiber REAL DEFAULT 0,     -- per 100g
+    sugar REAL DEFAULT 0,     -- per 100g
+    category TEXT, -- 'meat', 'vegetable', 'fruit', 'grain', 'dairy', 'other'
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- 9. Create Meal Ratings Table (NEW)
+CREATE TABLE meal_ratings (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER NOT NULL,
+    meal_id INTEGER NOT NULL,
+    rating INTEGER CHECK(rating BETWEEN 1 AND 5),
+    comment TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY (meal_id) REFERENCES recipes(id) ON DELETE CASCADE
+);
+
+-- 10. Create Forum Posts Table (NEW)
+CREATE TABLE forum_posts (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER NOT NULL,
+    title TEXT NOT NULL,
+    content TEXT NOT NULL,
+    image_url TEXT, -- Added for image posts
+    likes INTEGER DEFAULT 0,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+-- 11. Create Forum Comments Table (NEW)
+CREATE TABLE forum_comments (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    post_id INTEGER NOT NULL,
+    user_id INTEGER NOT NULL,
+    content TEXT NOT NULL,
+    image_url TEXT, -- Added for image in comments
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (post_id) REFERENCES forum_posts(id) ON DELETE CASCADE,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+-- 12. Seed Admin Account
 INSERT INTO users (email, password_hash, full_name, role) 
 VALUES ('admin@mealplan.com', '$2b$10$lBZBhAWKzwF6G0HiYv2vpuE90PeNxWNoD7L0r4WZTzkknB2xPKsYq', 'System Admin', 'admin');
 
--- 8. Seed Master Account
+-- 13. Seed Master Account
 INSERT INTO users (email, password_hash, full_name, role)
 VALUES ('master@mealplan.com', '$2b$10$lBZBhAWKzwF6G0HiYv2vpuE90PeNxWNoD7L0r4WZTzkknB2xPKsYq', 'John (Master)', 'master');
 
@@ -111,3 +204,4 @@ VALUES ((SELECT id FROM users WHERE email = 'master@mealplan.com'), 'The Johnson
 UPDATE users 
 SET household_id = (SELECT id FROM households WHERE name = 'The Johnsons') 
 WHERE email = 'master@mealplan.com';
+

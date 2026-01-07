@@ -10,6 +10,7 @@ export interface UserSession {
     role: 'admin' | 'master' | 'member';
     householdId: number | null;
     householdName?: string;
+    avatarUrl?: string;
 }
 
 export interface UserSettings {

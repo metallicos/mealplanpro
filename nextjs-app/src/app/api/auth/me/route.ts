@@ -12,9 +12,10 @@ export async function GET() {
     try {
         // Fetch fresh user data including household name if needed
         const result = await query<any[]>(
-            `SELECT u.id, u.email, u.full_name, u.role, u.household_id, h.name as household_name
+            `SELECT u.id, u.email, u.full_name, u.role, u.household_id, h.name as household_name, up.avatar_url
              FROM users u
              LEFT JOIN households h ON u.household_id = h.id
+             LEFT JOIN user_profiles up ON u.id = up.user_id
              WHERE u.id = ?`,
             [session.id]
         );
@@ -32,7 +33,8 @@ export async function GET() {
                 fullName: user.full_name,
                 role: user.role,
                 householdId: user.household_id,
-                householdName: user.household_name
+                householdName: user.household_name,
+                avatarUrl: user.avatar_url
             }
         });
     } catch (error) {

@@ -7,18 +7,16 @@ import { useUser } from '@/contexts/UserContext';
 const BarcodeScanner = lazy(() => import('@/components/BarcodeScanner'));
 
 // Sample foods (would come from API in production)
-const sampleFoods = [
-    { id: 1, name: 'Chicken breast (grilled)', calories: 165, protein: 31, carbs: 0, fat: 3.6 },
-    { id: 2, name: 'Rice (cooked white)', calories: 130, protein: 2.7, carbs: 28, fat: 0.3 },
-    { id: 3, name: 'Eggs (whole)', calories: 155, protein: 13, carbs: 1.1, fat: 11 },
-    { id: 4, name: 'Greek yogurt (plain)', calories: 59, protein: 10, carbs: 3.6, fat: 0.7 },
-    { id: 5, name: 'Banana', calories: 89, protein: 1.1, carbs: 23, fat: 0.3 },
-    { id: 6, name: 'Almonds', calories: 579, protein: 21, carbs: 22, fat: 50 },
-    { id: 7, name: 'Oatmeal (cooked)', calories: 68, protein: 2.4, carbs: 12, fat: 1.4 },
-    { id: 8, name: 'Beef (ground, lean)', calories: 250, protein: 26, carbs: 0, fat: 15 },
-    { id: 9, name: 'Salmon (baked)', calories: 208, protein: 20, carbs: 0, fat: 13 },
-    { id: 10, name: 'Broccoli (steamed)', calories: 35, protein: 2.4, carbs: 7, fat: 0.4 },
-];
+// Ingredient type from DB
+interface Ingredient {
+    id: number;
+    name: string;
+    calories: number;
+    protein: number;
+    carbs: number;
+    fat: number;
+    category?: string;
+}
 
 interface LogItem {
     id: number;
@@ -50,7 +48,9 @@ export default function MacrosPage() {
     const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split('T')[0]);
     const [logItems, setLogItems] = useState<LogItem[]>([]);
     const [searchQuery, setSearchQuery] = useState('');
-    const [selectedFood, setSelectedFood] = useState<typeof sampleFoods[0] | null>(null);
+    const [searchResults, setSearchResults] = useState<Ingredient[]>([]);
+    const [isSearching, setIsSearching] = useState(false);
+    const [selectedFood, setSelectedFood] = useState<Ingredient | null>(null);
     const [grams, setGrams] = useState(100);
     const [mealType, setMealType] = useState<'main' | 'snack'>('main');
     const [weight, setWeight] = useState<number | null>(null);
@@ -75,13 +75,29 @@ export default function MacrosPage() {
         fat: acc.fat + item.fat,
     }), { calories: 0, protein: 0, carbs: 0, fat: 0 });
 
-    const searchResults = searchQuery
-        ? sampleFoods.filter(f => f.name.toLowerCase().includes(searchQuery.toLowerCase()))
-        : [];
+    // Debounce search
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            if (searchQuery.length >= 2) {
+                setIsSearching(true);
+                fetch(`/api/ingredients/search?q=${encodeURIComponent(searchQuery)}`)
+                    .then(res => res.json())
+                    .then(data => {
+                        setSearchResults(data.ingredients || []);
+                    })
+                    .catch(err => console.error('Search error:', err))
+                    .finally(() => setIsSearching(false));
+            } else {
+                setSearchResults([]);
+            }
+        }, 300);
+        return () => clearTimeout(timer);
+    }, [searchQuery]);
 
-    const selectFood = (food: typeof sampleFoods[0]) => {
+    const selectFood = (food: Ingredient) => {
         setSelectedFood(food);
         setSearchQuery(food.name);
+        setSearchResults([]); // Hide results after selection
     };
 
     const addToLog = () => {
@@ -295,7 +311,8 @@ export default function MacrosPage() {
                             />
 
                             {searchResults.length > 0 && !selectedFood && (
-                                <div className="absolute top-full left-0 right-0 mt-1 bg-gray-900 border border-gray-700 rounded-lg max-h-60 overflow-y-auto z-10">
+                                <div className="absolute top-full left-0 right-0 mt-1 bg-gray-900 border border-gray-700 rounded-lg max-h-60 overflow-y-auto z-10 shadow-xl">
+                                    {isSearching && <div className="p-2 text-sm text-gray-500">Searching...</div>}
                                     {searchResults.map((food) => (
                                         <button
                                             key={food.id}
@@ -370,23 +387,7 @@ export default function MacrosPage() {
                     </div>
 
                     {/* Quick Add */}
-                    <div className="mt-6">
-                        <p className="form-label mb-2">Quick Add Common Foods</p>
-                        <div className="flex flex-wrap gap-2">
-                            {sampleFoods.slice(0, 6).map((food) => (
-                                <button
-                                    key={food.id}
-                                    onClick={() => {
-                                        selectFood(food);
-                                        setGrams(food.name.includes('Egg') ? 100 : 200);
-                                    }}
-                                    className="px-3 py-1 text-sm rounded-full border border-gray-700 hover:border-gray-500"
-                                >
-                                    {food.name.split('(')[0].trim()}
-                                </button>
-                            ))}
-                        </div>
-                    </div>
+                    {/* Quick Add Removed - Use Search */}\n                    <div className="mt-4 text-xs text-gray-500 text-center">\n                        Search for any ingredient to see real macro data\n                    </div>
                 </div>
 
                 {/* Today's Log */}

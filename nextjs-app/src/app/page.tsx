@@ -1,13 +1,31 @@
 'use client';
 
 import { useUser } from '@/contexts/UserContext';
-import { mealPlans, getRandomMeals } from '@/lib/meal-plans';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
+import SmartPlan from '@/components/SmartPlan';
+
+interface Recipe {
+  id: number;
+  title: string;
+  description: string;
+  kcal: number;
+  protein: number;
+  carbs: number;
+  fat: number;
+  category: string;
+  subcategory: string;
+  prep_time: string;
+  serves: string;
+  image_url: string;
+  local_image_path: string;
+  isHealthy: boolean;
+}
 
 export default function Dashboard() {
   const { user, theme, settings, isLoading } = useUser();
-  const [randomMeals, setRandomMeals] = useState<typeof mealPlans>([]);
+  const [randomMeals, setRandomMeals] = useState<Recipe[]>([]);
+  const [mealsLoading, setMealsLoading] = useState(true);
   const [stats, setStats] = useState({
     calories: 0,
     protein: 0,
@@ -27,9 +45,23 @@ export default function Dashboard() {
   };
 
   useEffect(() => {
-    // Refresh random meals on mount
-    setRandomMeals(getRandomMeals(6));
+    // Fetch random meals from API
+    setMealsLoading(true);
+    fetch('/api/recipes/random?count=6')
+      .then(res => res.json())
+      .then(data => {
+        setRandomMeals(data.recipes || []);
+      })
+      .catch(err => console.error('Failed to fetch meals:', err))
+      .finally(() => setMealsLoading(false));
   }, []);
+
+  const getImageUrl = (meal: Recipe) => {
+    if (meal.local_image_path) {
+      return `/images/recipes/${meal.local_image_path.replace('images/', '')}`;
+    }
+    return meal.image_url || null;
+  };
 
   if (isLoading || !user) return <div className="p-8 text-center">Loading dashboard...</div>;
 
@@ -42,6 +74,7 @@ export default function Dashboard() {
 
       {/* Stats Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+        {/* ... stats cards ... */}
         <div className="stat-card">
           <div className="text-4xl mb-2">🔥</div>
           <div className="stat-value">{stats.calories}</div>
@@ -154,8 +187,14 @@ export default function Dashboard() {
           <Link href="/groceries" className="btn-secondary text-center">
             <span>🛒</span> Grocery List
           </Link>
+          <Link href="/community" className="btn-secondary text-center border-violet-500/50">
+            <span>💬</span> Community
+          </Link>
         </div>
       </div>
+
+      {/* Smart Daily Plan */}
+      <SmartPlan />
 
       {/* Meal Ideas */}
       <div className="mb-8">
@@ -170,52 +209,71 @@ export default function Dashboard() {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {randomMeals.map((meal) => (
-            <div key={meal.id} className="meal-card">
-              {meal.image_url ? (
-                <div
-                  className="meal-card-image"
-                  style={{
-                    backgroundImage: `url(${meal.image_url})`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center'
-                  }}
-                />
-              ) : (
-                <div
-                  className="meal-card-image"
-                  style={{ background: `linear-gradient(135deg, ${meal.color_from}, ${meal.color_to})` }}
-                >
-                  {meal.image_emoji}
+          {mealsLoading ? (
+            // Loading skeletons
+            Array.from({ length: 6 }).map((_, i) => (
+              <div key={i} className="meal-card animate-pulse">
+                <div className="meal-card-image bg-gray-700" />
+                <div className="meal-card-content">
+                  <div className="h-4 bg-gray-700 rounded w-3/4 mb-2" />
+                  <div className="h-3 bg-gray-700 rounded w-1/2" />
                 </div>
-              )}
-              <div className="meal-card-content">
-                <div className="meal-card-title">{meal.name}</div>
-                <div className="meal-card-meta">
-                  <span>🌍 {meal.cuisine}</span>
-                  <span>⏱️ {meal.prep_time} min</span>
-                </div>
-                <div className="meal-card-macros">
-                  <div>
-                    <div className="macro-value" style={{ color: 'var(--calories)' }}>{meal.calories}</div>
-                    <div className="macro-label">kcal</div>
+              </div>
+            ))
+          ) : (
+            randomMeals.map((meal) => (
+              <div key={meal.id} className="meal-card relative">
+                {/* Healthy Badge */}
+                {meal.isHealthy && (
+                  <div className="absolute top-2 left-2 z-10 bg-green-500 text-white text-xs px-2 py-1 rounded-full font-medium shadow-lg">
+                    🥗 Healthy
                   </div>
-                  <div>
-                    <div className="macro-value" style={{ color: 'var(--protein)' }}>{meal.protein}g</div>
-                    <div className="macro-label">Protein</div>
+                )}
+                {getImageUrl(meal) ? (
+                  <div
+                    className="meal-card-image"
+                    style={{
+                      backgroundImage: `url(${getImageUrl(meal)})`,
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center'
+                    }}
+                  />
+                ) : (
+                  <div
+                    className="meal-card-image"
+                    style={{ background: 'linear-gradient(135deg, #6366f1, #8b5cf6)' }}
+                  >
+                    🍽️
                   </div>
-                  <div>
-                    <div className="macro-value" style={{ color: 'var(--carbs)' }}>{meal.carbs}g</div>
-                    <div className="macro-label">Carbs</div>
+                )}
+                <div className="meal-card-content">
+                  <div className="meal-card-title">{meal.title}</div>
+                  <div className="meal-card-meta">
+                    <span className="capitalize">📂 {meal.category?.replace(/-/g, ' ')}</span>
+                    <span>⏱️ {meal.prep_time || 'N/A'}</span>
                   </div>
-                  <div>
-                    <div className="macro-value" style={{ color: 'var(--fat)' }}>{meal.fat}g</div>
-                    <div className="macro-label">Fat</div>
+                  <div className="meal-card-macros">
+                    <div>
+                      <div className="macro-value" style={{ color: 'var(--calories)' }}>{meal.kcal}</div>
+                      <div className="macro-label">kcal</div>
+                    </div>
+                    <div>
+                      <div className="macro-value" style={{ color: 'var(--protein)' }}>{meal.protein}g</div>
+                      <div className="macro-label">Protein</div>
+                    </div>
+                    <div>
+                      <div className="macro-value" style={{ color: 'var(--carbs)' }}>{meal.carbs}g</div>
+                      <div className="macro-label">Carbs</div>
+                    </div>
+                    <div>
+                      <div className="macro-value" style={{ color: 'var(--fat)' }}>{meal.fat}g</div>
+                      <div className="macro-label">Fat</div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))
+          )}
         </div>
       </div>
 

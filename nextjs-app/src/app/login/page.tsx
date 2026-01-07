@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useUser } from '@/contexts/UserContext';
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 
 export default function LoginPage() {
     const router = useRouter();
@@ -121,6 +122,13 @@ export default function LoginPage() {
                         {isLoading ? '...' : t('signIn')}
                     </button>
                 </form>
+
+                <div className="mt-6 text-center text-sm text-gray-400">
+                    {t('noAccount') || "Don't have an account?"}{' '}
+                    <Link href="/signup" className="text-violet-400 hover:text-violet-300">
+                        {t('signUp') || "Sign up"}
+                    </Link>
+                </div>
             </div>
         </div>
     );

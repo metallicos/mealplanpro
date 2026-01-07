@@ -1,0 +1,120 @@
+import { NextRequest, NextResponse } from 'next/server';
+import { query } from '@/lib/db';
+
+export async function GET(request: NextRequest) {
+    const searchParams = request.nextUrl.searchParams;
+
+    // Pagination
+    const page = parseInt(searchParams.get('page') || '1');
+    const limit = parseInt(searchParams.get('limit') || '12');
+    const offset = (page - 1) * limit;
+
+    // Filters
+    const search = searchParams.get('search') || '';
+    const category = searchParams.get('category') || '';
+    const subcategory = searchParams.get('subcategory') || '';
+    const healthyOnly = searchParams.get('healthy') === 'true';
+
+    try {
+        // Build WHERE clause
+        const conditions: string[] = [];
+        const params: (string | number)[] = [];
+
+        if (search) {
+            conditions.push('(title LIKE ? OR description LIKE ? OR ingredients LIKE ?)');
+            const searchPattern = `%${search}%`;
+            params.push(searchPattern, searchPattern, searchPattern);
+        }
+
+        if (category && category !== 'all') {
+            conditions.push('category = ?');
+            params.push(category);
+        }
+
+        if (subcategory && subcategory !== 'all') {
+            conditions.push('subcategory = ?');
+            params.push(subcategory);
+        }
+
+        if (healthyOnly) {
+            conditions.push('is_healthy = 1');
+        }
+
+        const whereClause = conditions.length > 0
+            ? `WHERE ${conditions.join(' AND ')}`
+            : '';
+
+        // Get total count
+        const countResult = await query(
+            `SELECT COUNT(*) as total FROM recipes ${whereClause}`,
+            params
+        );
+        const total = (countResult as { total: number }[])[0]?.total || 0;
+
+        // Get recipes with pagination
+        const recipes = await query(
+            `SELECT * FROM recipes ${whereClause} ORDER BY title ASC LIMIT ? OFFSET ?`,
+            [...params, limit, offset]
+        );
+
+        // Parse JSON fields
+        const parsedRecipes = (recipes as Record<string, unknown>[]).map(recipe => ({
+            ...recipe,
+            ingredients: JSON.parse(recipe.ingredients as string || '[]'),
+            method: JSON.parse(recipe.method as string || '[]'),
+            tags: JSON.parse(recipe.tags as string || '[]'),
+            isHealthy: recipe.is_healthy === 1,
+        }));
+
+        return NextResponse.json({
+            recipes: parsedRecipes,
+            pagination: {
+                page,
+                limit,
+                total,
+                totalPages: Math.ceil(total / limit)
+            }
+        });
+    } catch (error) {
+        console.error('Recipes API error:', error);
+        return NextResponse.json(
+            { error: 'Failed to fetch recipes' },
+            { status: 500 }
+        );
+    }
+}
+
+// Get single recipe by ID
+export async function POST(request: NextRequest) {
+    try {
+        const { id } = await request.json();
+
+        const recipes = await query(
+            'SELECT * FROM recipes WHERE id = ?',
+            [id]
+        );
+
+        if (!recipes || (recipes as unknown[]).length === 0) {
+            return NextResponse.json(
+                { error: 'Recipe not found' },
+                { status: 404 }
+            );
+        }
+
+        const recipe = (recipes as Record<string, unknown>[])[0];
+
+        return NextResponse.json({
+            ...recipe,
+            ingredients: JSON.parse(recipe.ingredients as string || '[]'),
+            method: JSON.parse(recipe.method as string || '[]'),
+            tags: JSON.parse(recipe.tags as string || '[]'),
+            isHealthy: recipe.is_healthy === 1,
+        });
+    } catch (error) {
+        console.error('Recipe fetch error:', error);
+        return NextResponse.json(
+            { error: 'Failed to fetch recipe' },
+            { status: 500 }
+        );
+    }
+}
