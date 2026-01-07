@@ -42,3 +42,4 @@ next-env.d.ts
 
 # recipe images (loaded from external URLs or copied locally)
 /public/images/recipes/
+scripts/.deploy_secrets

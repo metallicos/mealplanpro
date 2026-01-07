@@ -3,7 +3,8 @@ const fs = require('fs');
 const path = require('path');
 
 const client = createClient({
-    url: 'file:local.db',
+    url: process.env.TURSO_DATABASE_URL || 'file:local.db',
+    authToken: process.env.TURSO_AUTH_TOKEN,
 });
 
 async function main() {

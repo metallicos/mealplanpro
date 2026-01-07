@@ -195,10 +195,13 @@ export default function MealsPage() {
 
     // Get image URL (prefer local, fallback to remote)
     const getImageUrl = (recipe: Recipe) => {
+        if (recipe.image_url) {
+            return recipe.image_url;
+        }
         if (recipe.local_image_path) {
             return `/images/recipes/${recipe.local_image_path.replace('images/', '')}`;
         }
-        return recipe.image_url || null;
+        return null;
     };
 
     return (

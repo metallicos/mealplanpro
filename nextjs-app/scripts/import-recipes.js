@@ -34,6 +34,7 @@ async function main() {
     console.log('🔌 Connected to Turso database\n');
 
     // Create recipes table if not exists
+    // Create recipes table if not exists
     await client.execute(`
         CREATE TABLE IF NOT EXISTS recipes (
             id INTEGER PRIMARY KEY AUTOINCREMENT,

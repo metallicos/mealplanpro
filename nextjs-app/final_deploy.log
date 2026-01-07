@@ -1,0 +1,133 @@
+🔑 Loaded credentials from scripts/.deploy_secrets
+🚀 Starting Production Database Deployment
+----------------------------------------
+1️⃣  Initializing Database Schema...
+Initializing database from schema...
+Database initialized successfully.
+
+2️⃣  Importing Recipes...
+[dotenv@17.2.3] injecting env (3) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+🔌 Connected to Turso database
+
+🗑️  Clearing existing recipes...
+
+📂 Processing healthy: 48 files
+   ✓ 200-400-calories.json: 317 recipes
+   ✓ 200-400-clories.json: 60 recipes
+   ✓ 52.json: 31 recipes
+   ✓ 7-day.json: 43 recipes
+   ✓ cheap-and-healthy.json: 81 recipes
+   ✓ cholesterol-friendly.json: 30 recipes
+   ✓ clean-eating-recipes.json: 95 recipes
+   ✓ dairy-free-breakfast.json: 30 recipes
+   ✓ dairy-free-dinner.json: 33 recipes
+   ✓ dairy-free-lunch.json: 43 recipes
+   ✓ dairy-free-snack.json: 32 recipes
+   ✓ dairy-free.json: 55 recipes
+   ✓ eat-athlete.json: 30 recipes
+   ✓ gluten-free-breakfast.json: 25 recipes
+   ✓ gluten-free-dinner.json: 30 recipes
+   ✓ gluten-free-lunch.json: 31 recipes
+   ✓ gluten-free-snack.json: 29 recipes
+   ✓ gluten-free.json: 71 recipes
+   ✓ healthy-breakfast.json: 85 recipes
+   ✓ healthy-chicken.json: 54 recipes
+   ✓ healthy-dinner-party.json: 120 recipes
+   ✓ healthy-fish.json: 51 recipes
+   ✓ healthy-lunch.json: 159 recipes
+   ✓ healthy-one-pot.json: 30 recipes
+   ✓ healthy-pasta.json: 55 recipes
+   ✓ healthy-roast.json: 23 recipes
+   ✓ healthy-sandwich.json: 21 recipes
+   ✓ healthy-snack.json: 56 recipes
+   ✓ healthy-soup.json: 43 recipes
+   ✓ healthy-spring.json: 53 recipes
+   ✓ healthy-summer.json: 101 recipes
+   ✓ healthy-treat.json: 35 recipes
+   ✓ healthy-vegetarian.json: 185 recipes
+   ✓ healthy-winter.json: 71 recipes
+   ✓ healthy.json: 173 recipes
+   ✓ high-protein.json: 41 recipes
+   ✓ light-supper.json: 64 recipes
+   ✓ low-calorie-breakfast.json: 35 recipes
+   ✓ low-calorie-dinner.json: 87 recipes
+   ✓ low-calorie-lunch.json: 72 recipes
+   ✓ low-carbohydrate.json: 40 recipes
+   ✓ low-gi-breakfast.json: 21 recipes
+   ✓ low-gi-dinner.json: 24 recipes
+   ✓ low-gi-snack.json: 18 recipes
+   ✓ low-salt-dinner.json: 41 recipes
+   ✓ low-salt-lunch.json: 32 recipes
+   ✓ low-sugar.json: 35 recipes
+   ✓ vegetarian-dessert.json: 34 recipes
+
+📂 Processing cuisine: 19 files
+   ✓ american.json: 37 recipes
+   ✓ asian.json: 67 recipes
+   ✓ british-recipes.json: 43 recipes
+   ✓ caribbean-recipes.json: 24 recipes
+   ✓ chinese.json: 68 recipes
+   ✓ french.json: 37 recipes
+   ✓ greek.json: 23 recipes
+   ✓ indian.json: 155 recipes
+   ✓ italian.json: 82 recipes
+   ✓ japanese.json: 41 recipes
+   ✓ latin-american.json: 1 recipes
+   ✓ mediterranean.json: 36 recipes
+   ✓ mexican.json: 70 recipes
+   ✓ middle-eastern.json: 91 recipes
+   ✓ moroccan.json: 41 recipes
+   ✓ spanish.json: 33 recipes
+   ✓ thai.json: 55 recipes
+   ✓ turkish.json: 38 recipes
+   ✓ vietnamese.json: 35 recipes
+
+📂 Processing cakes-baking: 24 files
+   ✓ baking.json: 186 recipes
+   ✓ biscuit-recipes.json: 43 recipes
+   ✓ bread-recipes.json: 78 recipes
+   ✓ brownie.json: 28 recipes
+   ✓ cake-sale.json: 53 recipes
+   ✓ caramel.json: 33 recipes
+   ✓ celebration-cake-recipes.json: 76 recipes
+   ✓ cheesecake.json: 61 recipes
+   ✓ chocolate-baking.json: 85 recipes
+   ✓ chocolate-cake.json: 67 recipes
+   ✓ cookies.json: 58 recipes
+   ✓ cupcake.json: 33 recipes
+   ✓ easy-baking.json: 155 recipes
+   ✓ frozen-desserts.json: 41 recipes
+   ✓ fruitcake.json: 22 recipes
+   ✓ fruity-cake.json: 51 recipes
+   ✓ garden-glut-cake.json: 22 recipes
+   ✓ halloween-cake.json: 20 recipes
+   ✓ low-fat-cake.json: 22 recipes
+   ✓ muffin.json: 11 recipes
+   ✓ polenta-cake.json: 13 recipes
+   ✓ retro-cake.json: 53 recipes
+   ✓ summer-cake.json: 75 recipes
+   ✓ wedding-cake.json: 34 recipes
+
+📂 Processing ramadan: 4 files
+   ✓ iftar.json: 87 recipes
+   ✓ ramadan-desserts.json: 34 recipes
+   ✓ ramadan-with-children.json: 12 recipes
+   ✓ suhoor.json: 51 recipes
+
+📂 Processing main recipes.json...
+   ✓ recipes.json: 594 recipes
+
+📥 Inserting 6000 recipes into database...
+   Progress: 100/6000 (2%)   Progress: 200/6000 (3%)   Progress: 300/6000 (5%)   Progress: 400/6000 (7%)   Progress: 500/6000 (8%)   Progress: 600/6000 (10%)   Progress: 700/6000 (12%)   Progress: 800/6000 (13%)   Progress: 900/6000 (15%)   Progress: 1000/6000 (17%)   Progress: 1100/6000 (18%)   Progress: 1200/6000 (20%)   Progress: 1300/6000 (22%)   Progress: 1400/6000 (23%)   Progress: 1500/6000 (25%)   Progress: 1600/6000 (27%)   Progress: 1700/6000 (28%)   Progress: 1800/6000 (30%)   Progress: 1900/6000 (32%)   Progress: 2000/6000 (33%)   Progress: 2100/6000 (35%)   Progress: 2200/6000 (37%)   Progress: 2300/6000 (38%)   Progress: 2400/6000 (40%)   Progress: 2500/6000 (42%)   Progress: 2600/6000 (43%)   Progress: 2700/6000 (45%)   Progress: 2800/6000 (47%)   Progress: 2900/6000 (48%)   Progress: 3000/6000 (50%)   Progress: 3100/6000 (52%)   Progress: 3200/6000 (53%)   Progress: 3300/6000 (55%)   Progress: 3400/6000 (57%)   Progress: 3500/6000 (58%)   Progress: 3600/6000 (60%)   Progress: 3700/6000 (62%)   Progress: 3800/6000 (63%)   Progress: 3900/6000 (65%)   Progress: 4000/6000 (67%)   Progress: 4100/6000 (68%)   Progress: 4200/6000 (70%)   Progress: 4300/6000 (72%)   Progress: 4400/6000 (73%)   Progress: 4500/6000 (75%)   Progress: 4600/6000 (77%)   Progress: 4700/6000 (78%)   Progress: 4800/6000 (80%)   Progress: 4900/6000 (82%)   Progress: 5000/6000 (83%)   Progress: 5100/6000 (85%)   Progress: 5200/6000 (87%)   Progress: 5300/6000 (88%)   Progress: 5400/6000 (90%)   Progress: 5500/6000 (92%)   Progress: 5600/6000 (93%)   Progress: 5700/6000 (95%)   Progress: 5800/6000 (97%)   Progress: 5900/6000 (98%)   Progress: 6000/6000 (100%)
+
+✅ Import complete!
+   Total recipes imported: 6000
+
+📊 Recipes by category:
+   cakes-baking: 2640
+   cuisine: 1954
+   healthy: 5412
+   international: 743
+   ramadan: 368
+
+✅ Deployment Complete! Your Vercel app is ready.

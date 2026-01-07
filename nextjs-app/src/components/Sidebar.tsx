@@ -13,6 +13,7 @@ const navItems = [
     { href: '/meals', labelKey: 'mealLibrary', icon: '📚' },
     { href: '/statistics', labelKey: 'statistics', icon: '📈' },
     { href: '/groceries', labelKey: 'groceryList', icon: '🛒' },
+    { href: '/forum', labelKey: 'forum', icon: '💬' },
     { href: '/profile', labelKey: 'profile', icon: '👤' },
 ];
 
