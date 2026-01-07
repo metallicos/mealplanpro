@@ -202,6 +202,23 @@ CREATE TABLE forum_likes (
     FOREIGN KEY (post_id) REFERENCES forum_posts(id) ON DELETE CASCADE
 );
 
+-- 13. Create Daily Logs Table (NEW)
+CREATE TABLE daily_logs (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER NOT NULL,
+    date TEXT NOT NULL, -- Format YYYY-MM-DD
+    food_name TEXT NOT NULL,
+    grams INTEGER NOT NULL,
+    calories INTEGER NOT NULL,
+    protein REAL DEFAULT 0,
+    carbs REAL DEFAULT 0,
+    fat REAL DEFAULT 0,
+    meal_type TEXT NOT NULL, -- 'breakfast', 'lunch', 'dinner', 'snack'
+    minerals TEXT, -- JSON object for minerals
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
 -- 13. Seed Admin Account
 INSERT INTO users (email, password_hash, full_name, role) 
 VALUES ('admin@mealplan.com', '$2b$10$lBZBhAWKzwF6G0HiYv2vpuE90PeNxWNoD7L0r4WZTzkknB2xPKsYq', 'System Admin', 'admin');
