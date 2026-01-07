@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { writeFile } from 'fs/promises';
+import { writeFile, mkdir } from 'fs/promises';
 import { join } from 'path';
 import { getSession } from '@/lib/auth';
 
@@ -27,6 +27,7 @@ export async function POST(request: NextRequest) {
 
         // Save to public/uploads/forum
         const uploadDir = join(process.cwd(), 'public', 'uploads', 'forum');
+        await mkdir(uploadDir, { recursive: true });
         const filepath = join(uploadDir, filename);
 
         await writeFile(filepath, buffer);
