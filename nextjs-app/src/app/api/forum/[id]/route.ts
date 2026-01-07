@@ -3,9 +3,10 @@ import { query } from '@/lib/db';
 import { getSession } from '@/lib/auth';
 
 // GET - Fetch Single Post
-export async function GET(request: NextRequest, { params }: { params: { id: string } }) {
+export async function GET(request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+    const { id } = await params;
     try {
-        const postId = params.id;
+        const postId = id;
         const posts = await query(`
             SELECT p.*, u.full_name as author_name, u.avatar_url as author_avatar,
             (SELECT COUNT(*) FROM forum_comments c WHERE c.post_id = p.id) as comment_count
@@ -38,13 +39,14 @@ export async function GET(request: NextRequest, { params }: { params: { id: stri
 }
 
 // PUT - Update Post
-export async function PUT(request: NextRequest, { params }: { params: { id: string } }) {
+export async function PUT(request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+    const { id } = await params;
     const auth = await getSession();
     if (!auth) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
 
     try {
         const { title, content, image_url } = await request.json();
-        const postId = params.id;
+        const postId = id;
 
         // Verify ownership
         const posts = await query('SELECT user_id FROM forum_posts WHERE id = ?', [postId]);
@@ -66,12 +68,13 @@ export async function PUT(request: NextRequest, { params }: { params: { id: stri
 }
 
 // DELETE - Delete Post
-export async function DELETE(request: NextRequest, { params }: { params: { id: string } }) {
+export async function DELETE(request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+    const { id } = await params;
     const auth = await getSession();
     if (!auth) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
 
     try {
-        const postId = params.id;
+        const postId = id;
 
         // Verify ownership
         const posts = await query('SELECT user_id FROM forum_posts WHERE id = ?', [postId]);
