@@ -16,6 +16,14 @@ interface Ingredient {
     carbs: number;
     fat: number;
     category?: string;
+    minerals?: {
+        calcium: number;
+        iron: number;
+        magnesium: number;
+        potassium: number;
+        sodium: number;
+        zinc: number;
+    };
 }
 
 interface LogItem {
@@ -27,6 +35,14 @@ interface LogItem {
     protein: number;
     carbs: number;
     fat: number;
+    minerals?: {
+        calcium: number;
+        iron: number;
+        magnesium: number;
+        potassium: number;
+        sodium: number;
+        zinc: number;
+    };
 }
 
 interface ScannedFood {
@@ -73,7 +89,18 @@ export default function MacrosPage() {
         protein: acc.protein + item.protein,
         carbs: acc.carbs + item.carbs,
         fat: acc.fat + item.fat,
-    }), { calories: 0, protein: 0, carbs: 0, fat: 0 });
+        minerals: {
+            calcium: (acc.minerals?.calcium || 0) + (item.minerals?.calcium || 0),
+            iron: (acc.minerals?.iron || 0) + (item.minerals?.iron || 0),
+            magnesium: (acc.minerals?.magnesium || 0) + (item.minerals?.magnesium || 0),
+            potassium: (acc.minerals?.potassium || 0) + (item.minerals?.potassium || 0),
+            sodium: (acc.minerals?.sodium || 0) + (item.minerals?.sodium || 0),
+            zinc: (acc.minerals?.zinc || 0) + (item.minerals?.zinc || 0),
+        }
+    }), {
+        calories: 0, protein: 0, carbs: 0, fat: 0,
+        minerals: { calcium: 0, iron: 0, magnesium: 0, potassium: 0, sodium: 0, zinc: 0 }
+    });
 
     // Debounce search
     useEffect(() => {
@@ -113,6 +140,14 @@ export default function MacrosPage() {
             protein: Math.round(selectedFood.protein * multiplier * 10) / 10,
             carbs: Math.round(selectedFood.carbs * multiplier * 10) / 10,
             fat: Math.round(selectedFood.fat * multiplier * 10) / 10,
+            minerals: selectedFood.minerals ? {
+                calcium: Math.round(selectedFood.minerals.calcium * multiplier),
+                iron: Math.round(selectedFood.minerals.iron * multiplier * 100) / 100,
+                magnesium: Math.round(selectedFood.minerals.magnesium * multiplier),
+                potassium: Math.round(selectedFood.minerals.potassium * multiplier),
+                sodium: Math.round(selectedFood.minerals.sodium * multiplier),
+                zinc: Math.round(selectedFood.minerals.zinc * multiplier * 100) / 100,
+            } : undefined
         };
 
         setLogItems([...logItems, newItem]);
@@ -278,6 +313,43 @@ export default function MacrosPage() {
                                 background: 'var(--fat)'
                             }}
                         />
+                    </div>
+                </div>
+            </div>
+
+            {/* Minerals */}
+            <div className="card mb-6">
+                <h3 className="font-semibold mb-4">Micronutrients 💊</h3>
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                    <div className="text-center p-2 rounded bg-gray-800/50">
+                        <div className="text-xl">🦴</div>
+                        <div className="font-bold text-lg">{Math.round(totals.minerals.calcium)}mg</div>
+                        <div className="text-xs text-gray-400">Calcium</div>
+                    </div>
+                    <div className="text-center p-2 rounded bg-gray-800/50">
+                        <div className="text-xl">🩸</div>
+                        <div className="font-bold text-lg">{totals.minerals.iron.toFixed(1)}mg</div>
+                        <div className="text-xs text-gray-400">Iron</div>
+                    </div>
+                    <div className="text-center p-2 rounded bg-gray-800/50">
+                        <div className="text-xl">⚡</div>
+                        <div className="font-bold text-lg">{Math.round(totals.minerals.magnesium)}mg</div>
+                        <div className="text-xs text-gray-400">Magnesium</div>
+                    </div>
+                    <div className="text-center p-2 rounded bg-gray-800/50">
+                        <div className="text-xl">🍌</div>
+                        <div className="font-bold text-lg">{Math.round(totals.minerals.potassium)}mg</div>
+                        <div className="text-xs text-gray-400">Potassium</div>
+                    </div>
+                    <div className="text-center p-2 rounded bg-gray-800/50">
+                        <div className="text-xl">🧂</div>
+                        <div className="font-bold text-lg">{Math.round(totals.minerals.sodium)}mg</div>
+                        <div className="text-xs text-gray-400">Sodium</div>
+                    </div>
+                    <div className="text-center p-2 rounded bg-gray-800/50">
+                        <div className="text-xl">🛡️</div>
+                        <div className="font-bold text-lg">{totals.minerals.zinc.toFixed(1)}mg</div>
+                        <div className="text-xs text-gray-400">Zinc</div>
                     </div>
                 </div>
             </div>
