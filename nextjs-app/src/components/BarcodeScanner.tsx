@@ -44,7 +44,8 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                 const html5QrCode = new Html5Qrcode(scannerId, {
                     experimentalFeatures: {
                         useBarCodeDetectorIfSupported: true
-                    }
+                    },
+                    verbose: false
                 });
 
                 scannerRef.current = html5QrCode;
@@ -55,7 +56,6 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                         fps: 10,
                         qrbox: { width: 250, height: 250 },
                         aspectRatio: 1.0,
-                        formatsToSupport: formatsToSupport
                     },
                     async (decodedText) => {
                         // Success callback
@@ -113,8 +113,9 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
         return () => {
             clearTimeout(timer);
             if (scannerRef.current && scannerRef.current.isScanning) {
-                scannerRef.current.stop().catch(console.error);
-                scannerRef.current.clear().catch(console.error);
+                scannerRef.current.stop()
+                    .then(() => scannerRef.current?.clear())
+                    .catch(console.error);
             }
         };
     }, []); // eslint-disable-line react-hooks/exhaustive-deps
