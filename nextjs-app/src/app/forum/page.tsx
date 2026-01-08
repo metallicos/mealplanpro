@@ -160,41 +160,41 @@ export default function CommunityPage() {
     return (
         <div className="min-h-screen pb-20">
             {/* Hero Section */}
-            <div className="relative py-12 px-4 lg:px-8 mb-8 overflow-hidden">
+            <div className="relative py-8 md:py-12 px-4 lg:px-8 mb-6 md:mb-8 overflow-hidden">
                 <div className="absolute inset-0 z-0 opacity-20 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-900 via-gray-900 to-black pointer-events-none"></div>
                 <div className="relative z-10 max-w-4xl mx-auto text-center">
-                    <h1 className="text-4xl md:text-5xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-500 animate-fade-in-up">
+                    <h1 className="text-3xl md:text-5xl font-extrabold mb-3 md:mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-500 animate-fade-in-up">
                         Community Hub 💬
                     </h1>
-                    <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto animate-fade-in-up delay-100">
+                    <p className="text-base md:text-lg text-gray-400 mb-6 md:mb-8 max-w-2xl mx-auto animate-fade-in-up delay-100">
                         Connect with others, share your meal prep wins, and find inspiration for your next healthy dish.
                     </p>
 
                     <button
                         onClick={() => setShowModal(true)}
-                        className="btn-primary transform hover:scale-105 transition-all shadow-lg shadow-indigo-500/20 px-8 py-3 text-lg animate-fade-in-up delay-200"
+                        className="btn-primary transform hover:scale-105 transition-all shadow-lg shadow-indigo-500/20 px-6 py-2.5 md:px-8 md:py-3 text-base md:text-lg animate-fade-in-up delay-200"
                     >
                         ✨ Share Your Story
                     </button>
                 </div>
             </div>
 
-            <div className="max-w-6xl mx-auto px-4 lg:px-8">
+            <div className="max-w-6xl mx-auto px-3 md:px-4 lg:px-8">
                 {/* Search & Filter Bar - Floating Glass */}
-                <div className="sticky top-20 z-30 mb-8 mx-auto max-w-3xl">
-                    <div className="backdrop-blur-xl bg-gray-900/60 border border-white/10 rounded-2xl p-2 flex flex-col md:flex-row gap-2 shadow-2xl transition-all hover:border-white/20 hover:bg-gray-900/70">
+                <div className="sticky top-16 md:top-20 z-30 mb-6 md:mb-8 mx-auto max-w-3xl">
+                    <div className="backdrop-blur-xl bg-gray-900/60 border border-white/10 rounded-2xl p-1.5 md:p-2 flex flex-col md:flex-row gap-2 shadow-xl md:shadow-2xl transition-all hover:border-white/20 hover:bg-gray-900/70">
                         <div className="relative flex-1">
-                            <span className="absolute left-4 top-3 text-gray-400">🔍</span>
+                            <span className="absolute left-3 md:left-4 top-3 md:top-3 text-gray-400">🔍</span>
                             <input
-                                className="w-full bg-transparent border-none text-white placeholder-gray-500 pl-12 pr-4 py-2.5 focus:ring-0"
-                                placeholder="Search conversations or #hashtags..."
+                                className="w-full bg-transparent border-none text-white placeholder-gray-500 pl-10 md:pl-12 pr-4 py-2.5 focus:ring-0 text-sm md:text-base"
+                                placeholder="Search conversations..."
                                 value={searchQuery}
                                 onChange={(e) => setSearchQuery(e.target.value)}
                             />
                         </div>
                         <div className="h-px md:h-auto md:w-px bg-white/10 mx-2"></div>
                         <select
-                            className="bg-transparent border-none text-sm text-gray-300 focus:ring-0 cursor-pointer hover:text-white px-4 py-2"
+                            className="bg-transparent border-none text-sm text-gray-300 focus:ring-0 cursor-pointer hover:text-white px-2 md:px-4 py-2"
                             value={sortBy}
                             onChange={(e) => setSortBy(e.target.value as 'latest' | 'top')}
                         >

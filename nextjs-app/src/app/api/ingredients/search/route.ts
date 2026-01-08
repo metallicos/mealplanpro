@@ -37,16 +37,23 @@ export async function GET(request: Request) {
             // Remove common category prefixes
             cleaned = cleaned.replace(/^(Snacks|Fast foods|Sweets|Babyfood|Beverages|Baked Products|Cereals|Dairy and Egg Products), /i, '');
 
-            // formatting
-            cleaned = cleaned.replace(/, unprepared/gi, '');
-            cleaned = cleaned.replace(/, raw/gi, ''); // usually implied for basic ingredients
-            cleaned = cleaned.replace(/, dry/gi, '');
+            // Remove specific USDA grading terms and noise
+            cleaned = cleaned.replace(/, Grade [A-Z]/gi, '');
+            cleaned = cleaned.replace(/, (large|medium|small|jumbo)/gi, '');
+            cleaned = cleaned.replace(/, (raw|fresh|unprepared|dry)/gi, '');
+            cleaned = cleaned.replace(/, solids/gi, '');
+
+            // Fix "Eggs" plural if it's the start
+            if (cleaned.startsWith('Eggs, ')) {
+                cleaned = cleaned.replace('Eggs, ', 'Egg, ');
+            }
 
             // Capitalize first letter
             return cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
         };
 
-        const ingredients = data.foods.map((food: any) => {
+        // 1. Map and Clean
+        const rawIngredients = data.foods.map((food: any) => {
             const getNutrient = (id: number) => {
                 const n = food.foodNutrients.find((n: any) => n.nutrientId === id);
                 return n ? n.value : 0;
@@ -74,31 +81,47 @@ export async function GET(request: Request) {
             };
         });
 
-        // --- Smart Sorting Logic ---
+        // 2. Deduplicate based on Cleaned Name
+        const uniqueMap = new Map();
+        rawIngredients.forEach((item: any) => {
+            // If duplicate, prefer the one with more protein/calories (likely more complete data) or just first one
+            // Simple approach: Keep first one, unless current one has significantly better data? 
+            // Let's just keep first for stability for now, USDA ranking is usually okay.
+            if (!uniqueMap.has(item.name)) {
+                uniqueMap.set(item.name, item);
+            }
+        });
+
+        const ingredients = Array.from(uniqueMap.values());
+
+        // 3. Smart Sorting Logic
         const q = query.toLowerCase();
+        // Singularize query for comparison (egg vs eggs)
+        const qSingular = q.endsWith('s') ? q.slice(0, -1) : q;
 
         ingredients.sort((a: any, b: any) => {
             const nameA = a.name.toLowerCase();
             const nameB = b.name.toLowerCase();
 
-            // 1. Exact match priority
-            if (nameA === q) return -1;
-            if (nameB === q) return 1;
+            // Exact match priority (check both plural and singular forms)
+            const isExactA = nameA === q || nameA === qSingular;
+            const isExactB = nameB === q || nameB === qSingular;
+            if (isExactA && !isExactB) return -1;
+            if (!isExactA && isExactB) return 1;
 
-            // 2. "Starts with" priority
+            // "Starts with" priority
             const startA = nameA.startsWith(q);
             const startB = nameB.startsWith(q);
             if (startA && !startB) return -1;
             if (!startA && startB) return 1;
 
-            // 3. De-prioritize complex/processed items if simpler exists
+            // Shortest name priority (Simpler often means the base ingredient)
             if (nameA.length !== nameB.length) {
                 return nameA.length - nameB.length;
             }
 
             return 0;
         });
-        // ---------------------------
 
         return NextResponse.json({ ingredients });
 
