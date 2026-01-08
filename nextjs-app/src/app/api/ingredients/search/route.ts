@@ -17,9 +17,32 @@ export async function GET(request: Request) {
             return NextResponse.json({ ingredients: [], error: 'API Configuration Error' });
         }
 
+        const cleanName = (name: string) => {
+            let cleaned = name;
+            // Remove common category prefixes
+            cleaned = cleaned.replace(/^(Snacks|Fast foods|Sweets|Babyfood|Beverages|Baked Products|Cereals|Dairy and Egg Products), /i, '');
+
+            // Remove specific USDA grading terms and noise
+            cleaned = cleaned.replace(/, Grade [A-Z]/gi, '');
+            cleaned = cleaned.replace(/, (large|medium|small|jumbo)/gi, '');
+            cleaned = cleaned.replace(/, (raw|fresh|unprepared|dry)/gi, '');
+            cleaned = cleaned.replace(/, solids/gi, '');
+
+            // Fix "Eggs" plural if it's the start
+            if (cleaned.startsWith('Eggs, ')) {
+                cleaned = cleaned.replace('Eggs, ', 'Egg, ');
+            }
+            if (cleaned === 'Eggs') cleaned = 'Egg';
+
+            // Capitalize first letter
+            return cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
+        };
+
+        // Fetch from USDA API with specific dataTypes to avoid Branded/Survey noise
+        // foundation = newer, cleaner data
+        // SR Legacy = older standard reference, very comprehensive
         const response = await fetch(
-            `${USDA_API_URL}?api_key=${USDA_API_KEY}&query=${encodeURIComponent(query)}&pageSize=10&dataType=Foundation,SR Legacy`,
-            { cache: 'force-cache' } // Cache common results or 'default'
+            `${USDA_API_URL}?query=${encodeURIComponent(query)}&dataType=Foundation,SR Legacy&pageSize=50&api_key=${USDA_API_KEY}`
         );
 
         if (!response.ok) {
@@ -32,32 +55,6 @@ export async function GET(request: Request) {
             return NextResponse.json({ ingredients: [] });
         }
 
-        const cleanName = (name: string) => {
-            let cleaned = name;
-            // Remove common category prefixes
-            cleaned = cleaned.replace(/^(Snacks|Fast foods|Sweets|Babyfood|Beverages|Baked Products|Cereals|Dairy and Egg Products), /i, '');
-
-            // Remove specific USDA grading terms and noise
-            cleaned = cleaned.replace(/, Grade [A-Z]/gi, '');
-            cleaned = cleaned.replace(/, (large|medium|small|jumbo)/gi, '');
-            cleaned = cleaned.replace(/, (raw|fresh|unprepared|dry)/gi, '');
-            cleaned = cleaned.replace(/, solids/gi, '');
-            cleaned = cleaned.replace(/, whole/gi, ''); // "Whole" is usually implied for the base item
-
-            // Fix "Egg, egg" or similar repetitions
-            // This replaces "Word, word" with "Word"
-            cleaned = cleaned.replace(/^([a-z]+), \1/i, '$1');
-
-            // Fix "Eggs" plural if it's the start
-            if (cleaned.startsWith('Eggs, ')) {
-                cleaned = cleaned.replace('Eggs, ', 'Egg, ');
-            }
-            if (cleaned === 'Eggs') cleaned = 'Egg';
-
-            // Capitalize first letter
-            return cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
-        };
-
         // 1. Map and Clean
         const rawIngredients = data.foods.map((food: any) => {
             const getNutrient = (id: number) => {
@@ -65,9 +62,14 @@ export async function GET(request: Request) {
                 return n ? n.value : 0;
             };
 
+            // Prefer commonNames if available, otherwise description
+            // SR Legacy often doesn't have commonNames, but Foundation does
+            const rawName = food.commonNames || food.description;
+            const cleanedName = cleanName(rawName);
+
             return {
                 id: food.fdcId,
-                name: cleanName(food.description),
+                name: cleanedName, // Use the cleaner name
                 original_name: food.description,
                 // Macros
                 calories: getNutrient(2047) || getNutrient(1008) || 0,
