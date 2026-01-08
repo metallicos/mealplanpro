@@ -10,7 +10,7 @@ export async function GET(request: NextRequest) {
 
     try {
         const response = await fetch(
-            `https://world.openfoodfacts.org/api/v0/product/${barcode}.json`,
+            `https://world.openfoodfacts.org/api/v0/product/${barcode}.json?fields=product_name,nutriments,ingredients_text,brands,image_url,serving_size,nutriscore_grade,product_name_en,image_front_url`,
             {
                 headers: {
                     'User-Agent': 'MealPlanPro/1.0 (contact@mealplanpro.com)'
