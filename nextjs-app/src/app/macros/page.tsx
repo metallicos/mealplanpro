@@ -110,6 +110,25 @@ export default function MacrosPage() {
             .catch(err => console.error(err));
     }, [selectedDate]);
 
+    // Debounce search
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            if (searchQuery.length >= 2) {
+                setIsSearching(true);
+                fetch(`/api/ingredients/search?q=${encodeURIComponent(searchQuery)}`)
+                    .then(res => res.json())
+                    .then(data => {
+                        setSearchResults(data.ingredients || []);
+                    })
+                    .catch(err => console.error('Search error:', err))
+                    .finally(() => setIsSearching(false));
+            } else {
+                setSearchResults([]);
+            }
+        }, 300);
+        return () => clearTimeout(timer);
+    }, [searchQuery]);
+
     // ... (Search logic remains same)
 
     const selectFood = (food: Ingredient) => {

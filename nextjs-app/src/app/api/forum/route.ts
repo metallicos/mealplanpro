@@ -10,7 +10,7 @@ export async function GET(request: NextRequest) {
         const userId = searchParams.get('user_id');
 
         let sql = `
-            SELECT p.*, u.full_name as author_name, u.avatar_url as author_avatar,
+            SELECT p.*, u.full_name as author_name, up.avatar_url as author_avatar,
             (SELECT COUNT(*) FROM forum_comments c WHERE c.post_id = p.id) as comment_count
             FROM forum_posts p
             JOIN users u ON p.user_id = u.id

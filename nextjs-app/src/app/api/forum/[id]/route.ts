@@ -8,7 +8,7 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
     try {
         const postId = id;
         const posts = await query(`
-            SELECT p.*, u.full_name as author_name, u.avatar_url as author_avatar,
+            SELECT p.*, u.full_name as author_name, up.avatar_url as author_avatar,
             (SELECT COUNT(*) FROM forum_comments c WHERE c.post_id = p.id) as comment_count
             FROM forum_posts p
             JOIN users u ON p.user_id = u.id
@@ -24,7 +24,7 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
 
         // Fetch comments
         const comments = await query(`
-            SELECT c.*, u.full_name as author_name, u.avatar_url as author_avatar
+            SELECT c.*, u.full_name as author_name, up.avatar_url as author_avatar
             FROM forum_comments c
             JOIN users u ON c.user_id = u.id
             LEFT JOIN user_profiles up ON u.id = up.user_id
