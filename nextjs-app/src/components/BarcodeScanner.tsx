@@ -84,11 +84,15 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                     disableFlip: true, // Prevents orientation issues
                     videoConstraints: {
                         facingMode: "environment",
-                        // 720p is often the sweet spot for mobile web focus & FPS
-                        width: { min: 640, ideal: 1280, max: 1920 },
-                        height: { min: 480, ideal: 720, max: 1080 },
-                        focusMode: "continuous"
-                    }
+                        focusMode: "continuous", // Basic constraint
+                        // Request high resolution for S25 FE and similar devices
+                        width: { min: 1280, ideal: 1920, max: 3840 },
+                        height: { min: 720, ideal: 1080, max: 2160 },
+                        // Force continuous focus via advanced constraints for Android
+                        advanced: [{ focusMode: "continuous" }, { zoom: 1.5 }],
+                        /* @ts-ignore - zoom property support */
+                        zoom: 1.5
+                    } as unknown as MediaTrackConstraints
                 };
 
                 await html5QrCode.start(
