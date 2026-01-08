@@ -447,8 +447,8 @@ export default function MealsPage() {
 
                     ))}
                 </div>
-
-{/* No Results */}
+            )}
+            {/* No Results */}
             {
                 !loading && !error && recipes.length === 0 && (
                     <div className="text-center py-12">
