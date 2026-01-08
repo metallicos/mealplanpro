@@ -45,15 +45,36 @@ export default function Dashboard() {
   };
 
   useEffect(() => {
-    // Fetch random meals from API (Healthy Only)
+    // 1. Fetch Random Meals
     setMealsLoading(true);
     fetch('/api/recipes/random?count=6&healthy=true')
       .then(res => res.json())
-      .then(data => {
-        setRandomMeals(data.recipes || []);
-      })
-      .catch(err => console.error('Failed to fetch meals:', err))
+      .then(data => setRandomMeals(data.recipes || []))
+      .catch(err => console.error(err))
       .finally(() => setMealsLoading(false));
+
+    // 2. Fetch Daily Stats
+    const today = new Date().toLocaleDateString('en-CA'); // YYYY-MM-DD
+    fetch(`/api/logs?date=${today}`)
+      .then(res => res.json())
+      .then(data => {
+        if (data.logs) {
+          const totals = data.logs.reduce((acc: any, log: any) => ({
+            calories: acc.calories + (log.calories || 0),
+            protein: acc.protein + (log.protein || 0),
+            carbs: acc.carbs + (log.carbs || 0),
+            fat: acc.fat + (log.fat || 0),
+          }), { calories: 0, protein: 0, carbs: 0, fat: 0 });
+
+          setStats({
+            calories: Math.round(totals.calories),
+            protein: Math.round(totals.protein),
+            carbs: Math.round(totals.carbs),
+            fat: Math.round(totals.fat)
+          });
+        }
+      })
+      .catch(err => console.error('Failed to fetch stats:', err));
   }, []);
 
   const getImageUrl = (meal: Recipe) => {
