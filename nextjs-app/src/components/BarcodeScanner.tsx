@@ -79,7 +79,7 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
 
                 const config = {
                     fps: 15, // Increased FPS for faster scanning
-                    qrbox: { width: 300, height: 150 }, // Rectangular box better for 1D barcodes
+                    qrbox: { width: 320, height: 150 }, // Slightly wider for EAN-13
                     aspectRatio: 1.0,
                     // vital for mobile focus
                     videoConstraints: {
@@ -87,6 +87,8 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                         focusMode: "continuous",
                         width: { min: 640, ideal: 1920, max: 2560 }, // Higher resolution
                         height: { min: 480, ideal: 1080, max: 1440 },
+                        /* @ts-ignore - zoom is supported in modern browsers but missing from types */
+                        zoom: 2.0 // Attempt to apply digital zoom for better macro focus
                     }
                 };
 

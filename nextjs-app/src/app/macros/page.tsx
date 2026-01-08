@@ -688,19 +688,19 @@ export default function MacrosPage() {
                                 </button>
                             </div>
 
-                            {/* Product Image */}
+                            {/* Product Image - Smaller on mobile */}
                             {scannedFood.image_url && (
                                 <div
-                                    className="h-48 w-full rounded-xl mb-6 bg-cover bg-center border border-white/5 shadow-inner"
+                                    className="h-32 sm:h-48 w-full rounded-xl mb-4 bg-cover bg-center border border-white/5 shadow-inner"
                                     style={{ backgroundImage: `url(${scannedFood.image_url})` }}
                                 />
                             )}
 
                             {/* Nutri-score */}
                             {scannedFood.nutriscore && (
-                                <div className="flex justify-center mb-6">
+                                <div className="flex justify-center mb-4">
                                     <span
-                                        className="px-4 py-1.5 rounded-lg text-sm font-bold uppercase tracking-wide shadow-lg"
+                                        className="px-3 py-1 rounded-md text-xs font-bold uppercase tracking-wide shadow-lg"
                                         style={{
                                             background: scannedFood.nutriscore === 'a' ? '#16a34a' :
                                                 scannedFood.nutriscore === 'b' ? '#84cc16' :
@@ -714,31 +714,31 @@ export default function MacrosPage() {
                                 </div>
                             )}
 
-                            {/* Nutrition Grid */}
-                            <div className="grid grid-cols-4 gap-2 text-center p-4 rounded-xl mb-6 bg-[#0a0a0f] border border-white/5">
+                            {/* Nutrition Grid - Compact */}
+                            <div className="grid grid-cols-4 gap-1 text-center p-3 rounded-xl mb-4 bg-[#0a0a0f] border border-white/5">
                                 <div>
-                                    <div className="text-xl font-bold" style={{ color: '#ef4444' }}>
+                                    <div className="text-lg font-bold" style={{ color: '#ef4444' }}>
                                         {Math.round(scannedFood.calories_per_100g)}
                                     </div>
-                                    <div className="text-xs text-gray-500 uppercase tracking-wider font-semibold">kcal</div>
+                                    <div className="text-[10px] text-gray-500 uppercase tracking-wider font-semibold">kcal</div>
                                 </div>
                                 <div>
-                                    <div className="text-xl font-bold" style={{ color: '#3b82f6' }}>
-                                        {Math.round(scannedFood.protein_per_100g)}<span className="text-sm">g</span>
+                                    <div className="text-lg font-bold" style={{ color: '#3b82f6' }}>
+                                        {Math.round(scannedFood.protein_per_100g)}<span className="text-xs">g</span>
                                     </div>
-                                    <div className="text-xs text-gray-500 uppercase tracking-wider font-semibold">Prot</div>
+                                    <div className="text-[10px] text-gray-500 uppercase tracking-wider font-semibold">Prot</div>
                                 </div>
                                 <div>
-                                    <div className="text-xl font-bold" style={{ color: '#f59e0b' }}>
-                                        {Math.round(scannedFood.carbs_per_100g)}<span className="text-sm">g</span>
+                                    <div className="text-lg font-bold" style={{ color: '#f59e0b' }}>
+                                        {Math.round(scannedFood.carbs_per_100g)}<span className="text-xs">g</span>
                                     </div>
-                                    <div className="text-xs text-gray-500 uppercase tracking-wider font-semibold">Carbs</div>
+                                    <div className="text-[10px] text-gray-500 uppercase tracking-wider font-semibold">Carbs</div>
                                 </div>
                                 <div>
-                                    <div className="text-xl font-bold" style={{ color: '#a855f7' }}>
-                                        {Math.round(scannedFood.fat_per_100g)}<span className="text-sm">g</span>
+                                    <div className="text-lg font-bold" style={{ color: '#a855f7' }}>
+                                        {Math.round(scannedFood.fat_per_100g)}<span className="text-xs">g</span>
                                     </div>
-                                    <div className="text-xs text-gray-500 uppercase tracking-wider font-semibold">Fat</div>
+                                    <div className="text-[10px] text-gray-500 uppercase tracking-wider font-semibold">Fat</div>
                                 </div>
                             </div>
 
