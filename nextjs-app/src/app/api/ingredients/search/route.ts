@@ -32,6 +32,20 @@ export async function GET(request: Request) {
             return NextResponse.json({ ingredients: [] });
         }
 
+        const cleanName = (name: string) => {
+            let cleaned = name;
+            // Remove common category prefixes
+            cleaned = cleaned.replace(/^(Snacks|Fast foods|Sweets|Babyfood|Beverages|Baked Products|Cereals|Dairy and Egg Products), /i, '');
+
+            // formatting
+            cleaned = cleaned.replace(/, unprepared/gi, '');
+            cleaned = cleaned.replace(/, raw/gi, ''); // usually implied for basic ingredients
+            cleaned = cleaned.replace(/, dry/gi, '');
+
+            // Capitalize first letter
+            return cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
+        };
+
         const ingredients = data.foods.map((food: any) => {
             const getNutrient = (id: number) => {
                 const n = food.foodNutrients.find((n: any) => n.nutrientId === id);
@@ -40,20 +54,21 @@ export async function GET(request: Request) {
 
             return {
                 id: food.fdcId,
-                name: food.description,
+                name: cleanName(food.description),
+                original_name: food.description,
                 // Macros
-                calories: getNutrient(2047) || getNutrient(1008) || 0, // 2047: Atwater General, 1008: Energy (kcal)
+                calories: getNutrient(2047) || getNutrient(1008) || 0,
                 protein: getNutrient(1003),
                 fat: getNutrient(1004),
                 carbs: getNutrient(1005),
                 // Minerals
                 minerals: {
-                    calcium: getNutrient(1087),   // mg
-                    iron: getNutrient(1089),      // mg
-                    magnesium: getNutrient(1090), // mg
-                    potassium: getNutrient(1092), // mg
-                    sodium: getNutrient(1093),    // mg
-                    zinc: getNutrient(1095)       // mg
+                    calcium: getNutrient(1087),
+                    iron: getNutrient(1089),
+                    magnesium: getNutrient(1090),
+                    potassium: getNutrient(1092),
+                    sodium: getNutrient(1093),
+                    zinc: getNutrient(1095)
                 },
                 category: food.foodCategory || 'Unknown'
             };
@@ -70,27 +85,13 @@ export async function GET(request: Request) {
             if (nameA === q) return -1;
             if (nameB === q) return 1;
 
-            // 2. "Starts with" priority (e.g. "Rice, white" > "Flour, rice")
+            // 2. "Starts with" priority
             const startA = nameA.startsWith(q);
             const startB = nameB.startsWith(q);
             if (startA && !startB) return -1;
             if (!startA && startB) return 1;
 
-            // 3. De-prioritize "flour" unless queried
-            if (!q.includes('flour')) {
-                const flourA = nameA.includes('flour');
-                const flourB = nameB.includes('flour');
-                if (flourA && !flourB) return 1;
-                if (!flourA && flourB) return -1;
-            }
-
-            // 4. De-prioritize "baby food"
-            const babyA = nameA.includes('baby food');
-            const babyB = nameB.includes('baby food');
-            if (babyA && !babyB) return 1;
-            if (!babyA && babyB) return -1;
-
-            // 5. Shortest name priority (Simpler often means the base ingredient)
+            // 3. De-prioritize complex/processed items if simpler exists
             if (nameA.length !== nameB.length) {
                 return nameA.length - nameB.length;
             }
