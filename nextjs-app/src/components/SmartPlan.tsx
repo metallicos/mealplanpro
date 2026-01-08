@@ -104,7 +104,7 @@ export default function SmartPlan() {
                     if (!meal) return null;
 
                     return (
-                        <div key={meal.id} className="meal-card group">
+                        <Link href={`/meals/${meal.id}`} key={meal.id} className="meal-card group block h-full">
                             <div className="absolute top-2 left-2 z-10 bg-black/60 backdrop-blur-md text-white text-xs px-2 py-1 rounded font-bold uppercase tracking-wider">
                                 {getSlotEmoji(slot)} {slot}
                             </div>
@@ -121,13 +121,13 @@ export default function SmartPlan() {
                             )}
 
                             <div className="meal-card-content relative bg-[var(--bg-primary)]">
-                                <h4 className="font-bold truncate mb-2">{meal.title}</h4>
+                                <h4 className="font-bold truncate mb-2 group-hover:text-[var(--accent-primary)] transition-colors">{meal.title}</h4>
                                 <div className="flex justify-between text-xs text-gray-400 mb-2">
                                     <span>{meal.kcal} kcal</span>
                                     <span>{meal.protein}g P</span>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     );
                 })}
             </div>

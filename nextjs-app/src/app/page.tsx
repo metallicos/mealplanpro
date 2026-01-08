@@ -222,7 +222,7 @@ export default function Dashboard() {
             ))
           ) : (
             randomMeals.map((meal) => (
-              <div key={meal.id} className="meal-card relative">
+              <Link href={`/meals/${meal.id}`} key={meal.id} className="meal-card relative block group">
                 {/* Healthy Badge */}
                 {meal.isHealthy && (
                   <div className="absolute top-2 left-2 z-10 bg-green-500 text-white text-xs px-2 py-1 rounded-full font-medium shadow-lg">
@@ -231,7 +231,7 @@ export default function Dashboard() {
                 )}
                 {getImageUrl(meal) ? (
                   <div
-                    className="meal-card-image"
+                    className="meal-card-image transition-transform duration-500 group-hover:scale-105"
                     style={{
                       backgroundImage: `url(${getImageUrl(meal)})`,
                       backgroundSize: 'cover',
@@ -247,7 +247,7 @@ export default function Dashboard() {
                   </div>
                 )}
                 <div className="meal-card-content">
-                  <div className="meal-card-title">{meal.title}</div>
+                  <div className="meal-card-title group-hover:text-[var(--accent-primary)] transition-colors">{meal.title}</div>
                   <div className="meal-card-meta">
                     <span className="capitalize">📂 {meal.category?.replace(/-/g, ' ')}</span>
                     <span>⏱️ {meal.prep_time || 'N/A'}</span>
@@ -271,7 +271,7 @@ export default function Dashboard() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))
           )}
         </div>
