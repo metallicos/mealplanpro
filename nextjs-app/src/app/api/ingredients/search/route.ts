@@ -19,30 +19,50 @@ export async function GET(request: Request) {
 
         const cleanName = (name: string) => {
             let cleaned = name;
-            // Remove common category prefixes
-            cleaned = cleaned.replace(/^(Snacks|Fast foods|Sweets|Babyfood|Beverages|Baked Products|Cereals|Dairy and Egg Products), /i, '');
 
-            // Remove specific USDA grading terms and noise
-            cleaned = cleaned.replace(/, Grade [A-Z]/gi, '');
-            cleaned = cleaned.replace(/, (large|medium|small|jumbo)/gi, '');
-            cleaned = cleaned.replace(/, (raw|fresh|unprepared|dry)/gi, '');
-            cleaned = cleaned.replace(/, solids/gi, '');
+            // 1. Remove unwanted prefixes and technical terms
+            const removePatterns = [
+                // Categories
+                /^(Snacks|Fast foods|Sweets|Babyfood|Beverages|Baked Products|Cereals|Dairy and Egg Products), /i,
+                // Technical/Processing terms
+                /unenriched/gi, /formulation/gi, /survey/gi, /raw/gi, /ns as to form/gi,
+                /unprepared/gi, /fresh/gi, /dry/gi, /solids/gi, /with salt/gi,
+                /, Grade [A-Z]/gi, /, (large|medium|small|jumbo)/gi
+            ];
 
-            // Fix "Eggs" plural if it's the start
-            if (cleaned.startsWith('Eggs, ')) {
-                cleaned = cleaned.replace('Eggs, ', 'Egg, ');
+            removePatterns.forEach(pattern => {
+                cleaned = cleaned.replace(pattern, '');
+            });
+
+            // 2. Format "Name, descriptor" -> "Name (descriptor)"
+            if (cleaned.includes(',')) {
+                const parts = cleaned.split(',').map(s => s.trim()).filter(s => s);
+                if (parts.length > 1) {
+                    const main = parts[0];
+                    const descriptors = parts.slice(1).join(', ');
+                    cleaned = `${main} (${descriptors})`;
+                }
             }
+
+            // 3. Specific fixes
+            if (cleaned.startsWith('Eggs ')) cleaned = cleaned.replace('Eggs', 'Egg');
             if (cleaned === 'Eggs') cleaned = 'Egg';
 
-            // Capitalize first letter
-            return cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
+            // 4. Final cleanup
+            cleaned = cleaned.replace(/\s+/g, ' ').trim();
+            cleaned = cleaned.replace(/\(\s*\)/g, ''); // Empty parens
+
+            // Capitalize
+            if (cleaned.length > 0) {
+                cleaned = cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
+            }
+
+            return cleaned;
         };
 
-        // Fetch from USDA API with specific dataTypes to avoid Branded/Survey noise
-        // foundation = newer, cleaner data
-        // SR Legacy = older standard reference, very comprehensive
+        // Fetch ONLY Foundation data
         const response = await fetch(
-            `${USDA_API_URL}?query=${encodeURIComponent(query)}&dataType=Foundation,SR Legacy&pageSize=50&api_key=${USDA_API_KEY}`
+            `${USDA_API_URL}?query=${encodeURIComponent(query)}&dataType=Foundation&pageSize=50&api_key=${USDA_API_KEY}`
         );
 
         if (!response.ok) {
@@ -62,39 +82,29 @@ export async function GET(request: Request) {
                 return n ? n.value : 0;
             };
 
-            // Prefer commonNames if available, otherwise description
-            // SR Legacy often doesn't have commonNames, but Foundation does
-            const rawName = food.commonNames || food.description;
-            const cleanedName = cleanName(rawName);
+            const cleanedName = cleanName(food.description);
 
             return {
                 id: food.fdcId,
-                name: cleanedName, // Use the cleaner name
-                original_name: food.description,
-                // Macros
-                calories: getNutrient(2047) || getNutrient(1008) || 0,
+                name: cleanedName,
+                // Filtered Macros ONLY
+                calories: getNutrient(1008), // Energy (kcal)
                 protein: getNutrient(1003),
                 fat: getNutrient(1004),
                 carbs: getNutrient(1005),
-                // Minerals
-                minerals: {
-                    calcium: getNutrient(1087),
-                    iron: getNutrient(1089),
-                    magnesium: getNutrient(1090),
-                    potassium: getNutrient(1092),
-                    sodium: getNutrient(1093),
-                    zinc: getNutrient(1095)
-                },
-                category: food.foodCategory || 'Unknown'
+                // No micronutrients exposed
+                category: food.foodCategory || 'General'
             };
         });
 
-        // 2. Deduplicate based on Cleaned Name
+        // 2. Deduplicate based on Cleaned Name and Data Quality
         const uniqueMap = new Map();
         rawIngredients.forEach((item: any) => {
-            // If duplicate, prefer the one with more protein/calories (likely more complete data) or just first one
-            // Simple approach: Keep first one, unless current one has significantly better data? 
-            // Let's just keep first for stability for now, USDA ranking is usually okay.
+            // Filter out items with very generic "Unknown" names or empty names
+            if (!item.name || item.name.length < 2) return;
+
+            // Update if not exists matching name
+            // (Foundation data is usually high quality, so first match is often fine)
             if (!uniqueMap.has(item.name)) {
                 uniqueMap.set(item.name, item);
             }
@@ -102,40 +112,27 @@ export async function GET(request: Request) {
 
         const ingredients = Array.from(uniqueMap.values());
 
-        // 3. Smart Sorting Logic
+        // 3. Sorting
         const q = query.toLowerCase();
-        // Singularize query for comparison (egg vs eggs)
-        const qSingular = q.endsWith('s') ? q.slice(0, -1) : q;
-
         ingredients.sort((a: any, b: any) => {
             const nameA = a.name.toLowerCase();
             const nameB = b.name.toLowerCase();
 
-            // 1. Exact match priority
-            const isExactA = nameA === q || nameA === qSingular;
-            const isExactB = nameB === q || nameB === qSingular;
-            if (isExactA && !isExactB) return -1;
-            if (!isExactA && isExactB) return 1;
+            // Exact match
+            if (nameA === q && nameB !== q) return -1;
+            if (nameB === q && nameA !== q) return 1;
 
-            // 2. "Noun" priority: Starts with "Query," (e.g. "Rice, white")
-            // This distinguishes "Rice, white" (good) from "Rice noodles" (bad for "rice" query)
-            const nounA = nameA.startsWith(q + ',') || nameA.startsWith(qSingular + ',');
-            const nounB = nameB.startsWith(q + ',') || nameB.startsWith(qSingular + ',');
+            // Starts with "Query (" (Noun priority with parens) e.g. "Rice (black)"
+            const nounA = nameA.startsWith(q + ' (');
+            const nounB = nameB.startsWith(q + ' (');
             if (nounA && !nounB) return -1;
-            if (!nounA && nounB) return 1;
+            if (!nounB && nounA) return 1;
 
-            // 3. "Starts with" priority (general)
-            const startA = nameA.startsWith(q) || nameA.startsWith(qSingular);
-            const startB = nameB.startsWith(q) || nameB.startsWith(qSingular);
-            if (startA && !startB) return -1;
-            if (!startA && startB) return 1;
+            // Starts with
+            if (nameA.startsWith(q) && !nameB.startsWith(q)) return -1;
+            if (nameB.startsWith(q) && !nameA.startsWith(q)) return 1;
 
-            // 4. Shortest name priority
-            if (nameA.length !== nameB.length) {
-                return nameA.length - nameB.length;
-            }
-
-            return 0;
+            return nameA.length - nameB.length;
         });
 
         return NextResponse.json({ ingredients });
