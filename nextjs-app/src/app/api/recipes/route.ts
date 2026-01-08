@@ -51,9 +51,17 @@ export async function GET(request: NextRequest) {
         );
         const total = (countResult as { total: number }[])[0]?.total || 0;
 
-        // Get recipes with pagination
+        // Get recipes with pagination and ratings
         const recipes = await query(
-            `SELECT * FROM recipes ${whereClause} ORDER BY title ASC LIMIT ? OFFSET ?`,
+            `SELECT r.*, 
+                    AVG(mr.rating) as avg_rating,
+                    COUNT(mr.rating) as rating_count
+             FROM recipes r
+             LEFT JOIN meal_ratings mr ON r.id = mr.meal_id
+             ${whereClause} 
+             GROUP BY r.id
+             ORDER BY title ASC 
+             LIMIT ? OFFSET ?`,
             [...params, limit, offset]
         );
 
@@ -64,6 +72,8 @@ export async function GET(request: NextRequest) {
             method: JSON.parse(recipe.method as string || '[]'),
             tags: JSON.parse(recipe.tags as string || '[]'),
             isHealthy: recipe.is_healthy === 1,
+            avg_rating: recipe.avg_rating ? Number(recipe.avg_rating).toFixed(1) : null,
+            rating_count: recipe.rating_count || 0
         }));
 
         return NextResponse.json({

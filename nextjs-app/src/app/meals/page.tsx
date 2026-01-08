@@ -26,6 +26,8 @@ interface Recipe {
     subcategory: string;
     isHealthy: boolean;
     tags: string[];
+    avg_rating?: string;
+    rating_count?: number;
 }
 
 interface Category {
@@ -409,296 +411,311 @@ export default function MealsPage() {
                                 src={getImageUrl(meal)}
                                 alt={meal.title}
                             />
-                            <div className="meal-card-content">
-                                <div className="meal-card-title">{meal.title}</div>
-                                <div className="meal-card-meta">
-                                    <span className="capitalize">📂 {meal.category?.replace(/-/g, ' ')}</span>
-                                    <span>👥 {meal.serves || '?'}</span>
+                            <div className="meal-card-content relative bg-[var(--bg-primary)] p-4">
+                                <h4 className="font-bold truncate mb-2 group-hover:text-[var(--accent-primary)] transition-colors">{meal.title}</h4>
+                                <div className="flex justify-between items-center text-xs text-gray-400 mb-2">
+                                    <div className="flex gap-2">
+                                        <span>{meal.kcal} kcal</span>
+                                        <span>{meal.protein}g P</span>
+                                    </div>
+                                    {meal.avg_rating && (
+                                        <div className="flex items-center gap-1 text-yellow-500 font-bold">
+                                            <span>★</span> {meal.avg_rating} <span className="text-gray-600 font-normal">({meal.rating_count})</span>
+                                        </div>
+                                    )}
                                 </div>
-                                <div className="meal-card-macros">
-                                    <div>
-                                        <div className="macro-value" style={{ color: 'var(--calories)' }}>{meal.kcal}</div>
-                                        <div className="macro-label">kcal</div>
-                                    </div>
-                                    <div>
-                                        <div className="macro-value" style={{ color: 'var(--protein)' }}>{meal.protein}g</div>
-                                        <div className="macro-label">Protein</div>
-                                    </div>
-                                    <div>
-                                        <div className="macro-value" style={{ color: 'var(--carbs)' }}>{meal.carbs}g</div>
-                                        <div className="macro-label">Carbs</div>
-                                    </div>
-                                    <div>
-                                        <div className="macro-value" style={{ color: 'var(--fat)' }}>{meal.fat}g</div>
-                                        <div className="macro-label">Fat</div>
-                                    </div>
+                            </div>
+                            <div className="meal-card-macros">
+                                <div>
+                                    <div className="macro-value" style={{ color: 'var(--calories)' }}>{meal.kcal}</div>
+                                    <div className="macro-label">kcal</div>
+                                </div>
+                                <div>
+                                    <div className="macro-value" style={{ color: 'var(--protein)' }}>{meal.protein}g</div>
+                                    <div className="macro-label">Protein</div>
+                                </div>
+                                <div>
+                                    <div className="macro-value" style={{ color: 'var(--carbs)' }}>{meal.carbs}g</div>
+                                    <div className="macro-label">Carbs</div>
+                                </div>
+                                <div>
+                                    <div className="macro-value" style={{ color: 'var(--fat)' }}>{meal.fat}g</div>
+                                    <div className="macro-label">Fat</div>
                                 </div>
                             </div>
                         </div>
-                    ))}
-                </div>
-            )}
+                        </div>
+            ))}
+        </div>
+    )
+}
 
-            {/* No Results */}
-            {!loading && !error && recipes.length === 0 && (
-                <div className="text-center py-12">
-                    <p className="text-2xl mb-2">🍽️</p>
-                    <p className="text-gray-400">No meals found matching your criteria.</p>
-                    <button
-                        onClick={() => {
-                            setSearchQuery('');
-                            setSelectedCategory('all');
-                            setShowHealthyOnly(false);
-                        }}
-                        className="mt-4 text-violet-400 hover:text-violet-300"
-                    >
-                        Clear all filters
-                    </button>
-                </div>
-            )}
+{/* No Results */ }
+{
+    !loading && !error && recipes.length === 0 && (
+        <div className="text-center py-12">
+            <p className="text-2xl mb-2">🍽️</p>
+            <p className="text-gray-400">No meals found matching your criteria.</p>
+            <button
+                onClick={() => {
+                    setSearchQuery('');
+                    setSelectedCategory('all');
+                    setShowHealthyOnly(false);
+                }}
+                className="mt-4 text-violet-400 hover:text-violet-300"
+            >
+                Clear all filters
+            </button>
+        </div>
+    )
+}
 
-            {/* Pagination */}
-            {totalPages > 1 && !loading && (
-                <div className="flex justify-center items-center gap-2 mt-6">
-                    <button
-                        onClick={() => setPage(1)}
-                        disabled={page === 1}
-                        className="px-3 py-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
-                    >
-                        ««
-                    </button>
-                    <button
-                        onClick={() => setPage(p => Math.max(1, p - 1))}
-                        disabled={page === 1}
-                        className="px-3 py-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
-                    >
-                        «
-                    </button>
-                    <span className="px-4 py-2 text-sm">
-                        {page} / {totalPages}
-                    </span>
-                    <button
-                        onClick={() => setPage(p => Math.min(totalPages, p + 1))}
-                        disabled={page === totalPages}
-                        className="px-3 py-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
-                    >
-                        »
-                    </button>
-                    <button
-                        onClick={() => setPage(totalPages)}
-                        disabled={page === totalPages}
-                        className="px-3 py-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
-                    >
-                        »»
-                    </button>
-                </div>
-            )}
+{/* Pagination */ }
+{
+    totalPages > 1 && !loading && (
+        <div className="flex justify-center items-center gap-2 mt-6">
+            <button
+                onClick={() => setPage(1)}
+                disabled={page === 1}
+                className="px-3 py-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+                ««
+            </button>
+            <button
+                onClick={() => setPage(p => Math.max(1, p - 1))}
+                disabled={page === 1}
+                className="px-3 py-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+                «
+            </button>
+            <span className="px-4 py-2 text-sm">
+                {page} / {totalPages}
+            </span>
+            <button
+                onClick={() => setPage(p => Math.min(totalPages, p + 1))}
+                disabled={page === totalPages}
+                className="px-3 py-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+                »
+            </button>
+            <button
+                onClick={() => setPage(totalPages)}
+                disabled={page === totalPages}
+                className="px-3 py-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+                »»
+            </button>
+        </div>
+    )
+}
 
-            {/* Meal Detail Modal */}
-            {selectedMeal && (
-                <div
-                    className="fixed inset-0 bg-black/80 z-50 overflow-auto"
-                    onClick={() => setSelectedMeal(null)}
-                >
-                    <div
-                        className="min-h-screen flex items-start justify-center p-4 pt-8"
-                        onClick={(e) => e.stopPropagation()}
-                    >
-                        <div className="bg-gray-900 rounded-2xl max-w-2xl w-full overflow-hidden shadow-2xl">
-                            {/* Header Image */}
-                            <div className="relative h-64">
-                                {getImageUrl(selectedMeal) ? (
-                                    <img
-                                        src={getImageUrl(selectedMeal) || ''}
-                                        alt={selectedMeal.title}
-                                        className="absolute inset-0 w-full h-full object-cover"
-                                        onError={(e) => {
-                                            e.currentTarget.src = '/images/placeholder.png';
-                                        }}
-                                    />
-                                ) : (
-                                    <div className="absolute inset-0 bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
-                                        <span className="text-6xl">🍽️</span>
-                                    </div>
-                                )}
-                                <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent" />
-
-                                {/* Badges */}
-                                <div className="absolute top-4 left-4 flex gap-2">
-                                    {selectedMeal.isHealthy && (
-                                        <span className="bg-green-500 text-white text-sm px-3 py-1 rounded-full font-medium">
-                                            🥗 Healthy
-                                        </span>
-                                    )}
-                                    <span className="bg-gray-800/80 text-white text-sm px-3 py-1 rounded-full capitalize">
-                                        {selectedMeal.category?.replace(/-/g, ' ')}
-                                    </span>
-                                </div>
-
-                                {/* Close button */}
-                                <button
-                                    onClick={() => setSelectedMeal(null)}
-                                    className="absolute top-4 right-4 w-10 h-10 rounded-full bg-black/50 text-white flex items-center justify-center hover:bg-black/70"
-                                >
-                                    ✕
-                                </button>
-
-                                {/* Title */}
-                                <div className="absolute bottom-4 left-4 right-4">
-                                    <h2 className="text-2xl font-bold text-white">{selectedMeal.title}</h2>
-                                    <p className="text-gray-300 text-sm mt-1 line-clamp-2">{selectedMeal.description}</p>
-                                </div>
+{/* Meal Detail Modal */ }
+{
+    selectedMeal && (
+        <div
+            className="fixed inset-0 bg-black/80 z-50 overflow-auto"
+            onClick={() => setSelectedMeal(null)}
+        >
+            <div
+                className="min-h-screen flex items-start justify-center p-4 pt-8"
+                onClick={(e) => e.stopPropagation()}
+            >
+                <div className="bg-gray-900 rounded-2xl max-w-2xl w-full overflow-hidden shadow-2xl">
+                    {/* Header Image */}
+                    <div className="relative h-64">
+                        {getImageUrl(selectedMeal) ? (
+                            <img
+                                src={getImageUrl(selectedMeal) || ''}
+                                alt={selectedMeal.title}
+                                className="absolute inset-0 w-full h-full object-cover"
+                                onError={(e) => {
+                                    e.currentTarget.src = '/images/placeholder.png';
+                                }}
+                            />
+                        ) : (
+                            <div className="absolute inset-0 bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
+                                <span className="text-6xl">🍽️</span>
                             </div>
+                        )}
+                        <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent" />
 
-                            {/* Content */}
-                            <div className="p-6">
-                                {/* Quick Info */}
-                                <div className="flex gap-4 mb-6 text-sm">
-                                    <span className="flex items-center gap-1">⏱️ {selectedMeal.prep_time || 'N/A'}</span>
-                                    <span className="flex items-center gap-1">👥 {selectedMeal.serves || '?'} servings</span>
-                                </div>
+                        {/* Badges */}
+                        <div className="absolute top-4 left-4 flex gap-2">
+                            {selectedMeal.isHealthy && (
+                                <span className="bg-green-500 text-white text-sm px-3 py-1 rounded-full font-medium">
+                                    🥗 Healthy
+                                </span>
+                            )}
+                            <span className="bg-gray-800/80 text-white text-sm px-3 py-1 rounded-full capitalize">
+                                {selectedMeal.category?.replace(/-/g, ' ')}
+                            </span>
+                        </div>
 
-                                {/* Nutritional Info */}
-                                <div className="grid grid-cols-4 gap-4 mb-6 p-4 rounded-xl bg-gray-800/50">
-                                    <div className="text-center">
-                                        <div className="text-xl font-bold" style={{ color: 'var(--calories)' }}>{selectedMeal.kcal}</div>
-                                        <div className="text-xs text-gray-400">kcal</div>
-                                    </div>
-                                    <div className="text-center">
-                                        <div className="text-xl font-bold" style={{ color: 'var(--protein)' }}>{selectedMeal.protein}g</div>
-                                        <div className="text-xs text-gray-400">Protein</div>
-                                    </div>
-                                    <div className="text-center">
-                                        <div className="text-xl font-bold" style={{ color: 'var(--carbs)' }}>{selectedMeal.carbs}g</div>
-                                        <div className="text-xs text-gray-400">Carbs</div>
-                                    </div>
-                                    <div className="text-center">
-                                        <div className="text-xl font-bold" style={{ color: 'var(--fat)' }}>{selectedMeal.fat}g</div>
-                                        <div className="text-xs text-gray-400">Fat</div>
-                                    </div>
-                                </div>
+                        {/* Close button */}
+                        <button
+                            onClick={() => setSelectedMeal(null)}
+                            className="absolute top-4 right-4 w-10 h-10 rounded-full bg-black/50 text-white flex items-center justify-center hover:bg-black/70"
+                        >
+                            ✕
+                        </button>
 
-                                {/* Additional Nutritional Info */}
-                                {(selectedMeal.fibre > 0 || selectedMeal.sugars > 0 || selectedMeal.salt > 0) && (
-                                    <div className="grid grid-cols-3 gap-4 mb-6 p-3 rounded-lg bg-gray-800/30 text-sm">
-                                        <div className="text-center">
-                                            <div className="font-medium">{selectedMeal.fibre}g</div>
-                                            <div className="text-xs text-gray-500">Fibre</div>
-                                        </div>
-                                        <div className="text-center">
-                                            <div className="font-medium">{selectedMeal.sugars}g</div>
-                                            <div className="text-xs text-gray-500">Sugars</div>
-                                        </div>
-                                        <div className="text-center">
-                                            <div className="font-medium">{selectedMeal.salt}g</div>
-                                            <div className="text-xs text-gray-500">Salt</div>
-                                        </div>
-                                    </div>
-                                )}
-
-                                {/* Ingredients */}
-                                <div className="mb-6">
-                                    <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
-                                        🥕 Ingredients
-                                    </h3>
-                                    <ul className="space-y-2">
-                                        {selectedMeal.ingredients?.map((ing, i) => (
-                                            <li key={i} className="flex items-start gap-2 text-sm text-gray-300">
-                                                <span className="text-violet-400 mt-1">•</span>
-                                                {ing}
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
-
-                                {/* Method/Instructions */}
-                                <div className="mb-6">
-                                    <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
-                                        👨‍🍳 Method
-                                    </h3>
-                                    <ol className="space-y-3">
-                                        {selectedMeal.method?.map((step, i) => (
-                                            <li key={i} className="flex gap-3 text-sm text-gray-300">
-                                                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-violet-600 text-white text-xs flex items-center justify-center">
-                                                    {i + 1}
-                                                </span>
-                                                <span>{step}</span>
-                                            </li>
-                                        ))}
-                                    </ol>
-                                </div>
-
-                                {/* Divider */}
-                                <hr className="border-gray-800 my-6" />
-
-                                {/* Ratings & Reviews */}
-                                <div className="mb-6">
-                                    <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
-                                        ⭐ Reviews ({ratings.length})
-                                    </h3>
-
-                                    {/* Rating Form */}
-                                    <form onSubmit={submitRating} className="mb-6 bg-gray-800/30 p-4 rounded-xl">
-                                        <p className="text-sm font-medium mb-2">Rate this meal</p>
-                                        <div className="flex gap-2 mb-3">
-                                            {[1, 2, 3, 4, 5].map((star) => (
-                                                <button
-                                                    type="button"
-                                                    key={star}
-                                                    onClick={() => setUserRating(star)}
-                                                    className="text-2xl hover:scale-110 transition-transform"
-                                                >
-                                                    {star <= userRating ? '⭐' : '☆'}
-                                                </button>
-                                            ))}
-                                        </div>
-                                        <textarea
-                                            className="form-input w-full text-sm mb-2"
-                                            rows={2}
-                                            placeholder="Write a comment..."
-                                            value={userComment}
-                                            onChange={e => setUserComment(e.target.value)}
-                                        />
-                                        <button
-                                            type="submit"
-                                            disabled={userRating === 0 || submittingRating}
-                                            className="btn-primary text-xs w-full disabled:opacity-50"
-                                        >
-                                            {submittingRating ? 'Posting...' : 'Post Review'}
-                                        </button>
-                                    </form>
-
-                                    {/* Reviews List */}
-                                    <div className="space-y-4 max-h-60 overflow-y-auto pr-2">
-                                        {ratings.map(review => (
-                                            <div key={review.id} className="border-b border-gray-800 pb-3 last:border-0">
-                                                <div className="flex justify-between items-start mb-1">
-                                                    <span className="font-semibold text-sm text-violet-400">{review.user_name}</span>
-                                                    <span className="text-xs text-gray-500">{new Date(review.created_at).toLocaleDateString()}</span>
-                                                </div>
-                                                <div className="flex text-yellow-500 text-xs mb-1">
-                                                    {'⭐'.repeat(review.rating)}
-                                                </div>
-                                                {review.comment && (
-                                                    <p className="text-sm text-gray-300">{review.comment}</p>
-                                                )}
-                                            </div>
-                                        ))}
-                                        {ratings.length === 0 && (
-                                            <p className="text-sm text-gray-500 text-center py-2">No reviews yet. Be the first!</p>
-                                        )}
-                                    </div>
-                                </div>
-
-                                {/* Source Link */}
-                                {selectedMeal.url && false && (
-                                    <div />
-                                )}
-                            </div>
+                        {/* Title */}
+                        <div className="absolute bottom-4 left-4 right-4">
+                            <h2 className="text-2xl font-bold text-white">{selectedMeal.title}</h2>
+                            <p className="text-gray-300 text-sm mt-1 line-clamp-2">{selectedMeal.description}</p>
                         </div>
                     </div>
+
+                    {/* Content */}
+                    <div className="p-6">
+                        {/* Quick Info */}
+                        <div className="flex gap-4 mb-6 text-sm">
+                            <span className="flex items-center gap-1">⏱️ {selectedMeal.prep_time || 'N/A'}</span>
+                            <span className="flex items-center gap-1">👥 {selectedMeal.serves || '?'} servings</span>
+                        </div>
+
+                        {/* Nutritional Info */}
+                        <div className="grid grid-cols-4 gap-4 mb-6 p-4 rounded-xl bg-gray-800/50">
+                            <div className="text-center">
+                                <div className="text-xl font-bold" style={{ color: 'var(--calories)' }}>{selectedMeal.kcal}</div>
+                                <div className="text-xs text-gray-400">kcal</div>
+                            </div>
+                            <div className="text-center">
+                                <div className="text-xl font-bold" style={{ color: 'var(--protein)' }}>{selectedMeal.protein}g</div>
+                                <div className="text-xs text-gray-400">Protein</div>
+                            </div>
+                            <div className="text-center">
+                                <div className="text-xl font-bold" style={{ color: 'var(--carbs)' }}>{selectedMeal.carbs}g</div>
+                                <div className="text-xs text-gray-400">Carbs</div>
+                            </div>
+                            <div className="text-center">
+                                <div className="text-xl font-bold" style={{ color: 'var(--fat)' }}>{selectedMeal.fat}g</div>
+                                <div className="text-xs text-gray-400">Fat</div>
+                            </div>
+                        </div>
+
+                        {/* Additional Nutritional Info */}
+                        {(selectedMeal.fibre > 0 || selectedMeal.sugars > 0 || selectedMeal.salt > 0) && (
+                            <div className="grid grid-cols-3 gap-4 mb-6 p-3 rounded-lg bg-gray-800/30 text-sm">
+                                <div className="text-center">
+                                    <div className="font-medium">{selectedMeal.fibre}g</div>
+                                    <div className="text-xs text-gray-500">Fibre</div>
+                                </div>
+                                <div className="text-center">
+                                    <div className="font-medium">{selectedMeal.sugars}g</div>
+                                    <div className="text-xs text-gray-500">Sugars</div>
+                                </div>
+                                <div className="text-center">
+                                    <div className="font-medium">{selectedMeal.salt}g</div>
+                                    <div className="text-xs text-gray-500">Salt</div>
+                                </div>
+                            </div>
+                        )}
+
+                        {/* Ingredients */}
+                        <div className="mb-6">
+                            <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
+                                🥕 Ingredients
+                            </h3>
+                            <ul className="space-y-2">
+                                {selectedMeal.ingredients?.map((ing, i) => (
+                                    <li key={i} className="flex items-start gap-2 text-sm text-gray-300">
+                                        <span className="text-violet-400 mt-1">•</span>
+                                        {ing}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+
+                        {/* Method/Instructions */}
+                        <div className="mb-6">
+                            <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
+                                👨‍🍳 Method
+                            </h3>
+                            <ol className="space-y-3">
+                                {selectedMeal.method?.map((step, i) => (
+                                    <li key={i} className="flex gap-3 text-sm text-gray-300">
+                                        <span className="flex-shrink-0 w-6 h-6 rounded-full bg-violet-600 text-white text-xs flex items-center justify-center">
+                                            {i + 1}
+                                        </span>
+                                        <span>{step}</span>
+                                    </li>
+                                ))}
+                            </ol>
+                        </div>
+
+                        {/* Divider */}
+                        <hr className="border-gray-800 my-6" />
+
+                        {/* Ratings & Reviews */}
+                        <div className="mb-6">
+                            <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                                ⭐ Reviews ({ratings.length})
+                            </h3>
+
+                            {/* Rating Form */}
+                            <form onSubmit={submitRating} className="mb-6 bg-gray-800/30 p-4 rounded-xl">
+                                <p className="text-sm font-medium mb-2">Rate this meal</p>
+                                <div className="flex gap-2 mb-3">
+                                    {[1, 2, 3, 4, 5].map((star) => (
+                                        <button
+                                            type="button"
+                                            key={star}
+                                            onClick={() => setUserRating(star)}
+                                            className="text-2xl hover:scale-110 transition-transform"
+                                        >
+                                            {star <= userRating ? '⭐' : '☆'}
+                                        </button>
+                                    ))}
+                                </div>
+                                <textarea
+                                    className="form-input w-full text-sm mb-2"
+                                    rows={2}
+                                    placeholder="Write a comment..."
+                                    value={userComment}
+                                    onChange={e => setUserComment(e.target.value)}
+                                />
+                                <button
+                                    type="submit"
+                                    disabled={userRating === 0 || submittingRating}
+                                    className="btn-primary text-xs w-full disabled:opacity-50"
+                                >
+                                    {submittingRating ? 'Posting...' : 'Post Review'}
+                                </button>
+                            </form>
+
+                            {/* Reviews List */}
+                            <div className="space-y-4 max-h-60 overflow-y-auto pr-2">
+                                {ratings.map(review => (
+                                    <div key={review.id} className="border-b border-gray-800 pb-3 last:border-0">
+                                        <div className="flex justify-between items-start mb-1">
+                                            <span className="font-semibold text-sm text-violet-400">{review.user_name}</span>
+                                            <span className="text-xs text-gray-500">{new Date(review.created_at).toLocaleDateString()}</span>
+                                        </div>
+                                        <div className="flex text-yellow-500 text-xs mb-1">
+                                            {'⭐'.repeat(review.rating)}
+                                        </div>
+                                        {review.comment && (
+                                            <p className="text-sm text-gray-300">{review.comment}</p>
+                                        )}
+                                    </div>
+                                ))}
+                                {ratings.length === 0 && (
+                                    <p className="text-sm text-gray-500 text-center py-2">No reviews yet. Be the first!</p>
+                                )}
+                            </div>
+                        </div>
+
+                        {/* Source Link */}
+                        {selectedMeal.url && false && (
+                            <div />
+                        )}
+                    </div>
                 </div>
-            )}
+            </div>
         </div>
+    )
+}
+        </div >
     );
 }
