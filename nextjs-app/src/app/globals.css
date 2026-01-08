@@ -10,8 +10,15 @@
   /* Background */
   --bg-primary: #0a0a0f;
   --bg-secondary: #12121a;
-  --bg-card: rgba(18, 18, 26, 0.8);
+  --bg-card: rgba(18, 18, 26, 0.6);
+  /* More transparent for glass effect */
+  --bg-glass: rgba(18, 18, 26, 0.4);
   --bg-hover: rgba(30, 30, 45, 0.8);
+
+  /* Glassmorphism */
+  --glass-border: 1px solid rgba(255, 255, 255, 0.08);
+  --glass-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  --glass-backdrop: blur(16px);
 
   /* Text */
   --text-primary: #f8fafc;
@@ -62,11 +69,13 @@ body {
 /* Cards */
 .card {
   background: var(--bg-card);
-  backdrop-filter: blur(20px);
-  border: 1px solid var(--border-color);
-  border-radius: 16px;
+  backdrop-filter: var(--glass-backdrop);
+  -webkit-backdrop-filter: var(--glass-backdrop);
+  border: var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  border-radius: 20px;
   padding: 1.5rem;
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 @media (max-width: 768px) {

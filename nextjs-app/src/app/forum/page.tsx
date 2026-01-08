@@ -143,7 +143,7 @@ export default function CommunityPage() {
                 return (
                     <span
                         key={i}
-                        className="text-blue-400 hover:underline cursor-pointer"
+                        className="text-[var(--accent-primary)] font-medium hover:underline cursor-pointer"
                         onClick={(e) => {
                             e.preventDefault();
                             setSearchQuery(tag);
@@ -158,133 +158,186 @@ export default function CommunityPage() {
     };
 
     return (
-        <div className="animate-fade-in p-4 lg:p-8 max-w-6xl mx-auto">
-            <div className="flex flex-col md:flex-row items-center justify-between mb-8 gap-4">
-                <div>
-                    <h1 className="page-title">Community Feed 💬</h1>
-                    <p className="page-subtitle">Connect, share, and inspire.</p>
+        <div className="min-h-screen pb-20">
+            {/* Hero Section */}
+            <div className="relative py-12 px-4 lg:px-8 mb-8 overflow-hidden">
+                <div className="absolute inset-0 z-0 opacity-20 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-900 via-gray-900 to-black pointer-events-none"></div>
+                <div className="relative z-10 max-w-4xl mx-auto text-center">
+                    <h1 className="text-4xl md:text-5xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-500 animate-fade-in-up">
+                        Community Hub 💬
+                    </h1>
+                    <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto animate-fade-in-up delay-100">
+                        Connect with others, share your meal prep wins, and find inspiration for your next healthy dish.
+                    </p>
+
+                    <button
+                        onClick={() => setShowModal(true)}
+                        className="btn-primary transform hover:scale-105 transition-all shadow-lg shadow-indigo-500/20 px-8 py-3 text-lg animate-fade-in-up delay-200"
+                    >
+                        ✨ Share Your Story
+                    </button>
                 </div>
-                <button onClick={() => setShowModal(true)} className="btn-primary w-full md:w-auto">
-                    + New Post
-                </button>
             </div>
 
-            {/* Search & Filter Bar */}
-            <div className="card mb-6 p-4 flex flex-col md:flex-row gap-4 items-center">
-                <div className="relative flex-1 w-full">
-                    <span className="absolute left-3 top-2.5 text-gray-500">🔍</span>
-                    <input
-                        className="form-input pl-10 w-full"
-                        placeholder="Search posts or #hashtags..."
-                        value={searchQuery}
-                        onChange={(e) => setSearchQuery(e.target.value)}
-                    />
+            <div className="max-w-6xl mx-auto px-4 lg:px-8">
+                {/* Search & Filter Bar - Floating Glass */}
+                <div className="sticky top-20 z-30 mb-8 mx-auto max-w-3xl">
+                    <div className="backdrop-blur-xl bg-gray-900/60 border border-white/10 rounded-2xl p-2 flex flex-col md:flex-row gap-2 shadow-2xl transition-all hover:border-white/20 hover:bg-gray-900/70">
+                        <div className="relative flex-1">
+                            <span className="absolute left-4 top-3 text-gray-400">🔍</span>
+                            <input
+                                className="w-full bg-transparent border-none text-white placeholder-gray-500 pl-12 pr-4 py-2.5 focus:ring-0"
+                                placeholder="Search conversations or #hashtags..."
+                                value={searchQuery}
+                                onChange={(e) => setSearchQuery(e.target.value)}
+                            />
+                        </div>
+                        <div className="h-px md:h-auto md:w-px bg-white/10 mx-2"></div>
+                        <select
+                            className="bg-transparent border-none text-sm text-gray-300 focus:ring-0 cursor-pointer hover:text-white px-4 py-2"
+                            value={sortBy}
+                            onChange={(e) => setSortBy(e.target.value as 'latest' | 'top')}
+                        >
+                            <option value="latest" className="bg-gray-900">⏱️ Latest</option>
+                            <option value="top" className="bg-gray-900">🔥 Top Liked</option>
+                        </select>
+                    </div>
                 </div>
-                <select
-                    className="form-input md:w-48"
-                    value={sortBy}
-                    onChange={(e) => setSortBy(e.target.value as 'latest' | 'top')}
-                >
-                    <option value="latest">⏱️ Latest</option>
-                    <option value="top">🔥 Top Liked</option>
-                </select>
-            </div>
 
-            {loading ? (
-                <div className="text-center py-12">Loading feed...</div>
-            ) : posts.length === 0 ? (
-                <div className="text-center py-12 text-gray-400">No posts found. Be the first to share!</div>
-            ) : (
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    {posts.map(post => (
-                        <Link href={`/forum/${post.id}`} key={post.id} className="card hover:border-[var(--accent-primary)] transition-all group">
-                            {post.image_url && (
-                                <div className="h-48 rounded-lg mb-4 bg-cover bg-center relative" style={{ backgroundImage: `url(${post.image_url})` }}>
-
+                {loading ? (
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {[1, 2, 3, 4].map(i => (
+                            <div key={i} className="card h-64 animate-pulse bg-gray-800/50 border-transparent"></div>
+                        ))}
+                    </div>
+                ) : posts.length === 0 ? (
+                    <div className="text-center py-20 text-gray-500">
+                        <div className="text-6xl mb-4 opacity-50">📭</div>
+                        <p className="text-xl">No posts found yet.</p>
+                        <p className="text-sm">Be the first to start a conversation!</p>
+                    </div>
+                ) : (
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pb-12">
+                        {posts.map(post => (
+                            <Link href={`/forum/${post.id}`} key={post.id} className="group card hover:border-[var(--accent-primary)] hover:-translate-y-1 transition-all duration-300 flex flex-col h-full bg-gradient-to-br from-[var(--bg-card)] to-[rgba(30,30,40,0.4)]">
+                                {/* Author Header */}
+                                <div className="flex items-center gap-3 mb-4">
+                                    {post.author_avatar ? (
+                                        <img src={post.author_avatar} className="w-10 h-10 rounded-full object-cover ring-2 ring-[var(--bg-primary)] group-hover:ring-[var(--accent-primary)] transition-all" />
+                                    ) : (
+                                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white font-bold shadow-lg">
+                                            {post.author_name[0]}
+                                        </div>
+                                    )}
+                                    <div className="flex-1 min-w-0">
+                                        <div className="font-semibold text-gray-200 truncate group-hover:text-white transition-colors">{post.author_name}</div>
+                                        <div className="text-xs text-gray-500">{new Date(post.created_at).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}</div>
+                                    </div>
                                 </div>
-                            )}
-                            <div className="flex items-center gap-2 mb-3">
-                                {post.author_avatar ? (
-                                    <img src={post.author_avatar} className="w-8 h-8 rounded-full object-cover" />
-                                ) : (
-                                    <div className="w-8 h-8 rounded-full bg-[var(--accent-primary)] flex items-center justify-center text-white text-xs font-bold">
-                                        {post.author_name[0]}
+
+                                {/* Content */}
+                                <div className="flex-1">
+                                    <h3 className="font-bold text-xl mb-2 text-white group-hover:text-[var(--accent-primary)] transition-colors line-clamp-2">{post.title}</h3>
+                                    <p className="text-gray-400 text-sm line-clamp-3 mb-4 leading-relaxed group-hover:text-gray-300 transition-colors">
+                                        {renderContent(post.content)}
+                                    </p>
+                                </div>
+
+                                {/* Link Preview / Image */}
+                                {post.image_url && (
+                                    <div className="h-48 rounded-xl mb-4 bg-cover bg-center relative overflow-hidden shadow-lg group-hover:shadow-indigo-500/10 transition-all">
+                                        <img src={post.image_url} alt="Post image" className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" />
                                     </div>
                                 )}
-                                <div className="flex-1">
-                                    <div className="font-semibold text-sm">{post.author_name}</div>
-                                    <div className="text-xs text-gray-500">{new Date(post.created_at).toLocaleDateString()}</div>
-                                </div>
-                            </div>
 
-                            <h3 className="font-bold text-lg mb-2 group-hover:text-[var(--accent-primary)] transition-colors">{post.title}</h3>
-                            <p className="text-sm text-[var(--text-secondary)] line-clamp-3 mb-4">
-                                {renderContent(post.content)}
-                            </p>
-
-                            <div className="flex justify-between items-center text-xs text-[var(--text-muted)] border-t border-gray-800 pt-3">
-                                <button
-                                    onClick={(e) => toggleLike(e, post.id)}
-                                    className="flex items-center gap-1 hover:text-red-400 transition-colors p-1"
-                                >
-                                    <span>❤️</span> {post.likes}
-                                </button>
-                                <div className="flex items-center gap-4">
-                                    <span className="flex items-center gap-1">
-                                        💬 {post.comment_count}
-                                    </span>
+                                {/* Footer */}
+                                <div className="flex justify-between items-center pt-4 border-t border-white/5 mt-auto">
                                     <button
-                                        onClick={(e) => sharePost(e, post)}
-                                        className="hover:text-blue-400 transition-colors p-1"
+                                        onClick={(e) => toggleLike(e, post.id)}
+                                        className="flex items-center gap-1.5 px-3 py-1.5 rounded-full hover:bg-white/5 transition-all group/like"
                                     >
-                                        📤 Share
+                                        <span className="transform group-hover/like:scale-125 transition-transform duration-300">❤️</span>
+                                        <span className="font-medium text-gray-400 group-hover/like:text-red-400 transition-colors">{post.likes}</span>
                                     </button>
+
+                                    <div className="flex items-center gap-2">
+                                        <span className="flex items-center gap-1.5 px-3 py-1.5 text-xs text-gray-500 bg-white/5 rounded-full">
+                                            💬 {post.comment_count}
+                                        </span>
+                                        <button
+                                            onClick={(e) => sharePost(e, post)}
+                                            className="p-1.5 text-gray-500 hover:text-white transition-colors"
+                                        >
+                                            📤
+                                        </button>
+                                    </div>
                                 </div>
-                            </div>
-                        </Link>
-                    ))}
-                </div>
-            )}
+                            </Link>
+                        ))}
+                    </div>
+                )}
+            </div>
 
             {/* Create Post Modal */}
             {showModal && (
-                <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4">
-                    <div className="card w-full max-w-lg relative animate-fade-in">
-                        <button onClick={() => setShowModal(false)} className="absolute top-4 right-4 text-gray-400 hover:text-white">✕</button>
-                        <h2 className="text-xl font-bold mb-4">Create New Post</h2>
-                        <form onSubmit={handleCreatePost} className="space-y-4">
-                            <div>
-                                <label className="form-label">Title</label>
+                <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+                    <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setShowModal(false)}></div>
+                    <div className="card w-full max-w-lg relative animate-fade-in shadow-2xl shadow-indigo-500/10 border-indigo-500/20 transform transition-all scale-100 flex flex-col max-h-[90vh]">
+                        <button onClick={() => setShowModal(false)} className="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors bg-white/5 rounded-full p-1">✕</button>
+
+                        <div className="mb-6">
+                            <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Create Post</h2>
+                            <p className="text-sm text-gray-500">Share your thoughts with the community</p>
+                        </div>
+
+                        <form onSubmit={handleCreatePost} className="space-y-4 overflow-y-auto pr-2 custom-scrollbar">
+                            <div className="group">
+                                <label className="form-label group-focus-within:text-[var(--accent-primary)] transition-colors">Title</label>
                                 <input
-                                    className="form-input w-full"
+                                    className="form-input bg-black/20 border-white/10 focus:bg-black/40"
                                     value={title}
                                     onChange={e => setTitle(e.target.value)}
-                                    placeholder="e.g., My transformation result! #fitness"
+                                    placeholder="Give your post a catchy title..."
                                     required
                                 />
                             </div>
-                            <div>
-                                <label className="form-label">Content</label>
+                            <div className="group">
+                                <label className="form-label group-focus-within:text-[var(--accent-primary)] transition-colors">Content</label>
                                 <textarea
-                                    className="form-input w-full h-32"
+                                    className="form-input bg-black/20 border-white/10 h-32 resize-none focus:bg-black/40"
                                     value={content}
                                     onChange={e => setContent(e.target.value)}
-                                    placeholder="Share your thoughts... Use #hashtags!"
+                                    placeholder="What's on your mind?"
                                     required
                                 />
                             </div>
                             <div>
-                                <label className="form-label">Add Image (Optional)</label>
-                                <input
-                                    type="file"
-                                    onChange={e => setImageFile(e.target.files?.[0] || null)}
-                                    accept="image/*"
-                                    className="block w-full text-sm text-gray-400 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-500/10 file:text-violet-400 hover:file:bg-violet-500/20"
-                                />
+                                <label className="form-label">Add Image</label>
+                                <div className="relative group cursor-pointer">
+                                    <input
+                                        type="file"
+                                        onChange={e => setImageFile(e.target.files?.[0] || null)}
+                                        accept="image/*"
+                                        className="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-10"
+                                    />
+                                    <div className="border-2 border-dashed border-gray-700 rounded-xl p-4 text-center group-hover:border-[var(--accent-primary)] group-hover:bg-[var(--accent-primary)]/5 transition-all">
+                                        {imageFile ? (
+                                            <span className="text-[var(--accent-primary)] font-medium flex items-center justify-center gap-2">
+                                                ✅ {imageFile.name}
+                                            </span>
+                                        ) : (
+                                            <span className="text-gray-500 group-hover:text-gray-300">
+                                                📷 Click to upload an image
+                                            </span>
+                                        )}
+                                    </div>
+                                </div>
                             </div>
-                            <button disabled={submitting} type="submit" className="btn-primary w-full">
-                                {submitting ? 'Posting...' : 'Post to Community'}
-                            </button>
+                            <div className="pt-2">
+                                <button disabled={submitting} type="submit" className="btn-primary w-full py-3 text-lg font-bold shadow-lg shadow-indigo-500/25">
+                                    {submitting ? 'Posting...' : '🚀 Post to Community'}
+                                </button>
+                            </div>
                         </form>
                     </div>
                 </div>
