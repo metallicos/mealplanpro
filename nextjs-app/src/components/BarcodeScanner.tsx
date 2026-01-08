@@ -78,17 +78,16 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                 if (!isMounted) return;
 
                 const config = {
-                    fps: 15, // Increased FPS for faster scanning
-                    qrbox: { width: 320, height: 150 }, // Slightly wider for EAN-13
+                    fps: 15, // Smooth scanning
+                    qrbox: { width: 300, height: 150 }, // Optimal for 1D barcodes
                     aspectRatio: 1.0,
-                    // vital for mobile focus
+                    disableFlip: true, // Prevents orientation issues
                     videoConstraints: {
                         facingMode: "environment",
-                        focusMode: "continuous",
-                        width: { min: 640, ideal: 1920, max: 2560 }, // Higher resolution
-                        height: { min: 480, ideal: 1080, max: 1440 },
-                        /* @ts-ignore - zoom is supported in modern browsers but missing from types */
-                        zoom: 2.0 // Attempt to apply digital zoom for better macro focus
+                        // 720p is often the sweet spot for mobile web focus & FPS
+                        width: { min: 640, ideal: 1280, max: 1920 },
+                        height: { min: 480, ideal: 720, max: 1080 },
+                        focusMode: "continuous"
                     }
                 };
 
@@ -221,8 +220,8 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                                     {/* Scan line */}
                                     <div className="w-full h-[2px] bg-cyan-400 shadow-[0_0_10px_#22d3ee] absolute top-1/2 -translate-y-1/2 animate-scan-line"></div>
                                 </div>
-                                <p className="absolute mt-64 text-sm font-medium text-white/80 tracking-wide bg-black/60 px-4 py-1 rounded-full">
-                                    Align Barcode in Frame
+                                <p className="absolute mt-64 text-sm font-medium text-white/80 tracking-wide bg-black/60 px-4 py-1 rounded-full text-center">
+                                    Hold Steady • Tap to Focus
                                 </p>
                             </div>
                         )}
