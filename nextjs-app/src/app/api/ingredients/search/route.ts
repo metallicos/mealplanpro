@@ -111,19 +111,26 @@ export async function GET(request: Request) {
             const nameA = a.name.toLowerCase();
             const nameB = b.name.toLowerCase();
 
-            // Exact match priority (check both plural and singular forms)
+            // 1. Exact match priority
             const isExactA = nameA === q || nameA === qSingular;
             const isExactB = nameB === q || nameB === qSingular;
             if (isExactA && !isExactB) return -1;
             if (!isExactA && isExactB) return 1;
 
-            // "Starts with" priority
-            const startA = nameA.startsWith(q);
-            const startB = nameB.startsWith(q);
+            // 2. "Noun" priority: Starts with "Query," (e.g. "Rice, white")
+            // This distinguishes "Rice, white" (good) from "Rice noodles" (bad for "rice" query)
+            const nounA = nameA.startsWith(q + ',') || nameA.startsWith(qSingular + ',');
+            const nounB = nameB.startsWith(q + ',') || nameB.startsWith(qSingular + ',');
+            if (nounA && !nounB) return -1;
+            if (!nounA && nounB) return 1;
+
+            // 3. "Starts with" priority (general)
+            const startA = nameA.startsWith(q) || nameA.startsWith(qSingular);
+            const startB = nameB.startsWith(q) || nameB.startsWith(qSingular);
             if (startA && !startB) return -1;
             if (!startA && startB) return 1;
 
-            // Shortest name priority (Simpler often means the base ingredient)
+            // 4. Shortest name priority
             if (nameA.length !== nameB.length) {
                 return nameA.length - nameB.length;
             }
