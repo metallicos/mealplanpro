@@ -647,7 +647,7 @@ export default function MacrosPage() {
                         )}
 
                         {/* Nutrition Grid */}
-                        <div className="grid grid-cols-4 gap-2 text-center p-4 rounded-xl mb-6 bg-white/5 border border-white/5">
+                        <div className="grid grid-cols-4 gap-2 text-center p-4 rounded-xl mb-6 bg-[#0a0a0f] border border-white/5">
                             <div>
                                 <div className="text-xl font-bold" style={{ color: '#ef4444' }}>
                                     {Math.round(scannedFood.calories_per_100g)}

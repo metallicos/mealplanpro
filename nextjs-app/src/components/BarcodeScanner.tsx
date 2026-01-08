@@ -25,10 +25,10 @@ interface BarcodeScannerProps {
 export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScannerProps) {
     const [mode, setMode] = useState<'camera' | 'manual'>('camera');
     const [barcodeInput, setBarcodeInput] = useState('');
-    const [isProcessing, setIsProcessing] = useState(false); // Unified loading state
+    const [isProcessing, setIsProcessing] = useState(false);
+    const [processingMessage, setProcessingMessage] = useState('Initializing...');
     const [error, setError] = useState<string | null>(null);
     const scannerRef = useRef<Html5Qrcode | null>(null);
-    const [debug, setDebug] = useState('');
 
     useEffect(() => {
         if (mode !== 'camera') {
@@ -37,9 +37,28 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
         }
 
         const scannerId = "reader";
+        let isMounted = true;
+
         const startScanner = async () => {
             try {
-                // setDebug('Initializing camera...');
+                // Ensure previous instance is stopped
+                if (scannerRef.current) {
+                    try {
+                        await scannerRef.current.stop();
+                        scannerRef.current.clear();
+                    } catch (e) {
+                        // ignore stop errors
+                    }
+                }
+
+                // Wait a moment for DOM to settle
+                await new Promise(r => setTimeout(r, 300));
+
+                if (!document.getElementById(scannerId)) {
+                    console.warn("Scanner element not found");
+                    return;
+                }
+
                 const html5QrCode = new Html5Qrcode(scannerId, {
                     experimentalFeatures: {
                         useBarCodeDetectorIfSupported: true
@@ -49,15 +68,18 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
 
                 scannerRef.current = html5QrCode;
 
+                if (!isMounted) return;
+
                 const config = {
-                    fps: 15, // Higher FPS for smoother scanning
+                    fps: 10,
                     qrbox: { width: 250, height: 250 },
                     aspectRatio: 1.0,
+                    // vital for mobile focus
                     videoConstraints: {
                         facingMode: "environment",
-                        focusMode: "continuous", // critical for barcodes
-                        width: { ideal: 1920 },
-                        height: { ideal: 1080 }
+                        focusMode: "continuous",
+                        width: { min: 640, ideal: 1280 },
+                        height: { min: 480, ideal: 720 },
                     }
                 };
 
@@ -65,24 +87,27 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                     { facingMode: "environment" },
                     config,
                     async (decodedText) => {
-                        handleBarcode(decodedText);
+                        if (!isProcessing) {
+                            handleBarcode(decodedText);
+                        }
                     },
                     (errorMessage) => {
                         // ignore frame errors
                     }
                 );
-                // setDebug('Camera active');
+                setProcessingMessage('');
             } catch (err) {
-                console.error(err);
-                setError('Could not access camera. Try Manual Mode.');
+                console.error("Camera start error:", err);
+                if (isMounted) {
+                    setError('Camera access failed. Please use Manual Mode.');
+                }
             }
         };
 
-        // Small delay to ensure DOM is ready
-        const timer = setTimeout(startScanner, 100);
+        startScanner();
 
         return () => {
-            clearTimeout(timer);
+            isMounted = false;
             stopScanner();
         };
     }, [mode]);
@@ -90,32 +115,55 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
     const stopScanner = async () => {
         if (scannerRef.current && scannerRef.current.isScanning) {
             try {
-                await scannerRef.current.stop();
-                scannerRef.current.clear();
+                const scanner = scannerRef.current;
+                scannerRef.current = null; // Detach ref first
+                await scanner.stop();
+                scanner.clear();
             } catch (ignore) { }
         }
     };
 
     const handleBarcode = async (barcode: string) => {
         if (isProcessing) return;
+
         setIsProcessing(true);
+        setProcessingMessage('Barcode detected! Fetching info...');
         setError(null);
-        if (mode === 'camera') stopScanner(); // Stop camera once scanned
+
+        // Optional: Vibration feedback
+        if (navigator.vibrate) navigator.vibrate(200);
 
         try {
+            // Pause scanner but don't stop camera yet to keep UI fluid
+            if (scannerRef.current) {
+                scannerRef.current.pause();
+            }
+
             const response = await fetch(`/api/nutrition?barcode=${barcode}`);
             const data = await response.json();
 
             if (data.found) {
+                setProcessingMessage('Product found!');
+                await stopScanner();
                 onScanResult(data.product);
             } else {
                 setError(data.error || 'Product not found.');
-                setIsProcessing(false);
-                // If camera mode, maybe restart? For now, let user decide action
+                setProcessingMessage('');
+                // Resume scanning after a delay
+                setTimeout(() => {
+                    setIsProcessing(false);
+                    setError(null);
+                    if (scannerRef.current) scannerRef.current.resume();
+                }, 2000);
             }
         } catch (err) {
-            setError('Failed to fetch product data.');
-            setIsProcessing(false);
+            setError('Connection error.');
+            setProcessingMessage('');
+            setTimeout(() => {
+                setIsProcessing(false);
+                setError(null);
+                if (scannerRef.current) scannerRef.current.resume();
+            }, 2000);
         }
     };
 
@@ -127,112 +175,124 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
     };
 
     return (
-        <div className="fixed inset-0 bg-black z-50 flex flex-col animate-fade-in text-white">
-            {/* Header */}
-            <div className="flex items-center justify-between p-4 bg-black/50 backdrop-blur-md absolute top-0 left-0 right-0 z-20">
-                <h2 className="font-bold text-lg">Scan Information</h2>
+        <div className="fixed inset-0 bg-black z-50 flex flex-col pt-safe-area-inset-top pb-safe-area-inset-bottom text-white">
+            {/* Header - Fixed to top, high z-index */}
+            <div className="flex-none p-4 flex justify-between items-center bg-black z-30 shadow-md">
+                <h2 className="font-bold text-lg text-white">Scan Barcode</h2>
                 <button
-                    onClick={onClose}
-                    className="w-8 h-8 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20"
+                    onClick={() => {
+                        stopScanner();
+                        onClose();
+                    }}
+                    className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 text-white transition-colors"
                 >
                     ✕
                 </button>
             </div>
 
-            {/* Content Swapper */}
-            <div className="flex-1 relative bg-gray-900 flex flex-col justify-center">
+            {/* Main Content Area */}
+            <div className="flex-1 relative overflow-hidden bg-black flex flex-col">
                 {mode === 'camera' ? (
-                    <>
-                        <div id="reader" className="w-full h-full absolute inset-0 object-cover" />
+                    <div className="w-full h-full relative flex items-center justify-center bg-black">
+                        {/* Camera Container with explicit max dimensions for mobile */}
+                        <div id="reader" className="w-full h-full absolute inset-0 bg-black">
+                            {/* html5-qrcode injects video here */}
+                        </div>
+
+                        {/* Scanner Overlay UI */}
                         {!error && !isProcessing && (
-                            <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
-                                {/* Modern "Technology" Overlay */}
-                                <div className="relative w-64 h-48 border-2 border-cyan-400/50 rounded-lg">
-                                    <div className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-cyan-400"></div>
-                                    <div className="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-cyan-400"></div>
-                                    <div className="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-cyan-400"></div>
-                                    <div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-cyan-400"></div>
-                                    <div className="w-full h-[2px] bg-cyan-400/80 absolute top-1/2 -translate-y-1/2 animate-scan-line shadow-[0_0_15px_rgba(34,211,238,0.8)]"></div>
+                            <div className="absolute inset-0 pointer-events-none flex items-center justify-center z-10">
+                                <div className="relative w-72 h-48 border-2 border-cyan-400/60 rounded-xl shadow-[0_0_0_9999px_rgba(0,0,0,0.5)]">
+                                    {/* Corner markers */}
+                                    <div className="absolute top-0 left-0 w-6 h-6 border-t-4 border-l-4 border-cyan-400 rounded-tl-lg"></div>
+                                    <div className="absolute top-0 right-0 w-6 h-6 border-t-4 border-r-4 border-cyan-400 rounded-tr-lg"></div>
+                                    <div className="absolute bottom-0 left-0 w-6 h-6 border-b-4 border-l-4 border-cyan-400 rounded-bl-lg"></div>
+                                    <div className="absolute bottom-0 right-0 w-6 h-6 border-b-4 border-r-4 border-cyan-400 rounded-br-lg"></div>
+
+                                    {/* Scan line */}
+                                    <div className="w-full h-[2px] bg-cyan-400 shadow-[0_0_10px_#22d3ee] absolute top-1/2 -translate-y-1/2 animate-scan-line"></div>
                                 </div>
-                                <p className="absolute mt-64 text-sm text-cyan-200/80 font-mono tracking-wider animate-pulse">
-                                    ALIGN BARCODE
+                                <p className="absolute mt-64 text-sm font-medium text-white/80 tracking-wide bg-black/60 px-4 py-1 rounded-full">
+                                    Align Barcode in Frame
                                 </p>
                             </div>
                         )}
-                    </>
-                ) : (
-                    <div className="px-6 w-full max-w-sm mx-auto">
-                        <div className="text-center mb-6">
-                            <div className="text-6xl mb-2">⌨️</div>
-                            <h3 className="text-xl font-bold">Manual Entry</h3>
-                            <p className="text-gray-400 text-sm">Type the barcode number below</p>
-                        </div>
-                        <form onSubmit={handleManualSubmit}>
-                            <input
-                                type="text"
-                                className="w-full bg-gray-800 border border-gray-700 rounded-xl px-4 py-4 text-center text-xl tracking-widest mb-4 focus:ring-2 focus:ring-cyan-500 outline-none"
-                                placeholder="e.g. 6111242100992"
-                                value={barcodeInput}
-                                onChange={e => setBarcodeInput(e.target.value)}
-                                autoFocus
-                            />
-                            <button
-                                type="submit"
-                                disabled={isProcessing || barcodeInput.length < 3}
-                                className="w-full btn-primary py-3 rounded-xl disabled:opacity-50"
-                            >
-                                {isProcessing ? 'Searching...' : 'Search Product'}
-                            </button>
-                        </form>
-                    </div>
-                )}
 
-                {/* Loading / Error Overlay */}
-                {isProcessing && mode === 'camera' && (
-                    <div className="absolute inset-0 bg-black/60 flex items-center justify-center z-30">
-                        <div className="flex flex-col items-center">
-                            <div className="w-12 h-12 border-4 border-cyan-500 border-t-transparent rounded-full animate-spin mb-4"></div>
-                            <p className="font-mono text-cyan-400">ANALYZING...</p>
-                        </div>
-                    </div>
-                )}
-
-                {error && (
-                    <div className="absolute bottom-24 left-6 right-6 p-4 bg-red-500/90 text-white rounded-xl text-center z-30 animate-bounce-subtle">
-                        {error}
-                        {mode === 'camera' && (
-                            <button
-                                onClick={() => setMode('manual')}
-                                className="block w-full mt-2 text-xs underline font-bold"
-                            >
-                                Switch to Manual Input
-                            </button>
+                        {/* Status Messages */}
+                        {isProcessing && (
+                            <div className="absolute inset-0 z-20 bg-black/70 flex flex-col items-center justify-center backdrop-blur-sm">
+                                <div className="w-12 h-12 border-4 border-cyan-500 border-t-transparent rounded-full animate-spin mb-4"></div>
+                                <p className="font-bold text-lg text-cyan-400">{processingMessage}</p>
+                            </div>
                         )}
+
+                        {error && (
+                            <div className="absolute bottom-8 left-4 right-4 z-20">
+                                <div className="bg-red-500/90 text-white p-4 rounded-xl text-center shadow-lg animate-bounce-subtle backdrop-blur-md">
+                                    <p className="font-bold mb-1">⚠️ {error}</p>
+                                    <button
+                                        onClick={() => setMode('manual')}
+                                        className="text-xs underline font-medium mt-1 hover:text-white/80"
+                                    >
+                                        Tap here to switch to Manual Mode
+                                    </button>
+                                </div>
+                            </div>
+                        )}
+                    </div>
+                ) : (
+                    <div className="flex-1 flex flex-col items-center justify-center p-6 bg-gray-900">
+                        <div className="w-full max-w-sm">
+                            <div className="text-center mb-8">
+                                <div className="text-6xl mb-4">⌨️</div>
+                                <h3 className="text-2xl font-bold text-white mb-2">Manual Entry</h3>
+                                <p className="text-gray-400">Enter the barcode number printed on the package.</p>
+                            </div>
+                            <form onSubmit={handleManualSubmit}>
+                                <input
+                                    type="text"
+                                    inputMode="numeric"
+                                    pattern="[0-9]*"
+                                    className="w-full bg-gray-800 border-2 border-gray-700 rounded-xl px-4 py-4 text-center text-2xl tracking-widest text-white mb-6 focus:border-cyan-500 focus:ring-0 outline-none transition-colors"
+                                    placeholder="00000000"
+                                    value={barcodeInput}
+                                    onChange={e => setBarcodeInput(e.target.value)}
+                                    autoFocus
+                                />
+                                <button
+                                    type="submit"
+                                    disabled={isProcessing || barcodeInput.length < 3}
+                                    className="w-full btn-primary py-4 rounded-xl text-lg font-bold disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-cyan-500/20"
+                                >
+                                    {isProcessing ? 'Searching...' : 'Search Product'}
+                                </button>
+                            </form>
+                        </div>
                     </div>
                 )}
             </div>
 
             {/* Bottom Controls */}
-            <div className="bg-black p-6 pb-8 flex justify-center gap-4">
+            <div className="flex-none bg-black p-4 pb-8 flex gap-3 border-t border-white/10 z-30">
                 <button
                     onClick={() => setMode('camera')}
-                    className={`flex-1 py-3 px-4 rounded-xl flex flex-col items-center gap-1 transition-all ${mode === 'camera'
-                            ? 'bg-cyan-500 text-white shadow-[0_0_20px_rgba(6,182,212,0.4)]'
-                            : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+                    className={`flex-1 py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all font-bold ${mode === 'camera'
+                            ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-900/40'
+                            : 'bg-gray-800 text-gray-400'
                         }`}
                 >
-                    <span className="text-lg">📷</span>
-                    <span className="text-xs font-bold">SCANNER</span>
+                    <span className="text-xl">📷</span>
+                    <span>Scan</span>
                 </button>
                 <button
                     onClick={() => setMode('manual')}
-                    className={`flex-1 py-3 px-4 rounded-xl flex flex-col items-center gap-1 transition-all ${mode === 'manual'
-                            ? 'bg-cyan-500 text-white shadow-[0_0_20px_rgba(6,182,212,0.4)]'
-                            : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+                    className={`flex-1 py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all font-bold ${mode === 'manual'
+                            ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-900/40'
+                            : 'bg-gray-800 text-gray-400'
                         }`}
                 >
-                    <span className="text-lg">#️⃣</span>
-                    <span className="text-xs font-bold">MANUAL</span>
+                    <span className="text-xl">#️⃣</span>
+                    <span>Manual</span>
                 </button>
             </div>
 
@@ -241,15 +301,29 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                     object-fit: cover !important;
                     width: 100% !important;
                     height: 100% !important;
+                    border-radius: 0 !important;
+                }
+                #reader__scan_region {
+                    display: none !important;
+                }
+                #reader__dashboard_section_csr span {
+                    display: none !important;
                 }
                 @keyframes scan-line {
-                    0% { top: 10%; opacity: 0; }
+                    0% { top: 0%; opacity: 0; }
                     10% { opacity: 1; }
                     90% { opacity: 1; }
-                    100% { top: 90%; opacity: 0; }
+                    100% { top: 100%; opacity: 0; }
                 }
                 .animate-scan-line {
                     animation: scan-line 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+                }
+                /* Safe Area Support */
+                .pt-safe-area-inset-top {
+                    padding-top: env(safe-area-inset-top);
+                }
+                .pb-safe-area-inset-bottom {
+                    padding-bottom: env(safe-area-inset-bottom);
                 }
             `}</style>
         </div>
