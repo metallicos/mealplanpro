@@ -598,100 +598,98 @@ export default function MacrosPage() {
                     onClick={() => setScannedFood(null)}
                 >
                     <div
-                        className="card max-w-md w-full"
+                        className="card max-w-md w-full border-t border-white/10 shadow-2xl"
+                        style={{ background: '#181824' }}
                         onClick={(e) => e.stopPropagation()}
                     >
-                        {/* Product Image */}
-                        {scannedFood.image_url && (
-                            <div
-                                className="h-40 rounded-xl mb-4 bg-cover bg-center"
-                                style={{ backgroundImage: `url(${scannedFood.image_url})` }}
-                            />
-                        )}
-
+                        {/* Header with Close Button */}
                         <div className="flex items-start justify-between mb-4">
                             <div>
-                                <h3 className="text-xl font-bold">{scannedFood.name}</h3>
+                                <h3 className="text-xl font-bold text-white">{scannedFood.name}</h3>
                                 {scannedFood.brand && (
-                                    <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
+                                    <p className="text-sm text-gray-400">
                                         {scannedFood.brand}
                                     </p>
                                 )}
                             </div>
                             <button
                                 onClick={() => setScannedFood(null)}
-                                className="text-2xl hover:opacity-70"
+                                className="w-8 h-8 flex items-center justify-center rounded-full bg-white/5 hover:bg-white/10 text-gray-400 hover:text-white transition-colors"
                             >
                                 ✕
                             </button>
                         </div>
 
+                        {/* Product Image */}
+                        {scannedFood.image_url && (
+                            <div
+                                className="h-48 w-full rounded-xl mb-6 bg-cover bg-center border border-white/5 shadow-inner"
+                                style={{ backgroundImage: `url(${scannedFood.image_url})` }}
+                            />
+                        )}
+
                         {/* Nutri-score */}
                         {scannedFood.nutriscore && (
-                            <div className="mb-4">
+                            <div className="flex justify-center mb-6">
                                 <span
-                                    className="inline-block px-3 py-1 rounded-full text-sm font-bold"
+                                    className="px-4 py-1.5 rounded-lg text-sm font-bold uppercase tracking-wide shadow-lg"
                                     style={{
                                         background: scannedFood.nutriscore === 'a' ? '#16a34a' :
                                             scannedFood.nutriscore === 'b' ? '#84cc16' :
                                                 scannedFood.nutriscore === 'c' ? '#facc15' :
                                                     scannedFood.nutriscore === 'd' ? '#f97316' : '#ef4444',
-                                        color: 'white'
+                                        color: 'white' // Ensure text is white for contrast
                                     }}
                                 >
-                                    Nutri-Score {scannedFood.nutriscore.toUpperCase()}
+                                    Nutri-Score {scannedFood.nutriscore}
                                 </span>
                             </div>
                         )}
 
-                        {/* Nutrition per 100g */}
-                        <div className="grid grid-cols-4 gap-2 text-center p-3 rounded-lg mb-4" style={{ background: 'var(--bg-secondary)' }}>
+                        {/* Nutrition Grid */}
+                        <div className="grid grid-cols-4 gap-2 text-center p-4 rounded-xl mb-6 bg-white/5 border border-white/5">
                             <div>
-                                <div className="font-bold" style={{ color: 'var(--calories)' }}>
+                                <div className="text-xl font-bold" style={{ color: '#ef4444' }}>
                                     {Math.round(scannedFood.calories_per_100g)}
                                 </div>
-                                <div className="text-xs" style={{ color: 'var(--text-muted)' }}>kcal</div>
+                                <div className="text-xs text-gray-500 uppercase tracking-wider font-semibold">kcal</div>
                             </div>
                             <div>
-                                <div className="font-bold" style={{ color: 'var(--protein)' }}>
-                                    {Math.round(scannedFood.protein_per_100g)}g
+                                <div className="text-xl font-bold" style={{ color: '#3b82f6' }}>
+                                    {Math.round(scannedFood.protein_per_100g)}<span className="text-sm">g</span>
                                 </div>
-                                <div className="text-xs" style={{ color: 'var(--text-muted)' }}>Protein</div>
+                                <div className="text-xs text-gray-500 uppercase tracking-wider font-semibold">Prot</div>
                             </div>
                             <div>
-                                <div className="font-bold" style={{ color: 'var(--carbs)' }}>
-                                    {Math.round(scannedFood.carbs_per_100g)}g
+                                <div className="text-xl font-bold" style={{ color: '#f59e0b' }}>
+                                    {Math.round(scannedFood.carbs_per_100g)}<span className="text-sm">g</span>
                                 </div>
-                                <div className="text-xs" style={{ color: 'var(--text-muted)' }}>Carbs</div>
+                                <div className="text-xs text-gray-500 uppercase tracking-wider font-semibold">Carbs</div>
                             </div>
                             <div>
-                                <div className="font-bold" style={{ color: 'var(--fat)' }}>
-                                    {Math.round(scannedFood.fat_per_100g)}g
+                                <div className="text-xl font-bold" style={{ color: '#a855f7' }}>
+                                    {Math.round(scannedFood.fat_per_100g)}<span className="text-sm">g</span>
                                 </div>
-                                <div className="text-xs" style={{ color: 'var(--text-muted)' }}>Fat</div>
+                                <div className="text-xs text-gray-500 uppercase tracking-wider font-semibold">Fat</div>
                             </div>
                         </div>
 
-                        <p className="text-xs text-center mb-4" style={{ color: 'var(--text-muted)' }}>
-                            Nutrition per 100g
-                        </p>
-
-                        {/* Serving size input */}
-                        <div className="grid grid-cols-2 gap-4 mb-4">
+                        {/* User Inputs */}
+                        <div className="grid grid-cols-2 gap-4 mb-6">
                             <div>
-                                <label className="form-label">Serving (grams)</label>
+                                <label className="text-xs font-semibold text-gray-400 mb-1.5 block">Serving (g)</label>
                                 <input
                                     type="number"
-                                    className="form-input"
+                                    className="w-full bg-[#0a0a0f] border border-gray-700 rounded-lg px-3 py-2.5 text-white focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition-all placeholder-gray-600"
                                     value={scannedGrams}
                                     onChange={(e) => setScannedGrams(parseInt(e.target.value) || 0)}
                                     min="1"
                                 />
                             </div>
                             <div>
-                                <label className="form-label">Meal Type</label>
+                                <label className="text-xs font-semibold text-gray-400 mb-1.5 block">Meal Type</label>
                                 <select
-                                    className="form-input"
+                                    className="w-full bg-[#0a0a0f] border border-gray-700 rounded-lg px-3 py-2.5 text-white focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition-all appearance-none"
                                     value={mealType}
                                     onChange={(e) => setMealType(e.target.value as 'main' | 'snack')}
                                 >
@@ -701,41 +699,19 @@ export default function MacrosPage() {
                             </div>
                         </div>
 
-                        {/* Preview for selected grams */}
-                        {scannedPreview && (
-                            <div className="p-3 rounded-lg mb-4" style={{ background: 'var(--accent-primary)', opacity: 0.1 }}>
-                                <div className="text-center text-sm font-medium mb-2">
-                                    For {scannedGrams}g serving:
-                                </div>
-                                <div className="grid grid-cols-4 gap-2 text-center text-sm">
-                                    <div>
-                                        <span style={{ color: 'var(--calories)' }}>{scannedPreview.calories}</span> kcal
-                                    </div>
-                                    <div>
-                                        <span style={{ color: 'var(--protein)' }}>{scannedPreview.protein}</span>g P
-                                    </div>
-                                    <div>
-                                        <span style={{ color: 'var(--carbs)' }}>{scannedPreview.carbs}</span>g C
-                                    </div>
-                                    <div>
-                                        <span style={{ color: 'var(--fat)' }}>{scannedPreview.fat}</span>g F
-                                    </div>
-                                </div>
-                            </div>
-                        )}
-
-                        <div className="flex gap-3">
+                        {/* Actions */}
+                        <div className="flex gap-3 pt-2">
                             <button
                                 onClick={() => setScannedFood(null)}
-                                className="btn-secondary flex-1"
+                                className="flex-1 py-3 rounded-xl bg-gray-800 hover:bg-gray-700 text-gray-300 font-medium transition-colors"
                             >
                                 Cancel
                             </button>
                             <button
                                 onClick={addScannedToLog}
-                                className="btn-primary flex-1"
+                                className="flex-1 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 text-white font-bold shadow-lg shadow-indigo-500/20 transition-all hover:scale-[1.02]"
                             >
-                                ➕ Add to Log
+                                Add to Log
                             </button>
                         </div>
                     </div>
