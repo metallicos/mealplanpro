@@ -245,6 +245,61 @@ export default function MacrosPage() {
         fat: Math.round(scannedFood.fat_per_100g * scannedGrams / 100 * 10) / 10,
     } : null;
 
+    // State for editing
+    const [editingLog, setEditingLog] = useState<LogItem | null>(null);
+    const [editGrams, setEditGrams] = useState(100);
+    const [editMealType, setEditMealType] = useState<'main' | 'snack'>('main');
+
+    const startEdit = (item: LogItem) => {
+        setEditingLog(item);
+        setEditGrams(item.grams);
+        setEditMealType(item.meal_type);
+    };
+
+    const updateLog = async () => {
+        if (!editingLog) return;
+
+        // Calculate base values (per 1g) from the original entry
+        // We assume the stored values are accurate for the stored grams
+        const multiplier = editGrams / editingLog.grams;
+
+        const updatedItem = {
+            ...editingLog,
+            grams: editGrams,
+            meal_type: editMealType,
+            calories: Math.round(editingLog.calories * multiplier),
+            protein: Math.round(editingLog.protein * multiplier * 10) / 10,
+            carbs: Math.round(editingLog.carbs * multiplier * 10) / 10,
+            fat: Math.round(editingLog.fat * multiplier * 10) / 10,
+            minerals: editingLog.minerals ? {
+                calcium: Math.round(editingLog.minerals.calcium * multiplier),
+                iron: Math.round(editingLog.minerals.iron * multiplier * 100) / 100,
+                magnesium: Math.round(editingLog.minerals.magnesium * multiplier),
+                potassium: Math.round(editingLog.minerals.potassium * multiplier),
+                sodium: Math.round(editingLog.minerals.sodium * multiplier),
+                zinc: Math.round(editingLog.minerals.zinc * multiplier * 100) / 100,
+            } : undefined
+        };
+
+        try {
+            const res = await fetch('/api/logs', {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(updatedItem)
+            });
+
+            if (res.ok) {
+                setLogItems(logItems.map(i => i.id === editingLog.id ? updatedItem : i));
+                setEditingLog(null);
+            } else {
+                alert('Failed to update log');
+            }
+        } catch (err) {
+            console.error(err);
+            alert('Failed to update log');
+        }
+    };
+
     return (
         <div className="animate-fade-in">
             <div className="mb-8">
@@ -499,8 +554,10 @@ export default function MacrosPage() {
                         </button>
                     </div>
 
-                    {/* Quick Add */}
-                    {/* Quick Add Removed - Use Search */}\n                    <div className="mt-4 text-xs text-gray-500 text-center">\n                        Search for any ingredient to see real macro data\n                    </div>
+                    {/* Quick Add Removed - Use Search */}
+                    <div className="mt-4 text-xs text-gray-500 text-center">
+                        Search for any ingredient to see real macro data
+                    </div>
                 </div>
 
                 {/* Today's Log */}
@@ -518,7 +575,7 @@ export default function MacrosPage() {
                     ) : (
                         <div className="space-y-2">
                             {logItems.map((item) => (
-                                <div key={item.id} className="log-item">
+                                <div key={item.id} className="log-item group relative">
                                     <div className="flex-1">
                                         <div className="log-item-name">{item.food_name}</div>
                                         <div className="log-item-details">{item.grams}g • {item.meal_type}</div>
@@ -541,12 +598,23 @@ export default function MacrosPage() {
                                             <div className="text-xs" style={{ color: 'var(--text-muted)' }}>F</div>
                                         </div>
                                     </div>
-                                    <button
-                                        onClick={() => removeFromLog(item.id)}
-                                        className="text-red-400 hover:text-red-300"
-                                    >
-                                        🗑️
-                                    </button>
+
+                                    <div className="flex gap-2">
+                                        <button
+                                            onClick={() => startEdit(item)}
+                                            className="text-gray-400 hover:text-white p-1 rounded hover:bg-white/10"
+                                            title="Edit"
+                                        >
+                                            ✏️
+                                        </button>
+                                        <button
+                                            onClick={() => removeFromLog(item.id)}
+                                            className="text-red-400 hover:text-red-300 p-1 rounded hover:bg-white/10"
+                                            title="Delete"
+                                        >
+                                            🗑️
+                                        </button>
+                                    </div>
                                 </div>
                             ))}
                         </div>
@@ -712,6 +780,66 @@ export default function MacrosPage() {
                                 className="flex-1 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 text-white font-bold shadow-lg shadow-indigo-500/20 transition-all hover:scale-[1.02]"
                             >
                                 Add to Log
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            )}
+
+            {/* Edit Log Modal */}
+            {editingLog && (
+                <div
+                    className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4"
+                    onClick={() => setEditingLog(null)}
+                >
+                    <div
+                        className="card max-w-sm w-full border-t border-white/10 shadow-2xl bg-[#181824]"
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        <h3 className="text-xl font-bold text-white mb-6">Edit Log Entry</h3>
+
+                        <div className="mb-4">
+                            <div className="text-white font-medium mb-1">{editingLog.food_name}</div>
+                            <div className="text-sm text-gray-400">Adjusting portion size will recalculate macros.</div>
+                        </div>
+
+                        <div className="grid grid-cols-2 gap-4 mb-6">
+                            <div>
+                                <label className="text-xs font-semibold text-gray-400 mb-1.5 block">Serving (g)</label>
+                                <input
+                                    type="number"
+                                    className="w-full bg-[#0a0a0f] border border-gray-700 rounded-lg px-3 py-2.5 text-white focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition-all"
+                                    value={editGrams}
+                                    onChange={(e) => setEditGrams(parseInt(e.target.value) || 0)}
+                                    min="1"
+                                />
+                            </div>
+                            <div>
+                                <label className="text-xs font-semibold text-gray-400 mb-1.5 block">Meal Type</label>
+                                <select
+                                    className="w-full bg-[#0a0a0f] border border-gray-700 rounded-lg px-3 py-2.5 text-white focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition-all appearance-none"
+                                    value={editMealType}
+                                    onChange={(e) => setEditMealType(e.target.value as 'main' | 'snack')}
+                                >
+                                    <option value="main">Main Meal</option>
+                                    <option value="snack">Snack</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        {/* Actions */}
+                        <div className="flex gap-3 pt-2">
+                            <button
+                                onClick={() => setEditingLog(null)}
+                                className="flex-1 py-3 rounded-xl bg-gray-800 hover:bg-gray-700 text-gray-300 font-medium transition-colors"
+                            >
+                                Cancel
+                            </button>
+                            <button
+                                onClick={updateLog}
+                                className="flex-1 py-3 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-400 hover:to-cyan-400 text-white font-bold shadow-lg shadow-blue-500/20 transition-all hover:scale-[1.02]"
+                            >
+                                Save Changes
                             </button>
                         </div>
                     </div>

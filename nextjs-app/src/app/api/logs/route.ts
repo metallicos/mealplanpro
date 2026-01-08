@@ -72,6 +72,52 @@ export async function POST(request: NextRequest) {
     }
 }
 
+// PUT: Update a log entry
+export async function PUT(request: NextRequest) {
+    const auth = await getSession();
+    if (!auth) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+
+    try {
+        const body = await request.json();
+        const { id, grams, calories, protein, carbs, fat, meal_type, minerals } = body;
+
+        if (!id || !grams) {
+            return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
+        }
+
+        // Verify ownership
+        const existing = await query('SELECT user_id FROM daily_logs WHERE id = ?', [id]);
+        if ((existing as any[]).length === 0) {
+            return NextResponse.json({ error: 'Log not found' }, { status: 404 });
+        }
+
+        if ((existing as any[])[0].user_id !== auth.id) {
+            return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
+        }
+
+        await query(`
+            UPDATE daily_logs 
+            SET grams = ?, calories = ?, protein = ?, carbs = ?, fat = ?, meal_type = ?, minerals = ?
+            WHERE id = ?
+        `, [
+            grams,
+            calories,
+            protein,
+            carbs,
+            fat,
+            meal_type,
+            minerals ? JSON.stringify(minerals) : null,
+            id
+        ]);
+
+        return NextResponse.json({ success: true });
+
+    } catch (error) {
+        console.error('Update log error:', error);
+        return NextResponse.json({ error: 'Failed to update log' }, { status: 500 });
+    }
+}
+
 // DELETE: Remove a log entry
 export async function DELETE(request: NextRequest) {
     const auth = await getSession();
