@@ -1,7 +1,31 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import { Html5Qrcode, Html5QrcodeSupportedFormats } from 'html5-qrcode';
+
+// Type definitions for the experimental BarcodeDetector API
+interface DetectedBarcode {
+    boundingBox: DOMRectReadOnly;
+    rawValue: string;
+    format: string;
+    cornerPoints: { x: number; y: number }[];
+}
+
+interface BarcodeDetectorOptions {
+    formats?: string[];
+}
+
+interface IBarcodeDetector {
+    detect(image: ImageBitmapSource): Promise<DetectedBarcode[]>;
+}
+
+declare global {
+    interface Window {
+        BarcodeDetector: {
+            new(options?: BarcodeDetectorOptions): IBarcodeDetector;
+            getSupportedFormats(): Promise<string[]>;
+        };
+    }
+}
 
 interface NutritionData {
     barcode: string;
@@ -26,155 +50,148 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
     const [mode, setMode] = useState<'camera' | 'manual'>('camera');
     const [barcodeInput, setBarcodeInput] = useState('');
     const [isProcessing, setIsProcessing] = useState(false);
-    const [processingMessage, setProcessingMessage] = useState('Initializing...');
+    const [processingMessage, setProcessingMessage] = useState('Initializing Camera...');
     const [error, setError] = useState<string | null>(null);
-    const scannerRef = useRef<Html5Qrcode | null>(null);
+    const [debugInfo, setDebugInfo] = useState<string>('');
+
+    const videoRef = useRef<HTMLVideoElement>(null);
+    const streamRef = useRef<MediaStream | null>(null);
+    const requestRef = useRef<number>(undefined);
+    const processingRef = useRef(false); // Ref for loop access
 
     useEffect(() => {
         if (mode !== 'camera') {
-            stopScanner();
+            stopCamera();
             return;
         }
 
-        const scannerId = "reader";
-        let isMounted = true;
+        let detector: IBarcodeDetector | null = null;
+        let isLooping = true;
 
-        const startScanner = async () => {
+        const initCamera = async () => {
             try {
-                // Ensure previous instance is stopped
-                if (scannerRef.current) {
-                    try {
-                        await scannerRef.current.stop();
-                        scannerRef.current.clear();
-                    } catch (e) {
-                        // ignore stop errors
-                    }
+                // 1. Check for Native Support
+                if (!('BarcodeDetector' in window)) {
+                    throw new Error("Native Barcode Detector not supported on this device. Please use Manual Mode.");
                 }
 
-                // Wait a moment for DOM to settle
-                await new Promise(r => setTimeout(r, 300));
-
-                if (!document.getElementById(scannerId)) {
-                    console.warn("Scanner element not found");
-                    return;
+                // 2. Initialize Detector
+                const formats = await window.BarcodeDetector.getSupportedFormats();
+                if (formats.length === 0) {
+                    throw new Error("No barcode formats supported.");
                 }
-
-                const html5QrCode = new Html5Qrcode(scannerId, {
-                    experimentalFeatures: {
-                        useBarCodeDetectorIfSupported: true
-                    },
-                    verbose: false,
-                    formatsToSupport: [
-                        Html5QrcodeSupportedFormats.EAN_13,
-                        Html5QrcodeSupportedFormats.EAN_8,
-                        Html5QrcodeSupportedFormats.UPC_A,
-                        Html5QrcodeSupportedFormats.UPC_E,
-                        Html5QrcodeSupportedFormats.CODE_128,
-                    ]
+                detector = new window.BarcodeDetector({
+                    formats: ['ean_13', 'upc_a', 'ean_8', 'upc_e', 'code_128', 'code_39']
                 });
 
-                scannerRef.current = html5QrCode;
-
-                if (!isMounted) return;
-
-                const config = {
-                    fps: 15, // Smooth scanning
-                    qrbox: { width: 300, height: 150 }, // Optimal for 1D barcodes
-                    aspectRatio: 1.0,
-                    disableFlip: true, // Prevents orientation issues
-                    videoConstraints: {
+                // 3. Get Camera Stream (High Res)
+                const constraints: MediaStreamConstraints = {
+                    audio: false,
+                    video: {
                         facingMode: "environment",
-                        focusMode: "continuous", // Basic constraint
-                        // Request high resolution for S25 FE and similar devices
-                        width: { min: 1280, ideal: 1920, max: 3840 },
-                        height: { min: 720, ideal: 1080, max: 2160 },
-                        // Force continuous focus via advanced constraints for Android
-                        advanced: [{ focusMode: "continuous" }, { zoom: 1.5 }],
-                        /* @ts-ignore - zoom property support */
-                        zoom: 1.5
-                    } as unknown as MediaTrackConstraints
+                        // Request 4K / 1080p strictly
+                        width: { ideal: 3840, min: 1920 },
+                        height: { ideal: 2160, min: 1080 },
+                        // Force continuous focus
+                        // @ts-expect-error - advanced constraints are not fully typed
+                        advanced: [{ focusMode: "continuous" }]
+                    }
                 };
 
-                await html5QrCode.start(
-                    { facingMode: "environment" },
-                    config,
-                    async (decodedText) => {
-                        if (!isProcessing) {
-                            handleBarcode(decodedText);
-                        }
-                    },
-                    (errorMessage) => {
-                        // ignore frame errors
-                    }
-                );
-                setProcessingMessage('');
-            } catch (err) {
-                console.error("Camera start error:", err);
-                if (isMounted) {
-                    setError('Camera access failed. Please use Manual Mode.');
+                const stream = await navigator.mediaDevices.getUserMedia(constraints);
+                streamRef.current = stream;
+
+                if (videoRef.current) {
+                    const video = videoRef.current;
+                    video.srcObject = stream;
+                    await video.play();
+
+                    // Debug info
+                    const track = stream.getVideoTracks()[0];
+                    const settings = track.getSettings();
+                    setDebugInfo(`${settings.width}x${settings.height} @ ${Math.round(settings.frameRate || 0)}fps`);
+                    setProcessingMessage(""); // Ready
+
+                    // Start Scan Loop
+                    scanLoop();
                 }
+
+            } catch (err: unknown) {
+                console.error("Scanner init error:", err);
+                setError(err instanceof Error ? err.message : 'Camera failed.');
+                setProcessingMessage('');
             }
         };
 
-        startScanner();
+        const scanLoop = async () => {
+            if (!isLooping || !videoRef.current || !detector) return;
+
+            if (!processingRef.current && videoRef.current.readyState === videoRef.current.HAVE_ENOUGH_DATA) {
+                try {
+                    const barcodes: DetectedBarcode[] = await detector.detect(videoRef.current);
+                    if (barcodes.length > 0) {
+                        const code = barcodes[0].rawValue;
+                        handleBarcode(code);
+                    }
+                } catch {
+                    // Ignore detection errors (common in loop)
+                }
+            }
+            requestRef.current = requestAnimationFrame(scanLoop);
+        };
+
+        initCamera();
 
         return () => {
-            isMounted = false;
-            stopScanner();
+            isLooping = false;
+            if (requestRef.current) cancelAnimationFrame(requestRef.current);
+            stopCamera();
         };
     }, [mode]);
 
-    const stopScanner = async () => {
-        if (scannerRef.current && scannerRef.current.isScanning) {
-            try {
-                const scanner = scannerRef.current;
-                scannerRef.current = null; // Detach ref first
-                await scanner.stop();
-                scanner.clear();
-            } catch (ignore) { }
+    const stopCamera = () => {
+        if (streamRef.current) {
+            streamRef.current.getTracks().forEach(track => {
+                track.stop();
+            });
+            streamRef.current = null;
         }
     };
 
     const handleBarcode = async (barcode: string) => {
-        if (isProcessing) return;
+        if (processingRef.current) return;
 
+        processingRef.current = true;
         setIsProcessing(true);
-        setProcessingMessage('Barcode detected! Fetching info...');
+        setProcessingMessage('Found it! Fetching details...');
         setError(null);
 
-        // Optional: Vibration feedback
         if (navigator.vibrate) navigator.vibrate(200);
 
         try {
-            // Pause scanner but don't stop camera yet to keep UI fluid
-            if (scannerRef.current) {
-                scannerRef.current.pause();
-            }
-
             const response = await fetch(`/api/nutrition?barcode=${barcode}`);
             const data = await response.json();
 
             if (data.found) {
                 setProcessingMessage('Product found!');
-                await stopScanner();
+                stopCamera(); // Stop processing immediately
                 onScanResult(data.product);
             } else {
                 setError(data.error || 'Product not found.');
-                setProcessingMessage('');
-                // Resume scanning after a delay
+                // Cooldown
                 setTimeout(() => {
+                    processingRef.current = false;
                     setIsProcessing(false);
                     setError(null);
-                    if (scannerRef.current) scannerRef.current.resume();
+                    setProcessingMessage('');
                 }, 2000);
             }
         } catch (err) {
-            setError('Connection error.');
-            setProcessingMessage('');
+            setError('Connection failed');
             setTimeout(() => {
+                processingRef.current = false;
                 setIsProcessing(false);
                 setError(null);
-                if (scannerRef.current) scannerRef.current.resume();
             }, 2000);
         }
     };
@@ -188,65 +205,69 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
 
     return (
         <div className="fixed inset-0 h-[100dvh] w-screen bg-black z-50 flex flex-col pt-safe-area-inset-top pb-safe-area-inset-bottom text-white overflow-hidden overscroll-none touch-none">
-            {/* Header - Fixed to top, high z-index */}
+            {/* Header */}
             <div className="flex-none p-4 flex justify-between items-center bg-black/80 backdrop-blur-md z-30 shadow-md">
-                <h2 className="font-bold text-lg text-white">Scan Barcode</h2>
-                <button
-                    onClick={() => {
-                        stopScanner();
-                        onClose();
-                    }}
-                    className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 text-white transition-colors"
-                >
-                    ✕
-                </button>
+                <h2 className="font-bold text-lg text-white">Native Scanner</h2>
+                <div className="flex gap-4 items-center">
+                    {debugInfo && <span className="text-[10px] font-mono text-green-400 bg-green-900/30 px-2 py-1 rounded">{debugInfo}</span>}
+                    <button
+                        onClick={() => {
+                            stopCamera();
+                            onClose();
+                        }}
+                        className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 text-white transition-colors"
+                    >
+                        ✕
+                    </button>
+                </div>
             </div>
 
-            {/* Main Content Area */}
+            {/* Main Content */}
             <div className="flex-1 relative overflow-hidden bg-black flex flex-col">
                 {mode === 'camera' ? (
                     <div className="w-full h-full relative flex items-center justify-center bg-black">
-                        {/* Camera Container with explicit max dimensions for mobile */}
-                        <div id="reader" className="w-full h-full absolute inset-0 bg-black">
-                            {/* html5-qrcode injects video here */}
-                        </div>
+                        {/* Native Video Element */}
+                        <video
+                            ref={videoRef}
+                            autoPlay
+                            playsInline
+                            muted
+                            className="absolute inset-0 w-full h-full object-cover"
+                        />
 
-                        {/* Scanner Overlay UI */}
+                        {/* Overlays */}
                         {!error && !isProcessing && (
                             <div className="absolute inset-0 pointer-events-none flex items-center justify-center z-10">
-                                <div className="relative w-72 h-48 border-2 border-cyan-400/60 rounded-xl shadow-[0_0_0_9999px_rgba(0,0,0,0.5)]">
-                                    {/* Corner markers */}
-                                    <div className="absolute top-0 left-0 w-6 h-6 border-t-4 border-l-4 border-cyan-400 rounded-tl-lg"></div>
-                                    <div className="absolute top-0 right-0 w-6 h-6 border-t-4 border-r-4 border-cyan-400 rounded-tr-lg"></div>
-                                    <div className="absolute bottom-0 left-0 w-6 h-6 border-b-4 border-l-4 border-cyan-400 rounded-bl-lg"></div>
-                                    <div className="absolute bottom-0 right-0 w-6 h-6 border-b-4 border-r-4 border-cyan-400 rounded-br-lg"></div>
-
-                                    {/* Scan line */}
-                                    <div className="w-full h-[2px] bg-cyan-400 shadow-[0_0_10px_#22d3ee] absolute top-1/2 -translate-y-1/2 animate-scan-line"></div>
+                                <div className="relative w-80 h-48 border-2 border-green-400/80 rounded-xl shadow-[0_0_0_9999px_rgba(0,0,0,0.5)]">
+                                    <div className="absolute top-0 left-0 w-6 h-6 border-t-4 border-l-4 border-green-400 rounded-tl-lg"></div>
+                                    <div className="absolute top-0 right-0 w-6 h-6 border-t-4 border-r-4 border-green-400 rounded-tr-lg"></div>
+                                    <div className="absolute bottom-0 left-0 w-6 h-6 border-b-4 border-l-4 border-green-400 rounded-bl-lg"></div>
+                                    <div className="absolute bottom-0 right-0 w-6 h-6 border-b-4 border-r-4 border-green-400 rounded-br-lg"></div>
+                                    <div className="w-full h-[2px] bg-green-400 shadow-[0_0_10px_#4ade80] absolute top-1/2 -translate-y-1/2 animate-scan-line"></div>
                                 </div>
-                                <p className="absolute mt-64 text-sm font-medium text-white/80 tracking-wide bg-black/60 px-4 py-1 rounded-full text-center">
-                                    Hold Steady • Tap to Focus
+                                <p className="absolute mt-60 text-sm font-medium text-white/90 bg-black/60 px-4 py-1 rounded-full text-center backdrop-blur-sm">
+                                    Use Native Camera • Tap to Focus
                                 </p>
                             </div>
                         )}
 
-                        {/* Status Messages */}
+                        {/* Status/Error Messages */}
                         {isProcessing && (
-                            <div className="absolute inset-0 z-20 bg-black/70 flex flex-col items-center justify-center backdrop-blur-sm">
-                                <div className="w-12 h-12 border-4 border-cyan-500 border-t-transparent rounded-full animate-spin mb-4"></div>
-                                <p className="font-bold text-lg text-cyan-400">{processingMessage}</p>
+                            <div className="absolute inset-0 z-20 bg-black/60 flex flex-col items-center justify-center backdrop-blur-sm">
+                                <div className="w-12 h-12 border-4 border-green-500 border-t-transparent rounded-full animate-spin mb-4"></div>
+                                <p className="font-bold text-lg text-green-400">{processingMessage}</p>
                             </div>
                         )}
 
                         {error && (
-                            <div className="absolute bottom-8 left-4 right-4 z-20">
+                            <div className="absolute bottom-24 left-4 right-4 z-20">
                                 <div className="bg-red-500/90 text-white p-4 rounded-xl text-center shadow-lg animate-bounce-subtle backdrop-blur-md">
                                     <p className="font-bold mb-1">⚠️ {error}</p>
                                     <button
                                         onClick={() => setMode('manual')}
                                         className="text-xs underline font-medium mt-1 hover:text-white/80"
                                     >
-                                        Tap here to switch to Manual Mode
+                                        Use Manual Entry
                                     </button>
                                 </div>
                             </div>
@@ -254,18 +275,19 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                     </div>
                 ) : (
                     <div className="flex-1 flex flex-col items-center justify-center p-6 bg-gray-900">
+                        {/* Manual Mode UI */}
                         <div className="w-full max-w-sm">
                             <div className="text-center mb-8">
                                 <div className="text-6xl mb-4">⌨️</div>
                                 <h3 className="text-2xl font-bold text-white mb-2">Manual Entry</h3>
-                                <p className="text-gray-400">Enter the barcode number printed on the package.</p>
+                                <p className="text-gray-400">Enter barcode number below</p>
                             </div>
                             <form onSubmit={handleManualSubmit}>
                                 <input
                                     type="text"
                                     inputMode="numeric"
                                     pattern="[0-9]*"
-                                    className="w-full bg-gray-800 border-2 border-gray-700 rounded-xl px-4 py-4 text-center text-2xl tracking-widest text-white mb-6 focus:border-cyan-500 focus:ring-0 outline-none transition-colors"
+                                    className="w-full bg-gray-800 border-2 border-gray-700 rounded-xl px-4 py-4 text-center text-2xl tracking-widest text-white mb-6 focus:border-green-500 focus:ring-0 outline-none transition-colors"
                                     placeholder="00000000"
                                     value={barcodeInput}
                                     onChange={e => setBarcodeInput(e.target.value)}
@@ -274,9 +296,9 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                                 <button
                                     type="submit"
                                     disabled={isProcessing || barcodeInput.length < 3}
-                                    className="w-full btn-primary py-4 rounded-xl text-lg font-bold disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-cyan-500/20"
+                                    className="w-full btn-primary py-4 rounded-xl text-lg font-bold disabled:opacity-50"
                                 >
-                                    {isProcessing ? 'Searching...' : 'Search Product'}
+                                    {isProcessing ? 'Searching...' : 'Search'}
                                 </button>
                             </form>
                         </div>
@@ -284,12 +306,15 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                 )}
             </div>
 
+            {/* Config Check ID (Hidden) */}
+            <div id="native-scanner-v1" className="hidden" />
+
             {/* Bottom Controls */}
             <div className="flex-none bg-black p-4 pb-8 flex gap-3 border-t border-white/10 z-30">
                 <button
                     onClick={() => setMode('camera')}
                     className={`flex-1 py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all font-bold ${mode === 'camera'
-                        ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-900/40'
+                        ? 'bg-green-600 text-white shadow-lg shadow-green-900/40'
                         : 'bg-gray-800 text-gray-400'
                         }`}
                 >
@@ -299,7 +324,7 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                 <button
                     onClick={() => setMode('manual')}
                     className={`flex-1 py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all font-bold ${mode === 'manual'
-                        ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-900/40'
+                        ? 'bg-green-600 text-white shadow-lg shadow-green-900/40'
                         : 'bg-gray-800 text-gray-400'
                         }`}
                 >
@@ -309,18 +334,6 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
             </div>
 
             <style jsx global>{`
-                #reader video {
-                    object-fit: cover !important;
-                    width: 100% !important;
-                    height: 100% !important;
-                    border-radius: 0 !important;
-                }
-                #reader__scan_region {
-                    display: none !important;
-                }
-                #reader__dashboard_section_csr span {
-                    display: none !important;
-                }
                 @keyframes scan-line {
                     0% { top: 0%; opacity: 0; }
                     10% { opacity: 1; }
@@ -330,7 +343,6 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                 .animate-scan-line {
                     animation: scan-line 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
                 }
-                /* Safe Area Support */
                 .pt-safe-area-inset-top {
                     padding-top: env(safe-area-inset-top);
                 }
