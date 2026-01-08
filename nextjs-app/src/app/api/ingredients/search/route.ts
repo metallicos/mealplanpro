@@ -88,7 +88,8 @@ export async function GET(request: Request) {
                 id: food.fdcId,
                 name: cleanedName,
                 // Filtered Macros ONLY
-                calories: getNutrient(1008), // Energy (kcal)
+                // Energy: Try 2047 (Atwater Specific) -> 2048 (Atwater General) -> 1008 (Kcal)
+                calories: getNutrient(2047) || getNutrient(2048) || getNutrient(1008) || 0,
                 protein: getNutrient(1003),
                 fat: getNutrient(1004),
                 carbs: getNutrient(1005),
