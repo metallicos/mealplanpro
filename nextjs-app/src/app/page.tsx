@@ -79,7 +79,10 @@ export default function Dashboard() {
 
   const getImageUrl = (meal: Recipe) => {
     if (meal.local_image_path) {
-      return `/images/recipes/${meal.local_image_path.replace('images/', '')}`;
+      if (meal.local_image_path.startsWith('images/')) {
+        return `/${meal.local_image_path}`;
+      }
+      return `/images/recipes/${meal.local_image_path}`;
     }
     return meal.image_url || '/images/placeholder.png';
   };

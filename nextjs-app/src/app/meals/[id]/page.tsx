@@ -53,7 +53,10 @@ export default function MealDetailsPage() {
 
     const getImageUrl = (recipe: Recipe) => {
         if (recipe.local_image_path) {
-            return `/images/recipes/${recipe.local_image_path.replace('images/', '')}`;
+            if (recipe.local_image_path.startsWith('images/')) {
+                return `/${recipe.local_image_path}`;
+            }
+            return `/images/recipes/${recipe.local_image_path}`;
         }
         return recipe.image_url || '/images/placeholder.png';
     };

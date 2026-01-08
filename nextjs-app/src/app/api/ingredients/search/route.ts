@@ -42,11 +42,17 @@ export async function GET(request: Request) {
             cleaned = cleaned.replace(/, (large|medium|small|jumbo)/gi, '');
             cleaned = cleaned.replace(/, (raw|fresh|unprepared|dry)/gi, '');
             cleaned = cleaned.replace(/, solids/gi, '');
+            cleaned = cleaned.replace(/, whole/gi, ''); // "Whole" is usually implied for the base item
+
+            // Fix "Egg, egg" or similar repetitions
+            // This replaces "Word, word" with "Word"
+            cleaned = cleaned.replace(/^([a-z]+), \1/i, '$1');
 
             // Fix "Eggs" plural if it's the start
             if (cleaned.startsWith('Eggs, ')) {
                 cleaned = cleaned.replace('Eggs, ', 'Egg, ');
             }
+            if (cleaned === 'Eggs') cleaned = 'Egg';
 
             // Capitalize first letter
             return cleaned.charAt(0).toUpperCase() + cleaned.slice(1);

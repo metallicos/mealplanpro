@@ -66,7 +66,10 @@ export default function SmartPlan() {
 
     const getImageUrl = (meal: SmartMeal) => {
         if (meal.local_image_path) {
-            return `/images/recipes/${meal.local_image_path.replace('images/', '')}`;
+            if (meal.local_image_path.startsWith('images/')) {
+                return `/${meal.local_image_path}`;
+            }
+            return `/images/recipes/${meal.local_image_path}`;
         }
         return meal.image_url || '/images/placeholder.png';
     };
