@@ -274,7 +274,7 @@ export default function Dashboard() {
                   <div className="meal-card-title group-hover:text-[var(--accent-primary)] transition-colors">{meal.title}</div>
                   <div className="meal-card-meta">
                     <span className="capitalize">📂 {meal.category?.replace(/-/g, ' ')}</span>
-                    <span>⏱️ {meal.prep_time || 'N/A'}</span>
+                    <span title={meal.prep_time}>⏱️ {meal.prep_time ? (meal.prep_time.length > 20 ? meal.prep_time.substring(0, 18) + '...' : meal.prep_time) : 'N/A'}</span>
                   </div>
                   <div className="meal-card-macros">
                     <div>

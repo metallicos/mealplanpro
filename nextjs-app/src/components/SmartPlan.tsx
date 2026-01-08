@@ -112,7 +112,7 @@ export default function SmartPlan() {
                                 {getSlotEmoji(slot)} {slot}
                             </div>
 
-                            {meal.image_url ? (
+                            {(meal.image_url || meal.local_image_path) ? (
                                 <div
                                     className="meal-card-image transition-transform duration-500 group-hover:scale-105"
                                     style={{ backgroundImage: `url(${getImageUrl(meal)})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
