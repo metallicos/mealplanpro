@@ -175,9 +175,9 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
     };
 
     return (
-        <div className="fixed inset-0 bg-black z-50 flex flex-col pt-safe-area-inset-top pb-safe-area-inset-bottom text-white">
+        <div className="fixed inset-0 h-[100dvh] w-screen bg-black z-50 flex flex-col pt-safe-area-inset-top pb-safe-area-inset-bottom text-white overflow-hidden overscroll-none touch-none">
             {/* Header - Fixed to top, high z-index */}
-            <div className="flex-none p-4 flex justify-between items-center bg-black z-30 shadow-md">
+            <div className="flex-none p-4 flex justify-between items-center bg-black/80 backdrop-blur-md z-30 shadow-md">
                 <h2 className="font-bold text-lg text-white">Scan Barcode</h2>
                 <button
                     onClick={() => {
@@ -277,8 +277,8 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                 <button
                     onClick={() => setMode('camera')}
                     className={`flex-1 py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all font-bold ${mode === 'camera'
-                            ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-900/40'
-                            : 'bg-gray-800 text-gray-400'
+                        ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-900/40'
+                        : 'bg-gray-800 text-gray-400'
                         }`}
                 >
                     <span className="text-xl">📷</span>
@@ -287,8 +287,8 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                 <button
                     onClick={() => setMode('manual')}
                     className={`flex-1 py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all font-bold ${mode === 'manual'
-                            ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-900/40'
-                            : 'bg-gray-800 text-gray-400'
+                        ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-900/40'
+                        : 'bg-gray-800 text-gray-400'
                         }`}
                 >
                     <span className="text-xl">#️⃣</span>
