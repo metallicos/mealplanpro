@@ -94,7 +94,6 @@ export default function ThreadPage() {
     if (!post) return null;
 
     return (
-    return (
         <div className="min-h-screen pb-24 relative bg-[var(--bg-primary)]">
             <div className="sticky top-0 z-20 backdrop-blur-md bg-[var(--bg-primary)]/80 border-b border-white/5 px-4 py-3 mb-6">
                 <div className="max-w-4xl mx-auto flex items-center justify-between">
