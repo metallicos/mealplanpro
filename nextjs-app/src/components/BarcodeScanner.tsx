@@ -63,7 +63,14 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                     experimentalFeatures: {
                         useBarCodeDetectorIfSupported: true
                     },
-                    verbose: false
+                    verbose: false,
+                    formatsToSupport: [
+                        Html5QrcodeSupportedFormats.EAN_13,
+                        Html5QrcodeSupportedFormats.EAN_8,
+                        Html5QrcodeSupportedFormats.UPC_A,
+                        Html5QrcodeSupportedFormats.UPC_E,
+                        Html5QrcodeSupportedFormats.CODE_128,
+                    ]
                 });
 
                 scannerRef.current = html5QrCode;
@@ -71,15 +78,15 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                 if (!isMounted) return;
 
                 const config = {
-                    fps: 10,
-                    qrbox: { width: 250, height: 250 },
+                    fps: 15, // Increased FPS for faster scanning
+                    qrbox: { width: 300, height: 150 }, // Rectangular box better for 1D barcodes
                     aspectRatio: 1.0,
                     // vital for mobile focus
                     videoConstraints: {
                         facingMode: "environment",
                         focusMode: "continuous",
-                        width: { min: 640, ideal: 1280 },
-                        height: { min: 480, ideal: 720 },
+                        width: { min: 640, ideal: 1920, max: 2560 }, // Higher resolution
+                        height: { min: 480, ideal: 1080, max: 1440 },
                     }
                 };
 
