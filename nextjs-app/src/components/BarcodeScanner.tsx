@@ -206,18 +206,18 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
     return (
         <div className="fixed inset-0 h-[100dvh] w-screen bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 pt-safe-area-inset-top pb-safe-area-inset-bottom text-white overflow-hidden overscroll-none touch-none animate-fade-in">
             {/* Modal Container */}
-            <div className="w-full max-w-md h-[85vh] bg-black rounded-3xl overflow-hidden flex flex-col border border-white/10 shadow-2xl animate-scale-up">
+            <div className="w-[90vw] max-w-sm aspect-[3/4] max-h-[70vh] bg-black rounded-3xl overflow-hidden flex flex-col border border-white/10 shadow-2xl animate-scale-up relative">
                 {/* Header */}
-                <div className="flex-none p-4 flex justify-between items-center bg-gray-900/50 backdrop-blur-md z-30 border-b border-white/5">
-                    <h2 className="font-bold text-lg text-white">Native Scanner</h2>
+                <div className="flex-none p-4 flex justify-between items-center bg-gray-900/50 backdrop-blur-md z-30 border-b border-white/5 absolute top-0 left-0 right-0">
+                    <h2 className="font-bold text-lg text-white shadow-black/50 drop-shadow-md">Native Scanner</h2>
                     <div className="flex gap-4 items-center">
-                        {debugInfo && <span className="text-[10px] font-mono text-green-400 bg-green-900/30 px-2 py-1 rounded">{debugInfo}</span>}
+                        {debugInfo && <span className="text-[10px] font-mono text-green-400 bg-green-900/30 px-2 py-1 rounded backdrop-blur-md">{debugInfo}</span>}
                         <button
                             onClick={() => {
                                 stopCamera();
                                 onClose();
                             }}
-                            className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
+                            className="w-10 h-10 flex items-center justify-center rounded-full bg-black/40 hover:bg-black/60 text-white transition-colors backdrop-blur-md"
                         >
                             ✕
                         </button>
@@ -312,12 +312,12 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                 <div id="native-scanner-v1" className="hidden" />
 
                 {/* Bottom Controls */}
-                <div className="flex-none bg-black p-4 pb-8 flex gap-3 border-t border-white/10 z-30">
+                <div className="absolute bottom-0 left-0 right-0 p-4 pb-6 flex gap-3 z-30 bg-gradient-to-t from-black/90 to-transparent pt-12">
                     <button
                         onClick={() => setMode('camera')}
-                        className={`flex-1 py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all font-bold ${mode === 'camera'
-                            ? 'bg-green-600 text-white shadow-lg shadow-green-900/40'
-                            : 'bg-gray-800 text-gray-400'
+                        className={`flex-1 py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all font-bold backdrop-blur-md ${mode === 'camera'
+                            ? 'bg-green-600/90 text-white shadow-lg shadow-green-900/40'
+                            : 'bg-gray-800/80 text-gray-400'
                             }`}
                     >
                         <span className="text-xl">📷</span>
@@ -325,9 +325,9 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                     </button>
                     <button
                         onClick={() => setMode('manual')}
-                        className={`flex-1 py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all font-bold ${mode === 'manual'
-                            ? 'bg-green-600 text-white shadow-lg shadow-green-900/40'
-                            : 'bg-gray-800 text-gray-400'
+                        className={`flex-1 py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all font-bold backdrop-blur-md ${mode === 'manual'
+                            ? 'bg-green-600/90 text-white shadow-lg shadow-green-900/40'
+                            : 'bg-gray-800/80 text-gray-400'
                             }`}
                     >
                         <span className="text-xl">#️⃣</span>
