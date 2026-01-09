@@ -125,6 +125,26 @@ export default function MealDetailsPage() {
         </div>
     );
 
+    // Parse Time Logic
+    let displayPrep = recipe.prep_time || 'N/A';
+    let displayCook = recipe.cook_time || 'N/A';
+
+    // Handle "35 mins Cook: 50 mins" scenario in prep_time
+    if (displayPrep.includes('Cook:')) {
+        const parts = displayPrep.split('Cook:');
+        if (parts.length === 2) {
+            displayPrep = parts[0].trim();
+            // If cook_time is missing or just generic, use the extracted one
+            if (!displayCook || displayCook === 'N/A' || displayCook === 'Cook Time') {
+                displayCook = parts[1].trim();
+            }
+        }
+    }
+
+    const cleanTime = (t: string) => t.replace(/Prep:\s*/i, '').replace(/Cook:\s*/i, '').replace(/mins?/i, 'm').trim();
+    displayPrep = cleanTime(displayPrep);
+    displayCook = cleanTime(displayCook);
+
     return (
         <div className="min-h-screen pb-20 animate-fade-in relative">
             {/* Header Image Background */}
@@ -167,12 +187,12 @@ export default function MealDetailsPage() {
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 py-6 border-y border-white/5">
                         <div className="text-center">
                             <div className="text-2xl mb-1">⏱️</div>
-                            <div className="font-bold">{recipe!.prep_time?.replace(/Prep:\s*/i, '').replace(/mins?/, 'm')}</div>
+                            <div className="font-bold">{displayPrep}</div>
                             <div className="text-xs text-gray-500">Prep Time</div>
                         </div>
                         <div className="text-center">
                             <div className="text-2xl mb-1">🔥</div>
-                            <div className="font-bold">{recipe!.cook_time?.replace(/Cook:\s*/i, '').replace(/mins?/, 'm')}</div>
+                            <div className="font-bold">{displayCook}</div>
                             <div className="text-xs text-gray-500">Cook Time</div>
                         </div>
                         <div className="text-center">
