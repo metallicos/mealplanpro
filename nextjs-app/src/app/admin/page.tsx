@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useUser } from '@/contexts/UserContext';
+import { Settings, X } from 'lucide-react';
 
 interface Household {
     id: number;
@@ -88,7 +89,7 @@ export default function AdminPage() {
         <div className="animate-fade-in">
             <div className="flex justify-between items-center mb-8">
                 <div>
-                    <h1 className="page-title">System Administration ⚙️</h1>
+                    <h1 className="page-title flex items-center gap-2">System Administration <Settings size={24} className="text-violet-400" /></h1>
                     <p className="page-subtitle">Manage master accounts and households</p>
                 </div>
                 <button onClick={() => setShowModal(true)} className="btn-primary">
@@ -145,7 +146,7 @@ export default function AdminPage() {
                             onClick={() => setShowModal(false)}
                             className="absolute top-4 right-4 text-gray-400 hover:text-white"
                         >
-                            ✕
+                            <X size={18} />
                         </button>
 
                         <h2 className="text-xl font-bold mb-6">Create New Master Account</h2>

@@ -1,0 +1,1190 @@
+[
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/gambas-al-ajillo/",
+        "title": "Crevettes à l'ail",
+        "description": "Préparez ce plat de tapas en un rien de temps, évoquant les bars décontractés de la côte espagnole. Traditionnellement, il est cuit dans un plat en terre cuite ignifuge",
+        "prep_time": "5 mins Cook: 5 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "12 grosses crevettes crues",
+            "3 gousses d'ail, tranchées finement",
+            "100 ml d'huile d'olive",
+            "3 piments de Cayenne séchés (ou autre piment séché)",
+            "1 cuillère à soupe de persil plat haché"
+        ],
+        "method": [
+            "Épluchez les crevettes en laissant les queues intactes et, à l'aide d'un pique à cocktail, retirez le tube digestif. Ou encore, si vous utilisez une poêle plutôt qu'une marmite en terre cuite, vous pouvez cuire les crevettes dans leur carapace. Assaisonner avec un peu de sel marin.",
+            "Mettez l'ail, l'huile d'olive et les piments dans une casserole ou une poêle en terre cuite ignifuge et faites chauffer à feu vif. Lorsque l'ail commence à dorer, ajoutez les crevettes et faites cuire 1 à 2 minutes de chaque côté jusqu'à ce qu'elles soient juste roses. Saupoudrez de persil haché et de poivre noir fraîchement concassé et servez immédiatement. Si vous utilisez un pot en terre cuite, vous pouvez le porter directement à table, mais soyez prudent car l'huile et la terre cuite resteront chaudes pendant plusieurs minutes."
+        ],
+        "nutritional_info": {
+            "kcal": "342",
+            "fat": "30g",
+            "saturates": "4g",
+            "carbs": "4g",
+            "sugars": "0g",
+            "fibre": "3g",
+            "protein": "13g",
+            "salt": "0.38g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2025/06/GambasPilPil-0a9531b.jpg",
+        "local_image_path": "images/cuisine/spanish/gambas-al-ajillo.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/crema-catalana/",
+        "title": "Crème catalane",
+        "description": "Ce sont les agrumes de la crème anglaise qui distinguent ce dessert espagnol classique, garni de sucre doré et caramélisé. La façon idéale de compléter un menu de tapas",
+        "prep_time": "10 mins Cook: 20 mins , plus 30 mins infusing, 1 hr cooling and overnight chilling",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "400 ml de lait entier",
+            "150 ml de crème fraîche",
+            "1 bâton de cannelle",
+            "1 orange, le zeste coupé en lanières",
+            "1 citron , le zeste coupé en lamelles",
+            "7 jaunes d'œufs (congeler les blancs pour les utiliser dans une autre recette)",
+            "100 g de sucre en poudre, plus 6 cuillères à soupe pour le topping",
+            "45g de maïzena"
+        ],
+        "method": [
+            "Mettez le lait, la crème, le bâton de cannelle et tous les zestes d'agrumes dans une casserole sur feu moyen. Cuire en remuant souvent jusqu'à ce que le lait soit juste fumant mais pas bouillant, environ 3 à 5 minutes. Retirer du feu, couvrir d'une assiette et laisser infuser au moins 30 min.",
+            "Une fois le mélange de crème infusé, fouettez les jaunes d'œufs, le sucre et la maïzena dans un autre bol pendant 3 à 5 minutes, ou jusqu'à ce que leur couleur soit claire et pâle. Versez le lait infusé au tamis dans le mélange d'œufs en fouettant continuellement. Remettez le mélange dans la casserole.",
+            "Mettez la casserole sur feu moyen-vif et fouettez pendant environ 10 à 12 minutes. Le mélange devrait commencer à épaissir jusqu’à obtenir une consistance semblable à celle d’une crème anglaise – vous pouvez savoir qu’il est prêt en trempant une cuillère en bois dans le mélange, puis en passant un doigt dans le mélange sur le dos de la cuillère. Si la ligne tient, c'est prêt. Tamisez le mélange dans un pichet pour éliminer toute mousse.",
+            "Répartir la crème anglaise dans six ramequins ou petits plats en terre cuite de 150 ml, puis laisser refroidir 1 h à température ambiante jusqu'à ce qu'elle soit prise avec un léger tremblement. Réfrigérer toute la nuit.",
+            "Juste avant de servir, saupoudrez 1 cuillère à soupe de sucre en poudre sur le dessus de chaque ramequin et caramélisez à l'aide d'un chalumeau de cuisine. Vous pouvez également glisser les ramequins sous un gril chaud jusqu'à ce que le sucre devienne doré et commence à bouillonner. Servir aussitôt."
+        ],
+        "nutritional_info": {
+            "kcal": "415",
+            "fat": "22g",
+            "saturates": "12g",
+            "carbs": "47g",
+            "sugars": "0g",
+            "fibre": "0.4g",
+            "protein": "6g",
+            "salt": "0.12g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2025/06/CremaCatalanal-6e2e040.jpg",
+        "local_image_path": "images/cuisine/spanish/crema-catalana.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/ensaimada/",
+        "title": "Ensaïmada",
+        "description": "Essayez cette pâtisserie espagnole pour un petit-déjeuner ou une gâterie l'après-midi à déguster avec un café ou comme collation salée. Sa forme en spirale est emblématique, tout comme sa texture légère comme une plume",
+        "prep_time": "50 mins Cook: 18 mins plus overnight proving",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "5 g de levure sèche (ou 16 g de levure fraîche)",
+            "200 g de sucre en poudre",
+            "2 œufs fermiers moyens",
+            "600 g de farine à pain blanche forte",
+            "huile végétale, pour le plan de travail et le rouleau à pâtisserie",
+            "100 g de saindoux ramolli (ou 50 g si vous utilisez de la sobrasada comme garniture)",
+            "50 g de sobrasada de Majorque (saucisse salée à tartiner)",
+            "200 ml de crème fouettée",
+            "3 cuillères à soupe de sucre glace (facultatif)"
+        ],
+        "method": [
+            "Versez 230 ml d'eau tiède dans un bol et ajoutez la levure. Laisser reposer 3 minutes, puis ajouter le sucre semoule, les œufs, la farine et 1 cuillère à café de flocons de sel marin. Mélangez pour former une pâte, puis pétrissez pendant 10 minutes au batteur sur socle à l'aide d'un crochet pétrisseur (ou 15 minutes à la main) jusqu'à ce que la pâte soit suffisamment élastique pour être presque transparente une fois étirée. Couvrir et laisser reposer 30 min, puis couper en quatre morceaux égaux. Transférer sur une plaque à pâtisserie recouverte de papier sulfurisé. Laisser reposer encore 30 min.",
+            "Huiler le plan de travail et un rouleau à pâtisserie avec de l'huile végétale. En travaillant une portion de pâte à la fois, aplatissez-la contre la surface avec la paume de la main, puis étalez-la en un rectangle fin d'environ 30 x 50 cm. Laissez reposer 2 minutes pendant que vous étalez un quart du saindoux dessus. (Si vous souhaitez garnir votre pâtisserie de sobrasada de Majorque, mélangez 50 g de saindoux avec la sobrasada, et étalez-le plutôt sur la pâte.) Tirez un coin de la pâte aplatie et étirez-la au maximum sans la casser. Répétez tous les 10 cm environ autour du rectangle de pâte dans toutes les directions jusqu'à ce qu'il atteigne environ 50 x 70 cm.",
+            "Découpez une bande sur chacun des côtés les plus courts et posez-les les unes à côté des autres le long de l'un des côtés les plus longs du rectangle ; c'est ce que nous appelons le cœur de l'ensaimada. À partir de là, commencez à rouler la pâte jusqu’à obtenir un long serpent pâtissier. Répétez avec les portions de pâte restantes.",
+            "Prenez le premier rouleau de pâte et étirez-le jusqu'à ce qu'il mesure plus d'un mètre de long. Ensuite, enroulez-la en spirale en laissant 1 cm entre chaque tour de spirale pour que la pâte puisse gonfler. Aplatir un peu et transférer sur une plaque à pâtisserie recouverte de papier sulfurisé. Répétez avec le reste de la pâte. Laisser lever dans un endroit tiède au moins 12h, idéalement 24h.",
+            "Chauffer le four à 200C/180C chaleur tournante/gaz 6. Mettre les ensaimadas dans le tiers supérieur du four et réduire immédiatement la température à 180C/160C chaleur tournante/gaz 4. Cuire au four pendant 18 minutes jusqu'à ce qu'elles soient bien dorées. Laisser refroidir sur une grille. Pour remplir votre ensaimada de chantilly, tranchez et ouvrez, puis étalez sur la crème et fermez. Saupoudrez d'une généreuse quantité de sucre glace, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "1064.94",
+            "fat": "30g",
+            "saturates": "11g",
+            "carbs": "174g",
+            "sugars": "0g",
+            "fibre": "5g",
+            "protein": "22g",
+            "salt": "1.35g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2025/06/Ensaimada-a595637.jpg",
+        "local_image_path": "images/cuisine/spanish/ensaimada.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/microwave-cheats-paella/",
+        "title": "Paella de triche au micro-ondes",
+        "description": "Essayez cette version raccourcie de la paella classique espagnole, avec du poulet et du chorizo ​​pour un repas en milieu de semaine. La recette est basée sur un micro-ondes d'une puissance de 750W",
+        "prep_time": "15 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à soupe d'huile d'olive",
+            "1 oignon, finement haché",
+            "2 gousses d'ail, écrasées ou finement râpées",
+            "700 ml de bouillon de poulet",
+            "pincée de safran (facultatif)",
+            "½ cuillère à soupe de paprika doux fumé",
+            "300 g de riz paëlla",
+            "200 g de poulet tranché finement",
+            "200 g de chorizo ​​haché",
+            "150 g de petits pois surgelés",
+            "½ citron, jus, plus des quartiers pour servir",
+            "une petite poignée de persil haché grossièrement"
+        ],
+        "method": [
+            "Mettez l'huile d'olive, l'oignon, l'ail et une pincée de sel dans un grand plat allant au micro-ondes, mélangez bien et faites chauffer à feu vif pendant 3 minutes. Pendant ce temps, mélangez le bouillon de volaille et le safran dans un pichet et laissez infuser quelques minutes.",
+            "Incorporez le paprika, le riz, le poulet et le chorizo ​​aux oignons et à l'ail, puis versez le bouillon de poulet et le safran avant de bien assaisonner. Couvrir et cuire à feu vif pendant 15 minutes. Remuer, couvrir et cuire encore 5 minutes.",
+            "Découvrez en faisant attention à la vapeur, puis ajoutez les petits pois surgelés et encore 100 ml d'eau si le mélange semble un peu sec. Cuire à découvert pendant 3 minutes avant d'arroser de jus de citron et de parsemer de persil. Servir avec des quartiers de citron à presser."
+        ],
+        "nutritional_info": {
+            "kcal": "611",
+            "fat": "21g",
+            "saturates": "7g",
+            "carbs": "67g",
+            "sugars": "0g",
+            "fibre": "5g",
+            "protein": "36g",
+            "salt": "2.8g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2023/05/Microwave-cheats-paella-1703d17.jpg",
+        "local_image_path": "images/cuisine/spanish/microwave-cheats-paella.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/vegan-paella/",
+        "title": "Paëlla végétalienne",
+        "description": "Réalisez quatre de vos 5 par jour avec cette paella végétalienne – c'est un souper satisfaisant mais faible en calories. Nous avons inclus des fèves, une source précieuse de protéines végétales",
+        "prep_time": "20 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 généreuses pincées de safran",
+            "1 cuillère à soupe de purée de tomates",
+            "2 cuillères à café de bouillon de légumes en poudre",
+            "2 cuillères à soupe d'huile de colza",
+            "2 oignons (320 g), finement hachés",
+            "2 poivrons rouges épépinés et coupés en dés",
+            "3 gousses d'ail, finement râpées",
+            "2 cuillères à soupe de feuilles de thym tendre",
+            "200 g de riz basmati brun",
+            "2 cuillères à café de paprika fumé",
+            "320 g de fèves surgelées",
+            "320 g de courgettes coupées en deux et tranchées",
+            "15 g de persil plat haché",
+            "1 citron, coupé en quartiers"
+        ],
+        "method": [
+            "Mettez la bouilloire à ébullition. Versez le safran, le concentré de tomates et la poudre de bouillon dans un grand bol résistant à la chaleur, puis versez dessus 1 litre d'eau bouillante et réservez.",
+            "Faites chauffer l'huile dans une grande poêle à paella à feu moyen et faites revenir l'oignon pendant 5 minutes en remuant souvent jusqu'à ce qu'il commence à ramollir. Ajoutez les poivrons, l'ail et le thym et laissez cuire encore quelques minutes. Ajoutez le riz et le paprika et poursuivez la cuisson en remuant pendant environ une minute. Versez le bouillon de safran, puis couvrez et laissez mijoter 10 min.",
+            "Découvrez et remuez délicatement, puis ajoutez les haricots et les courgettes surgelés. Remettre à ébullition, puis couvrir et cuire encore 10 minutes jusqu'à ce que le riz soit tendre et ait absorbé le bouillon. Laisser reposer 5 minutes, puis incorporer le persil. Servir immédiatement la moitié de la paella avec des quartiers de citron à presser. L'autre moitié se conserve au frais jusqu'à trois jours. Pour déguster un autre jour, réchauffez-le au micro-ondes jusqu'à ce qu'il soit bien chaud."
+        ],
+        "nutritional_info": {
+            "kcal": "396",
+            "fat": "8g",
+            "saturates": "1g",
+            "carbs": "58g",
+            "sugars": "0g",
+            "fibre": "15g",
+            "protein": "15g",
+            "salt": "1.02g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/11/Vegan-paella-e57539d.jpg",
+        "local_image_path": "images/cuisine/spanish/vegan-paella.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/easy-spanish-chicken/",
+        "title": "Poulet espagnol facile",
+        "description": "Savourez notre recette de poulet espagnol – un ragoût classique et réconfortant à base de cuisses de poulet nichées dans une sauce tomate et paprika fumé avec du chorizo ​​et des haricots beurre.",
+        "prep_time": "15 mins Cook: 1 hrs",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 cuillères à soupe d'huile d'olive extra vierge",
+            "1 oignon, tranché finement",
+            "150 g de chorizo ​​coupé en rondelles",
+            "1 poivron rouge épépiné et coupé en lanières",
+            "1 poivron jaune épépiné et coupé en lanières",
+            "1 cuillère à café de paprika doux fumé",
+            "4 gousses d'ail, hachées finement",
+            "Boîte de 400 g de tomates concassées",
+            "150 g d'olives vertes dénoyautées",
+            "Boîte de 400 g de haricots beurre, égouttés et rincés",
+            "8 cuisses de poulet avec os et peau",
+            "une petite poignée de persil plat haché"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C chaleur tournante/gaz 6. Faites chauffer l'huile d'olive dans une grande poêle allant au four à feu moyen et faites revenir l'oignon, le chorizo ​​et les poivrons avec une pincée de sel et de poivre pendant 15 minutes jusqu'à ce que les légumes soient ramollis et que le chorizo ​​ait libéré ses huiles. Ajouter le paprika et l'ail et cuire encore quelques minutes jusqu'à ce qu'ils soient parfumés.",
+            "Ajoutez les tomates hachées, les olives et les haricots beurre, mélangez et assaisonnez. Placer dans les cuisses de poulet et bien assaisonner. Transférer au four et cuire au four pendant 40 minutes jusqu'à ce que la peau du poulet soit croustillante et la viande bien cuite et tendre. Parsemer de persil et servir."
+        ],
+        "nutritional_info": {
+            "kcal": "567",
+            "fat": "37g",
+            "saturates": "10g",
+            "carbs": "19g",
+            "sugars": "0g",
+            "fibre": "9g",
+            "protein": "35g",
+            "salt": "2.74g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/09/Spanish-Chicken-96abb56.jpg",
+        "local_image_path": "images/cuisine/spanish/easy-spanish-chicken.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chorizo-chickpea-summer-stew/",
+        "title": "Ragoût d'été au chorizo ​​et pois chiches",
+        "description": "Mélangez des tomates, des pois chiches, des poivrons rouges et des épinards avec du chorizo ​​et du paprika fumé pour obtenir ce ragoût familial riche en nutriments, riche en vitamine C et en fibres.",
+        "prep_time": "5 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à soupe d'huile d'olive",
+            "2 gousses d'ail, écrasées",
+            "2 brins de thym",
+            "1 cuillère à soupe de paprika fumé",
+            "200 g de rondelles de chorizo ​​coupées en fines tranches",
+            "1 cuillère à soupe de vinaigre de Xérès",
+            "600 g de tomates cerises coupées en deux",
+            "Pot de 450 g de poivrons rouges rôtis, égouttés et coupés en grosses lanières",
+            "100g d'épinards",
+            "2 boîtes de 400 g de pois chiches égouttés",
+            "un filet d'huile d'olive extra vierge et du pain croustillant, pour servir"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une grande poêle à feu moyen, ajoutez l'ail, le thym et le paprika fumé, et remuez pendant quelques minutes, puis versez le chorizo ​​et remuez encore quelques minutes jusqu'à ce que son huile se libère. Ajoutez le vinaigre de Xérès et laissez-le bouillonner pendant environ une minute.",
+            "Ajoutez les tomates, les poivrons, les épinards et les pois chiches ainsi que 100 ml d'eau et une pincée d'assaisonnement. Porter à ébullition, puis réduire le feu et laisser mijoter jusqu'à ce que les tomates soient ramollies et qu'il y ait une sauce épaissie, environ 15 minutes. Ajustez l'assaisonnement et terminez avec un filet d'huile d'olive extra vierge. Servir avec du pain croustillant."
+        ],
+        "nutritional_info": {
+            "kcal": "449",
+            "fat": "24g",
+            "saturates": "7g",
+            "carbs": "29g",
+            "sugars": "0g",
+            "fibre": "10g",
+            "protein": "25g",
+            "salt": "1.7g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/06/Chorizo-and-chickpea-summer-stew-7a4af9a.jpg",
+        "local_image_path": "images/cuisine/spanish/chorizo-chickpea-summer-stew.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/patatas-bravas-meatballs/",
+        "title": "Boulettes de viande Patatas bravas",
+        "description": "Inspirez-vous du plat de tapas classique patatas bravas avec cette recette. L'ajout de boulettes de viande de porc maison en fait le régal familial idéal du vendredi soir.",
+        "prep_time": "35 mins Cook: 1 hrs 20 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "3½ cuillères à soupe d'huile d'olive",
+            "1 oignon, finement haché",
+            "3 gousses d'ail, écrasées",
+            "1½-2 cuillères à café de paprika fumé à chaud (selon le degré de piquant que vous aimez)",
+            "Boîte de 400 g de tomates concassées",
+            "2 cuillères à café de sucre",
+            "100 g d'olives noires dénoyautées",
+            "400 g de porc haché",
+            "70 g de chapelure fraîche",
+            "1 jaune d'oeuf",
+            "pincée de flocons de piment",
+            "petit bouquet de persil finement haché",
+            "1 kg de pommes de terre blanches, coupées en cubes de 3 cm",
+            "aïoli, pour servir (facultatif ; voir le conseil ci-dessous)"
+        ],
+        "method": [
+            "Faites chauffer 1 cuillère à soupe d'huile d'olive dans une casserole et faites revenir les oignons avec une pincée de sel pendant 10 minutes jusqu'à ce qu'ils soient tendres. Incorporer les deux tiers de l'ail et cuire encore 1 min. Ajoutez le paprika et laissez cuire encore une minute, puis incorporez les tomates et le sucre. Assaisonner au goût. Cuire 15 minutes jusqu'à épaississement. Retirer du feu, incorporer les olives et réserver.",
+            "Chauffer le four à 220C/200C chaleur tournante/gaz 8. Mettez le hachis dans un grand bol avec la chapelure, le reste de l'ail, le jaune d'œuf, les flocons de piment et la moitié du persil. Saison. Mélangez avec vos mains jusqu'à ce que le tout soit bien mélangé. Divisez-le en 12 morceaux, en pesant pour plus de précision si vous le souhaitez, puis roulez-le en boulettes de viande. Couvrir et mettre au réfrigérateur pendant que vous préparez les pommes de terre.",
+            "Mélanger les pommes de terre dans un plat à rôtir avec 1½ cuillère à soupe du reste d'huile et un peu d'assaisonnement. Rôtir pendant 40 minutes jusqu'à ce qu'il soit doré, en remuant à mi-cuisson. Faites chauffer le reste de l'huile dans une poêle à feu moyen-vif et faites revenir les boulettes de viande pendant 5 minutes en remuant jusqu'à ce qu'elles soient uniformément dorées. Ajoutez les boulettes de viande dans le moule avec les pommes de terre et faites rôtir encore 10 minutes. Réchauffez la sauce tomate, si nécessaire, puis versez-la sur les boulettes de viande et les pommes de terre. Garnir du reste de persil haché et servir avec un peu d'aïoli, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "626",
+            "fat": "29g",
+            "saturates": "6g",
+            "carbs": "59g",
+            "sugars": "0g",
+            "fibre": "9g",
+            "protein": "29g",
+            "salt": "0.8g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/02/Patatas-bravas-meatballs-7fcdd0a.jpg",
+        "local_image_path": "images/cuisine/spanish/patatas-bravas-meatballs.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/paella-mixta/",
+        "title": "Paëlla mixte",
+        "description": "Essayez notre version de paella, composée d'une combinaison de viande et de fruits de mer. Avec des gambas, des moules, du chorizo ​​et du poulet, chaque bouchée est un régal qui rappelle les vacances espagnoles.",
+        "prep_time": "25 mins Cook: 50 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "Boîte de 400 g de tomates concassées",
+            "600 ml de bouillon de poulet",
+            "1 cuillère à café bombée de paprika fumé",
+            "2 pincées de safran",
+            "1 oignon, haché",
+            "3 gousses d'ail, écrasées ou hachées finement",
+            "4 cuillères à soupe d'huile d'olive",
+            "300 g de riz paëlla",
+            "4 cuisses de poulet sans peau et désossées, coupées en deux",
+            "200 g de chorizo ​​tranché",
+            "85 g de petits pois surgelés",
+            "150 g de gambas crues, décortiquées si vous le souhaitez",
+            "250 g de moules nettoyées",
+            "1 citron coupé en quartiers (facultatif)"
+        ],
+        "method": [
+            "Chauffer le four à 220°C/200°C chaleur tournante/gaz 7. Mélanger les tomates, le bouillon, le paprika et le safran dans un grand pichet résistant à la chaleur, puis mettre au micro-ondes pendant 5 minutes à puissance maximale ou jusqu'à ce qu'ils soient chauds. Ou faites-le chauffer dans une poêle sur la cuisinière.",
+            "Mettez l'oignon et l'ail dans une grande poêle ou un plat à rôtir allant au four, arrosez d'huile d'olive et remuez pour bien enrober. Rôtir pendant 20 minutes ou jusqu'à ce que les légumes commencent à dorer.",
+            "Incorporer le riz, le poulet, le chorizo ​​et le bouillon chaud. Assaisonner et enfourner 20 minutes (ne pas couvrir la poêle).",
+            "Incorporez délicatement les petits pois, parsemez les crevettes et pressez les moules, le côté charnière vers le bas, pour qu'elles soient debout. Disposez les quartiers de citron sur le pourtour, si vous en utilisez. Cuire au four encore 5 à 10 minutes jusqu'à ce que le riz, le poulet et les crevettes soient cuits et que les moules soient ouvertes (jetez celles qui restent fermées). Vérifiez l'assaisonnement et servez."
+        ],
+        "nutritional_info": {
+            "kcal": "733",
+            "fat": "33g",
+            "saturates": "9g",
+            "carbs": "64g",
+            "sugars": "8g",
+            "fibre": "5g",
+            "protein": "42g",
+            "salt": "3.2g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2020/05/paella.jpg",
+        "local_image_path": "images/cuisine/spanish/paella-mixta.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/easiest-ever-paella/",
+        "title": "La paella la plus simple de tous les temps",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Vous pensez que la paella est trop difficile ? Détrompez-vous, cette recette facile la rend infaillible et pleine de saveurs fantastiques",
+        "prep_time": "5 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à soupe d'huile d'olive",
+            "1 poireau ou oignon, tranché",
+            "Paquet de 110 g de chorizo ​​haché",
+            "1 cuillère à café de curcuma",
+            "300 g de riz à grains longs",
+            "1l de bouillon de poisson ou de poulet chaud",
+            "200 g de petits pois surgelés",
+            "400 g de mélange de fruits de mer surgelés, décongelés"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une poêle, puis attendrissez le poireau pendant 5 min sans le colorer. Ajouter le chorizo ​​et faire revenir jusqu'à ce qu'il libère ses huiles. Incorporer le curcuma et le riz jusqu'à ce qu'ils soient enrobés d'huiles, puis verser le bouillon. Portez à ébullition, puis laissez mijoter 15 minutes en remuant de temps en temps.",
+            "Ajoutez les petits pois et laissez cuire 5 minutes, puis incorporez les fruits de mer pour bien réchauffer pendant 1 à 2 minutes de cuisson finale ou jusqu'à ce que le riz soit cuit. Vérifiez l'assaisonnement et servez aussitôt avec des quartiers de citron."
+        ],
+        "nutritional_info": {
+            "kcal": "518",
+            "fat": "12g",
+            "saturates": "0.4g",
+            "carbs": "75g",
+            "sugars": "5g",
+            "fibre": "5g",
+            "protein": "32g",
+            "salt": "1.29g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1259716_8.jpg",
+        "local_image_path": "images/cuisine/spanish/easiest-ever-paella.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/roast-cod-with-paella-and-saffron-olive-oil/",
+        "title": "Morue rôtie à la paella et à l'huile d'olive au safran",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Impressionnez vos amis avec le luxueux riz aux crustacés de Jason Atherton, garni de morue juteuse et arrosé de safran.",
+        "prep_time": "20 mins Cook: 1 hrs",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "1 cuillère à soupe d'huile d'olive",
+            "200 g de chorizo ​​cru coupé en dés",
+            "3 grosses échalotes, tranchées finement",
+            "3 gousses d'ail, écrasées",
+            "2 cuillères à café de paprika doux fumé (pimenton)",
+            "300 g de riz paëlla",
+            "1l de bouillon de poisson",
+            "noix de beurre doux",
+            "300 g de crevettes coupées en petits morceaux",
+            "une poignée de moules cuites et décortiquées, plus 18 dans leur coquille",
+            "jus d'½ citron (facultatif)",
+            "petit bouquet de persil haché",
+            "75 ml d'huile d'olive extra vierge",
+            "jus ½ citron",
+            "pincer des fils de safran",
+            "1 cuillère à soupe d'huile d'olive",
+            "noix de beurre doux",
+            "6 filets de cabillaud de 175 g/6 oz, avec la peau",
+            "presser le jus de citron"
+        ],
+        "method": [
+            "Chauffer le four à 180C/160C ventilateur/gaz 4.\r\nPour faire la paella, mettez l'huile d'olive,\r\nchorizo, échalotes et ail dans un grand\r\npoêler et faire frire pendant 7 à 8 minutes jusqu'à ce que le chorizo\r\nlibère son huile et les échalotes ont\r\nramolli. Ajoutez le paprika et faites cuire,\r\nen remuant pendant 5 minutes, puis ajoutez le riz,\r\nbien mélanger et laisser cuire encore quelques minutes.",
+            "Versez 600 ml de bouillon, assaisonnez et\r\nbien mélanger pour combiner. Couvrir et mettre dedans\r\nau four pendant 15 mn. Découvrez, donnez\r\ntout remue bien, puis retournez au\r\nau four pendant 10 mn. Lorsqu'il est presque cuit,\r\nsortir du four et étaler sur\r\nun plateau pour refroidir. Mettez au frais et réservez pour plus tard. Vous pouvez le préparer la veille.",
+            "Pour faire l'huile de safran, fouettez le\r\nl'huile d'olive et le jus de citron ensemble dans\r\nune petite casserole. Ajoutez le safran et\r\nchauffer doucement pendant 5 minutes, puis retirer du\r\nChauffer et laisser infuser et refroidir. Vous pouvez le préparer la veille.",
+            "Chauffer le four à 200C/180C ventilateur/gaz 6.\r\nPour le cabillaud, mettre l'huile d'olive et le beurre\r\ndans une poêle allant au four à feu vif\r\nchauffer, mais ne le laissez pas brûler. Assaisonner le\r\ncabillaud avec sel de mer et poivre noir, puis\r\ncuire, peau vers le bas, dans la poêle chaude, pendant\r\n4 min, puis retournez délicatement le poisson\r\net mettez le plat au four encore\r\n3 min, pour finir avec un peu plus de mer\r\ndu sel et un filet de jus de citron.",
+            "Pendant ce temps, remettez la paella dans le\r\npoêle, incorporer le reste du bouillon de poisson et\r\ncuire 2 minutes jusqu'à ce qu'il soit complètement chaud\r\nà travers. Incorporez une noix de beurre, les crevettes et les moules décortiquées. Goût,\r\nassaisonner avec du jus de citron, du sel et du poivre\r\nsi nécessaire, et terminer par le haché\r\npersil. Servir avec la morue rôtie,\r\nmoules dans leur coquille et cuites à la vapeur\r\ndu brocoli violet ou un légume vert,\r\nsi tu veux. Enfin, arrosez le tout\r\navec la vinaigrette au safran."
+        ],
+        "nutritional_info": {
+            "kcal": "660",
+            "fat": "28g",
+            "saturates": "6g",
+            "carbs": "36g",
+            "sugars": "4g",
+            "fibre": "2g",
+            "protein": "65g",
+            "salt": "2.8g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--954467_11.jpg",
+        "local_image_path": "images/cuisine/spanish/roast-cod-with-paella-and-saffron-olive-oil.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/churros-with-chocolate-dipping-sauce/",
+        "title": "Churros avec trempette au chocolat",
+        "description": "Essayez une nouvelle version des beignets en les préparant à la manière espagnole et en les servant avec une sauce au chocolat noir épaisse et gourmande.",
+        "prep_time": "",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "50 g de beurre fondu",
+            "½ cuillère à café d'extrait de vanille",
+            "250 g de farine nature",
+            "1 cuillère à café de levure chimique",
+            "environ 1 litre d'huile de tournesol",
+            "quelques morceaux de pain",
+            "200 g de chocolat noir pas trop amer, cassé en morceaux",
+            "100 ml de crème double",
+            "100 ml de lait entier",
+            "3 cuillères à soupe de sirop doré",
+            "½ cuillère à café d'extrait de vanille, si vous en avez",
+            "100 g de sucre en poudre",
+            "2 cuillères à café de cannelle"
+        ],
+        "method": [
+            "Faites bouillir la bouilloire, puis mesurez 350 ml d'eau bouillante dans une carafe et ajoutez le beurre fondu et l'extrait de vanille. Tamisez la farine et la levure chimique dans un grand bol à mélanger avec une grosse pincée de sel. Faites un puits au centre, puis versez le contenu du pichet et incorporez très rapidement la farine avec une cuillère en bois jusqu'à ce qu'elle soit sans grumeaux. Reposez-vous 10 à 15 minutes pendant que vous préparez la sauce.",
+            "Mettez tous les ingrédients de la sauce dans une casserole et faites fondre doucement ensemble, en remuant de temps en temps jusqu'à obtenir une sauce onctueuse et brillante. Gardez au chaud à feu doux.",
+            "Remplissez une grande casserole profonde au tiers d’huile. Chauffer jusqu'à ce qu'un cube de pain brunisse en 45 secondes – 1 min. Couvrir une plaque de papier absorbant et mélanger le sucre en poudre et la cannelle.",
+            "Installez une douille étoile sur une poche à douille, une largeur de 1,5 à 2 cm est une bonne taille. Remplissez avec la pâte reposée, puis déposez 2-3 bandes directement dans le moule, en coupant chaque bande de pâte avec une paire de ciseaux de cuisine. Faire frire jusqu'à ce qu'ils soient dorés et croustillants, puis retirer avec une écumoire et égoutter sur le plateau tapissé de papier absorbant. Poursuivez la cuisson du reste de la pâte par lots, en saupoudrant au fur et à mesure les churros cuits d'un peu de sucre à la cannelle. Une fois que vous avez cuit tous les churros, mélangez-les avec le reste du sucre à la cannelle et servez avec la sauce au chocolat, comme trempette."
+        ],
+        "nutritional_info": {
+            "kcal": "185",
+            "fat": "9.6g",
+            "saturates": "5g",
+            "carbs": "22.4g",
+            "sugars": "13.7g",
+            "fibre": "0.9g",
+            "protein": "2g",
+            "salt": "0.2g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/user-collections/my-colelction-image/2015/12/recipe-image-legacy-id--1051458_11.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/19514-warm-salad-of-chicken-livers-smoked-paprika-sherry/",
+        "title": "Salade tiède de foies de volaille, paprika fumé & Xérès",
+        "description": "Une délicieuse salade tiède, pleine de saveurs fumées et aillées",
+        "prep_time": "10 mins Cook: 5 mins",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "Sachet de 100 g de noisettes blanchies, moins 3 cuillères à soupe pour la sauce, ci-dessous",
+            "2 cuillères à soupe d'huile d'olive",
+            "petite noix de beurre",
+            "450 g de foies de volaille coupés en bouchées",
+            "125 ml de verre de xérès Oloroso",
+            "jus ½ citron",
+            "120 g de salade de roquette",
+            "vinaigre de Xérès, pour habiller les feuilles",
+            "2 gousses d'ail",
+            "20 g de persil plat, feuilles uniquement",
+            "3 cuillères à soupe de noisettes blanchies",
+            "2 cuillères à café de paprika fumé à chaud",
+            "4 cuillères à soupe d'huile d'olive"
+        ],
+        "method": [
+            "Mettez tous les ingrédients de la sauce\r\ndans un robot culinaire, puis passez à un\r\npâte grossière. Chauffer le four à 200C/180C ventilateur/\r\ngaz 6. Mettez les noisettes restantes sur un\r\nplaque à pâtisserie, rôtir pendant 5 minutes jusqu'à ce que légèrement\r\ngrillé, hachez-le grossièrement, puis réservez.",
+            "Maintenant, préparez la salade – ajoutez l'huile d'olive\r\net beurrer dans une grande poêle à frire sur un\r\nfeu moyen-vif. Faire revenir rapidement les foies\r\nen 2 lots jusqu'à ce qu'ils soient dorés, environ 2 minutes\r\npar lot. Ajoutez le Sherry, puis faites bouillonner pendant\r\nquelques minutes à feu vif. Incorporer le\r\nsauce et laissez-la épaissir et chauffer\r\nà travers. Arroser de jus de citron, puis\r\nassaisonner au goût. Habillez les feuilles de salade\r\navec un peu de vinaigre de Xérès. Verser le\r\nfoies et sauce dans des assiettes de service,\r\nsaupoudrer de tranches grillées\r\nnoisettes, puis parsemer sur la sauce\r\nfeuilles de salade et servir immédiatement."
+        ],
+        "nutritional_info": {
+            "kcal": "543",
+            "fat": "42g",
+            "saturates": "6g",
+            "carbs": "6g",
+            "sugars": "4g",
+            "fibre": "3g",
+            "protein": "26g",
+            "salt": "0.29g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--26940_12.jpg",
+        "local_image_path": "images/cuisine/spanish/19514-warm-salad-of-chicken-livers-smoked-paprika-sherry.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spanish-chicken-pie/",
+        "title": "Tarte au poulet espagnole",
+        "description": "Les poivrons rôtis, les olives et le paprika donnent à cette pâtisserie des tonnes de saveurs. C’est aussi une excellente façon d’utiliser les restes de poulet cuit.",
+        "prep_time": "10 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 kg de pommes de terre hachées",
+            "3 cuillères à café de paprika (utilisez du paprika fumé si vous en avez)",
+            "2 cuillères à café d'huile d'olive",
+            "2 oignons, tranchés",
+            "2 gousses d'ail, écrasées",
+            "2 boîtes de 400 g de tomates concassées",
+            "300 g de poulet cuit, émincé",
+            "140 g de poivrons rôtis en bocal, tranchés (on aime les Karyatis)",
+            "une poignée d'olives Kalamata, coupées en deux"
+        ],
+        "method": [
+            "Chauffer le four à 200C/chaleur tournante 180C/gaz 6. Faire bouillir\r\nles pommes de terre pendant 15 à 20 minutes jusqu'à ce qu'elles soient tendres.\r\nÉgoutter, remettre dans la casserole, puis écraser avec\r\nun peu d'assaisonnement et 2 cuillères à café de paprika.",
+            "Pendant ce temps, faites chauffer l'huile dans une grande poêle,\r\npuis faites revenir les oignons et l'ail quelques instants\r\nminutes jusqu'à ce qu'ils soient ramollis. Incorporer le reste\r\npaprika pendant 1 min, ajoutez les tomates,\r\npuis portez à ébullition. Verser dans un grand\r\nplat allant au four, puis incorporez le poulet,\r\npoivrons, olives et quelques assaisonnements.",
+            "Verser sur la purée, puis enfourner pendant\r\n15 minutes jusqu'à ce que la purée soit dorée\r\ndessus et la sauce bouillonne."
+        ],
+        "nutritional_info": {
+            "kcal": "421",
+            "fat": "10g",
+            "saturates": "2g",
+            "carbs": "57g",
+            "sugars": "10g",
+            "fibre": "8g",
+            "protein": "30g",
+            "salt": "1.32g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1035696_10.jpg",
+        "local_image_path": "images/cuisine/spanish/spanish-chicken-pie.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spanish-seafood-rice/",
+        "title": "Riz espagnol aux fruits de mer",
+        "description": "Cette version rapide de la paella est super saine, et en plus, tout est cuit dans une seule poêle, donc il y a un minimum de vaisselle.",
+        "prep_time": "10 mins Cook: 35 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à soupe d'huile d'olive",
+            "1 oignon, finement haché",
+            "1 poivron rouge et 1 jaune, épépinés et tranchés",
+            "2 gousses d'ail, tranchées",
+            "250 g de riz paëlla",
+            "850 ml de bouillon de légumes chaud (nous avons utilisé du bouillon Kallo à très faible teneur en sel)",
+            "pincée de safran",
+            "400 g de mélange de fruits de mer (nous avons utilisé un sachet de mélange de fruits de mer surgelés, décongelés avant utilisation)",
+            "jus ½ petit citron",
+            "une petite poignée de persil plat, haché grossièrement"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une grande casserole et\r\nramollir l'oignon pendant 6 à 7 minutes. Ajoutez le\r\npoivre et ail, cuire 2 min\r\nplus, puis incorporez le riz à paella et\r\ncuire 1 min en remuant pour bien enrober.",
+            "Versez le bouillon, ajoutez le safran et\r\nporter à ébullition. Cuire à découvert à\r\nune douce bulle, pendant 20 minutes, en remuant\r\nde temps en temps jusqu'à ce que le riz soit tendre.",
+            "Incorporer les fruits de mer et le jus de citron et\r\ncuire pendant 2 minutes ou jusqu'à ce qu'il soit très chaud et\r\ncomplètement cuit. Servir dans\r\nbols chauds parsemés de persil."
+        ],
+        "nutritional_info": {
+            "kcal": "369",
+            "fat": "7g",
+            "saturates": "1g",
+            "carbs": "58g",
+            "sugars": "6g",
+            "fibre": "7g",
+            "protein": "23g",
+            "salt": "1.05g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--218528_10.jpg",
+        "local_image_path": "images/cuisine/spanish/spanish-seafood-rice.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/garlicky-prawns-with-sherry/",
+        "title": "Crevettes à l'ail et au xérès",
+        "description": "Les amateurs de fruits de mer adoreront cette recette simple façon tapas, faible en gras et rapide à préparer.",
+        "prep_time": "5 mins Cook: 5 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "3 cuillères à soupe d'huile d'olive",
+            "3 gousses d'ail, tranchées finement",
+            "400 g de grosses crevettes, non cuites",
+            "2 cuillères à soupe de xérès sec (fino)",
+            "poignée de persil haché"
+        ],
+        "method": [
+            "Faites chauffer l'huile d'olive dans une grande poêle. Ajoutez les tranches d'ail et faites cuire quelques secondes.\r\nIncorporez ensuite les crevettes et faites cuire quelques minutes jusqu'à ce qu'elles commencent à devenir roses.",
+            "Versez dessus le sherry et laissez cuire encore quelques minutes, jusqu'à ce que les crevettes soient cuites.\r\nà travers. Saupoudrer de persil avant de servir."
+        ],
+        "nutritional_info": {
+            "kcal": "108",
+            "fat": "6.8g",
+            "saturates": "1g",
+            "carbs": "0g",
+            "sugars": "0g",
+            "fibre": "1.6g",
+            "protein": "12g",
+            "salt": "0.34g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--8994_11.jpg",
+        "local_image_path": "images/cuisine/spanish/garlicky-prawns-with-sherry.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spiced-tortilla/",
+        "title": "Tortilla épicée",
+        "description": "Parfaite pour les dîners, les déjeuners et les collations, cette tortilla épicée est idéale au réfrigérateur pour de nombreuses occasions.",
+        "prep_time": "5 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à soupe d'huile de tournesol",
+            "1 oignon, tranché",
+            "1 piment rouge épépiné et râpé",
+            "2 cuillères à café d'épices pour curry (nous avons utilisé de la coriandre, du cumin et du curcuma)",
+            "300 g de tomates cerises",
+            "500 g de pommes de terre cuites, tranchées",
+            "bouquet de coriandre, tiges finement hachées, feuilles grossièrement hachées",
+            "8 œufs battus"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une grande poêle. Faites revenir l'oignon et la moitié du piment pendant 5 minutes jusqu'à ce qu'ils soient ramollis. Ajoutez les épices, faites revenir 1 min\r\nplus, puis ajoutez les tomates cerises, les pommes de terre et les tiges de coriandre dans la poêle. Assaisonnez bien les œufs, versez-les sur les légumes et laissez cuire doucement pendant 8 à 10 minutes jusqu'à ce qu'ils soient presque pris.",
+            "Faites chauffer le gril et faites clignoter la tortilla en dessous pendant 1 à 2 minutes jusqu'à ce que le dessus soit pris. Éparpillez les feuilles de coriandre et le reste\r\nchili sur le dessus, coupez-le en quartiers et\r\nservir avec une salade verte."
+        ],
+        "nutritional_info": {
+            "kcal": "327",
+            "fat": "17g",
+            "saturates": "4g",
+            "carbs": "27g",
+            "sugars": "5g",
+            "fibre": "3g",
+            "protein": "19g",
+            "salt": "0.69g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--10375_11.jpg",
+        "local_image_path": "images/cuisine/spanish/spiced-tortilla.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spanish-fig-almond-balls/",
+        "title": "Boules espagnoles aux figues et aux amandes",
+        "description": "Une version festive du Pan deHigo, un gâteau aux figues séchées que les Espagnols mangent traditionnellement avec du fromage et un filet de miel.",
+        "prep_time": "20 mins Plus drying time",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "100 g d'amandes entières grillées",
+            "Paquet de 500 g de figues entières séchées, tige dure et centre de la base retirés",
+            "85 g d'abricots secs coupés en petits morceaux",
+            "50 g de canneberges séchées",
+            "1 cuillère à soupe de cognac",
+            "1 cuillère à soupe de miel clair",
+            "1 cuillère à café de clous de girofle moulus",
+            "100 g de graines de sésame grillées"
+        ],
+        "method": [
+            "Mélangez les amandes au robot culinaire jusqu'à ce que la plupart soient finement hachées, puis versez-les dans un grand bol. Hachez grossièrement les figues, puis mixez-les \r\nune pâte lisse et collante. Grattez sur les amandes puis, à l'aide de vos mains, mélangez bien avec les fruits secs, l'eau-de-vie, le miel et les clous de girofle.",
+            "Divisez le mélange en 6 et roulez en boules. Versez les graines de sésame sur un plateau, puis roulez-y les boules jusqu'à ce qu'elles soient recouvertes. Couvrez légèrement le plateau avec un torchon propre, puis laissez sécher les boules de figues pendant une semaine avant de les emballer. Se conserve 2 mois au frais."
+        ],
+        "nutritional_info": {
+            "kcal": "306",
+            "fat": "20g",
+            "saturates": "2g",
+            "carbs": "24g",
+            "sugars": "23g",
+            "fibre": "5g",
+            "protein": "8g",
+            "salt": "0.05g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--14450_11.jpg",
+        "local_image_path": "images/cuisine/spanish/spanish-fig-almond-balls.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spanish-rice-and-prawn-one-pot/",
+        "title": "One-pot espagnol de riz et de crevettes",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Un repas rapide et facile rempli de saveurs des fêtes méditerranéennes.",
+        "prep_time": "4 mins Cook: 16 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 oignon, tranché",
+            "1 poivron rouge et 1 vert, épépinés et tranchés",
+            "50 g de chorizo ​​tranché",
+            "2 gousses d'ail, écrasées",
+            "1 cuillère à soupe d'huile d'olive",
+            "250 g de riz basmati facile à cuire (nous avons utilisé du Tilda)",
+            "Boîte de 400 g de tomates concassées",
+            "200 g de crevettes crues décortiquées, décongelées si congelées"
+        ],
+        "method": [
+            "Faites bouillir la bouilloire. Dans une friture antiadhésive ou\r\npoêle peu profonde avec un couvercle, faites revenir l'oignon,\r\npoivrons, chorizo et ail dans l'huile\r\nà feu vif pendant 3 min. Incorporer le riz et\r\ntomates concassées avec 500 ml d'ébullition\r\neau, couvrir, puis cuire à feu vif\r\npendant 12 minutes.",
+            "Découvrez, puis remuez – le riz doit être\r\npresque tendre. Incorporer les crevettes, avec un\r\narrosez plus d'eau si le riz a l'air\r\nsécher, puis cuire encore une minute jusqu'à ce que le\r\nles crevettes sont juste roses et tendres comme du riz."
+        ],
+        "nutritional_info": {
+            "kcal": "356",
+            "fat": "7g",
+            "saturates": "2g",
+            "carbs": "59g",
+            "sugars": "7g",
+            "fibre": "4g",
+            "protein": "19g",
+            "salt": "0.85g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--513592_11.jpg",
+        "local_image_path": "images/cuisine/spanish/spanish-rice-and-prawn-one-pot.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chorizo-and-chickpea-soup/",
+        "title": "Soupe chorizo ​​et pois chiches",
+        "description": "Contient du porc – la recette est réservée aux non-musulmansSoupe grésillante au chorizo ​​et aux pois chiches",
+        "prep_time": "5 mins Cook: 10 mins Ready in 15 minutes",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "Boîte de 400 g de tomates concassées",
+            "Paquet de 110 g de chorizo ​​(non tranché)",
+            "140 g de quartiers de choux de Milan",
+            "saupoudrer de flocons de piment séchés",
+            "Boîte de 410 g de pois chiches égouttés et rincés",
+            "1 cube de bouillon de poulet ou de légumes",
+            "pain croustillant ou pain à l'ail, pour servir"
+        ],
+        "method": [
+            "Mettez une poêle moyenne sur le feu et versez  \r\ndans les tomates, suivi d'un bidon d'eau. \r\nPendant que les tomates chauffent, rapidement  \r\ncouper le chorizo en gros morceaux \r\n(en enlevant la peau) et râpez le chou.",
+            "Empilez le chorizo et le chou dans la poêle \r\navec les flocons de piment et les pois chiches, puis \r\némietter dans le cube de bouillon. Bien mélanger, couvrir \r\net laisser bouillonner à feu vif pendant \r\n6 minutes ou jusqu'à ce que le chou soit juste tendre. \r\nVerser dans des bols et manger avec du croustillant ou  \r\npain à l'ail."
+        ],
+        "nutritional_info": {
+            "kcal": "366",
+            "fat": "18g",
+            "saturates": "5g",
+            "carbs": "30g",
+            "sugars": "0g",
+            "fibre": "9g",
+            "protein": "23g",
+            "salt": "4.26g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--338571_12.jpg",
+        "local_image_path": "images/cuisine/spanish/chorizo-and-chickpea-soup.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spanish-sardines-on-toast/",
+        "title": "Sardines espagnoles sur toast",
+        "description": "Savourez le goût de la Méditerranée avec ce souper frais et sain à base d'un poisson gras riche en oméga-3 et d'un bon aliment de base bon marché.",
+        "prep_time": "5 mins Cook: 5 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "1 cuillère à soupe d'huile d'olive",
+            "1 gousse d'ail, hachée",
+            "1 piment rouge épépiné et haché",
+            "1 citron, le zeste et le jus",
+            "2 boîtes de 120 g de sardines à l'huile de tournesol égouttées",
+            "4 tranches de pain brun",
+            "un demi-petit bouquet de persil haché"
+        ],
+        "method": [
+            "Faites chauffer l'huile d'olive dans un\r\npoêle, puis grésiller\r\nla gousse d'ail et le piment rouge. Ajoutez le zeste de citron.",
+            "Ajoutez le\r\nsardines et chaleur\r\nlaisser cuire quelques minutes jusqu'à ce qu'il soit chaud.",
+            "Faire griller le pain brun. Incorporer le persil dans le\r\nsardines, ajoutez un filet de jus de citron,\r\npuis répartissez sur les toasts et servez."
+        ],
+        "nutritional_info": {
+            "kcal": "420",
+            "fat": "21g",
+            "saturates": "4g",
+            "carbs": "31g",
+            "sugars": "3g",
+            "fibre": "3g",
+            "protein": "29g",
+            "salt": "1.81g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--776558_11.jpg",
+        "local_image_path": "images/cuisine/spanish/spanish-sardines-on-toast.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chorizo-and-softboiled-egg-salad/",
+        "title": "Salade de chorizo ​​et œufs mollets",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Cette salade d'été sera sur la table en seulement 30 minutes.",
+        "prep_time": "15 mins Cook: 15 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "500 g de pommes de terre nouvelles grelots coupées en deux",
+            "4 œufs",
+            "225 g de haricots verts parés",
+            "225 g de rondelles de chorizo, tranchées",
+            "1 gousse d'ail, tranchée",
+            "2 cuillères à soupe de vinaigre de Xérès",
+            "2 cuillères à soupe de persil haché"
+        ],
+        "method": [
+            "Cuire les pommes de terre dans une grande poêle\r\nfaire bouillir de l'eau salée pendant 12 minutes, en ajoutant\r\nles œufs au bout de 6 minutes, et les haricots\r\npour les 2 dernières minutes. Égoutter tout et\r\nrefroidir les œufs sous l'eau froide courante.",
+            "Pendant ce temps, faites revenir les tranches de chorizo pendant\r\n1 à 2 minutes, jusqu'à ce qu'elles commencent à devenir croustillantes. Supprimer\r\nde la poêle avec une écumoire et\r\nréserver en laissant l'huile du chorizo\r\ndans la poêle. Ajouter l'ail dans la poêle et\r\ncuire doucement 1 min.",
+            "Retirez la casserole du feu, remuez\r\ndans le vinaigre et le persil, puis mélanger\r\navec les pommes de terre, haricots, chorizo\r\net l'assaisonnement. Décortiquez les œufs, coupés en\r\nquartiers et ajouter à la salade."
+        ],
+        "nutritional_info": {
+            "kcal": "374",
+            "fat": "21g",
+            "saturates": "7g",
+            "carbs": "24g",
+            "sugars": "4g",
+            "fibre": "3g",
+            "protein": "24g",
+            "salt": "2.3g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--693594_11.jpg",
+        "local_image_path": "images/cuisine/spanish/chorizo-and-softboiled-egg-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chorizo-potato-and-cheese-omelette/",
+        "title": "Omelette au chorizo, pommes de terre et fromage",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Battez vos œufs avec des saucisses espagnoles et des pommes de terre pour préparer une omelette décadente pour une personne.",
+        "prep_time": "8 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "1",
+        "ingredients": [
+            "1 petite pomme de terre coupée en dés de 2 cm",
+            "1 cuillère à café d'huile d'olive",
+            "50 g de chorizo ​​haché",
+            "2-3 oeufs",
+            "persil haché",
+            "25 g de cheddar râpé"
+        ],
+        "method": [
+            "Cuire la pomme de terre dans l'eau bouillante pendant 8 à 10 minutes ou jusqu'à ce qu'elle soit tendre. Égoutter et laisser sécher à la vapeur. Faites chauffer l'huile dans une poêle à omelette, ajoutez le chorizo ​​et laissez cuire 2 min. Ajoutez la pomme de terre et laissez cuire encore 5 minutes jusqu'à ce qu'elle commence à devenir croustillante. Versez le contenu de la poêle, essuyez la poêle et faites cuire une omelette de 2 ou 3 œufs dans la même poêle. Lorsqu'il est presque cuit, parsemez de chorizo ​​et de pomme de terre, de persil et de fromage. Pliez l'omelette dans la poêle et laissez cuire encore 1 min pour faire fondre le fromage."
+        ],
+        "nutritional_info": {
+            "kcal": "602",
+            "fat": "44g",
+            "saturates": "18g",
+            "carbs": "15g",
+            "sugars": "2g",
+            "fibre": "1g",
+            "protein": "36g",
+            "salt": "1.8g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--926463_11.jpg",
+        "local_image_path": "images/cuisine/spanish/chorizo-potato-and-cheese-omelette.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spanish-chicken/",
+        "title": "Poulet espagnol",
+        "description": "Pour un maximum de saveur et un minimum de vaisselle, essayez ce savoureux one-pot",
+        "prep_time": "15 mins Cook: 45 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "8 cuisses de poulet, avec la peau et l'os",
+            "3 oignons, tranchés finement",
+            "2 cuillères à café de paprika",
+            "le zeste et le jus d'1 citron",
+            "une bonne poignée de persil haché grossièrement",
+            "150 ml de bouillon",
+            "1 cuillère à soupe d'huile d'olive"
+        ],
+        "method": [
+            "Chauffer le four à 190C/170C ventilateur/gaz 5.\r\nMettez tous les ingrédients dans un grand et large\r\nplat allant au four. Mélangez le tout ensemble\r\navec vos mains et assaisonnez.",
+            "Enfourner 45 mn en remuant les oignons\r\naprès 20 minutes, jusqu'à ce que le poulet soit doré\r\net les oignons tendres. Servir avec du riz."
+        ],
+        "nutritional_info": {
+            "kcal": "701",
+            "fat": "51g",
+            "saturates": "14g",
+            "carbs": "9g",
+            "sugars": "6g",
+            "fibre": "2g",
+            "protein": "53g",
+            "salt": "0.84g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--50580_12.jpg",
+        "local_image_path": "images/cuisine/spanish/spanish-chicken.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chorizo-and-tomato-salad/",
+        "title": "Salade de chorizo ​​et tomates",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. La combinaison de tomates sucrées et acides avec du chorizo ​​salé et épicé et du vinaigre de Xérès piquant est un mariage paradisiaque.",
+        "prep_time": "5 mins Cook: 5 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "3 tomates de bœuf mûres, coupées en quartiers",
+            "½ oignon rouge, tranché finement",
+            "quelques brins de thym, feuilles cueillies",
+            "1 cuillère à soupe de vinaigre de Xérès",
+            "2 cuillères à soupe d'huile d'olive extra vierge",
+            "100 g de chorizo ​​tranché en diagonale"
+        ],
+        "method": [
+            "Mettez les tomates dans un bol avec le\r\noignon et thym. Assaisonner puis arroser\r\navec le vinaigre et l'huile. Laissez les saveurs\r\nmélangez pendant que vous faites cuire le chorizo.",
+            "Dans une poêle chaude et sèche, faire revenir les tranches de chorizo\r\njusqu'à ce qu'ils soient dorés des deux côtés. Servir le\r\ntomates au chorizo frit, arrosées\r\navec un peu d'huile de poêle."
+        ],
+        "nutritional_info": {
+            "kcal": "184",
+            "fat": "16g",
+            "saturates": "5g",
+            "carbs": "5g",
+            "sugars": "5g",
+            "fibre": "1g",
+            "protein": "6g",
+            "salt": "1.17g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--26116_11.jpg",
+        "local_image_path": "images/cuisine/spanish/chorizo-and-tomato-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/quick-gazpacho/",
+        "title": "Gaspacho rapide",
+        "description": "Riche en vitamine C, faible en gras et compte pour deux sur cinq par jour : cela devrait être au menu chaque semaine !",
+        "prep_time": "",
+        "cook_time": "10 mins No cook",
+        "serves": "1",
+        "ingredients": [
+            "250g en purée",
+            "1 poivron rouge épépiné et haché",
+            "1 piment rouge épépiné et haché",
+            "1 gousse d'ail, écrasée",
+            "1 cuillère à café de vinaigre de Xérès",
+            "jus ½ citron vert"
+        ],
+        "method": [
+            "Au mixeur (ou avec un mixeur plongeant), mixez \r\nensemble la passata, le poivron rouge, le piment, l'ail, \r\nvinaigre de Xérès et jus de citron vert jusqu'à consistance lisse. \r\nAssaisonner selon votre goût, puis servir avec des glaçons."
+        ],
+        "nutritional_info": {
+            "kcal": "126",
+            "fat": "1g",
+            "saturates": "0g",
+            "carbs": "26g",
+            "sugars": "18g",
+            "fibre": "3g",
+            "protein": "50.3g",
+            "salt": "1.26g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--7360_11.jpg",
+        "local_image_path": "images/cuisine/spanish/quick-gazpacho.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/prawns-with-romesco-sauce/",
+        "title": "Crevettes à la sauce Romesco",
+        "description": "De succulentes crevettes tigrées sont relevées de piment et de poivrons dans ce plat de tapas à l'espagnole",
+        "prep_time": "",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "1 poivron rouge, de préférence de type romano à peau longue et fine",
+            "3 grosses gousses d'ail",
+            "1 gros piment rouge frais",
+            "1 grosse tomate mûre",
+            "10 noisettes décortiquées",
+            "10 amandes blanchies",
+            "3 brins de persil",
+            "petite tranche de pain d'un jour",
+            "8 cuillères à soupe d'huile d'olive",
+            "2 cuillères à soupe de vinaigre de vin rouge",
+            "Paquet de 400 g de grosses crevettes tigrées cuites et décortiquées, décongelées si congelées"
+        ],
+        "method": [
+            "Préparez-vous à l'avance : coupez le poivron en deux dans le sens de la longueur et retirez les graines et la tige. Tapisser une lèchefrite de papier d'aluminium et déposer les moitiés de poivron, peau vers le haut, sur la lèchefrite avec les gousses d'ail entières, le piment et la tomate. Griller 2 minutes, retourner la tomate, puis griller encore 2 minutes. Retirez la tomate avec une grande cuillère, puis pelez-la, coupez-la en quatre et retirez les graines. Hachez ensuite grossièrement la tomate.",
+            "Continuez à griller le poivron, le piment et l'ail pendant 4 à 5 minutes, jusqu'à ce que les peaux du poivron et du piment soient noircies et que l'ail commence à ramollir (la peau de l'ail commencera à se fendre lorsqu'elle sera prête). Une fois suffisamment refroidi pour être manipulé, épluchez et coupez le piment en deux, puis grattez et jetez les graines. Épluchez le poivron et hachez grossièrement le poivron et le piment.",
+            "Étalez les noix sur le papier d'aluminium et faites-les griller jusqu'à ce qu'elles soient grillées. Hachez finement les noix et le persil dans un robot culinaire. Versez dans un petit bol.",
+            "Faites chauffer 3 cuillères à soupe d'huile dans une poêle, ajoutez le poivre, l'ail et le piment et faites revenir 3 minutes. Déchirez le pain et ajoutez-le à la poêle en le tournant dans l'huile jusqu'à ce qu'il soit légèrement doré. Passer au robot culinaire les tomates, le sel, le vinaigre et l'huile jusqu'à ce qu'ils soient grossièrement hachés. Versez dans un bol. Laisser refroidir et conserver au réfrigérateur jusqu'à 3 jours.",
+            "Le jour même, ajoutez les noix et le persil à la sauce et mélangez. Servir dans un petit bol sur une assiette avec les crevettes décortiquées. Fournissez des bâtonnets à cocktail pour harponner les crevettes."
+        ],
+        "nutritional_info": {
+            "kcal": "0",
+            "fat": "0g",
+            "saturates": "0g",
+            "carbs": "0g",
+            "sugars": "0g",
+            "fibre": "0g",
+            "protein": "0g",
+            "salt": "0g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--381_11.jpg",
+        "local_image_path": "images/cuisine/spanish/prawns-with-romesco-sauce.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chickpea-chorizo-and-spinach-stew/",
+        "title": "Ragoût de pois chiches, chorizo ​​et épinards",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Pour un souper sain et chaud qui demande peu d'effort ou de temps, rien de mieux que ce simple plat dans une seule poêle.",
+        "prep_time": "15 mins Cook: 15 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "3-4 cuillères à soupe d'huile d'olive extra vierge",
+            "1 oignon, haché",
+            "1 carotte, coupée en petits dés",
+            "1 branche de céleri, hachée finement",
+            "quelques brins de thym",
+            "2 feuilles de laurier",
+            "2 gousses d'ail, hachées finement",
+            "200 g de chorizo ​​coupé en dés",
+            "¼ cuillère à café de cannelle",
+            "1 cuillère à café de paprika fumé à chaud",
+            "2 boîtes de 410 g de pois chiches, rincés et égouttés",
+            "1-2 cuillères à soupe de vinaigre de Xérès",
+            "Sachet de 400 g de feuilles d'épinards lavées et égouttées"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une grande poêle, puis doucement\r\nfaire revenir l'oignon pendant 3-4 minutes jusqu'à ce qu'il commence\r\npour ramollir. Incorporer la carotte, le céleri, le thym\r\net des feuilles de laurier. Assaisonner, puis cuire pendant\r\n2-3 minutes en remuant de temps en temps. Ajoutez le\r\nail, chorizo, cannelle et fumé\r\npaprika. Faire frire doucement jusqu'à ce que les légumes\r\nramollir et le chorizo commence à se libérer\r\nses huiles et croustillant.",
+            "Incorporer les pois chiches, le vinaigre et\r\n150 ml d'eau, puis porter à ébullition pendant\r\n1 à 2 minutes jusqu'à ce que les pois chiches soient chauds\r\nvers le haut. Ajoutez les épinards, puis remuez dans le\r\npois chiches jusqu'à ce qu'ils se fanent un peu. Supprimer\r\ndu feu, assaisonner selon votre goût, puis\r\nservir chaud avec du pain croustillant."
+        ],
+        "nutritional_info": {
+            "kcal": "487",
+            "fat": "33g",
+            "saturates": "9g",
+            "carbs": "27g",
+            "sugars": "6g",
+            "fibre": "8g",
+            "protein": "23g",
+            "salt": "3.36g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--338530_11.jpg",
+        "local_image_path": "images/cuisine/spanish/chickpea-chorizo-and-spinach-stew.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/crispy-squid-with-capers/",
+        "title": "Calamars croustillants aux câpres",
+        "description": "Un soupçon de mayonnaise à l'ail rend tout un peu plus délicieux, et ces calamars croustillants ne font pas exception.",
+        "prep_time": "15 mins Cook: 10 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "300 g de petits calamars, nettoyés",
+            "200 g de farine nature",
+            "2 cuillères à soupe de câpres, égouttées et hachées finement",
+            "1 gousse d'ail, écrasée",
+            "5 cuillères à soupe de mayonnaise",
+            "huile végétale ou de tournesol, pour la friture",
+            "quartiers de citron, pour servir"
+        ],
+        "method": [
+            "Coupez les calamars en rondelles d'environ ½ cm d'épaisseur. Versez la farine dans un sac de congélation et assaisonnez bien. Ajoutez les câpres, puis secouez bien le tout pour bien mélanger. Versez les calamars dans le sac, puis secouez à nouveau jusqu'à ce que tous les anneaux soient bien enrobés. Mélangez l'ail et la mayonnaise, puis placez-les dans un bol de service.",
+            "Versez un peu d'huile dans une grande poêle jusqu'à ce qu'elle atteigne environ 7 cm des côtés, mais la poêle n'est pas remplie à plus d'un tiers. Placer sur feu moyen et laisser l'huile se réchauffer. Pour vérifier que l'huile est prête, placez un petit morceau de pain dans la poêle – il devrait grésiller au contact de l'huile.",
+            "Retirez une poignée de calamars de la farine et secouez l'excédent. Plongez doucement dans\r\nl'huile, puis cuire environ 3 minutes jusqu'à ce qu'elle soit croustillante. Retirer avec une écumoire et\r\ndéposer sur du papier absorbant. Répétez avec le calmar restant. Servir aussitôt avec\r\nla mayonnaise et les quartiers de citron."
+        ],
+        "nutritional_info": {
+            "kcal": "287",
+            "fat": "18g",
+            "saturates": "3g",
+            "carbs": "22g",
+            "sugars": "1g",
+            "fibre": "1g",
+            "protein": "11g",
+            "salt": "0.58g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--338493_12.jpg",
+        "local_image_path": "images/cuisine/spanish/crispy-squid-with-capers.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chicken-with-saffron-raisins-and-pine-nuts/",
+        "title": "Poulet au safran, raisins secs et pignons de pin",
+        "description": "Ce plat espagnol savoureux est idéal pour la famille ou pour recevoir des amis en milieu de semaine.",
+        "prep_time": "10 mins Cook: 55 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1¼kg de poulet désossé et désossé (demandez à votre boucher de le faire pour vous ou voir Savoir-faire)",
+            "2 cuillères à soupe d'huile d'olive",
+            "2 oignons, hachés",
+            "3 gousses d'ail, hachées",
+            "une bonne pincée de safran (environ 20 brins)",
+            "125 ml de verre de sherry sec (comme Fino ou Manzanilla)",
+            "200 ml de bouillon de poulet",
+            "1 cuillère à soupe de feuilles de thym",
+            "50g de raisins secs",
+            "2 cuillères à soupe de pignons de pin",
+            "une poignée de persil plat haché, pour servir"
+        ],
+        "method": [
+            "Faites chauffer une grande poêle à feu vif\r\net assaisonner le poulet. Ajouter l'huile d'olive\r\nà la poêle, puis le poulet. Marron pour\r\nenviron 5 minutes de chaque côté, retirer sur\r\nune assiette, puis réserver.",
+            "Baisser le feu à moyen. Dans le\r\nreste de graisse, faire revenir les oignons pendant\r\n3 minutes, puis ajoutez l'ail et le safran.\r\nCuire encore 3 à 4 minutes. Ajoutez le Xérès,\r\npuis laisser mijoter pendant 3 à 5 minutes jusqu'à ce qu'il soit sirupeux.",
+            "Remettez les morceaux de cuisse de poulet dans\r\nla poêle, versez le bouillon, le thym et\r\nraisins secs, couvrir, puis cuire doucement à feu doux\r\nchauffer pendant 20 minutes. Ajouter la viande de poitrine\r\net le jus restant dans l'assiette, laisser mijoter\r\npendant 10 minutes de plus jusqu'à ce qu'il soit bien cuit\r\net la sauce dans la poêle a réduit.",
+            "Pendant que le poulet cuit, faites chauffer le four\r\nà 200C/180C ventilateur/gaz 6. Dispersez le pin\r\nnoix sur une plaque à pâtisserie, puis rôtir pendant\r\n10 minutes jusqu'à ce qu'ils soient dorés et grillés. Une fois\r\nle poulet est bien cuit, assaisonner\r\nau goût, parsemer de pignons de pin et\r\npersil, puis servir avec du riz."
+        ],
+        "nutritional_info": {
+            "kcal": "587",
+            "fat": "37g",
+            "saturates": "9g",
+            "carbs": "17g",
+            "sugars": "15g",
+            "fibre": "1g",
+            "protein": "45g",
+            "salt": "0.68g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--26947_12.jpg",
+        "local_image_path": "images/cuisine/spanish/chicken-with-saffron-raisins-and-pine-nuts.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/patatas-bravas/",
+        "title": "pommes de terre bravas",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Un plat de tapas classique – des cubes de pomme de terre dans une sauce tomate épicée.",
+        "prep_time": "35 mins Cook: 50 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "175 g de chorizo ​​en tranches",
+            "350 g de pommes de terre nouvelles tranchées",
+            "½ cuillère à café de graines de cumin, 1 épépinée",
+            "piment rouge frais tranché",
+            "1 gousse d'ail hachée",
+            "Boîte de 400 g de tomates concassées"
+        ],
+        "method": [
+            "Coupez le chorizo ​​en tranches et faites-le revenir à sec dans une grande poêle pendant une minute. Ajouter les tranches de pommes de terre nouvelles et cuire 5 minutes jusqu'à ce qu'elles soient dorées. Ajoutez ensuite les graines de cumin, 1 piment rouge frais épépiné et tranché et la gousse d'ail hachée et laissez cuire 2 minutes. Versez la boîte de tomates hachées et laissez mijoter pendant 10 à 15 minutes jusqu'à ce que les pommes de terre soient tendres."
+        ],
+        "nutritional_info": {
+            "kcal": "0",
+            "fat": "0g",
+            "saturates": "0g",
+            "carbs": "0g",
+            "sugars": "0g",
+            "fibre": "0g",
+            "protein": "0g",
+            "salt": "0g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/user-collections/my-colelction-image/2015/12/recipe-image-legacy-id--373482_12.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spanish-tomato-bread-with-jamon-serrano/",
+        "title": "Pain espagnol aux tomates et au jambon Serrano",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Ces délicieuses tapas sont prêtes en seulement 5 minutes, l'accompagnement parfait pour un apéritif.",
+        "prep_time": "5 mins",
+        "cook_time": "",
+        "serves": "12",
+        "ingredients": [
+            "4 tomates mûres, hachées",
+            "1 gousse d'ail, hachée finement",
+            "3 cuillères à soupe d'huile d'olive",
+            "sel",
+            "poivre",
+            "20 tranches de baguette",
+            "5-6 tranches de jambon serrano"
+        ],
+        "method": [
+            "Mélangez les tomates concassées, la gousse d'ail, l'huile d'olive, le sel et le poivre. Conserver au réfrigérateur jusqu'à ce que vous en ayez besoin.",
+            "Pour servir, faites griller 20 tranches de baguette. Versez un peu de garniture aux tomates sur chaque morceau de pain grillé. Déchirez 5 à 6 tranches de jambon serrano en morceaux et mettez-en un morceau sur chaque tranche de pain."
+        ],
+        "nutritional_info": {
+            "kcal": "0",
+            "fat": "0g",
+            "saturates": "0g",
+            "carbs": "0g",
+            "sugars": "0g",
+            "fibre": "0g",
+            "protein": "0g",
+            "salt": "0g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--371_11.jpg",
+        "local_image_path": "images/cuisine/spanish/spanish-tomato-bread-with-jamon-serrano.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spaghetti-with-spanish-flavours/",
+        "title": "Spaghetti aux saveurs espagnoles",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Un plat de 10 minutes qui infuse les spaghettis aux saveurs d'Espagne – vous pouvez également en faire une version végétarienne.",
+        "prep_time": "",
+        "cook_time": "10 mins Ready in 10 minutes",
+        "serves": "4",
+        "ingredients": [
+            "Paquet de 80 g de chorizo ​​tranché",
+            "300 g de spaghettis frais",
+            "20 g de persil plat (une bonne poignée)",
+            "2 poivrons rouges en bocal, en saumure ou dans l'huile",
+            "2 cuillères à soupe d'huile d'olive",
+            "50 g de parmesan frais finement râpé, plus un peu pour servir"
+        ],
+        "method": [
+            "Mettez une casserole d'eau à feu vif\r\nchauffer à ébullition. Pendant ce temps, coupez le\r\nle chorizo en lamelles avec des ciseaux,\r\net hachez le persil et les poivrons\r\n(vérifiez d'abord les graines égarées).",
+            "Quand l'eau bout vivement,\r\najoutez les spaghettis avec un bon\r\nmesure de sel, remuer et remettre dans\r\nl'ébullition. Cuire 3 minutes.",
+            "Dans une grande poêle, faites chauffer l'huile,\r\najoutez le chorizo et les poivrons et\r\nbeaucoup de poivre noir. Cuisinez pendant un\r\nminute environ, jusqu'à ce que le tout soit bien chaud\r\net les jus sont tachés de rouge par\r\nle paprika dans le chorizo. Scoop\r\nune demi-tasse d'eau pour pâtes\r\nla casserole, égouttez le reste et\r\nversez les spaghettis dans la poêle.",
+            "Ajoutez le persil et le parmesan,\r\nbien mélanger et arroser les pâtes\r\nde l'eau, pour humidifier. Tour à main supplémentaire\r\nparmesan à table."
+        ],
+        "nutritional_info": {
+            "kcal": "444",
+            "fat": "22g",
+            "saturates": "6g",
+            "carbs": "46g",
+            "sugars": "0g",
+            "fibre": "3g",
+            "protein": "18g",
+            "salt": "2.21g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--300_13.jpg",
+        "local_image_path": "images/cuisine/spanish/spaghetti-with-spanish-flavours.jpg"
+    }
+]

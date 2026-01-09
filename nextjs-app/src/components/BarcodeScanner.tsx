@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import { AlertTriangle, Keyboard, Hash, Camera, X } from 'lucide-react';
 
 // Type definitions for the experimental BarcodeDetector API
 interface DetectedBarcode {
@@ -217,7 +218,7 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                         }}
                         className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 text-white transition-colors"
                     >
-                        ✕
+                        <X size={20} />
                     </button>
                 </div>
             </div>
@@ -262,7 +263,7 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                         {error && (
                             <div className="absolute bottom-24 left-4 right-4 z-20">
                                 <div className="bg-red-500/90 text-white p-4 rounded-xl text-center shadow-lg animate-bounce-subtle backdrop-blur-md">
-                                    <p className="font-bold mb-1">⚠️ {error}</p>
+                                    <p className="font-bold mb-1 flex items-center justify-center gap-2"><AlertTriangle size={18} /> {error}</p>
                                     <button
                                         onClick={() => setMode('manual')}
                                         className="text-xs underline font-medium mt-1 hover:text-white/80"
@@ -278,7 +279,9 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                         {/* Manual Mode UI */}
                         <div className="w-full max-w-sm">
                             <div className="text-center mb-8">
-                                <div className="text-6xl mb-4">⌨️</div>
+                                <div className="w-16 h-16 mx-auto mb-4 bg-gray-800 rounded-full flex items-center justify-center">
+                                    <Keyboard size={32} className="text-gray-400" />
+                                </div>
                                 <h3 className="text-2xl font-bold text-white mb-2">Manual Entry</h3>
                                 <p className="text-gray-400">Enter barcode number below</p>
                             </div>
@@ -318,7 +321,7 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                         : 'bg-gray-800 text-gray-400'
                         }`}
                 >
-                    <span className="text-xl">📷</span>
+                    <Camera size={20} />
                     <span>Scan</span>
                 </button>
                 <button
@@ -328,7 +331,7 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                         : 'bg-gray-800 text-gray-400'
                         }`}
                 >
-                    <span className="text-xl">#️⃣</span>
+                    <Hash size={20} />
                     <span>Manual</span>
                 </button>
             </div>

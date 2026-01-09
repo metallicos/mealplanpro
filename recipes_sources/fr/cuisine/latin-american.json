@@ -1,0 +1,44 @@
+[
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/ajiaco/",
+        "title": "Ajiaco",
+        "description": "Cette soupe classique colombienne est servie avec de la crème, des câpres, de l'avocat, du mote (maïs bouilli) et de la poitrine de poulet effilochée, le tout mélangé juste avant de manger",
+        "prep_time": "20 mins Cuisson : 1 h",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 poitrines de poulet sans peau",
+            "2 épis de maïs choclo (une variété de maïs jaune à gros grains) ou épis de maïs ordinaires",
+            "4 gousses d'ail, tranchées",
+            "½ oignon blanc, coupé en dés",
+            "1 poivron jaune, coupé en dés",
+            "4 pommes de terre moyennes (rouges ou blanches), épluchées et coupées en dés",
+            "2 oignons nouveaux, hachés",
+            "6 brins de coriandre, hachés, plus un peu pour servir",
+            "12 papas criollas (petites pommes de terre jaunes), coupées en deux",
+            "8 c. à soupe de guascas",
+            "100ml de crème liquide ou crème épaisse",
+            "4 c. à soupe de câpres, égouttées",
+            "1 avocat, épluché, dénoyauté et coupé en petits cubes"
+        ],
+        "method": [
+            "Mettre le poulet, les épis de maïs, l'ail, l'oignon, le poivron, les pommes de terre, les oignons nouveaux et la coriandre dans une casserole avec 2 litres d'eau et porter à ébullition, bien assaisonner, puis laisser mijoter environ 45 minutes à feu moyen.",
+            "Retirer le maïs et le poulet et les transférer sur une assiette. Mixer les ingrédients restants dans la casserole avec un mixeur plongeant jusqu'à obtenir une consistance crémeuse.",
+            "Ajouter les papas criollas et les guascas dans la casserole et cuire à feu moyen environ 10-12 minutes, ou jusqu'à ce que les papas criollas commencent à ramollir mais ne se désintègrent pas.",
+            "Pendant ce temps, effilocher finement les poitrines de poulet avec les mains, et couper les épis de maïs en tranches épaisses. Mettre dans de petits bols séparés.",
+            "Mettre également la crème, les câpres, l'avocat et le supplément de coriandre hachée dans de petits bols, pour que chacun puisse se servir selon ses envies. Verser la soupe dans quatre bols à soupe et servir avec les autres ingrédients à côté. N'oubliez pas les serviettes pour manger les tranches de maïs."
+        ],
+        "nutritional_info": {
+            "kcal": "385",
+            "fat": "3g",
+            "saturates": "1g",
+            "carbs": "57g",
+            "sugars": "7g",
+            "fibre": "12g",
+            "protein": "27g",
+            "salt": "0.1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2019/01/ajiaco.jpg",
+        "local_image_path": "images/cuisine/latin-american/ajiaco.jpg"
+    }
+]

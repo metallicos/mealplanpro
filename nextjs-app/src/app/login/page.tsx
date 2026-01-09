@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { useUser } from '@/contexts/UserContext';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
+import { Globe } from 'lucide-react';
 
 export default function LoginPage() {
     const router = useRouter();
@@ -58,21 +59,21 @@ export default function LoginPage() {
             <div className="absolute top-4 right-4 flex gap-1 p-1 rounded-lg" style={{ background: 'rgba(255,255,255,0.05)' }}>
                 <button
                     onClick={() => switchLanguage('en')}
-                    className={`py-1.5 px-3 text-xs rounded transition-all ${currentLocale === 'en'
+                    className={`py-1.5 px-3 text-xs rounded transition-all flex items-center gap-1 ${currentLocale === 'en'
                         ? 'bg-violet-600 text-white'
                         : 'text-gray-400 hover:text-white'
                         }`}
                 >
-                    🇬🇧 {tLang('en')}
+                    <Globe size={12} /> {tLang('en')}
                 </button>
                 <button
                     onClick={() => switchLanguage('fr')}
-                    className={`py-1.5 px-3 text-xs rounded transition-all ${currentLocale === 'fr'
+                    className={`py-1.5 px-3 text-xs rounded transition-all flex items-center gap-1 ${currentLocale === 'fr'
                         ? 'bg-violet-600 text-white'
                         : 'text-gray-400 hover:text-white'
                         }`}
                 >
-                    🇫🇷 {tLang('fr')}
+                    <Globe size={12} /> {tLang('fr')}
                 </button>
             </div>
 

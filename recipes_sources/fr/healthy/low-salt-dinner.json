@@ -1,0 +1,1583 @@
+[
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/pan-fried-salmon-with-braised-little-gem/",
+        "title": "Saumon poêlé au Little Gem braisé",
+        "description": "Si vous recherchez un dîner de poisson rapide et sain, essayez ce saumon poêlé avec des légumes verts et une sauce légère et crémeuse. Cela prend moins de 15 minutes à faire",
+        "prep_time": "2 mins Cook: 12 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 cuillères à café d'huile d'olive",
+            "4 laitues Little Gem, coupées en deux dans le sens de la longueur",
+            "200 ml de bouillon de légumes",
+            "4 x 130 g de filets de saumon",
+            "200 g de petits pois frais ou surgelés (décongelés s'ils sont surgelés)",
+            "½ petit bouquet d'aneth haché",
+            "1 cuillère à soupe de crème fraîche demi-écrémée",
+            "1 cuillère à café de moutarde de Dijon"
+        ],
+        "method": [
+            "Faites chauffer 1 cuillère à café d'huile dans une grande poêle à frire à feu moyen. Disposez les moitiés de laitue dans la poêle, côté coupé vers le bas, et faites-les frire pendant 2 minutes jusqu'à ce qu'elles commencent à dorer. Versez le bouillon, couvrez et laissez cuire 6 minutes.",
+            "Pendant ce temps, assaisonnez le saumon avec une bonne pincée de sel et de poivre de chaque côté des filets. Faites chauffer le reste de l'huile dans une deuxième poêle à feu moyen et faites revenir le saumon, peau vers le bas, pendant 3 minutes. Retournez délicatement à l'aide d'une tranche de poisson et laissez cuire encore 3 minutes jusqu'à ce qu'il soit bien cuit et que la chair se défasse facilement.",
+            "Versez les petits pois et l'aneth dans la poêle avec la laitue et laissez cuire 2 minutes à couvert jusqu'à ce que la laitue soit tendre mais conserve sa structure. Disposez les filets de saumon et les moitiés de laitue sur des assiettes de service.",
+            "Incorporer la crème fraîche et la moutarde dans la poêle à laitue et cuire à feu doux pour bien réchauffer. Versez la sauce et les petits pois sur la laitue et le saumon."
+        ],
+        "nutritional_info": {
+            "kcal": "410",
+            "fat": "23g",
+            "saturates": "5g",
+            "carbs": "9g",
+            "sugars": "0g",
+            "fibre": "6g",
+            "protein": "38g",
+            "salt": "1g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/02/Pan-fried-salmon-c471fb2.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/pan-fried-salmon-with-braised-little-gem.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/buddha-bowl-salad/",
+        "title": "Saladier végétalien",
+        "description": "Préparez une salade végétalienne facile, avec des haricots, des radis, du chou mariné et du couscous. Débordant de saveur, il constitue un dîner ou un déjeuner satisfaisant sur le pouce",
+        "prep_time": "15 mins No cook",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "200 g de couscous",
+            "Boîte de 400 g de mélange de haricots",
+            "1 cuillère à café d'huile d'olive",
+            "1⁄2 cuillère à café de flocons de piment",
+            "3⁄4 petit bouquet d'aneth, coupé en brins",
+            "2 radis pastèque ou 6 petits, tranchés",
+            "1⁄2 concombre, pelé en rubans",
+            "1 gros oignon rouge, finement tranché",
+            "1⁄4 petit chou rouge, tranché finement",
+            "2 cuillères à soupe de vinaigre de vin blanc ou de vinaigre de cidre de pomme",
+            "1 cuillère à soupe de sucre en poudre",
+            "1⁄4 petit bouquet d'aneth, feuilles cueillies"
+        ],
+        "method": [
+            "Tout d’abord, préparez le cornichon. Mélangez tous les ingrédients dans un grand bol avec 1 cuillère à café de sel marin feuilleté, puis couvrez et réservez jusqu'à ce que vous en ayez besoin.",
+            "Mélangez le couscous avec 280 ml d'eau bouillante dans un bol, couvrez et laissez reposer 4 min, puis remuez à la fourchette. Laisser refroidir légèrement.",
+            "Pendant ce temps, égouttez et rincez les haricots, versez-les dans un bol, puis ajoutez l'huile d'olive et les flocons de piment ainsi qu'un peu d'assaisonnement.",
+            "Mélangez la majeure partie de l'aneth avec le couscous et assaisonnez. Pour assembler, versez le cornichon rapide, le couscous, les radis, les haricots et le concombre dans des parties séparées de chaque bol. Garnir le cornichon avec l'aneth réservé et broyer avec un peu de poivre noir."
+        ],
+        "nutritional_info": {
+            "kcal": "327",
+            "fat": "3g",
+            "saturates": "0g",
+            "carbs": "59g",
+            "sugars": "0g",
+            "fibre": "9g",
+            "protein": "13g",
+            "salt": "1.7g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/07/Buddha-bowl-salad-eade933.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/buddha-bowl-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/oven-roasted-sweet-potato-courgette-tortilla/",
+        "title": "Tortilla de patates douces et courgettes rôties au four",
+        "description": "Savourez une tortilla cuite au four plutôt que frite, ce qui la rend plus saine et plus facile à préparer. Si vous n'avez pas de manchego, vous pouvez utiliser du cheddar ou de la feta émiettée",
+        "prep_time": "10 mins Cook: 1 hrs",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 patates douces moyennes (500 g), pelées et tranchées finement",
+            "1 oignon, tranché finement",
+            "1 courgette, tranchée finement",
+            "2 cuillères à soupe d'huile d'olive",
+            "6 oeufs",
+            "50g crème fraîche",
+            "30g de manchego ou alternative végétarienne, râpé",
+            "1 cuillère à soupe de ciboulette hachée",
+            "salade verte, pour servir"
+        ],
+        "method": [
+            "Chauffer le four à 190°C/170°C chaleur tournante/gaz 5. Versez les tranches de patate douce, l'oignon et la courgette dans un plat allant au four antiadhésif moyen (le nôtre mesurait 18 cm x 30 cm x 4 cm), arrosez d'huile d'olive, assaisonnez et mélangez le tout. Cuire au four pendant 30 minutes en remuant les légumes à mi-cuisson. Les patates douces doivent être tendres, la courgette un peu carbonisée et l'oignon ramolli.",
+            "Pendant ce temps, fouettez les œufs et la crème fraîche avec une pincée d'assaisonnement. Versez le mélange d'œufs battus sur la patate douce, l'oignon et la courgette. Saupoudrer de manchego et remettre au four pendant 25 à 30 minutes jusqu'à ce que la tortilla soit juste prise. Saupoudrer de ciboulette et déguster chaud ou froid accompagné d'une salade."
+        ],
+        "nutritional_info": {
+            "kcal": "379",
+            "fat": "21g",
+            "saturates": "9g",
+            "carbs": "29g",
+            "sugars": "0g",
+            "fibre": "6g",
+            "protein": "15g",
+            "salt": "0.6g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/06/Oven-roasted-sweet-potato-and-courgette-tortilla-ce7d5b4.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/oven-roasted-sweet-potato-courgette-tortilla.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/fridge-raid-soup/",
+        "title": "Soupe contre le réfrigérateur",
+        "description": "Personnalisez cette recette de soupe en utilisant tous les éléments dont vous disposez. Préparez une soupe aux tomates avec des restes de légumes, puis terminez-la avec des garnitures savoureuses",
+        "prep_time": "15 mins Cook: 40 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 cuillères à soupe d'huile d'olive",
+            "1 oignon, finement haché",
+            "2 carottes, hachées finement",
+            "2 branches de céleri, hachées finement",
+            "4 gousses d'ail, écrasées",
+            "1 brin de thym",
+            "1 cuillère à soupe de purée de tomates",
+            "1 litre de bouillon de légumes ou de poulet",
+            "Boîte de 400 g de tomates concassées",
+            "2 boîtes de 400 g de haricots cannelini égouttés",
+            "une grosse poignée de légumes verts (environ 150 g, utilisez tous les légumes de saison que vous avez – courgettes, haricots verts, blettes, épinards, etc.), hachés grossièrement",
+            "1 grosse pomme de terre, pelée et coupée en cubes de 2 cm",
+            "persil haché, feta émiettée, olives déchirées, flocons de piment (facultatif), huile d'olive extra vierge, pain croustillant"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une grande poêle à feu moyen et faites revenir l'oignon, la carotte et le céleri jusqu'à ce qu'ils soient tendres, environ 10 minutes, puis ajoutez l'ail, le thym et la purée de tomates. Versez le bouillon avec les tomates, réduisez le feu au minimum et laissez mijoter 10 minutes.",
+            "Ajoutez les haricots cannelini, les légumes verts et les morceaux de pommes de terre, ainsi qu'une généreuse pincée d'assaisonnement. Couvrir et laisser mijoter encore 15 à 20 minutes environ jusqu'à ce que les légumes soient tendres et que la soupe ait épaissi. Garnir de persil, de feta émiettée, d'olives, de flocons de piment (pour ceux qui aiment les épices) et d'un filet d'huile d'olive extra vierge. Servir avec du pain croustillant à part pour tremper."
+        ],
+        "nutritional_info": {
+            "kcal": "434",
+            "fat": "18g",
+            "saturates": "8g",
+            "carbs": "41g",
+            "sugars": "0g",
+            "fibre": "14g",
+            "protein": "21g",
+            "salt": "2.1g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/06/Fridge-raid-soup-da48228.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/fridge-raid-soup.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/quinoa-salad-with-eggs-dill/",
+        "title": "Salade de quinoa aux œufs et à l'aneth",
+        "description": "Le quinoa est une protéine complète qui contient les huit acides aminés essentiels. Dégustez-le ici en salade",
+        "prep_time": "15 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "120 g de quinoa rincé",
+            "6 oeufs",
+            "320 g d'asperges, les extrémités ligneuses parées et coupées en deux si elles sont trop longues",
+            "4 cuillères à soupe d'huile d'olive extra vierge",
+            "2 cuillères à café de vinaigre de cidre de pomme",
+            "6 oignons nouveaux, finement hachés",
+            "2 cuillères à soupe d'aneth haché",
+            "2 cuillères à soupe de basilic haché, plus quelques feuilles pour servir",
+            "15 g de câpres rincées",
+            "320 g de tomates cerises coupées en deux"
+        ],
+        "method": [
+            "Faites bouillir le quinoa dans beaucoup d'eau pendant 20 minutes. Laisser poser 5 minutes, puis rincer et bien égoutter. Pendant ce temps, faites bouillir les œufs 7 min dans une autre poêle avec les asperges dessus dans un cuiseur vapeur. Si les œufs sont prêts et que les asperges ne sont pas tout à fait tendres, retirez les œufs de la poêle et mettez-les dans l'eau froide tout en poursuivant la cuisson des asperges encore quelques minutes. Épluchez les œufs.",
+            "Pour préparer la vinaigrette, mélangez l'huile d'olive extra vierge et le vinaigre de cidre de pomme avec les oignons nouveaux hachés, les herbes et les câpres.",
+            "Versez le quinoa dans un bol et mélangez les trois quarts de la vinaigrette et les tomates. Verser la moitié dans des assiettes et le reste dans deux récipients. Disposez les asperges sur les salades avec trois moitiés d'œufs sur chacune, puis versez le reste de la vinaigrette et parsemez de feuilles de basilic. Scellez et réfrigérez les salades emballées. Se conserve dans un récipient hermétique au réfrigérateur jusqu'à une journée."
+        ],
+        "nutritional_info": {
+            "kcal": "360",
+            "fat": "21g",
+            "saturates": "4g",
+            "carbs": "21g",
+            "sugars": "0g",
+            "fibre": "5g",
+            "protein": "19g",
+            "salt": "0.53g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/05/Quinoa-salad-with-eggs-dill-dfefa3a.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/quinoa-salad-with-eggs-dill.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spinach-filo-spiral-pie/",
+        "title": "Tarte spirale filo aux épinards",
+        "description": "Ces impressionnantes spirales de filo aux épinards sont d’une simplicité trompeuse à réaliser. Une version de la spanakopita grecque, à servir avec une salade d'accompagnement pour un déjeuner de week-end",
+        "prep_time": "30 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "300 g de pousses d'épinards",
+            "50 g de beurre salé fondu, plus une noix pour la friture",
+            "1 gros oignon, finement haché",
+            "200 g de feta émiettée",
+            "7 feuilles filo du commerce",
+            "1 cuillère à soupe de graines de nigelle"
+        ],
+        "method": [
+            "Faites chauffer une grande poêle antiadhésive à feu moyen. Ajoutez les épinards et faites cuire en remuant jusqu'à ce qu'ils soient flétris (vous n'aurez pas besoin d'huile ni d'eau car ils vapeurront dans leur propre humidité). Laisser refroidir un peu, puis verser dans un torchon propre et essorer le plus d'eau possible. Hachez et mettez dans un bol.",
+            "Faites chauffer la noix de beurre dans une poêle antiadhésive. Ajouter l'oignon et cuire environ 10 minutes jusqu'à ce qu'il soit ramolli. Versez dans le bol avec les épinards, puis incorporez la feta à l'aide d'une fourchette jusqu'à ce que le tout soit bien mélangé. Goûtez pour l’assaisonnement.",
+            "Chauffer le four à 190°C/170°C chaleur tournante/gaz 5. Badigeonner un plat à tarte en métal de 24 x 4 cm de profondeur avec un peu de beurre.",
+            "Posez une feuille de filo sur votre plan de travail. Badigeonner d'un peu de beurre fondu, puis étaler environ 2 cuillères à soupe de garniture en ligne le long du bord le plus long de la pâte. Roulez-le sans serrer en un long boudin (ne le roulez pas trop serré car cela pourrait fendre la pâte), puis enroulez la pâte et placez-la au centre du moule.",
+            "Répétez avec le reste de la pâte et de la garniture, en disposant les spirales autour de celle centrale. Badigeonnez le dessus de beurre, puis saupoudrez de graines de nigelle. Cuire au four pendant 25 à 30 minutes jusqu'à ce qu'ils soient dorés et croustillants."
+        ],
+        "nutritional_info": {
+            "kcal": "311",
+            "fat": "16g",
+            "saturates": "9g",
+            "carbs": "31g",
+            "sugars": "0g",
+            "fibre": "2g",
+            "protein": "11g",
+            "salt": "1.3g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Spinach-filo-spiral-pie-3d77d2c.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/spinach-filo-spiral-pie.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/malfatti/",
+        "title": "Malfatti",
+        "description": "Découvrez notre version des malfatti toscans – des raviolis aux épinards et à la ricotta qui ressemblent un peu à de gros gnocchis grossièrement formés. Servir recouvert d'un beurre de sauge aromatique et de beaucoup de fromage",
+        "prep_time": "20 mins Cook: 15 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à soupe d'huile d'olive",
+            "500 g d'épinards frais ou surgelés (voir astuce ci-dessous)",
+            "250 g de ricotta",
+            "50 g de chapelure fraîche",
+            "50 g de parmesan finement râpé ou alternative végétarienne, plus un peu pour servir",
+            "2 gros œufs, battus",
+            "1 cuillère à soupe de semoule ou de farine ordinaire, plus un peu pour saupoudrer",
+            "muscade, pour râper",
+            "60g de beurre",
+            "25 g de feuilles de sauge"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une grande poêle à feu vif et faites revenir les épinards environ 2-3 minutes. Versez les épinards dans une passoire et essorez tout excès de liquide à l'aide du dos d'une cuillère. Laisser refroidir complètement. Essorez le liquide restant avec vos mains, puis hachez finement les épinards.",
+            "Versez les épinards hachés dans un bol avec la ricotta, la chapelure et le parmesan. Ajoutez l'œuf et la semoule ou la farine. Assaisonner et râper avec un peu de muscade. Remuer pour former un mélange collant et homogène.",
+            "Mettez quelques cuillères à soupe de farine sur un grand plateau et secouez doucement pour étaler la farine. Verser environ ½ cuillère à soupe du mélange d'épinards sur le plateau fariné et rouler en boule. Répétez avec le reste du mélange d'épinards, en transférant les boules sur un deuxième plateau de cuisson propre au fur et à mesure.",
+            "Chauffer le four à 140C/120C chaleur tournante/gaz 1. Portez à ébullition une grande casserole d'eau salée. Ajoutez les malfatti (vous devrez peut-être le faire par lots) et laissez mijoter pendant 2 minutes ou jusqu'à ce qu'ils flottent à la surface. Retirez les malfatti avec une écumoire et égouttez-les bien. Transférer dans un plat de service allant au four et réserver au chaud au four.",
+            "Préparez le beurre de sauge en faisant fondre le beurre dans une petite casserole. Ajoutez les feuilles de sauge et faites-les revenir doucement en remuant souvent jusqu'à ce qu'elles soient croustillantes. Versez le beurre de sauge sur les malfatti et recouvrez de fromage râpé."
+        ],
+        "nutritional_info": {
+            "kcal": "395",
+            "fat": "30g",
+            "saturates": "16g",
+            "carbs": "11g",
+            "sugars": "0g",
+            "fibre": "2g",
+            "protein": "19g",
+            "salt": "1g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Malfatti-87897d2.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/malfatti.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/tomato-coconut-curry/",
+        "title": "Curry de tomates et de noix de coco",
+        "description": "Célébrez les tomates – encore mieux si elles sont cultivées sur place – avec ce curry juteux à la noix de coco, qui apporte beaucoup de couleur et de saveur à votre assiette",
+        "prep_time": "15 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à café bombée de graines de cumin",
+            "1 cuillère à café bombée de graines de coriandre",
+            "1 cuillère à café bombée de graines de fenouil",
+            "2 cuillères à soupe d'huile de tournesol ou de colza",
+            "10 feuilles de curry",
+            "3 gros oignons, tranchés finement",
+            "1 cuillère à café bombée de graines de moutarde noire",
+            "½ cuillère à café de curcuma moulu",
+            "1 cuillère à café de flocons de sel marin",
+            "4 gousses d'ail, écrasées",
+            "1 piment vert, finement haché",
+            "1 kg de grosses tomates mûres, coupées en quartiers",
+            "250 g de tomates cerises ou de petites tomates italiennes",
+            "400 ml de lait de coco en boîte",
+            "2 cuillères à café bombées de pâte de tamarin",
+            "2 cuillères à café bombées de sucre roux ou de palme",
+            "riz cuit, pour servir"
+        ],
+        "method": [
+            "Versez les graines de cumin, de coriandre et de fenouil dans une grande poêle à frire sèche à feu moyen-vif et faites-les griller jusqu'à ce qu'elles soient parfumées et légèrement dorées. Retirer immédiatement du feu, puis broyer grossièrement à l'aide d'un pilon et d'un mortier ou d'un moulin à épices.",
+            "Versez l'huile dans la poêle. Ajoutez les feuilles de curry et faites grésiller une minute, puis ajoutez les oignons. Faire frire environ 5 minutes jusqu'à ce qu'ils soient légèrement dorés. Ajoutez les graines de moutarde, le mélange d'épices moulues, le curcuma, le sel, l'ail et le piment, et faites revenir encore quelques minutes. Ajoutez toutes les tomates et faites revenir encore une minute avant d'ajouter le lait de coco, le tamarin et le sucre.",
+            "Laisser mijoter le curry pendant 25 minutes jusqu'à ce que les tomates soient bien tendres et que le liquide épaississe un peu. Goûtez pour l’assaisonnement et ajoutez un peu plus de sel ou de sucre si nécessaire. Servir chaud avec le riz."
+        ],
+        "nutritional_info": {
+            "kcal": "376",
+            "fat": "24g",
+            "saturates": "15g",
+            "carbs": "29g",
+            "sugars": "0g",
+            "fibre": "9g",
+            "protein": "6g",
+            "salt": "1.3g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Tomato-and-coconut-curry-27a5cdc.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/tomato-coconut-curry.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/crispy-coconut-prawn-mango-salad/",
+        "title": "Salade croustillante de crevettes à la noix de coco et à la mangue",
+        "description": "Ajoutez du piquant à votre journée avec cette salade fraîche et fruitée de crevettes croustillantes à la noix de coco et à la mangue. Plein de saveurs et de couleurs, il égayera à coup sûr le déjeuner",
+        "prep_time": "20 mins Cook: 15 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "160 g de gambas crues, décortiquées",
+            "200 ml de lait de coco",
+            "1 gros citron vert, ½ pressé, ½ coupé en quartiers pour servir",
+            "2 cuillères à café d'huile de sésame",
+            "½ cuillère à café de sucre en poudre ou de miel",
+            "2 grosses poignées de cresson ou de pousses d'épinards (ou utiliser un mélange)",
+            "½ mangue, dénoyautée, pelée et tranchée ou coupée en morceaux",
+            "1 petit avocat dénoyauté, pelé et tranché",
+            "½ petit oignon rouge, coupé en deux et tranché finement",
+            "½ petit bouquet de menthe, feuilles cueillies",
+            "1 gros piment rouge, épépiné et tranché finement",
+            "huile végétale, pour la friture",
+            "2 cuillères à soupe de noix de coco desséchée",
+            "2 cuillères à soupe de farine de maïs"
+        ],
+        "method": [
+            "Passez un couteau bien aiguisé sur le dos de chaque crevette et retirez la ligne grise qui va de la tête à la queue. Fouettez le lait de coco jusqu'à consistance lisse, puis versez-en la moitié dans un bol avec les crevettes. Ajoutez la moitié du jus de citron vert et une pincée de sel, mélangez bien et laissez reposer 15 minutes.",
+            "Pendant ce temps, mélangez le reste du lait de coco avec le reste du jus de citron vert, l'huile de sésame, le sucre ou le miel et une pincée de sel.",
+            "Répartir le cresson ou les épinards dans deux assiettes, puis garnir de tranches de mangue, d'avocat et d'oignon rouge, de menthe et de piments tranchés.",
+            "Versez 1 à 2 cm d'huile dans une grande casserole à feu moyen. Mélangez la noix de coco desséchée avec la fécule de maïs et un peu d'assaisonnement. Égoutter les crevettes et incorporer le mélange de farine de maïs pour les enrober, en secouant tout excès.",
+            "Déposez une crevette dans l'huile; s’il grésille, ajoutez-en un peu plus, mais ne surchargez pas la poêle. Faire frire 1 à 2 minutes de chaque côté jusqu'à ce qu'ils soient croustillants et dorés, puis transférer dans une assiette recouverte de papier absorbant. Lorsque toutes les crevettes sont frites, répartissez-les sur la salade et arrosez de vinaigrette."
+        ],
+        "nutritional_info": {
+            "kcal": "539",
+            "fat": "41g",
+            "saturates": "20g",
+            "carbs": "26g",
+            "sugars": "0g",
+            "fibre": "7g",
+            "protein": "14g",
+            "salt": "1g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Crispy-coconut-prawn-and-mango-salad-8312438.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/crispy-coconut-prawn-mango-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chicken-lemon-ricotta-meatballs-with-linguine/",
+        "title": "Boulettes de poulet, citron et ricotta avec linguine",
+        "description": "Débordantes de saveurs, faciles à préparer et nutritives – nos boulettes de poulet piquantes cochent toutes les cases pour un repas en famille",
+        "prep_time": "20 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 poitrines de poulet",
+            "2 citrons, zestés",
+            "200 g de ricotta",
+            "3 cuillères à soupe de persil haché",
+            "150 g de chapelure fraîche",
+            "100 ml de lait, plus 2 cuillères à soupe",
+            "1 œuf moyen, battu",
+            "25 g de farine nature, pour saupoudrer",
+            "1 cuillère à soupe d'huile d'olive",
+            "300 g de linguines",
+            "320 g de haricots verts, parés et coupés en deux"
+        ],
+        "method": [
+            "Coupez le poulet en très petits morceaux à l'aide d'un couteau bien aiguisé. Vous pouvez utiliser un robot culinaire, mais pulsez pour qu'il ne se transforme pas en pâte. Mettre dans un bol et ajouter la moitié du zeste de citron, la moitié de la ricotta, la moitié du persil, la chapelure et mélanger le tout. Ajoutez les 2 cuillères à soupe de lait, l'œuf et une bonne pincée d'assaisonnement. Mélangez à nouveau.",
+            "Saupoudrer légèrement une assiette de farine. Mouillez-vous les mains, prenez un morceau du mélange de boulettes de viande de la taille d’une balle de golf et roulez-le en boule. Disposez sur l'assiette farinée et répétez jusqu'à ce que tout le mélange soit épuisé.",
+            "Faites chauffer une poêle à fond épais sur feu moyen, ajoutez l'huile, puis les boulettes de viande en veillant à ce qu'elles ne se touchent pas. Cuire 10 à 15 minutes en les retournant pour qu'ils dorent de tous les côtés. Transférer dans une assiette.",
+            "Pendant ce temps, faites chauffer une grande casserole d’eau salée et ajoutez les linguines. Faites cuire en suivant les instructions du paquet, et 3 minutes avant la fin de la cuisson, ajoutez les haricots verts. Égoutter en conservant l'eau des pâtes. Rincez les linguines et les haricots sous l’eau froide pour arrêter la cuisson.",
+            "Ajoutez le reste de la ricotta dans la poêle en la brisant le plus possible. Versez les 100 ml de lait et 2 cuillères à soupe d'eau pour pâtes réservée, puis laissez cuire jusqu'à ce que le mélange épaississe légèrement pendant quelques minutes. Ajouter les pâtes, les haricots, le reste du zeste de citron et le persil. Assaisonner au goût, incorporer les boulettes de viande et servir."
+        ],
+        "nutritional_info": {
+            "kcal": "628",
+            "fat": "15g",
+            "saturates": "6g",
+            "carbs": "69g",
+            "sugars": "0g",
+            "fibre": "8g",
+            "protein": "49g",
+            "salt": "0.8g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Chicken-lemon-and-ricotta-meatballs-with-linguine-ee676b9.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/chicken-lemon-ricotta-meatballs-with-linguine.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/baked-cod/",
+        "title": "Morue au four",
+        "description": "Dégustez de la morue au four avec du citron et du thym pour un repas facile en milieu de semaine. Servir avec vos légumes préférés pour un dîner familial sain et sans tracas",
+        "prep_time": "10 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "3 cuillères à soupe de farine nature",
+            "4 cod loin fillets",
+            "2 cuillères à soupe d'huile d'olive",
+            "1 citron, tranché",
+            "½ petit bouquet de thym"
+        ],
+        "method": [
+            "Chauffer le four à 220C/200C chaleur tournante/gaz 7. Versez la farine dans un bol et ajoutez un peu d'assaisonnement. Tourner chaque filet de morue dans la farine jusqu'à ce qu'il soit uniformément enrobé.",
+            "Faites chauffer la moitié de l'huile dans une poêle antiadhésive à feu moyen-vif. Ajouter la morue et faire frire de chaque côté pendant 2 minutes ou jusqu'à ce qu'elle soit dorée.",
+            "Transférer la morue dans un plat à rôtir. Disposez les tranches de citron et le thym sur et autour du poisson et arrosez du reste d'huile. Cuire au four pendant 10 minutes ou jusqu'à ce qu'il soit bien cuit."
+        ],
+        "nutritional_info": {
+            "kcal": "236",
+            "fat": "6g",
+            "saturates": "1g",
+            "carbs": "13g",
+            "sugars": "0g",
+            "fibre": "1g",
+            "protein": "30g",
+            "salt": "0.3g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/02/Baked-cod-d8324c7.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/baked-cod.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/scotch-broth/",
+        "title": "Bouillon écossais",
+        "description": "Savourez un copieux bol de soupe au bouillon écossais pour un déjeuner ou un dîner sain. Rempli de légumes et de céréales, servir avec un morceau de pain croustillant",
+        "prep_time": "20 mins Cook: 1 hrs 25 mins plus overnight soaking",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "250 g de mélange de bouillon (ou un mélange de 75 g d'orge perlé, 75 g de pois cassés jaunes, 50 g de lentilles cassées rouges et 50 g de pois cassés verts ou à la moelle)",
+            "1 cuillère à soupe d'huile végétale ou d'olive",
+            "1 gros oignon, finement haché",
+            "1 poireau lavé et tranché",
+            "1 navet moyen, pelé et haché finement",
+            "3 carottes, hachées finement",
+            "3 branches de céleri, parées et hachées finement",
+            "3 litres de bouillon d'agneau",
+            "200 g de chou frisé haché"
+        ],
+        "method": [
+            "Rincez le mélange à soupe et laissez-le tremper dans l'eau froide pendant 8 heures ou toute la nuit, couvert dans un endroit frais. Égoutter et bien rincer.",
+            "Faites chauffer l'huile dans une grande poêle et faites revenir l'oignon, le poireau, le navet, les carottes et le céleri pendant 10 minutes, recouverts d'un couvercle, jusqu'à ce qu'ils soient tendres mais pas dorés. Ajoutez une généreuse pincée de sel et une bonne mouture de poivre.",
+            "Versez le bouillon dans la poêle et portez à ébullition. Ajouter le mélange à soupe égoutté et laisser mijoter doucement pendant 1 h à couvert, jusqu'à ce que l'orge et les pois cassés soient tendres. Assaisonnez à nouveau si nécessaire. Incorporer le chou frisé et cuire 10 à 15 minutes jusqu'à ce qu'il soit tendre, puis verser dans des bols pour servir."
+        ],
+        "nutritional_info": {
+            "kcal": "278",
+            "fat": "4g",
+            "saturates": "0.4g",
+            "carbs": "25g",
+            "sugars": "0g",
+            "fibre": "6g",
+            "protein": "33g",
+            "salt": "0.1g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/02/Scotch-broth-899f7bb.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/scotch-broth.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/baked-cod-with-creamy-mushroom-leek-orzo/",
+        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "Préparez notre cabillaud au four avec de l'orzo, de la crème de champignons et des poireaux en seulement 20 minutes. C'est un souper ultra rapide – une excellente option pour les journées de travail chargées",
+        "prep_time": "5 mins Cook: 15 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "3 cuillères à soupe de farine nature",
+            "4 cod loin fillets",
+            "2 cuillères à soupe d'huile d'olive",
+            "1 citron, zesté et tranché",
+            "½ petit bouquet de thym",
+            "2 poireaux, tranchés",
+            "200 g de champignons tranchés",
+            "300 g d'orzo",
+            "500 ml de bouillon faible en sel",
+            "2 tbsp crème fraîche"
+        ],
+        "method": [
+            "Chauffer le four à 220C/200C chaleur tournante/gaz 7. Versez la farine dans un bol et assaisonnez. Trempez chaque filet de morue dans la farine jusqu'à ce qu'il soit uniformément enrobé. Faites chauffer 1 cuillère à soupe d'huile dans une poêle antiadhésive à feu moyen-vif et faites revenir la morue de chaque côté pendant 2 minutes ou jusqu'à ce qu'elle soit dorée. Transférer dans un plat à rôtir avec les tranches de citron dessus et nichées dans la moitié du thym. Enfourner 10 mn.",
+            "Faites chauffer le reste de l'huile dans une poêle et faites revenir les poireaux et les champignons pendant 5 minutes à feu moyen-vif. Ajouter l'orzo et le bouillon et cuire 10 minutes à feu vif en remuant continuellement jusqu'à tendreté. Incorporer la crème fraîche et le zeste de citron. Saison. Servir l'orzo avec la morue dessus, ainsi que les tranches de citron rôties."
+        ],
+        "nutritional_info": {
+            "kcal": "571",
+            "fat": "15g",
+            "saturates": "6g",
+            "carbs": "66g",
+            "sugars": "0g",
+            "fibre": "6g",
+            "protein": "41g",
+            "salt": "0.42g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/11/Baked-cod-with-creamy-mushroom-leek-orzo-1861211.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/baked-cod-with-creamy-mushroom-leek-orzo.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/puris-with-potato-masala-alu-puri/",
+        "title": "Puris aux pommes de terre masala (alu puri)",
+        "description": "Essayez de préparer ce plat indien traditionnel, un déjeuner populaire lors des festivités de Holi au printemps.",
+        "prep_time": "10 mins Cook: 1 hrs plus proving time",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "500 g de pommes de terre Maris Piper ou King Edwards, coupées en quartiers",
+            "2 tomates blanchies, hachées grossièrement",
+            "2 oignons, coupés en dés",
+            "4 gousses d'ail",
+            "4 cuillères à soupe d'huile de tournesol, plus un peu pour rouler",
+            "1½ cuillère à café de graines de cumin",
+            "3 feuilles de laurier indien (tez patta) ou 4 cm de bâton de cannelle",
+            "½ cuillère à café de curcuma moulu",
+            "½ cuillère à café de poudre de piment du Cachemire",
+            "1 cuillère à café de coriandre moulue",
+            "2 cuillères à soupe de coriandre fraîche hachée",
+            "125g de farine de chapati (chapati atta) ou farine complète",
+            "125 g de farine nature",
+            "½ cuillère à café de sel fin",
+            "2 cuillères à soupe d'huile de tournesol, plus un peu pour la friture"
+        ],
+        "method": [
+            "Pour faire l'alu masala, mettez les pommes de terre dans une poêle avec les tomates hachées, l'oignon et l'ail. Versez suffisamment d'eau froide pour couvrir les pommes de terre sur 3 cm et faites bouillir jusqu'à ce que les pommes de terre soient tendres.",
+            "Retirez les pommes de terre et écrasez-les légèrement avec une fourchette – essayez de garder la texture rugueuse et épaisse. Filtrez le liquide de cuisson dans un pichet en réservant le liquide et le mélange d'oignons laissés dans la passoire.",
+            "Faites chauffer l'huile dans l'awkor karahi à feu moyen et faites revenir les graines de cumin et les feuilles de laurier indien ou la cannelle pendant quelques secondes, jusqu'à ce que le cumin libère son arôme.",
+            "Ajoutez le mélange d'oignons réservé et poursuivez la friture pendant 8 à 10 minutes jusqu'à ce que les oignons soient dorés. Baissez le feu, ajoutez le curcuma, la poudre de piment et la coriandre moulue et laissez cuire encore 1 minute en remuant tout le temps.",
+            "Ajoutez les pommes de terre ainsi que le liquide de cuisson réservé. Laisser mijoter 5 minutes, puis éteindre le feu et incorporer la coriandre hachée. Couvrez et laissez infuser les arômes pendant que vous préparez les puris.",
+            "Pour faire les puris, tamisez les farines et le sel dans un bol. Incorporez l'huile à la farine avec vos doigts, puis ajoutez suffisamment d'eau froide pour obtenir une pâte très ferme. Pétrissez pendant environ 5 minutes jusqu'à consistance lisse, puis formez une boule. Mettre dans un bol légèrement huilé, couvrir et réserver au moins 30 minutes.",
+            "Pétrissez à nouveau la pâte pendant 1 min, puis divisez-la également en 20 à 22 boules d'environ 2,5 cm de diamètre chacune. Aplatissez légèrement le dessus de chaque boule et roulez-la sur une surface huilée jusqu'à obtenir des disques de 11 cm de diamètre environ de l'épaisseur d'une pièce de 1 £. Vous pouvez retourner la pâte une ou deux fois pendant que vous la roulez.",
+            "Remplissez un karahi ou un wok d'huile jusqu'à ce qu'il ne soit pas rempli à plus des deux tiers et chauffez à 180 °C, ou jusqu'à ce qu'un cube de pain brunisse en 30 secondes. Abaissez doucement un puri dans l’huile. Il grésillera et remontera au sommet en quelques secondes. Appuyez légèrement dessus avec une tranche de poisson pour qu'il gonfle à la cuisson. Faites frire pendant 1 min, puis retournez-le et faites frire de l'autre côté pendant 1 min supplémentaire. Égoutter sur du papier absorbant et répéter avec les boules de pâte restantes.",
+            "Pour servir, réchauffez la pomme de terre masala et mangez-la avec les puris à côté."
+        ],
+        "nutritional_info": {
+            "kcal": "596",
+            "fat": "28g",
+            "saturates": "4g",
+            "carbs": "71g",
+            "sugars": "0g",
+            "fibre": "8g",
+            "protein": "10g",
+            "salt": "0.7g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/02/Puri-alu-f465de6.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/puris-with-potato-masala-alu-puri.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/sticky-hoisin-pork-fillet-with-sesame-greens-noodles/",
+        "title": "Filet de porc hoisin collant avec feuilles de sésame et nouilles",
+        "description": "Savourez un filet de porc hoisin collant avec des feuilles de sésame et des nouilles pour un souper facile les soirs de semaine chargés. Il est faible en calories et en matières grasses, mais plein de saveur",
+        "prep_time": "10 mins Cook: 35 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 cuillères à soupe de sauce hoisin, plus un peu pour servir",
+            "1 filet de porc (environ 400 g), gras et tendons parés",
+            "4 nids de nouilles aux œufs",
+            "3 cuillères à café d'huile de sésame",
+            "300 g de chou frisé, de verdure printanière ou de bette à carde, haché",
+            "100 g d'oignons nouveaux, émincés",
+            "200 g de haricots ou de petits pois edamame écossés surgelés, décongelés",
+            "1 cuillère à soupe de graines de sésame",
+            "2 cuillères à café de sauce soja faible en sel",
+            "1 cuillère à soupe de vinaigre de riz"
+        ],
+        "method": [
+            "Chauffer le four à 220°C/200°C chaleur tournante/gaz 7. Badigeonner le hoisin sur tout le porc et transférer sur une plaque à pâtisserie tapissée de papier d'aluminium. Rôtir, en arrosant toutes les 10 minutes, pendant 25 à 30 minutes jusqu'à ce qu'il soit bien cuit. Sortir du four et laisser reposer 5 min.",
+            "Pendant ce temps, faites cuire les nouilles aux œufs en suivant les instructions sur l'emballage, égouttez-les, puis mélangez-les avec 1 cuillère à café d'huile de sésame pour les empêcher de coller ensemble. Faites chauffer le reste de l'huile de sésame dans un wok ou une grande poêle et faites frire les légumes verts pendant 4 minutes, en ajoutant un peu d'eau pour aider à ramollir les tiges. Ajoutez la plupart des oignons nouveaux et tous les haricots edamame. Faites frire encore 2 minutes jusqu'à ce que les légumes verts soient tendres, puis incorporez les graines de sésame, la sauce soja et le vinaigre de riz. Mélangez le tout pour bien enrober.",
+            "Coupez le porc en tranches épaisses et servez-le avec les nouilles, les feuilles de sésame et le reste des oignons nouveaux saupoudrés sur le dessus. Servir avec plus de sauce hoisin, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "415",
+            "fat": "9g",
+            "saturates": "2g",
+            "carbs": "52g",
+            "sugars": "0g",
+            "fibre": "10g",
+            "protein": "35g",
+            "salt": "1.5g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/10/Sticky-Hoisin-Pork-187897e.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/sticky-hoisin-pork-fillet-with-sesame-greens-noodles.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/herby-pork-with-apple-and-chicory-salad/",
+        "title": "Porc aux herbes, salade de pommes et chicorée",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Une salade croustillante et saine servie avec un morceau de porc faible en gras en croûte d'herbes – un souper rapide qui fait du bien à la santé.",
+        "prep_time": "10 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "400 g de filet de porc, débarrassé de tout gras et tendon",
+            "1 cuillère à soupe d'huile de noix",
+            "2 cuillères à café de moutarde complète",
+            "1 cuillère à soupe d'estragon et de persil hachés chacun",
+            "jus d'1 citron",
+            "1 cuillère à soupe de miel",
+            "2 grosses pommes à manger, épépinées et tranchées",
+            "Paquet de 270 g de chicorée, feuilles séparées"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C chaleur tournante/gaz 6. Frotter le porc avec 1 cuillère à café d'huile, 1 cuillère à café de moutarde et un peu d'assaisonnement. Faire dorer, transférer sur une plaque à pâtisserie et presser la moitié des herbes. Rôtir pendant 15 minutes jusqu'à ce qu'il soit juste cuit.",
+            "Pour préparer la salade, mélangez le jus de citron, le miel, le reste de l'huile de noix et la moutarde. Assaisonner et mélanger les pommes, la chicorée et le reste des herbes. Servir le porc tranché, accompagné de la salade."
+        ],
+        "nutritional_info": {
+            "kcal": "215",
+            "fat": "8g",
+            "saturates": "2g",
+            "carbs": "15g",
+            "sugars": "14g",
+            "fibre": "2g",
+            "protein": "23g",
+            "salt": "0.3g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--901812_11.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/herby-pork-with-apple-and-chicory-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/somerset-stew-with-cheddar-parsley-mash/",
+        "title": "Ragoût Somerset avec purée de cheddar et persil",
+        "description": "Ce réchaud d'hiver familial est plein de saveur et de bonté. Adaptez-vous aux amateurs de viande en ajoutant des saucisses",
+        "prep_time": "15 mins Cook: 35 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à soupe d'huile",
+            "1 oignon, finement haché",
+            "1 gousse d'ail, hachée finement",
+            "1 grosse carotte, hachée finement",
+            "1 poireau, haché",
+            "1 cuillère à soupe de purée de tomates",
+            "Boîte de 400 g de tomates concassées",
+            "Boîte de 200 g de haricots beurre égouttés",
+            "Boîte de 400 g de flageolets rincés et égouttés",
+            "200 ml de cidre sec",
+            "250 ml de bouillon de légumes",
+            "quelques brins de thym, feuilles seulement",
+            "purée de cheddar et persil (voir astuce ci-dessous)",
+            "2 saucisses",
+            "1 cuillère à café d'huile d'olive par portion"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une grande poêle et faites revenir l'oignon,\r\nl'ail, la carotte et le poireau jusqu'à ce qu'ils soient tendres mais pas\r\ncoloré. Ajouter le concentré de tomates hachées\r\ntomates, haricots beurre, flageolets,\r\ncidre, bouillon et thym et laisser mijoter pendant\r\n15-20 minutes jusqu'à ce que le ragoût épaississe\r\net les légumes sont tendres.",
+            "Pendant ce temps, si vous ajoutez des saucisses\r\nà n'importe quelle portion, coupez chaque saucisse en\r\n3-4 morceaux. Faites chauffer l'huile d'olive dans une poêle\r\npoêler et faire dorer les morceaux pendant 5 minutes,\r\npuis incorporez les portions appropriées du\r\nragoût et laisser mijoter doucement pour le reste\r\ntemps de cuisson. Servir avec la purée."
+        ],
+        "nutritional_info": {
+            "kcal": "169",
+            "fat": "4g",
+            "saturates": "0g",
+            "carbs": "24g",
+            "sugars": "10g",
+            "fibre": "7g",
+            "protein": "9g",
+            "salt": "0.99g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--513713_11.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/somerset-stew-with-cheddar-parsley-mash.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/light-chicken-korma/",
+        "title": "Korma au poulet",
+        "description": "Envie d'un curry sans trop de calories ? Utilisez du yaourt grec sans gras au lieu de la crème pour un korma sain qui donnera du fil à retordre à vos plats à emporter locaux.",
+        "prep_time": "10 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 oignon, haché",
+            "2 gousses d'ail, hachées grossièrement",
+            "morceau de gingembre de la taille d'un pouce, haché grossièrement",
+            "4 cuillères à soupe de pâte de korma",
+            "4 poitrines de poulet sans peau et désossées, coupées en bouchées",
+            "50 g d'amandes moulues, plus un peu pour servir (facultatif)",
+            "4 cuillères à soupe de raisins secs",
+            "400 ml de bouillon de poulet",
+            "¼ cuillère à café de sucre en poudre doré",
+            "Pot de 150 g de yaourt grec 0 % de matière grasse",
+            "petit bouquet de coriandre hachée"
+        ],
+        "method": [
+            "Mettez l'oignon, l'ail et le gingembre dans un\r\nrobot culinaire et réduire en pâte.\r\nVersez la pâte dans un grand moule à bords hauts\r\npoêle avec 3 cuillères à soupe d'eau et laissez cuire pendant\r\n5 minutes. Ajouter la pâte de korma et cuire\r\npendant encore 2 minutes jusqu'à ce qu'il soit aromatique.",
+            "Incorporer le poulet à la sauce, puis\r\najouter la poudre d'amandes, les raisins secs, le bouillon\r\net du sucre. Donnez à tout un bon mélange,\r\npuis couvrir et laisser mijoter 10 minutes ou\r\njusqu'à ce que le poulet soit bien cuit.",
+            "Retirez la casserole du feu, remuez\r\ndans le yaourt et un peu d'assaisonnement, puis\r\nparsemer de coriandre et de flocons\r\namandes, si vous en utilisez. Servir avec du brun\r\nou du riz basmati blanc."
+        ],
+        "nutritional_info": {
+            "kcal": "376",
+            "fat": "11g",
+            "saturates": "1g",
+            "carbs": "28g",
+            "sugars": "26g",
+            "fibre": "3g",
+            "protein": "40g",
+            "salt": "1.1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1081535_11.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/light-chicken-korma.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/tandoori-tilapia-with-spicy-sweet-potato-mash-and/",
+        "title": "Tilapia tandoori avec purée de patates douces épicée et salade de tomates",
+        "description": "Ce souper de poisson grillé d'influence indienne contient tous vos cinq repas par jour dans un plat léger et légèrement épicé.",
+        "prep_time": "10 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 filets de tilapia de 140 g",
+            "1 cuillère à soupe de pâte tandoori",
+            "1 kg de patates douces, coupées en petits morceaux",
+            "4 carottes, hachées",
+            "2 gousses d'ail, tranchées",
+            "1 piment rouge épépiné et haché",
+            "8 tomates hachées",
+            "petit oignon rouge, tranché finement",
+            "petit bouquet de coriandre, hachée grossièrement"
+        ],
+        "method": [
+            "Enduisez les filets de tilapia de pâte tandoori et réservez. Mettez les patates douces, les carottes et l'ail dans une grande casserole d'eau salée. Porter à ébullition et cuire 10 minutes ou jusqu'à tendreté. Bien égoutter, puis laisser sécher à la vapeur quelques minutes. Ajoutez le piment dans la poêle et écrasez le tout avec un peu d'assaisonnement. Couvrir et réserver au chaud.",
+            "Chauffer le gril à feu vif. Griller le tilapia pendant 8 à 10 minutes ou jusqu'à ce qu'il soit bien cuit. Pendant ce temps, mélangez les ingrédients de la salade et servez-la avec le tilapia et la purée."
+        ],
+        "nutritional_info": {
+            "kcal": "391",
+            "fat": "4g",
+            "saturates": "1g",
+            "carbs": "64g",
+            "sugars": "24g",
+            "fibre": "9g",
+            "protein": "30g",
+            "salt": "0.73g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1259452_9.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/tandoori-tilapia-with-spicy-sweet-potato-mash-and.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/cooking-with-kids-fajitas/",
+        "title": "Cuisiner avec les enfants : Fajitas",
+        "description": "Wraps mexicains pour mettre toute la famille à la cuisine – remplissez les tortillas de farine de poulet mariné et de poivrons",
+        "prep_time": "25 mins Cook: 10 mins Plus marinating",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "4 poitrines de poulet, coupées en morceaux",
+            "huile d'olive, pour la friture",
+            "4 citrons verts, jus seulement",
+            "2 cuillères à café d'assaisonnement pour fajita",
+            "4 oignons nouveaux, tranchés finement",
+            "1 grosse gousse d'ail, écrasée",
+            "1 poivron rouge",
+            "½ pot de poivron rôti (nous avons utilisé des poivrons rouges Gaea rôtis à la flamme 290 g)",
+            "1 petite pomme pelée",
+            "4 tomates mûres",
+            "½ citron vert, jus seulement",
+            "petit bouquet de coriandre, feuilles cueillies",
+            "sauce chili, au goût (facultatif)",
+            "2 avocats bien mûrs, coupés en deux et dénoyautés",
+            "½ citron vert, jus seulement",
+            "fromage râpé, pour servir",
+            "6 à 8 tortillas (vous pouvez désormais vous procurer des mini tortillas pour les enfants)",
+            "crème sure (facultatif)"
+        ],
+        "method": [
+            "Adultes :Mettez le poulet et les ingrédients de la marinade dans un bol et couvrez. Mettre au réfrigérateur pendant au moins deux heures.",
+            "Enfants : Si vos enfants ont 5 ans ou plus, vous pouvez leur faire hacher grossièrement le poivron, le poivron rôti, la pomme et les tomates pour la salsa à l'aide d'un couteau en plastique ferme de bonne qualité ou d'un couteau à couverts. Sinon, faites-le vous-même.  Les plus jeunes peuvent cueillir les feuilles de coriandre et les mélanger à la salsa.",
+            "Adultes : Versez les ingrédients de la salsa dans un robot culinaire, avec le jus de citron vert et un peu d'assaisonnement et mélangez jusqu'à ce qu'ils soient finement hachés. Sortez 2 grandes cuillères du mélange pour les jeunes enfants, puis ajoutez la sauce chili, le cas échéant, et mélangez à nouveau.",
+            "Enfants : Pressez ou versez l'avocat dans un bol et utilisez un presse-purée pour l'écraser. Incorporez le jus de citron vert et un peu de poivre noir avec une cuillère. Le jus de citron vert peut piquer, c'est pourquoi les adultes voudront peut-être le presser pour les jeunes enfants.",
+            "Adultes : Faites chauffer un peu d'huile d'olive dans une poêle et versez le contenu du bol de poulet dans la poêle. Cuire pendant 5 à 8 minutes ou jusqu'à ce que les morceaux de poulet soient bien cuits.",
+            "Enfants : Mettez le fromage râpé, la salsa (pour adultes et enfants), le guacamole et la crème sure dans des bols colorés séparés à poser sur la table.",
+            "Adultes : Chauffez les tortillas selon les instructions sur l'emballage et mettez le poulet cuit dans un bol. Montrez aux enfants comment remplir et rouler leur tortilla.",
+            "Enfants : Disposez votre tortilla, choisissez vos garnitures, roulez-les et dégustez !"
+        ],
+        "nutritional_info": {
+            "kcal": "421",
+            "fat": "10.8g",
+            "saturates": "2.2g",
+            "carbs": "49.1g",
+            "sugars": "7.8g",
+            "fibre": "4.6g",
+            "protein": "31.7g",
+            "salt": "0.7g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1062459_10.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/cooking-with-kids-fajitas.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/moroccan-chicken-one-pot/",
+        "title": "One-pot de poulet marocain",
+        "description": "Vous n'avez pas besoin d'un pot en argile pour préparer un tajine parfumé d'Afrique du Nord : jetez le tout dans une cocotte et garnissez de feta, de menthe et de citron.",
+        "prep_time": "20 mins Cook: 50 mins",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "4 poitrines de poulet désossées et sans peau",
+            "3 cuillères à soupe d'huile d'olive",
+            "2 oignons, 1 haché grossièrement, 1 tranché",
+            "100g de tomates",
+            "100 g de gingembre haché grossièrement",
+            "3 gousses d'ail",
+            "1 cuillère à café de curcuma",
+            "1 cuillère à soupe de cumin moulu, de coriandre et de cannelle",
+            "1 grosse courge musquée épépinée et coupée en gros morceaux",
+            "600 ml de bouillon de poulet",
+            "2 cuillères à soupe de cassonade",
+            "2 cuillères à soupe de vinaigre de vin rouge",
+            "100 g de cerises séchées",
+            "1 petit oignon rouge, finement haché",
+            "le zeste d'1 citron",
+            "une poignée de feuilles de menthe",
+            "100 g de fromage feta émietté",
+            "couscous et yaourt nature"
+        ],
+        "method": [
+            "Assaisonnez le poulet. Faites chauffer 2 cuillères à soupe de\r\nl'huile dans un plat résistant aux flammes, puis faire dorer le\r\npoulet de tous les côtés. Retirer le poulet\r\ndans une assiette. Mixez l'oignon haché,\r\ntomates, gingembre et ail dans un brouillon\r\ncoller. Faire revenir l'oignon émincé dans le\r\nle reste de l'huile dans le plat jusqu'à ce qu'elle soit ramollie,\r\npuis ajoutez les épices et faites revenir 1 min\r\nplus jusqu'à ce qu'il soit parfumé. Ajoutez la pâte et\r\nfaire frire encore quelques minutes pour ramollir.",
+            "Remettez le poulet dans le plat avec le\r\ncourge, bouillon, sucre et vinaigre. Apportez\r\nlaisser mijoter, puis cuire 30 minutes jusqu'à ce que\r\nle poulet est bien cuit. Soulevez le\r\nsortir le poulet et incorporer les cerises,\r\npuis continuez à mijoter la sauce\r\npour épaissir pendant que vous déchiquetez le poulet\r\nen petits morceaux. Remuer le poulet\r\nremettre dans la sauce et assaisonner.",
+            "Mélangez l'oignon rouge, le zeste de citron, la menthe et\r\nfeta. Répartir sur le plat, puis servir\r\navec du couscous et du yaourt."
+        ],
+        "nutritional_info": {
+            "kcal": "324",
+            "fat": "7g",
+            "saturates": "1g",
+            "carbs": "39g",
+            "sugars": "24g",
+            "fibre": "6g",
+            "protein": "27g",
+            "salt": "0.4g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1096452_11.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/moroccan-chicken-one-pot.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spiced-bulghar-pilaf-with-fish/",
+        "title": "Pilaf de boulgour épicé au poisson",
+        "description": "Utilisez du poisson blanc durable dans ce pot de riz d'inspiration nord-africaine avec de la harissa et de l'abricot – plein de fer, de fibres et 2 de vos 5 par jour",
+        "prep_time": "10 mins Cook: 35 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à soupe d'huile d'olive",
+            "2 oignons, finement tranchés",
+            "3 carottes, râpées",
+            "2 cuillères à café de graines de cumin",
+            "2 cuillères à soupe de harissa",
+            "200 g de blé boulgar",
+            "6 abricots secs, hachés",
+            "700 ml de bouillon de poulet faible (nous avons fait avec 1 cube de bouillon)",
+            "200 g de bébés épinards",
+            "4 filets de poisson blanc ferme",
+            "4 fines tranches de citron"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans un récipient antidéflagrant à couvercle\r\ncocotte. Versez les oignons et faites cuire\r\npendant 10 minutes jusqu'à ce qu'ils soient tendres et dorés. Ajoutez le\r\ncarottes et cumin, et cuire 2 min\r\nplus. Incorporer la harissa, le bulghar et\r\nabricots, verser sur le bouillon et porter à\r\nl'ébullition. Couvrir et laisser mijoter 7 min.",
+            "Ajouter les épinards et remuer jusqu'à ce que\r\njuste fané. Disposez dessus les filets de poisson,\r\nmettez une tranche de citron sur chacun et assaisonnez.\r\nRemettez le couvercle et laissez cuire 8 minutes,\r\nen gardant à feu doux.",
+            "Baissez le feu et laissez cuire 7 à 8 minutes\r\nplus jusqu'à ce que le poisson soit bien cuit\r\net le boulghar est tendre. Assaisonner avec\r\npoivrer et servir."
+        ],
+        "nutritional_info": {
+            "kcal": "416",
+            "fat": "6g",
+            "saturates": "1g",
+            "carbs": "52g",
+            "sugars": "15g",
+            "fibre": "7g",
+            "protein": "37g",
+            "salt": "1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1125472_10.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/spiced-bulghar-pilaf-with-fish.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/steamed-fish-with-ginger-spring-onion/",
+        "title": "Poisson cuit à la vapeur au gingembre et à l'oignon nouveau",
+        "description": "Adoptez une approche asiatique de la cuisine faible en gras : faites cuire du poisson à la vapeur avec du pak choi, du mirin, de l'ail et du soja et servez-le garni de coriandre.",
+        "prep_time": "10 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "100 g de pak-choï",
+            "4 x 150g de filets de poisson blanc ferme",
+            "Morceau de 5 cm de gingembre finement râpé",
+            "2 gousses d'ail, finement tranchées",
+            "2 cuillères à soupe de sauce soja faible en sel",
+            "1 cuillère à café de vin de riz mirin",
+            "1 botte d'oignons nouveaux, finement émincés",
+            "une poignée de coriandre hachée",
+            "riz brun, pour servir",
+            "1 citron vert, coupé en quartiers, pour servir"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C ventilateur/gaz 6.\r\nDécoupez un grand rectangle de papier d'aluminium, suffisamment grand\r\nfaire une grande enveloppe. Placez le paquet\r\nchoi sur le papier d'aluminium, suivi du poisson, puis\r\nle gingembre et l'ail. Verser sur le soja\r\nsauce et vin de riz, puis assaisonner.",
+            "Repliez le papier d'aluminium et scellez les 3 bords, puis\r\nmettre sur une plaque à pâtisserie. Cuire 20 minutes,\r\nouvrez le colis et répartissez-le sur le\r\noignons nouveaux et coriandre. Servir avec\r\nriz brun et jus de citron vert pressé."
+        ],
+        "nutritional_info": {
+            "kcal": "145",
+            "fat": "1g",
+            "saturates": "0g",
+            "carbs": "4g",
+            "sugars": "3g",
+            "fibre": "1g",
+            "protein": "29g",
+            "salt": "1.1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1167501_11.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/steamed-fish-with-ginger-spring-onion.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/warm-roasted-squash-and-puy-lentil-salad/",
+        "title": "Salade tiède de courges rôties et lentilles du Puy",
+        "description": "Cette salade fraîche et vibrante utilise des lentilles en conserve, un incontournable des armoires de magasin. Le résultat est copieux, faible en gras et contient tous vos cinq par jour",
+        "prep_time": "10 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 kg de courge butternut coupée en gros dés",
+            "1½ cuillère à soupe d'huile d'olive",
+            "1 gousse d'ail, écrasée",
+            "2 cuillères à café de feuilles de thym",
+            "1 cuillère à soupe de vinaigre balsamique",
+            "1 cuillère à café de moutarde complète",
+            "2 boîtes de 400 g de lentilles du Puy à l'eau",
+            "½ oignon rouge tranché",
+            "100 g d'épinards",
+            "150 g de tomates cerises coupées en deux",
+            "40 g de fromage Cheshire",
+            "1-2 cuillères à soupe de graines de citrouille grillées"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C chaleur tournante/gaz 4. Mélanger la courge musquée avec 1 cuillère à soupe d'huile d'olive, la gousse d'ail, les feuilles de thym et l'assaisonnement. Rôtir pendant 25 à 30 minutes ou jusqu'à tendreté.",
+            "Mélangez le vinaigre balsamique, ½ cuillère à soupe d'huile d'olive, la moutarde complète et 1 à 2 cuillères à soupe d'eau. Égouttez les lentilles du Puy dans l'eau et mélangez-les avec la vinaigrette, l'oignon rouge, les épinards et les tomates cerises.",
+            "Répartissez les lentilles dans quatre assiettes. Garnir de courge, puis émietter sur le fromage Cheshire et les graines de citrouille."
+        ],
+        "nutritional_info": {
+            "kcal": "304",
+            "fat": "10g",
+            "saturates": "3g",
+            "carbs": "41g",
+            "sugars": "15g",
+            "fibre": "13g",
+            "protein": "15g",
+            "salt": "0.35g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--814465_11.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/warm-roasted-squash-and-puy-lentil-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/bean-and-pepper-chilli/",
+        "title": "Piment aux haricots et au poivre",
+        "description": "Utilisez les légumineuses de votre choix dans ce plat végétarien sain",
+        "prep_time": "15 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à soupe d'huile d'olive",
+            "1 oignon, haché",
+            "350 g de poivrons épépinés et tranchés",
+            "1 cuillère à soupe de cumin moulu",
+            "1 cuillère à soupe de poudre de piment",
+            "1 cuillère à soupe de paprika doux fumé",
+            "Boîte de 400 g de haricots rouges à la sauce chili",
+            "Boîte de 400 g de haricots mélangés, égouttés",
+            "Boîte de 400 g de tomates concassées",
+            "riz, pour servir (facultatif)"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une grande poêle. Ajoutez le\r\noignon et poivrons, et cuire 8 min\r\njusqu'à ce qu'ils soient ramollis. Ajoutez les épices et\r\ncuire 1 min.",
+            "Versez les haricots et les tomates, apportez\r\nporter à ébullition et laisser mijoter 15 minutes ou\r\njusqu'à ce que le piment épaississe. Assaisonner et\r\nservir avec du riz, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "246",
+            "fat": "5g",
+            "saturates": "1g",
+            "carbs": "29g",
+            "sugars": "14g",
+            "fibre": "15g",
+            "protein": "13g",
+            "salt": "0.7g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1071519_10.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/bean-and-pepper-chilli.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/creamy-chicken-with-asparagus-and-tarragon/",
+        "title": "Poulet crémeux aux asperges et à l'estragon",
+        "description": "Une cocotte de poulet légère et faible en calories avec une sauce soyeuse aux herbes, des légumes verts et des pommes de terre nouvelles.",
+        "prep_time": "10 mins Cook: 18 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "500 g de pommes de terre nouvelles grelots, coupées en deux",
+            "4 poitrines de poulet sans peau",
+            "1 cuillère à soupe d'huile de tournesol",
+            "1 gros oignon, haché",
+            "2 gousses d'ail, écrasées",
+            "350 ml de bouillon de poulet",
+            "petit bouquet d'estragon",
+            "175 g d'asperges parées",
+            "3 cuillères à soupe de crème fraîche allégée"
+        ],
+        "method": [
+            "Cuire les pommes de terre dans une grande poêle\r\nfaire bouillir de l'eau pendant 8 à 10 minutes jusqu'à ce qu'elle soit tendre,\r\npuis égouttez-les et réservez-les au chaud dans la poêle.\r\nAssaisonner le poulet avec du noir moulu\r\npoivre. Faites chauffer l'huile dans un grand poêle antiadhésive\r\npoêle à frire. Faire revenir doucement le poulet avec\r\nl'oignon et l'ail pendant 5 minutes jusqu'à ce que les deux\r\nsont légèrement dorés. Retournez le\r\npoulet une fois et remuez l'oignon régulièrement.",
+            "Versez sur le bouillon, ajoutez 2 brins de\r\nl'estragon et porter à légère ébullition.\r\nCuire 5 min, puis retourner le poulet,\r\najouter les asperges et cuire 3 min\r\nplus. Hachez le reste de l'estragon.",
+            "Incorporer la crème fraîche et l'estragon\r\ndans la poêle avec le poulet et faire chauffer\r\nà travers, en remuant, pendant quelques secondes. Servir\r\navec les pommes de terre nouvelles."
+        ],
+        "nutritional_info": {
+            "kcal": "318",
+            "fat": "7g",
+            "saturates": "3g",
+            "carbs": "25g",
+            "sugars": "6g",
+            "fibre": "4g",
+            "protein": "38g",
+            "salt": "0.5g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--984590_11.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/creamy-chicken-with-asparagus-and-tarragon.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/onepot-moroccan-chicken/",
+        "title": "Poulet marocain en une seule casserole",
+        "description": "Une cocotte de poulet nord-africaine faible en gras, remplie de légumes et parfumée à l'harissa",
+        "prep_time": "5 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 poitrines de poulet sans peau",
+            "1 cuillère à café de cumin moulu",
+            "1 cuillère à soupe d'huile d'olive",
+            "1 oignon, finement tranché",
+            "Boîte de 400 g de tomates cerises",
+            "2 cuillères à soupe de pâte d'harissa (nous avons utilisé Belazu Rose Harissa)",
+            "1 cuillère à soupe de miel clair",
+            "2 courgettes moyennes, tranchées épaisses",
+            "400 g de pois chiches en boîte, égouttés et rincés"
+        ],
+        "method": [
+            "Assaisonner les poitrines de poulet partout\r\navec du cumin et beaucoup de noir moulu\r\npoivre. Faites chauffer l'huile dans un grand poêle antiadhésive\r\npoêle et faites cuire le poulet avec\r\nl'oignon pendant 4 minutes. Retourner le poulet\r\net laissez cuire encore 3 minutes.\r\nRemuez les oignons autour du poulet\r\nrégulièrement pendant qu'ils cuisinent.",
+            "Versez les tomates et 250 ml d'eau\r\ndans la poêle et incorporer la harissa,\r\nmiel, courgettes et pois chiches.\r\nPortez à légère ébullition et faites cuire\r\npendant 15 minutes jusqu'à ce que le poulet soit tendre\r\net la sauce a légèrement épaissi."
+        ],
+        "nutritional_info": {
+            "kcal": "293",
+            "fat": "6g",
+            "saturates": "1g",
+            "carbs": "22g",
+            "sugars": "10g",
+            "fibre": "4g",
+            "protein": "36g",
+            "salt": "0.9g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--926492_10.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/onepot-moroccan-chicken.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/17461-pasta-with-chilli-tomatoes-spinach/",
+        "title": "Pâtes aux tomates chili et épinards",
+        "description": "Un souper faible en gras composé d'une savoureuse sauce tomate et de penne – faites tomber un sac entier d'épinards pour plus de nutriments",
+        "prep_time": "10 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "2 cuillères à café d'huile d'olive",
+            "1 oignon, finement haché",
+            "2 gousses d'ail, écrasées",
+            "½ cuillère à café de flocons de piment séchés",
+            "200 g de penne complètes",
+            "Boîte de 400 g de tomates concassées",
+            "100 ml de vin rouge",
+            "½ cuillère à café d'origan séché",
+            "Sachet de 125 g de jeunes feuilles d'épinards",
+            "25 g de parmesan ou alternative végétarienne, râpé"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une poêle antiadhésive\r\net faire revenir doucement l'oignon, l'ail et le piment\r\nflocons, en remuant régulièrement, pendant 5 minutes (ajouter\r\nun peu d'eau s'ils commencent à coller).",
+            "Cuire les pâtes en suivant les instructions sur l'emballage.\r\nAjouter les tomates, le vin et l'origan\r\ndans la poêle et remuer pour combiner.\r\nPortez à légère ébullition et faites cuire,\r\nen remuant de temps en temps, pendant 10 minutes.",
+            "Secouez les épinards dans la poêle\r\net cuire 1 à 2 minutes jusqu'à ce que\r\nfané. Égouttez les pâtes et versez-les\r\ndans la poêle avec la sauce.\r\nMélanger, saupoudrer\r\navec du fromage et servir."
+        ],
+        "nutritional_info": {
+            "kcal": "524",
+            "fat": "11g",
+            "saturates": "3g",
+            "carbs": "75g",
+            "sugars": "13g",
+            "fibre": "13g",
+            "protein": "24g",
+            "salt": "0.7g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--930462_11.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/17461-pasta-with-chilli-tomatoes-spinach.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/winter-vegetable-pie/",
+        "title": "Tarte aux légumes d'hiver",
+        "description": "Une portion de ce délicieux pâté chinois végétarien contient les 5 apports recommandés pour 5 jours.",
+        "prep_time": "15 mins Cook: 45 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 cuillères à soupe d'huile d'olive",
+            "2 oignons, tranchés",
+            "1 cuillère à soupe de farine",
+            "300 g (environ 2 grosses) carottes, coupées en petits bâtonnets",
+            "½ chou-fleur, cassé en petits bouquets",
+            "4 gousses d'ail, finement tranchées",
+            "1 brin de romarin, feuilles finement hachées",
+            "Boîte de 400 g de tomates concassées",
+            "200 g de petits pois surgelés",
+            "900 g de pommes de terre coupées en morceaux",
+            "jusqu'à 200 ml de lait"
+        ],
+        "method": [
+            "Faites chauffer 1 cuillère à soupe d'huile dans un\r\nplat antidéflagrant sur feu moyen\r\nchaleur. Ajouter les oignons et cuire pendant\r\n10 minutes jusqu'à ce qu'ils soient ramollis, puis incorporer\r\nla farine et laissez cuire encore\r\n2 minutes. Ajoutez les carottes, le chou-fleur,\r\nl'ail et le romarin, et laissez cuire 5 minutes en remuant régulièrement jusqu'à ce qu'ils soient\r\ncommencer à ramollir.",
+            "Versez les tomates dans le\r\nlégumes accompagnés d'une boîte pleine\r\nd'eau. Couvrir avec un couvercle et\r\nlaisser mijoter 10 minutes, puis retirer\r\nle couvercle et laissez cuire 10-15 minutes\r\nplus, jusqu'à ce que la sauce ait épaissi\r\net les légumes sont cuits.\r\nAssaisonner, incorporer les petits pois et cuire\r\npendant 1 minute de plus.",
+            "Pendant ce temps, faites bouillir les pommes de terre\r\npendant 10-15 minutes jusqu'à tendreté. Égoutter,\r\npuis remettre dans la casserole\r\net écraser. Incorporer suffisamment de lait\r\npour atteindre une consistance assez molle,\r\npuis ajoutez le reste de l'huile d'olive\r\net la saison.",
+            "Faites chauffer le gril. Verser le chaud\r\nmélange de légumes dans un plat à tarte, dessus\r\navec la purée et faites glisser une fourchette\r\nlégèrement sur la surface. Lieu\r\nsous le grill quelques minutes jusqu'à ce que\r\nle dessus est brun doré et croustillant."
+        ],
+        "nutritional_info": {
+            "kcal": "388",
+            "fat": "8g",
+            "saturates": "2g",
+            "carbs": "62g",
+            "sugars": "18g",
+            "fibre": "11g",
+            "protein": "15g",
+            "salt": "0.3g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1081531_11.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/winter-vegetable-pie.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/sag-aloo/",
+        "title": "Dis bonjour",
+        "description": "Les épinards nutritifs constituent la base de ce plat d'accompagnement indien traditionnel et sain, combinés avec des pommes de terre et des épices.",
+        "prep_time": "10 mins Cook: 15 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "2 cuillères à soupe d'huile de tournesol",
+            "1 oignon, finement haché",
+            "2 gousses d'ail, tranchées",
+            "1 cuillère à soupe de gingembre haché",
+            "500 g de pommes de terre coupées en morceaux de 2 cm",
+            "1 gros piment rouge, coupé en deux, épépiné et finement tranché",
+            "½ cuillère à café de chaque graines de moutarde noire, graines de cumin, curcuma",
+            "250 g de feuilles d'épinards"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une grande poêle, ajoutez l'oignon, l'ail et le gingembre et faites revenir environ 3 minutes. Incorporez les pommes de terre, le piment, les épices et une demi-cuillère à café de sel et poursuivez la cuisson en remuant encore 5 minutes. Ajoutez un peu d'eau, couvrez et laissez cuire 8 à 10 minutes.",
+            "Vérifiez que les pommes de terre sont prêtes en les piquant avec la pointe d'un couteau, et si c'est le cas, ajoutez les épinards et laissez-les flétrir dans la poêle. Retirez du feu et servez."
+        ],
+        "nutritional_info": {
+            "kcal": "201",
+            "fat": "7g",
+            "saturates": "1g",
+            "carbs": "27g",
+            "sugars": "6g",
+            "fibre": "5g",
+            "protein": "7g",
+            "salt": "1.1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/user-collections/my-colelction-image/2015/12/recipe-image-legacy-id--931476_11.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/healthier-risotto-primavera/",
+        "title": "Risotto primavera plus sain",
+        "description": "Angela Nilsen opère sa magie sur ce plat de riz italien préféré, le rendant faible en gras et nourrissant",
+        "prep_time": "40 mins Cook: 35 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "350 g de botte d'asperges",
+            "2 cuillères à soupe d'huile d'olive",
+            "1 botte (environ 9) d'oignons nouveaux, extrémités parées et tranchées",
+            "175 g de petits pois frais ou surgelés",
+            "250 g de fèves décortiquées, fraîches ou surgelées",
+            "2 cuillères à soupe de basilic râpé",
+            "2 cuillères à soupe de ciboulette ciselée",
+            "1 cuillère à soupe de menthe finement hachée",
+            "le zeste finement râpé d'1 citron",
+            "1,7 litre de bouillon de légumes (nous avons utilisé du souci)",
+            "4 échalotes, hachées finement",
+            "3 gousses d'ail dodues, hachées finement",
+            "300 g de riz carnaroli ou arborio",
+            "150 ml de vin blanc sec",
+            "25 g de parmesan (ou alternative végétarienne), râpé",
+            "25 g de feuilles de roquette"
+        ],
+        "method": [
+            "Coupez les extrémités ligneuses des asperges,\r\npuis coupez les tiges en diagonale de 5 cm\r\nlongueurs. Faites chauffer la moitié de l'huile dans un grand\r\npoêle antiadhésive. Astuce dans les asperges\r\net faire sauter à feu moyen-vif pendant\r\nenviron 4 minutes ou jusqu'à ce que le tout soit bien doré\r\nterminé (étape 1). Incorporer les oignons nouveaux et faire revenir\r\npendant 1 à 2 minutes avec les asperges jusqu'à ce que\r\ndoré. Retirer, assaisonner de poivre\r\net mettre de côté. Cuire les petits pois et les haricots\r\nséparément dans un peu d'eau bouillante pendant\r\n3 minutes chacun, puis égouttez-les\r\nun tamis. Quand les fèves sont froides\r\nassez à manipuler, sortez-les de leur\r\npeaux. Réglez les pois et les haricots sur un\r\ncôté. Mélangez le basilic, la ciboulette, la menthe et\r\nle zeste de citron ensemble dans un petit bol\r\net assaisonner de poivre (étape 2). Annuler.",
+            "Versez le bouillon dans une casserole et\r\ngardez-le à feu très doux. Versez le\r\nle reste de l'huile dans un grand et large sauté\r\ncasserole. Ajoutez les échalotes et l'ail, et\r\nfaire frire pendant 3-4 minutes jusqu'à ce qu'ils soient tendres et seulement\r\nlégèrement brune. Incorporer le riz et\r\ncontinuez à remuer pendant 1 à 2 minutes sur une\r\nfeu moyen-vif. Dès qu'il commence à grésiller, versez le vin et remuez à nouveau jusqu'à ce que\r\nle vin a été absorbé. Commencez à\r\nincorporer le bouillon chaud, 1½ louche à la fois\r\ntemps (étape 3), pour qu'il mijote et soit absorbé\r\naprès chaque ajout. Pour dire quand c'est\r\nprêt à recevoir la prochaine 1½ louche\r\najouté, faites glisser la cuillère sur le\r\nfond de la casserole et il devrait partir\r\nune ligne claire. Continuez à remuer le tout\r\ntemps, pour garder le risotto crémeux.\r\nContinuez à ajouter le stock comme ci-dessus –\r\naprès 20 minutes, le riz doit être tendre avec\r\nun peu de mastication au milieu. Si ce n'est pas le cas,\r\najoutez plus de stock – vous devriez toujours avoir\r\nil reste au moins une louche de bouillon à ce moment-là\r\npoint. Assaisonner avec du poivre, il ne faut pas\r\nbesoin d'ajouter du sel.",
+            "Retirez la casserole du feu. Verser dessus\r\nune louche du stock restant à conserver\r\nle liquide du mélange, puis répartir sur tout le\r\nlégumes, un moulin à poivre, la moitié\r\ndu mélange d'herbes (étape 4) et la moitié du fromage.\r\nCouvrir avec le couvercle de la casserole et laisser le risotto\r\nasseyez-vous pendant 3-4 minutes pour vous reposer. Remuer doucement\r\nle tout ensemble, si nécessaire en ajoutant\r\nune baisse du stock restant pour de bon\r\ncohérence. Verser dans les plats de service\r\net servir garni d'un petit tas de\r\nroquette et le reste des herbes et\r\nfromage éparpillé dessus."
+        ],
+        "nutritional_info": {
+            "kcal": "475",
+            "fat": "10.4g",
+            "saturates": "2.8g",
+            "carbs": "70.5g",
+            "sugars": "5.2g",
+            "fibre": "9.8g",
+            "protein": "18.6g",
+            "salt": "0.3g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--967487_11.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/healthier-risotto-primavera.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/quinoa-stew-with-squash-prunes-and-pomegranate/",
+        "title": "Ragoût de quinoa à la courge, aux pruneaux et à la grenade",
+        "description": "Obtenez une dose de fer et de protéines grâce à cette cocotte de courge saine, pleine de texture et de saveur.",
+        "prep_time": "15 mins Cook: 40 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 petite courge musquée, épépinée et coupée en cubes",
+            "2 cuillères à soupe d'huile d'olive",
+            "1 gros oignon, tranché finement",
+            "1 gousse d'ail, hachée",
+            "1 cuillère à soupe de gingembre finement haché",
+            "1 cuillère à café de ras-el-hanout ou de mélange d'épices du Moyen-Orient",
+            "200 g de quinoa",
+            "5 pruneaux hachés grossièrement",
+            "jus d'1 citron",
+            "600 ml de bouillon de légumes",
+            "graines d'1 grenade",
+            "une petite poignée de feuilles de menthe"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C ventilateur/gaz 6.\r\nMettez la courge sur une plaque à pâtisserie et\r\nmélanger avec 1 cuillère à soupe d'huile. Bien assaisonner\r\net rôtir pendant 30 à 35 minutes ou jusqu'à ce qu'ils soient tendres.",
+            "Pendant ce temps, faites chauffer le reste de l'huile dans\r\nune grande casserole. Ajouter l'oignon, l'ail\r\net le gingembre, assaisonner et cuire 10 min.\r\nAjouter les épices et le quinoa et cuire pendant\r\nencore quelques minutes. Ajoutez les pruneaux,\r\nle jus de citron et le bouillon, porter à ébullition,\r\npuis couvrez et laissez mijoter 25 minutes.",
+            "Quand tout est tendre, remuez le\r\nécraser le ragoût. Verser dans\r\nbols et parsemer de grenade\r\ngraines et menthe pour servir."
+        ],
+        "nutritional_info": {
+            "kcal": "318",
+            "fat": "9g",
+            "saturates": "1g",
+            "carbs": "50g",
+            "sugars": "20g",
+            "fibre": "6g",
+            "protein": "11g",
+            "salt": "0.5g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201663_11.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/quinoa-stew-with-squash-prunes-and-pomegranate.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/mushroom-stroganoff/",
+        "title": "Champignon Stroganoff",
+        "description": "Quelques substitutions astucieuses peuvent rendre cette cocotte crémeuse traditionnelle faible en gras et en calories.",
+        "prep_time": "10 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "2 cuillères à café d'huile d'olive",
+            "1 oignon, finement haché",
+            "1 cuillère à soupe de paprika",
+            "2 gousses d'ail, écrasées",
+            "300 g de champignons mélangés, hachés",
+            "150 ml de bouillon de bœuf ou de légumes faible en sodium",
+            "1 cuillère à soupe de sauce Worcestershire ou alternative végétarienne",
+            "3 cuillères à soupe de crème sure demi-écrémée",
+            "petit bouquet de persil, haché grossièrement",
+            "Sachet de 250 g de riz sauvage cuit"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une grande poêle antiadhésive\r\npoêle et attendrir l'oignon pendant environ\r\n5 minutes. Ajoutez l'ail et le paprika, puis\r\ncuire encore 1 min. Ajouter les champignons\r\net faites cuire à feu vif en remuant souvent,\r\npendant environ 5 minutes.",
+            "Versez le bouillon et le Worcestershire\r\nsauce. Portez à ébullition, bouillonnez 5 mn\r\njusqu'à ce que la sauce épaississe, puis éteignez le\r\nchauffer et incorporer la crème sure et\r\nla majeure partie du persil. Assurez-vous que la casserole est\r\npas sur le feu sinon la sauce pourrait se fendre.",
+            "Chauffer le riz en suivant les instructions sur l'emballage,\r\npuis incorporez le persil restant\r\net servir avec le stroganoff."
+        ],
+        "nutritional_info": {
+            "kcal": "329",
+            "fat": "9g",
+            "saturates": "1g",
+            "carbs": "50g",
+            "sugars": "8g",
+            "fibre": "4g",
+            "protein": "11g",
+            "salt": "0.7g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--871464_11.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/mushroom-stroganoff.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/healthier-chicken-balti/",
+        "title": "Balti de poulet plus sain",
+        "description": "Une version plus légère du classique indien à emporter d'Angela Nilsen, ce curry à base de tomates regorge d'épinards et de poivrons supplémentaires.",
+        "prep_time": "25 mins Cook: 30 mins Plus marinating",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "450 g de poitrines de poulet sans peau et désossées, coupées en bouchées",
+            "1 cuillère à soupe de jus de citron vert",
+            "1 cuillère à café de paprika",
+            "¼ cuillère à café de poudre de piment fort",
+            "1½ cuillère à soupe d'huile de tournesol ou d'arachide",
+            "1 bâton de cannelle",
+            "3 gousses de cardamome, fendues",
+            "1 piment vert petit à moyen",
+            "½ cuillère à café de graines de cumin",
+            "1 oignon moyen, grossièrement râpé",
+            "2 gousses d'ail, hachées très finement",
+            "2½ cm de gingembre râpé",
+            "½ cuillère à café de curcuma",
+            "1 cuillère à café de cumin moulu",
+            "1 cuillère à café de coriandre moulue",
+            "1 cuillère à café de garam masala",
+            "250 ml de purée bio",
+            "1 poivron rouge épépiné, coupé en petits morceaux",
+            "1 tomate moyenne, hachée",
+            "85 g de pousses d'épinards",
+            "une poignée de coriandre fraîche hachée",
+            "chapatis ou riz basmati, pour servir (facultatif)"
+        ],
+        "method": [
+            "Mettez le poulet dans un bol moyen. Mélanger\r\ndans le jus de citron vert, paprika, poudre de piment\r\net une mouture de poivre noir (étape 1), puis\r\nlaisser mariner au moins 15 mn,\r\nde préférence un peu plus longtemps.",
+            "Faites chauffer 1 cuillère à soupe d'huile dans une grande\r\nwok antiadhésif ou sauteuse. Pourboire\r\nle bâton de cannelle, les gousses de cardamome,\r\ngraines entières de piment et de cumin, et\r\nfaire sauter brièvement juste pour colorer et libérer\r\nleur parfum (étape 2). Incorporer l'oignon,\r\nl'ail et le gingembre et faire revenir sur une\r\nfeu moyen-vif pendant 3-4 minutes jusqu'à ce que\r\nl'oignon commence à brunir. Ajoutez le\r\nle reste de l'huile, puis ajoutez le poulet\r\net faire sauter pendant 2-3 minutes ou jusqu'à ce qu'il n'y ait plus\r\nn'a plus l'air brut. Mélangez le curcuma, le cumin, la coriandre moulue et le garam\r\nmasala ensemble. Verser dans la poêle, baisser\r\nle feu à moyen et laissez cuire 2 minutes\r\n(étape 3). Versez la passata et 150 ml\r\neau, puis déposez-y les morceaux de\r\npoivre. Lorsque vous commencez à bouillonner, abaissez\r\nle feu et laisser mijoter pendant 15-20 minutes ou\r\njusqu'à ce que le poulet soit tendre.",
+            "Incorporer la tomate, laisser mijoter 2-3\r\nminutes, puis ajoutez les épinards et retournez\r\ndans la poêle pour qu'il flétrisse. Saison\r\navec un peu de sel. Si tu veux maigrir\r\nVerser la sauce, ajouter un peu plus\r\nl'eau. Retirez le bâton de cannelle, le piment\r\net les gousses de cardamome, si vous le souhaitez, avant\r\nservir. Parsemer de coriandre fraîche\r\net servir avec des chapatis chauds ou\r\ndu riz basmati, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "217",
+            "fat": "6.6g",
+            "saturates": "1.3g",
+            "carbs": "10.2g",
+            "sugars": "8.2g",
+            "fibre": "2.5g",
+            "protein": "30.2g",
+            "salt": "0.5g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--986455_10.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/healthier-chicken-balti.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spanish-seafood-pasta/",
+        "title": "Pâtes espagnoles aux fruits de mer",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. L'Italie et l'Espagne se rencontrent dans ce plat de pâtes orzo, semblable à une paella, avec du chorizo, des petits pois et les fruits de mer de votre choix.",
+        "prep_time": "",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "350g de formes de pâtes courtes (nous avons utilisé de l'orzo)",
+            "1 cube de bouillon de poulet",
+            "1 cuillère à café de curcuma ou une grosse pincée de brins de safran",
+            "85 g de chorizo ​​coupé en dés",
+            "Paquet de 200 g de fruits de mer cuits mélangés",
+            "2 poivrons rouges rôtis, d'un pot, tranchés",
+            "100 g de petits pois surgelés",
+            "2 cuillères à soupe de persil haché"
+        ],
+        "method": [
+            "Cuire les pâtes dans beaucoup d'eau\r\nen suivant les instructions sur l'emballage, avec\r\nle cube de bouillon et la moitié du curcuma\r\nou du safran. Environ 7 minutes avant\r\nles pâtes sont cuites, versez le chorizo\r\ndans une poêle et faites cuire à feu vif\r\nfeu moyen pendant 5 minutes jusqu'à ce que légèrement\r\ncroustillant. Retirez un peu de graisse, puis\r\najoutez le curcuma restant ou\r\nsafran, fruits de mer, poivrons et petits pois.",
+            "Égouttez les pâtes en réservant un peu\r\ndu stock. Renversez les pâtes\r\ndans la poêle, ajoutez le chorizo et\r\nmélange de fruits de mer et un peu de\r\nle bouillon réservé, et chauffer\r\nà travers. Incorporer la majeure partie du persil.",
+            "Servir dans des bols chauds, avec le\r\nle reste du persil saupoudré sur le dessus."
+        ],
+        "nutritional_info": {
+            "kcal": "429",
+            "fat": "7g",
+            "saturates": "3g",
+            "carbs": "67g",
+            "sugars": "3g",
+            "fibre": "5g",
+            "protein": "24g",
+            "salt": "1.2g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1035476_10.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/spanish-seafood-pasta.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/baked-turkey-meatballs-with-broccoli-and-crispy-po/",
+        "title": "Boulettes de dinde au four avec brocoli et pommes de terre croustillantes",
+        "description": "Le hachis de dinde est le plus maigre du genre et est excellent roulé en boules et servi avec de la sauce tomate et des légumes.",
+        "prep_time": "15 mins Cook: 40 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 oignon, râpé",
+            "1 grosse carotte, râpée",
+            "3 gousses d'ail, écrasées",
+            "1 cuillère à soupe de feuilles de romarin hachées",
+            "350 g de hachis de dinde",
+            "4 grosses pommes de terre, avec la peau et coupées en petits cubes",
+            "1 cuillère à soupe d'huile d'olive",
+            "Boîte de 400 g de tomates cerises",
+            "2 cuillères à soupe de parmesan râpé",
+            "350 g de brocoli à tige fine",
+            "bouquet de feuilles de basilic, râpées"
+        ],
+        "method": [
+            "Chauffer le four à 220C/200C ventilateur/gaz 7.\r\nDans un grand bol, mélanger l'oignon,\r\ncarotte, la moitié de l'ail et la moitié du\r\nromarin avec la dinde et un peu\r\nassaisonnement. Façonner 16 boulettes de viande\r\net mettez dans une petite plaque à pâtisserie. Lancer\r\nles pommes de terre avec le reste d'ail,\r\nle romarin et l'huile, mettre dans un plat allant au four\r\nplaque, puis faites cuire les deux pendant 20 minutes, avec\r\nles pommes de terre sur l'étagère du haut.",
+            "Après 20 minutes, égouttez le jus du\r\nboulettes de viande, verser dessus les tomates cerises,\r\nsaupoudrer de parmesan et assaisonner.\r\nMélangez les pommes de terre et échangez-les vers le bas\r\nétagère avec les pommes de terre dessus. Cuisiner pour\r\nencore 20 minutes jusqu'à ce que les pommes de terre soient\r\ncroustillant et la sauce aux boulettes de viande bouillonne.",
+            "Quand les pommes de terre et les boulettes de viande sont\r\npresque cuit, cuire le brocoli pendant 3-4\r\nminutes, jusqu'à tendreté. Saupoudrer le basilic\r\nsur les boulettes de viande et servir avec le\r\npommes de terre croustillantes et brocoli."
+        ],
+        "nutritional_info": {
+            "kcal": "279",
+            "fat": "7g",
+            "saturates": "2g",
+            "carbs": "22g",
+            "sugars": "8g",
+            "fibre": "5g",
+            "protein": "31g",
+            "salt": "0.4g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--871467_11.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/baked-turkey-meatballs-with-broccoli-and-crispy-po.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/italian-vegetable-bake/",
+        "title": "Pâtisserie aux légumes à l'italienne",
+        "description": "Un plat vibrant pour les mijoteuses, superposez des courgettes estivales, des tomates et des aubergines avec du pain et de la mozzarella – irrésistible !",
+        "prep_time": "30 mins Cook: 6 hrs 30 mins",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "4 gousses d'ail, 3 écrasées, 1 laissée entière",
+            "Boîte de 400 g de tomates concassées",
+            "bouquet d'origan, feuilles hachées",
+            "grosse pincée de flocons de piment",
+            "environ 300 g d'aubergines pour bébés ou normales, tranchées",
+            "2 courgettes, tranchées",
+            "½ grand pot de poivrons rouges rôtis",
+            "3 tomates de bœuf, tranchées",
+            "bouquet de basilic déchiré (conserver quelques feuilles pour saupoudrer)",
+            "petite baguette, tranchée et grillée",
+            "2 boules de 125 g de mozzarella déchirées",
+            "salade verte, pour servir"
+        ],
+        "method": [
+            "Mettez la mijoteuse sur High\r\nou le réglage brunissage et versez-le dans le\r\nail écrasé, tomates en conserve, la moitié\r\nles feuilles d'origan, le piment et un peu\r\nassaisonnement. Cuisinez à couvert pendant que vous\r\nhachez le reste des légumes.",
+            "Versez la majeure partie de la sauce et commencez\r\nsuperposer la moitié des légumes et\r\nherbes assaisonnées – les aubergines,\r\ncourgettes, poivrons rouges, tomates,\r\nbasilic et origan restant. Superposer\r\nla moitié du pain frotté avec le tout\r\ngousse d'ail, la moitié de la mozzarella et\r\nla moitié de la sauce tomate renversée. Répéter\r\ncouches de légumes, d'herbes et de sauce tomate,\r\nsuivi du pain et de la mozzarella.\r\nPoussez bien le tout pour comprimer,\r\npuis faites cuire à puissance élevée pendant 5 à 6 heures.",
+            "Passer sous le grill avant de servir\r\nsi vous le souhaitez (et votre marmite à la mijoteuse\r\nconvient), jusqu'à ce qu'il soit doré et bouillonnant.\r\nServir avec les restes de feuilles de basilic\r\nsur le dessus et une grosse salade à côté."
+        ],
+        "nutritional_info": {
+            "kcal": "274",
+            "fat": "10g",
+            "saturates": "6g",
+            "carbs": "31g",
+            "sugars": "8g",
+            "fibre": "4g",
+            "protein": "14g",
+            "salt": "0.9g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1057488_11.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/italian-vegetable-bake.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/squash-lentil-and-bean-onepot-with-fig-raita/",
+        "title": "One-pot de courge, lentilles et haricots avec raïta aux figues",
+        "description": "Atteignez votre 5 par jour avec ce pot d'épices végétarien au curry, rempli de légumineuses et de courges, servi avec une trempette rafraîchissante au yaourt",
+        "prep_time": "30 mins Cook: 15 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "400 g de courge musquée, pelée, épépinée et coupée en gros dés",
+            "1 oignon, tranché",
+            "1 cuillère à soupe d'huile d'olive",
+            "2 cuillères à café de cumin moulu",
+            "½ cuillère à café de flocons de piment",
+            "Boîte de 400 g de tomates concassées",
+            "100 g de lentilles rouges séchées",
+            "2 cuillères à café de sirop d'agave ou de cassonade",
+            "2 cuillères à café de vinaigre de vin rouge ou blanc",
+            "Boîte de 400 g de haricots rouges égouttés et rincés",
+            "2 figues séchées, hachées finement",
+            "150 ml de yaourt nature sans gras en pot",
+            "½ petit bouquet de persil haché"
+        ],
+        "method": [
+            "Faire revenir la courge et l'oignon dans l'huile pendant\r\n5 à 8 minutes jusqu'à ce que l'oignon soit ramolli. Remuer\r\ndans le cumin et le piment pendant 1 min. Ajoutez le\r\ntomates et une canette d'eau de\r\nla boîte de tomates, les lentilles, l'agave ou\r\nsucre et vinaigre. Porter à ébullition\r\net laissez cuire 10 minutes, puis incorporez le\r\nharicots et cuire encore quelques minutes\r\njusqu'à ce que les lentilles soient tendres et que\r\nharicots bien chauffés.",
+            "Pendant ce temps, mélangez les figues, le yaourt et\r\npersil ensemble. Assaisonnez le ragoût, puis\r\nservir dans des bols avec la raita aux figues en accompagnement."
+        ],
+        "nutritional_info": {
+            "kcal": "540",
+            "fat": "9g",
+            "saturates": "2g",
+            "carbs": "83g",
+            "sugars": "40g",
+            "fibre": "15g",
+            "protein": "28g",
+            "salt": "1.2g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--967483_11.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/squash-lentil-and-bean-onepot-with-fig-raita.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/tagliatelle-with-vegetable-ragu/",
+        "title": "Tagliatelles au ragoût de légumes",
+        "description": "Cette sauce végétarienne de style bolognaise est excellente servie avec des pâtes et des crams dans trois de vos cinq par jour.",
+        "prep_time": "10 mins Cook: 40 mins",
+        "cook_time": "",
+        "serves": "5",
+        "ingredients": [
+            "1 oignon, finement haché",
+            "2 branches de céleri, hachées finement",
+            "2 carottes, coupées en dés",
+            "4 gousses d'ail, écrasées",
+            "1 cuillère à soupe de purée de tomates et 1 cuillère à soupe de vinaigre balsamique",
+            "250 g de légumes coupés en dés, comme des courgettes, des poivrons et des champignons",
+            "50g de lentilles rouges",
+            "2 boîtes de 400 g de tomates concassées au basilic",
+            "250 g de tagliatelles (ou vos pâtes préférées)",
+            "2 cuillères à soupe de copeaux de parmesan (facultatif)"
+        ],
+        "method": [
+            "Versez l'oignon, le céleri et les carottes dans\r\nune grande casserole antiadhésive et ajoutez\r\n2-3 cuillères à soupe d'eau ou de bouillon, si vous en avez\r\ncertains. Cuire doucement, en remuant souvent, jusqu'à ce que\r\nles légumes sont tendres.",
+            "Ajouter l'ail, la purée de tomates et\r\nvinaigre balsamique, cuire à feu vif pendant\r\n1 min de plus, ajoutez les dés de légumes, les lentilles,\r\ntomates, puis porter à ébullition.",
+            "Portez à ébullition, puis laissez cuire environ\r\n20 minutes. Pendant ce temps, faites cuire les pâtes\r\nen suivant les instructions sur l'emballage, puis égouttez-les.\r\nAssaisonner le ragoût et servir avec des pâtes\r\net du parmesan dessus, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "321",
+            "fat": "3g",
+            "saturates": "2g",
+            "carbs": "55g",
+            "sugars": "12g",
+            "fibre": "5g",
+            "protein": "15g",
+            "salt": "0.3g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--871460_11.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/tagliatelle-with-vegetable-ragu.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/barley-chicken-mushroom-risotto/",
+        "title": "Risotto à l'orge, poulet et champignons",
+        "description": "Vous aimez le risotto ? Essayez cette version faible en gras, qui remplace le riz à risotto traditionnel par de l'orge perlé",
+        "prep_time": "10 mins Cook: 50 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à soupe de beurre",
+            "1 cuillère à soupe d'huile d'olive",
+            "2 grosses échalotes, tranchées finement",
+            "1 gousse d'ail, hachée",
+            "3 poitrines de poulet sans peau, coupées en gros morceaux",
+            "300 g d'orge perlé",
+            "250 ml de vin blanc",
+            "400 g de champignons sauvages et de châtaigniers mélangés, hachés",
+            "1 cuillère à soupe de feuille de thym",
+            "1l de bouillon de poulet chaud",
+            "3 cuillères à soupe de parmesan râpé",
+            "ciboulette ciselée, pour servir (facultatif)",
+            "copeaux de parmesan, pour servir (facultatif)"
+        ],
+        "method": [
+            "Dans une grande casserole à fond épais, faire chauffer\r\nle beurre et l'huile. Faire revenir les échalotes\r\net de l'ail avec un peu d'assaisonnement pour\r\n5 minutes, puis incorporez le poulet et\r\ncuire 2 min.",
+            "Ajouter l'orge et cuire 1 min.\r\nVersez le vin et remuez jusqu'à ce qu'il soit\r\nabsorbé. Ajoutez les champignons et\r\nthym, puis versez dessus les ¾ du bouillon.\r\nCuire 40 minutes à feu doux jusqu'à ce que\r\nl'orge est tendre, en remuant de temps en temps\r\net faire l'appoint avec le stock restant si\r\nça a l'air sec. Retirer du feu et\r\nincorporer le parmesan râpé. Servir\r\nimmédiatement, avec de la ciboulette et du parmesan\r\ncopeaux éparpillés, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "564",
+            "fat": "12g",
+            "saturates": "5g",
+            "carbs": "61g",
+            "sugars": "3g",
+            "fibre": "3g",
+            "protein": "42g",
+            "salt": "1.1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1099500_11.jpg",
+        "local_image_path": "images/healthy/low-salt-dinner/barley-chicken-mushroom-risotto.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/lentil-ragu/",
+        "title": "Lentille hésita",
+        "description": "Vous avez du mal à obtenir vos cinq par jour ? Ce ragoût supersain vous rapprochera de quatre pas et peut être congelé pour plus de commodité",
+        "prep_time": "15 mins Cook: 1 hrs 15 mins",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "3 cuillères à soupe d'huile d'olive",
+            "2 oignons, finement hachés",
+            "3 carottes, hachées finement",
+            "3 branches de céleri, hachées finement",
+            "3 gousses d'ail, écrasées",
+            "Sachet de 500 g de lentilles rouges séchées",
+            "2 boîtes de 400 g de tomates concassées",
+            "2 cuillères à soupe de purée de tomates",
+            "2 cuillères à café d'origan séché et de thym",
+            "3 feuilles de laurier",
+            "1l de bouillon de légumes",
+            "500 g de spaghettis, plus du parmesan ou du fromage végétarien, râpé, pour servir"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une grande casserole et\r\najouter les oignons, les carottes, le céleri et\r\nl'ail. Cuire doucement pendant 15 à 20 minutes\r\njusqu'à ce que tout soit ramolli. Incorporer le\r\nlentilles, tomates concassées, purée de tomates,\r\nherbes et bouillon. Portez à ébullition, puis\r\ncuire 40 à 50 minutes jusqu'à ce que les lentilles soient\r\ntendre et savoureux – éclabousser dans l'eau si\r\nvous avez besoin. Saison.",
+            "Si vous mangez tout de suite, restez à faible consommation\r\nfaites chauffer pendant que vous faites cuire les spaghettis,\r\nen suivant les instructions de l'emballage. Bien égoutter,\r\nrépartir dans des bols ou des assiettes à pâtes,\r\nverser la sauce sur le dessus et râper dessus\r\ndu fromage. Alternativement, refroidissez le\r\nsauce et réfrigérer jusqu'à 3 jours. Ou congeler jusqu'à 3 mois. Simplement\r\ndécongeler les portions toute la nuit dans la pièce\r\ntempérature, puis réchauffer doucement au moment de servir."
+        ],
+        "nutritional_info": {
+            "kcal": "662",
+            "fat": "9g",
+            "saturates": "1g",
+            "carbs": "120g",
+            "sugars": "14g",
+            "fibre": "10g",
+            "protein": "33g",
+            "salt": "1.05g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/user-collections/my-colelction-image/2015/12/recipe-image-legacy-id--563473_12.jpg"
+    }
+]

@@ -1,0 +1,1513 @@
+[
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/protein-porridge/",
+        "title": "[ES] Protein porridge",
+        "description": "(Translation pending) Increase the protein in your breakfast by adding protein-rich toppings to your porridge. It’s ideal after a workout",
+        "prep_time": "10 mins Cook: 10 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "80g porridge oats",
+            "500ml milk (any kind)",
+            "30g protein powder (vanilla, chocolate or berry work well)",
+            "4 tbsp Greek-style yogurt",
+            "2 tbsp pumpkin, chia, flax or sunflower seeds",
+            "2 tbsp nut or seed butter",
+            "100g frozen or fresh fruit (like berries, bananas or sliced apples)",
+            "honey or other syrup, to serve"
+        ],
+        "method": [
+            "Cook the oats and milk in a pan over a medium-low heat for 4-6 mins, stirring continuously until thickened and creamy. Remove from the heat and sift in the protein powder. Add a splash more milk or water to loosen, if you prefer a thinner porridge.",
+            "Divide between bowls and top with any toppings of your choice."
+        ],
+        "nutritional_info": {
+            "kcal": "376",
+            "fat": "13g",
+            "saturates": "6g",
+            "carbs": "39g",
+            "sugars": "0g",
+            "fibre": "4g",
+            "protein": "25g",
+            "salt": "0.33g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2025/10/Protein-porridge-52f148a.jpg",
+        "local_image_path": "images/healthy/high-protein/protein-porridge.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/protein-bars/",
+        "title": "[ES] Protein bars",
+        "description": "(Translation pending) Make your own homemade protein bars for a post-workout boost. They’re made with protein powder, bananas, nut butter and a blend of seeds",
+        "prep_time": "15 mins No cook, plus 1 hr chilling",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "150g porridge oats",
+            "2 small bananas (about 160g), peeled and mashed",
+            "100ml maple syrup",
+            "200g almond, peanut or sunflower butter",
+            "90g vanilla protein powder",
+            "50g mixed seeds , plus 1 tbsp for the topping",
+            "1 tbsp vanilla extract",
+            "2 tbsp milk , any kind (optional)",
+            "50g dark chocolate , melted"
+        ],
+        "method": [
+            "Put the oats in a blender and blitz until they resemble flour. Add the mashed banana, maple syrup, nut butter, protein powder, the mixed seeds and vanilla extract. Blend again to make a thick dough, adding the milk, if needed, to bring it together.",
+            "Press the dough into a 20cm square tin lined with baking parchment, ensuring it's in an even layer. Drizzle over the melted chocolate and scatter over the extra 1 tbsp mixed seeds and a pinch of sea salt flakes. Chill for 1 hr before cutting into bars. Will keep chilled for up to three days."
+        ],
+        "nutritional_info": {
+            "kcal": "205",
+            "fat": "11g",
+            "saturates": "3g",
+            "carbs": "16g",
+            "sugars": "0g",
+            "fibre": "3g",
+            "protein": "10g",
+            "salt": "0.14g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2025/06/ProteinBars-f84b76b.jpg",
+        "local_image_path": "images/healthy/high-protein/protein-bars.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/baked-cod-with-tomatoes-capers-basil/",
+        "title": "[ES] Baked cod with tomatoes, capers & basil",
+        "description": "(Translation pending) Enjoy white fish once a week for a low-fat, high-protein meal. It also provides vitamins that support the heart, brain and bones",
+        "prep_time": "15 mins Cook: 35 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "200g baby new potatoes (about 12)",
+            "3 tsp rapeseed oil",
+            "½ tsp dried oregano",
+            "2 garlic cloves , finely grated",
+            "400g can chopped tomatos",
+            "1 tbsp capers",
+            "15g basil , chopped",
+            "1 tsp vegetable bouillon powder",
+            "320g cod fillets , chunky and skinless",
+            "180g fine green beans"
+        ],
+        "method": [
+            "Heat the oven to 200C/180C fan/gas 6. Toss the potatoes with 1 tsp of the oil, the oregano and plenty of ground black pepper then scatter into a baking dish and bake for 20 mins.",
+            "Meanwhile heat the remaining oil in a pan and briefly fry the garlic, stirring to make sure it doesn’t burn. Tip in the tomatoes, capers, chopped basil and bouillon then allow to bubble over a medium heat until it becomes a thick sauce – about 5 mins.",
+            "Remove the potatoes from the oven and push to one end of the dish. Tip the sauce into the other end and top with the cod then return to the oven for 15 mins until the cod flakes when tested, but is still moist.",
+            "While the fish is baking boil the green beans for 7 mins until tender. Pile the beans on to 2 plates to make a stack then spoon the sauce and cod on top. Add the potatoes and serve scattered with the whole basil leaves to serve."
+        ],
+        "nutritional_info": {
+            "kcal": "327",
+            "fat": "6g",
+            "saturates": "1g",
+            "carbs": "28g",
+            "sugars": "0g",
+            "fibre": "7g",
+            "protein": "37g",
+            "salt": "0.57g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/06/CodTom-4c64a5b.jpg",
+        "local_image_path": "images/healthy/high-protein/baked-cod-with-tomatoes-capers-basil.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/sticky-tempeh-stir-fry/",
+        "title": "[ES] Sticky tempeh stir-fry",
+        "description": "(Translation pending) Rustle up this vegan stir-fry which uses tempeh, a great source of protein made from soy beans. Quick and easy, it takes just 30 minutes to make",
+        "prep_time": "10 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "2-3 tbsp vegetable oil",
+            "200g tempeh , torn into chunks",
+            "1 red onion , finely sliced",
+            "3 garlic cloves , roughly chopped",
+            "1 stick of lemongrass , chopped into thirds (optional)",
+            "2cm piece of ginger , peeled and roughly chopped",
+            "1 red chilli , roughly chopped (deseeded if you prefer)",
+            "100g mange tout , sliced at an angle",
+            "100g long-stem broccoli , chopped",
+            "2 tbsp low-sodium soy sauce",
+            "1½ tbsp brown sugar",
+            "15g coriander , roughly chopped",
+            "200g pouch cooked brown rice"
+        ],
+        "method": [
+            "Heat 2 tbsp of the oil in awokor large frying pan over a high heat. Once shimmering, fry the tempeh for 3-4 mins until golden and charred at the edges. Remove from the pan and drain on kitchen paper.",
+            "Add a drizzle of oil to the pan if it’s dry, then fry the onion for 3-4 mins, stirring continuously. Once softened, add the garlic, lemongrass (if using), ginger and chilli. Cook for 3 mins, stirring frequently until fragrant.",
+            "Toss through the mange tout and broccoli, then pour 50ml water into the pan to create steam. Cook for 3-4 mins. Add the soy sauce and brown sugar. Return the tempeh to the pan and toss to combine, cooking 2-3 mins more until everything is tender and sticky. Stir in half the coriander.",
+            "Cook the rice following pack instructions, then divide between two bowls. Top with the stir-fry and remaining coriander."
+        ],
+        "nutritional_info": {
+            "kcal": "554",
+            "fat": "20g",
+            "saturates": "1g",
+            "carbs": "56g",
+            "sugars": "0g",
+            "fibre": "14g",
+            "protein": "30g",
+            "salt": "1.5g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/02/Sticky-tempeh-stir-fry-d477a54.jpg",
+        "local_image_path": "images/healthy/high-protein/sticky-tempeh-stir-fry.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chicken-cashew-noodles/",
+        "title": "[ES] Chicken & cashew noodles",
+        "description": "(Translation pending) Rustle up this speedy noodle dish with chicken, cashews, carrots and red peppers in under 25 minutes – it’s gluten-free and high in protein",
+        "prep_time": "10 mins Cook: 15 mins",
+        "cook_time": "",
+        "serves": "5",
+        "ingredients": [
+            "250g dried flat rice noodles",
+            "1 tbsp garlic-infused oil",
+            "2 red peppers , chopped into thin strips",
+            "2 medium carrots , thinly sliced on the diagonal",
+            "2 chicken breasts , chopped into thin strips",
+            "150g cashews",
+            "½ tsp dried chilli flakes (optional)",
+            "sliced spring onions and chopped coriander, to serve",
+            "4½ tbsp gluten-free soy sauce",
+            "1½ tsp gluten-free white or red miso paste",
+            "1 tsp ginger paste",
+            "1½ tbsp dark brown sugar",
+            "1 tsp gluten-free plain flour"
+        ],
+        "method": [
+            "Mix together all the ingredients for the sauce with 1 tbsp water in a small bowl and set aside.",
+            "Cook the dried noodles following pack instructions, then set aside.",
+            "Place a largewokover a high heat and add the oil. Tip in the peppers and carrots and fry for a few minutes until lightly browned. Mix in the chicken and stir-fry until slightly golden, around 2 mins. Add the cooked rice noodles and toss to combine. Pour in the sauce and add the cashews, then continue to stir-fry until everything is well coated and a little sticky. Finish with a sprinkling of chilli flakes, if using, spring onions and the chopped coriander."
+        ],
+        "nutritional_info": {
+            "kcal": "668",
+            "fat": "23g",
+            "saturates": "4g",
+            "carbs": "71g",
+            "sugars": "0g",
+            "fibre": "8g",
+            "protein": "39g",
+            "salt": "3.21g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/02/Chicken-and-Cashew-Nut-Noodles-6d1bdd3.jpg",
+        "local_image_path": "images/healthy/high-protein/chicken-cashew-noodles.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/harissa-vegetables-with-quinoa/",
+        "title": "[ES] Harissa vegetables with quinoa",
+        "description": "(Translation pending) Combine protein-rich quinoa with root veg to enjoy all five of your 5-a-day. The added fermented coconut yogurt will have gut bacteria benefits, too",
+        "prep_time": "15 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "1 tbsp rapeseed oil",
+            "2 red onions (160g), chopped",
+            "1 green pepper , deseeded and cubed",
+            "1 small sweet potato (200g), peeled and cut into chunks",
+            "2 large celery sticks (125g), cut into chunky slices",
+            "10g ginger , finely chopped",
+            "300ml vegetable stock made with 2 tsp vegan bouillon powder",
+            "1 tbsp harissa paste",
+            "2 tbsp tomato purée",
+            "2 dried apricots , quartered",
+            "10g coriander or parsley, chopped, plus a few extra leaves to serve",
+            "250g pack cooked red and white quinoa",
+            "4 tbsp coconut yogurt"
+        ],
+        "method": [
+            "Heat the oil in a non-stick pan and fry the vegetables and ginger for 10 mins, stirring frequently, until softened and starting to colour.",
+            "Stir in the stock, harissa, tomato purée and apricots. Bring to the boil, cover and simmer for 15 mins. Stir in the coriander.",
+            "Meanwhile, heat the quinoa following pack instructions. Serve with the veg and yogurt, plus a scattering of coriander leaves."
+        ],
+        "nutritional_info": {
+            "kcal": "523",
+            "fat": "15g",
+            "saturates": "5g",
+            "carbs": "77g",
+            "sugars": "0g",
+            "fibre": "15g",
+            "protein": "12g",
+            "salt": "1.6g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2023/12/Harissa-vegetables-with-quinoa-a0a2763.jpg",
+        "local_image_path": "images/healthy/high-protein/harissa-vegetables-with-quinoa.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/vegan-spinach-omelette/",
+        "title": "[ES] Vegan spinach omelette",
+        "description": "(Translation pending) Try an omelette made with chickpea flour – it’s high in protein and gluten-free. The quantities here are for one, but the recipe is easily doubled",
+        "prep_time": "5 mins Cook: 6 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "30g gram (chickpea) flour",
+            "¼ tsp dried oregano",
+            "1 tbsp nutritional yeast",
+            "2 tsp rapeseed oil",
+            "80g baby spinach"
+        ],
+        "method": [
+            "Whisk the gram flour, oregano and nutritional yeast in a bowl with 80ml water.",
+            "Heat the oil in a 19cm non-stick frying pan. Pour in the omelette batter and swirl the pan around to cover the base. Pile the fresh spinach over the top, then cover the pan and cook over a low heat for 5-6 mins until the spinach has wilted and the base of the omelette is cooked but still moist. Roll the omelette over in the pan to enclose the spinach, then slide onto a plate and serve."
+        ],
+        "nutritional_info": {
+            "kcal": "200",
+            "fat": "8g",
+            "saturates": "1g",
+            "carbs": "17g",
+            "sugars": "0g",
+            "fibre": "5g",
+            "protein": "11g",
+            "salt": "0.7g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2023/05/Spinach-Omelette440x400-1c259f3.jpg",
+        "local_image_path": "images/healthy/high-protein/vegan-spinach-omelette.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/protein-balls/",
+        "title": "[ES] Protein balls",
+        "description": "(Translation pending) Make tasty protein balls using oats, protein powder, flaxseed and cinnamon to enjoy post-exercise and replenish your protein stores.",
+        "prep_time": "15 mins No cook; plus chilling",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "150g porridge oats",
+            "50g protein powder of your choice (we used vanilla whey)",
+            "1 tbsp ground flaxseeds",
+            "pinch of ground cinnamon",
+            "1 tsp vanilla extract",
+            "2 tbsp maple syrup",
+            "150g nut butter of your choice (we used peanut)",
+            "4 tbsp plant milk",
+            "25g chocolate chips or raisins (optional)"
+        ],
+        "method": [
+            "Combine the oats, protein powder, flaxseed and cinnamon in a large bowl. Stir in the maple syrup, vanilla extract, nut butter, milk and chocolate chips.",
+            "Stir well to combine the mixture, then, using damp hands, roll it into 15 balls (they should be about 30g each). Arrange on a plate and chill for 30 mins until firm, then serve."
+        ],
+        "nutritional_info": {
+            "kcal": "128",
+            "fat": "6g",
+            "saturates": "1g",
+            "carbs": "10g",
+            "sugars": "0g",
+            "fibre": "2g",
+            "protein": "7g",
+            "salt": "0.11g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/10/Protein-balls--ac4ce52-e1676039481255.jpg",
+        "local_image_path": "images/healthy/high-protein/protein-balls.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/one-pot-chicken-curry-rice/",
+        "title": "[ES] One-pot chicken & curry rice",
+        "description": "(Translation pending) Rustle up this easy family one pot dinner, with chicken, cauliflower, beans and peas in mild curry flavours. Serve with yogurt and mango chutney on the side",
+        "prep_time": "15 mins Cook: 45 mins",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "2 tbsp vegetable oil or ghee",
+            "2 large onions, finely sliced",
+            "4 large garlic cloves, crushed",
+            "thumb-sized piece of ginger, peeled and finely chopped",
+            "4 heaped tbsp mild curry paste",
+            "1 tsp turmeric",
+            "4 cardamom pods, bashed",
+            "1 cinnamon stick",
+            "4 small skinless chicken breasts or 8 skinless and boneless chicken thighs (about 600g), cut into bite-sized chunks",
+            "250g basmati rice, rinsed",
+            "600ml chicken stock",
+            "200ml coconut milk",
+            "75g frozen peas",
+            "150g green beans, rimmed and halved",
+            "½ cauliflower (about 225g) broken into small florets",
+            "50g raisins or sultanas",
+            "coriander leaves, flaked almonds, plain yogurt and mango chutney, to serve"
+        ],
+        "method": [
+            "Heat the oil in a a largecasserole dish(that has a lid) over a medium heat, then fry the onion, garlic and ginger until brown and fragrant, about 10 mins. Stir in the curry paste, turmeric, cardamom and cinnamon, and stir for a few minutes. Add the chicken and cook for another couple of minutes, stirring to colour on all sides.",
+            "Add the rice, stir well, then stir in the stock, coconut milk, a generous pinch of seasoning, the veg and raisins. Bring to the boil, then reduce to a simmer, pop the lid on and cook for about 25-30 mins until the water has been absorbed, the chicken and rice are cooked through, and the veg is tender. Season to taste. Remove the cardamom and cinnamon stick, then scatter over the almonds and coriander. Serve with yogurt and mango chutney on the side."
+        ],
+        "nutritional_info": {
+            "kcal": "485",
+            "fat": "18g",
+            "saturates": "7g",
+            "carbs": "47g",
+            "sugars": "0g",
+            "fibre": "7g",
+            "protein": "31g",
+            "salt": "1.2g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/06/One-pot-chicken-and-curry-rice-a8bc2bb.jpg",
+        "local_image_path": "images/healthy/high-protein/one-pot-chicken-curry-rice.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chicken-pakoras/",
+        "title": "[ES] Chicken pakoras",
+        "description": "(Translation pending) Make a batch of these crispy golden pakoras as a snack, or part of an Indian meal. Serve hot with sweet chilli sauce or green chutney",
+        "prep_time": "20 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "700g boneless chicken, cut into bite-sized pieces",
+            "2 tbsp cornflour",
+            "50g rice flour",
+            "40g gram flour, sieved",
+            "3 dried chillies, crushed or 3 green chillies, finely chopped",
+            "½ tsp chilli powder",
+            "½ tsp curry powder",
+            "½ tsp ground coriander",
+            "½ tsp cumin",
+            "2 small onions, chopped",
+            "small bunch of coriander, finely chopped",
+            "vegetable oil, for deep-frying",
+            "sweet chilli sauce or green chutney, to serve"
+        ],
+        "method": [
+            "Put the chicken in a large bowl, then use your hands to coat the pieces in the cornflour. Mix in the rice flour, followed by the gram flour. Add the chillies, spices, onion, coriander and 1 tsp salt. Mix well with your hands.",
+            "Gradually add around 150ml water until the ingredients have become moist and ever-so-slightly wet. You may not need all the water (adding too much will stop the pakora mixture binding).",
+            "Fill a deep pan no more than a third full with vegetable oil and heat to 180C. Squeeze a small amount of the pakora mixture together before carefully lowering into the hot oil with a spoon. Fry for 8-10 mins, turning regularly, until cooked through and browned all over. Set aside on a plate lined with kitchen paper while you repeat with the remaining mixture, frying in small batches. Serve hot with a sweet chilli sauce or green chutney."
+        ],
+        "nutritional_info": {
+            "kcal": "426",
+            "fat": "17g",
+            "saturates": "1g",
+            "carbs": "24g",
+            "sugars": "0g",
+            "fibre": "3g",
+            "protein": "43g",
+            "salt": "1.5g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/05/chicken-pakoras-91e2996.jpg",
+        "local_image_path": "images/healthy/high-protein/chicken-pakoras.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/cajun-chicken-traybake-with-sweet-potato-wedges-chive-dip/",
+        "title": "[ES] Cajun chicken traybake with sweet potato wedges & chive dip",
+        "description": "(Translation pending) Sweet potatoes are never as crispy as regular potatoes, but they do add to your 5-a-day. We’ve used kefir in this recipe for its rich contribution of beneficial gut bacteria",
+        "prep_time": "15 mins Cook: 45 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 tsp each of ground cumin and smoked paprika",
+            "1 tsp dried oregano",
+            "1 tbsp fresh thyme leaves or 1 tsp dried",
+            "8 skinless, boneless chicken thighs (900g)",
+            "1 red and 1 yellow pepper, deseeded and chopped",
+            "3 red onions, sliced into 1cm-thin wedges",
+            "2 celery sticks (125g) , finely chopped",
+            "1 tbsp rapeseed oil , plus 1 tsp",
+            "2 sweet potatoes (375g peeled weight), cut into 16 wedges",
+            "150g Kefir or bio yogurt",
+            "2 tbsp snipped chives"
+        ],
+        "method": [
+            "Heat the oven to 200C/180C fan/gas 6. Mix the cumin, paprika, oregano and thyme together in a bowl, with a good grinding of black pepper. Set aside 1 tbsp for the potatoes. Use the rest to rub all over the chicken thighs.",
+            "Tip the peppers, onions and celery into a large roasting tin and toss with 1 tbsp oil. Spread out the veg so it cooks evenly, then nestle in the chicken. Cover with foil and roast for 40 mins.",
+            "Meanwhile, coat the potato wedges in the 1 tsp oil and remaining spices, and arrange well-spaced apart on a non-stick baking tray. Put in the oven, on a higher shelf, when you have 35 mins left for the chicken. Stir the kefir and chives together to make a dip, adding up to 1 tbsp water to loosen, if needed. Set aside.",
+            "Remove the roasting tin and potatoes from the oven and turn up the heat to 220C/200C fan/gas 7. Remove the chicken to a warm plate and leave to rest for 5 mins. Return the veg to the oven, uncovered, for 5-10 mins to colour a little. Serve half the wedges on plates with half of the chive dip and half the veg and chicken. Cover and chill the remaining portions.Will keep chilled for up to three days. To reheat, gently warm the potatoes in a non-stick frying pan, taking care they don’t burn. Heat the chicken until piping hot in a microwave or pan set over a medium heat. If freezing, leave to defrost fully before reheating in a pan over a medium heat until piping hot."
+        ],
+        "nutritional_info": {
+            "kcal": "510",
+            "fat": "21g",
+            "saturates": "6g",
+            "carbs": "31g",
+            "sugars": "0g",
+            "fibre": "8g",
+            "protein": "46g",
+            "salt": "0.62g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/wp-content/uploads/2021/05/coriander-salmon-with-curried-quinoa-pomegranate.jpg",
+        "local_image_path": "images/healthy/high-protein/cajun-chicken-traybake-with-sweet-potato-wedges-chive-dip.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chicken-enchilada-wraps/",
+        "title": "[ES] Chicken enchilada wraps",
+        "description": "(Translation pending) Use homemade wholemeal flatbreads instead of shop-bought tortillas in this recipe – perfect for wrapping up our lean spicy chicken. It counts as 3 of your 5-a-day, too",
+        "prep_time": "20 mins Cook: 12 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "90g wholemeal flour, plus extra for dusting",
+            "3 tsp rapeseed oil",
+            "120g bio yogurt",
+            "2 tsp mild chilli powder",
+            "1 garlic clove, finely grated",
+            "1 lime, zested and half juiced",
+            "1 red onion, halved and sliced",
+            "1 red pepper, deseeded and sliced",
+            "2 skinless chicken breasts, sliced (300g)",
+            "1 small avocado",
+            "15g fresh coriander, chopped"
+        ],
+        "method": [
+            "Tip the flour into a small bowl. Mix 1 tsp of the oil with 60ml water, add to the flour and stir with the blade of a cutlery knife until the mixture starts to come together. Use your hands to bring the mixture into a ball, then halve and cover with a tea towel.",
+            "Mix 2 tbsp of the yogurt with the chilli powder, garlic and lime zest, then tip in the onion, pepper and chicken and stir well to coat. Heat the remaining oil in a large non-stick pan over a medium heat, add the chicken mixture and cook, stirring every now and then, for about 10 mins.",
+            "Meanwhile, lightly flour the work surface and heat a very large non-stick frying pan over a medium heat, but don’t add any oil. Roll out one of the balls of dough to a rough circle about 25cm across until it is paper thin, then carefully peel off the work surface and slap into the frying pan. The dough will cook within a minute, then flip over and cook for a few seconds more. Lift onto a plate and cook the other ball of dough in the same way.",
+            "Roughly mash the avocado with the lime juice and spread over the flatbreads, top with the chicken mixture and remaining yogurt and scatter over the coriander. Roll up the enchiladas and serve."
+        ],
+        "nutritional_info": {
+            "kcal": "570",
+            "fat": "20g",
+            "saturates": "4g",
+            "carbs": "43g",
+            "sugars": "0g",
+            "fibre": "12g",
+            "protein": "47g",
+            "salt": "0.64g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/05/chicken-enchilada-wraps-6d81ed6.jpg",
+        "local_image_path": "images/healthy/high-protein/chicken-enchilada-wraps.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/quinoa-salad-with-eggs-dill/",
+        "title": "[ES] Quinoa salad with eggs & dill",
+        "description": "(Translation pending) Quinoa is a complete protein that contains all eight essential amino acids. Enjoy it here as part of a salad",
+        "prep_time": "15 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "120g quinoa, rinsed",
+            "6 eggs",
+            "320g asparagus, woody ends trimmed and halved if too long",
+            "4 tbsp extra virgin olive oil",
+            "2 tsp apple cider vinegar",
+            "6 spring onions, finely chopped",
+            "2 tbsp chopped dill",
+            "2 tbsp chopped basil, plus a few leaves to serve",
+            "15g capers, rinsed",
+            "320g cherry tomatoes, halved"
+        ],
+        "method": [
+            "Boil the quinoa in plenty of water for 20 mins. Leave for 5 mins, then rinse and drain well. Meanwhile, boil the eggs for 7 mins in another pan with the asparagus above in a steamer. If the eggs are ready and the asparagus isn't quite tender, remove the eggs from the pan and put in cold water while continuing to cook the asparagus for a few more minutes. Peel the eggs.",
+            "To make the dressing, mix the extra virgin olive oil and apple cider vinegar with the chopped spring onions, herbs and capers.",
+            "Tip the quinoa into a bowl and toss through three-quarters of the dressing and the tomatoes. Spoon half onto plates and the rest into two containers. Arrange the asparagus on top of the salads with three egg halves on each one, then spoon over the remaining dressing and scatter with the basil leaves. Seal and chill the packed salads.Will keep in an airtight container in the fridge for up to a day."
+        ],
+        "nutritional_info": {
+            "kcal": "360",
+            "fat": "21g",
+            "saturates": "4g",
+            "carbs": "21g",
+            "sugars": "0g",
+            "fibre": "5g",
+            "protein": "19g",
+            "salt": "0.53g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/05/Quinoa-salad-with-eggs-dill-dfefa3a.jpg",
+        "local_image_path": "images/healthy/high-protein/quinoa-salad-with-eggs-dill.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/feta-cakes-with-greek-salad/",
+        "title": "[ES] Feta cakes with Greek salad",
+        "description": "(Translation pending) Bring a little summer sunshine to your kitchen with these potato feta cakes served with a Greek salad. The herbs add plenty of flavour and valuable nutrients, like vitamin C and iron",
+        "prep_time": "20 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "a drop of rapeseed oil, for the baking sheet",
+            "700g potatoes, peeled and cut into chunks",
+            "1 lemon, zested, half juiced",
+            "6 spring onions, very finely chopped",
+            "2 tbsp chopped mint",
+            "3 tbsp chopped parsley",
+            "100g feta, crumbled",
+            "1 large egg",
+            "6 tbsp wholemeal flour",
+            "½ tsp smoked paprika",
+            "320g tomatoes, cut into wedges",
+            "1 cucumber (about 320g), diced",
+            "1 red onion finely chopped",
+            "12 Kalamata olives, quartered",
+            "1-2 tbsp finely chopped mint",
+            "2 tsp lemon juice",
+            "2 tsp extra virgin olive oil"
+        ],
+        "method": [
+            "Heat the oven to 200C/180C fan/gas 6 and oil a non-stick baking sheet. Bring a pan of water to the boil, add the potatoes and cook for 15-20 mins until tender. Drain very well, then return to the pan and mash with lots of black pepper, the lemon zest and juice, the spring onions, mint and 2 tbsp of the parsley. Stir through the feta.",
+            "Beat the egg in a shallow bowl, then mix the flour, paprika and remaining 1 tbsp parsley in another. Shape the potato mixture into eight cakes, then carefully coat all over in the egg, then the flour mix, reshaping them if you need to. Arrange the cakes on the baking sheet and bake for 15 mins until starting to turn golden. Use a palette knife to carefully turn each one over and bake for another 10-15 mins until golden.",
+            "Meanwhile, toss half the salad with half the lemon and oil. Serve with four cakes and chill the remainder for another day, tossing the remaining salad with the rest of the lemon and oil just before serving.Will keep, covered, for up to two days in the fridge. To reheat the cakes, cook on a baking tray at 200C/180C fan/gas 6 for 15-20 mins."
+        ],
+        "nutritional_info": {
+            "kcal": "371",
+            "fat": "11g",
+            "saturates": "5g",
+            "carbs": "50g",
+            "sugars": "0g",
+            "fibre": "8g",
+            "protein": "14g",
+            "salt": "1g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/05/Feta-cakes-with-greek-salad-e4ca1a4.jpg",
+        "local_image_path": "images/healthy/high-protein/feta-cakes-with-greek-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/smoked-brisket/",
+        "title": "[ES] Smoked brisket",
+        "description": "(Translation pending) Fire up the smoker for this flavourful slow-cooked brisket. Serve on a board with charred greens and salsa rossa so everyone can help themselves",
+        "prep_time": "20 mins Cook: 13 hrs plus marinating and resting",
+        "cook_time": "",
+        "serves": "8",
+        "ingredients": [
+            "2.5kg piece beef brisket",
+            "1 tsp cumin seeds",
+            "½ tsp red chilli flakes",
+            "1 tsp black whole peppercorns",
+            "1 tsp fennel seeds",
+            "1 tsp dried thyme",
+            "2 tsp demerara sugar",
+            "2 tsp caster sugar",
+            "1 tsp paprika",
+            "1 tsp onion powder",
+            "1 tsp garlic powder",
+            "1 tsp mustard powder",
+            "1 tsp salt"
+        ],
+        "method": [
+            "Gently toast the cumin, chilli flakes, peppercorns, fennel seeds and thyme in a pan over a low heat until aromatic. Grind to a fine dust with the demerara sugar using a spice blender orpestle and mortar. Tip into a bowl and mix in the remaining rub ingredients.",
+            "Season the brisket generously with the rub and leave to stand at room temperature for up to an hour. Prepare the smoker for indirect cooking at 120-130C. Once ready, place the seasoned brisket on the smoker, fat-side up. Leave for 10 hrs or until the outside is a dark, mahogany colour. Top up the smoker as needed.",
+            "Remove the brisket and wrap in butcher paper. Return to the smoker and continue to cook for 2-3 hrs until the meat reaches 93-94C when probed with a thermometer. Allow to rest for 40 mins before slicing and serving with charred greens and salsa rossa."
+        ],
+        "nutritional_info": {
+            "kcal": "696",
+            "fat": "50g",
+            "saturates": "21g",
+            "carbs": "3g",
+            "sugars": "0g",
+            "fibre": "0g",
+            "protein": "57g",
+            "salt": "1g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Smoked-brisket-a9a5c4e.jpg",
+        "local_image_path": "images/healthy/high-protein/smoked-brisket.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chimichurri-style-steak-sarnies-cheats-spicy-fries/",
+        "title": "[ES] Chimichurri-style steak sarnies & cheat’s spicy fries",
+        "description": "(Translation pending) Elevate a steak sandwich with a punchy, zingy chimichurri sauce, chipotle mayo and spicy Cajun-style fries on the side.",
+        "prep_time": "25 mins Cook: 40 mins plus 10 mins resting",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "2 x 200g rump steaks, fat removed",
+            "2 long ciabatta rolls",
+            "2 handfuls of rocket",
+            "30ml sunflower oil",
+            "270g shop-bought frozen fries",
+            "Cajun spice mix",
+            "70g mayonnaise",
+            "1 tsp chipotle chilli paste",
+            "½ lime, zested and juiced",
+            "1 banana shallot, peeled and roughly chopped",
+            "1 red chilli, finely chopped",
+            "1 garlic clove, crushed",
+            "1½ tbsp sherry vinegar",
+            "small bunch of parsley",
+            "small bunch of coriander",
+            "50ml extra virgin olive oil"
+        ],
+        "method": [
+            "Heat the oven to its highest setting. For the fries, pour the sunflower oil into abaking trayand put in the oven for 15 mins to get hot. Reduce the temperature to 220C/200C fan/gas 8. Tip the fries into the oil, turn to coat, and cook for 20 mins. Add the Cajun spice mix and return to the oven for 15 mins until golden and crisp.",
+            "Meanwhile, make the mayo by mixing all the ingredients together in a bowl. Set aside.",
+            "For the chimichurri-style sauce,blitzall the ingredients together until you have a smooth sauce, then season to taste. Set aside.",
+            "Heat agriddle panover a high heat. Rub the steaks with salt only (pepper will catch and burn), put the steaks in the pan and cook for 3 mins on each side (for medium). Remove from the pan, cover with foil and leave to rest for 10 mins.",
+            "Halve the ciabatta rolls, toast in the same griddle pan that you cooked the steak in, cut-side down, and spread one half of each with the chipotle mayo. Slice the steak into strips, divide between the ciabattas, drizzle over the chimichurri and add a little rocket. Serve with the fries and any leftover mayo."
+        ],
+        "nutritional_info": {
+            "kcal": "1101",
+            "fat": "53g",
+            "saturates": "8g",
+            "carbs": "89g",
+            "sugars": "0g",
+            "fibre": "8g",
+            "protein": "63g",
+            "salt": "1.7g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Chimichurri-style-steak-sarnies-with-spicy-fries-007858d.jpg",
+        "local_image_path": "images/healthy/high-protein/chimichurri-style-steak-sarnies-cheats-spicy-fries.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/lamb-chops-with-thyme-chilli-greek-htipiti/",
+        "title": "[ES] Lamb chops with thyme, chilli & Greek htipiti",
+        "description": "(Translation pending) Serve lamb chops with htipiti for a lovely Greek-inspired dish with fabulous flavours. Olive oil-roasted baby potatoes make a great accompaniment",
+        "prep_time": "10 mins Cook: 18 mins plus marinating",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "12 lamb cutlets",
+            "3 thyme sprigs, leaves picked",
+            "1 tsp chilli flakes",
+            "2 tbsp extra virgin olive oil",
+            "235g roasted red peppers from a jar, drained",
+            "175g feta, crumbled",
+            "2 spring onions, finely chopped",
+            "2 garlic cloves very finely chopped",
+            "2 thyme sprigs, leaves picked",
+            "4 tbsp extra virgin olive oil",
+            "squeeze of lemon juice (optional)"
+        ],
+        "method": [
+            "Put the lamb cutlets in a bowl with the thyme, chilli flakes and oil. Toss together to coat, then leave to marinate in the fridge for 30 mins-1 hr.",
+            "For the htipiti, cut the peppers into small pieces. Put in a bowl and add all the other ingredients. Leave for about 15 mins for the flavour to infuse.",
+            "Heat agriddle panor frying pan. When it’s really hot, lift the chops out of the marinade. Cook them, a few at a time, for 3 mins either side, seasoning as you go. Serve the chops with the sauce, and some baby potatoes, if you like."
+        ],
+        "nutritional_info": {
+            "kcal": "830",
+            "fat": "70g",
+            "saturates": "30g",
+            "carbs": "4g",
+            "sugars": "0g",
+            "fibre": "1g",
+            "protein": "45g",
+            "salt": "1.4g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Lamb-chops-with-thyme-chilli-and-Greek-htipiti-a06812c.jpg",
+        "local_image_path": "images/healthy/high-protein/lamb-chops-with-thyme-chilli-greek-htipiti.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/salmon-scramble-flatbreads/",
+        "title": "[ES] Salmon scramble flatbreads",
+        "description": "(Translation pending) Try a healthier alternative to smoked salmon and scrambled eggs that’s just as delicious, but made with fresh spinach and served on homemade flatbreads",
+        "prep_time": "20 mins Cook: 6 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "1 tsp rapeseed oil",
+            "90g wholemeal flour, plus extra for dusting",
+            "160g baby spinach",
+            "3 large eggs",
+            "1 tbsp chopped dill, plus extra to serve",
+            "1 tsp rapeseed oil",
+            "1½ tsp capers, drained and chopped",
+            "100g skinless wild salmon, cut into small pieces"
+        ],
+        "method": [
+            "To make the flatbreads, rub the oil into the flour using your fingers. Stir in 60ml warm water with a cutlery knife, then knead briefly on a lightly floured surface until the dough is smooth and elastic. Cut in half.",
+            "Roll out each half of dough using a flouredrolling pinuntil very thin (about 21cm in diameter). Heat anon-stick frying panover a high heat, and cook one of the flatbreads for 1 min. Flip and cook on the other side for 30 seconds, pressing it down with a spatula until slightly browned in places and fairly dry without being crisp. Repeat with the second flatbread. Cover both with a tea towel and keep warm.",
+            "Put the spinach in the pan and cook over a medium heat for 1-2 mins until wilted. Tip into a sieve over a bowl and press out the excess liquid using using the back of a spoon, then roughly chop.",
+            "Beat the eggs with the dill and plenty of black pepper, then set aside. Rinse the pan and set over a medium heat. Add the capers, then the salmon and stir until the fish just starts to turn opaque at the edges. Pour in the egg mixture, and stir to scramble the eggs. When the salmon is almost cooked through and the egg is almost set, stir in the spinach to heat through. Serve on the warmed flatbreads with the extra dill scattered over and a good grinding of black pepper."
+        ],
+        "nutritional_info": {
+            "kcal": "399",
+            "fat": "17g",
+            "saturates": "4g",
+            "carbs": "30g",
+            "sugars": "0g",
+            "fibre": "6g",
+            "protein": "29g",
+            "salt": "0.6g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/11/Salmon-scramble-flatbreads-d3fdb2b.jpg",
+        "local_image_path": "images/healthy/high-protein/salmon-scramble-flatbreads.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/garden-eggs-stew-with-boiled-green-plantain/",
+        "title": "[ES] Garden eggs stew with boiled green plantain",
+        "description": "(Translation pending) Try something different for dinner with this hearty African-inspired garden eggs (also known as white aubergine) stew with eggs and salted fish. Enjoy with green plantain",
+        "prep_time": "40 mins Cook: 40 mins plus overnight soaking",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "1 whole dried and salted tilapia (koobi)",
+            "11 small white aubergines , trimmed and halved",
+            "2 Scotch bonnet chillies",
+            "2 Indian or small red onions, 1 chopped, 1 sliced",
+            "4-6 green plantains, peeled, each cut into 2-3 pieces",
+            "2 large eggs",
+            "2-4 tbsp peanut butter",
+            "½ shrimp cube (optional)",
+            "½ tsp aromat (optional)",
+            "30g fermented salted fish (momoni)",
+            "120ml red palm fruit & rapeseed oil (we used Carotino Mild & Light cooking oil, available in Morrisons and Tesco)",
+            "120g tin sardines in oil, drained",
+            "1 avocado , stoned, halved, peeled and sliced"
+        ],
+        "method": [
+            "The day before, put the whole dried tilapia in a large bowl, cover with cold water and leave to soak overnight.",
+            "The next day, put the white aubergines and Scotch bonnet chillies in asaucepan, cover with cold water and the lid, then bring to the boil over a medium-high heat. Cook for 10-12 mins, then drain and set aside.",
+            "Meanwhile, put the chopped onion in an asanka pot and grind to a paste. If you don’t have an asanka pot, you can use afood processoror blender – if using a blender, drain away any water after blending.",
+            "Drain the water from the tilapia, then rinse the fish under cold running water to remove any excess salt.",
+            "In a separate pan over a medium-high heat, bring the green plantains, eggs and just enough water to cover to the boil. Once boiling, add the tilapia. Cook for 10-12 mins, then remove from the heat. Take the fish out of the pan using a slotted spoon and transfer to a plate. Leave to rest. Drain the plantains and eggs, then fill the pan with cold water and leave to stand for 5 mins.",
+            "Meanwhile, put the chillies in the asanka pot or food processor with the onion, and grind. When the mixture is smooth, add a 2-3 aubergines and grind again. Continue this process until all the aubergines have been added. Add the peanut butter, then season with half the shrimp cube, if using, and the aromat, if needed (taste for seasoning before adding the aromat).",
+            "Rinse the fermented salted fish under cold running water. Heat the red palm fruit & rapeseed oil in afrying panset over a medium heat, and fry the fermented salted fish for around 3-5 mins. Remove the fish from the pan using a slotted spoon or fish slice, and remove any visible bones. Add the fish to the asanka pot and grind into the aubergine mixture. Discard any fish bones.",
+            "Add the sliced onions to the frying pan and fry for 3-5 mins, then add the aubergine mixture and stir well. Reduce the heat to low and cook for 3-5 mins. Mix in the sardines. Cook over the lowest heat for around 2 mins more, and mix everything together well.",
+            "Transfer the mixture to an asanka pot or serving bowl. Drain the plantains and peel and halve the boiled eggs, then add these to the pot. Top with the avocado and tilapia, then serve."
+        ],
+        "nutritional_info": {
+            "kcal": "620",
+            "fat": "33g",
+            "saturates": "4g",
+            "carbs": "40g",
+            "sugars": "0g",
+            "fibre": "7g",
+            "protein": "38g",
+            "salt": "1.13g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/10/Garden-egg-stew-a6cbbce.jpg",
+        "local_image_path": "images/healthy/high-protein/garden-eggs-stew-with-boiled-green-plantain.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/crispy-tofu/",
+        "title": "[ES] Crispy tofu",
+        "description": "(Translation pending) Fry tofu in a coating of smoked paprika, garlic and seasoning to make these crispy tofu bites. Eat as a snack or as a starter or side dish in a veggie feast",
+        "prep_time": "5 mins Cook: 10 mins plus 20 mins draining",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "400g block firm tofu",
+            "3 tbsp cornflour",
+            "½ tsp garlic granules",
+            "½ tsp smoked paprika",
+            "½ tsp fine sea salt",
+            "½ tsp ground black pepper",
+            "2 tbsp vegetable oil"
+        ],
+        "method": [
+            "Drain the tofu, wrap in 4-5 sheets of kitchen paper, put on a plate and put something heavy over the top, like a wooden chopping board, or a tray with a few tins on it. Leave for 20 mins to drain the excess moisture from the tofu.",
+            "Mix the cornflour, garlic, paprika, salt and pepper in a small bowl. Unravel the tofu from the paper, cut in half through the centre, then cut into triangles, cubes or strips.",
+            "Toss the tofu pieces in the spiced cornflour to coat all over. Heat the oil in a large non-stick frying pan over a medium-high heat. Fry the tofu for 2-4 mins on each side until golden, crunchy and browned at the edges. Smaller cubes will take 2 mins each side, larger triangles will take 4 mins. Cook in batches if you need to, adding a little more oil if the pan gets dry.",
+            "Drain the cooked tofu on kitchen paper and season with a pinch more salt before serving."
+        ],
+        "nutritional_info": {
+            "kcal": "165",
+            "fat": "10g",
+            "saturates": "1g",
+            "carbs": "11g",
+            "sugars": "0g",
+            "fibre": "0g",
+            "protein": "8g",
+            "salt": "0.6g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2020/05/crispy-tofu.jpg",
+        "local_image_path": "images/healthy/high-protein/crispy-tofu.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/onepan-english-breakfast/",
+        "title": "[ES] One-pan English breakfast",
+        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyThis combines all the best ingredients of a traditional English breakfast in one frying pan, with no need to chop anything",
+        "prep_time": "5 mins Cook: 15 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 good-quality pork chipolata",
+            "4 rashers smoked back bacon",
+            "140g button mushroom",
+            "6 eggs, beaten",
+            "8 cherry tomatoes, halved",
+            "handful grated cheese (optional)",
+            "1 tbsp snipped chives"
+        ],
+        "method": [
+            "Heat the grill to high. Heat a medium non-stick frying pan, add the chipolatas and fry for 3 mins. Add the bacon, turning occasionally, until it starts to crisp, about 5 mins more. Tip in the mushrooms and continue to cook for a further 3-5 mins. Drain any excess fat and move the ingredients so they are evenly spread out.",
+            "Season the eggs, then add to the pan, swirling to fill the spaces. Gently move with a fork for 2 mins over a low-medium heat until beginning to set. Scatter over the tomatoes, cheese, if using, and chives, then grill for 2 mins until set. Cut into wedges and serve with your favourite sauces."
+        ],
+        "nutritional_info": {
+            "kcal": "349",
+            "fat": "26g",
+            "saturates": "8g",
+            "carbs": "4g",
+            "sugars": "2g",
+            "fibre": "1g",
+            "protein": "25g",
+            "salt": "2.27g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--4715_11.jpg",
+        "local_image_path": "images/healthy/high-protein/onepan-english-breakfast.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/herbed-chicken-skewers/",
+        "title": "[ES] Herbed chicken skewers",
+        "description": "(Translation pending) A superhealthy chicken dish with a ‘no-cook’ relish",
+        "prep_time": "50 mins Ready in 40 to 50 minutes",
+        "cook_time": "",
+        "serves": "8",
+        "ingredients": [
+            "500g tiny new potatoes - look for packets of tiny or baby new potatoes, or pick out the smallest ones you can find if they are sold loose",
+            "3 tbsp each of chopped parsley, mint and chives",
+            "6 tbsp olive oil",
+            "2 tbsp lemon juice",
+            "500g skinless chicken breasts, cut into 3cm chunks",
+            "1 red onion, peeled",
+            "1 red pepper, seeded and cut into 3cm chunks",
+            "1 lemon, cut into 8 wedges",
+            "8 ripe tomatoes - vine grown tomatoes tend to have the best flavour",
+            "2 green chillies, seeded and finely chopped",
+            "2 small garlic cloves, finely chopped",
+            "4 tbsp olive oil",
+            "2 tbsp white wine vinegar"
+        ],
+        "method": [
+            "If using wooden or bamboo\r\nskewers soak eight in cold water\r\nfor about half an hour. Cook the\r\npotatoes in boiling salted water for\r\n10-12 minutes, until just tender,\r\ndrain and leave to cool. Mix the\r\nherbs, oil, lemon juice, salt and\r\npepper in a large bowl and add the\r\nchicken and potatoes. Mix well\r\nuntil everything is glistening. Cut\r\nthe onion into 6 wedges, then\r\nseparate the layers on each\r\nwedge. Add the onion and the\r\npepper to the marinade and mix\r\nthoroughly.",
+            "To make the relish, halve and\r\nseed the tomatoes, then chop the\r\nflesh finely. Mix the tomatoes,\r\nchillies, garlic, oil, vinegar, salt\r\nand pepper and spoon into a\r\nsmall dish.",
+            "Thread the chicken, potatoes,\r\npeppers and onion onto\r\n8 skewers, finishing each with a\r\nlemon wedge. Barbecue directly\r\nover a medium high heat for 5-6\r\nminutes on each side, until the\r\nchicken is cooked. Serve piled on\r\na serving platter with the tomato\r\nrelish."
+        ],
+        "nutritional_info": {
+            "kcal": "230",
+            "fat": "9g",
+            "saturates": "2g",
+            "carbs": "16g",
+            "sugars": "0g",
+            "fibre": "2g",
+            "protein": "18g",
+            "salt": "0.13g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--4273_11.jpg",
+        "local_image_path": "images/healthy/high-protein/herbed-chicken-skewers.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/fruity-lamb-tagine/",
+        "title": "[ES] Fruity lamb tagine",
+        "description": "(Translation pending) This succulent and superhealthy one-pot is guaranteed to satisfy a crowd – save time and make it up to two days ahead",
+        "prep_time": "15 mins Cook: 1 hrs 30 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 tbsp olive oil",
+            "500g lean diced lamb",
+            "1 large onion, roughly chopped",
+            "2 large carrots, quartered lengthways and cut into chunks",
+            "2 garlic cloves, finely chopped",
+            "2 tbsp ras-el-hanout spice mix (see tip, below)",
+            "400g can chopped tomatoes",
+            "400g can chickpeas, rinsed and drained",
+            "200g dried apricots",
+            "600ml chicken stock",
+            "120g pack pomegranate seeds",
+            "2 large handfuls coriander, roughly chopped"
+        ],
+        "method": [
+            "Heat oven to 180C/160C fan/gas 4.\r\nHeat the oil in a casserole and brown\r\nthe lamb on all sides. Scoop the lamb\r\nout onto a plate, then add the onion\r\nand carrots and cook for 2-3 mins until\r\ngolden. Add the garlic and cook for 1 min\r\nmore. Stir in the spices and tomatoes,\r\nand season. Tip the lamb back in with\r\nthe chickpeas and apricots. Pour over the\r\nstock, stir and bring to a simmer. Cover\r\nthe dish and place in the oven for 1 hr.",
+            "If the lamb is still a little tough, give\r\nit 20 mins more until tender. When ready,\r\nleave it to rest so it’s not piping hot, then\r\nserve scattered with pomegranate and\r\nherbs, with couscous or rice alongside."
+        ],
+        "nutritional_info": {
+            "kcal": "497",
+            "fat": "18g",
+            "saturates": "5g",
+            "carbs": "46g",
+            "sugars": "32g",
+            "fibre": "12g",
+            "protein": "40g",
+            "salt": "1.37g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1035656_11.jpg",
+        "local_image_path": "images/healthy/high-protein/fruity-lamb-tagine.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/miniature-omelettes-with-ricotta/",
+        "title": "[ES] Miniature omelettes with ricotta",
+        "description": "(Translation pending) These little omelettes – called frittatine in Italian – make a wonderful appetizer",
+        "prep_time": "",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "4 eggs",
+            "small handful flatleaf parsley, finely chopped, plus extra sprigs to serve",
+            "handful chives, finely snipped",
+            "1 small garlic clove, finely chopped",
+            "50g parmesan, freshly grated",
+            "olive oil, for frying",
+            "250g tub ricotta",
+            "handful fresh basil, torn",
+            "50g parmesan, freshly grated"
+        ],
+        "method": [
+            "Beat the eggs with 2 tbsp water, then season if you want to. Mix in the parsley, chives, garlic and parmesan.",
+            "Heat a 23cm heavy-based frying pan on a medium heat with a little oil. When the oil’s hot, add a ladleful (about a third) of the egg mixture and tip the mixture so it covers the base. Reduce the heat and cook the omelette until just firm, then flip it over and cook the other side. Keep warm. Repeat to make three omelettes, adding a little extra oil to the pan each time.",
+            "Make the filling by combining the ricotta, basil, parmesan and some pepper. Spread mixture over each omelette, roll up loosely like a cigar and cut into thickish slices. Can be made up to 5 hrs ahead. Serve garnished with parsley."
+        ],
+        "nutritional_info": {
+            "kcal": "233",
+            "fat": "19g",
+            "saturates": "8g",
+            "carbs": "1g",
+            "sugars": "0g",
+            "fibre": "0g",
+            "protein": "16g",
+            "salt": "0.71g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--3774_12.jpg",
+        "local_image_path": "images/healthy/high-protein/miniature-omelettes-with-ricotta.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/vitality-chicken-salad-with-avocado-dressing/",
+        "title": "[ES] Vitality chicken salad with avocado dressing",
+        "description": "(Translation pending) A super-green, healthy mix of soya beans, cucumber, avocado and Little Gem lettuce – topped with lean shredded chicken breast",
+        "prep_time": "5 mins Cook: 3 mins",
+        "cook_time": "",
+        "serves": "1",
+        "ingredients": [
+            "handful frozen soya beans",
+            "1 skinless cooked chicken breast, shredded",
+            "¼ cucumber, peeled, deseeded and chopped",
+            "½ avocado, flesh scooped out",
+            "few drops Tabasco sauce",
+            "juice ½ lemon, plus a lemon wedge",
+            "2 tsp extra-virgin olive oil",
+            "5-6 Little Gem lettuce leaves",
+            "1 tsp mixed seed"
+        ],
+        "method": [
+            "Blanch the soya beans for 3 mins. Rinse\r\nin cold water and drain thoroughly. Put the\r\nchicken, beans and cucumber in a bowl.",
+            "Blitz the avocado, Tabasco, lemon\r\njuice and oil in a food processor or\r\nwith a hand blender. Season, pour\r\ninto the bowl and mix well to coat.",
+            "Spoon the mixture into the lettuce\r\nleaves (or serve it alongside them)\r\nand sprinkle with the seeds. Chill until\r\nlunch, then serve with a lemon wedge."
+        ],
+        "nutritional_info": {
+            "kcal": "433",
+            "fat": "28g",
+            "saturates": "6g",
+            "carbs": "6g",
+            "sugars": "4g",
+            "fibre": "7g",
+            "protein": "35g",
+            "salt": "0.2g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1309491_2.jpg",
+        "local_image_path": "images/healthy/high-protein/vitality-chicken-salad-with-avocado-dressing.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/mexican-bean-chilli/",
+        "title": "[ES] Mexican bean chilli",
+        "description": "(Translation pending) The secret ingredient in this chipotle-spiced, beef chilli con carne is a storecupboard favourite – baked beans",
+        "prep_time": "5 mins Cook: 45 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 onion, diced",
+            "1 red pepper, diced",
+            "1 tbsp olive oil",
+            "1 tsp chilli powder",
+            "500g beef mince",
+            "415g can baked beans",
+            "150ml beef stock",
+            "1 tbsp chipotle paste",
+            "coriander leaves, rice and yogurt, to serve"
+        ],
+        "method": [
+            "Fry the onion and red\r\npepper in olive oil over a medium\r\nheat for 10-15 mins or until softened.\r\nIncrease the heat, add the chilli\r\npowder and cook for a few minutes before\r\nadding the mince. Cook until\r\nbrowned and all the liquid has evaporated.",
+            "Tip in the baked beans, beef stock and chipotle paste.\r\nSimmer over a low heat for 15-20 mins.\r\nSeason, scatter with coriander leaves\r\nand serve with rice and yogurt."
+        ],
+        "nutritional_info": {
+            "kcal": "419",
+            "fat": "24g",
+            "saturates": "9g",
+            "carbs": "20g",
+            "sugars": "10g",
+            "fibre": "7g",
+            "protein": "31g",
+            "salt": "1.9g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1283503_8.jpg",
+        "local_image_path": "images/healthy/high-protein/mexican-bean-chilli.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/fruit-and-nut-yogurt/",
+        "title": "[ES] Fruit & nut yogurt",
+        "description": "(Translation pending) An energy-boosting breakfast pot that makes a great alternative to cereal and will keep you full until lunch",
+        "prep_time": "5 mins Cook: 5 mins",
+        "cook_time": "",
+        "serves": "1",
+        "ingredients": [
+            "3 tbsp chopped mixed nuts",
+            "1 tbsp sunflower seed",
+            "1 tbsp pumpkin seed",
+            "1 sliced banana",
+            "1-2 handfuls berries (frozen and defrosted is fine)",
+            "200g vanilla yogurt"
+        ],
+        "method": [
+            "Mix the nuts, sunflower seeds and pumpkin seeds. Mix the sliced banana and berries. Layer up in a bowl with yoghurt and enjoy."
+        ],
+        "nutritional_info": {
+            "kcal": "694",
+            "fat": "41g",
+            "saturates": "8g",
+            "carbs": "53g",
+            "sugars": "45g",
+            "fibre": "6g",
+            "protein": "28g",
+            "salt": "0.3g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--901820_10.jpg",
+        "local_image_path": "images/healthy/high-protein/fruit-and-nut-yogurt.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/dippy-eggs-with-marmite-soldiers/",
+        "title": "[ES] Dippy eggs with Marmite soldiers",
+        "description": "(Translation pending) Start the day the right way, with this quick, easy and nutritious breakfast",
+        "prep_time": "5 mins Cook: 5 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "2 eggs",
+            "4 slices wholemeal bread",
+            "a knob of butter",
+            "Marmite",
+            "mixed seeds"
+        ],
+        "method": [
+            "Bring a pan of water to a simmer. Add\r\n2 eggs, simmer for 2 mins if room temp,\r\n3 mins if fridge-cold, then turn off heat.\r\nCover the pan and leave for 2 mins more.",
+            "Meanwhile, toast 4 slices wholemeal\r\nbread and spread thinly with butter, then\r\nMarmite. To serve, cut into soldiers and\r\ndip into the egg, then a few mixed seeds."
+        ],
+        "nutritional_info": {
+            "kcal": "372",
+            "fat": "21g",
+            "saturates": "8g",
+            "carbs": "31g",
+            "sugars": "2g",
+            "fibre": "4g",
+            "protein": "17g",
+            "salt": "1.09g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--404452_10.jpg",
+        "local_image_path": "images/healthy/high-protein/dippy-eggs-with-marmite-soldiers.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spicy-tuna-and-cottage-cheese-jacket/",
+        "title": "[ES] Spicy tuna & cottage cheese jacket",
+        "description": "(Translation pending) For a low-fat energy lunch try a carbohydrate-heavy baked potato with a light and nutritious filling",
+        "prep_time": "10 mins Cook: 1 hrs",
+        "cook_time": "",
+        "serves": "1",
+        "ingredients": [
+            "225g can tuna, drained",
+            "½ red chilli, chopped",
+            "1 spring onion, sliced",
+            "handful halved cherry tomatoes",
+            "½ small bunch coriander, chopped",
+            "1 medium-sized jacket potato",
+            "150g low-fat cottage cheese"
+        ],
+        "method": [
+            "Preheat the oven to 180C/Gas 4/fan oven 160C. Prick the potato several times with a fork and put it straight onto a shelf in the hottest part of the oven. Bake for approximately 1 hour, or until it is soft inside.",
+            "Mix tuna with chilli, spring onion, cherry\r\ntomatoes and coriander. Split jacket\r\npotato and fill with the tuna mix and\r\ncottage cheese."
+        ],
+        "nutritional_info": {
+            "kcal": "439",
+            "fat": "5g",
+            "saturates": "2g",
+            "carbs": "33g",
+            "sugars": "7g",
+            "fibre": "3g",
+            "protein": "64g",
+            "salt": "1.7g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/user-collections/my-colelction-image/2015/12/recipe-image-legacy-id--1201572_10.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/simple-seafood-chowder/",
+        "title": "[ES] Simple seafood chowder",
+        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyA chunky, creamy soup with salmon and smoked haddock, mixed shellfish and potatoes – a hearty meal",
+        "prep_time": "15 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 tbsp vegetable oil",
+            "1 large onion, chopped",
+            "100g streaky bacon, chopped",
+            "1 tbsp plain flour",
+            "600ml fish stock, made from 1 fish stock cube",
+            "225g new potatoes, halved",
+            "pinch mace",
+            "pinch cayenne pepper",
+            "300ml milk",
+            "320g pack fish pie mix (salmon, haddock and smoked haddock)",
+            "4 tbsp single cream",
+            "250g pack cooked mixed shellfish",
+            "small bunch parsley, chopped",
+            "crusty bread, to serve"
+        ],
+        "method": [
+            "Heat the oil in a large saucepan over\r\na medium heat, then add the onion and\r\nbacon. Cook for 8-10 mins until the onion\r\nis soft and the bacon is cooked. Stir in\r\nthe flour, then cook for a further 2 mins.",
+            "Pour in the fish stock and bring it up\r\nto a gentle simmer. Add the potatoes,\r\ncover, then simmer for 10-12 mins until\r\nthe potatoes are cooked through.",
+            "Add the mace, cayenne pepper and\r\nsome seasoning, then stir in the milk.",
+            "Tip the fish pie mix into the pan,\r\ngently simmer for 4 mins. Add the\r\ncream and shellfish, then simmer\r\nfor 1 min more. Check the seasoning.\r\nSprinkle with the parsley and serve\r\nwith some crusty bread."
+        ],
+        "nutritional_info": {
+            "kcal": "422",
+            "fat": "19g",
+            "saturates": "6g",
+            "carbs": "21g",
+            "sugars": "9g",
+            "fibre": "4g",
+            "protein": "41g",
+            "salt": "2.3g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--950519_11.jpg",
+        "local_image_path": "images/healthy/high-protein/simple-seafood-chowder.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spiced-scrambled-eggs/",
+        "title": "[ES] Spiced scrambled eggs",
+        "description": "(Translation pending) Make a wholesome start to the morning with creamy scrambled eggs on toast, perfect for using up a stray tomato or two",
+        "prep_time": "10 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "1 small chopped onion",
+            "1 chopped red chilli",
+            "knob of butter",
+            "4 beaten eggs",
+            "splash of milk",
+            "good handful diced tomatoes",
+            "coriander leaves",
+            "toast, to serve"
+        ],
+        "method": [
+            "Soften the onion and chilli in a knob of butter.\r\nStir in the beaten eggs and a splash of\r\nmilk. When nearly scrambled, gently\r\nstir in a good handful diced tomatoes\r\nfollowed by some coriander leaves.\r\nSeason and eat on toast."
+        ],
+        "nutritional_info": {
+            "kcal": "236",
+            "fat": "18g",
+            "saturates": "6g",
+            "carbs": "3g",
+            "sugars": "3g",
+            "fibre": "1g",
+            "protein": "16g",
+            "salt": "0.51g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--374480_11.jpg",
+        "local_image_path": "images/healthy/high-protein/spiced-scrambled-eggs.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chicken-red-pepper-and-almond-traybake/",
+        "title": "[ES] Chicken, red pepper & almond traybake",
+        "description": "(Translation pending) A tasty one-pan roast chicken supper with lemon, cumin, paprika, coriander and other North African flavours",
+        "prep_time": "15 mins Cook: 40 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "500g boneless, skinless chicken thighs",
+            "3 medium red onions, cut into thick wedges",
+            "500g small red potatoes, cut into thick slices",
+            "2 red peppers, deseeded and cut into thick slices",
+            "1 garlic clove, finely chopped",
+            "1 tsp each ground cumin, smoked paprika and fennel seeds, slightly crushed",
+            "3 tbsp olive oil",
+            "zest and juice 1 lemon",
+            "50g whole blanched almonds, roughly chopped",
+            "170g tub 0% Greek yogurt, to serve",
+            "small handful parsley or coriander, chopped, to serve"
+        ],
+        "method": [
+            "Heat oven to 200C/180C fan/gas 6. Place the chicken, onions, potatoes and peppers in a large bowl and season. in another bowl, mix together the garlic, spices, oil, and lemon zest and juice. Pour this over everything and spread the mixture between 2 baking trays.",
+            "Roast for 40 mins, turning over after 20 mins, until the chicken is cooked through. Add the almonds for the final 8 mins of cooking. Serve in bowls with a big dollop of Greek yogurt and some chopped parsley or coriander."
+        ],
+        "nutritional_info": {
+            "kcal": "442",
+            "fat": "20g",
+            "saturates": "3g",
+            "carbs": "34g",
+            "sugars": "11g",
+            "fibre": "5g",
+            "protein": "34g",
+            "salt": "0.34g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--837480_11.jpg",
+        "local_image_path": "images/healthy/high-protein/chicken-red-pepper-and-almond-traybake.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/salmon-andamp-soya-bean-salad/",
+        "title": "[ES] Salmon & soya bean salad",
+        "description": "(Translation pending) Packed with the kind of fat that is good for you, this makes a light yet still satisfying meal",
+        "prep_time": "15 mins Cook: 10 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "1 large omega-3 rich egg (See TRY section at the bottom of the recipe)",
+            "200g frozen soya beans, defrosted",
+            "zest and juice 1 lemon",
+            "2 tbsp flax seed oil (we used granoVita)",
+            "250g pouch Puy lentils",
+            "small bunch spring onions, sliced",
+            "2 poached salmon fillets, skin removed"
+        ],
+        "method": [
+            "Put the egg in a pan, cover with cold water and bring to the boil. Cook for 4 mins (or 8 for hard-boiled), adding soya beans to the pan for the final min, then drain and run under cold water to cool. Shell and cut egg into 6 wedges, then set aside.",
+            "Mix the lemon juice and zest with the oil, season, then stir through the soya beans, lentils and spring onions.",
+            "Divide between 2 plates, then gently break the salmon into large flakes and put on top of the lentils along with the egg. Try it with seeded brown bread."
+        ],
+        "nutritional_info": {
+            "kcal": "618",
+            "fat": "30g",
+            "saturates": "5g",
+            "carbs": "41g",
+            "sugars": "6g",
+            "fibre": "14g",
+            "protein": "49g",
+            "salt": "1.47g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--659560_11.jpg",
+        "local_image_path": "images/healthy/high-protein/salmon-andamp-soya-bean-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/thai-salmon-kebabs-with-sweet-chilli-and-lime-dip/",
+        "title": "[ES] Thai salmon kebabs with sweet chilli & lime dip",
+        "description": "(Translation pending) Always pop some salmon fillets in your shopping basket? Try this new way to transform them…",
+        "prep_time": "",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 tbsp sweet chilli sauce",
+            "juice 1 lime",
+            "4 x 140g/5oz skinless salmon fillet, cut into large chunks",
+            "oil, for drizzling"
+        ],
+        "method": [
+            "Combine the sweet chilli sauce and lime juice in a bowl. Pour half the mixture into a bowl for serving. Thread the salmon onto 4 skewers and brush with the remaining chilli sauce. Marinate for 20 mins.",
+            "Heat a griddle pan until very hot. Shake excess marinade from the kebabs, then drizzle with oil, season and griddle for 8 mins, turning occasionally until the salmon is opaque and comes away easily from the pan. Serve hot with the dipping sauce."
+        ],
+        "nutritional_info": {
+            "kcal": "291",
+            "fat": "19g",
+            "saturates": "4g",
+            "carbs": "3g",
+            "sugars": "2g",
+            "fibre": "1g",
+            "protein": "29g",
+            "salt": "1.16g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--2204_11.jpg",
+        "local_image_path": "images/healthy/high-protein/thai-salmon-kebabs-with-sweet-chilli-and-lime-dip.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/griddled-chicken-with-quinoa-greek-salad/",
+        "title": "[ES] Griddled chicken with quinoa Greek salad",
+        "description": "(Translation pending) A light dish of grilled chicken fillets and authentic salad with Kalamata olives, feta cheese, tomato and mint",
+        "prep_time": "",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "225g quinoa",
+            "25g butter",
+            "1 red chilli, deseeded and finely chopped",
+            "1 garlic clove, crushed",
+            "400g chicken mini fillets",
+            "1½  tbsp extra-virgin olive oil",
+            "300g vine tomatoes, roughly chopped",
+            "handful pitted black kalamata olives",
+            "1 red onion, finely sliced",
+            "100g feta cheese, crumbled",
+            "small bunch mint leaves, chopped",
+            "juice and zest ½ lemon"
+        ],
+        "method": [
+            "Cook the quinoa following the\r\npack instructions, then rinse in\r\ncold water and drain thoroughly.",
+            "Meanwhile, mix the butter,\r\nchilli and garlic into a paste. Toss\r\nthe chicken fillets in 2 tsp of the\r\nolive oil with some seasoning.\r\nLay in a hot griddle pan and cook\r\nfor 3-4 mins each side or until\r\ncooked through. Transfer to a plate, dot with the spicy butter\r\nand set aside to melt.",
+            "Next, tip the tomatoes, olives,\r\nonion, feta and mint into a bowl.\r\nToss in the cooked quinoa. Stir\r\nthrough the remaining olive oil,\r\nlemon juice and zest, and season\r\nwell. Serve with the chicken\r\nfillets on top, drizzled with any\r\nbuttery chicken juices."
+        ],
+        "nutritional_info": {
+            "kcal": "473",
+            "fat": "20g",
+            "saturates": "8g",
+            "carbs": "35g",
+            "sugars": "8g",
+            "fibre": "2g",
+            "protein": "37g",
+            "salt": "1.4g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201615_11.jpg",
+        "local_image_path": "images/healthy/high-protein/griddled-chicken-with-quinoa-greek-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spicy-cajun-chicken-quinoa/",
+        "title": "[ES] Spicy Cajun chicken quinoa",
+        "description": "(Translation pending) Protein-packed quinoa makes this midweek meal a superhealthy option",
+        "prep_time": "10 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 skinless chicken breasts, cut into bite-sized pieces",
+            "1 tbsp Cajun seasoning",
+            "100g quinoa",
+            "600ml hot chicken stock",
+            "100g dried apricots, sliced",
+            "½ x 250g pouch ready-to-use Puy lentils",
+            "1 tbsp olive oil",
+            "2 red onions, cut into thin wedges",
+            "1 bunch spring onions, chopped",
+            "small bunch coriander, chopped"
+        ],
+        "method": [
+            "Heat oven to 200C/180C fan/gas 6.\r\nToss the chicken with the Cajun spice\r\nand arrange in a single layer in a roasting\r\ntin. Bake for 20 mins until the chicken\r\nis cooked. Set aside.",
+            "Meanwhile, cook the quinoa in the\r\nchicken stock for 15 mins until tender,\r\nadding the apricots and lentils for the\r\nfinal 5 mins. Drain and place into a large\r\nbowl with the chicken, toss together.",
+            "While the quinoa is cooking, heat\r\nthe oil in a large frying pan and soften the\r\nonions for 10-15 mins. Toss the onions\r\ninto the quinoa with the coriander and\r\nsome seasoning, then mix well."
+        ],
+        "nutritional_info": {
+            "kcal": "386",
+            "fat": "7g",
+            "saturates": "1g",
+            "carbs": "35g",
+            "sugars": "15g",
+            "fibre": "5g",
+            "protein": "47g",
+            "salt": "1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/user-collections/my-colelction-image/2015/12/recipe-image-legacy-id--589462_11.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/cajun-turkey-steaks-with-pineapple-salsa/",
+        "title": "[ES] Cajun turkey steaks with pineapple salsa",
+        "description": "(Translation pending) Turkey is the ultimate healthy, feelgood food – low in fat but high in protein. Jazz it up with a spicy salsa",
+        "prep_time": "10 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 red onion, finely chopped",
+            "1 tbsp sunflower oil",
+            "1 red pepper, deseeded and diced",
+            "200g basmati rice",
+            "450ml chicken stock",
+            "400g can kidney beans, rinsed and drained",
+            "4 turkey steaks",
+            "2 tsp Cajun seasoning",
+            "5oz 140g fresh pineapples (or 220g can pineapple rings, drained)",
+            "½ green chilli, finely chopped",
+            "juice 1 lime"
+        ],
+        "method": [
+            "Reserve 2 tbsp of the onion for the\r\nsalsa. Heat the oil in a saucepan and\r\ncook the remaining onion and half the\r\npepper for 4 mins or until softened and\r\ncoloured. Stir in the rice, then pour in the\r\nstock. Add the kidney beans and a pinch\r\nof salt. Bring to the boil, stir once, cover\r\nthe pan, then reduce the heat to a gentle\r\nsimmer. Cook for 15 mins until the rice is\r\ntender and the liquid absorbed.",
+            "Dust the turkey steaks with the Cajun\r\nspice and griddle or fry in a non-stick pan\r\nfor about 4-6 mins on each side until\r\ncooked through. Cut the pineapple into\r\nsmall pieces and mix together with the\r\nreserved red onion, pepper, green chilli\r\nand lime juice. Spoon some salsa over\r\neach steak and serve with the rice."
+        ],
+        "nutritional_info": {
+            "kcal": "467",
+            "fat": "5g",
+            "saturates": "1g",
+            "carbs": "60g",
+            "sugars": "10g",
+            "fibre": "6g",
+            "protein": "49g",
+            "salt": "0.53g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--265506_11.jpg",
+        "local_image_path": "images/healthy/high-protein/cajun-turkey-steaks-with-pineapple-salsa.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spring-salmon-with-minty-veg/",
+        "title": "[ES] Spring salmon with minty veg",
+        "description": "(Translation pending) An easy-to-prepare healthy meal which counts for two of your five-a-day",
+        "prep_time": "10 mins Cook: 10 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "750g small new potatoes, thickly sliced",
+            "750g frozen peas and beans (we used Waitrose pea and bean mix, £2.29/1kg)",
+            "3 tbsp olive oil",
+            "zest and juice of 1 lemon",
+            "small pack mint, leaves only",
+            "4 salmon fillets about 140g/5oz each"
+        ],
+        "method": [
+            "Boil the potatoes in a large pan for 4 mins.\r\nTip in the peas and beans, bring back up\r\nto a boil, then carry on cooking for another\r\n3 mins until the potatoes and beans are\r\ntender. Whizz the olive oil, lemon zest and\r\njuice and mint in a blender to make a dressing(or finely chop the mint and whisk into the\r\noil and lemon).",
+            "Put the salmon in a microwave-proof dish,\r\nseason, then pour the dressing over. Cover\r\nwith cling film, pierce, then microwave on\r\nHigh for 4-5 mins until cooked through.\r\nDrain the veg, then mix with the hot dressing\r\nand cooking juices from the fish. Serve the\r\nfish on top of the vegetables."
+        ],
+        "nutritional_info": {
+            "kcal": "555",
+            "fat": "26g",
+            "saturates": "5g",
+            "carbs": "42g",
+            "sugars": "8g",
+            "fibre": "10g",
+            "protein": "40g",
+            "salt": "0.23g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--229541_12.jpg",
+        "local_image_path": "images/healthy/high-protein/spring-salmon-with-minty-veg.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/hearty-lamb-stew/",
+        "title": "[ES] Hearty lamb stew",
+        "description": "(Translation pending) A classic one-pot is the easy answer to mid-week cooking- hearty, filling, warming and packed full of veggies",
+        "prep_time": "10 mins Cook: 1 hrs 40 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 tbsp vegetable oil",
+            "500g cubed stewing lamb",
+            "1 onion, thickly sliced",
+            "2 carrots, thickly sliced",
+            "2 leeks, thickly sliced",
+            "400ml hot vegetable or chicken stock",
+            "1 tsp dried rosemary or 1 fresh sprig",
+            "400g cannellini beans, rinsed and drained",
+            "crusty bread or boiled potatoes to serve (optional)"
+        ],
+        "method": [
+            "Heat the oil in a large casserole. Tip in the lamb and cook for 5 mins until any liquid has disappeared, then add the onion, carrots and leeks. Cook for 5 mins more, stirring often, until the veg is starting to soften.",
+            "Pour over the stock, add the rosemary, cover with a lid and cook over a low heat for 1 hr. Stir in the beans and cook for 30 mins more, topping up with water if necessary, until the lamb is tender and cooked through. Serve with some crusty bread or potatoes, if you like."
+        ],
+        "nutritional_info": {
+            "kcal": "397",
+            "fat": "20g",
+            "saturates": "8g",
+            "carbs": "19g",
+            "sugars": "8g",
+            "fibre": "6g",
+            "protein": "38g",
+            "salt": "1.15g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1079586_11.jpg",
+        "local_image_path": "images/healthy/high-protein/hearty-lamb-stew.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/healthy-homemade-houmous/",
+        "title": "[ES] Easy hummus recipe",
+        "description": "(Translation pending) A smooth blended chickpea dip with tahini and garlic that's versatile and good for you, this easy hummus makes a great snack or lunch",
+        "prep_time": "5 mins No cook",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "1 x 400g can chickpea, don't drain",
+            "1 tbsp tahini paste",
+            "1 fat garlic clove, chopped",
+            "3 tbsp 0% fat Greek yogurt",
+            "good squeeze lemon juice"
+        ],
+        "method": [
+            "Drain the chickpeas into a sieve set over a bowl or jug to catch the liquid. Tip the chickpeas, tahini, garlic and yogurt into a food processor or blender and whizz to smooth. Whizz in a tbsp of the chickpea liquid at a time until you have a nice consistency, then scrape into a bowl, stir in a squeeze of lemon juice and season to taste."
+        ],
+        "nutritional_info": {
+            "kcal": "135",
+            "fat": "5.1g",
+            "saturates": "0.7g",
+            "carbs": "12.4g",
+            "sugars": "1.3g",
+            "fibre": "2.6g",
+            "protein": "7.5g",
+            "salt": "0.5g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--890485_11.jpg",
+        "local_image_path": "images/healthy/high-protein/healthy-homemade-houmous.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/sea-bass-seafood-italian-one-pot/",
+        "title": "[ES] Sea bass & seafood Italian one-pot",
+        "description": "(Translation pending) A one-pot fish stew with shellfish and all the fresh flavours of the Mediterranean – serve with plenty of bread for dipping",
+        "prep_time": "15 mins Cook: 45 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 tbsp olive oil",
+            "1 fennel bulb, halved and sliced, fronds kept separate to garnish",
+            "2 garlic cloves, sliced",
+            "½ red chilli, chopped",
+            "250g cleaned squid, sliced into rings",
+            "bunch basil, leaves and stalks separated, stalks tied together, leaves roughly chopped",
+            "400g can chopped tomatoes",
+            "150ml white wine",
+            "2 large handfuls of mussels or clams",
+            "8 large raw prawns (whole look nicest)",
+            "4 sea bass fillets (about 140g/5oz each)",
+            "crusty bread, to serve"
+        ],
+        "method": [
+            "Heat the oil in a large saucepan with a\r\ntight-fitting lid, then add the fennel, garlic\r\nand chilli. Fry until softened, then add the\r\nsquid, basil stalks, tomatoes and wine.\r\nSimmer over a low heat for 35 mins until\r\nthe squid is tender and the sauce has\r\nthickened slightly, then season.",
+            "Scatter the mussels and prawns over\r\nthe sauce, lay the sea bass fillets on\r\ntop, cover, turn up the heat and cook\r\nhard for 5 mins. Serve scattered with\r\nthe basil leaves and fennel fronds,\r\nwith crusty bread."
+        ],
+        "nutritional_info": {
+            "kcal": "329",
+            "fat": "11g",
+            "saturates": "2g",
+            "carbs": "7g",
+            "sugars": "4g",
+            "fibre": "2g",
+            "protein": "45g",
+            "salt": "1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--910471_11.jpg",
+        "local_image_path": "images/healthy/high-protein/sea-bass-seafood-italian-one-pot.jpg"
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/ajiaco/",
+        "title": "Ajiaco",
+        "description": "Esta sopa clásica colombiana se sirve con crema, alcaparras, aguacate, mote (maíz hervido) y pechuga de pollo desmenuzada, todo mezclado justo antes de comer",
+        "prep_time": "20 mins Cocción: 1 h",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 pechugas de pollo sin piel",
+            "2 mazorcas de maíz choclo (una variedad de maíz amarillo de grano grande) o mazorcas de maíz regulares",
+            "4 dientes de ajo, en rodajas",
+            "\u00bd cebolla blanca, picada en cubos",
+            "1 pimiento amarillo, picado en cubos",
+            "4 papas medianas (rojas o blancas), peladas y picadas en cubos",
+            "2 cebolletas, picadas",
+            "6 ramitas de cilantro, picadas, y un poco más para servir",
+            "12 papas criollas (papas amarillas pequeñas), cortadas por la mitad",
+            "8 cdas de guascas",
+            "100ml de crema simple o doble",
+            "4 cdas de alcaparras, escurridas",
+            "1 aguacate, pelado, deshuesado y cortado en cubos pequeños"
+        ],
+        "method": [
+            "Poner el pollo, las mazorcas de maíz, el ajo, la cebolla, el pimiento, las papas, las cebolletas y el cilantro en una olla con 2 litros de agua y llevar a ebullición, sazonar bien, luego cocinar a fuego lento durante aproximadamente 45 minutos a fuego medio.",
+            "Retirar el maíz y el pollo y transferirlos a un plato. Licuar los ingredientes restantes en la olla con una batidora de mano hasta obtener una consistencia cremosa.",
+            "Agregar las papas criollas y las guascas a la olla y cocinar a fuego medio durante unos 10-12 minutos, o hasta que las papas criollas comiencen a ablandarse pero no se desintegren.",
+            "Mientras tanto, desmenuzar las pechugas de pollo finamente con las manos y cortar las mazorcas de maíz en rodajas gruesas. Poner en pequeños cuencos separados.",
+            "Poner la crema, las alcaparras, el aguacate y el cilantro picado extra en pequeños cuencos también, para que cada uno pueda servirse lo que quiera. Verter la sopa en cuatro platos hondos y servir junto con los otros ingredientes. No olvides servilletas para comer las rodajas de maíz."
+        ],
+        "nutritional_info": {
+            "kcal": "385",
+            "fat": "3g",
+            "saturates": "1g",
+            "carbs": "57g",
+            "sugars": "7g",
+            "fibre": "12g",
+            "protein": "27g",
+            "salt": "0.1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2019/01/ajiaco.jpg",
+        "local_image_path": "images/cuisine/latin-american/ajiaco.jpg"
+    }
+]

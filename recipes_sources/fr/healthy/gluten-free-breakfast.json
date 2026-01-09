@@ -1,0 +1,794 @@
+[
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/easy-ratatouille-with-poached-eggs/",
+        "title": "Ratatouille facile aux oeufs pochés",
+        "description": "Ce one-pot courageux peut généralement être préparé à l'avance – il suffit de casser les œufs à la fin.",
+        "prep_time": "15 mins Cook: 50 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à soupe d'huile d'olive",
+            "1 gros oignon, haché",
+            "1 poivron rouge ou orange, épépiné et tranché finement",
+            "2 gousses d'ail, hachées finement",
+            "1 cuillère à soupe de romarin haché",
+            "1 aubergine, coupée en dés",
+            "2 courgettes, coupées en dés",
+            "Boîte de 400 g de tomates concassées",
+            "1 cuillère à café de vinaigre balsamique",
+            "4 gros œufs",
+            "une poignée de feuilles de basilic"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une grande poêle. Ajouter\r\nl'oignon, le poivron, l'ail et le romarin,\r\npuis laissez cuire 5 min en remuant fréquemment,\r\njusqu'à ce que l'oignon soit ramolli. Ajoutez le\r\naubergines et courgettes, puis cuire\r\npendant 2 minutes de plus.",
+            "Ajoutez les tomates, puis remplissez la boîte de\r\nl'eau, faites-la tourner et versez-la dans la casserole.\r\nPortez à ébullition, couvrez, puis laissez mijoter pendant\r\n40 minutes, en découvrant après 20 minutes, jusqu'à ce que\r\nréduite et pulpeuse.",
+            "Incorporez le vinaigre à la ratatouille, puis\r\nfaites 4 emplacements pour les œufs. Casser un œuf\r\ndans chaque trou et assaisonner avec du noir\r\npoivre. Couvrir puis cuire 2 à 5 minutes\r\njusqu'à ce qu'il soit pris aussi doucement ou fermement que vous le souhaitez.\r\nParsemer de basilic et servir avec\r\ndu pain croustillant pour éponger le jus."
+        ],
+        "nutritional_info": {
+            "kcal": "190",
+            "fat": "11g",
+            "saturates": "2g",
+            "carbs": "13g",
+            "sugars": "10g",
+            "fibre": "5g",
+            "protein": "12g",
+            "salt": "0.36g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--513467_11.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/easy-ratatouille-with-poached-eggs.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/pancetta-pepper-piperade/",
+        "title": "Pancetta & piperade au poivre",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Les œufs sont concassés dans une riche sauce tomate et pancetta dans ce plat traditionnel d'inspiration basque – parfait pour un brunch ou un repas en milieu de semaine.",
+        "prep_time": "10 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 paquets de 70 g de morceaux de pancetta",
+            "1 oignon rouge, finement haché",
+            "3 poivrons, 1 de chacun vert, rouge et jaune, épépinés et finement coupés",
+            "Boîte de 400 g de tomates concassées",
+            "2 cuillères à soupe de purée de tomates",
+            "4 œufs moyens",
+            "une petite poignée de feuilles de basilic, émincées",
+            "pain croustillant, pour servir (facultatif)"
+        ],
+        "method": [
+            "Mettez la pancetta et l'oignon dans une grande poêle profonde. Cuire 7 minutes jusqu'à ce que l'oignon commence à ramollir.",
+            "Ajouter les poivrons, les tomates et la purée de tomates dans la poêle et bien mélanger. Assaisonner, couvrir et cuire 10 à 15 minutes.",
+            "Faites 4 petits puits dans le mélange. Cassez un œuf dans chaque puits et laissez cuire encore 5 à 6 minutes ou jusqu'à ce que les œufs soient pris. Parsemez de basilic et servez aussitôt, avec du pain croustillant, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "259",
+            "fat": "15g",
+            "saturates": "5g",
+            "carbs": "13g",
+            "sugars": "12g",
+            "fibre": "5g",
+            "protein": "15g",
+            "salt": "1.3g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/pancetta-pepper-piperade.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/pancetta-pepper-piperade.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/berry-omelette/",
+        "title": "Omelette aux baies",
+        "description": "Une omelette à un œuf constitue un petit-déjeuner riche en protéines. Si les baies qui stimulent le cerveau ne sont pas assez sucrées, ajoutez 1 cuillère à café de miel.",
+        "prep_time": "5 mins Cook: 2 mins",
+        "cook_time": "",
+        "serves": "1",
+        "ingredients": [
+            "1 gros œuf",
+            "1 cuillère à soupe de lait écrémé",
+            "3 pincées de cannelle",
+            "½ cuillère à café d'huile de colza",
+            "100g de fromage blanc",
+            "175 g de fraises, myrtilles et framboises hachées"
+        ],
+        "method": [
+            "Battre l'œuf avec le lait et la cannelle. Faites chauffer l'huile dans une poêle antiadhésive de 20 cm et versez le mélange d'œufs en remuant pour couvrir uniformément le fond. Cuire quelques minutes jusqu'à ce que le dessous soit pris et doré. Il n'est pas nécessaire de le retourner.",
+            "Placer sur une assiette, étaler sur le fromage, puis parsemer de baies. Rouler et servir."
+        ],
+        "nutritional_info": {
+            "kcal": "264",
+            "fat": "12g",
+            "saturates": "4g",
+            "carbs": "18g",
+            "sugars": "16g",
+            "fibre": "4g",
+            "protein": "21g",
+            "salt": "1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/omelette_0.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/berry-omelette.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/parsnip-hash-browns/",
+        "title": "Pommes de terre rissolées de panais",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Ces pommes de terre rissolées croustillantes peuvent être préparées à l'avance et réchauffées surgelées – idéales pour les visiteurs inattendus de Noël.",
+        "prep_time": "",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "450 g de pommes de terre à chair ferme (type Charlotte)",
+            "350 g de panais ou autre légume racine",
+            "1 petit oignon, coupé en deux et émincé",
+            "1 gousse d'ail, hachée finement",
+            "1 œuf battu",
+            "4-5 cuillères à soupe d'huile de tournesol",
+            "6 tranches de bacon entrelacé ou tranches de prosciutto",
+            "6 tiges de tomates cerises sur vigne",
+            "6 oeufs"
+        ],
+        "method": [
+            "Épluchez et râpez grossièrement les pommes de terre et les panais – si vous utilisez un robot culinaire, fixez la râpe moyenne. Essorez autant de liquide que possible avec vos mains et mettez-les dans un bol.",
+            "Incorporer l'oignon, l'ail, l'œuf et assaisonner si vous le souhaitez. Divisez le mélange en six et façonnez grossièrement des galettes. Faites chauffer 2 cuillères à soupe d'huile dans une grande poêle antiadhésive et faites frire trois gâteaux à feu doux pendant 4 à 5 minutes de chaque côté jusqu'à ce qu'ils soient dorés et tendres. Transférer sur du papier absorbant avec une écumoire et laisser refroidir tout en faisant frire le reste, en ajoutant le reste de l'huile si nécessaire. Pendant ce temps, faites griller le bacon et les tomates, pochez les œufs et servez à côté."
+        ],
+        "nutritional_info": {
+            "kcal": "179",
+            "fat": "9g",
+            "saturates": "1g",
+            "carbs": "21g",
+            "sugars": "0g",
+            "fibre": "4g",
+            "protein": "4g",
+            "salt": "0.06g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/user-collections/my-colelction-image/2015/12/recipe-image-legacy-id--1201456_10.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/all-in-one-baked-mushrooms/",
+        "title": "Champignons au four tout-en-un",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Un excellent repas en milieu de semaine ou un petit-déjeuner le week-end cuit dans un seul plateau pour éviter la vaisselle.",
+        "prep_time": "5 mins Cook: 25 mins Ready in 30 minutes",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "2 cuillères à soupe d'huile d'olive",
+            "4 très gros champignons des champs",
+            "4 tranches de jambon cuit de bonne qualité",
+            "4 œufs"
+        ],
+        "method": [
+            "Chauffer le four à 220C/chaleur tournante 200C/gaz 7. Arroser \r\nun peu d'huile d'olive sur le fond d'une céramique \r\nplat allant au four, puis ajoutez les champignons.",
+            "Arroser du reste d’huile et d’assaisonnement. \r\nCuire au four pendant 15 minutes jusqu'à ce qu'il soit tendre, puis retirer \r\ndu four.",
+            "Rentrez les tranches de jambon autour des champignons \r\npour créer des petites poches. Cassez les œufs dans le \r\npoches, puis remettre au four 10 min \r\njusqu'à ce que le blanc d'œuf soit pris et que le jaune soit encore \r\nun peu coulant. Servir directement du \r\nplat. Excellent avec des fèves au lard et des chips."
+        ],
+        "nutritional_info": {
+            "kcal": "379",
+            "fat": "28g",
+            "saturates": "6g",
+            "carbs": "1g",
+            "sugars": "1g",
+            "fibre": "3g",
+            "protein": "30g",
+            "salt": "1.79g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201503_10.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/all-in-one-baked-mushrooms.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/grapefruit-agave-and-pistachio-salad/",
+        "title": "Salade de pamplemousse, agave et pistaches",
+        "description": "Les salades de fruits sont rapides à préparer et constituent l'une des façons les plus saines de commencer la journée : sucrer avec une alternative au sucre.",
+        "prep_time": "5 mins No cook",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "1 pamplemousse rose",
+            "1 pamplemousse blanc",
+            "1 cuillère à soupe de nectar d'agave",
+            "1 cuillère à café de pistache hachée"
+        ],
+        "method": [
+            "Segmentez les pamplemousses en enlevant le plus de moelle possible. Répartir les segments dans deux bols et garnir d'agave et de pistaches."
+        ],
+        "nutritional_info": {
+            "kcal": "107",
+            "fat": "1g",
+            "saturates": "0g",
+            "carbs": "21g",
+            "sugars": "12g",
+            "fibre": "2g",
+            "protein": "2g",
+            "salt": "0g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201667_11.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/grapefruit-agave-and-pistachio-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/grapefruit-orange-and-apricot-salad/",
+        "title": "Salade de pamplemousse, orange et abricot",
+        "description": "Une salade de fruits ultra simple pour le petit-déjeuner et au-delà, sucrée au miel et riche en nutriments",
+        "prep_time": "10 mins No cook",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 pamplemousses, pelure et moelle coupées",
+            "4 oranges, la peau et la peau coupées",
+            "4 abricots dénoyautés et tranchés",
+            "1 cuillère à soupe de miel clair"
+        ],
+        "method": [
+            "Segmentez les pamplemousses et les oranges\r\ndans un grand bol pour récupérer le jus. Remuer\r\ndans les abricots et le miel, et servir."
+        ],
+        "nutritional_info": {
+            "kcal": "83",
+            "fat": "0g",
+            "saturates": "0g",
+            "carbs": "18g",
+            "sugars": "18g",
+            "fibre": "4g",
+            "protein": "2g",
+            "salt": "0g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201623_11.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/grapefruit-orange-and-apricot-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/breakfast-smoothie/",
+        "title": "Smoothie du petit-déjeuner",
+        "description": "Profitez au maximum de la saison des petits fruits avec un verre de bonté fruitée",
+        "prep_time": "5 mins",
+        "cook_time": "",
+        "serves": "1",
+        "ingredients": [
+            "1 petite banane mûre",
+            "environ 140 g de mûres, myrtilles, framboises ou fraises (ou utilisez un mélange), plus un peu pour servir",
+            "jus de pomme ou eau minérale, facultatif",
+            "miel qui coule, pour servir"
+        ],
+        "method": [
+            "Coupez la banane dans votre mixeur ou robot culinaire et ajoutez les baies de votre choix. Mélanger jusqu'à consistance lisse. Pendant que les lames tournent, versez du jus ou de l'eau pour obtenir la consistance que vous aimez. Ajoutez quelques fruits supplémentaires dessus, arrosez de miel et servez."
+        ],
+        "nutritional_info": {
+            "kcal": "124",
+            "fat": "1g",
+            "saturates": "0.1g",
+            "carbs": "25g",
+            "sugars": "24g",
+            "fibre": "5g",
+            "protein": "2g",
+            "salt": "0.01g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201467_11.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/breakfast-smoothie.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/summer-fruit-compote/",
+        "title": "Compote de fruits d'été",
+        "description": "Ajoutez des framboises d'été, des myrtilles et des prunes juteuses au jus d'orange pour un mélange nutritif pour le petit-déjeuner.",
+        "prep_time": "5 mins Cook: 10 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 grosses prunes, dénoyautées et coupées en quartiers",
+            "200 g de barquette de myrtilles",
+            "le zeste et le jus d'une orange",
+            "25 g de sucre roux clair et mou",
+            "150 g de framboises barquette",
+            "yaourt épais et miel, pour servir (facultatif)"
+        ],
+        "method": [
+            "Cuire les prunes et les myrtilles dans une\r\npetite casserole avec le zeste et le jus d'orange,\r\nsucre et 4 cuillères à soupe d'eau jusqu'à ce que légèrement\r\nramolli mais pas pâteux. Incorporer délicatement le\r\nframboises et cuire encore 1 min.",
+            "Retirer du feu et laisser reposer\r\nlaisser refroidir à température ambiante. Servir avec\r\ndu yaourt et un filet de miel, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "98",
+            "fat": "0g",
+            "saturates": "0g",
+            "carbs": "22g",
+            "sugars": "21g",
+            "fibre": "4g",
+            "protein": "2g",
+            "salt": "0g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201659_11.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/summer-fruit-compote.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/minty-salmon-and-broccoli-frittata/",
+        "title": "Frittata de saumon et brocoli à la menthe",
+        "description": "Copieux et rapide, et tout aussi bon le lendemain dans votre boîte à lunch",
+        "prep_time": "5 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "500 g de pommes de terre nouvelles",
+            "1 petite tête de brocoli, coupée en fleurons",
+            "2 filets de saumon sans peau",
+            "1 cuillère à soupe d'huile d'olive",
+            "une petite poignée de menthe hachée finement",
+            "8 œufs battus"
+        ],
+        "method": [
+            "Faire bouillir les pommes de terre dans une grande poêle pendant 10 à 12 minutes,\r\najouter les morceaux de brocoli pour la finale\r\n4 minutes jusqu'à ce que tout soit tendre. Bien égoutter.\r\nPendant ce temps, déposez les filets de saumon dans un\r\nplat allant au micro-ondes, arrosez-en un peu\r\neau, puis couvrir d'un film alimentaire et passer au micro-ondes\r\nà puissance élevée pendant 2½ minutes jusqu'à ce que le poisson se défasse.",
+            "Faites chauffer le gril. Faites chauffer l'huile dans une friteuse\r\ncasserole. Coupez les pommes de terre en grosses tranches,\r\npuis cuire rapidement à la poêle à feu vif\r\njusqu'à ce que les bords soient dorés. Écaillez le saumon\r\nen gros morceaux et piquez parmi les\r\npommes de terre avec le brocoli. Remuez la menthe et\r\nun peu d'assaisonnement dans les œufs, puis versez\r\ndans la poêle. Laisser poser 6 minutes à feu doux\r\nchauffer jusqu'à ce que les côtés soient pris et juste le\r\nle centre est un peu bancal, puis clignote sous le\r\ngriller pour prendre complètement et dorer. Servir dans\r\nquartiers avec une grosse salade verte en accompagnement."
+        ],
+        "nutritional_info": {
+            "kcal": "440",
+            "fat": "24g",
+            "saturates": "6g",
+            "carbs": "21g",
+            "sugars": "3g",
+            "fibre": "0g",
+            "protein": "34g",
+            "salt": "0.56g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--12160_12.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/minty-salmon-and-broccoli-frittata.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spicy-tomato-baked-eggs/",
+        "title": "Shakchouka",
+        "description": "Variez ce plat de brunch populaire en aromatisant la simple sauce tomate avec tout ce que vous avez sous la main : poudre de curry, pesto ou herbes fraîches.",
+        "prep_time": "5 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "1 cuillère à soupe d'huile d'olive",
+            "2 oignons rouges, hachés",
+            "1 piment rouge épépiné et finement haché",
+            "1 gousse d'ail, tranchée",
+            "petit bouquet de coriandre, tiges et feuilles hachées séparément",
+            "2 boîtes de 400 g de tomates cerises",
+            "1 cuillère à café de sucre en poudre",
+            "4 œufs"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une poêle munie d'un\r\ncouvercle, puis attendrir les oignons, le piment, l'ail et\r\ntiges de coriandre pendant 5 minutes jusqu'à ce qu'elles soient tendres. Remuer\r\ndans les tomates et le sucre, puis faire bouillonner\r\npendant 8 à 10 minutes jusqu'à épaississement. Peut être congelé pendant\r\n1 mois.",
+            "À l'aide du dos d'une grande cuillère, préparez\r\n4 trempettes dans la sauce, puis casser un œuf dedans\r\nchacun. Mettez un couvercle sur la poêle, puis faites cuire\r\nà feu doux pendant 6 à 8 minutes, jusqu'à ce que les œufs\r\nsont faits à votre goût. Dispersez-vous avec le\r\nfeuilles de coriandre et servir avec du pain croustillant."
+        ],
+        "nutritional_info": {
+            "kcal": "340",
+            "fat": "20g",
+            "saturates": "5g",
+            "carbs": "21g",
+            "sugars": "17g",
+            "fibre": "0g",
+            "protein": "21g",
+            "salt": "1.25g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--12141_11.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/spicy-tomato-baked-eggs.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/orange-and-mint-salad/",
+        "title": "Salade d'orange et de menthe",
+        "description": "Hannah Measures, lectrice de Good Food, partage sa recette d'une salade de fruits fraîche et saine pour le petit-déjeuner",
+        "prep_time": "15 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 oranges",
+            "12 dattes molles, dénoyautées, tranchées dans le sens de la longueur",
+            "petit bouquet de menthe, feuilles finement hachées, plus quelques-unes entières",
+            "1 cuillère à soupe de sirop de rose ou d'eau de rose"
+        ],
+        "method": [
+            "Eplucher puis segmenter les oranges,\r\nen enlevant la peau blanche. Placer dans un bol\r\navec les jus de fruits, puis ajoutez les dattes,\r\nmenthe hachée et sirop de rose et mélanger\r\ndoucement. Répartir dans 4 bols à dessert,\r\nparsemer de feuilles de menthe et servir."
+        ],
+        "nutritional_info": {
+            "kcal": "222",
+            "fat": "1g",
+            "saturates": "0g",
+            "carbs": "54g",
+            "sugars": "54g",
+            "fibre": "5g",
+            "protein": "4g",
+            "salt": "0.04g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201528_11.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/orange-and-mint-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/veggie-breakfast-bakes/",
+        "title": "Petit-déjeuner végétarien",
+        "description": "Frappez 3 de vos 5 par jour avec cette friture alternative : elle est remplie de légumes et cuite au four.",
+        "prep_time": "15 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 gros champignons des champs",
+            "8 tomates, coupées en deux",
+            "1 gousse d'ail, tranchée finement",
+            "2 cuillères à café d'huile d'olive",
+            "200 g d'épinards",
+            "4 œufs"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C ventilateur/gaz 6.\r\nMettez les champignons et les tomates dans\r\n4 plats allant au four. Répartir l'ail entre\r\nles plats, arroser d'huile et d'un peu\r\nassaisonner, puis enfourner 10 min.",
+            "Pendant ce temps, mettez les épinards dans un grand\r\npassoire, puis versez sur une bouilloire de\r\nde l'eau bouillante pour le flétrir. Éliminez tout\r\nl'excès d'eau, puis ajoutez les épinards à\r\nles plats. Faites un petit écart entre le\r\nlégumes et cassez un œuf dans chacun\r\nplat. Remettre au four et cuire un\r\nencore 8 à 10 minutes ou jusqu'à ce que l'œuf soit\r\ncuisiné à votre goût."
+        ],
+        "nutritional_info": {
+            "kcal": "127",
+            "fat": "8g",
+            "saturates": "2g",
+            "carbs": "5g",
+            "sugars": "5g",
+            "fibre": "3g",
+            "protein": "9g",
+            "salt": "0.4g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201575_11.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/veggie-breakfast-bakes.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/feta-and-semidried-tomato-omelette/",
+        "title": "Omelette feta & tomates mi-séchées",
+        "description": "Cuire des œufs avec du fromage et des tomates constitue un repas ultra-rapide, prêt en 10 minutes.",
+        "prep_time": "5 mins Cook: 5 mins",
+        "cook_time": "",
+        "serves": "1",
+        "ingredients": [
+            "1 cuillère à café d'huile d'olive",
+            "2 œufs légèrement battus",
+            "4 tomates mi-séchées, hachées grossièrement",
+            "25 g de fromage feta émietté",
+            "feuilles de salade mélangée, pour servir"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une petite poêle, ajoutez\r\nles œufs et cuire en remuant les œufs\r\navec une fourchette pendant qu'ils prennent. Quand les œufs\r\nsont encore légèrement coulants au milieu,\r\nrépartir sur les tomates et la feta,\r\npuis pliez l'omelette en deux. Cuisiner pour\r\n1 min de plus avant de glisser sur une assiette.\r\nServir avec une salade composée."
+        ],
+        "nutritional_info": {
+            "kcal": "266",
+            "fat": "20g",
+            "saturates": "7g",
+            "carbs": "5g",
+            "sugars": "4g",
+            "fibre": "1g",
+            "protein": "18g",
+            "salt": "1.8g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201564_11.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/feta-and-semidried-tomato-omelette.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/baked-eggs-with-spinach-and-tomato/",
+        "title": "Oeufs au four aux épinards et tomates",
+        "description": "Un plat rustique avec une délicieuse combinaison de saveurs et seulement quatre ingrédients, essayez de le préparer pour le brunch",
+        "prep_time": "5 mins Cook: 15 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "100 g d'épinards",
+            "Boîte de 400 g de tomates concassées",
+            "1 cuillère à café de flocons de piment",
+            "4 œufs"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C ventilateur/gaz 6. Mettre\r\nles épinards dans une passoire, puis versez\r\nsur une bouilloire d'eau bouillante pour flétrir le\r\nfeuilles. Essorez l'excès d'eau et\r\nrépartir dans 4 petits plats allant au four.",
+            "Mélangez les tomates avec les flocons de piment\r\net un peu d'assaisonnement, puis ajoutez-les au\r\nplats avec les épinards. Faites un petit\r\nbien au centre de chacun et craquer\r\nun œuf. Cuire au four pendant 12 à 15 minutes ou plus\r\nselon la façon dont vous aimez vos œufs.\r\nServir avec du pain croustillant, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "114",
+            "fat": "7g",
+            "saturates": "2g",
+            "carbs": "3g",
+            "sugars": "2g",
+            "fibre": "2g",
+            "protein": "9g",
+            "salt": "0.43g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201548_11.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/baked-eggs-with-spinach-and-tomato.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/turkish-onepan-eggs-and-peppers-menemen/",
+        "title": "Œufs et poivrons turcs dans une poêle (Menemen)",
+        "description": "Ce plat courageux est une véritable cuisine de rue et un excellent plat familial pour le brunch, le déjeuner ou le dîner.",
+        "prep_time": "10 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 cuillères à soupe d'huile d'olive",
+            "2 oignons, tranchés",
+            "1 poivron rouge ou vert, coupé en deux épépiné et tranché",
+            "1-2 piments rouges épépinés et tranchés",
+            "Boîte de 400 g de tomates concassées",
+            "1-2 cuillères à café de sucre en poudre",
+            "4 œufs",
+            "petit bouquet de persil, haché grossièrement",
+            "6 cuillères à soupe de yaourt épais et crémeux",
+            "2 gousses d'ail, écrasées"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une poêle à frire à fond épais\r\ncasserole. Incorporer les oignons, le poivre et\r\npiments. Cuire jusqu'à ce qu'ils commencent à ramollir.\r\nAjouter les tomates et le sucre en mélangeant bien.\r\nCuire jusqu'à ce que le liquide ait réduit, assaisonner.",
+            "A l'aide d'une cuillère en bois, créez 4 poches\r\ndans le mélange de tomates et casser les œufs\r\nen eux. Couvrez la poêle et faites cuire le\r\nles œufs à feu doux jusqu'à ce qu'ils soient juste pris.",
+            "Battre le yaourt avec l'ail et\r\nsaison. Saupoudrer les menemen avec\r\npersil et servir dans la poêle\r\navec une cuillerée de yaourt à l'ail."
+        ],
+        "nutritional_info": {
+            "kcal": "222",
+            "fat": "15g",
+            "saturates": "4g",
+            "carbs": "12g",
+            "sugars": "9g",
+            "fibre": "3g",
+            "protein": "12g",
+            "salt": "0.39g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201531_11.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/turkish-onepan-eggs-and-peppers-menemen.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/ovenbaked-egg-and-chips/",
+        "title": "Oeuf au four et chips",
+        "description": "Ce repas délicieusement simple peut être préparé dans une seule poêle pour un minimum de vaisselle.",
+        "prep_time": "5 mins Cook: 35 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "2 pommes de terre moyennes au four, coupées en gros quartiers",
+            "2 cuillères à soupe d'huile d'olive",
+            "1 cuillère à café de paprika fumé",
+            "2 tomates, coupées en deux",
+            "2 œufs"
+        ],
+        "method": [
+            "Chauffer le four à 190C/170C ventilateur/gaz 5.\r\nVersez les quartiers de pommes de terre dans un plat à rôtir.\r\nArroser d'huile et saupoudrer sur le\r\npaprika. Assaisonner et bien mélanger pour bien enrober\r\nles pommes de terre. Rôtir pendant 25 minutes en retournant\r\nà mi-cuisson, jusqu'à ce qu'ils soient presque tendres.",
+            "Nestlé les tomates, côté coupé vers le haut,\r\nparmi les pommes de terre. Faites 2 espaces\r\ndans le moule et cassez un œuf dans chacun\r\nun. Remettre au four 6 à 8 minutes\r\njusqu'à ce que les œufs soient juste pris."
+        ],
+        "nutritional_info": {
+            "kcal": "303",
+            "fat": "19g",
+            "saturates": "3g",
+            "carbs": "25g",
+            "sugars": "3g",
+            "fibre": "3g",
+            "protein": "11g",
+            "salt": "0.26g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201515_11.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/ovenbaked-egg-and-chips.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/healthy-egg-and-chips/",
+        "title": "Oeufs et chips sains",
+        "description": "Celui que les papas vont adorer ! Ce repas à tout moment est parfait avec une portion de fèves au lard",
+        "prep_time": "10 mins Cook: 1 hrs",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "500 g de pommes de terre coupées en dés",
+            "2 échalotes, tranchées",
+            "1 cuillère à soupe d'huile d'olive",
+            "2 cuillères à café d'origan séché broyé ou 1 cuillère à café de feuilles fraîches",
+            "200 g de petits champignons",
+            "4 œufs"
+        ],
+        "method": [
+            "Chauffer le four à 200C/chaleur tournante 180C/gaz 6. Incliner le\r\npommes de terre et échalotes dans un grand plat antiadhésif\r\nrôtissoire, arroser d'huile, saupoudrer\r\nl'origan, puis mélangez le tout\r\neh bien. Enfourner 15 mn, ajouter les champignons,\r\npuis laissez cuire encore 10 minutes jusqu'à ce que le\r\nles pommes de terre sont dorées et tendres.",
+            "Faire quatre trous dans les légumes et casser\r\nun œuf dans chaque espace. Retour au four\r\npendant 3-4 minutes ou jusqu'à ce que les œufs soient cuits à point\r\nvotre goût."
+        ],
+        "nutritional_info": {
+            "kcal": "218",
+            "fat": "10g",
+            "saturates": "2g",
+            "carbs": "22g",
+            "sugars": "1g",
+            "fibre": "2g",
+            "protein": "11g",
+            "salt": "0.24g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/user-collections/my-colelction-image/2015/12/recipe-image-legacy-id--1201496_12.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/anytime-eggs/",
+        "title": "Des œufs à tout moment",
+        "description": "Fantastique plat d'œufs dans une poêle, pourquoi ne pas utiliser tout ce que vous avez dans le réfrigérateur pour vous l'approprier ?",
+        "prep_time": "10 mins Cook: 10 mins",
+        "cook_time": "",
+        "serves": "1",
+        "ingredients": [
+            "1 cuillère à soupe d'huile d'olive",
+            "2-3 pommes de terre cuites, tranchées",
+            "une poignée de tomates cerises, tranchées",
+            "2 oignons nouveaux, tranchés",
+            "1 oeuf",
+            "quelques feuilles de basilic"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une poêle, puis ajoutez le\r\ntranches de pommes de terre et faire revenir des deux côtés jusqu'à ce\r\nmarron. Ajouter les tomates et les oignons nouveaux\r\net faire revenir environ 1 minute jusqu'à ce qu'il soit ramolli.\r\nAssaisonner de sel et de poivre, puis réaliser un\r\nespace dans la casserole. Cassez délicatement l'œuf dans\r\nl'espace et faire frire jusqu'à ce qu'il soit cuit à votre goût.\r\nRépartir sur les feuilles de basilic et servir."
+        ],
+        "nutritional_info": {
+            "kcal": "305",
+            "fat": "18g",
+            "saturates": "3g",
+            "carbs": "27g",
+            "sugars": "2g",
+            "fibre": "2g",
+            "protein": "11g",
+            "salt": "0.59g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201488_12.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/anytime-eggs.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/gluten-free-pancakes/",
+        "title": "Crêpes sans gluten",
+        "description": "Utilisez de la farine spécialisée dans ces crêpes rapides et faciles et répondez en toute sécurité aux personnes suivant un régime sans gluten.",
+        "prep_time": "5 mins Cook: 25 mins Plus resting",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "125 g de farine nature sans gluten (nous avons utilisé Doves Farm)",
+            "1 oeuf",
+            "250 ml de lait",
+            "beurre, pour frire"
+        ],
+        "method": [
+            "Mettez la farine dans un bol et faites un puits au centre. Cassez l'œuf au milieu et versez-y un quart du lait. Utilisez un fouet électrique ou un fouet ballon pour bien mélanger le mélange. Une fois que vous avez une pâte, mélangez-en un autre quart et une fois sans grumeaux, mélangez le reste du lait. Laisser reposer 20 mn. Remuer à nouveau avant utilisation.",
+            "Faites chauffer une petite poêle antiadhésive avec une noix de beurre. Lorsque le beurre commence à mousser, versez une petite quantité du mélange dans la poêle et remuez pour enrober la base – vous voulez une fine couche. Cuire quelques minutes jusqu'à ce que le fond soit doré, puis retourner et cuire jusqu'à ce que l'autre côté soit doré. Répétez jusqu'à ce que vous ayez utilisé tout le mélange, en remuant le mélange entre les crêpes et en ajoutant plus de beurre pour la friture si nécessaire.",
+            "Servir avec du sirop d'agave et un filet de jus d'orange ou la garniture de crêpe de votre choix."
+        ],
+        "nutritional_info": {
+            "kcal": "119",
+            "fat": "3.5g",
+            "saturates": "1.8g",
+            "carbs": "16.1g",
+            "sugars": "1.9g",
+            "fibre": "0.1g",
+            "protein": "6g",
+            "salt": "0.1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1273481_8.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/gluten-free-pancakes.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/potato-and-paprika-tortilla/",
+        "title": "Tortilla de pommes de terre et paprika",
+        "description": "Cette omelette espagnole traditionnelle et épaisse est garnie de pommes de terre nouvelles et parfumée aux herbes.",
+        "prep_time": "20 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "3 cuillères à soupe d'huile d'olive",
+            "250 g de pommes de terre nouvelles, extrémités parées, tranchées épaisses",
+            "1 petit oignon, coupé en deux et tranché",
+            "2 gousses d'ail, hachées",
+            "½ cuillère à café de paprika fumé",
+            "½ cuillère à café d'origan séché ou 3 cuillères à soupe de persil haché, plus quelques feuilles supplémentaires pour garnir (facultatif)",
+            "6 gros œufs"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une poêle antiadhésive profonde de 20 cm.\r\npoêle à frire. Faire revenir les pommes de terre, l'oignon et\r\nl'ail pendant 10 minutes jusqu'à ce qu'il soit tendre. Incorporer le\r\npaprika et faire revenir encore 1 min.",
+            "Battez les herbes séchées ou fraîches dans le\r\noeufs assaisonnés, puis verser dans\r\nla poêle. Remuer plusieurs fois pendant que l'œuf\r\ncommence à prendre au fond de la casserole,\r\npuis laissez cuire lentement sur une\r\nfeu très doux pendant 10 minutes jusqu'à ce que ce soit pris, sauf\r\npour le tout en haut.",
+            "Faites glisser délicatement la tortilla sur un\r\nassiette. Remettez-le dans la poêle, avec le\r\nle dessus non cuit maintenant sur le dessous, et\r\ncuire encore 1 à 2 minutes. Garnir avec\r\npersil, si vous en utilisez, enveloppez-le dans du papier d'aluminium et servez\r\ntiède ou réfrigéré."
+        ],
+        "nutritional_info": {
+            "kcal": "241",
+            "fat": "17g",
+            "saturates": "4g",
+            "carbs": "11g",
+            "sugars": "2g",
+            "fibre": "2g",
+            "protein": "11g",
+            "salt": "0.3g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201648_11.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/potato-and-paprika-tortilla.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/roasted-stone-fruits-with-vanilla/",
+        "title": "Fruits à noyau rôtis à la vanille",
+        "description": "Cette compote est délicieuse servie tiède avec de la glace, ou froide au petit-déjeuner avec un yaourt.",
+        "prep_time": "10 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "175 g de sucre en poudre doré",
+            "1 gousse de vanille fendue en deux",
+            "5 gousses de cardamome",
+            "le zeste et le jus d'1 citron vert",
+            "6 abricots, coupés en deux et dénoyautés",
+            "3 pêches, coupées en quartiers et dénoyautées",
+            "3 nectarines, coupées en quartiers et dénoyautées"
+        ],
+        "method": [
+            "Chauffer le four à 220C/chaleur tournante 200C/gaz 8. Verser le sucre, la gousse de vanille, la cardamome, le citron vert \r\nzestez et jus dans un robot culinaire, puis mixez jusqu'à homogénéité, ou écrasez-les ensemble à l'aide d'un \r\npilon et mortier. Versez les fruits dans un plat peu profond, puis ajoutez le sucre boueux.",
+            "Rôtir pendant 20 minutes jusqu'à ce que les fruits soient ramollis, mais pas effondrés et que le sucre \r\net les jus de fruits ont fait une sauce collante. Les restes se conservent au réfrigérateur  \r\npendant 2 jours maximum."
+        ],
+        "nutritional_info": {
+            "kcal": "270",
+            "fat": "0g",
+            "saturates": "0g",
+            "carbs": "68g",
+            "sugars": "68g",
+            "fibre": "4g",
+            "protein": "3g",
+            "salt": "0.02g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201491_12.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/roasted-stone-fruits-with-vanilla.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/smoothie-cubes/",
+        "title": "Cubes de smoothies",
+        "description": "Une bonne idée pour une boisson rapide, rafraîchissante et saine, notamment au petit-déjeuner",
+        "prep_time": "5 mins Plus freezing",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "mûres, fraises, framboises, fruits de la passion, mangue, tout autre fruit de votre choix"
+        ],
+        "method": [
+            "Réduisez en purée un fruit (essayez les mûres, les fraises, les framboises, les fruits de la passion et la mangue, au robot culinaire, laissez les pépins ou passez au tamis.",
+            "Congelez dans des bacs à glaçons prêts à être préparés (3 par portion) avec une banane, 150 ml de yaourt nature en pot et du lait et du miel au goût."
+        ],
+        "nutritional_info": {
+            "kcal": "0",
+            "fat": "0g",
+            "saturates": "0g",
+            "carbs": "0g",
+            "sugars": "0g",
+            "fibre": "0g",
+            "protein": "0g",
+            "salt": "0g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201480_11.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/smoothie-cubes.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/banana-clementine-and-mango-smoothie/",
+        "title": "Smoothie banane, clémentine et mangue",
+        "description": "Commencez votre journée avec cette boisson délicieusement rafraîchissante, à base de fruits frais et de yaourt. Il est riche en vitamine C et compte pour l'un de vos 5 apports par jour",
+        "prep_time": "25 mins",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "environ 24 clémentines juteuses, plus une supplémentaire pour la décoration",
+            "2 petites mangues bien mûres et juteuses",
+            "2 bananes mûres",
+            "Pot de 500 g de lait entier ou de yaourt allégé",
+            "une poignée de glaçons (facultatif)"
+        ],
+        "method": [
+            "Coupez les clémentines en deux et essorez-les.\r\njus – vous devriez avoir environ 600 ml/1 pinte.\r\n(Cela peut être fait la veille.)\r\nmangues, coupez les fruits du noyau\r\nle centre, puis coupez la chair en gros morceaux\r\nmorceaux. Pelez et tranchez les bananes.",
+            "Mettez le jus de clémentine, la chair de mangue,\r\nbananes, yaourt et glaçons dans un\r\nmixer et mélanger jusqu'à consistance lisse. Verser dans\r\nsix verres et servir. (Vous devrez peut-être\r\nfaites-le en deux lots, en fonction du\r\ntaille de votre mixeur.) Si vous n'ajoutez pas de glace\r\ncubes, réfrigérer au réfrigérateur jusqu'au moment de servir."
+        ],
+        "nutritional_info": {
+            "kcal": "142",
+            "fat": "3g",
+            "saturates": "2g",
+            "carbs": "23g",
+            "sugars": "23g",
+            "fibre": "1g",
+            "protein": "6g",
+            "salt": "0.2g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201463_12.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/banana-clementine-and-mango-smoothie.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/perfect-scrambled-eggs/",
+        "title": "Recette parfaite d'œufs brouillés",
+        "description": "Apprenez à préparer des œufs brouillés parfaits avec cette recette facile. Un petit-déjeuner rapide riche en protéines, gracieuseté de Bill Granger.",
+        "prep_time": "",
+        "cook_time": "",
+        "serves": "1",
+        "ingredients": [
+            "2 gros œufs fermiers",
+            "6 cuillères à soupe de crème liquide ou de lait entier",
+            "une noix de beurre"
+        ],
+        "method": [
+            "Fouetter légèrement les oeufs, la crème\r\net une pincée de sel ensemble\r\njusqu'à ce que tous les ingrédients soient justes\r\ncombiné et le mélange a\r\nune consistance.",
+            "Faites chauffer une petite friture antiadhésive\r\ncasserole pendant environ une minute, puis ajoutez\r\nle beurre et laissez-le fondre. Ne\r\nlaissez le beurre dorer ou il\r\ncela décolorera les œufs. Verser\r\nle mélange d'œufs et laisser reposer,\r\nsans remuer, pendant 20 secondes.\r\nRemuer avec une cuillère en bois en soulevant\r\net le replier du\r\nfond de la casserole. Laissez-le reposer pendant\r\nencore 10 secondes puis remuez\r\net pliez à nouveau.",
+            "Répétez jusqu'à ce que les œufs soient\r\ndoucement pris et légèrement coulant\r\nendroits, puis retirez-le du\r\nchauffer et laisser reposer quelques\r\nsecondes pour terminer la cuisson.\r\nRemuez une dernière fois et servez le\r\nun brouillage velouté sans tarder."
+        ],
+        "nutritional_info": {
+            "kcal": "254",
+            "fat": "19g",
+            "saturates": "7g",
+            "carbs": "4g",
+            "sugars": "0g",
+            "fibre": "0g",
+            "protein": "18g",
+            "salt": "0.6g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201452_12.jpg",
+        "local_image_path": "images/healthy/gluten-free-breakfast/perfect-scrambled-eggs.jpg"
+    }
+]

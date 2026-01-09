@@ -4,6 +4,10 @@ import { useState, useEffect } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { useUser } from '@/contexts/UserContext';
+import {
+    ArrowLeft, Leaf, Tag, Star, Clock, Flame, Users,
+    Zap, Carrot, ChefHat as Chef, Link as LinkIcon, Info, Utensils
+} from 'lucide-react';
 
 interface Recipe {
     id: number;
@@ -40,6 +44,7 @@ export default function MealDetailsPage() {
     const [recipe, setRecipe] = useState<Recipe | null>(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
+    const [currentServings, setCurrentServings] = useState(1);
 
     // Ratings State
     const [ratings, setRatings] = useState<Rating[]>([]);
@@ -58,6 +63,9 @@ export default function MealDetailsPage() {
             })
             .then(data => {
                 setRecipe(data);
+                // Initialize servings
+                const initialServings = parseInt(data.serves) || 1;
+                setCurrentServings(initialServings);
                 setLoading(false);
             })
             .catch(err => {
@@ -120,14 +128,16 @@ export default function MealDetailsPage() {
     if (loading) return <div className="text-center py-12">Loading meal details...</div>;
     if (error || !recipe) return (
         <div className="text-center py-12">
-            <h2 className="text-2xl font-bold mb-4">😕 {error}</h2>
+            <h2 className="text-2xl font-bold mb-4 text-red-400 flex items-center justify-center gap-2">
+                <Info className="w-6 h-6" /> {error}
+            </h2>
             <Link href="/meals" className="btn-primary">Browse All Meals</Link>
         </div>
     );
 
-    // Parse Time Logic
-    let displayPrep = recipe.prep_time || 'N/A';
-    let displayCook = recipe.cook_time || 'N/A';
+    // Parse Time Logic - ensure values are strings
+    let displayPrep = String(recipe.prep_time || 'N/A');
+    let displayCook = String(recipe.cook_time || 'N/A');
 
     // Handle "35 mins Cook: 50 mins" scenario in prep_time
     if (displayPrep.includes('Cook:')) {
@@ -145,6 +155,31 @@ export default function MealDetailsPage() {
     displayPrep = cleanTime(displayPrep);
     displayCook = cleanTime(displayCook);
 
+    const scaleIngredient = (ing: string, original: number, current: number) => {
+        if (original === current) return ing;
+
+        // Match leading number (int or float)
+        const match = ing.match(/^(\d+(\.\d+)?|\d+\/\d+)(.*)$/);
+        if (match) {
+            const qtyStr = match[1];
+            const rest = match[3];
+
+            let qty = 0;
+            if (qtyStr.includes('/')) {
+                const [n, d] = qtyStr.split('/');
+                qty = parseFloat(n) / parseFloat(d);
+            } else {
+                qty = parseFloat(qtyStr);
+            }
+
+            const scaled = (qty * current / original);
+            // Limit decimals
+            const formatted = Number.isInteger(scaled) ? scaled : scaled.toFixed(1).replace(/\.0$/, '');
+            return `${formatted}${rest}`;
+        }
+        return ing;
+    };
+
     return (
         <div className="min-h-screen pb-20 animate-fade-in relative">
             {/* Header Image Background */}
@@ -158,7 +193,7 @@ export default function MealDetailsPage() {
 
             <div className="relative z-10 pt-[25vh] px-4 max-w-4xl mx-auto">
                 <Link href="/meals" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 bg-black/30 backdrop-blur-md px-4 py-2 rounded-full transition-all hover:bg-black/50">
-                    ← Back to Meals
+                    <ArrowLeft className="w-4 h-4" /> Back to Meals
                 </Link>
 
                 <div className="card shadow-2xl border-t border-white/10 relative overflow-hidden mb-8">
@@ -168,15 +203,15 @@ export default function MealDetailsPage() {
                     <div className="mb-6">
                         <div className="flex flex-wrap gap-2 mb-3">
                             {recipe!.isHealthy && (
-                                <span className="bg-green-500/20 text-green-400 text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">
-                                    🥗 Healthy Choice
+                                <span className="bg-green-500/20 text-green-400 text-xs font-bold px-2 py-1 rounded uppercase tracking-wider flex items-center gap-1">
+                                    <Leaf className="w-3 h-3" /> Healthy Choice
                                 </span>
                             )}
-                            <span className="bg-white/10 text-gray-300 text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">
-                                📂 {recipe!.category?.replace(/-/g, ' ')}
+                            <span className="bg-white/10 text-gray-300 text-xs font-bold px-2 py-1 rounded uppercase tracking-wider flex items-center gap-1">
+                                <Tag className="w-3 h-3" /> {recipe!.category?.replace(/-/g, ' ')}
                             </span>
                             <span className="bg-yellow-500/20 text-yellow-500 text-xs font-bold px-2 py-1 rounded uppercase tracking-wider flex items-center gap-1">
-                                ⭐ {averageRating} ({ratings.length})
+                                <Star className="w-3 h-3 fill-current" /> {averageRating} ({ratings.length})
                             </span>
                         </div>
                         <h1 className="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">{recipe!.title}</h1>
@@ -186,31 +221,43 @@ export default function MealDetailsPage() {
                     {/* Meta Data Grid */}
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 py-6 border-y border-white/5">
                         <div className="text-center">
-                            <div className="text-2xl mb-1">⏱️</div>
+                            <div className="text-2xl mb-1 flex justify-center"><Clock className="w-8 h-8 text-[var(--accent-secondary)]" /></div>
                             <div className="font-bold">{displayPrep}</div>
                             <div className="text-xs text-gray-500">Prep Time</div>
                         </div>
                         <div className="text-center">
-                            <div className="text-2xl mb-1">🔥</div>
+                            <div className="text-2xl mb-1 flex justify-center"><Flame className="w-8 h-8 text-[var(--calories)]" /></div>
                             <div className="font-bold">{displayCook}</div>
                             <div className="text-xs text-gray-500">Cook Time</div>
                         </div>
                         <div className="text-center">
-                            <div className="text-2xl mb-1">👥</div>
-                            <div className="font-bold">{recipe!.serves}</div>
+                            <div className="text-2xl mb-1 flex justify-center"><Users className="w-8 h-8 text-blue-400" /></div>
+                            <div className="flex items-center justify-center gap-2">
+                                <button
+                                    onClick={() => setCurrentServings(s => Math.max(1, s - 1))}
+                                    className="w-6 h-6 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-xs"
+                                >-</button>
+                                <div className="font-bold">{currentServings}</div>
+                                <button
+                                    onClick={() => setCurrentServings(s => s + 1)}
+                                    className="w-6 h-6 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-xs"
+                                >+</button>
+                            </div>
                             <div className="text-xs text-gray-500">Servings</div>
                         </div>
                         <div className="text-center">
-                            <div className="text-2xl mb-1">⚡</div>
-                            <div className="font-bold text-[var(--calories)]">{recipe!.kcal}</div>
-                            <div className="text-xs text-gray-500">Calories</div>
+                            <div className="text-2xl mb-1 flex justify-center"><Zap className="w-8 h-8 text-yellow-400" /></div>
+                            <div className="font-bold text-[var(--calories)]">
+                                {Math.round(recipe!.kcal * (currentServings / (parseInt(recipe!.serves) || 1)))}
+                            </div>
+                            <div className="text-xs text-gray-500">Total Kcal</div>
                         </div>
                     </div>
 
                     {/* Macros */}
                     <div className="mb-8">
                         <h3 className="font-bold text-lg mb-4 flex items-center gap-2">
-                            <span>📊</span> Nutrition per serving
+                            <Zap className="w-5 h-5 text-yellow-400" /> Nutrition per serving (Fixed)
                         </h3>
                         <div className="grid grid-cols-3 gap-4">
                             <div className="bg-[var(--bg-secondary)] p-3 rounded-lg text-center">
@@ -230,13 +277,16 @@ export default function MealDetailsPage() {
 
                     <div className="grid md:grid-cols-2 gap-8">
                         {/* Ingredients */}
+                        {/* Ingredients */}
                         <div>
-                            <h3 className="font-bold text-xl mb-4 border-b border-white/10 pb-2">🛒 Ingredients</h3>
+                            <h3 className="font-bold text-xl mb-4 border-b border-white/10 pb-2 flex items-center gap-2"><Carrot className="w-5 h-5 text-orange-400" /> Ingredients</h3>
                             <ul className="space-y-3">
                                 {Array.isArray(recipe!.ingredients) && recipe!.ingredients.map((ing, i) => (
                                     <li key={i} className="flex items-start gap-3 text-sm md:text-base text-gray-300">
                                         <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--accent-primary)] flex-shrink-0" />
-                                        <span>{ing}</span>
+                                        <span className={currentServings !== (parseInt(recipe!.serves) || 1) ? "text-[var(--accent-primary)] font-medium" : ""}>
+                                            {scaleIngredient(ing, parseInt(recipe!.serves) || 1, currentServings)}
+                                        </span>
                                     </li>
                                 ))}
                             </ul>
@@ -244,7 +294,7 @@ export default function MealDetailsPage() {
 
                         {/* Method */}
                         <div>
-                            <h3 className="font-bold text-xl mb-4 border-b border-white/10 pb-2">👨‍🍳 Instructions</h3>
+                            <h3 className="font-bold text-xl mb-4 border-b border-white/10 pb-2 flex items-center gap-2"><Chef className="w-5 h-5 text-[var(--accent-secondary)]" /> Instructions</h3>
                             <div className="space-y-6">
                                 {Array.isArray(recipe!.method) && recipe!.method.map((step, i) => (
                                     <div key={i} className="relative pl-6">
@@ -262,7 +312,7 @@ export default function MealDetailsPage() {
                 {/* Ratings & Comments Section */}
                 <div className="card shadow-2xl border-t border-white/10">
                     <h3 className="font-bold text-2xl mb-6 flex items-center gap-2">
-                        ⭐ Reviews <span className="text-base font-normal text-gray-500">({ratings.length})</span>
+                        <Star className="w-6 h-6 text-yellow-500 fill-current" /> Reviews <span className="text-base font-normal text-gray-500">({ratings.length})</span>
                     </h3>
 
                     {/* Review Form */}
@@ -275,9 +325,9 @@ export default function MealDetailsPage() {
                                         key={star}
                                         type="button"
                                         onClick={() => setUserRating(star)}
-                                        className={`text-2xl transition-transform hover:scale-110 ${star <= userRating ? 'text-yellow-400' : 'text-gray-600'}`}
+                                        className="text-2xl transition-transform hover:scale-110"
                                     >
-                                        ★
+                                        <Star className={`w-8 h-8 ${star <= userRating ? 'text-yellow-400 fill-current' : 'text-gray-600'}`} />
                                     </button>
                                 ))}
                             </div>
@@ -301,13 +351,17 @@ export default function MealDetailsPage() {
                     {/* Reviews List */}
                     <div className="space-y-6">
                         {ratings.length === 0 ? (
-                            <p className="text-gray-500 text-center py-4">No reviews yet. Be the first to try it! 🍽️</p>
+                            <p className="text-gray-500 text-center py-4 flex items-center justify-center gap-2"><Utensils size={16} /> No reviews yet. Be the first to try it!</p>
                         ) : (
                             ratings.map(review => (
                                 <div key={review.id} className="border-b border-white/5 last:border-0 pb-6 last:pb-0">
                                     <div className="flex justify-between items-start mb-2">
                                         <div className="font-bold">{review.user_name}</div>
-                                        <div className="text-yellow-400 text-sm">{'★'.repeat(review.rating)}<span className="text-gray-700">{'★'.repeat(5 - review.rating)}</span></div>
+                                        <div className="text-yellow-400 text-sm flex gap-0.5">
+                                            {Array.from({ length: 5 }).map((_, i) => (
+                                                <Star key={i} className={`w-3 h-3 ${i < review.rating ? 'fill-current' : 'text-gray-700'}`} />
+                                            ))}
+                                        </div>
                                     </div>
                                     <div className="text-xs text-gray-500 mb-2">{new Date(review.created_at).toLocaleDateString()}</div>
                                     <p className="text-gray-300 text-sm leading-relaxed">

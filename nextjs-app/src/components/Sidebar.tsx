@@ -5,16 +5,35 @@ import { usePathname, useRouter } from 'next/navigation';
 import { useUser } from '@/contexts/UserContext';
 import { useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
+import {
+    LayoutDashboard,
+    UtensilsCrossed,
+    Calculator,
+    BookOpen,
+    LineChart,
+    ShoppingCart,
+    MessageSquare,
+    User,
+    Settings,
+    LogOut,
+    Utensils,
+    Home,
+    Globe,
+    Timer,
+    Heart
+} from 'lucide-react';
 
 const navItems = [
-    { href: '/', labelKey: 'dashboard', icon: '📊' },
-    { href: '/macros', labelKey: 'trackMacros', icon: '🍽️' },
-    { href: '/calculator', labelKey: 'calculator', icon: '🔢' },
-    { href: '/meals', labelKey: 'mealLibrary', icon: '📚' },
-    { href: '/statistics', labelKey: 'statistics', icon: '📈' },
-    { href: '/groceries', labelKey: 'groceryList', icon: '🛒' },
-    { href: '/forum', labelKey: 'forum', icon: '💬' },
-    { href: '/profile', labelKey: 'profile', icon: '👤' },
+    { href: '/', labelKey: 'dashboard', icon: LayoutDashboard },
+    { href: '/macros', labelKey: 'trackMacros', icon: UtensilsCrossed },
+    { href: '/fasting', labelKey: 'fasting', icon: Timer },
+    { href: '/coach', labelKey: 'coach', icon: Heart },
+    { href: '/calculator', labelKey: 'calculator', icon: Calculator },
+    { href: '/meals', labelKey: 'mealLibrary', icon: BookOpen },
+    { href: '/statistics', labelKey: 'statistics', icon: LineChart },
+    { href: '/groceries', labelKey: 'groceryList', icon: ShoppingCart },
+    { href: '/forum', labelKey: 'forum', icon: MessageSquare },
+    { href: '/profile', labelKey: 'profile', icon: User },
 ];
 
 export default function Sidebar() {
@@ -79,7 +98,7 @@ export default function Sidebar() {
                     <span className={`hamburger-line ${isOpen ? 'open' : ''}`}></span>
                 </button>
                 <div className="mobile-logo">
-                    <span>🍽️</span>
+                    <Utensils className="w-6 h-6 text-emerald-500" />
                     <span>{tCommon('appName')}</span>
                 </div>
                 <div className="mobile-user">
@@ -98,7 +117,9 @@ export default function Sidebar() {
             {/* Sidebar */}
             <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
                 <div className="sidebar-logo">
-                    <div className="sidebar-logo-icon">🍽️</div>
+                    <div className="sidebar-logo-icon">
+                        <Utensils className="text-white" size={24} />
+                    </div>
                     <span className="sidebar-logo-text">{tCommon('appName')}</span>
                 </div>
 
@@ -110,7 +131,7 @@ export default function Sidebar() {
                             className={`nav-item ${pathname === item.href ? 'active' : ''}`}
                             onClick={() => setIsOpen(false)}
                         >
-                            <span className="nav-item-icon">{item.icon}</span>
+                            <span className="nav-item-icon"><item.icon size={20} /></span>
                             <span>{t(item.labelKey)}</span>
                         </Link>
                     ))}
@@ -121,7 +142,7 @@ export default function Sidebar() {
                             className={`nav-item ${pathname === '/admin' ? 'active' : ''}`}
                             onClick={() => setIsOpen(false)}
                         >
-                            <span className="nav-item-icon">⚙️</span>
+                            <span className="nav-item-icon"><Settings size={20} /></span>
                             <span>{t('adminPanel')}</span>
                         </Link>
                     )}
@@ -133,21 +154,30 @@ export default function Sidebar() {
                         <div className="flex gap-1 p-1 rounded-lg" style={{ background: 'rgba(255,255,255,0.05)' }}>
                             <button
                                 onClick={() => switchLanguage('en')}
-                                className={`flex-1 py-1.5 px-2 text-xs rounded transition-all ${currentLocale === 'en'
-                                    ? 'bg-violet-600 text-white'
-                                    : 'text-gray-400 hover:text-white'
+                                className={`flex-1 py-2 px-1 text-xs font-medium rounded transition-all ${currentLocale === 'en'
+                                    ? 'bg-emerald-600 text-white'
+                                    : 'text-gray-400 hover:text-white hover:bg-white/10'
                                     }`}
                             >
-                                🇬🇧 {tLang('en')}
+                                EN
                             </button>
                             <button
                                 onClick={() => switchLanguage('fr')}
-                                className={`flex-1 py-1.5 px-2 text-xs rounded transition-all ${currentLocale === 'fr'
-                                    ? 'bg-violet-600 text-white'
-                                    : 'text-gray-400 hover:text-white'
+                                className={`flex-1 py-2 px-1 text-xs font-medium rounded transition-all ${currentLocale === 'fr'
+                                    ? 'bg-emerald-600 text-white'
+                                    : 'text-gray-400 hover:text-white hover:bg-white/10'
                                     }`}
                             >
-                                🇫🇷 {tLang('fr')}
+                                FR
+                            </button>
+                            <button
+                                onClick={() => switchLanguage('es')}
+                                className={`flex-1 py-2 px-1 text-xs font-medium rounded transition-all ${currentLocale === 'es'
+                                    ? 'bg-emerald-600 text-white'
+                                    : 'text-gray-400 hover:text-white hover:bg-white/10'
+                                    }`}
+                            >
+                                ES
                             </button>
                         </div>
                     </div>
@@ -170,7 +200,7 @@ export default function Sidebar() {
                             </div>
                         </div>
                         {user.householdName && (
-                            <p className="text-xs text-gray-500 mt-2">🏠 {user.householdName}</p>
+                            <p className="text-xs text-gray-500 mt-2 flex items-center gap-1"><Home size={12} /> {user.householdName}</p>
                         )}
                     </Link>
 
@@ -178,7 +208,8 @@ export default function Sidebar() {
                         onClick={() => logout()}
                         className="flex items-center gap-2 w-full p-2 text-sm text-[var(--text-secondary)] hover:text-white transition-colors"
                     >
-                        <span>🚪</span> {tCommon('signOut')}
+                        <LogOut size={18} />
+                        <span>{tCommon('signOut')}</span>
                     </button>
                 </div>
             </aside>

@@ -1,0 +1,75 @@
+[
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/flourless-chocolate-almond-cake/",
+        "title": "Gâteau au chocolat et aux amandes sans farine",
+        "description": "Ce gâteau dense et moelleux au chocolat et aux amandes est parfait pour le dessert. Il est sans gluten – assurez-vous simplement que votre cacao en poudre et votre chocolat le sont aussi",
+        "prep_time": "30 mins Cuisson : 50 mins",
+        "cook_time": "",
+        "serves": "10",
+        "ingredients": [
+            "200g de chocolat noir à cuisiner, coupé en petits morceaux",
+            "200g de beurre, coupé en petits morceaux",
+            "3 oeufs",
+            "175g de sucre en poudre doré",
+            "100g de mascarpone ou fromage à la crème",
+            "¼ c. à café d'extrait de vanille",
+            "100g d'amandes en poudre",
+            "30g de cacao en poudre, plus un peu pour servir"
+        ],
+        "method": [
+            "Préchauffer le four à 180°C/160°C chaleur tournante/gaz 4 et tapisser la base d'un moule à charnière de 20 cm de papier sulfurisé. Faire fondre le chocolat et le beurre dans un bol résistant à la chaleur posé sur une casserole d'eau frémissante, ou au micro-ondes par tranches de 20 secondes. Remuer, puis laisser refroidir légèrement.",
+            "Pendant ce temps, mettre les œufs et le sucre dans un deuxième bol et battre avec un fouet électrique pendant 4-5 minutes, ou jusqu'à ce que le mélange soit épais et crémeux. Ajouter le mascarpone ou le fromage à la crème et la vanille, et continuer à battre jusqu'à ce que tout soit combiné. Incorporer délicatement le mélange de chocolat fondu refroidi jusqu'à obtenir une couleur uniforme, puis incorporer les amandes. Tamiser le cacao en poudre et une petite pincée de sel, et incorporer pour combiner.",
+            "Verser la pâte à gâteau dans le moule préparé. Mettre le moule sur une plaque de cuisson et cuire pendant 35-40 minutes jusqu'à ce que le gâteau soit gonflé et craquelé sur le dessus. Retirer du four et laisser refroidir dans le moule pendant 30-40 minutes – il va retomber en refroidissant. Servir tiède comme un pudding au chocolat, ou laisser refroidir complètement et déguster comme un gâteau brownie fondant. Saupoudrer de cacao en poudre supplémentaire avant de servir."
+        ],
+        "nutritional_info": {
+            "kcal": "473",
+            "fat": "37g",
+            "saturates": "19g",
+            "carbs": "26g",
+            "sugars": "0g",
+            "fibre": "3g",
+            "protein": "7g",
+            "salt": "0.5g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/04/Flourless-chocolate-almond-cake-3eb173a.jpg",
+        "local_image_path": "images/ramadan/ramadan-with-children/flourless-chocolate-almond-cake.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/giant-couscous-tomato-salad-with-zhoug-style-dressing/",
+        "title": "Salade de couscous géant et tomates avec vinaigrette façon zhoug",
+        "description": "Préparez cette salade de couscous géant et de tomates comme accompagnement estival. Le zhoug est une sauce verte épicée du Moyen-Orient qui donne vie à ce plat",
+        "prep_time": "5 mins Cuisson : 15 mins plus refroidissement",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 grosses tomates grappe, coupées en dés",
+            "½ oignon rouge, finement haché",
+            "150g de couscous géant ou fregola",
+            "½ petit bouquet de coriandre, grossièrement haché",
+            "poignée de feuilles de persil, grossièrement hachées",
+            "1 citron, pressé",
+            "2 piments verts, hachés",
+            "1 gousse d'ail, grossièrement hachée",
+            "½ c. à café de cumin moulu",
+            "½ c. à café de sucre en poudre",
+            "3 c. à soupe d'huile d'olive"
+        ],
+        "method": [
+            "Mettre les tomates et l'oignon dans un grand bol avec ½ c. à café de sel de mer. Mélanger et laisser reposer.",
+            "Cuire le couscous dans une casserole d'eau bouillante salée pendant 8-10 minutes jusqu'à ce qu'il soit tendre (ne pas trop cuire – on le veut un peu ferme pour qu'il puisse absorber les jus de la tomate), puis bien égoutter. Laisser refroidir 10 minutes puis mélanger avec le mélange de tomates et d'oignons.",
+            "Mixer tous les ingrédients de la vinaigrette avec 1 c. à soupe d'eau et ½ c. à café de sel de mer jusqu'à consistance lisse. Verser un peu sur le couscous, puis servir le reste à côté pour que les gens se servent eux-mêmes."
+        ],
+        "nutritional_info": {
+            "kcal": "222",
+            "fat": "9g",
+            "saturates": "1g",
+            "carbs": "26g",
+            "sugars": "0g",
+            "fibre": "6g",
+            "protein": "6g",
+            "salt": "1.3g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Giant-couscous-and-tomato-salad-with-zhoug-style-dressing-62c81db.jpg",
+        "local_image_path": "images/ramadan/ramadan-with-children/giant-couscous-tomato-salad-with-zhoug-style-dressing.jpg"
+    }
+]

@@ -1,0 +1,868 @@
+[
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/miso-prawn-skewers-with-veggie-rice-salad/",
+        "title": "Brochettes de crevettes miso et salade de riz végétarien",
+        "description": "Pour une nouvelle façon avec les crevettes, marinez-les au soja, servez-les en brochettes et accompagnez-les de basmati sains.",
+        "prep_time": "15 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "200 g de riz basmati brun",
+            "175g mange tout",
+            "200 g de graines de soja surgelées",
+            "1½ cuillère à soupe d'huile de sésame",
+            "4 oignons nouveaux, tranchés finement",
+            "une grosse poignée de coriandre, hachée grossièrement",
+            "1 piment vert, finement coupé",
+            "400 g de grosses crevettes crues décortiquées",
+            "3 cuillères à soupe de pâte miso sucrée (vous la trouverez avec les ingrédients japonais. Nous avons utilisé du miso blanc Clearspring)",
+            "2 cuillères à café de sauce soja",
+            "2 cuillères à café de vinaigre de riz japonais",
+            "2 cuillères à café de cassonade molle"
+        ],
+        "method": [
+            "Placer le riz brun dans une poêle avec beaucoup\r\nd'eau froide. Porter à ébullition et laisser mijoter\r\npendant 20-25 minutes ou jusqu'à tendreté. Pendant ce temps,\r\ntremper les brochettes en bois dans un peu de froid\r\nde l'eau (pour éviter qu'ils ne brûlent). Ajoutez le\r\nmange-tout et graines de soja au riz pour\r\nles 5 dernières minutes de cuisson. Rincer sous\r\neau froide, en égouttant soigneusement.",
+            "Mélangez le riz avec l'huile de sésame et\r\nmélanger dans un grand bol avec le ressort\r\noignons, coriandre, piment et assaisonnement.",
+            "Faites chauffer un gril. Placer la brochette\r\ningrédients dans un bol avec quelques moutures de\r\npoivre noir. Remuez bien tout,\r\nen veillant à ce que les crevettes soient bien enrobées.\r\nEnfiler les crevettes sur les brochettes et déposer\r\nsur une plaque à pâtisserie. Griller pour quelques\r\nminutes de chaque côté, en les retournant, jusqu'à ce que les crevettes soient\r\nbien cuit. Servir avec la salade de riz\r\net arroser du jus de cuisson."
+        ],
+        "nutritional_info": {
+            "kcal": "410",
+            "fat": "10g",
+            "saturates": "2g",
+            "carbs": "47g",
+            "sugars": "8g",
+            "fibre": "7g",
+            "protein": "32g",
+            "salt": "1.5g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1034452_11.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/miso-prawn-skewers-with-veggie-rice-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/grilled-steak-salad-with-horseradish-dressing/",
+        "title": "Salade de steak grillé avec vinaigrette au raifort",
+        "description": "Une salade de tomates colorée égaye ce souper rapide et sain composé d'un steak de bœuf maigre mariné avec une sauce moutarde piquante.",
+        "prep_time": "10 mins Cook: 5 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "250 g de bavette ou de bavette",
+            "1 cuillère à café de graines de céleri, écrasées",
+            "1 cuillère à soupe de sauce Worcestershire",
+            "un peu d'huile d'olive, pour badigeonner",
+            "6 branches de céleri, tranchées finement, feuilles réservées",
+            "200 g de tomates mélangées, tranchées ou coupées en deux (le steak de bœuf, la prune et la cerise rouge et jaune sont tous bons)",
+            "1 cuillère à soupe de sauce Worcestershire",
+            "1 cuillère à soupe d'huile d'olive",
+            "1 cuillère à café de sauce au raifort",
+            "1 cuillère à café de vinaigre de vin rouge",
+            "1 cuillère à café de purée de tomates"
+        ],
+        "method": [
+            "Frottez le steak des deux côtés avec le\r\ngraines de céleri écrasées, un peu d'assaisonnement\r\net la sauce Worcestershire. Brosse\r\navec de l'huile d'olive et laisser mariner pendant\r\nvous préparez la salade.",
+            "Mélangez les ingrédients de la vinaigrette dans un petit\r\nbol. Répartissez le céleri et les tomates\r\nentre 2 assiettes. Faire chauffer une poêle\r\nà feu vif, puis faites cuire la viande\r\npendant 2-3 minutes de chaque côté (selon\r\nsur l'épaisseur de vos steaks). Supprimer\r\ndu feu et laisser reposer à couvert\r\navec du papier d'aluminium, pendant 5 minutes.",
+            "Trancher les steaks et les disposer dessus\r\ndes salades, verser la vinaigrette dessus\r\net répartir sur les feuilles de céleri."
+        ],
+        "nutritional_info": {
+            "kcal": "305",
+            "fat": "18g",
+            "saturates": "6g",
+            "carbs": "6g",
+            "sugars": "6g",
+            "fibre": "3g",
+            "protein": "30g",
+            "salt": "0.8g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1011500_11.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/grilled-steak-salad-with-horseradish-dressing.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/garlic-prawns-with-asian-puy-lentils/",
+        "title": "Crevettes à l'ail et lentilles asiatiques du Puy",
+        "description": "N’écartez pas les lentilles trop rapidement : elles sont nourrissantes, saines et faciles à combiner avec d’autres saveurs, comme le prouve ce plat.",
+        "prep_time": "15 mins Cook: 20 mins Plus marinating",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "400 g de crevettes tigrées crues décortiquées, décongelées si congelées",
+            "2 piments rouges épépinés et finement hachés",
+            "le zeste et le jus d'1 citron vert",
+            "2 grosses gousses d'ail, écrasées",
+            "2 cuillères à soupe d'huile",
+            "200 g de lentilles du Puy",
+            "2 cuillères à soupe de sauce soja",
+            "1 cuillère à soupe de miel clair",
+            "1 cuillère à soupe de vinaigre de vin de riz",
+            "3 cuillères à soupe de graines de sésame grillées",
+            "bouquet de coriandre, feuilles hachées grossièrement"
+        ],
+        "method": [
+            "Disposez les crevettes dans un plat peu profond. Mélanger\r\nensemble la moitié du piment finement haché, du citron vert\r\nle zeste et le jus, l'ail et l'huile, puis verser dessus\r\nles crevettes. Couvrir et réfrigérer 20 minutes pour\r\nmariner.",
+            "Pendant ce temps, mettez les lentilles dans une casserole, couvrez\r\navec deux fois leur profondeur dans l'eau, porter à la\r\nfaire bouillir, puis laisser mijoter pendant 15 à 20 minutes jusqu'à ce que\r\ntendre. Ajoutez de l'eau si nécessaire.",
+            "Pour faire la vinaigrette, mettez le reste\r\npiment haché, soja, miel et vinaigre\r\ndans un petit bol et mélanger. Égoutter le\r\nlentilles, puis versez-les dans un grand bol. Verser dessus\r\npresque toute la vinaigrette pendant que les lentilles sont\r\nchaud, ajoutez les graines de sésame, puis mélangez bien.",
+            "Faites chauffer une poêle jusqu'à ce qu'elle soit très chaude. Soulevez le\r\ncrevettes hors de la marinade, puis faire frire pendant 1-2\r\nminutes de chaque côté jusqu'à ce qu'elles soient roses et légèrement dorées.\r\nVersez la marinade et portez à ébullition.\r\nPliez la coriandre hachée dans le\r\nlentilles, puis déposer dans des assiettes de service. Haut\r\navec les crevettes et le jus de cuisson éventuel."
+        ],
+        "nutritional_info": {
+            "kcal": "349",
+            "fat": "12g",
+            "saturates": "2g",
+            "carbs": "29g",
+            "sugars": "4g",
+            "fibre": "5g",
+            "protein": "33g",
+            "salt": "1.89g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--10323_11.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/garlic-prawns-with-asian-puy-lentils.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/thaistyle-chicken-and-sweet-potato-parcels/",
+        "title": "Colis de poulet et patates douces à la thaïlandaise",
+        "description": "Un plat de poulet individuel enveloppé de papier sulfurisé, parfumé d'épices asiatiques et de noix de coco crémeuse",
+        "prep_time": "10 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "1",
+        "ingredients": [
+            "25 g de crème de noix de coco (en bloc)",
+            "2 cuillères à café de cassonade molle",
+            "1 cuillère à café de sauce de poisson",
+            "2 cuillères à café de pâte de curry vert thaï",
+            "½ patate douce, pelée et coupée en petits cubes",
+            "1 petit poivron rouge épépiné et coupé en petits cubes",
+            "1 poitrine de poulet sans peau",
+            "une poignée de feuilles de coriandre et quelques quartiers de citron vert, pour servir"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C ventilateur/gaz 6.\r\nDissoudre la crème de coco\r\navec 3 cuillères à soupe d'eau bouillante et mélanger\r\nen une pâte lisse. Incorporer le\r\nsucre, sauce de poisson et pâte de curry.",
+            "Disposez un gros morceau de pâtisserie\r\npapier sulfurisé sur une plaque à pâtisserie.\r\nDisposez la patate douce et\r\npoivrer au milieu du papier,\r\ndégager un espace au centre. Disposez la poitrine de poulet dans l'espace\r\net verser sur la sauce. Replier\r\nles bords supérieurs du parchemin pour\r\nformez un sceau et froissez le\r\nse termine comme un emballage de bonbon.",
+            "Cuire au four pendant 25-30 minutes\r\nou jusqu'à ce que le poulet soit cuit\r\nà travers et les légumes sont\r\ntendre. Asseyez le colis lors d'un dîner\r\nassiette ou un bol peu profond et soigneusement\r\nouvert. Saupoudrer de coriandre\r\net pressez un peu de citron vert\r\njus, au goût."
+        ],
+        "nutritional_info": {
+            "kcal": "429",
+            "fat": "20g",
+            "saturates": "15g",
+            "carbs": "29g",
+            "sugars": "18g",
+            "fibre": "3g",
+            "protein": "34g",
+            "salt": "1.4g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--950613_10.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/thaistyle-chicken-and-sweet-potato-parcels.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/mexican-chicken-stew/",
+        "title": "Ragoût de poulet mexicain",
+        "description": "Apportez une touche de saveur mexicaine à votre repas en milieu de semaine avec ce souper faible en gras dans une poêle",
+        "prep_time": "20 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à soupe d'huile végétale",
+            "1 oignon moyen, finement haché",
+            "3 gousses d'ail, hachées finement",
+            "½ cuillère à café de cassonade foncée",
+            "1 cuillère à café de pâte chipotle (nous avons utilisé Discovery)",
+            "Boîte de 400 g de tomates concassées",
+            "4 poitrines de poulet sans peau et désossées",
+            "1 petit oignon rouge, coupé en rondelles",
+            "quelques feuilles de coriandre",
+            "tortillas de maïs ou riz pour servir"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une casserole moyenne. Ajouter\r\nl'oignon et cuire 5 minutes ou jusqu'à ce que\r\nramolli et commençant à devenir doré,\r\najouter l'ail pour la dernière minute. Incorporer\r\nle sucre, la pâte chipotle et les tomates.\r\nMettez le poulet dans la poêle, versez dessus\r\nla sauce et laisser mijoter doucement pendant 20 min\r\njusqu'à ce que le poulet soit cuit (ajoutez un\r\nun peu d'eau si la sauce devient trop sèche).",
+            "Retirez le poulet de la poêle et\r\nrâper avec 2 fourchettes, puis remettre dans le\r\nsauce. Parsemer d'un peu d'oignon rouge, le\r\ncoriandre et servir avec le reste du rouge\r\noignon, tortillas ou riz."
+        ],
+        "nutritional_info": {
+            "kcal": "203",
+            "fat": "5g",
+            "saturates": "1g",
+            "carbs": "6g",
+            "sugars": "4g",
+            "fibre": "2g",
+            "protein": "35g",
+            "salt": "0.37g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/user-collections/my-colelction-image/2015/12/recipe-image-legacy-id--1068489_11.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/steamed-fish-with-ginger-spring-onion/",
+        "title": "Poisson cuit à la vapeur au gingembre et à l'oignon nouveau",
+        "description": "Adoptez une approche asiatique de la cuisine faible en gras : faites cuire du poisson à la vapeur avec du pak choi, du mirin, de l'ail et du soja et servez-le garni de coriandre.",
+        "prep_time": "10 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "100 g de pak-choï",
+            "4 x 150g de filets de poisson blanc ferme",
+            "Morceau de 5 cm de gingembre finement râpé",
+            "2 gousses d'ail, finement tranchées",
+            "2 cuillères à soupe de sauce soja faible en sel",
+            "1 cuillère à café de vin de riz mirin",
+            "1 botte d'oignons nouveaux, finement émincés",
+            "une poignée de coriandre hachée",
+            "riz brun, pour servir",
+            "1 citron vert, coupé en quartiers, pour servir"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C ventilateur/gaz 6.\r\nDécoupez un grand rectangle de papier d'aluminium, suffisamment grand\r\nfaire une grande enveloppe. Placez le paquet\r\nchoi sur le papier d'aluminium, suivi du poisson, puis\r\nle gingembre et l'ail. Verser sur le soja\r\nsauce et vin de riz, puis assaisonner.",
+            "Repliez le papier d'aluminium et scellez les 3 bords, puis\r\nmettre sur une plaque à pâtisserie. Cuire 20 minutes,\r\nouvrez le colis et répartissez-le sur le\r\noignons nouveaux et coriandre. Servir avec\r\nriz brun et jus de citron vert pressé."
+        ],
+        "nutritional_info": {
+            "kcal": "145",
+            "fat": "1g",
+            "saturates": "0g",
+            "carbs": "4g",
+            "sugars": "3g",
+            "fibre": "1g",
+            "protein": "29g",
+            "salt": "1.1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1167501_11.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/steamed-fish-with-ginger-spring-onion.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/italianstyle-beef-stew/",
+        "title": "Ragoût de bœuf à l'italienne",
+        "description": "Un ragoût facile et super sain, plein de vitamine C",
+        "prep_time": "10 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 oignon, tranché",
+            "1 gousse d'ail, tranchée",
+            "2 cuillères à soupe d'huile d'olive",
+            "Paquet de 300 g de lanières de bœuf sautées, ou utilisez un steak de bœuf tranché finement",
+            "1 poivron jaune, épépiné et tranché finement",
+            "Boîte de 400 g de tomates concassées",
+            "brin de romarin, haché",
+            "une poignée d'olives dénoyautées"
+        ],
+        "method": [
+            "Dans une grande casserole, faire revenir l'oignon et l'ail dans l'huile d'olive pendant 5 minutes jusqu'à ce qu'ils soient ramollis et dorés. Ajoutez les lanières de bœuf, le poivre, les tomates et le romarin, puis portez à ébullition. Laisser mijoter 15 minutes jusqu'à ce que la viande soit bien cuite, en ajoutant un peu d'eau bouillante si nécessaire. Incorporer les olives et servir avec de la purée ou de la polenta."
+        ],
+        "nutritional_info": {
+            "kcal": "225",
+            "fat": "11g",
+            "saturates": "3g",
+            "carbs": "7g",
+            "sugars": "6g",
+            "fibre": "2g",
+            "protein": "25g",
+            "salt": "0.87g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1259467_8.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/italianstyle-beef-stew.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/minced-beef-and-sweet-potato-stew/",
+        "title": "Ragoût de bœuf haché et patates douces",
+        "description": "Le hachis maigre et économique constitue une base idéale pour une cocotte familiale copieuse – servez ce tout-en-un avec des légumes verts de saison.",
+        "prep_time": "20 mins Cook: 1 hrs",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à soupe d'huile de tournesol",
+            "1 gros oignon, haché",
+            "1 grosse carotte, hachée",
+            "1 branche de céleri, tranchée",
+            "500 g de bœuf haché maigre",
+            "1 cuillère à soupe de purée de tomates",
+            "1 cuillère à soupe de ketchup aux champignons",
+            "Boîte de 400 g de tomates concassées",
+            "450 g de patates douces pelées et coupées en gros morceaux",
+            "quelques brins de thym",
+            "1 feuille de laurier",
+            "poignée de persil haché",
+            "Chou de Milan, pour servir"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une grande poêle, ajoutez le\r\noignon, carotte et céleri, et sueur\r\npendant 10 minutes jusqu'à ce qu'ils soient tendres. Ajouter le boeuf\r\net cuire jusqu'à ce qu'il soit entièrement doré.",
+            "Ajouter le concentré de tomates et laisser cuire\r\nquelques minutes, puis ajoutez les champignons\r\nketchup, tomates, patates douces,\r\ndes herbes et une canette pleine d'eau. Saison\r\nbien et porter à ébullition.",
+            "Laisser mijoter à feu doux pendant 40 à 45 minutes\r\njusqu'à ce que les patates douces soient tendres,\r\nen remuant plusieurs fois tout au long de la cuisson\r\npour vous assurer qu'ils cuisent uniformément.",
+            "Une fois cuit, retirez la feuille de laurier,\r\nincorporer le persil haché et\r\nservir avec du chou."
+        ],
+        "nutritional_info": {
+            "kcal": "368",
+            "fat": "13g",
+            "saturates": "5g",
+            "carbs": "35g",
+            "sugars": "17g",
+            "fibre": "6g",
+            "protein": "29g",
+            "salt": "0.6g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1167494_11.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/minced-beef-and-sweet-potato-stew.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/rich-paprika-seafood-bowl/",
+        "title": "Bol de fruits de mer riche en paprika",
+        "description": "Manger sainement n'est pas qu'une question de salade, ce ragoût de poisson compte pour 3 de vos 5 par jour et il est faible en gras",
+        "prep_time": "10 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à soupe d'huile d'olive",
+            "2 oignons, coupés en deux et tranchés finement",
+            "2 branches de céleri, hachées finement",
+            "gros bouquet de persil plat, feuilles et tiges séparées",
+            "2-3 cuillères à café de paprika",
+            "200 g de poivrons rouges rôtis, égouttés, tranchés épaissement",
+            "400 g de tomates concassées à l'ail",
+            "400 g de filet de poisson blanc coupé en très gros morceaux",
+            "quelques moules fraîches (facultatif)"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une poêle, puis ajoutez les oignons,\r\ncéleri et un peu de sel. Couvrir, puis faire revenir doucement\r\njusqu'à tendreté, environ 10 minutes. Mettez le persil\r\nles tiges, la moitié des feuilles, l'huile et l'assaisonnement\r\nun robot culinaire et réduire en pâte. Ajouter\r\nceci et le paprika aux oignons ramollis,\r\nfaire frire quelques minutes. Ajoutez les poivrons et\r\ntomates avec un peu d'eau, puis laisser mijoter\r\npendant 10 minutes jusqu'à ce que la sauce ait réduit.",
+            "Disposez le poisson et les moules dessus.\r\nsauce, mettre un couvercle, puis laisser mijoter 5 min\r\njusqu'à ce que le poisson se défasse et que les moules\r\nsont ouverts – jetez ceux qui restent fermés.\r\nIncorporer délicatement les fruits de mer à la sauce,\r\nassaisonner, puis servir dans des bols."
+        ],
+        "nutritional_info": {
+            "kcal": "192",
+            "fat": "7g",
+            "saturates": "1g",
+            "carbs": "12g",
+            "sugars": "8g",
+            "fibre": "4g",
+            "protein": "22g",
+            "salt": "1.14g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1069509_11.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/rich-paprika-seafood-bowl.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/bean-and-pepper-chilli/",
+        "title": "Piment aux haricots et au poivre",
+        "description": "Utilisez les légumineuses de votre choix dans ce plat végétarien sain",
+        "prep_time": "15 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à soupe d'huile d'olive",
+            "1 oignon, haché",
+            "350 g de poivrons épépinés et tranchés",
+            "1 cuillère à soupe de cumin moulu",
+            "1 cuillère à soupe de poudre de piment",
+            "1 cuillère à soupe de paprika doux fumé",
+            "Boîte de 400 g de haricots rouges à la sauce chili",
+            "Boîte de 400 g de haricots mélangés, égouttés",
+            "Boîte de 400 g de tomates concassées",
+            "riz, pour servir (facultatif)"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une grande poêle. Ajoutez le\r\noignon et poivrons, et cuire 8 min\r\njusqu'à ce qu'ils soient ramollis. Ajoutez les épices et\r\ncuire 1 min.",
+            "Versez les haricots et les tomates, apportez\r\nporter à ébullition et laisser mijoter 15 minutes ou\r\njusqu'à ce que le piment épaississe. Assaisonner et\r\nservir avec du riz, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "246",
+            "fat": "5g",
+            "saturates": "1g",
+            "carbs": "29g",
+            "sugars": "14g",
+            "fibre": "15g",
+            "protein": "13g",
+            "salt": "0.7g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1071519_10.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/bean-and-pepper-chilli.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/oriental-salmon-and-broccoli-traybake/",
+        "title": "Plateau de saumon et brocoli à l'orientale",
+        "description": "Cinq ingrédients suffisent pour créer ce plat de poisson aux saveurs asiatiques avec des légumes verts sains et du citron frais.",
+        "prep_time": "10 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 filets de saumon avec la peau",
+            "1 tête de brocoli, divisée en fleurons",
+            "jus ½ citron, ½ citron coupé en quartiers",
+            "petit bouquet d'oignons nouveaux, tranchés",
+            "2 cuillères à soupe de sauce soja"
+        ],
+        "method": [
+            "Chauffer le four à 180C/160C ventilateur/gaz 4.\r\nMettez le saumon dans un grand plat à rôtir,\r\nen laissant un espace entre chaque filet.",
+            "Lavez et égouttez le brocoli et, pendant ce temps\r\nencore un peu humide, disposer dans le plateau tout autour\r\nles filets. Versez le jus de citron dessus\r\nle tout, puis ajoutez les quartiers de citron.",
+            "Garnir de la moitié des oignons nouveaux, arroser\r\navec un peu d'huile d'olive et mettre au four\r\npendant 14 minutes. Retirer du four,\r\nsaupoudrez le tout avec le soja, puis\r\nremettre au four encore 4 minutes jusqu'à ce que\r\nle saumon est bien cuit. Saupoudrer\r\navec les oignons nouveaux restants juste\r\navant de servir."
+        ],
+        "nutritional_info": {
+            "kcal": "310",
+            "fat": "17g",
+            "saturates": "3g",
+            "carbs": "3g",
+            "sugars": "3g",
+            "fibre": "4g",
+            "protein": "35g",
+            "salt": "1.6g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1066544_10.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/oriental-salmon-and-broccoli-traybake.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/sweet-potato-and-chipotle-mash/",
+        "title": "Purée de patate douce et chipotle",
+        "description": "Comme alternative à une purée réconfortante classique, essayez de rôtir des patates douces et de les écraser avec de la pâte de piment fumé épicé.",
+        "prep_time": "10 mins Cook: 50 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 grosses patates douces, environ 1 kg/2 lb 4 oz",
+            "1 cuillère à soupe de pâte de chipotle",
+            "125 ml de crème sure",
+            "25g de beurre"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C ventilateur/gaz 6.\r\nMettez les pommes de terre au four et faites-les rôtir\r\npendant 50 minutes jusqu'à ce qu'il soit tendre une fois percé\r\navec un couteau. Retirez les peaux, mettez le\r\nchair dans un bol et écraser jusqu'à consistance lisse.",
+            "Ajouter la pâte chipotle, la crème sure\r\net le beurre et bien mélanger. Assaisonner au goût."
+        ],
+        "nutritional_info": {
+            "kcal": "330",
+            "fat": "12g",
+            "saturates": "7g",
+            "carbs": "51g",
+            "sugars": "15g",
+            "fibre": "8g",
+            "protein": "4g",
+            "salt": "0.5g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1124507_11.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/sweet-potato-and-chipotle-mash.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/mexican-bake/",
+        "title": "Pâtisserie mexicaine",
+        "description": "Faites une descente dans votre placard et essayez cette nouvelle idée de haricots en conserve aux épices pour fajita – garnis de tortillas et de fromage.",
+        "prep_time": "10 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 boîtes de 400 g de haricots noirs égouttés et rincés",
+            "Sachet de 35 g d'assaisonnement pour fajita au choix",
+            "2 boîtes de 400 g de tomates concassées au piment",
+            "6 tortillas",
+            "140 g de fromage Monterey Jack ou cheddar râpé"
+        ],
+        "method": [
+            "Chauffer le four à 180C/160C ventilateur/gaz 4.\r\nFaites chauffer une poêle antiadhésive, ajoutez le noir\r\nharicots et mélange d'épices pour fajita, mélanger ensemble et\r\ncuire 1 à 2 minutes. Ajoutez les tomates et\r\nlaisser mijoter à feu doux pendant 10 mn.",
+            "Coupez les tortillas en deux. Graisser légèrement un\r\nPlat allant au four de 2 litres. Répandre un tiers de la\r\nmélange de haricots sur le fond du plat,\r\nsuivi de 3 cuillères à soupe de fromage et d'un\r\ncouche de tortillas. Répétez le processus,\r\nterminer par une couche de tortilla sur le dessus.\r\nSaupoudrer du reste de fromage.\r\nCuire au four 15 minutes jusqu'à ce qu'ils soient dorés."
+        ],
+        "nutritional_info": {
+            "kcal": "473",
+            "fat": "14g",
+            "saturates": "8g",
+            "carbs": "64g",
+            "sugars": "11g",
+            "fibre": "11g",
+            "protein": "23g",
+            "salt": "1.3g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1096460_11.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/mexican-bake.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chicken-butter-bean-and-pepper-stew/",
+        "title": "Ragoût de poulet, haricots beurre et poivre",
+        "description": "Utilisez des légumineuses du placard et de savoureuses cuisses de poulet dans cette cocotte saine au goût de paprika avec des poivrons et des tomates.",
+        "prep_time": "10 mins Cook: 55 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à soupe d'huile d'olive",
+            "1 gros oignon, haché",
+            "2 branches de céleri, hachées",
+            "1 poivron jaune épépiné et coupé en dés",
+            "1 poivron rouge épépiné et coupé en dés",
+            "1 gousse d'ail, écrasée",
+            "2 cuillères à soupe de paprika",
+            "Boîte de 400 g de tomates concassées",
+            "150 ml de bouillon de poulet",
+            "2 boîtes de 400 g de haricots beurre égouttés et rincés",
+            "8 cuisses de poulet sans peau"
+        ],
+        "method": [
+            "Chauffer le four à 180C/160C ventilateur/gaz 4.\r\nFaites chauffer l'huile dans un grand récipient antidéflagrant\r\ncocotte. Ajouter l'oignon, le céleri\r\net les poivrons, et faire revenir pendant 5 minutes. Ajouter\r\nl'ail et le paprika, et laissez cuire pendant\r\nencore 3 minutes.",
+            "Incorporer les tomates, le bouillon et le beurre\r\nharicots et bien assaisonner. Portez à ébullition,\r\npuis placez les cuisses de poulet dans le\r\nsauce. Couvrir avec un couvercle hermétique et\r\nmettre au four 45 mn."
+        ],
+        "nutritional_info": {
+            "kcal": "422",
+            "fat": "15g",
+            "saturates": "4g",
+            "carbs": "27g",
+            "sugars": "12g",
+            "fibre": "9g",
+            "protein": "44g",
+            "salt": "1.6g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1167480_11.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/chicken-butter-bean-and-pepper-stew.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/17461-pasta-with-chilli-tomatoes-spinach/",
+        "title": "Pâtes aux tomates chili et épinards",
+        "description": "Un souper faible en gras composé d'une savoureuse sauce tomate et de penne – faites tomber un sac entier d'épinards pour plus de nutriments",
+        "prep_time": "10 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "2 cuillères à café d'huile d'olive",
+            "1 oignon, finement haché",
+            "2 gousses d'ail, écrasées",
+            "½ cuillère à café de flocons de piment séchés",
+            "200 g de penne complètes",
+            "Boîte de 400 g de tomates concassées",
+            "100 ml de vin rouge",
+            "½ cuillère à café d'origan séché",
+            "Sachet de 125 g de jeunes feuilles d'épinards",
+            "25 g de parmesan ou alternative végétarienne, râpé"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une poêle antiadhésive\r\net faire revenir doucement l'oignon, l'ail et le piment\r\nflocons, en remuant régulièrement, pendant 5 minutes (ajouter\r\nun peu d'eau s'ils commencent à coller).",
+            "Cuire les pâtes en suivant les instructions sur l'emballage.\r\nAjouter les tomates, le vin et l'origan\r\ndans la poêle et remuer pour combiner.\r\nPortez à légère ébullition et faites cuire,\r\nen remuant de temps en temps, pendant 10 minutes.",
+            "Secouez les épinards dans la poêle\r\net cuire 1 à 2 minutes jusqu'à ce que\r\nfané. Égouttez les pâtes et versez-les\r\ndans la poêle avec la sauce.\r\nMélanger, saupoudrer\r\navec du fromage et servir."
+        ],
+        "nutritional_info": {
+            "kcal": "524",
+            "fat": "11g",
+            "saturates": "3g",
+            "carbs": "75g",
+            "sugars": "13g",
+            "fibre": "13g",
+            "protein": "24g",
+            "salt": "0.7g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--930462_11.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/17461-pasta-with-chilli-tomatoes-spinach.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/moroccan-chicken-with-sweet-potato-mash/",
+        "title": "Poulet marocain avec purée de patate douce",
+        "description": "Du poulet tendre et parfumé et une purée de patates douces crémeuse constituent un repas de semaine réconfortant et faible en gras.",
+        "prep_time": "10 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 kg de patates douces, en cubes",
+            "2 cuillères à café de ras-el-hanout ou un mélange de cannelle moulue et de cumin",
+            "4 poitrines de poulet sans peau et désossées",
+            "2 cuillères à soupe d'huile d'olive",
+            "1 oignon, tranché finement",
+            "1 grosse gousse d'ail, écrasée",
+            "200 ml de bouillon de poulet",
+            "2 cuillères à café de miel clair",
+            "jus ½ citron",
+            "une poignée d'olives vertes, dénoyautées ou entières",
+            "20 g de coriandre, feuilles hachées"
+        ],
+        "method": [
+            "Faire bouillir les pommes de terre dans de l'eau salée pendant\r\n15 minutes ou jusqu'à tendreté. Mélangez le ras el\r\nhanout avec l'assaisonnement, puis saupoudrer le tout\r\nsur le poulet. Faites chauffer 1 cuillère à soupe d'huile dans un grand\r\npoêle, puis faire dorer le poulet pendant\r\n3 minutes de chaque côté jusqu'à ce qu'ils soient dorés.",
+            "Sortez le poulet de la poêle. Ajoutez le\r\nl'oignon et l'ail et cuire 5 minutes jusqu'à ce que\r\nramolli. Ajouter le bouillon, le miel, le citron\r\njus et olives, remettre le poulet dans le\r\npoêle, puis laisser mijoter 10 minutes jusqu'à ce que le\r\nla sauce est sirupeuse et le poulet cuit.",
+            "Écrasez les pommes de terre avec 1 cuillère à soupe d'huile et\r\nsaison. Trancher épaissement chaque poitrine de poulet\r\net incorporez la coriandre à la sauce.\r\nServir le poulet et la sauce sur une purée."
+        ],
+        "nutritional_info": {
+            "kcal": "460",
+            "fat": "9g",
+            "saturates": "2g",
+            "carbs": "59g",
+            "sugars": "18g",
+            "fibre": "7g",
+            "protein": "39g",
+            "salt": "1.11g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--488651_11.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/moroccan-chicken-with-sweet-potato-mash.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/roasted-ratatouille-chicken/",
+        "title": "Poulet ratatouille rôti",
+        "description": "Une recette de poulet classique qui incitera les foules à revenir pour en savoir plus",
+        "prep_time": "25 mins Cook: 25 mins Ready in 50 minutes",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 oignon, coupé en quartiers",
+            "2 poivrons rouges épépinés et coupés en morceaux",
+            "1 courgette, coupée en morceaux",
+            "1 petite aubergine, coupée en morceaux",
+            "4 tomates, coupées en deux",
+            "4 cuillères à soupe d'huile d'olive, plus un peu pour arroser",
+            "4 poitrines de poulet, avec la peau",
+            "quelques brins de romarin (facultatif)"
+        ],
+        "method": [
+            "Chauffer le four à 200C/chaleur tournante 180C/gaz 6. Poser \r\ntous les légumes et les tomates dans un \r\nplat à rôtir peu profond. Verser dessus l'huile d'olive \r\net mélangez bien le tout jusqu'à ce que \r\nbien enduit (les mains sont plus faciles pour cela).",
+            "Disposez les poitrines de poulet, peau vers le haut, \r\nsur les légumes et incorporez-y quelques \r\nbrins de romarin, si vous en utilisez. Assaisonner le tout \r\navec du sel et du poivre noir et arroser un peu \r\nhuile sur le poulet. Rôtir environ 35 minutes \r\njusqu'à ce que les légumes soient tendres et le poulet \r\nest doré. Arroser d'huile avant de servir."
+        ],
+        "nutritional_info": {
+            "kcal": "318",
+            "fat": "14g",
+            "saturates": "2g",
+            "carbs": "13g",
+            "sugars": "0g",
+            "fibre": "4g",
+            "protein": "37g",
+            "salt": "0.25g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--52118_11.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/roasted-ratatouille-chicken.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/baked-salmon-with-fennel-and-tomatoes/",
+        "title": "Saumon au four au fenouil et tomates",
+        "description": "Fenouil anisé et tomates cerises juteuses découpées dans la richesse des filets de saumon",
+        "prep_time": "20 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "2 bulbes de fenouil moyens",
+            "2 cuillères à soupe de persil plat haché",
+            "le zeste et le jus d'1 citron",
+            "175 g de tomates cerises",
+            "1 cuillère à soupe d'huile d'olive",
+            "2 filets de saumon d'environ 175 g chacun",
+            "quelques olives noires (facultatif)"
+        ],
+        "method": [
+            "Chauffer le four à 180C/chaleur tournante 160C/gaz 4. Garnir\r\nles feuilles de fenouil et réserver.\r\nCoupez les bulbes de fenouil en deux, puis coupez chacun\r\nla moitié en 3 quartiers. Cuire à l'ébullition salée\r\narroser pendant 10 minutes, puis bien égoutter. Hacher\r\ngrossièrement les feuilles de fenouil, puis mélanger avec\r\nle persil et le zeste de citron.",
+            "Étalez le fenouil égoutté sur un plat peu profond\r\nplat allant au four, puis ajoutez les tomates.\r\nArroser d'huile d'olive, puis enfourner 10 min.\r\nPlacer le saumon parmi les légumes, saupoudrer\r\navec du jus de citron, puis enfourner encore 15 min\r\njusqu'à ce que le poisson soit juste cuit. Dispersez-vous sur le\r\npersil et servir."
+        ],
+        "nutritional_info": {
+            "kcal": "398",
+            "fat": "25g",
+            "saturates": "5g",
+            "carbs": "5g",
+            "sugars": "5g",
+            "fibre": "0g",
+            "protein": "37g",
+            "salt": "0.27g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--12437_12.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/baked-salmon-with-fennel-and-tomatoes.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/wholewheat-pasta-with-broccoli-and-almonds/",
+        "title": "Pâtes de blé complet au brocoli et aux amandes",
+        "description": "Les spaghettis bruns vous rassasient plus longtemps – associez-les à des légumes verts sains aromatisés à l'ail, au piment et au citron.",
+        "prep_time": "5 mins Cook: 15 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "2 cuillères à soupe d'huile d'olive extra vierge",
+            "1 piment rouge, épépiné et tranché (ajoutez du piment supplémentaire si vous le souhaitez)",
+            "3 gousses d'ail, tranchées finement",
+            "250 g de spaghettis au blé complet",
+            "300 g de brocoli à tige fine, coupé en morceaux",
+            "le zeste d'1 citron",
+            "25 g d'amandes effilées grillées",
+            "copeaux de parmesan (ou alternative végétarienne), pour servir"
+        ],
+        "method": [
+            "Apportez une grande casserole d'eau salée au\r\nfaire bouillir. Pendant ce temps, faites chauffer l'huile d'olive dans une\r\ngrande poêle à frire. Ajoutez le piment et l'ail,\r\net cuire à feu doux jusqu'à ce qu'ils soient dorés.\r\nRetirer du feu.",
+            "Ajouter les pâtes à l'eau et cuire\r\nen suivant les instructions de l'emballage. En finale\r\n4 min de cuisson, ajoutez les brocolis.\r\nUne fois cuit, égouttez-le et versez-le dans l'ail\r\ncasserole. Ajoutez le zeste de citron et les amandes,\r\net bien mélanger. Servir dans des bols,\r\ngarni de copeaux de parmesan."
+        ],
+        "nutritional_info": {
+            "kcal": "638",
+            "fat": "23g",
+            "saturates": "3g",
+            "carbs": "82g",
+            "sugars": "6g",
+            "fibre": "16g",
+            "protein": "26g",
+            "salt": "0g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1176498_10.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/wholewheat-pasta-with-broccoli-and-almonds.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/greek-beans-with-seared-lamb/",
+        "title": "Haricots grecs à l'agneau poêlé",
+        "description": "Braiser des haricots beurre ou « gigantes » avec des tomates, de l'oignon et de l'ail et servir avec un tendre filet d'agneau et du fromage feta émietté.",
+        "prep_time": "10 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "500 g de filet d'agneau",
+            "1½ cuillère à soupe d'huile d'olive",
+            "3 gousses d'ail, écrasées",
+            "1 gros oignon, haché",
+            "2 cuillères à soupe de purée de tomates",
+            "petit bouquet d'aneth, haché en grande partie",
+            "1 cuillère à soupe de vinaigre de vin rouge",
+            "500 ml de bouillon de poulet",
+            "2 boîtes de 400 g de haricots géants ou de haricots beurre égouttés",
+            "2 cuillères à soupe de fromage feta émietté"
+        ],
+        "method": [
+            "Frotter l'agneau avec ½ cuillère à soupe d'huile\r\net 1 gousse d'ail. Bien assaisonner et prendre\r\nréserver pour mariner pendant que vous préparez le\r\nharicots, ou jusqu'à 2 heures si vous avez le temps.",
+            "Faites chauffer le reste de l'huile dans une poêle. Ajoutez le\r\nl'oignon et le reste de l'ail, et assaisonner.\r\nFaire frire pendant 8 minutes jusqu'à ce qu'ils soient tendres. Ajouter la tomate\r\npurée, aneth haché, vinaigre, bouillon et\r\nharicots, assaisonner et laisser mijoter 15 minutes\r\nou jusqu'à ce que la majeure partie du liquide se soit évaporée.",
+            "Pendant ce temps, faites chauffer une poêle jusqu'à ce qu'elle soit chaude.\r\nSaisir l'agneau de tous les côtés, environ 5 minutes\r\ntotale. Laisser reposer, recouvert de papier d'aluminium, pendant 5 minutes,\r\npuis trancher épaissement. Servir l'agneau avec le\r\nharicots, parsemés de feta et de\r\nfeuilles d'aneth restantes."
+        ],
+        "nutritional_info": {
+            "kcal": "437",
+            "fat": "24g",
+            "saturates": "9g",
+            "carbs": "22g",
+            "sugars": "6g",
+            "fibre": "8g",
+            "protein": "34g",
+            "salt": "0.8g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1080452_11.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/greek-beans-with-seared-lamb.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chicken-with-mushrooms/",
+        "title": "Poulet aux champignons",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Une cocotte de poulet saine et faible en calories avec du bacon, des petits pois et une sauce au persil – utilisez des cuisses de poulet pour plus de saveur et de jutosité.",
+        "prep_time": "15 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 cuillères à soupe d'huile d'olive",
+            "500 g de cuisses de poulet désossées et sans peau",
+            "farine, pour saupoudrer",
+            "50 g de lardons",
+            "300 g de petits champignons de Paris",
+            "2 grosses échalotes, hachées",
+            "250 ml de bouillon de poulet",
+            "1 cuillère à soupe de vinaigre de vin blanc",
+            "50 g de petits pois surgelés",
+            "une petite poignée de persil finement haché"
+        ],
+        "method": [
+            "Faites chauffer 1 cuillère à soupe d'huile dans une poêle. Saison\r\net saupoudrez le poulet de farine, faites-le dorer\r\ntous les côtés. Retirer. Faites frire la pancetta et\r\nchampignons jusqu'à ce qu'ils soient ramollis, puis retirez-les.",
+            "Ajouter la dernière cuillère à soupe d'huile et faire revenir les échalotes\r\npendant 5 minutes. Ajoutez le bouillon et le vinaigre,\r\nbouillonner pendant 1 à 2 minutes. Renvoyez le poulet,\r\npancetta et champignons et cuire pendant\r\n15 minutes. Ajoutez les petits pois et le persil et\r\ncuire encore 2 minutes, puis servir."
+        ],
+        "nutritional_info": {
+            "kcal": "260",
+            "fat": "13g",
+            "saturates": "3g",
+            "carbs": "3g",
+            "sugars": "1g",
+            "fibre": "3g",
+            "protein": "32g",
+            "salt": "0.9g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1096468_12.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/chicken-with-mushrooms.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/barley-chicken-mushroom-risotto/",
+        "title": "Risotto à l'orge, poulet et champignons",
+        "description": "Vous aimez le risotto ? Essayez cette version faible en gras, qui remplace le riz à risotto traditionnel par de l'orge perlé",
+        "prep_time": "10 mins Cook: 50 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à soupe de beurre",
+            "1 cuillère à soupe d'huile d'olive",
+            "2 grosses échalotes, tranchées finement",
+            "1 gousse d'ail, hachée",
+            "3 poitrines de poulet sans peau, coupées en gros morceaux",
+            "300 g d'orge perlé",
+            "250 ml de vin blanc",
+            "400 g de champignons sauvages et de châtaigniers mélangés, hachés",
+            "1 cuillère à soupe de feuille de thym",
+            "1l de bouillon de poulet chaud",
+            "3 cuillères à soupe de parmesan râpé",
+            "ciboulette ciselée, pour servir (facultatif)",
+            "copeaux de parmesan, pour servir (facultatif)"
+        ],
+        "method": [
+            "Dans une grande casserole à fond épais, faire chauffer\r\nle beurre et l'huile. Faire revenir les échalotes\r\net de l'ail avec un peu d'assaisonnement pour\r\n5 minutes, puis incorporez le poulet et\r\ncuire 2 min.",
+            "Ajouter l'orge et cuire 1 min.\r\nVersez le vin et remuez jusqu'à ce qu'il soit\r\nabsorbé. Ajoutez les champignons et\r\nthym, puis versez dessus les ¾ du bouillon.\r\nCuire 40 minutes à feu doux jusqu'à ce que\r\nl'orge est tendre, en remuant de temps en temps\r\net faire l'appoint avec le stock restant si\r\nça a l'air sec. Retirer du feu et\r\nincorporer le parmesan râpé. Servir\r\nimmédiatement, avec de la ciboulette et du parmesan\r\ncopeaux éparpillés, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "564",
+            "fat": "12g",
+            "saturates": "5g",
+            "carbs": "61g",
+            "sugars": "3g",
+            "fibre": "3g",
+            "protein": "42g",
+            "salt": "1.1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1099500_11.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/barley-chicken-mushroom-risotto.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/15035-prawn-tomato-stew-with-gremolata-topping/",
+        "title": "Ragoût de crevettes et de tomates avec garniture de gremolata",
+        "description": "Une cocotte de poisson avec des crevettes saines, garnie d'une garniture italienne de persil et de zeste de citron – elle est également faible en gras et en calories",
+        "prep_time": "10 mins Cook: 35 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "500 g de pommes de terre nouvelles",
+            "2 cuillères à soupe d'huile d'olive",
+            "1 gros oignon, tranché",
+            "4 branches de céleri, coupées en morceaux",
+            "2 gousses d'ail, hachées",
+            "2 filets d'anchois, hachés",
+            "pincée de flocons de piment",
+            "Boîte de 400 g de tomates concassées",
+            "250 ml de vin blanc",
+            "200 ml de bouillon de légumes",
+            "400 g de gambas crues, décortiquées",
+            "le zeste et le jus d'1 citron",
+            "1 cuillère à café de câpres salées, rincées",
+            "une grosse poignée de persil haché",
+            "pain grillé, pour servir"
+        ],
+        "method": [
+            "Mettez les pommes de terre dans une casserole de\r\neau froide salée et porter à ébullition.\r\nRéduire le feu à moyen et laisser mijoter\r\npendant 15-20 minutes ou jusqu'à ce qu'il soit cuit mais quand même\r\nferme. Égoutter et, une fois suffisamment refroidi pour\r\npoignée, tranche épaisse.",
+            "Pendant ce temps, faites chauffer l'huile dans une grande\r\ncasserole à feu doux-moyen.\r\nAjouter l'oignon, le céleri, l'ail, l'anchois\r\net le piment, assaisonner et cuire 8 min\r\nou jusqu'à ce qu'il soit ramolli. Augmenter la chaleur\r\nà moyen-vif, ajouter les tomates,\r\nvin et bouillon, et laissez cuire 15 minutes.\r\nAjouter les crevettes, le jus de citron, les câpres\r\net des pommes de terre. Cuire encore 5 minutes,\r\nou jusqu'à ce que les crevettes deviennent roses et soient\r\njuste cuit. Mélangez le persil et\r\nle zeste de citron, puis répartir sur le ragoût,\r\npuis servir avec du pain grillé, pour tremper."
+        ],
+        "nutritional_info": {
+            "kcal": "308",
+            "fat": "7g",
+            "saturates": "1g",
+            "carbs": "29g",
+            "sugars": "10g",
+            "fibre": "5g",
+            "protein": "22g",
+            "salt": "1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1176506_11.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/15035-prawn-tomato-stew-with-gremolata-topping.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/jerk-sweet-potato-and-black-bean-curry/",
+        "title": "Jerk patate douce & curry de haricots noirs",
+        "description": "Servez votre curry de légumes à la façon des Caraïbes, parfumé au thym, à l'assaisonnement jerk et aux poivrons rouges – excellent avec du riz et des petits pois",
+        "prep_time": "50 mins Cook: 45 mins",
+        "cook_time": "",
+        "serves": "10",
+        "ingredients": [
+            "2 oignons, 1 coupé en dés, 1 haché grossièrement",
+            "2 cuillères à soupe d'huile de tournesol",
+            "50 g de gingembre haché grossièrement",
+            "petit bouquet de coriandre, feuilles et tiges séparées",
+            "3 cuillères à soupe d'assaisonnement jerk",
+            "2 brins de thym",
+            "Boîte de 400 g de tomates concassées",
+            "4 cuillères à soupe de vinaigre de vin rouge",
+            "3 cuillères à soupe de sucre demerara",
+            "2 cubes de bouillon de légumes émiettés",
+            "1 kg de patates douces pelées et coupées en morceaux",
+            "2 boîtes de 400 g de haricots noirs rincés et égouttés",
+            "Pot de 450 g de poivrons rouges rôtis, coupés en tranches épaisses"
+        ],
+        "method": [
+            "Ramollir délicatement l'oignon coupé en dés dans le\r\nhuile de tournesol dans une grande poêle ou une cocotte.",
+            "Pendant ce temps, mélangez grossièrement\r\noignon haché, gingembre, tiges de coriandre\r\net assaisonnement jerk avec un appareil à main\r\nmixeur. Ajouter à l'oignon ramolli et faire revenir\r\njusqu'à ce qu'il soit parfumé. Incorporer le thym haché\r\ntomates, vinaigre, sucre et cubes de bouillon\r\navec 600 ml d'eau et porter à ébullition.\r\nLaisser mijoter 10 minutes, puis verser le\r\npatates douces et laisser mijoter 10 min\r\nplus. Incorporer les haricots, les poivrons et un peu\r\nassaisonner et laisser mijoter encore 5 minutes\r\njusqu'à ce que les pommes de terre soient presque tendres. Frais\r\net réfrigérer jusqu'à 2 jours.",
+            "Pour servir, faites chauffer doucement sur le\r\ntable de cuisson. Hachez grossièrement la majeure partie de la coriandre\r\nfeuilles et incorporer, puis servir dispersé\r\navec les feuilles restantes."
+        ],
+        "nutritional_info": {
+            "kcal": "209",
+            "fat": "3g",
+            "saturates": "1g",
+            "carbs": "39g",
+            "sugars": "14g",
+            "fibre": "7g",
+            "protein": "6g",
+            "salt": "0.7g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1173503_12.jpg",
+        "local_image_path": "images/healthy/low-gi-dinner/jerk-sweet-potato-and-black-bean-curry.jpg"
+    }
+]

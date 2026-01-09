@@ -3,10 +3,14 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useUser } from '@/contexts/UserContext';
+import { useTranslations } from 'next-intl';
 import Link from 'next/link';
+import { User, UserCheck } from 'lucide-react';
 
 export default function SignupPage() {
     const router = useRouter();
+    const t = useTranslations('auth');
+    const tCommon = useTranslations('common');
     // const { login } = useUser();
 
     const [formData, setFormData] = useState({
@@ -68,14 +72,14 @@ export default function SignupPage() {
         <div className="min-h-screen flex items-center justify-center p-4 bg-[var(--bg-primary)]">
             <div className="card w-full max-w-md p-8 animate-fade-in relative">
                 <Link href="/login" className="absolute top-8 left-8 text-gray-500 hover:text-white">
-                    ← Back
+                    ← {t('back')}
                 </Link>
 
                 <div className="text-center mb-8">
                     <h1 className="text-3xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
-                        Create Account
+                        {t('createAccount')}
                     </h1>
-                    <p className="text-[var(--text-secondary)]">Start your healthy journey today</p>
+                    <p className="text-[var(--text-secondary)]">{t('startJourney')}</p>
                 </div>
 
                 {error && (
@@ -86,7 +90,7 @@ export default function SignupPage() {
 
                 <form onSubmit={handleSubmit} className="space-y-4">
                     <div>
-                        <label className="form-label block mb-1">Full Name</label>
+                        <label className="form-label block mb-1">{t('fullName')}</label>
                         <input
                             type="text"
                             className="form-input w-full"
@@ -97,7 +101,7 @@ export default function SignupPage() {
                         />
                     </div>
                     <div>
-                        <label className="form-label block mb-1">Email Address</label>
+                        <label className="form-label block mb-1">{t('emailAddress')}</label>
                         <input
                             type="email"
                             className="form-input w-full"
@@ -108,7 +112,7 @@ export default function SignupPage() {
                         />
                     </div>
                     <div>
-                        <label className="form-label block mb-1">Password</label>
+                        <label className="form-label block mb-1">{t('password')}</label>
                         <input
                             type="password"
                             className="form-input w-full"
@@ -121,7 +125,7 @@ export default function SignupPage() {
                     </div>
 
                     <div>
-                        <label className="form-label block mb-1">Gender</label>
+                        <label className="form-label block mb-1">{t('gender')}</label>
                         <div className="grid grid-cols-2 gap-4">
                             <button
                                 type="button"
@@ -131,7 +135,7 @@ export default function SignupPage() {
                                     : 'bg-gray-800/50 border-gray-700 text-gray-400 hover:bg-gray-800'
                                     }`}
                             >
-                                👨 Male
+                                <User size={18} /> {t('male')}
                             </button>
                             <button
                                 type="button"
@@ -141,14 +145,14 @@ export default function SignupPage() {
                                     : 'bg-gray-800/50 border-gray-700 text-gray-400 hover:bg-gray-800'
                                     }`}
                             >
-                                👩 Female
+                                <UserCheck size={18} /> {t('female')}
                             </button>
                         </div>
                     </div>
 
                     <div className="pt-2 border-t border-gray-800">
-                        <label className="form-label block mb-1">Family Name (Optional)</label>
-                        <p className="text-xs text-gray-500 mb-2">Create a new family group for your household.</p>
+                        <label className="form-label block mb-1">{t('familyName')}</label>
+                        <p className="text-xs text-gray-500 mb-2">{t('familyNameDesc')}</p>
                         <input
                             type="text"
                             className="form-input w-full"
@@ -163,14 +167,14 @@ export default function SignupPage() {
                         className="btn-primary w-full py-3 mt-4"
                         disabled={isLoading}
                     >
-                        {isLoading ? 'Creating Account...' : 'Sign Up'}
+                        {isLoading ? t('creatingAccount') : t('signUp')}
                     </button>
                 </form>
 
                 <div className="mt-6 text-center text-sm text-gray-400">
-                    Already have an account?{' '}
+                    {t('alreadyHaveAccount')}{' '}
                     <Link href="/login" className="text-violet-400 hover:text-violet-300">
-                        Log in
+                        {t('logIn')}
                     </Link>
                 </div>
             </div>
