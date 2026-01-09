@@ -81,13 +81,13 @@ export default function Dashboard() {
   }, [user]);
 
   const getImageUrl = (meal: Recipe) => {
-    if (meal.local_image_path) {
-      if (meal.local_image_path.startsWith('images/')) {
-        return `/${meal.local_image_path}`;
-      }
-      return `/images/recipes/${meal.local_image_path}`;
+    if (meal.image_url) {
+      return meal.image_url;
     }
-    return meal.image_url || '/images/placeholder.png';
+    if (meal.local_image_path) {
+      return `/images/recipes/${meal.local_image_path.replace('images/', '')}`;
+    }
+    return '/images/placeholder.png';
   };
 
   if (isLoading || !user) return <div className="p-8 text-center">Loading dashboard...</div>;
