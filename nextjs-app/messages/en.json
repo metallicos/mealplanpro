@@ -12,6 +12,8 @@
   "nav": {
     "dashboard": "Dashboard",
     "trackMacros": "Track Macros",
+    "fasting": "Fasting Hub",
+    "coach": "Personal Coach",
     "calculator": "Calorie Calculator",
     "mealLibrary": "Meal Library",
     "statistics": "Statistics",

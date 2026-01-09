@@ -57,14 +57,14 @@ const defaultSettings: UserSettings = {
     fatTarget: 66,
 };
 
-// Theme configurations
+// Theme configurations - Vitality Theme (Emerald/Teal)
 const themes = {
     male: {
-        primary: '#6366f1',
-        secondary: '#8b5cf6',
-        accent: '#a855f7',
-        gradient: 'linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%)',
-        glow: '0 0 30px rgba(99, 102, 241, 0.3)',
+        primary: '#10b981',
+        secondary: '#14b8a6',
+        accent: '#06b6d4',
+        gradient: 'linear-gradient(135deg, #10b981 0%, #14b8a6 50%, #06b6d4 100%)',
+        glow: '0 0 30px rgba(16, 185, 129, 0.25)',
     },
     female: {
         primary: '#ec4899',

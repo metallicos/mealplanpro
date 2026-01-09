@@ -2,6 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import { useUser } from '@/contexts/UserContext';
+import {
+    BarChart3, TrendingUp, Calendar, Scale, TrendingDown,
+    ShoppingCart, DollarSign, Package, Activity
+} from 'lucide-react';
 
 interface WeightLog {
     id: number;
@@ -110,7 +114,7 @@ export default function StatisticsPage() {
         return (
             <div className="animate-fade-in flex items-center justify-center min-h-[50vh]">
                 <div className="text-center">
-                    <div className="text-4xl mb-4">📊</div>
+                    <div className="text-4xl mb-4 flex justify-center"><BarChart3 className="w-16 h-16 text-gray-700 animate-pulse" /></div>
                     <p className="text-gray-400">Loading your statistics...</p>
                 </div>
             </div>
@@ -120,7 +124,7 @@ export default function StatisticsPage() {
     return (
         <div className="animate-fade-in">
             <div className="mb-8">
-                <h1 className="page-title">Your Progress 📈</h1>
+                <h1 className="page-title flex items-center gap-3"><TrendingUp className="w-8 h-8 text-[var(--accent-primary)]" /> Your Progress</h1>
                 <p className="page-subtitle">Track your journey and see how far you've come, {user?.fullName}.</p>
             </div>
 
@@ -146,17 +150,17 @@ export default function StatisticsPage() {
             {/* Summary Stats */}
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
                 <div className="stat-card">
-                    <div className="text-4xl mb-2">📅</div>
+                    <div className="text-4xl mb-2 flex justify-center"><Calendar className="w-8 h-8 text-[var(--accent-secondary)]" /></div>
                     <div className="stat-value">{stats.daysLogged}</div>
                     <div className="stat-label">Weeks Logged</div>
                 </div>
                 <div className="stat-card">
-                    <div className="text-4xl mb-2">⚖️</div>
+                    <div className="text-4xl mb-2 flex justify-center"><Scale className="w-8 h-8 text-[var(--accent-primary)]" /></div>
                     <div className="stat-value">{stats.currentWeight || '—'}</div>
                     <div className="stat-label">Current Weight (kg)</div>
                 </div>
                 <div className="stat-card">
-                    <div className="text-4xl mb-2">📉</div>
+                    <div className="text-4xl mb-2 flex justify-center"><TrendingDown className="w-8 h-8 text-[var(--success)]" /></div>
                     <div
                         className="stat-value"
                         style={{ color: stats.weightChange < 0 ? 'var(--success)' : stats.weightChange > 0 ? 'var(--error)' : 'inherit' }}
@@ -166,7 +170,7 @@ export default function StatisticsPage() {
                     <div className="stat-label">Weight Change</div>
                 </div>
                 <div className="stat-card">
-                    <div className="text-4xl mb-2">🛒</div>
+                    <div className="text-4xl mb-2 flex justify-center"><ShoppingCart className="w-8 h-8 text-blue-400" /></div>
                     <div className="stat-value">{stats.completionRate}%</div>
                     <div className="stat-label">Shopping Completed</div>
                 </div>
@@ -175,7 +179,7 @@ export default function StatisticsPage() {
             {/* Budget Overview */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
                 <div className="card">
-                    <h3 className="font-semibold mb-4">💰 Grocery Budget Overview</h3>
+                    <h3 className="font-semibold mb-4 flex items-center gap-2"><DollarSign className="w-5 h-5 text-green-400" /> Grocery Budget Overview</h3>
                     <div className="space-y-4">
                         <div className="flex justify-between items-center">
                             <span className="text-gray-400">Total Budget</span>
@@ -211,7 +215,7 @@ export default function StatisticsPage() {
 
                 {/* Top Categories */}
                 <div className="card">
-                    <h3 className="font-semibold mb-4">📦 Top Grocery Categories</h3>
+                    <h3 className="font-semibold mb-4 flex items-center gap-2"><Package className="w-5 h-5 text-[var(--accent-secondary)]" /> Top Grocery Categories</h3>
                     {stats.topCategories.length > 0 ? (
                         <div className="space-y-3">
                             {stats.topCategories.map(([category, count], i) => (
@@ -233,7 +237,7 @@ export default function StatisticsPage() {
 
             {/* Weight Trend Chart */}
             <div className="card mb-6">
-                <h3 className="font-semibold mb-4">⚖️ Weight Trend</h3>
+                <h3 className="font-semibold mb-4 flex items-center gap-2"><Scale className="w-5 h-5" /> Weight Trend</h3>
                 {stats.weeklyWeights.length > 0 ? (
                     <div className="h-64">
                         <div className="flex items-end justify-between h-full gap-2">
@@ -260,7 +264,7 @@ export default function StatisticsPage() {
                     </div>
                 ) : (
                     <div className="text-center py-12">
-                        <p className="text-2xl mb-2">⚖️</p>
+                        <div className="flex justify-center mb-4"><Scale className="w-16 h-16 text-gray-700" /></div>
                         <p className="text-gray-400">No weight logs yet.</p>
                         <p className="text-sm text-gray-500 mt-1">Log your weight in the Calculator page to see trends.</p>
                     </div>
@@ -279,7 +283,7 @@ export default function StatisticsPage() {
             {/* Empty State */}
             {weightLogs.length === 0 && groceryData.length === 0 && (
                 <div className="card text-center py-12">
-                    <p className="text-4xl mb-4">📊</p>
+                    <div className="flex justify-center mb-4"><BarChart3 className="w-16 h-16 text-gray-700" /></div>
                     <h3 className="text-xl font-semibold mb-2">No Data Yet</h3>
                     <p className="text-gray-400 mb-4">Start tracking your weight and groceries to see your progress here.</p>
                     <div className="flex gap-4 justify-center">

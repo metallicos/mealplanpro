@@ -1,0 +1,1333 @@
+[
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/puttanesca-hake-traybake/",
+        "title": "Plateau de merlu Puttanesca",
+        "description": "Achetez du merlu durable pour cuisiner ce plat de style méditerranéen avec des olives vertes et des tomates",
+        "prep_time": "10 mins Cook: 45 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 oignon , tranché",
+            "500 g de pommes de terre grelots, coupées en gros morceaux",
+            "2 cuillères à soupe d'huile d'olive",
+            "3 gousses d'ail légèrement écrasées mais toujours dans leur peau",
+            "Boîte de 400 g de tomates concassées",
+            "60 g d'olives dénoyautées, nous avons utilisé de la nocellara, tranchées",
+            "1 cuillère à café de flocons de piment",
+            "2 cuillères à soupe de câpres , égouttées et hachées grossièrement",
+            "3 filets d'anchois finement hachés",
+            "4 filets de merlu d'environ 100 g chacun",
+            "10 g de persil haché grossièrement"
+        ],
+        "method": [
+            "Chauffer le four à 220C/190C chaleur tournante/gaz 6. Mettre l'oignon et les pommes de terre dans une rôtissoire, arroser d'huile et garnir d'ail. Bien assaisonner avec du sel et du poivre. Rôtir pendant 25 à 30 minutes, en retournant à mi-cuisson, jusqu'à ce qu'ils soient dorés et bien cuits. Retirez l'ail de leur peau et pressez-le sur les pommes de terre.",
+            "Lorsque les pommes de terre sont cuites, mélangez les tomates concassées en conserve avec une bonne pincée de sel et de poivre. Répartir les olives, les flocons de piment, les câpres et les anchois sur les pommes de terre et bien mélanger. Verser sur les tomates en conserve assaisonnées. Déposez dessus les filets de merlu.",
+            "Couvrir de papier d'aluminium, puis remettre au four pendant 10 à 15 minutes, jusqu'à ce que le poisson soit cuit. Il doit être opaque et s'écailler facilement lorsqu'on le pousse légèrement avec une fourchette.",
+            "Parsemer de persil et servir directement du plateau."
+        ],
+        "nutritional_info": {
+            "kcal": "296",
+            "fat": "10g",
+            "saturates": "2g",
+            "carbs": "26g",
+            "sugars": "0g",
+            "fibre": "5g",
+            "protein": "23g",
+            "salt": "1.36g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/Puttanesca-hake-traybake-686fcb1.jpg",
+        "local_image_path": "images/cuisine/mediterranean/puttanesca-hake-traybake.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/mediterranean-salad-with-hummus-dressing/",
+        "title": "Salade méditerranéenne avec vinaigrette au houmous",
+        "description": "Égayez votre salade habituelle avec des courgettes rôties, des artichauts, des pois chiches et de la feta dans une vinaigrette crémeuse au houmous",
+        "prep_time": "10 mins Cook: 15 mins plus salting",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 courgettes",
+            "1 cuillère à soupe d'huile d'olive",
+            "1 cuillère à café d'herbes mélangées séchées",
+            "100 g d'artichauts grillés, hachés grossièrement",
+            "½ concombre , haché grossièrement",
+            "400 g de pois chiches en boîte, égouttés et rincés",
+            "300 g de tomates cerises coupées en deux",
+            "100 g d'olives dénoyautées, hachées grossièrement",
+            "100 g de feta émiettée",
+            "une petite poignée de persil finement haché",
+            "2 cuillères à soupe d'huile d'olive extra vierge",
+            "1 citron, jus",
+            "100g de houmous"
+        ],
+        "method": [
+            "Coupez les courgettes, puis coupez-les en deux dans le sens de la longueur pour obtenir deux longues moitiés. Incisez la chair des courgettes en entrecroisant. Saupoudrez une grosse pincée de sel sur le côté coupé des courgettes et réservez 10 min. Séchez puis badigeonnez d'huile d'olive et saupoudrez du mélange d'herbes sur le côté coupé.",
+            "Faites chauffer une poêle sèche à feu moyen-vif. Mettez les courgettes, côté marqué vers le bas, dans la poêle et faites cuire pendant 8 à 10 minutes, jusqu'à ce qu'elles soient bien dorées. Retourner et cuire encore 5 minutes jusqu'à ce que les courgettes soient complètement tendres.",
+            "Pendant ce temps, mélanger les ingrédients de la vinaigrette dans un grand bol de service peu profond et assaisonner au goût. Ajouter le reste des ingrédients, en réservant un peu de persil, et bien mélanger. Garnir de courgettes et saupoudrer du reste de persil pour servir."
+        ],
+        "nutritional_info": {
+            "kcal": "386",
+            "fat": "27g",
+            "saturates": "6g",
+            "carbs": "17g",
+            "sugars": "0g",
+            "fibre": "9g",
+            "protein": "13g",
+            "salt": "2.6g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/07/Mediterranean-salad-cfcc118.jpg",
+        "local_image_path": "images/cuisine/mediterranean/mediterranean-salad-with-hummus-dressing.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/hummus-snack-packs/",
+        "title": "Packs de collations au houmous",
+        "description": "Conservez le liquide d’une boîte de pois chiches pour faire un houmous crémeux. Nous l'avons servi avec des crudités de légumes pour une collation saine qui contribue à vos 5 par jour",
+        "prep_time": "10 mins No cook",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "Boîte de 400 g de pois chiches égouttés, liquide réservé",
+            "1 gousse d'ail",
+            "½ cuillère à café de cumin moulu",
+            "1 cuillère à café de coriandre moulue",
+            "1-2 cuillères à soupe de jus de citron",
+            "1 cuillère à soupe d'huile d'olive extra vierge",
+            "2 sachets de 200 g de carottes arc-en-ciel ou 4 carottes normales",
+            "2 sachets de 200 g de mini concombres ou 4 concombres réguliers"
+        ],
+        "method": [
+            "Versez les pois chiches et l'ail dans un bol avec le cumin, la coriandre, 1 cuillère à soupe de jus de citron et l'huile. Ajoutez 2 cuillères à soupe du liquide réservé des pois chiches, puis mixez à l'aide d'un mixeur plongeant jusqu'à obtenir une consistance lisse. Si le mixeur a du mal, ajoutez un autre peu de liquide. Assaisonnez et ajoutez un peu plus de jus de citron si nécessaire.",
+            "Versez le houmous dans quatre petits récipients. Se conservera couvert et réfrigéré jusqu'à trois jours. Coupez les carottes et le concombre en bâtonnets lorsque vous êtes prêt à manger et servez avec le houmous."
+        ],
+        "nutritional_info": {
+            "kcal": "164",
+            "fat": "6g",
+            "saturates": "1g",
+            "carbs": "18g",
+            "sugars": "0g",
+            "fibre": "8g",
+            "protein": "6g",
+            "salt": "0.1g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/05/Hummus-snack-packs-626073e.jpg",
+        "local_image_path": "images/cuisine/mediterranean/hummus-snack-packs.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/healthy-chicken-pasta-bake/",
+        "title": "Pâtes au poulet saines",
+        "description": "Essayez ces pâtes au poulet saines avec des poivrons, des courgettes et de la ricotta pour un dîner nutritif en milieu de semaine. Ce sera certainement un succès auprès de tout le monde",
+        "prep_time": "10 mins Cook: 50 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "300 g de pennes complètes",
+            "2 cuillères à café d'huile d'olive",
+            "2 poivrons (nous avons utilisé 1 jaune et 1 orange), épépinés et hachés",
+            "1 grosse courgette (160 g), râpée grossièrement",
+            "3 grosses gousses d'ail, finement râpées",
+            "500 g de purée en carton",
+            "1 cuillère à soupe de paprika fumé",
+            "1½ cuillère à café de poudre de bouillon de légumes",
+            "1 cuillère à café de poudre de piment (facultatif)",
+            "25 g d'olives Kalamata (environ 8), tranchées",
+            "400 g de poitrines de poulet (2 grosses), coupées en morceaux",
+            "une grosse poignée de basilic haché, plus un peu pour servir",
+            "100 g de ricotta",
+            "20 g de cheddar affiné finement râpé"
+        ],
+        "method": [
+            "Faites cuire les pâtes en suivant les instructions sur l'emballage. Chauffer le four à 180°C/160°C chaleur tournante/gaz 4.",
+            "Pendant ce temps, faites chauffer l'huile dans une grande poêle à feu moyen et faites revenir les poivrons pendant 8 minutes en remuant jusqu'à ce qu'ils commencent à ramollir. Ajoutez la courgette et l'ail, remuez encore quelques minutes, puis versez la passata et incorporez le paprika fumé, le bouillon, le piment, le cas échéant, et les olives. Laisser mijoter 3-4 minutes.",
+            "Égouttez les pâtes en réservant l'eau des pâtes. Versez les pâtes dans le mélange de passata avec le poulet, une demi-tasse d'eau pour pâtes et le basilic. Bien mélanger, puis verser dans un plat allant au four.",
+            "Mélangez la ricotta dans un bol avec 5 cuillères à soupe d'eau des pâtes et étalez-la sur le dessus des pâtes. Saupoudrer de cheddar, puis enfourner 35 min. Parsemez de quelques feuilles de basilic supplémentaires, si vous le souhaitez, et servez."
+        ],
+        "nutritional_info": {
+            "kcal": "480",
+            "fat": "13g",
+            "saturates": "5g",
+            "carbs": "51g",
+            "sugars": "0g",
+            "fibre": "11g",
+            "protein": "35g",
+            "salt": "1.3g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/11/Healthy-chicken-pasta-bake-8c8fa07.jpg",
+        "local_image_path": "images/cuisine/mediterranean/healthy-chicken-pasta-bake.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/ratatouille-ricotta-macaroni/",
+        "title": "Macaroni à la ratatouille et à la ricotta",
+        "description": "Il s'agit d'une version déconstruite du macaroni au fromage avec une couche de légumes méditerranéens à base de ricotta italienne, pour que vous n'ayez pas besoin de préparer une sauce traditionnelle.",
+        "prep_time": "15 mins Cook: 45 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "400 g de tomates concassées",
+            "3 cuillères à soupe de purée de tomates",
+            "4 grosses gousses d'ail, finement râpées",
+            "12 olives Kalamata, coupées en quartiers",
+            "1 cuillère à café de bouillon en poudre",
+            "1 grosse aubergine (350 g), coupée en dés",
+            "2 courgettes (325 g), coupées en deux et tranchées",
+            "200 g de ricotta",
+            "20 g de basilic, petites feuilles réservées pour la garniture, le reste haché",
+            "400 g de pennes complètes",
+            "20 g de parmesan finement râpé"
+        ],
+        "method": [
+            "Versez les tomates dans une casserole avec un bidon d'eau, le concentré de tomates, l'ail, les olives et le bouillon. Ajoutez l'aubergine et les courgettes, puis couvrez et laissez mijoter 30 minutes jusqu'à ce que les légumes soient tendres.",
+            "Pendant ce temps, mélangez la ricotta et le basilic dans un petit bol avec beaucoup de poivre noir.",
+            "Faire bouillir la moitié des pâtes en suivant les instructions sur l'emballage, puis égoutter en réservant un peu d'eau de cuisson. Versez dans un bol et mélangez avec la moitié du mélange de ricotta et quelques cuillerées d'eau pour pâtes, en ajoutant davantage pour détendre si nécessaire. Versez la moitié de la ratatouille et les penne dans deux bols à pâtes et saupoudrez de la moitié des feuilles de parmesan et de basilic. Couvrir et réfrigérer le reste de la ratatouille, le basilic et la ricotta pendant une autre nuit. Se conservera au frais jusqu'à trois jours. Au moment de servir à nouveau, réchauffez la ratatouille dans une poêle à feu doux et poursuivez la méthode à partir de l'étape 3."
+        ],
+        "nutritional_info": {
+            "kcal": "456",
+            "fat": "11g",
+            "saturates": "5g",
+            "carbs": "64g",
+            "sugars": "0g",
+            "fibre": "13g",
+            "protein": "19g",
+            "salt": "0.98g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/05/Ratatouille-ricotta-macaroni2-488a730.jpg",
+        "local_image_path": "images/cuisine/mediterranean/ratatouille-ricotta-macaroni.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/giant-couscous-tomato-salad-with-zhoug-style-dressing/",
+        "title": "Salade géante de couscous et tomates avec vinaigrette façon zhoug",
+        "description": "Préparez cette salade géante de couscous et de tomates en accompagnement d'été. Le Zhoug est une sauce épicée et vert vif du Moyen-Orient qui donne vie à ce plat.",
+        "prep_time": "5 mins Cook: 15 mins plus cooling",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 grosses tomates en grappe, coupées en dés",
+            "½ oignon rouge, finement haché",
+            "150g de couscous géant ou fregola",
+            "½ petit bouquet de coriandre hachée grossièrement",
+            "une poignée de feuilles de persil hachées grossièrement",
+            "1 citron, jus",
+            "2 piments verts, hachés",
+            "1 gousse d'ail, hachée grossièrement",
+            "½ cuillère à café de cumin moulu",
+            "½ cuillère à café de sucre en poudre",
+            "3 cuillères à soupe d'huile d'olive"
+        ],
+        "method": [
+            "Mettez les tomates et l'oignon dans un grand bol avec ½ cuillère à café de sel marin. Mélangez et laissez reposer.",
+            "Faites cuire le couscous dans une casserole d'eau bouillante salée pendant 8 à 10 minutes jusqu'à ce qu'il soit tendre (ne le faites pas trop cuire, il faut le placer un peu en dessous pour qu'il puisse absorber le jus de la tomate), puis bien égoutter. Laisser refroidir 10 minutes puis mélanger avec le mélange de tomates et d'oignons.",
+            "Mélangez tous les ingrédients de la vinaigrette avec 1 cuillère à soupe d'eau et ½ cuillère à café de sel marin jusqu'à consistance lisse. Versez-en un peu sur le couscous, puis servez le reste à part pour que les gens puissent se servir eux-mêmes."
+        ],
+        "nutritional_info": {
+            "kcal": "222",
+            "fat": "9g",
+            "saturates": "1g",
+            "carbs": "26g",
+            "sugars": "0g",
+            "fibre": "6g",
+            "protein": "6g",
+            "salt": "1.3g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Giant-couscous-and-tomato-salad-with-zhoug-style-dressing-62c81db.jpg",
+        "local_image_path": "images/cuisine/mediterranean/giant-couscous-tomato-salad-with-zhoug-style-dressing.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spinach-filo-spiral-pie/",
+        "title": "Tarte spirale filo aux épinards",
+        "description": "Ces impressionnantes spirales de filo aux épinards sont d’une simplicité trompeuse à réaliser. Une version de la spanakopita grecque, à servir avec une salade d'accompagnement pour un déjeuner de week-end",
+        "prep_time": "30 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "300 g de pousses d'épinards",
+            "50 g de beurre salé fondu, plus une noix pour la friture",
+            "1 gros oignon, finement haché",
+            "200 g de feta émiettée",
+            "7 feuilles filo du commerce",
+            "1 cuillère à soupe de graines de nigelle"
+        ],
+        "method": [
+            "Faites chauffer une grande poêle antiadhésive à feu moyen. Ajoutez les épinards et faites cuire en remuant jusqu'à ce qu'ils soient flétris (vous n'aurez pas besoin d'huile ni d'eau car ils vapeurront dans leur propre humidité). Laisser refroidir un peu, puis verser dans un torchon propre et essorer le plus d'eau possible. Hachez et mettez dans un bol.",
+            "Faites chauffer la noix de beurre dans une poêle antiadhésive. Ajouter l'oignon et cuire environ 10 minutes jusqu'à ce qu'il soit ramolli. Versez dans le bol avec les épinards, puis incorporez la feta à l'aide d'une fourchette jusqu'à ce que le tout soit bien mélangé. Goûtez pour l’assaisonnement.",
+            "Chauffer le four à 190°C/170°C chaleur tournante/gaz 5. Badigeonner un plat à tarte en métal de 24 x 4 cm de profondeur avec un peu de beurre.",
+            "Posez une feuille de filo sur votre plan de travail. Badigeonner d'un peu de beurre fondu, puis étaler environ 2 cuillères à soupe de garniture en ligne le long du bord le plus long de la pâte. Roulez-le sans serrer en un long boudin (ne le roulez pas trop serré car cela pourrait fendre la pâte), puis enroulez la pâte et placez-la au centre du moule.",
+            "Répétez avec le reste de la pâte et de la garniture, en disposant les spirales autour de celle centrale. Badigeonnez le dessus de beurre, puis saupoudrez de graines de nigelle. Cuire au four pendant 25 à 30 minutes jusqu'à ce qu'ils soient dorés et croustillants."
+        ],
+        "nutritional_info": {
+            "kcal": "311",
+            "fat": "16g",
+            "saturates": "9g",
+            "carbs": "31g",
+            "sugars": "0g",
+            "fibre": "2g",
+            "protein": "11g",
+            "salt": "1.3g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Spinach-filo-spiral-pie-3d77d2c.jpg",
+        "local_image_path": "images/cuisine/mediterranean/spinach-filo-spiral-pie.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spinach-with-chickpeas-pine-nuts-raisins/",
+        "title": "Épinards aux pois chiches, pignons de pin et raisins secs",
+        "description": "Savourez ce simple plat d'accompagnement aux épinards avec des plats de poulet à l'espagnole. Les amandes grillées fonctionnent aussi bien",
+        "prep_time": "5 mins Cook: 10 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "2 cuillères à soupe d'huile d'olive, plus un filet",
+            "1 grosse échalote longue, tranchée",
+            "2 gousses d'ail, écrasées",
+            "½ cuillère à café de cumin moulu",
+            "½ cuillère à café de paprika fumé",
+            "400 g de pois chiches en conserve égouttés",
+            "4 cuillères à soupe de raisins secs dorés ou flambés",
+            "200g d'épinards",
+            "2 cuillères à soupe de pignons de pin grillés"
+        ],
+        "method": [
+            "Faites chauffer l'huile d'olive dans une grande poêle antiadhésive. Ajouter l'échalote et l'ail et cuire jusqu'à ce qu'ils soient ramollis. Ajoutez les épices, les pois chiches et les raisins secs et laissez cuire 2 min.",
+            "Ajoutez les épinards et faites cuire jusqu'à ce qu'ils soient juste flétris. Incorporer les pignons de pin et servir avec un filet d'huile supplémentaire."
+        ],
+        "nutritional_info": {
+            "kcal": "280",
+            "fat": "13g",
+            "saturates": "1g",
+            "carbs": "30g",
+            "sugars": "0g",
+            "fibre": "5g",
+            "protein": "8g",
+            "salt": "0.1g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Spinach-with-chickpeas-pine-nuts-and-raisins-dc297c1.jpg",
+        "local_image_path": "images/cuisine/mediterranean/spinach-with-chickpeas-pine-nuts-raisins.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spinach-cheese-pide/",
+        "title": "Pide aux épinards et au fromage",
+        "description": "Préparez notre version de pide turque aux épinards et au fromage de chèvre, idéale pour un déjeuner léger ou un pique-nique. Les pide sont des pains plats en forme de bateau qui sont fourrés et cuits au four.",
+        "prep_time": "20 mins Cook: 15 mins plus 1 hr proving",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "300 g de farine à pain blanche forte, plus un peu pour saupoudrer",
+            "1 cuillère à café de levure sèche à action rapide",
+            "1 cuillère à café de sucre en poudre",
+            "2 cuillères à soupe d'huile d'olive",
+            "1 œuf battu",
+            "1 cuillère à café d'huile d'olive",
+            "1 oignon blanc, finement haché",
+            "1 cuillère à café de graines de cumin entières",
+            "240 g d'épinards",
+            "50 g de fromage de chèvre à pâte ferme, émietté",
+            "2 cuillères à soupe d'aneth haché"
+        ],
+        "method": [
+            "Mettez la farine, la levure, le sucre et 1 cuillère à café de sel marin dans un grand bol et mélangez. Incorporez 80 ml d’eau et l’huile pour rassembler le tout en une pâte ferme et lisse (vous devrez peut-être ajouter un peu plus d’eau). Versez la pâte sur un plan de travail légèrement fariné et pétrissez pendant 5 minutes jusqu'à ce que la pâte soit lisse et élastique. Remettre dans le bol, couvrir et laisser lever dans un endroit chaud jusqu'à ce qu'il ait doublé de volume, environ 1 heure.",
+            "Pendant ce temps, préparez la garniture. Faites chauffer l'huile dans une poêle à feu moyen et faites revenir l'oignon pendant environ 5 minutes jusqu'à ce qu'il soit translucide. Ajoutez le cumin et les épinards et poursuivez la cuisson jusqu'à ce que les épinards soient fanés et que tout le liquide se soit évaporé – cela prendra environ 5 minutes. Retirer du feu et laisser refroidir.",
+            "Lorsque la pâte a levé, chauffez le four à 220°C/200°C chaleur tournante/gaz 7. Déposez la pâte sur un plan de travail légèrement fariné et divisez-la en quatre. Roulez chaque morceau en boule, puis chaque boule en un ovale rugueux d'environ 3 à 4 mm d'épaisseur. Transférez les ovales de pâte sur une plaque à pâtisserie antiadhésive d'environ 30 x 20 cm.",
+            "Verser la garniture aux épinards refroidie au centre de chaque ovale de pâte, en laissant une bordure de 2 cm sur le pourtour. Saupoudrer le fromage de chèvre et l'aneth sur la garniture. Pliez soigneusement les côtés de la pâte sur environ 1 cm pour qu'ils chevauchent légèrement la garniture et rapprochez les extrémités pour former une pointe. Il faudra peut-être légèrement tordre les extrémités et les appuyer pour les fixer en place.",
+            "Lorsque les quatre pides sont assemblées, badigeonnez la pâte d'œuf battu. Cuire au four pendant 10 à 15 minutes jusqu'à ce que la pâte soit dorée et que la garniture bouillonne. Servir tiède (les restes peuvent également être consommés froids)."
+        ],
+        "nutritional_info": {
+            "kcal": "408",
+            "fat": "11g",
+            "saturates": "3g",
+            "carbs": "61g",
+            "sugars": "0g",
+            "fibre": "4g",
+            "protein": "15g",
+            "salt": "1.5g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Spinach-and-cheese-pide-a887bfb.jpg",
+        "local_image_path": "images/cuisine/mediterranean/spinach-cheese-pide.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/lamb-chops-with-thyme-chilli-greek-htipiti/",
+        "title": "Côtelettes d'agneau au thym, piment et htipiti grec",
+        "description": "Servez des côtelettes d'agneau avec du htipiti pour un délicieux plat d'inspiration grecque aux saveurs fabuleuses. Des pommes de terre grelots rôties à l'huile d'olive font un excellent accompagnement",
+        "prep_time": "10 mins Cook: 18 mins plus marinating",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "12 côtelettes d'agneau",
+            "3 brins de thym, feuilles cueillies",
+            "1 cuillère à café de flocons de piment",
+            "2 cuillères à soupe d'huile d'olive extra vierge",
+            "235 g de poivrons rouges rôtis en bocal, égouttés",
+            "175 g de feta émiettée",
+            "2 oignons nouveaux, finement hachés",
+            "2 gousses d'ail hachées très finement",
+            "2 brins de thym, feuilles cueillies",
+            "4 cuillères à soupe d'huile d'olive extra vierge",
+            "un filet de jus de citron (facultatif)"
+        ],
+        "method": [
+            "Mettez les escalopes d'agneau dans un bol avec le thym, les flocons de piment et l'huile. Mélanger pour bien enrober, puis laisser mariner au réfrigérateur pendant 30 min à 1 h.",
+            "Pour le htipiti, coupez les poivrons en petits morceaux. Mettez dans un bol et ajoutez tous les autres ingrédients. Laisser reposer environ 15 minutes pour que la saveur s'imprègne.",
+            "Faites chauffer une poêle ou une poêle. Quand il fait bien chaud, sortez les côtelettes de la marinade. Faites-les cuire quelques-unes à la fois pendant 3 minutes de chaque côté, en assaisonnant au fur et à mesure. Servir les côtelettes avec la sauce et quelques pommes de terre grelots, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "830",
+            "fat": "70g",
+            "saturates": "30g",
+            "carbs": "4g",
+            "sugars": "0g",
+            "fibre": "1g",
+            "protein": "45g",
+            "salt": "1.4g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Lamb-chops-with-thyme-chilli-and-Greek-htipiti-a06812c.jpg",
+        "local_image_path": "images/cuisine/mediterranean/lamb-chops-with-thyme-chilli-greek-htipiti.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/sabich/",
+        "title": "Sabich",
+        "description": "Habillez ce sandwich de sauces tahini et amba pour un avant-goût d'Israël. C'est plein de saveurs, avec de l'aubergine, du houmous, des œufs, des cornichons et plus encore",
+        "prep_time": "45 mins Cook: 40 mins plus 48 hrs pickling",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 tomates, coupées en dés",
+            "½ petit concombre, coupé en dés",
+            "2 oignons nouveaux, hachés",
+            "1½ cuillère à soupe d'huile d'olive, plus un peu pour la friture",
+            "un filet de jus de citron",
+            "2 aubergines parées et coupées en rondelles de 1 cm",
+            "4 pains pitta",
+            "4 œufs durs moyens, pelés et tranchés",
+            "200g de houmous",
+            "150 g de radis, parés et coupés en deux s'ils sont gros",
+            "250 g de carottes coupées en tranches en diagonale",
+            "4 échalotes, finement tranchées",
+            "250 g de petits bouquets de chou-fleur",
+            "500 ml de vinaigre de vin blanc ou de cidre",
+            "3½ cuillères à soupe de sucre cristallisé",
+            "¾ cuillère à soupe de flocons de sel marin",
+            "1 cuillère à café de graines de moutarde jaune",
+            "2 cuillères à café de graines de carvi",
+            "1 cuillère à café de grains de poivre noir, meurtris",
+            "½ cuillère à soupe de graines de coriandre écrasées",
+            "1 cuillère à soupe d'huile d'olive",
+            "3 gousses d'ail, hachées",
+            "1 piment rouge, coupé en deux, épépiné et haché",
+            "1 cuillère à café de graines de moutarde noire",
+            "1 cuillère à café de curcuma",
+            "½ cuillère à café de graines de fenugrec",
+            "pincée de poivre de Cayenne",
+            "2 mangues fermes, pelées et chair hachée (environ 375g)",
+            "50 ml de vinaigre de vin blanc",
+            "1 cuillère à soupe de cassonade légère",
+            "un filet de jus de citron vert",
+            "100 g de tahin"
+        ],
+        "method": [
+            "Pour faire les cornichons, mettez tous les légumes dans un pot stérilisé de 1 litre. Mettez le vinaigre, le sucre, le sel et les épices dans une casserole avec 400 ml d'eau et portez à ébullition. Laissez refroidir, puis versez sur les légumes. Fermez et laissez mariner à température ambiante pendant 48 heures. Se conserve au réfrigérateur jusqu'à quatre semaines.",
+            "Pour préparer la sauce amba, faites chauffer l'huile dans une poêle à feu moyen, puis faites cuire l'ail et le piment jusqu'à ce qu'ils soient juste tendres. Ajoutez les épices et laissez cuire 1 min, ajoutez la mangue et remuez pour bien l'enrober, puis ajoutez le vinaigre, le sucre et 100 ml d'eau. Couvrir et laisser mijoter 10 à 15 minutes jusqu'à ce que la mangue soit tendre. Assaisonner au goût et presser le jus de citron vert. Se conserve au réfrigérateur jusqu'à une semaine.",
+            "Pour la sauce tahini, mélanger les ingrédients avec 80 ml d'eau et assaisonner selon votre goût. Cela devrait avoir la consistance d’une double crème.",
+            "Mélanger les tomates, le concombre et les oignons nouveaux avec l'huile, assaisonner et presser dessus le jus de citron.",
+            "Faites chauffer un peu d'huile d'olive dans une poêle à feu moyen-vif et faites cuire les aubergines par lots pendant 5 à 8 minutes de chaque côté jusqu'à ce qu'elles soient juste dorées. Assaisonner, puis réduire le feu et poursuivre la cuisson jusqu'à ce qu'elle soit tendre.",
+            "Faire griller et ouvrir les pittas, puis farcir avec les tranches d'aubergines, les œufs, le houmous, la salade, les cornichons et la sauce amba. Arroser de sauce tahini pour servir."
+        ],
+        "nutritional_info": {
+            "kcal": "802",
+            "fat": "42g",
+            "saturates": "5g",
+            "carbs": "69g",
+            "sugars": "25g",
+            "fibre": "16g",
+            "protein": "29g",
+            "salt": "2.2g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2019/07/sabich.jpg",
+        "local_image_path": "images/cuisine/mediterranean/sabich.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/falafel-lunchbox/",
+        "title": "Boîte à lunch Falafels",
+        "description": "Rendez cette salade de falafel amusante avec une boîte à lunch de style bento. C’est idéal pour les tout-petits et les jeunes enfants qui préfèrent les déjeuners contenant de nombreux éléments individuels. Utilisez des falafels du commerce ou préparez nos falafels Edamame",
+        "prep_time": "10 mins No cook",
+        "cook_time": "",
+        "serves": "3 (or 2 adults and 2 children)",
+        "ingredients": [
+            "Sachet de 250 g de céréales ou de lentilles cuites (nous avons utilisé du quinoa rouge et blanc)",
+            "une poignée de pousses d'épinards",
+            "¼ de concombre, haché",
+            "une poignée de tomates cerises coupées en deux",
+            "2 carottes, râpées",
+            "1 grenade, graines seulement",
+            "10 olives (facultatif)",
+            "12 falafels",
+            "4 cuillères à soupe de houmous",
+            "un filet d'huile d'olive (facultatif)",
+            "½ citron, coupé en quartiers"
+        ],
+        "method": [
+            "Répartissez les grains entre les boîtes à lunch. Garnissez chacun avec les légumes, les falafels, une cuillerée de houmous et un filet d'huile, le cas échéant, ou répartissez les ingrédients entre les compartiments d'une boîte à lunch de style bento. Mettez un citron dans chaque boîte et pressez-le juste avant de déguster."
+        ],
+        "nutritional_info": {
+            "kcal": "500",
+            "fat": "16g",
+            "saturates": "2g",
+            "carbs": "61g",
+            "sugars": "15g",
+            "fibre": "16g",
+            "protein": "19g",
+            "salt": "0.7g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2020/05/falafel-lunch-box.jpg",
+        "local_image_path": "images/cuisine/mediterranean/falafel-lunchbox.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/hummus-rainbow-wraps/",
+        "title": "Wraps arc-en-ciel au houmous",
+        "description": "Préparez ces wraps arc-en-ciel colorés, avec du houmous, de la betterave rouge, de la carotte, de la feta et des pousses d'épinards pour un déjeuner végétarien rapide et facile pour toute la famille.",
+        "prep_time": "15 mins No cook",
+        "cook_time": "",
+        "serves": "3 (or 2 adults and 2 children)",
+        "ingredients": [
+            "3-4 enveloppements (½ enveloppement suffira pour un enfant plus petit)",
+            "6 cuillères à soupe de houmous",
+            "2 carottes, râpées",
+            "4 betteraves cuites, râpées",
+            "une grosse poignée de pousses d'épinards",
+            "100 g de feta émiettée (facultatif)"
+        ],
+        "method": [
+            "Tartinez les wraps avec le houmous, puis remplissez-les de carottes, de betteraves, d'épinards et de feta, pour ceux qui le souhaitent. Emballez et conservez pour le déjeuner ou mangez immédiatement."
+        ],
+        "nutritional_info": {
+            "kcal": "286",
+            "fat": "8g",
+            "saturates": "2g",
+            "carbs": "40g",
+            "sugars": "14g",
+            "fibre": "9g",
+            "protein": "9g",
+            "salt": "1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2020/05/houmous-rainbow-wrap.jpg",
+        "local_image_path": "images/cuisine/mediterranean/hummus-rainbow-wraps.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/deli-style-stuffed-falafel-wrap/",
+        "title": "Wrap falafel farci style charcuterie",
+        "description": "Préparez ce roulé de falafel de style charcuterie farci d'épinards, de cornichons, de concombre et de chou rouge en seulement 10 minutes pour un souper rapide et facile pour une personne.",
+        "prep_time": "10 mins No cook",
+        "cook_time": "",
+        "serves": "1",
+        "ingredients": [
+            "½ petite gousse d'ail",
+            "2 cuillères à soupe de yaourt sans gras",
+            "¼ citron, jus",
+            "1 pain plat ou wrap",
+            "une grosse poignée d'épinards ou de laitue, râpés",
+            "2-3 falafels prêts à manger",
+            "¼ petit concombre, coupé en deux sur la longueur, épépiné et tranché",
+            "1 tomate, coupée en deux, épépinée et tranchée",
+            "1 cornichon ou piment mariné, coupé en deux",
+            "1 cuillère à soupe de chou rouge mariné, sauce chili égouttée, pour servir (facultatif)"
+        ],
+        "method": [
+            "Mélangez l'ail, le yaourt et le jus de citron dans un bol. Assaisonnez, puis détendez avec 1 cuillère à soupe d'eau froide si elle semble trop épaisse. Réchauffez le pain plat au grille-pain, si vous le souhaitez.",
+            "Placez le pain plat sur un morceau de papier sulfurisé et recouvrez-le d'épinards ou de laitue. Disposez les falafels en ligne au centre, puis garnissez-les de tranches de concombre et de tomate. Ajouter le cornichon, le chou et un filet de sauce chili, le cas échéant. Verser sur le mélange de yaourt.",
+            "Utilisez le papier sulfurisé pour vous aider à plier les deux extrémités du wrap, puis roulez-le fermement en forme de burrito. Coupez le papier sulfurisé en deux à l'aide d'un couteau à pain et déchirez-le pour le déguster."
+        ],
+        "nutritional_info": {
+            "kcal": "387",
+            "fat": "12g",
+            "saturates": "2g",
+            "carbs": "50g",
+            "sugars": "13g",
+            "fibre": "4g",
+            "protein": "17g",
+            "salt": "1.3g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2020/05/deli-style-stuffed-falafel-wrap.jpg",
+        "local_image_path": "images/cuisine/mediterranean/deli-style-stuffed-falafel-wrap.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/crispy-squid-with-caponata/",
+        "title": "Calamars croustillants à la caponata",
+        "description": "Le calmar est bon marché, abondant, rapide à cuisiner et délicieux avec le plat de légumes italien classique, la caponata.",
+        "prep_time": "30 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "800 g de tubes de calamars nettoyés (environ 3 gros tubes)",
+            "150 g de farine nature",
+            "1 cuillère à soupe de poivre de Cayenne ou de poudre de piment",
+            "huile de tournesol, pour la friture",
+            "1 grosse aubergine",
+            "4 cuillères à soupe d'huile d'olive extra vierge",
+            "1 oignon, haché",
+            "3 branches de céleri, tranchées",
+            "250 g de tomates cerises",
+            "3 gousses d'ail, écrasées",
+            "1 cuillère à café de sucre en poudre",
+            "1 cuillère à soupe de vinaigre balsamique",
+            "150 g d'olive verte dénoyautée",
+            "30 g de câpres, rincées si salées",
+            "une poignée de feuilles de basilic, émincées"
+        ],
+        "method": [
+            "Pour préparer les calamars, disposez-les à plat sur une planche. Insérez un couteau long et fin dans l'ouverture et coupez-le soigneusement sur un côté. Ouvrez-le sur une feuille plate et grattez les restes de membrane. Utilisez la pointe du couteau pour entailler légèrement la chair en forme de losange, en prenant soin de ne pas couper complètement le calmar. Coupez les calamars en gros triangles prêts à être farinés et frits.",
+            "Pour la caponata, l'aubergine doit être coupée en dés uniformes : coupez-la dans le sens de la longueur sur environ 1 cm d'épaisseur, coupez de longues lanières de même taille, puis coupez-les en carrés.",
+            "Faites chauffer la moitié de l'huile dans une grande sauteuse. Faites revenir les oignons pendant 3 à 4 minutes jusqu'à ce qu'ils commencent à ramollir, ajoutez l'aubergine, puis poursuivez la cuisson pendant 8 à 10 minutes jusqu'à ce qu'ils soient dorés et tendres. Versez dans une passoire au-dessus d'un bol.",
+            "Versez l'huile du bol dans la poêle et complétez avec un peu d'huile fraîche. Faites revenir ensemble le céleri, les tomates et l'ail écrasé. Saupoudrez de sucre, arrosez de vinaigre, puis laissez cuire 3 à 4 minutes jusqu'à ce que les tomates commencent à libérer leur jus.",
+            "Remettez l'aubergine et l'oignon avec le céleri. Répartissez les olives, les câpres et le basilic, puis remuez bien le tout. Cuire 5 minutes jusqu'à ébullition, puis assaisonner selon votre goût. Éteignez le feu, versez le reste de l’huile, puis réservez.",
+            "Juste avant la cuisson, versez les calamars dans un grand bol. Tamisez ensemble la farine et le poivre de Cayenne sur les calamars, puis mélangez bien et assaisonnez de sel. Remettez les calamars dans la passoire et secouez tout l'excès de farine.",
+            "Versez suffisamment d’huile de tournesol dans une grande poêle pour qu’elle atteigne environ 1 cm de profondeur. Faites chauffer l'huile jusqu'à ce qu'elle grésille lorsqu'on la saupoudre d'un peu de farine. Par lots, faites frire les calamars pendant 2 à 3 minutes de chaque côté jusqu'à ce qu'ils soient dorés et croustillants. Une fois cuits, utilisez des pinces pour soulever les calamars sur une assiette recouverte de papier absorbant. Vous êtes maintenant prêt à servir.",
+            "Versez la caponata dans un anneau métallique de 10 cm de large (ou faites simplement une pile soignée) au milieu d'une assiette moyenne. Utilisez le dos de la cuillère pour appuyer légèrement sur la caponata et niveler le haut du tas. Soulevez délicatement l'anneau en gardant la tour de caponata circulaire. Déposez cinq ou six morceaux de calamar autour de la caponata comme les pétales d'une fleur, puis servez aussitôt."
+        ],
+        "nutritional_info": {
+            "kcal": "569",
+            "fat": "32g",
+            "saturates": "4g",
+            "carbs": "37g",
+            "sugars": "8g",
+            "fibre": "6g",
+            "protein": "37g",
+            "salt": "3.34g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--191499_11.jpg",
+        "local_image_path": "images/cuisine/mediterranean/crispy-squid-with-caponata.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/polenta-roasted-vegetables-and-peppered-parmesan-c/",
+        "title": "Polenta, légumes rôtis & chips de parmesan poivré",
+        "description": "Emma Booth a remporté notre concours du Mois de la cuisine maison avec ce somptueux plat de polenta crémeuse, garni de courge et de betterave rôties vibrantes.",
+        "prep_time": "15 mins Cook: 50 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 petite courge butternut (environ 450 g), pelée et coupée en cubes de 2 cm",
+            "3 betteraves crues (environ 200 g), coupées en cubes de 2 cm",
+            "2 petits oignons rouges, coupés en fins quartiers",
+            "3 cuillères à soupe d'huile d'olive",
+            "jus de ½ citron",
+            "200 g de polenta fine",
+            "½ cuillère à café de sel",
+            "50g de beurre",
+            "60 g de fromage râpé (nous avons utilisé un mélange 50/50 de parmesan et de taleggio)",
+            "une grosse poignée de roquette, pour servir",
+            "2 cuillères à café de feuilles de thym fraîchement cueillies",
+            "50 g de parmesan râpé"
+        ],
+        "method": [
+            "Pour faire les chips, baissez le four à 200°C/180°C chaleur tournante/thermostat 6. Assaisonnez le parmesan râpé avec une grosse pincée de poivre noir et répartissez-le uniformément sur une plaque à pâtisserie recouverte d'une feuille de silicone ou de papier sulfurisé légèrement huilé et enfournez pendant 5 minutes, jusqu'à ce qu'il soit doré mais pas doré.  Après cinq minutes de refroidissement, cassez-le en morceaux croustillants avec vos doigts.",
+            "Allumez le four à 220°C/200°C chaleur tournante/thermostat 7. Mélangez les morceaux de courge et de betterave rouge dans le jus de citron et l'huile, assaisonnez légèrement de sel et de poivre et faites cuire au four dans un plat à rôtir pendant 20 minutes. Ajoutez les quartiers d'oignons et poursuivez la cuisson encore 25 minutes.",
+            "Pendant ce temps, faites mijoter un litre d'eau, le sel et la moitié du beurre dans une grande casserole, puis ajoutez lentement la polenta en un fin filet en remuant constamment.  Continuez à laisser mijoter à feu doux pendant 35 minutes (ou selon les instructions si vous utilisez de la polenta à cuisson rapide), en remuant souvent pour éviter qu'elle ne colle au fond.  La polenta doit être épaissie mais encore molle à ce stade.  S'il commence à trop sécher, ajoutez une tasse d'eau.  Une fois cuit, incorporez le reste du beurre, le parmesan et le taleggio ainsi qu'une pincée de poivre blanc.",
+            "Pour servir, répartissez la polenta sur une planche ou dans des assiettes, parsemez-la de légumes et du jus de torréfaction, puis de roquette et de thym.  Placez les chips de parmesan entre les légumes et mangez chaud."
+        ],
+        "nutritional_info": {
+            "kcal": "526",
+            "fat": "27.3g",
+            "saturates": "12.9g",
+            "carbs": "54.9g",
+            "sugars": "10.5g",
+            "fibre": "4.9g",
+            "protein": "15.3g",
+            "salt": "1.6g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--989552_10.jpg",
+        "local_image_path": "images/cuisine/mediterranean/polenta-roasted-vegetables-and-peppered-parmesan-c.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spiced-baked-figs-with-ginger-mascarpone/",
+        "title": "Figues au four épicées avec mascarpone au gingembre",
+        "description": "Ce plat constitue la fin parfaite d'un dîner détendu, spécial mais sans stress.",
+        "prep_time": "3 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "8 figues, coupées en deux",
+            "2 cuillères à soupe de beurre",
+            "2 cuillères à soupe de miel clair",
+            "2 cuillères à soupe de cassonade",
+            "2 cuillères à café de cannelle moulue",
+            "2 cuillères à soupe de jus d'orange",
+            "Anis étoilé 2",
+            "doigts sablés, pour servir",
+            "1 boule de gingembre haché très finement",
+            "1 cuillère à soupe de sirop de gingembre du pot",
+            "½ pot de 250 g de mascarpone"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C ventilateur/gaz 6. Poser\r\nles figues dans un plat à rôtir allant au four, parsemez\r\nsur le beurre et arroser de miel.\r\nSaupoudrer de sucre et de cannelle,\r\npuis versez dessus le jus d'orange et mélangez légèrement. Placez l'anis étoilé parmi les figues et faites-les rôtir pendant 15 à 20 minutes.",
+            "Au moment de servir, mélangez le gingembre\r\net le sirop dans le mascarpone.\r\nDisposez 4 moitiés de figues arrosées de sirop,\r\nsur une assiette avec une cuillerée de mascarpone\r\net quelques doigts de sablés."
+        ],
+        "nutritional_info": {
+            "kcal": "327",
+            "fat": "21g",
+            "saturates": "2g",
+            "carbs": "33g",
+            "sugars": "32g",
+            "fibre": "2g",
+            "protein": "3g",
+            "salt": "0.22g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--51320_11.jpg",
+        "local_image_path": "images/cuisine/mediterranean/spiced-baked-figs-with-ginger-mascarpone.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/watermelon-and-feta-salad-with-crispbread/",
+        "title": "Salade de pastèque et feta avec pain croustillant",
+        "description": "Un combo cool et rafraîchissant pour les chaudes soirées d'été",
+        "prep_time": "30 mins Cook: 30 mins Plus rising",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "½ pastèque (environ 1½ kg), pelée, épépinée et coupée en morceaux",
+            "200 g de fromage feta en bloc, en cubes",
+            "une grosse poignée d'olives noires",
+            "une poignée de persil plat et de feuilles de menthe, hachées grossièrement",
+            "1 oignon rouge, finement tranché en rondelles",
+            "huile d'olive et vinaigre balsamique, pour servir",
+            "½ paquet de 500 g de mélange à pain blanc",
+            "1 cuillère à soupe d'huile d'olive, plus un peu pour arroser",
+            "farine nature, pour saupoudrer",
+            "1 blanc d'oeuf battu",
+            "un mélange de graines de sésame, de pavot et de fenouil, pour parsemer"
+        ],
+        "method": [
+            "Préparez le pain selon le paquet\r\ninstructions avec 1 cuillère à soupe d'huile d'olive. Partir\r\nlever dans un endroit tiède pendant environ 1 h\r\njusqu'à ce qu'elle double de volume. Chauffer le four à\r\n220C/200C ventilateur/gaz 7. Frappez le pain\r\ndoser et diviser en 6 morceaux. Sur un\r\nsurface farinée, étalez les pains comme\r\nfinement possible, puis transférer au four\r\nplateaux. Badigeonner de blanc d'oeuf et\r\nparsemer du mélange de graines. Cuire au four pour\r\nenviron 15 minutes jusqu'à ce qu'ils soient croustillants et dorés; si\r\nils gonflent, c'est encore mieux. Vous pourriez avoir besoin\r\npour le faire par lots. Les pains peuvent être\r\npréparé la veille et conservé dans un\r\nrécipient hermétique.",
+            "Dans un grand bol de service, mélanger légèrement\r\nle melon avec la feta et les olives.\r\nRépartir sur les herbes et les rondelles d'oignon,\r\npuis servir avec l'huile d'olive et le balsamique\r\npour arroser. Servir le tas de\r\npains croustillants à côté pour les casser\r\net utiliser pour ramasser la salade."
+        ],
+        "nutritional_info": {
+            "kcal": "342",
+            "fat": "14g",
+            "saturates": "5g",
+            "carbs": "43g",
+            "sugars": "13g",
+            "fibre": "3g",
+            "protein": "13g",
+            "salt": "1.8g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--46939_11.jpg",
+        "local_image_path": "images/cuisine/mediterranean/watermelon-and-feta-salad-with-crispbread.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/mediterranean-feta-salad-with-pomegranate-dressing/",
+        "title": "Salade feta méditerranéenne avec vinaigrette à la grenade",
+        "description": "La mélasse de grenade du Moyen-Orient donne à cette salade une délicieuse saveur",
+        "prep_time": "10 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "8",
+        "ingredients": [
+            "2 poivrons rouges",
+            "3 aubergines moyennes coupées en morceaux ou 15 petites aubergines coupées en deux",
+            "6 cuillères à soupe d'huile d'olive extra vierge",
+            "cuillère à café de cannelle",
+            "200 g de haricots verts blanchis (utilisez-les surgelés si vous le pouvez)",
+            "1 petit oignon rouge, coupé en demi-lunes",
+            "200 g de feta égouttée et émiettée",
+            "graines 1 grenade",
+            "une poignée de persil haché grossièrement",
+            "1 petite gousse d'ail, écrasée",
+            "1 cuillère à soupe de jus de citron",
+            "2 cuillères à soupe de mélasse de grenade",
+            "5 cuillères à soupe d'huile d'olive extra vierge"
+        ],
+        "method": [
+            "Chauffer le four à 200C/ventilateur 180C/gaz 6. Chauffer\r\nle gril à son réglage le plus élevé. Couper les poivrons\r\nen quartiers, puis placez-les, peau vers le haut,\r\nsur une plaque à pâtisserie. Griller jusqu'à ce qu'il soit noirci.\r\nPlacer dans un sac en plastique, fermer hermétiquement, puis laisser reposer\r\n5 minutes. Une fois suffisamment refroidi pour être manipulé, grattez\r\nretirez la peau, jetez-la, puis réservez les poivrons.",
+            "Disposez les aubergines sur une plaque allant au four,\r\narroser d'huile d'olive et de cannelle, puis\r\nassaisonner de sel et de poivre. Rôtir jusqu'à\r\ndoré et ramolli – environ 25 minutes.",
+            "Pendant ce temps, mélangez toute la vinaigrette\r\ningrédients et bien mélanger. Pour servir, placez le\r\naubergines, haricots verts, oignons et poivrons\r\nsur une grande assiette de service. Parsemer de feta\r\net des graines de grenade. Versez la vinaigrette\r\nterminer, puis terminer par le persil."
+        ],
+        "nutritional_info": {
+            "kcal": "258",
+            "fat": "21g",
+            "saturates": "5g",
+            "carbs": "12g",
+            "sugars": "11g",
+            "fibre": "0g",
+            "protein": "6g",
+            "salt": "0.94g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--51112_12.jpg",
+        "local_image_path": "images/cuisine/mediterranean/mediterranean-feta-salad-with-pomegranate-dressing.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/aioli/",
+        "title": "Aïoli",
+        "description": "Une touche crémeuse à l'ail, une trempette parfaite pour les légumes printaniers cuits à la vapeur",
+        "prep_time": "5 mins No cook",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "une petite pincée de brins de safran",
+            "3 gousses d'ail, écrasées",
+            "2 jaunes d'œufs",
+            "1 cuillère à soupe de moutarde de Dijon",
+            "300 ml d'huile d'olive"
+        ],
+        "method": [
+            "Dans un petit bol, versez 1 cuillère à soupe d'eau bouillante dessus \r\nle safran et réserver. Mettez l'ail, les jaunes d'œufs \r\net la moutarde dans un robot culinaire ou un mélangeur. Blitz \r\nen une pâte et arroser très lentement d'huile d'olive \r\npour faire une sauce épaisse façon mayonnaise. Quand \r\ntout est réuni, ajoute le safran, safran \r\neau et jus de citron, puis assaisonner au goût. Le \r\nL'aïoli se conserve couvert au réfrigérateur jusqu'à 2 jours."
+        ],
+        "nutritional_info": {
+            "kcal": "661",
+            "fat": "72g",
+            "saturates": "10.5g",
+            "carbs": "1g",
+            "sugars": "0.5g",
+            "fibre": "0.2g",
+            "protein": "2g",
+            "salt": "0.3g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--3456_10.jpg",
+        "local_image_path": "images/cuisine/mediterranean/aioli.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/mediterranean-potato-salad/",
+        "title": "Salade de pommes de terre méditerranéenne",
+        "description": "Évitez la mayonnaise et optez pour une vinaigrette à l'huile d'olive à l'italienne pour des pommes de terre nouvelles chaudes. Égayez-les avec du basilic, du parmesan et des tomates séchées",
+        "prep_time": "10 mins Cook: 15 mins",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "1 cuillère à soupe d'huile d'olive",
+            "1 petit oignon, tranché finement",
+            "1 gousse d'ail, écrasée",
+            "1 cuillère à café d'origan, frais ou séché",
+            "½ boîte de 400 g de tomates cerises",
+            "100 g de poivrons rouges rôtis, en bocal, tranchés",
+            "300 g de pommes de terre nouvelles, coupées en deux si elles sont grosses",
+            "25 g d'olives noires tranchées",
+            "poignée de feuilles de basilic déchirées"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une casserole, ajoutez l'oignon\r\net cuire 5 à 10 minutes jusqu'à ce qu'ils soient tendres. Ajoutez le\r\nl'ail et l'origan et cuire 1 min. Ajouter\r\nles tomates et les poivrons, assaisonnez bien\r\net laissez mijoter doucement pendant 10 min.",
+            "Pendant ce temps, faites cuire les pommes de terre dans une poêle\r\nd'eau bouillante salée pendant 10-15 minutes jusqu'à ce que\r\ntendre. Bien égoutter, mélanger avec la sauce et\r\nservir chaud, parsemé d'olives et de basilic."
+        ],
+        "nutritional_info": {
+            "kcal": "178",
+            "fat": "5g",
+            "saturates": "2g",
+            "carbs": "29g",
+            "sugars": "2g",
+            "fibre": "3g",
+            "protein": "6g",
+            "salt": "0.2g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/potato-salad.jpg",
+        "local_image_path": "images/cuisine/mediterranean/mediterranean-potato-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chorizo-pilaf/",
+        "title": "Pilaf au chorizo",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Se situant quelque part entre une paella et un risotto, ce pot de riz basmati mijoté a de profondes saveurs de paprika.",
+        "prep_time": "10 mins Cook: 40 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à soupe d'huile d'olive",
+            "1 gros oignon, tranché finement",
+            "250 g de chorizo ​​à cuire pour bébé, tranché",
+            "4 gousses d'ail, écrasées",
+            "1 cuillère à café de paprika fumé",
+            "Boîte de 400 g de tomates concassées",
+            "250 g de riz basmati",
+            "Bouillon de 600 ml",
+            "1 citron, le zeste pelé en lanières épaisses, plus des quartiers pour servir",
+            "2 feuilles de laurier fraîches",
+            "petit bouquet de persil haché"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une grande poêle avec un couvercle.\r\nAjouter l'oignon et cuire 5 à 8 minutes\r\njusqu'à ce qu'ils soient tendres et dorés. Poussez sur le côté de\r\nla poêle et ajoutez le chorizo. Cuire jusqu'à\r\nlégèrement doré et certaines huiles sont\r\nlibéré dans la poêle.",
+            "Ajoutez l'ail et le paprika, puis le\r\ntomates. Faire bouillir à feu moyen\r\npendant 5 minutes, puis ajoutez le riz, le bouillon,\r\nle zeste de citron et les feuilles de laurier. Remuer\r\ntout bien ensemble et amener à\r\nl'ébullition. Mettez le couvercle et faites cuire\r\nà feu très doux pendant 12 min.",
+            "Éteignez le feu et laissez reposer et\r\ncuire à la vapeur pendant 10 à 15 minutes. Remuer à travers le\r\npersil et servir avec des quartiers de citron\r\npour presser."
+        ],
+        "nutritional_info": {
+            "kcal": "488",
+            "fat": "18g",
+            "saturates": "6g",
+            "carbs": "58g",
+            "sugars": "9g",
+            "fibre": "3g",
+            "protein": "19g",
+            "salt": "1.4g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--981494_10.jpg",
+        "local_image_path": "images/cuisine/mediterranean/chorizo-pilaf.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spinach-with-chilli-and-lemon-crumbs/",
+        "title": "Épinards aux miettes de piment et de citron",
+        "description": "Faites flétrir les légumes verts frais, puis servez-les avec de la chapelure croustillante, du piment et de l'ail pour un plat d'accompagnement sain et faible en gras.",
+        "prep_time": "5 mins Cook: 5 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "25g de beurre",
+            "100 g de chapelure fraîche",
+            "le zeste d'1 citron",
+            "2 gousses d'ail, écrasées",
+            "1 piment rouge, finement haché",
+            "500g d'épinards"
+        ],
+        "method": [
+            "Faire fondre le beurre dans une grande poêle,\r\npuis quand il commence à mousser, versez le\r\nchapelure, zeste, ail et piment.\r\nCuire jusqu'à ce qu'ils soient dorés et croustillants. Supprimer\r\nde la poêle, assaisonner et réserver.",
+            "Ajouter les épinards dans la poêle et les flétrir,\r\nen remuant. Assaisonner et servir avec le\r\nchapelure croustillante saupoudrée sur le dessus."
+        ],
+        "nutritional_info": {
+            "kcal": "169",
+            "fat": "7g",
+            "saturates": "3g",
+            "carbs": "20g",
+            "sugars": "3g",
+            "fibre": "3g",
+            "protein": "7g",
+            "salt": "1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--926471_10.jpg",
+        "local_image_path": "images/cuisine/mediterranean/spinach-with-chilli-and-lemon-crumbs.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/mediterranean-chicken-tray-bake/",
+        "title": "Plateau de poulet méditerranéen au four",
+        "description": "Une pâtisserie tout-en-un colorée aux saveurs estivales",
+        "prep_time": "15 mins Cook: 40 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "2 poivrons rouges épépinés et coupés en morceaux",
+            "1 oignon rouge, coupé en quartiers",
+            "2 cuillères à café d'huile d'olive",
+            "4 poitrines de poulet avec la peau",
+            "½ paquet de 150 g de fromage à pâte molle entier à l'ail et aux herbes",
+            "200 g de tomates cerises",
+            "poignée d'olives noires"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C chaleur tournante/gaz 6. Mélanger\r\nles poivrons et l'oignon sur une grande plaque à pâtisserie\r\nplateau avec la moitié de l’huile. Transférer au four\r\net faites cuire sur l'étagère du haut pendant 10 minutes.",
+            "Pendant ce temps, faites soigneusement une poche\r\nentre la peau et la chair de chacun\r\npoitrine de poulet, mais sans retirer la peau\r\ncomplètement. Poussez des quantités égales de\r\nfromage sous la peau, lisser la peau\r\nredescendez, badigeonnez-le avec le reste du\r\nhuile, assaisonner, puis ajouter dans le plateau le long\r\navec les tomates et les olives. Retour à\r\nle four et cuire encore 25-30 minutes\r\njusqu'à ce que le poulet soit doré et cuit.\r\nServir avec des pommes de terre au four, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "401",
+            "fat": "21g",
+            "saturates": "9g",
+            "carbs": "9g",
+            "sugars": "8g",
+            "fibre": "3g",
+            "protein": "45g",
+            "salt": "0.63g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--735463_10.jpg",
+        "local_image_path": "images/cuisine/mediterranean/mediterranean-chicken-tray-bake.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/18292-mussels-with-tomatoes-chilli/",
+        "title": "Moules aux tomates et piment",
+        "description": "Cette recette de fruits de mer épicés constitue un repas fantastique pour deux, mais peut être facilement augmentée pour une entrée élégante pour un dîner.",
+        "prep_time": "20 mins Cook: 10 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "2 tomates mûres",
+            "2 cuillères à soupe d'huile d'olive",
+            "1 gousse d'ail, hachée finement",
+            "1 échalote, hachée finement",
+            "1 piment rouge ou vert épépiné et finement haché",
+            "petit verre de vin blanc sec",
+            "1 cuillère à café de concentré de tomate",
+            "pincée de sucre",
+            "1 kg de moules nettoyées",
+            "une bonne poignée de feuilles de basilic"
+        ],
+        "method": [
+            "Mettez les tomates dans un bol résistant à la chaleur.\r\nCouvrir d'eau bouillante, laisser reposer 3 min,\r\npuis égouttez et pelez. Couper les tomates en quatre\r\net retirez et jetez les graines à l'aide\r\nune cuillère à café. Hachez grossièrement la chair des tomates.",
+            "Faites chauffer l'huile dans une grande poêle avec un couvercle hermétique.\r\ncouvercle adapté. Ajouter l'ail, l'échalote et le piment,\r\npuis faites frire doucement pendant 2-3 minutes jusqu'à ce qu'elles soient ramollies.\r\nVersez le vin et ajoutez les tomates,\r\npâte, sucre et assaisonnement (moules\r\nsont naturellement salés, alors faites attention aux\r\nsel). Bien mélanger et laisser mijoter 2 minutes.",
+            "Versez les moules et remuez-les.\r\nCouvrir hermétiquement et cuire à la vapeur pendant 3 à 4 minutes,\r\nsecouer la poêle à mi-cuisson, jusqu'à ce que le\r\nles coquilles se sont ouvertes.",
+            "Jetez toutes les coquilles qui restent fermées, puis\r\nrépartissez les moules dans deux bols et\r\najoutez les feuilles de basilic. Prévoir un grand bol pour\r\nles coquilles vides."
+        ],
+        "nutritional_info": {
+            "kcal": "267",
+            "fat": "14g",
+            "saturates": "2g",
+            "carbs": "11g",
+            "sugars": "6.5g",
+            "fibre": "1g",
+            "protein": "20g",
+            "salt": "1.16g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--745474_11.jpg",
+        "local_image_path": "images/cuisine/mediterranean/18292-mussels-with-tomatoes-chilli.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/mediterranean-chicken-with-roasted-vegetables/",
+        "title": "Poulet méditerranéen aux légumes rôtis",
+        "description": "Un plat sain, plein de saveurs du soleil",
+        "prep_time": "55 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "250 g de pommes de terre nouvelles grelots, tranchées finement",
+            "1 grosse courgette, tranchée en diagonale",
+            "1 oignon rouge, coupé en quartiers",
+            "1 poivron jaune épépiné et coupé en morceaux",
+            "6 tomates italiennes fermes, coupées en deux",
+            "12 olives noires dénoyautées",
+            "2 filets de poitrine de poulet désossés et sans peau, environ 150 g/5 oz chacun",
+            "3 cuillères à soupe d'huile d'olive",
+            "1 cuillère à soupe bombée de pesto vert"
+        ],
+        "method": [
+            "Préchauffer le four à 200°C/\r\nFour gaz 6/chaleur tournante 180C.\r\nÉtalez les pommes de terre,\r\ncourgette, oignon, poivron\r\net les tomates dans un plat peu profond\r\nplat à rôtir et\r\nrépartir sur les olives.\r\nAssaisonner de sel et\r\nnoir grossièrement moulu\r\npoivre.",
+            "Coupez la chair de chacun\r\npoitrine de poulet 3-4 fois\r\nà l'aide d'un couteau bien aiguisé, puis\r\ndéposer le poulet dessus\r\nles légumes.",
+            "Mélanger l'huile d'olive et le pesto\r\nensemble jusqu'à ce que le tout soit bien mélangé\r\net répartir uniformément sur le\r\npoulet. Couvrir le moule avec\r\npapier d'aluminium et cuire 30\r\nminutes.",
+            "Retirez le papier d'aluminium du\r\nétain. Remettre au four et\r\ncuire encore 10 minutes\r\nminutes jusqu'à ce que le\r\nles légumes sont juteux et\r\navoir l'air tentant de manger et le\r\nle poulet est bien cuit\r\n(le jus doit être clair lorsqu'on le pique avec une brochette)."
+        ],
+        "nutritional_info": {
+            "kcal": "568",
+            "fat": "29g",
+            "saturates": "6g",
+            "carbs": "37g",
+            "sugars": "0g",
+            "fibre": "7g",
+            "protein": "42g",
+            "salt": "2.16g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--53187_12.jpg",
+        "local_image_path": "images/cuisine/mediterranean/mediterranean-chicken-with-roasted-vegetables.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/courgette-and-quinoastuffed-peppers/",
+        "title": "Poivrons farcis aux courgettes et au quinoa",
+        "description": "Prenez seulement 5 ingrédients et créez cette pâtisserie végétarienne saine de style méditerranéen pour un souper faible en calories et en gras.",
+        "prep_time": "10 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 poivrons rouges",
+            "1 courgette coupée en quartiers dans le sens de la longueur et tranchée finement",
+            "2 paquets de 250 g de quinoa prêt à consommer",
+            "85 g de fromage feta finement émietté",
+            "une poignée de persil haché grossièrement"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C ventilateur/gaz 6.\r\nCoupez chaque poivron en deux à travers le\r\ntige et retirez les graines. Mettez le\r\npoivrons, côté coupé vers le haut, sur une plaque à pâtisserie,\r\narroser d'1 cuillère à soupe d'huile d'olive et assaisonner\r\neh bien. Rôtir pendant 15 minutes.",
+            "Pendant ce temps, faites chauffer 1 cuillère à café d'huile d'olive\r\nune petite poêle, ajoutez la courgette\r\net cuire jusqu'à ce qu'il soit tendre. Supprimer du\r\nchauffer, puis incorporer le quinoa,\r\nfeta et persil. Assaisonner de poivre.",
+            "Répartissez le mélange de quinoa entre\r\nles moitiés de poivron, puis retournez dans le\r\nfour pendant 5 minutes pour bien réchauffer. Servir\r\navec une salade verte, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "260",
+            "fat": "8g",
+            "saturates": "3g",
+            "carbs": "33g",
+            "sugars": "10g",
+            "fibre": "11g",
+            "protein": "11g",
+            "salt": "0.8g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201628_11.jpg",
+        "local_image_path": "images/cuisine/mediterranean/courgette-and-quinoastuffed-peppers.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/pancettawrapped-fish-with-lemony-potatoes/",
+        "title": "Poisson enveloppé de pancetta et pommes de terre citronnées",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Enveloppez du poisson blanc durable dans du bacon croustillant et servez-le comme plat tout-en-un avec des pommes de terre.",
+        "prep_time": "10 mins Cook: 15 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "300 g de pommes de terre nouvelles",
+            "100 g de haricots verts",
+            "petite poignée d'olives noires Kalamata",
+            "le zeste et le jus d'1 citron",
+            "2 cuillères à soupe d'huile d'olive",
+            "2 gros filets de lieu jaune ou un autre poisson blanc durable",
+            "4 tranches de pancetta ou de lard fumé tranché finement",
+            "quelques brins d'estragon, feuilles cueillies"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C ventilateur/gaz 6.\r\nMettez les pommes de terre dans une casserole d'eau et\r\nfaire bouillir pendant 10 à 12 minutes jusqu'à tendreté. Ajoutez le\r\nharicots pendant les 2-3 dernières minutes. Bien égoutter\r\net coupez les pommes de terre en deux. Astuce dans\r\nun plat allant au four spacieux et mélanger avec le\r\nolives, zeste de citron et huile. Assaisonnez bien.",
+            "Assaisonner le poisson et l'envelopper avec le\r\npancetta ou bacon. Placer au-dessus de\r\nles pommes de terre. Cuire au four pendant 10 à 12 minutes jusqu'à ce que\r\nbien cuit, puis ajoutez un peu de jus\r\nde jus de citron et saupoudrer de\r\nestragon avant de servir."
+        ],
+        "nutritional_info": {
+            "kcal": "521",
+            "fat": "25g",
+            "saturates": "6g",
+            "carbs": "26g",
+            "sugars": "3g",
+            "fibre": "5g",
+            "protein": "46g",
+            "salt": "1.6g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--981486_11.jpg",
+        "local_image_path": "images/cuisine/mediterranean/pancettawrapped-fish-with-lemony-potatoes.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/griddled-chicken-with-quinoa-greek-salad/",
+        "title": "Poulet grillé avec salade grecque au quinoa",
+        "description": "Un plat léger de filets de poulet grillés et une salade authentique aux olives de Kalamata, fromage feta, tomate et menthe",
+        "prep_time": "",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "225 g de quinoa",
+            "25g de beurre",
+            "1 piment rouge épépiné et finement haché",
+            "1 gousse d'ail, écrasée",
+            "400 g de mini-filets de poulet",
+            "1½ cuillère à soupe d'huile d'olive extra vierge",
+            "300 g de tomates grappes hachées grossièrement",
+            "poignée d'olives noires Kalamata dénoyautées",
+            "1 oignon rouge, finement tranché",
+            "100 g de fromage feta émietté",
+            "petit bouquet de feuilles de menthe, hachées",
+            "jus et zeste d'un demi citron"
+        ],
+        "method": [
+            "Cuire le quinoa en suivant\r\nemballer les instructions, puis rincer\r\neau froide et égouttez-les soigneusement.",
+            "Pendant ce temps, mélangez le beurre,\r\nle piment et l'ail en une pâte. Lancer\r\nles filets de poulet dans 2 cuillères à café de\r\nhuile d'olive avec un peu d'assaisonnement.\r\nDisposer dans une poêle bien chaude et cuire\r\npendant 3-4 minutes de chaque côté ou jusqu'à ce que\r\nbien cuit. Transférer dans une assiette, parsemer de beurre épicé\r\net laisser fondre.",
+            "Ensuite, renversez les tomates, les olives,\r\nl'oignon, la feta et la menthe dans un bol.\r\nIncorporer le quinoa cuit. Remuer\r\nà travers le reste de l'huile d'olive,\r\njus et zeste de citron et assaisonner\r\neh bien. Servir avec le poulet\r\nfilets sur le dessus, arrosés de tout\r\njus de poulet au beurre."
+        ],
+        "nutritional_info": {
+            "kcal": "473",
+            "fat": "20g",
+            "saturates": "8g",
+            "carbs": "35g",
+            "sugars": "8g",
+            "fibre": "2g",
+            "protein": "37g",
+            "salt": "1.4g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201615_11.jpg",
+        "local_image_path": "images/cuisine/mediterranean/griddled-chicken-with-quinoa-greek-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/herbed-lamb-cutlets-with-roasted-vegetables/",
+        "title": "Escalopes d'agneau aux herbes et légumes rôtis",
+        "description": "Un plateau sain de style méditerranéen avec des patates douces, des poivrons, des courgettes et des gros oignons.",
+        "prep_time": "15 mins Cook: 45 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 poivrons de n'importe quelle couleur, épépinés et coupés en gros morceaux",
+            "1 grosse patate douce, pelée et coupée en gros morceaux",
+            "2 courgettes coupées en morceaux",
+            "1 oignon rouge, coupé en quartiers",
+            "1 cuillère à soupe d'huile d'olive",
+            "8 côtelettes d'agneau maigres",
+            "1 cuillère à soupe de feuille de thym hachée",
+            "2 cuillères à soupe de feuilles de menthe hachées"
+        ],
+        "method": [
+            "Chauffer le four à 220C/200C ventilateur/gaz 7. Mettre\r\nles poivrons, patate douce, courgettes\r\net l'oignon sur une grande plaque à pâtisserie et\r\narroser d'huile. Assaisonner avec beaucoup de\r\npoivre noir moulu. Rôtir pendant 25 minutes.",
+            "Pendant ce temps, parez l'agneau d'autant\r\ngras que possible. Mélangez les herbes avec quelques\r\ntorsades de poivre noir moulu et tapotez\r\npartout dans l'agneau.",
+            "Sortez les légumes du four,\r\nretournez-le et poussez-le d'un côté du\r\nplateau. Disposez les escalopes sur le plateau chaud\r\net remettre au four 10 min.",
+            "Retourner les escalopes et cuire encore\r\n10 minutes ou jusqu'à ce que les légumes et l'agneau\r\nsont tendres et légèrement carbonisés. Mélanger\r\nle tout sur le plateau et servir."
+        ],
+        "nutritional_info": {
+            "kcal": "429",
+            "fat": "29g",
+            "saturates": "13g",
+            "carbs": "23g",
+            "sugars": "12g",
+            "fibre": "6g",
+            "protein": "19g",
+            "salt": "0.2g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--984602_11.jpg",
+        "local_image_path": "images/cuisine/mediterranean/herbed-lamb-cutlets-with-roasted-vegetables.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/broad-bean-and-feta-cheese-toasts/",
+        "title": "Toasts aux fèves et au fromage feta",
+        "description": "Tranchez une baguette, faites-la griller, puis utilisez-la comme base de bruschetta pour des haricots et du fromage grec salé pour une bouchée saine.",
+        "prep_time": "25 mins Cook: 4 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "350 g de fèves, fraîches ou surgelées",
+            "100 g de fromage feta (ou alternative végétarienne), égoutté",
+            "2 cuillères à soupe de feuilles de menthe hachées ou râpées",
+            "1 cuillère à soupe d'huile d'olive extra vierge",
+            "Sachet de 50 g de feuilles de salade mélangées",
+            "10 tomates cerises, coupées en deux",
+            "1 cuillère à café de jus de citron",
+            "4 fines tranches de baguettes (blanches ou brunes)"
+        ],
+        "method": [
+            "Portez à ébullition une petite casserole d'eau.\r\nAjouter les haricots, remettre à ébullition et\r\ncuire 4 min. Égoutter dans une passoire\r\nsous l'eau courante jusqu'à ce qu'elle soit froide. Presse\r\nchaque haricot retiré de sa peau dans un bol.",
+            "Émietter sur la feta et disperser\r\nsur les feuilles de menthe. Assaisonner avec un\r\nbonne mouture de poivre noir et un filet\r\navec 2 cuillères à café d'huile. Mélangez ensemble.",
+            "Mélanger les feuilles de salade et les tomates\r\navec le reste d'huile d'olive et de citron\r\njus. Répartir dans 2 assiettes. Toast\r\nle pain sous le grill ou au grille-pain\r\njusqu'à ce qu'ils soient dorés et croustillants des deux côtés.\r\nPour servir, versez les haricots et le fromage\r\nmélange sur les toasts chauds et déposer\r\nà côté de la salade."
+        ],
+        "nutritional_info": {
+            "kcal": "354",
+            "fat": "18g",
+            "saturates": "8g",
+            "carbs": "28g",
+            "sugars": "6g",
+            "fibre": "11g",
+            "protein": "20g",
+            "salt": "2.2g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--984586_10.jpg",
+        "local_image_path": "images/cuisine/mediterranean/broad-bean-and-feta-cheese-toasts.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/easy-stuffed-peppers/",
+        "title": "Poivrons farcis faciles",
+        "description": "Un souper de quinze minutes qui ne vous laissera pas rassasié",
+        "prep_time": "5 mins Cook: 10 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 poivrons rouges",
+            "2 sachets de 250 g de riz aux tomates cuit (nous avons utilisé de la tomate méditerranéenne Tilda Rizazz)",
+            "2 cuillères à soupe de pesto",
+            "une poignée d'olives noires dénoyautées, hachées",
+            "200 g de fromage de chèvre tranché"
+        ],
+        "method": [
+            "Utilisez un petit couteau pour couper le dessus\r\nles poivrons, puis retirez les graines. Asseyez-vous le\r\npoivrons dans une assiette, côté coupé vers le haut, et cuire\r\nau micro-ondes à puissance élevée pendant 5 à 6 minutes jusqu'à ce que\r\nils se sont fanés et ramollis.",
+            "Pendant que les poivrons cuisent, mélangez le\r\nle riz avec le pesto et les olives et\r\nles deux tiers du fromage. Versez le riz dans\r\nles poivrons, garnir du reste de chèvre\r\nfromage et poursuivre la cuisson 8 à 10 minutes"
+        ],
+        "nutritional_info": {
+            "kcal": "387",
+            "fat": "17g",
+            "saturates": "7g",
+            "carbs": "46g",
+            "sugars": "14g",
+            "fibre": "4g",
+            "protein": "15g",
+            "salt": "2.14g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--338663_11.jpg",
+        "local_image_path": "images/cuisine/mediterranean/easy-stuffed-peppers.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/mediterranean-slices/",
+        "title": "Tranches méditerranéennes",
+        "description": "Conservez les tranches de poivrons rôtis, la pâte feuilletée et les artichauts au congélateur et vous ne serez plus jamais à court d'une entrée intelligente.",
+        "prep_time": "10 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "Paquet de 375 g de pâte feuilletée toute prête",
+            "4 cuillères à soupe de pesto vert",
+            "140 g de poivrons rôtis tranchés surgelés",
+            "140 g d'artichauts surgelés (environ 3 quartiers par portion)",
+            "125 g de boule de mozzarella ou 85 g de cheddar râpé"
+        ],
+        "method": [
+            "Chauffer le four à 200C/chaleur tournante 180C/gaz 6.  \r\nDéroulez la pâte et coupez-la en 4 rectangles. \r\nPrenez un couteau bien aiguisé et marquez un bord de 1 cm \r\nà l'intérieur de chaque rectangle, en prenant soin de \r\nne coupez pas complètement la pâte. \r\nPlacer sur une plaque à pâtisserie.",
+            "Étalez 1 cuillère à soupe de pesto sur chaque tranche, \r\nrester à l'intérieur de la frontière, puis entasser les \r\npoivrons et artichauts. Cuire au four pendant \r\n15 minutes jusqu'à ce que la pâte commence à dorer.",
+            "Déchirez la boule de mozzarella en petits morceaux, \r\npuis dispersez-le (ou utilisez du cheddar, si vous préférez) \r\nsur les légumes. Remettre au four 5 à 7 minutes \r\njusqu'à ce que la pâte soit croustillante et que le fromage soit bien \r\nfondu. Servir avec une salade verte."
+        ],
+        "nutritional_info": {
+            "kcal": "515",
+            "fat": "33g",
+            "saturates": "14g",
+            "carbs": "42g",
+            "sugars": "6g",
+            "fibre": "3g",
+            "protein": "16g",
+            "salt": "1.98g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--202455_11.jpg",
+        "local_image_path": "images/cuisine/mediterranean/mediterranean-slices.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/mediterranean-scones/",
+        "title": "Scones méditerranéens",
+        "description": "De nouvelles saveurs dans un vieux favori – idéal pour les matins de café ou une collation l'après-midi",
+        "prep_time": "20 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "350 g de farine autolevante",
+            "1 cuillère à soupe de levure chimique",
+            "¼ cuillère à café de sel",
+            "50 g de beurre coupé en morceaux",
+            "1 cuillère à soupe d'huile d'olive",
+            "8 moitiés de tomates séchées italiennes, hachées grossièrement",
+            "100 g de fromage feta en cubes",
+            "10 olives noires dénoyautées et coupées en deux",
+            "300 ml de lait entier",
+            "1 œuf battu pour glacer"
+        ],
+        "method": [
+            "Chauffer le four à 220C/chaleur tournante 200C/gaz 7. Beurrer une grande plaque à pâtisserie. Dans un grand bol, mélanger la farine, la levure chimique et le sel. Frottez le beurre avec l'huile jusqu'à ce que le mélange ressemble à de fines miettes, puis ajoutez les tomates, le fromage et les olives. Faites un puits au centre, versez le lait et mélangez avec un couteau, en effectuant un mouvement de coupe, jusqu'à obtenir une pâte molle « collante ». (Utilisez tout le lait – cela donne une texture légère.) Ne manipulez pas trop la pâte.",
+            "Farinez bien vos mains et le plan de travail et façonnez la pâte en rond d'environ 3 à 4 cm d'épaisseur. Coupez-les en huit quartiers et disposez-les bien espacés sur la plaque à pâtisserie. Badigeonner d'œuf battu et cuire au four pendant 15 à 20 minutes jusqu'à ce qu'il soit levé, doré et élastique au toucher. Transférer sur une grille et couvrir d'un torchon propre pour les garder moelleux. Ceux-ci sont meilleurs servis chauds et beurrés. Se conserve 2 à 3 jours dans une boîte hermétique."
+        ],
+        "nutritional_info": {
+            "kcal": "293",
+            "fat": "14g",
+            "saturates": "7g",
+            "carbs": "36g",
+            "sugars": "0g",
+            "fibre": "2g",
+            "protein": "8g",
+            "salt": "2g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1702_12.jpg",
+        "local_image_path": "images/cuisine/mediterranean/mediterranean-scones.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/mediterranean-fig-and-mozzarella-salad/",
+        "title": "Salade méditerranéenne de figues et mozzarella",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Si vous souhaitez rendre cela plus substantiel, vous pouvez servir du prosciutto ou du jambon Serrano avec.",
+        "prep_time": "15 mins Cook: 5 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "200 g de haricots verts fins, parés",
+            "6 petites figues, coupées en quartiers",
+            "1 échalote, tranchée finement",
+            "1 boule de 125 g de mozzarella, égouttée et coupée en morceaux",
+            "50 g de noisettes grillées et hachées",
+            "une petite poignée de feuilles de basilic déchirées",
+            "3 cuillères à soupe de vinaigre balsamique",
+            "1 cuillère à soupe de confiture de figues ou de relish",
+            "3 cuillères à soupe d'huile d'olive extra vierge"
+        ],
+        "method": [
+            "Dans une grande casserole d'eau salée,\r\nblanchir les haricots pendant 2-3 minutes. Égoutter, rincer\r\ndans l'eau froide, puis égouttez-les sur du papier absorbant.\r\nDisposer sur un plateau. Garnir de figues,\r\néchalotes, mozzarella, noisettes et basilic.",
+            "Dans un petit bol ou un pot de confiture avec couvercle,\r\najoutez le vinaigre, la confiture de figues, l'huile d'olive et\r\nun peu d'assaisonnement. Bien agiter et verser\r\nsur la salade juste avant de servir."
+        ],
+        "nutritional_info": {
+            "kcal": "286",
+            "fat": "23g",
+            "saturates": "6g",
+            "carbs": "11g",
+            "sugars": "9g",
+            "fibre": "3g",
+            "protein": "10g",
+            "salt": "0.3g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--699458_10.jpg",
+        "local_image_path": "images/cuisine/mediterranean/mediterranean-fig-and-mozzarella-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/roasted-peppers-with-tomatoes-and-anchovies/",
+        "title": "Poivrons rôtis aux tomates et anchois",
+        "description": "Ce plat vibrant a toutes les saveurs de la Méditerranée pour les repas de fêtes à la maison",
+        "prep_time": "10 mins Cook: 1 hrs 10 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 poivrons rouges, coupés en deux et épépinés",
+            "50g boîte d'anchois à l'huile égouttés",
+            "8 petites tomates, coupées en deux",
+            "2 gousses d'ail, tranchées finement",
+            "2 brins de romarin",
+            "2 cuillères à soupe d'huile d'olive"
+        ],
+        "method": [
+            "Chauffer le four à 160°C/140°C chaleur tournante/gaz 3.\r\nMettez les poivrons dans un grand plat allant au four\r\nplat, mélanger avec un peu d'huile du\r\nboîte d'anchois, puis retourner le côté coupé vers le haut. Rôti\r\npendant 40 minutes, jusqu'à ce qu'il soit mou mais pas effondré.",
+            "Coupez 8 anchois le long de leur\r\nlongueur. Mettez 2 moitiés de tomate, plusieurs\r\ntranches d'ail, quelques petites branches de romarin\r\net deux morceaux d'anchois dans le creux\r\nde chaque poivron. Arroser d'huile d'olive,\r\npuis rôtissez à nouveau pendant 30 minutes jusqu'à ce que le\r\nles tomates sont tendres et les poivrons sont\r\nrempli de flaques de jus savoureux. Laisser refroidir\r\net servir tiède ou à température ambiante."
+        ],
+        "nutritional_info": {
+            "kcal": "162",
+            "fat": "11g",
+            "saturates": "1g",
+            "carbs": "13g",
+            "sugars": "12g",
+            "fibre": "3g",
+            "protein": "4g",
+            "salt": "1.44g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1259639_8.jpg",
+        "local_image_path": "images/cuisine/mediterranean/roasted-peppers-with-tomatoes-and-anchovies.jpg"
+    }
+]

@@ -23,6 +23,7 @@ export async function POST(request: NextRequest) {
         // Targets (fallback to defaults if standard user hasn't set them)
         const targetKcal = profile.daily_calorie_target || 2000;
         const healthyOnly = true; // For now, default to healthy. Could be user setting.
+        const lang = profile.preferred_language || 'en';
 
         // 2. Define Meal Slots & Targets
         // Breakfast: 25%, Lunch: 35%, Dinner: 30%, Snack: 10%
@@ -45,53 +46,62 @@ export async function POST(request: NextRequest) {
             const params: any[] = [minKcal, maxKcal];
 
             if (slot.type === 'breakfast') {
-                keywordConditions = 'AND (' + slot.keywords.map(() => 'LOWER(title) LIKE ?').join(' OR ') + ')';
+                keywordConditions = 'AND (' + slot.keywords.map(() => 'LOWER(t.title) LIKE ?').join(' OR ') + ')';
                 slot.keywords.forEach(k => params.push(`%${k}%`));
             } else if (slot.type === 'snack') {
                 // Snacks: keywords OR low calorie items
-                keywordConditions = 'AND ((' + slot.keywords.map(() => 'LOWER(title) LIKE ?').join(' OR ') + ') OR kcal < 400)';
+                keywordConditions = 'AND ((' + slot.keywords.map(() => 'LOWER(t.title) LIKE ?').join(' OR ') + ') OR r.calories < 400)';
                 slot.keywords.forEach(k => params.push(`%${k}%`));
             } else {
                 // Main meals: exclude obvious desserts if possible, but for now just general query
                 // Maybe exclude "cake" from lunch/dinner
-                keywordConditions = "AND LOWER(title) NOT LIKE '%cake%' AND LOWER(title) NOT LIKE '%cookie%'";
+                keywordConditions = "AND LOWER(t.title) NOT LIKE '%cake%' AND LOWER(t.title) NOT LIKE '%cookie%'";
             }
 
-            const healthyClause = healthyOnly ? 'AND is_healthy = 1' : '';
+            const healthyClause = healthyOnly ? 'AND r.is_healthy = 1' : '';
 
             // Get random matching meal
+            // Join with translations to get title
+            const queryParams = [lang, ...params];
             const meals = await query(`
-                SELECT * FROM recipes 
-                WHERE kcal BETWEEN ? AND ?
+                SELECT r.*, r.calories as kcal, t.title, t.ingredients_json, t.method_json
+                FROM recipes r
+                JOIN recipe_translations t ON r.id = t.recipe_id
+                WHERE t.language_code = ?
+                AND r.calories BETWEEN ? AND ?
                 ${healthyClause}
                 ${keywordConditions}
                 ORDER BY RANDOM()
                 LIMIT 1
-            `, params);
+            `, queryParams);
 
             if ((meals as any[]).length > 0) {
                 const meal = (meals as any[])[0];
                 mealPlan.push({
                     slot: slot.type,
                     ...meal,
-                    ingredients: JSON.parse(meal.ingredients || '[]'),
-                    method: JSON.parse(meal.method || '[]')
+                    ingredients: JSON.parse(meal.ingredients_json || '[]'),
+                    method: JSON.parse(meal.method_json || '[]')
                 });
             } else {
-                // Fallback: relax constraints if no meal found (e.g. just calories)
+                // Fallback
                 const fallback = await query(`
-                    SELECT * FROM recipes 
-                    WHERE kcal BETWEEN ? AND ? AND is_healthy = 1
+                    SELECT r.*, r.calories as kcal, t.title, t.ingredients_json, t.method_json
+                    FROM recipes r
+                    JOIN recipe_translations t ON r.id = t.recipe_id
+                    WHERE t.language_code = ?
+                    AND r.calories BETWEEN ? AND ? 
+                    AND r.is_healthy = 1
                     ORDER BY RANDOM() LIMIT 1
-                `, [minKcal * 0.5, maxKcal * 1.5]); // Wider range
+                `, [lang, minKcal * 0.5, maxKcal * 1.5]);
 
                 if ((fallback as any[]).length > 0) {
                     const meal = (fallback as any[])[0];
                     mealPlan.push({
                         slot: slot.type,
                         ...meal,
-                        ingredients: JSON.parse(meal.ingredients || '[]'),
-                        method: JSON.parse(meal.method || '[]')
+                        ingredients: JSON.parse(meal.ingredients_json || '[]'),
+                        method: JSON.parse(meal.method_json || '[]')
                     });
                 }
             }
@@ -110,6 +120,6 @@ export async function POST(request: NextRequest) {
 
     } catch (error) {
         console.error('Smart plan error:', error);
-        return NextResponse.json({ error: 'Failed to generate plan' }, { status: 500 });
+        return NextResponse.json({ error: `Failed to generate plan: ${(error as Error).message}` }, { status: 500 });
     }
 }

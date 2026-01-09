@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import { useUser } from '@/contexts/UserContext';
 import Link from 'next/link';
+import { Heart, MessageCircle, Paperclip, Camera, X, Send, Loader2, ArrowRight } from 'lucide-react';
 
 interface Comment {
     id: number;
@@ -146,7 +147,7 @@ export default function ThreadPage() {
                     <div className="flex items-center justify-between pt-4 md:pt-6 border-t border-white/10">
                         <div className="flex items-center gap-6">
                             <div className="flex items-center gap-2 text-red-400 font-medium bg-red-400/10 px-3 py-1.5 md:px-4 md:py-2 rounded-full text-sm md:text-base">
-                                <span>❤️</span> {post.likes} Likes
+                                <Heart size={16} className="fill-current" /> {post.likes} Likes
                             </div>
                         </div>
                     </div>
@@ -197,7 +198,9 @@ export default function ThreadPage() {
 
                     {comments.length === 0 && (
                         <div className="text-center py-8 md:py-12 border-2 border-dashed border-white/5 rounded-2xl">
-                            <div className="text-4xl mb-2 opacity-30">💭</div>
+                            <div className="w-12 h-12 mx-auto mb-2 opacity-30 flex items-center justify-center">
+                                <MessageCircle size={48} className="text-gray-600" />
+                            </div>
                             <p className="text-gray-500">No comments yet. Start the conversation!</p>
                         </div>
                     )}
@@ -221,8 +224,8 @@ export default function ThreadPage() {
                             />
                             {replyImage && (
                                 <div className="px-4 pb-2 flex items-center gap-2 text-xs text-[var(--accent-primary)]">
-                                    <span>📎 Image attached</span>
-                                    <button type="button" onClick={() => setReplyImage(null)} className="hover:text-white">✕</button>
+                                    <Paperclip size={12} /> <span>Image attached</span>
+                                    <button type="button" onClick={() => setReplyImage(null)} className="hover:text-white"><X size={12} /></button>
                                 </div>
                             )}
                         </div>
@@ -235,7 +238,7 @@ export default function ThreadPage() {
                                     accept="image/*"
                                     onChange={e => setReplyImage(e.target.files?.[0] || null)}
                                 />
-                                📷
+                                <Camera size={18} />
                             </label>
                             <button
                                 type="submit"
@@ -243,9 +246,9 @@ export default function ThreadPage() {
                                 disabled={submitting || !replyContent}
                             >
                                 {submitting ? (
-                                    <span className="animate-spin block">↻</span>
+                                    <Loader2 size={18} className="animate-spin" />
                                 ) : (
-                                    <span className="block transform rotate-[-45deg] translate-x-0.5 -translate-y-0.5">➤</span>
+                                    <Send size={18} />
                                 )}
                             </button>
                         </div>

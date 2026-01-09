@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useUser } from '@/contexts/UserContext';
 import Link from 'next/link';
+import { MessageCircle, Sparkles, Search, Clock, Flame, Inbox, Heart, Share2, Camera, Send, Check, X } from 'lucide-react';
 
 interface Post {
     id: number;
@@ -163,8 +164,8 @@ export default function CommunityPage() {
             <div className="relative py-8 md:py-12 px-4 lg:px-8 mb-6 md:mb-8 overflow-hidden">
                 <div className="absolute inset-0 z-0 opacity-20 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-900 via-gray-900 to-black pointer-events-none"></div>
                 <div className="relative z-10 max-w-4xl mx-auto text-center">
-                    <h1 className="text-3xl md:text-5xl font-extrabold mb-3 md:mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-500 animate-fade-in-up">
-                        Community Hub 💬
+                    <h1 className="text-3xl md:text-5xl font-extrabold mb-3 md:mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-500 animate-fade-in-up flex items-center justify-center gap-3">
+                        Community Hub <MessageCircle size={40} className="text-indigo-400" />
                     </h1>
                     <p className="text-base md:text-lg text-gray-400 mb-6 md:mb-8 max-w-2xl mx-auto animate-fade-in-up delay-100">
                         Connect with others, share your meal prep wins, and find inspiration for your next healthy dish.
@@ -172,9 +173,9 @@ export default function CommunityPage() {
 
                     <button
                         onClick={() => setShowModal(true)}
-                        className="btn-primary transform hover:scale-105 transition-all shadow-lg shadow-indigo-500/20 px-6 py-2.5 md:px-8 md:py-3 text-base md:text-lg animate-fade-in-up delay-200"
+                        className="btn-primary transform hover:scale-105 transition-all shadow-lg shadow-indigo-500/20 px-6 py-2.5 md:px-8 md:py-3 text-base md:text-lg animate-fade-in-up delay-200 flex items-center gap-2 mx-auto"
                     >
-                        ✨ Share Your Story
+                        <Sparkles size={18} /> Share Your Story
                     </button>
                 </div>
             </div>
@@ -184,7 +185,7 @@ export default function CommunityPage() {
                 <div className="sticky top-16 md:top-20 z-30 mb-6 md:mb-8 mx-auto max-w-3xl">
                     <div className="backdrop-blur-xl bg-gray-900/60 border border-white/10 rounded-2xl p-1.5 md:p-2 flex flex-col md:flex-row gap-2 shadow-xl md:shadow-2xl transition-all hover:border-white/20 hover:bg-gray-900/70">
                         <div className="relative flex-1">
-                            <span className="absolute left-3 md:left-4 top-3 md:top-3 text-gray-400">🔍</span>
+                            <span className="absolute left-3 md:left-4 top-3 md:top-3 text-gray-400"><Search size={16} /></span>
                             <input
                                 className="w-full bg-transparent border-none text-white placeholder-gray-500 pl-10 md:pl-12 pr-4 py-2.5 focus:ring-0 text-sm md:text-base"
                                 placeholder="Search conversations..."
@@ -198,8 +199,8 @@ export default function CommunityPage() {
                             value={sortBy}
                             onChange={(e) => setSortBy(e.target.value as 'latest' | 'top')}
                         >
-                            <option value="latest" className="bg-gray-900">⏱️ Latest</option>
-                            <option value="top" className="bg-gray-900">🔥 Top Liked</option>
+                            <option value="latest" className="bg-gray-900">Latest</option>
+                            <option value="top" className="bg-gray-900">Top Liked</option>
                         </select>
                     </div>
                 </div>
@@ -212,7 +213,9 @@ export default function CommunityPage() {
                     </div>
                 ) : posts.length === 0 ? (
                     <div className="text-center py-20 text-gray-500">
-                        <div className="text-6xl mb-4 opacity-50">📭</div>
+                        <div className="w-16 h-16 mx-auto mb-4 opacity-50 flex items-center justify-center">
+                            <Inbox size={64} className="text-gray-600" />
+                        </div>
                         <p className="text-xl">No posts found yet.</p>
                         <p className="text-sm">Be the first to start a conversation!</p>
                     </div>
@@ -256,19 +259,19 @@ export default function CommunityPage() {
                                         onClick={(e) => toggleLike(e, post.id)}
                                         className="flex items-center gap-1.5 px-3 py-1.5 rounded-full hover:bg-white/5 transition-all group/like"
                                     >
-                                        <span className="transform group-hover/like:scale-125 transition-transform duration-300">❤️</span>
+                                        <Heart size={16} className="text-red-400 group-hover/like:scale-125 transition-transform duration-300" />
                                         <span className="font-medium text-gray-400 group-hover/like:text-red-400 transition-colors">{post.likes}</span>
                                     </button>
 
                                     <div className="flex items-center gap-2">
                                         <span className="flex items-center gap-1.5 px-3 py-1.5 text-xs text-gray-500 bg-white/5 rounded-full">
-                                            💬 {post.comment_count}
+                                            <MessageCircle size={12} /> {post.comment_count}
                                         </span>
                                         <button
                                             onClick={(e) => sharePost(e, post)}
                                             className="p-1.5 text-gray-500 hover:text-white transition-colors"
                                         >
-                                            📤
+                                            <Share2 size={16} />
                                         </button>
                                     </div>
                                 </div>
@@ -283,7 +286,9 @@ export default function CommunityPage() {
                 <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
                     <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setShowModal(false)}></div>
                     <div className="card w-full max-w-lg relative animate-fade-in shadow-2xl shadow-indigo-500/10 border-indigo-500/20 transform transition-all scale-100 flex flex-col max-h-[90vh]">
-                        <button onClick={() => setShowModal(false)} className="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors bg-white/5 rounded-full p-1">✕</button>
+                        <button onClick={() => setShowModal(false)} className="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors bg-white/5 rounded-full p-1">
+                            <X size={16} />
+                        </button>
 
                         <div className="mb-6">
                             <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Create Post</h2>
@@ -323,19 +328,19 @@ export default function CommunityPage() {
                                     <div className="border-2 border-dashed border-gray-700 rounded-xl p-4 text-center group-hover:border-[var(--accent-primary)] group-hover:bg-[var(--accent-primary)]/5 transition-all">
                                         {imageFile ? (
                                             <span className="text-[var(--accent-primary)] font-medium flex items-center justify-center gap-2">
-                                                ✅ {imageFile.name}
+                                                <Check size={16} /> {imageFile.name}
                                             </span>
                                         ) : (
-                                            <span className="text-gray-500 group-hover:text-gray-300">
-                                                📷 Click to upload an image
+                                            <span className="text-gray-500 group-hover:text-gray-300 flex items-center justify-center gap-2">
+                                                <Camera size={16} /> Click to upload an image
                                             </span>
                                         )}
                                     </div>
                                 </div>
                             </div>
                             <div className="pt-2">
-                                <button disabled={submitting} type="submit" className="btn-primary w-full py-3 text-lg font-bold shadow-lg shadow-indigo-500/25">
-                                    {submitting ? 'Posting...' : '🚀 Post to Community'}
+                                <button disabled={submitting} type="submit" className="btn-primary w-full py-3 text-lg font-bold shadow-lg shadow-indigo-500/25 flex items-center justify-center gap-2">
+                                    {submitting ? 'Posting...' : (<><Send size={18} /> Post to Community</>)}
                                 </button>
                             </div>
                         </form>

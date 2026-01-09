@@ -12,6 +12,8 @@
     "nav": {
         "dashboard": "Tableau de bord",
         "trackMacros": "Suivi des Macros",
+        "fasting": "Jeûne Intermittent",
+        "coach": "Coach Personnel",
         "calculator": "Calculateur de Calories",
         "mealLibrary": "Bibliothèque de Repas",
         "statistics": "Statistiques",

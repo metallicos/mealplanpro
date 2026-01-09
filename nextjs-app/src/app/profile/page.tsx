@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useUser } from '@/contexts/UserContext';
 import Image from 'next/image';
 import Link from 'next/link';
+import { Settings, Camera, Shuffle, Globe, Heart, MessageSquare, Trash2 } from 'lucide-react';
 
 export default function ProfilePage() {
     const { user, isLoading } = useUser();
@@ -135,7 +136,7 @@ export default function ProfilePage() {
 
     return (
         <div className="animate-fade-in max-w-4xl mx-auto p-4">
-            <h1 className="page-title mb-6">Profile Management ⚙️</h1>
+            <h1 className="page-title mb-6 flex items-center gap-2">Profile Management <Settings size={24} className="text-violet-400" /></h1>
 
             <div className="flex gap-4 mb-6 border-b border-gray-800">
                 <button
@@ -171,12 +172,12 @@ export default function ProfilePage() {
                                 )}
                             </div>
                             <div className="flex flex-col gap-2">
-                                <label className="btn-secondary text-xs py-2 cursor-pointer">
-                                    📷 Upload Photo
+                                <label className="btn-secondary text-xs py-2 cursor-pointer flex items-center gap-1 justify-center">
+                                    <Camera size={14} /> Upload Photo
                                     <input type="file" className="hidden" accept="image/*" onChange={handleAvatarUpload} />
                                 </label>
-                                <button type="button" onClick={generateAvatar} className="text-xs text-[var(--accent-primary)] hover:underline">
-                                    🎲 Generate Random Avatar
+                                <button type="button" onClick={generateAvatar} className="text-xs text-[var(--accent-primary)] hover:underline flex items-center gap-1 justify-center">
+                                    <Shuffle size={12} /> Generate Random Avatar
                                 </button>
                             </div>
                         </div>
@@ -193,7 +194,7 @@ export default function ProfilePage() {
                             </div>
 
                             <hr className="border-gray-800 my-4" />
-                            <h3 className="font-semibold mb-2">Social Links 🌐</h3>
+                            <h3 className="font-semibold mb-2 flex items-center gap-2"><Globe size={16} /> Social Links</h3>
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                                 <div>
                                     <label className="form-label text-xs">Facebook</label>
@@ -239,15 +240,19 @@ export default function ProfilePage() {
                                 <Link href={`/forum/${post.id}`}>
                                     <h3 className="font-bold text-lg mb-2">{post.title}</h3>
                                     <p className="text-sm text-gray-400 line-clamp-2">{post.content}</p>
-                                    <div className="mt-2 text-xs text-gray-500">
-                                        ❤️ {post.likes} • 💬 {post.comment_count} • {new Date(post.created_at).toLocaleDateString()}
+                                    <div className="mt-2 text-xs text-gray-500 flex items-center gap-2">
+                                        <Heart size={12} className="text-red-400" /> {post.likes}
+                                        <span>•</span>
+                                        <MessageSquare size={12} /> {post.comment_count}
+                                        <span>•</span>
+                                        {new Date(post.created_at).toLocaleDateString()}
                                     </div>
                                 </Link>
                                 <button
                                     onClick={() => handleDeletePost(post.id)}
-                                    className="absolute top-4 right-4 text-red-400 opacity-0 group-hover:opacity-100 transition-opacity hover:bg-red-500/10 p-2 rounded"
+                                    className="absolute top-4 right-4 text-red-400 opacity-0 group-hover:opacity-100 transition-opacity hover:bg-red-500/10 p-2 rounded flex items-center gap-1"
                                 >
-                                    🗑️ Delete
+                                    <Trash2 size={14} /> Delete
                                 </button>
                             </div>
                         ))

@@ -79,7 +79,8 @@ export async function GET(request: Request) {
         const rawIngredients = data.foods.map((food: any) => {
             const getNutrient = (id: number) => {
                 const n = food.foodNutrients.find((n: any) => n.nutrientId === id);
-                return n ? n.value : 0;
+                // Ensure no negative values
+                return n ? Math.max(0, n.value) : 0;
             };
 
             const cleanedName = cleanName(food.description);
@@ -87,13 +88,23 @@ export async function GET(request: Request) {
             return {
                 id: food.fdcId,
                 name: cleanedName,
-                // Filtered Macros ONLY
+                // Macros (with Math.max already in getNutrient)
                 // Energy: Try 2047 (Atwater Specific) -> 2048 (Atwater General) -> 1008 (Kcal)
                 calories: getNutrient(2047) || getNutrient(2048) || getNutrient(1008) || 0,
                 protein: getNutrient(1003),
                 fat: getNutrient(1004),
                 carbs: getNutrient(1005),
-                // No micronutrients exposed
+                // Micronutrients - USDA nutrient IDs
+                minerals: {
+                    potassium: getNutrient(1092),  // Potassium, K
+                    sodium: getNutrient(1093),      // Sodium, Na
+                    zinc: getNutrient(1095),        // Zinc, Zn
+                    iron: getNutrient(1089),        // Iron, Fe
+                    calcium: getNutrient(1087),     // Calcium, Ca
+                    magnesium: getNutrient(1090),   // Magnesium, Mg
+                },
+                fiber: getNutrient(1079),           // Fiber, total dietary
+                sugar: getNutrient(2000),           // Sugars, total
                 category: food.foodCategory || 'General'
             };
         });

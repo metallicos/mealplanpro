@@ -2,6 +2,11 @@
 
 import { useState, useEffect, lazy, Suspense } from 'react';
 import { useUser } from '@/contexts/UserContext';
+import {
+    Utensils, Calendar, ChevronLeft, ChevronRight, Flame,
+    Dumbbell, Wheat, Droplet, Bone, Zap, Banana, Leaf as Salt,
+    Shield, Camera, Search, Plus, Edit2, Trash2, X
+} from 'lucide-react';
 
 // Lazy load the scanner to avoid SSR issues with Quagga
 const BarcodeScanner = lazy(() => import('@/components/BarcodeScanner'));
@@ -303,7 +308,7 @@ export default function MacrosPage() {
     return (
         <div className="animate-fade-in">
             <div className="mb-8">
-                <h1 className="page-title">Track Your Macros 🍽️</h1>
+                <h1 className="page-title flex items-center gap-3"><Utensils className="w-8 h-8 text-[var(--accent-primary)]" /> Track Your Macros</h1>
                 <p className="page-subtitle">Log what you eat and track your daily progress.</p>
             </div>
 
@@ -328,7 +333,7 @@ export default function MacrosPage() {
                                 setSelectedDate(d.toISOString().split('T')[0]);
                             }}
                         >
-                            ← Previous
+                            <ChevronLeft className="w-4 h-4" /> Previous
                         </button>
                         <button
                             className="btn-secondary"
@@ -344,7 +349,7 @@ export default function MacrosPage() {
                                 setSelectedDate(d.toISOString().split('T')[0]);
                             }}
                         >
-                            Next →
+                            Next <ChevronRight className="w-4 h-4" />
                         </button>
                     </div>
                 </div>
@@ -353,7 +358,7 @@ export default function MacrosPage() {
             {/* Stats */}
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
                 <div className="stat-card">
-                    <div className="text-4xl mb-2">🔥</div>
+                    <div className="text-4xl mb-2 flex justify-center"><Flame className="w-8 h-8 text-[var(--calories)]" /></div>
                     <div className="stat-value">{Math.round(totals.calories)}</div>
                     <div className="stat-label">Calories</div>
                     <div className="progress-bar">
@@ -370,7 +375,7 @@ export default function MacrosPage() {
                     </div>
                 </div>
                 <div className="stat-card">
-                    <div className="text-4xl mb-2">💪</div>
+                    <div className="text-4xl mb-2 flex justify-center"><Dumbbell className="w-8 h-8 text-[var(--protein)]" /></div>
                     <div className="stat-value">{Math.round(totals.protein)}g</div>
                     <div className="stat-label">Protein</div>
                     <div className="progress-bar">
@@ -384,7 +389,7 @@ export default function MacrosPage() {
                     </div>
                 </div>
                 <div className="stat-card">
-                    <div className="text-4xl mb-2">🍚</div>
+                    <div className="text-4xl mb-2 flex justify-center"><Wheat className="w-8 h-8 text-[var(--carbs)]" /></div>
                     <div className="stat-value">{Math.round(totals.carbs)}g</div>
                     <div className="stat-label">Carbs</div>
                     <div className="progress-bar">
@@ -398,7 +403,7 @@ export default function MacrosPage() {
                     </div>
                 </div>
                 <div className="stat-card">
-                    <div className="text-4xl mb-2">🥑</div>
+                    <div className="text-4xl mb-2 flex justify-center"><Droplet className="w-8 h-8 text-[var(--fat)]" /></div>
                     <div className="stat-value">{Math.round(totals.fat)}g</div>
                     <div className="stat-label">Fat</div>
                     <div className="progress-bar">
@@ -415,35 +420,35 @@ export default function MacrosPage() {
 
             {/* Minerals */}
             <div className="card mb-6">
-                <h3 className="font-semibold mb-4">Micronutrients 💊</h3>
+                <h3 className="font-semibold mb-4 flex items-center gap-2"><Zap className="w-5 h-5 text-yellow-400" /> Micronutrients</h3>
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
                     <div className="text-center p-2 rounded bg-gray-800/50">
-                        <div className="text-xl">🦴</div>
+                        <div className="text-xl flex justify-center mb-1"><Bone className="w-6 h-6 text-white" /></div>
                         <div className="font-bold text-lg">{Math.round(totals.minerals.calcium)}mg</div>
                         <div className="text-xs text-gray-400">Calcium</div>
                     </div>
                     <div className="text-center p-2 rounded bg-gray-800/50">
-                        <div className="text-xl">🩸</div>
+                        <div className="text-xl flex justify-center mb-1"><Droplet className="w-6 h-6 text-red-500" /></div>
                         <div className="font-bold text-lg">{totals.minerals.iron.toFixed(1)}mg</div>
                         <div className="text-xs text-gray-400">Iron</div>
                     </div>
                     <div className="text-center p-2 rounded bg-gray-800/50">
-                        <div className="text-xl">⚡</div>
+                        <div className="text-xl flex justify-center mb-1"><Zap className="w-6 h-6 text-yellow-500" /></div>
                         <div className="font-bold text-lg">{Math.round(totals.minerals.magnesium)}mg</div>
                         <div className="text-xs text-gray-400">Magnesium</div>
                     </div>
                     <div className="text-center p-2 rounded bg-gray-800/50">
-                        <div className="text-xl">🍌</div>
+                        <div className="text-xl flex justify-center mb-1"><Banana className="w-6 h-6 text-yellow-300" /></div>
                         <div className="font-bold text-lg">{Math.round(totals.minerals.potassium)}mg</div>
                         <div className="text-xs text-gray-400">Potassium</div>
                     </div>
                     <div className="text-center p-2 rounded bg-gray-800/50">
-                        <div className="text-xl">🧂</div>
+                        <div className="text-xl flex justify-center mb-1"><Salt className="w-6 h-6 text-white" /></div>
                         <div className="font-bold text-lg">{Math.round(totals.minerals.sodium)}mg</div>
                         <div className="text-xs text-gray-400">Sodium</div>
                     </div>
                     <div className="text-center p-2 rounded bg-gray-800/50">
-                        <div className="text-xl">🛡️</div>
+                        <div className="text-xl flex justify-center mb-1"><Shield className="w-6 h-6 text-gray-400" /></div>
                         <div className="font-bold text-lg">{totals.minerals.zinc.toFixed(1)}mg</div>
                         <div className="text-xs text-gray-400">Zinc</div>
                     </div>
@@ -459,7 +464,7 @@ export default function MacrosPage() {
                             onClick={() => setShowScanner(true)}
                             className="btn-primary text-sm flex items-center gap-2"
                         >
-                            📷 Scan Barcode
+                            <Camera className="w-4 h-4" /> Scan Barcode
                         </button>
                     </div>
 
@@ -547,10 +552,10 @@ export default function MacrosPage() {
 
                         <button
                             onClick={addToLog}
-                            className="btn-primary w-full"
+                            className="btn-primary w-full flex items-center justify-center gap-2"
                             disabled={!selectedFood}
                         >
-                            ➕ Add to Log
+                            <Plus className="w-5 h-5" /> Add to Log
                         </button>
                     </div>
 
@@ -569,7 +574,7 @@ export default function MacrosPage() {
 
                     {logItems.length === 0 ? (
                         <div className="text-center py-12" style={{ color: 'var(--text-muted)' }}>
-                            <div className="text-5xl mb-4">🍽️</div>
+                            <div className="text-5xl mb-4 flex justify-center"><Utensils className="w-16 h-16 opacity-50" /></div>
                             <p>No foods logged yet. Start adding!</p>
                         </div>
                     ) : (
@@ -605,14 +610,14 @@ export default function MacrosPage() {
                                             className="text-gray-400 hover:text-white p-1 rounded hover:bg-white/10"
                                             title="Edit"
                                         >
-                                            ✏️
+                                            <Edit2 className="w-4 h-4" />
                                         </button>
                                         <button
                                             onClick={() => removeFromLog(item.id)}
                                             className="text-red-400 hover:text-red-300 p-1 rounded hover:bg-white/10"
                                             title="Delete"
                                         >
-                                            🗑️
+                                            <Trash2 className="w-4 h-4" />
                                         </button>
                                     </div>
                                 </div>
@@ -647,7 +652,7 @@ export default function MacrosPage() {
                 <Suspense fallback={
                     <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center">
                         <div className="text-white text-center">
-                            <div className="text-4xl mb-4">📷</div>
+                            <div className="text-4xl mb-4 flex justify-center"><Camera className="w-12 h-12 w-12 h-12 animate-pulse" /></div>
                             <p>Loading camera...</p>
                         </div>
                     </div>
@@ -668,7 +673,7 @@ export default function MacrosPage() {
                             onClick={() => setScannedFood(null)}
                             className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-white/10 text-white transition-colors text-2xl"
                         >
-                            ✕
+                            <X className="w-5 h-5" />
                         </button>
                         <div className="text-center">
                             <h3 className="text-lg font-bold text-white leading-tight line-clamp-1 max-w-[200px] mx-auto">{scannedFood.name}</h3>

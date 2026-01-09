@@ -1,0 +1,1393 @@
+[
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/pepper-halloumi-pide/",
+        "title": "Pide au poivre et au halloumi",
+        "description": "Essayez cette cuisine de rue turque en utilisant un mélange de pain du commerce pour plus de facilité. Garni de halloumi épicé et de poivrons, c'est un délicieux déjeuner à préparer pour la famille",
+        "prep_time": "10 mins Cook: 35 mins plus rising",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "250 g de mélange à pain ciabatta",
+            "1 cuillère à soupe d'huile d'olive",
+            "1 oignon , coupé en dés",
+            "2 gousses d'ail, écrasées",
+            "½ petit poivron rouge, coupé en dés",
+            "½ petit poivron vert, coupé en dés",
+            "½ cuillère à café de cumin moulu",
+            "½ cuillère à café de cannelle moulue",
+            "une poignée de persil haché",
+            "1 bloc de halloumi, coupé en dés",
+            "farine nature, pour saupoudrer",
+            "25 g de beurre fondu"
+        ],
+        "method": [
+            "Préparez la pâte ciabatta en suivant les instructions sur l'emballage et laissez-la lever pendant que vous préparez la garniture.",
+            "Faites chauffer l'huile dans une poêle antiadhésive à feu moyen et faites revenir l'oignon, l'ail et les poivrons pendant 10 minutes ou jusqu'à ce qu'ils soient tendres. Ajoutez les épices et un peu d'assaisonnement et laissez cuire quelques minutes, puis incorporez le persil et retirez du feu. Incorporer le halloumi.",
+            "Chauffer le four à 200C/180C chaleur tournante/gaz 6. Divisez la pâte en quartiers puis étalez-la sur un plan légèrement fariné en formes ovales longues (environ 22 cm x 9 cm). Disposer sur deux plaques à pâtisserie recouvertes de papier sulfurisé. Parsemer du mélange poivre et fromage en laissant des bordures de 1 cm. Pincez à chaque extrémité pour créer une forme de pantoufle.",
+            "Cuire au four pendant 20 à 25 minutes ou jusqu'à ce qu'il soit gonflé et doré. Badigeonner les pides de beurre fondu et servir."
+        ],
+        "nutritional_info": {
+            "kcal": "451",
+            "fat": "25.9g",
+            "saturates": "13.7g",
+            "carbs": "31.4g",
+            "sugars": "0g",
+            "fibre": "3.9g",
+            "protein": "21.3g",
+            "salt": "2.5g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2025/06/Pepper-and-halloumi-pie-58c04b7.jpg",
+        "local_image_path": "images/cuisine/turkish/pepper-halloumi-pide.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/turkish-rice-vermicelli-rice/",
+        "title": "Riz turc (riz vermicelle)",
+        "description": "Ce plat d'accompagnement turc classique utilise du riz blanc à grains longs agrémenté de bouillon de poulet et de pâtes vermicelles grillées.",
+        "prep_time": "15 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "300 g de riz blanc à grains longs",
+            "3 cuillères à soupe d'huile végétale",
+            "70 g de brins de vermicelles écrasés",
+            "30g de beurre doux",
+            "625 ml de bouillon de poulet, préparé avec un cube de bouillon"
+        ],
+        "method": [
+            "Versez le riz dans un très grand bol sous l'eau froide courante et égouttez soigneusement l'eau du bol à travers un tamis. Répétez plusieurs fois jusqu'à ce que l'eau dans le bol soit claire, puis remplissez le bol d'eau froide et laissez tremper le riz pendant 10 minutes pendant que vous faites cuire les vermicelles.",
+            "Mettez l'huile dans une poêle moyenne à feu moyen. Ajoutez les vermicelles et remuez continuellement jusqu'à ce que les brins prennent une riche couleur dorée, 2-3 minutes. Retirer du feu, incorporer le beurre jusqu'à ce qu'il fonde et laisser refroidir les vermicelles pendant 1 à 2 minutes.",
+            "Égouttez soigneusement le riz au tamis. Ajoutez le riz dans la poêle et remuez bien. Versez le bouillon chaud dans la casserole, saupoudrez d'½ cuillère à café de sel, remuez bien puis remettez la casserole sur le feu à feu vif. Portez à ébullition, puis réduisez le feu au minimum, mettez le couvercle sur la casserole et laissez mijoter pendant 7 à 9 minutes. Retirez la casserole du feu, couvrez de quelques feuilles de papier absorbant ou d'un torchon léger et du couvercle de la casserole, et laissez le riz reposer dans la casserole pendant 10 minutes. Remuer avec une fourchette avant de servir."
+        ],
+        "nutritional_info": {
+            "kcal": "312",
+            "fat": "10g",
+            "saturates": "3g",
+            "carbs": "49g",
+            "sugars": "0g",
+            "fibre": "1g",
+            "protein": "5g",
+            "salt": "0.98g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/11/Turkish-rice-70f8a9b.jpg",
+        "local_image_path": "images/cuisine/turkish/turkish-rice-vermicelli-rice.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/adana-kebab/",
+        "title": "Brochettes d'Adana",
+        "description": "Ces brochettes turques utilisent un minimum d'ingrédients pour que la saveur de l'agneau se démarque, complétée par des poivrons rouges et du pul biber épicé.",
+        "prep_time": "5 mins Cook: 15 mins plus marinating",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "2 gros poivrons rouges romano, épépinés, épépinés et coupés en gros morceaux",
+            "800 g de viande hachée d'agneau à 20 % de matière grasse",
+            "3 cuillères à soupe de pâte de piment rouge doux (doux) turc",
+            "1 cuillère à soupe de pul biber",
+            "3 cuillères à soupe d'huile de tournesol"
+        ],
+        "method": [
+            "Hachez finement les poivrons au robot culinaire, puis versez-les dans une passoire et pressez-les dans la passoire pour que les poivrons libèrent tout leur jus. Versez dans un bol avec le hachis, la pâte de poivron rouge, le pul biber, 1½ cuillère à café de sel marin feuilleté et 2 cuillères à soupe d'huile. Mélangez en pétrissant bien pendant au moins 2-3 minutes. Si nécessaire, mouillez-vous les mains avec de l'eau froide pour éviter que le mélange ne colle. Le mélange doit être collant une fois prêt. Couvrir et réfrigérer pendant au moins 2 heures ou jusqu'à 12 heures.",
+            "Au moment de cuisiner, chauffez le gril à feu vif ou le four à 220C/200C chaleur tournante/gaz 6. Divisez le mélange en 12 portions égales d'environ 85g chacune. Si vous souhaitez les embrocher, divisez-les en 8 portions égales et roulez-les en boules. Avec les mains mouillées, enfilez les boules au bout des brochettes, en massant le mélange sur les brochettes entre les paumes de vos mains, jusqu'à ce qu'il soit uniformément réparti. Assurez-vous que le mélange est entièrement enroulé autour des brochettes sans aucun métal exposé. Vous pouvez également les déposer sur une grande plaque à pâtisserie recouverte de papier sulfurisé si vous cuisinez au four, ou de papier d'aluminium si vous cuisez sous le gril. Façonner en köfte de 20 cm de long. Mouillez-vous les doigts avec un peu d'eau froide et faites des empreintes tout au long du köfte pour lui donner la forme traditionnelle.",
+            "Badigeonner délicatement chaque köfte avec 1 cuillère à soupe d'huile restante et cuire sous le gril, sur la grille supérieure pendant 10 à 12 minutes, en les retournant régulièrement, ou cuire au four pendant 16 à 18 minutes, jusqu'à ce qu'ils soient croustillants à l'extérieur et juteux au milieu."
+        ],
+        "nutritional_info": {
+            "kcal": "455",
+            "fat": "31g",
+            "saturates": "10g",
+            "carbs": "5g",
+            "sugars": "0g",
+            "fibre": "3g",
+            "protein": "36g",
+            "salt": "2.55g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/11/Adana-Kebab-138afe7.jpg",
+        "local_image_path": "images/cuisine/turkish/adana-kebab.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/dolma-yalanci-dolma/",
+        "title": "Dolma (fausse peluche)",
+        "description": "Dégustez une version sans viande de feuilles de vigne farcies, avec tomates et oignons. Une fois que vous maîtrisez la recette, essayez d’expérimenter avec d’autres garnitures.",
+        "prep_time": "45 mins Cook: 30 mins plus cooling and chilling",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "250 g de riz blanc à grains longs",
+            "6 cuillères à soupe d'huile d'olive extra vierge",
+            "1 gros oignon , coupé en dés très finement",
+            "4 cuillères à soupe de purée de tomates",
+            "25 g de feuilles de menthe fraîche hachées finement",
+            "30 g de persil plat frais, finement haché",
+            "Boîte de 400 g de tomates concassées",
+            "1 cuillère à soupe de mélasse de grenade",
+            "100 ml de jus de citron frais, environ 3 citrons",
+            "2 cuillères à soupe de menthe séchée",
+            "1 x 420g de feuilles de vigne sous vide"
+        ],
+        "method": [
+            "Lavez le riz dans une passoire sous l'eau froide courante jusqu'à ce que l'eau soit claire, puis laissez-le égoutter complètement dans une passoire.",
+            "Pendant ce temps, faites chauffer 3 cuillères à soupe d'huile d'olive à feu doux et ajoutez les oignons. Laisser ramollir pendant 15 à 20 minutes jusqu'à ce qu'il soit translucide et caramélisé. Ajoutez 3 cuillères à soupe de purée de tomates aux oignons en les décomposant délicatement en jus huileux, environ 2 minutes. Incorporez le riz en enrobant entièrement les grains du mélange de tomates et d'oignons, puis retirez la casserole du feu et transférez le contenu dans un grand plat, le nôtre mesurait 22 cm. Ajoutez la menthe fraîche et le persil au plat, ainsi que les tomates hachées, la mélasse de grenade, le jus de citron, la menthe séchée, 1½ cuillère à café de sel marin fin et ¾ cuillère à café de poivre noir fraîchement moulu. Remuer pour combiner, puis laisser refroidir à température ambiante. Réfrigérer 1 h pour permettre aux saveurs de se conjuguer.",
+            "Pendant que le mélange refroidit, préparez les feuilles de vigne. Mettez-les dans la casserole la plus large dont vous disposez, puis lavez-les soigneusement à l'eau froide 3 à 4 fois. Remplissez la casserole d'eau froide, placez-la sur le feu à feu moyen, portez à ébullition pendant 10 minutes. Éteignez le feu, puis couvrez la casserole et laissez les feuilles reposer dans l'eau bouillante pendant encore 10 minutes. Égoutter soigneusement l'eau chaude de la casserole, puis remplir la casserole d'eau froide et égoutter encore quelques fois pour débarrasser les feuilles de toute saumure. Remplissez à nouveau la casserole d'eau froide pour couvrir les feuilles – cela facilitera le retrait des feuilles de la casserole sans les déchirer. Réservez 4 à 5 grandes feuilles de vigne pour plus tard, puis utilisez le reste pour faire le dolma.",
+            "Dissoudre 1 cuillère à soupe de purée de tomates restante dans un pichet résistant à la chaleur avec 200 ml d'eau bouillante, puis compléter avec 300 ml d'eau froide et bien mélanger.",
+            "Disposez une feuille de vigne sur une grande assiette avec le côté le plus large de la feuille face à vous et la pointe la plus éloignée. Si les feuilles ont encore une tige, coupez-les. Couvrez avec une cuillère à café bombée du mélange le long du point le plus large, en laissant un peu plus de 1 cm (½ pouce) d'espace sur les côtés et le long du bord le plus proche de vous. Pliez ce bord le plus proche sur la garniture, repliez les côtés, puis roulez le dolma loin de vous jusqu'à ce que vous obteniez un rouleau en forme de cigare bien serré.",
+            "Ajoutez quelques feuilles réservées au fond d'une grande casserole, puis déposez le dolma roulé (avec l'extrémité pointue de la feuille tournée vers le dessous de la casserole pour éviter que le dolma ne s'effiloche pendant la cuisson) au fond de la casserole et répétez avec les feuilles restantes et la garniture. Disposez bien les dolma, mais veillez à leur laisser suffisamment d'espace pour qu'ils se dilatent pendant la cuisson, en couches.",
+            "Versez les 3 cuillères à soupe d'huile d'olive restantes dans la poêle, puis recouvrez le dolma avec les feuilles réservées restantes. Placez quelques assiettes résistantes à la chaleur sur les feuilles pour alourdir légèrement le contenu de la casserole, puis versez juste assez de liquide de tomate pour qu'il dépasse de 2 cm du bord des assiettes. N'hésitez pas à rajouter un peu d'eau si la quantité de liquide n'est pas suffisante, ou à vous retenir si elle est trop importante. Mettez la casserole sur feu moyen, portez à ébullition, puis réduisez le feu le plus bas possible. Mettez le couvercle sur la casserole et laissez cuire environ 20 à 25 minutes jusqu'à ce que la majeure partie de l'eau soit réduite, mais vous pouvez encore en voir une petite quantité bouillonner. Retirez la casserole du feu et laissez refroidir au moins 2 heures (de préférence quelques heures de plus) avant de servir."
+        ],
+        "nutritional_info": {
+            "kcal": "24",
+            "fat": "1g",
+            "saturates": "0.1g",
+            "carbs": "3g",
+            "sugars": "0g",
+            "fibre": "0.2g",
+            "protein": "0.6g",
+            "salt": "0.39g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/11/Dolma-c52e916.jpg",
+        "local_image_path": "images/cuisine/turkish/dolma-yalanci-dolma.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/turkish-egg-flatbreads/",
+        "title": "Pains plats aux œufs turcs",
+        "description": "Savourez ces pains plats turcs aux œufs pour un déjeuner ou un dîner rapide et facile. Assurez-vous de casser les œufs dans l'huile chaude pour obtenir un fond joli et croustillant.",
+        "prep_time": "10 mins Cook: 5 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "175 g de yaourt grec 0 % de matière grasse",
+            "1 gousse d'ail, râpée",
+            "½ citron, zesté",
+            "1 ½ cuillère à café de zaatar",
+            "une petite poignée de persil finement haché",
+            "2 pains plats",
+            "1 cuillère à soupe d'huile d'olive",
+            "2 œufs",
+            "30 g de feta végétarienne, émiettée",
+            "25 g d'olives vertes tranchées",
+            "grosse pincée de flocons de piment d'Alep ou d'huile de piment (facultatif)",
+            "½ concombre, coupé en deux, épépiné et finement tranché"
+        ],
+        "method": [
+            "Mélangez le yaourt avec l'ail, le zeste de citron, la moitié du zaatar, la moitié du persil et un peu de sel et de poivre. Faites chauffer une poêle à sec à feu moyen et badigeonnez légèrement les pains plats d'un peu d'huile. Faites frire chaque côté pendant 1 min, puis transférez dans deux assiettes et réservez.",
+            "Faites chauffer le reste de l'huile d'olive dans la poêle. Une fois bien chauds, cassez les œufs dans la poêle et faites-les revenir quelques minutes jusqu'à ce que le blanc soit pris et que les bords soient croustillants. Répartir uniformément le yaourt épicé sur les deux pains plats et garnir des œufs croustillants, de la feta, des olives, du reste du persil et du zaatar, du piment, le cas échéant, et des concombres à part."
+        ],
+        "nutritional_info": {
+            "kcal": "447",
+            "fat": "17g",
+            "saturates": "5g",
+            "carbs": "42g",
+            "sugars": "0g",
+            "fibre": "5g",
+            "protein": "28g",
+            "salt": "1.3g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2023/01/Turkish-egg-flatbreads-10b915c.jpg",
+        "local_image_path": "images/cuisine/turkish/turkish-egg-flatbreads.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spinach-with-chickpeas-pine-nuts-raisins/",
+        "title": "Épinards aux pois chiches, pignons de pin et raisins secs",
+        "description": "Savourez ce simple plat d'accompagnement aux épinards avec des plats de poulet à l'espagnole. Les amandes grillées fonctionnent aussi bien",
+        "prep_time": "5 mins Cook: 10 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "2 cuillères à soupe d'huile d'olive, plus un filet",
+            "1 grosse échalote longue, tranchée",
+            "2 gousses d'ail, écrasées",
+            "½ cuillère à café de cumin moulu",
+            "½ cuillère à café de paprika fumé",
+            "400 g de pois chiches en conserve égouttés",
+            "4 cuillères à soupe de raisins secs dorés ou flambés",
+            "200g d'épinards",
+            "2 cuillères à soupe de pignons de pin grillés"
+        ],
+        "method": [
+            "Faites chauffer l'huile d'olive dans une grande poêle antiadhésive. Ajouter l'échalote et l'ail et cuire jusqu'à ce qu'ils soient ramollis. Ajoutez les épices, les pois chiches et les raisins secs et laissez cuire 2 min.",
+            "Ajoutez les épinards et faites cuire jusqu'à ce qu'ils soient juste flétris. Incorporer les pignons de pin et servir avec un filet d'huile supplémentaire."
+        ],
+        "nutritional_info": {
+            "kcal": "280",
+            "fat": "13g",
+            "saturates": "1g",
+            "carbs": "30g",
+            "sugars": "0g",
+            "fibre": "5g",
+            "protein": "8g",
+            "salt": "0.1g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Spinach-with-chickpeas-pine-nuts-and-raisins-dc297c1.jpg",
+        "local_image_path": "images/cuisine/turkish/spinach-with-chickpeas-pine-nuts-raisins.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/beef-sour-cherry-manti-tomato-chilli-butter/",
+        "title": "Manti de bœuf et griottes au beurre tomate-piment",
+        "description": "Offrez-vous un festin turc et mettez ces manti (raviolis) au bœuf et aux griottes au centre de la scène. Vous pouvez pré-préparer les manti et les congeler pour plus de facilité",
+        "prep_time": "1 hrs 20 mins Cook: 30 mins Plus 30 mins resting",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "300 g de farine inci turque ou de farine pour pâtes « 00 », plus un peu pour saupoudrer",
+            "1 cuillère à café de sel fin",
+            "1 gros oeuf, battu",
+            "2 cuillères à soupe d'huile d'olive extra vierge",
+            "semoule fine, pour saupoudrer",
+            "pignons de pin grillés, pour servir",
+            "feuilles de thym, pour servir",
+            "125 g de bœuf haché",
+            "30 g d'oignon (½ petit), haché très finement",
+            "20 g de persil haché très finement",
+            "20 g de griottes séchées, hachées",
+            "½ cuillère à café de graines de fenouil, moulues à l'aide d'un pilon et d'un mortier",
+            "200 g de beurre doux",
+            "pincée d'origan séché",
+            "1½ cuillère à soupe de purée de tomates",
+            "500 g de purée de tomates",
+            "vinaigre de Xérès, pour assaisonner",
+            "sucre en poudre, pour assaisonner",
+            "1 cuillère à soupe de pul biber (flocons de piment turc)",
+            "125 g de yaourt grec",
+            "½ petite gousse d'ail, finement râpée",
+            "1 cuillère à soupe d'huile d'olive extra vierge",
+            "une machine à pâtes"
+        ],
+        "method": [
+            "Pour faire la pâte, mettez la farine et le sel dans un batteur sur socle muni d'un crochet pétrisseur. Ajoutez l'œuf et l'huile, puis mélangez à basse vitesse. Ajoutez progressivement environ 2 cuillères à soupe d'eau. Une fois que le mélange commence à s'agglutiner, versez-le sur un plan de travail légèrement fariné et pétrissez pendant environ 10 minutes jusqu'à obtenir une pâte ferme et lisse. Coupez en quatre portions, enveloppez chacune et laissez reposer au réfrigérateur pendant 30 minutes.",
+            "Pour faire la garniture, combinez tous les ingrédients avec un peu de sel et mélangez bien à la main. Faites frire une petite quantité pour vérifier l'assaisonnement.",
+            "Faites passer un morceau de pâte dans le réglage le plus grand d'une machine à pâtes, puis pliez-le en deux avant de le rouler à nouveau. Continuez jusqu'à atteindre le réglage 2/3. Étalez la pâte sur un plan de travail saupoudré de semoule et coupez-la en carrés d'environ 6 x 6 cm. Versez 1 cuillère à café de garniture au centre de chacun. Badigeonnez un peu d’eau sur les bords et rassemblez-la au centre pour former une forme de manti (voir image du haut). Continuez jusqu'à épuisement de la garniture, en plaçant le manti fini sur un plateau fortement saupoudré de semoule. Gardez les pâtes restantes enveloppées pendant que vous travaillez. Vous en aurez plus que ce dont vous avez besoin (voir le conseil ci-dessous). Refroidissez la manti jusqu'à 24 heures.",
+            "Pour faire le beurre tomate-piment, faites fondre la moitié du beurre dans une poêle, ajoutez l'origan et le concentré de tomates et laissez cuire brièvement avant de verser la passata avec une pincée de sel. Cuire à feu doux pendant environ 20 min. Terminez avec un peu de vinaigre de Xérès et une pincée de sucre en poudre. Faites chauffer le reste du beurre jusqu'à ce qu'il soit doré, versez-le au tamis fin, laissez refroidir 2 min, puis ajoutez le pul biber. Mélanger la sauce et le beurre pimenté et réserver au chaud. Préparez le yaourt à l'ail en fouettant les ingrédients avec 2 cuillères à soupe d'eau.",
+            "Faites cuire les manti dans l'eau bouillante pendant environ 5 minutes jusqu'à ce qu'ils soient tendres et que la viande soit cuite. Égouttez et servez les manti avec la sauce au yaourt et le beurre de piment, et saupoudrez de pignons de pin et de thym."
+        ],
+        "nutritional_info": {
+            "kcal": "607",
+            "fat": "40g",
+            "saturates": "21g",
+            "carbs": "45g",
+            "sugars": "7g",
+            "fibre": "4g",
+            "protein": "14g",
+            "salt": "1.1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2019/04/beef-sour-cherry-manti-with-tomato-chilli-butter.jpg",
+        "local_image_path": "images/cuisine/turkish/beef-sour-cherry-manti-tomato-chilli-butter.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/pistachio-katmer/",
+        "title": "Katmer à la pistache",
+        "description": "Essayez ce fabuleux dessert turc composé de glace prise en sandwich entre une pâte filo et saupoudrée de pistaches. Servir le katmer avec des fruits frais",
+        "prep_time": "15 mins Cook: 10 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "2 feuilles de pâte filo d'environ 37 x 30 cm chacune",
+            "30 g de beurre doux, fondu",
+            "80 g de pistaches décortiquées, grillées et grossièrement moulues, plus un peu pour décorer",
+            "4 cuillères à soupe de sucre en poudre",
+            "40 g de crème caillée",
+            "4 boules de glace vanille",
+            "quartiers de pamplemousse ou d'orange (ou autre fruit frais), pour servir"
+        ],
+        "method": [
+            "Prenez 1 feuille de filo et badigeonnez-la d'un peu de beurre fondu. Saupoudrez la moitié des pistaches pour former un carré d'environ 12 x 12 cm au centre de la feuille. Saupoudrer la moitié du sucre et parsemer la moitié de la crème caillée sur les pistaches. En commençant par le coin supérieur gauche, pliez le coin vers le centre, puis pliez le coin inférieur droit vers le centre. Pliez les deux coins restants vers le centre, en les chevauchant légèrement pour obtenir un carré.",
+            "Mettez une grande poêle sur feu moyen-vif et badigeonnez-la de la moitié du beurre fondu restant, puis déposez le katmer dans la poêle, couture vers le bas. Cuire de chaque côté pendant 1 à 2 minutes ou jusqu'à ce qu'ils soient dorés et croustillants. Répétez le processus pour l’autre katmer.",
+            "Coupez le katmer croustillant en deux pour obtenir quatre morceaux. Répartissez la glace entre deux en pressant légèrement, puis recouvrez avec les morceaux de pâte restants pour réaliser deux sandwichs. Coupez-les à nouveau en deux pour obtenir quatre morceaux. Servir aussitôt, saupoudré de pistaches, de quartiers de pamplemousse ou d'autres fruits de saison."
+        ],
+        "nutritional_info": {
+            "kcal": "250",
+            "fat": "15g",
+            "saturates": "6g",
+            "carbs": "24g",
+            "sugars": "15g",
+            "fibre": "2g",
+            "protein": "4g",
+            "salt": "0.1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2019/04/pistachio-katmer.jpg",
+        "local_image_path": "images/cuisine/turkish/pistachio-katmer.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/simit-bread/",
+        "title": "Pain simit",
+        "description": "Les pains Simit sont des rondelles de pain au sésame, qui ressemblent aux bagels. Ils sont vendus à tous les coins de rue en Turquie et sont populaires pour le petit-déjeuner ou comme collation.",
+        "prep_time": "30 mins Cook: 15 mins plus 3 hrs proving",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "250 g de farine à pain blanche forte",
+            "1 cuillère à café de sel",
+            "1 cuillère à café de sucre en poudre",
+            "1 cuillère à café (5 g) de levure sèche à action rapide",
+            "100g de graines de sésame",
+            "1 cuillère à soupe de mélasse de grenade ou de sirop de mélasse"
+        ],
+        "method": [
+            "Versez la farine, le sel et le sucre dans un bol et mélangez. Ajoutez la levure et 150 ml d'eau tiède, mélangez, puis pétrissez quelques minutes pour rassembler le tout en une pâte molle. Versez sur votre plan de travail et continuez à pétrir pendant 10 à 12 minutes jusqu'à ce que la pâte soit élastique. Remettre dans un bol propre, couvrir et laisser lever pendant une heure ou deux jusqu'à ce qu'il double de volume.",
+            "Pendant ce temps, faites griller les graines de sésame dans une poêle à sec jusqu'à ce qu'elles soient dorées. Réserver dans la poêle. Mélangez le sirop de mélasse ou la mélasse de grenade avec 50 ml d'eau dans un bol large et peu profond.",
+            "Divisez la pâte en quatre morceaux égaux. Rouler chacun en un boudin d'environ 45 cm de long. Retournez la corde de pâte sur elle-même, puis tordez les deux brins et faites une boucle en un anneau, en serrant les extrémités ensemble pour la fixer. Une fois façonné, trempez chaque morceau dans l'eau de mélasse en le retournant pour l'enrober, puis dans les graines de sésame en veillant à ce que chacun soit bien recouvert. Transférer sur une plaque à pâtisserie, couvrir et laisser lever encore 45 minutes à 1 heure. Chauffer le four à 200C/180C ventilateur/gaz 6.",
+            "Lorsque les pains sont gonflés, découvrez-les et enfournez pendant 15 à 18 minutes jusqu'à ce qu'ils soient dorés. Laisser refroidir, puis envelopper dans un torchon pour les garder au frais. Peut être préparé jusqu'à la veille et réchauffé doucement avant de servir."
+        ],
+        "nutritional_info": {
+            "kcal": "408",
+            "fat": "15g",
+            "saturates": "3g",
+            "carbs": "52g",
+            "sugars": "4g",
+            "fibre": "5g",
+            "protein": "14g",
+            "salt": "1.2g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2019/01/simit-bread.jpg",
+        "local_image_path": "images/cuisine/turkish/simit-bread.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chicken-wings-with-cumin-lemon-and-garlic/",
+        "title": "Ailes de poulet au cumin, citron et ail",
+        "description": "Procurez-vous quelques extras à la charcuterie et transformez-les en un mezze du Moyen-Orient à partager avec des amis.",
+        "prep_time": "10 mins Cook: 50 mins Plus marinating",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "12 ailes de poulet",
+            "2 gousses d'ail, écrasées",
+            "le zeste et le jus d'1 citron",
+            "1 cuillère à café de graines de cumin",
+            "2 cuillères à soupe d'huile d'olive",
+            "1 cuillère à soupe de miel"
+        ],
+        "method": [
+            "À l’aide d’une paire de ciseaux de cuisine bien aiguisés, coupez chaque aile au niveau de la jointure en deux morceaux. Mélangez l'ail, le zeste et le jus de citron, le cumin et l'huile avec beaucoup d'assaisonnement, puis versez dans un plat avec les ailes de poulet et mélangez pour bien enrober. Couvrir et laisser mariner au réfrigérateur pendant au moins 1 heure, ou toute la nuit si vous avez le temps.",
+            "Chauffer le four à 200C/180C ventilateur/gaz 6, ou chauffer un barbecue extérieur. Faites cuire les ailes de poulet sur une plaque à four pendant 45 à 50 minutes jusqu'à ce qu'elles soient croustillantes, ou faites-les cuire au barbecue pendant 20 minutes, en les arrosant de miel pendant les 10 dernières minutes de chaque méthode. Servir sur une assiette avec beaucoup de serviettes en papier. Remplissez de petits bols d'olives, de pistaches ou d'amandes, de dattes, de piments marinés et de pains plats à servir avec les plats ci-dessous."
+        ],
+        "nutritional_info": {
+            "kcal": "191",
+            "fat": "15g",
+            "saturates": "4g",
+            "carbs": "3g",
+            "sugars": "2g",
+            "fibre": "0g",
+            "protein": "13g",
+            "salt": "0.13g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--327675_12.jpg",
+        "local_image_path": "images/cuisine/turkish/chicken-wings-with-cumin-lemon-and-garlic.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/turkish-pizza-spiced-pomegranate-beef-feta/",
+        "title": "Pizza turque au bœuf épicé à la grenade et à la feta",
+        "description": "Les pizzas faites maison l'emportent toujours sur les plats à emporter - essayez cette nouvelle idée de garniture composée de viande hachée épicée, de poivrons doux Peppadew, de fromage feta et de pignons de pin.",
+        "prep_time": "15 mins Cook: 10 mins plus 1-2 hours rising",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "500 g de mélange à pain",
+            "1 cuillère à café d'huile d'olive, plus un peu pour la pâte",
+            "2 oignons moyens, hachés",
+            "2 gousses d'ail, hachées",
+            "250 g de bœuf haché extra maigre",
+            "2 cuillères à café de cumin moulu",
+            "2 cuillères à café de cannelle moulue",
+            "1 cuillère à soupe de flocons de piment rouge",
+            "5 cuillères à soupe de purée de tomates",
+            "6 cuillères à soupe de mélasse de grenade",
+            "Pot de 400 g de poivrons Peppadews doux marinés, hachés grossièrement",
+            "50 g de fromage feta émietté",
+            "1 cuillère à soupe de pignons de pin"
+        ],
+        "method": [
+            "Mélanger la pâte suivant le pack\r\ninstructions (laisser environ 2 cuillères à soupe de\r\nmélange à pain dans le sac pour saupoudrer et\r\ndéploiement ultérieur). Pétrir pendant 8 à 10 minutes,\r\npuis enduisez la pâte d'huile, placez-la dans un\r\ngrand bol et couvercle. Laisser lever jusqu'à\r\ndoublé de taille. Plus votre cuisine est chaude\r\nc'est-à-dire que plus il augmentera vite, mais en général il\r\ncela devrait prendre 1 à 2 heures.",
+            "Chauffer le four à 240C/220C ventilateur/gaz 9 (ou\r\nle réglage le plus élevé). Saupoudrer 2 plaques à pâtisserie avec un peu de farine réservée\r\net mettre au four pour réchauffer.",
+            "Faites chauffer l'huile d'olive dans une grande poêle jusqu'à ce\r\nchaud. Ajouter les oignons et l'ail et cuire pendant\r\nquelques minutes jusqu'à ce qu'ils soient ramollis. Ajoutez le bœuf et\r\nlaisser dorer environ 5 minutes en brisant\r\nle hachis pendant la cuisson. Jetez tout excédent\r\nhuile. Ajouter les épices, le piment, 2 cuillères à soupe de\r\npurée de tomates, 5 cuillères à soupe de grenade\r\nmélasse et un peu d'assaisonnement. Cuisinier\r\npendant 1 min, puis retirez du feu.",
+            "Divisez la pâte en 6 boules. Saupoudrer le\r\nle reste de la farine sur un plan de travail et rouler\r\nétaler la pâte, chacun sur environ 25 cm de diamètre.\r\nSortez les plaques du four et placez-les\r\n2 fonds de pizza sur chacun (il faudra cuisiner\r\npar lots). Répartir le reste de tomate\r\nréduire en purée sur chaque base. Garnir de viande\r\nmélange, poivrons, feta et pignons de pin.\r\nCuire 10 minutes ou jusqu'à ce que les bases soient\r\nbien cuit et doré autour\r\nles bords. Arroser du reste\r\nmélasse de grenade et servir."
+        ],
+        "nutritional_info": {
+            "kcal": "439",
+            "fat": "12g",
+            "saturates": "4g",
+            "carbs": "56g",
+            "sugars": "14g",
+            "fibre": "3g",
+            "protein": "20g",
+            "salt": "1.6g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/turkishpizza.jpg",
+        "local_image_path": "images/cuisine/turkish/turkish-pizza-spiced-pomegranate-beef-feta.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/baked-aubergine-stuffed-with-roast-pumpkin-feta-an/",
+        "title": "Aubergine au four farcie de citrouille rôtie, feta et noix avec courgettes à la menthe",
+        "description": "Le chef néo-zélandais Peter Gordon met en valeur les saveurs de saison dans ce repas végétarien impressionnant et sain.",
+        "prep_time": "30 mins Cook: 40 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 grosses aubergines",
+            "200 g de citrouille ou de courge (essayez le kabocha ou la courge musquée)",
+            "100 g d'oignons rouges émincés",
+            "1 cuillère à café de graines de cumin (ou utilisez un peu moins de cumin moulu)",
+            "2 gousses d'ail, tranchées finement",
+            "4 cuillères à soupe d'huile vierge de colza ou d'olive",
+            "2 cuillères à café d'herbes fraîches (le thym, l'origan, la sauge ou le romarin fonctionnent bien)",
+            "100 g de fromage feta coupé en dés",
+            "grosse poignée de noix légèrement grillées et coupées en deux",
+            "4 courgettes",
+            "1 citron",
+            "2 cuillères à café d'huile d'olive extra vierge",
+            "une petite poignée de feuilles de menthe hachées",
+            "une petite poignée de persil plat haché"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C ventilateur/gaz 6.\r\nCoupez les aubergines en deux dans le sens de la longueur,\r\nlaissant la tige en place (cela peut être\r\nretiré en mangeant). En utilisant un petit\r\navec un couteau bien aiguisé, retirez la chair intérieure\r\nlaissant une coquille d'environ 1 cm d'épaisseur. Hacher\r\nla chair et mettre dans un bol.",
+            "Épluchez le potiron ou la courge, retirez-la\r\nles graines, puis coupées en dés de 1 à 2 cm et\r\nmélanger avec l'aubergine hachée et le rouge\r\noignon. Incorporer le cumin, l'ail et 2 cuillères à soupe\r\nhuile et mélanger avec un peu de sel et\r\npoivre noir. Disposez sur une plaque à pâtisserie tapissée\r\navec du papier sulfurisé. Frotter 1 cuillère à soupe d'huile\r\nles moitiés d'aubergines et assaisonner. Lieu,\r\ncôté coupé vers le bas, sur un autre plateau recouvert de\r\npapier sulfurisé. Cuire au four 15-20 minutes,\r\njusqu'à ce que les coquilles de potiron et d'aubergine\r\nsont presque cuits.",
+            "Remettez le mélange de citrouille dans le\r\nbol et incorporer le mélange d'herbes,\r\nfeta et noix. Retourner l'aubergine\r\nmoitiés, puis empilez le mélange à l’intérieur.\r\nArrosez avec 1 cuillère à soupe d'huile restante et\r\ncuire au four pendant 20 minutes, après quoi le\r\nla citrouille sera entièrement cuite. Si ça commence à\r\ntrop de couleur, couvrir légèrement de papier d'aluminium.",
+            "Pendant ce temps, préparez la salade de courgettes.\r\nGarnir et queue les courgettes, puis les trancher\r\ntrès finement en larges rubans. Mélanger avec\r\nle zeste, le jus d'un demi citron et le\r\nhuile. Laisser poser 10 minutes pour laisser le\r\nles courgettes ramollissent un peu.",
+            "Pour servir, passez les herbes dans le\r\ncourgettes et coupez le citron restant\r\nla moitié en quartiers. Disposez une moitié d'aubergine\r\ndans chaque assiette, empiler la salade à côté\r\net servir avec un quartier de citron."
+        ],
+        "nutritional_info": {
+            "kcal": "320",
+            "fat": "27g",
+            "saturates": "5g",
+            "carbs": "10g",
+            "sugars": "8g",
+            "fibre": "6g",
+            "protein": "10g",
+            "salt": "0.69g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--441508_11.jpg",
+        "local_image_path": "images/cuisine/turkish/baked-aubergine-stuffed-with-roast-pumpkin-feta-an.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/diy-kofta-burgers/",
+        "title": "Burgers kofta faits maison",
+        "description": "Avec ces koftas rapides, faciles et bon marché, il n'y a aucune excuse pour aller au fourgon kebab",
+        "prep_time": "30 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "8",
+        "ingredients": [
+            "1kg d'agneau haché",
+            "2 oignons, grossièrement râpés",
+            "1 bulbe d'ail, cassé en gousses et finement haché ou râpé",
+            "6 cuillères à soupe de garam masala",
+            "bouquet de coriandre hachée (facultatif)",
+            "1 cuillère à soupe de sauce chili, plus un peu pour servir",
+            "8 pains pitta",
+            "4 tomates, coupées en deux et tranchées",
+            "un demi chou rouge émincé",
+            "1 oignon rouge, tranché (facultatif)",
+            "petit pot de yaourt nature"
+        ],
+        "method": [
+            "Versez le hachis dans un grand bol (utilisez un\r\nnettoyer la cuvette à vaisselle si vous n'en avez pas\r\nquelque chose d'assez grand) avec tous les autres\r\ningrédients du burger et une bonne pincée de sel.\r\nRetroussez vos manches, mettez vos mains dans le\r\nmélanger et écraser le tout ensemble\r\nvos doigts jusqu'à ce qu'ils soient complètement mélangés. Pat le\r\nmélanger dans 16 petits burgers. Ceux-ci peuvent maintenant\r\nêtre congelé jusqu'à 1 mois ou réfrigéré\r\nà un jour à l'avance.",
+            "Pour cuisiner, chauffez le gril à son réglage le plus élevé et\r\ndisposer les burgers en une seule couche sur une plaque à pâtisserie\r\nplateau (vous devrez peut-être le faire par lots,\r\nselon la taille de votre plateau). Griller sur\r\nl'étagère la plus haute pendant 5 à 6 minutes de chaque côté\r\njusqu'à ce qu'ils soient dorés et bien cuits. Pile\r\nhamburgers sur une assiette et servir avec tous\r\nles accompagnements, pour que chacun puisse\r\nconstruire son propre sandwich."
+        ],
+        "nutritional_info": {
+            "kcal": "295",
+            "fat": "18g",
+            "saturates": "8g",
+            "carbs": "8g",
+            "sugars": "2g",
+            "fibre": "0g",
+            "protein": "26g",
+            "salt": "0.37g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--424790_11.jpg",
+        "local_image_path": "images/cuisine/turkish/diy-kofta-burgers.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spiced-lamb-and-feta-gozleme-with-special-tomato-s/",
+        "title": "Gozleme d'agneau épicé et feta avec sauce tomate spéciale",
+        "description": "Une pâtisserie turque savoureuse à base de pain. Farcir d'agneau, de feta, de raisins secs et de pignons de pin et servir avec une trempette à la grenade",
+        "prep_time": "50 mins Cook: 45 mins Plus rising",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "Sachet de 7 g de levure sèche à action rapide",
+            "1 cuillère à café de sucre en poudre doré",
+            "250 g de farine nature",
+            "2 cuillères à soupe d'huile d'olive",
+            "1 cuillère à soupe d'huile d'olive, et un peu pour finir",
+            "500 g de viande hachée d'agneau",
+            "2 gousses d'ail, écrasées",
+            "2 cuillères à café de cumin moulu",
+            "2 cuillères à café de coriandre moulue",
+            "1 cuillère à café de cannelle moulue",
+            "1 cuillère à café de poudre de piment doux",
+            "50g de raisins secs",
+            "le zeste d'1 citron",
+            "3 oignons nouveaux, tranchés finement",
+            "50 g de pignons de pin grillés",
+            "100 g de fromage feta",
+            "8 cuillères à soupe de ketchup aux tomates",
+            "2 cuillères à soupe de mélasse de grenade",
+            "1 cuillère à soupe d'oignon rouge haché très finement"
+        ],
+        "method": [
+            "Pour la pâte, mélanger la levure, le sucre\r\net 175 ml d'eau tiède dans un petit\r\nbol. Remuer pour dissoudre la levure, puis\r\nlaisser reposer 10 minutes, ou jusqu'à ce que le liquide\r\ncommence à mousser.",
+            "Mélangez la farine avec ½ cuillère à café de sel dans un grand\r\nbol. Faire un puits au centre, verser\r\ndans le mélange de levure et d'huile d'olive, et\r\nmélanger à une pâte. Pétrir 10 mn,\r\npuis mettez la pâte dans un moule légèrement huilé\r\nbol et couvrir d'un film alimentaire huilé.\r\nLaissez dans un endroit assez chaud jusqu'à ce que\r\ndoublé de taille.",
+            "Pendant ce temps, préparez la garniture. Chauffer le\r\nhuile dans une poêle, ajoutez le hachis et\r\nfaire frire en brisant les grumeaux au fur et à mesure, jusqu'à ce que\r\nbien doré. Incorporer l'ail, les épices\r\net les raisins secs, et faire revenir encore quelques minutes,\r\npuis éteignez le feu et incorporez le\r\nzeste de citron, oignons nouveaux, pignons de pin\r\net l'assaisonnement. Laisser refroidir un peu.",
+            "Divisez la pâte en 4. Travaillez un\r\nmorceau à la fois, étalez-le légèrement\r\nsurface farinée à 25 x 30 cm, sans\r\nla pâte se fend. Avec un long bord\r\nde la pâtisserie posée devant vous, cuillère\r\n¼ de la viande hachée sur la moitié inférieure –\r\nen laissant une bordure de 2 cm tout autour. Émietter\r\nplus du quart de la feta. Pliez l'autre moitié de\r\nla pâte sur la garniture, en repliant et\r\npincer les bords pour sceller l'agneau.\r\nRépétez avec le reste des ingrédients.",
+            "Faites chauffer une grande poêle à feu vif\r\net badigeonnez tout le gozleme d'huile.",
+            "Cuire par lots pendant 3 à 5 minutes chacun\r\ncôté, ou jusqu'à ce qu'ils soient dorés et bien chauds.\r\nMélangez rapidement le ketchup aux tomates,\r\ngrenade et oignon, et servir avec\r\nle gozleme chaud et croustillant."
+        ],
+        "nutritional_info": {
+            "kcal": "791",
+            "fat": "41g",
+            "saturates": "13g",
+            "carbs": "65g",
+            "sugars": "20g",
+            "fibre": "4g",
+            "protein": "38g",
+            "salt": "3.1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1309456_3.jpg",
+        "local_image_path": "images/cuisine/turkish/spiced-lamb-and-feta-gozleme-with-special-tomato-s.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/sweet-potato-salad/",
+        "title": "Salade de patates douces",
+        "description": "Cette salade simple et saine composée de morceaux de pommes de terre au four constitue une excellente alternative aux versions à base de mayonnaise.",
+        "prep_time": "15 mins Cook: 35 mins",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "1,2 kg de patates douces, pelées et coupées en gros morceaux",
+            "1 cuillère à soupe d'huile d'olive",
+            "2 échalotes (ou un demi petit oignon rouge), hachées finement",
+            "4 oignons nouveaux, tranchés finement",
+            "petit bouquet de ciboulette, coupée en quartiers ou utilisez des mini",
+            "5 cuillères à soupe de vinaigre de Xérès",
+            "2 cuillères à soupe d'huile d'olive extra vierge",
+            "2 cuillères à soupe de miel"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C chaleur tournante/gaz 6. Mélanger les morceaux de patate douce avec l'huile d'olive et un peu d'assaisonnement, et étaler sur une plaque à pâtisserie tapissée de papier sulfurisé. Rôtir pendant 30 à 35 minutes jusqu'à ce qu'ils soient tendres et dorés. Refroidir à température ambiante.",
+            "Lorsqu'elle est presque froide, mélangez tous les ingrédients de la vinaigrette avec un peu plus d'assaisonnement et mélangez délicatement les morceaux de pommes de terre – utilisez vos mains pour éviter de les briser."
+        ],
+        "nutritional_info": {
+            "kcal": "252",
+            "fat": "6.2g",
+            "saturates": "1g",
+            "carbs": "45.7g",
+            "sugars": "17g",
+            "fibre": "6.7g",
+            "protein": "2.7g",
+            "salt": "0.2g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201823_11.jpg",
+        "local_image_path": "images/cuisine/turkish/sweet-potato-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/imam-bayildi-with-bbq-lamb-and-tzatziki/",
+        "title": "Imam bayildi avec agneau barbecue et tzatziki",
+        "description": "Il existe des centaines de versions de ce plat d'aubergines turc. C'est authentiquement assez gras, mais réduisez l'huile si vous préférez",
+        "prep_time": "15 mins Cook: 1 hrs 30 mins",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "3 aubergines",
+            "2 cuillères à soupe d'huile d'olive, plus un peu pour le badigeonnage",
+            "1 oignon espagnol, finement haché",
+            "2 gousses d'ail, écrasées",
+            "1 cuillère à café de cannelle",
+            "8 tomates mûres, pelées",
+            "petit bouquet de persil plat, haché",
+            "12 côtelettes ou escalopes d'agneau",
+            "paprika, pour l'assaisonnement",
+            "1 citron, coupé en deux",
+            "Pot de 150 g de yaourt grec",
+            "½ concombre, graines vidées, râpées",
+            "2 cuillères à soupe de menthe hachée"
+        ],
+        "method": [
+            "Chauffer le four à 190C/170C ventilateur/gaz 5.\r\nCoupez les aubergines en deux dans le sens de la longueur et\r\nentailler profondément le côté chair, badigeonner avec un\r\nbonne couche d'huile d'olive et mettre sur une plaque allant au four\r\nfeuille. Rôtir pendant 20 minutes ou jusqu'à ce que la chair\r\nest suffisamment mou pour être retiré.",
+            "Faire revenir l'oignon dans un peu d'huile jusqu'à ce qu'il soit tendre, ajouter\r\nl'ail et la cannelle et faire revenir 1 min.\r\nUne fois que les aubergines sont suffisamment froides pour\r\nmanipuler, évider les centres. En gros\r\nhachez la chair et ajoutez-la aux oignons.\r\nCoupez les tomates en deux, récupérez les graines\r\net le jus dans une passoire placée au-dessus d'un bol,\r\npuis hachez la chair. Ajouter le haché\r\nmettre les tomates dans la poêle et cuire le tout\r\npendant 10 minutes jusqu'à ce qu'ils soient bien tendres. Ajoutez un peu\r\nplus d'huile si nécessaire. Incorporer le persil,\r\nen laissant un peu pour disperser à la fin.",
+            "Disposez les moitiés d'aubergines dans un plat allant au four\r\nplat et diviser le mélange de tomates\r\nentre eux. Versez dessus le jus de\r\nles tomates, arroser avec plus d'huile d'olive\r\net enfourner 30 minutes jusqu'à ce que les aubergines\r\nse sont effondrés.",
+            "Pendant ce temps, mélangez les ingrédients du tzatziki\r\nensemble et mettre dans un petit bol de service.",
+            "Assaisonner l'agneau avec du sel noir\r\npoivre et une pincée de paprika. Plaque chauffante,\r\ngriller ou barbecue 3 minutes de chaque côté\r\nou jusqu'à ce que la graisse soit bien dorée, puis\r\nmettre dans un plat de service et essorer\r\nles moitiés de citron. Dispersez les aubergines\r\navec du persil, puis servir avec l'agneau\r\net le tzatziki."
+        ],
+        "nutritional_info": {
+            "kcal": "435",
+            "fat": "32g",
+            "saturates": "14g",
+            "carbs": "12g",
+            "sugars": "10g",
+            "fibre": "5g",
+            "protein": "27g",
+            "salt": "0.27g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--356518_11.jpg",
+        "local_image_path": "images/cuisine/turkish/imam-bayildi-with-bbq-lamb-and-tzatziki.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/almond-and-honey-pastries-with-orange-cream/",
+        "title": "Pâtisseries aux amandes et au miel et à la crème d'orange",
+        "description": "Servez ces puddings préparés à l'avance avec du café, du vin de dessert ou du thé à la menthe fraîche pour un véritable régal après le dîner.",
+        "prep_time": "45 mins Cook: 15 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "200 g d'amandes entières blanchies, grillées et grossièrement hachées",
+            "85 g de sucre glace, plus un peu pour servir",
+            "85 g de beurre fondu",
+            "2 cuillères à café d'eau de fleur d'oranger",
+            "1 cuillère à café de cannelle",
+            "1 jaune d'oeuf",
+            "Paquet de 190 g de brik",
+            "miel clair, pour servir",
+            "le zeste d'1 orange",
+            "300 g de yaourt grec",
+            "Pot de 300 ml de crème double",
+            "2 cuillères à soupe de sucre glace tamisé"
+        ],
+        "method": [
+            "Réservez un quart des amandes. Mettre\r\nle reste au robot culinaire avec le glaçage\r\nsucre, la moitié du beurre, fleur d'oranger\r\neau, cannelle et jaune d'œuf. Whizz pour\r\nune pâte. Verser dans un bol et incorporer\r\nla plupart des noix hachées restantes.",
+            "Déroulez une feuille de brick à la fois.\r\ntemps, badigeonner le tout de beurre fondu\r\net divisez-le en deux en 2 demi-cercles. Forme\r\n1 cuillère à soupe bombée du mélange de noix pour voir\r\ncomme une fine forme de coin le long de la moitié du\r\nbord de pâte que vous venez de découper (en laissant 2,5 cm\r\nbordure sur le côté arrondi), donc ça ressemble\r\ncomme si tu coupais le demi-cercle de\r\nla pâte en morceaux comme un gâteau. Roule comme\r\nun cornet de pâtisserie, scellant le mélange de noix\r\nà l'intérieur, puis badigeonner le tout avec plus de beurre\r\net repliez l’extrémité large et ouverte pour sceller.\r\nPoser sur une plaque à pâtisserie, extrémité du rabat vers le bas.\r\naidez-le à rester fermé et répétez jusqu'à ce que l'écrou soit\r\nle mélange est épuisé. Couvrir d'un film alimentaire\r\net détendez-vous. Mettez le zeste, le yaourt, la crème et le glaçage\r\nsucre dans un bol à mélanger. Couvrir et réfrigérer.",
+            "Chauffer le four à 200C/180C chaleur tournante/gaz 6, y mettre les pâtisseries et enfourner 15 min\r\njusqu'à ce qu'ils soient dorés et croustillants. Juste avant qu'ils soient\r\nc'est prêt, battez ensemble le mélange de yaourt\r\njusqu'à ce qu'il soit épais. Empiler les pâtisseries sur une portion\r\nplat, arroser de miel et parsemer de\r\nnoix restantes. Servir avec l'orange\r\ncrème et Miel d'orange et de pamplemousse (voir « Se marie bien avec »)."
+        ],
+        "nutritional_info": {
+            "kcal": "397",
+            "fat": "32g",
+            "saturates": "14g",
+            "carbs": "21g",
+            "sugars": "13g",
+            "fibre": "2g",
+            "protein": "7g",
+            "salt": "0.26g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--523533_11.jpg",
+        "local_image_path": "images/cuisine/turkish/almond-and-honey-pastries-with-orange-cream.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/lamb-and-apricot-meatballs/",
+        "title": "Boulettes d'agneau et abricots",
+        "description": "Personne ne peut résister aux boulettes de viande, et cette recette est tellement savoureuse que vous voudrez peut-être en faire le double et la congeler pour une autre fois.",
+        "prep_time": "10 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 cuillères à soupe d'huile d'olive",
+            "2 oignons rouges, hachés très finement",
+            "4 gousses d'ail, écrasées",
+            "2 cuillères à café de cumin et de coriandre moulus (ou 4 cuillères à café de mélange d'épices marocaines)",
+            "Boîte de 400 g de tomates concassées",
+            "½ cuillère à café de sucre",
+            "½ paquet de 20 g de menthe hachée finement",
+            "Paquet de 500 g de viande hachée d'agneau maigre",
+            "8 abricots secs, hachés finement",
+            "50 g de chapelure fraîche",
+            "pain pitta et salade, pour servir"
+        ],
+        "method": [
+            "Faites chauffer 2 cuillères à café d'huile dans une poêle et faites ramollir le\r\noignons pendant 5 minutes. Ajouter l'ail et\r\népices et laissez cuire encore quelques minutes.\r\nVerser la moitié du mélange d'oignons dans un bol\r\net laisser refroidir. Ajoutez les tomates,\r\nsucre et assaisonnement au reste\r\noignons dans la poêle et laisser mijoter environ\r\n10 minutes jusqu'à réduction.",
+            "Pendant ce temps, ajoutez la menthe, l'agneau,\r\nabricots et chapelure au refroidi\r\noignons, assaisonnez et mélangez bien avec votre\r\nmains. Façonner des petites boulettes de viande.",
+            "Faites chauffer le reste de l'huile dans un poêle antiadhésive\r\npoêler et faire revenir les boulettes de viande jusqu'à ce qu'elles soient dorées\r\n(par lots si nécessaire). Incorporer le\r\nsauce avec un peu d'eau et délicatement\r\nfaites cuire le tout quelques minutes jusqu'à ce que\r\nles boulettes de viande sont bien cuites.\r\nServir avec du pain pitta et de la salade."
+        ],
+        "nutritional_info": {
+            "kcal": "411",
+            "fat": "22g",
+            "saturates": "9g",
+            "carbs": "26g",
+            "sugars": "13g",
+            "fibre": "3g",
+            "protein": "28g",
+            "salt": "0.72g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--350457_11.jpg",
+        "local_image_path": "images/cuisine/turkish/lamb-and-apricot-meatballs.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/hot-cumin-lamb-wrap-with-crunchy-slaw-and-spicy-ma/",
+        "title": "Wrap d'agneau chaud au cumin avec salade de chou croquante et mayonnaise épicée",
+        "description": "Un pain plat au kebab sain – préparez le double de la salade de chou et des carottes et gardez les restes pour le déjeuner",
+        "prep_time": "10 mins Cook: 8 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 petits steaks de gigot d'agneau",
+            "2 cuillères à café d'huile d'olive",
+            "1 cuillère à café bombée de cumin moulu",
+            "1 cuillère à soupe de sucre",
+            "3 cuillères à soupe de vinaigre de vin blanc",
+            "2 carottes, grossièrement râpées",
+            "2 oignons nouveaux, tranchés finement",
+            "400 g de chou blanc tranché très finement",
+            "5 poivrons doux Peppadew, 2 tranchés grossièrement",
+            "3 cuillères à soupe de mayonnaise",
+            "4 gros pitta ou pains plats, réchauffés"
+        ],
+        "method": [
+            "Faites chauffer une poêle à frire. Frotter les steaks d'agneau\r\navec l'huile, le cumin et un peu d'assaisonnement.\r\nFaire griller environ 3 à 4 minutes de chaque côté\r\nou jusqu'à ce qu'il soit cuit à votre goût. Place à un\r\ncôté sur une assiette pour reposer.",
+            "Dans un grand bol, incorporez le sucre au\r\nvinaigre jusqu'à dissolution. Ajoutez les carottes,\r\noignons nouveaux, choux et quelques\r\nassaisonner et mélanger.",
+            "Blitzer les poivrons entiers et la mayonnaise\r\ndans un robot culinaire. Ajoutez un tas de\r\nsalade sur chaque pain plat. Tranchez l'agneau,\r\nenlever tout excès de graisse et s'allonger\r\ndessus de la salade, arrosé du reste\r\njus. Verser sur la mayonnaise et disperser\r\navec quelques poivrons tranchés. Rouler\r\net manger. Si vous utilisez du pitta, divisez et tout ça.\r\nServir toute salade supplémentaire à côté."
+        ],
+        "nutritional_info": {
+            "kcal": "661",
+            "fat": "29g",
+            "saturates": "7g",
+            "carbs": "67g",
+            "sugars": "21g",
+            "fibre": "9g",
+            "protein": "30g",
+            "salt": "1.5g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1031455_10.jpg",
+        "local_image_path": "images/cuisine/turkish/hot-cumin-lamb-wrap-with-crunchy-slaw-and-spicy-ma.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/aubergine-and-houmous-grills/",
+        "title": "Grillades d'aubergines et de houmous",
+        "description": "Essayez quelque chose de nouveau avec les aubergines et faites-en la partie principale de votre repas avec ce plat végétarien",
+        "prep_time": "10 mins Cook: 15 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 aubergines, tranchées épaisses dans le sens de la longueur",
+            "2 cuillères à soupe d'huile végétale, plus un peu pour le brossage",
+            "3 tranches de pain brun ou blanc, sans croûte",
+            "Pot de 300 g d'houmous",
+            "100 g de noix grillées",
+            "un demi paquet de 80 g de persil plat, feuilles grossièrement hachées",
+            "200 g de tomates cerises coupées en quartiers",
+            "jus ½ citron",
+            "un peu d'huile d'olive extra vierge"
+        ],
+        "method": [
+            "Disposez l'aubergine en une seule couche sur une grande plaque à pâtisserie. Badigeonner avec parcimonie d’huile végétale, puis assaisonner généreusement. Griller pendant 15 minutes, en retournant deux fois et en badigeonnant d'huile jusqu'à ce que les tranches soient ramollies et bien cuites. Pendant ce temps, réduisez le pain en miettes. Ajoutez 2 cuillères à café d'huile et fouettez à nouveau brièvement pour bien enrober.",
+            "Étalez quelques cuillères à café d'houmous sur chaque tranche d'aubergine. Versez la chapelure sur une grande assiette, puis pressez le côté houmous des aubergines dans la chapelure pour bien l'enrober. Griller à nouveau, côté miette vers le haut, pendant environ 3 minutes jusqu'à ce qu'il soit doré.",
+            "Mélanger les noix, le persil et les tomates cerises dans un bol, assaisonner, puis ajouter le jus de citron et l'huile d'olive et remuer à nouveau. Servir les grillades avec la salade, une cuillerée de houmous et du pain pitta."
+        ],
+        "nutritional_info": {
+            "kcal": "437",
+            "fat": "33g",
+            "saturates": "4g",
+            "carbs": "23g",
+            "sugars": "6g",
+            "fibre": "6g",
+            "protein": "13g",
+            "salt": "1.92g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--6377_10.jpg",
+        "local_image_path": "images/cuisine/turkish/aubergine-and-houmous-grills.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/roast-aubergine-with-goats-cheese-and-toasted-flat/",
+        "title": "Aubergine rôtie au fromage de chèvre et pain plat grillé",
+        "description": "Des saveurs percutantes et beaucoup de croquant : vous ne remarquerez même pas que vous mangez une salade super saine",
+        "prep_time": "15 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "2 aubergines tranchées finement dans le sens de la longueur",
+            "3 cuillères à soupe d'huile d'olive extra vierge",
+            "12 tomates cerises, coupées en deux",
+            "1 pain plat du Moyen-Orient ou pitta",
+            "3 cuillères à soupe de vinaigre balsamique",
+            "une poignée de feuilles de menthe",
+            "2 échalotes, 1 finement hachée, l'autre finement tranchée",
+            "1 piment rouge, finement haché",
+            "50 g de fromage de chèvre émietté",
+            "poignée de roquette sauvage, pour servir"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C ventilateur/gaz 6.\r\nBadigeonner les tranches d'aubergines avec 1 cuillère à soupe\r\nde l'huile, puis assaisonner. Disposer sur un\r\nplaque ou plaque à pâtisserie et rôtir pendant 20 minutes\r\njusqu'à ce qu'ils soient dorés, en y mettant les tomates\r\nle plateau pour les 5 dernières minutes. Déchirez le\r\npain plat en morceaux et placez-le sur un\r\nplaque à pâtisserie séparée. Faire dorer au four\r\npendant 8 minutes, ou jusqu'à ce qu'ils soient croustillants, puis retirez-les.",
+            "Pour la vinaigrette, dans un petit bol, mélanger\r\nle vinaigre, la menthe, les échalotes hachées, le piment,\r\nle reste de l'huile et un peu de sel et de poivre.",
+            "Répartir les tranches d'aubergines, les tomates,\r\ndes tranches d'échalote et du pain plat croustillant dans un\r\nbol de service. Verser sur la vinaigrette,\r\nsaupoudrer de fromage de chèvre et\r\ndispersez-vous sur une petite fusée."
+        ],
+        "nutritional_info": {
+            "kcal": "339",
+            "fat": "22g",
+            "saturates": "5g",
+            "carbs": "28g",
+            "sugars": "7g",
+            "fibre": "6g",
+            "protein": "9g",
+            "salt": "0.75g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--350507_12.jpg",
+        "local_image_path": "images/cuisine/turkish/roast-aubergine-with-goats-cheese-and-toasted-flat.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/grilled-lamb-with-wintry-rice-salad/",
+        "title": "Agneau grillé avec salade de riz hivernal",
+        "description": "Un souper savoureux et super sain. Les restes sont également parfaits pour le déjeuner",
+        "prep_time": "20 mins Cook: 30 mins Plus cooling",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 oignons rouges",
+            "1 cuillère à café de cannelle",
+            "1 cuillère à soupe d'huile d'olive",
+            "400 g de steak d'agneau maigre",
+            "140g de riz sauvage et basmati",
+            "une poignée de menthe hachée",
+            "poignée de persil haché",
+            "120 g de graines de grenade fraîches",
+            "50 g de pistaches concassées",
+            "50 g de canneberges séchées",
+            "jus ½ orange",
+            "jus ½ citron"
+        ],
+        "method": [
+            "Râpez 1 oignon dans un plat peu profond,\r\najoutez la cannelle et ½ cuillère à soupe d'huile d'olive,\r\npuis mélangez. Placez les steaks d'agneau dans le\r\nplat, frotter avec la marinade, puis couvrir\r\net réservez pendant que vous préparez le riz.",
+            "Mettez le riz et 600 ml d'eau dans un\r\ncasserole. Portez à ébullition, puis baissez\r\net laisser mijoter à couvert jusqu'à ce que toute l'eau\r\ns’est évaporé – environ 20 minutes. Prendre\r\nretirer le couvercle et laisser refroidir. Hachez finement le\r\nl'oignon rouge restant et mélanger avec le\r\nriz accompagné des herbes, grenade,\r\npistaches et canneberges. Mélangez enfin\r\ndans le jus d'orange et de citron, le\r\nle reste de l'huile d'olive et bien assaisonner.",
+            "Retirez l'agneau de la marinade,\r\nen débarrassant tout excès. Plaque chauffante pendant environ\r\n5 minutes de chaque côté, selon la façon dont\r\nvous aimez votre viande et servez-la avec un\r\ngrosse cuillerée de riz."
+        ],
+        "nutritional_info": {
+            "kcal": "493",
+            "fat": "19g",
+            "saturates": "5g",
+            "carbs": "47g",
+            "sugars": "17g",
+            "fibre": "3g",
+            "protein": "36g",
+            "salt": "0.21g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--54163_12.jpg",
+        "local_image_path": "images/cuisine/turkish/grilled-lamb-with-wintry-rice-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/griddled-aubergines-with-sesame-dressing/",
+        "title": "Aubergines grillées, vinaigrette au sésame",
+        "description": "Assaisonnez des aubergines grillées avec du tahini, de l'ail, de la coriandre et du yaourt pour un accompagnement végétarien polyvalent que vous pouvez cuisiner sur la plaque de cuisson ou au barbecue.",
+        "prep_time": "10 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "2 grosses aubergines coupées en tranches de 2 cm",
+            "2 cuillères à soupe d'huile d'olive",
+            "250 g de yaourt grec entier",
+            "3 cuillères à soupe de pâte de tahini",
+            "1 grosse gousse d'ail, écrasée",
+            "jus d'1 citron",
+            "une poignée de coriandre, de persil et de menthe hachés, ainsi que des feuilles supplémentaires pour servir"
+        ],
+        "method": [
+            "Badigeonner chaque tranche d'aubergine d'un peu\r\nhuile, puis assaisonner. Faire chauffer une poêle\r\nou un barbecue. Lorsqu'il est chaud, faites griller le\r\ntranches d'aubergine pendant 2-3 minutes chacune\r\ncôté jusqu'à ce qu'ils soient dorés et tendres.",
+            "Mélangez le yaourt avec le tahini, l'ail,\r\nle jus de citron et les herbes, puis assaisonner.\r\nGarnir les aubergines de vinaigrette\r\net répartir sur des feuilles d'herbes supplémentaires."
+        ],
+        "nutritional_info": {
+            "kcal": "194",
+            "fat": "16g",
+            "saturates": "5g",
+            "carbs": "6g",
+            "sugars": "6g",
+            "fibre": "7g",
+            "protein": "7g",
+            "salt": "0.1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--994504_11.jpg",
+        "local_image_path": "images/cuisine/turkish/griddled-aubergines-with-sesame-dressing.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/smoked-aubergine-pure/",
+        "title": "Purée d'aubergines fumées",
+        "description": "C'est excellent avec de la viande ou du poulet grillé et constitue également un déjeuner simple pour les végétariens.",
+        "prep_time": "5 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 aubergines moyennes",
+            "jus d'1 citron",
+            "2-3 gousses d'ail, écrasées",
+            "Pot de 150 ml de yaourt épais",
+            "petit bouquet d'aneth, feuilles hachées"
+        ],
+        "method": [
+            "Chauffer le gril à très chaud. Coupez les aubergines en\r\nsur la moitié de la longueur, puis griller 25 min en retournant\r\nde temps en temps, jusqu'à ce qu'elle soit douce – la peau restera ferme,\r\nmais la chair va ramollir. Retirez les aubergines\r\nle gril et laisser refroidir suffisamment pour être manipulé.",
+            "A l'aide d'un couteau bien aiguisé, incisez la chair grillée\r\net retirez la chair avec une cuillère. Basculer dans un\r\nbol et écraser avec une fourchette jusqu'à obtenir une consistance épaisse\r\npulpe. Incorporer le jus de citron et l'ail. Ajoutez le\r\nyaourt et aneth, et assaisonner. Servir encore chaud."
+        ],
+        "nutritional_info": {
+            "kcal": "77",
+            "fat": "5g",
+            "saturates": "2g",
+            "carbs": "6g",
+            "sugars": "5g",
+            "fibre": "3g",
+            "protein": "4g",
+            "salt": "0.07g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1039_11.jpg",
+        "local_image_path": "images/cuisine/turkish/smoked-aubergine-pure.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/turkishstyle-lamb/",
+        "title": "Agneau à la turque",
+        "description": "Apportez le goût de la dinde à votre cuisine avec ces pittas d'agneau amusantes, d'excellents plats à emporter",
+        "prep_time": "15 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 steaks de gigot d'agneau",
+            "2 cuillères à café d'assaisonnement (nous avons utilisé l'assaisonnement Schwartz Lamb Simply Shake)",
+            "1 cuillère à café d'origan séché ou un mélange d'herbes ferait l'affaire",
+            "petit bouquet de menthe, feuilles seulement, hachées",
+            "2 pots de 150 g de yaourt nature allégé",
+            "4 pains pitta, blancs ou complets",
+            "½ laitue iceberg, râpée",
+            "1 oignon rouge, tranché finement",
+            "1 citron, coupé en quartiers pour le presser, facultatif"
+        ],
+        "method": [
+            "Chauffer le gril à feu vif. Assaisonnez l'agneau, puis faites-le griller 2 minutes de chaque côté jusqu'à ce qu'il soit doré, mais toujours très saignant. Pendant ce temps,\r\nmélangez l'assaisonnement, l'origan et la moitié de la menthe dans l'un des pots de yaourt, étouffez-le sur l'agneau, puis remettez sur le gril pendant encore 2-3 minutes ou jusqu'à ce que le yaourt soit cloqué et que la viande soit cuite à votre goût.",
+            "Laissez la viande reposer sur une planche pendant quelques minutes pendant que vous faites griller les pittas, râpez la laitue et émincez l'oignon rouge. Incorporez le reste de la menthe dans le deuxième pot de yaourt. Tranchez la viande en tranches épaisses et farcissez-la dans le pain pitta avec la salade et le yaourt à la menthe. Pressez le jus de citron avant de rentrer, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "502",
+            "fat": "13g",
+            "saturates": "6g",
+            "carbs": "51g",
+            "sugars": "9g",
+            "fibre": "3g",
+            "protein": "48g",
+            "salt": "1.53g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--7172_11.jpg",
+        "local_image_path": "images/cuisine/turkish/turkishstyle-lamb.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/turkish-onepan-eggs-and-peppers-menemen/",
+        "title": "Œufs et poivrons turcs dans une poêle (Menemen)",
+        "description": "Ce plat courageux est une véritable cuisine de rue et un excellent plat familial pour le brunch, le déjeuner ou le dîner.",
+        "prep_time": "10 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 cuillères à soupe d'huile d'olive",
+            "2 oignons, tranchés",
+            "1 poivron rouge ou vert, coupé en deux épépiné et tranché",
+            "1-2 piments rouges épépinés et tranchés",
+            "Boîte de 400 g de tomates concassées",
+            "1-2 cuillères à café de sucre en poudre",
+            "4 œufs",
+            "petit bouquet de persil, haché grossièrement",
+            "6 cuillères à soupe de yaourt épais et crémeux",
+            "2 gousses d'ail, écrasées"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une poêle à frire à fond épais\r\ncasserole. Incorporer les oignons, le poivre et\r\npiments. Cuire jusqu'à ce qu'ils commencent à ramollir.\r\nAjouter les tomates et le sucre en mélangeant bien.\r\nCuire jusqu'à ce que le liquide ait réduit, assaisonner.",
+            "A l'aide d'une cuillère en bois, créez 4 poches\r\ndans le mélange de tomates et casser les œufs\r\nen eux. Couvrez la poêle et faites cuire le\r\nles œufs à feu doux jusqu'à ce qu'ils soient juste pris.",
+            "Battre le yaourt avec l'ail et\r\nsaison. Saupoudrer les menemen avec\r\npersil et servir dans la poêle\r\navec une cuillerée de yaourt à l'ail."
+        ],
+        "nutritional_info": {
+            "kcal": "222",
+            "fat": "15g",
+            "saturates": "4g",
+            "carbs": "12g",
+            "sugars": "9g",
+            "fibre": "3g",
+            "protein": "12g",
+            "salt": "0.39g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201531_11.jpg",
+        "local_image_path": "images/cuisine/turkish/turkish-onepan-eggs-and-peppers-menemen.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/turkish-lamb-pilau/",
+        "title": "Pilau d'agneau turc",
+        "description": "Servir un pot de riz basmati parfumé à la cannelle, à la menthe et à l'abricot, parsemé d'agneau tendre",
+        "prep_time": "",
+        "cook_time": "30 mins",
+        "serves": "4",
+        "ingredients": [
+            "une petite poignée de pignons de pin ou d'amandes effilées",
+            "1 cuillère à soupe d'huile d'olive",
+            "1 gros oignon, coupé en deux et tranché",
+            "2 bâtons de cannelle, cassés en deux",
+            "500 g de filet de cou d'agneau maigre, coupé en cubes",
+            "250 g de riz basmati",
+            "1 cube de bouillon d'agneau ou de légumes",
+            "12 abricots secs prêts à consommer",
+            "une poignée de feuilles de menthe fraîche, hachées grossièrement"
+        ],
+        "method": [
+            "Faites frire à sec les pignons de pin ou les amandes dans une grande poêle jusqu'à ce qu'ils soient légèrement grillés, puis versez-les sur une assiette. Ajoutez l'huile dans la poêle, puis faites revenir l'oignon et la cannelle ensemble jusqu'à ce qu'ils commencent à dorer. Montez le feu, incorporez l'agneau, faites-le frire jusqu'à ce que la viande change de couleur, puis versez le riz et laissez cuire 1 min en remuant tout le temps.",
+            "Versez 500 ml d'eau bouillante, émiettez-la dans le cube de bouillon, ajoutez les abricots, puis assaisonnez selon votre goût. Baissez le feu, couvrez et laissez mijoter 12 minutes jusqu'à ce que le riz soit tendre et que le bouillon soit absorbé. Ajoutez les pignons de pin et la menthe et servez."
+        ],
+        "nutritional_info": {
+            "kcal": "584",
+            "fat": "24g",
+            "saturates": "9g",
+            "carbs": "65g",
+            "sugars": "0g",
+            "fibre": "3g",
+            "protein": "32g",
+            "salt": "1.4g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1069491_11.jpg",
+        "local_image_path": "images/cuisine/turkish/turkish-lamb-pilau.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/minty-lamb-flatbreads/",
+        "title": "Pains plats d'agneau à la menthe",
+        "description": "Servez ces pizzas à la turque pour un souper simple et rapide entre amis",
+        "prep_time": "10 mins Cook: 12 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "400 g de viande hachée d'agneau",
+            "1 gousse d'ail, écrasée",
+            "1 cuillère à café de cumin moulu",
+            "2 cuillères à café de coriandre moulue",
+            "2 poignées de feuilles de menthe, hachées à moitié",
+            "2 grosses tomates épépinées et coupées en dés",
+            "4 petits pains plats khobez ou 4 tortillas moelleuses à la farine (vous pouvez acheter des pains plats khobez chez les plus grands Sainsbury's)",
+            "4 cuillères à soupe de yaourt nature faible en gras"
+        ],
+        "method": [
+            "Cuire le hachis d'agneau pendant 5 à 6 minutes.\r\nune poêle antiadhésive à feu vif.\r\nQuand il commence à dorer, incorporer l'ail\r\net les épices, puis cuire encore 2-3 minutes\r\njusqu'à ce que la viande hachée soit dorée et qu'il n'y ait plus\r\nliquide resté dans la casserole. Incorporer le haché\r\nmenthe, tomates et quelques assaisonnements.",
+            "Chauffer le gril à feu vif. Organiser le\r\npains plats sur une plaque à pâtisserie et tartiner\r\nle mélange de viande hachée dessus. Griller pour\r\n2-3 minutes. Pour servir, répartir sur le tout\r\nfeuilles de menthe et arroser de yaourt."
+        ],
+        "nutritional_info": {
+            "kcal": "355",
+            "fat": "17g",
+            "saturates": "7g",
+            "carbs": "26g",
+            "sugars": "4g",
+            "fibre": "2g",
+            "protein": "25g",
+            "salt": "0.86g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--106504_12.jpg",
+        "local_image_path": "images/cuisine/turkish/minty-lamb-flatbreads.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spicy-falafels/",
+        "title": "Falafels épicés",
+        "description": "Bon marché et très faciles à préparer – farcissez-les dans des pittas avec de la salade ou servez-les avec du couscous et du houmous",
+        "prep_time": "10 mins Cook: 10 mins Ready in 20 minutes",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "2 cuillères à soupe d'huile de tournesol ou végétale",
+            "1 petit oignon, finement haché",
+            "1 gousse d'ail, écrasée",
+            "400 g de pois chiches en boîte lavés et égouttés",
+            "1 cuillère à café de cumin moulu",
+            "1 cuillère à café de coriandre moulue (ou utilisez plus de cumin)",
+            "une poignée de persil haché ou 1 cuillère à café d'herbes mélangées séchées",
+            "1 œuf battu"
+        ],
+        "method": [
+            "Faites chauffer 1 cuillère à soupe d'huile dans une grande poêle, puis faites revenir le \r\nl'oignon et l'ail à feu doux pendant 5 minutes \r\njusqu'à ce qu'ils soient ramollis. Verser dans un grand bol à mélanger \r\navec les pois chiches et les épices, puis écraser \r\navec une fourchette ou un presse-purée jusqu'à ce que \r\nles pois chiches sont totalement décomposés. Remuer \r\ndans le persil ou les herbes séchées, avec l'assaisonnement \r\nau goût. Ajoutez l'oeuf, puis écrasez le \r\nmélange avec vos mains.",
+            "Formez 6 boules avec la préparation, puis aplatissez-les. \r\ngalettes. Faites chauffer le reste de l'huile dans la poêle, \r\npuis faites revenir les falafels à feu moyen pendant \r\n3 minutes de chaque côté, jusqu'à ce qu'ils soient dorés et \r\nferme. Servir chaud ou froid avec du couscous, pitta \r\ndu pain ou de la salade."
+        ],
+        "nutritional_info": {
+            "kcal": "105",
+            "fat": "6g",
+            "saturates": "1g",
+            "carbs": "8g",
+            "sugars": "1g",
+            "fibre": "2g",
+            "protein": "5g",
+            "salt": "0.27g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--52431_11.jpg",
+        "local_image_path": "images/cuisine/turkish/spicy-falafels.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/aubergine-couscous-salad/",
+        "title": "Salade de couscous aux aubergines",
+        "description": "Une poignée de feuilles de menthe donne vraiment vie à cette salade, les légumes vont l'adorer, mais si vous avez besoin de viande, les escalopes d'agneau sont le complément parfait.",
+        "prep_time": "10 mins Cook: 15 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "1 grosse aubergine coupée en rondelles de 1 cm",
+            "3 cuillères à soupe d'huile d'olive",
+            "140 g de couscous",
+            "225 ml de bouillon de légumes chaud",
+            "200 g de tomates cerises coupées en deux",
+            "une poignée de feuilles de menthe, hachées grossièrement",
+            "100 g de bûche de chèvre ferme coupée en cubes",
+            "jus 1?2 citron"
+        ],
+        "method": [
+            "Chauffer le gril à feu vif. Mettez l'aubergine sur un\r\nplaque à pâtisserie, badigeonner d'huile et assaisonner. Griller\r\npendant environ 15 minutes en retournant et en badigeonnant\r\nplus d'huile à mi-cuisson, jusqu'à ce qu'elle soit dorée et ramollie.",
+            "Pendant ce temps, versez le couscous dans un grand\r\nbol, verser sur le bouillon, puis couvrir et\r\nlaisser reposer 10 min. Mélangez les tomates, la menthe,\r\nle fromage de chèvre et le reste de l'huile ensemble. Peluches\r\nle couscous avec une fourchette, puis incorporer le\r\naubergines, mélange de tomates et jus de citron."
+        ],
+        "nutritional_info": {
+            "kcal": "523",
+            "fat": "31g",
+            "saturates": "11g",
+            "carbs": "45g",
+            "sugars": "9g",
+            "fibre": "6g",
+            "protein": "18g",
+            "salt": "1.08g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--9685_11.jpg",
+        "local_image_path": "images/cuisine/turkish/aubergine-couscous-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/healthy-homemade-houmous/",
+        "title": "Recette de houmous facile",
+        "description": "Une trempette onctueuse aux pois chiches avec du tahini et de l'ail, polyvalente et bonne pour la santé. Ce houmous facile constitue une excellente collation ou un excellent déjeuner.",
+        "prep_time": "5 mins No cook",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "1 boîte de 400 g de pois chiches, ne pas égoutter",
+            "1 cuillère à soupe de pâte de tahini",
+            "1 grosse gousse d'ail, hachée",
+            "3 cuillères à soupe de yaourt grec 0 % de matière grasse",
+            "bien presser le jus de citron"
+        ],
+        "method": [
+            "Égouttez les pois chiches dans une passoire placée au-dessus d'un bol ou d'un pichet pour récupérer le liquide. Versez les pois chiches, le tahini, l'ail et le yaourt dans un robot culinaire ou un mélangeur et mixez pour lisser. Incorporez une cuillère à soupe de liquide de pois chiches à la fois jusqu'à obtenir une belle consistance, puis grattez dans un bol, ajoutez un filet de jus de citron et assaisonnez au goût."
+        ],
+        "nutritional_info": {
+            "kcal": "135",
+            "fat": "5.1g",
+            "saturates": "0.7g",
+            "carbs": "12.4g",
+            "sugars": "1.3g",
+            "fibre": "2.6g",
+            "protein": "7.5g",
+            "salt": "0.5g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--890485_11.jpg",
+        "local_image_path": "images/cuisine/turkish/healthy-homemade-houmous.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/slowroast-lamb-with-cinnamon-fennel-and-citrus/",
+        "title": "Agneau rôti lentement à la cannelle, au fenouil et aux agrumes",
+        "description": "Pour un agneau qui fondra en bouche et surprendra votre palais, suivez la recette facile de Sarah Cook",
+        "prep_time": "15 mins Cook: 4 hrs 20 mins Plus overnight marinating plus resting",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "1 gigot d'agneau",
+            "le zeste et le jus d'1 citron et d'1 orange",
+            "4 cuillères à soupe d'huile d'olive",
+            "2 cuillères à soupe de miel clair",
+            "1 cuillère à soupe de cannelle, graines de fenouil et cumin moulu",
+            "3 gousses d'ail, écrasées"
+        ],
+        "method": [
+            "Mettez l'agneau dans un grand sac de nourriture avec\r\ntout le jus et laisser mariner toute la nuit.",
+            "Le lendemain, sortez l'agneau du\r\nau réfrigérateur 1h avant de vouloir le cuisiner.\r\nChauffer le four à 220C/200C ventilateur/gaz 7. Prendre\r\nl'agneau sorti de la marinade (réserver\r\nreste de la marinade) et séchez-le. Frotter avec\r\nla moitié de l'huile et rôtir pendant 15 à 20 minutes jusqu'à ce que\r\ndoré. Retirer l'agneau et réduire le four\r\nà 160C/140C ventilateur/gaz 3.",
+            "Mélangez les zestes, le reste de l'huile, le miel,\r\népices et ail avec beaucoup d'assaisonnement.\r\nÉtalez une grande feuille de papier sulfurisé dessus\r\nune grande feuille de papier d'aluminium. Posez le gigot d'agneau dessus\r\ndessus, frottez partout avec la pâte et tirez\r\nsur les côtés du papier d'aluminium. Arroser de marinade\r\ndans la base et froisser le papier d'aluminium pour sceller.",
+            "Rôtir pendant 4 heures, jusqu'à ce qu'il soit très tendre. Repose-toi,\r\nencore enveloppé, pendant 30 minutes. Déballez et\r\nservir avec des jus de fruits."
+        ],
+        "nutritional_info": {
+            "kcal": "514",
+            "fat": "32g",
+            "saturates": "13g",
+            "carbs": "8g",
+            "sugars": "5g",
+            "fibre": "0g",
+            "protein": "50g",
+            "salt": "0.29g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--523511_11.jpg",
+        "local_image_path": "images/cuisine/turkish/slowroast-lamb-with-cinnamon-fennel-and-citrus.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/rose-cream-and-raspberry-jellies/",
+        "title": "Crème de rose & gelées de framboise",
+        "description": "Avec toutes les saveurs des délices turcs, ces puddings parfumés de style moyen-oriental complètent en légèreté un menu divertissant.",
+        "prep_time": "10 mins Cook: 5 mins Plus chilling",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "135g de gelée de framboise",
+            "500 ml de crème fraîche",
+            "1 cuillère à café d'eau de rose",
+            "12 framboises, coupées en deux",
+            "un filet de miel clair",
+            "une petite poignée de feuilles de menthe",
+            "1 cuillère à soupe de pistache hachée"
+        ],
+        "method": [
+            "Faites bouillir une bouilloire. Cassez les cubes de gelée en\r\nune carafe, versez dessus 100 ml d'eau bouillante et\r\nremuer pour dissoudre. Réchauffez délicatement la crème\r\nune petite casserole, puis retirer du feu\r\net versez le mélange de gelée. Incorporer le\r\neau de rose, puis versez le mélange dans\r\nta cruche. Répartissez la gelée entre 6 petits\r\nverres et réfrigérer pendant 2 heures ou jusqu'à ce que le mélange soit pris. Peut être préparé 1 jour à l'avance.",
+            "Sortez les gelées du réfrigérateur\r\nenviron 20 minutes avant de servir. Divisez le\r\nframboises entre elles, puis ajoutez un\r\nun filet de miel, quelques feuilles de menthe et\r\nune pincée de pistaches sur chacun."
+        ],
+        "nutritional_info": {
+            "kcal": "501",
+            "fat": "46g",
+            "saturates": "28g",
+            "carbs": "19g",
+            "sugars": "18g",
+            "fibre": "1g",
+            "protein": "3g",
+            "salt": "0g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1173673_10.jpg",
+        "local_image_path": "images/cuisine/turkish/rose-cream-and-raspberry-jellies.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chilli-ginger-lamb-chops/",
+        "title": "Côtelettes d'agneau au piment et au gingembre",
+        "description": "Faites mariner vos côtelettes avec du gingembre, du citron, du piment et du cumin, puis faites-les griller jusqu'à ce qu'elles soient juteuses au milieu.",
+        "prep_time": "10 mins Cook: 8 mins Plus marinating",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 gousses d'ail, écrasées",
+            "1 cuillère à soupe de gingembre râpé",
+            "1 cuillère à soupe de jus de citron",
+            "1 cuillère à soupe d'huile d'olive",
+            "½ cuillère à café de poudre de piment",
+            "1 cuillère à café de cumin",
+            "8 côtelettes d'agneau"
+        ],
+        "method": [
+            "Mettez l'ail dans un bol avec le gingembre,\r\njus de citron, huile, épices et assaisonnement.\r\nMixez avec un mixeur plongeant jusqu'à consistance lisse,\r\npuis utilisez-le pour enrober les côtelettes d'agneau des deux côtés.\r\ncôtés. Laisser mariner au réfrigérateur pendant\r\nquelques heures ou toute la nuit.",
+            "Faites chauffer un barbecue jusqu'à ce qu'il soit chaud. Barbecues\r\nles côtelettes sur la braise pendant 3 minutes\r\nchaque côté jusqu'à ce qu'il soit cuit mais encore rose et\r\njuteux au centre."
+        ],
+        "nutritional_info": {
+            "kcal": "227",
+            "fat": "12g",
+            "saturates": "4g",
+            "carbs": "1g",
+            "sugars": "0g",
+            "fibre": "0g",
+            "protein": "30g",
+            "salt": "0.2g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1036499_11.jpg",
+        "local_image_path": "images/cuisine/turkish/chilli-ginger-lamb-chops.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/smoky-chicken-skewers/",
+        "title": "Brochettes de poulet fumées",
+        "description": "Un canapé de style tapas composé de brochettes de poulet marinées et grillées, mieux servi avec une trempette à la mayonnaise à l'ail fumé",
+        "prep_time": "15 mins Cook: 15 mins Plus soaking",
+        "cook_time": "",
+        "serves": "8",
+        "ingredients": [
+            "6 cuisses de poulet désossées et sans peau (environ 500 g/1 lb 2 oz)",
+            "2 cuillères à soupe d'huile d'olive",
+            "1 cuillère à café de graines de fenouil, écrasées",
+            "1 cuillère à café de cumin moulu",
+            "1 cuillère à café de paprika doux fumé (pimenton)",
+            "1 gousse d'ail, écrasée",
+            "1 cuillère à café de vinaigre de vin rouge",
+            "aïoli fumé, pour servir (voir conseils ci-dessous)"
+        ],
+        "method": [
+            "Il vous faut 15 brochettes : si elles sont en bois, trempez-les\r\ndans l'eau pendant 10 minutes. Couper le poulet en\r\nMorceaux de 3 cm et placez-les dans un bol. Ajouter\r\n1 cuillère à soupe d'huile d'olive, les épices, l'ail et\r\nvinaigre, bien mélanger et assaisonner. Vous pouvez\r\nfaites-le jusqu’à un jour avant et réfrigérez.",
+            "Enfilez 2-3 morceaux sur chaque brochette.\r\nVersez le reste de l'huile dans une poêle ou frottez\r\nsur une plaque chauffante. Faites chauffer la poêle et\r\nsaisir le poulet pendant 3-4 minutes chacun\r\ncôté – vous devrez peut-être le faire par lots,\r\ngarder les brochettes cuites au chaud dans un\r\nfour bas. Servir avec de l'aïoli fumé si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "126",
+            "fat": "6g",
+            "saturates": "1g",
+            "carbs": "0g",
+            "sugars": "0g",
+            "fibre": "0g",
+            "protein": "18g",
+            "salt": "0.2g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--954475_11.jpg",
+        "local_image_path": "images/cuisine/turkish/smoky-chicken-skewers.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/apricot-and-turkish-delight-mess/",
+        "title": "Désordre d'abricots et de délices turcs",
+        "description": "Essayez une version moyen-orientale du classique britannique Eton Mess, servi avec du thé à la menthe fraîche",
+        "prep_time": "15 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "100 g de mascarpone",
+            "50 g de yaourt grec",
+            "25 g de sucre glace tamisé",
+            "2 cuillères à soupe d'eau de fleur d'oranger",
+            "1 nid de meringue brisé en morceaux grossiers",
+            "3 abricots dénoyautés et hachés",
+            "2 cubes de délices turcs, aromatisés à l'orange si disponible, hachés",
+            "25 g d'amandes avec la peau, hachées grossièrement",
+            "4 feuilles de menthe, râpées, plus un peu pour décorer (facultatif)"
+        ],
+        "method": [
+            "Mettez le mascarpone, le yaourt, le sucre et\r\nl'eau de fleur d'oranger dans un grand bol et\r\nfouetter jusqu'à épaississement. Pliez le reste\r\ningrédients, puis divisez le mélange\r\nentre 2 verres ou bols à dessert et\r\ndécorez avec de la menthe supplémentaire, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "481",
+            "fat": "33g",
+            "saturates": "17g",
+            "carbs": "43g",
+            "sugars": "41g",
+            "fibre": "3g",
+            "protein": "7g",
+            "salt": "0.22g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--358492_11.jpg",
+        "local_image_path": "images/cuisine/turkish/apricot-and-turkish-delight-mess.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/roasted-chicken-with-creamy-walnut-sauce/",
+        "title": "Poulet rôti à la sauce crémeuse aux noix",
+        "description": "Cette sauce d'inspiration turque constitue une merveilleuse alternative à la sauce au pain classique.",
+        "prep_time": "15 mins Cook: 40 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "8 cuisses de poulet, avec la peau et l'os",
+            "1 cuillère à café de cumin",
+            "½ cuillère à café de paprika",
+            "2 cuillères à soupe d'huile d'olive",
+            "6 pains pitta",
+            "150 ml de bouillon de poulet chaud",
+            "175g de noix",
+            "1 petit oignon, haché",
+            "2 gousses d'ail, hachées",
+            "50 ml de crème liquide",
+            "jus d'1 citron",
+            "une poignée de coriandre hachée"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C ventilateur/gaz 6.\r\nDans un plat à rôtir, mélanger le\r\npoulet, cumin, paprika, 1 cuillère à soupe d'huile d'olive\r\net l'assaisonnement. Cuire 40 minutes jusqu'à ce que\r\nle poulet est croustillant et bien cuit.",
+            "Pendant ce temps, déchirez 1 pain pitta et\r\nplacer dans un petit bol. Versez-en quelques-uns\r\nà soupe de bouillon de poulet et laisser tremper.\r\nFaire revenir à sec les noix dans une poêle pendant\r\nenviron 3 minutes jusqu'à ce qu'ils soient dorés et grillés.\r\nAnnuler. Faites chauffer le reste de l'huile dans le\r\npoêle et cuire l'oignon et l'ail jusqu'à ce que\r\nramolli. Placez le pain pitta ramolli,\r\nmélange d'oignons et la plupart des noix dans\r\nun mixeur. Versez sur le reste du\r\nbouillon de poulet et fouetter ensemble jusqu'à ce que\r\nune pâte grossière se forme. Remettez le mélange\r\nà la poêle. Ajouter la crème et le citron\r\njus, assaisonner et réserver au chaud.",
+            "Lorsque le poulet est cuit, disposez\r\nsur un plateau. Incorporer la coriandre\r\nla sauce et verser dans un bol. En gros\r\nhachez le reste des noix et répartissez-les\r\nsur le poulet. Faire griller les pittas, les couper\r\nen quartiers et servir avec"
+        ],
+        "nutritional_info": {
+            "kcal": "1245",
+            "fat": "86g",
+            "saturates": "20g",
+            "carbs": "54g",
+            "sugars": "5g",
+            "fibre": "4g",
+            "protein": "67g",
+            "salt": "1.76g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--106532_12.jpg",
+        "local_image_path": "images/cuisine/turkish/roasted-chicken-with-creamy-walnut-sauce.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/walnut-date-and-honey-cake/",
+        "title": "Gâteau aux noix, dattes et miel",
+        "description": "Un régal à l’heure du thé – rempli de miel sucré. Une excellente façon d’utiliser aussi ces bananes mûres",
+        "prep_time": "15 mins Cook: 1 hrs 10 mins",
+        "cook_time": "",
+        "serves": "10",
+        "ingredients": [
+            "225 g de farine autolevante",
+            "½ cuillère à café de cannelle moulue",
+            "175g de beurre ramolli",
+            "100 g de sucre muscovado léger",
+            "3 cuillères à soupe de miel clair",
+            "2 oeufs, battus",
+            "2 bananes moyennes mûres, environ 250 g/9 oz de poids total dans leur peau",
+            "100 g de dattes dénoyautées",
+            "50 g de morceaux de noix"
+        ],
+        "method": [
+            "Préchauffer le four à 160°C/Gaz 3/four ventilé 140°C. Tapisser le fond et les côtés longs d'un moule à pain de 900 g/2 lb de papier sulfurisé, en beurrant le moule et le papier.",
+            "Versez la farine, la cannelle, le beurre, le sucre, 2 cuillères à soupe de miel et les œufs dans un grand bol à mélanger. Écrasez les bananes, hachez les dattes (les ciseaux de cuisine sont le moyen le plus simple pour cela) et ajoutez-les au bol. Battre le mélange pendant 2-3 minutes, à l'aide d'une cuillère en bois ou d'un batteur à main, jusqu'à ce que le tout soit bien mélangé.",
+            "Verser dans le moule préparé et niveler le dessus. Répartissez les morceaux de noix dessus. Cuire au four pendant 1 heure, puis appuyer légèrement sur le dessus – il sera ferme une fois cuit. Sinon, laissez cuire encore 10 minutes.",
+            "Laisser refroidir 15 minutes, puis démouler à l'aide du papier. Une fois froid, arrosez-le du reste de miel. Couper en tranches épaisses."
+        ],
+        "nutritional_info": {
+            "kcal": "440",
+            "fat": "24g",
+            "saturates": "13g",
+            "carbs": "54g",
+            "sugars": "25g",
+            "fibre": "1.5g",
+            "protein": "6g",
+            "salt": "0.7g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--694_12.jpg",
+        "local_image_path": "images/cuisine/turkish/walnut-date-and-honey-cake.jpg"
+    }
+]

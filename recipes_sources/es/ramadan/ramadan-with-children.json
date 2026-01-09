@@ -1,0 +1,75 @@
+[
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/flourless-chocolate-almond-cake/",
+        "title": "Pastel de chocolate y almendras sin harina",
+        "description": "Este denso y esponjoso pastel de chocolate y almendras es perfecto para el postre. No contiene gluten; solo asegúrate de que tu cacao en polvo y tu chocolate tampoco lo contengan",
+        "prep_time": "30 mins Cocción: 50 mins",
+        "cook_time": "",
+        "serves": "10",
+        "ingredients": [
+            "200g de chocolate negro para cocinar, troceado en pedazos pequeños",
+            "200g de mantequilla, troceada en pedazos pequeños",
+            "3 huevos",
+            "175g de azúcar extrafino dorado",
+            "100g de mascarpone o queso crema",
+            "\u00bc cdta de extracto de vainilla",
+            "100g de almendras molidas",
+            "30g de cacao en polvo, y un poco más para servir"
+        ],
+        "method": [
+            "Precalentar el horno a 180°C/160°C ventilador/gas 4 y forrar la base de un molde desmontable de 20 cm con papel de hornear. Derretir el chocolate y la mantequilla en un recipiente resistente al calor colocado sobre una cacerola con agua hirviendo a fuego lento, o en el microondas en intervalos de 20 segundos. Remover, luego dejar enfriar un poco.",
+            "Mientras tanto, poner los huevos y el azúcar en un segundo bol y batir con una batidora eléctrica durante 4-5 minutos, o hasta que esté espeso y cremoso. Agregar el mascarpone o queso crema y la vainilla, y continuar batiendo hasta que todo esté combinado. Incorporar suavemente la mezcla de chocolate derretido enfriado hasta que tenga un color uniforme, luego incorporar las almendras. Tamizar el cacao en polvo y una pizca pequeña de sal, e incorporar para combinar.",
+            "Verter la masa del pastel en el molde preparado. Poner el molde en una bandeja de horno y hornear durante 35-40 minutos hasta que el pastel se haya inflado y agrietado en la parte superior. Retirar del horno y dejar enfriar en el molde durante 30-40 minutos; se desinflará a medida que se enfríe. Servir tibio como un pudin de chocolate, o dejar enfriar completamente y disfrutar como un pastel tipo brownie fundente. Espolvorear con cacao en polvo extra antes de servir."
+        ],
+        "nutritional_info": {
+            "kcal": "473",
+            "fat": "37g",
+            "saturates": "19g",
+            "carbs": "26g",
+            "sugars": "0g",
+            "fibre": "3g",
+            "protein": "7g",
+            "salt": "0.5g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/04/Flourless-chocolate-almond-cake-3eb173a.jpg",
+        "local_image_path": "images/ramadan/ramadan-with-children/flourless-chocolate-almond-cake.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/giant-couscous-tomato-salad-with-zhoug-style-dressing/",
+        "title": "Ensalada de cuscús gigante y tomate con aderezo estilo zhoug",
+        "description": "Prepara esta ensalada de cuscús gigante y tomate como acompañamiento de verano. Zhoug es una salsa verde picante de Oriente Medio que le da vida a este plato",
+        "prep_time": "5 mins Cocción: 15 mins más enfriamiento",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 tomates en rama grandes, cortados en cubos",
+            "\u00bd cebolla roja, finamente picada",
+            "150g de cuscús gigante o fregola",
+            "\u00bd manojo pequeño de cilantro, picado en trozos grandes",
+            "puñado de hojas de perejil, picadas en trozos grandes",
+            "1 limón, exprimido",
+            "2 chiles verdes, picados",
+            "1 diente de ajo, picado en trozos grandes",
+            "\u00bd cdta de comino molido",
+            "\u00bd cdta de azúcar extrafino",
+            "3 cdas de aceite de oliva"
+        ],
+        "method": [
+            "Poner los tomates y la cebolla en un bol grande con \u00bd cdta de sal marina. Mezclar y dejar reposar.",
+            "Cocinar el cuscús en una cacerola con agua hirviendo con sal durante 8-10 minutos hasta que esté tierno (no lo cocines demasiado, quieres que quede un poco firme para que pueda absorber los jugos del tomate), luego escurrir muy bien. Enfriar durante 10 minutos y luego mezclar con la mezcla de tomate y cebolla.",
+            "Licuar todos los ingredientes del aderezo con 1 cda de agua y \u00bd cdta de sal marina hasta que quede suave. Rociar un poco sobre el cuscús, luego servir el resto a un lado para que la gente se sirva."
+        ],
+        "nutritional_info": {
+            "kcal": "222",
+            "fat": "9g",
+            "saturates": "1g",
+            "carbs": "26g",
+            "sugars": "0g",
+            "fibre": "6g",
+            "protein": "6g",
+            "salt": "1.3g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Giant-couscous-and-tomato-salad-with-zhoug-style-dressing-62c81db.jpg",
+        "local_image_path": "images/ramadan/ramadan-with-children/giant-couscous-tomato-salad-with-zhoug-style-dressing.jpg"
+    }
+]

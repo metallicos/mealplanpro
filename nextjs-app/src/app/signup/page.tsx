@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useUser } from '@/contexts/UserContext';
 import Link from 'next/link';
+import { User, UserCheck } from 'lucide-react';
 
 export default function SignupPage() {
     const router = useRouter();
@@ -131,7 +132,7 @@ export default function SignupPage() {
                                     : 'bg-gray-800/50 border-gray-700 text-gray-400 hover:bg-gray-800'
                                     }`}
                             >
-                                👨 Male
+                                <User size={18} /> Male
                             </button>
                             <button
                                 type="button"
@@ -141,7 +142,7 @@ export default function SignupPage() {
                                     : 'bg-gray-800/50 border-gray-700 text-gray-400 hover:bg-gray-800'
                                     }`}
                             >
-                                👩 Female
+                                <UserCheck size={18} /> Female
                             </button>
                         </div>
                     </div>

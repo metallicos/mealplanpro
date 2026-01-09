@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { Sparkles, RefreshCw, Coffee, Sun, Moon, Apple, Utensils } from 'lucide-react';
 
 interface SmartMeal {
     id: number;
@@ -54,13 +55,13 @@ export default function SmartPlan() {
         fetchPlan();
     }, []);
 
-    const getSlotEmoji = (slot: string) => {
+    const getSlotIcon = (slot: string) => {
         switch (slot) {
-            case 'breakfast': return '🍳';
-            case 'lunch': return '🥗';
-            case 'dinner': return '🍽️';
-            case 'snack': return '🍎';
-            default: return '🥘';
+            case 'breakfast': return Coffee;
+            case 'lunch': return Sun;
+            case 'dinner': return Moon;
+            case 'snack': return Apple;
+            default: return Utensils;
         }
     };
 
@@ -79,7 +80,7 @@ export default function SmartPlan() {
     if (error) {
         return (
             <div className="card mb-8 border-yellow-500/20 bg-yellow-500/5 text-center py-8">
-                <div className="text-3xl mb-2">📊</div>
+                <div className="text-3xl mb-2 flex justify-center"><Utensils className="w-12 h-12 text-yellow-500" /></div>
                 <p className="mb-4 text-yellow-200">{error}</p>
                 <Link href="/profile" className="btn-primary inline-block">
                     Go to Profile
@@ -93,23 +94,24 @@ export default function SmartPlan() {
     return (
         <div className="mb-8 animate-fade-in">
             <div className="flex items-center justify-between mb-4">
-                <h2 className="text-xl font-bold bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
-                    ✨ Your Smart Plan for Today
+                <h2 className="text-xl font-bold bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent flex items-center gap-2">
+                    <Sparkles className="text-green-400" size={24} /> Your Smart Plan for Today
                 </h2>
                 <button onClick={fetchPlan} className="text-xs btn-secondary">
-                    🔄 Regenerate
+                    <RefreshCw size={14} className={loading ? 'animate-spin' : ''} /> Regenerate
                 </button>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 {['breakfast', 'lunch', 'dinner', 'snack'].map(slot => {
                     const meal = plan.find(p => p.slot === slot);
+                    const SlotIcon = getSlotIcon(slot);
                     if (!meal) return null;
 
                     return (
                         <Link href={`/meals/${meal.id}`} key={meal.id} className="meal-card group block h-full">
-                            <div className="absolute top-2 left-2 z-10 bg-black/60 backdrop-blur-md text-white text-xs px-2 py-1 rounded font-bold uppercase tracking-wider">
-                                {getSlotEmoji(slot)} {slot}
+                            <div className="absolute top-2 left-2 z-10 bg-black/60 backdrop-blur-md text-white text-xs px-2 py-1 rounded font-bold uppercase tracking-wider flex items-center gap-1">
+                                <SlotIcon size={12} /> {slot}
                             </div>
 
                             {(meal.image_url || meal.local_image_path) ? (
@@ -119,7 +121,7 @@ export default function SmartPlan() {
                                 />
                             ) : (
                                 <div className="meal-card-image flex items-center justify-center bg-gray-800 text-4xl">
-                                    {getSlotEmoji(slot)}
+                                    <SlotIcon size={40} className="text-gray-600" />
                                 </div>
                             )}
 

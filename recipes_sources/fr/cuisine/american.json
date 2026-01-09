@@ -1,0 +1,1369 @@
+[
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/waldorf-salad/",
+        "title": "Salade Waldorf",
+        "description": "Hachez des pommes, du céleri et des noix pour réaliser cette salade américaine classique, pleine de fraîcheur et de croquant. Vous pouvez préparer le dressing jusqu'à deux jours à l'avance",
+        "prep_time": "15 mins Cook: 4 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "50 g de noix grillées et hachées grossièrement",
+            "2 pommes (nous avons utilisé Granny Smith), hachées grossièrement",
+            "1 citron, jus",
+            "100 g de mayonnaise",
+            "2 cuillères à soupe de yaourt à la grecque",
+            "½ cuillère à soupe de moutarde de Dijon",
+            "150 g de raisins rouges coupés en deux",
+            "3 branches de céleri, finement tranchées",
+            "1 laitue romaine ou Little Gem, feuilles séparées et déchirées si grosses"
+        ],
+        "method": [
+            "Faites chauffer une poêle sèche à feu moyen-vif et faites griller les noix pendant 3-4 minutes jusqu'à ce qu'elles soient légèrement dorées et aromatiques. Versez dans un bol et laissez refroidir.",
+            "Mélangez les pommes avec un peu de jus de citron pour éviter qu'elles ne se décolorent. Mélanger la mayonnaise, le yogourt, la moutarde et le reste du jus de citron dans un grand bol et bien assaisonner. La vinaigrette se conservera au frais jusqu'à deux jours. Mélangez les pommes, les raisins et le céleri avec la vinaigrette et mélangez bien dans un grand bol pour vous assurer que le tout est uniformément enrobé. Disposez les feuilles de laitue sur un plat de service et versez-les sur le mélange de pommes et le reste de la vinaigrette du bol. Répartir sur les noix grillées avant de servir."
+        ],
+        "nutritional_info": {
+            "kcal": "368",
+            "fat": "30g",
+            "saturates": "4g",
+            "carbs": "14g",
+            "sugars": "0g",
+            "fibre": "5g",
+            "protein": "6g",
+            "salt": "0.41g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2023/06/Wardorf-salad-474bff5.jpg",
+        "local_image_path": "images/cuisine/american/waldorf-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/corndogs/",
+        "title": "Corndogs",
+        "description": "Préparez des corndogs d'inspiration américaine en enrobant des saucisses de Francfort dans une pâte à base de semoule de maïs, puis en les faisant frire et en les servant avec du ketchup et de la moutarde jaune.",
+        "prep_time": "20 mins Cook: 15 mins",
+        "cook_time": "",
+        "serves": "8",
+        "ingredients": [
+            "100 ml de semoule de maïs",
+            "100 g de farine nature",
+            "1 œuf légèrement battu",
+            "1 cuillère à café de sucre en poudre",
+            "½ cuillère à café de sel marin fin",
+            "1 cuillère à soupe de levure chimique",
+            "150 ml de lait entier",
+            "8 saucisses de Francfort",
+            "huile végétale, pour frire",
+            "ketchup et moutarde américaine, pour servir"
+        ],
+        "method": [
+            "Versez la semoule de maïs, la farine, l'œuf, le sucre en poudre, le sel, la levure chimique et le lait dans un bol et fouettez jusqu'à obtenir une pâte lisse et sans grumeaux. Versez délicatement la pâte dans un grand pichet ou un verre.",
+            "Enfoncez une brochette en bois sur toute la longueur de chaque saucisse de Francfort, de manière à ce qu'elle couvre environ les trois quarts de sa longueur. Remplissez une poêle au maximum au tiers d'huile et faites-la chauffer à 180 °C, ou jusqu'à ce qu'un cube de pain brunisse dans les 30 secondes.",
+            "En travaillant avec un francfort à la fois, plongez-le dans la pâte et retournez-le délicatement pour l'enrober – il doit être complètement recouvert. Plongez délicatement dans l'huile et faites frire pendant 2-3 minutes, ou jusqu'à ce que la pâte soit croustillante et dorée. Égoutter sur une feuille de papier absorbant. Répétez avec les saucisses de Francfort restantes. Servir avec du ketchup et de la moutarde américaine pour tremper ou arroser."
+        ],
+        "nutritional_info": {
+            "kcal": "349",
+            "fat": "24g",
+            "saturates": "6g",
+            "carbs": "21g",
+            "sugars": "0g",
+            "fibre": "1g",
+            "protein": "11g",
+            "salt": "1.71g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/08/Corndogs-7832ef6.jpg",
+        "local_image_path": "images/cuisine/american/corndogs.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/simple-salt-beef/",
+        "title": "Boeuf salé simple",
+        "description": "Préparer du bœuf salé juteux et tendre est plus facile que vous ne le pensez. Servir en sandwich avec du pain de seigle façon new-yorkaise, des concombres marinés, de la moutarde et de la choucroute",
+        "prep_time": "20 mins Cook: 4 hrs plus resting",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "1,6 kg de morceau plat de poitrine de bœuf marinée",
+            "2 feuilles de laurier",
+            "4 grosses carottes, pelées mais laissées entières",
+            "1 cuillère à café de poivre noir",
+            "4 baies de genièvre",
+            "1-2 cuillères à café de sucre (facultatif)"
+        ],
+        "method": [
+            "Si vous le pouvez, laissez le bœuf mariné revenir à température ambiante avant de commencer en le laissant sur le comptoir de la cuisine pendant une heure. Cela accélérera le temps de cuisson. Mettez le bœuf dans une grande casserole et couvrez d'eau froide. Porter à ébullition en écumant toute écume mousseuse qui remonte à la surface. Une fois la mousse en grande partie retirée, ajoutez tous les autres ingrédients. Les ajouter maintenant signifie qu’ils ne gênent pas l’écrémage.",
+            "Réduisez le feu, couvrez et laissez mijoter doucement pendant 2 h 30 à 3 h 30 ou jusqu'à ce qu'une fourchette enfoncée dans la viande glisse facilement – ​​elle doit être bien tendre. Commencez à vérifier après 2 heures – il ne devrait y avoir aucune résistance lorsque vous retirez la fourchette de la viande. Vous pouvez également utiliser une brochette pour faire le test – assurez-vous de l’enfoncer dans la partie la plus épaisse de la viande.",
+            "Une fois que le bœuf est tendre, éteignez le feu. Soit laissez-la reposer dans la liqueur de cuisson si vous n'êtes pas prêt à manger (elle peut rester ainsi pendant jusqu'à une heure), soit utilisez deux fourchettes pour soulever la viande, laissez l'eau s'écouler, puis posez-la sur une planche. Conservez la liqueur si vous prévoyez de réchauffer ou de congeler le bœuf salé. Couvrir légèrement de papier d'aluminium et laisser reposer 10 à 15 minutes. Pour servir, coupez la viande en tranches épaisses dans le sens inverse des fibres, sinon elle s'effritera. Servir chaud ou froid. Les restes se conservent au réfrigérateur pendant trois jours et au congélateur jusqu'à six semaines. Avant de le congeler, il est préférable de le trancher et de l’envelopper d’abord dans du papier sulfurisé, puis dans du papier d’aluminium. Assurez-vous de congeler également la marmite de liqueur de cuisson. Lorsque vous voulez le manger, décongelez-le puis mettez-le (avec les tranches disposées en forme de poitrine entière) dans un plat allant au four avec la liqueur décongelée. Couvrir de papier d'aluminium et réchauffer à 180°C/160°C chaleur tournante/gaz 4 pendant 20 minutes."
+        ],
+        "nutritional_info": {
+            "kcal": "419",
+            "fat": "32g",
+            "saturates": "11g",
+            "carbs": "1g",
+            "sugars": "0g",
+            "fibre": "0.1g",
+            "protein": "31g",
+            "salt": "4.2g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/09/Salt-beef-sandwich-7958446.jpg",
+        "local_image_path": "images/cuisine/american/simple-salt-beef.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/maple-chilli-glazed-leg-of-lamb/",
+        "title": "Gigot d'agneau glacé à l'érable et au piment",
+        "description": "Préparez un délicieux glaçage à l'érable et au piment pour badigeonner un gigot d'agneau, prêt à cuire au barbecue – un excellent choix lorsque vous n'avez pas le temps de mariner.",
+        "prep_time": "20 mins Cook: 40 mins",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "2,5 kg de gigot d'agneau en papillon (demandez à votre boucher de le faire)",
+            "1 bouquet de romarin coupé en tronçons de 2 cm",
+            "100 ml de sirop d'érable",
+            "50 g de moutarde de Dijon",
+            "2 cuillères à soupe d'extrait de levure",
+            "1 cuillère à soupe de paprika fumé",
+            "3 piments verts moyens, tranchés"
+        ],
+        "method": [
+            "Posez le gigot d'agneau en forme de papillon sur une planche et, à l'aide d'un couteau bien aiguisé, percez environ 20 trous sur tout le côté peau. Enfoncez profondément les brins de romarin dans les trous, puis assaisonnez le tout.",
+            "Pour faire le glaçage, versez tous les ingrédients dans une petite casserole, en réservant quelques tranches de piments et portez à ébullition. Remuer pour combiner, puis retirer du feu et réserver. Allumez le barbecue. C’est prêt lorsque les braises sont cendrées et que vous pouvez tenir votre main à 5 cm au-dessus du gril pendant au moins 5 secondes.",
+            "Posez l'agneau côté peau sur le gril et laissez cuire 10 minutes. Retournez à l'aide de pinces et laissez cuire encore 10 min. Répétez cette opération encore deux fois pendant 5 minutes de chaque côté pour que l'agneau cuise pendant 30 minutes au total. Badigeonnez de glaçage, retournez à nouveau l'agneau et continuez à arroser pendant encore 10 minutes jusqu'à ce qu'il soit brun foncé et collant. Retirer sur une planche, couvrir légèrement et laisser reposer 20 minutes. Couper en fines tranches pour servir, puis répartir sur les piments tranchés réservés."
+        ],
+        "nutritional_info": {
+            "kcal": "582",
+            "fat": "31g",
+            "saturates": "14g",
+            "carbs": "13g",
+            "sugars": "0g",
+            "fibre": "2g",
+            "protein": "62g",
+            "salt": "1.4g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/06/Maple-and-chilli-glazed-leg-of-lamb-e9fa707.jpg",
+        "local_image_path": "images/cuisine/american/maple-chilli-glazed-leg-of-lamb.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/next-level-burgers-and-buns/",
+        "title": "Burgers de bœuf de niveau supérieur",
+        "description": "Cet été, offrez-vous nos ultimes hamburgers au bœuf et nos petits pains faits maison. Ils en valent bien la peine et sont parfaits pour un week-end divertissant.",
+        "prep_time": "40 mins Cook: 30 mins plus 2 hrs rising, cooling and chilling",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "250 g de farine blanche nature, plus un peu pour saupoudrer",
+            "20 g de sucre en poudre doré",
+            "5g de levure sèche à action rapide",
+            "150 ml de lait",
+            "1 œuf battu",
+            "50 g de beurre ramolli",
+            "graines de sésame, pour saupoudrer (facultatif)",
+            "600 g de steak de paleron vieilli à sec, coupé en gros morceaux",
+            "garnitures de votre choix, comme du fromage, des oignons, des tomates ou de la laitue",
+            "3 cuillères à soupe de mayonnaise",
+            "2 cuillères à soupe de ketchup ou de sriracha (ou utilisez 1 cuillère à soupe de chacun)",
+            "1 cuillère à soupe de moutarde américaine",
+            "1 petit cornichon, finement haché, et un peu pour servir",
+            "grosse pincée de granules d'ail"
+        ],
+        "method": [
+            "Pour faire vos propres petits pains, versez la farine, le sucre, la levure et 1 cuillère à café de sel dans le bol du batteur sur socle équipé d'une palette. Avec le moteur tournant à vitesse moyenne, ajoutez progressivement le lait, puis la moitié de l'œuf. Laisser mélanger quelques minutes, puis ajouter le beurre petit à petit jusqu'à ce que la pâte soit élastique et brillante – environ 5 minutes. Vous pouvez également le faire dans un bol à l'aide d'un fouet électrique.",
+            "Divisez la pâte en quatre et roulez chaque morceau en rond sur une surface légèrement farinée. Disposer bien espacés sur une plaque à pâtisserie tapissée de papier sulfurisé. Appuyez doucement pour les étaler un peu et laissez-les dans un endroit tiède pendant 2 heures, ou au réfrigérateur toute la nuit, jusqu'à ce qu'elles doublent de volume.",
+            "Chauffer le four à 200C/180C chaleur tournante/gaz 6. Badigeonner les petits pains du reste d'œuf et parsemer de graines de sésame, le cas échéant. Cuire au four pendant 13 à 15 minutes jusqu'à ce qu'ils soient levés et dorés. Laisser refroidir. Peut être préparé jusqu'à la veille.",
+            "Pour la sauce, mélanger tous les ingrédients et réserver. Peut être préparée jusqu'à la veille et conservée au frais.",
+            "Pour préparer les hamburgers, refroidissez le steak de paleron au congélateur à côté de la lame et, si cela convient, du bol d'un robot culinaire pendant 30 minutes jusqu'à ce que la viande soit ferme mais pas congelée. En travaillant rapidement, versez la moitié du bœuf réfrigéré dans le robot culinaire et mélangez huit à dix fois jusqu'à ce que la viande soit hachée, en prenant soin de ne pas trop la travailler. Versez le hachis sur un plateau et répétez avec le steak restant, puis mélangez les deux lots avec ½ cuillère à café de sel. Divisez en quatre portions et formez délicatement chacune d'elles en une galette lâche un peu plus large que les petits pains. Ne le surchargez pas.",
+            "Faites cuire les burgers dès que possible après leur formage. Mettez une grande poêle à frire à fond épais sur feu moyen. Divisez les petits pains et les toasts, côté coupé vers le bas, dans la poêle (vous devrez peut-être le faire par lots). Retirer dans une assiette, puis saisir les burgers en les pressant avec une spatule pendant la cuisson, pendant 4 à 5 minutes de chaque côté pour une cuisson mi-saignante ou 6-7 minutes pour une cuisson moyenne. Garnir de fromage, si vous le souhaitez, après les avoir retournés. Lorsque les burgers sont cuits, assemblez selon vos préférences avec les petits pains, les garnitures de votre choix et la sauce burger."
+        ],
+        "nutritional_info": {
+            "kcal": "749",
+            "fat": "38g",
+            "saturates": "15g",
+            "carbs": "57g",
+            "sugars": "0g",
+            "fibre": "3g",
+            "protein": "43g",
+            "salt": "2.9g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/05/Next-level-burger-13791ff.jpg",
+        "local_image_path": "images/cuisine/american/next-level-burgers-and-buns.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chimichurri-style-steak-sarnies-cheats-spicy-fries/",
+        "title": "Sarnies de steak style chimichurri et frites épicées de cheat",
+        "description": "Rehaussez un sandwich au steak avec une sauce chimichurri piquante et piquante, de la mayonnaise chipotle et des frites épicées de style cajun en accompagnement.",
+        "prep_time": "25 mins Cook: 40 mins plus 10 mins resting",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "2 x 200 g de rumsteck dégraissé",
+            "2 longs rouleaux ciabatta",
+            "2 poignées de roquette",
+            "30 ml d'huile de tournesol",
+            "270 g de frites surgelées du commerce",
+            "Mélange d'épices cajun",
+            "70 g de mayonnaise",
+            "1 cuillère à café de pâte de piment chipotle",
+            "½ citron vert, zesté et pressé",
+            "1 banane échalote, pelée et hachée grossièrement",
+            "1 piment rouge, finement haché",
+            "1 gousse d'ail, écrasée",
+            "1½ cuillère à soupe de vinaigre de Xérès",
+            "petit bouquet de persil",
+            "petit bouquet de coriandre",
+            "50 ml d'huile d'olive extra vierge"
+        ],
+        "method": [
+            "Chauffez le four à son réglage le plus élevé. Pour les frites, versez l'huile de tournesol dans une plaque à pâtisserie et enfournez 15 min pour qu'elle soit bien chaude. Réduisez la température à 220C/200C chaleur tournante/gaz. 8. Plongez les frites dans l'huile, retournez-les pour les enrober et laissez cuire 20 minutes. Ajouter le mélange d'épices cajun et remettre au four pendant 15 minutes jusqu'à ce qu'il soit doré et croustillant.",
+            "Pendant ce temps, préparez la mayonnaise en mélangeant tous les ingrédients dans un bol. Annuler.",
+            "Pour la sauce style chimichurri, mélangez tous les ingrédients jusqu'à obtenir une sauce onctueuse, puis assaisonnez au goût. Annuler.",
+            "Chauffer la poêle à feu vif. Frottez les steaks avec du sel uniquement (le poivre va accrocher et brûler), mettre les steaks dans la poêle et cuire 3 minutes de chaque côté (à feu moyen). Retirer de la poêle, couvrir de papier d'aluminium et laisser reposer 10 minutes.",
+            "Coupez les rouleaux ciabatta en deux, faites-les griller dans la même poêle à frire dans laquelle vous avez cuit le steak, côté coupé vers le bas, et étalez la moitié de chacun avec la mayonnaise chipotle. Coupez le steak en lanières, répartissez-le entre les ciabattas, arrosez de chimichurri et ajoutez un peu de roquette. Servir avec les frites et les restes de mayonnaise."
+        ],
+        "nutritional_info": {
+            "kcal": "1101",
+            "fat": "53g",
+            "saturates": "8g",
+            "carbs": "89g",
+            "sugars": "0g",
+            "fibre": "8g",
+            "protein": "63g",
+            "salt": "1.7g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Chimichurri-style-steak-sarnies-with-spicy-fries-007858d.jpg",
+        "local_image_path": "images/cuisine/american/chimichurri-style-steak-sarnies-cheats-spicy-fries.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/pastrami-style-steak-mustard-mayo/",
+        "title": "Steak façon pastrami & mayonnaise à la moutarde",
+        "description": "Associez la choucroute et la mayonnaise à la moutarde avec un steak pour créer une combinaison sensationnelle. Servir avec des frites ou de la purée, ou en faire un incroyable sandwich au steak",
+        "prep_time": "5 mins Cook: 15 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "2 cuillères à soupe de mayonnaise",
+            "2 cuillères à café de moutarde anglaise",
+            "2 x 250 g de surlonge ou de faux-filet",
+            "huile de tournesol ou végétale, pour arroser",
+            "50g de beurre",
+            "150g de choucroute"
+        ],
+        "method": [
+            "Mélangez la mayonnaise avec la moutarde et réservez. Assaisonnez les steaks. Faites chauffer un filet d'huile et le beurre dans une grande poêle à feu vif jusqu'à ce qu'ils grésillent et prennent une couleur noisette. Faites cuire les steaks 1 à 2 minutes d'un côté, puis retournez-les et laissez cuire encore 1 à 2 minutes. Retournez à nouveau et continuez ce processus pendant 6 à 7 minutes au total pour une cuisson saignante, 8 à 9 minutes pour une cuisson mi-saignante et 10 minutes pour une cuisson mi-saignante. Retourner les steaks les aide à cuire uniformément et à former une croûte uniforme.",
+            "Lorsque les steaks sont cuits à votre goût, transférez-les sur une planche et laissez reposer. Pendant ce temps, faites cuire la choucroute dans la poêle avec le jus de steak collant pendant 3 à 4 minutes jusqu'à ce qu'elle soit bien chaude et dorée. Servir les steaks avec la choucroute et la mayonnaise à la moutarde en accompagnement, ou verser la choucroute sur les steaks."
+        ],
+        "nutritional_info": {
+            "kcal": "775",
+            "fat": "66g",
+            "saturates": "24g",
+            "carbs": "2g",
+            "sugars": "0g",
+            "fibre": "2g",
+            "protein": "41g",
+            "salt": "2.5g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Pastrami-style-steak-and-mustard-mayo-9179873.jpg",
+        "local_image_path": "images/cuisine/american/pastrami-style-steak-mustard-mayo.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/air-fried-chips/",
+        "title": "Chips frites à l'air libre",
+        "description": "Tirez le meilleur parti d’une friteuse à air avec cette recette de chips super croustillantes. Ils sont simples à préparer et la friture à l’air signifie que vous utiliserez moins d’huile que la friture, c’est donc une alternative plus saine.",
+        "prep_time": "10 mins Cook: 35 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4-5 grosses pommes de terre, environ 1 kg",
+            "1 cuillère à soupe d'huile de tournesol ou d'olive"
+        ],
+        "method": [
+            "Pour obtenir des chips droites et nettes, épluchez les pommes de terre et coupez tous les bords arrondis pour qu'elles deviennent des blocs rectangulaires. Coupez les blocs en bâtonnets : ils doivent se situer quelque part entre les frites et les chips épaisses, car s'ils étaient trop fins, ils pourraient se casser ; trop épais et ils ne cuiront pas bien (si vous le souhaitez, conservez les chutes pour faire de la purée ou ajoutez-les aux soupes). Vous pouvez également couper les pommes de terre non pelées en chips sans les couper, si la propreté ne vous dérange pas. Rincez les chips et séchez-les avec un torchon propre.",
+            "Versez les chips au fond d'une friteuse à air (la partie avec la palette), ajoutez l'huile et jetez les chips dans l'huile pour qu'elles soient uniformément enrobées. Programmez la friteuse pour cuire 30 minutes à l'aide de la palette. Passé ce temps, vérifiez que les chips sont tendres et bien cuites. Si ce n'est pas le cas, laissez cuire encore 5 minutes. Assaisonnez bien."
+        ],
+        "nutritional_info": {
+            "kcal": "140",
+            "fat": "3g",
+            "saturates": "0g",
+            "carbs": "24g",
+            "sugars": "0g",
+            "fibre": "3g",
+            "protein": "3g",
+            "salt": "0.01g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/11/Air-fried-chips-c3a5d44.jpg",
+        "local_image_path": "images/cuisine/american/air-fried-chips.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/pastrami-cured-salmon/",
+        "title": "Saumon au pastrami",
+        "description": "Servez ce saumon façon gravadlax le matin de Noël avec des bagels ou pour des canapés festifs. Il est inspiré d'un petit-déjeuner de charcuterie new-yorkais",
+        "prep_time": "30 mins Cook: 35 mins plus 3 days curing",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "800 g de saumon (le plus frais possible)",
+            "250 g de gros sel marin",
+            "100 g de sucre mou roux clair",
+            "2 cuillères à soupe de graines de coriandre",
+            "1 cuillère à café de coriandre moulue",
+            "1 cuillère à soupe de graines de carvi",
+            "1 cuillère à soupe de grains de poivre noir",
+            "1 feuille de laurier",
+            "1 cuillère à café de paprika doux fumé",
+            "½ cuillère à café de poivre de Cayenne",
+            "2 cuillères à soupe de mélasse noire",
+            "fromage à pâte molle, pain de seigle ou bagels, cornichons à l'aneth et aneth haché"
+        ],
+        "method": [
+            "Trois jours avant de servir le saumon, déposez-le, peau vers le bas, dans un plat à rebords. Mélangez le sel et le sucre, puis réservez.",
+            "Faites revenir les graines de coriandre, la coriandre moulue, les graines de carvi et les grains de poivre dans une petite poêle sèche à feu moyen pendant 2-3 minutes. Versez-le dans un moulin à épices ou un petit robot culinaire avec la baie et mixez jusqu'à ce qu'il soit finement moulu. Incorporer le mélange d'épices au mélange de sel et de sucre. Tapotez le mélange de sel épicé partout et autour du saumon pour qu'il soit bien emballé sur la chair. Enveloppez-le hermétiquement dans un film alimentaire, puis placez une assiette ou une planche et quelque chose de lourd (comme quelques boîtes de conserve) dessus pour alourdir le poisson. Mettre au frais 48h.",
+            "Faites chauffer le paprika, le poivre de Cayenne et la mélasse noire dans une poêle jusqu'à ce qu'ils se détachent, puis retirez du feu et laissez refroidir légèrement jusqu'à ce qu'ils soient juste chauds. Enlevez l'excès de sel du saumon et rincez le poisson sous l'eau froide courante. Séchez avec du papier absorbant, puis transférez dans un plat propre. Badigeonner avec le mélange de mélasse chaud jusqu'à ce qu'il soit bien enrobé (vous devrez peut-être badigeonner généreusement le poisson plusieurs fois avant que l'enrobage ne recouvre bien le poisson), puis envelopper dans une nouvelle feuille de film alimentaire. Réfrigérer encore 24 heures.",
+            "Au moment de servir, déposez le saumon sur une planche et tranchez-le finement avec un couteau bien aiguisé, en évitant la couche de peau au fond. Servir avec du fromage à pâte molle, du pain de seigle ou des bagels, des cornichons et de l'aneth haché pour que chacun puisse se servir."
+        ],
+        "nutritional_info": {
+            "kcal": "312",
+            "fat": "20g",
+            "saturates": "4g",
+            "carbs": "5g",
+            "sugars": "0g",
+            "fibre": "1g",
+            "protein": "27g",
+            "salt": "2.4g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/11/Pastrami-cured-salmon-fda5e3e.jpg",
+        "local_image_path": "images/cuisine/american/pastrami-cured-salmon.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/patty-melt-toasties/",
+        "title": "Toasts fondants aux galettes",
+        "description": "Savourez ces toasts fondants pour un repas réconfortant du vendredi soir. Ils sont parfaits lorsque vous n’arrivez pas à choisir entre un burger de bœuf juteux ou un toastie au fromage fondu…",
+        "prep_time": "15 mins Cook: 40 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "3 cuillères à soupe de beurre",
+            "2 cuillères à soupe d'huile d'olive",
+            "1 gros oignon, finement tranché",
+            "200 g de bœuf haché",
+            "½ cuillère à café de granulés d'ail",
+            "2 cuillères à café de sauce Worcestershire",
+            "4 tranches de pain bloomer ou de pain blanc",
+            "100 g de cheddar affiné, râpé",
+            "100 g de fromage suisse râpé",
+            "2 cuillères à café de moutarde de Dijon"
+        ],
+        "method": [
+            "Faites chauffer 1 cuillère à soupe de beurre et la moitié de l'huile dans une grande poêle à fond épais à feu moyen et faites revenir l'oignon avec une pincée de sel pendant 20 à 25 minutes jusqu'à ce qu'il soit doré et collant.",
+            "Versez le hachis dans un bol avec les granules d'ail, la sauce Worcestershire et un peu d'assaisonnement, et mélangez avec vos mains – mélangez jusqu'à ce que le hachis ait une texture fine. Divisez-les en deux boules, puis aplatissez-les en galettes, en gardant à l'esprit la forme du pain (vous souhaiterez peut-être les rendre plus oblongues si vous utilisez un pain bloomer).",
+            "Grattez les oignons caramélisés sur une assiette et faites chauffer le reste de l'huile dans la poêle à feu vif. Faites frire les galettes de burger en les pressant avec le dos d'une spatule pendant 3 à 4 minutes de chaque côté jusqu'à ce qu'elles soient dorées et bien cuites. Transférer dans une assiette en grattant les morceaux de la poêle par-dessus.",
+            "Réduisez le feu à moyen-doux et faites fondre ½ cuillère à soupe de beurre dans la poêle en le faisant tourner autour de la base. Faites frire les quatre tranches de pain d'un côté, en les alourdissant avec une presse-grill ou en appuyant avec le dos de la spatule pour qu'elles soient uniformément dorées et croustillantes. Faites cela en deux fois, en ajoutant encore ½ cuillère à soupe de beurre pour les deux dernières tranches. Mélangez les deux fromages dans un bol.",
+            "Disposez deux tranches de pain, côté grillé vers le haut, sur une planche et étalez-les sur la moutarde. Ajouter la moitié du fromage et répartir uniformément sur les oignons. Garnir avec les hamburgers, puis parsemer du reste du fromage. Garnir avec les tranches de pain restantes, côté grillé vers le bas, de sorte que les côtés non grillés soient à l'extérieur des sandwichs. Bien appuyer pour sceller. Faites chauffer la majeure partie du beurre restant dans la poêle et faites frire les sandwichs pendant 2-3 minutes, en les pressant tout le temps, jusqu'à ce qu'ils soient dorés et grillés. Retournez délicatement et faites frire à nouveau, en ajoutant le reste de beurre dans la poêle autour des toasts. Cuire jusqu'à ce que le fromage soit fondu et suintant et que le pain soit doré et croustillant des deux côtés."
+        ],
+        "nutritional_info": {
+            "kcal": "1069",
+            "fat": "79g",
+            "saturates": "40g",
+            "carbs": "36g",
+            "sugars": "0g",
+            "fibre": "4g",
+            "protein": "52g",
+            "salt": "2.9g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/10/Patty-melt-toastie-7a428de.jpg",
+        "local_image_path": "images/cuisine/american/patty-melt-toasties.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/buffalo-cauliflower/",
+        "title": "Chou-fleur de buffle",
+        "description": "Préparez du « chou-fleur de buffle » pour une version végétarienne du classique américain épicé. Servi avec une trempette ranch, c'est un excellent régal à partager le vendredi soir.",
+        "prep_time": "5 mins Cook: 35 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "1 cuillère à soupe de paprika doux fumé",
+            "1⁄2 cuillère à soupe de cumin moulu",
+            "1 cuillère à café de poudre d'ail",
+            "100 g de farine nature",
+            "200 ml de babeurre ou de kéfir",
+            "1 tête de chou-fleur (500 g), coupée en bouquets",
+            "80 g de sauce piquante",
+            "1½ cuillère à soupe de sirop d'érable",
+            "1 cuillère à soupe de beurre",
+            "branches de céleri, pour servir",
+            "100 g de yaourt grec",
+            "3 cuillères à soupe de mayonnaise",
+            "2 cuillères à soupe de ciboulette hachée",
+            "1-2 cuillères à soupe de lait"
+        ],
+        "method": [
+            "Chauffer le four à 220°C/200°C chaleur tournante/gaz 7 et tapisser une plaque à pâtisserie de papier sulfurisé. Mélangez le paprika, le cumin, la poudre d'ail, la farine et ½ cuillère à café de sel dans un grand bol. Faites un puits au centre et incorporez le babeurre en fouettant. Ajoutez le chou-fleur et mélangez pour enrober. Étalez le chou-fleur sur la plaque à pâtisserie et faites cuire pendant 20 à 25 minutes, en le retournant à mi-cuisson, jusqu'à ce qu'il soit croustillant sur les bords.",
+            "Faites chauffer la sauce piquante, le sirop d'érable et le beurre dans une petite poêle à feu doux pendant 2-3 minutes. Badigeonnez généreusement le chou-fleur et remettez au four pendant 8 à 10 minutes.",
+            "Pour la trempette ranch, mélangez le yaourt, la mayonnaise, la ciboulette, le lait et une pincée de sel dans un bol. Servir avec le chou-fleur et quelques branches de céleri pour tremper."
+        ],
+        "nutritional_info": {
+            "kcal": "279",
+            "fat": "17g",
+            "saturates": "3g",
+            "carbs": "23g",
+            "sugars": "0g",
+            "fibre": "3g",
+            "protein": "7g",
+            "salt": "1.1g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/10/Buffalo-cauliflower-7825216.jpg",
+        "local_image_path": "images/cuisine/american/buffalo-cauliflower.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/brie-stuffed-pancakes-with-crispy-bacon/",
+        "title": "Crêpes farcies au brie et bacon croustillant",
+        "description": "Savourez nos crêpes moelleuses à l'américaine avec une garniture au fromage suintante et une garniture au bacon croustillant. Ils sont parfaits pour le Pancake Day ou un brunch le week-end",
+        "prep_time": "10 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "10 tranches de bacon fumé",
+            "300 g de farine autolevante",
+            "1 cuillère à café de levure chimique",
+            "pincée de sucre en poudre",
+            "2 œufs moyens, légèrement battus",
+            "300 ml de lait demi-écrémé",
+            "2 cuillères à soupe d'huile de tournesol",
+            "25 g de beurre salé, plus un peu pour servir",
+            "150 g de brie tranché finement",
+            "50 g de cheddar râpé"
+        ],
+        "method": [
+            "Chauffer le gril à feu vif et faire griller le bacon pendant 5 minutes jusqu'à ce qu'il soit croustillant, en le retournant à mi-cuisson. Réserver et réserver au chaud. Versez la farine, la levure chimique, le sucre et une grosse pincée de sel dans un grand bol, puis fouettez progressivement les œufs et le lait jusqu'à obtenir une pâte lisse et épaisse.",
+            "Faites chauffer un peu d'huile et une petite noix de beurre dans une poêle antiadhésive à feu moyen jusqu'à ce qu'ils grésillent. Versez 1 cuillère à soupe de pâte et étalez-la sur un cercle grossier de 10 cm avec le dos de la cuillère. Garnir de quelques tranches de brie, d’une pincée de cheddar râpé et de 1½ cuillère à soupe supplémentaire de pâte à crêpes – la pâte doit recouvrir tout le fromage. Ne vous inquiétez pas si la pâte commence à s'étaler : vous pouvez la façonner en repoussant le fromage vers le centre à l'aide d'une spatule. Cuire pendant 2-3 minutes jusqu'à ce que des bulles commencent à se former à la surface, puis retourner délicatement et cuire encore 2 minutes. Gardez au chaud tout en répétant l'opération avec le reste de l'huile, du beurre, de la pâte et du fromage. Servir garni d'un peu de beurre salé et de bacon croustillant."
+        ],
+        "nutritional_info": {
+            "kcal": "632",
+            "fat": "36g",
+            "saturates": "16g",
+            "carbs": "49g",
+            "sugars": "0g",
+            "fibre": "3g",
+            "protein": "29g",
+            "salt": "3.3g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/01/Brie-stuffed-pancakes-e634dc3.jpg",
+        "local_image_path": "images/cuisine/american/brie-stuffed-pancakes-with-crispy-bacon.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/crab-apple-jelly/",
+        "title": "Gelée de pomme de crabe",
+        "description": "Offrez à votre famille et à vos amis une gelée de pomme sauvage faite maison – préparez des bocaux et dégustez-la avec de la viande et du gibier, ou dans des garnitures de gâteaux.",
+        "prep_time": "20 mins Cook: 35 mins plus hanging over night and setting time",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "1½ kg de pommettes",
+            "1 citron, le zeste paré et la moitié du jus",
+            "environ 450 g de sucre blanc en poudre ou semoule",
+            "Sac de gelée"
+        ],
+        "method": [
+            "Lavez et égouttez les fruits, puis coupez les pommes en deux et mettez-les dans une grande casserole à fond épais avec une quantité égale d'eau et le zeste de citron épluché. Portez à ébullition, puis baissez le feu et laissez mijoter 20 à 25 minutes jusqu'à ce que les pommes soient pulpeuses. Remuez de temps en temps avec le dos d'une cuillère en bois pour aider à décomposer les fruits.",
+            "Retirer du feu et laisser refroidir un peu. Placez la pulpe du fruit dans un sac de gelée et laissez le jus s'égoutter dans un grand bol (cela prendra plusieurs heures, il est donc idéal de le faire toute la nuit). Si vous forcez le fruit à passer, cela créera une gelée trouble.",
+            "Mettez deux petites soucoupes stérilisées au congélateur, vous les utiliserez pour tester le point de prise de la confiture. Vous pouvez stériliser les soucoupes en les lavant dans un liquide chaud savonneux, en les rinçant et en les mettant au four à 180C/160C ventilateur/gaz 4 pendant 5 minutes. Retirer délicatement et laisser refroidir.",
+            "Pesez le liquide fruité et remettez-le dans une grande casserole. Pesez les trois quarts de sucre par rapport à votre quantité totale de liquide (par exemple, si vous avez 400 g de liquide, ajoutez 300 g de sucre).",
+            "Ajoutez le sucre au jus avec le jus de citron et remuez à feu moyen jusqu'à dissolution complète. Augmentez le feu et portez les fruits à ébullition. Remuer de temps en temps et laisser bouillir fortement pendant environ 8 minutes, en éliminant toute écume avec une cuillère. Si vous utilisez un thermomètre, vous cherchez à atteindre 105°C. Sinon, vérifiez le point de prise du liquide au bout de 8 minutes en sortant une soucoupe du congélateur et en ajoutant une cuillère à café de liquide dans l'assiette. Laissez reposer une minute, puis passez votre doigt dans le liquide. Si elle commence à se froisser, la gelée est prête. Sinon, remettez à ébullition et réessayez après une minute supplémentaire.",
+            "Verser dans des bocaux stérilisés et laisser refroidir complètement. Conserver dans un endroit frais et sombre."
+        ],
+        "nutritional_info": {
+            "kcal": "35",
+            "fat": "0g",
+            "saturates": "0g",
+            "carbs": "9g",
+            "sugars": "0g",
+            "fibre": "0.2g",
+            "protein": "0g",
+            "salt": "0g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/09/Crab-apple-jelly-da99f85.jpg",
+        "local_image_path": "images/cuisine/american/crab-apple-jelly.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/beignets/",
+        "title": "Beignets",
+        "description": "Savourez ces beignets croustillants et dorés à la Nouvelle-Orléans. Fabriqués avec du lait concentré, ils sont meilleurs servis chauds avec un généreux saupoudrage de sucre glace.",
+        "prep_time": "20 mins Cook: 20 mins plus overnight chilling",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "4 g de levure sèche à action rapide",
+            "250 g de farine à pain blanche forte, plus un peu pour saupoudrer",
+            "25g de sucre en poudre",
+            "125 g de lait concentré",
+            "1 œuf moyen",
+            "25 g de beurre doux, fondu",
+            "1,5 l d'huile de colza ou végétale, pour le bol et la friture",
+            "sucre glace, pour saupoudrer"
+        ],
+        "method": [
+            "Mélangez la levure, la farine, le sucre et 1 cuillère à café de sel marin dans le bol du batteur sur socle. Fouettez ensemble le lait concentré et l'œuf et versez-les dans le bol avec le beurre fondu et 60 ml d'eau juste bouillie. Pétrir à vitesse moyenne pendant 2 minutes au batteur sur socle, ou pendant 5 minutes sur un plan de travail légèrement fariné, jusqu'à consistance lisse. Formez une boule avec la pâte et mettez-la dans un grand bol légèrement huilé. Couvrir d'un torchon humide et réfrigérer pendant 8 à 24 heures.",
+            "Abaisser la pâte sur un plan de travail légèrement fariné en un rectangle d'environ 20 x 25 cm et environ 1 cm d'épaisseur. Coupez en carrés de 20 x 5 cm.",
+            "Versez l'huile dans une marmite profonde ou une casserole, de sorte qu'elle ne soit pas plus profonde qu'un tiers. Ou utilisez une friteuse. Chauffer l'huile à 175°C. Tapisser une plaque à pâtisserie de papier absorbant. Faites frire les beignets par lots pendant 3 minutes, en les retournant de temps en temps avec des pinces, jusqu'à ce qu'ils soient gonflés et dorés. Soulevez les beignets sur le papier pour les égoutter, puis placez-les sur une grille, saupoudrez généreusement de sucre glace et servez chaud."
+        ],
+        "nutritional_info": {
+            "kcal": "120",
+            "fat": "7g",
+            "saturates": "2g",
+            "carbs": "11g",
+            "sugars": "0g",
+            "fibre": "0.4g",
+            "protein": "2g",
+            "salt": "0.3g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/10/Beignet-722b321.jpg",
+        "local_image_path": "images/cuisine/american/beignets.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/chicken-fried-steak/",
+        "title": "Steak frit au poulet",
+        "description": "Essayez un plat classique du Deep South américain qui fusionne un steak avec du poulet frit du sud. Le steak est enrobé d'un mélange d'épices et frit pour un dîner gourmand",
+        "prep_time": "20 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "2 steaks de queue de filet (environ 200 g chacun) ou 2 steaks de surlonge, parés de gras",
+            "2 oeufs, battus",
+            "1⁄2 cuillère à café de poivre de Cayenne",
+            "légumes verts et épis de maïs cuits à la vapeur, pour servir (facultatif)",
+            "huile végétale, pour la friture",
+            "4 cuillères à soupe de farine nature",
+            "1 cuillère à soupe de farine de maïs",
+            "1 cuillère à café de paprika fumé",
+            "1 cuillère à café de poudre d'ail",
+            "1 cuillère à café de thym séché",
+            "1⁄2 cuillère à café de cumin moulu",
+            "1⁄2 cuillère à café de cannelle moulue",
+            "1⁄2 cuillère à café de poivre noir",
+            "1 cuillère à soupe de farine",
+            "1 cube de bouillon de poulet",
+            "275 ml de lait",
+            "1 cuillère à soupe de feuilles de thym",
+            "un filet de jus de citron"
+        ],
+        "method": [
+            "Mettez les steaks sur une planche et écrasez-les avec un rouleau à pâtisserie jusqu'à environ la moitié de leur épaisseur d'origine. Mélangez les œufs avec le poivre de Cayenne dans un bol. Mélangez les ingrédients du mélange d'épices avec une grosse pincée de sel dans un plat peu profond séparé.",
+            "Trempez les steaks dans l'œuf, puis dans le mélange d'épices en les retournant pour les enrober. Versez l'huile dans une grande poêle antiadhésive jusqu'à ce que le fond de la poêle soit recouvert. Faites frire les steaks à feu vif pendant 2 minutes jusqu'à ce qu'ils soient croustillants, puis retournez-les et faites-les frire encore 2 minutes. Transférer dans une assiette et réserver au chaud.",
+            "Si vous préparez la sauce, jetez toute l'huile de la poêle sauf 1 cuillère à soupe et incorporez la farine et faites cuire jusqu'à ce qu'elle soit dorée. Émietter dans le cube de bouillon. Versez lentement le lait en fouettant jusqu'à ce qu'il soit lisse et complètement incorporé. Réduisez le feu et laissez mijoter pendant 4 à 5 minutes. Saison. Ajoutez le thym et beaucoup de poivre noir, puis pressez le jus de citron au goût. Servir les steaks avec la sauce, ainsi que les légumes verts et le maïs, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "699",
+            "fat": "28g",
+            "saturates": "10g",
+            "carbs": "52g",
+            "sugars": "0g",
+            "fibre": "4g",
+            "protein": "58g",
+            "salt": "2g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/10/Chicken-fried-steak-d0bf9f0.jpg",
+        "local_image_path": "images/cuisine/american/chicken-fried-steak.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/cheese-marmite-spinach-pinwheels/",
+        "title": "Roulés au fromage, marmite et épinards",
+        "description": "Préparez ces moulinets faciles aux saveurs de cheddar, de marmite et d'épinards à servir avec une soupe ou dans le cadre d'un pique-nique familial. Congeler avant la cuisson, si vous préférez",
+        "prep_time": "5 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "320 g de pâte feuilletée légère toute prête",
+            "1 cuillère à soupe de Marmite",
+            "2-3 grosses poignées d'épinards",
+            "80 g de cheddar"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C chaleur tournante/gaz 6. Déroulez la pâte avec le côté le plus long directement devant vous. Étalez la Marmite sur la surface. Déchirez les épinards sur la Marmite et parsemez-les de fromage en veillant à ce qu'ils soient bien répartis.",
+            "Roulez fermement la pâte loin de vous (en commençant par le côté le plus long) pour créer une longue forme de boudin, puis coupez-la en 12 morceaux. Disposer sur deux plaques à pâtisserie recouvertes de papier sulfurisé, côté spirale vers le haut, et écraser un peu avec la main. Restera couvert et congelé à ce stade. Cuire au four pendant 15 à 20 minutes (ou 25 minutes si la cuisson est congelée), jusqu'à ce qu'elle soit gonflée et dorée."
+        ],
+        "nutritional_info": {
+            "kcal": "136",
+            "fat": "9g",
+            "saturates": "5g",
+            "carbs": "9g",
+            "sugars": "0.4g",
+            "fibre": "1g",
+            "protein": "4g",
+            "salt": "0.5g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2020/05/tomato-soup-with-cheese-spinach-pinwheels_0.jpg",
+        "local_image_path": "images/cuisine/american/cheese-marmite-spinach-pinwheels.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/lamingtons/",
+        "title": "Lamington",
+        "description": "Dégustez un lamington avec une tasse de thé chaud. Cette pâtisserie australienne traditionnelle est remplie de crème et de confiture, enrobée d'un glaçage au chocolat et roulée dans de la noix de coco.",
+        "prep_time": "1 hrs Cook: 30 mins plus chilling",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "125 g de beurre salé ramolli, plus un peu pour le moule",
+            "250 g de sucre en poudre doré",
+            "3 gros œufs",
+            "250 g de farine autolevante",
+            "3 cuillères à soupe de lait",
+            "½ cuillère à café de sel",
+            "250 ml de crème fraîche",
+            "2 cuillères à soupe de sucre glace",
+            "200 g de confiture de framboise",
+            "350 g de noix de coco desséchée",
+            "80 g de beurre doux, fondu",
+            "250 ml de lait",
+            "50g de cacao en poudre",
+            "400 g de sucre glace"
+        ],
+        "method": [
+            "Chauffer le four à 200 C/180 C chaleur tournante/gaz 6. Beurrer et tapisser un moule rectangulaire de 20 x 30 cm.",
+            "Battre le beurre et le sucre dans un batteur sur pied jusqu'à ce qu'ils soient pâles et mousseux. Ajoutez les œufs un à un et battez bien. Battre la farine, le lait et le sel jusqu'à ce que le tout soit bien mélangé, puis verser dans le moule. Cuire au four pendant 25 minutes ou jusqu'à ce qu'ils soient dorés et fermes au toucher. Laisser refroidir complètement.",
+            "Coupez la génoise horizontalement pour créer deux moitiés. Coupez les bords pour créer des coins parfaits. Coupez le biscuit en 18 carrés. Fouettez légèrement la crème avec le sucre glace jusqu'à ce qu'elle atteigne des pics mous. Étalez un peu de confiture sur la moitié des carrés de génoise puis pochez ou étalez dessus un peu de crème. Sandwich chacun avec un deuxième carré de biscuit puis réservez au réfrigérateur pour refroidir.",
+            "Pour faire le glaçage, fouettez ensemble le beurre fondu et le lait dans un bol. Tamisez ensemble la poudre de cacao et le sucre glace dans un bol séparé. Ajoutez progressivement le cacao et le sucre au mélange de beurre et de lait, en fouettant continuellement pour vous assurer qu'il n'y a pas de grumeaux. S'il devient grumeleux, mixez-le avec un mixeur plongeant jusqu'à obtenir une consistance lisse.",
+            "Répartissez la noix de coco dans trois bols peu profonds (cela l'empêche d'être enrobée de trop de chocolat pendant que vous la trempez).",
+            "Trempez chaque lamington dans le glaçage jusqu'à ce qu'il soit complètement recouvert. Rouler dans la noix de coco et déposer sur une grille. Répétez avec les éponges restantes. Mettre au frais minimum 1h."
+        ],
+        "nutritional_info": {
+            "kcal": "545",
+            "fat": "31g",
+            "saturates": "22g",
+            "carbs": "58g",
+            "sugars": "47g",
+            "fibre": "5g",
+            "protein": "6g",
+            "salt": "0.6g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2020/01/lamingtons.jpg",
+        "local_image_path": "images/cuisine/american/lamingtons.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/philly-cheesesteak/",
+        "title": "Steak au fromage de Philadelphie",
+        "description": "Empilez le steak, l'oignon, les poivrons, le fromage, le ketchup et la moutarde en rouleaux pour préparer ces cheesesteaks Philly à l'américaine. Juste la nourriture pour une soirée cinéma à",
+        "prep_time": "15 mins Cook: 40 mins plus freezing",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 x 150 g de faux-filet",
+            "2 cuillères à soupe d'huile de tournesol",
+            "1 oignon, tranché",
+            "1 poivron rouge, tranché",
+            "1 poivron vert, tranché",
+            "2 cuillères à soupe de vinaigre de vin blanc",
+            "8 tranches de fromage",
+            "50 g de mozzarella râpée",
+            "4 sous-rouleaux blancs doux",
+            "Moutarde américaine et ketchup, pour servir"
+        ],
+        "method": [
+            "Coupez et jetez le long morceau de graisse qui coule sur le côté des steaks. Coupez chaque steak en deux et disposez-le sur une plaque allant au four, puis transférez au congélateur et congelez pendant 40 minutes.",
+            "Faites chauffer l'huile dans une poêle à fond épais ou une cocotte à feu moyen. Ajoutez l'oignon et les poivrons avec une bonne pincée de sel et faites revenir pendant 20 minutes ou jusqu'à ce que les oignons soient dorés et collants. Ajoutez le vinaigre et laissez cuire encore 5 minutes. Assaisonner au goût.",
+            "À l'aide d'un couteau bien aiguisé, tranchez le steak le plus finement possible et empilez les tranches en quatre portions. Faites chauffer une poêle à feu vif jusqu'à ce qu'elle soit presque fumante. Mettez une portion de tranches de steak dans la poêle en tas qui fait à peu près la longueur de vos petits pains. Faire revenir 3 minutes à feu vif jusqu'à ce qu'une partie du steak soit bien cuite, avec des morceaux roses restants. Empilez dessus un quart du mélange d'oignons, ainsi qu'un quart de chacune des tranches de fromage et de la mozzarella. Continuez à cuire sans être dérangé à feu moyen pendant 5 à 10 minutes jusqu'à ce que la viande soit brune et croustillante sur les bords et que les fromages soient fondus. Ouvrez l'un des rouleaux et versez-y délicatement le mélange de viande et de fromage. Répétez avec le reste de la viande, les oignons, le fromage et les petits pains."
+        ],
+        "nutritional_info": {
+            "kcal": "475",
+            "fat": "25g",
+            "saturates": "11g",
+            "carbs": "29g",
+            "sugars": "8g",
+            "fibre": "4g",
+            "protein": "31g",
+            "salt": "1.7g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2019/07/philly-cheesesteak.jpg",
+        "local_image_path": "images/cuisine/american/philly-cheesesteak.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/pumpkin-pie-2/",
+        "title": "Tarte à la citrouille",
+        "description": "Remplissez un fond de tarte en pâte brisée sucrée avec de la courge légèrement épicée pour en faire une friandise traditionnelle.",
+        "prep_time": "40 mins Cook: 1 hrs 30 mins Plus chilling",
+        "cook_time": "",
+        "serves": "8",
+        "ingredients": [
+            "750 g de citrouille ou de courge musquée, pelée, épépinée et coupée en morceaux",
+            "350 g de pâte brisée sucrée",
+            "farine nature, pour saupoudrer",
+            "140 g de sucre en poudre",
+            "½ cuillère à café de sel",
+            "½ cuillère à café de muscade fraîche, râpée",
+            "1 cuillère à café de cannelle",
+            "2 oeufs, battus",
+            "25 g de beurre fondu",
+            "175 ml de lait",
+            "1 cuillère à soupe de sucre glace"
+        ],
+        "method": [
+            "Mettez le potiron dans une grande casserole, couvrez d'eau et portez à ébullition. Couvrir avec un couvercle et laisser mijoter pendant 15 minutes ou jusqu'à tendreté. Égoutter la citrouille; laisser refroidir.",
+            "Chauffer le four à 180°C/160°C chaleur tournante/gaz. 4. Étalez la pâte sur un plan légèrement fariné et tapissez-la d'un moule à tarte à fond amovible de 22 cm. Mettre au frais 15 min. Tapisser la pâte de papier sulfurisé et de billes de cuisson, puis enfourner pendant 15 minutes. Retirez les haricots et le papier et laissez cuire encore 10 minutes jusqu'à ce que la base soit dorée pâle et biscuitée. Retirer du four et laisser refroidir légèrement.",
+            "Augmentez le four à 220C/200C chaleur tournante/gaz 7. Poussez la citrouille refroidie à travers un tamis dans un grand bol. Dans un autre bol, mélanger le sucre, le sel, la muscade et la moitié de la cannelle. Incorporer les œufs battus, le beurre fondu et le lait, puis ajouter à la purée de potiron et mélanger. Verser dans le fond de tarte et cuire 10 min, puis baisser la température à 180°C/160°C chaleur tournante/gaz 4. Poursuivre la cuisson 35-40 min jusqu'à ce que la garniture soit juste prise.",
+            "Laissez refroidir, puis démoulez la tarte. Mélangez le reste de cannelle avec le sucre glace et saupoudrez-en la tarte. Servir frais."
+        ],
+        "nutritional_info": {
+            "kcal": "357",
+            "fat": "18g",
+            "saturates": "7g",
+            "carbs": "45g",
+            "sugars": "27g",
+            "fibre": "2g",
+            "protein": "5g",
+            "salt": "0.65g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2019/06/pumpkin_pie_0.jpg",
+        "local_image_path": "images/cuisine/american/pumpkin-pie-2.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/next-level-fried-chicken/",
+        "title": "Poulet frit de niveau supérieur",
+        "description": "Choisissez des cuisses désossées pour préparer le poulet frit ultime. Pour l'enrobage, nous avons mis au point une méthode qui permet d'obtenir la finition la plus croustillante jamais vue.",
+        "prep_time": "30 mins Cook: 24 mins Plus at least 4 hrs marinating",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "8 cuisses de poulet désossées et sans peau",
+            "huile de tournesol, pour la friture",
+            "2 cuillères à soupe de paprika",
+            "2 cuillères à café de grains d'ail",
+            "1 cuillère à café de poudre de piment",
+            "1 cuillère à café de poivre noir",
+            "½ cuillère à café d'origan séché",
+            "1 cube de bouillon de poulet",
+            "500 ml de lait entier",
+            "2 cuillères à soupe de vinaigre de cidre ou de vin blanc",
+            "1 oeuf",
+            "100 g de farine autolevante",
+            "100g de farine de maïs",
+            "¼ cuillère à café de curcuma"
+        ],
+        "method": [
+            "Pour préparer le mélange d'épices, mélangez tous les ingrédients. Fouettez le lait avec le vinaigre, l'œuf, ½ cuillère à café de sel et 1 cuillère à soupe de mélange d'épices dans un bol ou un récipient en plastique profond pour faire la marinade au babeurre. Ouvrez les cuisses de poulet et placez-les entre deux morceaux de papier sulfurisé, puis aplatissez-les à l'aide d'un rouleau à pâtisserie. Transférer dans la marinade, puis couvrir et réfrigérer pendant 4 heures ou toute la nuit.",
+            "Préparez l'enrobage en combinant les farines et le curcuma avec la majeure partie du mélange d'épices restant (en réservant 1 cuillère à café) et une généreuse pincée de sel. Égouttez les cuisses de poulet en réservant la marinade. Une à une, draguez chaque cuisse dans la farine, puis trempez-la dans la marinade réservée, puis draguez à nouveau dans la farine en appuyant le plus possible pour bien l'enrober. Transférer les cuisses enrobées dans une grande assiette.",
+            "Faites chauffer 10 cm d'huile dans une casserole peu profonde ou une friteuse jusqu'à ce qu'elle atteigne 175°C. Abaissez deux ou trois cuisses à la fois et faites frire sans les déranger pendant 3 minutes, en vous assurant que la température ne descende pas en dessous de 160°C (elle doit rester à environ 170°C). Retournez les cuisses, puis faites-les frire encore 2-3 minutes jusqu'à ce qu'elles soient profondément dorées et croustillantes des deux côtés. Retirez le poulet et transférez-le sur une plaque recouverte de papier absorbant pour l'égoutter, puis placez-le sur une grille et gardez-le au chaud à four doux pendant que vous faites frire le reste des cuisses.",
+            "Lorsque tout le poulet est frit, mélangez le mélange d'épices réservé avec 1 cuillère à soupe de sel marin feuilleté et saupoudrez sur le poulet pour servir."
+        ],
+        "nutritional_info": {
+            "kcal": "556",
+            "fat": "25g",
+            "saturates": "6g",
+            "carbs": "47g",
+            "sugars": "4g",
+            "fibre": "3g",
+            "protein": "33g",
+            "salt": "2.8g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2019/06/next-level-fried-chicken.jpg",
+        "local_image_path": "images/cuisine/american/next-level-fried-chicken.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/nacho-cheeseburger/",
+        "title": "Cheeseburger aux nachos",
+        "description": "Empilez des hamburgers avec du fromage, du guacamole, du chipotle, de la salsa et des nachos pour une touche piquante et piquante sur un cheeseburger. Les nachos donnent du croquant supplémentaire",
+        "prep_time": "5 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "2 burgers de boeuf",
+            "2 tranches de cheddar",
+            "2 pains burger aux graines de sésame",
+            "2 cuillères à soupe de guacamole",
+            "2 cuillères à soupe de mayonnaise chipotle ou chili",
+            "2 cuillères à soupe de salsa",
+            "une petite poignée de nachos salés",
+            "½ petit bouquet de coriandre, feuilles arrachées"
+        ],
+        "method": [
+            "Chauffer le gril à feu moyen-vif. Placez les hamburgers sur une plaque à pâtisserie et faites-les griller pendant 5 à 8 minutes de chaque côté jusqu'à ce qu'ils soient bien cuits. Pendant la dernière minute, garnissez les burgers de tranches de fromage et faites-les griller jusqu'à ce qu'ils soient fondus. Faire griller légèrement les pains à burger. Répartir le guacamole, les hamburgers, la mayonnaise chipotle ou chili, la salsa et les nachos, brisés, entre chaque petit pain. Terminez par une pincée de coriandre déchirée."
+        ],
+        "nutritional_info": {
+            "kcal": "667",
+            "fat": "34g",
+            "saturates": "11g",
+            "carbs": "58g",
+            "sugars": "6g",
+            "fibre": "4g",
+            "protein": "30g",
+            "salt": "3g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2019/05/fiery-fragrant-burger.jpg",
+        "local_image_path": "images/cuisine/american/nacho-cheeseburger.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/american-burnt-onion-dip/",
+        "title": "Trempette américaine à l'oignon brûlé",
+        "description": "Une délicieuse trempette végétarienne à base de mayonnaise et de crème sure, idéale pour les légumes crus ou le pain pitta grillé",
+        "prep_time": "5 mins Cook: 8 mins",
+        "cook_time": "",
+        "serves": "8",
+        "ingredients": [
+            "1 oignon",
+            "1 cuillère à soupe d'huile d'olive",
+            "150 ml de crème sure",
+            "50 g de mayonnaise",
+            "crudités, pour servir"
+        ],
+        "method": [
+            "Tranchez 1 oignon et mélangez-le avec 1 cuillère à soupe d'huile d'olive. Étalez sur une plaque à pâtisserie et faites griller à feu vif pendant 6 à 8 minutes jusqu'à ce qu'elle soit bien carbonisée, puis laissez refroidir. Hachez et mélangez avec 150 ml de crème sure et 50 g de mayonnaise. Bien assaisonner et réfrigérer jusqu'à ce que vous en ayez besoin. Servir avec des légumes crus, en trempette."
+        ],
+        "nutritional_info": {
+            "kcal": "101",
+            "fat": "10g",
+            "saturates": "3g",
+            "carbs": "2g",
+            "sugars": "2g",
+            "fibre": "0g",
+            "protein": "1g",
+            "salt": "0g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2016/07/burnt-onion-dip-2.jpg",
+        "local_image_path": "images/cuisine/american/american-burnt-onion-dip.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/choc-chip-pecan-pie/",
+        "title": "tarte aux pacanes et aux pépites de chocolat",
+        "description": "Une gourmandise au chocolat et aux noix de pécan avec une pâte au beurre et une garniture gluante dans laquelle tout le monde peut se plonger",
+        "prep_time": "1 hrs Cook: 1 hrs 25 mins plus chilling",
+        "cook_time": "",
+        "serves": "12",
+        "ingredients": [
+            "300 g de farine nature",
+            "75 g de beurre salé coupé en cubes",
+            "100g de fromage frais",
+            "1 cuillère à soupe de sucre glace",
+            "150g de beurre salé",
+            "200 ml de sirop d'érable",
+            "250 g de sucre mou roux clair",
+            "100 g de cassonade foncée",
+            "4 œufs, battus",
+            "1 cuillère à café d'extrait de vanille",
+            "400 g de noix de pécan finement hachées",
+            "200 g de pépites de chocolat noir ou une barre hachées"
+        ],
+        "method": [
+            "Tout d’abord, préparez la pâte. Versez les ingrédients dans un robot culinaire avec 1/4 cuillère à café de sel. Mélangez jusqu'à ce que le mélange ressemble à de la chapelure. Versez 2 à 3 cuillères à café d'eau froide dans l'entonnoir pendant que la lame tourne – le mélange devrait commencer à s'agglutiner. Versez sur un plan de travail et rassemblez en pétrissant brièvement pour former une boule. Formez un disque, enveloppez-le dans du film alimentaire et réservez au frais au moins 20 minutes. Chauffer le four à 200C/180C ventilateur/gaz 6.",
+            "Sortez la pâte du réfrigérateur et laissez-la à température ambiante pendant 5 minutes pour qu'elle ramollisse. Farinez le plan de travail, puis déballez la pâte et étalez-la en un cercle de l'épaisseur d'une pièce de 1 £. Utilisez la pâte pour tapisser un moule rond cannelé profond de 23 cm – le mien mesurait environ 3 cm de profondeur. Pressez la pâte dans les coins et sur les côtés en vous assurant qu'il n'y a pas d'espace. Laisser dépasser 1 cm de pâte (conserver quelques chutes de pâte pour plus tard). Tapisser de papier sulfurisé (le froisser d'abord pour le rendre plus souple) et remplir de fèves au four. Cuire à blanc pendant 15 à 20 minutes jusqu'à ce que les côtés soient pris, puis retirer le papier sulfurisé et les haricots et remettre au four pendant 5 minutes jusqu'à ce qu'ils soient dorés. Coupez la pâte de manière à ce qu'elle affleure le dessus du moule – un petit couteau dentelé est préférable pour cela. S'il y a des fissures, colmatez-les avec les chutes de pâte.",
+            "Pendant ce temps, pesez le beurre, le sirop et les sucres dans une casserole et ajoutez 1/4 cuillère à café de sel. Chauffer jusqu'à ce que le beurre soit fondu et le sucre dissous, en remuant jusqu'à consistance lisse. Retirer du feu et laisser refroidir 10 minutes. Réduire le four à 160°C/140°C chaleur tournante/gaz 3.",
+            "Battez les œufs dans un bol. Ajouter le mélange de sirop, la vanille et les pacanes et mélanger jusqu'à ce que le tout soit bien mélangé. Versez la moitié du mélange dans le fond de tarte, répartissez sur la moitié des pépites de chocolat, puis recouvrez avec le reste de la garniture et les pépites de chocolat. Cuire au four sur la grille du milieu pendant 50 à 55 minutes jusqu'à ce que le tout soit pris. Retirer du four et laisser refroidir, puis réfrigérer au moins 2 heures avant de servir."
+        ],
+        "nutritional_info": {
+            "kcal": "773",
+            "fat": "50g",
+            "saturates": "18g",
+            "carbs": "67g",
+            "sugars": "45g",
+            "fibre": "6g",
+            "protein": "9g",
+            "salt": "0.5g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2016/07/choc-chip-pecan-pie.jpg",
+        "local_image_path": "images/cuisine/american/choc-chip-pecan-pie.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/texas-bbq-medley/",
+        "title": "Mélange de barbecue texan",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Une fois que vous aurez essayé de fumer et de cuire lentement votre poulet, vous serez totalement converti. La saumure sèche assaisonne la viande jusqu'aux os et la garde succulente pendant la cuisson",
+        "prep_time": "20 mins Cook: 6 hrs 40 mins plus 24 hrs brining",
+        "cook_time": "",
+        "serves": "10",
+        "ingredients": [
+            "1 gros poulet",
+            "5 côtes de bœuf (environ 3 kg), côtes séparées",
+            "2 kg d'épaule de porc désossée, sans la couenne",
+            "Sauce barbecue texane",
+            "oignons blancs doux tranchés et cornichons tranchés, pour servir",
+            "8 cuillères à soupe de sel de mer feuilleté de bonne qualité",
+            "2 cuillères à café de graines de fenouil",
+            "1 cuillère à soupe de grains de poivre noir",
+            "3 feuilles de laurier",
+            "2 cuillères à café de poivre de Cayenne",
+            "1 cuillère à soupe de paprika fumé",
+            "2 cuillères à café de sel d'ail",
+            "150 g de sucre roux clair et mou",
+            "50 g de sucre en poudre doré",
+            "copeaux de bois (facultatif)"
+        ],
+        "method": [
+            "Vous devrez saumurer la viande au moins 24 heures avant votre barbecue. Tout d’abord, spatchockez le poulet. Retournez le poulet de manière à ce que la colonne vertébrale soit face à vous. Utilisez une solide paire de ciseaux de cuisine ou de volaille pour couper chaque côté de la colonne vertébrale, puis jetez-la. Retournez le poulet et appuyez fermement sur le sternum pour aplatir l'oiseau. Faites quelques entailles dans chaque articulation de la jambe. (Regardez une vidéo montrant comment spatchcock un poulet sur bbcgoodfood.com/videos/spatchcock.)",
+            "Mettez chaque morceau de viande dans un grand sac séparé et refermable. Saupoudrez 1 cuillère à soupe de sel dans chaque sac et massez-la sur toute la viande. Pressez l'air des sacs, fermez hermétiquement et mettez au réfrigérateur pendant 24 heures.",
+            "Versez le reste du sel, les graines de fenouil et les grains de poivre dans un mortier. Déchirez la baie en petits morceaux et ajoutez-la également. Écrasez les ingrédients avec le pilon jusqu'à ce qu'ils soient finement moulus. Ajouter le poivre de Cayenne, le paprika, le sel d'ail et les sucres et bien mélanger. Retirez la viande des sacs et séchez-la avec du papier absorbant. Couvrez chaque coupure avec le frottement, en vous assurant d'entrer dans tous les recoins. Remettez au réfrigérateur pendant au moins 1 à 2 heures pendant que vous préparez le barbecue, ou jusqu'à 24 heures.",
+            "Vous devrez démarrer le barbecue 7 à 8 heures avant de vouloir manger. Faites chauffer les charbons et laissez-les jusqu'à ce qu'ils soient cendrés. Ajoutez vos copeaux de bois, si vous en utilisez. Lorsque les flammes se sont éteintes et qu'il vous reste des cendres fumées, poussez les braises et les copeaux de bois d'un côté de la fosse du barbecue, puis replacez le gril et ajoutez le bœuf et le porc, en les plaçant au-dessus du côté vide de la fosse – cela garantira que la viande fume mais ne brûle pas. Baissez le couvercle et faites cuire la viande pendant 30 à 40 minutes, en la retournant de temps en temps, jusqu'à ce qu'une croûte sombre se forme autour de la viande. N'ayez pas peur d'aller assez loin, la croûte doit être presque noire (mais caramélisée plutôt que brûlée). Chauffer le four à 140°C/120°C chaleur tournante/gaz 1.",
+            "Transférez la viande dans des plats à rôtir, enveloppez-la bien dans du papier d'aluminium et faites cuire au four pendant 5 à 6 heures jusqu'à ce qu'elle soit vraiment tendre.",
+            "Lorsqu'il reste 1 h à 1 h 30 à la viande, réchauffez le barbecue et attendez que les braises deviennent cendrées avant d'ajouter d'autres copeaux de bois. Lorsque les flammes se sont éteintes, poussez d'un côté comme avant. Mettez le poulet sur le BBQ, côté os vers le bas, au-dessus du côté vide de la fosse. Cuire 20 à 25 minutes de chaque côté ou jusqu'à ce qu'il soit bien cuit – vérifiez en perçant une jambe pour voir si le jus est clair, ou utilisez un thermomètre à viande pour vérifier que la température interne a atteint 70 °C. Envelopper hermétiquement dans du papier d'aluminium et laisser reposer.",
+            "Au bout de 5 à 6 heures, le bœuf et le porc devraient être bien tendres. Sortir du four et laisser reposer 15 min. Si vous avez préparé une sauce barbecue (voir la recette de la sauce barbecue Texas ici), badigeonnez-en la viande pour une finition brillante. Retirez toute ficelle du porc et effilochez la viande. Coupez le poulet en portions et servez le tout sur une grande assiette avec les oignons doux émincés, les cornichons et les accompagnements."
+        ],
+        "nutritional_info": {
+            "kcal": "990",
+            "fat": "71g",
+            "saturates": "26g",
+            "carbs": "23g",
+            "sugars": "23g",
+            "fibre": "1g",
+            "protein": "64g",
+            "salt": "11.5g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2016/07/texas-bbq-medley-.jpg",
+        "local_image_path": "images/cuisine/american/texas-bbq-medley.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/diner-sloppy-joes/",
+        "title": "Dîner sloppy joes",
+        "description": "Un incontournable américain simple dans lequel toute la famille peut se retrouver. Ajoutez une pincée de chipotle épicé ou de sauce barbecue fumée pour apporter un peu de piquant",
+        "prep_time": "5 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "1 cuillère à soupe d'huile végétale",
+            "1 oignon, finement haché",
+            "2 petits poivrons rouges ou jaunes, hachés finement",
+            "2 gousses d'ail, écrasées",
+            "400 g de bœuf haché",
+            "2 boîtes de 400 ml de tomates concassées",
+            "2 cuillères à soupe de sauce barbecue chipotle ou fumée",
+            "4 tranches de fromage",
+            "6 pains à burger",
+            "oignons croustillants, pour servir",
+            "laitue iceberg, pour servir"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une poêle, puis faites revenir l'oignon, le poivron et l'ail pendant 8 à 10 minutes jusqu'à ce qu'ils soient ramollis. Ajoutez le hachis en le brisant avec une cuillère en bois au fur et à mesure et remuez jusqu'à ce qu'il soit entièrement doré. Versez les tomates et le chipotle, ou la sauce barbecue, et ajoutez un peu d'assaisonnement. Laisser mijoter 10 à 15 minutes jusqu'à ce que la sauce épaississe.",
+            "Mettez les tranches de fromage sur le hachis et couvrez avec un couvercle pendant 2 minutes pour le laisser fondre dans la sauce. Empilez-les dans les petits pains avec les oignons croustillants et la laitue à côté pour récupérer le surplus de sauce."
+        ],
+        "nutritional_info": {
+            "kcal": "499",
+            "fat": "20g",
+            "saturates": "8g",
+            "carbs": "51g",
+            "sugars": "12g",
+            "fibre": "5g",
+            "protein": "26g",
+            "salt": "1.7g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2016/07/diner-sloppy-joes.jpg",
+        "local_image_path": "images/cuisine/american/diner-sloppy-joes.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/cornbread/",
+        "title": "Pain de maïs",
+        "description": "Vous pouvez préparer ce pain de maïs à l'avance pour un brunch gratuit à déguster en quelques minutes. Garnir d'œufs à la diable et d'avocat ou de chili con carne pour un déjeuner copieux",
+        "prep_time": "20 mins Cook: 50 mins plus cooling",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "50 g de beurre légèrement salé fondu, un peu pour graisser",
+            "250 g de polenta fine ou de semoule de maïs, plus un peu pour saupoudrer",
+            "Boîte de 325 g de maïs doux égoutté",
+            "250 ml de babeurre",
+            "4 gros œufs",
+            "1 cuillère à soupe de sucre en poudre doré",
+            "100 g de farine nature",
+            "2 cuillères à café de levure chimique",
+            "1 cuillère à café de bicarbonate de soude"
+        ],
+        "method": [
+            "Chauffer le four à 180°C/160°C chaleur tournante/gaz 4 et badigeonner un moule à cake de 900 g de beurre fondu, puis saupoudrer de polenta et secouer l'excédent. Versez 175 g de maïs doux dans un robot culinaire avec le reste des ingrédients et 1 cuillère à café de sel. Mélangez jusqu'à consistance lisse, puis retirez la lame et incorporez la majeure partie du maïs doux restant.",
+            "Versez la pâte dans le moule, répartissez le reste de maïs doux et faites cuire au four pendant 45 à 50 minutes jusqu'à ce qu'elle soit levée et dorée. Insérez une brochette au centre – elle doit ressortir avec quelques miettes humides, mais le mélange ne doit pas être mouillé. Remettez au four encore 5 à 10 minutes si nécessaire, puis testez à nouveau.",
+            "Refroidissez le pain dans son moule pendant 10 minutes, puis transférez-le sur une grille pour qu'il refroidisse. Se conserve, enveloppé dans un film alimentaire, jusqu'à 3 jours, ou se congèle en tranches jusqu'à 2 mois."
+        ],
+        "nutritional_info": {
+            "kcal": "241",
+            "fat": "7g",
+            "saturates": "3g",
+            "carbs": "36g",
+            "sugars": "6g",
+            "fibre": "1g",
+            "protein": "7g",
+            "salt": "0.9g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2016/02/cornbread2.jpg",
+        "local_image_path": "images/cuisine/american/cornbread.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/safe-eat-uncooked-cookie-dough/",
+        "title": "Pâte à biscuits non cuite, sans danger pour la consommation",
+        "description": "Qui n’aime pas la pâte à biscuits et celle-ci ne prend que quelques minutes à préparer. Conservez-en un lot au réfrigérateur, mangez-le à la cuillère, servez-le avec de la glace, ou moulez-le, façonnez-le et colorez-le avec un colorant alimentaire comme un Play-Doh comestible !",
+        "prep_time": "10 mins No cook",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "100 g de beurre ramolli à température ambiante",
+            "175 g de cassonade molle",
+            "2 cuillères à café d'extrait de vanille",
+            "140 g de farine nature",
+            "2 cuillères à soupe de lait entier"
+        ],
+        "method": [
+            "Battre le beurre et le sucre ensemble, de préférence au batteur. Ajoutez la vanille, 1/2 cuillère à café de sel et la farine, puis mélangez jusqu'à obtenir de la chapelure. Continuez à mélanger pendant que vous ajoutez le lait et vous avez terminé – une pâte à biscuits crue délicieuse et sûre. Si ce n’est pas assez étonnant comme ça, alors devenez fou avec ces arômes :",
+            "Pâte au caramel salé : faites tourner 1 cuillère à soupe de dulce de leche dans la pâte, plus 1/2 cuillère à café de sel et une poignée de pépites de chocolat noir.",
+            "Pâte à biscuits S'more : ajoutez 1 cuillère à soupe de Nutella, 2 biscuits digestifs émiettés et quelques mini guimauves.",
+            "Pâte aux pommes et à la cannelle : ajoutez quelques petits morceaux de pomme séchée et une pincée de sucre à la cannelle (1 cuillère à café de cannelle mélangée à 1 cuillère à soupe de cassonade molle).",
+            "Pâte paradisiaque aux cacahuètes : Ajoutez 1 cuillère à soupe de beurre de cacahuète et une poignée de M&Ms aux cacahuètes."
+        ],
+        "nutritional_info": {
+            "kcal": "165",
+            "fat": "7g",
+            "saturates": "4g",
+            "carbs": "23g",
+            "sugars": "14g",
+            "fibre": "1g",
+            "protein": "1g",
+            "salt": "0.4g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2016/02/safe-to-eat-uncooked-cookie-dough.jpg",
+        "local_image_path": "images/cuisine/american/safe-eat-uncooked-cookie-dough.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/all-american-t-bone/",
+        "title": "T-bone entièrement américain",
+        "description": "Pour un souper spécial, essayez cette coupe américaine classique de surlonge. Le steak a un os en forme de T avec de la viande de chaque côté, parfait pour partager",
+        "prep_time": "5 mins Cook: 12 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "700 g de steak T-bone",
+            "2 gousses d'ail, écrasées",
+            "½ petit paquet de thym",
+            "½ cuillère à soupe d'huile d'olive",
+            "50g de beurre"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C chaleur tournante/gaz 6. Mettez une plaque chauffante allant au four sur feu vif. Assaisonnez le steak des deux côtés, puis frottez les deux côtés avec les gousses d'ail, le thym et l'huile d'olive. Mettez le steak dans la poêle chaude et carbonisez le dessous pendant 2 minutes ou jusqu'à ce que des lignes de plaque apparaissent. Retournez le steak pour dorer l'autre face, frottez à nouveau le dessus avec le thym, puis déposez le thym et l'ail sur la viande.",
+            "Une fois uniformément dorés avec les lignes de la plaque chauffante, mettez le thym et l'ail de côté, tenez le steak avec une paire de pinces pour cuire son côté gras et faites-le fondre pour qu'il soit moelleux plutôt que grumeleux. Cela prendra quelques minutes. Reposez le steak à plat, mettez le thym, l'ail et le beurre dessus et transférez la poêle au four pour terminer la cuisson pendant 4-5 minutes, jusqu'à ce que la viande atteigne 62-65°C sur un thermomètre à sonde (ou jusqu'à ce qu'elle soit cuite à votre goût).",
+            "Laissez reposer la viande pendant 5 à 6 minutes. Servir sur une planche ou une grande assiette au milieu de la table."
+        ],
+        "nutritional_info": {
+            "kcal": "808",
+            "fat": "64g",
+            "saturates": "31g",
+            "carbs": "1g",
+            "sugars": "0g",
+            "fibre": "0g",
+            "protein": "57g",
+            "salt": "0.6g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2016/01/all-american-t-bone.jpg",
+        "local_image_path": "images/cuisine/american/all-american-t-bone.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/malt-hot-chocolate-smores/",
+        "title": "S'mores au chocolat chaud au malt",
+        "description": "Essayez une variante des s'mores à la guimauve et au chocolat à l'américaine en remplaçant les crackers traditionnels par des biscuits maltés",
+        "prep_time": "3 mins Cook: 3 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "16 biscuits au lait malté",
+            "8 carrés de chocolat au lait",
+            "8 guimauves (de marque végétarienne, si nécessaire)"
+        ],
+        "method": [
+            "Préchauffer le gril à feu vif et tapisser une grande plaque à pâtisserie de papier sulfurisé. Disposez les 16 laits maltés sur le plateau avec un carré de chocolat au lait sur 8 et une guimauve sur les 8 restants. Grillez jusqu'à ce que les deux soient fondus.",
+            "Sandwichez les deux types différents l'un sur l'autre jusqu'à ce qu'ils suintent sur les bords et mangez chauds ou trempés dans un chocolat chaud pour une saveur chocolatée supplémentaire."
+        ],
+        "nutritional_info": {
+            "kcal": "240",
+            "fat": "11g",
+            "saturates": "6g",
+            "carbs": "30g",
+            "sugars": "21g",
+            "fibre": "1g",
+            "protein": "3g",
+            "salt": "0.2g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/malted-milk-smore.jpg",
+        "local_image_path": "images/cuisine/american/malt-hot-chocolate-smores.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/caesar-salad-with-crispy-chicken/",
+        "title": "Salade César au poulet croustillant",
+        "description": "Il vous reste du poulet du dîner ? Utilisez-le dans une salade croustillante avec une vinaigrette César crémeuse",
+        "prep_time": "5 mins No cook",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 cuisses de poulet croustillantes, tranchées (voir Astuce)",
+            "125 ml de mayonnaise légère",
+            "jus d'1 citron",
+            "1 cuillère à soupe de sauce Worcestershire",
+            "50 g de parmesan râpé, plus un peu pour servir (facultatif)",
+            "1 gousse d'ail, écrasée",
+            "50g croûtons",
+            "1 grosse laitue Cos ou 4 Little Gem, coupées en morceaux"
+        ],
+        "method": [
+            "Dans un grand bol, mélanger la mayonnaise,\r\njus de citron, sauce Worcestershire,\r\nParmesan râpé et ail, puis assaisonner.\r\nAu moment de manger, ajoutez le poulet\r\ntranches, croûtons et laitue. Bien mélanger et\r\nsaupoudrer de parmesan supplémentaire, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "368",
+            "fat": "19g",
+            "saturates": "5g",
+            "carbs": "21g",
+            "sugars": "5g",
+            "fibre": "2g",
+            "protein": "28g",
+            "salt": "1.9g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/user-collections/my-colelction-image/2015/12/recipe-image-legacy-id--911561_11.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/new-york-cheesecake/",
+        "title": "Cheesecake new-yorkais",
+        "description": "Cet authentique dessert crémeux ajoutera une touche new-yorkaise à n'importe quelle table à manger.",
+        "prep_time": "20 mins Cook: 1 hrs 10 mins Plus 2 hours cooling + 8 hours chilling",
+        "cook_time": "",
+        "serves": "12",
+        "ingredients": [
+            "85 g de beurre fondu, plus un peu pour le moule",
+            "140 g de biscuits digestifs réduits en chapelure fine",
+            "1 cuillère à soupe de sucre granulé ou doré",
+            "3 paquets de 300 g/11 oz de fromage Philadelphia ou autre fromage à pâte molle entier",
+            "250 g de sucre en poudre doré",
+            "3 cuillères à soupe de farine nature",
+            "1½ cuillère à café d'extrait de vanille",
+            "le zeste finement râpé d'un citron (environ 2 cuillères à café)",
+            "1½ cuillère à café de jus de citron",
+            "3 gros œufs et 1 jaune",
+            "284 ml de crème sure",
+            "142 ml de crème sure",
+            "1 cuillère à soupe de sucre en poudre doré",
+            "2 cuillères à café de jus de citron"
+        ],
+        "method": [
+            "Placez une grille de four au milieu du four. Préchauffer le four à chaleur tournante 160°C/conventionnel 180°C/gaz 4. Tapisser le fond d'un moule à charnière de 23 cm de papier sulfurisé. Pour la croûte, faire fondre le beurre dans une poêle moyenne. Incorporer la chapelure de biscuits et le sucre pour que le mélange soit uniformément humidifié. Versez le mélange au fond du moule et enfournez pour 10 minutes. Laisser refroidir sur une grille pendant la préparation de la garniture.",
+            "Pour la garniture, augmentez la température du four à 200 °C/ventilateur 240 °C/gaz 9. Dans un batteur de table équipé de la palette, battez le fromage à pâte molle à vitesse moyenne-basse jusqu'à ce qu'il soit crémeux, environ 2 minutes. Avec le batteur à feu doux, ajoutez progressivement le sucre, puis la farine et une pincée de sel en raclant deux fois les parois du bol et la palette.",
+            "Remplacez l'accessoire de palette par le fouet. Continuez en ajoutant la vanille, le zeste et le jus de citron. Incorporer les œufs et le jaune, un à la fois, en raclant le bol et en fouettant au moins deux fois. Remuez le carton de 284 ml de crème sure jusqu'à consistance lisse, puis mesurez 200 ml/7 fl oz (un peu plus de 3,4 du carton). Continuez à basse vitesse en ajoutant la crème sure mesurée (réservez le reste). Fouettez pour mélanger, mais ne battez pas trop. La pâte doit être lisse, légère et légèrement aérée.",
+            "Badigeonnez les côtés du moule à charnière de beurre fondu et déposez-le sur une plaque à pâtisserie. Versez la garniture - s'il y a des grumeaux, enfoncez-les à l'aide d'un couteau - le dessus doit être le plus lisse possible. Cuire au four 10 minutes. Réduisez la température du four à 90 °C ventilé/conventionnel 110 °C/gaz 1 ? 4 et faites cuire encore 25 minutes. Si vous secouez doucement le moule, la garniture devrait légèrement trembler. Éteignez le four et ouvrez la porte du four pour un cheesecake crémeux au centre, ou laissez-la fermée si vous préférez une texture plus sèche. Laisser refroidir au four pendant 2 heures. Le dessus du cheesecake peut se fissurer légèrement en refroidissant.",
+            "Mélangez la crème sure réservée avec le carton de 142 ml, le sucre et le jus de citron pour le topping. Étaler sur le cheesecake jusqu'aux bords. Couvrir légèrement de papier d'aluminium et réfrigérer pendant au moins 8 heures ou toute la nuit.",
+            "Passez un couteau à lame ronde sur les côtés du moule pour desserrer les bords coincés. Déverrouillez le côté, faites glisser le cheesecake du fond du moule sur une assiette, puis faites glisser le papier sulfurisé par le dessous."
+        ],
+        "nutritional_info": {
+            "kcal": "549",
+            "fat": "41g",
+            "saturates": "24g",
+            "carbs": "37g",
+            "sugars": "25g",
+            "fibre": "1g",
+            "protein": "11g",
+            "salt": "1.04g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/user-collections/my-colelction-image/2015/12/recipe-image-legacy-id--1001487_11.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/cobb-salad-with-buttermilk-ranch-dressing/",
+        "title": "Salade Cobb avec vinaigrette ranch au babeurre",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Obtenez trois de vos cinq par jour avec cette salade de poulet et de bacon, qui peut être adaptée pour utiliser des restes de dinde et regorge de protéines et de vitamines.",
+        "prep_time": "15 mins No cook",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "2 laitues Baby Gem, feuilles séparées",
+            "1 avocat, dénoyauté et tranché",
+            "2 tomates italiennes, hachées",
+            "3 tranches de bacon croustillant cuit",
+            "140 g de poitrine de dinde ou de poulet cuit, coupé en bouchées",
+            "2 œufs durs, coupés en morceaux",
+            "75 ml de babeurre",
+            "2 cuillères à soupe de mayonnaise légère",
+            "1 cuillère à soupe de vinaigre de vin blanc",
+            "1 cuillère à soupe d'aneth haché",
+            "½ gousse d'ail, écrasée"
+        ],
+        "method": [
+            "Dans un petit bol, fouetter la vinaigrette\r\ningrédients avec un peu de sel.\r\nDisposer les ingrédients de la salade séparément\r\nsur 2 assiettes ou un plateau, et servir avec\r\nle dressing sur le côté."
+        ],
+        "nutritional_info": {
+            "kcal": "472",
+            "fat": "30g",
+            "saturates": "8g",
+            "carbs": "8g",
+            "sugars": "7g",
+            "fibre": "4g",
+            "protein": "43g",
+            "salt": "2.5g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--851480_10.jpg",
+        "local_image_path": "images/cuisine/american/cobb-salad-with-buttermilk-ranch-dressing.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/salt-beef-club-with-cajun-fries/",
+        "title": "Club de bœuf salé et frites cajun",
+        "description": "Un délicieux dîner solo composé d'un sandwich étagé avec des tranches de bœuf, une vinaigrette crémeuse et des frites maison",
+        "prep_time": "10 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "1",
+        "ingredients": [
+            "1 grosse pomme de terre, coupée en fines chips",
+            "2 cuillères à café d'huile d'olive",
+            "½ cuillère à café d'assaisonnement cajun",
+            "1 cuillère à soupe bombée de mayonnaise",
+            "1 cuillère à café de ciboulette hachée",
+            "1 cuillère à café de moutarde de Dijon",
+            "3 tranches de pain blanc ou brun, légèrement grillées",
+            "2 radis, tranchés finement",
+            "1 bébé ou ½ avocat, tranché",
+            "2 tranches de bœuf salé",
+            "quelques feuilles de laitue Little Gem"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C ventilateur/gaz 6.\r\nPlacer les chips sur une plaque antiadhésive\r\nplaque à pâtisserie, mélanger avec l'huile et le cajun\r\nassaisonner, puis étaler dans un\r\nune seule couche. Mettez au four et\r\ncuire au four, en retournant une fois, pendant 20-25 minutes\r\nou jusqu'à ce qu'ils soient dorés et croustillants. Saison.",
+            "Pendant ce temps, mélangez la mayonnaise,\r\nciboulette et moutarde dans un petit\r\nbol et assaisonner. Étalez le mélange sur 2 tranches de pain.\r\nCouche 1 tranche à tartiner avec des radis\r\net avocat. Placez l'autre tranche,\r\ncôté tartiné vers le haut, sur le dessus et ajouter\r\nle bœuf salé et la laitue. Haut\r\navec la tranche finale.",
+            "Découpé et sécurisé avec un cocktail\r\ndes bâtonnets si vous le souhaitez, puis servez\r\nà côté des frites."
+        ],
+        "nutritional_info": {
+            "kcal": "825",
+            "fat": "54g",
+            "saturates": "10g",
+            "carbs": "63g",
+            "sugars": "6g",
+            "fibre": "8g",
+            "protein": "21g",
+            "salt": "2.6g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--950601_10.jpg",
+        "local_image_path": "images/cuisine/american/salt-beef-club-with-cajun-fries.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/simple-seafood-chowder/",
+        "title": "Chaudrée de fruits de mer simple",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Une soupe épaisse et crémeuse au saumon et à l'aiglefin fumé, un mélange de crustacés et de pommes de terre – un repas copieux.",
+        "prep_time": "15 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "1 cuillère à soupe d'huile végétale",
+            "1 gros oignon, haché",
+            "100 g de bacon en tranches, haché",
+            "1 cuillère à soupe de farine nature",
+            "600 ml de bouillon de poisson, préparé à partir d'un cube de bouillon de poisson",
+            "225 g de pommes de terre nouvelles, coupées en deux",
+            "pincer la masse",
+            "pincée de poivre de Cayenne",
+            "300 ml de lait",
+            "Paquet de 320 g de préparation pour tarte au poisson (saumon, aiglefin et aiglefin fumé)",
+            "4 cuillères à soupe de crème liquide",
+            "Paquet de 250 g de coquillages mélangés cuits",
+            "petit bouquet de persil haché",
+            "pain croustillant, pour servir"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une grande casserole\r\nfeu moyen, puis ajoutez l'oignon et\r\nbacon. Cuire 8 à 10 minutes jusqu'à ce que l'oignon\r\nest mou et le bacon est cuit. Incorporer\r\nla farine, puis laissez cuire encore 2 min.",
+            "Versez le bouillon de poisson et faites monter\r\nà feu doux. Ajoutez les pommes de terre,\r\ncouvrir, puis laisser mijoter 10 à 12 minutes jusqu'à ce que\r\nles pommes de terre sont bien cuites.",
+            "Ajouter le macis, le poivre de Cayenne et\r\nun peu d'assaisonnement, puis incorporer le lait.",
+            "Versez le mélange pour tarte au poisson dans la poêle,\r\nlaisser mijoter doucement pendant 4 minutes. Ajoutez le\r\ncrème et crustacés, puis laisser mijoter\r\npendant 1 minute de plus. Vérifiez l'assaisonnement.\r\nSaupoudrer de persil et servir\r\navec du pain croustillant."
+        ],
+        "nutritional_info": {
+            "kcal": "422",
+            "fat": "19g",
+            "saturates": "6g",
+            "carbs": "21g",
+            "sugars": "9g",
+            "fibre": "4g",
+            "protein": "41g",
+            "salt": "2.3g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--950519_11.jpg",
+        "local_image_path": "images/cuisine/american/simple-seafood-chowder.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/pumpkin-pie/",
+        "title": "Tarte à la citrouille",
+        "description": "Remplissez un fond de tarte en pâte brisée sucrée avec de la courge légèrement épicée pour préparer une friandise américaine traditionnelle.",
+        "prep_time": "40 mins Cook: 1 hrs 30 mins Plus chilling",
+        "cook_time": "",
+        "serves": "8",
+        "ingredients": [
+            "750 g de citrouille ou de courge musquée, pelée, épépinée et coupée en morceaux",
+            "350 g de pâte brisée sucrée",
+            "farine nature, pour saupoudrer",
+            "140 g de sucre en poudre",
+            "½ cuillère à café de sel",
+            "½ cuillère à café de muscade fraîche, râpée",
+            "1 cuillère à café de cannelle",
+            "2 oeufs, battus",
+            "25 g de beurre fondu",
+            "175 ml de lait",
+            "1 cuillère à soupe de sucre glace"
+        ],
+        "method": [
+            "Mettez le potiron dans une grande casserole, couvrez d'eau et portez à ébullition. Couvrir avec un couvercle et laisser mijoter pendant 15 minutes ou jusqu'à tendreté. Égoutter la citrouille; laisser refroidir.",
+            "Chauffer le four à 180°C/160°C chaleur tournante/gaz. 4. Étalez la pâte sur un plan légèrement fariné et tapissez-la d'un moule à tarte à fond amovible de 22 cm. Mettre au frais 15 min. Tapisser la pâte de papier sulfurisé et de billes de cuisson, puis enfourner pendant 15 minutes. Retirez les haricots et le papier et laissez cuire encore 10 minutes jusqu'à ce que la base soit dorée pâle et biscuitée. Retirer du four et laisser refroidir légèrement.",
+            "Augmentez le four à 220C/200C chaleur tournante/gaz 7. Poussez la citrouille refroidie à travers un tamis dans un grand bol. Dans un autre bol, mélanger le sucre, le sel, la muscade et la moitié de la cannelle. Incorporez les œufs battus, le beurre fondu et le lait, puis ajoutez à la purée de potiron et mélangez. Verser dans le fond de tarte et cuire 10 min, puis baisser la température à 180°C/160°C chaleur tournante/gaz 4. Poursuivre la cuisson 35-40 min jusqu'à ce que la garniture soit juste prise.",
+            "Laissez refroidir, puis démoulez la tarte. Mélangez le reste de cannelle avec le sucre glace et saupoudrez-en la tarte. Servir frais."
+        ],
+        "nutritional_info": {
+            "kcal": "357",
+            "fat": "18g",
+            "saturates": "7g",
+            "carbs": "45g",
+            "sugars": "27g",
+            "fibre": "2g",
+            "protein": "5g",
+            "salt": "0.65g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--801482_11.jpg",
+        "local_image_path": "images/cuisine/american/pumpkin-pie.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/griddled-chicken-and-corn-on-the-cob-salad/",
+        "title": "Salade de poulet grillé et épis de maïs",
+        "description": "Grillez du maïs doux entier et servez-le avec du poulet épicé au paprika et du Little Gem croustillant pour une salade saine et rapide.",
+        "prep_time": "15 mins Cook: 20 mins Plus marinating",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "4 petites poitrines de poulet sans peau",
+            "2 gousses d'ail, écrasées",
+            "1 cuillère à soupe de paprika",
+            "jus d'1 citron",
+            "2 cuillères à soupe d'huile d'olive",
+            "2 épis de maïs",
+            "4 laitues Little Gem, coupées en quartiers dans le sens de la longueur",
+            "½ concombre, coupé en dés"
+        ],
+        "method": [
+            "Couper les poitrines de poulet en deux\r\ndans le sens de la longueur pour qu'il vous reste\r\n8 lanières de poulet. Mélangez l'ail,\r\npaprika, jus de citron et 1 cuillère à soupe\r\nhuile avec un peu d'assaisonnement et\r\nmélanger avec le poulet. Laisser à\r\nlaisser mariner au moins 15 minutes.",
+            "Faites chauffer une poêle et un pinceau\r\navec la moitié de l'huile restante et\r\ncuire le poulet pendant 3-4 minutes chacun\r\ncôté jusqu’à ce qu’il soit bien cuit. Brosser\r\nle reste de l'huile et faire griller le maïs\r\népis, en les retournant pour cuire uniformément, pendant environ\r\n5 minutes ou jusqu'à ce qu'ils soient légèrement carbonisés. Supprimer\r\net coupez les grains.",
+            "Mélangez la laitue et le concombre, dessus\r\navec le maïs et le poulet, et arroser\r\nsur votre choix de tenue vestimentaire."
+        ],
+        "nutritional_info": {
+            "kcal": "236",
+            "fat": "8g",
+            "saturates": "1g",
+            "carbs": "12g",
+            "sugars": "4g",
+            "fibre": "3g",
+            "protein": "28g",
+            "salt": "0.2g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2012/06/griddled-chicken.jpg",
+        "local_image_path": "images/cuisine/american/griddled-chicken-and-corn-on-the-cob-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/key-lime-pie/",
+        "title": "Tarte au citron vert",
+        "description": "Ce dessert crémeux sans produits laitiers est naturellement sucré et utilise entièrement des ingrédients crus, avec une croûte de dattes, de noix et de noix de coco et une garniture crémeuse à l'avocat et aux noix de cajou.",
+        "prep_time": "25 mins plus 3 hrs chilling",
+        "cook_time": "",
+        "serves": "12",
+        "ingredients": [
+            "300 g de nobs de cuisson",
+            "150 g de beurre fondu",
+            "1 boîte de 397 g de lait concentré (nous avons utilisé Nestlé)",
+            "3 jaunes d'œufs moyens",
+            "le zeste finement râpé et le jus de 4 citrons verts",
+            "300 ml de crème fraîche",
+            "1 cuillère à soupe de sucre glace",
+            "zeste de citron vert supplémentaire, pour décorer"
+        ],
+        "method": [
+            "Chauffer le four à 160°C/ventilateur 140°C/gaz 3. Réduisez les biscuits en miettes au robot culinaire (ou mettez-les dans un sac en plastique solide et écrasez-les avec un rouleau à pâtisserie). Mélanger avec le beurre fondu et presser dans le fond et sur les côtés d'un moule à tarte à fond libre de 22 cm. Cuire au four pendant 10 minutes. Retirer et laisser refroidir.",
+            "Mettez les jaunes d'œufs dans un grand bol et fouettez pendant une minute avec des batteurs électriques. Ajoutez le lait concentré et fouettez pendant 3 minutes puis ajoutez le zeste et le jus et fouettez à nouveau pendant 3 minutes.\r\nVersez la garniture dans le fond refroidi puis remettez au four pendant 15 minutes. Laisser refroidir puis réfrigérer pendant au moins 3 heures ou toute la nuit si vous le souhaitez.",
+            "Au moment de servir, retirez délicatement la tarte du moule et disposez-la sur une assiette de service. Pour décorer, fouettez délicatement la crème et le sucre glace. Versez ou déposez la crème sur le dessus de la tarte et terminez avec du zeste de citron vert supplémentaire."
+        ],
+        "nutritional_info": {
+            "kcal": "477",
+            "fat": "38g",
+            "saturates": "20g",
+            "carbs": "26g",
+            "sugars": "22g",
+            "fibre": "5g",
+            "protein": "7g",
+            "salt": "0.4g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/key-lime-pie.jpg",
+        "local_image_path": "images/cuisine/american/key-lime-pie.jpg"
+    }
+]

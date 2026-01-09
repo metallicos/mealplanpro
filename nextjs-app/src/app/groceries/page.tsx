@@ -2,8 +2,15 @@
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useUser } from '@/contexts/UserContext';
-import { groceryItemTemplates, categoryIcons, categoryNames, searchGroceryItems } from '@/lib/grocery-items';
+import { groceryItemTemplates, categoryNames, searchGroceryItems } from '@/lib/grocery-items';
 import type { GroceryItemTemplate } from '@/lib/grocery-items';
+import {
+    ShoppingCart, Printer, Copy, Search, Filter, Trash2,
+    Plus, Check, AlertTriangle, Calendar, DollarSign,
+    Package, List, Edit2, Beef, Wheat, Carrot, Apple,
+    Milk, Droplet, Utensils, Coffee, Cookie, CakeSlice,
+    SprayCan, Smile, Baby, Dog, Box
+} from 'lucide-react';
 
 interface GroceryItem extends GroceryItemTemplate {
     id: number;
@@ -402,7 +409,27 @@ export default function GroceriesPage() {
     }
 
     // Get all unique categories from current items
-    const usedCategories = [...new Set(items.map(i => i.category))];
+    // Category Icon Helper
+    const getCategoryIcon = (category: string) => {
+        switch (category) {
+            case 'protein': return <Beef className="w-4 h-4" />;
+            case 'carbs': return <Wheat className="w-4 h-4" />;
+            case 'vegetables': return <Carrot className="w-4 h-4" />;
+            case 'fruits': return <Apple className="w-4 h-4" />;
+            case 'dairy': return <Milk className="w-4 h-4" />;
+            case 'fats': return <Droplet className="w-4 h-4" />;
+            case 'condiments': return <Utensils className="w-4 h-4" />;
+            case 'herbs': return <Utensils className="w-4 h-4" />;
+            case 'beverages': return <Coffee className="w-4 h-4" />;
+            case 'snacks': return <Cookie className="w-4 h-4" />;
+            case 'baking': return <CakeSlice className="w-4 h-4" />;
+            case 'cleaning': return <SprayCan className="w-4 h-4" />;
+            case 'personal': return <Smile className="w-4 h-4" />;
+            case 'baby': return <Baby className="w-4 h-4" />;
+            case 'pets': return <Dog className="w-4 h-4" />;
+            default: return <Box className="w-4 h-4" />;
+        }
+    };
 
     return (
         <div className="animate-fade-in">
@@ -533,15 +560,18 @@ export default function GroceriesPage() {
 
             <div className="mb-8 no-print">
                 <div className="flex items-center gap-3">
-                    <h1 className="page-title">Grocery & Budget Manager</h1>
+                    <h1 className="page-title flex items-center gap-3">
+                        <ShoppingCart className="w-8 h-8 text-[var(--accent-primary)]" />
+                        Grocery & Budget Manager
+                    </h1>
                     {isSaving && (
                         <span className="text-sm px-2 py-1 rounded bg-blue-500/20 text-blue-400 animate-pulse">
                             Saving...
                         </span>
                     )}
                     {isLoaded && !isSaving && (
-                        <span className="text-sm px-2 py-1 rounded bg-green-500/20 text-green-400">
-                            Saved to database
+                        <span className="text-sm px-2 py-1 rounded bg-green-500/20 text-green-400 flex items-center gap-1">
+                            <Check className="w-3 h-3" /> Saved
                         </span>
                     )}
                 </div>
@@ -585,18 +615,18 @@ export default function GroceriesPage() {
                                     }}
                                     className="text-sm opacity-60 hover:opacity-100 hidden sm:inline"
                                 >
-                                    ✏️
+                                    <Edit2 className="w-4 h-4" />
                                 </button>
                             </div>
                         </div>
                     </div>
 
                     <div className="flex gap-2 sm:ml-auto">
-                        <button onClick={handlePrint} className="btn-secondary flex-1 sm:flex-none text-sm">
-                            🖨️ <span className="hidden sm:inline">Print</span>
+                        <button onClick={handlePrint} className="btn-secondary flex-1 sm:flex-none text-sm flex items-center justify-center gap-2">
+                            <Printer className="w-4 h-4" /> <span className="hidden sm:inline">Print</span>
                         </button>
-                        <button onClick={copyToNextMonth} className="btn-secondary flex-1 sm:flex-none text-sm">
-                            📋 <span className="hidden sm:inline">Copy</span>
+                        <button onClick={copyToNextMonth} className="btn-secondary flex-1 sm:flex-none text-sm flex items-center justify-center gap-2">
+                            <Copy className="w-4 h-4" /> <span className="hidden sm:inline">Copy</span>
                         </button>
                     </div>
                 </div>
@@ -684,8 +714,8 @@ export default function GroceriesPage() {
                                             onClick={() => addItemFromTemplate(item)}
                                             className="w-full text-left px-4 py-2 hover:bg-gray-800 flex items-center justify-between text-sm"
                                         >
-                                            <span>
-                                                {categoryIcons[item.category]} {item.name}
+                                            <span className="flex items-center gap-2">
+                                                {getCategoryIcon(item.category)} {item.name}
                                             </span>
                                             <span className="text-gray-500">
                                                 {item.estimated_price_per_unit} MAD/{item.default_unit}
@@ -698,9 +728,9 @@ export default function GroceriesPage() {
 
                         <button
                             onClick={() => setShowAddModal(true)}
-                            className="btn-secondary w-full mb-2"
+                            className="btn-secondary w-full mb-2 flex items-center justify-center gap-2"
                         >
-                            + Add Custom Item
+                            <Plus className="w-4 h-4" /> Add Custom Item
                         </button>
 
                         <button
@@ -720,7 +750,7 @@ export default function GroceriesPage() {
                             >
                                 <option value="all">All Categories</option>
                                 {Object.entries(categoryNames).map(([key, name]) => (
-                                    <option key={key} value={key}>{categoryIcons[key]} {name}</option>
+                                    <option key={key} value={key}>{name}</option>
                                 ))}
                             </select>
                         </div>
@@ -734,16 +764,16 @@ export default function GroceriesPage() {
                                 onChange={(e) => setFilterStock(e.target.value as any)}
                             >
                                 <option value="all">All Items</option>
-                                <option value="out_of_stock">⚠️ Out of Stock Only</option>
-                                <option value="in_stock">✓ In Stock Only</option>
+                                <option value="out_of_stock">Out of Stock Only</option>
+                                <option value="in_stock">In Stock Only</option>
                             </select>
                         </div>
 
                         <button
                             onClick={clearList}
-                            className="btn-secondary w-full text-red-400 border-red-400/30 hover:bg-red-400/10"
+                            className="btn-secondary w-full text-red-400 border-red-400/30 hover:bg-red-400/10 flex items-center justify-center gap-2"
                         >
-                            🗑️ Clear All
+                            <Trash2 className="w-4 h-4" /> Clear All
                         </button>
                     </div>
                 </div>
@@ -753,7 +783,7 @@ export default function GroceriesPage() {
                     <div className="card print-area" ref={printRef}>
                         {/* Print Header */}
                         <div className="print-header hidden">
-                            <h1>🛒 Grocery List</h1>
+                            <h1 className="flex items-center gap-2"><ShoppingCart className="w-6 h-6" /> Grocery List</h1>
                             <p><strong>{formatMonth(currentMonth)}</strong></p>
                             <p>Budget: {currentBudget.initial_budget.toLocaleString()} MAD | Items: {totalItems} | Purchased: {purchasedItems}</p>
                         </div>
@@ -767,14 +797,14 @@ export default function GroceriesPage() {
 
                         {items.length === 0 ? (
                             <div className="text-center py-12" style={{ color: 'var(--text-muted)' }}>
-                                <div className="text-5xl mb-4">🛒</div>
+                                <div className="text-5xl mb-4 flex justify-center"><ShoppingCart className="w-16 h-16 opacity-50" /></div>
                                 <p>No items yet. Search and add some groceries!</p>
                             </div>
                         ) : (
                             Object.entries(groupedItems).map(([category, categoryItems]) => (
                                 <div key={category} className="mb-6">
                                     <h4 className="print-category text-sm font-medium mb-2 flex items-center gap-2" style={{ color: 'var(--text-secondary)' }}>
-                                        {categoryIcons[category] || '📦'} {categoryNames[category] || category}
+                                        {getCategoryIcon(category)} {categoryNames[category] || category}
                                         <span className="badge badge-primary text-xs no-print">{categoryItems.length}</span>
                                     </h4>
                                     <div className="space-y-2">
@@ -847,14 +877,14 @@ export default function GroceriesPage() {
                                                             className="p-1 hover:bg-gray-700 rounded"
                                                             title="Edit"
                                                         >
-                                                            ✏️
+                                                            <Edit2 className="w-4 h-4" />
                                                         </button>
                                                         <button
                                                             onClick={() => removeItem(item.id)}
                                                             className="p-1 hover:bg-gray-700 rounded text-red-400"
                                                             title="Remove"
                                                         >
-                                                            🗑️
+                                                            <Trash2 className="w-4 h-4" />
                                                         </button>
                                                     </div>
                                                 </div>
@@ -936,7 +966,7 @@ export default function GroceriesPage() {
                                     onChange={(e) => setCustomItem({ ...customItem, category: e.target.value })}
                                 >
                                     {Object.entries(categoryNames).map(([key, name]) => (
-                                        <option key={key} value={key}>{categoryIcons[key]} {name}</option>
+                                        <option key={key} value={key}>{name}</option>
                                     ))}
                                 </select>
                             </div>
@@ -1056,9 +1086,8 @@ export default function GroceriesPage() {
                                             ...editingItem,
                                             is_out_of_stock: e.target.checked
                                         })}
-                                        className="w-4 h-4"
                                     />
-                                    <span className="text-sm">⚠️ Out of Stock (Épuisé)</span>
+                                    <span className="text-sm flex items-center gap-1"><AlertTriangle className="w-4 h-4" /> Out of Stock (Épuisé)</span>
                                 </label>
                             </div>
 

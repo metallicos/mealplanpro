@@ -2,6 +2,10 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import { useUser } from '@/contexts/UserContext';
+import {
+    Calculator, Check, Save, Lightbulb, TrendingUp,
+    Dumbbell, Wheat, Droplet, Plus, Info
+} from 'lucide-react';
 
 interface WeightLog {
     id: number;
@@ -175,7 +179,7 @@ export default function CalculatorPage() {
     return (
         <div className="animate-fade-in">
             <div className="mb-8">
-                <h1 className="page-title">Calorie Calculator 🔢</h1>
+                <h1 className="page-title flex items-center gap-3"><Calculator className="w-8 h-8 text-[var(--accent-primary)]" /> Calorie Calculator</h1>
                 <p className="page-subtitle">Calculate your daily calorie needs and save to your profile.</p>
             </div>
 
@@ -282,7 +286,7 @@ export default function CalculatorPage() {
                         <div className="flex items-center justify-between mb-4">
                             <h3 className="font-semibold">Your Results</h3>
                             {saved && (
-                                <span className="badge badge-success">✓ Saved!</span>
+                                <span className="badge badge-success flex items-center gap-1"><Check className="w-3 h-3" /> Saved!</span>
                             )}
                         </div>
 
@@ -301,20 +305,19 @@ export default function CalculatorPage() {
                             </div>
                         </div>
 
-                        <h4 className="font-medium mb-3">Recommended Macros</h4>
                         <div className="grid grid-cols-3 gap-4 mb-6">
                             <div className="stat-card">
-                                <div className="text-4xl mb-2">💪</div>
+                                <div className="text-4xl mb-2 flex justify-center"><Dumbbell className="w-8 h-8 text-[var(--protein)]" /></div>
                                 <div className="text-2xl font-bold" style={{ color: 'var(--protein)' }}>{results.protein}g</div>
                                 <div className="stat-label">Protein</div>
                             </div>
                             <div className="stat-card">
-                                <div className="text-4xl mb-2">🍚</div>
+                                <div className="text-4xl mb-2 flex justify-center"><Wheat className="w-8 h-8 text-[var(--carbs)]" /></div>
                                 <div className="text-2xl font-bold" style={{ color: 'var(--carbs)' }}>{results.carbs}g</div>
                                 <div className="stat-label">Carbs</div>
                             </div>
                             <div className="stat-card">
-                                <div className="text-4xl mb-2">🥑</div>
+                                <div className="text-4xl mb-2 flex justify-center"><Droplet className="w-8 h-8 text-[var(--fat)]" /></div>
                                 <div className="text-2xl font-bold" style={{ color: 'var(--fat)' }}>{results.fat}g</div>
                                 <div className="stat-label">Fat</div>
                             </div>
@@ -322,10 +325,10 @@ export default function CalculatorPage() {
 
                         <button
                             onClick={saveToProfile}
-                            className="btn-primary w-full"
                             disabled={saved}
+                            className="btn-primary w-full flex items-center justify-center gap-2"
                         >
-                            {saved ? '✓ Saved to Profile' : '💾 Save as My Targets'}
+                            {saved ? <><Check className="w-4 h-4" /> Saved to Profile</> : <><Save className="w-4 h-4" /> Save as My Targets</>}
                         </button>
 
                         {saved && (
@@ -335,7 +338,7 @@ export default function CalculatorPage() {
                         )}
 
                         <div className="p-4 rounded-lg mt-4" style={{ background: 'var(--bg-secondary)' }}>
-                            <h4 className="font-medium mb-2">💡 Tips for Success</h4>
+                            <h4 className="font-medium mb-2 flex items-center gap-2"><Lightbulb className="w-4 h-4 text-yellow-400" /> Tips for Success</h4>
                             <ul className="text-sm space-y-1" style={{ color: 'var(--text-secondary)' }}>
                                 <li>• Prioritize protein at every meal to preserve muscle</li>
                                 <li>• Train 30-60 min before breaking your fast</li>
@@ -376,7 +379,7 @@ export default function CalculatorPage() {
 
             {/* Weekly Weight Tracking */}
             <div className="card mt-6">
-                <h3 className="font-semibold mb-4">📊 Weekly Weight Progress</h3>
+                <h3 className="font-semibold mb-4 flex items-center gap-2"><TrendingUp className="w-5 h-5" /> Weekly Weight Progress</h3>
 
                 {/* Add Weight Form */}
                 <div className="p-4 rounded-lg mb-4" style={{ background: 'var(--bg-secondary)' }}>
@@ -404,10 +407,10 @@ export default function CalculatorPage() {
                         </div>
                         <button
                             onClick={addWeightLog}
-                            className="btn-primary"
+                            className="btn-primary flex items-center gap-2"
                             disabled={!newWeight || isSavingWeight}
                         >
-                            {isSavingWeight ? 'Saving...' : '+ Log Weight'}
+                            {isSavingWeight ? 'Saving...' : <><Plus className="w-4 h-4" /> Log Weight</>}
                         </button>
                     </div>
                     <p className="text-xs mt-2" style={{ color: 'var(--text-muted)' }}>

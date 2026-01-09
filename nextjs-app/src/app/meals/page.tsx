@@ -1,6 +1,12 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import {
+    Search, X, Leaf, Globe, CakeSlice, Moon, Folder,
+    ChevronLeft, ChevronRight, Utensils, Flame,
+    Dumbbell, Wheat, Droplet, Star, Clock, Users,
+    Carrot, ChefHat as Chef, Info, BookOpen
+} from 'lucide-react';
 
 interface Recipe {
     id: number;
@@ -244,10 +250,15 @@ export default function MealsPage() {
     return (
         <div className="animate-fade-in">
             <div className="mb-8">
-                <h1 className="page-title">Meal Library 📚</h1>
+                <h1 className="page-title flex items-center gap-3">
+                    <BookOpen className="w-8 h-8 text-[var(--accent-primary)]" />
+                    Meal Library
+                </h1>
                 <p className="page-subtitle">
                     {stats.total.toLocaleString()} recipes •
-                    <span className="text-green-400"> {stats.healthy.toLocaleString()} healthy</span>
+                    <span className="text-green-400 flex items-center gap-1 inline-flex">
+                        <Leaf className="w-3 h-3" /> {stats.healthy.toLocaleString()} healthy
+                    </span>
                 </p>
             </div>
 
@@ -255,7 +266,7 @@ export default function MealsPage() {
             <div className="card mb-6">
                 {/* Search Bar */}
                 <div className="relative mb-4">
-                    <span className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">🔍</span>
+                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />
                     <input
                         type="text"
                         placeholder="Search meals by name, description, or ingredient..."
@@ -268,7 +279,7 @@ export default function MealsPage() {
                             onClick={() => setSearchQuery('')}
                             className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white"
                         >
-                            ✕
+                            <X className="w-4 h-4" />
                         </button>
                     )}
                 </div>
@@ -283,7 +294,7 @@ export default function MealsPage() {
                             onChange={(e) => setShowHealthyOnly(e.target.checked)}
                             className="w-4 h-4 accent-green-500"
                         />
-                        <span className="text-sm">🥗 Healthy only</span>
+                        <span className="text-sm flex items-center gap-1"><Leaf className="w-3 h-3" /> Healthy only</span>
                     </label>
                 </div>
 
@@ -293,27 +304,28 @@ export default function MealsPage() {
                     <div className="flex gap-2 flex-wrap">
                         <button
                             onClick={() => setSelectedCategory('all')}
-                            className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${selectedCategory === 'all'
+                            className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all flex items-center gap-2 ${selectedCategory === 'all'
                                 ? 'bg-gradient-to-r from-indigo-500 to-purple-500 text-white'
                                 : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
                                 }`}
                         >
-                            🌐 All ({stats.total.toLocaleString()})
+                            <Globe className="w-3 h-3" /> All ({stats.total.toLocaleString()})
                         </button>
                         {categories.map((cat) => (
                             <button
                                 key={cat.category}
                                 onClick={() => setSelectedCategory(cat.category)}
-                                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${selectedCategory === cat.category
+                                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all flex items-center gap-2 ${selectedCategory === cat.category
                                     ? 'bg-gradient-to-r from-indigo-500 to-purple-500 text-white'
                                     : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
                                     }`}
                             >
-                                {cat.category === 'healthy' ? '🥗' :
-                                    cat.category === 'cuisine' ? '🌍' :
-                                        cat.category === 'cakes-baking' ? '🍰' :
-                                            cat.category === 'ramadan' ? '🌙' :
-                                                cat.category === 'international' ? '🌍' : '📂'} {cat.category} ({cat.count})
+                                {cat.category === 'healthy' ? <Leaf className="w-3 h-3" /> :
+                                    cat.category === 'cuisine' ? <Globe className="w-3 h-3" /> :
+                                        cat.category === 'cakes-baking' ? <CakeSlice className="w-3 h-3" /> :
+                                            cat.category === 'ramadan' ? <Moon className="w-3 h-3" /> :
+                                                cat.category === 'international' ? <Globe className="w-3 h-3" /> : <Folder className="w-3 h-3" />}
+                                {cat.category} ({cat.count})
                             </button>
                         ))}
                     </div>
@@ -365,10 +377,10 @@ export default function MealsPage() {
             {/* Error State */}
             {error && (
                 <div className="text-center py-12">
-                    <p className="text-red-400">❌ {error}</p>
+                    <p className="text-red-400 mb-2 flex items-center justify-center gap-2"><Info className="w-5 h-5" /> {error}</p>
                     <button
                         onClick={() => fetchRecipes()}
-                        className="mt-4 text-violet-400 hover:text-violet-300"
+                        className="mt-4 text-violet-400 hover:text-violet-300 flex items-center justify-center gap-2"
                     >
                         Try again
                     </button>
@@ -401,8 +413,8 @@ export default function MealsPage() {
                         >
                             {/* Healthy Badge */}
                             {meal.isHealthy && (
-                                <div className="absolute top-2 left-2 z-10 bg-green-500 text-white text-xs px-2 py-1 rounded-full font-medium shadow-lg">
-                                    🥗 Healthy
+                                <div className="absolute top-2 left-2 z-10 bg-green-500 text-white text-xs px-2 py-1 rounded-full font-medium shadow-lg flex items-center gap-1">
+                                    <Leaf className="w-3 h-3" /> Healthy
                                 </div>
                             )}
 
@@ -420,7 +432,7 @@ export default function MealsPage() {
                                     </div>
                                     {meal.avg_rating && (
                                         <div className="flex items-center gap-1 text-yellow-500 font-bold">
-                                            <span>★</span> {meal.avg_rating} <span className="text-gray-600 font-normal">({meal.rating_count})</span>
+                                            <Star className="w-3 h-3 fill-current" /> {meal.avg_rating} <span className="text-gray-600 font-normal">({meal.rating_count})</span>
                                         </div>
                                     )}
                                 </div>
@@ -452,7 +464,9 @@ export default function MealsPage() {
             {
                 !loading && !error && recipes.length === 0 && (
                     <div className="text-center py-12">
-                        <p className="text-2xl mb-2">🍽️</p>
+                        <div className="flex justify-center mb-4">
+                            <Utensils className="w-16 h-16 text-gray-700" />
+                        </div>
                         <p className="text-gray-400">No meals found matching your criteria.</p>
                         <button
                             onClick={() => {
@@ -475,16 +489,16 @@ export default function MealsPage() {
                         <button
                             onClick={() => setPage(1)}
                             disabled={page === 1}
-                            className="px-3 py-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
+                            className="p-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
                         >
-                            ««
+                            <ChevronLeft className="w-4 h-4" /> <span className="sr-only">First</span>
                         </button>
                         <button
                             onClick={() => setPage(p => Math.max(1, p - 1))}
                             disabled={page === 1}
-                            className="px-3 py-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
+                            className="p-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
                         >
-                            «
+                            <ChevronLeft className="w-4 h-4" />
                         </button>
                         <span className="px-4 py-2 text-sm">
                             {page} / {totalPages}
@@ -492,16 +506,16 @@ export default function MealsPage() {
                         <button
                             onClick={() => setPage(p => Math.min(totalPages, p + 1))}
                             disabled={page === totalPages}
-                            className="px-3 py-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
+                            className="p-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
                         >
-                            »
+                            <ChevronRight className="w-4 h-4" />
                         </button>
                         <button
                             onClick={() => setPage(totalPages)}
                             disabled={page === totalPages}
-                            className="px-3 py-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
+                            className="p-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
                         >
-                            »»
+                            <ChevronRight className="w-4 h-4" /> <span className="sr-only">Last</span>
                         </button>
                     </div>
                 )
@@ -532,7 +546,7 @@ export default function MealsPage() {
                                         />
                                     ) : (
                                         <div className="absolute inset-0 bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
-                                            <span className="text-6xl">🍽️</span>
+                                            <Utensils className="w-16 h-16 text-white" />
                                         </div>
                                     )}
                                     <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent" />
@@ -540,8 +554,8 @@ export default function MealsPage() {
                                     {/* Badges */}
                                     <div className="absolute top-4 left-4 flex gap-2">
                                         {selectedMeal.isHealthy && (
-                                            <span className="bg-green-500 text-white text-sm px-3 py-1 rounded-full font-medium">
-                                                🥗 Healthy
+                                            <span className="bg-green-500 text-white text-sm px-3 py-1 rounded-full font-medium flex items-center gap-1">
+                                                <Leaf className="w-3 h-3" /> Healthy
                                             </span>
                                         )}
                                         <span className="bg-gray-800/80 text-white text-sm px-3 py-1 rounded-full capitalize">
@@ -554,7 +568,7 @@ export default function MealsPage() {
                                         onClick={() => setSelectedMeal(null)}
                                         className="absolute top-4 right-4 w-10 h-10 rounded-full bg-black/50 text-white flex items-center justify-center hover:bg-black/70"
                                     >
-                                        ✕
+                                        <X className="w-5 h-5" />
                                     </button>
 
                                     {/* Title */}
@@ -568,8 +582,8 @@ export default function MealsPage() {
                                 <div className="p-6">
                                     {/* Quick Info */}
                                     <div className="flex gap-4 mb-6 text-sm">
-                                        <span className="flex items-center gap-1">⏱️ {selectedMeal.prep_time || 'N/A'}</span>
-                                        <span className="flex items-center gap-1">👥 {selectedMeal.serves || '?'} servings</span>
+                                        <span className="flex items-center gap-1 text-gray-300"><Clock className="w-4 h-4" /> {selectedMeal.prep_time || 'N/A'}</span>
+                                        <span className="flex items-center gap-1 text-gray-300"><Users className="w-4 h-4" /> {selectedMeal.serves || '?'} servings</span>
                                     </div>
 
                                     {/* Nutritional Info */}
@@ -612,8 +626,8 @@ export default function MealsPage() {
 
                                     {/* Ingredients */}
                                     <div className="mb-6">
-                                        <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
-                                            🥕 Ingredients
+                                        <h3 className="text-lg font-semibold mb-3 flex items-center gap-2 text-[var(--accent-secondary)]">
+                                            <Carrot className="w-5 h-5" /> Ingredients
                                         </h3>
                                         <ul className="space-y-2">
                                             {selectedMeal.ingredients?.map((ing, i) => (
@@ -627,8 +641,8 @@ export default function MealsPage() {
 
                                     {/* Method/Instructions */}
                                     <div className="mb-6">
-                                        <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
-                                            👨‍🍳 Method
+                                        <h3 className="text-lg font-semibold mb-3 flex items-center gap-2 text-[var(--accent-secondary)]">
+                                            <Chef className="w-5 h-5" /> Method
                                         </h3>
                                         <ol className="space-y-3">
                                             {selectedMeal.method?.map((step, i) => (
@@ -648,7 +662,7 @@ export default function MealsPage() {
                                     {/* Ratings & Reviews */}
                                     <div className="mb-6">
                                         <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
-                                            ⭐ Reviews ({ratings.length})
+                                            <Star className="w-5 h-5 text-yellow-500 fill-current" /> Reviews ({ratings.length})
                                         </h3>
 
                                         {/* Rating Form */}
@@ -662,7 +676,7 @@ export default function MealsPage() {
                                                         onClick={() => setUserRating(star)}
                                                         className="text-2xl hover:scale-110 transition-transform"
                                                     >
-                                                        {star <= userRating ? '⭐' : '☆'}
+                                                        <Star className={`w-8 h-8 ${star <= userRating ? 'text-yellow-500 fill-current' : 'text-gray-600'}`} />
                                                     </button>
                                                 ))}
                                             </div>
@@ -691,7 +705,9 @@ export default function MealsPage() {
                                                         <span className="text-xs text-gray-500">{new Date(review.created_at).toLocaleDateString()}</span>
                                                     </div>
                                                     <div className="flex text-yellow-500 text-xs mb-1">
-                                                        {'⭐'.repeat(review.rating)}
+                                                        {Array.from({ length: review.rating }).map((_, i) => (
+                                                            <Star key={i} className="w-3 h-3 fill-current" />
+                                                        ))}
                                                     </div>
                                                     {review.comment && (
                                                         <p className="text-sm text-gray-300">{review.comment}</p>

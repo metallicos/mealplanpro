@@ -4,6 +4,32 @@ import { useUser } from '@/contexts/UserContext';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import SmartPlan from '@/components/SmartPlan';
+import WaterTracker from '@/components/WaterTracker';
+import FastingTimer from '@/components/FastingTimer';
+import AiCoachWidget from '@/components/AiCoachWidget';
+import OnboardingController from '@/components/OnboardingController';
+import {
+  Flame,
+  Dumbbell,
+  Wheat,
+  Droplet,
+  Plus,
+  Calculator,
+  BarChart3,
+  BookOpen,
+  ShoppingCart,
+  MessageCircle,
+  Users,
+  Utensils,
+  Crown,
+  User,
+  Clock,
+  FolderOpen,
+  Leaf,
+  Apple,
+  Sparkles,
+  X
+} from 'lucide-react';
 
 interface Recipe {
   id: number;
@@ -93,9 +119,17 @@ export default function Dashboard() {
   if (isLoading || !user) return <div className="p-8 text-center">Loading dashboard...</div>;
 
   return (
-    <div className="animate-fade-in">
+    <div className="animate-fade-in relative min-h-screen">
+      {/* Ambient Backgrounds */}
+      <div className="fixed inset-0 z-[-1] pointer-events-none overflow-hidden">
+        <div className="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] bg-emerald-600/10 rounded-full blur-[120px]" />
+        <div className="absolute bottom-[-10%] left-[-10%] w-[600px] h-[600px] bg-teal-600/10 rounded-full blur-[120px]" />
+        <div className="absolute top-[40%] left-[40%] w-[400px] h-[400px] bg-cyan-600/5 rounded-full blur-[100px]" />
+      </div>
+
+      <OnboardingController />
       <div className="mb-8">
-        <h1 className="page-title">Welcome back, {user.fullName}! 👋</h1>
+        <h1 className="page-title">Welcome back, {user.fullName}!</h1>
         <p className="page-subtitle">Track your macros, hit your goals, and crush your fat loss journey.</p>
       </div>
 
@@ -103,7 +137,7 @@ export default function Dashboard() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         {/* ... stats cards ... */}
         <div className="stat-card">
-          <div className="text-4xl mb-2">🔥</div>
+          <div className="text-4xl mb-2 flex justify-center"><Flame className="w-10 h-10 text-red-500" /></div>
           <div className="stat-value">{stats.calories}</div>
           <div className="stat-label">Calories Today</div>
           <div className="progress-bar">
@@ -121,7 +155,7 @@ export default function Dashboard() {
         </div>
 
         <div className="stat-card">
-          <div className="text-4xl mb-2">💪</div>
+          <div className="text-4xl mb-2 flex justify-center"><Dumbbell className="w-10 h-10 text-blue-500" /></div>
           <div className="stat-value">{stats.protein}g</div>
           <div className="stat-label">Protein</div>
           <div className="progress-bar">
@@ -139,7 +173,7 @@ export default function Dashboard() {
         </div>
 
         <div className="stat-card">
-          <div className="text-4xl mb-2">🍚</div>
+          <div className="text-4xl mb-2 flex justify-center"><Wheat className="w-10 h-10 text-amber-500" /></div>
           <div className="stat-value">{stats.carbs}g</div>
           <div className="stat-label">Carbs</div>
           <div className="progress-bar">
@@ -157,7 +191,7 @@ export default function Dashboard() {
         </div>
 
         <div className="stat-card">
-          <div className="text-4xl mb-2">🥑</div>
+          <div className="text-4xl mb-2 flex justify-center"><Droplet className="w-10 h-10 text-purple-500" /></div>
           <div className="stat-value">{stats.fat}g</div>
           <div className="stat-label">Fat</div>
           <div className="progress-bar">
@@ -175,12 +209,21 @@ export default function Dashboard() {
         </div>
       </div>
 
+      {/* V2 Health Widgets */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+        <WaterTracker />
+        <div className="lg:col-span-1 h-64 md:h-auto">
+          <FastingTimer />
+        </div>
+        <AiCoachWidget />
+      </div>
+
       {/* Master User: Family Management */}
       {user.role === 'master' && (
-        <div className="card mb-6 border-violet-500/30 bg-violet-500/5">
+        <div className="card mb-6 border-emerald-500/30 bg-emerald-500/5">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
             <div>
-              <h3 className="text-lg font-semibold">My Family Members 👨‍👩‍👧‍👦</h3>
+              <h3 className="text-lg font-semibold flex items-center gap-2">My Family Members <Users size={20} /></h3>
               <p className="text-sm text-[var(--text-secondary)]">Manage your household accounts</p>
             </div>
             <button
@@ -199,23 +242,23 @@ export default function Dashboard() {
       <div className="card mb-6">
         <h3 className="text-lg font-semibold mb-4">Quick Actions</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          <Link href="/macros" className="btn-primary text-center">
-            <span>➕</span> Log Food
+          <Link href="/macros" className="btn-primary text-center justify-center">
+            <Plus size={18} /> Log Food
           </Link>
-          <Link href="/calculator" className="btn-secondary text-center">
-            <span>🔢</span> Calculate Calories
+          <Link href="/calculator" className="btn-secondary text-center justify-center">
+            <Calculator size={18} /> Calculate Calories
           </Link>
-          <Link href="/statistics" className="btn-secondary text-center">
-            <span>📊</span> View Progress
+          <Link href="/statistics" className="btn-secondary text-center justify-center">
+            <BarChart3 size={18} /> View Progress
           </Link>
-          <Link href="/meals" className="btn-secondary text-center">
-            <span>📚</span> Browse Meals
+          <Link href="/meals" className="btn-secondary text-center justify-center">
+            <BookOpen size={18} /> Browse Meals
           </Link>
-          <Link href="/groceries" className="btn-secondary text-center">
-            <span>🛒</span> Grocery List
+          <Link href="/groceries" className="btn-secondary text-center justify-center">
+            <ShoppingCart size={18} /> Grocery List
           </Link>
-          <Link href="/community" className="btn-secondary text-center border-violet-500/50">
-            <span>💬</span> Community
+          <Link href="/community" className="btn-secondary text-center border-emerald-500/50 justify-center">
+            <MessageCircle size={18} /> Community
           </Link>
         </div>
       </div>
@@ -226,7 +269,7 @@ export default function Dashboard() {
       {/* Meal Ideas */}
       <div className="mb-8">
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-xl font-semibold">Meal Ideas for You 🍽️</h2>
+          <h2 className="text-xl font-semibold flex items-center gap-2">Meal Ideas for You <Utensils size={20} /></h2>
           <Link href="/meals" className="text-sm" style={{ color: theme.primary }}>
             View All →
           </Link>
@@ -252,8 +295,8 @@ export default function Dashboard() {
               <Link href={`/meals/${meal.id}`} key={meal.id} className="meal-card relative block group">
                 {/* Healthy Badge */}
                 {meal.isHealthy && (
-                  <div className="absolute top-2 left-2 z-10 bg-green-500 text-white text-xs px-2 py-1 rounded-full font-medium shadow-lg">
-                    🥗 Healthy
+                  <div className="absolute top-2 left-2 z-10 bg-green-500 text-white text-xs px-2 py-1 rounded-full font-medium shadow-lg flex items-center gap-1">
+                    <Leaf size={12} /> Healthy
                   </div>
                 )}
                 {getImageUrl(meal) ? (
@@ -268,16 +311,16 @@ export default function Dashboard() {
                 ) : (
                   <div
                     className="meal-card-image"
-                    style={{ background: 'linear-gradient(135deg, #6366f1, #8b5cf6)' }}
+                    style={{ background: 'linear-gradient(135deg, #10b981, #14b8a6)' }}
                   >
-                    🍽️
+                    <Utensils size={32} className="text-white/80" />
                   </div>
                 )}
                 <div className="meal-card-content">
                   <div className="meal-card-title group-hover:text-[var(--accent-primary)] transition-colors">{meal.title}</div>
                   <div className="meal-card-meta">
-                    <span className="capitalize">📂 {meal.category?.replace(/-/g, ' ')}</span>
-                    <span title={meal.prep_time}>⏱️ {meal.prep_time ? (meal.prep_time.length > 20 ? meal.prep_time.substring(0, 18) + '...' : meal.prep_time) : 'N/A'}</span>
+                    <span className="capitalize flex items-center gap-1"><FolderOpen size={12} /> {meal.category?.replace(/-/g, ' ')}</span>
+                    <span title={meal.prep_time} className="flex items-center gap-1"><Clock size={12} /> {meal.prep_time ? (meal.prep_time.length > 20 ? meal.prep_time.substring(0, 18) + '...' : meal.prep_time) : 'N/A'}</span>
                   </div>
                   <div className="meal-card-macros">
                     <div>
@@ -312,7 +355,9 @@ export default function Dashboard() {
           borderColor: 'rgba(245, 158, 11, 0.3)'
         }}
       >
-        <h3 className="text-lg font-semibold mb-2">🍋 Daily Ginger Energy Shot</h3>
+        <h3 className="text-lg font-semibold mb-2 flex items-center gap-2">
+          <Apple size={20} className="text-amber-400" /> Daily Ginger Energy Shot
+        </h3>
         <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>
           Boost metabolism and energy before breaking your fast
         </p>
@@ -322,8 +367,9 @@ export default function Dashboard() {
           <div><strong>Water:</strong> 20ml</div>
           <div><strong>Honey (opt):</strong> 3g</div>
         </div>
-        <p className="text-sm mt-4" style={{ color: 'var(--text-muted)' }}>
-          <strong>Tip:</strong> Make 7 shots, freeze in ice cube tray. Thaw one daily!
+        <p className="text-sm mt-4 flex items-center gap-2" style={{ color: 'var(--text-muted)' }}>
+          <Sparkles size={14} className="text-amber-500" />
+          <span><strong>Tip:</strong> Make 7 shots, freeze in ice cube tray. Thaw one daily!</span>
         </p>
       </div>
 
@@ -369,8 +415,12 @@ function FamilyList({ refreshTrigger }: { refreshTrigger: number }) {
           key={member.id}
           className="flex-shrink-0 w-40 sm:w-auto p-2 sm:p-3 rounded-lg bg-[var(--bg-secondary)] flex items-center gap-2"
         >
-          <div className="text-xl sm:text-2xl">
-            {member.role === 'master' ? '👑' : '👤'}
+          <div className="w-8 h-8 rounded-full bg-emerald-500/20 flex items-center justify-center">
+            {member.role === 'master' ? (
+              <Crown size={16} className="text-amber-400" />
+            ) : (
+              <User size={16} className="text-violet-400" />
+            )}
           </div>
           <div className="min-w-0 flex-1">
             <div className="font-medium text-sm sm:text-base flex items-center gap-1 truncate">
@@ -423,7 +473,7 @@ function FamilyModal({ onClose, onSuccess }: { onClose: () => void, onSuccess: (
   return (
     <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4">
       <div className="card w-full max-w-sm animate-fade-in relative">
-        <button onClick={onClose} className="absolute top-4 right-4 text-gray-400 hover:text-white">✕</button>
+        <button onClick={onClose} className="absolute top-4 right-4 text-gray-400 hover:text-white"><X size={18} /></button>
         <h3 className="text-lg font-bold mb-4">Add Family Member</h3>
 
         {error && <div className="bg-red-500/20 text-red-500 p-2 rounded text-sm mb-3">{error}</div>}

@@ -1,0 +1,942 @@
+[
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/greek-style-beans/",
+        "title": "Haricots à la grecque",
+        "description": "Préparez un ragoût de haricots beurre, de tomates et de feta pour un repas rapide et sain en milieu de semaine. Dégustez avec du levain grillé à part pour éponger toute la sauce",
+        "prep_time": "5 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 cuillères à soupe d'huile d'olive",
+            "1 gros oignon rouge, finement haché",
+            "3 gousses d'ail , hachées finement",
+            "1½ cuillère à café d'origan séché",
+            "2 cuillères à soupe de purée de tomates",
+            "Boîte de 400 g de tomates concassées",
+            "300 ml de bouillon de légumes faible en sel",
+            "½ cuillère à café de sucre en poudre",
+            "2 boîtes de 400 g de haricots beurre égouttés et rincés",
+            "½ citron, jus",
+            "50 g de feta émiettée",
+            "une petite poignée d'aneth finement haché",
+            "levain grillé, pour servir"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une poêle à feu moyen-vif. Ajouter les oignons avec une pincée de sel et cuire 5 minutes, jusqu'à ce qu'ils commencent à ramollir et que les bords soient dorés. Incorporer l'ail, l'origan et la purée de tomates. Réduire le feu à moyen et cuire 3-4 minutes en remuant jusqu'à ce que la purée devienne rouge foncé.",
+            "Incorporer les tomates, le bouillon et le sucre. Faites couler la boîte avec un peu d'eau, puis versez-la également dans la casserole. Laissez mijoter 10 à 12 minutes à feu doux-moyen, puis incorporez les haricots. Bien mélanger, puis laisser mijoter 2-3 minutes avant d'assaisonner selon votre goût avec du sel, du poivre et un peu de jus de citron. Servir avec la feta et l'aneth parsemés sur le dessus, avec du levain grillé à côté."
+        ],
+        "nutritional_info": {
+            "kcal": "254",
+            "fat": "10g",
+            "saturates": "3g",
+            "carbs": "26g",
+            "sugars": "0g",
+            "fibre": "10g",
+            "protein": "12g",
+            "salt": "0.41g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2025/01/Greek-style-beans-7144bc6.jpg",
+        "local_image_path": "images/cuisine/greek/greek-style-beans.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/next-level-moussaka/",
+        "title": "Moussaka de niveau supérieur",
+        "description": "Évoquez des souvenirs de vacances grecques avec cette merveilleuse moussaka préparée à l'avance, idéale pour nourrir une foule, servie avec une simple salade d'accompagnement.",
+        "prep_time": "40 mins Cook: 2 hrs",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "100 ml d'huile d'olive",
+            "500 g de viande hachée d'agneau",
+            "1 oignon , finement haché",
+            "3 grosses gousses d'ail écrasées",
+            "½ cuillère à café de cassonade légère",
+            "2 cuillères à soupe de purée de tomates",
+            "2 cuillères à soupe de vinaigre de vin rouge",
+            "Boîte de 400 g de tomates concassées",
+            "200 ml de vin rouge",
+            "1 cuillère à soupe d'origan séché",
+            "1 bâton de cannelle",
+            "2 feuilles de laurier",
+            "3 aubergines",
+            "feuilles de salade composée, pour servir",
+            "500 ml de yaourt grec",
+            "1 œuf et 1 jaune légèrement battus (congeler le blanc pour une autre recette)",
+            "50 g de parmesan râpé",
+            "pincée de muscade râpée",
+            "100 g de feta émiettée"
+        ],
+        "method": [
+            "Faites chauffer 2 cuillères à soupe d'huile d'olive dans une poêle à feu moyen-doux, émiettez-la avec le hachis et laissez cuire 15 à 20 minutes. Il libérera un peu de liquide mais une fois que celui-ci aura bouillonné, le hachis grésillera dans sa propre graisse et commencera à dorer et à caraméliser. A ce stade, remuez le hachis avec une cuillère en bois.",
+            "Incorporer l'oignon et poursuivre la cuisson 10 minutes jusqu'à ce qu'il soit ramolli. Ajouter l'ail et cuire encore une minute. Répartissez le sucre dessus, puis incorporez la purée de tomates et faites cuire jusqu'à ce qu'elle soit grillée et commence à coller à la poêle. Versez le vinaigre et laissez mijoter une minute. Versez les tomates en conserve, puis utilisez le vin pour faire sortir la boîte et versez-la dans la sauce. Assaisonner de sel et de poivre, parsemer d'origan, nicher dans le bâton de cannelle et les feuilles de laurier, porter à ébullition et cuire doucement, en remuant de temps en temps, pendant 40 minutes jusqu'à obtenir un ragoût épais. Retirer du feu, pêcher le laurier et la cannelle et incorporer encore 1 cuillère à soupe d'huile d'olive.",
+            "Pendant que le ragoût cuit, coupez le dessus des aubergines, puis coupez-les en tranches de 1 cm d'épaisseur dans le sens de la longueur. Mettez dans un bol, salez légèrement et laissez reposer 20 minutes jusqu'à ce qu'ils ramollissent et tombent. Arroser généreusement du reste de l'huile d'olive et bien mélanger. Faites chauffer une poêle à feu vif et faites cuire les tranches des deux côtés pendant quelques minutes jusqu'à ce qu'elles soient tendres et légèrement carbonisées. Vous devrez le faire par lots. Laisser refroidir légèrement dans une assiette. (Cela peut également être fait sur un barbecue si vous avez le temps.)",
+            "Pour la garniture, versez le yaourt dans un bol avec l'œuf entier et le jaune, la moitié du parmesan, la muscade et un peu de sel et de poivre, puis fouettez jusqu'à homogénéité. Versez un tiers de la viande dans un grand plat rectangulaire allant au four (le nôtre faisait environ 20 x 30 cm) et étalez-le uniformément, déposez dessus la moitié de l'aubergine, puis un autre tiers de la sauce à la viande suivi des tranches d'aubergine restantes. Versez le reste de la sauce d'agneau, puis versez sur le mélange de yaourt en lissant jusqu'aux bords. Répartissez la feta avec le reste du parmesan. Se conserve au frais pendant deux jours.",
+            "Chauffer le four à 200C/180 chaleur tournante/gaz 4. Cuire la moussaka pendant 50 minutes ou jusqu'à ce qu'elle soit bien dorée. Laisser refroidir au moins 10 minutes avant de servir avec une salade d'accompagnement, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "583",
+            "fat": "44g",
+            "saturates": "18g",
+            "carbs": "13g",
+            "sugars": "0g",
+            "fibre": "6g",
+            "protein": "31g",
+            "salt": "1.1g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/07/Next-level-moussaka-28d214d.jpg",
+        "local_image_path": "images/cuisine/greek/next-level-moussaka.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/bbq-chicken-gyros-with-dill-cabbage-salad/",
+        "title": "Gyros de poulet BBQ avec salade d'aneth et de chou",
+        "description": "Impressionnez lors de votre prochain barbecue avec ces brochettes de poulet marinées d'inspiration grecque et cette salade croquante d'aneth et de chou blanc, ou faites simplement griller à l'intérieur s'il pleut.",
+        "prep_time": "20 mins Cook: 35 mins plus marinating",
+        "cook_time": "",
+        "serves": "8",
+        "ingredients": [
+            "½ chou blanc, cœur retiré, finement râpé",
+            "10 g d'aneth haché grossièrement",
+            "1 citron , zesté et pressé",
+            "3 cuillères à soupe d'huile d'olive",
+            "3 tomates, coupées en deux et tranchées",
+            "1 oignon rouge , finement tranché",
+            "500 g de yaourt grec entier",
+            "125 ml d'huile d'olive",
+            "1 gros citron, zesté et pressé",
+            "4 gousses d'ail, écrasées",
+            "1 cuillère à soupe de coriandre moulue",
+            "1 cuillère à soupe de cumin moulu",
+            "2 cuillères à café de paprika fumé",
+            "2 cuillères à café d'origan séché",
+            "1 cuillère à café de poivre de Cayenne",
+            "½ cuillère à café de cannelle moulue",
+            "1 cuillère à café de poivre noir concassé",
+            "1 kg de filets de cuisse de poulet Morrisons",
+            "chips, pitta ou pains plats et tzatziki"
+        ],
+        "method": [
+            "Mélangez tous les ingrédients du poulet, sauf le poulet, dans un bol avec 1 cuillère à café de sel. Incorporer le poulet et bien mélanger pour bien l'enrober, puis laisser mariner au réfrigérateur jusqu'à 24 heures, ou pendant au moins 2 heures.",
+            "Une fois mariné, enfilez le poulet Morrisons sur 2 grosses brochettes métalliques, de manière à ce que les deux brochettes traversent la viande. Jetez toute marinade restante. Mélanger tous les ingrédients de la salade dans un grand bol et assaisonner au goût.",
+            "Chauffez votre barbecue à feu moyen-vif si vous utilisez du gaz, ou pour les barbecues au charbon de bois, allumez et laissez les flammes s'éteindre et les charbons devenir blancs. Mettez les brochettes de poulet sur le BBQ, couvrez avec le couvercle et laissez cuire 15 à 20 minutes en les retournant jusqu'à ce qu'elles soient carbonisées de tous les côtés ou jusqu'à ce qu'un thermomètre de cuisson inséré dans la partie la plus épaisse indique 70°C. Retirer sur une plaque à pâtisserie et laisser reposer, couvert, pendant 15 à 20 minutes. Alternativement, placez-le sur une plaque recouverte de papier d'aluminium et faites-le griller pendant 15 minutes de chaque côté jusqu'à ce qu'il soit carbonisé et bien cuit.",
+            "Une fois reposés, soulevez et coupez les brochettes en fines tranches et servez-les avec la salade. Pour servir, empilez-les dans des pittas avec la salade, des chips et du tzatziki, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "434",
+            "fat": "30g",
+            "saturates": "8g",
+            "carbs": "7g",
+            "sugars": "0g",
+            "fibre": "3g",
+            "protein": "31g",
+            "salt": "1.02g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/07/BBQChickenGyroDillCabbageSalad-7cc07c9.jpg",
+        "local_image_path": "images/cuisine/greek/bbq-chicken-gyros-with-dill-cabbage-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/open-greek-style-salad-sandwiches/",
+        "title": "Sandwichs ouverts à la salade grecque",
+        "description": "Dégustez ces sandwichs ouverts à la salade grecque avec de la feta, des olives et des tomates pour le déjeuner ou une collation. Ils sont parfaits pour les repas en plein air en été",
+        "prep_time": "10 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "125 g de féta",
+            "120 g de yaourt nature épais",
+            "2 gousses d'ail, finement râpées",
+            "2 tomates moyennes, épépinées, hachées finement",
+            "200 g de concombre finement haché",
+            "10 olives noires dénoyautées, hachées grossièrement",
+            "½ oignon rouge, tranché finement",
+            "1 cuillère à soupe de menthe finement hachée, plus des feuilles supplémentaires pour garnir",
+            "½ citron, jus",
+            "8 tranches épaisses de levain"
+        ],
+        "method": [
+            "Mettez la feta, le yaourt et l'ail dans un mini robot culinaire. Mélanger jusqu'à consistance épaisse et lisse, puis assaisonner avec un peu de poivre noir.",
+            "Mélanger les tomates, le concombre, les olives, l'oignon rouge et la menthe dans un grand bol avec le jus de citron. Assaisonner au goût.",
+            "Étalez la feta fouettée sur les tranches de levain et empilez chacune avec la salade. Garnir du reste des feuilles de menthe et servir."
+        ],
+        "nutritional_info": {
+            "kcal": "343",
+            "fat": "12g",
+            "saturates": "5g",
+            "carbs": "43g",
+            "sugars": "0g",
+            "fibre": "5g",
+            "protein": "15g",
+            "salt": "1.8g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/07/Open-Greek-style-salad-sandwiches-b074b6c.jpg",
+        "local_image_path": "images/cuisine/greek/open-greek-style-salad-sandwiches.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/vegetarian-pastitsio/",
+        "title": "Pastitsio végétarien",
+        "description": "Dans notre version végétarienne de ce plat de pâtes grecques, des lentilles économiques remplacent la viande et nous avons utilisé un peu de vinaigre balsamique à la place du raisin.",
+        "prep_time": "25 mins Cook: 1 hrs 15 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 gros oignons (330 g), coupés en deux et tranchés",
+            "1 cuillère à soupe d'huile d'olive",
+            "2 cuillères à café de bouillon de légumes en poudre",
+            "2 feuilles de laurier",
+            "2 cuillères à soupe de vinaigre balsamique",
+            "2 gousses d'ail, finement râpées",
+            "1 cuillère à café d'origan séché",
+            "1 cuillère à café de cannelle moulue",
+            "250 g de pennes",
+            "Boîte de 400 g de tomates concassées",
+            "4 cuillères à soupe de purée de tomates",
+            "2 boîtes de 400 g de lentilles vertes",
+            "salade de tomates, oignons et aneth agrémentés de citron et d'olives, pour servir",
+            "500 ml de lait ou de lait végétal",
+            "50g de farine complète",
+            "1 œuf, séparé",
+            "40 g de feta végétarienne, émiettée",
+            "½ cuillère à café d'origan"
+        ],
+        "method": [
+            "Chauffer le four à 190C/170C chaleur tournante/gaz 5. Mettre les oignons et l'huile dans une grande casserole avec le bouillon, les feuilles de laurier, le vinaigre, l'ail, l'origan et la cannelle. Ajoutez une tasse d'eau (environ 250 ml), puis couvrez et laissez mijoter 10 minutes jusqu'à ce qu'elle soit tendre. Découvrez et laissez cuire encore 10 minutes en remuant fréquemment. L'eau devrait s'évaporer après ce temps et les oignons devraient être tendres.",
+            "Pendant ce temps, faites cuire les pâtes dans une grande casserole d'eau bouillante en suivant les instructions sur l'emballage ou pendant 10 minutes jusqu'à ce qu'elles soient al dente. Égoutter et réserver.",
+            "Incorporer les tomates, la purée de tomates et les lentilles, ainsi que leur liquide, aux oignons. Bien mélanger, puis couvrir et laisser mijoter 5 minutes. Retirez les feuilles de laurier.",
+            "Pour faire la sauce blanche, versez le lait et 200 ml d'eau dans une casserole avec la farine, fouettez bien pour éviter la formation de grumeaux et continuez à remuer jusqu'à épaississement, pendant environ 8 à 10 minutes.",
+            "Incorporer le blanc d'œuf aux pâtes et verser sur le fond d'un plat allant au four. Garnir du mélange de lentilles. Incorporer le jaune d'œuf à la sauce blanche, puis verser sur les lentilles, parsemer de feta et d'origan, puis cuire au four pendant 40 minutes jusqu'à ce qu'il bouillonne.",
+            "Servir la moitié avec la salade de tomates et d'oignons et réfrigérer le reste pendant un autre jour. Se conservera au frais jusqu'à deux jours. Réchauffer au micro-ondes dans des assiettes jusqu'à ce qu'il soit bien chaud."
+        ],
+        "nutritional_info": {
+            "kcal": "576",
+            "fat": "11g",
+            "saturates": "4g",
+            "carbs": "85g",
+            "sugars": "0g",
+            "fibre": "18g",
+            "protein": "27g",
+            "salt": "1.5g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/05/Vegetarian-pastitsio-b35e6e0.jpg",
+        "local_image_path": "images/cuisine/greek/vegetarian-pastitsio.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/feta-cakes-with-greek-salad/",
+        "title": "Gâteaux feta avec salade grecque",
+        "description": "Apportez un peu de soleil d'été à votre cuisine avec ces galettes de pommes de terre et de feta servies avec une salade grecque. Les herbes ajoutent beaucoup de saveur et des nutriments précieux, comme la vitamine C et le fer.",
+        "prep_time": "20 mins Cook: 20 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "une goutte d'huile de colza, pour la plaque à pâtisserie",
+            "700 g de pommes de terre pelées et coupées en morceaux",
+            "1 citron, zesté et à moitié pressé",
+            "6 oignons nouveaux, hachés très finement",
+            "2 cuillères à soupe de menthe hachée",
+            "3 cuillères à soupe de persil haché",
+            "100 g de feta émiettée",
+            "1 gros œuf",
+            "6 cuillères à soupe de farine complète",
+            "½ cuillère à café de paprika fumé",
+            "320 g de tomates coupées en quartiers",
+            "1 concombre (environ 320 g), coupé en dés",
+            "1 oignon rouge finement haché",
+            "12 olives Kalamata, coupées en quartiers",
+            "1-2 cuillères à soupe de menthe finement hachée",
+            "2 cuillères à café de jus de citron",
+            "2 cuillères à café d'huile d'olive extra vierge"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C chaleur tournante/gaz 6 et huiler une plaque à pâtisserie antiadhésive. Portez une casserole d'eau à ébullition, ajoutez les pommes de terre et laissez cuire 15 à 20 minutes jusqu'à ce qu'elles soient tendres. Bien égoutter, puis remettre dans la poêle et écraser avec beaucoup de poivre noir, le zeste et le jus de citron, les oignons nouveaux, la menthe et 2 cuillères à soupe de persil. Incorporer la feta.",
+            "Battez l'œuf dans un bol peu profond, puis mélangez la farine, le paprika et 1 cuillère à soupe de persil restante dans un autre. Formez huit galettes avec le mélange de pommes de terre, puis enrobez-les délicatement d'œuf, puis de mélange de farine, en les remodelant si nécessaire. Disposez les gâteaux sur la plaque à pâtisserie et enfournez pendant 15 minutes jusqu'à ce qu'ils commencent à dorer. Utilisez un couteau à palette pour retourner soigneusement chacun d'eux et cuire encore 10 à 15 minutes jusqu'à ce qu'ils soient dorés.",
+            "Pendant ce temps, mélangez la moitié de la salade avec la moitié du citron et de l'huile. Servir avec quatre gâteaux et réfrigérer le reste pendant un autre jour, en mélangeant le reste de la salade avec le reste du citron et de l'huile juste avant de servir. Se conservera, couvert, jusqu'à deux jours au réfrigérateur. Pour réchauffer les gâteaux, faites cuire sur une plaque allant au four à 200C/180C chaleur tournante/gaz 6 pendant 15-20 minutes."
+        ],
+        "nutritional_info": {
+            "kcal": "371",
+            "fat": "11g",
+            "saturates": "5g",
+            "carbs": "50g",
+            "sugars": "0g",
+            "fibre": "8g",
+            "protein": "14g",
+            "salt": "1g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/05/Feta-cakes-with-greek-salad-e4ca1a4.jpg",
+        "local_image_path": "images/cuisine/greek/feta-cakes-with-greek-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/ratatouille-ricotta-macaroni/",
+        "title": "Macaroni à la ratatouille et à la ricotta",
+        "description": "Il s'agit d'une version déconstruite du macaroni au fromage avec une couche de légumes méditerranéens à base de ricotta italienne, pour que vous n'ayez pas besoin de préparer une sauce traditionnelle.",
+        "prep_time": "15 mins Cook: 45 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "400 g de tomates concassées",
+            "3 cuillères à soupe de purée de tomates",
+            "4 grosses gousses d'ail, finement râpées",
+            "12 olives Kalamata, coupées en quartiers",
+            "1 cuillère à café de bouillon en poudre",
+            "1 grosse aubergine (350 g), coupée en dés",
+            "2 courgettes (325 g), coupées en deux et tranchées",
+            "200 g de ricotta",
+            "20 g de basilic, petites feuilles réservées pour la garniture, le reste haché",
+            "400 g de pennes complètes",
+            "20 g de parmesan finement râpé"
+        ],
+        "method": [
+            "Versez les tomates dans une casserole avec un bidon d'eau, le concentré de tomates, l'ail, les olives et le bouillon. Ajoutez l'aubergine et les courgettes, puis couvrez et laissez mijoter 30 minutes jusqu'à ce que les légumes soient tendres.",
+            "Pendant ce temps, mélangez la ricotta et le basilic dans un petit bol avec beaucoup de poivre noir.",
+            "Faire bouillir la moitié des pâtes en suivant les instructions sur l'emballage, puis égoutter en réservant un peu d'eau de cuisson. Versez dans un bol et mélangez avec la moitié du mélange de ricotta et quelques cuillerées d'eau pour pâtes, en ajoutant davantage pour détendre si nécessaire. Versez la moitié de la ratatouille et les penne dans deux bols à pâtes et saupoudrez de la moitié des feuilles de parmesan et de basilic. Couvrir et réfrigérer le reste de la ratatouille, le basilic et la ricotta pendant une autre nuit. Se conservera au frais jusqu'à trois jours. Au moment de servir à nouveau, réchauffez la ratatouille dans une poêle à feu doux et poursuivez la méthode à partir de l'étape 3."
+        ],
+        "nutritional_info": {
+            "kcal": "456",
+            "fat": "11g",
+            "saturates": "5g",
+            "carbs": "64g",
+            "sugars": "0g",
+            "fibre": "13g",
+            "protein": "19g",
+            "salt": "0.98g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/05/Ratatouille-ricotta-macaroni2-488a730.jpg",
+        "local_image_path": "images/cuisine/greek/ratatouille-ricotta-macaroni.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spinach-filo-spiral-pie/",
+        "title": "Tarte spirale filo aux épinards",
+        "description": "Ces impressionnantes spirales de filo aux épinards sont d’une simplicité trompeuse à réaliser. Une version de la spanakopita grecque, à servir avec une salade d'accompagnement pour un déjeuner de week-end",
+        "prep_time": "30 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "300 g de pousses d'épinards",
+            "50 g de beurre salé fondu, plus une noix pour la friture",
+            "1 gros oignon, finement haché",
+            "200 g de feta émiettée",
+            "7 feuilles filo du commerce",
+            "1 cuillère à soupe de graines de nigelle"
+        ],
+        "method": [
+            "Faites chauffer une grande poêle antiadhésive à feu moyen. Ajoutez les épinards et faites cuire en remuant jusqu'à ce qu'ils soient flétris (vous n'aurez pas besoin d'huile ni d'eau car ils vapeurront dans leur propre humidité). Laisser refroidir un peu, puis verser dans un torchon propre et essorer le plus d'eau possible. Hachez et mettez dans un bol.",
+            "Faites chauffer la noix de beurre dans une poêle antiadhésive. Ajouter l'oignon et cuire environ 10 minutes jusqu'à ce qu'il soit ramolli. Versez dans le bol avec les épinards, puis incorporez la feta à l'aide d'une fourchette jusqu'à ce que le tout soit bien mélangé. Goûtez pour l’assaisonnement.",
+            "Chauffer le four à 190°C/170°C chaleur tournante/gaz 5. Badigeonner un plat à tarte en métal de 24 x 4 cm de profondeur avec un peu de beurre.",
+            "Posez une feuille de filo sur votre plan de travail. Badigeonner d'un peu de beurre fondu, puis étaler environ 2 cuillères à soupe de garniture en ligne le long du bord le plus long de la pâte. Roulez-le sans serrer en un long boudin (ne le roulez pas trop serré car cela pourrait fendre la pâte), puis enroulez la pâte et placez-la au centre du moule.",
+            "Répétez avec le reste de la pâte et de la garniture, en disposant les spirales autour de celle centrale. Badigeonnez le dessus de beurre, puis saupoudrez de graines de nigelle. Cuire au four pendant 25 à 30 minutes jusqu'à ce qu'ils soient dorés et croustillants."
+        ],
+        "nutritional_info": {
+            "kcal": "311",
+            "fat": "16g",
+            "saturates": "9g",
+            "carbs": "31g",
+            "sugars": "0g",
+            "fibre": "2g",
+            "protein": "11g",
+            "salt": "1.3g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Spinach-filo-spiral-pie-3d77d2c.jpg",
+        "local_image_path": "images/cuisine/greek/spinach-filo-spiral-pie.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/lamb-chops-with-thyme-chilli-greek-htipiti/",
+        "title": "Côtelettes d'agneau au thym, piment et htipiti grec",
+        "description": "Servez des côtelettes d'agneau avec du htipiti pour un délicieux plat d'inspiration grecque aux saveurs fabuleuses. Des pommes de terre grelots rôties à l'huile d'olive font un excellent accompagnement",
+        "prep_time": "10 mins Cook: 18 mins plus marinating",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "12 côtelettes d'agneau",
+            "3 brins de thym, feuilles cueillies",
+            "1 cuillère à café de flocons de piment",
+            "2 cuillères à soupe d'huile d'olive extra vierge",
+            "235 g de poivrons rouges rôtis en bocal, égouttés",
+            "175 g de feta émiettée",
+            "2 oignons nouveaux, finement hachés",
+            "2 gousses d'ail hachées très finement",
+            "2 brins de thym, feuilles cueillies",
+            "4 cuillères à soupe d'huile d'olive extra vierge",
+            "un filet de jus de citron (facultatif)"
+        ],
+        "method": [
+            "Mettez les escalopes d'agneau dans un bol avec le thym, les flocons de piment et l'huile. Mélanger pour bien enrober, puis laisser mariner au réfrigérateur pendant 30 min à 1 h.",
+            "Pour le htipiti, coupez les poivrons en petits morceaux. Mettez dans un bol et ajoutez tous les autres ingrédients. Laisser reposer environ 15 minutes pour que la saveur s'imprègne.",
+            "Faites chauffer une poêle ou une poêle. Quand il fait bien chaud, sortez les côtelettes de la marinade. Faites-les cuire quelques-unes à la fois pendant 3 minutes de chaque côté, en assaisonnant au fur et à mesure. Servir les côtelettes avec la sauce et quelques pommes de terre grelots, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "830",
+            "fat": "70g",
+            "saturates": "30g",
+            "carbs": "4g",
+            "sugars": "0g",
+            "fibre": "1g",
+            "protein": "45g",
+            "salt": "1.4g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Lamb-chops-with-thyme-chilli-and-Greek-htipiti-a06812c.jpg",
+        "local_image_path": "images/cuisine/greek/lamb-chops-with-thyme-chilli-greek-htipiti.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/sticky-tamarind-tomato-spinach-whirl/",
+        "title": "Tourbillon gluant de tomates et épinards au tamarin",
+        "description": "Essayez ce riff sur une spanakopita grecque. Avec une touche sucrée-collante, épicée et piquante, c'est une pièce maîtresse végétarienne spectaculaire pour toute occasion spéciale.",
+        "prep_time": "40 mins Cook: 1 hrs 30 mins plus cooling",
+        "cook_time": "",
+        "serves": "8",
+        "ingredients": [
+            "300 g de tomates cerises coupées en deux",
+            "4 petites gousses d'ail, tranchées",
+            "2 cuillères à soupe d'huile d'olive extra vierge",
+            "4 cuillères à soupe de pâte de tamarin",
+            "1 cuillère à café de sucre",
+            "1 poireau, coupé en deux et finement tranché",
+            "5 oignons nouveaux, tranchés finement",
+            "300 g d'épinards flétris, essorés et hachés grossièrement",
+            "400 g de feta émiettée",
+            "3 gros œufs battus",
+            "2 cuillères à soupe de feuilles de coriandre finement hachées, plus quelques feuilles pour servir",
+            "1 cuillère à soupe de paprika fumé",
+            "6 feuilles de pâte filo",
+            "100 g de beurre doux, fondu",
+            "1 cuillère à café de flocons de piment"
+        ],
+        "method": [
+            "Chauffer le four à 160°C/140°C chaleur tournante/gaz 3. Mélanger les tomates, l'ail, la moitié de l'huile, le tamarin et le sucre, ainsi qu'une généreuse pincée d'assaisonnement. Verser sur une plaque à pâtisserie et mettre au four pendant 25 à 30 minutes ou jusqu'à ce qu'il soit collant et rôti. Laissez refroidir un peu.",
+            "Faites chauffer le reste de l'huile dans une grande poêle à feu moyen, puis ajoutez les poireaux et les oignons nouveaux en remuant de temps en temps jusqu'à ce qu'ils ramollissent, environ 10 minutes. Laisser refroidir complètement, puis verser dans un bol et mélanger avec les épinards, la feta, les tomates rôties, les œufs, la coriandre, le paprika fumé et l'assaisonnement.",
+            "Chauffer le four à 200C/180C/gaz 6. Badigeonner une feuille de filo de beurre fondu, puis poser une autre feuille dessus et badigeonner à nouveau de beurre, en gardant le reste du filo recouvert d'un torchon propre et humide pour l'empêcher de sécher. Verser un tiers de la garniture le long du côté long du rectangle et rouler délicatement dans un long tube. Répétez cette opération encore deux fois jusqu'à ce que vous ayez utilisé toute la filo et la garniture. Dans un plat à tarte rond ou un moule rond allant au four, enroulez délicatement les trois rouleaux de filo de l'extérieur du plat vers le milieu, afin d'obtenir une grande spirale. Ne vous inquiétez pas s’il se fissure un peu – vous pouvez superposer la pâte filo pour couvrir les fissures. Badigeonnez toute la spirale de beurre, saupoudrez de flocons de piment et faites cuire au four pendant 50 à 60 minutes jusqu'à ce qu'elle soit bien dorée. Parsemer de coriandre supplémentaire pour servir."
+        ],
+        "nutritional_info": {
+            "kcal": "424",
+            "fat": "27g",
+            "saturates": "15g",
+            "carbs": "27g",
+            "sugars": "0g",
+            "fibre": "4g",
+            "protein": "16g",
+            "salt": "1.8g"
+        },
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/02/Tamarind-tomato-and-spinach-whirl-fe414fd.jpg",
+        "local_image_path": "images/cuisine/greek/sticky-tamarind-tomato-spinach-whirl.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/lamb-spinach-spanakopita/",
+        "title": "Spanakopita à l'agneau et aux épinards",
+        "description": "Préparez cette superbe spanakopita – « tarte aux épinards ». Traditionnellement préparé avec de la pâte filo, de la feta et des épinards, nous avons ajouté ici de l'agneau mijoté en bouillon.",
+        "prep_time": "40 mins Cook: 2 hrs 55 mins",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "2 cuillères à soupe d'huile d'olive",
+            "800 g de cou ou d'épaule d'agneau coupé en morceaux",
+            "500 ml de bouillon d'agneau ou de poulet",
+            "1 bâton de cannelle",
+            "1 feuille de laurier",
+            "1 cuillère à soupe de beurre",
+            "1 oignon, finement tranché",
+            "2 gousses d'ail, écrasées",
+            "1 cuillère à café de coriandre moulue",
+            "1 cuillère à soupe bombée de cumin moulu",
+            "1 cuillère à café bombée de cannelle moulue",
+            "500g d'épinards",
+            "150 g de feta émiettée",
+            "1⁄2 petit bouquet de menthe, feuilles cueillies et hachées finement",
+            "2 cuillères à soupe de pignons de pin grillés",
+            "1 œuf légèrement battu",
+            "100 g de beurre fondu",
+            "270 g de pâte filo",
+            "2 cuillères à soupe de graines de sésame"
+        ],
+        "method": [
+            "Faites chauffer la moitié de l'huile dans une cocotte à feu moyen-vif et faites frire l'agneau pendant 5 à 7 minutes, ou jusqu'à ce qu'il soit entièrement doré. Couvrir avec le bouillon, puis ajouter le bâton de cannelle et la feuille de laurier et porter à ébullition. Couvrir et cuire pendant 1 h 30 ou jusqu'à ce que l'agneau soit tendre et se désagrège.",
+            "Faites chauffer le reste de l'huile et le beurre dans une poêle, puis faites revenir les oignons avec une grosse pincée de sel pendant 15 à 20 minutes, ou jusqu'à ce qu'ils soient dorés et collants. Ajoutez l'ail et les épices et laissez cuire encore 3 minutes. Retirez l'agneau de son liquide de cuisson (en réservant le liquide), transférez-le sur une planche à découper et émincez-le à l'aide de deux fourchettes. Incorporer la viande râpée au mélange d'oignons, avec 50 ml du liquide réservé.",
+            "Mettez les épinards dans une casserole avec 1 cuillère à soupe d'eau et faites cuire pendant 3 à 4 minutes ou jusqu'à ce qu'ils soient fanés. Enveloppez-le dans un torchon propre et essorez-le pour éliminer l'excédent de liquide, ou mettez-le dans une passoire fine et essorez-le à l'aide du dos d'une cuillère en bois. Hachez grossièrement les épinards, puis incorporez-les au mélange d'agneau et d'oignon avec la feta, la menthe, les pignons de pin et l'œuf. Saison.",
+            "Chauffer le four à 200°C/180°C chaleur tournante/gaz 6, et badigeonner un moule à charnière rond de 22 cm d'un peu de beurre fondu. Étalez quatre feuilles de pâte filo sur le moule, puis badigeonnez-les de beurre fondu. Verser la garniture et replier la pâte qui dépasse sur le dessus. Frottez les feuilles de pâte restantes, déposez-les sur la tarte et badigeonnez-les du reste de beurre fondu. Saupoudrer de graines de sésame. Cuire au four pendant 45 à 50 minutes ou jusqu'à ce qu'ils soient dorés et croustillants. Se conserve au réfrigérateur jusqu'à deux jours."
+        ],
+        "nutritional_info": {
+            "kcal": "784",
+            "fat": "55g",
+            "saturates": "25g",
+            "carbs": "29g",
+            "sugars": "3g",
+            "fibre": "4g",
+            "protein": "41g",
+            "salt": "1.7g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2020/07/lamb-and-spinach-spanakopita.jpg",
+        "local_image_path": "images/cuisine/greek/lamb-spinach-spanakopita.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/greek-bouyiourdi/",
+        "title": "bouyiourdi grec",
+        "description": "Dégustez cette feta cuite au four avec des tomates, de l'ail et du piment dans le cadre d'un déjeuner meze. Il est parfait pour accompagner des pains pitta chauds accompagnés d'une salade grecque.",
+        "prep_time": "10 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "3 grosses tomates mûres",
+            "1 gousse d'ail, écrasée",
+            "200 g de bloc de feta",
+            "1 gros piment vert doux ou 1 poivron vert, tranché",
+            "1 cuillère à café de feuilles d'origan grossièrement hachées",
+            "4 cuillères à soupe d'huile d'olive",
+            "pains pitta réchauffés, pour servir"
+        ],
+        "method": [
+            "Coupez 1 tomate au milieu, puis coupez deux tranches à partir du centre et réservez. Retirez les graines du reste de la tomate, puis râpez la chair en jetant la peau. Épépinez et râpez le reste des tomates de la même manière, puis mélangez la chair râpée avec l'ail. Assaisonner et verser dans un plat allant au four de 16 cm.",
+            "Chauffer le four à 200°C/180°C chaleur tournante/gaz 6. Placer le bloc de feta dans les tomates à l'ail, puis garnir avec les tranches de tomates, le piment, l'origan, l'huile d'olive et une pincée de sel marin. Couvrez le plat et enfournez 15 min, puis découvrez et enfournez encore 15 min. Servir chaud avec les pains pitta à part pour tremper."
+        ],
+        "nutritional_info": {
+            "kcal": "243",
+            "fat": "21g",
+            "saturates": "8g",
+            "carbs": "4g",
+            "sugars": "4g",
+            "fibre": "1g",
+            "protein": "8g",
+            "salt": "1.3g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2020/05/greek-bouiyourdi.jpg",
+        "local_image_path": "images/cuisine/greek/greek-bouyiourdi.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/greek-feta-traybake/",
+        "title": "Plateau de feta grecque",
+        "description": "Préparez ce plateau d'inspiration grecque avec de la feta, des olives, du pain pitta et des tomates pour un repas facile en milieu de semaine, puis utilisez les restes pour le déjeuner du lendemain.",
+        "prep_time": "5 mins Cook: 30 mins",
+        "cook_time": "",
+        "serves": "",
+        "ingredients": [
+            "2 pains pitta",
+            "3 cuillères à café d'huile d'olive",
+            "1 cuillère à café d'origan séché",
+            "1 oignon rouge, coupé en fines tranches",
+            "Boîte de 400 g de haricots beurre, égouttés et rincés",
+            "2 courgettes coupées en deux dans le sens de la longueur et tranchées en biais",
+            "100 g de tomates cerises sur vigne",
+            "20 g d'olives Kalamata dénoyautées et coupées en deux",
+            "100 g de feta, coupée en petits morceaux",
+            "1 citron, coupé en quartiers"
+        ],
+        "method": [
+            "Chauffer le four à 220°C/200°C chaleur tournante/gaz 7. Couper ou déchirer les pains pitta en morceaux ou en triangles et disposer sur une grande plaque à pâtisserie. Arroser d'1 cuillère à café d'huile et parsemer de la moitié de l'origan et d'un peu de poivre noir, puis mélanger. Disposez les morceaux de pitta en une seule couche et faites cuire au four pendant 10 minutes jusqu'à ce qu'ils soient dorés et croustillants.",
+            "Retirez les chips pitta du plateau, puis ajoutez les quartiers d'oignons, les haricots et les courgettes. Enduisez-les du reste d'huile et d'origan, assaisonnez et faites rôtir 10 minutes.",
+            "Incorporer les tomates et les olives, puis répartir la feta sur le dessus. Rôtir encore 10 minutes, jusqu'à ce que les légumes soient tendres et que la feta commence à devenir dorée. Répartissez les chips de pitta sur le dessus ou sur les côtés du plateau et pressez-les sur les quartiers de citron avant de servir la moitié du plateau. Laissez le reste du plat de cuisson refroidir pour l'utiliser dans les boîtes à lunch, voir conseil ci-dessous."
+        ],
+        "nutritional_info": {
+            "kcal": "391",
+            "fat": "11g",
+            "saturates": "4g",
+            "carbs": "52g",
+            "sugars": "7g",
+            "fibre": "8g",
+            "protein": "17g",
+            "salt": "1.5g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2020/03/feta_traybake.jpg",
+        "local_image_path": "images/cuisine/greek/greek-feta-traybake.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/leek-globe-artichoke-pie/",
+        "title": "Tarte aux poireaux et artichauts",
+        "description": "Préparez cette tarte d'inspiration grecque comme plat central pour une occasion spéciale. Enrobé dans une fabuleuse pâte filo, il regorge de poireaux, d'artichauts et de fromage.",
+        "prep_time": "30 mins Cook: 40 mins plus cooling",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "3 cuillères à soupe d'huile d'olive",
+            "3 poireaux parés, lavés et coupés en fines rondelles",
+            "1 oignon, finement haché",
+            "2 gousses d'ail, finement râpées",
+            "255 g de cœurs d'artichauts cuits (égouttés de l'huile), tranchés",
+            "250 g de ricotta égouttée",
+            "55 g de parmesan ou alternative végétarienne, râpé",
+            "1 œuf moyen",
+            "½ petit bouquet d'aneth haché",
+            "½ petit bouquet de persil haché",
+            "Paquet de 250 g de pâte filo (10-12 feuilles)",
+            "85 g de beurre fondu",
+            "½ cuillère à soupe de graines de sésame"
+        ],
+        "method": [
+            "Faites chauffer l'huile d'olive dans une poêle à fond épais et ajoutez les poireaux et l'oignon. Assaisonner et cuire à feu moyen jusqu'à ce que les poireaux et l'oignon soient tendres, en remuant fréquemment. Ajouter l'ail et cuire encore 2 minutes. Assurez-vous que le mélange n’est pas trop « humide », sinon votre tarte sera détrempée. Si c’est le cas, augmentez le feu pour éliminer l’excès d’humidité. Ajoutez l'artichaut, puis laissez refroidir.",
+            "Mélangez la ricotta, le parmesan, l'œuf et les herbes dans un grand bol, puis versez les légumes refroidis. Assaisonner et mélanger à la fourchette.",
+            "Dégagez un grand espace sur votre plan de travail ou sur la table de votre cuisine : vous allez réaliser une pâtisserie d’un mètre de large. Prenez un morceau de filo, posez-le sur le plan de travail avec le côté long face à vous et badigeonnez-le de beurre. Mettez deux autres morceaux dessus, en badigeonnant chacun de beurre. Maintenant, faites à nouveau la même chose avec trois couches, en superposant les feuilles précédentes sur le côté gauche d'environ 3 cm. Continuez ainsi jusqu'à obtenir un mètre de feuilles de pâte beurrées qui se chevauchent.",
+            "Chauffer le four à 220C/200C chaleur tournante/gaz 7 et mettre sur une plaque à pâtisserie pour réchauffer. Versez la garniture en fine couche sur la pâte, à environ 2,5 cm du bord. Continuez jusqu'à ce que vous ayez rempli toute la longueur. Enroulez-le soigneusement, en partant du bord le plus proche de vous, jusqu'à obtenir une longue forme de saucisse. Vous devez être ferme, mais ne roulez pas trop fort sinon le filo se divisera. Il devrait vous rester quelques feuilles de filo inutilisées, alors utilisez-les pour réparer les choses, si vous en avez besoin.",
+            "En partant d'une extrémité du boudin, enroulez la pâte, puis transférez-la délicatement sur une plaque à pâtisserie (à peu près de la même taille que celle réchauffée au four).",
+            "Badigeonner la tarte de beurre, saupoudrer de graines de sésame, puis glisser la plaque à pâtisserie sur celle déjà au four (cela permet d'assurer une cuisson homogène). Cuire au four pendant 30 à 35 minutes ou jusqu'à ce qu'il soit doré. Laissez la tarte refroidir un peu avant de la déguster."
+        ],
+        "nutritional_info": {
+            "kcal": "440",
+            "fat": "27g",
+            "saturates": "13g",
+            "carbs": "30g",
+            "sugars": "5g",
+            "fibre": "15g",
+            "protein": "15g",
+            "salt": "1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2020/03/leek-globe-artichoke-pie.jpg",
+        "local_image_path": "images/cuisine/greek/leek-globe-artichoke-pie.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/greek-lamb-meatballs/",
+        "title": "Boulettes de viande d'agneau à la grecque",
+        "description": "Préparez ces réconfortantes boulettes de viande d'agneau grecques avec des légumes grillés et des pommes de terre en seulement cinq minutes. Un favori familial garanti, parfait pour les soirs de semaine chargés",
+        "prep_time": "5 mins Cook: 35 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "2 cuillères à soupe d'huile d'olive",
+            "500 g de boulettes d'agneau",
+            "300 g de pommes de terre nouvelles grelots, tranchées épaisses",
+            "2 grosses gousses d'ail, écrasées",
+            "185 g de légumes grillés, égouttés s'ils sont dans l'huile",
+            "2 boîtes de 400 g de tomates concassées aux herbes",
+            "2 cuillères à café de cassonade légère",
+            "100 g d'olives noires",
+            "40 g de feta émiettée",
+            "½ petit bouquet de menthe finement râpée",
+            "1 citron, zesté"
+        ],
+        "method": [
+            "Faites chauffer 1 cuillère à soupe d'huile dans une grande cocotte peu profonde ou une poêle à frire à feu moyen. Ajouter les boulettes de viande et faire frire pendant 5 minutes ou jusqu'à ce qu'elles soient dorées. Réserver dans une assiette.",
+            "Faites chauffer le reste de l'huile dans la même poêle et faites revenir les pommes de terre à feu moyen pendant 5 minutes ou jusqu'à ce qu'elles commencent à devenir dorées.",
+            "Ajouter l'ail dans la poêle et faire revenir 1 min. Incorporer les légumes grillés, les tomates et le sucre, ainsi que les olives. Saison. Remettez les boulettes de viande dans la poêle, couvrez et faites cuire à feu moyen-doux pendant 30 à 35 minutes en remuant de temps en temps. Retirez le couvercle à mi-cuisson, les pommes de terre doivent être à peine cuites avec le liquide légèrement réduit.",
+            "Retirez la casserole du feu et servez à table avec la feta, la menthe et le zeste de citron parsemés."
+        ],
+        "nutritional_info": {
+            "kcal": "555",
+            "fat": "31g",
+            "saturates": "11g",
+            "carbs": "35g",
+            "sugars": "12g",
+            "fibre": "6g",
+            "protein": "31g",
+            "salt": "1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2019/03/meatballs.jpg",
+        "local_image_path": "images/cuisine/greek/greek-lamb-meatballs.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/artichoke-aubergine-lamb-moussaka/",
+        "title": "Artichoke, aubergine & lamb moussaka",
+        "description": "Un rôti d'agneau légèrement épicé avec des cœurs d'artichauts, un ragoût de tomates cerises et des couches d'aubergines et de pommes de terre frites",
+        "prep_time": "40 mins Cook: 1 hrs 40 mins",
+        "cook_time": "",
+        "serves": "10",
+        "ingredients": [
+            "huile d'olive, pour la friture",
+            "1kg d'agneau haché",
+            "2 gros oignons, finement hachés",
+            "3 gousses d'ail, hachées",
+            "2 boîtes de 395 g de tomates cerises au jus épais",
+            "2 feuilles de laurier",
+            "1 bâton de cannelle",
+            "½ cuillère à café d'origan séché",
+            "pincée de sucre",
+            "2 aubergines moyennes",
+            "700 g de grosses pommes de terre",
+            "2 boîtes de 390 g de cœurs d'artichauts bien égouttés (voir astuce)",
+            "100g de beurre",
+            "100 g de farine nature",
+            "900 ml de lait",
+            "râpe très généreuse de muscade",
+            "125g grated Gruyère",
+            "25 g de parmesan râpé",
+            "3 œufs moyens, légèrement battus"
+        ],
+        "method": [
+            "Faites chauffer 1 1/2 cuillère à soupe d'huile d'olive dans une large poêle à fond épais jusqu'à ce qu'elle soit chaude, puis faites frire l'agneau jusqu'à ce qu'il soit entièrement doré, environ 10 minutes (il est important que l'huile soit chaude, sinon vous finirez par cuire l'agneau à la vapeur au lieu de le faire frire). Retirer avec une écumoire et réserver dans un grand bol. Versez tout l'huile dans la poêle sauf 2 cuillères à soupe (l'agneau en libérera un peu). Faites chauffer le tout et faites revenir les oignons à feu moyen jusqu'à ce qu'ils soient tendres et dorés. Ajouter l'ail et cuire encore quelques minutes, puis ajouter les tomates, le laurier, la cannelle, l'origan, le sucre et l'assaisonnement. Portez à ébullition, puis baissez le feu à ébullition. Remettez la viande dans la poêle, couvrez et laissez cuire 40 minutes à feu doux. Retirez le couvercle et faites cuire jusqu’à obtenir une sauce épaisse (elle ne doit pas être trop « veloutée »).",
+            "Pendant que la viande cuit, coupez les aubergines en rondelles. Coupez les pommes de terre en fines tranches. Faites chauffer 2 cuillères à soupe d'huile d'olive dans une poêle et faites cuire les aubergines par lots jusqu'à ce qu'elles soient dorées des deux côtés (prenez deux poêles à emporter si vous en avez), puis baissez le feu et laissez cuire jusqu'à ce qu'elles soient tendres. Assaisonner et retirer de la poêle. Ajoutez un peu plus d'huile et faites cuire les pommes de terre par lots, des deux côtés, jusqu'à ce qu'elles soient dorées, en les retirant au fur et à mesure. Vous devrez ajouter plus d’huile dans la poêle lorsque vous ferez frire chaque lot. Assaisonner et réserver.",
+            "Faites revenir les cœurs d'artichauts dans l'huile d'olive à feu vif pour leur donner un peu de couleur, mais attention à ce qu'ils ne se désagrègent pas. Saison.",
+            "Retirez les feuilles de laurier et le bâton de cannelle de la viande et goûtez pour l'assaisonnement. Disposez la moussaka dans un plat mesurant environ 32 x 23 x 6 cm. Commencez par mettre toutes les pommes de terre au fond, puis ajoutez la moitié de la viande. Disposez dessus une couche d'aubergine, puis le reste de la viande. Déposez dessus les cœurs d'artichauts.",
+            "Chauffer le four à 200C/180C chaleur tournante/gaz 6. Pour préparer la sauce, faire fondre le beurre dans une casserole à fond épais et incorporer la farine jusqu'à ce qu'elle devienne légèrement sèche et de couleur sable. Retirez du feu et commencez à ajouter le lait petit à petit. Bien battre après chaque ajout et garder le mélange lisse. Continuez à ajouter jusqu'à ce que vous ayez épuisé tout le lait. Remettez la casserole sur feu moyen et portez à ébullition en remuant continuellement jusqu'à ce que la sauce épaississe pour former une sauce. Ajoutez beaucoup de muscade, du sel et du poivre. Baissez le feu et laissez cuire doucement pendant environ 5 minutes – cela aide simplement à cuire la farine dans la sauce. Ajoutez les trois quarts du fromage et remuez pour le faire fondre. Vérifiez l'assaisonnement – ​​il a besoin d'un assaisonnement affirmé. Laisser refroidir un peu, puis incorporer les œufs.",
+            "Versez-le sur les couches du plat et répartissez le reste du fromage dessus. Cuire au four pendant 30 minutes jusqu'à ce que le dessus soit doré et bouillonnant. Laisser refroidir environ 10 minutes – les Grecs ne le mangent jamais très chaud – puis servir."
+        ],
+        "nutritional_info": {
+            "kcal": "588",
+            "fat": "33g",
+            "saturates": "17g",
+            "carbs": "35g",
+            "sugars": "15g",
+            "fibre": "7g",
+            "protein": "34g",
+            "salt": "1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2016/06/artichoke-aubergine-lamb-moussaka.jpg",
+        "local_image_path": "images/cuisine/greek/artichoke-aubergine-lamb-moussaka.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/greek-style-roast-fish/",
+        "title": "Poisson rôti à la grecque",
+        "description": "Filets de poisson blanc au four avec pommes de terre, tomates et herbes pour un dîner de semaine sain et sans gluten",
+        "prep_time": "10 mins Cook: 50 mins",
+        "cook_time": "",
+        "serves": "2",
+        "ingredients": [
+            "5 petites pommes de terre (environ 400 g), lavées et coupées en quartiers",
+            "1 oignon, coupé en deux et tranché",
+            "2 gousses d'ail, hachées grossièrement",
+            "½ cuillère à café d'origan séché ou ½ cuillère à soupe d'origan frais haché",
+            "2 cuillères à soupe d'huile d'olive",
+            "½ citron, coupé en quartiers",
+            "2 grosses tomates, coupées en quartiers",
+            "2 filets de goberge frais sans peau (environ 200g)",
+            "une petite poignée de persil haché grossièrement"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C chaleur tournante/gaz 6. Versez les pommes de terre, l'oignon, l'ail, l'origan et l'huile d'olive dans une rôtissoire, assaisonnez, puis mélangez avec les mains pour bien enrober le tout d'huile. Rôtir 15 min, retourner le tout et enfourner encore 15 min.",
+            "Ajoutez le citron et les tomates, faites rôtir 10 minutes, puis garnissez de filets de poisson et laissez cuire encore 10 minutes. Servir avec du persil parsemé."
+        ],
+        "nutritional_info": {
+            "kcal": "388",
+            "fat": "13g",
+            "saturates": "2g",
+            "carbs": "42g",
+            "sugars": "11g",
+            "fibre": "6g",
+            "protein": "23g",
+            "salt": "0.4g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/user-collections/my-colelction-image/2015/12/greek-style-roast-fish.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/lamb-kleftiko/",
+        "title": "Kleftiko d'agneau",
+        "description": "Scellez un gigot d'agneau dans un paquet puis faites-le rôtir longuement et lentement avec de l'ail, du citron, des herbes et des pommes de terre pour s'imprégner des délicieux jus.",
+        "prep_time": "10 mins Cook: 5 hrs 20 mins plus overnight marinating",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "6 gousses d'ail",
+            "3 cuillères à soupe d'origan grossièrement haché",
+            "1 cuillère à soupe de romarin grossièrement haché",
+            "le zeste d'1 citron et le jus de 2",
+            "½ cuillère à café de cannelle moulue",
+            "3 cuillères à soupe d'huile d'olive",
+            "2 kg de gigot d'agneau",
+            "1 kg de pommes de terre Désirée, coupées en deux ou en quartiers",
+            "5 feuilles de laurier",
+            "250 g de yaourt grec",
+            "jus ½ citron",
+            "1 cuillère à soupe d'huile d'olive",
+            "une poignée de menthe, râpée",
+            "1½ cuillère à café de vinaigre de vin rouge",
+            "1½ cuillère à soupe d'huile d'olive extra vierge",
+            "100 g de bébés épinards",
+            "petit bouquet de persil, haché grossièrement",
+            "½ oignon rouge, finement tranché",
+            "175 g de tomates cerises coupées en deux",
+            "½ concombre, coupé en deux dans le sens de la longueur, épépiné et tranché",
+            "75 g d'olives noires Kalamata, dénoyautées et coupées en quartiers"
+        ],
+        "method": [
+            "Écrasez ensemble les gousses d'ail\r\net 1 cuillère à café de sel à l'aide d'un pilon et d'un mortier.\r\nAjoutez les herbes, le zeste de citron, la cannelle,\r\nun peu de poivre noir, écraser un peu plus,\r\npuis incorporez 2 cuillères à soupe d'huile d'olive.\r\nÀ l'aide d'un couteau bien aiguisé, créez de nombreux trous\r\npartout sur l'agneau, et frottez-y la pâte,\r\nen l'enfonçant profondément dans les trous. Transfert\r\nl'agneau dans un grand sac de nourriture, versez-y le\r\njus de citron et laisser mariner toute la nuit.",
+            "Le lendemain, sortez l'agneau du\r\nau réfrigérateur 1h avant de vouloir le cuisiner.\r\nChauffer le four à 160C/140C ventilateur/gaz 3. Poser\r\n2 longs morceaux de papier sulfurisé sur le dessus\r\nde 2 longs morceaux de papier d'aluminium – un dans le sens de la largeur,\r\nl'autre dans le sens de la longueur pour former une croix.\r\nMettez les pommes de terre au centre du\r\nparchemin et mélanger avec le reste\r\nde l'huile et un peu d'assaisonnement. Apportez le\r\ncôtés du papier d'aluminium, puis versez la marinade\r\nde l'agneau sur les pommes de terre et ajoutez les feuilles de laurier. Mettez l'agneau sur\r\ndessus des pommes de terre et écraser le papier d'aluminium\r\nensemble étroitement pour enfermer complètement\r\nl'agneau. Mettre dans un plat à rôtir et rôtir\r\nau four pendant 4h30 jusqu'à ce qu'ils soient très tendres.",
+            "Retirer le moule du four et augmenter\r\nla température à 220C/200C ventilateur/gaz 7.\r\nDéballez le colis et froissez le papier d'aluminium\r\net du parchemin sous le bord de la boîte,\r\narroser l'agneau avec le jus et remettre\r\nau four encore 20 minutes jusqu'à ce que\r\ndoré. Retirez l'agneau du moule,\r\nenvelopper dans du papier d'aluminium et reposer. Retourner les pommes de terre\r\nrecommencer et remettre au four 30 mn,\r\npuis assaisonnez avec du sel.",
+            "Pendant que les pommes de terre cuisent, remuez\r\nensemble tous les ingrédients pour le\r\nyaourt. Mélangez le vinaigre de vin rouge, l'huile\r\net un peu d'assaisonnement pour faire une vinaigrette\r\npour la salade. Mélangez le reste\r\ningrédients de la salade, ajout de la vinaigrette\r\nquand vous êtes prêt à manger. Servir l'agneau\r\navec les pommes de terre et les jus de viande, avec\r\nla salade et le yaourt à part."
+        ],
+        "nutritional_info": {
+            "kcal": "729",
+            "fat": "41g",
+            "saturates": "16g",
+            "carbs": "33g",
+            "sugars": "6g",
+            "fibre": "4g",
+            "protein": "57g",
+            "salt": "2.3g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/kleftiko.jpg",
+        "local_image_path": "images/cuisine/greek/lamb-kleftiko.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/spicy-lamb-feta-skewers-greek-brown-rice-salad/",
+        "title": "Brochettes d'agneau épicées et feta avec salade de riz brun grec",
+        "description": "Brochettes façon kofta avec feta, harissa et oignon, servies avec un riz basmati sain parfumé au persil et à la menthe",
+        "prep_time": "25 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "300 g de riz basmati brun",
+            "500 g de viande hachée d'agneau",
+            "1 cuillère à soupe de harissa",
+            "50 g de fromage feta",
+            "1 gros oignon rouge, ½ tranché finement, ½ râpé",
+            "une grosse poignée de persil, haché grossièrement",
+            "une grosse poignée de menthe hachée grossièrement",
+            "85 g d'olives noires Kalamata dénoyautées, coupées en quartiers",
+            "1 concombre, coupé en dés",
+            "300 g de tomates cerises coupées en deux",
+            "1 cuillère à soupe d'huile d'olive",
+            "jus d'1 citron"
+        ],
+        "method": [
+            "Faire tremper 12 brochettes de bois dans l'eau\r\npendant 30 minutes. Cuire le riz suivant le pack\r\ninstructions, puis rincer sous l'eau froide\r\net égouttez-les soigneusement.",
+            "Faites chauffer le gril. Mélangez le hachis avec le\r\nharissa, feta, oignon râpé et assaisonnement.\r\nFormer 12 formes de boudin et enfiler\r\nsur les brochettes. Poser sur une plaque à pâtisserie antiadhésive\r\nplaque et griller pendant 6 à 8 minutes, en retournant jusqu'à ce que\r\nbien cuit et légèrement doré.",
+            "Mélangez le riz brun avec le reste\r\ningrédients et quelques assaisonnements. Servir\r\naux côtés des brochettes chaudes."
+        ],
+        "nutritional_info": {
+            "kcal": "423",
+            "fat": "18g",
+            "saturates": "7g",
+            "carbs": "42g",
+            "sugars": "5g",
+            "fibre": "5g",
+            "protein": "23g",
+            "salt": "1.2g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/koftas.jpg",
+        "local_image_path": "images/cuisine/greek/spicy-lamb-feta-skewers-greek-brown-rice-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/lamb-burgers-with-tzatziki/",
+        "title": "Burgers d'agneau au tzatziki",
+        "description": "Les hamburgers faits maison sont toujours gagnants : essayez cette version grecque faible en calories avec du yaourt au concombre et à la menthe et des galettes épicées.",
+        "prep_time": "15 mins Cook: 25 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "25g de blé boulgar",
+            "500 g de viande hachée d'agneau extra maigre",
+            "1 cuillère à café de cumin moulu",
+            "1 cuillère à café de coriandre moulue",
+            "1 cuillère à café de paprika fumé",
+            "1 gousse d'ail écrasée très finement (facultatif)",
+            "huile, pour le brossage",
+            "gros pains à burger, tranches de tomate et oignon rouge, pour servir",
+            "Morceau de concombre de 5 cm, épépiné et râpé grossièrement",
+            "Pot de 200 g de yaourt grec épais",
+            "2 cuillères à soupe de menthe hachée, plus une poignée de feuilles pour servir"
+        ],
+        "method": [
+            "Versez le boulghar dans une casserole, couvrez\r\navec de l'eau et faire bouillir pendant 10 minutes. Vidanger\r\ntrès bien dans une passoire, en éliminant tout\r\nexcès d'eau.",
+            "Pour faire le tzatziki, pressez et\r\njeter le jus du concombre,\r\npuis mélangez-le au yaourt avec le\r\nmenthe hachée et un peu de sel.",
+            "Travaillez le boulghar dans l'agneau avec\r\nles épices, l'ail (si utilisé) et l'assaisonnement,\r\npuis façonnez 4 burgers. Badigeonner avec\r\nun peu d'huile et faire frire ou griller pendant environ\r\n5 minutes de chaque côté jusqu'à ce qu'il soit complètement cuit\r\nà travers. Servir dans les petits pains (grillés si vous\r\ngenre) avec le tzatziki, tomates, oignon\r\net quelques feuilles de menthe."
+        ],
+        "nutritional_info": {
+            "kcal": "340",
+            "fat": "22g",
+            "saturates": "11g",
+            "carbs": "7g",
+            "sugars": "2g",
+            "fibre": "0g",
+            "protein": "28g",
+            "salt": "0.3g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1308460_3.jpg",
+        "local_image_path": "images/cuisine/greek/lamb-burgers-with-tzatziki.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/griddled-chicken-with-quinoa-greek-salad/",
+        "title": "Poulet grillé avec salade grecque au quinoa",
+        "description": "Un plat léger de filets de poulet grillés et une salade authentique aux olives de Kalamata, fromage feta, tomate et menthe",
+        "prep_time": "",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "225 g de quinoa",
+            "25g de beurre",
+            "1 piment rouge épépiné et finement haché",
+            "1 gousse d'ail, écrasée",
+            "400 g de mini-filets de poulet",
+            "1½ cuillère à soupe d'huile d'olive extra vierge",
+            "300 g de tomates grappes hachées grossièrement",
+            "poignée d'olives noires Kalamata dénoyautées",
+            "1 oignon rouge, finement tranché",
+            "100 g de fromage feta émietté",
+            "petit bouquet de feuilles de menthe, hachées",
+            "jus et zeste d'un demi citron"
+        ],
+        "method": [
+            "Cuire le quinoa en suivant\r\nemballer les instructions, puis rincer\r\neau froide et égouttez-les soigneusement.",
+            "Pendant ce temps, mélangez le beurre,\r\nle piment et l'ail en une pâte. Lancer\r\nles filets de poulet dans 2 cuillères à café de\r\nhuile d'olive avec un peu d'assaisonnement.\r\nDisposez dans une poêle bien chaude et faites cuire\r\npendant 3-4 minutes de chaque côté ou jusqu'à ce que\r\nbien cuit. Transférer dans une assiette, parsemer de beurre épicé\r\net laisser fondre.",
+            "Ensuite, renversez les tomates, les olives,\r\nl'oignon, la feta et la menthe dans un bol.\r\nIncorporer le quinoa cuit. Remuer\r\nà travers le reste de l'huile d'olive,\r\njus et zeste de citron et assaisonner\r\neh bien. Servir avec le poulet\r\nfilets sur le dessus, arrosés de tout\r\njus de poulet au beurre."
+        ],
+        "nutritional_info": {
+            "kcal": "473",
+            "fat": "20g",
+            "saturates": "8g",
+            "carbs": "35g",
+            "sugars": "8g",
+            "fibre": "2g",
+            "protein": "37g",
+            "salt": "1.4g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1201615_11.jpg",
+        "local_image_path": "images/cuisine/greek/griddled-chicken-with-quinoa-greek-salad.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/greek-lamb-and-macaroni-bake/",
+        "title": "Agneau grec et macaroni au four",
+        "description": "Un croisement entre la moussaka et le macaroni au fromage, ces pâtes méditerranéennes économiques constituent un repas copieux",
+        "prep_time": "20 mins Cook: 1 hrs 15 mins",
+        "cook_time": "",
+        "serves": "6",
+        "ingredients": [
+            "1 cuillère à soupe d'huile d'olive",
+            "1 gros oignon, haché",
+            "2 gousses d'ail, écrasées",
+            "500 g de viande hachée d'agneau maigre",
+            "1 cuillère à café de cannelle moulue",
+            "1 cube de bouillon de boeuf ou d'agneau",
+            "2 boîtes de 400 g de tomates concassées",
+            "1 cuillère à soupe d'origan séché",
+            "400 g de macaronis",
+            "Pot de 250 g de ricotta",
+            "50 g de parmesan râpé",
+            "50 ml de lait",
+            "pain à l'ail, pour servir (facultatif)"
+        ],
+        "method": [
+            "Faites chauffer l'huile dans une grande poêle, ajoutez le\r\nl'oignon et cuire 10 minutes jusqu'à ce qu'il soit tendre.\r\nAjouter l'ail et cuire encore 1 min,\r\npuis versez le hachis d'agneau, montez le\r\nchauffer et faire dorer, en brisant le hachis\r\navec une cuillère en bois.",
+            "Une fois l'agneau doré, ajoutez\r\nla cannelle, le cube de bouillon émietté,\r\ntomates et origan. Remuez bien et\r\nlaisser mijoter 15 min à couvert, puis pendant\r\n15 minutes, à découvert, jusqu'à ce que la sauce\r\na épaissi et les tomates ont\r\ncuit.",
+            "Pendant ce temps, faites cuire les macaronis\r\nen suivant les instructions de l'emballage. Bien égoutter.\r\nChauffer le four à 200C/180C ventilateur/gaz 6.",
+            "Mélangez la ricotta, la majeure partie\r\nDu parmesan et du lait avec beaucoup de\r\nassaisonner et incorporer aux macaronis.\r\nVersez le hachis dans un grand plat allant au four, dessus\r\navec le mélange de macaronis et parsemer\r\nsur le parmesan restant. Cuire au four pour\r\n30 minutes jusqu'à ce qu'ils soient dorés et bouillonnants. Servir\r\nchaud avec du pain à l'ail, si vous le souhaitez."
+        ],
+        "nutritional_info": {
+            "kcal": "548",
+            "fat": "21g",
+            "saturates": "10g",
+            "carbs": "56g",
+            "sugars": "8g",
+            "fibre": "4g",
+            "protein": "33g",
+            "salt": "1g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--1178454_11.jpg",
+        "local_image_path": "images/cuisine/greek/greek-lamb-and-macaroni-bake.jpg"
+    },
+    {
+        "url": "https://www.bbcgoodfoodme.com/recipes/greek-lamb-with-potatoes-and-olives/",
+        "title": "Agneau grec avec pommes de terre et olives",
+        "description": "Recevoir en toute simplicité avec ce plat rustique rapide à préparer – il suffit de le servir avec du pain croustillant.",
+        "prep_time": "20 mins Cook: 1 hrs 10 mins",
+        "cook_time": "",
+        "serves": "4",
+        "ingredients": [
+            "800 g de pommes de terre de taille moyenne, avec la peau, tranchées finement",
+            "4 grosses tomates, tranchées finement",
+            "1 aubergine, tranchée finement",
+            "4 gousses d'ail, hachées",
+            "3 cuillères à soupe de feuilles d'origan, plus un peu pour saupoudrer",
+            "85 g d'olives Kalamata dénoyautées, coupées en deux",
+            "5 cuillères à soupe d'huile d'olive, plus un filet",
+            "100 g de fromage feta émietté",
+            "4 steaks d'agneau"
+        ],
+        "method": [
+            "Chauffer le four à 200C/180C ventilateur/gaz 6.\r\nSuperposez la moitié de la pomme de terre, de la tomate et\r\naubergine dans un plat allant au four, parsemée\r\navec de l'ail, de l'origan et des olives, et\r\narroser d'huile et assaisonner au fur et à mesure.",
+            "Répartissez sur la feta, puis répétez l'opération.\r\ncouches jusqu'à ce que tous les ingrédients soient utilisés\r\nvers le haut. Terminez avec des pommes de terre et un peu d'huile.",
+            "Cuire au four pendant 50 minutes ou jusqu'à ce que les légumes soient\r\ntendres (couvrir de papier d’aluminium s’ils deviennent tendres)\r\ntrop marron). Garnir avec les steaks d'agneau,\r\nfrotter avec un peu plus d'huile et\r\nassaisonnement. Cuire au four encore 15 à 20 minutes\r\njusqu'à ce que l'agneau soit cuit. Laisser reposer\r\net laisser refroidir un peu avant de parsemer de\r\norigan et servir avec du pain croustillant."
+        ],
+        "nutritional_info": {
+            "kcal": "772",
+            "fat": "51g",
+            "saturates": "19g",
+            "carbs": "42g",
+            "sugars": "8g",
+            "fibre": "6g",
+            "protein": "38g",
+            "salt": "2.03g"
+        },
+        "image_url": "https://www.bbcgoodfoodme.com/assets/legacy/recipe_images/recipe-image-legacy-id--513792_10.jpg",
+        "local_image_path": "images/cuisine/greek/greek-lamb-with-potatoes-and-olives.jpg"
+    }
+]
