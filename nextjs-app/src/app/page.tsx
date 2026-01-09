@@ -1,6 +1,7 @@
 'use client';
 
 import { useUser } from '@/contexts/UserContext';
+import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import SmartPlan from '@/components/SmartPlan';
@@ -50,6 +51,9 @@ interface Recipe {
 
 export default function Dashboard() {
   const { user, theme, settings, isLoading } = useUser();
+  const t = useTranslations('dashboard');
+  const tFamily = useTranslations('family');
+  const tCommon = useTranslations('common');
   const [randomMeals, setRandomMeals] = useState<Recipe[]>([]);
   const [mealsLoading, setMealsLoading] = useState(true);
   const [stats, setStats] = useState({
@@ -116,7 +120,7 @@ export default function Dashboard() {
     return '/images/placeholder.png';
   };
 
-  if (isLoading || !user) return <div className="p-8 text-center">Loading dashboard...</div>;
+  if (isLoading || !user) return <div className="p-8 text-center">{t('loadingDashboard')}</div>;
 
   return (
     <div className="animate-fade-in relative min-h-screen">
@@ -129,8 +133,8 @@ export default function Dashboard() {
 
       <OnboardingController />
       <div className="mb-8">
-        <h1 className="page-title">Welcome back, {user.fullName}!</h1>
-        <p className="page-subtitle">Track your macros, hit your goals, and crush your fat loss journey.</p>
+        <h1 className="page-title">{t('welcomeBack', { name: user.fullName })}</h1>
+        <p className="page-subtitle">{t('trackMacrosDesc')}</p>
       </div>
 
       {/* Stats Grid */}
@@ -139,7 +143,7 @@ export default function Dashboard() {
         <div className="stat-card">
           <div className="text-4xl mb-2 flex justify-center"><Flame className="w-10 h-10 text-red-500" /></div>
           <div className="stat-value">{stats.calories}</div>
-          <div className="stat-label">Calories Today</div>
+          <div className="stat-label">{t('caloriesToday')}</div>
           <div className="progress-bar">
             <div
               className="progress-fill"
@@ -150,14 +154,14 @@ export default function Dashboard() {
             />
           </div>
           <div className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>
-            Target: {targets.calories}
+            {t('target')}: {targets.calories}
           </div>
         </div>
 
         <div className="stat-card">
           <div className="text-4xl mb-2 flex justify-center"><Dumbbell className="w-10 h-10 text-blue-500" /></div>
           <div className="stat-value">{stats.protein}g</div>
-          <div className="stat-label">Protein</div>
+          <div className="stat-label">{t('protein')}</div>
           <div className="progress-bar">
             <div
               className="progress-fill"
@@ -168,14 +172,14 @@ export default function Dashboard() {
             />
           </div>
           <div className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>
-            Target: {targets.protein}g
+            {t('target')}: {targets.protein}g
           </div>
         </div>
 
         <div className="stat-card">
           <div className="text-4xl mb-2 flex justify-center"><Wheat className="w-10 h-10 text-amber-500" /></div>
           <div className="stat-value">{stats.carbs}g</div>
-          <div className="stat-label">Carbs</div>
+          <div className="stat-label">{t('carbs')}</div>
           <div className="progress-bar">
             <div
               className="progress-fill"
@@ -186,14 +190,14 @@ export default function Dashboard() {
             />
           </div>
           <div className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>
-            Target: {targets.carbs}g
+            {t('target')}: {targets.carbs}g
           </div>
         </div>
 
         <div className="stat-card">
           <div className="text-4xl mb-2 flex justify-center"><Droplet className="w-10 h-10 text-purple-500" /></div>
           <div className="stat-value">{stats.fat}g</div>
-          <div className="stat-label">Fat</div>
+          <div className="stat-label">{t('fat')}</div>
           <div className="progress-bar">
             <div
               className="progress-fill"
@@ -204,7 +208,7 @@ export default function Dashboard() {
             />
           </div>
           <div className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>
-            Target: {targets.fat}g
+            {t('target')}: {targets.fat}g
           </div>
         </div>
       </div>
@@ -223,14 +227,14 @@ export default function Dashboard() {
         <div className="card mb-6 border-emerald-500/30 bg-emerald-500/5">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
             <div>
-              <h3 className="text-lg font-semibold flex items-center gap-2">My Family Members <Users size={20} /></h3>
-              <p className="text-sm text-[var(--text-secondary)]">Manage your household accounts</p>
+              <h3 className="text-lg font-semibold flex items-center gap-2">{tFamily('myFamily')} <Users size={20} /></h3>
+              <p className="text-sm text-[var(--text-secondary)]">{tFamily('manageHousehold')}</p>
             </div>
             <button
               onClick={() => setShowFamilyModal(true)}
               className="btn-primary w-full sm:w-auto"
             >
-              + Add Member
+              + {tFamily('addMember')}
             </button>
           </div>
 
@@ -240,25 +244,25 @@ export default function Dashboard() {
 
       {/* Quick Actions */}
       <div className="card mb-6">
-        <h3 className="text-lg font-semibold mb-4">Quick Actions</h3>
+        <h3 className="text-lg font-semibold mb-4">{t('quickActions')}</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           <Link href="/macros" className="btn-primary text-center justify-center">
-            <Plus size={18} /> Log Food
+            <Plus size={18} /> {t('logFood')}
           </Link>
           <Link href="/calculator" className="btn-secondary text-center justify-center">
-            <Calculator size={18} /> Calculate Calories
+            <Calculator size={18} /> {t('calculateCalories')}
           </Link>
           <Link href="/statistics" className="btn-secondary text-center justify-center">
-            <BarChart3 size={18} /> View Progress
+            <BarChart3 size={18} /> {t('viewProgress')}
           </Link>
           <Link href="/meals" className="btn-secondary text-center justify-center">
-            <BookOpen size={18} /> Browse Meals
+            <BookOpen size={18} /> {t('browseMeals')}
           </Link>
           <Link href="/groceries" className="btn-secondary text-center justify-center">
-            <ShoppingCart size={18} /> Grocery List
+            <ShoppingCart size={18} /> {t('groceryList')}
           </Link>
           <Link href="/community" className="btn-secondary text-center border-emerald-500/50 justify-center">
-            <MessageCircle size={18} /> Community
+            <MessageCircle size={18} /> {t('community')}
           </Link>
         </div>
       </div>
@@ -269,13 +273,13 @@ export default function Dashboard() {
       {/* Meal Ideas */}
       <div className="mb-8">
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-xl font-semibold flex items-center gap-2">Meal Ideas for You <Utensils size={20} /></h2>
+          <h2 className="text-xl font-semibold flex items-center gap-2">{t('mealIdeas')} <Utensils size={20} /></h2>
           <Link href="/meals" className="text-sm" style={{ color: theme.primary }}>
-            View All →
+            {t('viewAll')} →
           </Link>
         </div>
         <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>
-          International variety - tasty, high-protein, and budget-friendly options.
+          {t('mealIdeasDesc')}
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -296,7 +300,7 @@ export default function Dashboard() {
                 {/* Healthy Badge */}
                 {meal.isHealthy && (
                   <div className="absolute top-2 left-2 z-10 bg-green-500 text-white text-xs px-2 py-1 rounded-full font-medium shadow-lg flex items-center gap-1">
-                    <Leaf size={12} /> Healthy
+                    <Leaf size={12} /> {t('healthy')}
                   </div>
                 )}
                 {getImageUrl(meal) ? (
@@ -325,19 +329,19 @@ export default function Dashboard() {
                   <div className="meal-card-macros">
                     <div>
                       <div className="macro-value" style={{ color: 'var(--calories)' }}>{meal.kcal}</div>
-                      <div className="macro-label">kcal</div>
+                      <div className="macro-label">{tCommon('kcal')}</div>
                     </div>
                     <div>
                       <div className="macro-value" style={{ color: 'var(--protein)' }}>{meal.protein}g</div>
-                      <div className="macro-label">Protein</div>
+                      <div className="macro-label">{t('protein')}</div>
                     </div>
                     <div>
                       <div className="macro-value" style={{ color: 'var(--carbs)' }}>{meal.carbs}g</div>
-                      <div className="macro-label">Carbs</div>
+                      <div className="macro-label">{t('carbs')}</div>
                     </div>
                     <div>
                       <div className="macro-value" style={{ color: 'var(--fat)' }}>{meal.fat}g</div>
-                      <div className="macro-label">Fat</div>
+                      <div className="macro-label">{t('fat')}</div>
                     </div>
                   </div>
                 </div>
@@ -356,20 +360,20 @@ export default function Dashboard() {
         }}
       >
         <h3 className="text-lg font-semibold mb-2 flex items-center gap-2">
-          <Apple size={20} className="text-amber-400" /> Daily Ginger Energy Shot
+          <Apple size={20} className="text-amber-400" /> {t('gingerShot')}
         </h3>
         <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>
-          Boost metabolism and energy before breaking your fast
+          {t('gingerShotDesc')}
         </p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
-          <div><strong>Fresh ginger:</strong> 20g</div>
-          <div><strong>Lemon juice:</strong> 10ml</div>
-          <div><strong>Water:</strong> 20ml</div>
-          <div><strong>Honey (opt):</strong> 3g</div>
+          <div><strong>{t('freshGinger')}:</strong> 20g</div>
+          <div><strong>{t('lemonJuice')}:</strong> 10ml</div>
+          <div><strong>{t('water')}:</strong> 20ml</div>
+          <div><strong>{t('honeyOptional')}:</strong> 3g</div>
         </div>
         <p className="text-sm mt-4 flex items-center gap-2" style={{ color: 'var(--text-muted)' }}>
           <Sparkles size={14} className="text-amber-500" />
-          <span><strong>Tip:</strong> Make 7 shots, freeze in ice cube tray. Thaw one daily!</span>
+          <span><strong>{t('tip')}:</strong> {t('gingerTip')}</span>
         </p>
       </div>
 
@@ -392,6 +396,7 @@ export default function Dashboard() {
 function FamilyList({ refreshTrigger }: { refreshTrigger: number }) {
   const [members, setMembers] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
+  const tFamily = useTranslations('family');
 
   useEffect(() => {
     fetch('/api/family')
@@ -406,7 +411,7 @@ function FamilyList({ refreshTrigger }: { refreshTrigger: number }) {
       });
   }, [refreshTrigger]);
 
-  if (loading) return <div className="text-sm text-gray-400">Loading family...</div>;
+  if (loading) return <div className="text-sm text-gray-400">{tFamily('loadingFamily')}</div>;
 
   return (
     <div className="flex gap-3 overflow-x-auto pb-2 sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:overflow-visible">
@@ -426,7 +431,7 @@ function FamilyList({ refreshTrigger }: { refreshTrigger: number }) {
             <div className="font-medium text-sm sm:text-base flex items-center gap-1 truncate">
               {member.full_name}
               {member.role === 'master' && (
-                <span className="text-[10px] sm:text-xs bg-yellow-500/20 text-yellow-500 px-1 rounded">Master</span>
+                <span className="text-[10px] sm:text-xs bg-yellow-500/20 text-yellow-500 px-1 rounded">{tFamily('master')}</span>
               )}
             </div>
             <div className="text-[10px] sm:text-xs text-[var(--text-muted)] truncate">{member.email}</div>
@@ -440,6 +445,7 @@ function FamilyList({ refreshTrigger }: { refreshTrigger: number }) {
 function FamilyModal({ onClose, onSuccess }: { onClose: () => void, onSuccess: () => void }) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState('');
+  const tFamily = useTranslations('family');
   const [formData, setFormData] = useState({
     fullName: '',
     email: '',
@@ -474,13 +480,13 @@ function FamilyModal({ onClose, onSuccess }: { onClose: () => void, onSuccess: (
     <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4">
       <div className="card w-full max-w-sm animate-fade-in relative">
         <button onClick={onClose} className="absolute top-4 right-4 text-gray-400 hover:text-white"><X size={18} /></button>
-        <h3 className="text-lg font-bold mb-4">Add Family Member</h3>
+        <h3 className="text-lg font-bold mb-4">{tFamily('addFamilyMember')}</h3>
 
         {error && <div className="bg-red-500/20 text-red-500 p-2 rounded text-sm mb-3">{error}</div>}
 
         <form onSubmit={handleSubmit} className="space-y-3">
           <div>
-            <label className="form-label">Full Name</label>
+            <label className="form-label">{tFamily('fullName')}</label>
             <input
               className="form-input w-full"
               value={formData.fullName}
@@ -489,7 +495,7 @@ function FamilyModal({ onClose, onSuccess }: { onClose: () => void, onSuccess: (
             />
           </div>
           <div>
-            <label className="form-label">Email</label>
+            <label className="form-label">{tFamily('email')}</label>
             <input
               type="email"
               className="form-input w-full"
@@ -499,7 +505,7 @@ function FamilyModal({ onClose, onSuccess }: { onClose: () => void, onSuccess: (
             />
           </div>
           <div>
-            <label className="form-label">Password</label>
+            <label className="form-label">{tFamily('password')}</label>
             <input
               type="password"
               className="form-input w-full"
@@ -513,7 +519,7 @@ function FamilyModal({ onClose, onSuccess }: { onClose: () => void, onSuccess: (
             className="btn-primary w-full mt-2"
             disabled={isSubmitting}
           >
-            {isSubmitting ? 'Adding...' : 'Add Member'}
+            {isSubmitting ? tFamily('adding') : tFamily('addMember')}
           </button>
         </form>
       </div>

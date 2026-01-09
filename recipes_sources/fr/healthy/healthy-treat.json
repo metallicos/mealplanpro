@@ -1,25 +1,25 @@
 [
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/nutty-atta-laddoo/",
-        "title": "[FR] Nutty atta laddoo",
-        "description": "(Translation pending) Make this lovely Indian dessert with chapatti flour, cashews and walnuts. Decorate them with a little edible gold leaf to make them extra special, if you like",
+        "title": "Atta laddoo aux noisettes",
+        "description": "Préparez ce joli dessert indien avec de la farine de chapatti, des noix de cajou et des noix. Décorez-les avec un peu de feuille d'or comestible pour les rendre encore plus spéciaux, si vous le souhaitez",
         "prep_time": "5 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "80g walnuts",
-            "80g cashews",
-            "150g chapatti flour",
-            "5 tbsp ghee",
-            "3 tbsp agave syrup",
-            "1 tsp ground cardamom",
-            "10 broken walnut pieces",
-            "edible gold leaf (optional)"
+            "80g de noix",
+            "80g de noix de cajou",
+            "150 g de farine de chapatti",
+            "5 cuillères à soupe de ghee",
+            "3 cuillères à soupe de sirop d'agave",
+            "1 cuillère à café de cardamome moulue",
+            "10 morceaux de noix cassées",
+            "feuille d'or comestible (facultatif)"
         ],
         "method": [
-            "Heat a small, dry frying pan over a medium-low heat and toast the walnuts and cashews for 5 mins until they turn golden. Tip into a blender orfood processorand blitz to a paste – the nuts will start to release oil. Tip into a bowl.",
-            "In the same pan, toast the flour for 8-10 mins over a low heat until lightly golden and smelling toasted, stirring frequently to prevent it from burning. Add the ghee and mix well until the mixture looks crumbly. Scrape the mixture into the nut paste along with the agave syrup and cardamom. Leave to cool for a few minutes, then combine everything together well using your hands.",
-            "Working with one walnut-sized portion at a time, shape the piece into a ball in the palm of your hand to form a laddoo. Repeat with the remaining mixture until it’s all been used (you should get about 10). Decorate each laddoo with a piece of walnut while still warm and brush with a little edible gold leaf, if using.Will keep chilled for up to five days. Bring them to room temperature before eating."
+            "Faites chauffer une petite poêle sèche à feu moyen-doux et faites griller les noix et les noix de cajou pendant 5 minutes jusqu'à ce qu'elles soient dorées. Versez-les dans un mélangeur ou un robot culinaire et réduisez-les en une pâte – les noix commenceront à libérer de l'huile. Versez dans un bol.",
+            "Dans la même poêle, faire griller la farine pendant 8 à 10 minutes à feu doux jusqu'à ce qu'elle soit légèrement dorée et sentant le grillé, en remuant fréquemment pour éviter qu'elle ne brûle. Ajoutez le ghee et mélangez bien jusqu'à ce que le mélange soit friable. Grattez le mélange dans la pâte de noix avec le sirop d'agave et la cardamome. Laisser refroidir quelques minutes, puis bien mélanger le tout avec les mains.",
+            "En travaillant avec une portion de la taille d'une noix à la fois, façonnez le morceau en boule dans la paume de votre main pour former un laddoo. Répétez avec le reste du mélange jusqu’à ce qu’il soit entièrement utilisé (vous devriez en obtenir environ 10). Décorez chaque laddoo avec un morceau de noix encore chaud et badigeonnez-le d'un peu de feuille d'or comestible, si vous en utilisez. Se conservera au frais jusqu'à cinq jours. Amenez-les à température ambiante avant de les déguster."
         ],
         "nutritional_info": {
             "kcal": "243",
@@ -36,38 +36,38 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/custard-buns/",
-        "title": "[FR] Custard buns",
-        "description": "(Translation pending) Get clever with custard and make these gorgeous custard buns. Serve with fresh or roasted fruit if you like for a sweet breakfast or afternoon treat",
+        "title": "Petits pains à la crème",
+        "description": "Soyez malin avec la crème anglaise et réalisez ces magnifiques petits pains à la crème. Servir avec des fruits frais ou rôtis si vous le souhaitez pour un petit-déjeuner sucré ou une gâterie l'après-midi",
         "prep_time": "1 hrs 30 mins Cook: 20 mins plus overnight proving and 1 hr cooling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "300g strong white flour, plus 1 tsp and extra for dusting",
-            "175ml double cream",
-            "45g caster sugar, plus 1 tsp",
-            "2 tsp fast-action dried yeast",
-            "1 egg plus 3 egg yolks and 1 egg white, at room temperature (freeze the extra whites to use in another recipe)",
-            "vegetable oil, for proving",
-            "1 tbsp whole milk",
-            "fresh or roasted fruit (such as plums or rhubarb), to serve (optional)",
-            "15g plain flour",
-            "15g icing sugar",
-            "15g cold unsalted butter",
-            "60g caster sugar",
-            "15g cornflour",
-            "1 egg",
-            "90ml whole milk",
-            "160ml double cream",
-            "1⁄2 tsp vanilla bean paste"
+            "300 g de farine blanche forte, plus 1 cuillère à café et un peu plus pour saupoudrer",
+            "175 ml de crème fraîche",
+            "45 g de sucre en poudre, plus 1 cuillère à café",
+            "2 cuillères à café de levure sèche à action rapide",
+            "1 œuf plus 3 jaunes d'œufs et 1 blanc d'œuf, à température ambiante (congeler les blancs supplémentaires pour les utiliser dans une autre recette)",
+            "huile végétale, pour lever",
+            "1 cuillère à soupe de lait entier",
+            "fruits frais ou rôtis (comme des prunes ou de la rhubarbe), pour servir (facultatif)",
+            "15g de farine nature",
+            "15g de sucre glace",
+            "15 g de beurre froid non salé",
+            "60 g de sucre en poudre",
+            "15g de farine de maïs",
+            "1 oeuf",
+            "90 ml de lait entier",
+            "160 ml de crème fraîche",
+            "1⁄2 cuillère à café de pâte de gousse de vanille"
         ],
         "method": [
-            "Tip 35g of the flour and the cream into a pan andwhiskover a low heat for 1-2 mins until smooth. Pour into a heatproof bowl and set aside to cool. Meanwhile, mix 1 tsp sugar, 1 tsp flour and the yeast with 1 tbsp warm water. Cover. Leave for 15 mins until bubbling.",
-            "Tip the egg and egg yolks into a large bowl orstand mixerwith the 45g sugar. Beat for 4-5 mins until pale and fluffy. Reduce the speed to low, add 1/4 tsp salt and the cream mixture, and beat to combine. Add the yeast mixture and sift in the remaining 265g flour, then mix on a low speed for 10 mins using the dough hook attachment. Or, knead by hand for 5 mins, rotating the bowl as you do. Cover and leave to prove in a warm place for 20 mins. Knead again for 3-5 mins until the dough is stretchy, then transfer to a lightly oiled bowl, cover and leave at room temperature for another 20 mins. Transfer to the fridge to prove for about 8-12 hrs, or until doubled in size.",
-            "For the streusel, mix the flour with the sugar and a pinch of salt, then rub in the butter until the mixture resembles fine breadcrumbs. Keep in the the freezer until ready to use.",
-            "For the custard, whisk the sugar, cornflour and ¼ tsp salt together in a small bowl. Add the egg and whisk to combine, then whisk in the milk and set aside. Bring the cream and vanilla to the boil in a saucepan. Remove from the heat and add the egg mixture slowly, whisking continuously. Cook over a low-medium heat for 7-10 mins, whisking all the time, until smooth and thick. Remove from the heat, cover and leave to cool for 30 mins.",
-            "Roll the dough out on a lightly floured surface until 2cm thick. Stamp out eight 6cm circles and use a tablespoon to press a dip into the middle of each. Using your hands, stretch each circle to about 8cm, keeping a raised border. Arrange on a large baking tray lined with baking parchment and fill each dip with 1 tbsp of the custard. Heat the oven to 180C/160C fan/gas 4.",
-            "Leave to prove in a warm place for 30 mins until they slowly spring back when gently pressed. Mix the egg white with 1 tbsp milk and a pinch of salt and brush this over the sides of the buns. Sprinkle with the frozen streusel.",
-            "Bake for 10 mins, then reduce the oven to 160C/140C fan/gas 3 and bake for another 8-10 mins. Leave to cool for 30 mins, then serve with fresh or roasted fruit, if you like.Will keep chilled for up to two days. Serve at room temperature."
+            "Versez 35 g de farine et la crème dans une casserole et fouettez à feu doux pendant 1 à 2 minutes jusqu'à obtenir une consistance lisse. Verser dans un bol résistant à la chaleur et laisser refroidir. Pendant ce temps, mélangez 1 cuillère à café de sucre, 1 cuillère à café de farine et la levure avec 1 cuillère à soupe d'eau tiède. Couverture. Laisser reposer 15 minutes jusqu'à ce que le bouillon bouillonne.",
+            "Versez l'œuf et les jaunes d'œufs dans un grand bol ou un batteur sur socle avec les 45 g de sucre. Battre pendant 4 à 5 minutes jusqu'à ce que le mélange soit pâle et mousseux. Réduisez la vitesse au minimum, ajoutez 1/4 cuillère à café de sel et le mélange de crème et battez pour combiner. Ajoutez le mélange de levure et tamisez les 265 g de farine restants, puis mélangez à basse vitesse pendant 10 minutes à l'aide du crochet pétrisseur. Ou pétrir à la main pendant 5 minutes en faisant tourner le bol au fur et à mesure. Couvrir et laisser lever 20 min dans un endroit tiède. Pétrissez à nouveau pendant 3 à 5 minutes jusqu'à ce que la pâte soit élastique, puis transférez-la dans un bol légèrement huilé, couvrez et laissez à température ambiante pendant encore 20 minutes. Transférer au réfrigérateur pour lever environ 8 à 12 heures, ou jusqu'à ce qu'il double de volume.",
+            "Pour le streusel, mélangez la farine avec le sucre et une pincée de sel, puis incorporez le beurre jusqu'à ce que le mélange ressemble à de la chapelure fine. Conserver au congélateur jusqu'au moment de l'utiliser.",
+            "Pour la crème anglaise, fouettez ensemble le sucre, la maïzena et ¼ cuillère à café de sel dans un petit bol. Ajoutez l'œuf et mélangez au fouet, puis incorporez le lait et réservez. Portez à ébullition la crème et la vanille dans une casserole. Retirer du feu et ajouter lentement le mélange d'œufs en fouettant continuellement. Cuire à feu moyen-doux pendant 7 à 10 minutes, en fouettant tout le temps, jusqu'à consistance lisse et épaisse. Retirer du feu, couvrir et laisser refroidir 30 minutes.",
+            "Abaisser la pâte sur un plan légèrement fariné jusqu'à obtenir une épaisseur de 2 cm. Découpez huit cercles de 6 cm et utilisez une cuillère à soupe pour presser une trempette au milieu de chacun. A l'aide de vos mains, étirez chaque cercle sur environ 8 cm en gardant une bordure en relief. Disposer sur une grande plaque à pâtisserie recouverte de papier sulfurisé et remplir chaque trempette avec 1 cuillère à soupe de crème anglaise. Chauffer le four à 180°C/160°C chaleur tournante/gaz 4.",
+            "Laisser lever dans un endroit tiède pendant 30 minutes jusqu'à ce qu'ils reprennent lentement leur forme lorsqu'on les appuie doucement. Mélangez le blanc d'œuf avec 1 cuillère à soupe de lait et une pincée de sel et badigeonnez-en les côtés des petits pains. Saupoudrer de streusel surgelé.",
+            "Cuire au four pendant 10 minutes, puis réduire le four à 160°C/140°C chaleur tournante/gaz 3 et cuire encore 8 à 10 minutes. Laisser refroidir 30 minutes, puis servir avec des fruits frais ou rôtis, si vous le souhaitez. Se conserve au frais jusqu'à deux jours. Servir à température ambiante."
         ],
         "nutritional_info": {
             "kcal": "451",
@@ -84,21 +84,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/blueberry-smoothie-recipe/",
-        "title": "[FR] Blueberry smoothie recipe",
-        "description": "(Translation pending) Make a quick and simple blueberry smoothie with yogurt, banana and apple juice for busy mornings. You can easily make it vegan by using coconut yogurt",
+        "title": "Recette de smoothie aux bleuets",
+        "description": "Préparez un smoothie aux bleuets simple et rapide avec du yaourt, de la banane et du jus de pomme pour les matins occupés. Vous pouvez facilement le rendre végétalien en utilisant du yaourt à la noix de coco.",
         "prep_time": "5 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "175g blueberries",
-            "1 small banana, sliced",
-            "1 tbsp natural or Greek yogurt",
-            "100ml apple juice, chilled",
-            "3-4 mint leaves (optional), plus extra to garnish"
+            "175g de myrtilles",
+            "1 petite banane, tranchée",
+            "1 cuillère à soupe de yaourt nature ou grec",
+            "100 ml de jus de pomme réfrigéré",
+            "3-4 feuilles de menthe (facultatif), plus un peu pour garnir"
         ],
         "method": [
-            "Put the blueberries, banana, yogurt, apple juice and mint, if using, in ablenderand blitz until smooth. Add a splash of water if it seems too thick.",
-            "Pour the smoothie into a tall glass with a glass straw to serve. Garnish with a sprig of mint, if you like."
+            "Mettez les myrtilles, la banane, le yaourt, le jus de pomme et la menthe, le cas échéant, dans un mélange et mélangez jusqu'à consistance lisse. Ajoutez un peu d'eau si cela semble trop épais.",
+            "Versez le smoothie dans un grand verre avec une paille en verre pour servir. Garnir d'un brin de menthe, si vous le souhaitez."
         ],
         "nutritional_info": {
             "kcal": "120",
@@ -115,24 +115,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/banana-overnight-oats/",
-        "title": "[FR] Banana overnight oats",
-        "description": "(Translation pending) Rustle up these easy overnight oats made with bananas, nut butter and almonds for a tasty breakfast. Prepped the night before, they’re ideal for busy mornings",
+        "title": "Gruau à la banane pour la nuit",
+        "description": "Préparez ces flocons d'avoine faciles à préparer pour la nuit à base de bananes, de beurre de noix et d'amandes pour un délicieux petit-déjeuner. Préparés la veille, ils sont idéaux pour les matinées chargées",
         "prep_time": "5 mins plus overnight chilling (no cook)",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "2 bananas, peeled",
-            "100g porridge oats",
-            "¼ tsp ground cinnamon, plus a pinch to serve",
-            "1 tbsp maple syrup",
-            "300ml milk of your choice, plus a splash",
-            "2 tbsp peanut or almond butter, plus extra to serve",
-            "2 tbsp flaked or chopped almonds",
-            "2-4 tbsp natural yogurt, to serve (optional)"
+            "2 bananes pelées",
+            "100 g de flocons d'avoine",
+            "¼ cuillère à café de cannelle moulue, plus une pincée pour servir",
+            "1 cuillère à soupe de sirop d'érable",
+            "300 ml de lait de votre choix, plus un peu",
+            "2 cuillères à soupe de beurre de cacahuète ou d'amande, plus un peu pour servir",
+            "2 cuillères à soupe d'amandes effilées ou hachées",
+            "2-4 cuillères à soupe de yaourt nature, pour servir (facultatif)"
         ],
         "method": [
-            "Mash 1 banana in a bowl with a fork until smooth. Stir in the oats, cinnamon, maple syrup, milk and peanut butter. Mix well, then cover and chill overnight.",
-            "The next morning, stir the porridge, adding another splash of milk if the mixture is quite stiff. Divide between two bowls. Slice the remaining banana and scatter this over the porridge, drizzle with more nut butter and sprinkle over the almonds. Top with spoonfuls of yogurt, if using, and sprinkle with a pinch more cinnamon before serving."
+            "Écrasez 1 banane dans un bol avec une fourchette jusqu'à consistance lisse. Incorporer les flocons d'avoine, la cannelle, le sirop d'érable, le lait et le beurre d'arachide. Bien mélanger, puis couvrir et réfrigérer toute la nuit.",
+            "Le lendemain matin, remuez le porridge en ajoutant un peu de lait si le mélange est assez ferme. Répartir dans deux bols. Tranchez la banane restante et répartissez-la sur le porridge, arrosez de beurre de noix et saupoudrez d'amandes. Garnir de cuillerées de yaourt, le cas échéant, et saupoudrer d'une pincée de cannelle supplémentaire avant de servir."
         ],
         "nutritional_info": {
             "kcal": "557",
@@ -149,34 +149,34 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/freaky-fruit-platter/",
-        "title": "[FR] Freaky fruit platter",
-        "description": "(Translation pending) Tuck into ghoulish grape snakes, apple fangs, lychee eyeballs and more with this freaky fruit platter, sure to tickle and terrify Halloween guests!",
+        "title": "Plateau de fruits bizarre",
+        "description": "Régalez-vous de serpents raisins macabres, de crocs de pomme, de globes oculaires de litchi et bien plus encore avec ce plateau de fruits bizarre, qui chatouillera et terrifiera à coup sûr les invités d'Halloween !",
         "prep_time": "30 mins plus chilling",
         "cook_time": "",
         "serves": "12",
         "ingredients": [
-            "70g white chocolate, plus extra for sticking on the eyeballs",
-            "3 small bananas, peeled and cut in half crosswise",
-            "eyeball cake decorations or black writing icing or edible ink pen",
-            "small piece of celery",
-            "6 small tangerines, peeled",
-            "1 red apple, cored and cut into 6 wedges",
-            "2 tbsp nut butter (we used almond)",
-            "25g yogurt-coated raisins",
-            "425g can lychees in juice, drained",
-            "150g blueberries",
-            "eyeball cake decorations or skewers",
-            "250g black and green grapes",
-            "short wooden skewers",
-            "black writing icing or edible ink pen, or eyeball cake decorations"
+            "70 g de chocolat blanc, plus un peu pour coller les globes oculaires",
+            "3 petites bananes pelées et coupées en deux sur la largeur",
+            "décorations de gâteau en forme de globe oculaire ou glaçage noir ou stylo à encre comestible",
+            "petit morceau de céleri",
+            "6 petites mandarines pelées",
+            "1 pomme rouge, épépinée et coupée en 6 quartiers",
+            "2 cuillères à soupe de beurre de noix (nous avons utilisé de l'amande)",
+            "25 g de raisins secs enrobés de yaourt",
+            "Boîte de 425 g de litchis au jus égouttés",
+            "150g de myrtilles",
+            "décorations de gâteau ou brochettes de globe oculaire",
+            "250 g de raisins noirs et verts",
+            "courtes brochettes en bois",
+            "glaçage noir ou stylo à encre comestible, ou décorations de gâteaux en forme de globe oculaire"
         ],
         "method": [
-            "For the mummy bananas, melt the chocolate in a heatproof bowl set over a small pan of simmering water or in themicrowavein 20-second bursts. Cool to room temperature. Put the bananas on a tray lined with baking parchment and drizzle over the chocolate in a criss-cross pattern to make ‘bandages’. Stick on the eyeball decorations or use black icing or an edible ink pen to draw the eyes on the bananas, then chill until set, about 30 mins (they will start to discolour after about 2 hrs).",
-            "For the tangerine pumpkins, cut tiny ‘stalks’ from the celery piece and push these into the tops of the tangerines where the segments come together.",
-            "For the apple fangs, cut a small wedge from the peel side of the apple wedges to make lips, then fill the ‘mouth’ with the nut butter. Push the raisins into the mouth to look like wonky teeth.",
-            "For the lychee eyeballs, stuff each lychee with a blueberry. Stick the eyeball decorations onto the blueberry using some of the melted white chocolate from step 1, or skewer the fruit together. If you like, drop these into a punch bowl.",
-            "For the grape snakes, thread alternating green and red grapes onto skewers, then stick on eyeball decorations with white chocolate as in step four.",
-            "Arrange the freaky fruits on a large serving platter. Fill gaps with any leftover blueberries and decorate with spooky Halloween figures and decorations, if you like."
+            "Pour les bananes momies, faites fondre le chocolat dans un bol résistant à la chaleur posé sur une petite casserole d'eau frémissante ou au micro-ondes par rafales de 20 secondes. Laisser refroidir à température ambiante. Disposez les bananes sur une plaque recouverte de papier sulfurisé et arrosez-les de chocolat en formant un motif entrecroisé pour faire des « bandages ». Collez les décorations des globes oculaires ou utilisez du glaçage noir ou un stylo à encre comestible pour dessiner les yeux sur les bananes, puis laissez-les refroidir jusqu'à ce qu'elles soient prises, environ 30 minutes (elles commenceront à se décolorer après environ 2 heures).",
+            "Pour les citrouilles mandarines, coupez de minuscules « tiges » dans le morceau de céleri et poussez-les dans le dessus des mandarines, là où les segments se rejoignent.",
+            "Pour les crocs de pomme, coupez un petit coin du côté peau des quartiers de pomme pour faire les lèvres, puis remplissez la « bouche » avec le beurre de noix. Poussez les raisins secs dans la bouche pour ressembler à des dents bancales.",
+            "Pour les globes oculaires de litchi, farcissez chaque litchi d’une myrtille. Collez les décorations en forme de globe oculaire sur la myrtille en utilisant un peu de chocolat blanc fondu de l'étape 1, ou embrochez les fruits ensemble. Si vous le souhaitez, déposez-les dans un bol à punch.",
+            "Pour les serpents raisins, enfilez en alternance des raisins verts et rouges sur des brochettes, puis collez des décorations de globes oculaires avec du chocolat blanc comme à la quatrième étape.",
+            "Disposez les fruits bizarres sur un grand plat de service. Remplissez les espaces avec les restes de myrtilles et décorez avec des figurines et des décorations effrayantes d'Halloween, si vous le souhaitez."
         ],
         "nutritional_info": {
             "kcal": "131",
@@ -193,27 +193,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/fruity-flapjack-cookies/",
-        "title": "[FR] Fruity flapjack cookies",
-        "description": "(Translation pending) Toast oats before mixing them into the dough to make these fruity cookies, a delicious hybrid of syrupy flapjacks and coconut macaroons",
+        "title": "Biscuits flapjack fruités",
+        "description": "Faites griller les flocons d'avoine avant de les mélanger à la pâte pour réaliser ces biscuits fruités, un délicieux hybride de flapjacks sirupeux et de macarons à la noix de coco.",
         "prep_time": "20 mins Cook: 40 mins",
         "cook_time": "",
         "serves": "12",
         "ingredients": [
-            "125g jumbo oats",
-            "150g softened butter",
-            "100g light muscovado sugar",
-            "1 egg",
-            "1 tbsp golden syrup",
-            "½ tsp vanilla extract",
-            "100g self-raising flour",
-            "100g mixed dried fruit or raisins",
-            "75g dried apricots, finely chopped",
-            "50g desiccated coconut",
-            "½ tsp ground cinnamon (optional)"
+            "125 g de flocons d'avoine géants",
+            "150g de beurre ramolli",
+            "100 g de sucre muscovado léger",
+            "1 oeuf",
+            "1 cuillère à soupe de sirop doré",
+            "½ cuillère à café d'extrait de vanille",
+            "100 g de farine autolevante",
+            "100 g de fruits secs ou de raisins secs mélangés",
+            "75 g d'abricots secs finement hachés",
+            "50g de noix de coco desséchée",
+            "½ cuillère à café de cannelle moulue (facultatif)"
         ],
         "method": [
-            "Heat the oven to 180C/160C fan/gas 4. Scatter the oats over abaking trayand bake for 20 mins, turning once until lightly browned. Remove from the oven and set aside to cool. Tip the butter and sugar into a bowl and beat with an electric whisk for 2 mins until fluffy. Crack in the egg and add the golden syrup and vanilla, then beat until completely combined. Scatter in the flour, all the dried fruit, the coconut, cinnamon (if using), the toasted oats and a pinch of salt. Beat again until everything is combined and you have a thick dough. Use the dough straightaway or cover and chill for up to two days.",
-            "Line two baking sheets with baking parchment and arrange six large spoonfuls of dough on each, well- spaced apart. Bake for 15 mins (or 18-20 mins if the dough is fridge-cold) until the cookies have spread and are brown at the edges but soft in the middle. Leave to cool on the baking sheet for 5 mins, then transfer to awire rackand leave to cool completely.Will keep in an airtight container or tin for up to five days."
+            "Chauffer le four à 180°C/160°C chaleur tournante/gaz 4. Répartir les flocons d'avoine sur une plaque à pâtisserie et cuire au four pendant 20 minutes, en retournant une fois jusqu'à ce qu'ils soient légèrement dorés. Retirer du four et laisser refroidir. Versez le beurre et le sucre dans un bol et battez avec un fouet électrique pendant 2 minutes jusqu'à consistance mousseuse. Cassez l'œuf et ajoutez le sirop doré et la vanille, puis battez jusqu'à ce que le tout soit complètement mélangé. Répartir la farine, tous les fruits secs, la noix de coco, la cannelle (si utilisée), les flocons d'avoine grillés et une pincée de sel. Battez à nouveau jusqu'à ce que tout soit combiné et que vous obteniez une pâte épaisse. Utilisez la pâte immédiatement ou couvrez et réfrigérez jusqu'à deux jours.",
+            "Tapisser deux plaques à pâtisserie de papier sulfurisé et disposer sur chacune six grosses cuillerées de pâte, bien espacées. Cuire au four pendant 15 minutes (ou 18 à 20 minutes si la pâte est froide au réfrigérateur) jusqu'à ce que les biscuits soient étalés et dorés sur les bords mais mous au milieu. Laisser refroidir sur la plaque à pâtisserie pendant 5 minutes, puis transférer sur une grille et laisser refroidir complètement. Se conservera dans un récipient hermétique ou un moule jusqu'à cinq jours."
         ],
         "nutritional_info": {
             "kcal": "247",
@@ -230,29 +230,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/pulled-bbq-aubergine-black-bean-burgers/",
-        "title": "[FR] Pulled BBQ aubergine & black bean burgers",
-        "description": "(Translation pending) Get the kids to help you prep the veg for these family-friendly burgers. These veggie buns have all the comforting textures of meat but are completely vegan",
+        "title": "Burgers d'aubergines effilochées et de haricots noirs",
+        "description": "Demandez aux enfants de vous aider à préparer les légumes pour ces hamburgers familiaux. Ces petits pains végétariens ont toutes les textures réconfortantes de la viande mais sont entièrement végétaliens.",
         "prep_time": "15 mins Cook: 45 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "2 large aubergines, pricked all over with a fork",
-            "1 tbsp olive oil",
-            "1 large onion, thinly sliced",
-            "1 heaped tsp garlic granules",
-            "2 tsp smoked paprika",
-            "1 tbsp demerara sugar",
-            "1 tsp dried oregano",
-            "5 tbsp barbecue sauce",
-            "400g can black beans, drained",
-            "4 burger buns, toasted and lightly buttered",
-            "red onion or pink pickled onion, shredded lettuce, coleslaw and corn on the cob, to serve (optional)"
+            "2 grosses aubergines, piquées partout à la fourchette",
+            "1 cuillère à soupe d'huile d'olive",
+            "1 gros oignon, tranché finement",
+            "1 cuillère à café bombée de granulés d'ail",
+            "2 cuillères à café de paprika fumé",
+            "1 cuillère à soupe de sucre demerara",
+            "1 cuillère à café d'origan séché",
+            "5 cuillères à soupe de sauce barbecue",
+            "Boîte de 400 g de haricots noirs égouttés",
+            "4 pains burger, grillés et légèrement beurrés",
+            "oignon rouge ou oignon rose mariné, laitue râpée, salade de chou et épi de maïs, pour servir (facultatif)"
         ],
         "method": [
-            "Heat the grill to high and grill the aubergine, turning occasionally, until blackened and soft all over, about 20-30 mins. Set aside to cool.",
-            "Meanwhile, heat the oil in a large ovenproof pan over a medium heat, add the onion and fry until softened and golden, about 10 mins. Heat the oven to 200C/180C fan/gas 6.",
-            "Peel the skin from the cooled aubergine and discard it, or scoop out the flesh using a spoon, then put in the pan with the onion. Add the garlic granules, paprika, sugar, oregano, 1 tsp sea salt and 1 tsp black pepper. Stir until aromatic, then mix in the barbecue sauce along with the black beans. Season and bake until the sauce is rich and thick, and the aubergine resembles pulled pork – about 10-15 mins.",
-            "Pile into the burger buns with the red onion or pink pickled onion and any other burger fillings you like. Enjoy with coleslaw and corn on the cob on the side, if you like."
+            "Chauffer le gril à feu vif et faire griller l'aubergine, en la retournant de temps en temps, jusqu'à ce qu'elle soit noircie et tendre, environ 20 à 30 minutes. Laisser refroidir.",
+            "Pendant ce temps, faites chauffer l'huile dans une grande poêle allant au four à feu moyen, ajoutez l'oignon et faites-le revenir jusqu'à ce qu'il soit ramolli et doré, environ 10 minutes. Chauffer le four à 200C/180C ventilateur/gaz 6.",
+            "Épluchez la peau de l'aubergine refroidie et jetez-la, ou prélevez la chair à l'aide d'une cuillère, puis mettez-la dans la poêle avec l'oignon. Ajoutez les granules d'ail, le paprika, le sucre, l'origan, 1 cuillère à café de sel marin et 1 cuillère à café de poivre noir. Remuer jusqu'à ce qu'il soit aromatique, puis incorporer la sauce barbecue avec les haricots noirs. Assaisonner et cuire au four jusqu'à ce que la sauce soit riche et épaisse et que l'aubergine ressemble à du porc effiloché – environ 10 à 15 minutes.",
+            "Empilez-les dans les pains à hamburger avec l'oignon rouge ou l'oignon rose mariné et toute autre garniture pour hamburger de votre choix. Dégustez avec de la salade de chou et des épis de maïs en accompagnement, si vous le souhaitez."
         ],
         "nutritional_info": {
             "kcal": "439",
@@ -269,20 +269,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/how-to-cut-a-mango/",
-        "title": "[FR] How to cut a mango",
-        "description": "(Translation pending) Mangos are delicious, yet notoriously tricky to prepare. Find out how to peel the skin, remove the stone and cut the flesh into bite-sized chunks.",
+        "title": "Comment couper une mangue",
+        "description": "Les mangues sont délicieuses, mais notoirement difficiles à préparer. Découvrez comment peler la peau, retirer le noyau et couper la chair en petits morceaux.",
         "prep_time": "5 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "1 mango"
+            "1 mangue"
         ],
         "method": [
-            "Position the mango so one of the pointed ends is facing you, with the cheeks at either side.",
-            "Slice downwards using a serrated knife to remove one of the cheeks, guiding the knife around the stone in the middle. Turn the mango around and repeat on the other side.",
-            "Score the mango flesh in a diagonal pattern along the length of the cheek using the tip of the knife. Turn 90 degrees and score again to make a criss-cross pattern.",
-            "Turn the scored mango cheek over and push on the skin with your fingers so the fleshy side pops out – it will look a bit like a hedgehog, with the scored mango chunks poking out. Cut the chunks of flesh away from the skin with a knife.",
-            "Cut away the flesh on both sides, following the curve of the stone. Score along the pieces with a knife as before, then run the knife along the skin to release the pieces. Add these to the rest of the mango pieces."
+            "Positionnez la mangue de manière à ce que l'une des extrémités pointues soit face à vous, avec les joues de chaque côté.",
+            "Trancher vers le bas à l'aide d'un couteau dentelé pour retirer une des joues en guidant le couteau autour de la pierre au milieu. Retournez la mangue et répétez de l’autre côté.",
+            "Entaillez la chair de la mangue en diagonale sur toute la longueur de la joue à l'aide de la pointe du couteau. Tournez à 90 degrés et marquez à nouveau pour créer un motif entrecroisé.",
+            "Retournez la joue de mangue entaillée et appuyez sur la peau avec vos doigts pour que le côté charnu ressorte – cela ressemblera un peu à un hérisson, avec les morceaux de mangue entaillés qui dépassent. Coupez les morceaux de chair de la peau avec un couteau.",
+            "Coupez la chair des deux côtés en suivant la courbe de la pierre. Entaillez les morceaux avec un couteau comme auparavant, puis passez le couteau le long de la peau pour libérer les morceaux. Ajoutez-les au reste des morceaux de mangue."
         ],
         "nutritional_info": {
             "kcal": "171",
@@ -299,36 +299,36 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/easy-blondies/",
-        "title": "[FR] Easy blondies",
-        "description": "(Translation pending) Whip up these easy blondies with moreish chunks of white chocolate dotted throughout. These gooey, golden squares are the perfect accompaniment to a cup of tea or coffee",
+        "title": "Blondies faciles",
+        "description": "Préparez ces blondies faciles avec des morceaux de chocolat blanc gourmands parsemés partout. Ces carrés gluants et dorés accompagnent parfaitement une tasse de thé ou de café",
         "prep_time": "10 mins Cook: 50 mins plus cooling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "175g butter, cut into cubes, plus extra for the tin",
-            "200g light brown soft sugar",
-            "100g caster sugar",
-            "3 eggs",
-            "1 tsp vanilla extract or bean paste",
-            "200g plain flour",
-            "½ tsp baking powder",
-            "200g white chocolate, chopped, or use white chocolate chips",
-            "175g butter, cut into cubes, plus extra for the tin",
-            "200g light brown soft sugar",
-            "100g caster sugar",
-            "3 eggs",
-            "1 tsp vanilla extract or bean paste",
-            "200g plain flour",
-            "½ tsp baking powder",
-            "200g white chocolate, chopped, or use white chocolate chips"
+            "175 g de beurre coupé en cubes, plus un peu pour le moule",
+            "200 g de sucre mou roux clair",
+            "100 g de sucre en poudre",
+            "3 œufs",
+            "1 cuillère à café d'extrait de vanille ou de pâte de haricots",
+            "200 g de farine nature",
+            "½ cuillère à café de levure chimique",
+            "200 g de chocolat blanc haché ou utilisez des pépites de chocolat blanc",
+            "175 g de beurre coupé en cubes, plus un peu pour le moule",
+            "200 g de sucre mou roux clair",
+            "100 g de sucre en poudre",
+            "3 œufs",
+            "1 cuillère à café d'extrait de vanille ou de pâte de haricots",
+            "200 g de farine nature",
+            "½ cuillère à café de levure chimique",
+            "200 g de chocolat blanc haché ou utilisez des pépites de chocolat blanc"
         ],
         "method": [
-            "Melt the butter and both sugars in apanover a low heat, adding a pinch of salt if the butter is unsalted. Remove from the heat and leave to cool for 10 mins – this will stop the eggs from curdling when added. Heat the oven to 180C/160C fan/gas 4. Butter a 23cm square tin or 25 x 20cm baking tin and line with baking parchment.",
-            "Beat the eggs and vanilla into the cooled butter and sugar mixture until well-combined. Sieve in the flour and baking powder, then gently fold until you have a smooth batter. Fold in the white chocolate, then scrape into the prepared tin. Smooth the top and bake for 40-45 mins until the edges are coming away from the sides of the tin, the top has a papery crust and a skewer inserted into the middle comes out with a few crumbs, but no liquid batter. The blondies will firm up as they cool.",
-            "Leave to cool in the tin for 10 mins, then transfer to awire rackto cool completely.The blondies will keep in an airtight container for three days.",
-            "Melt the butter and both sugars in apanover a low heat, adding a pinch of salt if the butter is unsalted. Remove from the heat and leave to cool for 10 mins – this will stop the eggs from curdling when added. Heat the oven to 180C/160C fan/gas 4. Butter a 23cm square tin or 25 x 20cm baking tin and line with baking parchment.",
-            "Beat the eggs and vanilla into the cooled butter and sugar mixture until well-combined. Sieve in the flour and baking powder, then gently fold until you have a smooth batter. Fold in the white chocolate, then scrape into the prepared tin. Smooth the top and bake for 40-45 mins until the edges are coming away from the sides of the tin, the top has a papery crust and a skewer inserted into the middle comes out with a few crumbs, but no liquid batter. The blondies will firm up as they cool.",
-            "Leave to cool in the tin for 10 mins, then transfer to awire rackto cool completely.The blondies will keep in an airtight container for three days."
+            "Faire fondre le beurre et les deux sucres dans une casserole à feu doux, en ajoutant une pincée de sel si le beurre n'est pas salé. Retirer du feu et laisser refroidir 10 minutes – cela empêchera les œufs de cailler une fois ajoutés. Chauffer le four à 180°C/160°C chaleur tournante/gaz 4. Beurrer un moule carré de 23 cm ou un moule à pâtisserie de 25 x 20 cm et le tapisser de papier sulfurisé.",
+            "Battre les œufs et la vanille dans le mélange de beurre et de sucre refroidi jusqu'à ce que le tout soit bien mélangé. Tamisez la farine et la levure chimique, puis incorporez délicatement jusqu'à obtenir une pâte lisse. Incorporez le chocolat blanc, puis grattez-le dans le moule préparé. Lisser le dessus et cuire au four pendant 40 à 45 minutes jusqu'à ce que les bords se détachent des côtés du moule, que le dessus ait une croûte de papier et qu'un cure-dent inséré au milieu en ressorte avec quelques miettes, mais pas de pâte liquide. Les blondies se raffermiront en refroidissant.",
+            "Laisser refroidir dans le moule pendant 10 minutes, puis transférer sur une grille pour refroidir complètement. Les blondies se conservent trois jours dans une boîte hermétique.",
+            "Faire fondre le beurre et les deux sucres dans une casserole à feu doux, en ajoutant une pincée de sel si le beurre n'est pas salé. Retirer du feu et laisser refroidir 10 minutes – cela empêchera les œufs de cailler une fois ajoutés. Chauffer le four à 180°C/160°C chaleur tournante/gaz 4. Beurrer un moule carré de 23 cm ou un moule à pâtisserie de 25 x 20 cm et le tapisser de papier sulfurisé.",
+            "Battre les œufs et la vanille dans le mélange de beurre et de sucre refroidi jusqu'à ce que le tout soit bien mélangé. Tamisez la farine et la levure chimique, puis incorporez délicatement jusqu'à obtenir une pâte lisse. Incorporez le chocolat blanc, puis grattez-le dans le moule préparé. Lisser le dessus et cuire au four pendant 40 à 45 minutes jusqu'à ce que les bords se détachent des côtés du moule, que le dessus ait une croûte de papier et qu'un cure-dent inséré au milieu en ressorte avec quelques miettes, mais pas de pâte liquide. Les blondies se raffermiront en refroidissant.",
+            "Laisser refroidir dans le moule pendant 10 minutes, puis transférer sur une grille pour refroidir complètement. Les blondies se conservent trois jours dans une boîte hermétique."
         ],
         "nutritional_info": {
             "kcal": "282",
@@ -345,37 +345,37 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/gluten-free-chocolate-cake/",
-        "title": "[FR] Gluten-free chocolate cake",
-        "description": "(Translation pending) Make a dense, rich chocolate cake for a special occasion or anytime treat. While suitable for those following a gluten-free diet, it will prove a hit with everyone",
+        "title": "Gâteau au chocolat sans gluten",
+        "description": "Préparez un gâteau au chocolat dense et riche pour une occasion spéciale ou une gâterie à tout moment. Bien qu’il convienne à ceux qui suivent un régime sans gluten, il plaira à tout le monde.",
         "prep_time": "45 mins Cook: 35 mins",
         "cook_time": "",
         "serves": "10",
         "ingredients": [
-            "150ml vegetable oil, plus extra for the tins",
-            "175g gluten-free flour",
-            "1 tsp xanthan gum",
-            "50g cocoa powder",
-            "1 tbsp baking powder",
-            "½ tsp bicarbonate of soda",
-            "75g dark brown soft sugar",
-            "75g caster sugar",
-            "2 tbsp golden syrup",
-            "2 eggs",
-            "100g Greek yogurt",
-            "100ml milk",
-            "2 tbsp instant coffee, dissolved in 4 tbsp hot water",
-            "300g icing sugar",
-            "25g cocoa powder",
-            "150g soft salted butter",
-            "3 tbsp milk",
-            "65g dark chocolate, melted"
+            "150 ml d'huile végétale, plus un peu pour les boîtes",
+            "175g de farine sans gluten",
+            "1 cuillère à café de gomme xanthane",
+            "50g de cacao en poudre",
+            "1 cuillère à soupe de levure chimique",
+            "½ cuillère à café de bicarbonate de soude",
+            "75 g de cassonade foncée",
+            "75 g de sucre en poudre",
+            "2 cuillères à soupe de sirop doré",
+            "2 œufs",
+            "100 g de yaourt grec",
+            "100 ml de lait",
+            "2 cuillères à soupe de café instantané, dissoutes dans 4 cuillères à soupe d'eau chaude",
+            "300g de sucre glace",
+            "25g de cacao en poudre",
+            "150 g de beurre mou salé",
+            "3 cuillères à soupe de lait",
+            "65 g de chocolat noir fondu"
         ],
         "method": [
-            "Heat the oven to 180C/160C fan/gas 4. Oil the base of two 18cm sandwich tins and line with baking parchment. Mix the flour, xanthan gum, cocoa, baking powder, bicarbonate of soda, a large pinch of salt and both sugars together in a large bowl.",
-            "Whiskthe golden syrup, eggs, oil, yogurt, milk and coffee together in a jug. Gradually whisk the wet ingredients into the dry until you have a smooth mixture.",
-            "Pour the mixture into the prepared tins and bake for 30-35 mins until risen and firm to the touch. Remove from the oven and leave to cool for 10 mins in the tins before turning out onto acooling rack.",
-            "While the cakes are cooling, make the icing. Beat the icing sugar, cocoa powder, butter and milk together for 5 mins until smooth and fluffy. Gradually pour in the melted chocolate while beating, scraping down the sides of the bowl to make sure everything’s included.",
-            "Spread half the icing over the middle of one sponge using a small palette knife. Sandwich the other sponge on top, with the flat bottom-side facing up. Spread the remaining icing around the top and sides of the cake, smoothing over with a palette knife. If you have any icing left, you can pipe some rosettes on top of the cake."
+            "Chauffer le four à 180°C/160°C chaleur tournante/gaz 4. Huiler le fond de deux moules à sandwich de 18 cm et tapisser de papier sulfurisé. Mélangez la farine, la gomme xanthane, le cacao, la levure chimique, le bicarbonate de soude, une grosse pincée de sel et les deux sucres dans un grand bol.",
+            "Fouetter le sirop doré, les œufs, l'huile, le yaourt, le lait et le café dans un pichet. Incorporez progressivement les ingrédients humides aux ingrédients secs jusqu'à obtenir un mélange lisse.",
+            "Versez le mélange dans les moules préparés et faites cuire au four pendant 30 à 35 minutes jusqu'à ce qu'il soit levé et ferme au toucher. Sortir du four et laisser refroidir 10 min dans les moules avant de démouler sur une grille de refroidissement.",
+            "Pendant que les gâteaux refroidissent, préparez le glaçage. Battez ensemble le sucre glace, le cacao en poudre, le beurre et le lait pendant 5 minutes jusqu'à obtenir une consistance lisse et mousseuse. Versez progressivement le chocolat fondu en battant, en raclant les parois du bol pour vous assurer que tout est inclus.",
+            "Étalez la moitié du glaçage au milieu d'une génoise à l'aide d'un petit couteau à palette. Placez l'autre génoise sur le dessus, avec le fond plat vers le haut. Étalez le reste du glaçage sur le dessus et les côtés du gâteau, en lissant avec un couteau à palette. S'il vous reste du glaçage, vous pouvez déposer quelques rosaces sur le dessus du gâteau."
         ],
         "nutritional_info": {
             "kcal": "604",
@@ -392,25 +392,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/vanilla-cinnamon-breakfast-rice/",
-        "title": "[FR] Vanilla & cinnamon breakfast rice",
-        "description": "(Translation pending) Fancy a change from porridge? This healthy rice-based vanilla and cinnamon breakfast is topped with apricots and walnuts, and will fill you up for the morning",
+        "title": "Riz petit-déjeuner vanille et cannelle",
+        "description": "Envie de changer du porridge ? Ce petit-déjeuner sain à base de riz, de vanille et de cannelle, garni d'abricots et de noix, vous rassasiera pour la matinée.",
         "prep_time": "10 mins Cook: 35 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "200g wholemeal basmati rice",
-            "200ml whole milk",
-            "2 tsp vanilla extract",
-            "3 bay leaves",
-            "1 cinnamon stick",
-            "12 dried apricots split in half widthways (so they still look whole)",
-            "4 x 100ml pots bio yogurt",
-            "12 walnut halves, broken into pieces"
+            "200 g de riz basmati complet",
+            "200 ml de lait entier",
+            "2 cuillères à café d'extrait de vanille",
+            "3 feuilles de laurier",
+            "1 bâton de cannelle",
+            "12 abricots secs coupés en deux dans le sens de la largeur (pour qu'ils paraissent encore entiers)",
+            "4 pots de yaourt bio de 100 ml",
+            "12 moitiés de noix, cassées en morceaux"
         ],
         "method": [
-            "Tip the rice into a large, deep non-stick pan with 600ml water, the milk, vanilla, bay leaves and cinnamon stick. Bring to the boil, then cover with a lid and simmer for 25-30 mins until the rice is tender. Keep an eye on it to ensure it doesn’t boil dry towards the end of its cooking time.",
-            "Meanwhile, tip the apricots into a smallpanwith 300ml water and cook over a low-medium heat until tender, about 10-15 mins. Set aside.",
-            "Remove the bay leaves and cinnamon stick from the rice, then stir in half the yogurt. Both the rice and the apricots will keep chilled, separately, for up to 24 hrs. Spoon the rice into bowls and top with the remaining yogurt, the apricots and their juices and the walnuts.If you’ve prepared the rice and apricots the day before, eat cold or reheat until warm, adding a splash of milk to the rice to loosen."
+            "Versez le riz dans une grande poêle antiadhésive profonde avec 600 ml d'eau, le lait, la vanille, les feuilles de laurier et le bâton de cannelle. Portez à ébullition, puis couvrez et laissez mijoter 25 à 30 minutes jusqu'à ce que le riz soit tendre. Gardez un œil dessus pour vous assurer qu’il ne bout pas à sec vers la fin de son temps de cuisson.",
+            "Pendant ce temps, versez les abricots dans une petite casserole avec 300 ml d'eau et faites cuire à feu moyen-doux jusqu'à ce qu'ils soient tendres, environ 10 à 15 minutes. Annuler.",
+            "Retirez les feuilles de laurier et le bâton de cannelle du riz, puis incorporez la moitié du yaourt. Le riz et les abricots se conserveront au frais, séparément, jusqu'à 24 heures. Versez le riz dans des bols et garnissez avec le reste du yaourt, les abricots et leur jus et les noix. Si vous avez préparé le riz et les abricots la veille, mangez froids ou réchauffez jusqu'à ce qu'ils soient chauds, en ajoutant un peu de lait au riz pour le détendre."
         ],
         "nutritional_info": {
             "kcal": "378",
@@ -427,25 +427,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/easy-protein-pancakes/",
-        "title": "[FR] Easy protein pancakes",
-        "description": "(Translation pending) Up your protein with these pancakes made with eggs, oats, milk and protein powder. A great breakfast after a workout, enjoy with nut butter or fruit",
+        "title": "Crêpes protéinées faciles",
+        "description": "Augmentez vos protéines avec ces crêpes à base d'œufs, d'avoine, de lait et de poudre de protéines. Un excellent petit-déjeuner après une séance d'entraînement, à déguster avec du beurre de noix ou des fruits",
         "prep_time": "10 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 banana",
-            "75g oats",
-            "3 large eggs",
-            "2 tbsp milk (dairy, soya, oat or nut milks all work)",
-            "1 tbsp baking powder",
-            "pinch of cinnamon",
-            "2 tbsp protein powder (whey, pea or whatever your preference)",
-            "coconut oil, or a flavourless oil, for frying",
-            "nut butter, maple syrup and berries or sliced banana to serve"
+            "1 banane",
+            "75g de flocons d'avoine",
+            "3 gros œufs",
+            "2 cuillères à soupe de lait (les laits laitiers, de soja, d'avoine ou de noix fonctionnent tous)",
+            "1 cuillère à soupe de levure chimique",
+            "pincée de cannelle",
+            "2 cuillères à soupe de poudre de protéine (petit-lait, pois ou selon votre préférence)",
+            "de l'huile de coco, ou une huile sans saveur, pour la friture",
+            "beurre de noix, sirop d'érable et baies ou tranches de banane pour servir"
         ],
         "method": [
-            "Whizz the banana, oats, eggs, milk, baking powder, cinnamon and protein powder in ablenderfor 1-2 mins until smooth. Check the oats have broken down, if not, blend for another minute.",
-            "Heat a drizzle of oil in a pan. Pour or ladle in 2-3 rounds of batter, leaving a little space between each to spread. Cook for 1-2 minutes, until bubbles start to appear on the surface and the underside is golden. Flip over and cook for another minute until cooked through. Transfer to a warmed oven and repeat with the remaining batter. Serve in stacks with nut butter, maple syrup and fruit."
+            "Mélangez la banane, les flocons d'avoine, les œufs, le lait, la levure chimique, la cannelle et la poudre de protéines dans un mélange pendant 1 à 2 minutes jusqu'à consistance lisse. Vérifiez que les flocons d'avoine sont décomposés, sinon, mélangez pendant encore une minute.",
+            "Faites chauffer un filet d'huile dans une poêle. Versez ou versez 2-3 tours de pâte, en laissant un peu d'espace entre chacun pour étaler. Cuire 1 à 2 minutes, jusqu'à ce que des bulles commencent à apparaître à la surface et que le dessous soit doré. Retourner et cuire encore une minute jusqu'à ce qu'il soit bien cuit. Transférer dans un four chauffé et répéter avec le reste de la pâte. Servir en piles avec du beurre de noix, du sirop d'érable et des fruits."
         ],
         "nutritional_info": {
             "kcal": "437",
@@ -462,21 +462,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/celery-juice/",
-        "title": "[FR] Celery juice",
-        "description": "(Translation pending) Make this simple celery juice your own by adding green chilli for a bit of heat, turmeric, or a little maple syrup to sweeten, if you like",
+        "title": "Jus de céleri",
+        "description": "Personnalisez ce simple jus de céleri en ajoutant du piment vert pour un peu de piquant, du curcuma ou un peu de sirop d'érable pour sucrer, si vous le souhaitez.",
         "prep_time": "10 mins No cook",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 head of celery (about 500g)",
-            "1 green apple (about 120g), peeled, quartered and cored",
-            "½-1 lemon, juiced",
-            "20g ginger, finely grated"
+            "1 tête de céleri (environ 500g)",
+            "1 pomme verte (environ 120 g), pelée, coupée en quartiers et évidée",
+            "½-1 citron, jus",
+            "20 g de gingembre finement râpé"
         ],
         "method": [
-            "Separate the celery stalks and wash well. Trim the root ends androughly chop, keeping one of the tender, young stems whole to serve.",
-            "Put the chopped celery, apple, half the lemon juice and ginger in afood processororblenderand pulse to finely chop. With the motor running, add 50-100ml cold water and blend until smooth.",
-            "Strain the juice through a fine mesh sieve into a jug, pressing down with the back of a spoon to extract all the juice. Cover and chill or serve straight away. Stir the juice well, add a squeeze more lemon if you like, and serve in glasses with a piece of the reserved celery stalk."
+            "Séparez les branches de céleri et lavez-les bien. Coupez les extrémités des racines et hachez-les grossièrement, en gardant une des jeunes tiges tendres entières pour servir.",
+            "Mettez le céleri haché, la pomme, la moitié du jus de citron et le gingembre dans un robot culinaire ou un mixeur et mixez pour les hacher finement. Pendant que le moteur tourne, ajoutez 50 à 100 ml d'eau froide et mélangez jusqu'à consistance lisse.",
+            "Filtrez le jus à travers un tamis à mailles fines dans un pichet, en appuyant avec le dos d'une cuillère pour extraire tout le jus. Couvrir et réfrigérer ou servir immédiatement. Remuez bien le jus, ajoutez un peu de citron si vous le souhaitez et servez dans des verres avec un morceau de branche de céleri réservée."
         ],
         "nutritional_info": {
             "kcal": "63",
@@ -493,19 +493,19 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/cherry-smoothie/",
-        "title": "[FR] Cherry smoothie",
-        "description": "(Translation pending) Try using frozen cherries for ease to make this vibrant smoothie. Serve on its own or with brunch. Kids will love it, too",
+        "title": "Smoothie aux cerises",
+        "description": "Essayez d’utiliser des cerises surgelées pour préparer facilement ce smoothie vibrant. Servir seul ou avec un brunch. Les enfants vont l'adorer aussi",
         "prep_time": "10 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "300g frozen or fresh cherries, pitted",
-            "150g natural yogurt",
-            "1 large banana, sliced",
-            "½ tsp vanilla extract"
+            "300 g de cerises fraîches ou surgelées, dénoyautées",
+            "150g de yaourt nature",
+            "1 grosse banane, tranchée",
+            "½ cuillère à café d'extrait de vanille"
         ],
         "method": [
-            "Tip all the ingredients into a blender and blitz until smooth. Adjust the thickness to your liking with 50-100ml cold water. Serve in four glasses or chill for up to 24 hrs, giving a good stir before serving."
+            "Versez tous les ingrédients dans un mixeur et mixez jusqu'à consistance lisse. Ajustez l'épaisseur à votre convenance avec 50 à 100 ml d'eau froide. Servir dans quatre verres ou réfrigérer jusqu'à 24 heures, en remuant bien avant de servir."
         ],
         "nutritional_info": {
             "kcal": "90",
@@ -522,19 +522,19 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/blueberry-banana-power-smoothie/",
-        "title": "[FR] Blueberry & banana power smoothie",
-        "description": "(Translation pending) Add protein-packed tofu to this blueberry and banana smoothie to make it really creamy and keep you full until lunchtime. Serve with toast or some cereal",
+        "title": "Smoothie puissant aux bleuets et à la banane",
+        "description": "Ajoutez du tofu riche en protéines à ce smoothie aux myrtilles et à la banane pour le rendre vraiment crémeux et vous rassasier jusqu'à l'heure du déjeuner. Servir avec du pain grillé ou des céréales",
         "prep_time": "5 mins No cook",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "2 ripe bananas, peeled",
-            "125g blueberries (fresh or frozen)",
-            "300g pack silken tofu, drained",
-            "2 tbsp porridge oats"
+            "2 bananes mûres, pelées",
+            "125 g de myrtilles (fraîches ou surgelées)",
+            "Paquet de 300 g de tofu soyeux, égoutté",
+            "2 cuillères à soupe de flocons d'avoine"
         ],
         "method": [
-            "Whizz all of the ingredients together in a blender with 300ml water. Drink straight away or transfer to a bottle for later, shaking well before drinking."
+            "Mixez tous les ingrédients dans un mixeur avec 300 ml d'eau. Boire immédiatement ou transférer dans une bouteille pour plus tard, en agitant bien avant de boire."
         ],
         "nutritional_info": {
             "kcal": "160",
@@ -551,22 +551,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/pumpkin-spice-latte/",
-        "title": "[FR] Pumpkin spice latte",
-        "description": "(Translation pending) Get cosy with a pumpkin spice latte, perfect for cold autumn and winter nights. With ginger, cinnamon, nutmeg and pumpkin flavours, it’s a real treat",
+        "title": "Latté aux épices et à la citrouille",
+        "description": "Installez-vous confortablement avec un latte aux épices et à la citrouille, parfait pour les froides nuits d'automne et d'hiver. Aux saveurs de gingembre, cannelle, muscade et citrouille, c'est un vrai régal",
         "prep_time": "5 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "2 tsp pumpkin purée",
-            "pinch of ground cinnamon, plus extra to serve (or use pumpkin spice)",
-            "pinch of ground ginger",
-            "pinch of ground nutmeg",
-            "30ml espresso or strong coffee",
-            "250ml milk (any will work)"
+            "2 cuillères à café de purée de potiron",
+            "pincée de cannelle moulue, plus un peu pour servir (ou utilisez des épices de citrouille)",
+            "pincée de gingembre moulu",
+            "pincée de muscade moulue",
+            "30 ml d'espresso ou de café fort",
+            "250 ml de lait (n'importe lequel fera l'affaire)"
         ],
         "method": [
-            "Put the pumpkin purée in a large heatproof glass or mug. Stir in the spices and espresso or strong coffee.",
-            "Heat the milk in a saucepan over a low heat until steaming and frothy. Pour into the glass or mug, and spoon over any froth. Stir to combine, then dust with more cinnamon or some pumpkin spice before serving."
+            "Mettez la purée de potiron dans un grand verre ou une tasse résistant à la chaleur. Incorporez les épices et l'espresso ou le café fort.",
+            "Faites chauffer le lait dans une casserole à feu doux jusqu'à ce qu'il soit fumant et mousseux. Verser dans le verre ou la tasse et verser sur la mousse éventuelle. Remuer pour combiner, puis saupoudrer de cannelle ou d'épices de citrouille avant de servir."
         ],
         "nutritional_info": {
             "kcal": "185",
@@ -583,26 +583,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/apple-turnovers/",
-        "title": "[FR] Apple turnovers",
-        "description": "(Translation pending) Treat family and friends to these moreish apple turnovers. With an apple and cinnamon filling encased in puff pastry, they’re delicious served with ice cream",
+        "title": "Chaussons aux pommes",
+        "description": "Offrez à votre famille et à vos amis ces chaussons aux pommes savoureux. Garnies de pommes et de cannelle enrobées de pâte feuilletée, elles sont délicieuses servies avec de la glace.",
         "prep_time": "20 mins Cook: 50 mins plus cooling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "2 medium-large Bramley apples, peeled, cored and roughly chopped",
-            "50g golden caster sugar",
-            "½ tsp ground cinnamon",
-            "1 tbsp butter",
-            "1 Gala or sweet dessert apple, peeled, cored and cut into 1cm dice",
-            "320g pack Jus-Rol™ Puff Pastry Sheet",
-            "2 tbsp milk to glaze",
-            "2 tsp demerara sugar"
+            "2 pommes Bramley de taille moyenne, pelées, évidées et hachées grossièrement",
+            "50 g de sucre en poudre doré",
+            "½ cuillère à café de cannelle moulue",
+            "1 cuillère à soupe de beurre",
+            "1 pomme Gala ou pomme dessert sucrée, pelée, épépinée et coupée en dés de 1 cm",
+            "Paquet de 320 g de feuille de pâte feuilletée Jus-Rol™",
+            "2 cuillères à soupe de lait pour glacer",
+            "2 cuillères à café de sucre demerara"
         ],
         "method": [
-            "Put the Bramley apple, sugar and cinnamon in a smallpanwith 1 tbsp water. Cover with a lid and simmer over a low heat for 10-15 mins until the apple breaks down and turns into a compote.",
-            "Stir in the butter and the Gala apple and cook for a further 5 mins, uncovered, until the Gala apple is just soft but retaining its shape, and any excess water has evaporated to make a thick compote around the Gala chunks. Remove from the heat and leave to cool.",
-            "Heat the oven to 220C/200C fan/gas 7. Unravel the Jus-Rol™ Puff Pastry Sheet out on a work surface, and cut into 4 even rectangles. Divide the apple filling to one side of each of the puff pastry rectangles, leaving a 1cm border. Brush the border with milk and fold over the empty side of pastry over the filling and crimp together. Brush with more milk and sprinkle over the sugar. Make a small steam hole in the middle of the turnovers.",
-            "Transfer to a parchment-lined baking sheet and bake for 20-25 mins until golden and puffed up. Leave to cool for 10 mins on awire rack(the filling will be molten when it first comes out the oven) before serving warm with a scoop of vanilla ice cream, or serve at room temperature. Keep for 2 days in an airtight container."
+            "Mettez la pomme Bramley, le sucre et la cannelle dans une petite casserole avec 1 cuillère à soupe d'eau. Couvrir avec un couvercle et laisser mijoter à feu doux pendant 10 à 15 minutes jusqu'à ce que la pomme se décompose et se transforme en compote.",
+            "Incorporer le beurre et la pomme Gala et cuire encore 5 minutes, à découvert, jusqu'à ce que la pomme Gala soit juste tendre mais conservant sa forme et que l'excès d'eau se soit évaporé pour former une compote épaisse autour des morceaux de Gala. Retirer du feu et laisser refroidir.",
+            "Chauffer le four à 220C/200C chaleur tournante/gaz 7. Déroulez la feuille de pâte feuilletée Jus-Rol™ sur un plan de travail et coupez-la en 4 rectangles égaux. Répartissez la garniture aux pommes sur un côté de chacun des rectangles de pâte feuilletée en laissant une bordure de 1 cm. Badigeonner le bord de lait et rabattre le côté vide de la pâte sur la garniture et sertir ensemble. Badigeonner avec plus de lait et saupoudrer de sucre. Faites un petit trou de vapeur au milieu des chaussons.",
+            "Transférer sur une plaque à pâtisserie tapissée de papier sulfurisé et cuire au four pendant 20 à 25 minutes jusqu'à ce qu'ils soient dorés et gonflés. Laisser refroidir 10 mn sur une grille (la garniture sera fondue à la sortie du four) avant de servir tiède avec une boule de glace vanille, ou de servir à température ambiante. Se conserve 2 jours dans un contenant hermétique."
         ],
         "nutritional_info": {
             "kcal": "421",
@@ -619,32 +619,32 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/brookies/",
-        "title": "[FR] Brookies",
-        "description": "(Translation pending) Combine two popular bakes, a chewy chocolate chip cookie and rich brownie, in this inventive treat. Fill the cake tin with these for the festive season, or give as gifts",
+        "title": "Brookies",
+        "description": "Combinez deux pâtisseries populaires, un biscuit moelleux aux pépites de chocolat et un riche brownie, dans cette gâterie inventive. Remplissez le moule à gâteau avec ceux-ci pour les fêtes de fin d'année ou offrez-le en cadeau.",
         "prep_time": "20 mins Cook: 55 mins plus 30 mins chilling and cooling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "120g unsalted butter, softened, plus extra for the tin",
-            "120g light brown soft sugar",
-            "100g dark muscovado sugar",
-            "1 large egg, plus 1 egg yolk",
-            "250g plain flour",
-            "½ tsp bicarbonate of soda",
-            "50g milk chocolate chunks",
-            "185g unsalted butter",
-            "185g dark chocolate (at least 70% cocoa solids)",
-            "3 large eggs",
-            "1 tsp vanilla extract",
-            "275g golden caster sugar",
-            "50g cocoa powder",
-            "130g plain flour",
-            "50g milk chocolate chunks"
+            "120 g de beurre doux, ramolli, plus un peu pour le moule",
+            "120 g de sucre mou roux clair",
+            "100 g de sucre muscovado noir",
+            "1 gros œuf et 1 jaune d'œuf",
+            "250 g de farine nature",
+            "½ cuillère à café de bicarbonate de soude",
+            "50 g de morceaux de chocolat au lait",
+            "185g de beurre doux",
+            "185 g de chocolat noir (au moins 70 % de cacao)",
+            "3 gros œufs",
+            "1 cuillère à café d'extrait de vanille",
+            "275 g de sucre en poudre doré",
+            "50g de cacao en poudre",
+            "130 g de farine nature",
+            "50 g de morceaux de chocolat au lait"
         ],
         "method": [
-            "Butter a 23cm square cake tin and line with baking parchment. Heat the oven to 180C/160C fan/gas 4. First, make the cookie layer. Put the butter and both sugars in a bowl and beat with an electricwhiskuntil just combined. Alternatively, do this in a stand mixer. Add the whole egg and egg yolk, and beat again until combined. Mix in the flour, ¼ tsp salt, the bicarbonate of soda and chocolate chunks. Press the cookie dough into the base of the prepared tin using the back of a spoon, then chill for 30 mins.",
-            "For the brownie layer, melt the butter and chocolate in a heatproof bowl over a pan of just simmering water, stirring until smooth and combined. Leave to cool slightly, about 10 mins. Whisk the eggs, vanilla and sugar together in a large bowl with an electric whisk until slightly thickened, about 3 mins.",
-            "Fold the buttery chocolate mixture, cocoa and flour together to combine. Spoon the brownie mixture over the cookie dough layer, dot with the chocolate chunks, and sprinkle with sea salt flakes, if you like. Bake in the centre of the oven for 50 mins-1 hr, or until a skewer inserted into the middle comes out with just a few crumbs clinging to it. Leave to cool completely in the tin before cutting into squares."
+            "Beurrer un moule à cake carré de 23 cm de côté et le tapisser de papier sulfurisé. Chauffer le four à 180°C/160°C chaleur tournante/gaz 4. Tout d'abord, réalisez la couche de biscuits. Mettez le beurre et les deux sucres dans un bol et battez avec un fouet électrique jusqu'à ce que le tout soit bien mélangé. Vous pouvez également le faire dans un batteur sur socle. Ajouter l'œuf entier et le jaune d'œuf et battre à nouveau jusqu'à ce que le tout soit bien mélangé. Incorporer la farine, ¼ cuillère à café de sel, le bicarbonate de soude et les morceaux de chocolat. Pressez la pâte à biscuits dans le fond du moule préparé à l'aide du dos d'une cuillère, puis mettez au réfrigérateur pendant 30 minutes.",
+            "Pour la couche de brownie, faites fondre le beurre et le chocolat dans un bol résistant à la chaleur au-dessus d'une casserole d'eau frémissante, en remuant jusqu'à consistance lisse et homogène. Laisser refroidir légèrement, environ 10 min. Fouetter les œufs, la vanille et le sucre dans un grand bol avec un fouet électrique jusqu'à ce que le mélange épaississe légèrement, environ 3 minutes.",
+            "Pliez le mélange de chocolat au beurre, le cacao et la farine pour combiner. Versez le mélange de brownie sur la couche de pâte à biscuits, parsemez de morceaux de chocolat et saupoudrez de flocons de sel marin, si vous le souhaitez. Cuire au centre du four pendant 50 minutes à 1 heure, ou jusqu'à ce qu'un cure-dent inséré au milieu en ressorte avec juste quelques miettes qui s'y accrochent. Laisser refroidir complètement dans le moule avant de découper en carrés."
         ],
         "nutritional_info": {
             "kcal": "489",
@@ -661,20 +661,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/frozen-yogurt/",
-        "title": "[FR] Frozen yogurt",
-        "description": "(Translation pending) Whip up this frozen yogurt to enjoy on hot summer days – it’s low-calorie and packed with flavour. We used strawberries, but you could try it with other fruit",
+        "title": "Yaourt glacé",
+        "description": "Préparez ce yogourt glacé à déguster lors des chaudes journées d'été : il est faible en calories et plein de saveurs. Nous avons utilisé des fraises, mais vous pouvez l'essayer avec d'autres fruits.",
         "prep_time": "10 mins plus overnight freezing",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "200-300g strawberries (depending on how fruity you want it), hulled",
-            "300g Greek or Greek-style yogurt",
-            "3 tbsp condensed milk"
+            "200-300 g de fraises (selon le fruité souhaité), décortiquées",
+            "300 g de yaourt grec ou à la grecque",
+            "3 cuillères à soupe de lait concentré"
         ],
         "method": [
-            "Use a food processor or blender to blitz the strawberries for a smoother end result, or crush them in a bowl using a fork to get chunkier pieces.",
-            "Tip the yogurt and condensed milk into the food processor or blender with the strawberries and blitz again to combine.",
-            "Pour into a freezer-proof container and put in the freezer, stirring every hour to break up the ice crystals, then leave to freeze again overnight. Remove from the freezer 10 mins before serving."
+            "Utilisez un robot culinaire ou un mixeur pour mixer les fraises pour un résultat final plus lisse, ou écrasez-les dans un bol à l'aide d'une fourchette pour obtenir des morceaux plus gros.",
+            "Versez le yaourt et le lait concentré dans le robot culinaire ou le mixeur avec les fraises et mélangez à nouveau.",
+            "Verser dans un récipient allant au congélateur et mettre au congélateur en remuant toutes les heures pour briser les cristaux de glace, puis laisser à nouveau congeler toute la nuit. Sortir du congélateur 10 minutes avant de servir."
         ],
         "nutritional_info": {
             "kcal": "110",
@@ -691,21 +691,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/mango-sorbet/",
-        "title": "[FR] Mango sorbet",
-        "description": "(Translation pending) Make the most of sweet mangoes with this refreshing mango sorbet. Low in fat, it’s the perfect dessert for warm, balmy days",
+        "title": "Sorbet mangue",
+        "description": "Profitez au maximum des mangues sucrées avec ce sorbet rafraîchissant à la mangue. Faible en gras, c'est le dessert parfait pour les journées chaudes et douces",
         "prep_time": "15 mins plus freezing",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "3 large, ripe mangoes",
-            "200g caster sugar",
-            "1 lime, juiced"
+            "3 grosses mangues mûres",
+            "200 g de sucre en poudre",
+            "1 citron vert, jus"
         ],
         "method": [
-            "Peel the mangoes with a vegetable peeler, cut as much of the flesh away from the stone as you can, put it in a food processor or blender.",
-            "Add the sugar, lime juice and 200ml water. Blend for a few minutes, until the mango is very smooth and the sugar has dissolved – rub a little of the mixture between your fingers, if it still feels gritty, blend for a little longer. Pour into a container and put in the freezer for a few hours.",
-            "Scrape the sorbet back into the blender (if it’s very solid, leave at room temperature for 5-10 mins first). Whizz until you have a slushy mixture, then pour back into the tin and freeze for another hour or so.",
-            "Repeat step 3. Freeze until solid (another hour or two). Will keep covered in the freezer for three months."
+            "Épluchez les mangues avec un épluche-légumes, coupez le plus possible la chair du noyau, mettez-la dans un robot culinaire ou un mixeur.",
+            "Ajoutez le sucre, le jus de citron vert et 200 ml d'eau. Mixez quelques minutes, jusqu'à ce que la mangue soit très lisse et que le sucre soit dissous – frottez un peu du mélange entre vos doigts, s'il est encore granuleux, mixez encore un peu. Versez dans un récipient et mettez au congélateur quelques heures.",
+            "Remettez le sorbet dans le mixeur (s'il est très solide, laissez-le d'abord à température ambiante pendant 5 à 10 minutes). Mélangez jusqu'à obtenir un mélange gluant, puis remettez-le dans le moule et congelez pendant environ une heure.",
+            "Répétez l’étape 3. Congelez jusqu’à ce qu’il soit solide (encore une heure ou deux). Se conservera couvert au congélateur pendant trois mois."
         ],
         "nutritional_info": {
             "kcal": "184",
@@ -722,20 +722,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/easy-honey-flapjacks/",
-        "title": "[FR] Easy honey flapjacks",
-        "description": "(Translation pending) Treat yourself to these easy honey flapjacks for elevenses or the afternoon slump. Perfect for picnics, packed lunches and bake sales",
+        "title": "Flapjacks au miel faciles",
+        "description": "Offrez-vous ces flapjacks au miel faciles pour les onze ou la crise de l'après-midi. Parfait pour les pique-niques, les paniers-repas et les ventes de pâtisseries",
         "prep_time": "8 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "225g butter, plus extra for the tin",
-            "75g caster sugar",
-            "4 tbsp honey",
-            "350g porridge oats"
+            "225 g de beurre, plus un peu pour le moule",
+            "75 g de sucre en poudre",
+            "4 cuillères à soupe de miel",
+            "350 g de flocons d'avoine"
         ],
         "method": [
-            "Heat the oven to 180C/160C fan/gas 4. Butter and line a 30 x 15cm rectangle tin with baking parchment. Melt the butter, sugar and honey in a pan over a medium heat, stirring frequently until the butter has melted and the mixture is smooth.",
-            "Put the oats in a mixing bowl, then pour over the butter and honey mixture. Stir until all the oats are coated. Tip into the prepared tin, and use a spatula or the back of a spoon to evenly spread out the mixture. Cook for 10-15 mins until lightly golden. Leave to cool in the tin, then remove before cutting into squares."
+            "Chauffer le four à 180°C/160°C chaleur tournante/gaz 4. Beurrer et tapisser un moule rectangle de 30 x 15 cm de papier sulfurisé. Faire fondre le beurre, le sucre et le miel dans une poêle à feu moyen en remuant fréquemment jusqu'à ce que le beurre soit fondu et que le mélange soit lisse.",
+            "Mettez les flocons d'avoine dans un bol à mélanger, puis versez dessus le mélange de beurre et de miel. Remuer jusqu'à ce que tous les flocons d'avoine soient enrobés. Versez dans le moule préparé et utilisez une spatule ou le dos d'une cuillère pour étaler uniformément le mélange. Cuire 10 à 15 minutes jusqu'à ce qu'ils soient légèrement dorés. Laisser refroidir dans le moule, puis retirer avant de couper en carrés."
         ],
         "nutritional_info": {
             "kcal": "302",
@@ -752,25 +752,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/crispy-tofu/",
-        "title": "[FR] Crispy tofu",
-        "description": "(Translation pending) Fry tofu in a coating of smoked paprika, garlic and seasoning to make these crispy tofu bites. Eat as a snack or as a starter or side dish in a veggie feast",
+        "title": "Tofu croustillant",
+        "description": "Faites frire le tofu dans une couche de paprika fumé, d'ail et d'assaisonnement pour réaliser ces bouchées de tofu croustillantes. A consommer en collation ou en entrée ou en accompagnement d'un festin végétarien",
         "prep_time": "5 mins Cook: 10 mins plus 20 mins draining",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "400g block firm tofu",
-            "3 tbsp cornflour",
-            "½ tsp garlic granules",
-            "½ tsp smoked paprika",
-            "½ tsp fine sea salt",
-            "½ tsp ground black pepper",
-            "2 tbsp vegetable oil"
+            "400 g de tofu ferme en bloc",
+            "3 cuillères à soupe de farine de maïs",
+            "½ cuillère à café de granulés d'ail",
+            "½ cuillère à café de paprika fumé",
+            "½ cuillère à café de sel marin fin",
+            "½ cuillère à café de poivre noir moulu",
+            "2 cuillères à soupe d'huile végétale"
         ],
         "method": [
-            "Drain the tofu, wrap in 4-5 sheets of kitchen paper, put on a plate and put something heavy over the top, like a wooden chopping board, or a tray with a few tins on it. Leave for 20 mins to drain the excess moisture from the tofu.",
-            "Mix the cornflour, garlic, paprika, salt and pepper in a small bowl. Unravel the tofu from the paper, cut in half through the centre, then cut into triangles, cubes or strips.",
-            "Toss the tofu pieces in the spiced cornflour to coat all over. Heat the oil in a large non-stick frying pan over a medium-high heat. Fry the tofu for 2-4 mins on each side until golden, crunchy and browned at the edges. Smaller cubes will take 2 mins each side, larger triangles will take 4 mins. Cook in batches if you need to, adding a little more oil if the pan gets dry.",
-            "Drain the cooked tofu on kitchen paper and season with a pinch more salt before serving."
+            "Égouttez le tofu, enveloppez-le dans 4 à 5 feuilles de papier absorbant, mettez-le sur une assiette et placez quelque chose de lourd dessus, comme une planche à découper en bois ou un plateau avec quelques boîtes de conserve dessus. Laisser reposer 20 minutes pour égoutter l'excès d'humidité du tofu.",
+            "Mélangez la maïzena, l'ail, le paprika, le sel et le poivre dans un petit bol. Déroulez le tofu du papier, coupez-le en deux au centre, puis coupez-le en triangles, cubes ou lanières.",
+            "Mélangez les morceaux de tofu dans la farine de maïs épicée pour bien les enrober. Faites chauffer l'huile dans une grande poêle antiadhésive à feu moyen-vif. Faites frire le tofu pendant 2 à 4 minutes de chaque côté jusqu'à ce qu'il soit doré, croustillant et doré sur les bords. Les petits cubes prendront 2 minutes de chaque côté, les plus grands triangles prendront 4 minutes. Faites cuire par lots si nécessaire, en ajoutant un peu plus d'huile si la poêle devient sèche.",
+            "Égoutter le tofu cuit sur du papier absorbant et assaisonner avec une pincée de sel supplémentaire avant de servir."
         ],
         "nutritional_info": {
             "kcal": "165",
@@ -787,30 +787,30 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/baked-banana-cheesecake/",
-        "title": "[FR] Baked banana cheesecake",
-        "description": "(Translation pending) Forget banana bread, use up over-ripe fruit in this low-sugar cheesecake with a chocolate and nut base and a ricotta and yogurt topping",
+        "title": "Cheesecake à la banane au four",
+        "description": "Oubliez le pain aux bananes, utilisez des fruits trop mûrs dans ce cheesecake faible en sucre avec une base de chocolat et de noix et une garniture à la ricotta et au yaourt.",
         "prep_time": "15 mins Cook: 35 mins plus 3-4 hrs chilling",
         "cook_time": "",
         "serves": "12",
         "ingredients": [
-            "50g butter",
-            "75g oatcakes, finely crushed",
-            "50g cream crackers",
-            "1 tbsp cocoa, plus extra for dusting",
-            "1 tbsp salted peanuts, very finely chopped, plus 1 tbsp to scatter over (optional)",
-            "2 small ripe bananas",
-            "juice 1 lemon",
-            "2 x 250g tubs ricotta",
-            "200g tub Greek yogurt",
-            "4 large eggs",
-            "½  tsp sugar-free vanilla extract",
-            "2 tbsp cornflour",
-            "200ml double cream"
+            "50g de beurre",
+            "75 g de galettes d'avoine finement écrasées",
+            "50 g de crackers à la crème",
+            "1 cuillère à soupe de cacao, plus un peu pour saupoudrer",
+            "1 cuillère à soupe de cacahuètes salées, hachées très finement, plus 1 cuillère à soupe pour parsemer (facultatif)",
+            "2 petites bananes mûres",
+            "jus d'1 citron",
+            "2 pots de 250 g de ricotta",
+            "Pot de 200 g de yaourt grec",
+            "4 gros œufs",
+            "½ cuillère à café d'extrait de vanille sans sucre",
+            "2 cuillères à soupe de farine de maïs",
+            "200 ml de crème fraîche"
         ],
         "method": [
-            "Heat oven to 180C/160C fan/gas 4 and lightly oil a non-stick loose-based 22cm cake tin. Melt the butter in a pan and stir in the oatcakes, crackers, cocoa and the chopped peanuts until well coated. Press into the base of the tin to make a firm layer, then bake for 10 mins. Remove from the oven and turn up the heat to 240C/220C fan/gas 9.",
-            "To make the topping, mash the bananas with the lemon juice in a large bowl, then beat in the ricotta, yogurt, eggs, vanilla and cornflour until everything is very well mixed. Pour onto the biscuit base and bake for 10 mins, then turn the oven right down to 110C/90C fan/gas 1/4 and cook for 25 mins more. Turn off the oven and leave the cheesecake inside to cool. When cold, chill for 3-4 hrs. (Cooling the cheesecake this way should prevent it from cracking.)",
-            "To serve, remove the cheesecake from the tin and slide onto a plate. Whip the cream until it just holds its shape, then smooth over the top of the cheesecake, lightly dust with cocoa and scatter over the peanuts."
+            "Chauffer le four à 180°C/160°C chaleur tournante/gaz 4 et huiler légèrement un moule à cake antiadhésif de 22 cm à fond amovible. Faire fondre le beurre dans une poêle et incorporer les flocons d'avoine, les craquelins, le cacao et les cacahuètes hachées jusqu'à ce qu'ils soient bien enrobés. Presser au fond du moule pour former une couche ferme, puis enfourner pendant 10 minutes. Retirer du four et augmenter le feu à 240C/220C ventilateur/gaz 9.",
+            "Pour faire la garniture, écrasez les bananes avec le jus de citron dans un grand bol, puis incorporez la ricotta, le yaourt, les œufs, la vanille et la maïzena jusqu'à ce que le tout soit bien mélangé. Verser sur le fond de biscuit et enfourner 10 min, puis baisser le four à fond à 110°C/90°C chaleur tournante/gaz 1/4 et cuire encore 25 min. Éteignez le four et laissez refroidir le cheesecake à l'intérieur. Une fois froid, réfrigérez pendant 3 à 4 heures. (Refroidir le cheesecake de cette façon devrait l'empêcher de se fissurer.)",
+            "Pour servir, retirez le cheesecake du moule et glissez-le sur une assiette. Fouettez la crème jusqu'à ce qu'elle conserve sa forme, puis lissez-la sur le dessus du cheesecake, saupoudrez légèrement de cacao et répartissez sur les cacahuètes."
         ],
         "nutritional_info": {
             "kcal": "299",
@@ -827,27 +827,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/cinnamon-apple-pecan-pudding/",
-        "title": "[FR] Cinnamon apple pecan pudding",
-        "description": "(Translation pending) It may taste indulgent, but this low-sugar fruity bake is sweetened with xylitol and topped with crunchy pecans",
+        "title": "Pouding à la cannelle, aux pommes et aux pacanes",
+        "description": "Cela peut avoir un goût indulgent, mais cette pâtisserie fruitée à faible teneur en sucre est sucrée au xylitol et garnie de pacanes croquantes.",
         "prep_time": "10 mins Cook: 45 mins",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "85g softened butter",
-            "85g xylitol (we used Total Sweet)",
-            "125g self-raising flour",
-            "25g oats",
-            "1 tsp ground cinnamon",
-            "1 heaped tsp baking powder",
-            "2 large eggs",
-            "3 tbsp milk",
-            "1 Bramley apple (about 280g), peeled, cored, a quarter grated, the rest diced",
-            "25g pecans, roughly chopped or broken",
-            "Greek yogurt or cream, to serve"
+            "85g de beurre ramolli",
+            "85 g de xylitol (nous avons utilisé Total Sweet)",
+            "125 g de farine autolevante",
+            "25g de flocons d'avoine",
+            "1 cuillère à café de cannelle moulue",
+            "1 cuillère à café bombée de levure chimique",
+            "2 gros œufs",
+            "3 cuillères à soupe de lait",
+            "1 pomme Bramley (environ 280 g), pelée, épépinée, un quart râpé, le reste coupé en dés",
+            "25 g de noix de pécan, hachées grossièrement ou cassées",
+            "Yaourt grec ou crème, pour servir"
         ],
         "method": [
-            "Heat oven to 180C/160C fan/gas 4 and lightly grease a 1-litre (20 x 16cm) pie or oven dish. Tip the butter and xylitol into a bowl with the flour, oats, cinnamon and baking powder. Break in the eggs, add the milk, then beat with an electric hand whisk until evenly mixed and smooth. Stir in all the apple, then scrape into the dish, level the top and scatter with the pecans.",
-            "Bake for 35-45 mins until risen and golden and a skewer inserted into the centre comes out clean. Serve with Greek yogurt or cream."
+            "Chauffer le four à 180°C/160°C chaleur tournante/gaz 4 et graisser légèrement une tarte ou un plat à four de 1 litre (20 x 16 cm). Versez le beurre et le xylitol dans un bol avec la farine, les flocons d'avoine, la cannelle et la levure chimique. Cassez les œufs, ajoutez le lait, puis battez avec un fouet électrique jusqu'à ce que le mélange soit homogène et lisse. Incorporer toute la pomme, puis gratter dans le plat, niveler le dessus et parsemer de noix de pécan.",
+            "Cuire au four pendant 35 à 45 minutes jusqu'à ce qu'ils soient levés et dorés et qu'un cure-dent inséré au centre en ressorte propre. Servir avec du yaourt grec ou de la crème."
         ],
         "nutritional_info": {
             "kcal": "328",
@@ -864,27 +864,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/moroccan-orange-cardamom-cake/",
-        "title": "[FR] Moroccan orange & cardamom cake",
-        "description": "(Translation pending) Replace sugar with xylitol and swap butter and oil for a puréed whole orange in this light and zesty cake, with ground almonds and polenta",
+        "title": "Gâteau marocain à l'orange et à la cardamome",
+        "description": "Remplacez le sucre par du xylitol et troquez le beurre et l'huile contre une purée d'orange entière dans ce gâteau léger et piquant, avec de la poudre d'amandes et de la polenta.",
         "prep_time": "15 mins Cook: 2 hrs 5 mins",
         "cook_time": "",
         "serves": "12",
         "ingredients": [
-            "2 oranges, scrubbed",
-            "seeds of 6 green cardamom pods, crushed",
-            "225g pack xylitol (we used Total Sweet)",
-            "6 large eggs",
-            "200g pack ground almonds",
-            "50g polenta",
-            "25g self-raising flour",
-            "2 tsp baking powder",
-            "1 tbsp flaked almonds",
-            "Greek yogurt or cream, to serve"
+            "2 oranges, lavées",
+            "graines de 6 gousses de cardamome verte, écrasées",
+            "Pack de 225 g de xylitol (nous avons utilisé Total Sweet)",
+            "6 gros œufs",
+            "200 g de poudre d'amandes",
+            "50 g de polenta",
+            "25 g de farine autolevante",
+            "2 cuillères à café de levure chimique",
+            "1 cuillère à soupe d'amandes effilées",
+            "Yaourt grec ou crème, pour servir"
         ],
         "method": [
-            "Put the whole oranges in a pan, cover with water and boil, covered, for 1 hr until a knife easily pierces them. If the oranges won’t stay under the water, place a small saucepan lid directly on top to keep them submerged. Remove the oranges from the water and cool, then quarter and remove any seeds and obvious pith where the stalk was. Blitz the oranges to a rough purée with a hand blender or in a food processor and put in a large bowl.",
-            "Heat oven to 160C/140C fan/gas 3 and line the base and sides of a 21cm loose-bottomed cake tin with baking parchment. Beat the cardamom, xylitol and eggs into the orange purée, then mix the ground almonds with the polenta, flour and baking powder, and fold in until well blended. Scrape the mixture into the tin, level the top and bake for 40 mins.",
-            "After 40 minutes, scatter over the almonds, quickly return to the oven and bake 20-25 mins more until a skewer inserted into the centre comes out clean. Remove from the tin and leave to cool. Serve sliced as a cake, or with Greek yogurt or cream as a dessert."
+            "Mettez les oranges entières dans une casserole, couvrez d'eau et faites bouillir à couvert pendant 1 h jusqu'à ce qu'un couteau les perce facilement. Si les oranges ne restent pas sous l’eau, placez un petit couvercle de casserole directement dessus pour les maintenir immergées. Retirez les oranges de l'eau et laissez-les refroidir, puis coupez-les en quartiers et retirez les graines et la moelle évidente là où se trouvait la tige. Réduisez les oranges en purée grossière avec un mixeur plongeant ou au robot culinaire et mettez-les dans un grand bol.",
+            "Chauffer le four à 160°C/140°C chaleur tournante/gaz 3 et tapisser le fond et les côtés d'un moule à cake à fond amovible de 21 cm de papier sulfurisé. Battre la cardamome, le xylitol et les œufs dans la purée d'orange, puis mélanger la poudre d'amandes avec la polenta, la farine et la levure chimique et incorporer jusqu'à consistance homogène. Versez le mélange dans le moule, nivelez le dessus et enfournez pour 40 minutes.",
+            "Au bout de 40 minutes, parsemez les amandes, remettez rapidement au four et enfournez encore 20-25 minutes jusqu'à ce qu'un cure-dent inséré au centre en ressorte propre. Retirer du moule et laisser refroidir. Servir en tranches comme gâteau, ou avec du yaourt grec ou de la crème comme dessert."
         ],
         "nutritional_info": {
             "kcal": "257",
@@ -901,26 +901,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/fruity-sponge-cake/",
-        "title": "[FR] Fruity sponge cake",
-        "description": "(Translation pending) Reader Sue McGann devised this delicious low-fat cake recipe",
+        "title": "Génoise fruitée",
+        "description": "La lectrice Sue McGann a conçu cette délicieuse recette de gâteau faible en gras",
         "prep_time": "10 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "8",
         "ingredients": [
-            "butter or oil, for greasing",
-            "50g plain flour",
-            "3 tbsp cornflour",
-            "1 tsp baking powder",
-            "4 eggs, separated",
-            "175g caster sugar",
-            "295g can mandarin segments, drained",
+            "beurre ou huile, pour graisser",
+            "50g de farine nature",
+            "3 cuillères à soupe de farine de maïs",
+            "1 cuillère à café de levure chimique",
+            "4 œufs, séparés",
+            "175 g de sucre en poudre",
+            "Boîte de 295 g de quartiers de mandarine, égouttés",
             "200g tub low-fat fromage frais",
-            "icing sugar, for dusting"
+            "sucre glace, pour saupoudrer"
         ],
         "method": [
-            "Heat oven to 180C/fan 160C/gas 4.\r\nGrease then line the base and sides of 2 x\r\n20cm sandwich tins with greaseproof paper.\r\nSieve the flours and baking powder together.",
-            "Use electric hand beaters to whisk the\r\negg whites until stiff, then briefly whisk in the\r\nsugar. Beat the egg yolks quickly, then whisk\r\ninto the whites. Fold in the dry ingredients\r\nusing a large metal spoon, then spoon the\r\nmixture into the tins and level the tops. Bake\r\nfor 18-20 mins until risen, light golden and\r\na skewer inserted into the middle comes\r\nout clean. Cool in the tins for 10 mins, then\r\ngently remove and leave to cool completely.",
-            "Mix the mandarins and fromage frais\r\ntogether. Peel away the greaseproof paper,\r\nsandwich the cakes with the mandarin mix,\r\nthen dust with the icing sugar to serve.\r\nBest eaten on the day it’s made."
+            "Chauffer le four à 180C/chaleur tournante 160C/gaz 4.\r\nGraisser puis tapisser le fond et les côtés de 2 x\r\nMoules à sandwich de 20 cm avec papier sulfurisé.\r\nTamisez ensemble les farines et la levure chimique.",
+            "Utilisez des batteurs électriques à main pour fouetter le\r\nblancs d'œufs jusqu'à ce qu'ils soient fermes, puis incorporez-les brièvement au fouet.\r\nsucre. Battez rapidement les jaunes d'œufs, puis fouettez\r\ndans les blancs. Incorporer les ingrédients secs\r\nà l'aide d'une grande cuillère en métal, puis versez le\r\nmélange dans les moules et niveler le dessus. Cuire au four\r\npendant 18 à 20 minutes jusqu'à ce qu'il soit levé, légèrement doré et\r\nune brochette insérée au milieu vient\r\npropre. Laisser refroidir dans les moules 10 min, puis\r\nretirer délicatement et laisser refroidir complètement.",
+            "Mélanger les mandarines et le fromage frais\r\nensemble. Retirez le papier sulfurisé,\r\nsandwicher les gâteaux avec le mélange à la mandarine,\r\npuis saupoudrez de sucre glace pour servir.\r\nMieux mangé le jour même de sa préparation."
         ],
         "nutritional_info": {
             "kcal": "214",
@@ -937,28 +937,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/sugarfree-carrot-cake/",
-        "title": "[FR] Sugar-free carrot cake",
-        "description": "(Translation pending) This dairy-free and sugar-free carrot cake uses natural xylitol to sweeten it and is very simple to make",
+        "title": "Gâteau aux carottes sans sucre",
+        "description": "Ce gâteau aux carottes sans produits laitiers et sans sucre utilise du xylitol naturel pour le sucrer et est très simple à réaliser.",
         "prep_time": "15 mins Cook: 1 hrs 10 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "100g pecans",
-            "140g self-raising flour, sieved",
-            "2 tsp ground cinnamon",
-            "1 tsp bicarbonate of soda",
-            "140g xylitol (see tip below)",
-            "2 large eggs (at room temperature)",
-            "140ml rapeseed oil",
-            "175g grated carrots",
-            "100g sultanas",
-            "drizzle of agave syrup (optional)"
+            "100 g de noix de pécan",
+            "140 g de farine autolevante tamisée",
+            "2 cuillères à café de cannelle moulue",
+            "1 cuillère à café de bicarbonate de soude",
+            "140g de xylitol (voir astuce ci-dessous)",
+            "2 gros œufs (à température ambiante)",
+            "140 ml d'huile de colza",
+            "175 g de carottes râpées",
+            "100 g de raisins secs",
+            "un filet de sirop d'agave (facultatif)"
         ],
         "method": [
-            "Preheat the oven to 180C/ 160C fan/ Gas mark 4. Grease and line an 18cm round cake tin with baking parchment. Set aside 12 pecans and roughly chop the rest.",
-            "In a large bowl, mix together the flour, cinnamon, bicarbonate of soda, xylitol and chopped pecans.",
-            "In a separate bowl or jug, beat the eggs and rapeseed oil together. Pour into the flour mixture and stir until combined. Stir through the carrot and sultanas. Spoon into the lined tin, smooth the surface and press whole pecans to form a circle around the edge.",
-            "Cook for 1 hour  - 1 hour 10 mins until the top feels springy to the touch and a skewer inserted into the cake comes out clean. Check after 50 mins, if the cake is becoming too dark, cover loosely with foil. Cool on a wire rack for 10 minutes, then turn out and allow to cool. Serve slightly warm or cold. This cake keeps for up to five days in a tin. Before serving, drizzle with agave syrup if you have a sweet tooth."
+            "Préchauffer le four à 180°C/160°C chaleur tournante/thermostat 4. Beurrer et tapisser un moule à cake rond de 18 cm de papier sulfurisé. Réservez 12 noix de pécan et hachez grossièrement le reste.",
+            "Dans un grand bol, mélanger la farine, la cannelle, le bicarbonate de soude, le xylitol et les noix de pécan hachées.",
+            "Dans un bol ou un pichet séparé, battre ensemble les œufs et l'huile de colza. Verser dans le mélange de farine et remuer jusqu'à ce que le tout soit bien mélangé. Incorporer les carottes et les raisins secs. Verser dans le moule tapissé, lisser la surface et presser les noix de pécan entières pour former un cercle sur le pourtour.",
+            "Cuire pendant 1 heure à 1 heure 10 minutes jusqu'à ce que le dessus soit élastique au toucher et qu'un cure-dent inséré dans le gâteau en ressorte propre. Vérifiez après 50 minutes, si le gâteau devient trop foncé, couvrez-le légèrement de papier d'aluminium. Laisser refroidir sur une grille pendant 10 minutes, puis démouler et laisser refroidir. Servir légèrement tiède ou froid. Ce gâteau se conserve jusqu'à cinq jours dans un moule. Avant de servir, arrosez de sirop d'agave si vous aimez le sucré."
         ],
         "nutritional_info": {
             "kcal": "404",
@@ -975,29 +975,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/lebkuchen/",
-        "title": "[FR] Lebkuchen",
-        "description": "(Translation pending) A German biscuit similar to gingerbread, lebkuchen is easy to make and a great Christmas treat",
+        "title": "Pain d'épice",
+        "description": "Biscuit allemand semblable au pain d'épices, le lebkuchen est facile à préparer et constitue un excellent régal de Noël.",
         "prep_time": "15 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "30",
         "ingredients": [
-            "250g plain flour",
-            "85g ground almonds",
-            "2 tsp ground ginger",
-            "1 tsp ground cinnamon",
-            "½  tsp bicarbonate of soda",
-            "200ml clear honey",
-            "1 lemon, finely grated zest",
-            "85g butter",
-            "pinch each ground cloves, grated nutmeg and black pepper",
-            "1 tsp baking powder",
-            "100g icing sugar",
-            "1 egg white, beaten"
+            "250 g de farine nature",
+            "85g d'amandes moulues",
+            "2 cuillères à café de gingembre moulu",
+            "1 cuillère à café de cannelle moulue",
+            "½ cuillère à café de bicarbonate de soude",
+            "200 ml de miel clair",
+            "1 citron, le zeste finement râpé",
+            "85g de beurre",
+            "une pincée de clous de girofle moulus, de muscade râpée et de poivre noir",
+            "1 cuillère à café de levure chimique",
+            "100g de sucre glace",
+            "1 blanc d'oeuf battu"
         ],
         "method": [
-            "Tip the dry ingredients into a large bowl. Heat the honey and butter in a pan over a low heat until the butter melts, then pour into the flour mixture along with the lemon zest. Mix well until the dough is combined and fairly solid. Cover and leave to cool.",
-            "Heat oven to 180C/fan160C/gas 4. Using your hands, roll dough into about 30 balls, each 3cm wide, then flatten each one slightly into a disk. Divide the biscuits between two baking trays lined with baking parchment, leaving room for them to expand. Bake for 15 mins, then cool on a wire rack.",
-            "To ice the biscuits, mix together the icing sugar, egg white and 1-2 tbsp water to form a smooth, runny icing. Dip the top of each biscuit in the icing and spread with the back of a knife. Leave to dry out in a warm"
+            "Versez les ingrédients secs dans un grand bol. Faites chauffer le miel et le beurre dans une poêle à feu doux jusqu'à ce que le beurre soit fondu, puis versez-le dans le mélange de farine avec le zeste de citron. Bien mélanger jusqu'à ce que la pâte soit homogène et assez solide. Couvrir et laisser refroidir.",
+            "Chauffer le four à 180°C/ventilateur 160°C/gaz 4. À l'aide de vos mains, rouler la pâte en environ 30 boules de 3 cm de large chacune, puis aplatir légèrement chacune en un disque. Répartissez les biscuits sur deux plaques à pâtisserie recouvertes de papier sulfurisé en leur laissant de la place pour qu'ils gonflent. Cuire au four 15 minutes, puis laisser refroidir sur une grille.",
+            "Pour glacer les biscuits, mélangez le sucre glace, le blanc d'œuf et 1 à 2 cuillères à soupe d'eau pour former un glaçage lisse et coulant. Trempez le dessus de chaque biscuit dans le glaçage et étalez-le avec le dos d'un couteau. Laisser sécher au chaud"
         ],
         "nutritional_info": {
             "kcal": "102",
@@ -1014,29 +1014,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/sugarfree-lemon-drizzle-cake/",
-        "title": "[FR] Sugar-free lemon drizzle cake",
-        "description": "(Translation pending) Sweetened with all-natural xylitol, this sponge has a dense, syrupy texture and keeps well for a few days",
+        "title": "Gâteau au citron sans sucre",
+        "description": "Sucrée au xylitol entièrement naturel, cette génoise a une texture dense et sirupeuse et se conserve bien quelques jours",
         "prep_time": "10 mins Cook: 1 hrs 10 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "225g self-raising flour, sifted",
-            "½  tsp baking powder",
-            "225g xylitol (see tip below)",
-            "2 lemons, zest only",
-            "2 large eggs, at room temperature",
-            "125ml sunflower oil",
-            "1 tbsp milk",
-            "200g 0% fat Greek yogurt",
-            "1 lemon, juice only",
-            "50g xylitol"
+            "225 g de farine autolevante tamisée",
+            "½ cuillère à café de levure chimique",
+            "225g de xylitol (voir astuce ci-dessous)",
+            "2 citrons, le zeste seulement",
+            "2 gros œufs, à température ambiante",
+            "125 ml d'huile de tournesol",
+            "1 cuillère à soupe de lait",
+            "200 g de yaourt grec 0% de matière grasse",
+            "1 citron, jus seulement",
+            "50 g de xylitol"
         ],
         "method": [
-            "Preheat the oven to 180C/ 160C fan/ Gas 4. Grease and line a 1.2 litre loaf tin (22cm x 13cm width, 7cm depth) with baking parchment. Mix together the flour, baking powder, xylitol and lemon zest in a large bowl.",
-            "Mix the eggs, sunflower oil, milk and yoghurt together in a separate bowl or jug and stir them into the flour mixture.",
-            "Spoon into a tin and smooth the surface. Transfer to the oven immediately, bake on the middle shelf of the oven for 1 hour – 1 hour 10 mins. Check after 50 mins, if the cake is becoming too dark, cover loosely with foil.",
-            "Just before the end of cooking time, make the drizzle by heating the lemon juice and xylitol. Stir over a low heat until the xylitol has dissolved. Once the cake is cooked, take it out of the oven and pour over the drizzle.",
-            "Cool in the tin before turning it out."
+            "Préchauffer le four à 180°C/160°C chaleur tournante/gaz 4. Beurrer et tapisser un moule à cake de 1,2 litre (22 cm x 13 cm de largeur, 7 cm de profondeur) de papier sulfurisé. Mélangez la farine, la levure chimique, le xylitol et le zeste de citron dans un grand bol.",
+            "Mélangez les œufs, l'huile de tournesol, le lait et le yaourt dans un bol ou un pichet séparé et incorporez-les au mélange de farine.",
+            "Verser dans un moule et lisser la surface. Transférer immédiatement au four, cuire à mi-hauteur du four pendant 1 heure – 1 heure 10 minutes. Vérifiez après 50 minutes, si le gâteau devient trop foncé, couvrez-le légèrement de papier d'aluminium.",
+            "Juste avant la fin de la cuisson, réalisez le filet en faisant chauffer le jus de citron et le xylitol. Remuer à feu doux jusqu'à ce que le xylitol soit dissous. Une fois le gâteau cuit, sortez-le du four et versez-y le filet.",
+            "Laisser refroidir dans le moule avant de démouler."
         ],
         "nutritional_info": {
             "kcal": "280",
@@ -1053,25 +1053,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/bramble-marshmallows/",
-        "title": "[FR] Bramble marshmallows",
-        "description": "(Translation pending) Good Food reader Natasha Lee gives marshmallows a seasonal twist by adding blackberries, for a sweet, homemade gift",
+        "title": "Guimauves aux ronces",
+        "description": "Natasha Lee, lectrice de Good Food, donne aux guimauves une touche saisonnière en ajoutant des mûres, pour un cadeau sucré fait maison",
         "prep_time": "30 mins Cook: 40 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "50g icing sugar",
-            "50g cornflour",
-            "9 sheets gelatine",
-            "450g granulated sugar",
-            "1 tbsp liquid glucose (find it in the baking aisle)",
-            "2 large egg whites",
-            "1 tsp vanilla extract",
-            "140g blackberries"
+            "50g de sucre glace",
+            "50g de farine de maïs",
+            "9 feuilles de gélatine",
+            "450g de sucre semoule",
+            "1 cuillère à soupe de glucose liquide (à trouver au rayon pâtisserie)",
+            "2 gros blancs d'œufs",
+            "1 cuillère à café d'extrait de vanille",
+            "140g de mûres"
         ],
         "method": [
-            "In a bowl, mix the icing sugar\r\nwith the cornflour and set aside.\r\nDissolve the gelatine in 150ml\r\nhot water in a heatproof jug. Line\r\na 20cm x 30cm tin with baking\r\nparchment and dust with some\r\nof the icing sugar mix. Put the\r\ngranulated sugar and liquid glucose\r\nin a heavy-bottomed pan with\r\n200ml water. Cook over a low heat\r\nuntil the sugar has dissolved\r\ncompletely, turn up the heat and\r\nboil until the mixture reaches firm\r\nball stage on a sugar thermometer\r\n(125C/256F) – around 10-15 mins.\r\nIf you don’t have a thermometer,\r\ndrop a little of the mix into a glass\r\nof very cold water – if it sets into\r\na squidgy ball, it’s ready. While the\r\nsugar is boiling, use an electric\r\nwhisk to beat the egg whites until\r\nstiff. When the syrup reaches the\r\nright stage, pour it into the jug with\r\nthe gelatine water; be careful as it\r\nwill be very hot and may bubble up.",
-            "Continue whisking the egg\r\nwhites while pouring on the syrup\r\nin a steady stream, then adding\r\nthe vanilla extract – the mixture\r\nwill go shiny and start to thicken.\r\nContinue whisking for about\r\n10 mins until very stiff. Pour half\r\nthe egg white mixture into the tin,\r\nthen scatter over the berries. Top\r\nwith the remaining mixture and\r\nleave somewhere cool and dry\r\nto set for at least 2 hrs until firm.",
-            "Lay a large sheet of baking\r\nparchment on a chopping board\r\nand sprinkle on the remaining icing\r\nsugar mix. Turn the marshmallows\r\nout and cut into squares, rolling them\r\nin the sugar mix. Keep in an airtight\r\ncontainer but best eaten on the day."
+            "Dans un bol, mélangez le sucre glace\r\navec la maïzena et réserver.\r\nDissoudre la gélatine dans 150 ml\r\neau chaude dans une carafe résistante à la chaleur. Ligne\r\nun moule à pâtisserie de 20 cm x 30 cm\r\nparchemin et poussière avec un peu\r\ndu mélange de sucre glace. Mettez le\r\nsucre cristallisé et glucose liquide\r\ndans une poêle à fond épais avec\r\n200 ml d'eau. Cuire à feu doux\r\njusqu'à ce que le sucre soit dissous\r\ncomplètement, augmentez le feu et\r\nfaire bouillir jusqu'à ce que le mélange devienne ferme\r\nstade de boule sur un thermomètre à sucre\r\n(125C/256F) – environ 10-15 minutes.\r\nSi vous n'avez pas de thermomètre,\r\ndéposez un peu du mélange dans un verre\r\nd'eau très froide – s'il s'installe\r\nune boule squameuse, c'est prêt. Alors que le\r\nle sucre bout, utilisez un appareil électrique\r\nfouetter pour battre les blancs d'œufs jusqu'à ce que\r\nraide. Lorsque le sirop atteint le\r\nbonne étape, versez-le dans le pichet avec\r\nl'eau gélatine ; soyez prudent car\r\nsera très chaud et pourrait bouillonner.",
+            "Continuez à fouetter l'oeuf\r\nles blancs en versant le sirop\r\nen flux constant, puis en ajoutant\r\nl'extrait de vanille – le mélange\r\ndeviendra brillant et commencera à s’épaissir.\r\nContinuez à fouetter pendant environ\r\n10 minutes jusqu'à ce qu'il soit très ferme. Versez la moitié\r\nle mélange de blancs d'œufs dans le moule,\r\npuis répartissez sur les baies. Haut\r\navec le reste du mélange et\r\nlaisser dans un endroit frais et sec\r\nlaisser reposer pendant au moins 2 heures jusqu'à ce qu'il soit ferme.",
+            "Étalez une grande plaque à pâtisserie\r\nparchemin sur une planche à découper\r\net saupoudrer du reste de glaçage\r\nmélange de sucre. Retournez les guimauves\r\net coupez-les en carrés, en les roulant\r\ndans le mélange de sucre. Conserver dans une boîte hermétique\r\nrécipient mais il est préférable de le manger dans la journée."
         ],
         "nutritional_info": {
             "kcal": "46",
@@ -1088,22 +1088,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chocolate-and-berry-mousse-pots/",
-        "title": "[FR] Chocolate & berry mousse pots",
-        "description": "(Translation pending) Dessert doesn't have to be devilish as this good-for-you pud proves",
+        "title": "Pots de mousse au chocolat et aux baies",
+        "description": "Le dessert n'a pas besoin d'être diabolique, comme le prouve ce pud bon pour la santé.",
         "prep_time": "15 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "75g dark chocolate 70% grated",
-            "4 tbsp low-fat yogurt",
-            "2 large egg whites",
-            "2 tsp caster sugar",
-            "350g berries (try blueberries, raspberries, cherries or a mix)"
+            "75g de chocolat noir 70% râpé",
+            "4 cuillères à soupe de yaourt allégé",
+            "2 gros blancs d'œufs",
+            "2 cuillères à café de sucre en poudre",
+            "350 g de baies (essayez les myrtilles, les framboises, les cerises ou un mélange)"
         ],
         "method": [
-            "Melt the chocolate in a heatproof\r\nbowl over a pan of simmering\r\nwater, making sure the bowl\r\ndoesn’t directly touch the water.\r\nOnce melted, allow it to cool for\r\n5-10 mins, then stir in the yogurt.",
-            "Whisk the egg whites until stiff,\r\nthen whisk in the sugar and beat\r\nuntil stiff again. Fold the whites into\r\nthe chocolate mix – loosen the\r\nmixture first with a spoonful of egg\r\nwhite, then carefully fold in the rest,\r\nkeeping as much air as possible.",
-            "Put berries into small glasses\r\nor ramekins, then divide mousse\r\non top. Chill in the fridge until set."
+            "Faire fondre le chocolat dans un récipient résistant à la chaleur\r\nbol sur une casserole de cuisson\r\nl'eau, en s'assurant que le bol\r\nne touche pas directement l’eau.\r\nUne fois fondu, laissez-le refroidir pendant\r\n5 à 10 minutes, puis incorporez le yaourt.",
+            "Battre les blancs d'œufs en neige ferme,\r\npuis incorporer le sucre et battre\r\njusqu'à ce qu'il soit à nouveau raide. Pliez les blancs en\r\nle mélange de chocolat – desserrez le\r\nmélanger d'abord avec une cuillerée d'oeuf\r\nblanc, puis incorporez délicatement le reste,\r\nen gardant le plus d'air possible.",
+            "Mettez les baies dans des petits verres\r\nou des ramequins, puis répartissez la mousse\r\nen haut. Réfrigérer au réfrigérateur jusqu'à ce que le tout soit pris."
         ],
         "nutritional_info": {
             "kcal": "159",
@@ -1120,25 +1120,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/fruity-teacake/",
-        "title": "[FR] Fruity teacake",
-        "description": "(Translation pending) Perfect with a reviving cuppa, this cakeis a keeper and will happily sit in a tinfor a week or so",
+        "title": "Gâteau au thé fruité",
+        "description": "Parfait avec une tasse de thé revigorante, ce gâteau se conserve et restera volontiers dans une boîte pendant environ une semaine.",
         "prep_time": "15 mins Cook: 1 hrs Plus soaking",
         "cook_time": "",
         "serves": "12",
         "ingredients": [
-            "300g mixture dried berries and cherries",
-            "225ml hot tea",
-            "juice 1 orange (about 75ml/2½fl oz) plus zest",
-            "50g butter",
-            "100g light brown sugar",
-            "1 egg",
-            "225g self-raising flour",
-            "4 tbsp demerara sugar"
+            "300 g de mélange de baies et cerises séchées",
+            "225 ml de thé chaud",
+            "jus 1 orange (environ 75 ml/2½fl oz) plus le zeste",
+            "50g de beurre",
+            "100 g de sucre roux clair",
+            "1 oeuf",
+            "225 g de farine autolevante",
+            "4 cuillères à soupe de sucre demerara"
         ],
         "method": [
-            "Place the dried fruits in a bowl and\r\npour over the hot tea, orange juice and\r\nzest. Cover with cling film, then leave for\r\nat least 4 hrs or better still overnight.",
-            "Heat oven to 180C/160C fan/gas 4.\r\nGrease and line the base of a 2lb loaf tin.\r\nBeat together the butter and sugar until\r\ncreamy, then beat in the egg followed by\r\nthe flour. Carefully stir through the fruit\r\nmixture. Spoon the mixture into the tin,\r\nthen smooth over the surface with the\r\nback of a spoon. Sprinkle all over with a\r\nthick layer of demerara sugar.",
-            "Bake for 1 hr or until a skewer inserted\r\ninto the centre comes out clean. Leave to\r\ncool in the tin, then turn out, cut into\r\nslices and serve."
+            "Mettez les fruits secs dans un bol et\r\nverser dessus le thé chaud, le jus d'orange et\r\nzeste. Couvrir d'un film alimentaire, puis laisser reposer\r\nau moins 4 heures ou mieux encore toute la nuit.",
+            "Chauffer le four à 180C/160C ventilateur/gaz 4.\r\nBeurrer et tapisser le fond d'un moule à pain de 2 lb.\r\nBattre ensemble le beurre et le sucre jusqu'à ce que\r\ncrémeux, puis incorporer l'œuf suivi de\r\nla farine. Incorporer délicatement les fruits\r\nmélange. Versez le mélange dans le moule,\r\npuis lisser la surface avec le\r\ndos d'une cuillère. Saupoudrer le tout d'un\r\népaisse couche de sucre demerara.",
+            "Cuire au four pendant 1 heure ou jusqu'à ce qu'un cure-dent soit inséré\r\nau centre en ressort propre. Laisser à\r\nlaisser refroidir dans le moule, puis démouler, couper en\r\ntranches et servir."
         ],
         "nutritional_info": {
             "kcal": "231",
@@ -1155,25 +1155,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/banana-and-blueberry-muffins/",
-        "title": "[FR] Banana & blueberry muffins",
-        "description": "(Translation pending) A low-fat muffin that tastes as good as it looks – they’ll keep in an airtight container for up to 3 days, or freeze for up to a month",
+        "title": "Muffins bananes et myrtilles",
+        "description": "Un muffin faible en gras qui a aussi bon goût qu'il en a l'air – ils se conservent dans un contenant hermétique jusqu'à 3 jours ou se congèlent jusqu'à un mois",
         "prep_time": "10 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "12",
         "ingredients": [
-            "300g self-raising flour",
-            "1 tsp bicarbonate of soda",
-            "100g light muscovado sugar",
-            "50g porridge oats, plus 1 tbsp for topping",
-            "2 medium bananas, the riper the better",
-            "284ml carton buttermilk",
-            "5 tbsp light olive oil",
-            "2 egg whites",
-            "150g punnet blueberries"
+            "300 g de farine autolevante",
+            "1 cuillère à café de bicarbonate de soude",
+            "100 g de sucre muscovado léger",
+            "50 g de flocons d'avoine, plus 1 cuillère à soupe pour la garniture",
+            "2 bananes moyennes, plus elles sont mûres, mieux c'est",
+            "284 ml de babeurre en carton",
+            "5 cuillères à soupe d'huile d'olive légère",
+            "2 blancs d'œufs",
+            "150 g de barquette de myrtilles"
         ],
         "method": [
-            "Heat oven to 180C/fan 160C/gas 4 and line a 12-hole muffin tin with paper muffin cases. Tip the flour and bicarbonate of soda into a large bowl. Hold back 1 tbsp of the sugar, then mix the remainder with the flour and 50g oats. Make a well in the centre. In a separate bowl, mash the bananas until nearly smooth. Stir the buttermilk, oil and egg whites into the mashed banana until evenly combined.",
-            "Pour the liquid mixture into the well and stir quickly and sparingly with a wooden spoon. The mix will look lumpy and may have the odd fleck of flour still visible, but don’t be tempted to over-mix. Tip in the blueberries and give it just one more stir. Divide the mix between the muffin cases – they will be quite full – then sprinkle the tops with the final tbsp of the oats and the rest of he sugar. Bake for 18-20 mins until risen and dark golden. Cool for 5 mins in the tray before lifting out onto a rack to cool completely."
+            "Chauffer le four à 180°C/chaleur tournante 160°/gaz 4 et tapisser un moule à muffins 12 trous de caissettes à muffins en papier. Versez la farine et le bicarbonate de soude dans un grand bol. Retenez 1 cuillère à soupe de sucre, puis mélangez le reste avec la farine et 50 g de flocons d'avoine. Faites un puits au centre. Dans un autre bol, écrasez les bananes jusqu'à ce qu'elles soient presque lisses. Incorporer le babeurre, l'huile et les blancs d'œufs dans la purée de banane jusqu'à ce que le tout soit homogène.",
+            "Versez le mélange liquide dans le puits et remuez rapidement et avec parcimonie avec une cuillère en bois. Le mélange aura l’air grumeleux et peut avoir quelques taches de farine encore visibles, mais ne soyez pas tenté de trop mélanger. Ajoutez les myrtilles et remuez encore une fois. Répartissez le mélange dans les moules à muffins – ils seront bien remplis – puis saupoudrez le dessus avec la dernière cuillère à soupe de flocons d'avoine et le reste de sucre. Cuire au four pendant 18 à 20 minutes jusqu'à ce qu'ils soient levés et dorés foncés. Laisser refroidir 5 minutes dans la plaque avant de la déposer sur une grille pour qu'elle refroidisse complètement."
         ],
         "nutritional_info": {
             "kcal": "202",
@@ -1190,27 +1190,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/date-banana-and-rum-loaf/",
-        "title": "[FR] Date, banana & rum loaf",
-        "description": "(Translation pending) A tasty cake with no added fat or sugar – try it to believe it. Plus it’s easily made gluten-free",
+        "title": "Pain aux dattes, bananes et rhum",
+        "description": "Un gâteau savoureux sans matières grasses ni sucre ajoutés – essayez-le, croyez-le. De plus, il est facile à préparer sans gluten",
         "prep_time": "15 mins Cook: 1 hrs",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "250g pack stoned, ready-to-eat dates",
-            "2 small or 1 large bananas (140g/5oz in weight)",
-            "100g pecans, 85g/3oz roughly chopped, rest left whole",
+            "Paquet de 250 g de dattes dénoyautées et prêtes à manger",
+            "2 petites ou 1 grosse banane (140 g/5 oz)",
+            "100 g de noix de pécan, 85 g/3 oz hachées grossièrement, le reste entier",
             "200g raisins",
-            "200g sultanas",
-            "100g fine polenta",
-            "2 tsp mixed spice",
-            "2 tsp baking powder (use gluten-free if needed)",
-            "3 tbsp dark rum",
-            "2 egg whites",
-            "a few banana chips and 1 tsp sugar (optional), to decorate"
+            "200 g de raisins secs",
+            "100 g de polenta fine",
+            "2 cuillères à café d'épices mélangées",
+            "2 cuillères à café de levure chimique (utiliser sans gluten si nécessaire)",
+            "3 cuillères à soupe de rhum brun",
+            "2 blancs d'œufs",
+            "quelques chips de banane et 1 cuillère à café de sucre (facultatif), pour décorer"
         ],
         "method": [
-            "Heat oven to 180C/fan 160C/gas 4. Line\r\na 900g/2lb loaf tin with non-stick baking\r\npaper, using a little oil to make it stick. Put\r\nthe dates into a small pan with 200ml\r\nboiling water and simmer for 5 mins. Drain\r\nthe liquid into a jug, then put the dates into a\r\nfood processor. Add the bananas and 100ml\r\nof the date liquid and whizz until smooth.\r\nMix the nuts, dried fruit, polenta, spice and\r\nbaking powder in a bowl, then add the date\r\npurée and rum, and stir until combined.",
-            "Whisk the egg whites to soft peaks and\r\nfold into the cake mix. Tip into the tin (it will\r\nbe quite full), then top with the remaining\r\npecans and the banana chips and sugar,\r\nif using. Bake for 1 hr until golden and\r\ncrusty and a skewer comes out clean.\r\nCool completely before cutting into slices."
+            "Chauffer le four à 180C/ventilateur 160C/gaz 4. Ligne\r\nun moule à cake de 900 g avec cuisson antiadhésive\r\npapier, en utilisant un peu d'huile pour le faire coller. Mettre\r\nles dattes dans une petite casserole avec 200ml\r\neau bouillante et laisser mijoter 5 minutes. Vidanger\r\nle liquide dans un pichet, puis mettez les dattes dans un\r\nrobot culinaire. Ajouter les bananes et 100 ml\r\nà soupe de datte liquide et fouetter jusqu'à consistance lisse.\r\nMélangez les noix, les fruits secs, la polenta, les épices et\r\nla levure chimique dans un bol, puis ajoutez la datte\r\nréduire en purée et le rhum, et remuer jusqu'à ce que le tout soit bien mélangé.",
+            "Montez les blancs d'oeufs en neige ferme et\r\nincorporer au mélange à gâteau. Versez dans le moule (cela\r\nêtre bien rempli), puis compléter avec le reste\r\nles noix de pécan et les chips de banane et le sucre,\r\nsi vous l'utilisez. Cuire au four pendant 1 heure jusqu'à ce qu'il soit doré et\r\ncroustillant et une brochette en ressort propre.\r\nLaisser refroidir complètement avant de couper en tranches."
         ],
         "nutritional_info": {
             "kcal": "310",
@@ -1226,26 +1226,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/peach-and-almond-muffins/",
-        "title": "[FR] Peach & almond muffins",
-        "description": "(Translation pending) These delicious low fat treats are perfect for a summer treat and can be served warm or cold",
+        "title": "Muffins aux pêches et aux amandes",
+        "description": "Ces délicieuses friandises faibles en gras sont parfaites pour une gâterie estivale et peuvent être servies chaudes ou froides.",
         "prep_time": "",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "3 large eggs",
-            "100g golden caster sugar, plus a little extra for sprinkling",
-            "few drops of almond extract",
-            "25g butter, melted",
-            "100g self-raising flour",
-            "25g ground almonds",
-            "2 small peaches",
-            "2 tsp peach conserve or apricot jam",
-            "1 tbsp flaked almonds",
-            "half-fat crème fraîche, to serve"
+            "3 gros œufs",
+            "100 g de sucre en poudre doré, plus un peu pour saupoudrer",
+            "quelques gouttes d'extrait d'amande",
+            "25 g de beurre fondu",
+            "100 g de farine autolevante",
+            "25g d'amandes moulues",
+            "2 petites pêches",
+            "2 cuillères à café de confiture de pêches ou de confiture d'abricots",
+            "1 cuillère à soupe d'amandes effilées",
+            "crème fraîche demi-écrémée, pour servir"
         ],
         "method": [
-            "Preheat oven to 220C/fan 200C/gas 7. In a large bowl, use a hand whisk to mix the eggs, sugar and almond extract together for a minute until foamy. Pour in the melted butter and continue to beat until combined. Gently fold in the flour, ground almonds and a pinch of salt.",
-            "Halve, stone and slice the peaches. Divide muffin mixture between 6 holes of a non-stick muffin tin. Top each with a blob of conserve or jam and arrange a few slices of peach on top. Scatter over the almonds and a little extra sugar, then bake for 20-25 mins until puffed up and golden. Serve warm with a spoonful of half-fat crème fraîche, or leave to cool. Best eaten the day they’re made or frozen whilst still slightly warm for up to 1 month."
+            "Préchauffer le four à 220°C/ventilateur 200°C/gaz 7. Dans un grand bol, utilisez un fouet à main pour mélanger les œufs, le sucre et l'extrait d'amande pendant une minute jusqu'à obtenir une mousse. Versez le beurre fondu et continuez de battre jusqu'à ce que le tout soit bien mélangé. Incorporez délicatement la farine, la poudre d'amandes et une pincée de sel.",
+            "Coupez les pêches en deux, dénoyautez et tranchez-les en tranches. Répartir le mélange à muffins entre les 6 trous d'un moule à muffins antiadhésif. Garnir chacun d’une goutte de confiture ou de confiture et disposer dessus quelques tranches de pêche. Répartissez les amandes et un peu de sucre supplémentaire, puis faites cuire au four pendant 20 à 25 minutes jusqu'à ce qu'elles soient gonflées et dorées. Servir tiède avec une cuillerée de crème fraîche demi-élevée, ou laisser refroidir. Il est préférable de les consommer le jour même de leur préparation ou de les congeler, encore légèrement chauds, jusqu'à 1 mois."
         ],
         "nutritional_info": {
             "kcal": "245",

@@ -2,6 +2,7 @@
 
 import { useState, useEffect, lazy, Suspense } from 'react';
 import { useUser } from '@/contexts/UserContext';
+import { useTranslations } from 'next-intl';
 import {
     Utensils, Calendar, ChevronLeft, ChevronRight, Flame,
     Dumbbell, Wheat, Droplet, Bone, Zap, Banana, Leaf as Salt,
@@ -66,6 +67,9 @@ interface ScannedFood {
 
 export default function MacrosPage() {
     const { theme, settings } = useUser();
+    const t = useTranslations('macros');
+    const tDash = useTranslations('dashboard');
+    const tCommon = useTranslations('common');
     const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split('T')[0]);
     const [logItems, setLogItems] = useState<LogItem[]>([]);
     const [searchQuery, setSearchQuery] = useState('');
@@ -308,15 +312,15 @@ export default function MacrosPage() {
     return (
         <div className="animate-fade-in">
             <div className="mb-8">
-                <h1 className="page-title flex items-center gap-3"><Utensils className="w-8 h-8 text-[var(--accent-primary)]" /> Track Your Macros</h1>
-                <p className="page-subtitle">Log what you eat and track your daily progress.</p>
+                <h1 className="page-title flex items-center gap-3"><Utensils className="w-8 h-8 text-[var(--accent-primary)]" /> {t('title')}</h1>
+                <p className="page-subtitle">{t('subtitle')}</p>
             </div>
 
             {/* Date Selector */}
             <div className="card mb-6">
                 <div className="flex items-center gap-4 flex-wrap">
                     <div>
-                        <label className="form-label">Select Date</label>
+                        <label className="form-label">{t('selectDate')}</label>
                         <input
                             type="date"
                             className="form-input"
@@ -333,13 +337,13 @@ export default function MacrosPage() {
                                 setSelectedDate(d.toISOString().split('T')[0]);
                             }}
                         >
-                            <ChevronLeft className="w-4 h-4" /> Previous
+                            <ChevronLeft className="w-4 h-4" /> {t('previous')}
                         </button>
                         <button
                             className="btn-secondary"
                             onClick={() => setSelectedDate(new Date().toISOString().split('T')[0])}
                         >
-                            Today
+                            {tCommon('today')}
                         </button>
                         <button
                             className="btn-secondary"
@@ -349,7 +353,7 @@ export default function MacrosPage() {
                                 setSelectedDate(d.toISOString().split('T')[0]);
                             }}
                         >
-                            Next <ChevronRight className="w-4 h-4" />
+                            {t('next')} <ChevronRight className="w-4 h-4" />
                         </button>
                     </div>
                 </div>
@@ -360,7 +364,7 @@ export default function MacrosPage() {
                 <div className="stat-card">
                     <div className="text-4xl mb-2 flex justify-center"><Flame className="w-8 h-8 text-[var(--calories)]" /></div>
                     <div className="stat-value">{Math.round(totals.calories)}</div>
-                    <div className="stat-label">Calories</div>
+                    <div className="stat-label">{t('calories')}</div>
                     <div className="progress-bar">
                         <div
                             className="progress-fill"
@@ -371,13 +375,13 @@ export default function MacrosPage() {
                         />
                     </div>
                     <div className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>
-                        {targets.calories - Math.round(totals.calories)} remaining
+                        {targets.calories - Math.round(totals.calories)} {t('remaining')}
                     </div>
                 </div>
                 <div className="stat-card">
                     <div className="text-4xl mb-2 flex justify-center"><Dumbbell className="w-8 h-8 text-[var(--protein)]" /></div>
                     <div className="stat-value">{Math.round(totals.protein)}g</div>
-                    <div className="stat-label">Protein</div>
+                    <div className="stat-label">{t('protein')}</div>
                     <div className="progress-bar">
                         <div
                             className="progress-fill"
@@ -391,7 +395,7 @@ export default function MacrosPage() {
                 <div className="stat-card">
                     <div className="text-4xl mb-2 flex justify-center"><Wheat className="w-8 h-8 text-[var(--carbs)]" /></div>
                     <div className="stat-value">{Math.round(totals.carbs)}g</div>
-                    <div className="stat-label">Carbs</div>
+                    <div className="stat-label">{t('carbs')}</div>
                     <div className="progress-bar">
                         <div
                             className="progress-fill"
@@ -405,7 +409,7 @@ export default function MacrosPage() {
                 <div className="stat-card">
                     <div className="text-4xl mb-2 flex justify-center"><Droplet className="w-8 h-8 text-[var(--fat)]" /></div>
                     <div className="stat-value">{Math.round(totals.fat)}g</div>
-                    <div className="stat-label">Fat</div>
+                    <div className="stat-label">{t('fat')}</div>
                     <div className="progress-bar">
                         <div
                             className="progress-fill"
@@ -420,37 +424,37 @@ export default function MacrosPage() {
 
             {/* Minerals */}
             <div className="card mb-6">
-                <h3 className="font-semibold mb-4 flex items-center gap-2"><Zap className="w-5 h-5 text-yellow-400" /> Micronutrients</h3>
+                <h3 className="font-semibold mb-4 flex items-center gap-2"><Zap className="w-5 h-5 text-yellow-400" /> {t('micronutrients')}</h3>
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
                     <div className="text-center p-2 rounded bg-gray-800/50">
                         <div className="text-xl flex justify-center mb-1"><Bone className="w-6 h-6 text-white" /></div>
                         <div className="font-bold text-lg">{Math.round(totals.minerals.calcium)}mg</div>
-                        <div className="text-xs text-gray-400">Calcium</div>
+                        <div className="text-xs text-gray-400">{t('calcium')}</div>
                     </div>
                     <div className="text-center p-2 rounded bg-gray-800/50">
                         <div className="text-xl flex justify-center mb-1"><Droplet className="w-6 h-6 text-red-500" /></div>
                         <div className="font-bold text-lg">{totals.minerals.iron.toFixed(1)}mg</div>
-                        <div className="text-xs text-gray-400">Iron</div>
+                        <div className="text-xs text-gray-400">{t('iron')}</div>
                     </div>
                     <div className="text-center p-2 rounded bg-gray-800/50">
                         <div className="text-xl flex justify-center mb-1"><Zap className="w-6 h-6 text-yellow-500" /></div>
                         <div className="font-bold text-lg">{Math.round(totals.minerals.magnesium)}mg</div>
-                        <div className="text-xs text-gray-400">Magnesium</div>
+                        <div className="text-xs text-gray-400">{t('magnesium')}</div>
                     </div>
                     <div className="text-center p-2 rounded bg-gray-800/50">
                         <div className="text-xl flex justify-center mb-1"><Banana className="w-6 h-6 text-yellow-300" /></div>
                         <div className="font-bold text-lg">{Math.round(totals.minerals.potassium)}mg</div>
-                        <div className="text-xs text-gray-400">Potassium</div>
+                        <div className="text-xs text-gray-400">{t('potassium')}</div>
                     </div>
                     <div className="text-center p-2 rounded bg-gray-800/50">
                         <div className="text-xl flex justify-center mb-1"><Salt className="w-6 h-6 text-white" /></div>
                         <div className="font-bold text-lg">{Math.round(totals.minerals.sodium)}mg</div>
-                        <div className="text-xs text-gray-400">Sodium</div>
+                        <div className="text-xs text-gray-400">{t('sodium')}</div>
                     </div>
                     <div className="text-center p-2 rounded bg-gray-800/50">
                         <div className="text-xl flex justify-center mb-1"><Shield className="w-6 h-6 text-gray-400" /></div>
                         <div className="font-bold text-lg">{totals.minerals.zinc.toFixed(1)}mg</div>
-                        <div className="text-xs text-gray-400">Zinc</div>
+                        <div className="text-xs text-gray-400">{t('zinc')}</div>
                     </div>
                 </div>
             </div>
@@ -459,23 +463,23 @@ export default function MacrosPage() {
                 {/* Add Food Form */}
                 <div className="card">
                     <div className="flex items-center justify-between mb-4">
-                        <h3 className="font-semibold">Add Food</h3>
+                        <h3 className="font-semibold">{t('addFood')}</h3>
                         <button
                             onClick={() => setShowScanner(true)}
                             className="btn-primary text-sm flex items-center gap-2"
                         >
-                            <Camera className="w-4 h-4" /> Scan Barcode
+                            <Camera className="w-4 h-4" /> {t('scanBarcode')}
                         </button>
                     </div>
 
                     <div className="space-y-4">
                         {/* Search */}
                         <div className="relative">
-                            <label className="form-label">Search Food</label>
+                            <label className="form-label">{t('searchFood')}</label>
                             <input
                                 type="text"
                                 className="form-input"
-                                placeholder="Search chicken, rice, eggs..."
+                                placeholder={t('searchFood_placeholder')}
                                 value={searchQuery}
                                 onChange={(e) => {
                                     setSearchQuery(e.target.value);
@@ -485,7 +489,7 @@ export default function MacrosPage() {
 
                             {searchResults.length > 0 && !selectedFood && (
                                 <div className="absolute top-full left-0 right-0 mt-1 bg-gray-900 border border-gray-700 rounded-lg max-h-60 overflow-y-auto z-10 shadow-xl">
-                                    {isSearching && <div className="p-2 text-sm text-gray-500">Searching...</div>}
+                                    {isSearching && <div className="p-2 text-sm text-gray-500">{t('searching')}</div>}
                                     {searchResults.map((food) => (
                                         <button
                                             key={food.id}

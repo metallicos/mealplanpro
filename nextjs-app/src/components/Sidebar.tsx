@@ -154,21 +154,30 @@ export default function Sidebar() {
                         <div className="flex gap-1 p-1 rounded-lg" style={{ background: 'rgba(255,255,255,0.05)' }}>
                             <button
                                 onClick={() => switchLanguage('en')}
-                                className={`flex-1 py-1.5 px-2 text-xs rounded transition-all flex items-center justify-center gap-1 ${currentLocale === 'en'
+                                className={`flex-1 py-2 px-1 text-xs font-medium rounded transition-all ${currentLocale === 'en'
                                     ? 'bg-emerald-600 text-white'
-                                    : 'text-gray-400 hover:text-white'
+                                    : 'text-gray-400 hover:text-white hover:bg-white/10'
                                     }`}
                             >
-                                <Globe size={12} /> {tLang('en')}
+                                EN
                             </button>
                             <button
                                 onClick={() => switchLanguage('fr')}
-                                className={`flex-1 py-1.5 px-2 text-xs rounded transition-all flex items-center justify-center gap-1 ${currentLocale === 'fr'
+                                className={`flex-1 py-2 px-1 text-xs font-medium rounded transition-all ${currentLocale === 'fr'
                                     ? 'bg-emerald-600 text-white'
-                                    : 'text-gray-400 hover:text-white'
+                                    : 'text-gray-400 hover:text-white hover:bg-white/10'
                                     }`}
                             >
-                                <Globe size={12} /> {tLang('fr')}
+                                FR
+                            </button>
+                            <button
+                                onClick={() => switchLanguage('es')}
+                                className={`flex-1 py-2 px-1 text-xs font-medium rounded transition-all ${currentLocale === 'es'
+                                    ? 'bg-emerald-600 text-white'
+                                    : 'text-gray-400 hover:text-white hover:bg-white/10'
+                                    }`}
+                            >
+                                ES
                             </button>
                         </div>
                     </div>

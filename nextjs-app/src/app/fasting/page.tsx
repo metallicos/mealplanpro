@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 import {
     Timer, Clock, Zap, Heart, Brain, Sparkles,
     ChevronRight, Play, Pause, RotateCcw, Info,
@@ -79,6 +80,7 @@ const STAGES = [
 ];
 
 export default function FastingPage() {
+    const t = useTranslations('fasting');
     const [activeTab, setActiveTab] = useState<'timer' | 'protocols' | 'history'>('timer');
     const [selectedProtocol, setSelectedProtocol] = useState(PROTOCOLS[1]); // 16:8 default
     const [isFasting, setIsFasting] = useState(false);
@@ -185,10 +187,10 @@ export default function FastingPage() {
                 <div className="relative z-10">
                     <h1 className="text-3xl md:text-4xl font-bold mb-2 flex items-center gap-3">
                         <Timer className="w-8 h-8 text-purple-400" />
-                        Fasting Hub
+                        {t('title')}
                     </h1>
                     <p className="text-gray-400 max-w-2xl">
-                        Unlock the power of intermittent fasting. Track your progress, understand the science, and achieve your health goals.
+                        {t('subtitle')}
                     </p>
                 </div>
             </div>
@@ -297,14 +299,14 @@ export default function FastingPage() {
                                     onClick={handleEndFast}
                                     className="flex items-center gap-2 px-8 py-3 bg-red-500/20 hover:bg-red-500/30 text-red-300 rounded-xl font-medium transition-all border border-red-500/30"
                                 >
-                                    <Pause size={20} /> End Fast
+                                    <Pause size={20} /> {t('endFast')}
                                 </button>
                             ) : (
                                 <button
                                     onClick={handleStartFast}
                                     className="flex items-center gap-2 px-8 py-3 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl font-medium transition-all shadow-lg shadow-emerald-500/25"
                                 >
-                                    <Play size={20} /> Start Fast
+                                    <Play size={20} /> {t('startFast')}
                                 </button>
                             )}
                         </div>

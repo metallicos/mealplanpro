@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { useTranslations } from 'next-intl';
 import { Heart, Zap, Sun, Moon, Activity, Dumbbell, Sparkles, ChevronRight } from 'lucide-react';
 
 interface CoachPlan {
@@ -14,6 +15,7 @@ interface CoachPlan {
 }
 
 export default function CoachPage() {
+    const t = useTranslations('coach');
     const [step, setStep] = useState<'loading' | 'checkin' | 'generating' | 'result'>('loading');
     const [sleep, setSleep] = useState(7);
     const [mood, setMood] = useState(7);
@@ -77,23 +79,23 @@ export default function CoachPage() {
                 <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-emerald-600/20 via-transparent to-transparent"></div>
                 <div className="relative z-10">
                     <h1 className="text-3xl md:text-4xl font-bold mb-2 flex items-center gap-3">
-                        <Heart className="w-8 h-8 text-emerald-400" /> Personal Coach
+                        <Heart className="w-8 h-8 text-emerald-400" /> {t('title')}
                     </h1>
-                    <p className="text-emerald-200/80">Your AI-powered fitness companion. Get personalized workout plans based on how you feel today.</p>
+                    <p className="text-emerald-200/80">{t('subtitle')}</p>
                 </div>
             </div>
 
             {step === 'checkin' && (
                 <div className="card bg-gradient-to-br from-slate-900/80 to-slate-800/50 border border-white/5">
                     <h2 className="text-xl font-bold mb-6 flex items-center gap-2">
-                        <Sparkles className="w-5 h-5 text-emerald-400" /> How are you feeling today?
+                        <Sparkles className="w-5 h-5 text-emerald-400" /> {t('howAreYouFeeling')}
                     </h2>
 
                     <div className="space-y-6">
                         {/* Sleep */}
                         <div>
                             <label className="flex items-center gap-2 text-sm font-medium text-gray-300 mb-3">
-                                <Moon className="w-4 h-4 text-indigo-400" /> Last Night's Sleep ({sleep}h)
+                                <Moon className="w-4 h-4 text-indigo-400" /> {t('sleep')} ({sleep}h)
                             </label>
                             <input
                                 type="range"
@@ -113,7 +115,7 @@ export default function CoachPage() {
                         {/* Mood */}
                         <div>
                             <label className="flex items-center gap-2 text-sm font-medium text-gray-300 mb-3">
-                                <Sun className="w-4 h-4 text-yellow-400" /> Mood ({mood}/10)
+                                <Sun className="w-4 h-4 text-yellow-400" /> {t('mood')} ({mood}/10)
                             </label>
                             <input
                                 type="range"
@@ -128,7 +130,7 @@ export default function CoachPage() {
                         {/* Energy */}
                         <div>
                             <label className="flex items-center gap-2 text-sm font-medium text-gray-300 mb-3">
-                                <Zap className="w-4 h-4 text-orange-400" /> Energy Level ({energy}/10)
+                                <Zap className="w-4 h-4 text-orange-400" /> {t('energy')} ({energy}/10)
                             </label>
                             <input
                                 type="range"
@@ -142,7 +144,7 @@ export default function CoachPage() {
 
                         {/* Notes */}
                         <div>
-                            <label className="text-sm font-medium text-gray-300 mb-2 block">Any notes? (optional)</label>
+                            <label className="text-sm font-medium text-gray-300 mb-2 block">{t('notes')}</label>
                             <textarea
                                 value={notes}
                                 onChange={(e) => setNotes(e.target.value)}
@@ -156,7 +158,7 @@ export default function CoachPage() {
                             onClick={handleGenerate}
                             className="w-full py-4 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white rounded-xl font-bold text-lg shadow-lg shadow-emerald-500/25 transition-all flex items-center justify-center gap-2"
                         >
-                            <Sparkles className="w-5 h-5" /> Generate Today's Plan
+                            <Sparkles className="w-5 h-5" /> {t('generatePlan')}
                         </button>
                     </div>
                 </div>
@@ -169,7 +171,7 @@ export default function CoachPage() {
                         <div className="absolute inset-0 rounded-full border-4 border-t-emerald-500 animate-spin"></div>
                         <Heart className="absolute inset-0 m-auto w-10 h-10 text-emerald-400" />
                     </div>
-                    <h3 className="text-xl font-bold text-white mb-2">Analyzing Your Status...</h3>
+                    <h3 className="text-xl font-bold text-white mb-2">{t('analyzing')}</h3>
                     <p className="text-gray-400">Preparing your personalized plan</p>
                 </div>
             )}
@@ -179,7 +181,7 @@ export default function CoachPage() {
                     {/* Motivation */}
                     <div className="card bg-gradient-to-br from-emerald-900/30 to-teal-900/30 border border-emerald-500/20">
                         <h3 className="text-lg font-bold text-emerald-300 mb-3 flex items-center gap-2">
-                            <Heart className="w-5 h-5" /> Today's Motivation
+                            <Heart className="w-5 h-5" /> {t('todaysMotivation')}
                         </h3>
                         <p className="text-white/90 text-lg italic leading-relaxed">"{plan.motivation}"</p>
                         <p className="text-emerald-400 text-sm mt-3 text-right">— Your Coach</p>
@@ -188,7 +190,7 @@ export default function CoachPage() {
                     {/* Recommendation */}
                     <div className="card bg-gradient-to-br from-amber-900/20 to-orange-900/20 border border-amber-500/20">
                         <h3 className="text-lg font-bold text-amber-300 mb-2 flex items-center gap-2">
-                            <Zap className="w-5 h-5" /> Today's Recommendation
+                            <Zap className="w-5 h-5" /> {t('todaysRecommendation')}
                         </h3>
                         <p className="text-white/80">{plan.recommendation}</p>
                     </div>
@@ -196,7 +198,7 @@ export default function CoachPage() {
                     {/* Workouts */}
                     <div className="card">
                         <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
-                            <Dumbbell className="w-5 h-5 text-blue-400" /> Workout Options
+                            <Dumbbell className="w-5 h-5 text-blue-400" /> {t('workoutOptions')}
                         </h3>
                         <div className="grid gap-4">
                             {plan.workouts.map((workout, idx) => (
@@ -229,7 +231,7 @@ export default function CoachPage() {
                         onClick={() => setStep('checkin')}
                         className="w-full py-3 bg-white/5 hover:bg-white/10 text-white rounded-xl font-medium transition-all border border-white/10"
                     >
-                        Generate New Plan
+                        {t('generateNewPlan')}
                     </button>
                 </div>
             )}
