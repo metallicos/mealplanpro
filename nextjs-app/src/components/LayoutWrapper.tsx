@@ -13,7 +13,7 @@ export default function LayoutWrapper({ children }: { children: React.ReactNode 
     const showSidebar = !!user;
 
     return (
-        <div className="flex min-h-screen">
+        <div className="min-h-screen">
             <Sidebar />
             <main className={`main-content ${!showSidebar ? 'no-sidebar' : ''}`}>
                 {children}
