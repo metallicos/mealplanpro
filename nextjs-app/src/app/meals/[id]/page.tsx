@@ -104,13 +104,13 @@ export default function MealDetailsPage() {
     };
 
     const getImageUrl = (recipe: Recipe) => {
-        if (recipe.local_image_path) {
-            if (recipe.local_image_path.startsWith('images/')) {
-                return `/${recipe.local_image_path}`;
-            }
-            return `/images/recipes/${recipe.local_image_path}`;
+        if (recipe.image_url) {
+            return recipe.image_url;
         }
-        return recipe.image_url || '/images/placeholder.png';
+        if (recipe.local_image_path) {
+            return `/images/recipes/${recipe.local_image_path.replace('images/', '')}`;
+        }
+        return '/images/placeholder.png';
     };
 
     const averageRating = ratings.length > 0
@@ -167,12 +167,12 @@ export default function MealDetailsPage() {
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 py-6 border-y border-white/5">
                         <div className="text-center">
                             <div className="text-2xl mb-1">⏱️</div>
-                            <div className="font-bold">{recipe!.prep_time}</div>
+                            <div className="font-bold">{recipe!.prep_time?.replace(/Prep:\s*/i, '').replace(/mins?/, 'm')}</div>
                             <div className="text-xs text-gray-500">Prep Time</div>
                         </div>
                         <div className="text-center">
                             <div className="text-2xl mb-1">🔥</div>
-                            <div className="font-bold">{recipe!.cook_time}</div>
+                            <div className="font-bold">{recipe!.cook_time?.replace(/Cook:\s*/i, '').replace(/mins?/, 'm')}</div>
                             <div className="text-xs text-gray-500">Cook Time</div>
                         </div>
                         <div className="text-center">
