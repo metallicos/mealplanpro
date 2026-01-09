@@ -13,58 +13,58 @@ import {
 const PROTOCOLS = [
     {
         id: '12-12',
-        name: 'protocols_12_12',
+        name: '12:12 Beginner',
         fasting: 12,
         eating: 12,
-        difficulty: 'easy',
+        difficulty: 'Easy',
         color: 'emerald',
-        description: 'protocols_12_12.description',
-        benefits: 'protocols_12_12.benefits',
-        example: 'protocols_12_12.example'
+        description: 'Perfect for beginners. Fast for 12 hours overnight, eat during 12 hours.',
+        benefits: ['Improved digestion', 'Better sleep quality', 'Gentle introduction to fasting'],
+        example: 'Stop eating at 8pm, resume at 8am'
     },
     {
         id: '16-8',
-        name: 'protocols_16_8',
+        name: '16:8 Lean Gains',
         fasting: 16,
         eating: 8,
-        difficulty: 'moderate',
+        difficulty: 'Moderate',
         color: 'teal',
-        description: 'protocols_16_8.description',
-        benefits: 'protocols_16_8.benefits',
-        example: 'protocols_16_8.example'
+        description: 'Most popular protocol. Skip breakfast, eat lunch and dinner.',
+        benefits: ['Fat burning (ketosis)', 'Improved insulin sensitivity', 'Easier calorie control'],
+        example: 'Stop eating at 8pm, resume at 12pm next day'
     },
     {
         id: '18-6',
-        name: 'protocols_18_6',
+        name: '18:6 Warrior Prep',
         fasting: 18,
         eating: 6,
-        difficulty: 'challenging',
+        difficulty: 'Challenging',
         color: 'purple',
-        description: 'protocols_18_6.description',
-        benefits: 'protocols_18_6.benefits',
-        example: 'protocols_18_6.example'
+        description: 'Extended fat burning. One main meal plus a snack.',
+        benefits: ['Deep ketosis', 'Cellular autophagy begins', 'Enhanced mental clarity'],
+        example: 'Eat between 12pm and 6pm only'
     },
     {
         id: '20-4',
-        name: 'protocols_20_4',
+        name: '20:4 Warrior',
         fasting: 20,
         eating: 4,
-        difficulty: 'advanced',
+        difficulty: 'Advanced',
         color: 'rose',
-        description: 'protocols_20_4.description',
-        benefits: 'protocols_20_4.benefits',
-        example: 'protocols_20_4.example'
+        description: 'One large meal per day with a small snack window.',
+        benefits: ['Maximum autophagy', 'Growth hormone boost', 'Significant fat loss'],
+        example: 'Eat between 2pm and 6pm only'
     },
     {
         id: '24',
-        name: 'protocols_24',
+        name: '24h Full Fast',
         fasting: 24,
         eating: 0,
-        difficulty: 'expert',
+        difficulty: 'Expert',
         color: 'amber',
-        description: 'protocols_24.description',
-        benefits: 'protocols_24.benefits',
-        example: 'protocols_24.example'
+        description: 'Complete 24-hour fast, done 1-2 times per week.',
+        benefits: ['Deep cellular repair', 'Immune system reset', 'Peak growth hormone'],
+        example: 'Dinner to dinner fast'
     }
 ];
 
