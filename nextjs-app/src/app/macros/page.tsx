@@ -688,92 +688,158 @@ export default function MacrosPage() {
                                     style={{ backgroundImage: `url(${scannedFood.image_url})` }}
                                 />
                             </div>
+                        )}
+
+                        {/* Nutrition Grid */}
+                        <div className="grid grid-cols-4 gap-2 text-center p-4 rounded-2xl mb-8 bg-white/5 border border-white/5">
+                            <div>
+                                <div className="text-2xl font-bold" style={{ color: '#ef4444' }}>
+                                    {Math.round(scannedFood.calories_per_100g * (scannedGrams / 100))}
+                                </div>
+                                <div className="text-[10px] text-gray-400 uppercase tracking-widest font-bold">kcal</div>
+                            </div>
+                            <div>
+                                <div className="text-xl font-bold" style={{ color: '#3b82f6' }}>
+                                    {Math.round(scannedFood.protein_per_100g * (scannedGrams / 100))}<span className="text-sm">g</span>
+                                </div>
+                                <div className="text-[10px] text-gray-400 uppercase tracking-widest font-bold">Prot</div>
+                            </div>
+                            <div>
+                                <div className="text-xl font-bold" style={{ color: '#f59e0b' }}>
+                                    {Math.round(scannedFood.carbs_per_100g * (scannedGrams / 100))}<span className="text-sm">g</span>
+                                </div>
+                                <div className="text-[10px] text-gray-400 uppercase tracking-widest font-bold">Carbs</div>
+                            </div>
+                            <div>
+                                <div className="text-xl font-bold" style={{ color: '#a855f7' }}>
+                                    {Math.round(scannedFood.fat_per_100g * (scannedGrams / 100))}<span className="text-sm">g</span>
+                                </div>
+                                <div className="text-[10px] text-gray-400 uppercase tracking-widest font-bold">Fat</div>
+                            </div>
+                        </div>
+
+                        {/* Quantity Input Section */}
+                        <div className="bg-white/5 rounded-2xl p-4 mb-6">
+                            <label className="text-gray-400 text-xs font-bold uppercase tracking-widest mb-3 block text-center">
+                                Portion Size
+                            </label>
+
+                            {/* Unit Toggle */}
+                            <div className="flex bg-black/40 p-1 rounded-xl mb-4">
+                                <button
+                                    onClick={() => {
+                                        // Serving logic: parse serving_size string "30 g" -> 30, or default 100
+                                        if (scannedFood.serving_size) {
+                                            const match = scannedFood.serving_size.match(/(\d+(\.\d+)?)/);
+                                            if (match) setScannedGrams(parseFloat(match[0]));
+                                        }
+                                    }}
+                                    className={`flex-1 py-2 rounded-lg text-sm font-bold transition-all ${(scannedFood.serving_size && scannedGrams === parseFloat(scannedFood.serving_size.match(/(\d+(\.\d+)?)/)?.[0] || '0'))
+                                            ? 'bg-cyan-600 text-white shadow-lg'
+                                            : 'text-gray-400 hover:text-white'
+                                        }`}
+                                >
+                                    1 Serving ({scannedFood.serving_size || 'Unknown'})
+                                </button>
+                                <button
+                                    onClick={() => setScannedGrams(100)} // Reset to 100g base for custom entry
+                                    className={`flex-1 py-2 rounded-lg text-sm font-bold transition-all ${(!scannedFood.serving_size || scannedGrams !== parseFloat(scannedFood.serving_size.match(/(\d+(\.\d+)?)/)?.[0] || '0'))
+                                            ? 'bg-cyan-600 text-white shadow-lg'
+                                            : 'text-gray-400 hover:text-white'
+                                        }`}
+                                >
+                                    Custom (g)
+                                </button>
                             </div>
 
-                    {/* Actions */}
-                    <div className="flex gap-3 pt-2">
-                        <button
-                            onClick={() => setScannedFood(null)}
-                            className="flex-1 py-3 rounded-xl bg-gray-800 hover:bg-gray-700 text-gray-300 font-medium transition-colors"
-                        >
-                            Cancel
-                        </button>
+                            <div className="relative">
+                                <input
+                                    type="number"
+                                    inputMode="decimal"
+                                    className="w-full bg-black/40 border-2 border-transparent focus:border-cyan-500 rounded-xl px-4 py-4 text-center text-3xl font-bold text-white outline-none transition-all placeholder-gray-600"
+                                    value={scannedGrams || ''}
+                                    onChange={(e) => setScannedGrams(parseFloat(e.target.value) || 0)}
+                                    placeholder="0"
+                                />
+                                <span className="absolute right-6 top-1/2 -translate-y-1/2 text-gray-500 font-bold">g</span>
+                            </div>
+                        </div>
+
+                        {/* Add Button */}
                         <button
                             onClick={addScannedToLog}
-                            className="flex-1 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 text-white font-bold shadow-lg shadow-indigo-500/20 transition-all hover:scale-[1.02]"
+                            disabled={!scannedGrams || scannedGrams <= 0}
+                            className="w-full py-4 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-xl font-bold text-lg text-white shadow-lg shadow-cyan-900/40 disabled:opacity-50 disabled:grayscale transition-all active:scale-[0.98] mt-auto"
                         >
                             Add to Log
                         </button>
                     </div>
                 </div>
-                    </div>
-                </div >
-            )
-}
+            )}
 
-{/* Edit Log Modal */ }
-{
-    editingLog && (
-        <div
-            className="fixed inset-0 bg-black/80 flex items-end sm:items-center justify-center z-[60] p-0 sm:p-4 animate-fade-in"
-            onClick={() => setEditingLog(null)}
-        >
-            <div
-                className="card w-full sm:max-w-sm max-h-[85dvh] overflow-y-auto border-t border-white/10 shadow-2xl bg-[#181824] rounded-t-2xl sm:rounded-xl animate-slide-up-mobile"
-                onClick={(e) => e.stopPropagation()}
-            >
-                <div className="p-6">
-                    <h3 className="text-xl font-bold text-white mb-6">Edit Log Entry</h3>
-
-                    <div className="mb-4">
-                        <div className="text-white font-medium mb-1">{editingLog.food_name}</div>
-                        <div className="text-sm text-gray-400">Adjusting portion size will recalculate macros.</div>
-                    </div>
-
-                    <div className="grid grid-cols-2 gap-4 mb-6">
-                        <div>
-                            <label className="text-xs font-semibold text-gray-400 mb-1.5 block">Serving (g)</label>
-                            <input
-                                type="number"
-                                className="w-full bg-[#0a0a0f] border border-gray-700 rounded-lg px-3 py-2.5 text-white focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition-all"
-                                value={editGrams}
-                                onChange={(e) => setEditGrams(parseInt(e.target.value) || 0)}
-                                min="1"
-                            />
-                        </div>
-                        <div>
-                            <label className="text-xs font-semibold text-gray-400 mb-1.5 block">Meal Type</label>
-                            <select
-                                className="w-full bg-[#0a0a0f] border border-gray-700 rounded-lg px-3 py-2.5 text-white focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition-all appearance-none"
-                                value={editMealType}
-                                onChange={(e) => setEditMealType(e.target.value as 'main' | 'snack')}
-                            >
-                                <option value="main">Main Meal</option>
-                                <option value="snack">Snack</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    {/* Actions */}
-                    <div className="flex gap-3 pt-2">
-                        <button
-                            onClick={() => setEditingLog(null)}
-                            className="flex-1 py-3 rounded-xl bg-gray-800 hover:bg-gray-700 text-gray-300 font-medium transition-colors"
+            {/* Edit Log Modal */}
+            {
+                editingLog && (
+                    <div
+                        className="fixed inset-0 bg-black/80 flex items-end sm:items-center justify-center z-[60] p-0 sm:p-4 animate-fade-in"
+                        onClick={() => setEditingLog(null)}
+                    >
+                        <div
+                            className="card w-full sm:max-w-sm max-h-[85dvh] overflow-y-auto border-t border-white/10 shadow-2xl bg-[#181824] rounded-t-2xl sm:rounded-xl animate-slide-up-mobile"
+                            onClick={(e) => e.stopPropagation()}
                         >
-                            Cancel
-                        </button>
-                        <button
-                            onClick={updateLog}
-                            className="flex-1 py-3 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-400 hover:to-cyan-400 text-white font-bold shadow-lg shadow-blue-500/20 transition-all hover:scale-[1.02]"
-                        >
-                            Save Changes
-                        </button>
+                            <div className="p-6">
+                                <h3 className="text-xl font-bold text-white mb-6">Edit Log Entry</h3>
+
+                                <div className="mb-4">
+                                    <div className="text-white font-medium mb-1">{editingLog.food_name}</div>
+                                    <div className="text-sm text-gray-400">Adjusting portion size will recalculate macros.</div>
+                                </div>
+
+                                <div className="grid grid-cols-2 gap-4 mb-6">
+                                    <div>
+                                        <label className="text-xs font-semibold text-gray-400 mb-1.5 block">Serving (g)</label>
+                                        <input
+                                            type="number"
+                                            className="w-full bg-[#0a0a0f] border border-gray-700 rounded-lg px-3 py-2.5 text-white focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition-all"
+                                            value={editGrams}
+                                            onChange={(e) => setEditGrams(parseInt(e.target.value) || 0)}
+                                            min="1"
+                                        />
+                                    </div>
+                                    <div>
+                                        <label className="text-xs font-semibold text-gray-400 mb-1.5 block">Meal Type</label>
+                                        <select
+                                            className="w-full bg-[#0a0a0f] border border-gray-700 rounded-lg px-3 py-2.5 text-white focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition-all appearance-none"
+                                            value={editMealType}
+                                            onChange={(e) => setEditMealType(e.target.value as 'main' | 'snack')}
+                                        >
+                                            <option value="main">Main Meal</option>
+                                            <option value="snack">Snack</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                {/* Actions */}
+                                <div className="flex gap-3 pt-2">
+                                    <button
+                                        onClick={() => setEditingLog(null)}
+                                        className="flex-1 py-3 rounded-xl bg-gray-800 hover:bg-gray-700 text-gray-300 font-medium transition-colors"
+                                    >
+                                        Cancel
+                                    </button>
+                                    <button
+                                        onClick={updateLog}
+                                        className="flex-1 py-3 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-400 hover:to-cyan-400 text-white font-bold shadow-lg shadow-blue-500/20 transition-all hover:scale-[1.02]"
+                                    >
+                                        Save Changes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    )
-}
+                )
+            }
         </div >
     );
 }
