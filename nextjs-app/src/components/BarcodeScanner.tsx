@@ -204,133 +204,136 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
     };
 
     return (
-        <div className="fixed inset-0 h-[100dvh] w-screen bg-black z-50 flex flex-col pt-safe-area-inset-top pb-safe-area-inset-bottom text-white overflow-hidden overscroll-none touch-none">
-            {/* Header */}
-            <div className="flex-none p-4 flex justify-between items-center bg-black/80 backdrop-blur-md z-30 shadow-md">
-                <h2 className="font-bold text-lg text-white">Native Scanner</h2>
-                <div className="flex gap-4 items-center">
-                    {debugInfo && <span className="text-[10px] font-mono text-green-400 bg-green-900/30 px-2 py-1 rounded">{debugInfo}</span>}
+        <div className="fixed inset-0 h-[100dvh] w-screen bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 pt-safe-area-inset-top pb-safe-area-inset-bottom text-white overflow-hidden overscroll-none touch-none animate-fade-in">
+            {/* Modal Container */}
+            <div className="w-full max-w-md h-[85vh] bg-black rounded-3xl overflow-hidden flex flex-col border border-white/10 shadow-2xl animate-scale-up">
+                {/* Header */}
+                <div className="flex-none p-4 flex justify-between items-center bg-gray-900/50 backdrop-blur-md z-30 border-b border-white/5">
+                    <h2 className="font-bold text-lg text-white">Native Scanner</h2>
+                    <div className="flex gap-4 items-center">
+                        {debugInfo && <span className="text-[10px] font-mono text-green-400 bg-green-900/30 px-2 py-1 rounded">{debugInfo}</span>}
+                        <button
+                            onClick={() => {
+                                stopCamera();
+                                onClose();
+                            }}
+                            className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
+                        >
+                            ✕
+                        </button>
+                    </div>
+                </div>
+
+                {/* Main Content */}
+                <div className="flex-1 relative overflow-hidden bg-black flex flex-col">
+                    {mode === 'camera' ? (
+                        <div className="w-full h-full relative flex items-center justify-center bg-black">
+                            {/* Native Video Element */}
+                            <video
+                                ref={videoRef}
+                                autoPlay
+                                playsInline
+                                muted
+                                className="absolute inset-0 w-full h-full object-cover"
+                            />
+
+                            {/* Overlays */}
+                            {!error && !isProcessing && (
+                                <div className="absolute inset-0 pointer-events-none flex items-center justify-center z-10">
+                                    <div className="relative w-64 h-64 border-2 border-green-400/80 rounded-xl shadow-[0_0_0_9999px_rgba(0,0,0,0.5)]">
+                                        <div className="absolute top-0 left-0 w-6 h-6 border-t-4 border-l-4 border-green-400 rounded-tl-lg"></div>
+                                        <div className="absolute top-0 right-0 w-6 h-6 border-t-4 border-r-4 border-green-400 rounded-tr-lg"></div>
+                                        <div className="absolute bottom-0 left-0 w-6 h-6 border-b-4 border-l-4 border-green-400 rounded-bl-lg"></div>
+                                        <div className="absolute bottom-0 right-0 w-6 h-6 border-b-4 border-r-4 border-green-400 rounded-br-lg"></div>
+                                        <div className="w-full h-[2px] bg-green-400 shadow-[0_0_10px_#4ade80] absolute top-1/2 -translate-y-1/2 animate-scan-line"></div>
+                                    </div>
+                                    <p className="absolute mt-72 text-sm font-medium text-white/90 bg-black/60 px-4 py-1 rounded-full text-center backdrop-blur-sm">
+                                        Use Native Camera • Tap to Focus
+                                    </p>
+                                </div>
+                            )}
+
+                            {/* Status/Error Messages */}
+                            {isProcessing && (
+                                <div className="absolute inset-0 z-20 bg-black/60 flex flex-col items-center justify-center backdrop-blur-sm">
+                                    <div className="w-12 h-12 border-4 border-green-500 border-t-transparent rounded-full animate-spin mb-4"></div>
+                                    <p className="font-bold text-lg text-green-400">{processingMessage}</p>
+                                </div>
+                            )}
+
+                            {error && (
+                                <div className="absolute bottom-24 left-4 right-4 z-20">
+                                    <div className="bg-red-500/90 text-white p-4 rounded-xl text-center shadow-lg animate-bounce-subtle backdrop-blur-md">
+                                        <p className="font-bold mb-1">⚠️ {error}</p>
+                                        <button
+                                            onClick={() => setMode('manual')}
+                                            className="text-xs underline font-medium mt-1 hover:text-white/80"
+                                        >
+                                            Use Manual Entry
+                                        </button>
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+                    ) : (
+                        <div className="flex-1 flex flex-col items-center justify-center p-6 bg-gray-900">
+                            {/* Manual Mode UI */}
+                            <div className="w-full max-w-sm">
+                                <div className="text-center mb-8">
+                                    <div className="text-6xl mb-4">⌨️</div>
+                                    <h3 className="text-2xl font-bold text-white mb-2">Manual Entry</h3>
+                                    <p className="text-gray-400">Enter barcode number below</p>
+                                </div>
+                                <form onSubmit={handleManualSubmit}>
+                                    <input
+                                        type="text"
+                                        inputMode="numeric"
+                                        pattern="[0-9]*"
+                                        className="w-full bg-gray-800 border-2 border-gray-700 rounded-xl px-4 py-4 text-center text-2xl tracking-widest text-white mb-6 focus:border-green-500 focus:ring-0 outline-none transition-colors"
+                                        placeholder="00000000"
+                                        value={barcodeInput}
+                                        onChange={e => setBarcodeInput(e.target.value)}
+                                        autoFocus
+                                    />
+                                    <button
+                                        type="submit"
+                                        disabled={isProcessing || barcodeInput.length < 3}
+                                        className="w-full btn-primary py-4 rounded-xl text-lg font-bold disabled:opacity-50"
+                                    >
+                                        {isProcessing ? 'Searching...' : 'Search'}
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    )}
+                </div>
+
+                {/* Config Check ID (Hidden) */}
+                <div id="native-scanner-v1" className="hidden" />
+
+                {/* Bottom Controls */}
+                <div className="flex-none bg-black p-4 pb-8 flex gap-3 border-t border-white/10 z-30">
                     <button
-                        onClick={() => {
-                            stopCamera();
-                            onClose();
-                        }}
-                        className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 text-white transition-colors"
+                        onClick={() => setMode('camera')}
+                        className={`flex-1 py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all font-bold ${mode === 'camera'
+                            ? 'bg-green-600 text-white shadow-lg shadow-green-900/40'
+                            : 'bg-gray-800 text-gray-400'
+                            }`}
                     >
-                        ✕
+                        <span className="text-xl">📷</span>
+                        <span>Scan</span>
+                    </button>
+                    <button
+                        onClick={() => setMode('manual')}
+                        className={`flex-1 py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all font-bold ${mode === 'manual'
+                            ? 'bg-green-600 text-white shadow-lg shadow-green-900/40'
+                            : 'bg-gray-800 text-gray-400'
+                            }`}
+                    >
+                        <span className="text-xl">#️⃣</span>
+                        <span>Manual</span>
                     </button>
                 </div>
-            </div>
-
-            {/* Main Content */}
-            <div className="flex-1 relative overflow-hidden bg-black flex flex-col">
-                {mode === 'camera' ? (
-                    <div className="w-full h-full relative flex items-center justify-center bg-black">
-                        {/* Native Video Element */}
-                        <video
-                            ref={videoRef}
-                            autoPlay
-                            playsInline
-                            muted
-                            className="absolute inset-0 w-full h-full object-cover"
-                        />
-
-                        {/* Overlays */}
-                        {!error && !isProcessing && (
-                            <div className="absolute inset-0 pointer-events-none flex items-center justify-center z-10">
-                                <div className="relative w-80 h-48 border-2 border-green-400/80 rounded-xl shadow-[0_0_0_9999px_rgba(0,0,0,0.5)]">
-                                    <div className="absolute top-0 left-0 w-6 h-6 border-t-4 border-l-4 border-green-400 rounded-tl-lg"></div>
-                                    <div className="absolute top-0 right-0 w-6 h-6 border-t-4 border-r-4 border-green-400 rounded-tr-lg"></div>
-                                    <div className="absolute bottom-0 left-0 w-6 h-6 border-b-4 border-l-4 border-green-400 rounded-bl-lg"></div>
-                                    <div className="absolute bottom-0 right-0 w-6 h-6 border-b-4 border-r-4 border-green-400 rounded-br-lg"></div>
-                                    <div className="w-full h-[2px] bg-green-400 shadow-[0_0_10px_#4ade80] absolute top-1/2 -translate-y-1/2 animate-scan-line"></div>
-                                </div>
-                                <p className="absolute mt-60 text-sm font-medium text-white/90 bg-black/60 px-4 py-1 rounded-full text-center backdrop-blur-sm">
-                                    Use Native Camera • Tap to Focus
-                                </p>
-                            </div>
-                        )}
-
-                        {/* Status/Error Messages */}
-                        {isProcessing && (
-                            <div className="absolute inset-0 z-20 bg-black/60 flex flex-col items-center justify-center backdrop-blur-sm">
-                                <div className="w-12 h-12 border-4 border-green-500 border-t-transparent rounded-full animate-spin mb-4"></div>
-                                <p className="font-bold text-lg text-green-400">{processingMessage}</p>
-                            </div>
-                        )}
-
-                        {error && (
-                            <div className="absolute bottom-24 left-4 right-4 z-20">
-                                <div className="bg-red-500/90 text-white p-4 rounded-xl text-center shadow-lg animate-bounce-subtle backdrop-blur-md">
-                                    <p className="font-bold mb-1">⚠️ {error}</p>
-                                    <button
-                                        onClick={() => setMode('manual')}
-                                        className="text-xs underline font-medium mt-1 hover:text-white/80"
-                                    >
-                                        Use Manual Entry
-                                    </button>
-                                </div>
-                            </div>
-                        )}
-                    </div>
-                ) : (
-                    <div className="flex-1 flex flex-col items-center justify-center p-6 bg-gray-900">
-                        {/* Manual Mode UI */}
-                        <div className="w-full max-w-sm">
-                            <div className="text-center mb-8">
-                                <div className="text-6xl mb-4">⌨️</div>
-                                <h3 className="text-2xl font-bold text-white mb-2">Manual Entry</h3>
-                                <p className="text-gray-400">Enter barcode number below</p>
-                            </div>
-                            <form onSubmit={handleManualSubmit}>
-                                <input
-                                    type="text"
-                                    inputMode="numeric"
-                                    pattern="[0-9]*"
-                                    className="w-full bg-gray-800 border-2 border-gray-700 rounded-xl px-4 py-4 text-center text-2xl tracking-widest text-white mb-6 focus:border-green-500 focus:ring-0 outline-none transition-colors"
-                                    placeholder="00000000"
-                                    value={barcodeInput}
-                                    onChange={e => setBarcodeInput(e.target.value)}
-                                    autoFocus
-                                />
-                                <button
-                                    type="submit"
-                                    disabled={isProcessing || barcodeInput.length < 3}
-                                    className="w-full btn-primary py-4 rounded-xl text-lg font-bold disabled:opacity-50"
-                                >
-                                    {isProcessing ? 'Searching...' : 'Search'}
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                )}
-            </div>
-
-            {/* Config Check ID (Hidden) */}
-            <div id="native-scanner-v1" className="hidden" />
-
-            {/* Bottom Controls */}
-            <div className="flex-none bg-black p-4 pb-8 flex gap-3 border-t border-white/10 z-30">
-                <button
-                    onClick={() => setMode('camera')}
-                    className={`flex-1 py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all font-bold ${mode === 'camera'
-                        ? 'bg-green-600 text-white shadow-lg shadow-green-900/40'
-                        : 'bg-gray-800 text-gray-400'
-                        }`}
-                >
-                    <span className="text-xl">📷</span>
-                    <span>Scan</span>
-                </button>
-                <button
-                    onClick={() => setMode('manual')}
-                    className={`flex-1 py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all font-bold ${mode === 'manual'
-                        ? 'bg-green-600 text-white shadow-lg shadow-green-900/40'
-                        : 'bg-gray-800 text-gray-400'
-                        }`}
-                >
-                    <span className="text-xl">#️⃣</span>
-                    <span>Manual</span>
-                </button>
             </div>
 
             <style jsx global>{`
@@ -342,6 +345,13 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
                 }
                 .animate-scan-line {
                     animation: scan-line 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+                }
+                @keyframes scale-up {
+                    from { transform: scale(0.95); opacity: 0; }
+                    to { transform: scale(1); opacity: 1; }
+                }
+                .animate-scale-up {
+                    animation: scale-up 0.2s ease-out forwards;
                 }
                 .pt-safe-area-inset-top {
                     padding-top: env(safe-area-inset-top);
