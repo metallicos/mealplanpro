@@ -735,8 +735,8 @@ export default function MacrosPage() {
                                         }
                                     }}
                                     className={`flex-1 py-2 rounded-lg text-sm font-bold transition-all ${(scannedFood.serving_size && scannedGrams === parseFloat(scannedFood.serving_size.match(/(\d+(\.\d+)?)/)?.[0] || '0'))
-                                            ? 'bg-cyan-600 text-white shadow-lg'
-                                            : 'text-gray-400 hover:text-white'
+                                        ? 'bg-cyan-600 text-white shadow-lg'
+                                        : 'text-gray-400 hover:text-white'
                                         }`}
                                 >
                                     1 Serving ({scannedFood.serving_size || 'Unknown'})
@@ -744,8 +744,8 @@ export default function MacrosPage() {
                                 <button
                                     onClick={() => setScannedGrams(100)} // Reset to 100g base for custom entry
                                     className={`flex-1 py-2 rounded-lg text-sm font-bold transition-all ${(!scannedFood.serving_size || scannedGrams !== parseFloat(scannedFood.serving_size.match(/(\d+(\.\d+)?)/)?.[0] || '0'))
-                                            ? 'bg-cyan-600 text-white shadow-lg'
-                                            : 'text-gray-400 hover:text-white'
+                                        ? 'bg-cyan-600 text-white shadow-lg'
+                                        : 'text-gray-400 hover:text-white'
                                         }`}
                                 >
                                     Custom (g)
@@ -769,7 +769,7 @@ export default function MacrosPage() {
                         <button
                             onClick={addScannedToLog}
                             disabled={!scannedGrams || scannedGrams <= 0}
-                            className="w-full py-4 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-xl font-bold text-lg text-white shadow-lg shadow-cyan-900/40 disabled:opacity-50 disabled:grayscale transition-all active:scale-[0.98] mt-auto"
+                            className="w-full py-4 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-xl font-bold text-lg text-white shadow-lg shadow-cyan-900/40 disabled:opacity-50 disabled:grayscale transition-all active:scale-[0.98] mt-8"
                         >
                             Add to Log
                         </button>
