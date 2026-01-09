@@ -56,9 +56,9 @@ export async function POST(request: Request) {
         await query(
             `INSERT INTO weight_logs (user_id, week_date, weight, notes)
              VALUES (?, ?, ?, ?)
-             ON DUPLICATE KEY UPDATE 
-              weight = VALUES(weight),
-              notes = VALUES(notes)`,
+             ON CONFLICT(user_id, week_date) DO UPDATE SET 
+              weight = excluded.weight,
+              notes = excluded.notes`,
             [user_id, week_date, weight, notes || null]
         );
 

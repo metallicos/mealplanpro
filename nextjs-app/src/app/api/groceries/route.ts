@@ -94,7 +94,7 @@ export async function POST(request: Request) {
         await query(
             `INSERT INTO grocery_budgets (household_id, month, initial_budget) 
              VALUES (?, ?, ?)
-             ON DUPLICATE KEY UPDATE initial_budget = VALUES(initial_budget)`,
+             ON CONFLICT(household_id, month) DO UPDATE SET initial_budget = excluded.initial_budget`,
             [session.householdId, month, initial_budget || 3000]
         );
 
