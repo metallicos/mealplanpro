@@ -394,15 +394,15 @@ export default function FastingPage() {
                                 )}
                             </div>
 
-                            <p className="text-gray-400 text-sm mb-4">{t(protocol.description)}</p>
+                            <p className="text-gray-400 text-sm mb-4">{protocol.description}</p>
 
                             <div className="bg-[var(--bg-secondary)] rounded-lg p-3 mb-3">
                                 <div className="text-xs text-gray-500 mb-1">{t('example')}</div>
-                                <div className="text-sm text-gray-300">{t(protocol.example)}</div>
+                                <div className="text-sm text-gray-300">{protocol.example}</div>
                             </div>
 
                             <div className="flex flex-wrap gap-2">
-                                {t(protocol.benefits).map((benefit, i) => (
+                                {protocol.benefits.map((benefit, i) => (
                                     <span key={i} className="text-xs px-2 py-1 rounded-full bg-[var(--bg-tertiary)] text-gray-400">
                                         {benefit}
                                     </span>
