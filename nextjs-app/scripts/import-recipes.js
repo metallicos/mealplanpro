@@ -13,6 +13,49 @@ const RECIPES_ROOT = path.join(__dirname, '..', '..', 'recipes_sources');
 const CATEGORIES = ['healthy', 'cuisine', 'cakes-baking', 'ramadan'];
 const BATCH_SIZE = 50; // Smaller batch for dual inserts
 
+// Parse time strings like "10 mins", "1 hr 30 mins", "10 mins Cook: 10 mins"
+// extractCook = true will extract the cook time from combined strings
+function parseTime(value, extractCook = false) {
+    if (!value) return 0;
+    const str = String(value);
+
+    // If it contains "Cook:", split appropriately
+    let targetPart = str;
+    if (str.toLowerCase().includes('cook:')) {
+        const parts = str.split(/Cook:/i);
+        if (extractCook && parts[1]) {
+            targetPart = parts[1].trim();
+        } else {
+            targetPart = parts[0].trim();
+        }
+    }
+
+    // Extract hours and minutes using regex
+    let totalMinutes = 0;
+
+    // Match hours: "1 hr", "2 hours", "1h"
+    const hourMatch = targetPart.match(/(\d+)\s*(?:hr|hour|h)/i);
+    if (hourMatch) {
+        totalMinutes += parseInt(hourMatch[1]) * 60;
+    }
+
+    // Match minutes: "30 mins", "45 minutes", "30m", "30 min"
+    const minMatch = targetPart.match(/(\d+)\s*(?:min|m\b)/i);
+    if (minMatch) {
+        totalMinutes += parseInt(minMatch[1]);
+    }
+
+    // If no time unit found, try to parse as just a number
+    if (totalMinutes === 0) {
+        const numMatch = targetPart.match(/(\d+)/);
+        if (numMatch) {
+            totalMinutes = parseInt(numMatch[1]);
+        }
+    }
+
+    return totalMinutes;
+}
+
 // Parse nutritional value (remove 'g' suffix and convert to number)
 function parseNutrition(value) {
     if (!value) return 0;
@@ -70,8 +113,8 @@ async function main() {
                         title: recipe.title || recipe.strMeal || recipe.name || 'Untitled',
                         description: recipe.description || '',
                         url: recipe.url || recipe.strSource || '',
-                        prep_time: parseNutrition(recipe.prep_time) || 0, // Store as minutes integer if possible
-                        cook_time: parseNutrition(recipe.cook_time) || 0,
+                        prep_time: parseTime(recipe.prep_time), // Extract prep time
+                        cook_time: parseTime(recipe.cook_time) || parseTime(recipe.prep_time, true), // Use cook_time or extract from prep_time
                         serves: parseNutrition(recipe.serves) || 4,
 
                         // Macros

@@ -135,9 +135,9 @@ export default function MealDetailsPage() {
         </div>
     );
 
-    // Parse Time Logic
-    let displayPrep = recipe.prep_time || 'N/A';
-    let displayCook = recipe.cook_time || 'N/A';
+    // Parse Time Logic - ensure values are strings
+    let displayPrep = String(recipe.prep_time || 'N/A');
+    let displayCook = String(recipe.cook_time || 'N/A');
 
     // Handle "35 mins Cook: 50 mins" scenario in prep_time
     if (displayPrep.includes('Cook:')) {

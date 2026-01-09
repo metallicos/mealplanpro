@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import { useRouter } from 'next/navigation';
 import {
     Search, X, Leaf, Globe, CakeSlice, Moon, Folder,
     ChevronLeft, ChevronRight, Utensils, Flame,
@@ -92,6 +93,7 @@ const RecipeImage = ({ src, alt }: { src: string | null; alt: string }) => {
 const ITEMS_PER_PAGE = 12;
 
 export default function MealsPage() {
+    const router = useRouter();
     const [recipes, setRecipes] = useState<Recipe[]>([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
@@ -408,8 +410,8 @@ export default function MealsPage() {
                     {recipes.map((meal) => (
                         <div
                             key={meal.id}
-                            className="meal-card cursor-pointer relative"
-                            onClick={() => setSelectedMeal(meal)}
+                            className="meal-card cursor-pointer relative group"
+                            onClick={() => router.push(`/meals/${meal.id}`)}
                         >
                             {/* Healthy Badge */}
                             {meal.isHealthy && (

@@ -87,6 +87,7 @@ export async function GET(request: NextRequest) {
         // Parse JSON fields
         const parsedRecipes = (recipes as Record<string, unknown>[]).map(recipe => ({
             ...recipe,
+            kcal: recipe.calories, // Map calories to kcal for frontend compatibility
             ingredients: typeof recipe.ingredients === 'string' ? JSON.parse(recipe.ingredients) : (recipe.ingredients || []),
             method: typeof recipe.method === 'string' ? JSON.parse(recipe.method) : (recipe.method || []),
             tags: recipe.tags ? (typeof recipe.tags === 'string' ? JSON.parse(recipe.tags) : recipe.tags) : [],

@@ -7,11 +7,14 @@ export async function GET(request: NextRequest) {
     const healthyOnly = searchParams.get('healthy') === 'true';
 
     try {
-        // Get random recipes using SQLite's RANDOM() function
-        // Note: SQLite uses 1/0 for boolean
-        const countInt = parseInt(count.toString()); // Ensure int
+        // Get random recipes with translations (V2 schema)
+        const countInt = parseInt(count.toString());
 
-        let sql = 'SELECT * FROM recipes';
+        let sql = `
+            SELECT r.*, rt.title, rt.description, rt.ingredients_json, rt.method_json
+            FROM recipes r
+            LEFT JOIN recipe_translations rt ON r.id = rt.recipe_id AND rt.language_code = 'en'
+        `;
         const params: any[] = [];
 
         if (healthyOnly) {
@@ -23,12 +26,12 @@ export async function GET(request: NextRequest) {
 
         const recipes = await query(sql, params);
 
-        // Parse JSON fields
+        // Parse JSON fields and map to expected format
         const parsedRecipes = (recipes as Record<string, unknown>[]).map(recipe => ({
             ...recipe,
-            ingredients: JSON.parse(recipe.ingredients as string || '[]'),
-            method: JSON.parse(recipe.method as string || '[]'),
-            tags: JSON.parse(recipe.tags as string || '[]'),
+            kcal: recipe.calories, // Map calories to kcal for frontend
+            ingredients: recipe.ingredients_json ? JSON.parse(recipe.ingredients_json as string) : [],
+            method: recipe.method_json ? JSON.parse(recipe.method_json as string) : [],
             isHealthy: recipe.is_healthy === 1,
         }));
 
