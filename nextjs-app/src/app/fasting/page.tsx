@@ -13,70 +13,70 @@ import {
 const PROTOCOLS = [
     {
         id: '12-12',
-        name: '12:12 Beginner',
+        name: 'protocols_12_12',
         fasting: 12,
         eating: 12,
-        difficulty: 'Easy',
+        difficulty: 'easy',
         color: 'emerald',
-        description: 'Perfect for beginners. Fast for 12 hours overnight, eat during 12 hours.',
-        benefits: ['Improved digestion', 'Better sleep quality', 'Gentle introduction to fasting'],
-        example: 'Stop eating at 8pm, resume at 8am'
+        description: 'protocols_12_12.description',
+        benefits: 'protocols_12_12.benefits',
+        example: 'protocols_12_12.example'
     },
     {
         id: '16-8',
-        name: '16:8 Lean Gains',
+        name: 'protocols_16_8',
         fasting: 16,
         eating: 8,
-        difficulty: 'Moderate',
+        difficulty: 'moderate',
         color: 'teal',
-        description: 'Most popular protocol. Skip breakfast, eat lunch and dinner.',
-        benefits: ['Fat burning (ketosis)', 'Improved insulin sensitivity', 'Easier calorie control'],
-        example: 'Stop eating at 8pm, resume at 12pm next day'
+        description: 'protocols_16_8.description',
+        benefits: 'protocols_16_8.benefits',
+        example: 'protocols_16_8.example'
     },
     {
         id: '18-6',
-        name: '18:6 Warrior Prep',
+        name: 'protocols_18_6',
         fasting: 18,
         eating: 6,
-        difficulty: 'Challenging',
+        difficulty: 'challenging',
         color: 'purple',
-        description: 'Extended fat burning. One main meal plus a snack.',
-        benefits: ['Deep ketosis', 'Cellular autophagy begins', 'Enhanced mental clarity'],
-        example: 'Eat between 12pm and 6pm only'
+        description: 'protocols_18_6.description',
+        benefits: 'protocols_18_6.benefits',
+        example: 'protocols_18_6.example'
     },
     {
         id: '20-4',
-        name: '20:4 Warrior',
+        name: 'protocols_20_4',
         fasting: 20,
         eating: 4,
-        difficulty: 'Advanced',
+        difficulty: 'advanced',
         color: 'rose',
-        description: 'One large meal per day with a small snack window.',
-        benefits: ['Maximum autophagy', 'Growth hormone boost', 'Significant fat loss'],
-        example: 'Eat between 2pm and 6pm only'
+        description: 'protocols_20_4.description',
+        benefits: 'protocols_20_4.benefits',
+        example: 'protocols_20_4.example'
     },
     {
         id: '24',
-        name: '24h Full Fast',
+        name: 'protocols_24',
         fasting: 24,
         eating: 0,
-        difficulty: 'Expert',
+        difficulty: 'expert',
         color: 'amber',
-        description: 'Complete 24-hour fast, done 1-2 times per week.',
-        benefits: ['Deep cellular repair', 'Immune system reset', 'Peak growth hormone'],
-        example: 'Dinner to dinner fast'
+        description: 'protocols_24.description',
+        benefits: 'protocols_24.benefits',
+        example: 'protocols_24.example'
     }
 ];
 
 // Scientific Stages Data
 const STAGES = [
-    { hours: 0, name: 'Fed State', desc: 'Body digesting and absorbing nutrients', color: 'text-gray-400', icon: '🍽️' },
-    { hours: 4, name: 'Early Fasting', desc: 'Blood sugar normalizing, insulin dropping', color: 'text-blue-400', icon: '📉' },
-    { hours: 8, name: 'Fat Burning', desc: 'Body starting to use fat for energy', color: 'text-orange-400', icon: '🔥' },
-    { hours: 12, name: 'Ketosis', desc: 'Significant ketone production begins', color: 'text-amber-400', icon: '⚡' },
-    { hours: 16, name: 'Autophagy', desc: 'Cellular repair and recycling activated', color: 'text-emerald-400', icon: '🔄' },
-    { hours: 18, name: 'Deep Autophagy', desc: 'Significant cellular cleaning underway', color: 'text-teal-400', icon: '✨' },
-    { hours: 24, name: 'Growth Hormone', desc: 'HGH surge up to 5x baseline', color: 'text-purple-400', icon: '💪' },
+    { hours: 0, name: 'stages_fed', desc: 'stages_fed.desc', color: 'text-gray-400', icon: '🍽️' },
+    { hours: 4, name: 'stages_early', desc: 'stages_early.desc', color: 'text-blue-400', icon: '📉' },
+    { hours: 8, name: 'stages_fat_burning', desc: 'stages_fat_burning.desc', color: 'text-orange-400', icon: '🔥' },
+    { hours: 12, name: 'stages_ketosis', desc: 'stages_ketosis.desc', color: 'text-amber-400', icon: '⚡' },
+    { hours: 16, name: 'stages_autophagy', desc: 'stages_autophagy.desc', color: 'text-emerald-400', icon: '🔄' },
+    { hours: 18, name: 'stages_deep_autophagy', desc: 'stages_deep_autophagy.desc', color: 'text-teal-400', icon: '✨' },
+    { hours: 24, name: 'stages_growth_hormone', desc: 'stages_growth_hormone.desc', color: 'text-purple-400', icon: '💪' },
 ];
 
 export default function FastingPage() {
@@ -198,9 +198,9 @@ export default function FastingPage() {
             {/* Tab Navigation */}
             <div className="flex gap-2 mb-6 overflow-x-auto pb-2">
                 {[
-                    { id: 'timer', label: 'Active Timer', icon: Timer },
-                    { id: 'protocols', label: 'Protocols', icon: Clock },
-                    { id: 'history', label: 'History', icon: Calendar }
+                    { id: 'timer', label: t('timer'), icon: Timer },
+                    { id: 'protocols', label: t('protocols'), icon: Clock },
+                    { id: 'history', label: t('history'), icon: Calendar }
                 ].map(tab => (
                     <button
                         key={tab.id}
@@ -277,12 +277,12 @@ export default function FastingPage() {
                             {isFasting && (
                                 <div className="text-center mb-6 animate-fade-in">
                                     <div className={`text-xl font-bold ${currentStage.color}`}>
-                                        {currentStage.name}
+                                        {t(currentStage.name)}
                                     </div>
-                                    <p className="text-gray-400 text-sm">{currentStage.desc}</p>
+                                    <p className="text-gray-400 text-sm">{t(currentStage.desc)}</p>
                                     {nextStage && (
                                         <p className="text-xs text-gray-500 mt-2">
-                                            Next: {nextStage.name} in {Math.ceil(nextStage.hours - elapsedHours)}h
+                                            {t('nextStage')}: {t(nextStage.name)} in {Math.ceil(nextStage.hours - elapsedHours)}h
                                         </p>
                                     )}
                                 </div>
@@ -290,7 +290,7 @@ export default function FastingPage() {
 
                             {/* Protocol Indicator */}
                             <div className={`px-4 py-2 rounded-full ${getColorClass(selectedProtocol.color, 'bg')}/20 ${getColorClass(selectedProtocol.color, 'text')} text-sm font-medium mb-6`}>
-                                {selectedProtocol.name} ({selectedProtocol.fasting}:{selectedProtocol.eating})
+                                {t(selectedProtocol.name)} ({selectedProtocol.fasting}:{selectedProtocol.eating})
                             </div>
 
                             {/* Action Button */}
@@ -333,9 +333,9 @@ export default function FastingPage() {
                                     </div>
                                     <div className="flex-1">
                                         <div className={`font-medium ${elapsedHours >= stage.hours ? stage.color : 'text-gray-500'}`}>
-                                            {stage.name}
+                                            {t(stage.name)}
                                         </div>
-                                        <div className="text-xs text-gray-500">{stage.desc}</div>
+                                        <div className="text-xs text-gray-500">{t(stage.desc)}</div>
                                     </div>
                                     {elapsedHours >= stage.hours && (
                                         <div className="text-emerald-400">
@@ -376,14 +376,14 @@ export default function FastingPage() {
                             <div className="flex items-start justify-between mb-3">
                                 <div>
                                     <h3 className={`text-xl font-bold ${getColorClass(protocol.color, 'text')}`}>
-                                        {protocol.name}
+                                        {t(protocol.name)}
                                     </h3>
                                     <div className="flex items-center gap-3 mt-1">
                                         <span className="text-sm text-gray-400">
                                             {protocol.fasting}h fast : {protocol.eating}h eat
                                         </span>
                                         <span className={`text-xs px-2 py-0.5 rounded-full ${getColorClass(protocol.color, 'bg')}/20 ${getColorClass(protocol.color, 'text')}`}>
-                                            {protocol.difficulty}
+                                            {t(protocol.difficulty)}
                                         </span>
                                     </div>
                                 </div>
@@ -394,15 +394,15 @@ export default function FastingPage() {
                                 )}
                             </div>
 
-                            <p className="text-gray-400 text-sm mb-4">{protocol.description}</p>
+                            <p className="text-gray-400 text-sm mb-4">{t(protocol.description)}</p>
 
                             <div className="bg-[var(--bg-secondary)] rounded-lg p-3 mb-3">
-                                <div className="text-xs text-gray-500 mb-1">Example Schedule</div>
-                                <div className="text-sm text-gray-300">{protocol.example}</div>
+                                <div className="text-xs text-gray-500 mb-1">{t('example')}</div>
+                                <div className="text-sm text-gray-300">{t(protocol.example)}</div>
                             </div>
 
                             <div className="flex flex-wrap gap-2">
-                                {protocol.benefits.map((benefit, i) => (
+                                {t(protocol.benefits).map((benefit, i) => (
                                     <span key={i} className="text-xs px-2 py-1 rounded-full bg-[var(--bg-tertiary)] text-gray-400">
                                         {benefit}
                                     </span>

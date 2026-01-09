@@ -150,7 +150,87 @@
     "averageFast": "Average Fast",
     "notFasting": "Not Fasting",
     "fasting": "Fasting",
-    "eating": "Eating"
+    "eating": "Eating",
+    "timer": "Timer",
+    "protocols": "Protocols",
+    "stages": "Stages",
+    "protocols_12_12": {
+      "name": "12:12 Beginner",
+      "description": "Perfect for beginners. Fast for 12 hours overnight, eat during 12 hours.",
+      "benefits": ["Improved digestion", "Better sleep quality", "Gentle introduction to fasting"],
+      "example": "Stop eating at 8pm, resume at 8am"
+    },
+    "protocols_16_8": {
+      "name": "16:8 Lean Gains",
+      "description": "Most popular protocol. Skip breakfast, eat lunch and dinner.",
+      "benefits": ["Fat burning (ketosis)", "Improved insulin sensitivity", "Easier calorie control"],
+      "example": "Stop eating at 8pm, resume at 12pm next day"
+    },
+    "protocols_18_6": {
+      "name": "18:6 Warrior Prep",
+      "description": "Extended fat burning. One main meal plus a snack.",
+      "benefits": ["Deep ketosis", "Cellular autophagy begins", "Enhanced mental clarity"],
+      "example": "Eat between 12pm and 6pm only"
+    },
+    "protocols_20_4": {
+      "name": "20:4 Warrior",
+      "description": "One large meal per day with a small snack window.",
+      "benefits": ["Maximum autophagy", "Growth hormone boost", "Significant fat loss"],
+      "example": "Eat between 2pm and 6pm only"
+    },
+    "protocols_24": {
+      "name": "24h Full Fast",
+      "description": "Complete 24-hour fast, done 1-2 times per week.",
+      "benefits": ["Deep cellular repair", "Immune system reset", "Peak growth hormone"],
+      "example": "Dinner to dinner fast"
+    },
+    "stages_fed": {
+      "name": "Fed State",
+      "desc": "Body digesting and absorbing nutrients"
+    },
+    "stages_early": {
+      "name": "Early Fasting",
+      "desc": "Blood sugar normalizing, insulin dropping"
+    },
+    "stages_fat_burning": {
+      "name": "Fat Burning",
+      "desc": "Body starting to use fat for energy"
+    },
+    "stages_ketosis": {
+      "name": "Ketosis",
+      "desc": "Significant ketone production begins"
+    },
+    "stages_autophagy": {
+      "name": "Autophagy",
+      "desc": "Cellular repair and recycling activated"
+    },
+    "stages_deep_autophagy": {
+      "name": "Deep Autophagy",
+      "desc": "Significant cellular cleaning underway"
+    },
+    "stages_growth_hormone": {
+      "name": "Growth Hormone",
+      "desc": "HGH surge up to 5x baseline"
+    },
+    "easy": "Easy",
+    "moderate": "Moderate",
+    "challenging": "Challenging",
+    "advanced": "Advanced",
+    "expert": "Expert",
+    "selectProtocol": "Select Protocol",
+    "startFasting": "Start Fasting",
+    "stopFasting": "Stop Fasting",
+    "reset": "Reset",
+    "hours": "hours",
+    "minutes": "minutes",
+    "seconds": "seconds",
+    "elapsed": "Elapsed",
+    "remaining": "Remaining",
+    "completed": "Completed",
+    "currentStage": "Current Stage",
+    "nextStage": "Next Stage",
+    "benefits": "Benefits",
+    "example": "Example"
   },
   "coach": {
     "title": "Personal Coach",

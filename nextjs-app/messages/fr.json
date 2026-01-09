@@ -123,7 +123,7 @@
         "sugar": "Sucres"
     },
     "fasting": {
-        "title": "Jeûne Intermittent",
+        "title": "Centre de Jeûne",
         "subtitle": "Gérez votre programme de jeûne intermittent",
         "currentFast": "Jeûne Actuel",
         "startFast": "Commencer le Jeûne",
@@ -141,7 +141,87 @@
         "averageFast": "Jeûne Moyen",
         "notFasting": "Pas en Jeûne",
         "fasting": "En Jeûne",
-        "eating": "En Alimentation"
+        "eating": "En Alimentation",
+        "timer": "Minuteur",
+        "protocols": "Protocoles",
+        "stages": "Étapes",
+        "protocols_12_12": {
+            "name": "12:12 Débutant",
+            "description": "Parfait pour les débutants. Jeûnez 12 heures la nuit, mangez pendant 12 heures.",
+            "benefits": ["Amélioration de la digestion", "Meilleure qualité du sommeil", "Introduction douce au jeûne"],
+            "example": "Arrêtez de manger à 20h, reprenez à 8h"
+        },
+        "protocols_16_8": {
+            "name": "16:8 Gains Maigres",
+            "description": "Protocole le plus populaire. Sautez le petit-déjeuner, mangez déjeuner et dîner.",
+            "benefits": ["Combustion des graisses (cétose)", "Amélioration de la sensibilité à l'insuline", "Contrôle calorique plus facile"],
+            "example": "Arrêtez de manger à 20h, reprenez à 12h le lendemain"
+        },
+        "protocols_18_6": {
+            "name": "18:6 Préparation Guerrier",
+            "description": "Combustion prolongée des graisses. Un repas principal plus une collation.",
+            "benefits": ["Cétose profonde", "Autophagie cellulaire commence", "Clarté mentale améliorée"],
+            "example": "Mangez uniquement entre 12h et 18h"
+        },
+        "protocols_20_4": {
+            "name": "20:4 Guerrier",
+            "description": "Un grand repas par jour avec une petite fenêtre de collation.",
+            "benefits": ["Autophagie maximale", "Boost d'hormone de croissance", "Perte de graisse significative"],
+            "example": "Mangez uniquement entre 14h et 18h"
+        },
+        "protocols_24": {
+            "name": "24h Jeûne Complet",
+            "description": "Jeûne complet de 24 heures, fait 1-2 fois par semaine.",
+            "benefits": ["Réparation cellulaire profonde", "Réinitialisation du système immunitaire", "Pic d'hormone de croissance"],
+            "example": "Jeûne dîner à dîner"
+        },
+        "stages_fed": {
+            "name": "État Nourri",
+            "desc": "Le corps digère et absorbe les nutriments"
+        },
+        "stages_early": {
+            "name": "Début de Jeûne",
+            "desc": "Normalisation de la glycémie, baisse de l'insuline"
+        },
+        "stages_fat_burning": {
+            "name": "Combustion des Graisses",
+            "desc": "Le corps commence à utiliser les graisses comme énergie"
+        },
+        "stages_ketosis": {
+            "name": "Cétose",
+            "desc": "Production significative de cétones commence"
+        },
+        "stages_autophagy": {
+            "name": "Autophagie",
+            "desc": "Réparation et recyclage cellulaire activé"
+        },
+        "stages_deep_autophagy": {
+            "name": "Autophagie Profonde",
+            "desc": "Nettoyage cellulaire significatif en cours"
+        },
+        "stages_growth_hormone": {
+            "name": "Hormone de Croissance",
+            "desc": "Surtension HGH jusqu'à 5x la base"
+        },
+        "easy": "Facile",
+        "moderate": "Modéré",
+        "challenging": "Difficile",
+        "advanced": "Avancé",
+        "expert": "Expert",
+        "selectProtocol": "Sélectionner Protocole",
+        "startFasting": "Commencer le Jeûne",
+        "stopFasting": "Arrêter le Jeûne",
+        "reset": "Réinitialiser",
+        "hours": "heures",
+        "minutes": "minutes",
+        "seconds": "secondes",
+        "elapsed": "Écoulé",
+        "remaining": "Restant",
+        "completed": "Terminé",
+        "currentStage": "Étape Actuelle",
+        "nextStage": "Étape Suivante",
+        "benefits": "Avantages",
+        "example": "Exemple"
     },
     "coach": {
         "title": "Coach Personnel",

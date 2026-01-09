@@ -132,7 +132,7 @@
         "searching": "Buscando..."
     },
     "fasting": {
-        "title": "Ayuno Intermitente",
+        "title": "Centro de Ayuno",
         "subtitle": "Gestiona tu programa de ayuno intermitente",
         "currentFast": "Ayuno Actual",
         "startFast": "Iniciar Ayuno",
@@ -150,7 +150,87 @@
         "averageFast": "Ayuno Promedio",
         "notFasting": "Sin Ayuno",
         "fasting": "En Ayuno",
-        "eating": "Comiendo"
+        "eating": "Comiendo",
+        "timer": "Temporizador",
+        "protocols": "Protocolos",
+        "stages": "Etapas",
+        "protocols_12_12": {
+            "name": "12:12 Principiante",
+            "description": "Perfecto para principiantes. Ayuna 12 horas por la noche, come durante 12 horas.",
+            "benefits": ["Mejora la digestión", "Mejor calidad del sueño", "Introducción suave al ayuno"],
+            "example": "Deja de comer a las 8pm, reanuda a las 8am"
+        },
+        "protocols_16_8": {
+            "name": "16:8 Ganancias Magras",
+            "description": "Protocolo más popular. Salta el desayuno, come almuerzo y cena.",
+            "benefits": ["Quema de grasa (cetosis)", "Mejora la sensibilidad a la insulina", "Control calórico más fácil"],
+            "example": "Deja de comer a las 8pm, reanuda a las 12pm al día siguiente"
+        },
+        "protocols_18_6": {
+            "name": "18:6 Preparación Guerrero",
+            "description": "Quema prolongada de grasa. Una comida principal más un refrigerio.",
+            "benefits": ["Cetosis profunda", "Comienza la autofagia celular", "Claridad mental mejorada"],
+            "example": "Come solo entre las 12pm y 6pm"
+        },
+        "protocols_20_4": {
+            "name": "20:4 Guerrero",
+            "description": "Una comida grande al día con una pequeña ventana de refrigerio.",
+            "benefits": ["Autofagia máxima", "Impulso de hormona del crecimiento", "Pérdida significativa de grasa"],
+            "example": "Come solo entre las 2pm y 6pm"
+        },
+        "protocols_24": {
+            "name": "24h Ayuno Completo",
+            "description": "Ayuno completo de 24 horas, hecho 1-2 veces por semana.",
+            "benefits": ["Reparación celular profunda", "Reinicio del sistema inmunológico", "Pico de hormona del crecimiento"],
+            "example": "Ayuno de cena a cena"
+        },
+        "stages_fed": {
+            "name": "Estado Alimentado",
+            "desc": "El cuerpo digiere y absorbe nutrientes"
+        },
+        "stages_early": {
+            "name": "Ayuno Temprano",
+            "desc": "Normalización del azúcar en sangre, insulina bajando"
+        },
+        "stages_fat_burning": {
+            "name": "Quema de Grasa",
+            "desc": "El cuerpo comienza a usar grasa como energía"
+        },
+        "stages_ketosis": {
+            "name": "Cetosis",
+            "desc": "Comienza la producción significativa de cetonas"
+        },
+        "stages_autophagy": {
+            "name": "Autofagia",
+            "desc": "Reparación y reciclaje celular activado"
+        },
+        "stages_deep_autophagy": {
+            "name": "Autofagia Profunda",
+            "desc": "Limpieza celular significativa en curso"
+        },
+        "stages_growth_hormone": {
+            "name": "Hormona del Crecimiento",
+            "desc": "Aumento de HGH hasta 5x la base"
+        },
+        "easy": "Fácil",
+        "moderate": "Moderado",
+        "challenging": "Desafiante",
+        "advanced": "Avanzado",
+        "expert": "Experto",
+        "selectProtocol": "Seleccionar Protocolo",
+        "startFasting": "Iniciar Ayuno",
+        "stopFasting": "Detener Ayuno",
+        "reset": "Reiniciar",
+        "hours": "horas",
+        "minutes": "minutos",
+        "seconds": "segundos",
+        "elapsed": "Transcurrido",
+        "remaining": "Restante",
+        "completed": "Completado",
+        "currentStage": "Etapa Actual",
+        "nextStage": "Siguiente Etapa",
+        "benefits": "Beneficios",
+        "example": "Ejemplo"
     },
     "coach": {
         "title": "Entrenador Personal",
