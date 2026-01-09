@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { UserProvider } from "@/contexts/UserContext";
-import Sidebar from "@/components/Sidebar";
+import LayoutWrapper from "@/components/LayoutWrapper";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getLocale } from 'next-intl/server';
 
@@ -29,12 +29,9 @@ export default async function RootLayout({
       <body className={`${inter.variable} antialiased`}>
         <NextIntlClientProvider messages={messages}>
           <UserProvider>
-            <div className="flex">
-              <Sidebar />
-              <main className="main-content">
-                {children}
-              </main>
-            </div>
+            <LayoutWrapper>
+              {children}
+            </LayoutWrapper>
           </UserProvider>
         </NextIntlClientProvider>
       </body>

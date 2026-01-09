@@ -702,7 +702,7 @@ body {
   color: var(--text-secondary);
   text-decoration: none;
   transition: all 0.3s ease;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -735,6 +735,12 @@ body {
   overflow-x: hidden;
   max-width: 100%;
   box-sizing: border-box;
+}
+
+.main-content.no-sidebar {
+  margin-left: 0;
+  padding: 0;
+  max-width: 100vw;
 }
 
 @media (max-width: 1024px) {
