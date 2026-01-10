@@ -370,10 +370,10 @@ export default function CalculatorPage() {
         });
     };
 
-    const saveToProfile = () => {
+    const saveToProfile = async () => {
         if (!results) return;
 
-        updateSettings({
+        const success = await updateSettings({
             weight: formData.weight,
             height: formData.height,
             age: formData.age,
@@ -390,7 +390,12 @@ export default function CalculatorPage() {
             hip: formData.hip,
         });
 
-        setSaved(true);
+        if (success) {
+            setSaved(true);
+            setTimeout(() => setSaved(false), 3000);
+        } else {
+            alert('Failed to save settings. Please try again.');
+        }
     };
 
     if (!user) return <div className="p-8 text-center">Loading...</div>;

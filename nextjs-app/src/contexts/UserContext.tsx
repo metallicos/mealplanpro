@@ -37,7 +37,7 @@ interface UserContextType {
     isSaving: boolean;
     login: (email: string, pass: string) => Promise<void>;
     logout: () => Promise<void>;
-    updateSettings: (newSettings: Partial<UserSettings>) => Promise<void>;
+    updateSettings: (newSettings: Partial<UserSettings>) => Promise<boolean>;
     theme: {
         primary: string;
         secondary: string;
@@ -172,24 +172,33 @@ export function UserProvider({ children }: { children: ReactNode }) {
         window.location.href = '/login';
     };
 
-    const updateSettings = async (newSettings: Partial<UserSettings>) => {
-        if (!user) return;
-
-        setIsSaving(true);
-        const updated = { ...settings, ...newSettings };
-        setSettings(updated);
+    const updateSettings = async (newSettings: Partial<UserSettings>): Promise<boolean> => {
+        if (!user) return false;
 
         try {
-            await fetch('/api/profile', {
+            setIsSaving(true);
+            const res = await fetch('/api/profile', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     user_id: user.id, // Using the new int ID
-                    ...updated,
+                    ...settings,
+                    ...newSettings
                 }),
             });
+
+            if (res.ok) {
+                const updated = { ...settings, ...newSettings };
+                setSettings(updated);
+                return true;
+            } else {
+                const errData = await res.json().catch(() => ({}));
+                console.error('Failed to save settings:', res.status, errData);
+                return false;
+            }
         } catch (error) {
             console.error('Failed to save settings:', error);
+            return false;
         } finally {
             setIsSaving(false);
         }
