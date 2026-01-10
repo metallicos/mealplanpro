@@ -3,7 +3,8 @@ import { getSession } from '@/lib/auth';
 import { query } from '@/lib/db';
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${GEMINI_API_KEY}`;
+const MODEL = 'gemini-2.0-flash-lite-preview-02-05';
+const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${GEMINI_API_KEY}`;
 
 export async function POST(request: NextRequest) {
     try {
@@ -66,6 +67,11 @@ export async function POST(request: NextRequest) {
         if (!response.ok) {
             const err = await response.text();
             console.error('Gemini API Error:', err);
+            if (response.status === 429) {
+                return NextResponse.json({
+                    error: 'My energy is low (Rate Limit)! Please give me a moment to recharge.'
+                }, { status: 429 });
+            }
             throw new Error('AI Service Unavailable');
         }
 
