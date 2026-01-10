@@ -3,6 +3,10 @@ import { createClient } from '@libsql/client';
 const url = process.env.TURSO_DATABASE_URL || 'file:local.db';
 const authToken = process.env.TURSO_AUTH_TOKEN;
 
+// Debug: Log which DB we are connecting to (Mask auth info)
+const maskUrl = url.includes('@') ? url.replace(/:[^:@]+@/, ':***@') : url;
+console.log(`[DB INIT] Connecting to: ${maskUrl}`);
+
 const client = createClient({
     url,
     authToken,

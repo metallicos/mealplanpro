@@ -1,29 +1,20 @@
 const { createClient } = require('@libsql/client');
-const path = require('path');
-const dotenv = require('dotenv');
 
-// Load .env explicitly
-const envPath = path.resolve(__dirname, '../.env');
-const result = dotenv.config({ path: envPath });
-
-console.log('Loading .env from:', envPath);
-if (result.error) console.log('Error loading .env:', result.error.message);
-
-const url = process.env.TURSO_DATABASE_URL;
-const authToken = process.env.TURSO_AUTH_TOKEN;
-
-if (!url) {
-    console.log('SKIP: TURSO_DATABASE_URL not found.');
-    process.exit(0);
+const args = process.argv.slice(2);
+if (args.length < 2) {
+    console.error('Usage: node scripts/check-turso-schema.js <URL> <TOKEN>');
+    process.exit(1);
 }
 
-if (!url.includes('turso.io')) {
-    console.log('NOTE: URL does not look like Turso cloud (might be local):', url);
-} else {
-    console.log('Connecting to Turso Cloud DB...');
-}
+const url = args[0];
+const authToken = args[1];
 
-const client = createClient({ url, authToken });
+console.log('Target Database:', url);
+
+const client = createClient({
+    url,
+    authToken,
+});
 
 async function check() {
     try {
@@ -35,10 +26,19 @@ async function check() {
         const missing = required.filter(c => !columns.includes(c));
 
         if (missing.length === 0) {
-            console.log('SUCCESS: All required columns (diet_mode, neck, waist, hip) are present.');
+            console.log('SUCCESS: All required columns (diet_mode, neck, waist, hip) are present in user_profiles.');
         } else {
-            console.log('FAILURE: Missing columns:', missing.join(', '));
+            console.log('FAILURE: Missing columns in user_profiles:', missing.join(', '));
         }
+
+        const resForum = await client.execute("PRAGMA table_info(forum_posts)");
+        const columnsForum = resForum.rows.map(r => r.name);
+        if (columnsForum.includes('image_url')) {
+            console.log('SUCCESS: image_url is present in forum_posts.');
+        } else {
+            console.log('FAILURE: image_url is missing in forum_posts.');
+        }
+
     } catch (e) {
         console.error('Error querying DB:', e.message);
     }
