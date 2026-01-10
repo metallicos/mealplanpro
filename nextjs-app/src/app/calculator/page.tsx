@@ -266,7 +266,7 @@ export default function CalculatorPage() {
                                 <input
                                     type="number"
                                     className="form-input"
-                                    value={formData.weight}
+                                    value={formData.weight || ''}
                                     onChange={(e) => setFormData({ ...formData, weight: parseInt(e.target.value) || 0 })}
                                 />
                             </div>
@@ -275,7 +275,7 @@ export default function CalculatorPage() {
                                 <input
                                     type="number"
                                     className="form-input"
-                                    value={formData.height}
+                                    value={formData.height || ''}
                                     onChange={(e) => setFormData({ ...formData, height: parseInt(e.target.value) || 0 })}
                                 />
                             </div>
@@ -286,7 +286,7 @@ export default function CalculatorPage() {
                             <input
                                 type="number"
                                 className="form-input"
-                                value={formData.age}
+                                value={formData.age || ''}
                                 onChange={(e) => setFormData({ ...formData, age: parseInt(e.target.value) || 0 })}
                             />
                         </div>
