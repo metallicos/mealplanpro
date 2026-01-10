@@ -101,10 +101,10 @@ export default function CalculatorPage() {
             gender: settings.gender || 'female',
             activity: settings.activityLevel || 'sedentary',
             goal: settings.goal || 'maintain',
-            neck: formData.neck,
-            waist: formData.waist,
-            hip: formData.hip,
-            dietMode: formData.dietMode,
+            neck: settings.neck || formData.neck,
+            waist: settings.waist || formData.waist,
+            hip: settings.hip || formData.hip,
+            dietMode: settings.dietMode || formData.dietMode,
         };
 
         setFormData(prev => ({
@@ -384,6 +384,10 @@ export default function CalculatorPage() {
             proteinTarget: results.protein,
             carbsTarget: results.carbs,
             fatTarget: results.fat,
+            dietMode: formData.dietMode,
+            neck: formData.neck,
+            waist: formData.waist,
+            hip: formData.hip,
         });
 
         setSaved(true);

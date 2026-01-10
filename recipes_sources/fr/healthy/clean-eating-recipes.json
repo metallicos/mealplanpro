@@ -1,7 +1,7 @@
 [
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/tomato-nduja-bruschetta/",
-        "title": "Bruschetta tomates et nduja",
+        "title": "Bruschetta aux tomates et nduja",
         "description": "Utilisez des tomates mûres pour préparer ces bouchées de bruschetta sucrées et épicées. Ils sont idéaux pour une garden-party, quand peu importe si vous faites un peu de désordre",
         "prep_time": "15 mins Cook: 10 mins",
         "cook_time": "",
@@ -201,7 +201,7 @@
         "serves": "8",
         "ingredients": [
             "12 cuisses de poulet désossées et sans peau",
-            "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+            "Erreur 500 (Erreur du serveur) !!1500.C'est une erreur.Une erreur s'est produite. Veuillez réessayer plus tard. C'est tout ce que nous savons.",
             "2 citrons pressés, ½ citron zesté",
             "100 ml d'huile d'olive",
             "4 gousses d'ail, très finement râpées ou écrasées",
@@ -698,7 +698,7 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/vitamin-booster-smoothie/",
-        "title": "Smoothie booster de vitamines",
+        "title": "Le smoothie booste les vitamines",
         "description": "Augmentez votre quota de vitamines avec l'aide de ce smoothie lumineux et frais. L'orange, la carotte, le céleri et la mangue apportent un punch nutritif",
         "prep_time": "5 mins No cook",
         "cook_time": "",
@@ -1000,7 +1000,7 @@
             "½ cuillère à café de coriandre moulue",
             "15g d'amandes moulues",
             "40 g de maïs doux cuit",
-            "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+            "Erreur 500 (Erreur du serveur) !!1500.C'est une erreur.Une erreur s'est produite. Veuillez réessayer plus tard. C'est tout ce que nous savons.",
             "2 grosses ou 3 tomates normales, hachées",
             "1 cuillère à café de purée de tomates",
             "1 cuillère à café de vinaigre balsamique",
@@ -1448,7 +1448,7 @@
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "200 g de blé boulgar",
+            "200 g de boulgar de blé",
             "petit bouquet de menthe, hachée finement",
             "petit bouquet de persil, finement haché",
             "petit bouquet d'aneth, finement haché",
@@ -1928,7 +1928,7 @@
             "1 cuillère à soupe d'aneth haché",
             "2 cuillères à soupe de persil haché",
             "2 œufs",
-            "Fusée en paquet de 65 g",
+            "Conditionnement en paquet de 65 g",
             "½ oignon rouge, tranché très finement"
         ],
         "method": [
@@ -2369,7 +2369,7 @@
             "2 cuillères à soupe d'huile d'olive",
             "1 à 2 cuillères à soupe de vinaigre balsamique",
             "Fusée en sachet de 140g",
-            "25 g de parmesan",
+            "25g de parmesan",
             "quartiers de citron",
             "2 gousses d'ail",
             "3 brins de romarin, feuilles finement hachées",
@@ -3369,7 +3369,7 @@
             "3 œufs",
             "225 g de sucre en poudre",
             "2 cuillères à café d'extrait de vanille",
-            "300 g de farine autolevante",
+            "300 g de farines autolevantes",
             "50g de noix de coco desséchée",
             "175 ml de lait de soja",
             "140 g de myrtilles fraîches ou surgelées, plus un peu pour servir",

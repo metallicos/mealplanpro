@@ -49,6 +49,10 @@ export async function GET(request: Request) {
             proteinTarget: data.protein_target || 150,
             carbsTarget: data.carbs_target || 200,
             fatTarget: data.fat_target || 66,
+            dietMode: data.diet_mode || 'normal',
+            neck: data.neck || 0,
+            waist: data.waist || 0,
+            hip: data.hip || 0,
             avatar_url: data.avatar_url,
         });
     } catch (error) {
@@ -121,8 +125,8 @@ export async function POST(request: Request) {
         await query(
             `INSERT INTO user_profiles 
              (user_id, weight, height, age, gender, activity_level, goal, 
-              daily_calorie_target, protein_target, carbs_target, fat_target, avatar_url, facebook, instagram, twitter)
-             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+              daily_calorie_target, protein_target, carbs_target, fat_target, diet_mode, neck, waist, hip, avatar_url, facebook, instagram, twitter)
+             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
              ON CONFLICT(user_id) DO UPDATE SET 
               weight = excluded.weight,
               height = excluded.height,
@@ -134,6 +138,10 @@ export async function POST(request: Request) {
               protein_target = excluded.protein_target,
               carbs_target = excluded.carbs_target,
               fat_target = excluded.fat_target,
+              diet_mode = excluded.diet_mode,
+              neck = excluded.neck,
+              waist = excluded.waist,
+              hip = excluded.hip,
               avatar_url = excluded.avatar_url,
               facebook = excluded.facebook,
               instagram = excluded.instagram,
@@ -150,6 +158,10 @@ export async function POST(request: Request) {
                 settings.proteinTarget || null,
                 settings.carbsTarget || null,
                 settings.fatTarget || null,
+                settings.dietMode || 'normal',
+                settings.neck || 0,
+                settings.waist || 0,
+                settings.hip || 0,
                 avatar_url || null,
                 settings.facebook || null,
                 settings.instagram || null,

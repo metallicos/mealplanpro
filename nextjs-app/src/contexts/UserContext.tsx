@@ -24,6 +24,10 @@ export interface UserSettings {
     proteinTarget: number;
     carbsTarget: number;
     fatTarget: number;
+    dietMode: 'normal' | 'low_carb' | 'keto';
+    neck: number;
+    waist: number;
+    hip: number;
 }
 
 interface UserContextType {
@@ -48,6 +52,10 @@ const defaultSettings: UserSettings = {
     weight: 0,
     height: 0,
     age: 0,
+    dietMode: 'normal',
+    neck: 0,
+    waist: 0,
+    hip: 0,
     gender: 'male',
     activityLevel: 'sedentary',
     goal: 'maintain',
@@ -129,6 +137,10 @@ export function UserProvider({ children }: { children: ReactNode }) {
                     proteinTarget: data.proteinTarget || defaultSettings.proteinTarget,
                     carbsTarget: data.carbsTarget || defaultSettings.carbsTarget,
                     fatTarget: data.fatTarget || defaultSettings.fatTarget,
+                    dietMode: data.dietMode || defaultSettings.dietMode,
+                    neck: data.neck || defaultSettings.neck,
+                    waist: data.waist || defaultSettings.waist,
+                    hip: data.hip || defaultSettings.hip,
                 });
             }
         } catch (error) {
