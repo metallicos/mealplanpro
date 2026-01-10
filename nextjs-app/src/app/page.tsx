@@ -134,7 +134,13 @@ export default function Dashboard() {
       <OnboardingController />
       <div className="mb-8">
         <h1 className="page-title">{t('welcomeBack', { name: user.fullName })}</h1>
-        <p className="page-subtitle">{t('trackMacrosDesc')}</p>
+        <p className="page-subtitle">
+          {settings.goal.includes('loss')
+            ? t('trackMacrosDescLoss')
+            : settings.goal.includes('gain')
+              ? t('trackMacrosDescGain')
+              : t('trackMacrosDescMaintain')}
+        </p>
       </div>
 
       {/* Stats Grid */}

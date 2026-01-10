@@ -65,7 +65,9 @@
   },
   "dashboard": {
     "welcomeBack": "Welcome back, {name}!",
-    "trackMacrosDesc": "Track your macros, hit your goals, and crush your fat loss journey.",
+    "trackMacrosDescLoss": "Track your macros, hit your goals, and crush your fat loss journey.",
+    "trackMacrosDescGain": "Track your macros, fuel your gains, and build the muscle you deserve.",
+    "trackMacrosDescMaintain": "Track your macros, stay balanced, and maintain your healthy lifestyle.",
     "caloriesToday": "Calories Today",
     "protein": "Protein",
     "carbs": "Carbs",

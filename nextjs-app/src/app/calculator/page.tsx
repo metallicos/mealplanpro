@@ -62,16 +62,21 @@ export default function CalculatorPage() {
 
     // Update form when settings change
     useEffect(() => {
-        setFormData({
-            weight: settings.weight,
-            height: settings.height,
-            age: settings.age,
-            gender: settings.gender,
-            activity: settings.activityLevel,
-            goal: settings.goal,
-        });
-        setResults(null);
-        setSaved(false);
+        // Only update if settings are actually different from current form to avoid overwrite loops if we want bidirectional
+        // But here we basically want to load settings into form initially or if they change externally.
+        // We do NOT want to reset results or saved status just because settings updated (e.g. after save!)
+        setFormData(prev => ({
+            ...prev,
+            weight: settings.weight || prev.weight,
+            height: settings.height || prev.height,
+            age: settings.age || prev.age,
+            gender: settings.gender || prev.gender,
+            activity: settings.activityLevel || prev.activity,
+            goal: settings.goal || prev.goal,
+        }));
+
+        // Don't reset results or saved status here because saveToProfile updates settings
+        // which triggers this effect, causing the UI to "flash" and reset.
         setIsLoadingWeights(true);
         loadWeightLogs();
     }, [settings, loadWeightLogs]);
@@ -133,18 +138,22 @@ export default function CalculatorPage() {
 
         const tdee = Math.round(bmr * (activityMultipliers[activity] || 1.2));
 
-        // Goal deficits
-        const deficits: Record<string, number> = {
+        // Goal multipliers (deficit or surplus)
+        const goalMultipliers: Record<string, number> = {
             aggressive_loss: 0.75,
             fat_loss: 0.80,
             slow_loss: 0.85,
             maintain: 1.0,
+            lean_gain: 1.10,
+            muscle_gain: 1.15,
         };
 
-        const targetCalories = Math.round(tdee * (deficits[goal] || 0.80));
+        const targetCalories = Math.round(tdee * (goalMultipliers[goal] || 1.0));
 
-        // Calculate macros (high protein for fat loss)
-        const protein = Math.round(weight * 1.6); // 1.6g per kg
+        // Calculate macros based on goal
+        const isGaining = goal === 'lean_gain' || goal === 'muscle_gain';
+        const proteinMultiplier = isGaining ? 2.0 : 1.6; // Higher protein for muscle gain
+        const protein = Math.round(weight * proteinMultiplier);
         const fat = Math.round((targetCalories * 0.25) / 9); // 25% from fat
         const proteinCals = protein * 4;
         const fatCals = fat * 9;
@@ -271,6 +280,8 @@ export default function CalculatorPage() {
                                 <option value="fat_loss">Moderate Fat Loss (-20%)</option>
                                 <option value="slow_loss">Slow Fat Loss (-15%)</option>
                                 <option value="maintain">Maintain Weight</option>
+                                <option value="lean_gain">Lean Muscle Gain (+10%)</option>
+                                <option value="muscle_gain">Muscle Building (+15%)</option>
                             </select>
                         </div>
 
@@ -301,7 +312,11 @@ export default function CalculatorPage() {
                                 <div className="text-3xl font-bold" style={{ color: theme.primary }}>
                                     {results.targetCalories.toLocaleString()}
                                 </div>
-                                <div className="stat-label">kcal/day for fat loss</div>
+                                <div className="stat-label">
+                                    {formData.goal.includes('loss') ? 'kcal/day for fat loss' :
+                                        formData.goal.includes('gain') ? 'kcal/day for muscle gain' :
+                                            'kcal/day'}
+                                </div>
                             </div>
                         </div>
 

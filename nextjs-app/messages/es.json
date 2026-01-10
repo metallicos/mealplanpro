@@ -65,7 +65,9 @@
     },
     "dashboard": {
         "welcomeBack": "¡Bienvenido de nuevo, {name}!",
-        "trackMacrosDesc": "Sigue tus macros, alcanza tus metas y logra tu pérdida de grasa.",
+        "trackMacrosDescLoss": "Sigue tus macros, alcanza tus metas y logra tu pérdida de grasa.",
+        "trackMacrosDescGain": "Sigue tus macros, alimenta tus ganancias y construye el músculo que mereces.",
+        "trackMacrosDescMaintain": "Sigue tus macros, mantén el equilibrio y tu estilo de vida saludable.",
         "caloriesToday": "Calorías Hoy",
         "protein": "Proteína",
         "carbs": "Carbohidratos",
