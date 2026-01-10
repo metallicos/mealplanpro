@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Timer } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 // Scientific Stages Data
 const STAGES = [
@@ -13,6 +14,7 @@ const STAGES = [
 ];
 
 export default function FastingTimer() {
+    const t = useTranslations('fasting');
     const [isFasting, setIsFasting] = useState(false);
     const [startTime, setStartTime] = useState<string | null>(null);
     const [elapsedSeconds, setElapsedSeconds] = useState(0);
@@ -97,10 +99,10 @@ export default function FastingTimer() {
                     <h3 className="font-semibold text-lg flex items-center gap-2 text-emerald-100">
                         {/* Timer Icon SVG */}
                         <Timer className="w-5 h-5 text-emerald-400" />
-                        Fasting Timer
+                        {t('fastingTimer')}
                     </h3>
                     <div className="text-xs px-2 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
-                        Goal: {goalHours}h
+                        {t('goal')}: {goalHours}h
                     </div>
                 </div>
 
@@ -114,7 +116,7 @@ export default function FastingTimer() {
                             <p className="text-xs text-slate-400">{currentStage.desc}</p>
                         </div>
                     ) : (
-                        <p className="text-sm text-slate-400">Ready to start your fast?</p>
+                        <p className="text-sm text-slate-400">{t('readyToStart')}</p>
                     )}
                 </div>
             </div>
@@ -126,7 +128,7 @@ export default function FastingTimer() {
                     : 'bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg shadow-emerald-500/20'
                     }`}
             >
-                {isFasting ? 'End Fast' : 'Start Fasting'}
+                {isFasting ? t('endFast') : t('startFast')}
             </button>
         </div>
     );

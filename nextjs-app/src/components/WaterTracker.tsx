@@ -1,14 +1,10 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-// Note: If lucide-react isn't in package.json, I might need to install it. 
-// CHECK: I should check package.json first? 
-// User said "replace all emojis with Lucide". I'll assume I can use it. 
-// Wait, I didn't see it in the package.json view earlier.
-// I will stick to text/svg for now to avoid build break, or add it.
-// Let's use simple SVG icons inline to be safe and "Professional" immediately without dep issues.
+import { useTranslations } from 'next-intl';
 
 export default function WaterTracker() {
+    const t = useTranslations('dashboard');
     const [totalMl, setTotalMl] = useState(0);
     const [goalMl, setGoalMl] = useState(2500);
     const [isLoading, setIsLoading] = useState(true);
@@ -69,9 +65,9 @@ export default function WaterTracker() {
                     <h3 className="flex items-center gap-2 font-semibold text-lg text-blue-100">
                         {/* Droplet SVG */}
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-400"><path d="M12 22a7 7 0 0 0 7-7c0-2-2-3-2-3q-3-3-5-6c-2 3-5 6-5 6s-2 1-2 3a7 7 0 0 0 7 7z" /></svg>
-                        Hydration
+                        {t('hydration')}
                     </h3>
-                    <p className="text-xs text-blue-300/80">Daily Goal: {goalMl}ml</p>
+                    <p className="text-xs text-blue-300/80">{t('dailyGoal')}: {goalMl}ml</p>
                 </div>
                 <div className="text-right">
                     <span className="text-2xl font-bold tracking-tight">{totalMl}</span>
@@ -87,21 +83,21 @@ export default function WaterTracker() {
                     className="flex flex-col items-center justify-center p-2 rounded-lg bg-blue-600/20 hover:bg-blue-600/40 border border-blue-500/30 transition-all hover:scale-105 active:scale-95"
                 >
                     <span className="text-xs font-medium text-blue-200">+250ml</span>
-                    <span className="text-[10px] text-blue-400">Glass</span>
+                    <span className="text-[10px] text-blue-400">{t('glass')}</span>
                 </button>
                 <button
                     onClick={() => addWater(500)}
                     className="flex flex-col items-center justify-center p-2 rounded-lg bg-blue-600/20 hover:bg-blue-600/40 border border-blue-500/30 transition-all hover:scale-105 active:scale-95"
                 >
                     <span className="text-xs font-medium text-blue-200">+500ml</span>
-                    <span className="text-[10px] text-blue-400">Bottle</span>
+                    <span className="text-[10px] text-blue-400">{t('bottle')}</span>
                 </button>
                 <button
                     onClick={() => addWater(750)}
                     className="flex flex-col items-center justify-center p-2 rounded-lg bg-blue-600/20 hover:bg-blue-600/40 border border-blue-500/30 transition-all hover:scale-105 active:scale-95"
                 >
                     <span className="text-xs font-medium text-blue-200">+750ml</span>
-                    <span className="text-[10px] text-blue-400">Jug</span>
+                    <span className="text-[10px] text-blue-400">{t('jug')}</span>
                 </button>
             </div>
         </div>

@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /**
- * Import recipes into TURSO (not local)
+ * Import recipes into TURSO with CORRECT nutrition parsing
+ * Fixed: Uses 'nutritional_info' key (not 'nutrition')
  */
 
 const { createClient } = require('@libsql/client');
@@ -38,13 +39,19 @@ function parseTime(value, extractCook = false) {
     return totalMinutes;
 }
 
+// Parse nutrition values like "251", "13g", "26g"
 function parseNutrition(value) {
-    if (!value) return 0;
-    return parseFloat(String(value).replace(/[^0-9.]/g, '')) || 0;
+    if (value === undefined || value === null) return 0;
+    const str = String(value);
+    const match = str.match(/[\d.]+/);
+    if (match) {
+        return parseFloat(match[0]) || 0;
+    }
+    return 0;
 }
 
 async function main() {
-    console.log('🚀 IMPORTING RECIPES TO TURSO');
+    console.log('🚀 IMPORTING RECIPES TO TURSO (FIXED NUTRITION V2)');
     console.log('📡 Connecting to:', TURSO_URL);
 
     const client = createClient({ url: TURSO_URL, authToken: TURSO_TOKEN });
@@ -56,6 +63,8 @@ async function main() {
 
     // Collect all recipes
     let allRecipes = [];
+    let sampleShown = false;
+
     for (const category of CATEGORIES) {
         const catPath = path.join(RECIPES_ROOT, category);
         if (!fs.existsSync(catPath)) continue;
@@ -67,9 +76,25 @@ async function main() {
             try {
                 const data = JSON.parse(fs.readFileSync(path.join(catPath, file), 'utf-8'));
                 const recipes = Array.isArray(data) ? data : (data.recipes || [data]);
+
                 for (const r of recipes) {
                     const title = r.title || r.name;
                     if (!title) continue;
+
+                    // FIXED: Get nutrition from 'nutritional_info' key
+                    const nutrition = r.nutritional_info || r.nutritionInfo || r.nutrition || {};
+                    const kcal = parseNutrition(nutrition.kcal || r.kcal || nutrition.calories || r.calories);
+                    const protein = parseNutrition(nutrition.protein || r.protein);
+                    const carbs = parseNutrition(nutrition.carbs || nutrition.carbohydrates || r.carbs);
+                    const fat = parseNutrition(nutrition.fat || r.fat);
+
+                    // Show first sample for debugging
+                    if (!sampleShown && kcal > 0) {
+                        console.log(`\n📊 Sample: ${title}`);
+                        console.log(`   nutritional_info:`, JSON.stringify(nutrition));
+                        console.log(`   Parsed: kcal=${kcal}, protein=${protein}, carbs=${carbs}, fat=${fat}`);
+                        sampleShown = true;
+                    }
 
                     allRecipes.push({
                         title: title.trim(),
@@ -79,10 +104,10 @@ async function main() {
                         prep_time: parseTime(r.prep_time || r.prepTime),
                         cook_time: parseTime(r.cook_time || r.cookTime) || parseTime(r.prep_time, true),
                         serves: parseInt(r.serves) || 4,
-                        calories: parseNutrition(r.calories),
-                        protein: parseNutrition(r.protein),
-                        carbs: parseNutrition(r.carbs),
-                        fat: parseNutrition(r.fat),
+                        calories: kcal,
+                        protein: protein,
+                        carbs: carbs,
+                        fat: fat,
                         is_healthy: category === 'healthy' ? 1 : 0,
                         category: category,
                         subcategory: r.subcategory || file.replace('.json', ''),
@@ -102,7 +127,11 @@ async function main() {
         seen.add(key);
         return true;
     });
+
+    // Count recipes with nutrition
+    const withNutrition = unique.filter(r => r.calories > 0).length;
     console.log(`\n📦 Unique recipes: ${unique.length}`);
+    console.log(`📊 With nutrition data: ${withNutrition}`);
 
     // Insert in batches
     console.log(`\n📥 Inserting recipes...`);
@@ -111,7 +140,6 @@ async function main() {
 
         for (const r of batch) {
             try {
-                // Insert recipe
                 const result = await client.execute({
                     sql: `INSERT INTO recipes (image_url, local_image_path, prep_time, cook_time, serves, calories, protein, carbs, fat, is_healthy, category, subcategory)
                           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
@@ -120,7 +148,6 @@ async function main() {
 
                 const recipeId = Number(result.lastInsertRowid);
 
-                // Insert English translation
                 await client.execute({
                     sql: `INSERT INTO recipe_translations (recipe_id, language_code, title, description, ingredients_json, method_json)
                           VALUES (?, 'en', ?, ?, ?, ?)`,
@@ -136,11 +163,13 @@ async function main() {
 
     // Verify
     const count = await client.execute('SELECT COUNT(*) as c FROM recipes');
-    const transCount = await client.execute('SELECT COUNT(*) as c FROM recipe_translations');
+    const withCals = await client.execute('SELECT COUNT(*) as c FROM recipes WHERE calories > 0');
+    const sample = await client.execute('SELECT id, calories, protein, carbs, fat FROM recipes WHERE calories > 0 LIMIT 3');
 
     console.log(`\n✨ IMPORT COMPLETE!`);
     console.log(`   📦 Recipes: ${count.rows[0].c}`);
-    console.log(`   🌍 Translations: ${transCount.rows[0].c}`);
+    console.log(`   📊 With calories: ${withCals.rows[0].c}`);
+    console.log(`   📋 Sample data:`, sample.rows);
 }
 
 main().catch(console.error);

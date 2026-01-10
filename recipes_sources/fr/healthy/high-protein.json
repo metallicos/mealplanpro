@@ -1,24 +1,24 @@
 [
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/protein-porridge/",
-        "title": "[FR] Protein porridge",
-        "description": "(Translation pending) Increase the protein in your breakfast by adding protein-rich toppings to your porridge. It’s ideal after a workout",
+        "title": "Bouillie protéinée",
+        "description": "Augmentez la teneur en protéines de votre petit-déjeuner en ajoutant des garnitures riches en protéines à votre porridge. C'est idéal après une séance de sport",
         "prep_time": "10 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "80g porridge oats",
-            "500ml milk (any kind)",
-            "30g protein powder (vanilla, chocolate or berry work well)",
-            "4 tbsp Greek-style yogurt",
-            "2 tbsp pumpkin, chia, flax or sunflower seeds",
-            "2 tbsp nut or seed butter",
-            "100g frozen or fresh fruit (like berries, bananas or sliced apples)",
-            "honey or other syrup, to serve"
+            "80 g de flocons d'avoine",
+            "500 ml de lait (n'importe quelle sorte)",
+            "30 g de protéines en poudre (la vanille, le chocolat ou les baies fonctionnent bien)",
+            "4 cuillères à soupe de yaourt à la grecque",
+            "2 cuillères à soupe de graines de citrouille, de chia, de lin ou de tournesol",
+            "2 cuillères à soupe de beurre de noix ou de graines",
+            "100 g de fruits frais ou surgelés (comme des baies, des bananes ou des pommes tranchées)",
+            "miel ou autre sirop, pour servir"
         ],
         "method": [
-            "Cook the oats and milk in a pan over a medium-low heat for 4-6 mins, stirring continuously until thickened and creamy. Remove from the heat and sift in the protein powder. Add a splash more milk or water to loosen, if you prefer a thinner porridge.",
-            "Divide between bowls and top with any toppings of your choice."
+            "Cuire les flocons d'avoine et le lait dans une poêle à feu moyen-doux pendant 4 à 6 minutes, en remuant continuellement jusqu'à épaississement et crémeux. Retirer du feu et tamiser la poudre de protéines. Ajoutez un peu plus de lait ou d'eau pour détendre, si vous préférez une bouillie plus fine.",
+            "Répartir dans les bols et garnir des garnitures de votre choix."
         ],
         "nutritional_info": {
             "kcal": "376",
@@ -35,25 +35,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/protein-bars/",
-        "title": "[FR] Protein bars",
-        "description": "(Translation pending) Make your own homemade protein bars for a post-workout boost. They’re made with protein powder, bananas, nut butter and a blend of seeds",
+        "title": "Barres protéinées",
+        "description": "Préparez vos propres barres protéinées maison pour un boost après l'entraînement. Ils sont faits de poudre de protéines, de bananes, de beurre de noix et d'un mélange de graines",
         "prep_time": "15 mins No cook, plus 1 hr chilling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "150g porridge oats",
-            "2 small bananas (about 160g), peeled and mashed",
-            "100ml maple syrup",
-            "200g almond, peanut or sunflower butter",
-            "90g vanilla protein powder",
-            "50g mixed seeds , plus 1 tbsp for the topping",
-            "1 tbsp vanilla extract",
-            "2 tbsp milk , any kind (optional)",
-            "50g dark chocolate , melted"
+            "150 g de flocons d'avoine",
+            "2 petites bananes (environ 160g), pelées et écrasées",
+            "100 ml de sirop d'érable",
+            "200 g de beurre d'amande, de cacahuète ou de tournesol",
+            "90 g de poudre de protéine de vanille",
+            "50 g de graines mélangées, plus 1 cuillère à soupe pour la garniture",
+            "1 cuillère à soupe d'extrait de vanille",
+            "2 cuillères à soupe de lait, n'importe quelle sorte (facultatif)",
+            "50 g de chocolat noir fondu"
         ],
         "method": [
-            "Put the oats in a blender and blitz until they resemble flour. Add the mashed banana, maple syrup, nut butter, protein powder, the mixed seeds and vanilla extract. Blend again to make a thick dough, adding the milk, if needed, to bring it together.",
-            "Press the dough into a 20cm square tin lined with baking parchment, ensuring it's in an even layer. Drizzle over the melted chocolate and scatter over the extra 1 tbsp mixed seeds and a pinch of sea salt flakes. Chill for 1 hr before cutting into bars. Will keep chilled for up to three days."
+            "Mettez les flocons d'avoine dans un mixeur et mixez jusqu'à ce qu'ils ressemblent à de la farine. Ajouter la purée de banane, le sirop d'érable, le beurre de noix, la poudre de protéines, le mélange de graines et l'extrait de vanille. Mélangez à nouveau pour obtenir une pâte épaisse, en ajoutant le lait, si nécessaire, pour la rassembler.",
+            "Pressez la pâte dans un moule carré de 20 cm recouvert de papier sulfurisé, en vous assurant qu'elle forme une couche uniforme. Arroser de chocolat fondu et parsemer de 1 cuillère à soupe supplémentaire de graines mélangées et d'une pincée de flocons de sel marin. Mettre au frais 1 h avant de couper en barres. Se conserve au frais jusqu'à trois jours."
         ],
         "nutritional_info": {
             "kcal": "205",
@@ -70,28 +70,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/baked-cod-with-tomatoes-capers-basil/",
-        "title": "[FR] Baked cod with tomatoes, capers & basil",
-        "description": "(Translation pending) Enjoy white fish once a week for a low-fat, high-protein meal. It also provides vitamins that support the heart, brain and bones",
+        "title": "Morue au four avec tomates, câpres et basilic",
+        "description": "Dégustez du poisson blanc une fois par semaine pour un repas faible en gras et riche en protéines. Il fournit également des vitamines qui soutiennent le cœur, le cerveau et les os.",
         "prep_time": "15 mins Cook: 35 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "200g baby new potatoes (about 12)",
-            "3 tsp rapeseed oil",
-            "½ tsp dried oregano",
-            "2 garlic cloves , finely grated",
-            "400g can chopped tomatos",
-            "1 tbsp capers",
-            "15g basil , chopped",
-            "1 tsp vegetable bouillon powder",
-            "320g cod fillets , chunky and skinless",
-            "180g fine green beans"
+            "200 g de pommes de terre nouvelles grelots (environ 12)",
+            "3 cuillères à café d'huile de colza",
+            "½ cuillère à café d'origan séché",
+            "2 gousses d'ail, finement râpées",
+            "Boîte de 400 g de tomates concassées",
+            "1 cuillère à soupe de câpres",
+            "15 g de basilic haché",
+            "1 cuillère à café de poudre de bouillon de légumes",
+            "320 g de filets de cabillaud, en morceaux et sans peau",
+            "180 g de haricots verts fins"
         ],
         "method": [
-            "Heat the oven to 200C/180C fan/gas 6. Toss the potatoes with 1 tsp of the oil, the oregano and plenty of ground black pepper then scatter into a baking dish and bake for 20 mins.",
-            "Meanwhile heat the remaining oil in a pan and briefly fry the garlic, stirring to make sure it doesn’t burn. Tip in the tomatoes, capers, chopped basil and bouillon then allow to bubble over a medium heat until it becomes a thick sauce – about 5 mins.",
-            "Remove the potatoes from the oven and push to one end of the dish. Tip the sauce into the other end and top with the cod then return to the oven for 15 mins until the cod flakes when tested, but is still moist.",
-            "While the fish is baking boil the green beans for 7 mins until tender. Pile the beans on to 2 plates to make a stack then spoon the sauce and cod on top. Add the potatoes and serve scattered with the whole basil leaves to serve."
+            "Chauffer le four à 200°C/180°C chaleur tournante/gaz 6. Mélanger les pommes de terre avec 1 cuillère à café d'huile, l'origan et beaucoup de poivre noir moulu, puis répartir dans un plat allant au four et cuire au four pendant 20 minutes.",
+            "Pendant ce temps, faites chauffer le reste de l'huile dans une poêle et faites revenir brièvement l'ail en remuant pour qu'il ne brûle pas. Ajoutez les tomates, les câpres, le basilic haché et le bouillon, puis laissez bouillonner à feu moyen jusqu'à obtenir une sauce épaisse – environ 5 minutes.",
+            "Sortez les pommes de terre du four et poussez-les jusqu'à une extrémité du plat. Versez la sauce dans l'autre extrémité et recouvrez de morue, puis remettez au four pendant 15 minutes jusqu'à ce que la morue se défasse au test, mais soit encore humide.",
+            "Pendant que le poisson cuit, faites bouillir les haricots verts pendant 7 minutes jusqu'à ce qu'ils soient tendres. Empilez les haricots dans 2 assiettes pour former une pile, puis versez la sauce et la morue dessus. Ajouter les pommes de terre et servir parsemées de feuilles de basilic entières."
         ],
         "nutritional_info": {
             "kcal": "327",
@@ -108,31 +108,31 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/sticky-tempeh-stir-fry/",
-        "title": "[FR] Sticky tempeh stir-fry",
-        "description": "(Translation pending) Rustle up this vegan stir-fry which uses tempeh, a great source of protein made from soy beans. Quick and easy, it takes just 30 minutes to make",
+        "title": "Sauté de tempeh collant",
+        "description": "Préparez ce sauté végétalien qui utilise du tempeh, une excellente source de protéines à base de graines de soja. Rapide et facile, cela ne prend que 30 minutes à réaliser",
         "prep_time": "10 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "2-3 tbsp vegetable oil",
-            "200g tempeh , torn into chunks",
-            "1 red onion , finely sliced",
-            "3 garlic cloves , roughly chopped",
-            "1 stick of lemongrass , chopped into thirds (optional)",
-            "2cm piece of ginger , peeled and roughly chopped",
-            "1 red chilli , roughly chopped (deseeded if you prefer)",
-            "100g mange tout , sliced at an angle",
-            "100g long-stem broccoli , chopped",
-            "2 tbsp low-sodium soy sauce",
-            "1½ tbsp brown sugar",
-            "15g coriander , roughly chopped",
-            "200g pouch cooked brown rice"
+            "2-3 cuillères à soupe d'huile végétale",
+            "200 g de tempeh coupé en morceaux",
+            "1 oignon rouge , finement tranché",
+            "3 gousses d'ail , hachées grossièrement",
+            "1 bâton de citronnelle, coupé en trois (facultatif)",
+            "2 cm de gingembre pelé et haché grossièrement",
+            "1 piment rouge haché grossièrement (épépiné si vous préférez)",
+            "100 g de mange tout , tranché en biais",
+            "100 g de brocoli à longues tiges, haché",
+            "2 cuillères à soupe de sauce soja faible en sodium",
+            "1½ cuillère à soupe de cassonade",
+            "15 g de coriandre hachée grossièrement",
+            "Sachet de 200 g de riz brun cuit"
         ],
         "method": [
-            "Heat 2 tbsp of the oil in awokor large frying pan over a high heat. Once shimmering, fry the tempeh for 3-4 mins until golden and charred at the edges. Remove from the pan and drain on kitchen paper.",
-            "Add a drizzle of oil to the pan if it’s dry, then fry the onion for 3-4 mins, stirring continuously. Once softened, add the garlic, lemongrass (if using), ginger and chilli. Cook for 3 mins, stirring frequently until fragrant.",
-            "Toss through the mange tout and broccoli, then pour 50ml water into the pan to create steam. Cook for 3-4 mins. Add the soy sauce and brown sugar. Return the tempeh to the pan and toss to combine, cooking 2-3 mins more until everything is tender and sticky. Stir in half the coriander.",
-            "Cook the rice following pack instructions, then divide between two bowls. Top with the stir-fry and remaining coriander."
+            "Faites chauffer 2 cuillères à soupe d'huile dans une grande poêle awokor à feu vif. Une fois scintillant, faites frire le tempeh pendant 3-4 minutes jusqu'à ce qu'il soit doré et carbonisé sur les bords. Retirer de la poêle et égoutter sur du papier absorbant.",
+            "Ajoutez un filet d'huile dans la poêle si elle est sèche, puis faites revenir l'oignon pendant 3-4 minutes en remuant continuellement. Une fois ramolli, ajoutez l'ail, la citronnelle (le cas échéant), le gingembre et le piment. Cuire pendant 3 minutes en remuant fréquemment jusqu'à ce qu'il soit parfumé.",
+            "Mélangez le mange-tout et le brocoli, puis versez 50 ml d'eau dans la casserole pour créer de la vapeur. Cuire 3-4 minutes. Ajouter la sauce soja et la cassonade. Remettez le tempeh dans la poêle et mélangez, en cuisant encore 2-3 minutes jusqu'à ce que tout soit tendre et collant. Incorporer la moitié de la coriandre.",
+            "Faites cuire le riz en suivant les instructions sur l'emballage, puis répartissez-le dans deux bols. Garnir du sauté et du reste de coriandre."
         ],
         "nutritional_info": {
             "kcal": "554",
@@ -149,30 +149,30 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chicken-cashew-noodles/",
-        "title": "[FR] Chicken & cashew noodles",
-        "description": "(Translation pending) Rustle up this speedy noodle dish with chicken, cashews, carrots and red peppers in under 25 minutes – it’s gluten-free and high in protein",
+        "title": "Nouilles au poulet et aux noix de cajou",
+        "description": "Préparez ce plat de nouilles rapides avec du poulet, des noix de cajou, des carottes et des poivrons rouges en moins de 25 minutes : il est sans gluten et riche en protéines.",
         "prep_time": "10 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "5",
         "ingredients": [
-            "250g dried flat rice noodles",
-            "1 tbsp garlic-infused oil",
-            "2 red peppers , chopped into thin strips",
-            "2 medium carrots , thinly sliced on the diagonal",
-            "2 chicken breasts , chopped into thin strips",
-            "150g cashews",
-            "½ tsp dried chilli flakes (optional)",
-            "sliced spring onions and chopped coriander, to serve",
-            "4½ tbsp gluten-free soy sauce",
-            "1½ tsp gluten-free white or red miso paste",
-            "1 tsp ginger paste",
-            "1½ tbsp dark brown sugar",
-            "1 tsp gluten-free plain flour"
+            "250 g de nouilles de riz plates séchées",
+            "1 cuillère à soupe d'huile infusée à l'ail",
+            "2 poivrons rouges coupés en fines lanières",
+            "2 carottes moyennes, tranchées finement en diagonale",
+            "2 poitrines de poulet, coupées en fines lanières",
+            "150g de noix de cajou",
+            "½ cuillère à café de flocons de piment séchés (facultatif)",
+            "oignons nouveaux tranchés et coriandre hachée, pour servir",
+            "4½ cuillères à soupe de sauce soja sans gluten",
+            "1½ cuillère à café de pâte miso blanche ou rouge sans gluten",
+            "1 cuillère à café de pâte de gingembre",
+            "1½ cuillère à soupe de cassonade foncée",
+            "1 cuillère à café de farine nature sans gluten"
         ],
         "method": [
-            "Mix together all the ingredients for the sauce with 1 tbsp water in a small bowl and set aside.",
-            "Cook the dried noodles following pack instructions, then set aside.",
-            "Place a largewokover a high heat and add the oil. Tip in the peppers and carrots and fry for a few minutes until lightly browned. Mix in the chicken and stir-fry until slightly golden, around 2 mins. Add the cooked rice noodles and toss to combine. Pour in the sauce and add the cashews, then continue to stir-fry until everything is well coated and a little sticky. Finish with a sprinkling of chilli flakes, if using, spring onions and the chopped coriander."
+            "Mélangez tous les ingrédients de la sauce avec 1 cuillère à soupe d'eau dans un petit bol et réservez.",
+            "Faites cuire les nouilles séchées en suivant les instructions sur l'emballage, puis réservez.",
+            "Placez un grand wok sur feu vif et ajoutez l'huile. Ajoutez les poivrons et les carottes et faites-les revenir quelques minutes jusqu'à ce qu'ils soient légèrement dorés. Incorporer le poulet et faire sauter jusqu'à ce qu'il soit légèrement doré, environ 2 minutes. Ajouter les nouilles de riz cuites et mélanger. Versez la sauce et ajoutez les noix de cajou, puis continuez à faire sauter jusqu'à ce que le tout soit bien enrobé et un peu collant. Terminez par une pincée de flocons de piment, si vous en utilisez, d'oignons nouveaux et de coriandre hachée."
         ],
         "nutritional_info": {
             "kcal": "668",
@@ -189,30 +189,30 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/harissa-vegetables-with-quinoa/",
-        "title": "[FR] Harissa vegetables with quinoa",
-        "description": "(Translation pending) Combine protein-rich quinoa with root veg to enjoy all five of your 5-a-day. The added fermented coconut yogurt will have gut bacteria benefits, too",
+        "title": "Harissa de légumes au quinoa",
+        "description": "Combinez du quinoa riche en protéines avec des légumes-racines pour profiter de vos cinq repas par jour. Le yaourt fermenté à la noix de coco ajouté aura également des bienfaits sur les bactéries intestinales.",
         "prep_time": "15 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 tbsp rapeseed oil",
-            "2 red onions (160g), chopped",
-            "1 green pepper , deseeded and cubed",
-            "1 small sweet potato (200g), peeled and cut into chunks",
-            "2 large celery sticks (125g), cut into chunky slices",
-            "10g ginger , finely chopped",
-            "300ml vegetable stock made with 2 tsp vegan bouillon powder",
-            "1 tbsp harissa paste",
-            "2 tbsp tomato purée",
-            "2 dried apricots , quartered",
-            "10g coriander or parsley, chopped, plus a few extra leaves to serve",
-            "250g pack cooked red and white quinoa",
-            "4 tbsp coconut yogurt"
+            "1 cuillère à soupe d'huile de colza",
+            "2 oignons rouges (160g), hachés",
+            "1 poivron vert épépiné et coupé en cubes",
+            "1 petite patate douce (200 g), pelée et coupée en morceaux",
+            "2 grosses branches de céleri (125 g), coupées en grosses tranches",
+            "10 g de gingembre finement haché",
+            "300 ml de bouillon de légumes préparé avec 2 cuillères à café de poudre de bouillon végétalien",
+            "1 cuillère à soupe de pâte d'harissa",
+            "2 cuillères à soupe de purée de tomates",
+            "2 abricots secs, coupés en quartiers",
+            "10 g de coriandre ou de persil haché, plus quelques feuilles supplémentaires pour servir",
+            "Paquet de 250 g de quinoa rouge et blanc cuit",
+            "4 cuillères à soupe de yaourt à la noix de coco"
         ],
         "method": [
-            "Heat the oil in a non-stick pan and fry the vegetables and ginger for 10 mins, stirring frequently, until softened and starting to colour.",
-            "Stir in the stock, harissa, tomato purée and apricots. Bring to the boil, cover and simmer for 15 mins. Stir in the coriander.",
-            "Meanwhile, heat the quinoa following pack instructions. Serve with the veg and yogurt, plus a scattering of coriander leaves."
+            "Faites chauffer l'huile dans une poêle antiadhésive et faites revenir les légumes et le gingembre pendant 10 minutes en remuant fréquemment jusqu'à ce qu'ils soient ramollis et commencent à se colorer.",
+            "Incorporer le bouillon, la harissa, la purée de tomates et les abricots. Portez à ébullition, couvrez et laissez mijoter 15 min. Incorporer la coriandre.",
+            "Pendant ce temps, faites chauffer le quinoa en suivant les instructions sur l'emballage. Servir avec les légumes et le yaourt, ainsi qu'un peu de feuilles de coriandre."
         ],
         "nutritional_info": {
             "kcal": "523",
@@ -229,21 +229,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/vegan-spinach-omelette/",
-        "title": "[FR] Vegan spinach omelette",
-        "description": "(Translation pending) Try an omelette made with chickpea flour – it’s high in protein and gluten-free. The quantities here are for one, but the recipe is easily doubled",
+        "title": "Omelette végétalienne aux épinards",
+        "description": "Essayez une omelette à base de farine de pois chiches : elle est riche en protéines et sans gluten. Les quantités ici sont pour un, mais la recette est facilement doublée",
         "prep_time": "5 mins Cook: 6 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "30g gram (chickpea) flour",
-            "¼ tsp dried oregano",
-            "1 tbsp nutritional yeast",
-            "2 tsp rapeseed oil",
-            "80g baby spinach"
+            "30 g de farine (pois chiches)",
+            "¼ cuillère à café d'origan séché",
+            "1 cuillère à soupe de levure nutritionnelle",
+            "2 cuillères à café d'huile de colza",
+            "80 g de pousses d'épinards"
         ],
         "method": [
-            "Whisk the gram flour, oregano and nutritional yeast in a bowl with 80ml water.",
-            "Heat the oil in a 19cm non-stick frying pan. Pour in the omelette batter and swirl the pan around to cover the base. Pile the fresh spinach over the top, then cover the pan and cook over a low heat for 5-6 mins until the spinach has wilted and the base of the omelette is cooked but still moist. Roll the omelette over in the pan to enclose the spinach, then slide onto a plate and serve."
+            "Fouettez la farine de pois chiches, l'origan et la levure nutritionnelle dans un bol avec 80 ml d'eau.",
+            "Faites chauffer l'huile dans une poêle antiadhésive de 19 cm. Versez la pâte à omelette et faites tourner la poêle pour couvrir le fond. Empilez les épinards frais sur le dessus, puis couvrez la poêle et laissez cuire à feu doux pendant 5 à 6 minutes jusqu'à ce que les épinards soient fanés et que la base de l'omelette soit cuite mais encore humide. Roulez l'omelette dans la poêle pour enfermer les épinards, puis glissez-la sur une assiette et servez."
         ],
         "nutritional_info": {
             "kcal": "200",
@@ -260,25 +260,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/protein-balls/",
-        "title": "[FR] Protein balls",
-        "description": "(Translation pending) Make tasty protein balls using oats, protein powder, flaxseed and cinnamon to enjoy post-exercise and replenish your protein stores.",
+        "title": "Boules de protéines",
+        "description": "Préparez de délicieuses boules de protéines en utilisant de l'avoine, de la poudre de protéines, des graines de lin et de la cannelle pour en profiter après l'exercice et reconstituer vos réserves de protéines.",
         "prep_time": "15 mins No cook; plus chilling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "150g porridge oats",
-            "50g protein powder of your choice (we used vanilla whey)",
-            "1 tbsp ground flaxseeds",
-            "pinch of ground cinnamon",
-            "1 tsp vanilla extract",
-            "2 tbsp maple syrup",
-            "150g nut butter of your choice (we used peanut)",
-            "4 tbsp plant milk",
-            "25g chocolate chips or raisins (optional)"
+            "150 g de flocons d'avoine",
+            "50g de protéine en poudre au choix (nous avons utilisé du lactosérum vanillé)",
+            "1 cuillère à soupe de graines de lin moulues",
+            "pincée de cannelle moulue",
+            "1 cuillère à café d'extrait de vanille",
+            "2 cuillères à soupe de sirop d'érable",
+            "150g de beurre de noix de votre choix (nous avons utilisé de la cacahuète)",
+            "4 cuillères à soupe de lait végétal",
+            "25 g de pépites de chocolat ou de raisins secs (facultatif)"
         ],
         "method": [
-            "Combine the oats, protein powder, flaxseed and cinnamon in a large bowl. Stir in the maple syrup, vanilla extract, nut butter, milk and chocolate chips.",
-            "Stir well to combine the mixture, then, using damp hands, roll it into 15 balls (they should be about 30g each). Arrange on a plate and chill for 30 mins until firm, then serve."
+            "Mélangez les flocons d'avoine, la poudre de protéines, les graines de lin et la cannelle dans un grand bol. Incorporer le sirop d'érable, l'extrait de vanille, le beurre de noix, le lait et les pépites de chocolat.",
+            "Remuez bien pour bien mélanger le mélange, puis, avec les mains humides, roulez-le en 15 boules (elles doivent peser environ 30 g chacune). Disposer sur une assiette et réfrigérer 30 minutes jusqu'à consistance ferme, puis servir."
         ],
         "nutritional_info": {
             "kcal": "128",
@@ -295,33 +295,33 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/one-pot-chicken-curry-rice/",
-        "title": "[FR] One-pot chicken & curry rice",
-        "description": "(Translation pending) Rustle up this easy family one pot dinner, with chicken, cauliflower, beans and peas in mild curry flavours. Serve with yogurt and mango chutney on the side",
+        "title": "Poulet et riz au curry en une seule casserole",
+        "description": "Préparez ce dîner familial simple en une seule casserole, avec du poulet, du chou-fleur, des haricots et des pois aux douces saveurs de curry. Servir avec du yaourt et du chutney de mangue en accompagnement",
         "prep_time": "15 mins Cook: 45 mins",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "2 tbsp vegetable oil or ghee",
-            "2 large onions, finely sliced",
-            "4 large garlic cloves, crushed",
-            "thumb-sized piece of ginger, peeled and finely chopped",
-            "4 heaped tbsp mild curry paste",
-            "1 tsp turmeric",
-            "4 cardamom pods, bashed",
-            "1 cinnamon stick",
-            "4 small skinless chicken breasts or 8 skinless and boneless chicken thighs (about 600g), cut into bite-sized chunks",
-            "250g basmati rice, rinsed",
-            "600ml chicken stock",
-            "200ml coconut milk",
-            "75g frozen peas",
-            "150g green beans, rimmed and halved",
-            "½ cauliflower (about 225g) broken into small florets",
-            "50g raisins or sultanas",
-            "coriander leaves, flaked almonds, plain yogurt and mango chutney, to serve"
+            "2 cuillères à soupe d'huile végétale ou de ghee",
+            "2 gros oignons, finement tranchés",
+            "4 grosses gousses d'ail, écrasées",
+            "morceau de gingembre de la taille d'un pouce, pelé et haché finement",
+            "4 cuillères à soupe bombées de pâte de curry douce",
+            "1 cuillère à café de curcuma",
+            "4 gousses de cardamome, écrasées",
+            "1 bâton de cannelle",
+            "4 petites poitrines de poulet sans peau ou 8 cuisses de poulet sans peau et désossées (environ 600 g), coupées en bouchées",
+            "250 g de riz basmati rincé",
+            "600 ml de bouillon de poulet",
+            "200 ml de lait de coco",
+            "75 g de petits pois surgelés",
+            "150 g de haricots verts, cerclés et coupés en deux",
+            "½ chou-fleur (environ 225 g) cassé en petits bouquets",
+            "50 g de raisins secs ou de raisins secs",
+            "feuilles de coriandre, amandes effilées, yaourt nature et chutney de mangue, pour servir"
         ],
         "method": [
-            "Heat the oil in a a largecasserole dish(that has a lid) over a medium heat, then fry the onion, garlic and ginger until brown and fragrant, about 10 mins. Stir in the curry paste, turmeric, cardamom and cinnamon, and stir for a few minutes. Add the chicken and cook for another couple of minutes, stirring to colour on all sides.",
-            "Add the rice, stir well, then stir in the stock, coconut milk, a generous pinch of seasoning, the veg and raisins. Bring to the boil, then reduce to a simmer, pop the lid on and cook for about 25-30 mins until the water has been absorbed, the chicken and rice are cooked through, and the veg is tender. Season to taste. Remove the cardamom and cinnamon stick, then scatter over the almonds and coriander. Serve with yogurt and mango chutney on the side."
+            "Faites chauffer l'huile dans une grande cocotte (avec couvercle) à feu moyen, puis faites revenir l'oignon, l'ail et le gingembre jusqu'à ce qu'ils soient dorés et parfumés, environ 10 minutes. Incorporez la pâte de curry, le curcuma, la cardamome et la cannelle et remuez pendant quelques minutes. Ajouter le poulet et cuire encore quelques minutes en remuant pour colorer de tous les côtés.",
+            "Ajoutez le riz, remuez bien, puis incorporez le bouillon, le lait de coco, une généreuse pincée d'assaisonnement, les légumes et les raisins secs. Portez à ébullition, puis réduisez le feu, mettez le couvercle et laissez cuire environ 25 à 30 minutes jusqu'à ce que l'eau soit absorbée, que le poulet et le riz soient bien cuits et que les légumes soient tendres. Assaisonner au goût. Retirez la cardamome et le bâton de cannelle, puis répartissez-les sur les amandes et la coriandre. Servir avec du yaourt et du chutney de mangue en accompagnement."
         ],
         "nutritional_info": {
             "kcal": "485",
@@ -338,30 +338,30 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chicken-pakoras/",
-        "title": "[FR] Chicken pakoras",
-        "description": "(Translation pending) Make a batch of these crispy golden pakoras as a snack, or part of an Indian meal. Serve hot with sweet chilli sauce or green chutney",
+        "title": "Pakoras au poulet",
+        "description": "Préparez un lot de ces pakoras dorés croustillants comme collation ou dans le cadre d'un repas indien. Servir chaud avec une sauce chili douce ou un chutney vert",
         "prep_time": "20 mins Cook: 30 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "700g boneless chicken, cut into bite-sized pieces",
-            "2 tbsp cornflour",
-            "50g rice flour",
-            "40g gram flour, sieved",
-            "3 dried chillies, crushed or 3 green chillies, finely chopped",
-            "½ tsp chilli powder",
-            "½ tsp curry powder",
-            "½ tsp ground coriander",
-            "½ tsp cumin",
-            "2 small onions, chopped",
-            "small bunch of coriander, finely chopped",
-            "vegetable oil, for deep-frying",
-            "sweet chilli sauce or green chutney, to serve"
+            "700 g de poulet désossé, coupé en bouchées",
+            "2 cuillères à soupe de farine de maïs",
+            "50g de farine de riz",
+            "40 g de farine tamisée",
+            "3 piments séchés écrasés ou 3 piments verts finement hachés",
+            "½ cuillère à café de poudre de piment",
+            "½ cuillère à café de curry en poudre",
+            "½ cuillère à café de coriandre moulue",
+            "½ cuillère à café de cumin",
+            "2 petits oignons, hachés",
+            "un petit bouquet de coriandre finement hachée",
+            "huile végétale, pour frire",
+            "sauce chili douce ou chutney vert, pour servir"
         ],
         "method": [
-            "Put the chicken in a large bowl, then use your hands to coat the pieces in the cornflour. Mix in the rice flour, followed by the gram flour. Add the chillies, spices, onion, coriander and 1 tsp salt. Mix well with your hands.",
-            "Gradually add around 150ml water until the ingredients have become moist and ever-so-slightly wet. You may not need all the water (adding too much will stop the pakora mixture binding).",
-            "Fill a deep pan no more than a third full with vegetable oil and heat to 180C. Squeeze a small amount of the pakora mixture together before carefully lowering into the hot oil with a spoon. Fry for 8-10 mins, turning regularly, until cooked through and browned all over. Set aside on a plate lined with kitchen paper while you repeat with the remaining mixture, frying in small batches. Serve hot with a sweet chilli sauce or green chutney."
+            "Mettez le poulet dans un grand bol, puis utilisez vos mains pour enrober les morceaux de maïzena. Incorporer la farine de riz, suivie de la farine de pois chiches. Ajoutez les piments, les épices, l'oignon, la coriandre et 1 cuillère à café de sel. Mélangez bien avec vos mains.",
+            "Ajoutez progressivement environ 150 ml d'eau jusqu'à ce que les ingrédients soient devenus humides et légèrement mouillés. Vous n’aurez peut-être pas besoin de toute l’eau (en ajouter trop empêchera le mélange de pakora de se lier).",
+            "Remplissez une poêle profonde au maximum au tiers avec de l'huile végétale et faites chauffer à 180°C. Pressez une petite quantité du mélange de pakora avant de le plonger délicatement dans l'huile chaude avec une cuillère. Faire frire pendant 8 à 10 minutes, en retournant régulièrement, jusqu'à ce qu'elles soient bien cuites et dorées de partout. Réserver sur une assiette recouverte de papier absorbant pendant que vous répétez avec le reste du mélange, en faisant frire par petites quantités. Servir chaud avec une sauce chili douce ou un chutney vert."
         ],
         "nutritional_info": {
             "kcal": "426",
@@ -378,29 +378,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/cajun-chicken-traybake-with-sweet-potato-wedges-chive-dip/",
-        "title": "[FR] Cajun chicken traybake with sweet potato wedges & chive dip",
-        "description": "(Translation pending) Sweet potatoes are never as crispy as regular potatoes, but they do add to your 5-a-day. We’ve used kefir in this recipe for its rich contribution of beneficial gut bacteria",
+        "title": "Plateau de poulet cajun avec quartiers de patates douces et trempette à la ciboulette",
+        "description": "Les patates douces ne sont jamais aussi croustillantes que les pommes de terre ordinaires, mais elles ajoutent à votre 5 par jour. Nous avons utilisé le kéfir dans cette recette pour sa riche contribution en bactéries intestinales bénéfiques.",
         "prep_time": "15 mins Cook: 45 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 tsp each of ground cumin and smoked paprika",
-            "1 tsp dried oregano",
-            "1 tbsp fresh thyme leaves or 1 tsp dried",
-            "8 skinless, boneless chicken thighs (900g)",
-            "1 red and 1 yellow pepper, deseeded and chopped",
-            "3 red onions, sliced into 1cm-thin wedges",
-            "2 celery sticks (125g) , finely chopped",
-            "1 tbsp rapeseed oil , plus 1 tsp",
-            "2 sweet potatoes (375g peeled weight), cut into 16 wedges",
-            "150g Kefir or bio yogurt",
-            "2 tbsp snipped chives"
+            "1 cuillère à café de cumin moulu et 1 cuillère à café de paprika fumé",
+            "1 cuillère à café d'origan séché",
+            "1 cuillère à soupe de feuilles de thym frais ou 1 cuillère à café séchée",
+            "8 cuisses de poulet sans peau et désossées (900g)",
+            "1 poivron rouge et 1 jaune, épépinés et hachés",
+            "3 oignons rouges, coupés en quartiers de 1 cm d'épaisseur",
+            "2 branches de céleri (125 g), finement hachées",
+            "1 cuillère à soupe d'huile de colza, plus 1 cuillère à café",
+            "2 patates douces (poids 375 g pelées), coupées en 16 quartiers",
+            "150g de Kéfir ou yaourt bio",
+            "2 cuillères à soupe de ciboulette ciselée"
         ],
         "method": [
-            "Heat the oven to 200C/180C fan/gas 6. Mix the cumin, paprika, oregano and thyme together in a bowl, with a good grinding of black pepper. Set aside 1 tbsp for the potatoes. Use the rest to rub all over the chicken thighs.",
-            "Tip the peppers, onions and celery into a large roasting tin and toss with 1 tbsp oil. Spread out the veg so it cooks evenly, then nestle in the chicken. Cover with foil and roast for 40 mins.",
-            "Meanwhile, coat the potato wedges in the 1 tsp oil and remaining spices, and arrange well-spaced apart on a non-stick baking tray. Put in the oven, on a higher shelf, when you have 35 mins left for the chicken. Stir the kefir and chives together to make a dip, adding up to 1 tbsp water to loosen, if needed. Set aside.",
-            "Remove the roasting tin and potatoes from the oven and turn up the heat to 220C/200C fan/gas 7. Remove the chicken to a warm plate and leave to rest for 5 mins. Return the veg to the oven, uncovered, for 5-10 mins to colour a little. Serve half the wedges on plates with half of the chive dip and half the veg and chicken. Cover and chill the remaining portions.Will keep chilled for up to three days. To reheat, gently warm the potatoes in a non-stick frying pan, taking care they don’t burn. Heat the chicken until piping hot in a microwave or pan set over a medium heat. If freezing, leave to defrost fully before reheating in a pan over a medium heat until piping hot."
+            "Chauffer le four à 200C/180C chaleur tournante/gaz 6. Mélanger le cumin, le paprika, l'origan et le thym dans un bol, avec une bonne mouture de poivre noir. Réservez 1 cuillère à soupe pour les pommes de terre. Utilisez le reste pour frotter toutes les cuisses de poulet.",
+            "Versez les poivrons, les oignons et le céleri dans un grand plat à rôtir et mélangez-les avec 1 cuillère à soupe d'huile. Étalez les légumes pour qu'ils cuisent uniformément, puis nichez-les dans le poulet. Couvrir de papier d'aluminium et rôtir pendant 40 minutes.",
+            "Pendant ce temps, enduisez les quartiers de pommes de terre de 1 cuillère à café d'huile et du reste des épices, et disposez-les bien espacés sur une plaque à pâtisserie antiadhésive. Enfourner, sur une grille supérieure, lorsqu'il vous reste 35 minutes pour le poulet. Mélangez le kéfir et la ciboulette pour faire une trempette, en ajoutant jusqu'à 1 cuillère à soupe d'eau pour les détendre, si nécessaire. Annuler.",
+            "Sortez le plat à rôtir et les pommes de terre du four et montez le feu à 220C/200C chaleur tournante/gaz 7. Retirez le poulet dans une assiette chaude et laissez reposer 5 minutes. Remettez les légumes au four, à découvert, pendant 5 à 10 minutes pour les colorer un peu. Servir la moitié des quartiers dans des assiettes avec la moitié de la trempette à la ciboulette et la moitié des légumes et du poulet. Couvrir et réfrigérer les portions restantes. Se conservera au frais jusqu'à trois jours. Pour réchauffer, réchauffez doucement les pommes de terre dans une poêle antiadhésive en prenant soin qu'elles ne brûlent pas. Chauffer le poulet jusqu'à ce qu'il soit très chaud dans un micro-ondes ou une poêle à feu moyen. En cas de congélation, laisser décongeler complètement avant de réchauffer dans une poêle à feu moyen jusqu'à ce qu'il soit très chaud."
         ],
         "nutritional_info": {
             "kcal": "510",
@@ -417,29 +417,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chicken-enchilada-wraps/",
-        "title": "[FR] Chicken enchilada wraps",
-        "description": "(Translation pending) Use homemade wholemeal flatbreads instead of shop-bought tortillas in this recipe – perfect for wrapping up our lean spicy chicken. It counts as 3 of your 5-a-day, too",
+        "title": "Enchiladas au poulet",
+        "description": "Utilisez des pains plats complets faits maison au lieu des tortillas du commerce dans cette recette – parfaits pour envelopper notre poulet maigre et épicé. Cela compte aussi pour 3 de vos 5 par jour",
         "prep_time": "20 mins Cook: 12 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "90g wholemeal flour, plus extra for dusting",
-            "3 tsp rapeseed oil",
-            "120g bio yogurt",
-            "2 tsp mild chilli powder",
-            "1 garlic clove, finely grated",
-            "1 lime, zested and half juiced",
-            "1 red onion, halved and sliced",
-            "1 red pepper, deseeded and sliced",
-            "2 skinless chicken breasts, sliced (300g)",
-            "1 small avocado",
-            "15g fresh coriander, chopped"
+            "90 g de farine complète, plus un peu pour saupoudrer",
+            "3 cuillères à café d'huile de colza",
+            "120g de yaourt bio",
+            "2 cuillères à café de poudre de piment doux",
+            "1 gousse d'ail, finement râpée",
+            "1 citron vert, zesté et à moitié jus",
+            "1 oignon rouge, coupé en deux et tranché",
+            "1 poivron rouge, épépiné et tranché",
+            "2 poitrines de poulet sans peau, tranchées (300 g)",
+            "1 petit avocat",
+            "15 g de coriandre fraîche hachée"
         ],
         "method": [
-            "Tip the flour into a small bowl. Mix 1 tsp of the oil with 60ml water, add to the flour and stir with the blade of a cutlery knife until the mixture starts to come together. Use your hands to bring the mixture into a ball, then halve and cover with a tea towel.",
-            "Mix 2 tbsp of the yogurt with the chilli powder, garlic and lime zest, then tip in the onion, pepper and chicken and stir well to coat. Heat the remaining oil in a large non-stick pan over a medium heat, add the chicken mixture and cook, stirring every now and then, for about 10 mins.",
-            "Meanwhile, lightly flour the work surface and heat a very large non-stick frying pan over a medium heat, but don’t add any oil. Roll out one of the balls of dough to a rough circle about 25cm across until it is paper thin, then carefully peel off the work surface and slap into the frying pan. The dough will cook within a minute, then flip over and cook for a few seconds more. Lift onto a plate and cook the other ball of dough in the same way.",
-            "Roughly mash the avocado with the lime juice and spread over the flatbreads, top with the chicken mixture and remaining yogurt and scatter over the coriander. Roll up the enchiladas and serve."
+            "Versez la farine dans un petit bol. Mélangez 1 cuillère à café d'huile avec 60 ml d'eau, ajoutez à la farine et remuez avec la lame d'un couteau à couverts jusqu'à ce que le mélange commence à se rassembler. Utilisez vos mains pour former une boule avec le mélange, puis coupez-la en deux et couvrez-la d'un torchon.",
+            "Mélangez 2 cuillères à soupe de yaourt avec la poudre de piment, l'ail et le zeste de citron vert, puis ajoutez l'oignon, le poivre et le poulet et remuez bien pour enrober. Faites chauffer le reste de l'huile dans une grande poêle antiadhésive à feu moyen, ajoutez le mélange de poulet et faites cuire en remuant de temps en temps pendant environ 10 minutes.",
+            "Pendant ce temps, farinez légèrement le plan de travail et faites chauffer une très grande poêle antiadhésive à feu moyen, sans ajouter d’huile. Abaissez l'une des boules de pâte en un cercle rugueux d'environ 25 cm de diamètre jusqu'à ce qu'elle soit fine comme du papier, puis décollez délicatement le plan de travail et placez-la dans la poêle. La pâte va cuire en une minute, puis se retourner et cuire encore quelques secondes. Soulever sur une assiette et cuire l'autre boule de pâte de la même manière.",
+            "Écrasez grossièrement l'avocat avec le jus de citron vert et étalez-le sur les pains plats, recouvrez du mélange de poulet et du reste du yaourt et parsemez de coriandre. Roulez les enchiladas et servez."
         ],
         "nutritional_info": {
             "kcal": "570",
@@ -456,27 +456,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/quinoa-salad-with-eggs-dill/",
-        "title": "[FR] Quinoa salad with eggs & dill",
-        "description": "(Translation pending) Quinoa is a complete protein that contains all eight essential amino acids. Enjoy it here as part of a salad",
+        "title": "Salade de quinoa aux œufs et à l'aneth",
+        "description": "Le quinoa est une protéine complète qui contient les huit acides aminés essentiels. Dégustez-le ici en salade",
         "prep_time": "15 mins Cook: 30 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "120g quinoa, rinsed",
-            "6 eggs",
-            "320g asparagus, woody ends trimmed and halved if too long",
-            "4 tbsp extra virgin olive oil",
-            "2 tsp apple cider vinegar",
-            "6 spring onions, finely chopped",
-            "2 tbsp chopped dill",
-            "2 tbsp chopped basil, plus a few leaves to serve",
-            "15g capers, rinsed",
-            "320g cherry tomatoes, halved"
+            "120 g de quinoa rincé",
+            "6 oeufs",
+            "320 g d'asperges, les extrémités ligneuses parées et coupées en deux si elles sont trop longues",
+            "4 cuillères à soupe d'huile d'olive extra vierge",
+            "2 cuillères à café de vinaigre de cidre de pomme",
+            "6 oignons nouveaux, finement hachés",
+            "2 cuillères à soupe d'aneth haché",
+            "2 cuillères à soupe de basilic haché, plus quelques feuilles pour servir",
+            "15 g de câpres rincées",
+            "320 g de tomates cerises coupées en deux"
         ],
         "method": [
-            "Boil the quinoa in plenty of water for 20 mins. Leave for 5 mins, then rinse and drain well. Meanwhile, boil the eggs for 7 mins in another pan with the asparagus above in a steamer. If the eggs are ready and the asparagus isn't quite tender, remove the eggs from the pan and put in cold water while continuing to cook the asparagus for a few more minutes. Peel the eggs.",
-            "To make the dressing, mix the extra virgin olive oil and apple cider vinegar with the chopped spring onions, herbs and capers.",
-            "Tip the quinoa into a bowl and toss through three-quarters of the dressing and the tomatoes. Spoon half onto plates and the rest into two containers. Arrange the asparagus on top of the salads with three egg halves on each one, then spoon over the remaining dressing and scatter with the basil leaves. Seal and chill the packed salads.Will keep in an airtight container in the fridge for up to a day."
+            "Faites bouillir le quinoa dans beaucoup d'eau pendant 20 minutes. Laisser poser 5 minutes, puis rincer et bien égoutter. Pendant ce temps, faites bouillir les œufs 7 min dans une autre poêle avec les asperges dessus dans un cuiseur vapeur. Si les œufs sont prêts et que les asperges ne sont pas tout à fait tendres, retirez les œufs de la poêle et mettez-les dans l'eau froide tout en poursuivant la cuisson des asperges encore quelques minutes. Épluchez les œufs.",
+            "Pour préparer la vinaigrette, mélangez l'huile d'olive extra vierge et le vinaigre de cidre de pomme avec les oignons nouveaux hachés, les herbes et les câpres.",
+            "Versez le quinoa dans un bol et mélangez les trois quarts de la vinaigrette et les tomates. Verser la moitié dans des assiettes et le reste dans deux récipients. Disposez les asperges sur les salades avec trois moitiés d'œufs sur chacune, puis versez le reste de la vinaigrette et parsemez de feuilles de basilic. Scellez et réfrigérez les salades emballées. Se conserve dans un récipient hermétique au réfrigérateur jusqu'à une journée."
         ],
         "nutritional_info": {
             "kcal": "360",
@@ -493,34 +493,34 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/feta-cakes-with-greek-salad/",
-        "title": "[FR] Feta cakes with Greek salad",
-        "description": "(Translation pending) Bring a little summer sunshine to your kitchen with these potato feta cakes served with a Greek salad. The herbs add plenty of flavour and valuable nutrients, like vitamin C and iron",
+        "title": "Gâteaux feta avec salade grecque",
+        "description": "Apportez un peu de soleil d'été à votre cuisine avec ces galettes de pommes de terre et de feta servies avec une salade grecque. Les herbes ajoutent beaucoup de saveur et des nutriments précieux, comme la vitamine C et le fer.",
         "prep_time": "20 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "a drop of rapeseed oil, for the baking sheet",
-            "700g potatoes, peeled and cut into chunks",
-            "1 lemon, zested, half juiced",
-            "6 spring onions, very finely chopped",
-            "2 tbsp chopped mint",
-            "3 tbsp chopped parsley",
-            "100g feta, crumbled",
-            "1 large egg",
-            "6 tbsp wholemeal flour",
-            "½ tsp smoked paprika",
-            "320g tomatoes, cut into wedges",
-            "1 cucumber (about 320g), diced",
-            "1 red onion finely chopped",
-            "12 Kalamata olives, quartered",
-            "1-2 tbsp finely chopped mint",
-            "2 tsp lemon juice",
-            "2 tsp extra virgin olive oil"
+            "une goutte d'huile de colza, pour la plaque à pâtisserie",
+            "700 g de pommes de terre pelées et coupées en morceaux",
+            "1 citron, zesté et à moitié pressé",
+            "6 oignons nouveaux, hachés très finement",
+            "2 cuillères à soupe de menthe hachée",
+            "3 cuillères à soupe de persil haché",
+            "100 g de feta émiettée",
+            "1 gros œuf",
+            "6 cuillères à soupe de farine complète",
+            "½ cuillère à café de paprika fumé",
+            "320 g de tomates coupées en quartiers",
+            "1 concombre (environ 320 g), coupé en dés",
+            "1 oignon rouge finement haché",
+            "12 olives Kalamata, coupées en quartiers",
+            "1-2 cuillères à soupe de menthe finement hachée",
+            "2 cuillères à café de jus de citron",
+            "2 cuillères à café d'huile d'olive extra vierge"
         ],
         "method": [
-            "Heat the oven to 200C/180C fan/gas 6 and oil a non-stick baking sheet. Bring a pan of water to the boil, add the potatoes and cook for 15-20 mins until tender. Drain very well, then return to the pan and mash with lots of black pepper, the lemon zest and juice, the spring onions, mint and 2 tbsp of the parsley. Stir through the feta.",
-            "Beat the egg in a shallow bowl, then mix the flour, paprika and remaining 1 tbsp parsley in another. Shape the potato mixture into eight cakes, then carefully coat all over in the egg, then the flour mix, reshaping them if you need to. Arrange the cakes on the baking sheet and bake for 15 mins until starting to turn golden. Use a palette knife to carefully turn each one over and bake for another 10-15 mins until golden.",
-            "Meanwhile, toss half the salad with half the lemon and oil. Serve with four cakes and chill the remainder for another day, tossing the remaining salad with the rest of the lemon and oil just before serving.Will keep, covered, for up to two days in the fridge. To reheat the cakes, cook on a baking tray at 200C/180C fan/gas 6 for 15-20 mins."
+            "Chauffer le four à 200C/180C chaleur tournante/gaz 6 et huiler une plaque à pâtisserie antiadhésive. Portez une casserole d'eau à ébullition, ajoutez les pommes de terre et laissez cuire 15 à 20 minutes jusqu'à ce qu'elles soient tendres. Bien égoutter, puis remettre dans la poêle et écraser avec beaucoup de poivre noir, le zeste et le jus de citron, les oignons nouveaux, la menthe et 2 cuillères à soupe de persil. Incorporer la feta.",
+            "Battez l'œuf dans un bol peu profond, puis mélangez la farine, le paprika et 1 cuillère à soupe de persil restante dans un autre. Formez huit galettes avec le mélange de pommes de terre, puis enrobez-les délicatement d'œuf, puis de mélange de farine, en les remodelant si nécessaire. Disposez les gâteaux sur la plaque à pâtisserie et enfournez pendant 15 minutes jusqu'à ce qu'ils commencent à dorer. Utilisez un couteau à palette pour retourner soigneusement chacun d'eux et cuire encore 10 à 15 minutes jusqu'à ce qu'ils soient dorés.",
+            "Pendant ce temps, mélangez la moitié de la salade avec la moitié du citron et de l'huile. Servir avec quatre gâteaux et réfrigérer le reste pendant un autre jour, en mélangeant le reste de la salade avec le reste du citron et de l'huile juste avant de servir. Se conservera, couvert, jusqu'à deux jours au réfrigérateur. Pour réchauffer les gâteaux, faites cuire sur une plaque allant au four à 200C/180C chaleur tournante/gaz 6 pendant 15-20 minutes."
         ],
         "nutritional_info": {
             "kcal": "371",
@@ -537,30 +537,30 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/smoked-brisket/",
-        "title": "[FR] Smoked brisket",
-        "description": "(Translation pending) Fire up the smoker for this flavourful slow-cooked brisket. Serve on a board with charred greens and salsa rossa so everyone can help themselves",
+        "title": "Poitrine fumée",
+        "description": "Allumez le fumoir pour cette savoureuse poitrine cuite lentement. Servir sur une planche avec des légumes verts carbonisés et de la salsa rossa pour que chacun puisse se servir",
         "prep_time": "20 mins Cook: 13 hrs plus marinating and resting",
         "cook_time": "",
         "serves": "8",
         "ingredients": [
-            "2.5kg piece beef brisket",
-            "1 tsp cumin seeds",
-            "½ tsp red chilli flakes",
-            "1 tsp black whole peppercorns",
-            "1 tsp fennel seeds",
-            "1 tsp dried thyme",
-            "2 tsp demerara sugar",
-            "2 tsp caster sugar",
-            "1 tsp paprika",
-            "1 tsp onion powder",
-            "1 tsp garlic powder",
-            "1 tsp mustard powder",
-            "1 tsp salt"
+            "2,5 kg de poitrine de bœuf",
+            "1 cuillère à café de graines de cumin",
+            "½ cuillère à café de flocons de piment rouge",
+            "1 cuillère à café de poivre noir entier",
+            "1 cuillère à café de graines de fenouil",
+            "1 cuillère à café de thym séché",
+            "2 cuillères à café de sucre demerara",
+            "2 cuillères à café de sucre en poudre",
+            "1 cuillère à café de paprika",
+            "1 cuillère à café de poudre d'oignon",
+            "1 cuillère à café de poudre d'ail",
+            "1 cuillère à café de moutarde en poudre",
+            "1 cuillère à café de sel"
         ],
         "method": [
-            "Gently toast the cumin, chilli flakes, peppercorns, fennel seeds and thyme in a pan over a low heat until aromatic. Grind to a fine dust with the demerara sugar using a spice blender orpestle and mortar. Tip into a bowl and mix in the remaining rub ingredients.",
-            "Season the brisket generously with the rub and leave to stand at room temperature for up to an hour. Prepare the smoker for indirect cooking at 120-130C. Once ready, place the seasoned brisket on the smoker, fat-side up. Leave for 10 hrs or until the outside is a dark, mahogany colour. Top up the smoker as needed.",
-            "Remove the brisket and wrap in butcher paper. Return to the smoker and continue to cook for 2-3 hrs until the meat reaches 93-94C when probed with a thermometer. Allow to rest for 40 mins before slicing and serving with charred greens and salsa rossa."
+            "Faire griller doucement le cumin, les flocons de piment, les grains de poivre, les graines de fenouil et le thym dans une poêle à feu doux jusqu'à ce qu'ils soient aromatiques. Réduire en une fine poussière avec le sucre demerara à l'aide d'un mélangeur à épices ou d'un pilon et d'un mortier. Versez dans un bol et mélangez le reste des ingrédients du mélange.",
+            "Assaisonnez généreusement la poitrine avec le mélange et laissez reposer à température ambiante pendant une heure maximum. Préparez le fumoir pour une cuisson indirecte à 120-130C. Une fois prête, placez la poitrine assaisonnée sur le fumoir, côté gras vers le haut. Laisser agir 10 heures ou jusqu'à ce que l'extérieur soit d'une couleur acajou foncé. Remplissez le fumoir si nécessaire.",
+            "Retirez la poitrine et enveloppez-la dans du papier de boucherie. Remettez dans le fumoir et continuez la cuisson pendant 2-3 heures jusqu'à ce que la viande atteigne 93-94°C lorsqu'elle est sondée avec un thermomètre. Laisser reposer 40 minutes avant de trancher et de servir avec des légumes verts carbonisés et de la salsa rossa."
         ],
         "nutritional_info": {
             "kcal": "696",
@@ -577,35 +577,35 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chimichurri-style-steak-sarnies-cheats-spicy-fries/",
-        "title": "[FR] Chimichurri-style steak sarnies & cheat’s spicy fries",
-        "description": "(Translation pending) Elevate a steak sandwich with a punchy, zingy chimichurri sauce, chipotle mayo and spicy Cajun-style fries on the side.",
+        "title": "Sarnies de steak style chimichurri et frites épicées de cheat",
+        "description": "Rehaussez un sandwich au steak avec une sauce chimichurri piquante et piquante, de la mayonnaise chipotle et des frites épicées de style cajun en accompagnement.",
         "prep_time": "25 mins Cook: 40 mins plus 10 mins resting",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "2 x 200g rump steaks, fat removed",
-            "2 long ciabatta rolls",
-            "2 handfuls of rocket",
-            "30ml sunflower oil",
-            "270g shop-bought frozen fries",
-            "Cajun spice mix",
-            "70g mayonnaise",
-            "1 tsp chipotle chilli paste",
-            "½ lime, zested and juiced",
-            "1 banana shallot, peeled and roughly chopped",
-            "1 red chilli, finely chopped",
-            "1 garlic clove, crushed",
-            "1½ tbsp sherry vinegar",
-            "small bunch of parsley",
-            "small bunch of coriander",
-            "50ml extra virgin olive oil"
+            "2 x 200 g de rumsteck dégraissé",
+            "2 longs rouleaux ciabatta",
+            "2 poignées de roquette",
+            "30 ml d'huile de tournesol",
+            "270 g de frites surgelées du commerce",
+            "Mélange d'épices cajun",
+            "70 g de mayonnaise",
+            "1 cuillère à café de pâte de piment chipotle",
+            "½ citron vert, zesté et pressé",
+            "1 banane échalote, pelée et hachée grossièrement",
+            "1 piment rouge, finement haché",
+            "1 gousse d'ail, écrasée",
+            "1½ cuillère à soupe de vinaigre de Xérès",
+            "petit bouquet de persil",
+            "petit bouquet de coriandre",
+            "50 ml d'huile d'olive extra vierge"
         ],
         "method": [
-            "Heat the oven to its highest setting. For the fries, pour the sunflower oil into abaking trayand put in the oven for 15 mins to get hot. Reduce the temperature to 220C/200C fan/gas 8. Tip the fries into the oil, turn to coat, and cook for 20 mins. Add the Cajun spice mix and return to the oven for 15 mins until golden and crisp.",
-            "Meanwhile, make the mayo by mixing all the ingredients together in a bowl. Set aside.",
-            "For the chimichurri-style sauce,blitzall the ingredients together until you have a smooth sauce, then season to taste. Set aside.",
-            "Heat agriddle panover a high heat. Rub the steaks with salt only (pepper will catch and burn), put the steaks in the pan and cook for 3 mins on each side (for medium). Remove from the pan, cover with foil and leave to rest for 10 mins.",
-            "Halve the ciabatta rolls, toast in the same griddle pan that you cooked the steak in, cut-side down, and spread one half of each with the chipotle mayo. Slice the steak into strips, divide between the ciabattas, drizzle over the chimichurri and add a little rocket. Serve with the fries and any leftover mayo."
+            "Chauffez le four à son réglage le plus élevé. Pour les frites, versez l'huile de tournesol dans une plaque à pâtisserie et enfournez 15 min pour qu'elle soit bien chaude. Réduisez la température à 220C/200C chaleur tournante/gaz. 8. Plongez les frites dans l'huile, retournez-les pour les enrober et laissez cuire 20 minutes. Ajouter le mélange d'épices cajun et remettre au four pendant 15 minutes jusqu'à ce qu'il soit doré et croustillant.",
+            "Pendant ce temps, préparez la mayonnaise en mélangeant tous les ingrédients dans un bol. Annuler.",
+            "Pour la sauce style chimichurri, mélangez tous les ingrédients jusqu'à obtenir une sauce onctueuse, puis assaisonnez au goût. Annuler.",
+            "Chauffer la poêle à feu vif. Frottez les steaks avec du sel uniquement (le poivre va accrocher et brûler), mettre les steaks dans la poêle et cuire 3 minutes de chaque côté (à feu moyen). Retirer de la poêle, couvrir de papier d'aluminium et laisser reposer 10 minutes.",
+            "Coupez les rouleaux ciabatta en deux, faites-les griller dans la même poêle à frire dans laquelle vous avez cuit le steak, côté coupé vers le bas, et étalez la moitié de chacun avec la mayonnaise chipotle. Coupez le steak en lanières, répartissez-le entre les ciabattas, arrosez de chimichurri et ajoutez un peu de roquette. Servir avec les frites et les restes de mayonnaise."
         ],
         "nutritional_info": {
             "kcal": "1101",
@@ -622,28 +622,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/lamb-chops-with-thyme-chilli-greek-htipiti/",
-        "title": "[FR] Lamb chops with thyme, chilli & Greek htipiti",
-        "description": "(Translation pending) Serve lamb chops with htipiti for a lovely Greek-inspired dish with fabulous flavours. Olive oil-roasted baby potatoes make a great accompaniment",
+        "title": "Côtelettes d'agneau au thym, piment et htipiti grec",
+        "description": "Servez des côtelettes d'agneau avec du htipiti pour un délicieux plat d'inspiration grecque aux saveurs fabuleuses. Des pommes de terre grelots rôties à l'huile d'olive font un excellent accompagnement",
         "prep_time": "10 mins Cook: 18 mins plus marinating",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "12 lamb cutlets",
-            "3 thyme sprigs, leaves picked",
-            "1 tsp chilli flakes",
-            "2 tbsp extra virgin olive oil",
-            "235g roasted red peppers from a jar, drained",
-            "175g feta, crumbled",
-            "2 spring onions, finely chopped",
-            "2 garlic cloves very finely chopped",
-            "2 thyme sprigs, leaves picked",
-            "4 tbsp extra virgin olive oil",
-            "squeeze of lemon juice (optional)"
+            "12 côtelettes d'agneau",
+            "3 brins de thym, feuilles cueillies",
+            "1 cuillère à café de flocons de piment",
+            "2 cuillères à soupe d'huile d'olive extra vierge",
+            "235 g de poivrons rouges rôtis en bocal, égouttés",
+            "175 g de feta émiettée",
+            "2 oignons nouveaux, finement hachés",
+            "2 gousses d'ail hachées très finement",
+            "2 brins de thym, feuilles cueillies",
+            "4 cuillères à soupe d'huile d'olive extra vierge",
+            "un filet de jus de citron (facultatif)"
         ],
         "method": [
-            "Put the lamb cutlets in a bowl with the thyme, chilli flakes and oil. Toss together to coat, then leave to marinate in the fridge for 30 mins-1 hr.",
-            "For the htipiti, cut the peppers into small pieces. Put in a bowl and add all the other ingredients. Leave for about 15 mins for the flavour to infuse.",
-            "Heat agriddle panor frying pan. When it’s really hot, lift the chops out of the marinade. Cook them, a few at a time, for 3 mins either side, seasoning as you go. Serve the chops with the sauce, and some baby potatoes, if you like."
+            "Mettez les escalopes d'agneau dans un bol avec le thym, les flocons de piment et l'huile. Mélanger pour bien enrober, puis laisser mariner au réfrigérateur pendant 30 min à 1 h.",
+            "Pour le htipiti, coupez les poivrons en petits morceaux. Mettez dans un bol et ajoutez tous les autres ingrédients. Laisser reposer environ 15 minutes pour que la saveur s'imprègne.",
+            "Faites chauffer une poêle ou une poêle. Quand il fait bien chaud, sortez les côtelettes de la marinade. Faites-les cuire quelques-unes à la fois pendant 3 minutes de chaque côté, en assaisonnant au fur et à mesure. Servir les côtelettes avec la sauce et quelques pommes de terre grelots, si vous le souhaitez."
         ],
         "nutritional_info": {
             "kcal": "830",
@@ -660,26 +660,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/salmon-scramble-flatbreads/",
-        "title": "[FR] Salmon scramble flatbreads",
-        "description": "(Translation pending) Try a healthier alternative to smoked salmon and scrambled eggs that’s just as delicious, but made with fresh spinach and served on homemade flatbreads",
+        "title": "Pains plats au saumon brouillé",
+        "description": "Essayez une alternative plus saine au saumon fumé et aux œufs brouillés, tout aussi délicieuse, mais préparée avec des épinards frais et servie sur des pains plats faits maison.",
         "prep_time": "20 mins Cook: 6 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 tsp rapeseed oil",
-            "90g wholemeal flour, plus extra for dusting",
-            "160g baby spinach",
-            "3 large eggs",
-            "1 tbsp chopped dill, plus extra to serve",
-            "1 tsp rapeseed oil",
-            "1½ tsp capers, drained and chopped",
-            "100g skinless wild salmon, cut into small pieces"
+            "1 cuillère à café d'huile de colza",
+            "90 g de farine complète, plus un peu pour saupoudrer",
+            "160 g de pousses d'épinards",
+            "3 gros œufs",
+            "1 cuillère à soupe d'aneth haché, plus un peu pour servir",
+            "1 cuillère à café d'huile de colza",
+            "1½ cuillère à café de câpres, égouttées et hachées",
+            "100 g de saumon sauvage sans peau, coupé en petits morceaux"
         ],
         "method": [
-            "To make the flatbreads, rub the oil into the flour using your fingers. Stir in 60ml warm water with a cutlery knife, then knead briefly on a lightly floured surface until the dough is smooth and elastic. Cut in half.",
-            "Roll out each half of dough using a flouredrolling pinuntil very thin (about 21cm in diameter). Heat anon-stick frying panover a high heat, and cook one of the flatbreads for 1 min. Flip and cook on the other side for 30 seconds, pressing it down with a spatula until slightly browned in places and fairly dry without being crisp. Repeat with the second flatbread. Cover both with a tea towel and keep warm.",
-            "Put the spinach in the pan and cook over a medium heat for 1-2 mins until wilted. Tip into a sieve over a bowl and press out the excess liquid using using the back of a spoon, then roughly chop.",
-            "Beat the eggs with the dill and plenty of black pepper, then set aside. Rinse the pan and set over a medium heat. Add the capers, then the salmon and stir until the fish just starts to turn opaque at the edges. Pour in the egg mixture, and stir to scramble the eggs. When the salmon is almost cooked through and the egg is almost set, stir in the spinach to heat through. Serve on the warmed flatbreads with the extra dill scattered over and a good grinding of black pepper."
+            "Pour faire les pains plats, frottez l'huile dans la farine avec vos doigts. Incorporez 60 ml d'eau tiède avec un couteau à couverts, puis pétrissez brièvement sur une surface légèrement farinée jusqu'à ce que la pâte soit lisse et élastique. Couper en deux.",
+            "Abaisser chaque moitié de pâte à l'aide d'un rouleau à pâtisserie fariné jusqu'à obtenir une pâte très fine (environ 21 cm de diamètre). Faites chauffer une poêle antiadhésive à feu vif et faites cuire l'un des pains plats pendant 1 min. Retourner et cuire de l'autre côté pendant 30 secondes en appuyant dessus avec une spatule jusqu'à ce qu'il soit légèrement doré par endroits et assez sec sans être croustillant. Répétez avec le deuxième pain plat. Couvrir les deux d'un torchon et réserver au chaud.",
+            "Mettez les épinards dans la poêle et faites-les cuire à feu moyen pendant 1 à 2 minutes jusqu'à ce qu'ils soient fanés. Versez dans une passoire au-dessus d'un bol et essorez l'excédent de liquide à l'aide du dos d'une cuillère, puis hachez grossièrement.",
+            "Battez les œufs avec l'aneth et beaucoup de poivre noir, puis réservez. Rincez la poêle et faites chauffer à feu moyen. Ajoutez les câpres, puis le saumon et remuez jusqu'à ce que le poisson commence à peine à devenir opaque sur les bords. Versez le mélange d'œufs et remuez pour brouiller les œufs. Lorsque le saumon est presque cuit et que l’œuf est presque pris, incorporez les épinards pour bien les réchauffer. Servir sur les pains plats chauds avec l'aneth supplémentaire parsemé et un bon moulin à poivre noir."
         ],
         "nutritional_info": {
             "kcal": "399",
@@ -696,36 +696,36 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/garden-eggs-stew-with-boiled-green-plantain/",
-        "title": "[FR] Garden eggs stew with boiled green plantain",
-        "description": "(Translation pending) Try something different for dinner with this hearty African-inspired garden eggs (also known as white aubergine) stew with eggs and salted fish. Enjoy with green plantain",
+        "title": "Ragoût d'œufs du jardin avec plantain vert bouilli",
+        "description": "Essayez quelque chose de différent pour le dîner avec ce copieux ragoût d'œufs du jardin d'inspiration africaine (également connu sous le nom d'aubergine blanche) avec des œufs et du poisson salé. Dégustez avec du plantain vert",
         "prep_time": "40 mins Cook: 40 mins plus overnight soaking",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "1 whole dried and salted tilapia (koobi)",
-            "11 small white aubergines , trimmed and halved",
-            "2 Scotch bonnet chillies",
-            "2 Indian or small red onions, 1 chopped, 1 sliced",
-            "4-6 green plantains, peeled, each cut into 2-3 pieces",
-            "2 large eggs",
-            "2-4 tbsp peanut butter",
-            "½ shrimp cube (optional)",
-            "½ tsp aromat (optional)",
-            "30g fermented salted fish (momoni)",
-            "120ml red palm fruit & rapeseed oil (we used Carotino Mild & Light cooking oil, available in Morrisons and Tesco)",
-            "120g tin sardines in oil, drained",
-            "1 avocado , stoned, halved, peeled and sliced"
+            "1 tilapia entier séché et salé (koobi)",
+            "11 petites aubergines blanches, parées et coupées en deux",
+            "2 piments Scotch Bonnet",
+            "2 oignons indiens ou petits oignons rouges, 1 haché, 1 tranché",
+            "4 à 6 plantains verts, pelés, chacun coupé en 2 à 3 morceaux",
+            "2 gros œufs",
+            "2-4 cuillères à soupe de beurre de cacahuète",
+            "½ cube de crevettes (facultatif)",
+            "½ cuillère à café d'aromate (facultatif)",
+            "30g de poisson salé fermenté (momoni)",
+            "120 ml d'huile de fruit de palmier rouge et de colza (nous avons utilisé l'huile de cuisson Carotino Mild & Light, disponible chez Morrisons et Tesco)",
+            "Boîte de 120 g de sardines à l'huile égouttées",
+            "1 avocat, dénoyauté, coupé en deux, pelé et tranché"
         ],
         "method": [
-            "The day before, put the whole dried tilapia in a large bowl, cover with cold water and leave to soak overnight.",
-            "The next day, put the white aubergines and Scotch bonnet chillies in asaucepan, cover with cold water and the lid, then bring to the boil over a medium-high heat. Cook for 10-12 mins, then drain and set aside.",
-            "Meanwhile, put the chopped onion in an asanka pot and grind to a paste. If you don’t have an asanka pot, you can use afood processoror blender – if using a blender, drain away any water after blending.",
-            "Drain the water from the tilapia, then rinse the fish under cold running water to remove any excess salt.",
-            "In a separate pan over a medium-high heat, bring the green plantains, eggs and just enough water to cover to the boil. Once boiling, add the tilapia. Cook for 10-12 mins, then remove from the heat. Take the fish out of the pan using a slotted spoon and transfer to a plate. Leave to rest. Drain the plantains and eggs, then fill the pan with cold water and leave to stand for 5 mins.",
-            "Meanwhile, put the chillies in the asanka pot or food processor with the onion, and grind. When the mixture is smooth, add a 2-3 aubergines and grind again. Continue this process until all the aubergines have been added. Add the peanut butter, then season with half the shrimp cube, if using, and the aromat, if needed (taste for seasoning before adding the aromat).",
-            "Rinse the fermented salted fish under cold running water. Heat the red palm fruit & rapeseed oil in afrying panset over a medium heat, and fry the fermented salted fish for around 3-5 mins. Remove the fish from the pan using a slotted spoon or fish slice, and remove any visible bones. Add the fish to the asanka pot and grind into the aubergine mixture. Discard any fish bones.",
-            "Add the sliced onions to the frying pan and fry for 3-5 mins, then add the aubergine mixture and stir well. Reduce the heat to low and cook for 3-5 mins. Mix in the sardines. Cook over the lowest heat for around 2 mins more, and mix everything together well.",
-            "Transfer the mixture to an asanka pot or serving bowl. Drain the plantains and peel and halve the boiled eggs, then add these to the pot. Top with the avocado and tilapia, then serve."
+            "La veille, mettez le tilapia séché entier dans un grand bol, couvrez d'eau froide et laissez tremper toute la nuit.",
+            "Le lendemain, mettez les aubergines blanches et les piments Scotch Bonnet dans une casserole, couvrez d'eau froide et couvrez, puis portez à ébullition sur feu moyen-vif. Cuire 10 à 12 minutes, puis égoutter et réserver.",
+            "Pendant ce temps, mettez l'oignon haché dans une marmite asanka et réduisez-le en une pâte. Si vous n'avez pas de pot asanka, vous pouvez utiliser un robot culinaire ou un mixeur. Si vous utilisez un mixeur, égouttez l'eau après le mixage.",
+            "Égouttez l'eau du tilapia, puis rincez le poisson sous l'eau froide courante pour éliminer tout excès de sel.",
+            "Dans une autre casserole, à feu moyen-vif, porter à ébullition les plantains verts, les œufs et juste assez d'eau pour couvrir. Une fois à ébullition, ajoutez le tilapia. Cuire 10 à 12 minutes, puis retirer du feu. Sortez le poisson de la poêle à l'aide d'une écumoire et transférez-le dans une assiette. Laissez reposer. Égouttez les plantains et les œufs, puis remplissez la casserole d'eau froide et laissez reposer 5 minutes.",
+            "Pendant ce temps, mettez les piments dans la marmite asanka ou le robot culinaire avec l'oignon et broyez-les. Lorsque le mélange est homogène, ajoutez 2-3 aubergines et broyez à nouveau. Continuez ce processus jusqu'à ce que toutes les aubergines aient été ajoutées. Ajoutez le beurre de cacahuète, puis assaisonnez avec la moitié du cube de crevettes, si vous en utilisez, et l'aromat, si besoin (goûtez pour l'assaisonnement avant d'ajouter l'aromat).",
+            "Rincer le poisson salé fermenté sous l'eau froide courante. Faites chauffer les fruits du palmier rouge et l'huile de colza dans une poêle à feu moyen et faites revenir le poisson salé fermenté pendant environ 3 à 5 minutes. Retirez le poisson de la poêle à l'aide d'une écumoire ou d'une tranche de poisson et retirez tous les arêtes visibles. Ajoutez le poisson dans la marmite asanka et broyez-le dans le mélange d'aubergines. Jetez toutes les arêtes de poisson.",
+            "Ajoutez les oignons émincés dans la poêle et faites-les revenir pendant 3 à 5 minutes, puis ajoutez le mélange d'aubergines et remuez bien. Réduisez le feu à doux et laissez cuire 3 à 5 minutes. Incorporer les sardines. Laissez cuire à feu doux encore 2 minutes environ et mélangez bien le tout.",
+            "Transférez le mélange dans un pot asanka ou un bol de service. Égouttez les plantains, épluchez et coupez en deux les œufs durs, puis ajoutez-les dans la casserole. Garnir d'avocat et de tilapia, puis servir."
         ],
         "nutritional_info": {
             "kcal": "620",
@@ -742,25 +742,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/crispy-tofu/",
-        "title": "[FR] Crispy tofu",
-        "description": "(Translation pending) Fry tofu in a coating of smoked paprika, garlic and seasoning to make these crispy tofu bites. Eat as a snack or as a starter or side dish in a veggie feast",
+        "title": "Tofu croustillant",
+        "description": "Faites frire le tofu dans une couche de paprika fumé, d'ail et d'assaisonnement pour réaliser ces bouchées de tofu croustillantes. A consommer en collation ou en entrée ou en accompagnement d'un festin végétarien",
         "prep_time": "5 mins Cook: 10 mins plus 20 mins draining",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "400g block firm tofu",
-            "3 tbsp cornflour",
-            "½ tsp garlic granules",
-            "½ tsp smoked paprika",
-            "½ tsp fine sea salt",
-            "½ tsp ground black pepper",
-            "2 tbsp vegetable oil"
+            "400 g de tofu ferme en bloc",
+            "3 cuillères à soupe de farine de maïs",
+            "½ cuillère à café de granulés d'ail",
+            "½ cuillère à café de paprika fumé",
+            "½ cuillère à café de sel marin fin",
+            "½ cuillère à café de poivre noir moulu",
+            "2 cuillères à soupe d'huile végétale"
         ],
         "method": [
-            "Drain the tofu, wrap in 4-5 sheets of kitchen paper, put on a plate and put something heavy over the top, like a wooden chopping board, or a tray with a few tins on it. Leave for 20 mins to drain the excess moisture from the tofu.",
-            "Mix the cornflour, garlic, paprika, salt and pepper in a small bowl. Unravel the tofu from the paper, cut in half through the centre, then cut into triangles, cubes or strips.",
-            "Toss the tofu pieces in the spiced cornflour to coat all over. Heat the oil in a large non-stick frying pan over a medium-high heat. Fry the tofu for 2-4 mins on each side until golden, crunchy and browned at the edges. Smaller cubes will take 2 mins each side, larger triangles will take 4 mins. Cook in batches if you need to, adding a little more oil if the pan gets dry.",
-            "Drain the cooked tofu on kitchen paper and season with a pinch more salt before serving."
+            "Égouttez le tofu, enveloppez-le dans 4 à 5 feuilles de papier absorbant, mettez-le sur une assiette et placez quelque chose de lourd dessus, comme une planche à découper en bois ou un plateau avec quelques boîtes de conserve dessus. Laisser reposer 20 minutes pour égoutter l'excès d'humidité du tofu.",
+            "Mélangez la maïzena, l'ail, le paprika, le sel et le poivre dans un petit bol. Déroulez le tofu du papier, coupez-le en deux au centre, puis coupez-le en triangles, cubes ou lanières.",
+            "Mélangez les morceaux de tofu dans la farine de maïs épicée pour bien les enrober. Faites chauffer l'huile dans une grande poêle antiadhésive à feu moyen-vif. Faites frire le tofu pendant 2 à 4 minutes de chaque côté jusqu'à ce qu'il soit doré, croustillant et doré sur les bords. Les petits cubes prendront 2 minutes de chaque côté, les plus grands triangles prendront 4 minutes. Faites cuire par lots si nécessaire, en ajoutant un peu plus d'huile si la poêle devient sèche.",
+            "Égoutter le tofu cuit sur du papier absorbant et assaisonner avec une pincée de sel supplémentaire avant de servir."
         ],
         "nutritional_info": {
             "kcal": "165",
@@ -777,23 +777,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/onepan-english-breakfast/",
-        "title": "[FR] One-pan English breakfast",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyThis combines all the best ingredients of a traditional English breakfast in one frying pan, with no need to chop anything",
+        "title": "Petit-déjeuner anglais à une poêle",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Elle combine tous les meilleurs ingrédients d'un petit-déjeuner anglais traditionnel dans une poêle à frire, sans rien hacher.",
         "prep_time": "5 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "4 good-quality pork chipolata",
-            "4 rashers smoked back bacon",
-            "140g button mushroom",
-            "6 eggs, beaten",
-            "8 cherry tomatoes, halved",
-            "handful grated cheese (optional)",
-            "1 tbsp snipped chives"
+            "4 chipolata de porc de bonne qualité",
+            "4 tranches de bacon fumé",
+            "140 g de champignons de Paris",
+            "6 œufs battus",
+            "8 tomates cerises, coupées en deux",
+            "une poignée de fromage râpé (facultatif)",
+            "1 cuillère à soupe de ciboulette ciselée"
         ],
         "method": [
-            "Heat the grill to high. Heat a medium non-stick frying pan, add the chipolatas and fry for 3 mins. Add the bacon, turning occasionally, until it starts to crisp, about 5 mins more. Tip in the mushrooms and continue to cook for a further 3-5 mins. Drain any excess fat and move the ingredients so they are evenly spread out.",
-            "Season the eggs, then add to the pan, swirling to fill the spaces. Gently move with a fork for 2 mins over a low-medium heat until beginning to set. Scatter over the tomatoes, cheese, if using, and chives, then grill for 2 mins until set. Cut into wedges and serve with your favourite sauces."
+            "Chauffer le gril à feu vif. Faites chauffer une poêle antiadhésive de taille moyenne, ajoutez les chipolatas et faites revenir 3 minutes. Ajoutez le bacon, en le retournant de temps en temps, jusqu'à ce qu'il commence à devenir croustillant, environ 5 minutes de plus. Ajoutez les champignons et poursuivez la cuisson encore 3 à 5 minutes. Égoutter tout excès de graisse et déplacer les ingrédients pour qu'ils soient uniformément répartis.",
+            "Assaisonnez les œufs, puis ajoutez-les à la poêle en remuant pour remplir les espaces. Remuez doucement avec une fourchette pendant 2 minutes à feu doux-moyen jusqu'à ce qu'elle commence à prendre. Répartir sur les tomates, le fromage, le cas échéant, et la ciboulette, puis griller pendant 2 minutes jusqu'à ce que le tout soit pris. Coupez-le en quartiers et servez-le avec vos sauces préférées."
         ],
         "nutritional_info": {
             "kcal": "349",
@@ -810,30 +810,30 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/herbed-chicken-skewers/",
-        "title": "[FR] Herbed chicken skewers",
-        "description": "(Translation pending) A superhealthy chicken dish with a ‘no-cook’ relish",
+        "title": "Brochettes de poulet aux herbes",
+        "description": "Un plat de poulet super sain avec une relish « sans cuisson »",
         "prep_time": "50 mins Ready in 40 to 50 minutes",
         "cook_time": "",
         "serves": "8",
         "ingredients": [
-            "500g tiny new potatoes - look for packets of tiny or baby new potatoes, or pick out the smallest ones you can find if they are sold loose",
-            "3 tbsp each of chopped parsley, mint and chives",
-            "6 tbsp olive oil",
-            "2 tbsp lemon juice",
-            "500g skinless chicken breasts, cut into 3cm chunks",
-            "1 red onion, peeled",
-            "1 red pepper, seeded and cut into 3cm chunks",
-            "1 lemon, cut into 8 wedges",
-            "8 ripe tomatoes - vine grown tomatoes tend to have the best flavour",
-            "2 green chillies, seeded and finely chopped",
-            "2 small garlic cloves, finely chopped",
-            "4 tbsp olive oil",
-            "2 tbsp white wine vinegar"
+            "500 g de petites pommes de terre nouvelles – recherchez des paquets de pommes de terre nouvelles minuscules ou miniatures, ou choisissez les plus petites que vous pouvez trouver si elles sont vendues en vrac",
+            "3 cuillères à soupe de persil haché, de menthe et de ciboulette",
+            "6 cuillères à soupe d'huile d'olive",
+            "2 cuillères à soupe de jus de citron",
+            "500 g de poitrines de poulet sans peau, coupées en morceaux de 3 cm",
+            "1 oignon rouge, pelé",
+            "1 poivron rouge épépiné et coupé en morceaux de 3 cm",
+            "1 citron, coupé en 8 quartiers",
+            "8 tomates mûres – les tomates de vigne ont tendance à avoir la meilleure saveur",
+            "2 piments verts épépinés et finement hachés",
+            "2 petites gousses d'ail, hachées finement",
+            "4 cuillères à soupe d'huile d'olive",
+            "2 cuillères à soupe de vinaigre de vin blanc"
         ],
         "method": [
-            "If using wooden or bamboo\r\nskewers soak eight in cold water\r\nfor about half an hour. Cook the\r\npotatoes in boiling salted water for\r\n10-12 minutes, until just tender,\r\ndrain and leave to cool. Mix the\r\nherbs, oil, lemon juice, salt and\r\npepper in a large bowl and add the\r\nchicken and potatoes. Mix well\r\nuntil everything is glistening. Cut\r\nthe onion into 6 wedges, then\r\nseparate the layers on each\r\nwedge. Add the onion and the\r\npepper to the marinade and mix\r\nthoroughly.",
-            "To make the relish, halve and\r\nseed the tomatoes, then chop the\r\nflesh finely. Mix the tomatoes,\r\nchillies, garlic, oil, vinegar, salt\r\nand pepper and spoon into a\r\nsmall dish.",
-            "Thread the chicken, potatoes,\r\npeppers and onion onto\r\n8 skewers, finishing each with a\r\nlemon wedge. Barbecue directly\r\nover a medium high heat for 5-6\r\nminutes on each side, until the\r\nchicken is cooked. Serve piled on\r\na serving platter with the tomato\r\nrelish."
+            "Si vous utilisez du bois ou du bambou\r\ntremper huit brochettes dans de l'eau froide\r\npendant environ une demi-heure. Cuire le\r\npommes de terre dans de l'eau bouillante salée pendant\r\n10-12 minutes, jusqu'à ce qu'ils soient juste tendres,\r\négoutter et laisser refroidir. Mélangez le\r\nherbes, huile, jus de citron, sel et\r\npoivrer dans un grand bol et ajouter le\r\npoulet et pommes de terre. Bien mélanger\r\njusqu'à ce que tout brille. Couper\r\nl'oignon en 6 quartiers, puis\r\nséparer les calques sur chacun\r\ncoin. Ajoutez l'oignon et le\r\npoivrer la marinade et mélanger\r\nà fond.",
+            "Pour préparer la relish, coupez-la en deux et\r\népépiner les tomates, puis hacher les\r\nla chair finement. Mélangez les tomates,\r\npiments, ail, huile, vinaigre, sel\r\net poivrer et verser dans un\r\npetit plat.",
+            "Enfilez le poulet, les pommes de terre,\r\npoivrons et oignons dessus\r\n8 brochettes finissant chacune par un\r\nquartier de citron. Griller directement\r\nà feu moyen-vif pendant 5-6\r\nminutes de chaque côté, jusqu'à ce que le\r\nle poulet est cuit. Servir empilé\r\nun plat de service avec la tomate\r\nsavourer."
         ],
         "nutritional_info": {
             "kcal": "230",
@@ -850,28 +850,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/fruity-lamb-tagine/",
-        "title": "[FR] Fruity lamb tagine",
-        "description": "(Translation pending) This succulent and superhealthy one-pot is guaranteed to satisfy a crowd – save time and make it up to two days ahead",
+        "title": "Tajine d'agneau fruité",
+        "description": "Ce one-pot succulent et supersain satisfera à coup sûr toute une foule – gagnez du temps et préparez-le jusqu'à deux jours à l'avance.",
         "prep_time": "15 mins Cook: 1 hrs 30 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 tbsp olive oil",
-            "500g lean diced lamb",
-            "1 large onion, roughly chopped",
-            "2 large carrots, quartered lengthways and cut into chunks",
-            "2 garlic cloves, finely chopped",
-            "2 tbsp ras-el-hanout spice mix (see tip, below)",
-            "400g can chopped tomatoes",
-            "400g can chickpeas, rinsed and drained",
-            "200g dried apricots",
-            "600ml chicken stock",
-            "120g pack pomegranate seeds",
-            "2 large handfuls coriander, roughly chopped"
+            "2 cuillères à soupe d'huile d'olive",
+            "500 g d'agneau maigre coupé en dés",
+            "1 gros oignon, haché grossièrement",
+            "2 grosses carottes, coupées en quartiers dans le sens de la longueur et en morceaux",
+            "2 gousses d'ail, hachées finement",
+            "2 cuillères à soupe de mélange d'épices ras-el-hanout (voir astuce ci-dessous)",
+            "Boîte de 400 g de tomates concassées",
+            "400 g de pois chiches en boîte, rincés et égouttés",
+            "200 g d'abricots secs",
+            "600 ml de bouillon de poulet",
+            "120 g de graines de grenade",
+            "2 grosses poignées de coriandre hachée grossièrement"
         ],
         "method": [
-            "Heat oven to 180C/160C fan/gas 4.\r\nHeat the oil in a casserole and brown\r\nthe lamb on all sides. Scoop the lamb\r\nout onto a plate, then add the onion\r\nand carrots and cook for 2-3 mins until\r\ngolden. Add the garlic and cook for 1 min\r\nmore. Stir in the spices and tomatoes,\r\nand season. Tip the lamb back in with\r\nthe chickpeas and apricots. Pour over the\r\nstock, stir and bring to a simmer. Cover\r\nthe dish and place in the oven for 1 hr.",
-            "If the lamb is still a little tough, give\r\nit 20 mins more until tender. When ready,\r\nleave it to rest so it’s not piping hot, then\r\nserve scattered with pomegranate and\r\nherbs, with couscous or rice alongside."
+            "Chauffer le four à 180C/160C ventilateur/gaz 4.\r\nFaites chauffer l'huile dans une cocotte et faites dorer\r\nl'agneau de tous les côtés. Scoop l'agneau\r\ndéposer dans une assiette, puis ajouter l'oignon\r\net les carottes et cuire 2-3 minutes jusqu'à ce que\r\ndoré. Ajouter l'ail et cuire 1 min\r\nplus. Incorporer les épices et les tomates,\r\net la saison. Remettez l'agneau dedans avec\r\nles pois chiches et les abricots. Verser sur le\r\nbouillon, remuer et porter à ébullition. Couverture\r\nle plat et mettre au four pendant 1 h.",
+            "Si l'agneau est encore un peu dur, donnez-le\r\nil 20 minutes de plus jusqu'à tendreté. Une fois prêt,\r\nlaissez-le reposer pour qu'il ne soit pas très chaud, puis\r\nservir parsemé de grenade et\r\nherbes, accompagné de couscous ou de riz."
         ],
         "nutritional_info": {
             "kcal": "497",
@@ -888,26 +888,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/miniature-omelettes-with-ricotta/",
-        "title": "[FR] Miniature omelettes with ricotta",
-        "description": "(Translation pending) These little omelettes – called frittatine in Italian – make a wonderful appetizer",
+        "title": "Omelettes miniatures à la ricotta",
+        "description": "Ces petites omelettes – appelées frittatine en italien – constituent un merveilleux apéritif",
         "prep_time": "",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "4 eggs",
-            "small handful flatleaf parsley, finely chopped, plus extra sprigs to serve",
-            "handful chives, finely snipped",
-            "1 small garlic clove, finely chopped",
-            "50g parmesan, freshly grated",
-            "olive oil, for frying",
-            "250g tub ricotta",
-            "handful fresh basil, torn",
-            "50g parmesan, freshly grated"
+            "4 œufs",
+            "une petite poignée de persil plat, finement haché, plus des brins supplémentaires pour servir",
+            "une poignée de ciboulette finement ciselée",
+            "1 petite gousse d'ail, hachée finement",
+            "50 g de parmesan fraîchement râpé",
+            "huile d'olive, pour la friture",
+            "Pot de 250 g de ricotta",
+            "une poignée de basilic frais, déchiré",
+            "50 g de parmesan fraîchement râpé"
         ],
         "method": [
-            "Beat the eggs with 2 tbsp water, then season if you want to. Mix in the parsley, chives, garlic and parmesan.",
-            "Heat a 23cm heavy-based frying pan on a medium heat with a little oil. When the oil’s hot, add a ladleful (about a third) of the egg mixture and tip the mixture so it covers the base. Reduce the heat and cook the omelette until just firm, then flip it over and cook the other side. Keep warm. Repeat to make three omelettes, adding a little extra oil to the pan each time.",
-            "Make the filling by combining the ricotta, basil, parmesan and some pepper. Spread mixture over each omelette, roll up loosely like a cigar and cut into thickish slices. Can be made up to 5 hrs ahead. Serve garnished with parsley."
+            "Battez les œufs avec 2 cuillères à soupe d'eau, puis assaisonnez si vous le souhaitez. Incorporer le persil, la ciboulette, l'ail et le parmesan.",
+            "Faites chauffer une poêle à fond épais de 23 cm à feu moyen avec un peu d'huile. Lorsque l’huile est chaude, ajoutez une louche (environ un tiers) du mélange d’œufs et versez le mélange pour qu’il recouvre le fond. Réduisez le feu et faites cuire l'omelette jusqu'à ce qu'elle soit juste ferme, puis retournez-la et faites cuire l'autre côté. Gardez au chaud. Répétez l’opération pour faire trois omelettes, en ajoutant à chaque fois un peu d’huile supplémentaire dans la poêle.",
+            "Préparez la garniture en mélangeant la ricotta, le basilic, le parmesan et un peu de poivre. Étalez le mélange sur chaque omelette, roulez-la sans serrer comme un cigare et coupez-la en tranches épaisses. Peut être préparé jusqu'à 5 heures à l'avance. Servir garni de persil."
         ],
         "nutritional_info": {
             "kcal": "233",
@@ -924,26 +924,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/vitality-chicken-salad-with-avocado-dressing/",
-        "title": "[FR] Vitality chicken salad with avocado dressing",
-        "description": "(Translation pending) A super-green, healthy mix of soya beans, cucumber, avocado and Little Gem lettuce – topped with lean shredded chicken breast",
+        "title": "Salade de poulet Vitalité avec vinaigrette à l'avocat",
+        "description": "Un mélange super vert et sain de graines de soja, de concombre, d'avocat et de laitue Little Gem – garni de poitrine de poulet maigre râpée",
         "prep_time": "5 mins Cook: 3 mins",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "handful frozen soya beans",
-            "1 skinless cooked chicken breast, shredded",
-            "¼ cucumber, peeled, deseeded and chopped",
-            "½ avocado, flesh scooped out",
-            "few drops Tabasco sauce",
-            "juice ½ lemon, plus a lemon wedge",
-            "2 tsp extra-virgin olive oil",
-            "5-6 Little Gem lettuce leaves",
-            "1 tsp mixed seed"
+            "une poignée de graines de soja surgelées",
+            "1 poitrine de poulet cuite sans peau, râpée",
+            "¼ de concombre pelé, épépiné et haché",
+            "½ avocat, chair évidée",
+            "quelques gouttes de sauce Tabasco",
+            "le jus d'un demi citron et d'un quartier de citron",
+            "2 cuillères à café d'huile d'olive extra vierge",
+            "5-6 feuilles de laitue Little Gem",
+            "1 cuillère à café de graines mélangées"
         ],
         "method": [
-            "Blanch the soya beans for 3 mins. Rinse\r\nin cold water and drain thoroughly. Put the\r\nchicken, beans and cucumber in a bowl.",
-            "Blitz the avocado, Tabasco, lemon\r\njuice and oil in a food processor or\r\nwith a hand blender. Season, pour\r\ninto the bowl and mix well to coat.",
-            "Spoon the mixture into the lettuce\r\nleaves (or serve it alongside them)\r\nand sprinkle with the seeds. Chill until\r\nlunch, then serve with a lemon wedge."
+            "Faites blanchir les graines de soja pendant 3 minutes. Rincer\r\ndans l'eau froide et égouttez-les soigneusement. Mettez le\r\npoulet, haricots et concombre dans un bol.",
+            "Blitz l'avocat, Tabasco, citron\r\nle jus et l'huile dans un robot culinaire ou\r\navec un mixeur plongeant. Assaisonner, verser\r\ndans le bol et bien mélanger pour bien enrober.",
+            "Verser le mélange dans la laitue\r\nfeuilles (ou servez-les avec elles)\r\net saupoudrer de graines. Réfrigérer jusqu'à\r\ndéjeuner, puis servir avec un quartier de citron."
         ],
         "nutritional_info": {
             "kcal": "433",
@@ -960,25 +960,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/mexican-bean-chilli/",
-        "title": "[FR] Mexican bean chilli",
-        "description": "(Translation pending) The secret ingredient in this chipotle-spiced, beef chilli con carne is a storecupboard favourite – baked beans",
+        "title": "Piment mexicain aux haricots",
+        "description": "L'ingrédient secret de ce chili con carne au bœuf épicé au chipotle est un favori des placards : les fèves au lard.",
         "prep_time": "5 mins Cook: 45 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 onion, diced",
-            "1 red pepper, diced",
-            "1 tbsp olive oil",
-            "1 tsp chilli powder",
-            "500g beef mince",
-            "415g can baked beans",
-            "150ml beef stock",
-            "1 tbsp chipotle paste",
-            "coriander leaves, rice and yogurt, to serve"
+            "1 oignon, coupé en dés",
+            "1 poivron rouge, coupé en dés",
+            "1 cuillère à soupe d'huile d'olive",
+            "1 cuillère à café de poudre de piment",
+            "500 g de bœuf haché",
+            "Boîte de 415 g de fèves au lard",
+            "150 ml de bouillon de bœuf",
+            "1 cuillère à soupe de pâte de chipotle",
+            "feuilles de coriandre, riz et yaourt, pour servir"
         ],
         "method": [
-            "Fry the onion and red\r\npepper in olive oil over a medium\r\nheat for 10-15 mins or until softened.\r\nIncrease the heat, add the chilli\r\npowder and cook for a few minutes before\r\nadding the mince. Cook until\r\nbrowned and all the liquid has evaporated.",
-            "Tip in the baked beans, beef stock and chipotle paste.\r\nSimmer over a low heat for 15-20 mins.\r\nSeason, scatter with coriander leaves\r\nand serve with rice and yogurt."
+            "Faire revenir l'oignon et le rouge\r\npoivrer dans l'huile d'olive à feu moyen\r\nchauffer pendant 10 à 15 minutes ou jusqu'à ce qu'il soit ramolli.\r\nAugmentez le feu, ajoutez le piment\r\npoudrer et cuire quelques minutes avant\r\najouter le hachis. Cuire jusqu'à\r\ndoré et tout le liquide s’est évaporé.",
+            "Versez les fèves au lard, le bouillon de bœuf et la pâte de chipotle.\r\nLaissez mijoter à feu doux pendant 15 à 20 minutes.\r\nAssaisonner, parsemer de feuilles de coriandre\r\net servir avec du riz et du yaourt."
         ],
         "nutritional_info": {
             "kcal": "419",
@@ -995,21 +995,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/fruit-and-nut-yogurt/",
-        "title": "[FR] Fruit & nut yogurt",
-        "description": "(Translation pending) An energy-boosting breakfast pot that makes a great alternative to cereal and will keep you full until lunch",
+        "title": "Yaourt aux fruits et aux noix",
+        "description": "Un pot de petit-déjeuner énergisant qui constitue une excellente alternative aux céréales et vous rassasiera jusqu'au déjeuner",
         "prep_time": "5 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "3 tbsp chopped mixed nuts",
-            "1 tbsp sunflower seed",
-            "1 tbsp pumpkin seed",
-            "1 sliced banana",
-            "1-2 handfuls berries (frozen and defrosted is fine)",
-            "200g vanilla yogurt"
+            "3 cuillères à soupe de mélange de noix hachées",
+            "1 cuillère à soupe de graines de tournesol",
+            "1 cuillère à soupe de graines de citrouille",
+            "1 banane tranchée",
+            "1 à 2 poignées de baies (congelées et décongelées, c'est très bien)",
+            "200 g de yaourt à la vanille"
         ],
         "method": [
-            "Mix the nuts, sunflower seeds and pumpkin seeds. Mix the sliced banana and berries. Layer up in a bowl with yoghurt and enjoy."
+            "Mélangez les noix, les graines de tournesol et les graines de citrouille. Mélangez les tranches de banane et les baies. Mettez-le dans un bol avec du yaourt et dégustez."
         ],
         "nutritional_info": {
             "kcal": "694",
@@ -1026,21 +1026,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/dippy-eggs-with-marmite-soldiers/",
-        "title": "[FR] Dippy eggs with Marmite soldiers",
-        "description": "(Translation pending) Start the day the right way, with this quick, easy and nutritious breakfast",
+        "title": "Oeufs Dippy avec des soldats Marmites",
+        "description": "Commencez la journée du bon pied avec ce petit-déjeuner rapide, facile et nutritif",
         "prep_time": "5 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "2 eggs",
-            "4 slices wholemeal bread",
-            "a knob of butter",
+            "2 œufs",
+            "4 tranches de pain complet",
+            "une noix de beurre",
             "Marmite",
-            "mixed seeds"
+            "graines mélangées"
         ],
         "method": [
-            "Bring a pan of water to a simmer. Add\r\n2 eggs, simmer for 2 mins if room temp,\r\n3 mins if fridge-cold, then turn off heat.\r\nCover the pan and leave for 2 mins more.",
-            "Meanwhile, toast 4 slices wholemeal\r\nbread and spread thinly with butter, then\r\nMarmite. To serve, cut into soldiers and\r\ndip into the egg, then a few mixed seeds."
+            "Portez une casserole d'eau à ébullition. Ajouter\r\n2 œufs, laisser mijoter 2 minutes à température ambiante,\r\n3 minutes si le réfrigérateur est froid, puis éteignez le feu.\r\nCouvrir la poêle et laisser reposer encore 2 minutes.",
+            "Pendant ce temps, faites griller 4 tranches de céréales complètes\r\npain et tartiner finement de beurre, puis\r\nMarmite. Pour servir, couper en soldats et\r\ntremper dans l'œuf, puis quelques graines mélangées."
         ],
         "nutritional_info": {
             "kcal": "372",
@@ -1057,23 +1057,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spicy-tuna-and-cottage-cheese-jacket/",
-        "title": "[FR] Spicy tuna & cottage cheese jacket",
-        "description": "(Translation pending) For a low-fat energy lunch try a carbohydrate-heavy baked potato with a light and nutritious filling",
+        "title": "Veste épicée au thon et au fromage cottage",
+        "description": "Pour un déjeuner énergétique faible en gras, essayez une pomme de terre au four riche en glucides avec une garniture légère et nutritive.",
         "prep_time": "10 mins Cook: 1 hrs",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "225g can tuna, drained",
-            "½ red chilli, chopped",
-            "1 spring onion, sliced",
-            "handful halved cherry tomatoes",
-            "½ small bunch coriander, chopped",
-            "1 medium-sized jacket potato",
-            "150g low-fat cottage cheese"
+            "Boîte de 225 g de thon égoutté",
+            "½ piment rouge, haché",
+            "1 oignon nouveau, tranché",
+            "une poignée de tomates cerises coupées en deux",
+            "½ petit bouquet de coriandre hachée",
+            "1 pomme de terre en chemise de taille moyenne",
+            "150 g de fromage blanc allégé"
         ],
         "method": [
-            "Preheat the oven to 180C/Gas 4/fan oven 160C. Prick the potato several times with a fork and put it straight onto a shelf in the hottest part of the oven. Bake for approximately 1 hour, or until it is soft inside.",
-            "Mix tuna with chilli, spring onion, cherry\r\ntomatoes and coriander. Split jacket\r\npotato and fill with the tuna mix and\r\ncottage cheese."
+            "Préchauffer le four à 180°C/Gaz 4/four ventilé 160°C. Piquer la pomme de terre plusieurs fois avec une fourchette et la déposer directement sur une grille dans la partie la plus chaude du four. Cuire au four environ 1 heure ou jusqu'à ce qu'il soit tendre à l'intérieur.",
+            "Mélanger le thon avec le piment, l'oignon nouveau et la cerise\r\ntomates et coriandre. Veste fendue\r\npomme de terre et remplir avec le mélange de thon et\r\nfromage cottage."
         ],
         "nutritional_info": {
             "kcal": "439",
@@ -1089,32 +1089,32 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/simple-seafood-chowder/",
-        "title": "[FR] Simple seafood chowder",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyA chunky, creamy soup with salmon and smoked haddock, mixed shellfish and potatoes – a hearty meal",
+        "title": "Chaudrée de fruits de mer simple",
+        "description": "Contient du porc – la recette est réservée aux non-musulmans. Une soupe épaisse et crémeuse au saumon et à l'aiglefin fumé, un mélange de crustacés et de pommes de terre – un repas copieux.",
         "prep_time": "15 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 tbsp vegetable oil",
-            "1 large onion, chopped",
-            "100g streaky bacon, chopped",
-            "1 tbsp plain flour",
-            "600ml fish stock, made from 1 fish stock cube",
-            "225g new potatoes, halved",
-            "pinch mace",
-            "pinch cayenne pepper",
-            "300ml milk",
-            "320g pack fish pie mix (salmon, haddock and smoked haddock)",
-            "4 tbsp single cream",
-            "250g pack cooked mixed shellfish",
-            "small bunch parsley, chopped",
-            "crusty bread, to serve"
+            "1 cuillère à soupe d'huile végétale",
+            "1 gros oignon, haché",
+            "100 g de bacon en tranches, haché",
+            "1 cuillère à soupe de farine nature",
+            "600 ml de bouillon de poisson, préparé à partir d'un cube de bouillon de poisson",
+            "225 g de pommes de terre nouvelles, coupées en deux",
+            "pincer la masse",
+            "pincée de poivre de Cayenne",
+            "300 ml de lait",
+            "Paquet de 320 g de préparation pour tarte au poisson (saumon, aiglefin et aiglefin fumé)",
+            "4 cuillères à soupe de crème liquide",
+            "Paquet de 250 g de coquillages mélangés cuits",
+            "petit bouquet de persil haché",
+            "pain croustillant, pour servir"
         ],
         "method": [
-            "Heat the oil in a large saucepan over\r\na medium heat, then add the onion and\r\nbacon. Cook for 8-10 mins until the onion\r\nis soft and the bacon is cooked. Stir in\r\nthe flour, then cook for a further 2 mins.",
-            "Pour in the fish stock and bring it up\r\nto a gentle simmer. Add the potatoes,\r\ncover, then simmer for 10-12 mins until\r\nthe potatoes are cooked through.",
-            "Add the mace, cayenne pepper and\r\nsome seasoning, then stir in the milk.",
-            "Tip the fish pie mix into the pan,\r\ngently simmer for 4 mins. Add the\r\ncream and shellfish, then simmer\r\nfor 1 min more. Check the seasoning.\r\nSprinkle with the parsley and serve\r\nwith some crusty bread."
+            "Faites chauffer l'huile dans une grande casserole\r\nfeu moyen, puis ajoutez l'oignon et\r\nbacon. Cuire 8 à 10 minutes jusqu'à ce que l'oignon\r\nest mou et le bacon est cuit. Incorporer\r\nla farine, puis laissez cuire encore 2 min.",
+            "Versez le bouillon de poisson et faites monter\r\nà feu doux. Ajoutez les pommes de terre,\r\ncouvrir, puis laisser mijoter 10 à 12 minutes jusqu'à ce que\r\nles pommes de terre sont bien cuites.",
+            "Ajouter le macis, le poivre de Cayenne et\r\nun peu d'assaisonnement, puis incorporer le lait.",
+            "Versez le mélange pour tarte au poisson dans la poêle,\r\nlaisser mijoter doucement pendant 4 minutes. Ajoutez le\r\ncrème et crustacés, puis laisser mijoter\r\npendant 1 minute de plus. Vérifiez l'assaisonnement.\r\nSaupoudrer de persil et servir\r\navec du pain croustillant."
         ],
         "nutritional_info": {
             "kcal": "422",
@@ -1131,23 +1131,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spiced-scrambled-eggs/",
-        "title": "[FR] Spiced scrambled eggs",
-        "description": "(Translation pending) Make a wholesome start to the morning with creamy scrambled eggs on toast, perfect for using up a stray tomato or two",
+        "title": "Oeufs brouillés aux épices",
+        "description": "Commencez la journée sainement avec des œufs brouillés crémeux sur du pain grillé, parfaits pour utiliser une ou deux tomates égarées.",
         "prep_time": "10 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 small chopped onion",
-            "1 chopped red chilli",
-            "knob of butter",
-            "4 beaten eggs",
-            "splash of milk",
-            "good handful diced tomatoes",
-            "coriander leaves",
-            "toast, to serve"
+            "1 petit oignon haché",
+            "1 piment rouge haché",
+            "noisette de beurre",
+            "4 oeufs battus",
+            "un peu de lait",
+            "une bonne poignée de tomates en dés",
+            "feuilles de coriandre",
+            "toasts, pour servir"
         ],
         "method": [
-            "Soften the onion and chilli in a knob of butter.\r\nStir in the beaten eggs and a splash of\r\nmilk. When nearly scrambled, gently\r\nstir in a good handful diced tomatoes\r\nfollowed by some coriander leaves.\r\nSeason and eat on toast."
+            "Faites ramollir l'oignon et le piment dans une noix de beurre.\r\nIncorporer les œufs battus et un peu de\r\ndu lait. Quand presque brouillé, doucement\r\nincorporer une bonne poignée de tomates en dés\r\nsuivi de quelques feuilles de coriandre.\r\nAssaisonner et déguster sur des toasts."
         ],
         "nutritional_info": {
             "kcal": "236",
@@ -1164,27 +1164,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chicken-red-pepper-and-almond-traybake/",
-        "title": "[FR] Chicken, red pepper & almond traybake",
-        "description": "(Translation pending) A tasty one-pan roast chicken supper with lemon, cumin, paprika, coriander and other North African flavours",
+        "title": "Plateau de poulet, poivrons rouges et amandes",
+        "description": "Un savoureux souper de poulet rôti dans une poêle avec du citron, du cumin, du paprika, de la coriandre et d'autres saveurs nord-africaines",
         "prep_time": "15 mins Cook: 40 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "500g boneless, skinless chicken thighs",
-            "3 medium red onions, cut into thick wedges",
-            "500g small red potatoes, cut into thick slices",
-            "2 red peppers, deseeded and cut into thick slices",
-            "1 garlic clove, finely chopped",
-            "1 tsp each ground cumin, smoked paprika and fennel seeds, slightly crushed",
-            "3 tbsp olive oil",
-            "zest and juice 1 lemon",
-            "50g whole blanched almonds, roughly chopped",
-            "170g tub 0% Greek yogurt, to serve",
-            "small handful parsley or coriander, chopped, to serve"
+            "500 g de cuisses de poulet désossées et sans peau",
+            "3 oignons rouges moyens, coupés en quartiers épais",
+            "500 g de petites pommes de terre rouges coupées en tranches épaisses",
+            "2 poivrons rouges épépinés et coupés en tranches épaisses",
+            "1 gousse d'ail, hachée finement",
+            "1 cuillère à café de cumin moulu, de paprika fumé et de graines de fenouil, légèrement écrasées",
+            "3 cuillères à soupe d'huile d'olive",
+            "le zeste et le jus d'1 citron",
+            "50 g d'amandes entières blanchies grossièrement hachées",
+            "Pot de 170 g de yaourt grec 0%, pour servir",
+            "petite poignée de persil ou de coriandre hachée pour servir"
         ],
         "method": [
-            "Heat oven to 200C/180C fan/gas 6. Place the chicken, onions, potatoes and peppers in a large bowl and season. in another bowl, mix together the garlic, spices, oil, and lemon zest and juice. Pour this over everything and spread the mixture between 2 baking trays.",
-            "Roast for 40 mins, turning over after 20 mins, until the chicken is cooked through. Add the almonds for the final 8 mins of cooking. Serve in bowls with a big dollop of Greek yogurt and some chopped parsley or coriander."
+            "Chauffer le four à 200C/180C chaleur tournante/gaz 6. Placer le poulet, les oignons, les pommes de terre et les poivrons dans un grand bol et assaisonner. dans un autre bol, mélanger l'ail, les épices, l'huile, le zeste et le jus de citron. Versez ceci sur le tout et répartissez le mélange entre 2 plaques à pâtisserie.",
+            "Rôtir pendant 40 minutes, en retournant après 20 minutes, jusqu'à ce que le poulet soit bien cuit. Ajoutez les amandes pour les 8 dernières minutes de cuisson. Servir dans des bols avec une grosse cuillerée de yaourt grec et du persil ou de la coriandre hachés."
         ],
         "nutritional_info": {
             "kcal": "442",
@@ -1201,24 +1201,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/salmon-andamp-soya-bean-salad/",
-        "title": "[FR] Salmon & soya bean salad",
-        "description": "(Translation pending) Packed with the kind of fat that is good for you, this makes a light yet still satisfying meal",
+        "title": "Salade de saumon et soja",
+        "description": "Rempli du type de gras qui est bon pour vous, cela constitue un repas léger mais néanmoins satisfaisant.",
         "prep_time": "15 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 large omega-3 rich egg (See TRY section at the bottom of the recipe)",
-            "200g frozen soya beans, defrosted",
-            "zest and juice 1 lemon",
-            "2 tbsp flax seed oil (we used granoVita)",
-            "250g pouch Puy lentils",
-            "small bunch spring onions, sliced",
-            "2 poached salmon fillets, skin removed"
+            "1 gros œuf riche en oméga-3 (Voir la section ESSAYER en bas de la recette)",
+            "200 g de graines de soja surgelées, décongelées",
+            "le zeste et le jus d'1 citron",
+            "2 cuillères à soupe d'huile de graines de lin (nous avons utilisé granoVita)",
+            "Sachet 250g de lentilles du Puy",
+            "petit bouquet d'oignons nouveaux, tranchés",
+            "2 filets de saumon pochés, sans peau"
         ],
         "method": [
-            "Put the egg in a pan, cover with cold water and bring to the boil. Cook for 4 mins (or 8 for hard-boiled), adding soya beans to the pan for the final min, then drain and run under cold water to cool. Shell and cut egg into 6 wedges, then set aside.",
-            "Mix the lemon juice and zest with the oil, season, then stir through the soya beans, lentils and spring onions.",
-            "Divide between 2 plates, then gently break the salmon into large flakes and put on top of the lentils along with the egg. Try it with seeded brown bread."
+            "Mettez l'œuf dans une casserole, couvrez d'eau froide et portez à ébullition. Cuire 4 minutes (ou 8 pour les durs), en ajoutant les graines de soja dans la poêle pendant la dernière minute, puis égoutter et passer sous l'eau froide pour refroidir. Décortiquez et coupez l'œuf en 6 quartiers, puis réservez.",
+            "Mélangez le jus et le zeste de citron avec l'huile, assaisonnez, puis incorporez les graines de soja, les lentilles et les oignons nouveaux.",
+            "Répartissez dans 2 assiettes, puis cassez délicatement le saumon en gros flocons et déposez-le dessus avec les lentilles ainsi que l'œuf. Essayez-le avec du pain brun aux graines."
         ],
         "nutritional_info": {
             "kcal": "618",
@@ -1235,20 +1235,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/thai-salmon-kebabs-with-sweet-chilli-and-lime-dip/",
-        "title": "[FR] Thai salmon kebabs with sweet chilli & lime dip",
-        "description": "(Translation pending) Always pop some salmon fillets in your shopping basket? Try this new way to transform them…",
+        "title": "Brochettes de saumon thaïlandaises avec trempette au piment doux et au citron vert",
+        "description": "Mettez toujours des filets de saumon dans votre panier ? Essayez cette nouvelle façon de les transformer…",
         "prep_time": "",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "4 tbsp sweet chilli sauce",
-            "juice 1 lime",
-            "4 x 140g/5oz skinless salmon fillet, cut into large chunks",
-            "oil, for drizzling"
+            "4 cuillères à soupe de sauce chili douce",
+            "jus 1 citron vert",
+            "4 x 140 g de filet de saumon sans peau, coupé en gros morceaux",
+            "huile, pour arroser"
         ],
         "method": [
-            "Combine the sweet chilli sauce and lime juice in a bowl. Pour half the mixture into a bowl for serving. Thread the salmon onto 4 skewers and brush with the remaining chilli sauce. Marinate for 20 mins.",
-            "Heat a griddle pan until very hot. Shake excess marinade from the kebabs, then drizzle with oil, season and griddle for 8 mins, turning occasionally until the salmon is opaque and comes away easily from the pan. Serve hot with the dipping sauce."
+            "Mélangez la sauce chili douce et le jus de citron vert dans un bol. Versez la moitié du mélange dans un bol pour servir. Enfiler le saumon sur 4 brochettes et badigeonner du reste de sauce chili. Laisser mariner 20 mn.",
+            "Faites chauffer une poêle jusqu'à ce qu'elle soit très chaude. Secouez l'excédent de marinade des brochettes, puis arrosez d'huile, assaisonnez et faites griller pendant 8 minutes en retournant de temps en temps jusqu'à ce que le saumon soit opaque et se détache facilement de la poêle. Servir chaud avec la trempette."
         ],
         "nutritional_info": {
             "kcal": "291",
@@ -1265,29 +1265,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/griddled-chicken-with-quinoa-greek-salad/",
-        "title": "[FR] Griddled chicken with quinoa Greek salad",
-        "description": "(Translation pending) A light dish of grilled chicken fillets and authentic salad with Kalamata olives, feta cheese, tomato and mint",
+        "title": "Poulet grillé avec salade grecque au quinoa",
+        "description": "Un plat léger de filets de poulet grillés et une salade authentique aux olives de Kalamata, fromage feta, tomate et menthe",
         "prep_time": "",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "225g quinoa",
-            "25g butter",
-            "1 red chilli, deseeded and finely chopped",
-            "1 garlic clove, crushed",
-            "400g chicken mini fillets",
-            "1½  tbsp extra-virgin olive oil",
-            "300g vine tomatoes, roughly chopped",
-            "handful pitted black kalamata olives",
-            "1 red onion, finely sliced",
-            "100g feta cheese, crumbled",
-            "small bunch mint leaves, chopped",
-            "juice and zest ½ lemon"
+            "225 g de quinoa",
+            "25g de beurre",
+            "1 piment rouge épépiné et finement haché",
+            "1 gousse d'ail, écrasée",
+            "400 g de mini-filets de poulet",
+            "1½ cuillère à soupe d'huile d'olive extra vierge",
+            "300 g de tomates grappes hachées grossièrement",
+            "poignée d'olives noires Kalamata dénoyautées",
+            "1 oignon rouge, finement tranché",
+            "100 g de fromage feta émietté",
+            "petit bouquet de feuilles de menthe, hachées",
+            "jus et zeste d'un demi citron"
         ],
         "method": [
-            "Cook the quinoa following the\r\npack instructions, then rinse in\r\ncold water and drain thoroughly.",
-            "Meanwhile, mix the butter,\r\nchilli and garlic into a paste. Toss\r\nthe chicken fillets in 2 tsp of the\r\nolive oil with some seasoning.\r\nLay in a hot griddle pan and cook\r\nfor 3-4 mins each side or until\r\ncooked through. Transfer to a plate, dot with the spicy butter\r\nand set aside to melt.",
-            "Next, tip the tomatoes, olives,\r\nonion, feta and mint into a bowl.\r\nToss in the cooked quinoa. Stir\r\nthrough the remaining olive oil,\r\nlemon juice and zest, and season\r\nwell. Serve with the chicken\r\nfillets on top, drizzled with any\r\nbuttery chicken juices."
+            "Cuire le quinoa en suivant\r\nemballer les instructions, puis rincer\r\neau froide et égouttez-les soigneusement.",
+            "Pendant ce temps, mélangez le beurre,\r\nle piment et l'ail en une pâte. Lancer\r\nles filets de poulet dans 2 cuillères à café de\r\nhuile d'olive avec un peu d'assaisonnement.\r\nDisposer dans une poêle bien chaude et cuire\r\npendant 3-4 minutes de chaque côté ou jusqu'à ce que\r\nbien cuit. Transférer dans une assiette, parsemer de beurre épicé\r\net laisser fondre.",
+            "Ensuite, renversez les tomates, les olives,\r\nl'oignon, la feta et la menthe dans un bol.\r\nIncorporer le quinoa cuit. Remuer\r\nà travers le reste de l'huile d'olive,\r\njus et zeste de citron et assaisonner\r\neh bien. Servir avec le poulet\r\nfilets sur le dessus, arrosés de tout\r\njus de poulet au beurre."
         ],
         "nutritional_info": {
             "kcal": "473",
@@ -1304,27 +1304,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spicy-cajun-chicken-quinoa/",
-        "title": "[FR] Spicy Cajun chicken quinoa",
-        "description": "(Translation pending) Protein-packed quinoa makes this midweek meal a superhealthy option",
+        "title": "Quinoa au poulet cajun épicé",
+        "description": "Le quinoa riche en protéines fait de ce repas en milieu de semaine une option super saine",
         "prep_time": "10 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "4 skinless chicken breasts, cut into bite-sized pieces",
-            "1 tbsp Cajun seasoning",
-            "100g quinoa",
-            "600ml hot chicken stock",
-            "100g dried apricots, sliced",
-            "½ x 250g pouch ready-to-use Puy lentils",
-            "1 tbsp olive oil",
-            "2 red onions, cut into thin wedges",
-            "1 bunch spring onions, chopped",
-            "small bunch coriander, chopped"
+            "4 poitrines de poulet sans peau, coupées en bouchées",
+            "1 cuillère à soupe d'assaisonnement cajun",
+            "100 g de quinoa",
+            "600 ml de bouillon de poulet chaud",
+            "100 g d'abricots secs tranchés",
+            "½ sachet de 250 g de lentilles du Puy prêtes à l'emploi",
+            "1 cuillère à soupe d'huile d'olive",
+            "2 oignons rouges, coupés en fines tranches",
+            "1 botte d'oignons nouveaux, hachés",
+            "petit bouquet de coriandre hachée"
         ],
         "method": [
-            "Heat oven to 200C/180C fan/gas 6.\r\nToss the chicken with the Cajun spice\r\nand arrange in a single layer in a roasting\r\ntin. Bake for 20 mins until the chicken\r\nis cooked. Set aside.",
-            "Meanwhile, cook the quinoa in the\r\nchicken stock for 15 mins until tender,\r\nadding the apricots and lentils for the\r\nfinal 5 mins. Drain and place into a large\r\nbowl with the chicken, toss together.",
-            "While the quinoa is cooking, heat\r\nthe oil in a large frying pan and soften the\r\nonions for 10-15 mins. Toss the onions\r\ninto the quinoa with the coriander and\r\nsome seasoning, then mix well."
+            "Chauffer le four à 200C/180C ventilateur/gaz 6.\r\nMélanger le poulet avec les épices cajun\r\net disposer en une seule couche dans un plat à rôtir\r\nétain. Cuire au four pendant 20 minutes jusqu'à ce que le poulet\r\nest cuit. Annuler.",
+            "Pendant ce temps, faites cuire le quinoa au\r\nbouillon de poulet pendant 15 minutes jusqu'à ce qu'il soit tendre,\r\najouter les abricots et les lentilles pour le\r\n5 dernières minutes. Égoutter et placer dans un grand\r\nbol avec le poulet, mélanger.",
+            "Pendant que le quinoa cuit, faites chauffer\r\nl'huile dans une grande poêle et ramollir le\r\noignons pendant 10-15 minutes. Mélanger les oignons\r\ndans le quinoa avec la coriandre et\r\nun peu d'assaisonnement, puis bien mélanger."
         ],
         "nutritional_info": {
             "kcal": "386",
@@ -1340,27 +1340,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/cajun-turkey-steaks-with-pineapple-salsa/",
-        "title": "[FR] Cajun turkey steaks with pineapple salsa",
-        "description": "(Translation pending) Turkey is the ultimate healthy, feelgood food – low in fat but high in protein. Jazz it up with a spicy salsa",
+        "title": "Steaks de dinde cajun avec salsa d'ananas",
+        "description": "La dinde est l’aliment sain et réconfortant par excellence – faible en gras mais riche en protéines. Égayez-le avec une salsa épicée",
         "prep_time": "10 mins Cook: 30 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 red onion, finely chopped",
-            "1 tbsp sunflower oil",
-            "1 red pepper, deseeded and diced",
-            "200g basmati rice",
-            "450ml chicken stock",
-            "400g can kidney beans, rinsed and drained",
-            "4 turkey steaks",
-            "2 tsp Cajun seasoning",
-            "5oz 140g fresh pineapples (or 220g can pineapple rings, drained)",
-            "½ green chilli, finely chopped",
-            "juice 1 lime"
+            "1 oignon rouge, finement haché",
+            "1 cuillère à soupe d'huile de tournesol",
+            "1 poivron rouge épépiné et coupé en dés",
+            "200 g de riz basmati",
+            "450 ml de bouillon de poulet",
+            "Boîte de 400 g de haricots rouges rincés et égouttés",
+            "4 steaks de dinde",
+            "2 cuillères à café d'assaisonnement cajun",
+            "140 g d'ananas frais (ou 220 g de rondelles d'ananas égouttées)",
+            "½ piment vert, finement haché",
+            "jus 1 citron vert"
         ],
         "method": [
-            "Reserve 2 tbsp of the onion for the\r\nsalsa. Heat the oil in a saucepan and\r\ncook the remaining onion and half the\r\npepper for 4 mins or until softened and\r\ncoloured. Stir in the rice, then pour in the\r\nstock. Add the kidney beans and a pinch\r\nof salt. Bring to the boil, stir once, cover\r\nthe pan, then reduce the heat to a gentle\r\nsimmer. Cook for 15 mins until the rice is\r\ntender and the liquid absorbed.",
-            "Dust the turkey steaks with the Cajun\r\nspice and griddle or fry in a non-stick pan\r\nfor about 4-6 mins on each side until\r\ncooked through. Cut the pineapple into\r\nsmall pieces and mix together with the\r\nreserved red onion, pepper, green chilli\r\nand lime juice. Spoon some salsa over\r\neach steak and serve with the rice."
+            "Réservez 2 cuillères à soupe d'oignon pour le\r\nsalsa. Faites chauffer l'huile dans une casserole et\r\nfaire revenir l'oignon restant et la moitié\r\npoivrer pendant 4 minutes ou jusqu'à ce qu'il soit ramolli et\r\ncoloré. Incorporer le riz, puis verser le\r\nstocks. Ajouter les haricots rouges et une pincée\r\nde sel. Porter à ébullition, remuer une fois, couvrir\r\nla poêle, puis réduisez le feu à feu doux\r\nlaisser mijoter. Cuire 15 minutes jusqu'à ce que le riz soit\r\ntendre et le liquide absorbé.",
+            "Saupoudrer les steaks de dinde de cajun\r\népices et plaque chauffante ou frire dans une poêle antiadhésive\r\npendant environ 4 à 6 minutes de chaque côté jusqu'à ce que\r\nbien cuit. Coupez l'ananas en\r\npetits morceaux et mélanger avec le\r\noignon rouge réservé, poivron, piment vert\r\net du jus de citron vert. Verser un peu de salsa dessus\r\nchaque steak et servir avec le riz."
         ],
         "nutritional_info": {
             "kcal": "467",
@@ -1377,22 +1377,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spring-salmon-with-minty-veg/",
-        "title": "[FR] Spring salmon with minty veg",
-        "description": "(Translation pending) An easy-to-prepare healthy meal which counts for two of your five-a-day",
+        "title": "Saumon printanier aux légumes à la menthe",
+        "description": "Un repas sain et facile à préparer qui compte pour deux de vos cinq par jour",
         "prep_time": "10 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "750g small new potatoes, thickly sliced",
-            "750g frozen peas and beans (we used Waitrose pea and bean mix, £2.29/1kg)",
-            "3 tbsp olive oil",
-            "zest and juice of 1 lemon",
-            "small pack mint, leaves only",
-            "4 salmon fillets about 140g/5oz each"
+            "750 g de petites pommes de terre nouvelles, tranchées épaisses",
+            "750 g de pois et de haricots surgelés (nous avons utilisé un mélange de pois et de haricots Waitrose, 2,29 £/1 kg)",
+            "3 cuillères à soupe d'huile d'olive",
+            "le zeste et le jus d'1 citron",
+            "petit paquet de menthe, feuilles seulement",
+            "4 filets de saumon d'environ 140 g chacun"
         ],
         "method": [
-            "Boil the potatoes in a large pan for 4 mins.\r\nTip in the peas and beans, bring back up\r\nto a boil, then carry on cooking for another\r\n3 mins until the potatoes and beans are\r\ntender. Whizz the olive oil, lemon zest and\r\njuice and mint in a blender to make a dressing(or finely chop the mint and whisk into the\r\noil and lemon).",
-            "Put the salmon in a microwave-proof dish,\r\nseason, then pour the dressing over. Cover\r\nwith cling film, pierce, then microwave on\r\nHigh for 4-5 mins until cooked through.\r\nDrain the veg, then mix with the hot dressing\r\nand cooking juices from the fish. Serve the\r\nfish on top of the vegetables."
+            "Faire bouillir les pommes de terre dans une grande poêle pendant 4 minutes.\r\nVersez les petits pois et les haricots, faites remonter\r\nporter à ébullition, puis poursuivre la cuisson pendant une autre\r\n3 minutes jusqu'à ce que les pommes de terre et les haricots soient\r\ntendre. Mélangez l'huile d'olive, le zeste de citron et\r\nle jus et la menthe dans un mélangeur pour faire une vinaigrette (ou hachez finement la menthe et fouettez-la dans le\r\nhuile et citron).",
+            "Mettez le saumon dans un plat allant au micro-ondes,\r\nassaisonner, puis verser la vinaigrette dessus. Couverture\r\navec du film alimentaire, percer, puis mettre au micro-ondes\r\nÀ feu vif pendant 4 à 5 minutes jusqu'à ce qu'il soit bien cuit.\r\nÉgoutter les légumes, puis mélanger avec la vinaigrette chaude\r\net les jus de cuisson du poisson. Servir le\r\npoisson sur les légumes."
         ],
         "nutritional_info": {
             "kcal": "555",
@@ -1409,25 +1409,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/hearty-lamb-stew/",
-        "title": "[FR] Hearty lamb stew",
-        "description": "(Translation pending) A classic one-pot is the easy answer to mid-week cooking- hearty, filling, warming and packed full of veggies",
+        "title": "Ragoût d'agneau copieux",
+        "description": "Un one-pot classique est la réponse facile à la cuisine en milieu de semaine : copieux, copieux, réchauffant et rempli de légumes.",
         "prep_time": "10 mins Cook: 1 hrs 40 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 tbsp vegetable oil",
-            "500g cubed stewing lamb",
-            "1 onion, thickly sliced",
-            "2 carrots, thickly sliced",
-            "2 leeks, thickly sliced",
-            "400ml hot vegetable or chicken stock",
-            "1 tsp dried rosemary or 1 fresh sprig",
-            "400g cannellini beans, rinsed and drained",
-            "crusty bread or boiled potatoes to serve (optional)"
+            "1 cuillère à soupe d'huile végétale",
+            "500 g d'agneau à ragoût en cubes",
+            "1 oignon, tranché épaisse",
+            "2 carottes, tranchées épaisses",
+            "2 poireaux, tranchés grossièrement",
+            "400 ml de bouillon de légumes ou de poulet chaud",
+            "1 cuillère à café de romarin séché ou 1 brin frais",
+            "400 g de haricots cannellini rincés et égouttés",
+            "pain croustillant ou pommes de terre bouillies pour servir (facultatif)"
         ],
         "method": [
-            "Heat the oil in a large casserole. Tip in the lamb and cook for 5 mins until any liquid has disappeared, then add the onion, carrots and leeks. Cook for 5 mins more, stirring often, until the veg is starting to soften.",
-            "Pour over the stock, add the rosemary, cover with a lid and cook over a low heat for 1 hr. Stir in the beans and cook for 30 mins more, topping up with water if necessary, until the lamb is tender and cooked through. Serve with some crusty bread or potatoes, if you like."
+            "Faites chauffer l'huile dans une grande cocotte. Versez l'agneau et laissez cuire 5 minutes jusqu'à disparition du liquide, puis ajoutez l'oignon, les carottes et les poireaux. Cuire encore 5 minutes, en remuant souvent, jusqu'à ce que les légumes commencent à ramollir.",
+            "Versez dessus le bouillon, ajoutez le romarin, couvrez et laissez cuire à feu doux pendant 1 h. Incorporer les haricots et cuire encore 30 minutes, en ajoutant de l'eau si nécessaire, jusqu'à ce que l'agneau soit tendre et bien cuit. Servir avec du pain croustillant ou des pommes de terre, si vous le souhaitez."
         ],
         "nutritional_info": {
             "kcal": "397",
@@ -1444,20 +1444,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/healthy-homemade-houmous/",
-        "title": "[FR] Easy hummus recipe",
-        "description": "(Translation pending) A smooth blended chickpea dip with tahini and garlic that's versatile and good for you, this easy hummus makes a great snack or lunch",
+        "title": "Recette de houmous facile",
+        "description": "Une trempette onctueuse aux pois chiches avec du tahini et de l'ail, polyvalente et bonne pour la santé. Ce houmous facile constitue une excellente collation ou un excellent déjeuner.",
         "prep_time": "5 mins No cook",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "1 x 400g can chickpea, don't drain",
-            "1 tbsp tahini paste",
-            "1 fat garlic clove, chopped",
-            "3 tbsp 0% fat Greek yogurt",
-            "good squeeze lemon juice"
+            "1 boîte de 400 g de pois chiches, ne pas égoutter",
+            "1 cuillère à soupe de pâte de tahini",
+            "1 grosse gousse d'ail, hachée",
+            "3 cuillères à soupe de yaourt grec 0 % de matière grasse",
+            "bien presser le jus de citron"
         ],
         "method": [
-            "Drain the chickpeas into a sieve set over a bowl or jug to catch the liquid. Tip the chickpeas, tahini, garlic and yogurt into a food processor or blender and whizz to smooth. Whizz in a tbsp of the chickpea liquid at a time until you have a nice consistency, then scrape into a bowl, stir in a squeeze of lemon juice and season to taste."
+            "Égouttez les pois chiches dans une passoire placée au-dessus d'un bol ou d'un pichet pour récupérer le liquide. Versez les pois chiches, le tahini, l'ail et le yaourt dans un robot culinaire ou un mélangeur et mixez pour lisser. Incorporez une cuillère à soupe de liquide de pois chiches à la fois jusqu'à obtenir une belle consistance, puis grattez dans un bol, ajoutez un filet de jus de citron et assaisonnez au goût."
         ],
         "nutritional_info": {
             "kcal": "135",
@@ -1474,28 +1474,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/sea-bass-seafood-italian-one-pot/",
-        "title": "[FR] Sea bass & seafood Italian one-pot",
-        "description": "(Translation pending) A one-pot fish stew with shellfish and all the fresh flavours of the Mediterranean – serve with plenty of bread for dipping",
+        "title": "One-pot italien de bar et fruits de mer",
+        "description": "Un ragoût de poisson avec des crustacés et toutes les saveurs fraîches de la Méditerranée – à servir avec beaucoup de pain pour tremper",
         "prep_time": "15 mins Cook: 45 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 tbsp olive oil",
-            "1 fennel bulb, halved and sliced, fronds kept separate to garnish",
-            "2 garlic cloves, sliced",
-            "½ red chilli, chopped",
-            "250g cleaned squid, sliced into rings",
-            "bunch basil, leaves and stalks separated, stalks tied together, leaves roughly chopped",
-            "400g can chopped tomatoes",
-            "150ml white wine",
-            "2 large handfuls of mussels or clams",
-            "8 large raw prawns (whole look nicest)",
-            "4 sea bass fillets (about 140g/5oz each)",
-            "crusty bread, to serve"
+            "2 cuillères à soupe d'huile d'olive",
+            "1 bulbe de fenouil, coupé en deux et tranché, frondes séparées pour la garniture",
+            "2 gousses d'ail, tranchées",
+            "½ piment rouge, haché",
+            "250 g de calamars nettoyés, coupés en rondelles",
+            "bouquet de basilic, feuilles et tiges séparées, tiges liées ensemble, feuilles grossièrement hachées",
+            "Boîte de 400 g de tomates concassées",
+            "150 ml de vin blanc",
+            "2 grosses poignées de moules ou de palourdes",
+            "8 grosses crevettes crues (toutes sont les plus belles)",
+            "4 filets de bar (environ 140 g chacun)",
+            "pain croustillant, pour servir"
         ],
         "method": [
-            "Heat the oil in a large saucepan with a\r\ntight-fitting lid, then add the fennel, garlic\r\nand chilli. Fry until softened, then add the\r\nsquid, basil stalks, tomatoes and wine.\r\nSimmer over a low heat for 35 mins until\r\nthe squid is tender and the sauce has\r\nthickened slightly, then season.",
-            "Scatter the mussels and prawns over\r\nthe sauce, lay the sea bass fillets on\r\ntop, cover, turn up the heat and cook\r\nhard for 5 mins. Serve scattered with\r\nthe basil leaves and fennel fronds,\r\nwith crusty bread."
+            "Faites chauffer l'huile dans une grande casserole avec un\r\ncouvercle hermétique, puis ajoutez le fenouil, l'ail\r\net du piment. Faites frire jusqu'à ce qu'ils soient tendres, puis ajoutez le\r\ncalamars, tiges de basilic, tomates et vin.\r\nLaisser mijoter à feu doux pendant 35 minutes jusqu'à ce que\r\nles calamars sont tendres et la sauce a\r\nlégèrement épaissi, puis assaisonner.",
+            "Répartir les moules et les crevettes\r\nla sauce, déposer les filets de bar dessus\r\nrecouvrir, couvrir, augmenter le feu et cuire\r\ndur pendant 5 minutes. Servir parsemé de\r\nles feuilles de basilic et les frondes de fenouil,\r\navec du pain croustillant."
         ],
         "nutritional_info": {
             "kcal": "329",
