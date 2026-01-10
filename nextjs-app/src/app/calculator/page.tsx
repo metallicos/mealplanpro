@@ -28,6 +28,7 @@ export default function CalculatorPage() {
         neck: 0,
         waist: 0,
         hip: 0,
+        dietMode: 'normal' as 'normal' | 'low_carb' | 'keto',
     });
 
     const [activeTab, setActiveTab] = useState<'calories' | 'bodyfat' | 'ideal'>('calories');
@@ -60,6 +61,8 @@ export default function CalculatorPage() {
             highCalories: number;
             lowCalories: number;
         };
+        dietLabel?: string;
+        warnings?: string[];
     } | null>(null);
 
     const [saved, setSaved] = useState(false);
@@ -87,27 +90,35 @@ export default function CalculatorPage() {
         }
     }, [user]);
 
-    // Update form when settings change
+    // Update form when settings change and auto-calculate
     useEffect(() => {
-        // Only update if settings are actually different from current form to avoid overwrite loops if we want bidirectional
-        // But here we basically want to load settings into form initially or if they change externally.
-        // We do NOT want to reset results or saved status just because settings updated (e.g. after save!)
+        if (!settings.weight) return; // Wait for settings to load
+
+        const newData = {
+            weight: settings.weight,
+            height: settings.height || 0,
+            age: settings.age || 0,
+            gender: settings.gender || 'female',
+            activity: settings.activityLevel || 'sedentary',
+            goal: settings.goal || 'maintain',
+            neck: formData.neck,
+            waist: formData.waist,
+            hip: formData.hip,
+            dietMode: formData.dietMode,
+        };
+
         setFormData(prev => ({
             ...prev,
-            weight: settings.weight || prev.weight,
-            height: settings.height || prev.height,
-            age: settings.age || prev.age,
-            gender: settings.gender || prev.gender,
-            activity: settings.activityLevel || prev.activity,
-            goal: settings.goal || prev.goal,
-            neck: prev.neck,
-            waist: prev.waist,
-            hip: prev.hip,
+            ...newData,
+            // Ensure we don't overwrite if form was edited? 
+            // Actually, if settings change (load), we usually want to reflect them.
         }));
 
-        // Don't reset results or saved status here because saveToProfile updates settings
-        // which triggers this effect, causing the UI to "flash" and reset.
-        setIsLoadingWeights(true);
+        // Auto-calculate if we have data and no results yet
+        if (newData.weight && newData.height && newData.age && !results) {
+            calculateTDEE(newData);
+        }
+
         loadWeightLogs();
     }, [settings, loadWeightLogs]);
 
@@ -146,129 +157,119 @@ export default function CalculatorPage() {
         }
     };
 
-    const calculateTDEE = () => {
-        const { weight, height, age, gender, activity, goal } = formData;
+    const calculateTDEE = (dataParam?: typeof formData) => {
+        const { weight, height, age, gender, activity, goal, dietMode } = dataParam || formData;
+        if (!weight || !height || !age) return;
 
-        // Mifflin-St Jeor Formula
-        let bmr;
-        if (gender === 'male') {
-            bmr = 10 * weight + 6.25 * height - 5 * age + 5;
-        } else {
-            bmr = 10 * weight + 6.25 * height - 5 * age - 161;
-        }
+        // 1. CALORIE CALCULATION (LOCKED upstream of macros)
+        // Mifflin-St Jeor Equation
+        let bmr = (10 * weight) + (6.25 * height) - (5 * age) + (gender === 'male' ? 5 : -161);
 
-        // Activity multipliers
         const activityMultipliers: Record<string, number> = {
-            sedentary: 1.2,
-            light: 1.375,
-            moderate: 1.55,
-            active: 1.725,
-            very_active: 1.9,
+            sedentary: 1.2, light: 1.375, moderate: 1.55, active: 1.725, very_active: 1.9,
         };
-
         const tdee = Math.round(bmr * (activityMultipliers[activity] || 1.2));
 
-        // Goal Rules based on scientific spec
-        // Maintenance: TDEE
-        // Mild Loss: -500kcal (-0.5kg/wk)
-        // Aggressive Loss: -1000kcal (-1.0kg/wk)
-        // Lean Gain: +300kcal (+0.3kg/wk)
-        // Muscle Gain: +500kcal (+0.5kg/wk)
+        const goalMultipliers: Record<string, number> = {
+            aggressive_loss: 0.75, fat_loss: 0.80, slow_loss: 0.85, maintain: 1.0, lean_gain: 1.10, muscle_gain: 1.15,
+        };
+        // Ensure minimum 1200 kcal safety floor
+        const targetCalories = Math.max(1200, Math.round(tdee * (goalMultipliers[goal] || 1.0)));
 
-        let adjustment = 0;
-        let weeklyChange = 0;
+        // Estimate weekly weight change
+        const dailyDeficit = targetCalories - tdee;
+        const weeklyChange = Math.round((dailyDeficit * 7 / 7700) * 100) / 100;
 
-        switch (goal) {
-            case 'aggressive_loss':
-                adjustment = -1000;
-                weeklyChange = -1.0;
-                break;
-            case 'fat_loss': // Mild loss
-                adjustment = -500;
-                weeklyChange = -0.5;
-                break;
-            case 'slow_loss': // Very mild
-                adjustment = -250;
-                weeklyChange = -0.25;
-                break;
-            case 'maintain':
-                adjustment = 0;
-                weeklyChange = 0;
-                break;
-            case 'lean_gain':
-                adjustment = 300;
-                weeklyChange = 0.3;
-                break;
-            case 'muscle_gain':
-                adjustment = 500;
-                weeklyChange = 0.5;
-                break;
-            default:
-                adjustment = 0;
-                weeklyChange = 0;
-        }
+        // 2. MACRO CALCULATION ENGINE
+        let proteinG = 0;
+        let fatG = 0;
+        let carbsG = 0;
+        let dietLabel = '';
+        const warnings: string[] = [];
 
-        const targetCalories = Math.max(1200, Math.round(tdee + adjustment)); // Safety floor
+        // Initial Targets based on mode
+        let pRatio = 1.8; // Default
 
-        // Calculate macros based on scientific spec
-        // Start with optimal (2.0g/kg Prot, 0.8g/kg Fat). 
-        // If carbs < 30g, progressively lower towards scientific minimums (1.6g Prot, 0.6g Fat)
+        // Mode Specific Logic
+        if (dietMode === 'keto') {
+            dietLabel = 'Ketogenic Diet (Very Low Carb)';
+            // Rules: Carbs 20-30g cap (Hard Cap 25g). Protein 1.6-2.0. Fat = Remainder.
+            carbsG = 25;
+            pRatio = 1.8; // Moderate protein for keto
 
-        // Algorithm:
-        // Loss: Protein 1.8g/kg (High but balanced), Fat 0.8g/kg
-        // Aggressive Loss: Protein 2.0g/kg, Fat 0.7g/kg
-        // Gain: Protein 2.0g/kg, Fat 0.9g/kg
-        // Maintenance: Protein 1.6g/kg, Fat 1.0g/kg
+            proteinG = Math.round(weight * pRatio);
+            const usedCals = (proteinG * 4) + (carbsG * 4);
+            const fatCals = targetCalories - usedCals;
+            fatG = Math.round(fatCals / 9);
 
-        let pBase = 1.8;
-        let fBase = 0.8;
-
-        if (goal === 'aggressive_loss') {
-            pBase = 2.0; fBase = 0.7;
-        } else if (goal.includes('gain')) {
-            pBase = 2.0; fBase = 0.9;
-        } else if (goal === 'maintain') {
-            pBase = 1.6; fBase = 1.0;
-        }
-
-        const minCarbsGrams = 30; // Safety floor
-
-        // Strategies: Optimal -> Reduced Fat -> Reduced Protein -> Min Both
-        const strategies = [
-            { p: pBase, f: fBase },
-            { p: pBase, f: Math.max(0.6, fBase - 0.1) },
-            { p: Math.max(1.6, pBase - 0.2), f: fBase },
-            { p: Math.max(1.6, pBase - 0.2), f: Math.max(0.6, fBase - 0.1) },
-            { p: 1.6, f: 0.6 }
-        ];
-
-        let bestStrategy = strategies[0];
-
-        for (const s of strategies) {
-            const p = Math.round(weight * s.p);
-            const f = Math.round(weight * s.f);
-            const used = (p * 4) + (f * 9);
-            const rem = targetCalories - used;
-            const c = Math.max(0, Math.round(rem / 4));
-
-            if (c >= minCarbsGrams) {
-                bestStrategy = s;
-                break;
+            // Validation
+            if ((fatG / weight) < 0.6) { // Absolute min fat
+                warnings.push("Warning: Keto may not be compatible with these calories (Fat too low).");
             }
-            bestStrategy = s;
         }
+        else if (dietMode === 'low_carb') {
+            dietLabel = 'Low-Carb Fat Loss';
+            // Targets: P 1.8-2.0. F 0.7-0.8. C Remainder.
+            // Floor: C >= 50g.
 
-        const protein = Math.round(weight * bestStrategy.p);
-        const fat = Math.round(weight * bestStrategy.f);
+            const compute = (p: number, f: number) => {
+                const prot = Math.round(weight * p);
+                const fat = Math.round(weight * f);
+                const used = (prot * 4) + (fat * 9);
+                const carbs = Math.round(Math.max(0, targetCalories - used) / 4);
+                return { prot, fat, carbs };
+            };
 
-        const proteinCals = protein * 4;
-        const fatCals = fat * 9;
-        const remainingCals = targetCalories - proteinCals - fatCals;
-        const carbs = Math.round(Math.max(0, remainingCals) / 4);
+            // Attempt 1: Optimal (2.0P, 0.8F)
+            let res = compute(2.0, 0.8);
+            if (res.carbs < 50) {
+                // Attempt 2: Reduce Protein (to 1.8)
+                res = compute(1.8, 0.8);
+                if (res.carbs < 50) {
+                    // Attempt 3: Reduce Protein Min (1.6)
+                    res = compute(1.6, 0.8);
+                    if (res.carbs < 50) {
+                        // Attempt 4: Reduce Fat Min (0.6)
+                        res = compute(1.6, 0.6);
+                        if (res.carbs < 50) warnings.push("Calories too low for Low-Carb macros (Carbs < 50g).");
+                    }
+                }
+            }
+            proteinG = res.prot;
+            fatG = res.fat;
+            carbsG = res.carbs;
+        }
+        else { // Normal (Balanced)
+            dietLabel = goal.includes('loss') ? 'Balanced Fat Loss' : goal.includes('gain') ? 'Balanced Gain' : 'Balanced Maintenance';
+            // Targets: P 1.6-1.8. F 0.7-0.8. C Remainder.
+            // Floor: C >= 100g.
+
+            const compute = (p: number, f: number) => {
+                const prot = Math.round(weight * p);
+                const fat = Math.round(weight * f);
+                const used = (prot * 4) + (fat * 9);
+                const carbs = Math.round(Math.max(0, targetCalories - used) / 4);
+                return { prot, fat, carbs };
+            };
+
+            // Attempt 1: Optimal (1.8P, 0.8F)
+            let res = compute(1.8, 0.8);
+            if (res.carbs < 100) {
+                // Attempt 2: Reduce Protein (1.6P)
+                res = compute(1.6, 0.8);
+                if (res.carbs < 100) {
+                    // Attempt 3: Reduce Fat (0.6F)
+                    res = compute(1.6, 0.6);
+                    if (res.carbs < 100) warnings.push("Calories too low for balanced macros (Carbs < 100g).");
+                }
+            }
+            proteinG = res.prot;
+            fatG = res.fat;
+            carbsG = res.carbs;
+        }
 
         // Zigzag Calculation (5 Low, 2 High)
-        // High Day = Maintenance (or Target + 300 if gaining)
-        let highCal = tdee;
+        let highCal = tdee; // Default maintenance
         if (goal.includes('gain')) highCal = targetCalories + 300;
         else if (goal === 'maintain') highCal = targetCalories + 200;
 
@@ -280,16 +281,18 @@ export default function CalculatorPage() {
         setResults({
             tdee,
             targetCalories,
-            protein,
-            carbs,
-            fat,
+            protein: proteinG,
+            carbs: carbsG,
+            fat: fatG,
             weeklyChange,
             zigzag: {
                 highDays: 2,
                 lowDays: 5,
                 highCalories: highCal,
                 lowCalories: lowCal
-            }
+            },
+            dietLabel,
+            warnings
         });
         setSaved(false);
     };
@@ -521,7 +524,23 @@ export default function CalculatorPage() {
                                     </select>
                                 </div>
 
-                                <button onClick={calculateTDEE} className="btn-primary w-full">
+                                <div>
+                                    <label className="form-label">Diet Mode Strategy (Scientific)</label>
+                                    <select
+                                        className="form-input"
+                                        value={formData.dietMode}
+                                        onChange={(e) => setFormData({ ...formData, dietMode: e.target.value as 'normal' | 'low_carb' | 'keto' })}
+                                    >
+                                        <option value="normal">Normal (Balanced)</option>
+                                        <option value="low_carb">Low Carb (High Protein)</option>
+                                        <option value="keto">Ketogenic (Very Low Carb)</option>
+                                    </select>
+                                    <p className="text-xs text-gray-500 mt-1">
+                                        Strictly adjusts macros based on scientific protocols (Keto = max 30g Carbs).
+                                    </p>
+                                </div>
+
+                                <button onClick={() => calculateTDEE()} className="btn-primary w-full">
                                     Calculate My Needs
                                 </button>
                             </div>
@@ -540,6 +559,22 @@ export default function CalculatorPage() {
                             <div className="card">
                                 <div className="flex items-center justify-between mb-4">
                                     <h3 className="font-semibold">Your Results</h3>
+
+                                    <div className="mb-4 mt-2">
+                                        <div className="flex items-center gap-2">
+                                            <span className="text-sm text-gray-400">Strategy:</span>
+                                            <span className="font-bold text-emerald-400">{results.dietLabel}</span>
+                                        </div>
+
+                                        {results.warnings && results.warnings.length > 0 && (
+                                            <div className="mt-2 p-3 bg-red-900/30 border border-red-800 rounded-lg text-sm text-red-300">
+                                                <div className="font-bold flex items-center gap-2"><Info className="w-4 h-4" /> Validation Warnings:</div>
+                                                <ul className="list-disc pl-4 mt-1 space-y-1">
+                                                    {results.warnings.map((w, i) => <li key={i}>{w}</li>)}
+                                                </ul>
+                                            </div>
+                                        )}
+                                    </div>
                                     {saved && (
                                         <span className="badge badge-success flex items-center gap-1"><Check className="w-3 h-3" /> Saved!</span>
                                     )}
@@ -683,151 +718,156 @@ export default function CalculatorPage() {
                         </p>
                     </div>
                 </div>
-            )}
+            )
+            }
 
             {/* Body Fat Calculator Content */}
-            {activeTab === 'bodyfat' && (
-                <div className="animate-in fade-in slide-in-from-bottom-4 duration-500 max-w-2xl mx-auto">
-                    <div className="card">
-                        <h3 className="font-semibold mb-4">Body Fat Calculator (U.S. Navy Method)</h3>
-                        <div className="space-y-4">
-                            <div className="grid grid-cols-2 gap-4">
-                                <div>
-                                    <label className="form-label">Gender</label>
-                                    <select
-                                        className="form-input"
-                                        value={formData.gender}
-                                        onChange={(e) => setFormData({ ...formData, gender: e.target.value as 'male' | 'female' })}
-                                    >
-                                        <option value="male">Male</option>
-                                        <option value="female">Female</option>
-                                    </select>
-                                </div>
-                                <div>
-                                    <label className="form-label">Height (cm)</label>
-                                    <input type="number" className="form-input" value={formData.height || ''} onChange={(e) => setFormData({ ...formData, height: parseInt(e.target.value) || 0 })} />
-                                </div>
-                                <div>
-                                    <label className="form-label">Weight (kg)</label>
-                                    <input type="number" className="form-input" value={formData.weight || ''} onChange={(e) => setFormData({ ...formData, weight: parseInt(e.target.value) || 0 })} />
-                                </div>
-                                <div>
-                                    <label className="form-label">Neck (cm)</label>
-                                    <input type="number" className="form-input" value={formData.neck || ''} onChange={(e) => setFormData({ ...formData, neck: parseInt(e.target.value) || 0 })} placeholder="Neck circumference" />
-                                </div>
-                                <div>
-                                    <label className="form-label">Waist (cm)</label>
-                                    <input type="number" className="form-input" value={formData.waist || ''} onChange={(e) => setFormData({ ...formData, waist: parseInt(e.target.value) || 0 })} placeholder="Waist circumference" />
-                                </div>
-                                {formData.gender === 'female' && (
+            {
+                activeTab === 'bodyfat' && (
+                    <div className="animate-in fade-in slide-in-from-bottom-4 duration-500 max-w-2xl mx-auto">
+                        <div className="card">
+                            <h3 className="font-semibold mb-4">Body Fat Calculator (U.S. Navy Method)</h3>
+                            <div className="space-y-4">
+                                <div className="grid grid-cols-2 gap-4">
                                     <div>
-                                        <label className="form-label">Hip (cm)</label>
-                                        <input type="number" className="form-input" value={formData.hip || ''} onChange={(e) => setFormData({ ...formData, hip: parseInt(e.target.value) || 0 })} placeholder="Hip circumference" />
+                                        <label className="form-label">Gender</label>
+                                        <select
+                                            className="form-input"
+                                            value={formData.gender}
+                                            onChange={(e) => setFormData({ ...formData, gender: e.target.value as 'male' | 'female' })}
+                                        >
+                                            <option value="male">Male</option>
+                                            <option value="female">Female</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label className="form-label">Height (cm)</label>
+                                        <input type="number" className="form-input" value={formData.height || ''} onChange={(e) => setFormData({ ...formData, height: parseInt(e.target.value) || 0 })} />
+                                    </div>
+                                    <div>
+                                        <label className="form-label">Weight (kg)</label>
+                                        <input type="number" className="form-input" value={formData.weight || ''} onChange={(e) => setFormData({ ...formData, weight: parseInt(e.target.value) || 0 })} />
+                                    </div>
+                                    <div>
+                                        <label className="form-label">Neck (cm)</label>
+                                        <input type="number" className="form-input" value={formData.neck || ''} onChange={(e) => setFormData({ ...formData, neck: parseInt(e.target.value) || 0 })} placeholder="Neck circumference" />
+                                    </div>
+                                    <div>
+                                        <label className="form-label">Waist (cm)</label>
+                                        <input type="number" className="form-input" value={formData.waist || ''} onChange={(e) => setFormData({ ...formData, waist: parseInt(e.target.value) || 0 })} placeholder="Waist circumference" />
+                                    </div>
+                                    {formData.gender === 'female' && (
+                                        <div>
+                                            <label className="form-label">Hip (cm)</label>
+                                            <input type="number" className="form-input" value={formData.hip || ''} onChange={(e) => setFormData({ ...formData, hip: parseInt(e.target.value) || 0 })} placeholder="Hip circumference" />
+                                        </div>
+                                    )}
+                                </div>
+
+                                <button onClick={calculateBodyFat} className="btn-primary w-full">Calculate Body Fat</button>
+
+                                {bfResults && (
+                                    <div className="mt-6 p-4 bg-gray-800/50 rounded-xl border border-gray-700">
+                                        <div className="text-center mb-4">
+                                            <div className="text-sm text-gray-400">Body Fat Percentage</div>
+                                            <div className="text-4xl font-bold text-emerald-400">{bfResults.bodyFatPercent}%</div>
+                                            <div className="text-sm text-emerald-300 font-medium">{bfResults.category}</div>
+                                        </div>
+                                        <div className="grid grid-cols-2 gap-4 text-center">
+                                            <div className="p-3 bg-gray-900 rounded-lg">
+                                                <div className="text-xl font-bold">{bfResults.fatMass} kg</div>
+                                                <div className="text-xs text-gray-500">Fat Mass</div>
+                                            </div>
+                                            <div className="p-3 bg-gray-900 rounded-lg">
+                                                <div className="text-xl font-bold">{bfResults.leanMass} kg</div>
+                                                <div className="text-xs text-gray-500">Lean Mass</div>
+                                            </div>
+                                        </div>
+                                        <div className="mt-4 text-xs text-center text-gray-500">
+                                            Based on U.S. Navy Method suitable for most people.
+                                        </div>
                                     </div>
                                 )}
                             </div>
-
-                            <button onClick={calculateBodyFat} className="btn-primary w-full">Calculate Body Fat</button>
-
-                            {bfResults && (
-                                <div className="mt-6 p-4 bg-gray-800/50 rounded-xl border border-gray-700">
-                                    <div className="text-center mb-4">
-                                        <div className="text-sm text-gray-400">Body Fat Percentage</div>
-                                        <div className="text-4xl font-bold text-emerald-400">{bfResults.bodyFatPercent}%</div>
-                                        <div className="text-sm text-emerald-300 font-medium">{bfResults.category}</div>
-                                    </div>
-                                    <div className="grid grid-cols-2 gap-4 text-center">
-                                        <div className="p-3 bg-gray-900 rounded-lg">
-                                            <div className="text-xl font-bold">{bfResults.fatMass} kg</div>
-                                            <div className="text-xs text-gray-500">Fat Mass</div>
-                                        </div>
-                                        <div className="p-3 bg-gray-900 rounded-lg">
-                                            <div className="text-xl font-bold">{bfResults.leanMass} kg</div>
-                                            <div className="text-xs text-gray-500">Lean Mass</div>
-                                        </div>
-                                    </div>
-                                    <div className="mt-4 text-xs text-center text-gray-500">
-                                        Based on U.S. Navy Method suitable for most people.
-                                    </div>
-                                </div>
-                            )}
                         </div>
                     </div>
-                </div>
-            )}
+                )
+            }
 
             {/* Ideal Weight Calculator Content */}
-            {activeTab === 'ideal' && (
-                <div className="animate-in fade-in slide-in-from-bottom-4 duration-500 max-w-2xl mx-auto">
-                    <div className="card">
-                        <h3 className="font-semibold mb-4">Ideal Weight Calculator</h3>
-                        <div className="space-y-4">
-                            <div className="grid grid-cols-2 gap-4">
-                                <div>
-                                    <label className="form-label">Gender</label>
-                                    <select
-                                        className="form-input"
-                                        value={formData.gender}
-                                        onChange={(e) => setFormData({ ...formData, gender: e.target.value as 'male' | 'female' })}
-                                    >
-                                        <option value="male">Male</option>
-                                        <option value="female">Female</option>
-                                    </select>
+            {
+                activeTab === 'ideal' && (
+                    <div className="animate-in fade-in slide-in-from-bottom-4 duration-500 max-w-2xl mx-auto">
+                        <div className="card">
+                            <h3 className="font-semibold mb-4">Ideal Weight Calculator</h3>
+                            <div className="space-y-4">
+                                <div className="grid grid-cols-2 gap-4">
+                                    <div>
+                                        <label className="form-label">Gender</label>
+                                        <select
+                                            className="form-input"
+                                            value={formData.gender}
+                                            onChange={(e) => setFormData({ ...formData, gender: e.target.value as 'male' | 'female' })}
+                                        >
+                                            <option value="male">Male</option>
+                                            <option value="female">Female</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label className="form-label">Height (cm)</label>
+                                        <input type="number" className="form-input" value={formData.height || ''} onChange={(e) => setFormData({ ...formData, height: parseInt(e.target.value) || 0 })} />
+                                    </div>
                                 </div>
-                                <div>
-                                    <label className="form-label">Height (cm)</label>
-                                    <input type="number" className="form-input" value={formData.height || ''} onChange={(e) => setFormData({ ...formData, height: parseInt(e.target.value) || 0 })} />
-                                </div>
-                            </div>
 
-                            <button onClick={calculateIdealWeight} className="btn-primary w-full">Calculate Ideal Weight</button>
+                                <button onClick={calculateIdealWeight} className="btn-primary w-full">Calculate Ideal Weight</button>
 
-                            {idealResults && (
-                                <div className="mt-6 space-y-4">
-                                    <div className="p-4 bg-emerald-900/20 border border-emerald-500/30 rounded-xl text-center">
-                                        <div className="text-sm text-gray-400">Healthy BMI Range (18.5 - 25)</div>
-                                        <div className="text-2xl font-bold text-emerald-400">
-                                            {idealResults.bmiRange[0]} - {idealResults.bmiRange[1]} kg
+                                {idealResults && (
+                                    <div className="mt-6 space-y-4">
+                                        <div className="p-4 bg-emerald-900/20 border border-emerald-500/30 rounded-xl text-center">
+                                            <div className="text-sm text-gray-400">Healthy BMI Range (18.5 - 25)</div>
+                                            <div className="text-2xl font-bold text-emerald-400">
+                                                {idealResults.bmiRange[0]} - {idealResults.bmiRange[1]} kg
+                                            </div>
                                         </div>
-                                    </div>
 
-                                    <div className="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
-                                        <table className="w-full text-sm text-left">
-                                            <thead className="bg-gray-900 text-gray-400">
-                                                <tr>
-                                                    <th className="p-3">Formula</th>
-                                                    <th className="p-3 text-right">Ideal Weight</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody className="divide-y divide-gray-700">
-                                                <tr>
-                                                    <td className="p-3">Robinson (1983)</td>
-                                                    <td className="p-3 text-right font-medium">{idealResults.robinson} kg</td>
-                                                </tr>
-                                                <tr>
-                                                    <td className="p-3">Miller (1983)</td>
-                                                    <td className="p-3 text-right font-medium">{idealResults.miller} kg</td>
-                                                </tr>
-                                                <tr>
-                                                    <td className="p-3">Devine (1974)</td>
-                                                    <td className="p-3 text-right font-medium">{idealResults.devine} kg</td>
-                                                </tr>
-                                                <tr>
-                                                    <td className="p-3">Hamwi (1964)</td>
-                                                    <td className="p-3 text-right font-medium">{idealResults.hamwi} kg</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                        <div className="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                                            <table className="w-full text-sm text-left">
+                                                <thead className="bg-gray-900 text-gray-400">
+                                                    <tr>
+                                                        <th className="p-3">Formula</th>
+                                                        <th className="p-3 text-right">Ideal Weight</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody className="divide-y divide-gray-700">
+                                                    <tr>
+                                                        <td className="p-3">Robinson (1983)</td>
+                                                        <td className="p-3 text-right font-medium">{idealResults.robinson} kg</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className="p-3">Miller (1983)</td>
+                                                        <td className="p-3 text-right font-medium">{idealResults.miller} kg</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className="p-3">Devine (1974)</td>
+                                                        <td className="p-3 text-right font-medium">{idealResults.devine} kg</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className="p-3">Hamwi (1964)</td>
+                                                        <td className="p-3 text-right font-medium">{idealResults.hamwi} kg</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <p className="text-xs text-center text-gray-500">
+                                            Different formulas may yield different results. The BMI range is generally the most medically accepted standard.
+                                        </p>
                                     </div>
-                                    <p className="text-xs text-center text-gray-500">
-                                        Different formulas may yield different results. The BMI range is generally the most medically accepted standard.
-                                    </p>
-                                </div>
-                            )}
+                                )}
+                            </div>
                         </div>
                     </div>
-                </div>
-            )}
+                )
+            }
 
             {/* Weekly Weight Tracking */}
             <div className="card mt-6">
