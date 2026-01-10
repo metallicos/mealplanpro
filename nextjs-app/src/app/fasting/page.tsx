@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl';
 import {
     Timer, Clock, Zap, Heart, Brain, Sparkles,
     ChevronRight, Play, Pause, RotateCcw, Info,
-    TrendingUp, Award, Calendar
+    TrendingUp, Award, Calendar, Check, X, Flame
 } from 'lucide-react';
 
 // Fasting Protocol Definitions
@@ -87,6 +87,11 @@ export default function FastingPage() {
     const [startTime, setStartTime] = useState<string | null>(null);
     const [elapsedSeconds, setElapsedSeconds] = useState(0);
 
+    // History state
+    const [history, setHistory] = useState<any[]>([]);
+    const [stats, setStats] = useState<any>(null);
+    const [loadingHistory, setLoadingHistory] = useState(false);
+
     useEffect(() => {
         // Fetch current fasting status
         fetch('/api/v2/fasting')
@@ -102,6 +107,21 @@ export default function FastingPage() {
             })
             .catch(err => console.error(err));
     }, []);
+
+    // Fetch history when tab changes to history
+    useEffect(() => {
+        if (activeTab === 'history' && history.length === 0) {
+            setLoadingHistory(true);
+            fetch('/api/v2/fasting/history')
+                .then(res => res.json())
+                .then(data => {
+                    setHistory(data.history || []);
+                    setStats(data.stats || null);
+                })
+                .catch(err => console.error(err))
+                .finally(() => setLoadingHistory(false));
+        }
+    }, [activeTab, history.length]);
 
     useEffect(() => {
         let interval: NodeJS.Timeout;
@@ -415,10 +435,80 @@ export default function FastingPage() {
 
             {/* History Tab */}
             {activeTab === 'history' && (
-                <div className="card text-center py-12">
-                    <Calendar size={48} className="mx-auto text-gray-600 mb-4" />
-                    <h3 className="text-xl font-semibold text-gray-400 mb-2">Coming Soon</h3>
-                    <p className="text-gray-500">Track your fasting history, streaks, and achievements.</p>
+                <div className="space-y-6">
+                    {loadingHistory ? (
+                        <div className="card text-center py-12">
+                            <div className="animate-spin w-8 h-8 border-2 border-emerald-500 border-t-transparent rounded-full mx-auto mb-4"></div>
+                            <p className="text-gray-400">{t('loading')}</p>
+                        </div>
+                    ) : (
+                        <>
+                            {/* Stats Cards */}
+                            {stats && (
+                                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                                    <div className="card text-center">
+                                        <Flame className="w-8 h-8 text-orange-500 mx-auto mb-2" />
+                                        <div className="text-2xl font-bold">{stats.streak}</div>
+                                        <div className="text-xs text-gray-400">{t('streak')}</div>
+                                    </div>
+                                    <div className="card text-center">
+                                        <Award className="w-8 h-8 text-yellow-500 mx-auto mb-2" />
+                                        <div className="text-2xl font-bold">{stats.longestFast}h</div>
+                                        <div className="text-xs text-gray-400">{t('longestFast')}</div>
+                                    </div>
+                                    <div className="card text-center">
+                                        <TrendingUp className="w-8 h-8 text-emerald-500 mx-auto mb-2" />
+                                        <div className="text-2xl font-bold">{stats.averageFast}h</div>
+                                        <div className="text-xs text-gray-400">{t('averageFast')}</div>
+                                    </div>
+                                    <div className="card text-center">
+                                        <Calendar className="w-8 h-8 text-blue-500 mx-auto mb-2" />
+                                        <div className="text-2xl font-bold">{stats.totalFasts}</div>
+                                        <div className="text-xs text-gray-400">{t('totalFasts')}</div>
+                                    </div>
+                                </div>
+                            )}
+
+                            {/* History List */}
+                            <div className="card">
+                                <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                                    <Calendar className="w-5 h-5 text-emerald-400" />
+                                    {t('history')}
+                                </h3>
+                                {history.length === 0 ? (
+                                    <div className="text-center py-8 text-gray-400">
+                                        <Timer className="w-12 h-12 mx-auto mb-4 opacity-50" />
+                                        <p>{t('noHistory')}</p>
+                                    </div>
+                                ) : (
+                                    <div className="space-y-3">
+                                        {history.map((fast, i) => (
+                                            <div key={fast.id || i} className="p-4 bg-black/20 rounded-xl border border-white/5 flex items-center justify-between">
+                                                <div>
+                                                    <div className="flex items-center gap-2 mb-1">
+                                                        {fast.goal_achieved ? (
+                                                            <Check className="w-4 h-4 text-emerald-500" />
+                                                        ) : (
+                                                            <X className="w-4 h-4 text-red-500" />
+                                                        )}
+                                                        <span className="font-medium">
+                                                            {Math.round(fast.duration_hours * 10) / 10}h / {fast.goal_hours}h
+                                                        </span>
+                                                    </div>
+                                                    <div className="text-xs text-gray-400">
+                                                        {new Date(fast.start_time).toLocaleDateString()} - {new Date(fast.start_time).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                                                    </div>
+                                                </div>
+                                                <div className={`px-3 py-1 rounded-full text-xs ${fast.goal_achieved ? 'bg-emerald-500/20 text-emerald-300' : 'bg-red-500/20 text-red-300'}`}>
+                                                    {fast.goal_achieved ? t('completed') : t('incomplete')}
+                                                </div>
+                                            </div>
+                                        ))}
+                                    </div>
+                                )}
+                            </div>
+                        </>
+                    )}
                 </div>
             )}
         </div>

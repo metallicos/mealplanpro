@@ -162,6 +162,11 @@
     "timer": "Timer",
     "protocols": "Protocols",
     "stages": "Stages",
+    "totalFasts": "Total Fasts",
+    "noHistory": "No fasting history yet. Start your first fast!",
+    "completed": "Completed",
+    "incomplete": "Incomplete",
+    "loading": "Loading...",
     "protocols_12_12": {
       "name": "12:12 Beginner",
       "description": "Perfect for beginners. Fast for 12 hours overnight, eat during 12 hours.",
@@ -262,7 +267,7 @@
   },
   "coach": {
     "title": "Personal Coach",
-    "subtitle": "Your AI-powered fitness companion",
+    "subtitle": "Your personalized fitness companion",
     "howAreYouFeeling": "How are you feeling today?",
     "sleep": "Last Night's Sleep",
     "mood": "Mood",

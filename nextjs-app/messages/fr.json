@@ -153,6 +153,11 @@
         "timer": "Minuteur",
         "protocols": "Protocoles",
         "stages": "Étapes",
+        "totalFasts": "Total des Jeûnes",
+        "noHistory": "Pas encore d'historique. Commencez votre premier jeûne !",
+        "completed": "Terminé",
+        "incomplete": "Incomplet",
+        "loading": "Chargement...",
         "protocols_12_12": {
             "name": "12:12 Débutant",
             "description": "Parfait pour les débutants. Jeûnez 12 heures la nuit, mangez pendant 12 heures.",
@@ -253,7 +258,7 @@
     },
     "coach": {
         "title": "Coach Personnel",
-        "subtitle": "Votre compagnon fitness propulsé par l'IA",
+        "subtitle": "Votre compagnon fitness personnalisé",
         "howAreYouFeeling": "Comment vous sentez-vous aujourd'hui ?",
         "sleep": "Sommeil de la Nuit Dernière",
         "mood": "Humeur",

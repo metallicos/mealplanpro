@@ -162,6 +162,11 @@
         "timer": "Temporizador",
         "protocols": "Protocolos",
         "stages": "Etapas",
+        "totalFasts": "Total de Ayunos",
+        "noHistory": "Aún no hay historial. ¡Comienza tu primer ayuno!",
+        "completed": "Completado",
+        "incomplete": "Incompleto",
+        "loading": "Cargando...",
         "protocols_12_12": {
             "name": "12:12 Principiante",
             "description": "Perfecto para principiantes. Ayuna 12 horas por la noche, come durante 12 horas.",
@@ -262,7 +267,7 @@
     },
     "coach": {
         "title": "Entrenador Personal",
-        "subtitle": "Tu compañero de fitness impulsado por IA",
+        "subtitle": "Tu compañero de fitness personalizado",
         "howAreYouFeeling": "¿Cómo te sientes hoy?",
         "sleep": "Sueño de Anoche",
         "mood": "Estado de Ánimo",
