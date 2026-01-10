@@ -117,7 +117,7 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/fragrant-biryani-with-coriander-cod/",
-        "title": "Biryani parfumé à la morue à la coriandre",
+        "title": "Biryani parfumé à la morue et à la coriandre",
         "description": "Essayez ce délicieux biryani servi avec des filets de morue. Le poisson blanc est une excellente protéine maigre, ce qui en fait un plat sain, faible en calories et en matières grasses.",
         "prep_time": "20 mins Cook: 1 hrs 15 mins",
         "cook_time": "",
@@ -750,7 +750,7 @@
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "300 g de gambas crues",
+            "300 g de crevettes crues",
             "2 cuillères à soupe de sauce soja",
             "40g de farine de maïs",
             "huile de tournesol, pour la friture",
@@ -1503,7 +1503,7 @@
             "75 g de petits pois surgelés",
             "150 g de haricots verts, cerclés et coupés en deux",
             "½ chou-fleur (environ 225 g) cassé en petits bouquets",
-            "50 g de raisins secs ou de raisins secs",
+            "50 g de raisins secs ou raisins secs",
             "feuilles de coriandre, amandes effilées, yaourt nature et chutney de mangue, pour servir"
         ],
         "method": [
@@ -1793,7 +1793,7 @@
             "1 cuillère à café de bouillon en poudre",
             "1 grosse aubergine (350 g), coupée en dés",
             "2 courgettes (325 g), coupées en deux et tranchées",
-            "200 g de ricotta",
+            "200 g de gazon",
             "20 g de basilic, petites feuilles réservées pour la garniture, le reste haché",
             "400 g de pennes complètes",
             "20 g de parmesan finement râpé"
@@ -2436,7 +2436,7 @@
         "ingredients": [
             "2 poitrines de poulet",
             "2 citrons, zestés",
-            "200 g de ricotta",
+            "200 g de gazon",
             "3 cuillères à soupe de persil haché",
             "150 g de chapelure fraîche",
             "100 ml de lait, plus 2 cuillères à soupe",
@@ -2960,7 +2960,7 @@
             "2 cuillères à soupe de vinaigre de vin blanc",
             "300 g de petits pois surgelés",
             "150 ml de crème fraîche",
-            "200 g de farine autolevante",
+            "200 g de farines autolevantes",
             "¼ cuillère à café de levure chimique",
             "100 g de suif ou de beurre froid non salé, râpé",
             "un petit bouquet de ciboulette finement tranchée (facultatif)"
@@ -3213,7 +3213,7 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chorizo-rocket-preserved-lemon-calzones/",
-        "title": "Chorizo, roquette & calzones de citron confit",
+        "title": "Calzones au chorizo, roquette & citron confit",
         "description": "Remplissez ces calzones pleines de saveurs à l'avance, puis faites-les cuire directement du congélateur lorsque vous êtes occupé. Le combo chorizo ​​épicé et pâtisserie au paprika fumé est divin",
         "prep_time": "30 mins Cook: 30 mins plus 2 hrs proving",
         "cook_time": "",
@@ -3303,7 +3303,7 @@
             "1½ cuillère à soupe d'huile d'olive, plus un peu pour la friture",
             "un filet de jus de citron",
             "2 aubergines parées et coupées en rondelles de 1 cm",
-            "4 pains pitta",
+            "4 douleurs pitta",
             "4 œufs durs moyens, pelés et tranchés",
             "200g de houmous",
             "150 g de radis, parés et coupés en deux s'ils sont gros",
@@ -3393,7 +3393,7 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/healthy-porridge-bowl/",
-        "title": "Bol de porridge sain",
+        "title": "Gâteau au porridge sain",
         "description": "Commencez votre journée du bon pied avec ce bol rempli d'avoine, de baies, de banane et de graines. C'est sain et regorge de nutriments pour alimenter le corps et l'esprit.",
         "prep_time": "10 mins Cook: 5 mins",
         "cook_time": "",
@@ -3427,7 +3427,7 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/healthy-tikka-masala/",
-        "title": "Tikka masala sain",
+        "title": "Tikka masala que j'ai",
         "description": "Savourez les saveurs riches et épicées du tikka masala avec cette version familiale plus légère, à la fois saine et sans gluten. C'est un plaisir garanti pour le public",
         "prep_time": "10 mins Cook: 55 mins",
         "cook_time": "",

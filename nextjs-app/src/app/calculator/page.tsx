@@ -34,6 +34,12 @@ export default function CalculatorPage() {
         carbs: number;
         fat: number;
         weeklyChange: number;
+        zigzag?: {
+            highDays: number;
+            lowDays: number;
+            highCalories: number;
+            lowCalories: number;
+        };
     } | null>(null);
 
     const [saved, setSaved] = useState(false);
@@ -185,16 +191,31 @@ export default function CalculatorPage() {
         // Start with optimal (2.0g/kg Prot, 0.8g/kg Fat). 
         // If carbs < 30g, progressively lower towards scientific minimums (1.6g Prot, 0.6g Fat)
 
-        let pRatio = 2.0;
-        let fRatio = 0.8;
+        // Algorithm:
+        // Loss: Protein 1.8g/kg (High but balanced), Fat 0.8g/kg
+        // Aggressive Loss: Protein 2.0g/kg, Fat 0.7g/kg
+        // Gain: Protein 2.0g/kg, Fat 0.9g/kg
+        // Maintenance: Protein 1.6g/kg, Fat 1.0g/kg
+
+        let pBase = 1.8;
+        let fBase = 0.8;
+
+        if (goal === 'aggressive_loss') {
+            pBase = 2.0; fBase = 0.7;
+        } else if (goal.includes('gain')) {
+            pBase = 2.0; fBase = 0.9;
+        } else if (goal === 'maintain') {
+            pBase = 1.6; fBase = 1.0;
+        }
+
         const minCarbsGrams = 30; // Safety floor
 
         // Strategies: Optimal -> Reduced Fat -> Reduced Protein -> Min Both
         const strategies = [
-            { p: 2.0, f: 0.8 },
-            { p: 2.0, f: 0.7 },
-            { p: 1.8, f: 0.7 },
-            { p: 1.8, f: 0.6 },
+            { p: pBase, f: fBase },
+            { p: pBase, f: Math.max(0.6, fBase - 0.1) },
+            { p: Math.max(1.6, pBase - 0.2), f: fBase },
+            { p: Math.max(1.6, pBase - 0.2), f: Math.max(0.6, fBase - 0.1) },
             { p: 1.6, f: 0.6 }
         ];
 
@@ -222,7 +243,31 @@ export default function CalculatorPage() {
         const remainingCals = targetCalories - proteinCals - fatCals;
         const carbs = Math.round(Math.max(0, remainingCals) / 4);
 
-        setResults({ tdee, targetCalories, protein, carbs, fat, weeklyChange });
+        // Zigzag Calculation (5 Low, 2 High)
+        // High Day = Maintenance (or Target + 300 if gaining)
+        let highCal = tdee;
+        if (goal.includes('gain')) highCal = targetCalories + 300;
+        else if (goal === 'maintain') highCal = targetCalories + 200;
+
+        const weeklyTotal = targetCalories * 7;
+        const highTotal = highCal * 2;
+        const lowTotal = weeklyTotal - highTotal;
+        const lowCal = Math.round(lowTotal / 5);
+
+        setResults({
+            tdee,
+            targetCalories,
+            protein,
+            carbs,
+            fat,
+            weeklyChange,
+            zigzag: {
+                highDays: 2,
+                lowDays: 5,
+                highCalories: highCal,
+                lowCalories: lowCal
+            }
+        });
         setSaved(false);
     };
 
@@ -408,6 +453,29 @@ export default function CalculatorPage() {
                             </div>
                         </div>
 
+
+                        {/* Zigzag Schedule */}
+                        {results.zigzag && (
+                            <div className="mb-6 p-4 bg-gray-800/50 rounded-xl border border-gray-700">
+                                <h4 className="font-semibold mb-2 flex items-center gap-2">
+                                    <TrendingUp className="w-5 h-5 text-emerald-400" /> Zigzag Calorie Cycling (Recommended)
+                                </h4>
+                                <p className="text-xs text-gray-400 mb-4">
+                                    Prevent metabolic adaptation by cycling your calories. Eat more on weekends (High Days) and less during the week (Low Days) to average your target.
+                                </p>
+                                <div className="grid grid-cols-2 gap-4">
+                                    <div className="text-center p-3 bg-gray-900 rounded-lg border border-gray-800">
+                                        <div className="text-xl font-bold text-emerald-400">{results.zigzag.lowCalories}</div>
+                                        <div className="text-xs text-gray-500">Low Days (5 days/wk)</div>
+                                    </div>
+                                    <div className="text-center p-3 bg-gray-900 rounded-lg border border-gray-800">
+                                        <div className="text-xl font-bold text-amber-400">{results.zigzag.highCalories}</div>
+                                        <div className="text-xs text-gray-500">High Days (2 days/wk)</div>
+                                    </div>
+                                </div>
+                            </div>
+                        )}
+
                         <button
                             onClick={saveToProfile}
                             disabled={saved}
@@ -430,6 +498,30 @@ export default function CalculatorPage() {
                                 <li>• Drink 2.5-3L of water daily</li>
                                 <li>• Get 7+ hours of sleep for recovery</li>
                             </ul>
+                        </div>
+
+                        {/* Scientific Reference Section */}
+                        <div className="mt-6 p-4 bg-gray-800/30 rounded-lg border border-gray-700/50">
+                            <h3 className="text-sm font-semibold mb-2 flex items-center gap-2 text-gray-300">
+                                <Info className="w-4 h-4 text-blue-400" /> Scientific Methodology
+                            </h3>
+                            <div className="text-xs text-gray-400 space-y-2">
+                                <p>
+                                    This calculator uses the <strong>Mifflin-St Jeor Equation</strong>, the industry standard for BMR accuracy.
+                                </p>
+                                <div>
+                                    <strong className="text-gray-300">Macronutrient Distribution Sources:</strong>
+                                    <ul className="list-disc pl-4 mt-1 space-y-1">
+                                        <li><strong>Protein:</strong> 1.6 - 2.2g/kg (ISSN/ACSM for muscle preservation & growth).</li>
+                                        <li><strong>Fats:</strong> 0.6 - 1.0g/kg (Minimum for hormonal health).</li>
+                                        <li><strong>Carbohydrates:</strong> Remainder for energy and glycogen.</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <strong className="text-gray-300">Why Zigzag?</strong>
+                                    <p>Alternating calorie intake helps prevent metabolic adaptation (slowing down BMR) during prolonged dieting.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 )}
@@ -571,6 +663,6 @@ export default function CalculatorPage() {
                     </>
                 )}
             </div>
-        </div>
+        </div >
     );
 }
