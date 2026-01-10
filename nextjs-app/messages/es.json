@@ -276,7 +276,43 @@
         "analyzing": "Analizando Tu Estado...",
         "preparingPlan": "Preparando tu plan personalizado",
         "yourCoach": "Tu Entrenador",
-        "updateCheckin": "Actualizar Check-in"
+        "updateCheckin": "Actualizar Check-in",
+        "sportType": "Tipo de Deporte",
+        "trainingLocation": "Lugar de Entrenamiento",
+        "availableEquipment": "Equipo Disponible",
+        "locations": {
+            "home": "Casa",
+            "gym": "Gimnasio",
+            "outdoor": "Aire Libre"
+        },
+        "sports": {
+            "gym": "Gimnasio",
+            "running": "Correr",
+            "swimming": "Natación",
+            "cycling": "Ciclismo",
+            "yoga": "Yoga",
+            "hiit": "HIIT",
+            "boxing": "Boxeo",
+            "football": "Fútbol",
+            "basketball": "Baloncesto",
+            "crossfit": "CrossFit",
+            "hiking": "Senderismo",
+            "home_workout": "Entreno en Casa"
+        },
+        "equipment": {
+            "dumbbells": "Mancuernas",
+            "resistance_bands": "Bandas",
+            "pull_up_bar": "Barra Dominadas",
+            "yoga_mat": "Esterilla",
+            "kettlebell": "Kettlebell",
+            "jump_rope": "Cuerda",
+            "foam_roller": "Rodillo",
+            "bench": "Banco",
+            "barbell": "Barra",
+            "treadmill": "Cinta",
+            "stationary_bike": "Bici",
+            "none": "Ninguno"
+        }
     },
     "meals": {
         "title": "Biblioteca de Comidas",

@@ -276,7 +276,43 @@
     "analyzing": "Analyzing Your Status...",
     "preparingPlan": "Preparing your personalized plan",
     "yourCoach": "Your Coach",
-    "updateCheckin": "Update Check-in"
+    "updateCheckin": "Update Check-in",
+    "sportType": "Sport Type",
+    "trainingLocation": "Training Location",
+    "availableEquipment": "Available Equipment",
+    "locations": {
+      "home": "Home",
+      "gym": "Gym",
+      "outdoor": "Outdoor"
+    },
+    "sports": {
+      "gym": "Gym / Weights",
+      "running": "Running",
+      "swimming": "Swimming",
+      "cycling": "Cycling",
+      "yoga": "Yoga",
+      "hiit": "HIIT",
+      "boxing": "Boxing",
+      "football": "Football",
+      "basketball": "Basketball",
+      "crossfit": "CrossFit",
+      "hiking": "Hiking",
+      "home_workout": "Home Workout"
+    },
+    "equipment": {
+      "dumbbells": "Dumbbells",
+      "resistance_bands": "Bands",
+      "pull_up_bar": "Pull-up Bar",
+      "yoga_mat": "Yoga Mat",
+      "kettlebell": "Kettlebell",
+      "jump_rope": "Jump Rope",
+      "foam_roller": "Foam Roller",
+      "bench": "Bench",
+      "barbell": "Barbell",
+      "treadmill": "Treadmill",
+      "stationary_bike": "Bike",
+      "none": "None"
+    }
   },
   "meals": {
     "title": "Meal Library",
