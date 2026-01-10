@@ -1,21 +1,21 @@
 [
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/blueberry-smoothie-recipe/",
-        "title": "[ES] Blueberry smoothie recipe",
-        "description": "(Translation pending) Make a quick and simple blueberry smoothie with yogurt, banana and apple juice for busy mornings. You can easily make it vegan by using coconut yogurt",
+        "title": "Receta de batido de arándanos",
+        "description": "Prepare un batido de arándanos rápido y sencillo con yogur, plátano y jugo de manzana para las mañanas ocupadas. Puedes hacerlo vegano fácilmente usando yogur de coco.",
         "prep_time": "5 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "175g blueberries",
-            "1 small banana, sliced",
-            "1 tbsp natural or Greek yogurt",
-            "100ml apple juice, chilled",
-            "3-4 mint leaves (optional), plus extra to garnish"
+            "175 g de arándanos",
+            "1 plátano pequeño, en rodajas",
+            "1 cucharada de yogur natural o griego",
+            "100 ml de zumo de manzana, frío",
+            "3-4 hojas de menta (opcional), y más para decorar"
         ],
         "method": [
-            "Put the blueberries, banana, yogurt, apple juice and mint, if using, in ablenderand blitz until smooth. Add a splash of water if it seems too thick.",
-            "Pour the smoothie into a tall glass with a glass straw to serve. Garnish with a sprig of mint, if you like."
+            "Coloque los arándanos, el plátano, el yogur, el jugo de manzana y la menta, si los usa, en una licuadora y mezcle hasta que quede suave. Añade un chorrito de agua si te parece demasiado espesa.",
+            "Vierta el batido en un vaso alto con una pajita para servir. Adorne con una ramita de menta, si lo desea."
         ],
         "nutritional_info": {
             "kcal": "120",
@@ -32,20 +32,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/pineapple-smoothie/",
-        "title": "[ES] Pineapple smoothie",
-        "description": "(Translation pending) Blend fresh pineapple and banana with lime juice to make this tangy pineapple smoothie. It’s great for breakfast and kids will love it too",
+        "title": "batido de piña",
+        "description": "Licue piña y plátano frescos con jugo de lima para preparar este batido de piña picante. Es genial para el desayuno y a los niños también les encantará.",
         "prep_time": "10 mins",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "150g pineapple, trimmed, peeled and chopped",
-            "1 small banana, peeled and sliced",
-            "1 lime, juiced",
-            "ice (optional)"
+            "150 g de piña, pelada, cortada y picada",
+            "1 plátano pequeño, pelado y rebanado",
+            "1 lima, exprimida",
+            "hielo (opcional)"
         ],
         "method": [
-            "Blitz the pineapple in ablenderwith the banana, lime juice and 50ml cold water until smooth.",
-            "Fill a tall glass with ice, if you like, pour over the smoothie and serve immediately."
+            "Mezcla la piña en licuadora con el plátano, el jugo de lima y 50 ml de agua fría hasta que quede suave.",
+            "Llena un vaso alto con hielo, si lo deseas, vierte sobre el batido y sirve inmediatamente."
         ],
         "nutritional_info": {
             "kcal": "140",
@@ -62,19 +62,19 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/watermelon-smoothie/",
-        "title": "[ES] Watermelon smoothie",
-        "description": "(Translation pending) Enjoy a watermelon smoothie on a warm summer’s day. Blended with banana and apple juice, this drink is packed with vitamin C",
+        "title": "batido de sandia",
+        "description": "Disfrute de un batido de sandía en un cálido día de verano. Mezclada con jugo de plátano y manzana, esta bebida está repleta de vitamina C.",
         "prep_time": "10 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "150g watermelon, peeled and chopped",
-            "1 small banana, peeled and sliced",
-            "100ml cold apple juice"
+            "150 g de sandía, pelada y picada",
+            "1 plátano pequeño, pelado y rebanado",
+            "100 ml de zumo de manzana frío"
         ],
         "method": [
-            "Blitz the watermelon in ablenderwith the banana and apple juice until smooth.",
-            "Pour the smoothie into a tall glass and serve immediately."
+            "Mezcle la sandía en licuadora con el jugo de plátano y manzana hasta que quede suave.",
+            "Vierte el batido en un vaso alto y sirve inmediatamente."
         ],
         "nutritional_info": {
             "kcal": "154",
@@ -91,26 +91,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/courgette-cheddar-cornbread/",
-        "title": "[ES] Courgette & cheddar cornbread",
-        "description": "(Translation pending) Enjoy this cheesy cornbread with a spicy chilli, or toasted and topped with poached eggs and grilled tomatoes for breakfast",
+        "title": "Pan de maíz con calabacín y queso cheddar",
+        "description": "Disfrute de este pan de maíz con queso y chile picante, o tostado y cubierto con huevos escalfados y tomates asados ​​para el desayuno.",
         "prep_time": "10 mins Cook: 40 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "75g butter, melted, plus extra for the tin",
-            "75g strong white bread flour",
-            "150g instant polenta",
-            "1 tbsp baking powder",
-            "3 eggs",
-            "350ml whole milk",
-            "100g mature cheddar, grated",
-            "2 small or 1 medium courgette (about 200g), trimmed and roughly grated"
+            "75 g de mantequilla derretida y un poco más para el molde",
+            "75 g de harina de pan blanca fuerte",
+            "150 g de polenta instantánea",
+            "1 cucharada de polvo para hornear",
+            "3 huevos",
+            "350ml de leche entera",
+            "100 g de queso cheddar maduro, rallado",
+            "2 calabacines pequeños o 1 mediano (unos 200 g), cortados y rallados"
         ],
         "method": [
-            "Heat the oven to 220C/200C fan/gas 7. Butter a 900g loaf tin and line with a wide strip of baking parchment. Mix the flour, polenta and baking powder in a bowl with 1 tsp of salt.",
-            "Whiskthe eggs, milk and melted butter in a jug. Pour into the dry ingredients and mix together. Stir in the cheese and courgettes. It will be quite runny at this stage but don’t worry, as the polenta gradually swells and soaks up the liquid in the oven.",
-            "Pour into the prepared loaf tin and bake for 15 mins, then turn the oven down to 200C/180C fan/gas 6 and cook for another 25-30 mins or until a skewer inserted in the middle of the loaf comes out clean (you can cover the top loosely with foil if starts to get dark too quickly).",
-            "Leave to cool completely in the tin, then turn out and slice."
+            "Calentar el horno a 220C/200C ventilador/gas 7. Untar con mantequilla un molde para pan de 900 g y forrar con una tira ancha de papel para hornear. Mezclar la harina, la polenta y el polvo para hornear en un bol con 1 cucharadita de sal.",
+            "Batir en una jarra los huevos, la leche y la mantequilla derretida. Vierta en los ingredientes secos y mezcle. Agrega el queso y los calabacines. En esta etapa estará bastante líquida, pero no te preocupes, ya que la polenta se hincha gradualmente y absorbe el líquido en el horno.",
+            "Vierta en el molde para pan preparado y hornee por 15 minutos, luego baje el horno a 200C/180C ventilador/gas 6 y cocine por otros 25-30 minutos o hasta que al insertar una brocheta en el medio del pan salga limpio (puede cubrir la parte superior sin apretar con papel de aluminio si comienza a oscurecerse demasiado rápido).",
+            "Dejar enfriar completamente en el molde, luego desmoldar y cortar en rodajas."
         ],
         "nutritional_info": {
             "kcal": "224",
@@ -127,25 +127,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/vanilla-cinnamon-breakfast-rice/",
-        "title": "[ES] Vanilla & cinnamon breakfast rice",
-        "description": "(Translation pending) Fancy a change from porridge? This healthy rice-based vanilla and cinnamon breakfast is topped with apricots and walnuts, and will fill you up for the morning",
+        "title": "Arroz de desayuno de vainilla y canela",
+        "description": "¿Te apetece cambiar las gachas de avena? Este saludable desayuno de vainilla y canela a base de arroz está cubierto con albaricoques y nueces y te llenará para la mañana.",
         "prep_time": "10 mins Cook: 35 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "200g wholemeal basmati rice",
-            "200ml whole milk",
-            "2 tsp vanilla extract",
-            "3 bay leaves",
-            "1 cinnamon stick",
-            "12 dried apricots split in half widthways (so they still look whole)",
-            "4 x 100ml pots bio yogurt",
-            "12 walnut halves, broken into pieces"
+            "200 g de arroz basmati integral",
+            "200ml de leche entera",
+            "2 cucharaditas de extracto de vainilla",
+            "3 hojas de laurel",
+            "1 rama de canela",
+            "12 orejones partidos por la mitad a lo ancho (para que se vean enteros)",
+            "4 botes de yogur bio de 100ml",
+            "12 mitades de nueces, partidas en pedazos"
         ],
         "method": [
-            "Tip the rice into a large, deep non-stick pan with 600ml water, the milk, vanilla, bay leaves and cinnamon stick. Bring to the boil, then cover with a lid and simmer for 25-30 mins until the rice is tender. Keep an eye on it to ensure it doesn’t boil dry towards the end of its cooking time.",
-            "Meanwhile, tip the apricots into a smallpanwith 300ml water and cook over a low-medium heat until tender, about 10-15 mins. Set aside.",
-            "Remove the bay leaves and cinnamon stick from the rice, then stir in half the yogurt. Both the rice and the apricots will keep chilled, separately, for up to 24 hrs. Spoon the rice into bowls and top with the remaining yogurt, the apricots and their juices and the walnuts.If you’ve prepared the rice and apricots the day before, eat cold or reheat until warm, adding a splash of milk to the rice to loosen."
+            "Vierta el arroz en una sartén antiadherente grande y profunda con 600 ml de agua, la leche, la vainilla, las hojas de laurel y la ramita de canela. Llevar a ebullición, luego tapar y cocinar a fuego lento durante 25-30 minutos hasta que el arroz esté tierno. Vigílelo para asegurarse de que no se seque hacia el final de su tiempo de cocción.",
+            "Mientras tanto, vierta los albaricoques en una cacerola pequeña con 300 ml de agua y cocine a fuego medio-bajo hasta que estén tiernos, unos 10-15 minutos. Dejar de lado.",
+            "Retire las hojas de laurel y la rama de canela del arroz y luego agregue la mitad del yogur. Tanto el arroz como los albaricoques se mantendrán fríos, por separado, hasta por 24 horas. Coloca el arroz en tazones y cubre con el resto del yogur, los albaricoques y su jugo y las nueces. Si has preparado el arroz y los albaricoques el día anterior, cómelos fríos o recaliéntalos hasta que estén tibios, añadiendo un chorrito de leche al arroz para que se suelte."
         ],
         "nutritional_info": {
             "kcal": "378",
@@ -162,19 +162,19 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/blueberry-banana-power-smoothie/",
-        "title": "[ES] Blueberry & banana power smoothie",
-        "description": "(Translation pending) Add protein-packed tofu to this blueberry and banana smoothie to make it really creamy and keep you full until lunchtime. Serve with toast or some cereal",
+        "title": "Batido energético de arándanos y plátano",
+        "description": "Agrega tofu rico en proteínas a este batido de arándanos y plátano para hacerlo realmente cremoso y mantenerte lleno hasta la hora del almuerzo. Servir con tostadas o algún cereal.",
         "prep_time": "5 mins No cook",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "2 ripe bananas, peeled",
-            "125g blueberries (fresh or frozen)",
-            "300g pack silken tofu, drained",
-            "2 tbsp porridge oats"
+            "2 plátanos maduros, pelados",
+            "125 g de arándanos (frescos o congelados)",
+            "Paquete de 300 g de tofu sedoso, escurrido",
+            "2 cucharadas de gachas de avena"
         ],
         "method": [
-            "Whizz all of the ingredients together in a blender with 300ml water. Drink straight away or transfer to a bottle for later, shaking well before drinking."
+            "Batir todos los ingredientes en una licuadora con 300 ml de agua. Beba inmediatamente o transfiéralo a un biberón para más tarde, agitando bien antes de beber."
         ],
         "nutritional_info": {
             "kcal": "160",
@@ -191,20 +191,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/carrot-and-orange-smoothie/",
-        "title": "[ES] Carrot and orange smoothie",
-        "description": "(Translation pending) Start your day with a vibrant orange and carrot smoothie for breakfast. With added oats and ginger, it will give you vitamin C and count towards your 5-a-day",
+        "title": "Batido de zanahoria y naranja",
+        "description": "Comience el día con un vibrante batido de naranja y zanahoria para el desayuno. Con avena y jengibre añadidos, te dará vitamina C y contará para tus 5 al día.",
         "prep_time": "5 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "2 medium carrots, peeled and roughly chopped or grated depending on your blender",
-            "2 oranges, peeled",
-            "2cm piece of ginger, grated",
-            "2 tbsp oats",
-            "100g ice"
+            "2 zanahorias medianas, peladas y picadas o ralladas dependiendo de tu licuadora",
+            "2 naranjas, peladas",
+            "Trozo de 2 cm de jengibre rallado",
+            "2 cucharadas de avena",
+            "100 g de hielo"
         ],
         "method": [
-            "Tip all the ingredients into a blender or smoothie maker and blitz until smooth, adding 150ml water if it’s too thick – alter the consistency to your liking."
+            "Vierta todos los ingredientes en una licuadora o batidora y mezcle hasta que quede suave, agregando 150 ml de agua si está demasiado espesa; modifique la consistencia a su gusto."
         ],
         "nutritional_info": {
             "kcal": "75",
@@ -221,22 +221,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/kefir-breakfast-smoothie/",
-        "title": "[ES] Kefir breakfast smoothie",
-        "description": "(Translation pending) Kick-start your morning with this probiotic-rich kefir breakfast smoothie. With mango, orange juice, ginger and turmeric, you’ll be ready for the day ahead",
+        "title": "Batido de desayuno con kéfir",
+        "description": "Comience su mañana con este batido de desayuno de kéfir rico en probióticos. Con mango, jugo de naranja, jengibre y cúrcuma, estarás listo para el día siguiente.",
         "prep_time": "5 mins No cook",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 large mango, stoned and chopped",
-            "2cm piece ginger, finely grated",
-            "½  tsp ground turmeric",
-            "200ml fresh orange juice",
-            "300ml kefir",
-            "1-2 tbsp honey or agave, to taste"
+            "1 mango grande, deshuesado y picado",
+            "2 cm de jengibre, finamente rallado",
+            "½ cucharadita de cúrcuma molida",
+            "200 ml de zumo de naranja fresco",
+            "300ml de kéfir",
+            "1-2 cucharadas de miel o agave, al gusto"
         ],
         "method": [
-            "Put all the ingredients in a blender and blitz until completely smooth. Taste and add a little more ginger, turmeric and honey, if you like.",
-            "Pour into two tall glasses and serve. Can be chilled in a covered jug in the fridge for up to 24 hrs."
+            "Pon todos los ingredientes en una licuadora y bate hasta que estén completamente suaves. Pruebe y agregue un poco más de jengibre, cúrcuma y miel, si lo desea.",
+            "Vierta en dos vasos altos y sirva. Se puede enfriar en una jarra tapada en el frigorífico hasta por 24 horas."
         ],
         "nutritional_info": {
             "kcal": "201",
@@ -253,20 +253,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/strawberry-green-goddess-smoothie/",
-        "title": "[ES] Strawberry green goddess smoothie",
-        "description": "(Translation pending) Try this tasty breakfast smoothie to start your day, pairing sweet fruit with nutritious spinach and avocado for a dose of calcium, vitamin C, folate and fibre",
+        "title": "Batido de diosa verde fresa",
+        "description": "Pruebe este sabroso batido de desayuno para comenzar el día, combinando fruta dulce con nutritivas espinacas y aguacate para obtener una dosis de calcio, vitamina C, ácido fólico y fibra.",
         "prep_time": "5 mins No cook",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "160g ripe strawberries, hulled",
-            "160g baby spinach",
-            "1 small avocado, halved and the flesh scooped out",
-            "150ml pot bio yogurt",
-            "2 small oranges, juiced, plus ½  tsp finely grated zest"
+            "160 g de fresas maduras, peladas",
+            "160 g de espinacas tiernas",
+            "1 aguacate pequeño, partido por la mitad y sin pulpa",
+            "Yogurt bio bote 150ml",
+            "2 naranjas pequeñas, exprimidas, más ½ cucharadita de ralladura fina"
         ],
         "method": [
-            "Put all the ingredients in a blender and whizz until completely smooth. If it’s a little thick, add a drop of chilled water then blitz again. Pour into glasses and drink straight away."
+            "Pon todos los ingredientes en una licuadora y bate hasta que estén completamente suaves. Si está un poco espeso, agrega una gota de agua fría y vuelve a mezclar. Vierta en vasos y beba inmediatamente."
         ],
         "nutritional_info": {
             "kcal": "226",
@@ -283,22 +283,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/two-minute-breakfast-smoothie/",
-        "title": "[ES] Two-minute breakfast smoothie",
-        "description": "(Translation pending) Whizz up a low-fat breakfast smoothie in no time. Use banana with other soft fruit, plus honey for a little sweetness and oats for slow-release fuel",
+        "title": "Batido de desayuno de dos minutos",
+        "description": "Prepare un batido de desayuno bajo en grasas en poco tiempo. Use plátano con otras frutas blandas, además de miel para darle un poco de dulzura y avena como combustible de liberación lenta.",
         "prep_time": "2 mins No cook",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 banana",
-            "1 tbsp porridge oats",
-            "80g soft fruit (whatever you have – strawberries, blueberries, and mango all work well)",
-            "150ml milk",
-            "1 tsp honey",
-            "1 tsp vanilla extract"
+            "1 plátano",
+            "1 cucharada de gachas de avena",
+            "80 g de frutos rojos (los que tengas: fresas, arándanos y mango funcionan bien)",
+            "150ml de leche",
+            "1 cucharadita de miel",
+            "1 cucharadita de extracto de vainilla"
         ],
         "method": [
-            "Put all the ingredients in a blender and whizz for 1 min until smooth.",
-            "Pour the mixture into two glasses to serve."
+            "Pon todos los ingredientes en una licuadora y bate durante 1 minuto hasta que quede suave.",
+            "Vierta la mezcla en dos vasos para servir."
         ],
         "nutritional_info": {
             "kcal": "156",
@@ -315,22 +315,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/kale-smoothie/",
-        "title": "[ES] Kale smoothie",
-        "description": "(Translation pending) Give yourself a dose of vitamin C in the morning with this vegan green smoothie. Along with kale and avocado, there’s a hit of zesty lime and pineapple",
+        "title": "batido de col rizada",
+        "description": "Date una dosis de vitamina C por la mañana con este batido verde vegano. Junto con la col rizada y el aguacate, hay un toque de lima y piña picantes.",
         "prep_time": "5 mins No cook",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "2 handfuls kale",
-            "½  avocado",
-            "½  lime, juice only",
-            "large handful frozen pineapple chunks",
-            "medium-sized chunk ginger",
-            "1 tbsp cashew nuts",
-            "1 banana, optional"
+            "2 puñados de col rizada",
+            "½ aguacate",
+            "½ lima, solo jugo",
+            "un puñado grande de trozos de piña congelados",
+            "jengibre en trozos medianos",
+            "1 cucharada de anacardos",
+            "1 plátano, opcional"
         ],
         "method": [
-            "Put all of the ingredients into a bullet or smoothie maker, add a large splash of water and blitz. Add more water until you have the desired consistency."
+            "Coloque todos los ingredientes en una bala o batidora, agregue un chorrito grande de agua y mezcle. Agrega más agua hasta tener la consistencia deseada."
         ],
         "nutritional_info": {
             "kcal": "152",
@@ -347,25 +347,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/breakfast-super-shake/",
-        "title": "[ES] Breakfast super-shake",
-        "description": "(Translation pending) This smoothie is high in natural fats and sugar – ideal if you need some fuel for intense exercise",
+        "title": "Superbatido de desayuno",
+        "description": "Este batido tiene un alto contenido de grasas naturales y azúcar, ideal si necesitas algo de combustible para hacer ejercicio intenso.",
         "prep_time": "5 mins no cook",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "100ml full-fat milk",
-            "2 tbsp natural yogurt",
-            "1 banana",
-            "150g frozen fruits of the forest",
-            "50g blueberries",
-            "1 tbsp chia seeds",
-            "½  tsp cinnamon",
-            "1 tbsp goji berries",
-            "1 tsp mixed seeds",
-            "1 tsp honey (ideally Manuka)"
+            "100 ml de leche entera",
+            "2 cucharadas de yogur natural",
+            "1 plátano",
+            "150g frutos del bosque congelados",
+            "50 g de arándanos",
+            "1 cucharada de semillas de chía",
+            "½ cucharadita de canela",
+            "1 cucharada de bayas de goji",
+            "1 cucharadita de semillas mixtas",
+            "1 cucharadita de miel (idealmente Manuka)"
         ],
         "method": [
-            "Put the ingredients in a blender and blitz until smooth. Pour into a glass and enjoy!"
+            "Pon los ingredientes en una licuadora y bate hasta que quede suave. ¡Vierte en un vaso y disfruta!"
         ],
         "nutritional_info": {
             "kcal": "500",
@@ -382,21 +382,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/sunshine-smoothie/",
-        "title": "[ES] Sunshine smoothie",
-        "description": "(Translation pending) Start your day off with a little ray of sunshine – a low-fat smoothie that’s two of your five-a-day and tasty too!",
+        "title": "batido de sol",
+        "description": "Comience el día con un pequeño rayo de sol: un batido bajo en grasa, dos de los cinco que toma al día, ¡y además es delicioso!",
         "prep_time": "5 mins no cook",
         "cook_time": "",
         "serves": "3",
         "ingredients": [
-            "500ml carrot juice, chilled",
-            "200g pineapple (fresh or canned)",
-            "2 bananas, broken into chunks",
-            "small piece ginger, peeled",
-            "20g cashew nuts",
-            "juice 1 lime"
+            "500 ml de jugo de zanahoria, frío",
+            "200 g de piña (fresca o enlatada)",
+            "2 plátanos, partidos en trozos",
+            "jengibre en trozos pequeños, pelado",
+            "20 g de anacardos",
+            "jugo 1 lima"
         ],
         "method": [
-            "Put the ingredients in a blender and whizz until smooth. Drink straight away or pour into a bottle to drink on the go. Will keep in the fridge for a day."
+            "Pon los ingredientes en una licuadora y bate hasta que quede suave. Beba inmediatamente o viértalo en una botella para beber mientras viaja. Se conservará en el frigorífico un día."
         ],
         "nutritional_info": {
             "kcal": "171",
@@ -413,20 +413,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/afternoon-pick-me-smoothie/",
-        "title": "[ES] Banana smoothie",
-        "description": "(Translation pending) Quick and easy to make, this banana, prune, almond milk and nut butter smoothie is an ideal on-the-go energy boost",
+        "title": "batido de plátano",
+        "description": "Rápido y fácil de preparar, este batido de plátano, ciruelas pasas, leche de almendras y mantequilla de nueces es un impulso de energía ideal para llevar.",
         "prep_time": "5 mins No cook",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "500ml unsweetened almond milk",
-            "2 tbsp almond butter",
-            "6 prunes",
-            "1 tsp cinnamon",
-            "1 small ripe banana"
+            "500 ml de leche de almendras sin azúcar",
+            "2 cucharadas de mantequilla de almendras",
+            "6 ciruelas pasas",
+            "1 cucharadita de canela",
+            "1 plátano pequeño maduro"
         ],
         "method": [
-            "In a blender, whizz the almond milk with the almond butter, prunes, cinnamon and banana. Transfer to 2 bottles and chill until ready to drink, or pack for lunch on the go. They will keep in the fridge for 2 days."
+            "En una licuadora, bata la leche de almendras con la mantequilla de almendras, las ciruelas pasas, la canela y el plátano. Transfiera a 2 botellas y enfríe hasta que esté listo para beber, o prepárelo para el almuerzo mientras viaja. Se conservarán en la nevera durante 2 días."
         ],
         "nutritional_info": {
             "kcal": "250",
@@ -443,24 +443,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/immune-boosting-smoothie/",
-        "title": "[ES] Coconut & banana smoothie",
-        "description": "(Translation pending) This creamy smoothie is packed with nutritious ingredients. Baobab adds a tangy, sherbet flavour and is high in fibre, antioxidants and vitamin C",
+        "title": "Batido de coco y plátano",
+        "description": "Este batido cremoso está repleto de ingredientes nutritivos. El baobab añade un sabor picante a sorbete y es rico en fibra, antioxidantes y vitamina C.",
         "prep_time": "5 mins No cook",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "100g coconut yogurt",
-            "3 tbsp milk of your choice (we used unsweetened almond milk)",
-            "½  tsp ground turmeric",
-            "3cm piece of fresh ginger, peeled",
-            "2 tsp baobab powder (optional)",
-            "1 small ripe banana",
-            "1 tsp honey",
-            "1 tbsp oats",
-            "juice of ½  a lemon"
+            "100 g de yogur de coco",
+            "3 cucharadas de leche de tu elección (nosotros usamos leche de almendras sin azúcar)",
+            "½ cucharadita de cúrcuma molida",
+            "Trozo de 3 cm de jengibre fresco, pelado",
+            "2 cucharaditas de baobab en polvo (opcional)",
+            "1 plátano pequeño maduro",
+            "1 cucharadita de miel",
+            "1 cucharada de avena",
+            "jugo de ½ limón"
         ],
         "method": [
-            "Add the coconut yogurt and milk to a high-speed blender then add the turmeric, fresh ginger and baobab powder (if using). Tip in the remaining ingredients then blend until smooth. Add ice and blitz again if you prefer a colder drink. Pour into glasses and serve."
+            "Agrega el yogur de coco y la leche a una licuadora de alta velocidad, luego agrega la cúrcuma, el jengibre fresco y el baobab en polvo (si lo usas). Agregue los ingredientes restantes y luego mezcle hasta que quede suave. Agrega hielo y bate nuevamente si prefieres una bebida más fría. Vierta en vasos y sirva."
         ],
         "nutritional_info": {
             "kcal": "359",
@@ -477,23 +477,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/clean-green-smoothie/",
-        "title": "[ES] Green smoothie",
-        "description": "(Translation pending) This sweet smoothie packs in plenty of nutritious ingredients, such as spinach, flaxseeds and banana, with an optional spoonful of maca powder for a natural energy boost",
+        "title": "batido verde",
+        "description": "Este dulce batido contiene muchos ingredientes nutritivos, como espinacas, semillas de lino y plátano, con una cucharada opcional de maca en polvo para un impulso de energía natural.",
         "prep_time": "5 mins No cook",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "250ml milk of your choice (we used unsweetened almond milk)",
-            "1 tbsp ground flaxseed",
-            "1 tsp maca powder (optional)",
-            "pinch ground cinnamon",
-            "1 Medjool date, stoned",
-            "1 small ripe banana",
-            "handful cavolo nero or spinach",
-            "1 tbsp almond butter"
+            "250ml de leche de tu elección (nosotros utilizamos leche de almendras sin azúcar)",
+            "1 cucharada de linaza molida",
+            "1 cucharadita de maca en polvo (opcional)",
+            "pizca de canela molida",
+            "1 dátil Medjool, apedreado",
+            "1 plátano pequeño maduro",
+            "un puñado de cavolo nero o espinacas",
+            "1 cucharada de mantequilla de almendras"
         ],
         "method": [
-            "Pour the milk into a high-speed blender then add the ground flaxseed, maca powder (if using) and the cinnamon. Add the remaining ingredients then blitz until smooth. Pour into glasses and serve."
+            "Vierta la leche en una licuadora de alta velocidad y luego agregue la linaza molida, la maca en polvo (si la usa) y la canela. Agregue los ingredientes restantes y luego mezcle hasta que quede suave. Vierta en vasos y sirva."
         ],
         "nutritional_info": {
             "kcal": "329",
@@ -510,22 +510,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/green-breakfast-smoothie/",
-        "title": "[ES] Green breakfast smoothie",
-        "description": "(Translation pending) Blitz healthy ingredients for an energy-boosting breakfast. Using unsweetened brown rice milk fortified with calcium and vitamins makes it more nutritious",
+        "title": "Batido de desayuno verde",
+        "description": "Combine ingredientes saludables para un desayuno que aumente la energía. Usar leche de arroz integral sin azúcar fortificada con calcio y vitaminas la hace más nutritiva",
         "prep_time": "10 mins No cook",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 handful spinach (about 50g/2oz), roughly chopped",
-            "100g broccoli florets, roughly chopped",
-            "2 celery sticks",
-            "4 tbsp desiccated coconut",
-            "1 banana",
-            "300ml rice milk (see Tip)",
-            "¼ tsp spirulina or 1 scoop of greens powder or vegan protein powder (optional)"
+            "1 puñado de espinacas (aproximadamente 50 g/2 oz), picadas en trozos grandes",
+            "100 g de floretes de brócoli, picados en trozos grandes",
+            "2 palitos de apio",
+            "4 cucharadas de coco rallado",
+            "1 plátano",
+            "300 ml de leche de arroz (ver consejo)",
+            "¼ de cucharadita de espirulina o 1 cucharada de verduras en polvo o proteína vegana en polvo (opcional)"
         ],
         "method": [
-            "Whizz 300ml water and the ingredients in a blender until smooth."
+            "Batir 300 ml de agua y los ingredientes en una licuadora hasta que quede suave."
         ],
         "nutritional_info": {
             "kcal": "243",
@@ -542,20 +542,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/strawberry-banana-almond-smoothie/",
-        "title": "[ES] Strawberry & banana almond smoothie",
-        "description": "(Translation pending) Kick-start your day with this healthy fruit smoothie, made extra filling with ground almonds and calcium-packed dairy",
+        "title": "Batido de almendras, fresa y plátano",
+        "description": "Comience el día con este saludable batido de frutas, elaborado con almendras molidas y lácteos ricos en calcio.",
         "prep_time": "5 mins No cook",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "1 small banana",
-            "7 strawberries, hulled",
-            "3 tbsp 0% bio-yogurt",
-            "3 tbsp skimmed milk",
-            "2 tbsp ground almonds"
+            "1 plátano pequeño",
+            "7 fresas, peladas",
+            "3 cucharadas de yogur 0% bio",
+            "3 cucharadas de leche desnatada",
+            "2 cucharadas de almendras molidas"
         ],
         "method": [
-            "Slice the banana into the bowl of a food processor, or a jug if using a hand blender. Add the strawberries, yogurt, milk and ground almonds, and blitz until completely smooth. Pour into a glass and enjoy."
+            "Corta el plátano en el bol de un procesador de alimentos o en una jarra si usas una batidora de mano. Agrega las fresas, el yogur, la leche y las almendras molidas y mezcla hasta que esté completamente suave. Vierte en un vaso y disfruta."
         ],
         "nutritional_info": {
             "kcal": "373",
@@ -572,21 +572,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/acai-smoothie/",
-        "title": "[ES] Açaí smoothie",
-        "description": "(Translation pending) Açaí is a hero ingredient – reputed to be one of the best antioxidants, it makes the perfect base for a fruit smoothie. Combine with pineapple, strawberries and banana",
+        "title": "batido de acaí",
+        "description": "El açaí es un ingrediente estrella: tiene fama de ser uno de los mejores antioxidantes y es la base perfecta para un batido de frutas. Combina con piña, fresas y plátano.",
         "prep_time": "5 mins No cook",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "100g raw, frozen, unsweetened açaí pulp, thawed",
-            "50g frozen pineapple",
-            "100g strawberries",
-            "1 medium banana",
-            "250ml mango or orange juice",
-            "1 tbsp agave nectar or honey"
+            "100 g de pulpa de açaí cruda, congelada, sin azúcar y descongelada",
+            "50 g de piña congelada",
+            "100 g de fresas",
+            "1 plátano mediano",
+            "250ml de zumo de mango o naranja",
+            "1 cucharada de néctar de agave o miel"
         ],
         "method": [
-            "Place all ingredients in the blender or a food processor. Blend until smooth. If it’s too thick add a bit more mango or orange juice. Serve in 2 tall glasses."
+            "Coloca todos los ingredientes en la licuadora o en un procesador de alimentos. Licue hasta que quede suave. Si queda muy espeso añade un poco más de zumo de mango o de naranja. Servir en 2 vasos altos."
         ],
         "nutritional_info": {
             "kcal": "200",
@@ -603,20 +603,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/heart-helper-smoothie/",
-        "title": "[ES] Heart helper smoothie",
-        "description": "(Translation pending) Blend beetroot, apple, blueberries and ginger to create a smooth and nutritious drink with depth and zing",
+        "title": "Batido ayudante del corazón",
+        "description": "Mezcla remolacha, manzana, arándanos y jengibre para crear una bebida suave y nutritiva con profundidad y chispa.",
         "prep_time": "5 mins No cook",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "2 small raw beetroots, peeled and roughly chopped",
-            "1 small apple peeled, quartered and cored",
-            "50g blueberries",
-            "1 tbsp grated ginger",
-            "300ml water"
+            "2 remolachas pequeñas crudas, peladas y picadas en trozos grandes",
+            "1 manzana pequeña pelada, cortada en cuartos y sin corazón",
+            "50 g de arándanos",
+            "1 cucharada de jengibre rallado",
+            "300ml de agua"
         ],
         "method": [
-            "Put the beetroot, apple, blueberries and ginger in a blender, top up with water then blitz until smooth."
+            "Coloque la remolacha, la manzana, los arándanos y el jengibre en una licuadora, complete con agua y luego mezcle hasta que quede suave."
         ],
         "nutritional_info": {
             "kcal": "88",
@@ -633,25 +633,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/vegan-date-walnut-flapjacks/",
-        "title": "[ES] Vegan date & walnut flapjacks",
-        "description": "(Translation pending) Make these easy date & walnut flapjacks for elevenses, or when you need a pick-me-up. Plant-based and vegan, they’re ideal for anyone following a dairy-free diet",
+        "title": "Flaps veganos de dátiles y nueces",
+        "description": "Prepare estos sencillos flapjacks de dátiles y nueces para las once o cuando necesite un estímulo. De origen vegetal y vegano, son ideales para cualquiera que siga una dieta sin lácteos.",
         "prep_time": "15 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "9",
         "ingredients": [
-            "100g pitted medjool dates",
-            "1 ripe banana",
-            "1 tsp ground cinnamon",
-            "1 tsp vanilla extract",
-            "100g walnut halves",
-            "250g porridge oats",
-            "50g hemp seeds"
+            "100 g de dátiles medjool deshuesados",
+            "1 plátano maduro",
+            "1 cucharadita de canela molida",
+            "1 cucharadita de extracto de vainilla",
+            "100 g de nueces en mitades",
+            "250 g de gachas de avena",
+            "50 g de semillas de cáñamo"
         ],
         "method": [
-            "Line a 20 x 20cm square tin with parchment. Roughlychopthe dates and cover with 100ml boiling water. Leave to soak for 10 mins.",
-            "Put the banana in a bowl, mash with a fork, then stir in the cinnamon, vanilla, a pinch of sea salt and the soaked dates along with their liquid.",
-            "Tip the mixture into afood processorwith half of the walnuts and 100g of the oats. Pulse until you have a thick paste. Tip into a bowl and combine with most of the remaining nuts, oats and hemp seeds.",
-            "Heat the oven to 180C/160C fan/gas 4. Press the mixture into the lined tin, top with the remaining nuts and seeds and, bake for 20-25 mins until golden and firm. Leave to cool completely before cutting into nine squares."
+            "Forrar un molde cuadrado de 20 x 20 cm con papel pergamino. Picar los dátiles en trozos grandes y cubrir con 100 ml de agua hirviendo. Dejar en remojo durante 10 minutos.",
+            "Pon el plátano en un bol, tritúralo con un tenedor, luego agrega la canela, la vainilla, una pizca de sal marina y los dátiles remojados junto con su líquido.",
+            "Vierta la mezcla en un procesador de alimentos con la mitad de las nueces y 100 g de avena. Pulsa hasta obtener una pasta espesa. Vierta en un tazón y combine con la mayoría de las nueces, la avena y las semillas de cáñamo restantes.",
+            "Calentar el horno a 180C/160C ventilador/gas 4. Presione la mezcla en el molde forrado, cubra con las nueces y semillas restantes y hornee durante 20-25 minutos hasta que esté dorado y firme. Dejar enfriar por completo antes de cortar en nueve cuadrados."
         ],
         "nutritional_info": {
             "kcal": "270",
@@ -668,23 +668,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/breakfast-egg-wraps/",
-        "title": "[ES] Breakfast egg wraps",
-        "description": "(Translation pending) Enjoy these protein-rich egg wraps filled with mushrooms and tomatoes for a quick, filling and healthy breakfast. It provides iron, folate and fibre.",
+        "title": "Wraps de huevo para el desayuno",
+        "description": "Disfrute de estos wraps de huevo ricos en proteínas rellenos de champiñones y tomates para un desayuno rápido, abundante y saludable. Aporta hierro, folato y fibra.",
         "prep_time": "5 mins Cook: 7 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "500g pack closed cup mushrooms",
-            "4 tsp cold pressed rapeseed oil, plus 2 drops",
-            "320g cherry tomatoes, halved, or 8 tomatoes, cut into wedges",
-            "2 generous handfuls parsley, finely chopped",
-            "8 tbsp porridge oats (40g)",
-            "10 eggs",
-            "4 tsp English mustard powder made up with water"
+            "Paquete 500g champiñones vaso cerrado",
+            "4 cucharaditas de aceite de colza prensado en frío, más 2 gotas",
+            "320 g de tomates cherry partidos por la mitad u 8 tomates cortados en gajos",
+            "2 puñados generosos de perejil, finamente picado",
+            "8 cucharadas de gachas de avena (40 g)",
+            "10 huevos",
+            "4 cucharaditas de mostaza inglesa en polvo preparada con agua"
         ],
         "method": [
-            "Thickly slice half the pack of mushrooms. Heat 2 tsp rapeseed oil in a non-stick pan. Add the mushrooms, stir briefly then fry with the lid on the pan for 6-8 mins. Stir in half the tomatoes then cook 1-2 mins more with the lid off until softened.",
-            "Beat together the eggs really well with the parsley and oats. Heat a drop of oil in a large non-stick frying pan. Pour in a ¼ of the egg mix and fry for 1 min until almost set, flip over as if making a pancake. Tip from the pan, spread with a quarter of the mustard, spoon a ¼ the filling down the centre and roll up. Now make a second wrap using another ¼ of the egg mix and filling. If you're following our Healthy Diet Plan, save the rest for the following day."
+            "Corta en rodajas gruesas la mitad del paquete de champiñones. Calienta 2 cucharaditas de aceite de colza en una sartén antiadherente. Añade los champiñones, revuelve brevemente y fríelos con la tapa en la sartén durante 6-8 minutos. Agregue la mitad de los tomates y luego cocine 1-2 minutos más sin la tapa hasta que se ablanden.",
+            "Batir muy bien los huevos con el perejil y la avena. Calienta una gota de aceite en una sartén antiadherente grande. Vierta ¼ de la mezcla de huevo y fría durante 1 minuto hasta que casi cuaje, voltee como si estuviera haciendo un panqueque. Saque la sartén, unte con una cuarta parte de la mostaza, vierta ¼ del relleno en el centro y enrolle. Ahora haz una segunda envoltura usando otro ¼ de la mezcla de huevo y el relleno. Si estás siguiendo nuestro Plan de Dieta Saludable, guarda el resto para el día siguiente."
         ],
         "nutritional_info": {
             "kcal": "429",
@@ -701,24 +701,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chia-almond-overnight-oats/",
-        "title": "[ES] Chia & almond overnight oats",
-        "description": "(Translation pending) Start the day with energising oats and omega-3-rich chia seeds with this delicious breakfast. It’s vegan, but you can use cow’s milk and yogurt, if you prefer",
+        "title": "Avena nocturna con chía y almendras",
+        "description": "Comienza el día con avena energizante y semillas de chía ricas en omega-3 con este delicioso desayuno. Es vegano, pero puedes utilizar leche de vaca y yogur, si lo prefieres.",
         "prep_time": "10 mins plus soaking",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "200g porridge oats",
-            "50g chia seeds",
-            "600ml unsweetened almond milk, plus 8 tbsp",
-            "2 tsp vanilla extract",
+            "200 g de gachas de avena",
+            "50 g de semillas de chía",
+            "600 ml de leche de almendras sin azúcar, más 8 cucharadas",
+            "2 cucharaditas de extracto de vainilla",
             "125g punnet raspberries",
-            "100g almond yogurt",
-            "250g punnet blueberries",
-            "20g flaked almonds, toasted"
+            "100 g de yogur de almendras",
+            "250 g de arándanos en canastilla",
+            "20 g de almendras laminadas, tostadas"
         ],
         "method": [
-            "Tip the oats and seeds into a bowl and pour over the milk and vanilla extract. Leave for 5-10 mins for the oats to absorb some of the liquid.",
-            "Reserve 16 raspberries, then add the remainder to the oats and crush them into the mixture. Spoon into four tumblers or sundae dishes, then top with the yogurt and both lots of berries. Cover and chill overnight or until needed. To serve, pour 2 tbsp almond milk over each and scatter with the almonds."
+            "Vierta la avena y las semillas en un bol y vierta sobre la leche y el extracto de vainilla. Dejar reposar de 5 a 10 minutos para que la avena absorba parte del líquido.",
+            "Reserva 16 frambuesas, luego agrega el resto a la avena y tritúralas en la mezcla. Vierta en cuatro vasos o platos de helado, luego cubra con el yogur y ambas bayas. Cubra y enfríe durante la noche o hasta que sea necesario. Para servir, vierte 2 cucharadas de leche de almendras sobre cada uno y espolvorea con las almendras."
         ],
         "nutritional_info": {
             "kcal": "370",
@@ -735,26 +735,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/tofu-scramble-0/",
-        "title": "[ES] Tofu scramble",
-        "description": "(Translation pending) Try our vegan spiced tofu with cherry tomatoes for an egg-free take on scramble on toast. Perfect for breakfast, served on rye bread",
+        "title": "Revuelto de tofu",
+        "description": "Pruebe nuestro tofu vegano especiado con tomates cherry para obtener una versión de tostada revuelta sin huevo. Perfecto para el desayuno, servido sobre pan de centeno.",
         "prep_time": "10 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 tbsp cold pressed rapeseed oil",
-            "1 small onion, finely sliced",
-            "1 large garlic clove, crushed",
-            "½  tsp turmeric",
-            "1 tsp ground cumin",
-            "½  tsp sweet smoked paprika",
-            "280g extra firm tofu",
-            "100g cherry tomatoes, halved",
-            "½ small bunch parsley, chopped",
-            "rye bread, to serve, (optional)"
+            "1 cucharada de aceite de colza prensado en frío",
+            "1 cebolla pequeña, finamente cortada",
+            "1 diente de ajo grande, triturado",
+            "½ cucharadita de cúrcuma",
+            "1 cucharadita de comino molido",
+            "½ cucharadita de pimentón dulce ahumado",
+            "280 g de tofu extra firme",
+            "100 g de tomates cherry partidos por la mitad",
+            "½ manojo pequeño de perejil, picado",
+            "pan de centeno, para servir (opcional)"
         ],
         "method": [
-            "Heat the oil in a frying pan over a medium heat and gently fry the onion for 8 -10 mins or until golden brown and sticky. Stir in the garlic, turmeric, cumin and paprika and cook for 1 min.",
-            "Roughly mash the tofu in a bowl using a fork, keeping some pieces chunky. Add to the pan and fry for 3 mins. Raise the heat, then tip in the tomatoes, cooking for 5 mins more or until they begin to soften. Fold the parsley through the mixture. Serve on its own or with toasted rye bread (not gluten-free), if you like."
+            "Calienta el aceite en una sartén a fuego medio y sofríe la cebolla durante 8 a 10 minutos o hasta que esté dorada y pegajosa. Agregue el ajo, la cúrcuma, el comino y el pimentón y cocine por 1 min.",
+            "Triture el tofu en un tazón con un tenedor, manteniendo algunos trozos gruesos. Agrega a la sartén y fríe durante 3 minutos. Suba el fuego, luego agregue los tomates y cocine por 5 minutos más o hasta que comiencen a ablandarse. Incorpora el perejil a la mezcla. Sirva solo o con pan de centeno tostado (no sin gluten), si lo desea."
         ],
         "nutritional_info": {
             "kcal": "225",
@@ -771,29 +771,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/healthy-shakshuka/",
-        "title": "[ES] Healthy shakshuka",
-        "description": "(Translation pending) Start the day on a lighter note with this satisfying shakshuka, a wonderful pan full of tomatoes, pepper, spinach and eggs. It packs in four of your 5-a-day",
+        "title": "Shakshuka saludable",
+        "description": "Comience el día con una nota más ligera con este satisfactorio shakshuka, una maravillosa sartén llena de tomates, pimientos, espinacas y huevos. Se incluye en cuatro de tus 5 al día.",
         "prep_time": "10 mins Cook: 30 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 tbsp cold pressed rapeseed oil",
-            "1 red onion, cut into thin wedges",
-            "1 red pepper, finely sliced",
-            "1 yellow pepper, finely sliced",
-            "3 large garlic cloves, crushed",
-            "1 tsp cumin seeds",
-            "1 tsp coriander seeds, crushed",
-            "1 heaped tsp sweet smoked paprika",
-            "400g can cherry tomatoes",
-            "115g baby spinach",
-            "4 medium eggs",
-            "½ small bunch coriander, roughly chopped",
-            "½ small bunch dill, roughly chopped"
+            "1 cucharada de aceite de colza prensado en frío",
+            "1 cebolla morada, cortada en gajos finos",
+            "1 pimiento rojo, finamente picado",
+            "1 pimiento amarillo, finamente picado",
+            "3 dientes de ajo grandes, machacados",
+            "1 cucharadita de semillas de comino",
+            "1 cucharadita de semillas de cilantro, trituradas",
+            "1 cucharadita colmada de pimentón dulce ahumado",
+            "Lata de 400g de tomates cherry.",
+            "115 g de espinacas tiernas",
+            "4 huevos medianos",
+            "½ manojo pequeño de cilantro, picado en trozos grandes",
+            "½ manojo pequeño de eneldo, picado en trozos grandes"
         ],
         "method": [
-            "Heat the oil in a large, non-stick frying pan. Add the onion and peppers and fry over a medium heat for 8-10 mins until the veg is beginning to soften. Add the garlic, cumin, coriander and paprika and fry for 1 min more. Tip in the tomatoes, spinach and 100ml water and bubble until the spinach has wilted, then lower to a simmer and cook, uncovered, for 10 mins. Season to taste.",
-            "Make four indentations in the tomato mixture and gently crack an egg into each one. Cover with a lid or foil and cook over a gentle heat for 8-10 mins, or until the eggs are just set. Uncover, scatter with the fresh herbs and serve."
+            "Calienta el aceite en una sartén antiadherente grande. Agrega la cebolla y los pimientos y sofríe a fuego medio durante 8-10 minutos hasta que las verduras comiencen a ablandarse. Agrega el ajo, el comino, el cilantro y el pimentón y sofríe 1 min más. Vierta los tomates, las espinacas y 100 ml de agua y burbujee hasta que las espinacas se ablanden, luego baje a fuego lento y cocine, sin tapar, durante 10 minutos. Sazone al gusto.",
+            "Haga cuatro hendiduras en la mezcla de tomate y rompa suavemente un huevo en cada una. Cubra con una tapa o papel de aluminio y cocine a fuego suave durante 8 a 10 minutos, o hasta que los huevos estén listos. Destapar, espolvorear con las hierbas frescas y servir."
         ],
         "nutritional_info": {
             "kcal": "342",
@@ -810,20 +810,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/date-butter/",
-        "title": "[ES] Date butter",
-        "description": "(Translation pending) Whip up this easy date butter with just a handful of ingredients. There’s no cooking involved, it’s delicious on toast or banana bread – and it’s vegan if you make it with coconut oil",
+        "title": "Mantequilla de dátiles",
+        "description": "Prepare esta sencilla mantequilla de dátiles con solo un puñado de ingredientes. No es necesario cocinarlo, es delicioso con tostadas o pan de plátano, y es vegano si lo preparas con aceite de coco.",
         "prep_time": "4 mins No cook",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "150g coconut oil or butter",
-            "80g soft pitted dates",
-            "1 tbsp maple syrup",
-            "pinch of cinnamon",
-            "pinch of salt"
+            "150 g de aceite de coco o mantequilla",
+            "80 g de dátiles blandos sin hueso",
+            "1 cucharada de jarabe de arce",
+            "pizca de canela",
+            "pizca de sal"
         ],
         "method": [
-            "In a small food processor, blend the coconut oil or butter, dates (we used medjool), maple syrup, cinnamon and salt. Chill until needed, will keep for up to a week."
+            "En un procesador de alimentos pequeño, mezcle el aceite de coco o la mantequilla, los dátiles (nosotros usamos medjool), el jarabe de arce, la canela y la sal. Enfríelo hasta que lo necesite; se conservará hasta por una semana."
         ],
         "nutritional_info": {
             "kcal": "136",
@@ -840,23 +840,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/apple-crumble-energy-balls/",
-        "title": "[ES] Apple crumble energy balls",
-        "description": "(Translation pending) Make a batch of our easy, no-cook energy balls for the perfect on-the-go snack. These quick vegan bites with apples and cinnamon take just 10 minutes to make",
+        "title": "Bolas energéticas de crumble de manzana",
+        "description": "Prepare un lote de nuestras bolas energéticas fáciles de cocinar para obtener el refrigerio perfecto para llevar. Estos bocados veganos rápidos con manzanas y canela tardan solo 10 minutos en prepararse",
         "prep_time": "10 mins plus chilling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "50g oats",
-            "50g pitted dates (about 3)",
-            "50g ground almonds",
-            "2 tbsp almond butter",
-            "¼ tsp cinnamon, plus extra for dusting",
-            "30g dried apple slices",
-            "½  apple"
+            "50 g de avena",
+            "50 g de dátiles sin hueso (unos 3)",
+            "50 g de almendras molidas",
+            "2 cucharadas de mantequilla de almendras",
+            "¼ de cucharadita de canela, más un poco más para espolvorear",
+            "30 g de rodajas de manzana seca",
+            "½ manzana"
         ],
         "method": [
-            "Blitz 30g of the oats with the dates, ground almonds, almond butter, cinnamon, dried apple slices and a pinch of salt until roughly chopped and beginning to clump together. Grate in the apple, skin and all, then add the remaining oats and pulse until combined.",
-            "Roll into 10 balls and dust with a little more cinnamon. Put in the fridge for 30 mins to firm up. Will keep in an airtight container in the fridge for up to five days."
+            "Mezcle 30 g de avena con los dátiles, las almendras molidas, la mantequilla de almendras, la canela, las rodajas de manzana secas y una pizca de sal hasta que estén picados en trozos grandes y comiencen a formar grumos. Ralla la manzana, con piel y todo, luego agrega la avena restante y pulsa hasta que se combinen.",
+            "Forma 10 bolas y espolvorea con un poco más de canela. Poner en el frigorífico durante 30 minutos para que endurezca. Se conservará en un recipiente hermético en el refrigerador hasta por cinco días."
         ],
         "nutritional_info": {
             "kcal": "87",
@@ -873,21 +873,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/raspberry-honey-flapjacks/",
-        "title": "[ES] Raspberry honey flapjacks",
-        "description": "(Translation pending) Make these easy raspberry honey flapjacks using just five ingredients. Serve with a cuppa for a perfect mid-morning pick-me-up, or freeze for a later date",
+        "title": "Flaps de miel y frambuesa",
+        "description": "Prepare estos sencillos flapjacks de miel y frambuesa con solo cinco ingredientes. Sirva con una taza de té para un estimulante perfecto a media mañana o congélelo para más tarde.",
         "prep_time": "10 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "150g butter",
-            "150g light brown soft sugar",
-            "4 tbsp honey (we used heather honey)",
-            "300g porridge oats",
-            "100g frozen raspberries"
+            "150 g de mantequilla",
+            "150 g de azúcar moreno blando",
+            "4 cucharadas de miel (nosotros usamos miel de brezo)",
+            "300 g de gachas de avena",
+            "100 g de frambuesas congeladas"
         ],
         "method": [
-            "Heat oven to 200C/180C fan/gas 6 and line a 20 x 20cm baking tin with parchment. Melt the butter, sugar, honey and a pinch of salt in a pan. Once the mixture is bubbling and combined, stir in the oats.",
-            "Tip the oat mixture into the lined baking tin and press down with your fingers or the back of a spoon. Scatter over the raspberries, then lightly press them into the oat mixture. Bake for 25-30 mins until golden brown. Leave to cool, then cut into 9 or 12 flapjacks."
+            "Calentar el horno a 200C/180C ventilador/gas 6 y forrar un molde para hornear de 20 x 20 cm con papel pergamino. Derretir en una cacerola la mantequilla, el azúcar, la miel y una pizca de sal. Una vez que la mezcla burbujee y esté combinada, agregue la avena.",
+            "Vierta la mezcla de avena en el molde para hornear forrado y presione con los dedos o el dorso de una cuchara. Esparce las frambuesas y luego presiónalas ligeramente en la mezcla de avena. Hornee durante 25-30 minutos hasta que estén dorados. Dejar enfriar y luego cortar en 9 o 12 flapjacks."
         ],
         "nutritional_info": {
             "kcal": "265",
@@ -904,22 +904,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/peanut-butter-date-oat-pots/",
-        "title": "[ES] Peanut butter & date oat pots",
-        "description": "(Translation pending) Try these make-ahead overnight oats for a healthy start to your day. They’re naturally sweetened with dates and cinnamon and a good source of calcium.",
+        "title": "Ollas de mantequilla de maní y avena con dátiles",
+        "description": "Pruebe esta avena preparada durante la noche para comenzar el día de manera saludable. Están endulzados naturalmente con dátiles y canela y son una buena fuente de calcio.",
         "prep_time": "10 mins No cook",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "180g porridge oats",
-            "75g crunchy peanut butter (we used Meridian 100% nuts)",
-            "40g stoned medjool dates, chopped",
-            "2 tsp vanilla extract",
-            "5 x 120g pots plain bio yogurt (or 600g from a large pot)",
-            "ground cinnamon, for dusting"
+            "180 g de avena avena",
+            "75 g de mantequilla de maní crujiente (nosotros usamos Meridian 100% nueces)",
+            "40 g de dátiles medjool deshuesados, picados",
+            "2 cucharaditas de extracto de vainilla",
+            "5 botes de 120 g de yogur natural bio (o 600 g de un bote grande)",
+            "canela molida, para espolvorear"
         ],
         "method": [
-            "Tip the oats into a large bowl and pour over 600ml boiling water. Add the peanut butter, dates and vanilla and stir well. Cool, then stir through 240g of the yogurt. Dilute with a small amount of water if the consistency is a little stiff.",
-            "Spoon into six glasses, then top with the remaining yogurt and dust with cinnamon. Cover each glass and keep in the fridge until ready to eat. Will keep well for up to five days."
+            "Vierta la avena en un tazón grande y vierta sobre 600 ml de agua hirviendo. Agrega la mantequilla de maní, los dátiles y la vainilla y revuelve bien. Deje enfriar y luego mezcle 240 g de yogur. Diluir con una pequeña cantidad de agua si la consistencia es un poco dura.",
+            "Vierta en seis vasos, luego cubra con el yogur restante y espolvoree con canela. Tapa cada vaso y guárdalo en el frigorífico hasta el momento de comer. Se mantendrá bien hasta por cinco días."
         ],
         "nutritional_info": {
             "kcal": "299",
@@ -936,25 +936,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/breakfast-naans/",
-        "title": "[ES] Breakfast naans",
-        "description": "(Translation pending) Top naan breads with cream cheese, chutney, avocado and eggs for a tasty breakfast or brunch. They take just 10 minutes to make and deliver one of your 5-a-day",
+        "title": "Desayuno naans",
+        "description": "Cubra los panes naan con queso crema, chutney, aguacate y huevos para un delicioso desayuno o brunch. Solo tardan 10 minutos en preparar y entregar uno de tus 5 al día.",
         "prep_time": "5 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 tbsp vegetable or sunflower oil",
-            "2 eggs",
-            "2 small naan breads",
-            "4 tbsp low-fat cream cheese",
-            "2 tbsp mango chutney",
-            "1 avocado, halved and sliced",
-            "½ lime, juiced",
-            "1 green chilli",
-            "small handful coriander, leaves picked"
+            "1 cucharada de aceite vegetal o de girasol",
+            "2 huevos",
+            "2 panes naan pequeños",
+            "4 cucharadas de queso crema bajo en grasa",
+            "2 cucharadas de chutney de mango",
+            "1 aguacate, partido por la mitad y en rodajas",
+            "½ lima, en jugo",
+            "1 chile verde",
+            "un puñado pequeño de cilantro, con las hojas recogidas"
         ],
         "method": [
-            "Heat oven to 200C/180C fan/gas 6. Heat the oil in a pan, then fry the eggs. Warm the naan breads in the oven while the eggs are cooking.",
-            "Spread the warm naans with the cream cheese, then drizzle with the chutney. Add a fried egg to each naan and top with the avocado, lime juice, chilli and coriander. Season and tuck in."
+            "Calentar el horno a 200C/180C ventilador/gas 6. Calentar el aceite en una sartén y luego freír los huevos. Calienta los panes naan en el horno mientras se cocinan los huevos.",
+            "Unte los naans calientes con el queso crema y luego rocíe con el chutney. Agrega un huevo frito a cada naan y cubre con aguacate, jugo de lima, chile y cilantro. Sazone y disfrute."
         ],
         "nutritional_info": {
             "kcal": "503",
@@ -971,27 +971,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spiced-carrot-apple-muffins/",
-        "title": "[ES] Spiced carrot & apple muffins",
-        "description": "(Translation pending) These fruity muffins are great for breakfast on-the-go or a mid-morning treat. Add dried fruit, nuts or seeds for texture, if you like",
+        "title": "Muffins especiados de zanahoria y manzana",
+        "description": "Estos muffins afrutados son excelentes para desayunar sobre la marcha o como delicia a media mañana. Agregue frutas secas, nueces o semillas para darle textura, si lo desea.",
         "prep_time": "10 mins Cook: 20 mins Plus cooling",
         "cook_time": "",
         "serves": "9",
         "ingredients": [
-            "100ml rapeseed oil",
-            "100ml natural yogurt",
-            "50ml runny honey",
-            "2 eggs",
-            "1 tsp vanilla extract",
-            "200g self-raising flour",
-            "1 tsp bicarbonate of soda",
-            "1½ tsp ground mixed spice",
-            "1 apple, grated",
-            "1 carrot, grated",
-            "50g sultanas, raisins, chopped nuts or seeds (optional)"
+            "100 ml de aceite de colza",
+            "100ml de yogur natural",
+            "50 ml de miel líquida",
+            "2 huevos",
+            "1 cucharadita de extracto de vainilla",
+            "200 g de harina con levadura",
+            "1 cucharadita de bicarbonato de sodio",
+            "1½ cucharadita de especias mixtas molidas",
+            "1 manzana rallada",
+            "1 zanahoria rallada",
+            "50g de pasas, pasas, nueces picadas o semillas (opcional)"
         ],
         "method": [
-            "Heat oven to 180C/160C fan/gas 4 and line a muffin tin with nine cases (alternatively, use squares of baking parchment). Mix the oil, yogurt, honey, eggs and vanilla in a jug. In a bowl, combine the flour, bicarb, mixed spice and ¼ tsp salt. Pour the yogurt mixture into the flour mixture and add the apple and carrot, as well as any extra ingredients you’re using. Mix with a spatula until well combined, then spoon the mixture into the muffin cases.",
-            "Bake for 20-22 mins, or until a skewer inserted into the middle of a muffin comes out clean. Leave to cool for at least 5 mins. Can be stored in a tin for three days or frozen for two months; defrost overnight before serving."
+            "Caliente el horno a 180C/160C ventilador/gas 4 y forre un molde para muffins con nueve cajas (alternativamente, use cuadrados de papel para hornear). Mezclar en una jarra el aceite, el yogur, la miel, los huevos y la vainilla. En un tazón, combine la harina, el bicarbonato, la mezcla de especias y ¼ de cucharadita de sal. Vierte la mezcla de yogur en la mezcla de harina y agrega la manzana y la zanahoria, así como cualquier ingrediente extra que estés usando. Mezcle con una espátula hasta que esté bien combinado, luego vierta la mezcla en los moldes para muffins.",
+            "Hornee durante 20-22 minutos, o hasta que al insertar una brocheta en el medio de un muffin, éste salga limpio. Dejar enfriar durante al menos 5 minutos. Se puede conservar en lata durante tres días o congelar durante dos meses; Descongelar durante la noche antes de servir."
         ],
         "nutritional_info": {
             "kcal": "234",
@@ -1008,26 +1008,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chickpea-red-pepper-egg-feta-hash/",
-        "title": "[ES] Chickpea, red pepper, egg & feta hash",
-        "description": "(Translation pending) Kick-start your day with our vegetarian chickpea, red pepper, egg and feta hash. This brilliant breakfast is easy to make and delivers two of your 5-a-day",
+        "title": "Garbanzos, pimiento rojo, huevo y picadillo de queso feta",
+        "description": "Comienza tu día con nuestro picadillo vegetariano de garbanzos, pimiento rojo, huevo y queso feta. Este fantástico desayuno es fácil de preparar y te ofrece dos de tus 5 al día.",
         "prep_time": "10 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 tbsp olive or rapeseed oil",
-            "1 onion, halved and sliced",
-            "400g can chickpeas, drained",
-            "1½ tsp cumin seeds",
-            "4 roasted red peppersfrom a jar, torn into chunks",
-            "2-4 eggs",
-            "40g feta, crumbled",
-            "½  lemon, zested",
-            "small handful mint, leaves chopped",
-            "flatbreads, to serve (optional)"
+            "1 cucharada de aceite de oliva o de colza",
+            "1 cebolla, partida por la mitad y en rodajas",
+            "Lata de 400 g de garbanzos escurridos",
+            "1½ cucharadita de semillas de comino",
+            "4 pimientos rojos asados ​​de un frasco, cortados en trozos",
+            "2-4 huevos",
+            "40 g de queso feta, desmenuzado",
+            "½ limón, rallado",
+            "un puñado pequeño de menta, las hojas picadas",
+            "panes planos, para servir (opcional)"
         ],
         "method": [
-            "Heat the oil in a frying pan. Cook the onion for 12-15 mins until starting to caramelise. Add the chickpeas, cumin and peppers and season well, then cook for a few mins until hot throughout.",
-            "Create spaces in the pan for each of the eggs. Crack the eggs into the pan, then cover and cook for 2-3 mins, or until the eggs are done to your liking. Scatter over the feta, lemon zest and mint. Serve alongside the flatbreads, if you like."
+            "Calentar el aceite en una sartén. Cocine la cebolla durante 12-15 minutos hasta que empiece a caramelizar. Añade los garbanzos, el comino y los pimientos y sazona bien, luego cocina durante unos minutos hasta que esté completamente caliente.",
+            "Crea espacios en la sartén para cada uno de los huevos. Rompe los huevos en la sartén, luego tapa y cocina durante 2-3 minutos, o hasta que los huevos estén cocidos a tu gusto. Esparcir sobre el queso feta, la ralladura de limón y la menta. Sirva junto con los panes planos, si lo desea."
         ],
         "nutritional_info": {
             "kcal": "441",
@@ -1044,26 +1044,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/avocado-black-bean-eggs/",
-        "title": "[ES] Avocado & black bean eggs",
-        "description": "(Translation pending) Set yourself up for the day with this healthy veggie breakfast with eggs, avocado and black beans. It takes just 10 minutes to throw together and makes a great lunch, too",
+        "title": "Huevos de aguacate y frijoles negros",
+        "description": "Prepárate para el día con este saludable desayuno vegetariano con huevos, aguacate y frijoles negros. Solo toma 10 minutos prepararlo y también es un excelente almuerzo.",
         "prep_time": "5 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "2 tsp rapeseed oil",
-            "1 red chilli, deseeded and thinly sliced",
-            "1 large garlic clove, sliced",
-            "2 large eggs",
-            "400g can black beans",
-            "½  x 400g can cherry tomatoes",
-            "¼ tsp cumin seeds",
-            "1 small avocado, halved and sliced",
-            "handful fresh, chopped coriander",
-            "1 lime, cut into wedges"
+            "2 cucharaditas de aceite de colza",
+            "1 chile rojo, sin semillas y en rodajas finas",
+            "1 diente de ajo grande, rebanado",
+            "2 huevos grandes",
+            "Lata de 400g de frijoles negros",
+            "½ lata de 400 g de tomates cherry",
+            "¼ cucharadita de semillas de comino",
+            "1 aguacate pequeño, partido por la mitad y en rodajas",
+            "un puñado de cilantro fresco picado",
+            "1 lima, cortada en gajos"
         ],
         "method": [
-            "Heat the oil in a large non-stick frying pan. Add the chilli and garlic and cook until softened and starting to colour. Break in the eggs on either side of the pan. Once they start to set, spoon the beans (with their juice) and the tomatoes around the pan and sprinkle over the cumin seeds. You’re aiming to warm the beans and tomatoes rather than cook them.",
-            "Remove the pan from the heat and scatter over the avocado and coriander. Squeeze over half of the lime wedges. Serve with the remaining wedges on the side for squeezing over."
+            "Calienta el aceite en una sartén antiadherente grande. Añade la guindilla y el ajo y cocina hasta que se ablanden y empiecen a tomar color. Rompe los huevos a ambos lados de la sartén. Una vez que empiecen a cuajar, vierte los frijoles (con su jugo) y los tomates alrededor de la sartén y espolvorea sobre las semillas de comino. El objetivo es calentar los frijoles y los tomates en lugar de cocinarlos.",
+            "Retira la sartén del fuego y esparce por encima el aguacate y el cilantro. Exprime más de la mitad de las rodajas de lima. Sirva con los trozos restantes a un lado para apretarlos."
         ],
         "nutritional_info": {
             "kcal": "356",
@@ -1080,22 +1080,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/porridge-quick-berry-compote-figs-pistachios/",
-        "title": "[ES] Porridge with quick berry compote, figs & pistachios",
-        "description": "(Translation pending) Make time for a nutritious, healthy breakfast to set you up for the day. Porridge goes perfectly with our quick berry compote, figs and pistachio topping",
+        "title": "Gachas de avena con compota rápida de frutos rojos, higos y pistachos",
+        "description": "Tómate un tiempo para disfrutar de un desayuno nutritivo y saludable que te ayude a empezar el día. Las gachas de avena combinan a la perfección con nuestra rápida compota de frutos rojos, higos y cobertura de pistachos.",
         "prep_time": "5 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "150g porridge oats",
-            "100ml milk",
-            "120g frozen berries",
-            "½  orange, zested and juiced",
-            "1 fig, sliced",
-            "1 tbsp pistachios, toasted and chopped"
+            "150 g de gachas de avena",
+            "100ml de leche",
+            "120 g de bayas congeladas",
+            "½ naranja, rallada y en jugo",
+            "1 higo, rebanado",
+            "1 cucharada de pistachos, tostados y picados"
         ],
         "method": [
-            "Put the oats, milk and 450ml water in a pan with a pinch of salt. Cook for about 5 mins until thick and creamy. Meanwhile, microwave the berries, orange juice and zest for 2-3 mins.",
-            "Divide the porridge between bowls and top each with the berry compote, fig and pistachios."
+            "Pon en una cacerola la avena, la leche y 450ml de agua con una pizca de sal. Cocine durante unos 5 minutos hasta que esté espeso y cremoso. Mientras tanto, cocine en el microondas las bayas, el jugo de naranja y la ralladura durante 2-3 minutos.",
+            "Divida la papilla en tazones y cubra cada uno con la compota de frutos rojos, los higos y los pistachos."
         ],
         "nutritional_info": {
             "kcal": "412",
@@ -1112,20 +1112,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/acai-bowl/",
-        "title": "[ES] Açaí bowl",
-        "description": "(Translation pending) Try this fruit-packed breakfast bowl for a quick, easy start to your day. Vary toppings according to the season – fresh berries or peaches work well in summer",
+        "title": "tazón de acaí",
+        "description": "Pruebe este tazón de desayuno lleno de frutas para comenzar el día de manera rápida y fácil. Varíe los aderezos según la temporada: las bayas frescas o los melocotones quedan bien en verano.",
         "prep_time": "5 mins No cook",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "2 tsp açaí powder",
-            "handful frozen berries",
-            "½ a very ripe banana, chopped",
-            "handful ice cubes",
-            "1 tsp coconut flakes, 5 pineapple chunks, ½ passionfruit, 1 tbsp toasted oats, to top (optional)"
+            "2 cucharaditas de açaí en polvo",
+            "un puñado de bayas congeladas",
+            "½ plátano muy maduro, picado",
+            "un puñado de cubitos de hielo",
+            "1 cucharadita de hojuelas de coco, 5 trozos de piña, ½ maracuyá, 1 cucharada de avena tostada, encima (opcional)"
         ],
         "method": [
-            "Put the açaí powder, frozen berries, banana and ice cubes into a powerful blender with 100ml water. Blitz until smooth, then pour into a bowl and add your choice of toppings."
+            "Pon el açaí en polvo, las bayas congeladas, el plátano y los cubitos de hielo en una batidora potente con 100 ml de agua. Mezcle hasta que quede suave, luego vierta en un tazón y agregue los aderezos que elija."
         ],
         "nutritional_info": {
             "kcal": "180",
@@ -1142,28 +1142,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/berry-bliss-smoothie-bowl/",
-        "title": "[ES] Berry bliss smoothie bowl",
-        "description": "(Translation pending) This delicious healthy recipe has absolutely no dairy, soy, gluten or added sugars. It was created by health food expertsNana Bowls.",
+        "title": "Tazón de batido de bayas",
+        "description": "Esta deliciosa receta saludable no tiene absolutamente ningún lácteos, soja, gluten ni azúcares añadidos. Fue creado por los expertos en alimentación saludable Nana Bowls.",
         "prep_time": "",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "3 frozen bananas, peeled and chopped",
-            "200g frozen blueberries",
-            "100g frozen strawberries",
-            "20ml rosewater",
-            "100ml coconut milk",
-            "50ml cold water",
-            "20g pea protein powder",
-            "30g almonds, crushed",
-            "30g pistachios, crushed",
-            "20g bee pollen",
-            "20g cacao nibs"
+            "3 plátanos congelados, pelados y picados",
+            "200 g de arándanos congelados",
+            "100 g de fresas congeladas",
+            "20ml de agua de rosas",
+            "100ml de leche de coco",
+            "50ml de agua fría",
+            "20 g de proteína de guisante en polvo",
+            "30 g de almendras trituradas",
+            "30 g de pistachos triturados",
+            "20 g de polen de abeja",
+            "20 g de semillas de cacao"
         ],
         "method": [
-            "Add the frozen bananas, blueberries, strawberries, rosewater, coconut milk and cold water to a high powered blender.",
-            "Blend well for about 30 seconds. Then add in your protein powder and blend again until a thick, smooth and creamy texture forms.",
-            "Pour into your bowls and top with the crunchy almonds, crushed pistachios, bee pollen and cacao nibs. You can also add some toasted coconut flakes, homemade granola or a drizzle of nut butter for some extra goodness."
+            "Agrega los plátanos congelados, los arándanos, las fresas, el agua de rosas, la leche de coco y el agua fría a una licuadora de alta potencia.",
+            "Licue bien durante unos 30 segundos. Luego agregue la proteína en polvo y mezcle nuevamente hasta que se forme una textura espesa, suave y cremosa.",
+            "Vierta en sus tazones y cubra con las almendras crujientes, los pistachos triturados, el polen de abeja y las semillas de cacao. También puedes agregar algunas hojuelas de coco tostadas, granola casera o un chorrito de mantequilla de nueces para darle un toque extra."
         ],
         "nutritional_info": {
             "kcal": "0",
@@ -1180,23 +1180,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/breakfast-burrito/",
-        "title": "[ES] Breakfast burrito",
-        "description": "(Translation pending) Make a nutritious cocoon for breakfast ingredients with a wholemeal wrap – we’ve included protein-rich eggs and avocado to add good fats to this burrito",
+        "title": "burrito de desayuno",
+        "description": "Prepare un capullo nutritivo para los ingredientes del desayuno con una envoltura integral: hemos incluido huevos ricos en proteínas y aguacate para agregar grasas buenas a este burrito.",
         "prep_time": "5 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "1 tsp chipotle paste",
-            "1 egg",
-            "1 tsp rapeseed oil",
-            "50g kale",
-            "7 cherry tomatoes, halved",
-            "½  small avocado, sliced",
-            "1 wholemeal tortilla wrap, warmed"
+            "1 cucharadita de pasta de chipotle",
+            "1 huevo",
+            "1 cucharadita de aceite de colza",
+            "50 g de col rizada",
+            "7 tomates cherry, cortados por la mitad",
+            "½ aguacate pequeño, en rodajas",
+            "1 tortilla integral, calentada"
         ],
         "method": [
-            "Whisk the chipotle paste with the egg and some seasoning in a jug. Heat the oil in a large frying pan, add the kale and tomatoes.",
-            "Cook until the kale is wilted and the tomatoes have softened, then push everything to the side of the pan. Pour the beaten egg into the cleared half of the pan and scramble. Layer everything into the centre of your wrap, topping with the avocado, then wrap up and eat immediately."
+            "Bate en una jarra la pasta de chipotle con el huevo y un poco de condimento. Calienta el aceite en una sartén grande, agrega la col rizada y los tomates.",
+            "Cocine hasta que la col rizada se ablande y los tomates se ablanden, luego empuje todo a un lado de la sartén. Vierta el huevo batido en la mitad limpia de la sartén y revuelva. Coloque todo en capas en el centro de su envoltura, cubra con el aguacate, luego envuélvalo y cómelo inmediatamente."
         ],
         "nutritional_info": {
             "kcal": "366",
@@ -1213,22 +1213,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/microwave-shakshuka/",
-        "title": "[ES] Microwave shakshuka",
-        "description": "(Translation pending) Whip up shakshuka, a Middle Eastern favourite, in just 10 minutes. Perfect for brunch, lunch or supper, it’s healthy and a great option for a budget meal",
+        "title": "Sacudido en microondas",
+        "description": "Prepara shakshuka, un favorito de Oriente Medio, en solo 10 minutos. Perfecto para el brunch, el almuerzo o la cena, es saludable y una excelente opción para una comida económica.",
         "prep_time": "5 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "1 tbsp olive oil",
-            "200ml passata or canned tomatoes, whizzed to a paste",
-            "1 garlic clove, finely sliced",
-            "1 heaped tbsp red pepper salsa (we used Gran Luchito) or ¼-½ red pepper, chopped",
-            "2 medium eggs",
-            "1 tbsp chopped coriander and pitta bread, to serve"
+            "1 cucharada de aceite de oliva",
+            "200 ml de passata o tomates enlatados, batidos hasta obtener una pasta",
+            "1 diente de ajo, finamente picado",
+            "1 cucharada colmada de salsa de pimiento rojo (nosotros usamos Gran Luchito) o ¼-½ pimiento rojo, picado",
+            "2 huevos medianos",
+            "1 cucharada de cilantro picado y pan pita, para servir"
         ],
         "method": [
-            "Brush a microwave bowl or dish with a little of the oil. Stir the passata, garlic and salsa together and season well. Tip into the bowl and make a dip in the centre. Break in the egg, then prick the yolk with the tip of a sharp knife.",
-            "Cover the bowl with its lid or clingfilm. Microwave on high for 1 min, and then in 20 sec bursts until the white is set. Scatter over the coriander and serve with the warmed pitta."
+            "Unte un recipiente o plato de microondas con un poco de aceite. Mezcle la passata, el ajo y la salsa y sazone bien. Vierta en el bol y haga un baño en el centro. Rompe el huevo y luego pincha la yema con la punta de un cuchillo afilado.",
+            "Cubre el bol con su tapa o film transparente. Cocine en el microondas a temperatura alta durante 1 minuto y luego en ráfagas de 20 segundos hasta que la clara esté firme. Esparza el cilantro y sirva con el pan pita caliente."
         ],
         "nutritional_info": {
             "kcal": "315",
@@ -1245,18 +1245,18 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/date-walnut-cinnamon-bites/",
-        "title": "[ES] Date & walnut cinnamon bites",
-        "description": "(Translation pending) These date and walnut cinnamon bites are quick to whip up for a healthy snack. They also work as an after-dinner treat if you have friends round",
+        "title": "Bocaditos de canela y dátiles",
+        "description": "Estos bocados de dátiles y nueces y canela se preparan rápidamente para un refrigerio saludable. También funcionan como capricho después de cenar si tienes amigos cerca.",
         "prep_time": "5 mins No cook",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "3 walnut halves",
-            "3 pitted medjool dates",
-            "ground cinnamon, to taste"
+            "3 mitades de nuez",
+            "3 dátiles medjool sin hueso",
+            "canela molida, al gusto"
         ],
         "method": [
-            "Carefully cut each walnut half into three slices, then do the same with the dates. Place a slice of walnut on top of each date, dust with cinnamon and serve."
+            "Corta con cuidado cada mitad de nuez en tres rodajas y luego haz lo mismo con los dátiles. Coloque una rodaja de nuez encima de cada dátil, espolvoree con canela y sirva."
         ],
         "nutritional_info": {
             "kcal": "168",
@@ -1273,24 +1273,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/homemade-muesli-oats-dates-berries/",
-        "title": "[ES] Homemade muesli with oats, dates & berries",
-        "description": "(Translation pending) Packed with oats, pecans, seeds, dates, puffed wheat and berries, this delicious breakfast muesli will help you to start your day the right way",
+        "title": "Muesli casero con avena, dátiles y frutos rojos",
+        "description": "Lleno de avena, nueces, semillas, dátiles, trigo inflado y bayas, este delicioso muesli para el desayuno te ayudará a comenzar el día de la manera correcta.",
         "prep_time": "5 mins Cook: 2 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "100g traditional oats",
-            "12 pecan nuts, broken into pieces",
-            "2 tbsp sunflower seeds",
-            "6 pitted medjool dates, snipped into pieces",
-            "25g high-fibre puffed wheat (we used Good Grain)",
-            "4 x 150ml pots bio yogurt",
-            "300g mixed berries, such as raspberries, strawberries and blueberries",
-            "generous sprinkling of ground cinnamon (optional)"
+            "100 g de avena tradicional",
+            "12 nueces pecanas, partidas en pedazos",
+            "2 cucharadas de semillas de girasol",
+            "6 dátiles medjool deshuesados ​​y cortados en trozos",
+            "25 g de trigo inflado rico en fibra (nosotros usamos Good Grain)",
+            "4 botes de yogur bio de 150ml",
+            "300 g de frutos rojos variados, como frambuesas, fresas y arándanos",
+            "una pizca generosa de canela molida (opcional)"
         ],
         "method": [
-            "Tip the oats into a frying pan and heat gently, stirring frequently until they are just starting to toast. Add the pecans and seeds to warm briefly, then tip into a large bowl and toss so they cool quickly.",
-            "Add the dates and puffed wheat, mix well until thoroughly combined, then serve topped with the yogurt and fruit, and a sprinkling of cinnamon, if you like."
+            "Vierte la avena en una sartén y caliéntala suavemente, revolviendo frecuentemente hasta que empiece a tostarse. Agregue las nueces y las semillas para que se calienten brevemente, luego viértalas en un tazón grande y revuelva para que se enfríen rápidamente.",
+            "Agregue los dátiles y el trigo inflado, mezcle bien hasta que estén bien combinados, luego sirva cubierto con yogur y fruta, y una pizca de canela, si lo desea."
         ],
         "nutritional_info": {
             "kcal": "478",
@@ -1307,30 +1307,30 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/green-shakshuka/",
-        "title": "[ES] Green shakshuka",
-        "description": "(Translation pending) Treat yourself to a shakshuka with a difference. Mix up your favourite greens, eggs and flatbreads to serve with this healthy weekend breakfast",
+        "title": "Shakshuca verde",
+        "description": "Regálate un shakshuka diferente. Mezcle sus verduras, huevos y panes planos favoritos para servir con este saludable desayuno de fin de semana.",
         "prep_time": "10 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "3 tbsp olive oil",
-            "2 leeks, washed and sliced",
-            "200g bag baby spinach",
-            "250g frozen peas",
-            "2 fat garlic cloves, finely chopped",
-            "1 tbsp cumin seeds",
-            "small pack parsley, roughly chopped",
-            "small pack coriander, roughly chopped",
-            "small pack mint, leaves picked and roughly chopped, reserving a few leaves to garnish",
-            "8 medium eggs",
-            "150g pot natural yogurt",
-            "1 tbsp harissa",
-            "flatbread, to serve"
+            "3 cucharadas de aceite de oliva",
+            "2 puerros, lavados y rebanados",
+            "Bolsa de 200 g de espinacas tiernas",
+            "250 g de guisantes congelados",
+            "2 dientes de ajo gordos, finamente picados",
+            "1 cucharada de semillas de comino",
+            "paquete pequeño de perejil, picado en trozos grandes",
+            "cilantro en paquetes pequeños, picado en trozos grandes",
+            "paquete pequeño de menta, hojas recogidas y picadas en trozos grandes, reservando algunas hojas para decorar",
+            "8 huevos medianos",
+            "150g de yogur natural en bote",
+            "1 cucharada de harissa",
+            "pan plano, para servir"
         ],
         "method": [
-            "Heat the oil in a wide, shallow frying pan over a medium heat. Add the leeks with a pinch of salt and cook for 4 mins until softened. Add handfuls of spinach to the pan, stirring until wilted.",
-            "Stir in the peas, garlic, cumin, herbs and some seasoning. Cook for a few mins until it smells fragrant, then create four gaps and crack two eggs into each. Cover and cook for 10 mins or until the whites are set but the yolks are runny – they will carry on cooking slightly as you take them to the table.",
-            "Season the eggs with flaky sea salt, dollop spoonfuls of the yogurt interspersed with the harissa, and scatter over a few mint leaves. Serve with a pile of flatbread for scooping."
+            "Calienta el aceite en una sartén amplia y poco profunda a fuego medio. Añade los puerros con una pizca de sal y cocina durante 4 minutos hasta que se ablanden. Agregue puñados de espinacas a la sartén, revolviendo hasta que se ablanden.",
+            "Agrega los guisantes, el ajo, el comino, las hierbas y un poco de condimento. Cocine durante unos minutos hasta que huela fragante, luego cree cuatro espacios y rompa dos huevos en cada uno. Tape y cocine por 10 minutos o hasta que las claras estén cuajadas pero las yemas líquidas; seguirán cocinándose un poco a medida que las lleve a la mesa.",
+            "Sazone los huevos con sal marina en escamas, eche cucharadas de yogur intercaladas con la harissa y esparza sobre unas hojas de menta. Sirva con un montón de pan plano para sacar."
         ],
         "nutritional_info": {
             "kcal": "337",
@@ -1347,22 +1347,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/green-rainbow-smoothie-bowl/",
-        "title": "[ES] Green rainbow smoothie bowl",
-        "description": "(Translation pending) Start as you mean to go on with this super-healthy breakfast bowl of berries and avocado",
+        "title": "Tazón de batido de arcoíris verde",
+        "description": "Comience como desea continuar con este tazón de desayuno súper saludable con bayas y aguacate.",
         "prep_time": "20 mins no cook",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "50g spinach",
-            "1 avocado, stoned, peeled and halved",
-            "1 ripe mango, stoned, peeled and cut into chunks",
-            "1 apple, cored and cut into chunks",
-            "200ml almond milk",
-            "1 dragon fruit, peeled and cut into even chunks",
-            "100g mixed berries (we used strawberries, raspberries and blueberries)"
+            "50 g de espinacas",
+            "1 aguacate, sin hueso, pelado y cortado a la mitad",
+            "1 mango maduro, deshuesado, pelado y cortado en trozos",
+            "1 manzana, sin corazón y cortada en trozos",
+            "200ml de leche de almendras",
+            "1 fruta del dragón, pelada y cortada en trozos iguales",
+            "100 g de frutos rojos variados (nosotros utilizamos fresas, frambuesas y arándanos)"
         ],
         "method": [
-            "Put the spinach, avocado, mango, apple and almond milk in a blender, and blitz until smooth and thick. Divide between two bowls and top with the dragon fruit and berries."
+            "Coloque las espinacas, el aguacate, el mango, la manzana y la leche de almendras en una licuadora y mezcle hasta que quede suave y espesa. Divida en dos tazones y cubra con la fruta del dragón y las bayas."
         ],
         "nutritional_info": {
             "kcal": "251",
@@ -1379,22 +1379,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/choc-orange-energy-boosters/",
-        "title": "[ES] Choc-orange energy boosters",
-        "description": "(Translation pending) It only takes 15 minutes to blitz dates, nuts, seeds and oats to make this high-energy snack – perfect popped into a lunch box",
+        "title": "Impulsores de energía de chocolate y naranja",
+        "description": "Solo toma 15 minutos mezclar dátiles, nueces, semillas y avena para preparar este refrigerio lleno de energía, perfecto para llevar en una lonchera.",
         "prep_time": "15 mins No cook",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "100g pitted Medjool dates",
-            "100g pecans nuts",
-            "50g pumpkin seeds",
-            "50g rolled oats",
-            "4 tbsp cacao powder or unsweetened cocoa",
-            "2 heaped tbsp almond butter",
-            "zest and juice 1 orange"
+            "100 g de dátiles Medjool deshuesados",
+            "100 g de nueces pecanas",
+            "50 g de semillas de calabaza",
+            "50 g de copos de avena",
+            "4 cucharadas de cacao en polvo o cacao sin azúcar",
+            "2 cucharadas colmadas de mantequilla de almendras",
+            "ralladura y jugo de 1 naranja"
         ],
         "method": [
-            "Place all the ingredients and 3 tbsp orange juice in a food processor. Blitz until chopped and starting to clump together. If it’s a bit dry, add a drop more orange juice. Roll the mixture into walnut-sized balls with lightly oiled hands. Pop 2 or 3 into a lunchbox for a snack. Keeps in a sealed container for 2 weeks in the fridge."
+            "Coloca todos los ingredientes y 3 cucharadas de jugo de naranja en un procesador de alimentos. Bate hasta que esté picado y comience a formar grumos. Si está un poco seco, añade una gota más de zumo de naranja. Enrolle la mezcla en bolas del tamaño de una nuez con las manos ligeramente engrasadas. Coloque 2 o 3 en una lonchera como refrigerio. Se conserva en un recipiente cerrado durante 2 semanas en el frigorífico."
         ],
         "nutritional_info": {
             "kcal": "99",
@@ -1411,29 +1411,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/date-buckwheat-granola-pecans-seeds/",
-        "title": "[ES] Date & buckwheat granola with pecans & seeds",
-        "description": "(Translation pending) This all-natural granola is sweetened with date purée to make crunchy clusters of nutrient-rich oats, grains seeds and nuts",
+        "title": "Granola de dátiles y trigo sarraceno con nueces y semillas",
+        "description": "Esta granola totalmente natural está endulzada con puré de dátiles para hacer racimos crujientes de avena, semillas de cereales y nueces ricos en nutrientes.",
         "prep_time": "10 mins Cook: 35 mins plus overnight soaking",
         "cook_time": "",
         "serves": "8",
         "ingredients": [
-            "85g buckwheat",
-            "4 Medjool dates, stoned",
-            "1 tsp ground cinnamon",
-            "100g traditional oats",
-            "2 tsp rapeseed oil",
-            "25g sunflower seeds",
-            "25g pumpkin seeds",
-            "25g flaked almonds",
-            "50g pecans nuts, roughly broken into halves",
-            "50g sultanas (without added oil)",
-            "2 x 150ml pots low-fat bio natural yogurt",
-            "2 ripe nectarines or peaches, stoned and sliced"
+            "85 g de trigo sarraceno",
+            "4 dátiles Medjool, empedrados",
+            "1 cucharadita de canela molida",
+            "100 g de avena tradicional",
+            "2 cucharaditas de aceite de colza",
+            "25 g de semillas de girasol",
+            "25 g de semillas de calabaza",
+            "25 g de almendras laminadas",
+            "50 g de nueces pecanas, partidas aproximadamente en mitades",
+            "50 g de pasas (sin aceite añadido)",
+            "2 botes de 150ml de yogur natural bio desnatado",
+            "2 nectarinas o melocotones maduros, sin hueso y en rodajas"
         ],
         "method": [
-            "Soak the buckwheat overnight in cold water. The next day, drain and rinse the buckwheat. Put the dates in a pan with 300ml water and the cinnamon, and blitz with a stick blender until completely smooth. Add the buckwheat, bring to the boil and cook, uncovered, for 5 mins until pulpy. Meanwhile, heat oven to 150C/130C fan/gas 2 and line two large baking trays with baking parchment.",
-            "Stir the oats and oil into the date and buckwheat mixture, then spoon small clusters of the mixture onto the baking trays. Bake for 15 mins, then carefully scrape the clusters from the parchment if they have stuck and turn before spreading out again. Return to the oven for another 15 mins, turning frequently, until firm and golden.",
-            "When the mix is dry enough, tip into a bowl, mix in the seeds and nuts with the sultanas and toss well. When cool, serve each person a generous handful with yogurt and fruit, and pack the excess into an airtight container. Will keep for a week. On other days you can vary the fruit or serve with milk or a dairy-free alternative instead of the yogurt."
+            "Remojar el trigo sarraceno durante la noche en agua fría. Al día siguiente, escurrir y enjuagar el trigo sarraceno. Pon los dátiles en una cacerola con 300 ml de agua y la canela, y bate con una batidora hasta que estén completamente suaves. Agregue el trigo sarraceno, lleve a ebullición y cocine, sin tapar, durante 5 minutos hasta que esté pulposo. Mientras tanto, caliente el horno a 150C/130C ventilador/gas 2 y forre dos bandejas para hornear grandes con papel para hornear.",
+            "Agrega la avena y el aceite a la mezcla de dátiles y trigo sarraceno, luego vierte pequeños racimos de la mezcla en las bandejas para hornear. Hornee durante 15 minutos, luego raspe con cuidado los racimos del pergamino si se han pegado y voltéelos antes de extenderlos nuevamente. Regrese al horno por otros 15 minutos, volteando con frecuencia, hasta que esté firme y dorado.",
+            "Cuando la mezcla esté lo suficientemente seca, viértala en un bol, mezcle las semillas y las nueces con las pasas y mezcle bien. Cuando esté frío, sirva a cada persona un puñado generoso con yogur y fruta, y guarde el exceso en un recipiente hermético. Se mantendrá durante una semana. El resto de días puedes variar la fruta o servir con leche o una alternativa sin lácteos en lugar del yogur."
         ],
         "nutritional_info": {
             "kcal": "387",
@@ -1450,28 +1450,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/wholewheat-flatbreads-beans-poached-egg/",
-        "title": "[ES] Wholewheat flatbreads with beans & poached egg",
-        "description": "(Translation pending) This wholesome, flavourful dish makes for a really substantial brunch – if you’re eating earlier for breakfast you could serve half the beans.",
+        "title": "Panes integrales con judías y huevo escalfado",
+        "description": "Este plato saludable y sabroso lo convierte en un brunch realmente sustancioso; si desayunas más temprano, puedes servir la mitad de los frijoles.",
         "prep_time": "10 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "2 eggs",
-            "500g carton passata",
-            "2 small onions, quartered",
-            "1 Medjool date, stoned",
-            "3 tsp smoked paprika",
-            "1 tsp balsamic vinegar",
-            "400g can haricot beans, drained",
-            "100g wholewheat flour",
-            "½  tsp baking powder",
-            "100g natural yogurt"
+            "2 huevos",
+            "500 g de puré de cartón",
+            "2 cebollas pequeñas, en cuartos",
+            "1 dátil Medjool, apedreado",
+            "3 cucharaditas de pimentón ahumado",
+            "1 cucharadita de vinagre balsámico",
+            "Lata de 400 g de judías verdes escurridas",
+            "100 g de harina integral",
+            "½ cucharadita de polvo para hornear",
+            "100 gramos de yogur natural"
         ],
         "method": [
-            "Tip the passata into a food processor with the onions, date and paprika, and blitz until completely smooth. Heat in a medium pan, cover and simmer for 10 mins, stirring frequently, to make a thick pulpy sauce. Taste to make sure the onion is fully cooked. If not, add a splash of water and cook a little longer. Stir in the vinegar and beans, then remove from the heat.",
-            "To make the flatbreads, tip the flour and baking powder into a bowl, then stir in the yogurt to make a soft dough. Tip out onto a lightly floured surface and lightly knead, fully incorporating any flour left in the bowl. Halve the mixture and flatten each piece to a rough oval, using your hands or a rolling pin, to a thickness of two £1 coins. Cut slashes through the centre of the ovals a couple of times with a sharp knife, being careful not to cut through an edge.",
-            "Heat a large, non-stick pan, add a flatbread and cook for 1 min each side until firm and slightly puffed, then repeat with the other. Meanwhile, heat a large pan of water and poach the eggs to your liking.",
-            "Warm the beans and serve on top of each flatbread with a poached egg and some black pepper."
+            "Coloca la passata en un procesador de alimentos con la cebolla, los dátiles y el pimentón, y mezcla hasta que esté completamente suave. Caliente en una sartén mediana, cubra y cocine a fuego lento durante 10 minutos, revolviendo con frecuencia, para hacer una salsa espesa y pulposa. Pruebe para asegurarse de que la cebolla esté completamente cocida. Si no, añade un chorrito de agua y cocina un poco más. Agrega el vinagre y los frijoles y luego retira del fuego.",
+            "Para hacer panes planos, vierta la harina y el polvo para hornear en un tazón, luego agregue el yogur para hacer una masa suave. Vierta sobre una superficie ligeramente enharinada y amase ligeramente, incorporando completamente la harina que quede en el tazón. Reduce la mezcla a la mitad y aplana cada pieza hasta obtener un óvalo rugoso, usando las manos o un rodillo, hasta obtener un grosor de dos monedas de £1. Haz cortes en el centro de los óvalos un par de veces con un cuchillo afilado, teniendo cuidado de no cortar un borde.",
+            "Caliente una sartén grande antiadherente, agregue un pan plano y cocine durante 1 minuto por cada lado hasta que esté firme y ligeramente inflado, luego repita con el otro. Mientras tanto, calienta una cacerola grande con agua y escalfa los huevos a tu gusto.",
+            "Calienta los frijoles y sírvelos encima de cada pan plano con un huevo escalfado y un poco de pimienta negra."
         ],
         "nutritional_info": {
             "kcal": "550",
@@ -1488,22 +1488,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/turmeric-smoothie-bowl/",
-        "title": "[ES] Turmeric smoothie bowl",
-        "description": "(Translation pending) Full of warming and nourishing ingredients, this creamy breakfast bowl can be ready in just 10 minutes",
+        "title": "Tazón de batido de cúrcuma",
+        "description": "Lleno de ingredientes cálidos y nutritivos, este cremoso tazón de desayuno puede estar listo en solo 10 minutos.",
         "prep_time": "10 mins No cook",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "10cm/4in fresh turmeric, or 2 tsp ground turmeric",
-            "3 tbsp coconut milk yogurt (we used Co Yo), or the cream skimmed from the top of canned coconut milk",
-            "50g gluten-free oats",
-            "1 tbsp cashew butter (or a handful of cashews)",
-            "2 bananas, peeled and roughly chopped",
-            "½  tsp ground cinnamon",
-            "1 tbsp chia seeds or chopped nuts, to serve"
+            "10 cm/4 pulgadas de cúrcuma fresca o 2 cucharaditas de cúrcuma molida",
+            "3 cucharadas de yogur de leche de coco (nosotros usamos Co Yo), o la crema desnatada de la parte superior de la leche de coco enlatada",
+            "50 g de avena sin gluten",
+            "1 cucharada de mantequilla de anacardo (o un puñado de anacardos)",
+            "2 plátanos, pelados y picados en trozos grandes",
+            "½ cucharadita de canela molida",
+            "1 cucharada de semillas de chía o nueces picadas, para servir"
         ],
         "method": [
-            "Peel the turmeric root, if using, and grate. Put all ingredients in a blender with 600ml water and blend until smooth. Serve in a bowl with chia seeds or some chopped nuts sprinkled over."
+            "Pele la raíz de cúrcuma, si la usa, y ralle. Pon todos los ingredientes en una licuadora con 600 ml de agua y licua hasta que quede suave. Servir en un bol con semillas de chía o unas nueces picadas espolvoreadas."
         ],
         "nutritional_info": {
             "kcal": "291",
@@ -1520,29 +1520,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/date-and-fig-bread/",
-        "title": "[ES] Date & fig bread",
-        "description": "(Translation pending) A sourdough-style bread that’s just bursting with fruit and flavour – it bakes in just 20 minutes",
+        "title": "Pan de dátiles e higos",
+        "description": "Un pan de masa madre repleto de fruta y sabor: se hornea en solo 20 minutos",
         "prep_time": "50 mins Cook: 20 mins Plus overnight proving and 2 hours for final dough",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "400g wholemeal flour",
-            "7g sachet fast-action yeast",
-            "300ml water",
-            "175g wholemeal flour",
-            "400g strong white flour",
-            "2 tsp salt",
-            "7g sachet fast-action yeast",
-            "140g butter, melted",
-            "1 tbsp treacle",
-            "225ml water",
-            "200g figs, coarsely chopped",
-            "100g dates, coarsely chopped"
+            "400 g de harina integral",
+            "7 g de levadura de acción rápida en sobre",
+            "300ml de agua",
+            "175 g de harina integral",
+            "400 g de harina blanca fuerte",
+            "2 cucharaditas de sal",
+            "7 g de levadura de acción rápida en sobre",
+            "140 g de mantequilla, derretida",
+            "1 cucharada de melaza",
+            "225ml de agua",
+            "200 g de higos, picados en trozos grandes",
+            "100 g de dátiles, picados en trozos grandes"
         ],
         "method": [
-            "Mix the starter ingredients together in a bowl. Turn out and knead for 10 minutes. Place in a lightly oiled bowl and leave to rise overnight in the fridge.",
-            "To make the second dough, mix the remaining flours, salt and yeast in a large bowl. Make a well in the centre, stir together the butter and treacle, then pour in the dry ingredients along with almost all the water. If the dough seems a little stiff, add the rest of the water. Turn out onto a lightly floured work surface. Knead the starter into the dough and knead for 10 mins. Put the dough into a lightly oiled bowl and leave to rise for 1 hour until doubled in size.",
-            "Turn out onto a lightly floured work surface. Press the dough out into a rectangle about 2.5cm thick and sprinkle over the figs and dates, then roll up like a Swiss roll, kneading to combine evenly. Cut into 20 pieces and shape into rolls. Leave for 1 hour to prove until doubled in size. Heat oven to 220C/fan 200C/gas 7. Bake for 18-20 mins, until the rolls sound hollow when tapped underneath. Leave to cool on a wire rack."
+            "Mezcle los ingredientes iniciales en un bol. Desmoldar y amasar durante 10 minutos. Colocar en un bol ligeramente engrasado y dejar reposar durante la noche en el frigorífico.",
+            "Para hacer la segunda masa, mezcle las harinas restantes, la sal y la levadura en un bol grande. Hacer un hueco en el centro, mezclar la mantequilla y la melaza, luego verter los ingredientes secos junto con casi toda el agua. Si la masa parece un poco dura, agrega el resto del agua. Colóquelo sobre una superficie de trabajo ligeramente enharinada. Amasar la masa madre y amasar durante 10 minutos. Poner la masa en un bol ligeramente engrasado y dejar reposar durante 1 hora hasta que doble su tamaño.",
+            "Colóquelo sobre una superficie de trabajo ligeramente enharinada. Presione la masa hasta formar un rectángulo de unos 2,5 cm de grosor y espolvoree sobre los higos y los dátiles, luego enrolle como un panecillo suizo y amase para combinar uniformemente. Cortar en 20 trozos y darles forma de rollos. Dejar reposar durante 1 hora hasta que duplique su tamaño. Caliente el horno a 220 C/ventilador 200 C/gas 7. Hornee durante 18-20 minutos, hasta que los panecillos suenen huecos al golpearlos por debajo. Dejar enfriar sobre una rejilla."
         ],
         "nutritional_info": {
             "kcal": "248",
@@ -1559,20 +1559,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/dried-fruit-energy-nuggets/",
-        "title": "[ES] Dried fruit energy nuggets",
-        "description": "(Translation pending) Give your energy levels a real boost with these nutritionally-balanced healthy fruit bites",
+        "title": "Pepitas energéticas de frutos secos",
+        "description": "Dale un verdadero impulso a tus niveles de energía con estos bocados de frutas saludables y nutricionalmente equilibrados",
         "prep_time": "10 mins No cook",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "50g soft dried apricots",
-            "100g soft dried dates",
-            "50g dried cherries",
-            "2 tsp coconut oil",
-            "1 tbsp toasted sesame seed"
+            "50 g de orejones blandos",
+            "100 g de dátiles secos y blandos",
+            "50 g de cerezas secas",
+            "2 cucharaditas de aceite de coco",
+            "1 cucharada de semillas de sésamo tostadas"
         ],
         "method": [
-            "Whizz apricots with\r\ndates and\r\ncherries in a food processor until very\r\nfinely chopped. Tip into a bowl and use\r\nyour hands to work in coconut oil.\r\nShape the mix into walnut-sized balls,\r\nthen roll in sesame\r\nseeds. Store in an airtight container\r\nuntil you need a quick energy fix."
+            "Batir los albaricoques con\r\nfechas y\r\ncerezas en un procesador de alimentos hasta que estén muy\r\nfinamente picado. Vierta en un tazón y use\r\ntus manos para trabajar en aceite de coco.\r\nForme bolitas del tamaño de una nuez con la mezcla,\r\nluego enrollar en sésamo\r\nsemillas. Guardar en un recipiente hermético\r\nhasta que necesites una dosis rápida de energía."
         ],
         "nutritional_info": {
             "kcal": "113",
@@ -1589,25 +1589,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/date-and-apple-squares/",
-        "title": "[ES] Date & apple squares",
-        "description": "(Translation pending) A chewy, oaty tray bake with sticky dates and apples – bound to be a big hit.",
+        "title": "Cuadritos de dátil y manzana",
+        "description": "Una bandeja masticable de avena horneada con dátiles pegajosos y manzanas que seguramente será un gran éxito.",
         "prep_time": "20 mins Cook: 35 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "225g butter, plus a little extra for greasing",
-            "140g cooking apples, peeled, cored and chopped",
-            "140g stoned dates, chopped",
-            "280g light soft brown sugar",
-            "175g plain flour",
-            "1 tsp bicarbonate of soda",
-            "100g porridge oats"
+            "225 g de mantequilla, más un poco más para engrasar",
+            "140 g de manzanas para cocinar, peladas, sin corazón y picadas",
+            "140 g de dátiles deshuesados, picados",
+            "280 g de azúcar moreno suave y ligero",
+            "175 g de harina común",
+            "1 cucharadita de bicarbonato de sodio",
+            "100 g de gachas de avena"
         ],
         "method": [
-            "Heat oven to 190C/170C fan/gas 5.\r\nGrease an 18cm square tin and line\r\nwith baking parchment.",
-            "Tip the apples into a pan with 2 tbsp\r\nwater. Bring to the boil and simmer on\r\na low heat for 5 mins until tender and slightly pulpy. Add the dates and 50g of\r\nthe sugar, and cook for a further 5 mins.\r\nTake off the heat and break the apples\r\ndown with the back of a spoon until\r\nsmooth and well mixed with the\r\ndates. Set aside.",
-            "Gently melt the butter in a\r\nsaucepan. Mix the flour, bicarb,\r\noats and remaining sugar in a\r\nbowl. Pour in the melted butter\r\nand stir well until oats are coated.",
-            "Press half the mixture firmly\r\ninto the tin, spread the apple\r\nmix on top and smooth over.\r\nCover with the remaining oat\r\nmixture and press down. Bake\r\nfor 30-35 mins until golden and\r\nfirm. Cool in the tin before\r\ncutting into squares."
+            "Calentar el horno a 190C/170C ventilador/gas 5.\r\nEngrasar un molde cuadrado de 18 cm y forrar\r\ncon papel para hornear.",
+            "Coloca las manzanas en una sartén con 2 cucharadas.\r\nagua. Llevar a ebullición y cocinar a fuego lento.\r\na fuego lento durante 5 minutos hasta que estén tiernos y ligeramente pulposos. Añadimos los dátiles y 50g de\r\nel azúcar y cocinar 5 minutos más.\r\nRetirar del fuego y romper las manzanas.\r\nhacia abajo con el dorso de una cuchara hasta\r\nsuave y bien mezclado con el\r\nfechas. Dejar de lado.",
+            "Derrita suavemente la mantequilla en un\r\ncacerola. Mezclar la harina, el bicarbonato,\r\navena y el azúcar restante en un\r\ncuenco. Vierta la mantequilla derretida\r\ny revuelva bien hasta que la avena esté cubierta.",
+            "Presiona firmemente la mitad de la mezcla.\r\nen la lata, esparcir la manzana\r\nmezclar encima y alisar.\r\nCubrir con la avena restante.\r\nmezcla y presione hacia abajo. hornear\r\ndurante 30-35 minutos hasta que esté dorado y\r\nfirme. Dejar enfriar en la lata antes\r\ncortando en cuadrados."
         ],
         "nutritional_info": {
             "kcal": "513",
@@ -1624,28 +1624,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/sticky-date-buns/",
-        "title": "[ES] Sticky date buns",
-        "description": "(Translation pending) The longer the dough for this sweet fruit bread stays in the fridge the better the flavour – perfect with a cup of tea",
+        "title": "Bollos de dátiles pegajosos",
+        "description": "Cuanto más tiempo permanezca en el frigorífico la masa de este pan de frutas dulces, mejor será su sabor, perfecto con una taza de té.",
         "prep_time": "35 mins Cook: 50 mins Plus proving overnight or up to 72 hours",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "1 tsp caster sugar",
-            "2 x 7g sachets fast-action dried yeast",
-            "600g 00 flour, sponge flour or plain flour, plus extra for dusting",
-            "400ml warm milk",
-            "200g butter, 50g melted, remainder very soft",
-            "1 large egg, beaten with a fork",
-            "200g dates",
-            "250g light soft brown sugar",
-            "icing sugar, for dusting (optional)"
+            "1 cucharadita de azúcar en polvo",
+            "2 sobres de 7 g de levadura seca de acción rápida",
+            "600 g de harina 00, harina bizcocha o harina común, más un extra para espolvorear",
+            "400 ml de leche tibia",
+            "200 g de mantequilla, 50 g derretida, el resto muy suave",
+            "1 huevo grande, batido con un tenedor",
+            "200 g de dátiles",
+            "250 g de azúcar moreno suave y ligero",
+            "azúcar glas, para espolvorear (opcional)"
         ],
         "method": [
-            "Up to 3 days before you want to bake,\r\nmix the caster sugar, yeast, 400g of the\r\nflour and 1 tsp salt in a big bowl. Whisk\r\ntogether the milk, melted butter and\r\negg, then tip into the dry ingredients and\r\nmix with a wooden spoon. Cover with\r\nbuttered cling film and put in the fridge\r\nat least overnight or for up to 3 days.",
-            "When you’re ready to make the buns,\r\nput the dates in a bowl and pour over\r\njust enough boiling water to cover. Leave\r\nto soak for 15-20 mins. Drain, pat dry,\r\nstone and chop.",
-            "Mix the remaining flour into the dough.\r\nUse your hands to bring the dough\r\ntogether, then tip out onto a lightly\r\nfloured surface and lightly knead. Roll\r\nout with a little more flour to a large\r\nrectangle, about 50 x 30cm, with one of\r\nthe short sides facing you. Spread over\r\nthree-quarters of the soft butter, then\r\nsprinkle over three-quarters of the brown\r\nsugar. Fold the bottom third of the dough\r\nup and over the middle third, then the\r\ntop third down over the other two.",
-            "Heat oven to 180C/160C fan/gas 4.\r\nRotate the dough 90 degrees, or a\r\nquarter turn one way. Roll out again to\r\na similar-sized rectangle as before, this\r\ntime with one of the long edges facing\r\nyou. Spread over all but 1 heaped tsp of\r\nthe remaining butter, scatter over the\r\nremaining brown sugar, and sprinkle over\r\nthe dates. Roll up tightly like a Swiss roll\r\nfrom one of the long edges. Trim the ends\r\na tiny bit, and slice into 12 roughly even\r\nportions. Lightly butter the holes of a\r\nmuffin tin with the reserved butter, then\r\npush a roll, cut-side up, into each hole.",
-            "Bake for 50 mins until golden and risen.\r\nRemove from the tin while warm, so they\r\ndon’t stick. Dust tops with icing sugar, if\r\nyou like, or serve sticky-bottom up."
+            "Hasta 3 días antes de que quieras hornear,\r\nmezclar el azúcar en polvo, la levadura, 400 g de\r\nharina y 1 cucharadita de sal en un tazón grande. batir\r\njuntos la leche, la mantequilla derretida y\r\nhuevo, luego verter en los ingredientes secos y\r\nmezclar con una cuchara de madera. Cubrir con\r\nfilm transparente con mantequilla y guardar en el frigorífico.\r\nal menos durante la noche o hasta por 3 días.",
+            "Cuando estés listo para hacer los bollos,\r\nponer los dátiles en un bol y verter por encima\r\nsuficiente agua hirviendo para cubrir. salir\r\ndejar en remojo durante 15-20 minutos. Escurrir, secar\r\npiedra y picar.",
+            "Mezcle la harina restante con la masa.\r\nUsa tus manos para traer la masa.\r\njuntos, luego inclínelos hacia un\r\nsuperficie enharinada y amasar ligeramente. rodar\r\ncon un poco más de harina hasta obtener una masa grande\r\nrectángulo, de unos 50 x 30 cm, con uno de\r\nlos lados cortos que miran hacia usted. Extender sobre\r\ntres cuartos de la mantequilla blanda, luego\r\nespolvorear sobre las tres cuartas partes del marrón\r\nazúcar. Dobla el tercio inferior de la masa.\r\narriba y por encima del tercio medio, luego el\r\ntercio superior hacia abajo sobre los otros dos.",
+            "Calentar el horno a 180C/160C ventilador/gas 4.\r\nGire la masa 90 grados, o un\r\ncuarto de vuelta en una dirección. Extiéndalo nuevamente para\r\nun rectángulo de tamaño similar al anterior, esto\r\nvez con uno de los bordes largos mirando\r\nusted. Distribuya sobre todo menos 1 cucharadita colmada de\r\nla mantequilla restante, esparcirla sobre el\r\nresto del azúcar moreno y espolvorear\r\nlas fechas. Enrollar bien como un panecillo suizo.\r\ndesde uno de los bordes largos. Recortar los extremos\r\nun poquito y cortar en 12 trozos más o menos iguales\r\nporciones. Unte ligeramente con mantequilla los agujeros de un\r\nmolde para muffins con la mantequilla reservada, luego\r\nEmpuje un rollo, con el lado cortado hacia arriba, en cada agujero.",
+            "Hornee durante 50 minutos hasta que esté dorado y levado.\r\nRetirar del molde mientras esté caliente, para que\r\nno te quedes. Espolvoree la parte superior con azúcar glas, si\r\nque quieras, o sírvelo con el fondo pegajoso hacia arriba."
         ],
         "nutritional_info": {
             "kcal": "420",
@@ -1662,27 +1662,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/walnut-date-and-honey-cake/",
-        "title": "[ES] Walnut, date & honey cake",
-        "description": "(Translation pending) A tea-time treat – packed with sweet honey. A great way to use up those ripe bananas too",
+        "title": "Tarta de nueces, dátiles y miel",
+        "description": "Una delicia para la hora del té, repleta de dulce miel. También es una excelente manera de consumir esos plátanos maduros.",
         "prep_time": "15 mins Cook: 1 hrs 10 mins",
         "cook_time": "",
         "serves": "10",
         "ingredients": [
-            "225g self-raising flour",
-            "½ tsp ground cinnamon",
-            "175g softened butter",
-            "100g light muscovado sugar",
-            "3 tbsp clear honey",
-            "2 eggs, beaten",
-            "2 medium, ripe bananas, about 250g/9oz total weight in their skins",
-            "100g stoned dates",
-            "50g pack walnut pieces"
+            "225 g de harina con levadura",
+            "½ cucharadita de canela molida",
+            "175 g de mantequilla blanda",
+            "100 g de azúcar mascabado light",
+            "3 cucharadas de miel clara",
+            "2 huevos batidos",
+            "2 plátanos medianos maduros, de aproximadamente 250 g/9 oz de peso total con piel",
+            "100 g de dátiles sin hueso",
+            "Paquete de 50g de nueces en trozos"
         ],
         "method": [
-            "Preheat the oven to 160C/Gas 3/fan oven 140C. Line the base and long sides of a 900g/2lb loaf tin with greaseproof paper, buttering the tin and paper.",
-            "Tip the flour, cinnamon, butter, sugar, 2 tablespoons of the honey and the eggs into a large mixing bowl. Mash the bananas and chop the dates (kitchen scissors are easiest for this) and add to the bowl. Beat the mixture for 2-3 minutes, using a wooden spoon or hand-held mixer, until well blended.",
-            "Spoon into the prepared tin and level the top. Scatter the walnut pieces over. Bake for 1 hour, then lightly press the top – it will feel firm if cooked. If not, bake for a further 10 minutes.",
-            "Cool for 15 minutes, then lift out of the tin using the paper. When cold, drizzle the remaining honey over. Cut into thick slices."
+            "Precalentar el horno a 160C/Gas 3/horno ventilado 140C. Forre la base y los lados largos de un molde para pan de 900 g con papel vegetal, untando con mantequilla el molde y el papel.",
+            "Vierta la harina, la canela, la mantequilla, el azúcar, 2 cucharadas de miel y los huevos en un tazón grande. Triture los plátanos y pique los dátiles (las tijeras de cocina son más fáciles para esto) y agréguelos al bol. Batir la mezcla durante 2-3 minutos, con una cuchara de madera o una batidora de mano, hasta que esté bien mezclada.",
+            "Vierta en la lata preparada y nivele la parte superior. Esparcir los trozos de nuez. Hornee durante 1 hora, luego presione ligeramente la parte superior; se sentirá firme si se cocina. Si no, hornee por 10 minutos más.",
+            "Deje enfriar durante 15 minutos y luego sáquelo del molde con el papel. Cuando esté frío, rocíe el resto de la miel. Cortar en rodajas gruesas."
         ],
         "nutritional_info": {
             "kcal": "440",

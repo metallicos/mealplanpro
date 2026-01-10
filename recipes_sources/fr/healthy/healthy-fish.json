@@ -1,7 +1,7 @@
 [
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/fragrant-biryani-with-coriander-cod/",
-        "title": "Biryani parfumé à la morue à la coriandre",
+        "title": "Biryani parfumé à la morue et à la coriandre",
         "description": "Essayez ce délicieux biryani servi avec des filets de morue. Le poisson blanc est une excellente protéine maigre, ce qui en fait un plat sain, faible en calories et en matières grasses.",
         "prep_time": "20 mins Cook: 1 hrs 15 mins",
         "cook_time": "",
@@ -122,7 +122,7 @@
             "1 cuillère à café d'huile d'olive",
             "160 g de tomates cerises sur vigne de préférence",
             "Boîte de 198 g de maïs doux égoutté",
-            "75 g de ricotta",
+            "75 g de gazon",
             "Boîte de 160 g de thon à l'eau de source égoutté",
             "une poignée de basilic haché et quelques feuilles entières pour servir"
         ],
@@ -990,7 +990,7 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/antipasti-salmon/",
-        "title": "Saumon à l'antipasti",
+        "title": "Saumon aux entrées",
         "description": "Transformez un côté de saumon en une magnifique pièce maîtresse avec seulement quelques ingrédients d'antipasti méditerranéens. Cuire au four ou cuire au barbecue pour un bon plat d'été",
         "prep_time": "10 mins Cook: 30 mins",
         "cook_time": "",
@@ -1035,7 +1035,7 @@
         "ingredients": [
             "120 ml d'huile d'olive extra vierge",
             "3 grosses gousses d'ail",
-            "350 g de spaghettis, bucatini ou linguines",
+            "350 g de spaghettis, bucatini ou linguine",
             "1-2 piments rouges (selon le degré de piquant souhaité), épépinés et finement hachés",
             "8 filets d'anchois finement hachés",
             "petit bouquet de persil finement haché",
@@ -1341,7 +1341,7 @@
             "le zeste et le jus d'une orange",
             "1 cuillère à soupe de sauce soja réduite en sel",
             "2 cuillères à café de vinaigre de vin blanc ou de vinaigre de riz",
-            "Paquet de 300 g de 2 filets ou longes de poisson blanc",
+            "Pack de 300 g de 2 filets ou long poisson blanc",
             "1 cuillère à soupe de gingembre très finement râpé",
             "2 cuillères à café d'huile de sésame",
             "10 oignons nouveaux, coupés en deux et tranchés dans le sens de la longueur",
@@ -1461,7 +1461,7 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/fish-parcels-romesco-sauce-veg/",
-        "title": "Morceaux de poisson, sauce romesco et légumes",
+        "title": "Morces de poisson, sauce romesco et légumes",
         "description": "La sauce Romesco est composée de poivrons, d'amandes, de piment et d'ail. Accompagnez-le de poisson blanc et d'un mélange de chou-fleur et ciboule",
         "prep_time": "15 mins Cook: 15 mins",
         "cook_time": "",
