@@ -182,20 +182,45 @@ export default function CalculatorPage() {
         const targetCalories = Math.max(1200, Math.round(tdee + adjustment)); // Safety floor
 
         // Calculate macros based on scientific spec
-        // Protein: 2.0g/kg (recommended default)
-        // Fat: 0.8g/kg (recommended default)
-        // Carbs: Remainder
+        // Start with optimal (2.0g/kg Prot, 0.8g/kg Fat). 
+        // If carbs < 30g, progressively lower towards scientific minimums (1.6g Prot, 0.6g Fat)
 
-        const protein = Math.round(weight * 2.0);
-        const fat = Math.round(weight * 0.8);
+        let pRatio = 2.0;
+        let fRatio = 0.8;
+        const minCarbsGrams = 30; // Safety floor
+
+        // Strategies: Optimal -> Reduced Fat -> Reduced Protein -> Min Both
+        const strategies = [
+            { p: 2.0, f: 0.8 },
+            { p: 2.0, f: 0.7 },
+            { p: 1.8, f: 0.7 },
+            { p: 1.8, f: 0.6 },
+            { p: 1.6, f: 0.6 }
+        ];
+
+        let bestStrategy = strategies[0];
+
+        for (const s of strategies) {
+            const p = Math.round(weight * s.p);
+            const f = Math.round(weight * s.f);
+            const used = (p * 4) + (f * 9);
+            const rem = targetCalories - used;
+            const c = Math.max(0, Math.round(rem / 4));
+
+            if (c >= minCarbsGrams) {
+                bestStrategy = s;
+                break;
+            }
+            bestStrategy = s;
+        }
+
+        const protein = Math.round(weight * bestStrategy.p);
+        const fat = Math.round(weight * bestStrategy.f);
 
         const proteinCals = protein * 4;
         const fatCals = fat * 9;
         const remainingCals = targetCalories - proteinCals - fatCals;
-
-        // Ensure carbs aren't negative (safety check for very low cal / high weight)
-        const carbsCals = Math.max(0, remainingCals);
-        const carbs = Math.round(carbsCals / 4);
+        const carbs = Math.round(Math.max(0, remainingCals) / 4);
 
         setResults({ tdee, targetCalories, protein, carbs, fat, weeklyChange });
         setSaved(false);
