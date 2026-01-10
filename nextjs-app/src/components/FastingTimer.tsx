@@ -95,13 +95,13 @@ export default function FastingTimer() {
             </div>
 
             <div>
-                <div className="flex justify-between items-start mb-2">
-                    <h3 className="font-semibold text-lg flex items-center gap-2 text-emerald-100">
+                <div className="flex justify-between items-start mb-2 gap-2">
+                    <h3 className="font-semibold text-base sm:text-lg flex items-center gap-2 text-emerald-100 min-w-0">
                         {/* Timer Icon SVG */}
-                        <Timer className="w-5 h-5 text-emerald-400" />
-                        {t('fastingTimer')}
+                        <Timer className="w-5 h-5 text-emerald-400 flex-shrink-0" />
+                        <span className="truncate">{t('fastingTimer')}</span>
                     </h3>
-                    <div className="text-xs px-2 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                    <div className="text-xs px-2 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex-shrink-0 whitespace-nowrap">
                         {t('goal')}: {goalHours}h
                     </div>
                 </div>

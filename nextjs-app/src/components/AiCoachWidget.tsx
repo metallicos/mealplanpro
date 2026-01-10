@@ -83,10 +83,10 @@ export default function AiCoachWidget() {
     return (
         <div className="card border-none bg-gradient-to-br from-emerald-900/50 to-teal-900/50 text-white relative overflow-hidden">
             <div className="relative z-10">
-                <h3 className="text-xl font-bold mb-1 flex items-center gap-2">
-                    <Heart className="text-emerald-300" /> {t('title')}
+                <h3 className="text-lg sm:text-xl font-bold mb-1 flex items-center gap-2">
+                    <Heart className="text-emerald-300 flex-shrink-0" /> <span className="truncate">{t('title')}</span>
                 </h3>
-                <p className="text-sm text-emerald-200 mb-6">{t('subtitle')}</p>
+                <p className="text-sm text-emerald-200 mb-6 line-clamp-2">{t('subtitle')}</p>
 
                 {step === 'checkin' && (
                     <div className="space-y-4 animate-fade-in">

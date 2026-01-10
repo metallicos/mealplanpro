@@ -60,17 +60,17 @@ export default function WaterTracker() {
                 />
             </div>
 
-            <div className="flex items-start justify-between mb-4">
-                <div>
-                    <h3 className="flex items-center gap-2 font-semibold text-lg text-blue-100">
+            <div className="flex items-start justify-between mb-4 gap-2">
+                <div className="min-w-0 flex-1">
+                    <h3 className="flex items-center gap-2 font-semibold text-base sm:text-lg text-blue-100">
                         {/* Droplet SVG */}
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-400"><path d="M12 22a7 7 0 0 0 7-7c0-2-2-3-2-3q-3-3-5-6c-2 3-5 6-5 6s-2 1-2 3a7 7 0 0 0 7 7z" /></svg>
-                        {t('hydration')}
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-400 flex-shrink-0"><path d="M12 22a7 7 0 0 0 7-7c0-2-2-3-2-3q-3-3-5-6c-2 3-5 6-5 6s-2 1-2 3a7 7 0 0 0 7 7z" /></svg>
+                        <span className="truncate">{t('hydration')}</span>
                     </h3>
-                    <p className="text-xs text-blue-300/80">{t('dailyGoal')}: {goalMl}ml</p>
+                    <p className="text-xs text-blue-300/80 truncate">{t('dailyGoal')}: {goalMl}ml</p>
                 </div>
-                <div className="text-right">
-                    <span className="text-2xl font-bold tracking-tight">{totalMl}</span>
+                <div className="text-right flex-shrink-0">
+                    <span className="text-xl sm:text-2xl font-bold tracking-tight">{totalMl}</span>
                     <span className="text-sm text-blue-300 ml-1">ml</span>
                 </div>
             </div>
