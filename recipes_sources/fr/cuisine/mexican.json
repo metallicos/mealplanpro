@@ -125,7 +125,7 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/beef-enchiladas/",
-        "title": "Enchiladas au bœuf",
+        "title": "Cassé au boeuf",
         "description": "Servez des enchiladas pour un festin familial d'inspiration mexicaine. Farcis de bœuf haché et de haricots noirs et garnis de fromage fondu, ils plairont à coup sûr à tout le monde.",
         "prep_time": "20 mins Cook: 45 mins",
         "cook_time": "",
@@ -182,7 +182,7 @@
             "½ cuillère à café d'origan séché",
             "12 tortillas de pain de maïs de 12 cm",
             "oignons rouges marinés (voir recette ci-dessous)",
-            "200 g de queso fresco ou feta émietté",
+            "200 g de queso fresco ou feta émiette",
             "une poignée de feuilles de coriandre",
             "4 citrons verts, coupés en quartiers"
         ],
@@ -1363,7 +1363,7 @@
             "5 cuillères à soupe de sauce barbecue",
             "Boîte de 400 g de haricots noirs égouttés",
             "petit bouquet de coriandre hachée",
-            "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+            "Erreur 500 (Erreur du serveur) !!1500.C'est une erreur.Une erreur s'est produite. Veuillez réessayer plus tard. C'est tout ce que nous savons.",
             "1 avocat mûr, pelé et tranché",
             "½ laitue iceberg, finement râpée",
             "crème sure, pour servir (facultatif)"
@@ -2101,7 +2101,7 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chilli-con-carne/",
-        "title": "la recette Chili con carne",
+        "title": "la recette du Chili con carne",
         "description": "Cette excellente recette de chili doit être l’un des meilleurs plats à servir à des amis lors d’une réunion décontractée. Un favori facile à partager qui utilise les ingrédients du placard.",
         "prep_time": "10 mins Cook: 1 hrs",
         "cook_time": "",
@@ -2227,7 +2227,7 @@
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "40 g de chips tortilla",
+            "40 g de chips tortillas",
             "4 poitrines de poulet sans peau",
             "Pot de 200 g de salsa aux tomates épicées",
             "142 ml de crème sure",
@@ -2258,7 +2258,7 @@
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "50 g de farine autolevante",
+            "50 g de farines autolevantes",
             "1 œuf battu",
             "200 g de maïs doux en conserve ou surgelé",
             "botte d'oignons nouveaux, parés et finement hachés",
@@ -2658,9 +2658,9 @@
             "le zeste d'1 orange",
             "1l de lait entier",
             "100 g de sucre en poudre",
-            "85 g de raisins secs ou de raisins secs",
+            "85 g de raisins secs ou raisins secs",
             "1 bâton de cannelle",
-            "100 g de sucre muscovado brun clair",
+            "100 g de sucre brun clair muscovado",
             "3 cuillères à soupe de crème fraîche"
         ],
         "method": [

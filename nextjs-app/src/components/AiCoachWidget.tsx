@@ -8,20 +8,20 @@ import {
 } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
-// Sport types with Lucide icons
+// Sport types with Lucide icons and valid locations
 const SPORTS = [
-    { id: 'gym', Icon: Dumbbell },
-    { id: 'running', Icon: PersonStanding },
-    { id: 'swimming', Icon: Waves },
-    { id: 'cycling', Icon: Bike },
-    { id: 'yoga', Icon: StretchHorizontal },
-    { id: 'hiit', Icon: Zap },
-    { id: 'boxing', Icon: Swords },
-    { id: 'football', Icon: Footprints },
-    { id: 'basketball', Icon: Target },
-    { id: 'crossfit', Icon: Flame },
-    { id: 'hiking', Icon: Mountain },
-    { id: 'home_workout', Icon: Home },
+    { id: 'gym', Icon: Dumbbell, locations: ['gym'] },
+    { id: 'running', Icon: PersonStanding, locations: ['outdoor', 'gym'] },
+    { id: 'swimming', Icon: Waves, locations: ['gym', 'outdoor'] },
+    { id: 'cycling', Icon: Bike, locations: ['outdoor', 'gym', 'home'] },
+    { id: 'yoga', Icon: StretchHorizontal, locations: ['home', 'gym', 'outdoor'] },
+    { id: 'hiit', Icon: Zap, locations: ['home', 'gym', 'outdoor'] },
+    { id: 'boxing', Icon: Swords, locations: ['gym'] },
+    { id: 'football', Icon: Footprints, locations: ['outdoor'] },
+    { id: 'basketball', Icon: Target, locations: ['outdoor', 'gym'] },
+    { id: 'crossfit', Icon: Flame, locations: ['gym'] },
+    { id: 'hiking', Icon: Mountain, locations: ['outdoor'] },
+    { id: 'stretching', Icon: StretchHorizontal, locations: ['home', 'gym'] },
 ];
 
 // Training locations
@@ -67,10 +67,24 @@ export default function AiCoachWidget() {
     const [sleep, setSleep] = useState(7);
     const [mood, setMood] = useState(5);
     const [energy, setEnergy] = useState(5);
-    const [sportType, setSportType] = useState('gym');
+    const [sportType, setSportType] = useState('hiit');
     const [location, setLocation] = useState('gym');
     const [equipment, setEquipment] = useState<string[]>([]);
     const [notes, setNotes] = useState('');
+
+    // Get sports available for current location
+    const availableSports = SPORTS.filter(s => s.locations.includes(location));
+
+    // Handle location change - reset sport if not available
+    const handleLocationChange = (newLocation: string) => {
+        setLocation(newLocation);
+        const currentSportValid = SPORTS.find(s => s.id === sportType)?.locations.includes(newLocation);
+        if (!currentSportValid) {
+            // Set first available sport for new location
+            const firstAvailable = SPORTS.find(s => s.locations.includes(newLocation));
+            if (firstAvailable) setSportType(firstAvailable.id);
+        }
+    };
 
     // Result State
     const [plan, setPlan] = useState<AiResponse | null>(null);
@@ -188,7 +202,7 @@ export default function AiCoachWidget() {
                                 {LOCATIONS.map(loc => (
                                     <button
                                         key={loc.id}
-                                        onClick={() => setLocation(loc.id)}
+                                        onClick={() => handleLocationChange(loc.id)}
                                         className={`p-3 rounded-lg flex flex-col items-center gap-1 transition-all ${location === loc.id
                                             ? 'bg-emerald-500 text-white shadow-lg'
                                             : 'bg-black/20 hover:bg-black/40 text-gray-300'
@@ -227,13 +241,13 @@ export default function AiCoachWidget() {
                         <div>
                             <label className="text-xs uppercase tracking-wider text-emerald-300 block mb-2">{t('sportType')}</label>
                             <div className="grid grid-cols-3 sm:grid-cols-4 gap-2 max-h-40 overflow-y-auto">
-                                {SPORTS.map(sport => (
+                                {availableSports.map(sport => (
                                     <button
                                         key={sport.id}
                                         onClick={() => setSportType(sport.id)}
                                         className={`p-2 rounded-lg flex flex-col items-center gap-1 transition-all ${sportType === sport.id
-                                                ? 'bg-emerald-500 text-white shadow-lg'
-                                                : 'bg-black/20 hover:bg-black/40 text-gray-300'
+                                            ? 'bg-emerald-500 text-white shadow-lg'
+                                            : 'bg-black/20 hover:bg-black/40 text-gray-300'
                                             }`}
                                     >
                                         <sport.Icon size={18} />
