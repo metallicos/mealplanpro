@@ -2,7 +2,51 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
-import { Heart, Zap, Sun, Moon, Activity, Dumbbell, Sparkles, ChevronRight } from 'lucide-react';
+import {
+    Heart, Zap, Sun, Moon, Sparkles, ChevronRight,
+    Dumbbell, PersonStanding, Waves, Bike,
+    Target, Swords, Footprints, Flame, StretchHorizontal, Mountain,
+    Home, TreePine, Building2, Check
+} from 'lucide-react';
+
+// Sport types with Lucide icons
+const SPORTS = [
+    { id: 'gym', Icon: Dumbbell },
+    { id: 'running', Icon: PersonStanding },
+    { id: 'swimming', Icon: Waves },
+    { id: 'cycling', Icon: Bike },
+    { id: 'yoga', Icon: StretchHorizontal },
+    { id: 'hiit', Icon: Zap },
+    { id: 'boxing', Icon: Swords },
+    { id: 'football', Icon: Footprints },
+    { id: 'basketball', Icon: Target },
+    { id: 'crossfit', Icon: Flame },
+    { id: 'hiking', Icon: Mountain },
+    { id: 'home_workout', Icon: Home },
+];
+
+// Training locations
+const LOCATIONS = [
+    { id: 'home', Icon: Home },
+    { id: 'gym', Icon: Building2 },
+    { id: 'outdoor', Icon: TreePine },
+];
+
+// Home equipment options
+const EQUIPMENT = [
+    'dumbbells',
+    'resistance_bands',
+    'pull_up_bar',
+    'yoga_mat',
+    'kettlebell',
+    'jump_rope',
+    'foam_roller',
+    'bench',
+    'barbell',
+    'treadmill',
+    'stationary_bike',
+    'none',
+];
 
 interface CoachPlan {
     motivation: string;
@@ -20,11 +64,13 @@ export default function CoachPage() {
     const [sleep, setSleep] = useState(7);
     const [mood, setMood] = useState(7);
     const [energy, setEnergy] = useState(7);
+    const [sportType, setSportType] = useState('gym');
+    const [location, setLocation] = useState('gym');
+    const [equipment, setEquipment] = useState<string[]>([]);
     const [notes, setNotes] = useState('');
     const [plan, setPlan] = useState<CoachPlan | null>(null);
 
     useEffect(() => {
-        // Check if we have today's plan cached
         fetch('/api/v2/checkin')
             .then(res => res.json())
             .then(data => {
@@ -38,17 +84,36 @@ export default function CoachPage() {
             .catch(() => setStep('checkin'));
     }, []);
 
+    const toggleEquipment = (item: string) => {
+        if (item === 'none') {
+            setEquipment(['none']);
+        } else {
+            setEquipment(prev => {
+                const filtered = prev.filter(e => e !== 'none');
+                return filtered.includes(item)
+                    ? filtered.filter(e => e !== item)
+                    : [...filtered, item];
+            });
+        }
+    };
+
     const handleGenerate = async () => {
         setStep('generating');
 
-        // 1. Save Check-in
         await fetch('/api/v2/checkin', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ sleep_hours: sleep, mood_score: mood, energy_level: energy, notes })
+            body: JSON.stringify({
+                sleep_hours: sleep,
+                mood_score: mood,
+                energy_level: energy,
+                sport_type: sportType,
+                training_location: location,
+                equipment: location === 'home' ? equipment : [],
+                notes
+            })
         });
 
-        // 2. Call AI
         try {
             const res = await fetch('/api/v2/ai/coach', { method: 'POST' });
             if (!res.ok) throw new Error('AI Error');
@@ -56,7 +121,6 @@ export default function CoachPage() {
             setPlan(data);
             setStep('result');
         } catch (error) {
-            alert('Connection issue. Please try again.');
             setStep('checkin');
         }
     };
@@ -66,7 +130,7 @@ export default function CoachPage() {
             <div className="animate-fade-in flex items-center justify-center min-h-[60vh]">
                 <div className="text-center">
                     <Heart className="w-12 h-12 text-emerald-400 animate-pulse mx-auto mb-4" />
-                    <p className="text-gray-400">Loading your coach...</p>
+                    <p className="text-gray-400">{t('analyzing')}</p>
                 </div>
             </div>
         );
@@ -112,34 +176,99 @@ export default function CoachPage() {
                             </div>
                         </div>
 
-                        {/* Mood */}
-                        <div>
-                            <label className="flex items-center gap-2 text-sm font-medium text-gray-300 mb-3">
-                                <Sun className="w-4 h-4 text-yellow-400" /> {t('mood')} ({mood}/10)
-                            </label>
-                            <input
-                                type="range"
-                                min="1"
-                                max="10"
-                                value={mood}
-                                onChange={(e) => setMood(parseInt(e.target.value))}
-                                className="w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer accent-yellow-500"
-                            />
+                        {/* Mood & Energy Row */}
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            {/* Mood */}
+                            <div>
+                                <label className="flex items-center gap-2 text-sm font-medium text-gray-300 mb-3">
+                                    <Sun className="w-4 h-4 text-yellow-400" /> {t('mood')} ({mood}/10)
+                                </label>
+                                <input
+                                    type="range"
+                                    min="1"
+                                    max="10"
+                                    value={mood}
+                                    onChange={(e) => setMood(parseInt(e.target.value))}
+                                    className="w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer accent-yellow-500"
+                                />
+                            </div>
+
+                            {/* Energy */}
+                            <div>
+                                <label className="flex items-center gap-2 text-sm font-medium text-gray-300 mb-3">
+                                    <Zap className="w-4 h-4 text-orange-400" /> {t('energy')} ({energy}/10)
+                                </label>
+                                <input
+                                    type="range"
+                                    min="1"
+                                    max="10"
+                                    value={energy}
+                                    onChange={(e) => setEnergy(parseInt(e.target.value))}
+                                    className="w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer accent-orange-500"
+                                />
+                            </div>
                         </div>
 
-                        {/* Energy */}
+                        {/* Training Location */}
                         <div>
-                            <label className="flex items-center gap-2 text-sm font-medium text-gray-300 mb-3">
-                                <Zap className="w-4 h-4 text-orange-400" /> {t('energy')} ({energy}/10)
-                            </label>
-                            <input
-                                type="range"
-                                min="1"
-                                max="10"
-                                value={energy}
-                                onChange={(e) => setEnergy(parseInt(e.target.value))}
-                                className="w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer accent-orange-500"
-                            />
+                            <label className="text-sm font-medium text-gray-300 mb-3 block">{t('trainingLocation')}</label>
+                            <div className="grid grid-cols-3 gap-3">
+                                {LOCATIONS.map(loc => (
+                                    <button
+                                        key={loc.id}
+                                        onClick={() => setLocation(loc.id)}
+                                        className={`p-4 rounded-xl flex flex-col items-center gap-2 transition-all ${location === loc.id
+                                                ? 'bg-emerald-500 text-white shadow-lg shadow-emerald-500/25'
+                                                : 'bg-gray-800/50 hover:bg-gray-700/50 text-gray-300 border border-white/5'
+                                            }`}
+                                    >
+                                        <loc.Icon size={24} />
+                                        <span className="text-sm font-medium">{t(`locations.${loc.id}`)}</span>
+                                    </button>
+                                ))}
+                            </div>
+                        </div>
+
+                        {/* Equipment - Only show if location is home */}
+                        {location === 'home' && (
+                            <div>
+                                <label className="text-sm font-medium text-gray-300 mb-3 block">{t('availableEquipment')}</label>
+                                <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
+                                    {EQUIPMENT.map(item => (
+                                        <button
+                                            key={item}
+                                            onClick={() => toggleEquipment(item)}
+                                            className={`p-3 rounded-lg text-sm flex items-center gap-2 transition-all ${equipment.includes(item)
+                                                    ? 'bg-emerald-500 text-white'
+                                                    : 'bg-gray-800/50 hover:bg-gray-700/50 text-gray-300 border border-white/5'
+                                                }`}
+                                        >
+                                            {equipment.includes(item) && <Check size={14} />}
+                                            <span className="truncate">{t(`equipment.${item}`)}</span>
+                                        </button>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+
+                        {/* Sport Type Selector */}
+                        <div>
+                            <label className="text-sm font-medium text-gray-300 mb-3 block">{t('sportType')}</label>
+                            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
+                                {SPORTS.map(sport => (
+                                    <button
+                                        key={sport.id}
+                                        onClick={() => setSportType(sport.id)}
+                                        className={`p-3 rounded-xl flex flex-col items-center gap-2 transition-all ${sportType === sport.id
+                                                ? 'bg-emerald-500 text-white shadow-lg shadow-emerald-500/25'
+                                                : 'bg-gray-800/50 hover:bg-gray-700/50 text-gray-300 border border-white/5'
+                                            }`}
+                                    >
+                                        <sport.Icon size={20} />
+                                        <span className="text-xs truncate w-full text-center">{t(`sports.${sport.id}`)}</span>
+                                    </button>
+                                ))}
+                            </div>
                         </div>
 
                         {/* Notes */}
@@ -172,66 +301,62 @@ export default function CoachPage() {
                         <Heart className="absolute inset-0 m-auto w-10 h-10 text-emerald-400" />
                     </div>
                     <h3 className="text-xl font-bold text-white mb-2">{t('analyzing')}</h3>
-                    <p className="text-gray-400">Preparing your personalized plan</p>
+                    <p className="text-gray-400">{t('preparingPlan')}</p>
                 </div>
             )}
 
             {step === 'result' && plan && (
                 <div className="space-y-6">
-                    {/* Motivation */}
+                    {/* Motivation Card */}
                     <div className="card bg-gradient-to-br from-emerald-900/30 to-teal-900/30 border border-emerald-500/20">
-                        <h3 className="text-lg font-bold text-emerald-300 mb-3 flex items-center gap-2">
-                            <Heart className="w-5 h-5" /> {t('todaysMotivation')}
-                        </h3>
-                        <p className="text-white/90 text-lg italic leading-relaxed">"{plan.motivation}"</p>
-                        <p className="text-emerald-400 text-sm mt-3 text-right">— Your Coach</p>
-                    </div>
-
-                    {/* Recommendation */}
-                    <div className="card bg-gradient-to-br from-amber-900/20 to-orange-900/20 border border-amber-500/20">
-                        <h3 className="text-lg font-bold text-amber-300 mb-2 flex items-center gap-2">
-                            <Zap className="w-5 h-5" /> {t('todaysRecommendation')}
-                        </h3>
-                        <p className="text-white/80">{plan.recommendation}</p>
+                        <div className="flex items-start gap-4">
+                            <div className="w-12 h-12 rounded-full bg-emerald-500/20 flex items-center justify-center flex-shrink-0">
+                                <Heart className="w-6 h-6 text-emerald-400" />
+                            </div>
+                            <div>
+                                <h3 className="font-bold text-emerald-300 mb-2">{t('todaysMotivation')}</h3>
+                                <p className="text-lg text-white italic">"{plan.motivation}"</p>
+                            </div>
+                        </div>
                     </div>
 
                     {/* Workouts */}
-                    <div className="card">
-                        <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
-                            <Dumbbell className="w-5 h-5 text-blue-400" /> {t('workoutOptions')}
+                    <div className="card bg-gradient-to-br from-slate-900/80 to-slate-800/50 border border-white/5">
+                        <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
+                            <Dumbbell className="w-5 h-5 text-emerald-400" /> {t('workoutOptions')}
                         </h3>
-                        <div className="grid gap-4">
-                            {plan.workouts.map((workout, idx) => (
-                                <div
-                                    key={idx}
-                                    className="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-emerald-500/30 transition-all cursor-pointer group"
-                                >
-                                    <div className="flex items-center justify-between mb-3">
-                                        <h4 className="font-bold text-white flex items-center gap-2">
-                                            <Activity className="w-4 h-4 text-emerald-400" />
-                                            {workout.type}
-                                        </h4>
-                                        <span className="text-sm text-gray-400">{workout.duration}</span>
+                        <div className="space-y-3">
+                            {plan.workouts.map((workout, i) => (
+                                <div key={i} className="p-4 bg-black/20 rounded-xl border border-white/5 hover:border-emerald-500/30 transition-colors cursor-pointer group">
+                                    <div className="flex items-center justify-between mb-2">
+                                        <span className="font-bold text-white">{workout.type}</span>
+                                        <span className="text-sm px-3 py-1 bg-emerald-500/20 text-emerald-300 rounded-full">{workout.duration}</span>
                                     </div>
-                                    <ul className="space-y-1">
-                                        {workout.exercises.map((ex, i) => (
-                                            <li key={i} className="text-sm text-gray-300 flex items-start gap-2">
-                                                <ChevronRight className="w-4 h-4 text-emerald-500 flex-shrink-0 mt-0.5" />
-                                                {ex}
-                                            </li>
-                                        ))}
-                                    </ul>
+                                    <p className="text-sm text-gray-400">
+                                        {Array.isArray(workout.exercises) ? workout.exercises.join(' • ') : workout.exercises}
+                                    </p>
+                                    <ChevronRight className="w-5 h-5 text-gray-600 group-hover:text-emerald-400 transition-colors absolute right-4 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100" />
                                 </div>
                             ))}
                         </div>
                     </div>
 
-                    {/* Retry Button */}
+                    {/* Recommendation */}
+                    {plan.recommendation && (
+                        <div className="card bg-gradient-to-br from-orange-900/20 to-amber-900/20 border border-orange-500/20">
+                            <h3 className="font-bold text-orange-300 mb-2 flex items-center gap-2">
+                                <Sparkles className="w-5 h-5" /> {t('todaysRecommendation')}
+                            </h3>
+                            <p className="text-gray-300">{plan.recommendation}</p>
+                        </div>
+                    )}
+
+                    {/* Regenerate Button */}
                     <button
                         onClick={() => setStep('checkin')}
-                        className="w-full py-3 bg-white/5 hover:bg-white/10 text-white rounded-xl font-medium transition-all border border-white/10"
+                        className="w-full py-3 bg-gray-800/50 hover:bg-gray-700/50 text-gray-300 rounded-xl font-medium transition-all border border-white/5"
                     >
-                        {t('generateNewPlan')}
+                        {t('updateCheckin')}
                     </button>
                 </div>
             )}

@@ -313,7 +313,7 @@
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "60 g de farine autolevante",
+            "60 g de farines autolevantes",
             "3 cuillères à soupe de cacao en poudre",
             "3 œufs",
             "75 g de sucre en poudre doré, plus un peu pour disperser",
@@ -502,7 +502,7 @@
             "½ cuillère à soupe de poudre de moutarde anglaise",
             "180 g de beurre doux froid, coupé en cubes",
             "2 gros œufs, battus",
-            "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+            "Erreur 500 (Erreur du serveur) !!1500.C'est une erreur.Une erreur s'est produite. Veuillez réessayer plus tard. C'est tout ce que nous savons.",
             "1 pomme de terre (environ 270 g), coupée en morceaux de 3 cm",
             "1 cuillère à soupe d'huile d'olive",
             "50g de beurre",
@@ -638,7 +638,7 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/welsh-rarebit/",
-        "title": "Rarebit gallois",
+        "title": "Gallois rare",
         "description": "Offrez-vous une tranche de pain rare gallois bouillonnant, doré et au fromage pour un déjeuner satisfaisant. Servir bien chaud sur le grill avec beaucoup de ciboulette hachée",
         "prep_time": "10 mins Cook: 20 mins",
         "cook_time": "",
@@ -798,7 +798,7 @@
             "400g de bonnes saucisses de Cumberland (environ 6)",
             "200 g de lardons de lard fumé",
             "¼ cuillère à café de chaque macis moulu, poivre moulu et sauge séchée",
-            "1 œuf battu à la fourchette",
+            "1 oeuf battu à la fourchette",
             "quelques pincées de graines de sésame",
             "piccalilli, fait maison ou acheté, pour servir"
         ],
@@ -1424,7 +1424,7 @@
             "300 g de restes de fruits secs, comme des raisins secs, des raisins secs, des groseilles",
             "2 pommes ou poires à manger, évidées et râpées",
             "50 g de sucre Demerara, plus un peu pour décorer",
-            "100 g de restes de massepain, râpé",
+            "Il reste 100 g de masspain,",
             "½ cuillère à café de clous de girofle moulus",
             "1 cuillère à café de cannelle moulue",
             "500 g de bloc de pâte feuilletée",
@@ -1461,7 +1461,7 @@
             "8 cuisses de poulet désossées et sans peau",
             "8 tranches de bacon fumé, coupées en gros morceaux",
             "1 oignon, coupé en deux et tranché",
-            "Paquet de 250 g de petits champignons de Paris",
+            "Pack de 250 g de petits champignons de Paris",
             "une poignée de brins de thym",
             "2 cuillères à soupe de farine nature",
             "400 ml de bouillon de poulet",
@@ -1496,7 +1496,7 @@
         "serves": "",
         "ingredients": [
             "85 g de beurre coupé en dés",
-            "350 g de farine autolevante",
+            "350 g de farines autolevantes",
             "¼ cuillère à café de sel",
             "1½ cuillère à café de bicarbonate de soude",
             "4 cuillères à soupe de sucre en poudre",
@@ -1607,7 +1607,7 @@
             "200 g de beurre ramolli",
             "200 g de sucre en poudre doré",
             "3 œufs moyens",
-            "200 g de farine autolevante",
+            "200 g de farines autolevantes",
             "5 cuillères à soupe de lait"
         ],
         "method": [
