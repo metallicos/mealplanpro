@@ -214,12 +214,16 @@ export default function Dashboard() {
       </div>
 
       {/* V2 Health Widgets */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-        <WaterTracker />
-        <div className="lg:col-span-1 h-64 md:h-auto">
+      <div className="flex flex-col lg:flex-row gap-6 mb-8">
+        <div className="w-full lg:w-1/3">
+          <WaterTracker />
+        </div>
+        <div className="w-full lg:w-1/3">
           <FastingTimer />
         </div>
-        <AiCoachWidget />
+        <div className="w-full lg:w-1/3">
+          <AiCoachWidget />
+        </div>
       </div>
 
       {/* Master User: Family Management */}
