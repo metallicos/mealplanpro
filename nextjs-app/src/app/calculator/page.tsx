@@ -33,6 +33,7 @@ export default function CalculatorPage() {
         protein: number;
         carbs: number;
         fat: number;
+        weeklyChange: number;
     } | null>(null);
 
     const [saved, setSaved] = useState(false);
@@ -138,29 +139,65 @@ export default function CalculatorPage() {
 
         const tdee = Math.round(bmr * (activityMultipliers[activity] || 1.2));
 
-        // Goal multipliers (deficit or surplus)
-        const goalMultipliers: Record<string, number> = {
-            aggressive_loss: 0.75,
-            fat_loss: 0.80,
-            slow_loss: 0.85,
-            maintain: 1.0,
-            lean_gain: 1.10,
-            muscle_gain: 1.15,
-        };
+        // Goal Rules based on scientific spec
+        // Maintenance: TDEE
+        // Mild Loss: -500kcal (-0.5kg/wk)
+        // Aggressive Loss: -1000kcal (-1.0kg/wk)
+        // Lean Gain: +300kcal (+0.3kg/wk)
+        // Muscle Gain: +500kcal (+0.5kg/wk)
 
-        const targetCalories = Math.round(tdee * (goalMultipliers[goal] || 1.0));
+        let adjustment = 0;
+        let weeklyChange = 0;
 
-        // Calculate macros based on goal
-        const isGaining = goal === 'lean_gain' || goal === 'muscle_gain';
-        const proteinMultiplier = isGaining ? 2.0 : 1.6; // Higher protein for muscle gain
-        const protein = Math.round(weight * proteinMultiplier);
-        const fat = Math.round((targetCalories * 0.25) / 9); // 25% from fat
+        switch (goal) {
+            case 'aggressive_loss':
+                adjustment = -1000;
+                weeklyChange = -1.0;
+                break;
+            case 'fat_loss': // Mild loss
+                adjustment = -500;
+                weeklyChange = -0.5;
+                break;
+            case 'slow_loss': // Very mild
+                adjustment = -250;
+                weeklyChange = -0.25;
+                break;
+            case 'maintain':
+                adjustment = 0;
+                weeklyChange = 0;
+                break;
+            case 'lean_gain':
+                adjustment = 300;
+                weeklyChange = 0.3;
+                break;
+            case 'muscle_gain':
+                adjustment = 500;
+                weeklyChange = 0.5;
+                break;
+            default:
+                adjustment = 0;
+                weeklyChange = 0;
+        }
+
+        const targetCalories = Math.max(1200, Math.round(tdee + adjustment)); // Safety floor
+
+        // Calculate macros based on scientific spec
+        // Protein: 2.0g/kg (recommended default)
+        // Fat: 0.8g/kg (recommended default)
+        // Carbs: Remainder
+
+        const protein = Math.round(weight * 2.0);
+        const fat = Math.round(weight * 0.8);
+
         const proteinCals = protein * 4;
         const fatCals = fat * 9;
-        const carbsCals = targetCalories - proteinCals - fatCals;
+        const remainingCals = targetCalories - proteinCals - fatCals;
+
+        // Ensure carbs aren't negative (safety check for very low cal / high weight)
+        const carbsCals = Math.max(0, remainingCals);
         const carbs = Math.round(carbsCals / 4);
 
-        setResults({ tdee, targetCalories, protein, carbs, fat });
+        setResults({ tdee, targetCalories, protein, carbs, fat, weeklyChange });
         setSaved(false);
     };
 
@@ -276,12 +313,12 @@ export default function CalculatorPage() {
                                 value={formData.goal}
                                 onChange={(e) => setFormData({ ...formData, goal: e.target.value })}
                             >
-                                <option value="aggressive_loss">Aggressive Fat Loss (-25%)</option>
-                                <option value="fat_loss">Moderate Fat Loss (-20%)</option>
-                                <option value="slow_loss">Slow Fat Loss (-15%)</option>
+                                <option value="aggressive_loss">Aggressive Fat Loss (-1.0kg/week)</option>
+                                <option value="fat_loss">Moderate Fat Loss (-0.5kg/week)</option>
+                                <option value="slow_loss">Slow Fat Loss (-0.25kg/week)</option>
                                 <option value="maintain">Maintain Weight</option>
-                                <option value="lean_gain">Lean Muscle Gain (+10%)</option>
-                                <option value="muscle_gain">Muscle Building (+15%)</option>
+                                <option value="lean_gain">Lean Muscle Gain (+0.3kg/week)</option>
+                                <option value="muscle_gain">Maximum Muscle Building (+0.5kg/week)</option>
                             </select>
                         </div>
 
@@ -289,6 +326,14 @@ export default function CalculatorPage() {
                             Calculate My Needs
                         </button>
                     </div>
+                </div>
+
+                {/* Study Citation */}
+                <div className="text-center text-xs text-gray-500 mb-8 max-w-2xl mx-auto">
+                    Based on verified scientific formulas (Mifflin–St Jeor).<br />
+                    Reference: <a href="https://www.mdpi.com/2072-6643/17/3/482?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline">
+                        MDPI Nutrients Study 2025
+                    </a>
                 </div>
 
                 {/* Results */}
