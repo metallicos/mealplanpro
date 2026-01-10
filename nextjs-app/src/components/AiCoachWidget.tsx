@@ -190,8 +190,8 @@ export default function AiCoachWidget() {
                                         key={loc.id}
                                         onClick={() => setLocation(loc.id)}
                                         className={`p-3 rounded-lg flex flex-col items-center gap-1 transition-all ${location === loc.id
-                                                ? 'bg-emerald-500 text-white shadow-lg'
-                                                : 'bg-black/20 hover:bg-black/40 text-gray-300'
+                                            ? 'bg-emerald-500 text-white shadow-lg'
+                                            : 'bg-black/20 hover:bg-black/40 text-gray-300'
                                             }`}
                                     >
                                         <loc.Icon size={20} />
@@ -211,8 +211,8 @@ export default function AiCoachWidget() {
                                             key={item}
                                             onClick={() => toggleEquipment(item)}
                                             className={`p-2 rounded-lg text-xs flex items-center gap-1 transition-all ${equipment.includes(item)
-                                                    ? 'bg-emerald-500 text-white'
-                                                    : 'bg-black/20 hover:bg-black/40 text-gray-300'
+                                                ? 'bg-emerald-500 text-white'
+                                                : 'bg-black/20 hover:bg-black/40 text-gray-300'
                                                 }`}
                                         >
                                             {equipment.includes(item) && <Check size={12} />}
@@ -226,22 +226,21 @@ export default function AiCoachWidget() {
                         {/* Sport Type Selector */}
                         <div>
                             <label className="text-xs uppercase tracking-wider text-emerald-300 block mb-2">{t('sportType')}</label>
-                            <div className="grid grid-cols-4 sm:grid-cols-6 gap-2">
+                            <div className="grid grid-cols-3 sm:grid-cols-4 gap-2 max-h-40 overflow-y-auto">
                                 {SPORTS.map(sport => (
                                     <button
                                         key={sport.id}
                                         onClick={() => setSportType(sport.id)}
                                         className={`p-2 rounded-lg flex flex-col items-center gap-1 transition-all ${sportType === sport.id
-                                                ? 'bg-emerald-500 text-white scale-105 shadow-lg'
+                                                ? 'bg-emerald-500 text-white shadow-lg'
                                                 : 'bg-black/20 hover:bg-black/40 text-gray-300'
                                             }`}
-                                        title={t(`sports.${sport.id}`)}
                                     >
                                         <sport.Icon size={18} />
+                                        <span className="text-xs truncate w-full text-center">{t(`sports.${sport.id}`)}</span>
                                     </button>
                                 ))}
                             </div>
-                            <p className="text-xs text-emerald-400 mt-1 text-center">{t(`sports.${sportType}`)}</p>
                         </div>
 
                         {/* Generate Button */}
