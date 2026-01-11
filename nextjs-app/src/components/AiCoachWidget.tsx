@@ -144,7 +144,11 @@ export default function AiCoachWidget() {
 
         // Call AI
         try {
-            const res = await fetch('/api/v2/ai/coach', { method: 'POST' });
+            const res = await fetch('/api/v2/ai/coach', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ locale: locale || 'en' })
+            });
             if (!res.ok) {
                 if (res.status === 429) {
                     alert(t('coachBusy')); // Or minimal toast
