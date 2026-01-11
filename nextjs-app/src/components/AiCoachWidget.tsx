@@ -362,15 +362,21 @@ export default function AiCoachWidget() {
                                 </div>
                                 {/* Exercises List */}
                                 <div className="p-2 space-y-2">
-                                    {Array.isArray(plan?.workout?.exercises) && plan.workout.exercises.map((ex, i) => (
-                                        <div key={i} className="flex justify-between items-start text-xs border-b border-slate-700/50 pb-2 last:border-0 last:pb-0">
-                                            <div>
-                                                <p className="font-bold text-slate-200">{ex.name}</p>
-                                                <p className="text-[10px] text-slate-500">{ex.sets} x {ex.reps}</p>
+                                    {(plan?.workout?.exercises && Array.isArray(plan.workout.exercises)) ? (
+                                        plan.workout.exercises.map((ex, i) => (
+                                            <div key={i} className="flex justify-between items-start text-xs border-b border-slate-700/50 pb-2 last:border-0 last:pb-0">
+                                                <div>
+                                                    <p className="font-bold text-slate-200">{ex.name || 'Exercise'}</p>
+                                                    <p className="text-[10px] text-slate-500">{(ex.sets || '3') + ' x ' + (ex.reps || '10')}</p>
+                                                </div>
+                                                <span className="text-[9px] text-emerald-400 font-mono bg-emerald-900/20 px-1 rounded">{ex.rest || '60s'}</span>
                                             </div>
-                                            <span className="text-[9px] text-emerald-400 font-mono bg-emerald-900/20 px-1 rounded">{ex.rest}</span>
+                                        ))
+                                    ) : (
+                                        <div className="p-2 text-xs text-slate-400">
+                                            {plan?.workout?.title ? 'Detailed exercises not available' : 'Loading workout data...'}
                                         </div>
-                                    ))}
+                                    )}
                                 </div>
                             </div>
 
