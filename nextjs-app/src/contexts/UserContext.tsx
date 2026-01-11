@@ -141,6 +141,7 @@ export function UserProvider({ children }: { children: ReactNode }) {
                     neck: data.neck || defaultSettings.neck,
                     waist: data.waist || defaultSettings.waist,
                     hip: data.hip || defaultSettings.hip,
+                    themePreference: data.themePreference || defaultSettings.themePreference,
                 });
             }
         } catch (error) {
@@ -172,7 +173,57 @@ export function UserProvider({ children }: { children: ReactNode }) {
         window.location.href = '/login';
     };
 
+    // Theme configurations
+    const colorThemes: Record<string, any> = {
+        emerald: {
+            primary: '#10b981',
+            secondary: '#14b8a6',
+            accent: '#06b6d4',
+            gradient: 'linear-gradient(135deg, #10b981 0%, #14b8a6 50%, #06b6d4 100%)',
+            glow: '0 0 30px rgba(16, 185, 129, 0.25)',
+        },
+        blue: {
+            primary: '#3b82f6',
+            secondary: '#60a5fa',
+            accent: '#2563eb',
+            gradient: 'linear-gradient(135deg, #3b82f6 0%, #60a5fa 50%, #2563eb 100%)',
+            glow: '0 0 30px rgba(59, 130, 246, 0.3)',
+        },
+        purple: {
+            primary: '#8b5cf6',
+            secondary: '#a78bfa',
+            accent: '#7c3aed',
+            gradient: 'linear-gradient(135deg, #8b5cf6 0%, #a78bfa 50%, #7c3aed 100%)',
+            glow: '0 0 30px rgba(139, 92, 246, 0.3)',
+        },
+        pink: {
+            primary: '#ec4899',
+            secondary: '#f472b6',
+            accent: '#fb7185',
+            gradient: 'linear-gradient(135deg, #ec4899 0%, #f472b6 50%, #fb7185 100%)',
+            glow: '0 0 30px rgba(236, 72, 153, 0.3)',
+        },
+        orange: {
+            primary: '#f97316',
+            secondary: '#fb923c',
+            accent: '#ea580c',
+            gradient: 'linear-gradient(135deg, #f97316 0%, #fb923c 50%, #ea580c 100%)',
+            glow: '0 0 30px rgba(249, 115, 22, 0.3)',
+        },
+        cyan: {
+            primary: '#06b6d4',
+            secondary: '#22d3ee',
+            accent: '#0891b2',
+            gradient: 'linear-gradient(135deg, #06b6d4 0%, #22d3ee 50%, #0891b2 100%)',
+            glow: '0 0 30px rgba(6, 182, 212, 0.3)',
+        },
+    };
+
+    // ...
+
     const updateSettings = async (newSettings: Partial<UserSettings>): Promise<boolean> => {
+        // ... (rest of implementation) 
+        // Note: reusing existing updateSettings
         if (!user) return false;
 
         try {
@@ -204,8 +255,16 @@ export function UserProvider({ children }: { children: ReactNode }) {
         }
     };
 
-    // Derived theme based on gender
-    const theme = settings.gender === 'female' ? themes.female : themes.male;
+    // Derived theme based on preference or gender
+    const getTheme = () => {
+        if (settings.themePreference && settings.themePreference !== 'auto' && colorThemes[settings.themePreference]) {
+            return colorThemes[settings.themePreference];
+        }
+        // Fallback to gender based
+        return settings.gender === 'female' ? colorThemes.pink : colorThemes.emerald;
+    };
+
+    const theme = getTheme();
 
     // Apply theme CSS variables
     useEffect(() => {

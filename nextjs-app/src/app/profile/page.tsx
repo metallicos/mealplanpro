@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { Settings, Camera, Shuffle, Globe, Heart, MessageSquare, Trash2 } from 'lucide-react';
 
 export default function ProfilePage() {
-    const { user, isLoading } = useUser();
+    const { user, settings, updateSettings, isLoading } = useUser();
 
     // Form state
     const [fullName, setFullName] = useState('');
@@ -209,6 +209,35 @@ export default function ProfilePage() {
                                     <input className="form-input text-sm" placeholder="URL" value={twitter} onChange={e => setTwitter(e.target.value)} />
                                 </div>
                             </div>
+
+                            <hr className="border-gray-800 my-4" />
+                            <h3 className="font-semibold mb-4 flex items-center gap-2">App Theme</h3>
+                            <div className="flex flex-wrap gap-3 mb-2">
+                                {[
+                                    { id: 'auto', color: '#333', label: 'Auto (Gender)' },
+                                    { id: 'emerald', color: '#10b981', label: 'Emerald' },
+                                    { id: 'blue', color: '#3b82f6', label: 'Blue' },
+                                    { id: 'purple', color: '#8b5cf6', label: 'Purple' },
+                                    { id: 'pink', color: '#ec4899', label: 'Pink' },
+                                    { id: 'orange', color: '#f97316', label: 'Orange' },
+                                    { id: 'cyan', color: '#06b6d4', label: 'Cyan' },
+                                ].map((theme) => (
+                                    <button
+                                        key={theme.id}
+                                        type="button"
+                                        onClick={() => updateSettings({ themePreference: theme.id })}
+                                        className={`w-10 h-10 rounded-full flex items-center justify-center transition-all ${(settings.themePreference || 'auto') === theme.id
+                                                ? 'ring-2 ring-white scale-110'
+                                                : 'opacity-70 hover:opacity-100 hover:scale-105'
+                                            }`}
+                                        style={{ background: theme.id === 'auto' ? 'linear-gradient(to right, #10b981, #ec4899)' : theme.color }}
+                                        title={theme.label}
+                                    >
+                                        {(settings.themePreference || 'auto') === theme.id && <div className="w-3 h-3 bg-white rounded-full shadow-md" />}
+                                    </button>
+                                ))}
+                            </div>
+                            <p className="text-xs text-[var(--text-muted)] mb-4">Select your preferred accent color for the application.</p>
 
                             <hr className="border-gray-800 my-4" />
                             <div>
