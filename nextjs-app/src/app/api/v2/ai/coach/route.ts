@@ -2,15 +2,22 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getSession } from '@/lib/auth';
 import { query } from '@/lib/db';
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const MODEL = 'gemini-2.0-flash-lite-preview-02-05';
-const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${GEMINI_API_KEY}`;
+const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
+// Using a reliable model via OpenRouter. 
+// Options: 'google/gemini-2.0-flash-001', 'meta-llama/llama-3.1-8b-instruct', etc.
+const MODEL = 'google/gemini-2.0-flash-001';
+const OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions';
 
 export async function POST(request: NextRequest) {
     try {
         const session = await getSession();
         if (!session) {
             return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+        }
+
+        if (!OPENROUTER_API_KEY) {
+            console.error('OPENROUTER_API_KEY is missing');
+            return NextResponse.json({ error: 'AI Service Config Error' }, { status: 500 });
         }
 
         // 1. Get User Context (Profile + Recent Logs)
@@ -55,31 +62,44 @@ export async function POST(request: NextRequest) {
         }
         `;
 
-        // 3. Call Gemini API
-        const response = await fetch(GEMINI_URL, {
+        // 3. Call OpenRouter API
+        const response = await fetch(OPENROUTER_URL, {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
+                'HTTP-Referer': 'https://mealplanpro.app', // Optional: Your site URL
+                'X-Title': 'MealPlan Pro', // Optional: Your site name
+            },
             body: JSON.stringify({
-                contents: [{ parts: [{ text: systemPrompt }] }]
+                model: MODEL,
+                messages: [
+                    {
+                        role: 'system',
+                        content: systemPrompt
+                    }
+                ],
+                response_format: { type: 'json_object' } // Hint for JSON mode if supported
             })
         });
 
         if (!response.ok) {
             const err = await response.text();
-            console.error('Gemini API Error:', err);
-            if (response.status === 429) {
-                return NextResponse.json({
-                    error: 'My energy is low (Rate Limit)! Please give me a moment to recharge.'
-                }, { status: 429 });
-            }
-            throw new Error('AI Service Unavailable');
+            console.error('OpenRouter API Error:', err);
+            return NextResponse.json({ error: 'AI Service Unavailable' }, { status: 500 });
         }
 
         const data = await response.json();
-        const text = data.candidates[0].content.parts[0].text;
+
+        // OpenRouter / OpenAI format
+        const content = data.choices?.[0]?.message?.content;
+
+        if (!content) {
+            throw new Error('No content received from AI');
+        }
 
         // Clean markdown code blocks if present
-        const jsonStr = text.replace(/```json/g, '').replace(/```/g, '').trim();
+        const jsonStr = content.replace(/```json/g, '').replace(/```/g, '').trim();
         const result = JSON.parse(jsonStr);
 
         return NextResponse.json(result);
