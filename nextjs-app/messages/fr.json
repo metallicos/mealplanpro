@@ -23,7 +23,11 @@
         "kcal": "kcal",
         "grams": "g",
         "minutes": "min",
-        "hours": "heures"
+        "hours": "heures",
+        "calories": "Calories",
+        "protein": "Protéines",
+        "carbs": "Glucides",
+        "fat": "Lipides"
     },
     "nav": {
         "dashboard": "Tableau de bord",
@@ -337,7 +341,8 @@
         "pageInfo": "Page {current} sur {total}",
         "noResults": "Aucun repas ne correspond à vos critères.",
         "clearFilters": "Effacer tous les filtres",
-        "tryAgain": "Réessayer"
+        "tryAgain": "Réessayer",
+        "backToMeals": "Retour aux Repas"
     },
     "forum": {
         "title": "Forum Communautaire",

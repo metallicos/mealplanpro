@@ -23,7 +23,11 @@
     "kcal": "kcal",
     "grams": "g",
     "minutes": "mins",
-    "hours": "hours"
+    "hours": "hours",
+    "calories": "Calories",
+    "protein": "Protein",
+    "carbs": "Carbs",
+    "fat": "Fat"
   },
   "nav": {
     "dashboard": "Dashboard",
@@ -346,7 +350,8 @@
     "pageInfo": "Page {current} of {total}",
     "noResults": "No meals found matching your criteria.",
     "clearFilters": "Clear all filters",
-    "tryAgain": "Try again"
+    "tryAgain": "Try again",
+    "backToMeals": "Back to Meals"
   },
   "forum": {
     "title": "Community Forum",
