@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import {
     Heart, Brain, Zap, Dumbbell, PersonStanding, Waves, Bike,
     Target, Swords, Footprints, Flame, StretchHorizontal, Mountain,
-    Home, TreePine, Building2, Check
+    Home, TreePine, Building2, Check, Lock
 } from 'lucide-react';
 import { useTranslations, useLocale } from 'next-intl';
 
@@ -47,22 +47,30 @@ const EQUIPMENT = [
     'none',
 ];
 
+interface Exercise {
+    name: string;
+    sets: string;
+    reps: string;
+    rest: string;
+}
+
 interface Workout {
-    type: string;
+    title: string;
     duration: string;
-    exercises: string[];
+    difficulty: string;
+    exercises: Exercise[];
 }
 
 interface AiResponse {
     motivation: string;
-    workouts: Workout[];
+    workout: Workout;
     recommendation: string;
 }
 
 export default function AiCoachWidget() {
     const t = useTranslations('coach');
     const locale = useLocale();
-    const [step, setStep] = useState<'loading' | 'checkin' | 'generating' | 'result'>('loading');
+    const [step, setStep] = useState<'loading' | 'checkin' | 'generating' | 'result' | 'limit'>('loading');
 
     // Check-in State
     const [sleep, setSleep] = useState(7);
@@ -149,10 +157,10 @@ export default function AiCoachWidget() {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ locale: locale || 'en' })
             });
+
             if (!res.ok) {
                 if (res.status === 429) {
-                    alert(t('coachBusy')); // Or minimal toast
-                    setStep('checkin');
+                    setStep('limit');
                     return;
                 }
                 throw new Error('AI Error');
@@ -178,6 +186,24 @@ export default function AiCoachWidget() {
                     </h3>
                     <p className="text-[10px] text-slate-500">{t('subtitle')}</p>
                 </div>
+
+                {step === 'limit' && (
+                    <div className="flex-1 flex flex-col items-center justify-center text-center animate-fade-in">
+                        <div className="w-12 h-12 rounded-full bg-red-500/10 flex items-center justify-center mb-4 border border-red-500/20">
+                            <Lock size={24} className="text-red-400" />
+                        </div>
+                        <h4 className="text-red-100 font-bold text-sm mb-1">Daily Limit Reached</h4>
+                        <p className="text-xs text-slate-500 max-w-[200px]">
+                            You have used your 3 free generations for today. Come back tomorrow!
+                        </p>
+                        <button
+                            onClick={() => setStep('checkin')}
+                            className="mt-6 px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-bold rounded-lg transition-colors border border-slate-700"
+                        >
+                            Back to Settings
+                        </button>
+                    </div>
+                )}
 
                 {step === 'checkin' && (
                     <div className="space-y-4 flex-1">
@@ -307,6 +333,7 @@ export default function AiCoachWidget() {
 
                 {step === 'result' && plan && (
                     <div className="flex-1 animate-fade-in flex flex-col h-full">
+                        {/* Motivation */}
                         <div className="bg-emerald-900/20 p-3 rounded-xl mb-3 border border-emerald-500/10 flex gap-3 items-start">
                             <div className="bg-emerald-500/10 p-1.5 rounded-full shrink-0">
                                 <Brain size={14} className="text-emerald-400" />
@@ -316,23 +343,38 @@ export default function AiCoachWidget() {
                             </div>
                         </div>
 
-                        <div className="flex-1 overflow-y-auto pr-1 custom-scrollbar space-y-2 max-h-[160px]">
-                            {plan.workouts.map((w, i) => (
-                                <div key={i} className="bg-slate-800/40 p-3 rounded-lg border border-transparent hover:border-emerald-500/20">
-                                    <div className="flex justify-between items-center mb-1">
-                                        <div className="flex items-center gap-1.5">
-                                            <span className={`w-1.5 h-1.5 rounded-full ${w.type === 'Cardio' ? 'bg-orange-400' : w.type === 'Strength' ? 'bg-emerald-500' : 'bg-blue-400'}`}></span>
-                                            <span className="font-bold text-slate-200 text-xs">{w.type}</span>
-                                        </div>
-                                        <span className="text-[9px] font-bold bg-emerald-500/10 text-emerald-400 px-1.5 py-0.5 rounded">
-                                            {w.duration}
-                                        </span>
+                        {/* Single Workout Plan */}
+                        <div className="flex-1 overflow-y-auto pr-1 custom-scrollbar">
+                            <div className="bg-slate-800/40 rounded-lg border border-emerald-500/20 overflow-hidden">
+                                {/* Header */}
+                                <div className="bg-emerald-900/30 px-3 py-2 border-b border-emerald-500/20 flex justify-between items-center">
+                                    <h4 className="font-bold text-emerald-100 text-xs truncate max-w-[180px]">{plan.workout.title}</h4>
+                                    <div className="flex gap-2">
+                                        <span className="text-[9px] bg-slate-800 px-1.5 py-0.5 rounded text-slate-300">{plan.workout.duration}</span>
+                                        <span className="text-[9px] bg-slate-800 px-1.5 py-0.5 rounded text-slate-300">{plan.workout.difficulty}</span>
                                     </div>
-                                    <p className="text-[10px] text-slate-400 leading-normal pl-3 border-l border-slate-700">
-                                        {Array.isArray(w.exercises) ? w.exercises.join(' • ') : w.exercises}
-                                    </p>
                                 </div>
-                            ))}
+                                {/* Exercises List */}
+                                <div className="p-2 space-y-2">
+                                    {plan.workout.exercises.map((ex, i) => (
+                                        <div key={i} className="flex justify-between items-start text-xs border-b border-slate-700/50 pb-2 last:border-0 last:pb-0">
+                                            <div>
+                                                <p className="font-bold text-slate-200">{ex.name}</p>
+                                                <p className="text-[10px] text-slate-500">{ex.sets} x {ex.reps}</p>
+                                            </div>
+                                            <span className="text-[9px] text-emerald-400 font-mono bg-emerald-900/20 px-1 rounded">{ex.rest}</span>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+
+                            {/* Recommendation / Tip */}
+                            <div className="mt-3 bg-blue-900/10 p-2 rounded-lg border border-blue-500/10">
+                                <p className="text-[10px] text-blue-200 leading-relaxed">
+                                    <span className="font-bold text-blue-400">Tip: </span>
+                                    {plan.recommendation}
+                                </p>
+                            </div>
                         </div>
 
                         <button
