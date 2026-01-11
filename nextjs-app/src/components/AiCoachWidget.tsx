@@ -161,7 +161,7 @@ export default function AiCoachWidget() {
         }
     };
 
-    if (step === 'loading') return <div className="card h-full animate-pulse bg-slate-800 rounded-3xl min-h-[500px]"></div>;
+    if (step === 'loading') return <div className="card h-full animate-pulse bg-slate-800 rounded-3xl min-h-[350px]"></div>;
 
     return (
         <div className="card h-full flex flex-col justify-between bg-[#0F172A] border border-emerald-500/10 shadow-xl relative overflow-hidden rounded-3xl">
@@ -313,7 +313,7 @@ export default function AiCoachWidget() {
                             <div className="text-[10px] text-emerald-400/60 mt-3 text-right font-bold tracking-widest uppercase">— {t('yourCoach')}</div>
                         </div>
 
-                        <div className="flex-1 space-y-3 overflow-y-auto max-h-[300px] pr-2 custom-scrollbar">
+                        <div className="flex-1 space-y-3 overflow-y-auto max-h-[220px] pr-2 custom-scrollbar">
                             <h4 className="font-bold text-white text-[10px] uppercase tracking-widest mb-2 sticky top-0 bg-[#0F172A] py-2 z-10">{t('workoutOptions')}</h4>
                             {plan.workouts.map((w, i) => (
                                 <div key={i} className="group bg-slate-800/40 p-4 rounded-xl hover:bg-slate-800 transition-all border border-transparent hover:border-emerald-500/30 cursor-pointer">

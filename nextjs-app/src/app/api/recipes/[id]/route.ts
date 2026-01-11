@@ -10,11 +10,16 @@ export async function GET(
     const { id } = params;
 
     try {
-        // Get recipe with translation (default to English)
+        // Get recipe with translation (try EN, then FR fallback)
         const recipes = await query(`
-            SELECT r.*, rt.title, rt.description, rt.ingredients_json, rt.method_json
+            SELECT r.*, 
+                   COALESCE(rt.title, rt_fr.title, 'Untitled Recipe') as title,
+                   COALESCE(rt.description, rt_fr.description, '') as description,
+                   COALESCE(rt.ingredients_json, rt_fr.ingredients_json, '[]') as ingredients_json,
+                   COALESCE(rt.method_json, rt_fr.method_json, '[]') as method_json
             FROM recipes r
             LEFT JOIN recipe_translations rt ON r.id = rt.recipe_id AND rt.language_code = 'en'
+            LEFT JOIN recipe_translations rt_fr ON r.id = rt_fr.recipe_id AND rt_fr.language_code = 'fr'
             WHERE r.id = ?
         `, [id]);
 

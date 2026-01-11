@@ -222,9 +222,11 @@ export default function CommunityPage() {
                 ) : (
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pb-12">
                         {posts.map(post => (
-                            <Link href={`/forum/${post.id}`} key={post.id} className="group card hover:border-[var(--accent-primary)] hover:-translate-y-1 transition-all duration-300 flex flex-col h-full bg-gradient-to-br from-[var(--bg-card)] to-[rgba(30,30,40,0.4)]">
+                            <div key={post.id} className="group card hover:border-[var(--accent-primary)] hover:-translate-y-1 transition-all duration-300 flex flex-col h-full bg-gradient-to-br from-[var(--bg-card)] to-[rgba(30,30,40,0.4)] relative">
+                                <Link href={`/forum/${post.id}`} className="absolute inset-0 z-0" aria-label="View Post" />
+
                                 {/* Author Header */}
-                                <div className="flex items-center gap-3 mb-4">
+                                <div className="flex items-center gap-3 mb-4 relative z-10 pointer-events-none">
                                     {post.author_avatar ? (
                                         <img src={post.author_avatar} className="w-10 h-10 rounded-full object-cover ring-2 ring-[var(--bg-primary)] group-hover:ring-[var(--accent-primary)] transition-all" />
                                     ) : (
@@ -239,7 +241,7 @@ export default function CommunityPage() {
                                 </div>
 
                                 {/* Content */}
-                                <div className="flex-1">
+                                <div className="flex-1 relative z-10 pointer-events-none">
                                     <h3 className="font-bold text-xl mb-2 text-white group-hover:text-[var(--accent-primary)] transition-colors line-clamp-2">{post.title}</h3>
                                     <p className="text-gray-400 text-sm line-clamp-3 mb-4 leading-relaxed group-hover:text-gray-300 transition-colors">
                                         {renderContent(post.content)}
@@ -248,19 +250,19 @@ export default function CommunityPage() {
 
                                 {/* Link Preview / Image */}
                                 {post.image_url && (
-                                    <div className="h-48 rounded-xl mb-4 bg-cover bg-center relative overflow-hidden shadow-lg group-hover:shadow-indigo-500/10 transition-all">
+                                    <div className="h-48 rounded-xl mb-4 bg-cover bg-center relative overflow-hidden shadow-lg group-hover:shadow-indigo-500/10 transition-all z-10 pointer-events-none">
                                         <img src={post.image_url} alt="Post image" className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" />
                                     </div>
                                 )}
 
                                 {/* Footer */}
-                                <div className="flex justify-between items-center pt-4 border-t border-white/5 mt-auto">
+                                <div className="flex justify-between items-center pt-4 border-t border-white/5 mt-auto relative z-20">
                                     <button
                                         onClick={(e) => toggleLike(e, post.id)}
-                                        className="flex items-center gap-1.5 px-3 py-1.5 rounded-full hover:bg-white/5 transition-all group/like"
+                                        className="flex items-center gap-1.5 px-3 py-1.5 rounded-full hover:bg-white/5 transition-all group/like cursor-pointer"
                                     >
-                                        <Heart size={16} className="text-red-400 group-hover/like:scale-125 transition-transform duration-300" />
-                                        <span className="font-medium text-gray-400 group-hover/like:text-red-400 transition-colors">{post.likes}</span>
+                                        <Heart size={16} className={`group-hover/like:scale-125 transition-transform duration-300 ${post.likes > 0 ? 'fill-red-500 text-red-500' : 'text-red-400'}`} />
+                                        <span className={`font-medium group-hover/like:text-red-400 transition-colors ${post.likes > 0 ? 'text-red-500' : 'text-gray-400'}`}>{post.likes}</span>
                                     </button>
 
                                     <div className="flex items-center gap-2">
@@ -269,13 +271,13 @@ export default function CommunityPage() {
                                         </span>
                                         <button
                                             onClick={(e) => sharePost(e, post)}
-                                            className="p-1.5 text-gray-500 hover:text-white transition-colors"
+                                            className="p-1.5 text-gray-500 hover:text-white transition-colors cursor-pointer"
                                         >
                                             <Share2 size={16} />
                                         </button>
                                     </div>
                                 </div>
-                            </Link>
+                            </div>
                         ))}
                     </div>
                 )}
