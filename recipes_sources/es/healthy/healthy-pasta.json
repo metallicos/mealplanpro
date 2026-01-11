@@ -1,20 +1,20 @@
 [
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/pesto-spinach-penne/",
-        "title": "[ES] Pesto spinach penne",
-        "description": "(Translation pending) Combine pasta with spinach, pesto and tomatoes for an easy healthy meal. Tomatoes contain vitamin C, which will help your body absorb the iron in the spinach",
+        "title": "Penne de espinacas al pesto",
+        "description": "Combine pasta con espinacas, pesto y tomates para obtener una comida fácil y saludable. Los tomates contienen vitamina C, que ayudará a tu cuerpo a absorber el hierro de las espinacas.",
         "prep_time": "5 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "400g wholemeal penne",
-            "5 tbsp vegetarian basil pesto",
-            "500g baby spinach , roughly chopped",
-            "220g cherry tomatoes , halved"
+            "400 g de penne integral",
+            "5 cucharadas de pesto de albahaca vegetariana",
+            "500 g de espinacas tiernas, picadas en trozos grandes",
+            "220 g de tomates cherry cortados por la mitad"
         ],
         "method": [
-            "Cook the penne following pack instructions. Meanwhile, heat 4 tbsp of the pesto in a non-stick pan over a medium-low heat. Add the spinach and 2 tbsp water, then cover to wilt.",
-            "Drain the pasta and toss with the spinach, the rest of the pesto and the tomatoes. Serve half. Cool and chill the rest.Will keep chilled for three days.Reheat with a splash of water."
+            "Cocine el penne siguiendo las instrucciones del paquete. Mientras tanto, calienta 4 cucharadas de pesto en una sartén antiadherente a fuego medio-bajo. Agregue las espinacas y 2 cucharadas de agua, luego cubra hasta que se ablanden.",
+            "Escurrir la pasta y mezclar con las espinacas, el resto del pesto y los tomates. Servir la mitad. Deje enfriar y enfríe el resto. Se mantendrá frío durante tres días. Vuelva a calentar con un chorrito de agua."
         ],
         "nutritional_info": {
             "kcal": "487",
@@ -31,23 +31,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/one-pot-green-bean-potato-pesto-pasta/",
-        "title": "[ES] One-pot green bean, potato & pesto pasta",
-        "description": "(Translation pending) For a speedy and nutritious midweek meal, combine pesto and greens with pasta and new potatoes – a light supper for long summer evenings",
+        "title": "Pasta de judías verdes, patatas y pesto en una olla",
+        "description": "Para una comida rápida y nutritiva entre semana, combine pesto y verduras con pasta y patatas nuevas: una cena ligera para las largas noches de verano.",
         "prep_time": "10 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "5",
         "ingredients": [
-            "350g baby new potatoes",
-            "400g penne or fusilli",
-            "1 litre hot vegetable stock",
-            "200g fresh pesto (ensure vegetarian, if needed)",
-            "120g green beans, trimmed",
-            "½ lemon, zested",
-            "grated parmesan or vegetarian alternative, to serve"
+            "350 g de patatas nuevas",
+            "400 g de penne o fusilli",
+            "1 litro de caldo de verduras caliente",
+            "200 g de pesto fresco (preferiblemente vegetariano, si es necesario)",
+            "120 g de judías verdes, peladas",
+            "½ limón, rallado",
+            "parmesano rallado o alternativa vegetariana, para servir"
         ],
         "method": [
-            "Tip the potatoes, pasta and stock into a flameproof casserole. Bring to the boil over a medium heat, then reduce the heat to a simmer and cook for 15 mins uncovered and stirring occasionally. Stir in the pesto, green beans, lemon zest and some seasoning, and cook for 2 mins more.",
-            "Cover the pot with a lid, remove from the heat and leave to stand for 5 mins. Serve the pasta in bowls, topped with grated cheese."
+            "Vierta las patatas, la pasta y el caldo en una cazuela ignífuga. Llevar a ebullición a fuego medio, luego reducir el fuego a fuego lento y cocinar durante 15 minutos sin tapar y revolviendo ocasionalmente. Agregue el pesto, las judías verdes, la ralladura de limón y un poco de condimento y cocine por 2 minutos más.",
+            "Tapar la olla, retirar del fuego y dejar reposar 5 minutos. Sirva la pasta en tazones y cubra con queso rallado."
         ],
         "nutritional_info": {
             "kcal": "488",
@@ -64,32 +64,32 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chicken-pesto-orzo-salad/",
-        "title": "[ES] Chicken pesto orzo salad",
-        "description": "(Translation pending) Elevate standard pasta salad by using orzo and pesto. The dish also offers a good way to make the most of asparagus while it’s in season in the spring, too",
+        "title": "Ensalada de pollo al pesto y orzo",
+        "description": "Mejore la ensalada de pasta estándar usando orzo y pesto. El plato también ofrece una buena manera de aprovechar al máximo los espárragos mientras están en temporada en primavera.",
         "prep_time": "25 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "2 boneless, skinless chicken breasts",
-            "1 lemon, zested and juiced",
-            "3 garlic cloves, 2 crushed, 1 left whole",
-            "1 tbsp olive oil",
-            "25g flaked almonds",
-            "large bunch of flat-leaf parsley",
-            "small bunch of basil",
-            "small bunch of mint, leaves picked",
-            "25g parmesan, grated, plus extra shaved parmesan to serve",
-            "100ml extra virgin olive oil, plus a drizzle to serve",
-            "250g orzo",
-            "16 asparagus spears"
+            "2 pechugas de pollo deshuesadas y sin piel",
+            "1 limón, rallado y exprimido",
+            "3 dientes de ajo, 2 machacados y 1 dejado entero",
+            "1 cucharada de aceite de oliva",
+            "25 g de almendras laminadas",
+            "manojo grande de perejil de hoja plana",
+            "manojo pequeño de albahaca",
+            "manojo pequeño de menta, hojas recogidas",
+            "25 g de parmesano rallado y parmesano extra rallado para servir",
+            "100ml de aceite de oliva virgen extra, más un chorrito para servir",
+            "250 g de cebada",
+            "16 lanzas de espárragos"
         ],
         "method": [
-            "Put the chicken breasts on a board and cover with a sheet of baking parchment. Use a rolling pin or meat mallet to bash to an even thickness of about 2cm, being careful not to break the chicken into pieces.",
-            "Combine the lemon zest, crushed garlic, olive oil and some seasoning in a medium bowl, then add the chicken and turn in the marinade to coat. Transfer to the fridge while you make the pesto.",
-            "Toast the flaked almonds in a dry frying pan over a medium heat for 2-3 mins, shaking the pan often until the almonds are golden brown. Tip into a smallfood processoror blender. Peel the whole garlic clove and tip this into the food processor along with the parsley, basil, most of the mint leaves, the parmesan, extra virgin olive oil and lemon juice. Season, then blitz to a fine texture.",
-            "Cook the orzo in a large pan of boiling salted water following the pack instructions, or until al dente. Heat a griddle pan over a medium-high heat and cook the marinated chicken for 4-5 mins on each side until cooked through with char lines. Drain the orzo and transfer the chicken to a plate to rest.",
-            "Drizzle the asparagus spears with a little extra virgin olive oil and season with salt, thengriddlefor 3 mins until just softened. Remove from the heat and set aside.",
-            "Toss most of the pesto through the cooked orzo along with any resting juices from the chicken.The remaining pesto will keep covered in the fridge for up to five days.Slice the chicken breasts. Tip the orzo onto a large serving platter and pile the asparagus and chicken on top, then scatter with the remaining mint leaves, some parmesan shavings and a grinding of black pepper. Drizzle with a little extra virgin olive oil and serve warm."
+            "Coloque las pechugas de pollo en una tabla y cúbralas con una hoja de papel para hornear. Utilice un rodillo o un mazo para carne para golpear hasta obtener un grosor uniforme de unos 2 cm, teniendo cuidado de no romper el pollo en pedazos.",
+            "Combine la ralladura de limón, el ajo machacado, el aceite de oliva y un poco de condimento en un tazón mediano, luego agregue el pollo y agregue la marinada para cubrirlo. Transfiera al refrigerador mientras prepara el pesto.",
+            "Tuesta las almendras laminadas en una sartén seca a fuego medio durante 2-3 minutos, agitando la sartén con frecuencia hasta que las almendras estén doradas. Vierta en un procesador de alimentos pequeño o en una licuadora. Pele el diente de ajo entero y viértalo en el procesador de alimentos junto con el perejil, la albahaca, la mayor parte de las hojas de menta, el parmesano, el aceite de oliva virgen extra y el jugo de limón. Sazone y luego mezcle hasta obtener una textura fina.",
+            "Cocine el orzo en una cacerola grande con agua hirviendo con sal siguiendo las instrucciones del paquete, o hasta que esté al dente. Caliente una sartén a fuego medio-alto y cocine el pollo marinado durante 4-5 minutos por cada lado hasta que esté bien cocido con líneas carbonizadas. Escurre el orzo y transfiere el pollo a un plato para que repose.",
+            "Rocíe los espárragos con un poco de aceite de oliva virgen extra y sazone con sal, luego cocine a la plancha durante 3 minutos hasta que se ablanden. Retirar del fuego y reservar.",
+            "Mezcle la mayor parte del pesto por el orzo cocido junto con el jugo restante del pollo. El pesto restante se mantendrá cubierto en el refrigerador hasta por cinco días. Corte las pechugas de pollo. Coloque el orzo en una fuente grande para servir y apile los espárragos y el pollo encima, luego espolvoree con las hojas de menta restantes, algunas virutas de parmesano y un poco de pimienta negra. Rociar con un poco de aceite de oliva virgen extra y servir caliente."
         ],
         "nutritional_info": {
             "kcal": "461",
@@ -106,26 +106,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/creamy-mushroom-spinach-pasta/",
-        "title": "[ES] Creamy mushroom & spinach pasta",
-        "description": "(Translation pending) Toss together tagliatelle, mushrooms and spinach in a parmesan and crème fraîche sauce to make a quick and low calorie dinner that takes just 25 minutes",
+        "title": "Pasta cremosa de champiñones y espinacas",
+        "description": "Mezcle tallarines, champiñones y espinacas en una salsa de parmesano y crema fresca para preparar una cena rápida y baja en calorías que solo toma 25 minutos.",
         "prep_time": "5 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "2 tbsp olive oil",
-            "1 small onion, finely chopped",
-            "150g baby mushrooms, halved",
-            "150g tagliatelle",
-            "2 garlic cloves, crushed",
-            "200g low-fat crème fraîche",
-            "15g parmesan or vegetarian alternative, grated",
-            "120g baby spinach",
-            "½ tsp chilli flakes (optional)"
+            "2 cucharadas de aceite de oliva",
+            "1 cebolla pequeña, finamente picada",
+            "150 g de champiñones cortados por la mitad",
+            "150 g de tallarines",
+            "2 dientes de ajo machacados",
+            "200 g de crema fresca baja en grasas",
+            "15 g de parmesano o alternativa vegetariana, rallado",
+            "120 g de espinacas tiernas",
+            "½ cucharadita de hojuelas de chile (opcional)"
         ],
         "method": [
-            "Heat the oil in a mediumsaucepanover a medium heat and fry the onion and mushrooms for 10 mins, or until softened and browned slightly. Meanwhile, cook the pasta following pack instructions.",
-            "Add the garlic to the pan with the mushrooms and cook for 2 mins more. Tip in the crème fraîche and parmesan, stir to combine, then add the baby spinach. Set aside.",
-            "Remove the pasta from the heat and drain, reserving 25ml of the water. Toss the pasta in the creamy mushroom sauce, put back on the heat and cook over a low heat until the spinach wilts, about 5 mins. Pour in enough of the reserved water to loosen slightly. Season with black pepper and finish with a sprinkle of chilli flakes, if you like."
+            "Calienta el aceite en una cacerola mediana a fuego medio y fríe la cebolla y los champiñones durante 10 minutos, o hasta que se ablanden y se doren ligeramente. Mientras tanto, cocina la pasta siguiendo las instrucciones del paquete.",
+            "Agrega el ajo a la sartén con los champiñones y cocina por 2 minutos más. Agregue la crema fresca y el parmesano, revuelva para combinar y luego agregue las espinacas tiernas. Dejar de lado.",
+            "Retirar la pasta del fuego y escurrir reservando 25ml de agua. Mezcle la pasta con la salsa cremosa de champiñones, vuelva a ponerla al fuego y cocine a fuego lento hasta que las espinacas se ablanden, aproximadamente 5 minutos. Vierta suficiente agua reservada para que se afloje un poco. Sazone con pimienta negra y termine con una pizca de hojuelas de chile, si lo desea."
         ],
         "nutritional_info": {
             "kcal": "491",
@@ -142,25 +142,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/healthy-tuna-pasta/",
-        "title": "[ES] Healthy tuna pasta",
-        "description": "(Translation pending) Try our quick and easy healthy tuna pasta. It’s comforting, but also packed with three of your five-a-day and can be doubled to feed a family",
+        "title": "Pasta de atún saludable",
+        "description": "Prueba nuestra pasta de atún saludable, fácil y rápida. Es reconfortante, pero también incluye tres de sus cinco al día y puede duplicarse para alimentar a una familia.",
         "prep_time": "10 mins Cook: 14 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "150g wholemeal penne",
-            "1 large leek (200g), halved, and thinly sliced",
-            "1 tsp olive oil",
-            "160g cherry tomatoes, preferably on the vine",
-            "198g can sweetcorn, drained",
-            "75g ricotta",
-            "160g can tuna in spring water, drained",
-            "handful of basil, chopped, plus a few whole leaves to serve"
+            "150 g de penne integral",
+            "1 puerro grande (200 g), partido por la mitad y en rodajas finas",
+            "1 cucharadita de aceite de oliva",
+            "160 g de tomates cherry, preferiblemente en rama",
+            "Lata de 198 g de maíz dulce, escurrido",
+            "75 g de ricota",
+            "Lata de 160 g de atún en agua de manantial, escurrido",
+            "un puñado de albahaca picada y unas cuantas hojas enteras para servir"
         ],
         "method": [
-            "Boil the penne with the leek in a large pan of salted water following pack instructions, until al dente.",
-            "Meanwhile, heat the oil in a large pan over a medium-high heat and fry the tomatoes for a few minutes, until they start to burst and soften. Add the sweetcorn and cook for 2-3 mins to heat through. Drain the pasta and leeks, reserving a little of the pasta water. Tip the drained pasta and leeks into the pan with the tomatoes, then toss through the ricotta and tuna.",
-            "Season with plenty of black pepper. If you want to loosen the consistency, stir in some of the reserved pasta water along with the chopped basil. Serve scattered with the whole basil leaves."
+            "Hervir el penne con el puerro en una cacerola grande con agua con sal siguiendo las instrucciones del paquete, hasta que esté al dente.",
+            "Mientras tanto, calienta el aceite en una sartén grande a fuego medio-alto y fríe los tomates durante unos minutos, hasta que empiecen a reventar y ablandarse. Agregue el maíz dulce y cocine durante 2-3 minutos para que se caliente. Escurrir la pasta y los puerros reservando un poco del agua de la pasta. Vierta la pasta escurrida y los puerros en la sartén con los tomates, luego agregue la ricota y el atún.",
+            "Sazone con abundante pimienta negra. Si desea aflojar la consistencia, agregue un poco del agua de la pasta reservada junto con la albahaca picada. Sirva esparcidas con las hojas enteras de albahaca."
         ],
         "nutritional_info": {
             "kcal": "459",
@@ -177,24 +177,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/build-your-own-pesto-pasta-salad/",
-        "title": "[ES] Build your own pesto pasta salad",
-        "description": "(Translation pending) Rustle up this easy pesto pasta salad for the family. Customise it by adding your kid’s favourite veg",
+        "title": "Prepara tu propia ensalada de pasta al pesto",
+        "description": "Prepare esta sencilla ensalada de pasta al pesto para la familia. Personalízalo agregando las verduras favoritas de tus hijos.",
         "prep_time": "10 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "400g farfalle pasta",
-            "3 tbsp olive oil",
-            "50g pine nuts",
-            "5 tbsp pesto (see recipe, right and below, if you want to make your own)",
-            "10 large basil leaves",
-            "½ lemon, juiced and zested",
-            "50g parmesan or vegetarian alternative, shaved",
-            "halved cherry tomatoes, drained sweetcorn, peas, rocket"
+            "400 g de pasta farfalle",
+            "3 cucharadas de aceite de oliva",
+            "50 g de piñones",
+            "5 cucharadas de pesto (ver receta, a la derecha y abajo, si quieres hacer el tuyo propio)",
+            "10 hojas grandes de albahaca",
+            "½ limón, exprimido y rallado",
+            "50 g de parmesano o alternativa vegetariana, rallado",
+            "tomates cherry partidos por la mitad, maíz dulce escurrido, guisantes, rúcula"
         ],
         "method": [
-            "Cook the pasta following pack instructions, then drain and toss in 1 tbsp of the oil. Transfer to a large bowl and set aside to cool, tossing occasionally so it doesn’t stick.",
-            "Toast the pine nuts in a dry frying pan over a low heat, constantly moving them for 4-5 mins until browned. When the pasta has completely cooled, toss through thepesto, toasted pine nuts, remaining olive oil, basil, lemon zest and juice, and the tomatoes, sweetcorn, peas and rocket, if using. Season, then scatter over the parmesan and serve."
+            "Cocine la pasta siguiendo las instrucciones del paquete, luego escúrrala y agregue 1 cucharada de aceite. Transfiera a un tazón grande y déjelo enfriar, revolviendo ocasionalmente para que no se pegue.",
+            "Tostar los piñones en una sartén seca a fuego lento, moviéndolos constantemente durante 4-5 minutos hasta que se doren. Cuando la pasta se haya enfriado por completo, mezcle el pesto, los piñones tostados, el aceite de oliva restante, la albahaca, la ralladura y el jugo de limón, los tomates, el maíz dulce, los guisantes y la rúcula, si se usan. Sazone, luego esparza el parmesano y sirva."
         ],
         "nutritional_info": {
             "kcal": "415",
@@ -211,26 +211,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/orecchiette-with-butter-beans-parsley-chilli-lemon/",
-        "title": "[ES] Orecchiette with butter beans, parsley, chilli & lemon",
-        "description": "(Translation pending) Make this simple pasta dish using whatever you’ve got to hand, including different pasta shapes, beans or chopped tomatoes. You can leave out the chilli if you prefer",
+        "title": "Orecchiette con frijoles, perejil, chile y limón",
+        "description": "Prepara este sencillo plato de pasta con lo que tengas a mano, incluidos diferentes formas de pasta, frijoles o tomates picados. Puedes omitir el chile si lo prefieres.",
         "prep_time": "5 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "400g orecchiette",
-            "1 tbsp olive oil",
-            "2 red chillies, deseeded and finely chopped",
-            "2 garlic cloves, crushed",
-            "400g can butter beans, drained and rinsed",
-            "400g can cherry tomatoes",
-            "1 lemon, zested and juiced",
-            "½ large bunch of parsley, finely chopped",
-            "25g grated parmesan or vegetarian alternative (optional)"
+            "400 g de orecchiette",
+            "1 cucharada de aceite de oliva",
+            "2 chiles rojos, sin semillas y finamente picados",
+            "2 dientes de ajo machacados",
+            "Lata de 400 g de alubias, escurridas y enjuagadas",
+            "Lata de 400g de tomates cherry.",
+            "1 limón, rallado y exprimido",
+            "½ manojo grande de perejil, finamente picado",
+            "25 g de parmesano rallado o alternativa vegetariana (opcional)"
         ],
         "method": [
-            "Cook the orecchiette following pack instructions until al dente, about 10 mins. Drain, reserving the cooking water.",
-            "Meanwhile, heat the olive oil in a large frying pan over a medium heat and fry the chillies and garlic for 2 mins until just softened. Mix in the butter beans, tomatoes, lemon zest and juice. Cook for 5 mins more, then scatter in the parsley and cook for another 2 mins. The tomatoes should have reduced slightly and the beans should be warmed through.",
-            "Tip the orecchiette into the frying pan with the butter bean mixture. Pour in a little of the reserved pasta cooking water if you prefer a looser sauce. Spoon into bowls and sprinkle with the cheese before serving, if you like."
+            "Cocine las orecchiette siguiendo las instrucciones del paquete hasta que estén al dente, aproximadamente 10 minutos. Escurrir reservando el agua de cocción.",
+            "Mientras tanto, calienta el aceite de oliva en una sartén grande a fuego medio y fríe los chiles y el ajo durante 2 minutos hasta que se ablanden. Incorpora las judías blancas, los tomates, la ralladura de limón y el jugo. Cocine por 5 minutos más, luego esparza el perejil y cocine por otros 2 minutos. Los tomates deberían haberse reducido ligeramente y los frijoles deberían estar bien calientes.",
+            "Vierta las orecchiette en la sartén con la mezcla de frijoles mantecosos. Vierta un poco del agua de cocción de la pasta reservada si prefiere una salsa más suelta. Vierta en tazones y espolvoree con queso antes de servir, si lo desea."
         ],
         "nutritional_info": {
             "kcal": "422",
@@ -247,32 +247,32 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/healthy-chicken-pasta-bake/",
-        "title": "[ES] Healthy chicken pasta bake",
-        "description": "(Translation pending) Try this healthy chicken pasta bake with peppers, courgette and ricotta for a nutritious midweek dinner. It’s sure to be a hit with everyone",
+        "title": "Pasta al horno con pollo saludable",
+        "description": "Pruebe esta saludable pasta con pollo horneada con pimientos, calabacín y ricotta para una cena nutritiva entre semana. Seguro que será un éxito para todos.",
         "prep_time": "10 mins Cook: 50 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "300g wholemeal penne",
-            "2 tsp olive oil",
-            "2 peppers (we used 1 yellow and 1 orange), deseeded and chopped",
-            "1 large courgette (160g), coarsely grated",
-            "3 large garlic cloves, finely grated",
-            "500g carton passata",
-            "1 tbsp smoked paprika",
-            "1½ tsp vegetable bouillon powder",
-            "1 tsp chilli powder (optional)",
-            "25g Kalamata olives (about 8), sliced",
-            "400g chicken breasts (2 large), cut into pieces",
-            "large handful of basil, chopped, plus extra to serve",
-            "100g ricotta",
-            "20g finely grated mature cheddar"
+            "300 g de penne integral",
+            "2 cucharaditas de aceite de oliva",
+            "2 pimientos (nosotros usamos 1 amarillo y 1 naranja), sin semillas y picados",
+            "1 calabacín grande (160 g), rallado grueso",
+            "3 dientes de ajo grandes, finamente rallados",
+            "500 g de puré de cartón",
+            "1 cucharada de pimentón ahumado",
+            "1½ cucharadita de caldo de verduras en polvo",
+            "1 cucharadita de chile en polvo (opcional)",
+            "25 g de aceitunas Kalamata (unas 8), en rodajas",
+            "400 g de pechugas de pollo (2 grandes), cortadas en trozos",
+            "un puñado grande de albahaca picada y más para servir",
+            "100 g de ricota",
+            "20 g de queso cheddar maduro finamente rallado"
         ],
         "method": [
-            "Cook the pasta following pack instructions. Heat the oven to 180C/160C fan/gas 4.",
-            "Meanwhile, heat the oil in a large pan over a medium heat and fry the peppers for 8 mins, stirring until they start to soften. Add the courgette and garlic, stir for a few minutes more, then tip in the passata and stir in the smoked paprika, bouillon, chilli, if using, and olives. Simmer for 3-4 mins.",
-            "Drain the pasta, reserving the pasta water. Tip the pasta into the passata mixture along with the chicken, half a mug of the pasta water and the basil. Stir together well, then tip into baking dish.",
-            "Mix the ricotta in a bowl with 5 tbsp of the pasta water and spread across the top of the pasta. Sprinkle over the cheddar, then bake for 35 mins. Scatter with a few extra basil leaves, if you like, and serve."
+            "Cocine la pasta siguiendo las instrucciones del paquete. Calentar el horno a 180C/160C ventilador/gas 4.",
+            "Mientras tanto, calienta el aceite en una sartén grande a fuego medio y fríe los pimientos durante 8 minutos, revolviendo hasta que empiecen a ablandarse. Agregue el calabacín y el ajo, revuelva durante unos minutos más, luego agregue la passata y agregue el pimentón ahumado, el caldo, la guindilla, si se usa, y las aceitunas. Cocine a fuego lento durante 3-4 minutos.",
+            "Escurrir la pasta, reservando el agua de la pasta. Vierta la pasta en la mezcla de passata junto con el pollo, media taza de agua de pasta y la albahaca. Mezcle bien y luego viértalo en una fuente para hornear.",
+            "Mezclar la ricota en un bol con 5 cucharadas de agua de la pasta y esparcir por la parte superior de la pasta. Espolvoree sobre el queso cheddar y luego hornee por 35 minutos. Espolvoree con algunas hojas de albahaca extra, si lo desea, y sirva."
         ],
         "nutritional_info": {
             "kcal": "480",
@@ -289,33 +289,33 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/meatball-pasta-bake/",
-        "title": "[ES] ‘Meat’ball pasta bake",
-        "description": "(Translation pending) Serve up a bubbling vegan pasta bake made with Tesco Plant Chef Meat-Free Balls in a rich tomato sauce. This comforting, low-calorie dinner is sure to become a family favourite",
+        "title": "Pasta horneada con albóndigas",
+        "description": "Sirva una pasta vegana burbujeante horneada hecha con bolas sin carne Tesco Plant Chef en una rica salsa de tomate. Esta cena reconfortante y baja en calorías seguramente se convertirá en la favorita de la familia.",
         "prep_time": "15 mins Cook: 50 mins",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "3 tbsp olive oil",
-            "12 Tesco Plant Chef Meat-Free Balls",
-            "1 onion, finely chopped",
-            "2 garlic cloves, crushed",
-            "pinch of chilli flakes",
-            "1 tbsp tomato purée",
-            "2 tsp dried oregano",
-            "1 tbsp balsamic vinegar",
-            "500ml passata",
-            "1 tsp sugar",
-            "small bunch of basil, leaves picked and torn, stalks finely chopped",
-            "350g pasta shapes of your choice",
-            "100g sourdough, blitzed to fine crumbs in a food processor",
-            "20g black olives, pitted and halved (optional)",
-            "green salad, to serve"
+            "3 cucharadas de aceite de oliva",
+            "12 bolas sin carne Tesco Plant Chef",
+            "1 cebolla, finamente picada",
+            "2 dientes de ajo machacados",
+            "pizca de hojuelas de chile",
+            "1 cucharada de puré de tomate",
+            "2 cucharaditas de orégano seco",
+            "1 cucharada de vinagre balsámico",
+            "500ml en puré",
+            "1 cucharadita de azúcar",
+            "manojo pequeño de albahaca, hojas cortadas y cortadas, tallos finamente picados",
+            "350 g de pasta del formato que prefieras",
+            "100 g de masa madre, triturada hasta obtener migajas finas en un procesador de alimentos",
+            "20 g de aceitunas negras, deshuesadas y partidas por la mitad (opcional)",
+            "ensalada verde, para servir"
         ],
         "method": [
-            "Heat 1 tbsp olive oil in a deep frying pan over a medium heat and fry the Tesco Plant Chef Meat-Free Balls for 10 mins until golden and crisp, turning often. Remove to a plate using a slotted spoon.",
-            "Heat another 1 tbsp oil in the same pan and fry the onion for 6-8 mins until soft and translucent. Stir in half the garlic and the chilli flakes and fry for 2 mins more, then stir in the tomato purée and half the dried oregano. Cook for another minute until the purée darkens slightly, then add the vinegar, passata, sugar, basil stalks and some of the basil leaves. Pour in 200ml water and simmer, uncovered, for 15-20 mins until the sauce has thickened slightly.",
-            "Meanwhile, cook the pasta in a pan of boiling salted water for 6-8 mins until just becoming tender, but still undercooked in the middle. Drain. Mix the sourdough breadcrumbs and the remaining garlic, oregano and oil together in a bowl and season. Heat the oven to 220C/200C fan/gas 7.",
-            "Tip the cooked pasta, the ‘meat’balls and olives (if using) into the pan with the sauce and gently stir to combine. Tip everything into a lasagne dish, then scatter over the garlic breadcrumbs and bake for 15-20 mins until the topping is golden and crisp and the pasta is al dente. Scatter with the remaining basil leaves and serve with a green salad on the side."
+            "Calienta 1 cucharada de aceite de oliva en una sartén honda a fuego medio y fríe las bolas sin carne Tesco Plant Chef durante 10 minutos hasta que estén doradas y crujientes, volteándolas con frecuencia. Retirar a un plato con una espumadera.",
+            "Calienta otra cucharada de aceite en la misma sartén y fríe la cebolla durante 6-8 minutos hasta que esté suave y traslúcida. Agrega la mitad del ajo y las hojuelas de chile y sofríe durante 2 minutos más, luego agrega el puré de tomate y la mitad del orégano seco. Cocine un minuto más hasta que el puré se oscurezca un poco, luego agregue el vinagre, la passata, el azúcar, los tallos de albahaca y algunas hojas de albahaca. Vierta 200 ml de agua y cocine a fuego lento, sin tapar, durante 15-20 minutos hasta que la salsa se espese un poco.",
+            "Mientras tanto, cocine la pasta en una cacerola con agua hirviendo con sal durante 6-8 minutos hasta que esté tierna, pero aún poco cocida en el medio. Drenar. Mezclar el pan rallado de masa madre y el resto del ajo, el orégano y el aceite en un bol y sazonar. Calentar el horno a 220C/200C ventilador/gas 7.",
+            "Vierta la pasta cocida, las albóndigas y las aceitunas (si las usa) en la sartén con la salsa y revuelva suavemente para combinar. Vierta todo en un plato de lasaña, luego esparza sobre el pan rallado con ajo y hornee durante 15 a 20 minutos hasta que la cobertura esté dorada y crujiente y la pasta esté al dente. Espolvoree con las hojas de albahaca restantes y sirva con una ensalada verde como acompañamiento."
         ],
         "nutritional_info": {
             "kcal": "419",
@@ -331,26 +331,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/creamy-pumpkin-pasta/",
-        "title": "[ES] Creamy pumpkin pasta",
-        "description": "(Translation pending) Make the most of pumpkins this autumn. When puréed and combined with mascarpone and parmesan, their flesh transforms into a silky, delicious pasta sauce",
+        "title": "Pasta cremosa de calabaza",
+        "description": "Aprovecha al máximo las calabazas este otoño. Cuando se hace puré y se combina con mascarpone y parmesano, su pulpa se transforma en una salsa para pasta deliciosa y sedosa.",
         "prep_time": "15 mins Cook: 35 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 tbsp olive oil",
-            "1 onion, finely chopped",
-            "2 garlic cloves, crushed",
-            "500g pumpkin or squash, peeled and cut into roughly 3cm cubes",
-            "50-100ml whole milk",
-            "2 tbsp tomato purée",
-            "2 tbsp mascarpone",
-            "350g short pasta (rigatoni or penne work well)",
-            "40g grated parmesan or vegetarian alternative, plus extra to serve"
+            "2 cucharadas de aceite de oliva",
+            "1 cebolla, finamente picada",
+            "2 dientes de ajo machacados",
+            "500 g de calabaza o calabacín, pelados y cortados en cubos de aproximadamente 3 cm",
+            "50-100 ml de leche entera",
+            "2 cucharadas de puré de tomate",
+            "2 cucharadas de mascarpone",
+            "350 g de pasta corta (rigatoni o penne funcionan bien)",
+            "40 g de parmesano rallado o alternativa vegetariana, más extra para servir"
         ],
         "method": [
-            "Heat the oil in a large, shallow, flameproofcasseroleor frying pan over a low-medium heat and fry the onion with a pinch of salt for 10-15 mins until softened and translucent. Add the garlic and fry for 1 min more. Remove from the heat and leave to cool slightly.",
-            "Meanwhile, cook the pumpkin in a pan of boiling salted water for 10-15 mins until tender when pierced with a cutlery knife. Drain and tip into ablender(or use ahand blender). Blitz with 50ml milk and the onions until completely smooth, gradually adding more milk until the mixture is thick enough to just coat the back of a spoon (you may not need all the milk). Tip into a large frying pan with the tomato purée and mascarpone, and bring to a simmer over a low heat.",
-            "Cook the pasta in a large pan of boiling, salted water following pack instructions. Drain, reserving a cupful of the cooking water. Toss the pasta with the pumpkin sauce, parmesan and 50-100ml of the reserved water to loosen. Season and scatter with extra parmesan."
+            "Calentar el aceite en una cacerola o sartén grande, poco profunda y resistente al fuego a fuego medio-bajo y sofreír la cebolla con una pizca de sal durante 10-15 minutos hasta que esté blanda y traslúcida. Agrega el ajo y sofríe 1 min más. Retirar del fuego y dejar enfriar un poco.",
+            "Mientras tanto, cocine la calabaza en una cacerola con agua hirviendo con sal durante 10-15 minutos hasta que esté tierna al pincharla con un cuchillo. Escurrir y verter en una licuadora (o usar una batidora de mano). Mezcle con 50 ml de leche y las cebollas hasta que estén completamente suaves, agregando gradualmente más leche hasta que la mezcla esté lo suficientemente espesa como para cubrir el dorso de una cuchara (es posible que no necesite toda la leche). Vierta en una sartén grande con el puré de tomate y el mascarpone y cocine a fuego lento.",
+            "Cocine la pasta en una cacerola grande con agua hirviendo con sal siguiendo las instrucciones del paquete. Escurrir reservando una taza del agua de cocción. Mezcle la pasta con la salsa de calabaza, el parmesano y 50-100 ml del agua reservada para que se suelte. Sazone y espolvoree con parmesano extra."
         ],
         "nutritional_info": {
             "kcal": "461",
@@ -367,28 +367,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/ratatouille-ricotta-macaroni/",
-        "title": "[ES] Ratatouille & ricotta macaroni",
-        "description": "(Translation pending) This is a deconstructed twist on macaroni cheese with a layer of Mediterranean veg using Italian ricotta, so you don’t have to make a traditional sauce",
+        "title": "Macarrones con pisto y ricota",
+        "description": "Esta es una versión deconstruida de macarrones con queso con una capa de vegetales mediterráneos usando ricotta italiana, para que no tengas que hacer una salsa tradicional.",
         "prep_time": "15 mins Cook: 45 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "400g chopped tomatoes",
-            "3 tbsp tomato purée",
-            "4 large garlic cloves, finely grated",
-            "12 Kalamata olives, quartered",
-            "1 tsp bouillon powder",
-            "1 large aubergine (350g), diced",
-            "2 courgettes (325g), halved and sliced",
-            "200g ricotta",
-            "20g pack basil, small leaves reserved to garnish, the rest chopped",
-            "400g wholemeal penne",
-            "20g finely grated parmesan"
+            "400 g de tomates picados",
+            "3 cucharadas de puré de tomate",
+            "4 dientes de ajo grandes, finamente rallados",
+            "12 aceitunas Kalamata, en cuartos",
+            "1 cucharadita de caldo en polvo",
+            "1 berenjena grande (350 g), cortada en cubitos",
+            "2 calabacines (325 g), partidos por la mitad y en rodajas",
+            "200 g de ricota",
+            "Paquete de 20 g de albahaca, las hojas pequeñas reservadas para decorar y el resto picado",
+            "400 g de penne integral",
+            "20 g de parmesano finamente rallado"
         ],
         "method": [
-            "Tip the tomatoes into a pan with a can of water, the tomato purée, garlic, olives and bouillon. Add the aubergine and courgettes, then cover and simmer for 30 mins until the veg are tender.",
-            "Meanwhile, mix the ricotta and basil together in a small bowl with plenty of black pepper.",
-            "Boil half of the pasta following pack instructions, then drain, reserving some of the cooking water. Tip into a bowl and toss with half the ricotta mixture and a couple of spoonful of pasta water, adding more to loosen if needed. Spoon half the ratatouille and the penne into two pasta bowls and sprinkle with half the parmesan and basil leaves. Cover and chill the remaining ratatouille, basil and ricotta for another night.Will keep chilled for up to three days.When ready to serve again, warm the ratatouille in a pan over a low heat and continue with the method from step 3."
+            "Pon los tomates en una cacerola con una lata de agua, el puré de tomate, el ajo, las aceitunas y el caldo. Añade la berenjena y los calabacines, tapa y cocina a fuego lento durante 30 minutos hasta que las verduras estén tiernas.",
+            "Mientras tanto, mezcle la ricota y la albahaca en un tazón pequeño con abundante pimienta negra.",
+            "Hervir la mitad de la pasta siguiendo las instrucciones del paquete, luego escurrir y reservar un poco del agua de cocción. Vierta en un tazón y mezcle con la mitad de la mezcla de ricotta y un par de cucharadas de agua de pasta, agregando más para aflojar si es necesario. Vierta la mitad del pisto y el penne en dos tazones de pasta y espolvoree con la mitad del parmesano y las hojas de albahaca. Cubra y enfríe el resto del pisto, la albahaca y la ricota durante otra noche. Se mantendrá frío hasta por tres días. Cuando esté listo para servir nuevamente, caliente el pisto en una sartén a fuego lento y continúe con el método del paso 3."
         ],
         "nutritional_info": {
             "kcal": "456",
@@ -405,23 +405,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chorizo-purple-sprouting-broccoli-carbonara/",
-        "title": "[ES] Chorizo & purple sprouting broccoli carbonara",
-        "description": "(Translation pending) Throw together this seasonal take on carbonara in 30 minutes for an easy midweek meal. This is comfort food at its best",
+        "title": "Chorizo ​​y brócoli carbonara de brotes morados",
+        "description": "Prepare esta versión de temporada de carbonara en 30 minutos para una comida sencilla entre semana. Esta es la mejor comida reconfortante.",
         "prep_time": "10 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 large garlic cloves",
-            "200g chorizo, chopped",
-            "3 large eggs, plus 2 egg yolks (freeze the whites for another recipe)",
-            "120g parmesan, finely grated",
-            "400g spaghetti",
-            "250g purple sprouting broccoli, cut into small pieces"
+            "2 dientes de ajo grandes",
+            "200 g de chorizo, picado",
+            "3 huevos grandes, más 2 yemas (congela las claras para otra receta)",
+            "120 g de parmesano, finamente rallado",
+            "400 g de espaguetis",
+            "250 g de brócoli germinado morado, cortado en trozos pequeños"
         ],
         "method": [
-            "Heat a largefrying panover a medium heat. Peel the whole garlic cloves and fry them along with the chorizo for 5-7 mins, or until the chorizo turns crisp at the edges. (You won’t need any oil as the chorizo will release its own.) Scoop out the garlic with a slotted spoon and discard.",
-            "Whiskthe eggs and egg yolks in a bowl. Add the parmesan, a pinch of salt and some black pepper.",
-            "Cook the spaghetti in a large pan of boiling salted water for 5 mins, then add the broccoli and cook for a further 2 mins. Drain, reserving some of the pasta cooking water. Add the spaghetti and broccoli to the frying pan with the chorizo, then quickly pour over the egg mixture and toss quickly to coat. Add a splash or two of the reserved cooking water to loosen, if needed, then serve in four shallow bowls."
+            "Calienta una sartén grande a fuego medio. Pela los dientes de ajo enteros y fríelos junto con el chorizo ​​durante 5-7 minutos, o hasta que el chorizo ​​esté crujiente en los bordes. (No necesitarás aceite ya que el chorizo ​​se soltará solo). Saca el ajo con una espumadera y deséchalo.",
+            "Batir los huevos y las yemas en un bol. Añade el parmesano, una pizca de sal y un poco de pimienta negra.",
+            "Cocine los espaguetis en una cacerola grande con agua hirviendo con sal durante 5 minutos, luego agregue el brócoli y cocine por 2 minutos más. Escurrir reservando un poco del agua de cocción de la pasta. Agrega los espaguetis y el brócoli a la sartén con el chorizo, luego vierte rápidamente sobre la mezcla de huevo y revuelve rápidamente para cubrir. Agregue un chorrito o dos del agua de cocción reservada para aflojar, si es necesario, luego sirva en cuatro tazones poco profundos."
         ],
         "nutritional_info": {
             "kcal": "815",
@@ -438,33 +438,33 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/orecchiette-with-purple-sprouting-broccoli-calabrian-pesto/",
-        "title": "[ES] Orecchiette with purple sprouting broccoli & Calabrian pesto",
-        "description": "(Translation pending) Whip up some homemade pesto and serve with orecchiette and broccoli. This one isn’t just good with pasta – you can also serve it with chicken or fish, and spoon it onto warm focaccia",
+        "title": "Orecchiette con brócoli de brotes morados y pesto de Calabria",
+        "description": "Prepare un poco de pesto casero y sírvalo con orecchiette y brócoli. Este no solo es bueno con pasta: también puedes servirlo con pollo o pescado y servirlo sobre focaccia tibia.",
         "prep_time": "20 mins Cook: 35 mins",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "400g purple sprouting broccoli",
-            "5 tbsp extra virgin olive oil",
-            "375g orecchiette or other pasta shapes",
-            "grated parmesan or pecorino (or vegetarian alternative), to serve",
-            "3 tbsp extra virgin olive oil",
-            "½ small red onion, chopped",
-            "1 plum tomato, chopped",
-            "75g aubergine, cut into small chunks",
-            "125g roasted peppers from a jar, drained",
-            "1 garlic clove, chopped",
-            "1 red chilli, halved, deseeded and chopped (leave the seeds in if you want a more fiery pesto)",
-            "40g blanched almonds, lightly toasted in a dry pan",
-            "60g ricotta",
-            "10g basil or parsley leaves"
+            "400 g de brócoli de brotes morados",
+            "5 cucharadas de aceite de oliva virgen extra",
+            "375 g de orecchiette u otras formas de pasta",
+            "parmesano rallado o pecorino (o alternativa vegetariana), para servir",
+            "3 cucharadas de aceite de oliva virgen extra",
+            "½ cebolla morada pequeña, picada",
+            "1 tomate pera, picado",
+            "75 g de berenjena cortada en trozos pequeños",
+            "125 g de pimientos asados ​​de un frasco, escurridos",
+            "1 diente de ajo, picado",
+            "1 chile rojo, cortado por la mitad, sin semillas y picado (deja las semillas si quieres un pesto más picante)",
+            "40 g de almendras blanqueadas y ligeramente tostadas en una sartén seca",
+            "60 g de ricota",
+            "10 g de hojas de albahaca o perejil"
         ],
         "method": [
-            "First, make the base of the pesto. Heat 1 tbsp of the olive oil in a frying pan and add the onion, tomato and aubergine. Fry over a medium-low heat for 8-10 mins until the onion is pale gold and the tomatoes and aubergine are soft. Add the peppers and cook for a couple of minutes, then add the garlic and chilli, and cook for another 2 mins. Transfer to a plate and leave to cool.",
-            "Heat the oven to 190C/170C fan/gas 5. Trim the broccoli at the base, then halve any large pieces lengthways. Put in aroasting tin, drizzle with the olive oil and season. Add the garlic and turn everything using your hands – make sure the garlic is under the broccoli so it will toast without burning. Cook in the oven for 15-20 mins (check on it during cooking for doneness).",
-            "Meanwhile, cook the pasta in boiling salted water until al dente. It usually takes a little less time than it says on the packet.",
-            "For the pesto, tip everything on the plate into afood processoralong with the almonds and the remaining 2 tbsp extra virgin olive oil. Season and pulse to blend everything together. Stir in the ricotta and taste for seasoning. Tear the basil and stir that in too.",
-            "Drain the pasta and toss it with the broccoli (including the garlicky juices from the roasting tin) then use as much of the pesto as it takes to coat the pasta and serve the rest on the side. Grind over some black pepper and serve immediately with the grated cheese."
+            "Primero, haz la base del pesto. Calentar 1 cucharada de aceite de oliva en una sartén y añadir la cebolla, el tomate y la berenjena. Freír a fuego medio-bajo durante 8-10 minutos hasta que la cebolla esté dorada pálida y los tomates y la berenjena estén suaves. Agrega los pimientos y cocina por un par de minutos, luego agrega el ajo y la guindilla y cocina por otros 2 minutos. Pasar a un plato y dejar enfriar.",
+            "Calienta el horno a 190C/170C ventilador/gas 5. Recorta el brócoli por la base y luego corta por la mitad los trozos grandes a lo largo. Poner en una fuente para asar, rociar con aceite de oliva y sazonar. Agrega el ajo y voltea todo con las manos; asegúrate de que el ajo esté debajo del brócoli para que se tueste sin quemarse. Cocine en el horno durante 15-20 minutos (verifique que esté cocido durante la cocción).",
+            "Mientras tanto, cocine la pasta en agua hirviendo con sal hasta que esté al dente. Suele tardar un poco menos de lo que dice en el paquete.",
+            "Para el pesto, vierte todo lo que hay en el plato en un procesador de alimentos junto con las almendras y las 2 cucharadas restantes de aceite de oliva virgen extra. Sazone y presione para mezclar todo. Agregue la ricota y pruebe para sazonar. Rompe la albahaca y revuélvela también.",
+            "Escurre la pasta y mézclala con el brócoli (incluido el jugo de ajo de la fuente para asar), luego usa tanto pesto como sea necesario para cubrir la pasta y sirve el resto a un lado. Moler un poco de pimienta negra y servir inmediatamente con el queso rallado."
         ],
         "nutritional_info": {
             "kcal": "463",
@@ -481,20 +481,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/cacio-e-pepe/",
-        "title": "[ES] Cacio e pepe",
-        "description": "(Translation pending) Whip up a simple cacio e pepe for a speedy lunch. With four simple ingredients – spaghetti, pepper, parmesan and butter – this is a storecupboard favourite",
+        "title": "Queso y pimienta negra",
+        "description": "Prepare un cacio e pepe sencillo para un almuerzo rápido. Con cuatro ingredientes simples (espaguetis, pimienta, parmesano y mantequilla), este es uno de los favoritos de la despensa.",
         "prep_time": "5 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "200g bucatini or spaghetti",
-            "25g butter",
-            "2 tsp whole black peppercorns, ground, or 1 tsp freshly ground black pepper",
-            "50g pecorino or parmesan, finely grated"
+            "200 g de bucatini o espagueti",
+            "25 g de mantequilla",
+            "2 cucharaditas de granos de pimienta negra entera, molida o 1 cucharadita de pimienta negra recién molida",
+            "50 g de queso pecorino o parmesano, finamente rallado"
         ],
         "method": [
-            "Cook the pasta for 2 mins less than pack instructions state, in salted boiling water. Meanwhile, melt the butter in a mediumfrying panover a low heat, then add the ground black pepper and toast for a few minutes.",
-            "Drain the pasta, keeping 200ml of the pasta water. Tip the pasta and 100ml of the pasta water into the pan with the butter and pepper. Toss briefly, then scatter over the parmesan evenly, but don’t stir – wait for the cheese to melt for 30 seconds, then once melted, toss everything well, and stir together. This prevents the cheese from clumping or going stringy and makes a smooth, shiny sauce. Add a splash more pasta water if you need to, to loosen the sauce and coat the pasta. Serve immediately with a good grating of black pepper."
+            "Cocine la pasta durante 2 minutos menos de lo que indican las instrucciones del paquete, en agua hirviendo con sal. Mientras tanto, derrita la mantequilla en una sartén mediana a fuego lento, luego agregue la pimienta negra molida y tueste por unos minutos.",
+            "Escurrir la pasta, reservando 200ml del agua de la pasta. Vierta la pasta y 100 ml de agua de la pasta en la sartén con la mantequilla y la pimienta. Mezcle brevemente, luego esparza el parmesano uniformemente, pero no revuelva; espere a que el queso se derrita durante 30 segundos y luego, una vez derretido, mezcle todo bien y revuelva. Esto evita que el queso se aglomere o se vuelva fibroso y produce una salsa suave y brillante. Agrega un chorrito más de agua para la pasta si es necesario, para soltar la salsa y cubrir la pasta. Servir inmediatamente con una buena ralladura de pimienta negra."
         ],
         "nutritional_info": {
             "kcal": "565",
@@ -511,30 +511,30 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/pasta-alla-norma/",
-        "title": "[ES] Pasta alla norma",
-        "description": "(Translation pending) Try this easy version of an alla norma, which uses roast aubergine instead of fried. It’s then tossed with spaghetti and a rich tomato and basil sauce",
+        "title": "Pasta a la norma",
+        "description": "Pruebe esta versión sencilla de alla norma, que utiliza berenjena asada en lugar de frita. Luego se mezcla con espaguetis y una rica salsa de tomate y albahaca.",
         "prep_time": "10 mins Cook: 1 hrs plus draining",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 aubergines, cut into 3cm chunks",
-            "1 heaped tsp salt",
-            "4 tbsp extra virgin olive oil",
-            "1 small onion, finely chopped",
-            "2 garlic cloves, crushed",
-            "pinch chilli flakes",
-            "2 x 400g tins chopped tomatoes",
-            "1 tsp sugar",
-            "350g spaghetti (egg-free, if needed)",
-            "small bunch basil, shredded, plus a few leaves to serve",
-            "1 heaped tbsp capers",
-            "ricotta salata or parmesan, finely grated, to serve (optional)"
+            "2 berenjenas, cortadas en trozos de 3 cm",
+            "1 cucharadita colmada de sal",
+            "4 cucharadas de aceite de oliva virgen extra",
+            "1 cebolla pequeña, finamente picada",
+            "2 dientes de ajo machacados",
+            "pizca de hojuelas de chile",
+            "2 latas de 400 g de tomates picados",
+            "1 cucharadita de azúcar",
+            "350 g de espaguetis (sin huevo, si es necesario)",
+            "manojo pequeño de albahaca, rallada y unas cuantas hojas para servir",
+            "1 cucharada colmada de alcaparras",
+            "ricotta salata o parmesano, finamente rallado, para servir (opcional)"
         ],
         "method": [
-            "Toss the aubergines with the salt, then tip into acolanderset over a bowl for 30 mins, to extract any moisture.",
-            "Heat 2 tbsp of the oil in acasseroledish or saucepan. Tip in the onion and a pinch of salt, and cook over a low heat for 10 mins. Add the garlic and chilli, and cook for 1 min. Tip in the tomatoes and sugar, and bring to the simmer. Cook, uncovered, for 20 mins, stirring occasionally. Heat the oven to 220C/200C fan/gas 7.",
-            "Pat the aubergine dry with kitchen paper, then toss with the remaining oil. Spread out on a baking sheet and roast for 25-30 mins until softened and golden around the edges. Meanwhile, cook the pasta following pack instructions, reserving 100ml of the cooking water.",
-            "Stir the aubergine into the sauce with the basil and capers. Season to taste, then toss the spaghetti in the pan with the sauce and a splash of the pasta water. Divide between four bowls and top with the ricotta and extra basil, if using."
+            "Mezcle las berenjenas con la sal y luego viértalas en un colador sobre un tazón durante 30 minutos para extraer la humedad.",
+            "Calienta 2 cucharadas de aceite en una cazuela o cacerola. Echa la cebolla y una pizca de sal y cocina a fuego lento durante 10 minutos. Agrega el ajo y la guindilla y cocina por 1 min. Agregue los tomates y el azúcar y cocine a fuego lento. Cocine, descubierto, durante 20 minutos, revolviendo ocasionalmente. Calentar el horno a 220C/200C ventilador/gas 7.",
+            "Seque la berenjena con papel de cocina y luego mezcle con el aceite restante. Extiéndalo en una bandeja para hornear y ase durante 25-30 minutos hasta que esté suave y dorado en los bordes. Mientras tanto, cuece la pasta siguiendo las instrucciones del paquete, reservando 100ml del agua de cocción.",
+            "Agrega la berenjena a la salsa con la albahaca y las alcaparras. Sazone al gusto, luego mezcle los espaguetis en la sartén con la salsa y un chorrito de agua de la pasta. Divida en cuatro tazones y cubra con ricotta y albahaca adicional, si la usa."
         ],
         "nutritional_info": {
             "kcal": "517",
@@ -551,30 +551,30 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chicken-lemon-ricotta-meatballs-with-linguine/",
-        "title": "[ES] Chicken, lemon & ricotta meatballs with linguine",
-        "description": "(Translation pending) Flavour-packed, easy to make and nutritious – our zesty chicken meatballs tick all the boxes for a family meal",
+        "title": "Albóndigas de pollo, limón y ricotta con linguini",
+        "description": "Llena de sabor, fácil de preparar y nutritiva: nuestras sabrosas albóndigas de pollo cumplen todos los requisitos para una comida familiar",
         "prep_time": "20 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 chicken breasts",
-            "2 lemons, zested",
-            "200g ricotta",
-            "3 tbsp parsley, chopped",
-            "150g fresh breadcrumbs",
-            "100ml milk, plus 2 tbsp",
-            "1 medium egg, beaten",
-            "25g plain flour, for dusting",
-            "1 tbsp olive oil",
-            "300g linguine",
-            "320g green beans, trimmed and halved"
+            "2 pechugas de pollo",
+            "2 limones, rallado",
+            "200 g de ricota",
+            "3 cucharadas de perejil picado",
+            "150 g de pan rallado fresco",
+            "100ml de leche, más 2 cucharadas",
+            "1 huevo mediano, batido",
+            "25 g de harina común, para espolvorear",
+            "1 cucharada de aceite de oliva",
+            "300 g de linguini",
+            "320 g de judías verdes, peladas y cortadas por la mitad"
         ],
         "method": [
-            "Cut the chicken into very small pieces using a sharp knife. You can use afood processor, but pulse so it doesn’t turn into a paste. Put in a bowl and add half the lemon zest, half the ricotta, half the parsley, the breadcrumbs and mix together. Add the 2 tbsp milk, the egg and a good pinch of seasoning. Mix again.",
-            "Dust a plate lightly with flour. Wet your hands, take a golf ball-sized piece of the meatball mixture and roll into a ball. Set on the floured plate and repeat until all the mixture has been used up.",
-            "Heat a heavy-based frying pan over a medium heat, add the oil, then the meatballs, ensuring they don’t touch each other. Cook for 10-15 mins, turning so they brown on all sides. Transfer to a plate.",
-            "Meanwhile, heat a large pan of salted water and add the linguine. Cook following pack instructions, and 3 mins before the end of the cooking time, add the green beans. Drain, saving the pasta water. Rinse the linguine and beans under cool water to stop them cooking further.",
-            "Add the remaining ricotta to the frying pan, breaking it up as much as possible. Pour in the 100ml milk and 2 tbsp of reserved pasta water, then cook down to thicken slightly for a couple of minutes. Add the pasta, beans and remaining lemon zest and parsley. Season to taste, mix in the meatballs and serve."
+            "Corta el pollo en trozos muy pequeños con un cuchillo afilado. Puedes usar un procesador de alimentos, pero pulsa para que no se convierta en una pasta. Poner en un bol y añadir la mitad de la ralladura de limón, la mitad de la ricota, la mitad del perejil, el pan rallado y mezclar. Agrega las 2 cucharadas de leche, el huevo y una buena pizca de condimento. Mezclar nuevamente.",
+            "Espolvoree ligeramente un plato con harina. Mójate las manos, toma un trozo de la mezcla de albóndigas del tamaño de una pelota de golf y forma una bola. Colocar en el plato enharinado y repetir hasta que se acabe toda la mezcla.",
+            "Calienta una sartén de base pesada a fuego medio, agrega el aceite y luego las albóndigas, procurando que no se toquen entre sí. Cocine durante 10-15 minutos, volteándolos para que se doren por todos lados. Transfiera a un plato.",
+            "Mientras tanto, caliente una cacerola grande con agua con sal y agregue los linguini. Cocine siguiendo las instrucciones del paquete y 3 minutos antes de que finalice el tiempo de cocción, agregue las judías verdes. Escurrir, guardando el agua de la pasta. Enjuague los linguini y los frijoles con agua fría para evitar que se cocinen más.",
+            "Agrega la ricota restante a la sartén, partiéndola lo más posible. Vierta los 100 ml de leche y 2 cucharadas de agua de pasta reservada, luego cocine hasta que espese un poco durante un par de minutos. Agrega la pasta, los frijoles y el resto de la ralladura de limón y el perejil. Sazone al gusto, agregue las albóndigas y sirva."
         ],
         "nutritional_info": {
             "kcal": "628",
@@ -591,26 +591,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/mustardy-sausage-sprout-gnocchi/",
-        "title": "[ES] Mustardy sausage & sprout gnocchi",
-        "description": "(Translation pending) Left-over sprouts in your fridge? Make the most of them with our mustardy sausage gnocchi for supper. It takes just 25 minutes to make",
+        "title": "Ñoquis de salchicha y brotes con mostaza",
+        "description": "¿Sobras de brotes en tu nevera? Aprovechalos al máximo con nuestros ñoquis de salchicha a la mostaza para la cena. Solo toma 25 minutos prepararlo.",
         "prep_time": "5 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "250g gnocchi",
-            "1 tbsp olive oil",
-            "1 onion, thinly sliced",
-            "3 pork sausages (200g)",
-            "250g sprouts, shredded",
-            "100ml chicken stock",
-            "2 tsp wholegrain mustard",
-            "2 tbsp half-fat crème fraîche",
-            "½ small bunch of parsley, chopped, plus extra to serve",
-            "parmesan, grated (optional)"
+            "250 g de albóndigas",
+            "1 cucharada de aceite de oliva",
+            "1 cebolla, en rodajas finas",
+            "3 salchichas de cerdo (200g)",
+            "250 g de brotes, rallados",
+            "100 ml de caldo de pollo",
+            "2 cucharaditas de mostaza integral",
+            "2 cucharadas de crema fresca media grasa",
+            "½ manojo pequeño de perejil picado, más un poco más para servir",
+            "parmesano rallado (opcional)"
         ],
         "method": [
-            "Cook the gnocchi in a pan of salted water following pack instructions. Drain and set aside.",
-            "Meanwhile, heat the oil in a large frying pan and fry the onion over a medium heat for 8 mins, or until softened and turning golden brown. Squeeze the sausagemeat out of the skins and into the pan, breaking it up with a wooden spoon. Cook for 5 mins until golden brown. Stir through the sprouts and cook for a further 5 mins until softened. Add the stock and mustard, and bring to the boil. Stir through the crème fraîche and parsley. Season. Tip in the gnocchi, tossing with 100ml water to loosen the sauce, and bring to a simmer for 3 mins. To serve, sprinkle with the extra parsley and parmesan, if you like."
+            "Cocine los ñoquis en una cacerola con agua con sal siguiendo las instrucciones del paquete. Escurrir y reservar.",
+            "Mientras tanto, calienta el aceite en una sartén grande y fríe la cebolla a fuego medio durante 8 minutos, o hasta que se ablande y se dore. Exprima la carne de la salchicha para quitarle la piel y colocarla en la sartén, rompiéndola con una cuchara de madera. Cocine durante 5 minutos hasta que se doren. Revuelva los brotes y cocine por 5 minutos más hasta que se ablanden. Agrega el caldo y la mostaza y deja hervir. Agregue la crema fresca y el perejil. Estación. Vierta los ñoquis, mezcle con 100 ml de agua para aflojar la salsa y cocine a fuego lento durante 3 minutos. Para servir, espolvoree con perejil y parmesano extra, si lo desea."
         ],
         "nutritional_info": {
             "kcal": "335",
@@ -627,25 +627,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/vegan-kale-pesto-pasta/",
-        "title": "[ES] Vegan kale pesto pasta",
-        "description": "(Translation pending) Whizz up kale, pumpkin seeds, basil and garlic to make this easy kale pesto. It’s perfect stirred through wholemeal spaghetti for a healthy vegan meal",
+        "title": "Pasta vegana con pesto de col rizada",
+        "description": "Batir col rizada, semillas de calabaza, albahaca y ajo para preparar este sencillo pesto de col rizada. Es perfecto mezclado con espaguetis integrales para una comida vegana saludable.",
         "prep_time": "10 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "150g kale",
-            "small bunch of basil",
-            "1 small garlic clove",
-            "3 tbsp pumpkin seeds",
-            "5 tbsp extra virgin olive oil",
-            "3 tbsp nutritional yeast",
-            "1 lemon, zested and juiced",
-            "350g wholemeal spaghetti"
+            "150 g de col rizada",
+            "manojo pequeño de albahaca",
+            "1 diente de ajo pequeño",
+            "3 cucharadas de semillas de calabaza",
+            "5 cucharadas de aceite de oliva virgen extra",
+            "3 cucharadas de levadura nutricional",
+            "1 limón, rallado y exprimido",
+            "350 g de espaguetis integrales"
         ],
         "method": [
-            "Bring a pan of water to the boil. Cook the kale for 30 secs, drain and transfer to a bowl of ice-cold water for 5 mins. Drain again and pat dry with kitchen paper.",
-            "Put the basil, garlic, seeds, oil, nutritional yeast, lemon juice and zest, and drained kale in afood processor. Blitz until smooth, then season. Loosen with a splash of water, if it’s too thick.",
-            "Cook the pasta following pack instructions, then toss with the pesto and serve."
+            "Ponga a hervir una cacerola con agua. Cocine la col rizada durante 30 segundos, escúrrala y transfiérala a un recipiente con agua helada durante 5 minutos. Escurrir nuevamente y secar con papel de cocina.",
+            "Coloque la albahaca, el ajo, las semillas, el aceite, la levadura nutricional, el jugo y la ralladura de limón y la col rizada escurrida en un procesador de alimentos. Mezcle hasta que quede suave y luego sazone. Aflojar con un chorrito de agua, si queda demasiado espesa.",
+            "Cocine la pasta siguiendo las instrucciones del paquete, luego mezcle con el pesto y sirva."
         ],
         "nutritional_info": {
             "kcal": "537",
@@ -662,24 +662,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/amalfi-lemon-chilli-anchovy-spaghetti/",
-        "title": "[ES] Amalfi lemon, chilli & anchovy spaghetti",
-        "description": "(Translation pending) Get a taste of Italy with this Amalfi Coast-inspired spaghetti dish flavoured with lemons, anchovies, chilli, garlic and parmesan",
+        "title": "Espaguetis de Amalfi con limón, chile y anchoas",
+        "description": "Pruebe Italia con este plato de espaguetis inspirado en la costa de Amalfi y condimentado con limones, anchoas, chile, ajo y parmesano.",
         "prep_time": "20 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "120ml extra virgin olive oil",
-            "3 large garlic cloves",
-            "350g spaghetti, bucatini or linguine",
-            "1-2 red chillies (depending on how spicy you want it), deseeded and finely chopped",
-            "8 anchovy fillets, finely chopped",
-            "small bunch of parsley, finely chopped",
-            "1 large Amalfi or unwaxed lemon, zested and juiced",
-            "large handful (about 40g) of finely grated parmesan"
+            "120ml de aceite de oliva virgen extra",
+            "3 dientes de ajo grandes",
+            "350 g de espaguetis, bucatini o linguini",
+            "1-2 chiles rojos (dependiendo de qué tan picante los quieras), sin semillas y finamente picados",
+            "8 filetes de anchoa, finamente picados",
+            "manojo pequeño de perejil, finamente picado",
+            "1 limón Amalfi grande o sin cera, rallado y exprimido",
+            "un puñado grande (unos 40 g) de parmesano finamente rallado"
         ],
         "method": [
-            "Heat the oil in a large non-stick frying pan over a low heat and fry the garlic for 2-3 mins, or until just turning golden at the edges. Remove from the heat and leave for 15 mins for the garlic to infuse in the oil.",
-            "Meanwhile, cook the pasta following pack instructions until al dente. Drain, reserving 150ml of the cooking water. Remove the garlic from the infused oil, then tip in the cooked spaghetti, the chillies, anchovies, parsley, lemon zest and juice, and the parmesan. Add 50ml of the reserved water and toss with tongs until combined. Add a little more water to loosen, if you like. Season. Divide between four shallow bowls."
+            "Calienta el aceite en una sartén antiadherente grande a fuego lento y fríe el ajo durante 2-3 minutos, o hasta que esté dorado en los bordes. Retirar del fuego y dejar reposar 15 minutos para que el ajo se infusione en el aceite.",
+            "Mientras tanto, cocina la pasta siguiendo las instrucciones del paquete hasta que esté al dente. Escurrir reservando 150ml del agua de cocción. Retire el ajo del aceite infundido, luego agregue los espaguetis cocidos, los chiles, las anchoas, el perejil, la ralladura y el jugo de limón y el parmesano. Agregue 50 ml del agua reservada y mezcle con unas pinzas hasta que se combinen. Agrega un poco más de agua para aflojar, si lo deseas. Estación. Divida en cuatro tazones poco profundos."
         ],
         "nutritional_info": {
             "kcal": "639",
@@ -696,27 +696,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/penne-arrabbiata-aubergine/",
-        "title": "[ES] Pasta arrabbiata with aubergine",
-        "description": "(Translation pending) Choose this healthy pasta supper after a workout. Although it’s low in fat and calories, it’s packed with flavour, and also provides calcium and fibre",
+        "title": "Pasta arraya con berenjena",
+        "description": "Elija esta cena de pasta saludable después de hacer ejercicio. Aunque es bajo en grasas y calorías, está lleno de sabor y también aporta calcio y fibra.",
         "prep_time": "8 mins Cook: 35 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 tbsp cold-pressed rapeseed oil",
-            "1 large onion, finely chopped (160g)",
-            "2 large garlic cloves, finely grated",
-            "1 tsp chilli flakes",
-            "1 tsp smoked paprika",
-            "400g can chopped tomatoes",
-            "1 tsp vegetable bouillon powder",
-            "1 aubergine, chopped",
-            "150g wholemeal penne or fusilli",
-            "large handful of basil, plus extra to serve",
-            "25g parmesan or vegetarian Italian-style hard cheese, finely grated"
+            "1 cucharada de aceite de colza prensado en frío",
+            "1 cebolla grande, finamente picada (160 g)",
+            "2 dientes de ajo grandes, finamente rallados",
+            "1 cucharadita de hojuelas de chile",
+            "1 cucharadita de pimentón ahumado",
+            "Lata de 400g de tomates picados",
+            "1 cucharadita de caldo de verduras en polvo",
+            "1 berenjena, picada",
+            "150 g de penne o fusilli integrales",
+            "un puñado grande de albahaca y más para servir",
+            "25 g de queso duro parmesano o vegetariano estilo italiano, finamente rallado"
         ],
         "method": [
-            "Heat the oil in a large non-stick pan, add the onions, cover and cook for 5 mins. Remove the lid and cook for 5 mins more, stirring frequently until softened. Add the garlic, chilli flakes and paprika, stir briefly, then tip in the tomatoes and a can of water. Stir in the bouillon and aubergine, then bring to a simmer, cover and cook for 20 mins.",
-            "Cook the penne in a pan of boiling water for 12 mins until al dente. Drain, reserving 60ml of the cooking water. Add the cooked penne to the sauce, and toss well with the basil and a little of the reserved water, if needed. Spoon into two shallow bowls, and serve topped with the cheese and some extra basil, if you like."
+            "Calienta el aceite en una sartén grande antiadherente, agrega las cebollas, tapa y cocina por 5 minutos. Retire la tapa y cocine por 5 minutos más, revolviendo frecuentemente hasta que se ablanden. Agregue el ajo, las hojuelas de chile y el pimentón, revuelva brevemente y luego agregue los tomates y una lata de agua. Agregue el caldo y la berenjena, luego cocine a fuego lento, cubra y cocine durante 20 minutos.",
+            "Cocine el penne en una cacerola con agua hirviendo durante 12 minutos hasta que esté al dente. Escurrir reservando 60ml del agua de cocción. Agrega el penne cocido a la salsa y mezcla bien con la albahaca y un poco del agua reservada, si es necesario. Vierta en dos tazones poco profundos y sirva cubierto con queso y un poco más de albahaca, si lo desea."
         ],
         "nutritional_info": {
             "kcal": "500",
@@ -733,32 +733,32 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/jackfruit-bolognese-vegan-parmesan/",
-        "title": "[ES] Jackfruit bolognese with vegan parmesan",
-        "description": "(Translation pending) Cutting back on meat? Try jackfruit as an alternative. This vegan bolognese not only tastes delicious, but it counts as a whopping five of your 5-a-day",
+        "title": "Boloñesa de yaca con parmesano vegano",
+        "description": "¿Reducir el consumo de carne? Prueba la yaca como alternativa. Esta boloñesa vegana no solo tiene un sabor delicioso, sino que cuenta como cinco de tus cinco al día.",
         "prep_time": "10 mins Cook: 40 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 tbsp rapeseed oil",
-            "320g carrots (3 medium), finely chopped",
-            "4 large celery sticks (320g), finely chopped",
-            "4 large garlic cloves, finely grated",
-            "410g can jackfruit in water, drained and finely chopped",
-            "100g red lentils",
-            "3 tbsp tomato purée",
-            "4 tsp vegetable bouillon powder (check it’s vegan)",
-            "1 tbsp chopped thyme",
-            "325g wholemeal spaghetti",
-            "chopped parsley, to serve (optional)",
-            "40g cashews",
-            "4 tsp nutritional yeast",
-            "1 tsp garlic granules"
+            "1 cucharada de aceite de colza",
+            "320 g de zanahorias (3 medianas), finamente picadas",
+            "4 ramas de apio grandes (320 g), finamente picadas",
+            "4 dientes de ajo grandes, finamente rallados",
+            "Lata de 410 g de yaca en agua, escurrida y finamente picada",
+            "100 g de lentejas rojas",
+            "3 cucharadas de puré de tomate",
+            "4 cucharaditas de caldo de verduras en polvo (comprobar que sea vegano)",
+            "1 cucharada de tomillo picado",
+            "325 g de espaguetis integrales",
+            "perejil picado, para servir (opcional)",
+            "40 g de anacardos",
+            "4 cucharaditas de levadura nutricional",
+            "1 cucharadita de ajo granulado"
         ],
         "method": [
-            "Heat the oil in a large non-stick pan and fry the carrots, celery and garlic for 10 mins, stirring every now and then.",
-            "Meanwhile, make the vegan parmesan. Tip the cashews, nutritional yeast and garlic granules into a food processor and blitz to fine crumbs. Add a little salt, if needed, and set aside.",
-            "Tip the jackfruit into the veg mix with the lentils, 700ml water, the tomato purée, bouillon powder and thyme, then cover and cook for 25 mins. Add a little more water if needed – it should be pulpy.",
-            "Meanwhile, cook the spaghetti following pack instructions until al dente. Toss with the sauce, divide between bowls and sprinkle with the vegan parmesan and parsley, if using. The sauce will keep, covered, in the fridge for up to three days, or in the freezer for up to three months."
+            "Calienta el aceite en una sartén grande antiadherente y fríe las zanahorias, el apio y el ajo durante 10 minutos, revolviendo de vez en cuando.",
+            "Mientras tanto, prepara el parmesano vegano. Vierta los anacardos, la levadura nutricional y los gránulos de ajo en un procesador de alimentos y mezcle hasta obtener migajas finas. Añade un poco de sal, si es necesario, y reserva.",
+            "Vierta la yaca en la mezcla de verduras con las lentejas, 700 ml de agua, el puré de tomate, el caldo en polvo y el tomillo, luego cubra y cocine durante 25 minutos. Añade un poco más de agua si es necesario; debe quedar pulposa.",
+            "Mientras tanto, cocina los espaguetis siguiendo las instrucciones del paquete hasta que estén al dente. Mezcle con la salsa, divida en tazones y espolvoree con parmesano vegano y perejil, si lo usa. La salsa se mantendrá tapada en el refrigerador hasta por tres días o en el congelador hasta por tres meses."
         ],
         "nutritional_info": {
             "kcal": "586",
@@ -775,32 +775,32 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/cassies-super-green-mac-n-cheese/",
-        "title": "[ES] Super-green mac ‘n’ cheese",
-        "description": "(Translation pending) Revamp mac ‘n’ cheese with broccoli, spinach and peas, plus a crunchy nut and seed topping. It has all the flavour of the classic dish, but with added nutrients",
+        "title": "Macarrones con queso súper verdes",
+        "description": "Renueva los macarrones con queso con brócoli, espinacas y guisantes, además de una cobertura crujiente de nueces y semillas. Tiene todo el sabor del plato clásico, pero con nutrientes añadidos.",
         "prep_time": "15 mins Cook: 40 mins",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "1l semi-skimmed milk",
-            "75g butter",
-            "75g plain flour",
+            "1 litro de leche semidesnatada",
+            "75 g de mantequilla",
+            "75 g de harina común",
             "2 tsp Dijon mustard",
-            "175g mature or extra mature cheddar, grated",
-            "50g parmesan, grated",
-            "100g spinach, fresh or frozen",
-            "400g macaroni",
-            "1 broccoli (about 300g), broken into florets",
-            "100g frozen peas",
-            "3 slices white bread (about 125g)",
-            "1 small bunch of basil leaves",
-            "1 tsp olive oil",
-            "25g mixed nuts or seeds, such as pumpkin seeds, pine nuts and almonds, for the topping"
+            "175 g de queso cheddar maduro o extra maduro, rallado",
+            "50 g de parmesano rallado",
+            "100 g de espinacas, frescas o congeladas",
+            "400 g de macarrones",
+            "1 brócoli (unos 300 g), partido en floretes",
+            "100 g de guisantes congelados",
+            "3 rebanadas de pan blanco (unos 125 g)",
+            "1 manojo pequeño de hojas de albahaca",
+            "1 cucharadita de aceite de oliva",
+            "25 g de frutos secos o semillas, como pipas de calabaza, piñones y almendras, para la cobertura"
         ],
         "method": [
-            "Heat the oven to 220C/200C fan/gas 7. Tip the milk, butter and flour into a large saucepan and bring to a simmer, whisking continuously until you have a smooth, thick sauce, about 3-4 mins. Don’t worry if there are a few lumps – the sauce will be blended later. Season well, then add the mustard, both cheeses and spinach.",
-            "Meanwhile, cook the pasta in boiling salted water for 5 mins. Add the broccoli and continue cooking until the pasta is cooked through and the broccoli is soft. Drain.",
-            "Transfer half the cooked broccoli to the cheese sauce. Whizz the cheese sauce until smooth, creamy and bright green using a hand blender (or stand mixer). Loosen with a splash of milk, if needed. Stir in the pasta, remaining broccoli and the peas and tip into a large baking dish.",
-            "If making the topping, put the bread, basil, oil and half the nuts or seeds in a food processor and whizz to coarse, green crumbs. Scatter over the pasta along with the remaining nuts or seeds. Bake for 20-25 mins, until the topping is crunchy and the sauce is bubbling. Will keep in an airtight container in the freezer for up to three months."
+            "Caliente el horno a 220C/200C ventilador/gas 7. Vierta la leche, la mantequilla y la harina en una cacerola grande y cocine a fuego lento, batiendo continuamente hasta obtener una salsa suave y espesa, aproximadamente 3-4 minutos. No te preocupes si quedan algunos grumos: la salsa se licuará más tarde. Sazona bien, luego agrega la mostaza, tanto los quesos como las espinacas.",
+            "Mientras tanto, cocine la pasta en agua hirviendo con sal durante 5 minutos. Agrega el brócoli y continúa cocinando hasta que la pasta esté bien cocida y el brócoli esté suave. Drenar.",
+            "Transfiera la mitad del brócoli cocido a la salsa de queso. Batir la salsa de queso hasta que quede suave, cremosa y de color verde brillante con una batidora de mano (o batidora de pie). Aflojar con un chorrito de leche, si es necesario. Agregue la pasta, el brócoli restante y los guisantes y viértalos en una fuente para hornear grande.",
+            "Si prepara la cobertura, coloque el pan, la albahaca, el aceite y la mitad de las nueces o semillas en un procesador de alimentos y mezcle hasta obtener migas verdes y gruesas. Esparce sobre la pasta junto con las nueces o semillas restantes. Hornee durante 20-25 minutos, hasta que la cobertura esté crujiente y la salsa burbujee. Se mantendrá en un recipiente hermético en el congelador hasta por tres meses."
         ],
         "nutritional_info": {
             "kcal": "709",
@@ -817,26 +817,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/broccoli-pasta-shells/",
-        "title": "[ES] Broccoli pasta shells",
-        "description": "(Translation pending) Kids will love this healthier take on pesto and pasta, with broccoli upping their veg intake. It takes just 20 minutes to make and is low in calories",
+        "title": "Conchas de pasta con brócoli",
+        "description": "A los niños les encantará esta versión más saludable de pesto y pasta, en la que el brócoli aumenta su consumo de verduras. Se prepara en sólo 20 minutos y es bajo en calorías.",
         "prep_time": "5 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 head of broccoli, chopped into florets",
-            "1 garlic clove, unpeeled",
-            "2 tbsp olive oil",
-            "250g pasta shells",
-            "½ small pack parsley",
-            "½ small pack basil",
-            "30g toasted pine nuts",
-            "½  lemon, zested and juiced",
-            "30g parmesan(or vegetarian alternative), plus extra to serve"
+            "1 cabeza de brócoli, picada en floretes",
+            "1 diente de ajo, sin pelar",
+            "2 cucharadas de aceite de oliva",
+            "250 g de conchas de pasta",
+            "½ paquete pequeño de perejil",
+            "½ paquete pequeño de albahaca",
+            "30 g de piñones tostados",
+            "½ limón, rallado y en jugo",
+            "30 g de parmesano (o alternativa vegetariana), más extra para servir"
         ],
         "method": [
-            "Heat the oven to 200C/180C fan/gas 6. Toss the broccoli and garlic in 1 tbsp of the olive oil on a roasting tray and roast in the oven for 10-12 mins, until softened.",
-            "Tip the pasta shells into a pan of boiling, salted water. Cook according to packet instructions and drain. Tip the parsley, basil, pine nuts, lemon juice and parmesan into a blender. Once the broccoli is done, set aside a few of the smaller pieces. Squeeze the garlic from its skin, add to the blender along with the rest of the broccoli, pulse to a pesto and season well.",
-            "Toss the pasta with the pesto. Add the reserved broccoli florets, split between two bowls and top with a little extra parmesan, the lemon zest and a good grinding of black pepper, if you like."
+            "Caliente el horno a 200C/180C ventilador/gas 6. Mezcle el brócoli y el ajo en 1 cucharada de aceite de oliva en una bandeja para asar y ase en el horno durante 10-12 minutos, hasta que se ablanden.",
+            "Vierta las cáscaras de pasta en una cacerola con agua hirviendo con sal. Cocine según las instrucciones del paquete y escurra. Coloca el perejil, la albahaca, los piñones, el jugo de limón y el parmesano en una licuadora. Una vez que el brócoli esté listo, reserva algunos de los trozos más pequeños. Exprime el ajo de la piel, agrégalo a la licuadora junto con el resto del brócoli, tritura hasta obtener un pesto y sazona bien.",
+            "Mezcle la pasta con el pesto. Añade los floretes de brócoli reservados, repartidos en dos tazones y cubre con un poco más de parmesano, la ralladura de limón y un buen molido de pimienta negra, si lo deseas."
         ],
         "nutritional_info": {
             "kcal": "372",
@@ -853,27 +853,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spaghetti-smoky-tomato-seafood-sauce/",
-        "title": "[ES] Spaghetti with smoky tomato & seafood sauce",
-        "description": "(Translation pending) Chilli, fennel seeds and smoked paprika add warmth and flavour to a rich tomato sauce, served with seafood in this quick pasta dish",
+        "title": "Espaguetis con salsa de tomate ahumado y marisco",
+        "description": "El chile, las semillas de hinojo y el pimentón ahumado añaden calidez y sabor a una rica salsa de tomate, servida con mariscos en este plato de pasta rápido.",
         "prep_time": "5 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "4 tbsp olive oil",
-            "4 garlic cloves, crushed",
-            "1 red chilli, deseeded and finely sliced",
-            "1½  tsp fennel seeds",
-            "400g spaghetti",
-            "2 tsp smoked paprika",
-            "2 x 400g cans chopped tomatoes",
-            "2 tsp sugar",
-            "400g pack frozen mixed cooked seafood, defrosted",
-            "small bunch parsley or basil, chopped"
+            "4 cucharadas de aceite de oliva",
+            "4 dientes de ajo machacados",
+            "1 chile rojo, sin semillas y cortado en rodajas finas",
+            "1½ cucharadita de semillas de hinojo",
+            "400 g de espaguetis",
+            "2 cucharaditas de pimentón ahumado",
+            "2 latas de 400 g de tomates picados",
+            "2 cucharaditas de azúcar",
+            "Paquete de 400 g de mariscos cocidos mixtos congelados, descongelados",
+            "manojo pequeño de perejil o albahaca, picado"
         ],
         "method": [
-            "Boil the kettle and heat the oil in a large, deep frying pan. Add the garlic, chilli and fennel seeds, and sizzle for a few mins. Pour the boiling water into a large pan and cook the pasta following pack instructions.",
-            "Add the paprika, tomatoes, sugar and seasoning to the pan and simmer for 8-10 mins while the pasta cooks.",
-            "Drain the pasta 1 min before the end of the cooking time, reserving a cup of the water. Add the pasta to the sauce with the seafood. Simmer for 1-2 mins, adding a splash of the reserved pasta water if it looks too thick. Toss the pasta through the sauce as it cooks. Add the herbs and black pepper, then serve."
+            "Hervir la tetera y calentar el aceite en una sartén grande y profunda. Agregue el ajo, la guindilla y las semillas de hinojo y cocine a fuego lento durante unos minutos. Vierta el agua hirviendo en una cacerola grande y cocine la pasta siguiendo las instrucciones del paquete.",
+            "Agregue el pimentón, los tomates, el azúcar y los condimentos a la sartén y cocine a fuego lento durante 8 a 10 minutos mientras se cocina la pasta.",
+            "Escurre la pasta 1 minuto antes de que finalice el tiempo de cocción, reservando una taza de agua. Agrega la pasta a la salsa con los mariscos. Cocine a fuego lento durante 1-2 minutos, agregando un chorrito del agua de la pasta reservada si parece demasiado espesa. Mezcle la pasta con la salsa mientras se cocina. Agrega las hierbas y la pimienta negra y sirve."
         ],
         "nutritional_info": {
             "kcal": "638",
@@ -889,25 +889,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/butternut-bacon-fusilli/",
-        "title": "[ES] Butternut & bacon fusilli",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyThis easy pasta dish with pancetta, butternut squash and spinach makes a healthy weeknight dinner – fresh rosemary adds extra flavour",
+        "title": "Fusilli de nueces y tocino",
+        "description": "Contiene carne de cerdo; la receta es solo para no musulmanes. Este sencillo plato de pasta con panceta, calabaza y espinacas es una cena saludable entre semana; el romero fresco agrega sabor extra.",
         "prep_time": "10 mins Cook: 50 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "½  x 160g pack pancetta di cubetti",
-            "1½  tbsp olive oil",
-            "750g butternut squash, deseeded and cut into 2cm cubes",
-            "2 rosemary sprigs, leaves finely chopped",
-            "¼ tsp chilli flakes",
-            "3 garlic cloves, finely chopped",
-            "350g fusilli bucati (or fusilli)",
-            "100g young leaf spinach, roughly chopped",
-            "grated Parmesan, to serve"
+            "½ paquete de 160 g de cubitos de tocino",
+            "1½ cucharada de aceite de oliva",
+            "750 g de calabaza, sin semillas y cortada en cubos de 2 cm",
+            "2 ramitas de romero, hojas finamente picadas",
+            "¼ cucharadita de hojuelas de chile",
+            "3 dientes de ajo, finamente picados",
+            "350 g de fusilli con agujeros (o fusilli)",
+            "100 g de espinacas tiernas, picadas en trozos grandes",
+            "parmesano rallado, para servir"
         ],
         "method": [
-            "Tip the pancetta into a large frying pan set over a medium heat and cook for 5-8 mins until really crisp. Remove using a slotted spoon, leaving the fat in the pan. Add the oil to the pan, along with the squash, rosemary, chilli and garlic. Cover and cook for 25 mins, stirring now and then, until the squash is tender. Season well, and gently crush some of the butternut squash with the back of a spoon.",
-            "Bring a large pan of salted water to the boil 15 mins before the squash is ready, and cook the pasta following pack instructions. Drain, reserving the cooking water. Add 1-2 ladles of pasta water to the squash and let it bubble for a few mins. Tip in the drained pasta and toss together. Stir through the spinach, then divide between plates. Sprinkle over the pancetta, some grated Parmesan and a good grinding of black pepper."
+            "Vierta la panceta en una sartén grande a fuego medio y cocine durante 5-8 minutos hasta que esté bien crujiente. Retirar con una espumadera dejando la grasa en la sartén. Agrega el aceite a la sartén, junto con la calabaza, el romero, la guindilla y el ajo. Tape y cocine durante 25 minutos, revolviendo de vez en cuando, hasta que la calabaza esté tierna. Sazone bien y triture suavemente un poco de calabaza con el dorso de una cuchara.",
+            "Hierva una cacerola grande con agua con sal 15 minutos antes de que la calabaza esté lista y cocine la pasta siguiendo las instrucciones del paquete. Escurrir reservando el agua de cocción. Agrega 1-2 cucharadas de agua para pasta a la calabaza y déjala burbujear durante unos minutos. Vierta la pasta escurrida y mezcle. Agregue las espinacas y luego divídalas en platos. Espolvorear por encima la panceta, un poco de parmesano rallado y un buen molido de pimienta negra."
         ],
         "nutritional_info": {
             "kcal": "442",
@@ -924,26 +924,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/creamy-tomato-courgette-prawn-pasta/",
-        "title": "[ES] Creamy tomato, courgette & prawn pasta",
-        "description": "(Translation pending) This fast, fresh pasta sauce with cherry tomatoes, prawns and crème fraîche is ideal for a midweek supper, and it’s low-fat",
+        "title": "Pasta cremosa de tomate, calabacín y gambas",
+        "description": "Esta rápida salsa para pasta fresca con tomates cherry, gambas y crème fraîche es ideal para una cena entre semana y es baja en grasas.",
         "prep_time": "10 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 tbsp olive oil",
-            "2 fat garlic cloves, thinly sliced",
-            "2 large or 400g baby courgettes, sliced",
-            "400g orecchiette pasta, or any other small pasta shape",
-            "2 x 400g cans cherry tomatoes",
-            "good pinch of sugar",
-            "200g raw prawns, peeled",
-            "100g half-fat crème fraîche",
-            "small pack basil, leaves only, torn"
+            "1 cucharada de aceite de oliva",
+            "2 dientes de ajo gordos, en rodajas finas",
+            "2 calabacines pequeños grandes o de 400 g, en rodajas",
+            "400 g de pasta orecchiette o cualquier otra forma de pasta pequeña",
+            "2 latas de 400 g de tomates cherry",
+            "buena pizca de azúcar",
+            "200 g de gambas crudas, peladas",
+            "100 g de crema fresca semidesnatada",
+            "albahaca en paquete pequeño, solo las hojas, rasgadas"
         ],
         "method": [
-            "Heat the oil in a large pan, add the garlic and sizzle for a few mins, then add the courgettes and cook for a few mins more until starting to soften. Cook the pasta following pack instructions.",
-            "Add the tomatoes, sugar and seasoning to the pan, stir and simmer, uncovered, for about 10 mins while the pasta cooks.",
-            "Add the prawns to the sauce and bubble until they just turn pink. Drain the pasta and add to the sauce with the crème fraîche. Simmer for another 1-2 mins, then add the basil and serve."
+            "Calentar el aceite en una sartén grande, añadir el ajo y chisporrotear durante unos minutos, luego añadir los calabacines y cocinar unos minutos más hasta que empiecen a ablandarse. Cocine la pasta siguiendo las instrucciones del paquete.",
+            "Agregue los tomates, el azúcar y los condimentos a la sartén, revuelva y cocine a fuego lento, sin tapar, durante unos 10 minutos mientras se cocina la pasta.",
+            "Agrega los langostinos a la salsa y burbujea hasta que se pongan rosados. Escurre la pasta y agrégala a la salsa con la crème fraîche. Cocine a fuego lento durante 1-2 minutos más, luego agregue la albahaca y sirva."
         ],
         "nutritional_info": {
             "kcal": "533",
@@ -960,31 +960,31 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chilli-prawn-linguine/",
-        "title": "[ES] Chilli prawn linguine",
-        "description": "(Translation pending) An elegant, low-fat seafood dish, perfect for mid-week entertaining – very light and stylish",
+        "title": "Linguini de gambas con chile",
+        "description": "Un plato de marisco elegante y bajo en grasa, perfecto para entretener a mitad de semana: muy ligero y elegante.",
         "prep_time": "5 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "280g linguine pasta",
-            "200g sugar snap peas, trimmed",
-            "2 tbsp olive oil",
-            "2 large garlic cloves, finely chopped",
-            "1 large red chilli, seeded and finely chopped",
-            "24 raw king prawns, peeled",
-            "12 cherry tomatoes, halved",
-            "a handful of fresh basil leaves",
-            "mixed salad leaves and crusty white bread, to serve",
-            "2 tbsp virtually fat-free fromage frais",
-            "grated zest and juice of 2 limes",
-            "2 tsp golden caster sugar"
+            "280 g de pasta linguini",
+            "200 g de guisantes dulces, cortados",
+            "2 cucharadas de aceite de oliva",
+            "2 dientes de ajo grandes, finamente picados",
+            "1 chile rojo grande, sin semillas y finamente picado",
+            "24 langostinos crudos, pelados",
+            "12 tomates cherry, cortados por la mitad",
+            "un puñado de hojas de albahaca fresca",
+            "hojas de ensalada mixta y pan blanco crujiente, para servir",
+            "2 cucharadas de queso fresco prácticamente sin grasa",
+            "ralladura y jugo de 2 limas",
+            "2 cucharaditas de azúcar en polvo dorado"
         ],
         "method": [
-            "Mix the dressing ingredients in\r\na small bowl and season with\r\nsalt and pepper. Set aside.",
-            "Cook the pasta according to the\r\npacket instructions. Add the sugar\r\nsnap peas for the last minute or so\r\nof cooking time.",
-            "Meanwhile, heat the oil in a wok or\r\nlarge frying pan, toss in the garlic\r\nand chilli and cook over a fairly\r\ngentle heat for about 30 seconds\r\nwithout letting the garlic brown. Tip\r\nin the prawns and cook over a high\r\nheat, stirring frequently, for about 3\r\nminutes until they turn pink.",
-            "Add the tomatoes and cook,\r\nstirring occasionally, for 3 minutes\r\nuntil they just start to soften. Drain\r\nthe pasta and sugar snaps well,\r\nthen toss into the prawn mixture.\r\nTear in the basil leaves, stir, and\r\nseason with salt and pepper.",
-            "Serve with salad leaves drizzled\r\nwith the lime dressing, and warm\r\ncrusty bread."
+            "Mezclar los ingredientes del aderezo en\r\nun tazón pequeño y sazonar con\r\nsal y pimienta. Dejar de lado.",
+            "Cocine la pasta según las\r\ninstrucciones del paquete. Agrega el azúcar\r\nguisantes durante el último minuto más o menos\r\ndel tiempo de cocción.",
+            "Mientras tanto, calentar el aceite en un wok o\r\nsartén grande, agregue el ajo\r\ny chile y cocinar a fuego bastante\r\ncalor suave durante unos 30 segundos\r\nsin dejar que se doren los ajos. consejo\r\nen las gambas y cocinar a fuego alto.\r\nCaliente, revolviendo con frecuencia, durante aproximadamente 3\r\nminutos hasta que se pongan rosados.",
+            "Agrega los tomates y cocina,\r\nrevolviendo ocasionalmente, durante 3 minutos\r\nhasta que empiecen a ablandarse. Drenar\r\nla pasta y el azúcar cuajan bien,\r\nluego agregue a la mezcla de camarones.\r\nCorte las hojas de albahaca, revuelva y\r\nsazone con sal y pimienta.",
+            "Sirva con hojas de ensalada rociadas\r\ncon el aderezo de lima y tibio\r\npan crujiente."
         ],
         "nutritional_info": {
             "kcal": "333",
@@ -1001,26 +1001,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spaghetti-omelette/",
-        "title": "[ES] Spaghetti omelette",
-        "description": "(Translation pending) This speedy spaghetti omelette is a great way of using up leftover pasta, and it’s bound to be a hit with kids",
+        "title": "Tortilla de espaguetis",
+        "description": "Esta rápida tortilla de espaguetis es una excelente manera de aprovechar los restos de pasta y seguramente será un éxito entre los niños.",
         "prep_time": "15 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 tbsp olive oil",
-            "1 garlic clove, crushed",
-            "1 onion, chopped",
-            "2 courgettes, grated",
-            "2 tbsp chopped flat-leaf parsley",
-            "300g pot fresh cheese sauce",
-            "200g cooked spaghetti or other pasta",
-            "2 eggs"
+            "2 cucharadas de aceite de oliva",
+            "1 diente de ajo, machacado",
+            "1 cebolla, picada",
+            "2 calabacines rallados",
+            "2 cucharadas de perejil de hoja plana picado",
+            "300 g de salsa de queso fresco en bote",
+            "200 g de espaguetis cocidos u otra pasta",
+            "2 huevos"
         ],
         "method": [
-            "Heat half the oil in a medium non-stick\r\nfrying pan and add the garlic and onion.\r\nCook for 2-3 mins, until softened. Using\r\nyour hands, squeeze out as much\r\nmoisture from the courgettes as\r\npossible. Add them to the pan and cook\r\nfor a further 3-4 mins, until tender. Spoon\r\nthe vegetables into a large bowl.",
-            "Stir in the parsley, cheese sauce and\r\nspaghetti and season. Beat the eggs\r\nand stir into the mixture.",
-            "Heat remaining oil in the frying pan and\r\ntip in the spaghetti mixture. Level it out with\r\nthe back of a spoon and cook over a medium\r\nheat for 3-5 mins, until almost set.",
-            "Transfer to a hot grill for 2-3 mins, until\r\ngolden. Leave to cool in the pan for\r\n5 mins, then cut into wedges and serve."
+            "Calentar la mitad del aceite en una sartén mediana antiadherente.\r\nsartén y añadir el ajo y la cebolla.\r\nCocine durante 2-3 minutos, hasta que se ablanden. Usando\r\ntus manos, exprime tanto\r\nhumedad de los calabacines como\r\nposible. Agréguelos a la sartén y cocine.\r\ndurante 3-4 minutos más, hasta que estén tiernos. Cuchara\r\nlas verduras en un tazón grande.",
+            "Agregue el perejil, la salsa de queso y\r\nespaguetis y sazonar. batir los huevos\r\ny agregue a la mezcla.",
+            "Calentar el aceite restante en la sartén y\r\nVierta la mezcla de espaguetis. Nivelarlo con\r\nel dorso de una cuchara y cocine a fuego medio.\r\nCaliente durante 3-5 minutos, hasta que esté casi listo.",
+            "Transfiera a una parrilla caliente durante 2-3 minutos, hasta que\r\ndorado. Dejar enfriar en la sartén durante\r\n5 minutos, luego córtelo en gajos y sirva."
         ],
         "nutritional_info": {
             "kcal": "324",
@@ -1037,25 +1037,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/vitality-veggie-pasta/",
-        "title": "[ES] Vitality veggie pasta",
-        "description": "(Translation pending) Easy and quick veggie pasta",
+        "title": "Pasta vegetal vitalidad",
+        "description": "Pasta vegetal fácil y rápida",
         "prep_time": "",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "250g pack pappardelle pasta",
-            "1 small butternut squash, peeled, seeded and chopped into chunks",
-            "2 tbsp olive oil",
-            "small handful pine nuts",
-            "1 plump garlic clove, finely chopped",
-            "4 large field mushrooms, sliced",
-            "250g bag washed spinach",
-            "grated parmesan and chilli flakes to serve, optional"
+            "Paquete de 250 g de pasta pappardelle",
+            "1 calabaza pequeña, pelada, sin semillas y cortada en trozos",
+            "2 cucharadas de aceite de oliva",
+            "un puñado pequeño de piñones",
+            "1 diente de ajo gordo, finamente picado",
+            "4 champiñones grandes, rebanados",
+            "Bolsa de 250 g de espinacas lavadas",
+            "queso parmesano rallado y hojuelas de chile para servir, opcional"
         ],
         "method": [
-            "Pour boiling water\r\ninto a large saucepan, bring to the boil, then cook\r\nthe pasta according to pack instructions. When the\r\npasta has 5 mins left to cook, tip in the squash\r\nand cook with the pasta for the remaining time.",
-            "While the pasta is cooking,\r\nheat half the oil in a large frying pan. Sizzle the pine\r\nnuts in the oil until they start to colour, stir in the\r\ngarlic and cook for a moment just to soften. Add\r\nremaining oil, turn up the heat, add the mushroom\r\nand cook for 2-3 mins until they start to soften. Turn\r\nthe heat to maximum, add spinach to the pan and\r\ncook for 1-2 mins until completely wilted.",
-            "Drain the pasta and squash,\r\nthen mix in with the vegetables until everything’s\r\nnicely combined. Bring the pan to the table and let\r\neveryone help themselves. You could also pass round\r\ngrated parmesan and chilli flakes if people want it."
+            "Vierta agua hirviendo\r\nen una cacerola grande, llevar a ebullición y luego cocinar\r\nla pasta según las instrucciones del paquete. cuando el\r\na la pasta le quedan 5 minutos de cocción, agregue la calabaza\r\ny cocinar con la pasta por el tiempo restante.",
+            "Mientras se cocina la pasta,\r\nCalienta la mitad del aceite en una sartén grande. chisporrotear el pino\r\nnueces en el aceite hasta que empiecen a tomar color, agregue el\r\najo y cocine por un momento solo para que se ablande. Añadir\r\naceite restante, subir el fuego, añadir los champiñones\r\ny cocine durante 2-3 minutos hasta que empiecen a ablandarse. girar\r\nel fuego al máximo, añadir las espinacas a la sartén y\r\ncocine durante 1-2 minutos hasta que se ablanden por completo.",
+            "Escurrir la pasta y la calabaza,\r\nluego mezcle con las verduras hasta que todo esté\r\nmuy bien combinado. Llevar la sartén a la mesa y dejar\r\ncada uno se ayuda a sí mismo. También podrías pasar\r\nparmesano rallado y hojuelas de chile si la gente lo desea."
         ],
         "nutritional_info": {
             "kcal": "377",
@@ -1072,25 +1072,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spicy-spaghetti-with-garlic-mushrooms/",
-        "title": "[ES] Spicy spaghetti with garlic mushrooms",
-        "description": "(Translation pending) A low fat, fail-safe pasta dish that will proves that it's just as easy to whip up a meal as it is to turn on the microwave",
+        "title": "Espaguetis picantes con champiñones al ajillo",
+        "description": "Un plato de pasta bajo en grasas e infalible que demostrará que es tan fácil preparar una comida como encender el microondas.",
         "prep_time": "10 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 tbsp olive oil",
-            "250g pack chestnut mushrooms, thickly sliced",
-            "1 garlic clove, thinly sliced",
-            "small bunch parsley, leaves only",
-            "1 celery stick, finely chopped",
-            "1 onion, finely chopped",
-            "400g can chopped tomatoes",
-            "1?2 red chilli, deseeded and finely chopped, (or use drieds chilli flakes)",
-            "300g spaghetti"
+            "2 cucharadas de aceite de oliva",
+            "Paquete de 250 g de champiñones castaños, en rodajas gruesas",
+            "1 diente de ajo, en rodajas finas",
+            "perejil en manojo pequeño, solo las hojas",
+            "1 rama de apio, finamente picada",
+            "1 cebolla, finamente picada",
+            "Lata de 400g de tomates picados",
+            "1 o 2 chiles rojos, sin semillas y finamente picados (o use hojuelas de chile seco)",
+            "300 g de espaguetis"
         ],
         "method": [
-            "Heat 1 tbsp oil in a pan, add the mushrooms,\r\nthen fry over a high heat for 3 mins until\r\ngolden and softened. Add the garlic, fry for\r\n1 min more, then tip into a bowl with the\r\nparsley. Add the onion and celery to the pan\r\nwith the rest of the oil, then fry for 5 mins\r\nuntil lightly coloured.",
-            "Stir in the tomatoes, chilli and a little salt,\r\nthen bring to the boil. Reduce the heat and\r\nsimmer, uncovered, for 10 mins until\r\nthickened. Meanwhile, boil the spaghetti,\r\nthen drain. Toss with the sauce, top with\r\nthe garlicky mushrooms, then serve."
+            "Calentar 1 cucharada de aceite en una sartén, agregar los champiñones,\r\nluego freír a fuego alto durante 3 minutos hasta que\r\ndorado y ablandado. Añadir el ajo, sofreír\r\n1 minuto más, luego verter en un bol con el\r\nperejil. Agrega la cebolla y el apio a la sartén.\r\ncon el resto del aceite, luego sofreír durante 5 min.\r\nhasta que tenga un color claro.",
+            "Agrega los tomates, la guindilla y un poco de sal.\r\nluego llevar a ebullición. Reducir el fuego y\r\ncocine a fuego lento, sin tapar, durante 10 minutos hasta que\r\nengrosado. Mientras tanto, hervir los espaguetis,\r\nluego escurrir. Mezcle con la salsa, cubra con\r\nlos champiñones al ajillo y sirva."
         ],
         "nutritional_info": {
             "kcal": "346",
@@ -1107,24 +1107,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/lemony-prawn-and-pea-pasta/",
-        "title": "[ES] Lemony prawn & pea pasta",
-        "description": "(Translation pending) A simple and flavoursome storecupboard prawn pasta dish that combines fresh flavours with quick cooking",
+        "title": "Pasta al limón con gambas y guisantes",
+        "description": "Un plato de pasta con gambas de despensa, sencillo y sabroso, que combina sabores frescos con una cocción rápida.",
         "prep_time": "5 mins Cook: 8 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "350g linguine or other long pasta",
-            "140g large frozen prawns",
-            "100g frozen peas",
-            "1 egg yolk",
-            "zest and juice 1 lemon",
-            "handful grated parmesan",
-            "soured cream (optional)"
+            "350 g de linguini u otra pasta larga",
+            "140 g de gambas grandes congeladas",
+            "100 g de guisantes congelados",
+            "1 yema de huevo",
+            "ralladura y jugo de 1 limón",
+            "un puñado de parmesano rallado",
+            "crema agria (opcional)"
         ],
         "method": [
-            "Boil the linguine for 8 mins. Three minutes before the time is up, tip in the prawns and peas. Reserve a cup\r\nof cooking water, then drain the pasta and return to the pan.",
-            "Add the egg yolk, lemon zest and juice, most of the Parmesan and some soured cream, if you like. Stir everything together, adding a little of the pasta cooking water to loosen the mixture.",
-            "Serve sprinkled with Parmesan."
+            "Hervir los linguini durante 8 minutos. Tres minutos antes de que se acabe el tiempo, verter las gambas y los guisantes. Reserva una taza\r\nde agua de cocción, luego escurrir la pasta y devolverla a la cacerola.",
+            "Agrega la yema de huevo, la ralladura y el jugo de limón, la mayor parte del parmesano y un poco de crema agria, si lo deseas. Remueve todo, añadiendo un poco del agua de cocción de la pasta para que se suelte la mezcla.",
+            "Sirva espolvoreado con parmesano."
         ],
         "nutritional_info": {
             "kcal": "393",
@@ -1141,24 +1141,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spinach-and-feta-cannelloni/",
-        "title": "[ES] Spinach & feta cannelloni",
-        "description": "(Translation pending) A low fat, high iron dish that makes a great mid-week meal for all the family",
+        "title": "Canelones de espinacas y queso feta",
+        "description": "Un plato bajo en grasas y rico en hierro que es una excelente comida de mitad de semana para toda la familia.",
         "prep_time": "20 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "4 large sheets no-pre-cook lasagne (we used Sainsbury's fresh egg lasagne from a 250g pack)",
-            "1kg frozen spinach, defrosted",
-            "200g pack low-fat feta cheese",
-            "generous grating nutmeg",
-            "large handful olives, pitted and chopped",
-            "1 tbsp caper, rinsed",
-            "400g can chopped tomatoes",
-            "25g parmesan, grated"
+            "4 láminas grandes de lasaña sin precocción (nosotros utilizamos lasaña de huevo fresco de Sainsbury's de un paquete de 250 g)",
+            "1 kg de espinacas congeladas, descongeladas",
+            "Paquete de 200 g de queso feta bajo en grasa",
+            "nuez moscada rallada generosa",
+            "un puñado grande de aceitunas, deshuesadas y picadas",
+            "1 cucharada de alcaparras, enjuagadas",
+            "Lata de 400g de tomates picados",
+            "25 g de parmesano rallado"
         ],
         "method": [
-            "Heat oven to 200C/fan 180C/gas 6. Put the lasagne sheets in a large bowl and cover with boiling water. Soak for 5 mins or prepare according to pack instructions. Meanwhile, squeeze as much water as possible from the spinach, then mix with the feta, nutmeg and some seasoning. Drain the pasta, then cut each sheet in half vertically. Spoon 4 tbsp of the filling along the centre of each half, then roll up to enclose. Place in a lightly oiled baking dish.",
-            "Mix the olives, capers and tomatoes together in a bowl, season, then spoon over the cannelloni. Sprinkle with parmesan,\r\ncover with foil, then bake for 20 mins."
+            "Calentar el horno a 200C/ventilador 180C/gas 6. Poner las láminas de lasaña en un bol grande y cubrir con agua hirviendo. Remoje durante 5 minutos o prepárelo según las instrucciones del paquete. Mientras tanto, exprime la mayor cantidad de agua posible de las espinacas y luego mézclalas con el queso feta, la nuez moscada y un poco de condimento. Escurre la pasta y luego corta cada hoja por la mitad verticalmente. Coloque 4 cucharadas del relleno en el centro de cada mitad y luego enróllelas para cerrarlas. Colóquelo en una fuente para horno ligeramente engrasada.",
+            "Mezcle las aceitunas, las alcaparras y los tomates en un bol, sazone y luego vierta sobre los canelones. Espolvorear con parmesano,\r\ncubra con papel aluminio y luego hornee por 20 minutos."
         ],
         "nutritional_info": {
             "kcal": "274",
@@ -1175,28 +1175,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/tofu-and-spinach-cannelloni/",
-        "title": "[ES] Tofu & spinach cannelloni",
-        "description": "(Translation pending) Tasty tofu is a vegetarian's best friend and this cannelloni dish, packed with protein and iron, is sure to be a freezable favourite",
+        "title": "Canelones de tofu y espinacas",
+        "description": "El sabroso tofu es el mejor amigo de los vegetarianos y este plato de canelones, repleto de proteínas y hierro, seguramente será uno de los favoritos para congelar.",
         "prep_time": "25 mins Cook: 1 hrs",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "2 tbsp olive oil",
-            "1 onion, chopped",
-            "3 garlic cloves, finely chopped",
-            "2 x 400g cans chopped tomatoes",
-            "50g pine nuts, roughly chopped",
-            "400g bag spinach",
-            "pinch grated nutmeg",
-            "349g pack silken tofu",
-            "300g pack fresh lasagne sheets",
-            "4 tbsp fresh breadcrumbs"
+            "2 cucharadas de aceite de oliva",
+            "1 cebolla, picada",
+            "3 dientes de ajo, finamente picados",
+            "2 latas de 400 g de tomates picados",
+            "50 g de piñones, picados en trozos grandes",
+            "400 g de bolsa de espinacas",
+            "pizca de nuez moscada rallada",
+            "Paquete de 349 g de tofu sedoso",
+            "Paquete de 300g en láminas de lasaña fresca",
+            "4 cucharadas de pan rallado fresco"
         ],
         "method": [
-            "Heat half the oil in a pan, add onion and 1/3 of the garlic and fry for 4 mins until softened. Pour in tomatoes, season and bring to the boil. Reduce heat and cook for 10 mins until sauce thickens.",
-            "Heat half remaining oil in a frying pan and cook another 1/3 of garlic for 1 min, then add half the pine nuts and the spinach. Wilt spinach, then tip out excess liquid. Whizz tofu in a food processor or with a hand blender until smooth, then stir through the spinach with the nutmeg and some pepper. Remove from the heat; allow to cool slightly.",
-            "Heat oven to 200C/180C fan/gas 6. Pour half tomato sauce into a 20 x 30cm dish. Divide spinach mix between lasagne sheets, roll up and lay on top of sauce. Pour over remaining sauce. Bake for 30 mins.",
-            "Mix crumbs with remaining garlic and pine nuts. Sprinkle over top of dish, drizzle with remaining oil and bake for 10 mins until crumbs are golden."
+            "Calentar la mitad del aceite en una sartén, agregar la cebolla y 1/3 del ajo y sofreír durante 4 minutos hasta que se ablanden. Vierta los tomates, sazone y deje hervir. Reduzca el fuego y cocine durante 10 minutos hasta que la salsa espese.",
+            "Calienta la mitad del aceite restante en una sartén y cocina otro 1/3 del ajo durante 1 min, luego agrega la mitad de los piñones y las espinacas. Deje que las espinacas se marchiten y luego retire el exceso de líquido. Batir el tofu en un procesador de alimentos o con una batidora de mano hasta que quede suave, luego mezclar las espinacas con la nuez moscada y un poco de pimienta. Retirar del fuego; dejar enfriar un poco.",
+            "Calentar el horno a 200C/180C ventilador/gas 6. Vierta la mitad de la salsa de tomate en un plato de 20 x 30 cm. Divida la mezcla de espinacas entre las láminas de lasaña, enrolle y colóquelas encima de la salsa. Vierta sobre la salsa restante. Hornee por 30 minutos.",
+            "Mezcle las migas con el resto del ajo y los piñones. Espolvoree sobre la fuente, rocíe con el aceite restante y hornee durante 10 minutos hasta que las migajas estén doradas."
         ],
         "nutritional_info": {
             "kcal": "284",
@@ -1213,21 +1213,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spaghetti-genovese/",
-        "title": "[ES] Spaghetti Genovese",
-        "description": "(Translation pending) This vegetarian pasta dish is the perfect solution when you want something quick and tasty – and everything’s cooked in one pan",
+        "title": "Espaguetis A La Genovesa",
+        "description": "Este plato de pasta vegetariana es la solución perfecta cuando quieres algo rápido y sabroso, y todo está cocinado en una sola sartén.",
         "prep_time": "",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "300g new potatoes, sliced",
-            "300g spaghetti",
-            "200g trimmed green beans, cut in half",
-            "120g tub fresh pesto",
-            "olive oil, for drizzling"
+            "300 g de patatas nuevas, en rodajas",
+            "300 g de espaguetis",
+            "200 g de judías verdes peladas y cortadas por la mitad",
+            "120 g de pesto fresco en tarrina",
+            "aceite de oliva, para rociar"
         ],
         "method": [
-            "Pour a kettle of boiling water into a very large pan until half full. Return to the boil, then add the potatoes and spaghetti, and a little salt. Cook for 10 minutes until the potatoes and pasta are almost tender. Tip in the green beans and cook for 5 minutes more.",
-            "Drain well, reserving 4 tbsp of the cooking liquid. Return the potatoes, pasta and beans to the pan, then stir in the fresh pesto and reserved cooking liquid. Season to taste, divide between four serving plates and drizzle with a little olive oil."
+            "Vierta una tetera con agua hirviendo en una cacerola muy grande hasta que esté medio llena. Vuelva a hervir, luego agregue las patatas y los espaguetis, y un poco de sal. Cocine durante 10 minutos hasta que las patatas y la pasta estén casi tiernas. Vierta las judías verdes y cocine por 5 minutos más.",
+            "Escurrir bien, reservando 4 cucharadas del líquido de cocción. Regrese las papas, la pasta y los frijoles a la sartén, luego agregue el pesto fresco y el líquido de cocción reservado. Sazone al gusto, divida en cuatro platos para servir y rocíe con un poco de aceite de oliva."
         ],
         "nutritional_info": {
             "kcal": "330",
@@ -1244,25 +1244,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/hearty-pasta-soup/",
-        "title": "[ES] Hearty pasta soup",
-        "description": "(Translation pending) Do something different with a pack of tortellini. This filling soup is full of fibre, low fat and full of veg. The perfect lunch or supper",
+        "title": "Sopa de pasta abundante",
+        "description": "Haz algo diferente con un paquete de tortellini. Esta sopa abundante está llena de fibra, baja en grasas y llena de verduras. El almuerzo o cena perfecto",
         "prep_time": "5 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 tbsp olive oil",
-            "2 carrots, chopped",
-            "1 large onion, finely chopped",
-            "1l vegetable stock",
-            "400g can chopped tomatoes",
-            "200g frozen mixed peas and beans",
-            "250g pack fresh filled tortellini (we used spinach and ricotta)",
-            "handful of basil leaves (optional)",
-            "grated parmesan (or vegetarian alternative), to serve"
+            "1 cucharada de aceite de oliva",
+            "2 zanahorias, picadas",
+            "1 cebolla grande, finamente picada",
+            "1 litro de caldo de verduras",
+            "Lata de 400g de tomates picados",
+            "200 g de guisantes y frijoles congelados",
+            "Paquete de 250 g de tortellini rellenos frescos (nosotros usamos espinacas y ricotta)",
+            "un puñado de hojas de albahaca (opcional)",
+            "parmesano rallado (o alternativa vegetariana), para servir"
         ],
         "method": [
-            "Heat oil in a pan. Fry the carrots and onion for\r\n5 mins until starting to soften. Add the stock\r\nand tomatoes, then simmer for 10 mins. Add\r\nthe peas and beans with 5 mins to go.",
-            "Once veg is tender, stir in the pasta. Return to the\r\nboil and simmer for 2 mins until the pasta is\r\njust cooked. Stir in the basil, if using. Season,\r\nthen serve in bowls topped with a sprinkling\r\nof Parmesan and slices of garlic bread."
+            "Calentar aceite en una sartén. Freír las zanahorias y la cebolla durante\r\n5 minutos hasta que empiece a ablandarse. agregar el caldo\r\ny los tomates, luego cocine a fuego lento durante 10 minutos. Añadir\r\nlos guisantes y los frijoles faltando 5 minutos.",
+            "Una vez que las verduras estén tiernas, agregue la pasta. Regresar a la\r\nhervir y cocinar a fuego lento durante 2 minutos hasta que la pasta esté\r\nrecién cocinado. Agregue la albahaca, si la usa. temporada,\r\nluego sirva en tazones cubiertos con una pizca\r\nde parmesano y rebanadas de pan de ajo."
         ],
         "nutritional_info": {
             "kcal": "286",
@@ -1279,27 +1279,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/tuna-arrabbiata-pasta-gratin/",
-        "title": "[ES] Tuna arrabbiata pasta gratin",
-        "description": "(Translation pending) This wholesome and filling pasta bake makes the perfect winter comfort food with none of the guilt",
+        "title": "Gratinado de pasta enfadada con atún",
+        "description": "Esta pasta horneada, saludable y abundante, es la comida reconfortante perfecta para el invierno sin ningún sentimiento de culpa.",
         "prep_time": "10 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 tsp olive oil",
-            "1 red and 1 yellow pepper, deseeded and sliced",
-            "2 garlic cloves, crushed",
-            "pinch crushed dried chillies",
-            "2 x 400g cans chopped tomatoes",
-            "50g mixed pitted olives, whole or roughly chopped (optional)",
-            "pinch caster sugar",
-            "250g wholemeal pasta shapes",
-            "2 x 200g cans tuna steak in spring water, drained and flaked",
-            "25g fresh wholemeal breadcrumbs",
-            "2 tbsp grated parmesan"
+            "1 cucharadita de aceite de oliva",
+            "1 pimiento rojo y 1 amarillo, sin semillas y en rodajas",
+            "2 dientes de ajo machacados",
+            "una pizca de chiles secos triturados",
+            "2 latas de 400 g de tomates picados",
+            "50 g de aceitunas mixtas sin hueso, enteras o picadas (opcional)",
+            "pizca de azúcar en polvo",
+            "250 g de formas de pasta integral",
+            "2 latas de 200 g de filete de atún en agua de manantial, escurrido y desmenuzado",
+            "25 g de pan rallado integral fresco",
+            "2 cucharadas de parmesano rallado"
         ],
         "method": [
-            "Heat the oil in a large saucepan and\r\nfry the peppers for about 5 mins until\r\nstarting to caramelise. Add the garlic\r\nand chillies, cook for 30 secs, then tip\r\nin the tomatoes and olives (if using).\r\nSeason, add a pinch of sugar, bring to the\r\nboil, then simmer, uncovered, for 10 mins.",
-            "Meanwhile, cook the pasta according\r\nto pack instructions. Heat the grill. Drain\r\nthe pasta and mix into the tomato sauce,\r\nalong with the tuna. Tip into a large\r\novenproof dish. Mix the breadcrumbs\r\nand Parmesan together and scatter\r\nover the top. Grill for 3-4 mins or until\r\nthe topping is crisp and golden. Serve\r\nwith a green salad, if you like."
+            "Calentar el aceite en una cacerola grande y\r\nsofreír los pimientos durante unos 5 minutos hasta que\r\nempezando a caramelizar. Agrega el ajo\r\ny chiles, cocine por 30 segundos, luego vierta\r\nen los tomates y las aceitunas (si se usan).\r\nSazonar, añadir una pizca de azúcar, llevar a la\r\nhierva, luego cocine a fuego lento, sin tapar, durante 10 minutos.",
+            "Mientras tanto, cocine la pasta según\r\npara empacar las instrucciones. Calienta la parrilla. Drenar\r\nla pasta y mezclar con la salsa de tomate,\r\njunto con el atún. Incline hacia un gran\r\nfuente apta para horno. Mezclar el pan rallado\r\ny parmesano juntos y esparcir\r\npor encima. Ase durante 3-4 minutos o hasta que\r\nla cobertura queda crujiente y dorada. servir\r\ncon ensalada verde, si quieres."
         ],
         "nutritional_info": {
             "kcal": "365",
@@ -1316,25 +1316,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spaghetti-with-crab-cherry-tomatoes-and-basil/",
-        "title": "[ES] Spaghetti with crab, cherry tomatoes & basil",
-        "description": "(Translation pending) Punchy fresh flavours in a good-for-you-dish are often what you need for a midweek boost. This pasta dish has it all",
+        "title": "Espaguetis con cangrejo, tomates cherry y albahaca",
+        "description": "Sabores frescos e intensos en un plato saludable suelen ser lo que necesitas para darle un impulso a mitad de semana. Este plato de pasta lo tiene todo.",
         "prep_time": "10 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "3",
         "ingredients": [
-            "1 tbsp extra-virgin olive oil",
-            "2 garlic cloves, chopped",
-            "pinch chilli flakes",
-            "200g cherry tomatoes, halved",
-            "zest and juice 1 lemon",
-            "2 x 170g cans white crab meat, drained",
-            "200g spaghetti",
-            "1 tsp capers, drained and rinsed",
-            "handful basil leaves, roughly chopped"
+            "1 cucharada de aceite de oliva virgen extra",
+            "2 dientes de ajo, picados",
+            "pizca de hojuelas de chile",
+            "200 g de tomates cherry partidos por la mitad",
+            "ralladura y jugo de 1 limón",
+            "2 latas de 170 g de carne de cangrejo blanco, escurrida",
+            "200 g de espaguetis",
+            "1 cucharadita de alcaparras, escurridas y enjuagadas",
+            "un puñado de hojas de albahaca, picadas en trozos grandes"
         ],
         "method": [
-            "In a large frying pan, heat the olive oil. Add the garlic and chilli flakes. Cook until just pale golden, then add the tomatoes. Cook 3 mins more on a high heat until the tomatoes start to break down a little. Add the lemon juice and cook for 1-2 mins. Remove from the heat and stir in the crab to warm through – not too much or it will break up.",
-            "Boil the pasta in a large pan of salted water following pack instructions then drain. Mix the pasta in the warm pot with the sauce, lemon zest and capers, and toss the basil through."
+            "En una sartén grande, calienta el aceite de oliva. Agrega el ajo y las hojuelas de chile. Cocine hasta que esté dorado pálido, luego agregue los tomates. Cocine 3 minutos más a fuego alto hasta que los tomates empiecen a descomponerse un poco. Agrega el jugo de limón y cocina por 1-2 minutos. Retire del fuego y agregue el cangrejo para que se caliente; no demasiado o se romperá.",
+            "Hierva la pasta en una cacerola grande con agua con sal siguiendo las instrucciones del paquete y luego escúrrala. Mezcle la pasta en la olla caliente con la salsa, la ralladura de limón y las alcaparras, y agregue la albahaca."
         ],
         "nutritional_info": {
             "kcal": "349",
@@ -1351,26 +1351,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/summer-veggie-pasta/",
-        "title": "[ES] Summer veggie pasta",
-        "description": "(Translation pending) This makes a great vegetarian family supper, but it can easily be halved to serve two",
+        "title": "Pasta vegetal de verano",
+        "description": "Esta es una excelente cena familiar vegetariana, pero se puede reducir fácilmente a la mitad para servir dos",
         "prep_time": "35 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "200g pasta bows",
-            "175g fresh or frozen broad beans (about 650g/1lb 7oz in their pods)",
-            "1 tbsp good quality olive oil",
-            "1 large onion, finely chopped",
-            "2 garlic cloves, chopped",
-            "2 large courgettes, cut into sticks",
-            "6 ripe plum tomatoes, cut into wedges",
-            "a generous shot of Tabasco sauce",
-            "a handful of shredded basil"
+            "200 g de moños de pasta",
+            "175 g de habas frescas o congeladas (aproximadamente 650 g en sus vainas)",
+            "1 cucharada de aceite de oliva de buena calidad",
+            "1 cebolla grande, finamente picada",
+            "2 dientes de ajo, picados",
+            "2 calabacines grandes, cortados en palitos",
+            "6 tomates pera maduros, cortados en gajos",
+            "un generoso trago de salsa tabasco",
+            "un puñado de albahaca rallada"
         ],
         "method": [
-            "Cook the pasta according to\r\npacket instructions, adding fresh\r\nbroad beans for the last 3 minutes\r\n(frozen for the last 2 minutes).",
-            "While the pasta is cooking, heat\r\nthe oil in a large frying pan, tip in the\r\nonion and cook over a medium\r\nheat for 1-2 minutes. Stir in the\r\ngarlic and courgettes, toss over a\r\nmedium heat for 2-3 minutes, then\r\nstir in the tomatoes and shake in\r\nthe Tabasco. Stir for 2-3 minutes\r\nto soften the tomatoes a little (not\r\ntoo much or they will go mushy).\r\nDrain the pasta and beans.",
-            "Toss the veggies and basil into\r\nthe pasta and season with salt\r\nand pepper. Serve hot (or cold as\r\na salad with a low-fat dressing)."
+            "Cocer la pasta según\r\ninstrucciones del paquete, agregando fresco\r\nHabas durante los últimos 3 minutos.\r\n(congelado durante los últimos 2 minutos).",
+            "Mientras se cocina la pasta, calentar\r\nel aceite en una sartén grande, verter en el\r\ncebolla y cocinar a fuego medio\r\ncalentar durante 1-2 minutos. Agregue el\r\najo y calabacines, revuelva sobre un\r\nfuego medio durante 2-3 minutos, luego\r\nagregue los tomates y agite\r\nEl Tabasco. Revuelva durante 2-3 minutos\r\npara ablandar un poco los tomates (no\r\ndemasiado o se pondrán blandas).\r\nEscurrir la pasta y los frijoles.",
+            "Mezcle las verduras y la albahaca\r\nla pasta y sazonar con sal\r\ny pimienta. Sirva caliente (o frío como\r\nuna ensalada con un aderezo bajo en grasas)."
         ],
         "nutritional_info": {
             "kcal": "284",
@@ -1387,26 +1387,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/pasta-with-tomato-and-hidden-veg-sauce/",
-        "title": "[ES] Pasta with tomato & hidden veg sauce",
-        "description": "(Translation pending) Get your family to eat more veg with this superhealthy pasta sauce recipe which counts as 5 of your 5-a-day. The sauce is freezable too",
+        "title": "Pasta con tomate y salsa de verduras escondida",
+        "description": "Haga que su familia coma más verduras con esta receta de salsa para pasta súper saludable que cuenta como 5 de sus 5 al día. La salsa también se puede congelar.",
         "prep_time": "15 mins Cook: 50 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 tsp olive oil",
-            "1 large onion, chopped",
-            "2 celery sticks, chopped",
-            "2 carrots, chopped",
-            "1 leek, chopped",
-            "2 peppers, deseeded and chopped",
-            "2 x 400g cans chopped tomatoes with garlic",
-            "1 tbsp each caster sugar and balsamic vinegar",
-            "300g dried pasta shapes",
-            "parmesan, shaved, and rocket, to serve (optional)"
+            "1 cucharadita de aceite de oliva",
+            "1 cebolla grande, picada",
+            "2 ramas de apio, picadas",
+            "2 zanahorias, picadas",
+            "1 puerro, picado",
+            "2 pimientos, sin semillas y picados",
+            "2 latas de 400g de tomates picados con ajo",
+            "1 cucharada de azúcar en polvo y 1 cucharada de vinagre balsámico",
+            "300 g de formas de pasta seca",
+            "parmesano, rallado y rúcula, para servir (opcional)"
         ],
         "method": [
-            "Heat the oil in a large non-stick\r\nsaucepan and gently cook the\r\nonion, celery, carrots and leek\r\nuntil soft, about 20 mins. Add the\r\npeppers and cook for 10 mins\r\nmore, then tip in the tomatoes,\r\nsugar and vinegar. Simmer for at\r\nleast 20 mins – the longer the better.",
-            "Cook the pasta following pack\r\ninstructions. Meanwhile, blitz the\r\nsauce with a hand blender until\r\nsmooth, season and return to the\r\nheat to keep warm while the pasta\r\ncooks. Drain the pasta and toss\r\nthrough the sauce. Serve in bowls\r\ntopped with shaved Parmesan and\r\nrocket leaves, if you like."
+            "Calentar el aceite en una sartén antiadherente grande.\r\ncacerola y cocine suavemente la\r\ncebolla, apio, zanahoria y puerro\r\nhasta que esté suave, unos 20 minutos. Añade el\r\npimientos y cocine por 10 minutos\r\nmás, luego agregue los tomates,\r\nazúcar y vinagre. Cocine a fuego lento durante al\r\nAl menos 20 minutos; cuanto más tiempo, mejor.",
+            "Cocine la pasta siguiente paquete\r\ninstrucciones. Mientras tanto, bombardea el\r\nsalsa con una batidora de mano hasta\r\nalisar, sazonar y volver a la\r\ncalentar para mantener el calor mientras la pasta\r\ncocineros. Escurre la pasta y revuelve.\r\na través de la salsa. Servir en tazones\r\ncubierto con queso parmesano rallado y\r\nhojas de rúcula, si quieres."
         ],
         "nutritional_info": {
             "kcal": "381",
@@ -1423,24 +1423,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/lamb-meatballs-with-rosemary-tomato-sauce/",
-        "title": "[ES] Lamb meatballs with rosemary tomato sauce",
-        "description": "(Translation pending) This hearty dish makes a simple and speedy midweek meal but can also be frozen ahead for a last-minute dinner",
+        "title": "Albóndigas de cordero con salsa de tomate al romero",
+        "description": "Este abundante plato es una comida sencilla y rápida entre semana, pero también se puede congelar con antelación para una cena de último momento.",
         "prep_time": "10 mins Cook: 35 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 tsp olive oil",
-            "1 pack 12 ready-made lamb meatballs (approx 450g)",
-            "4 onions, finely sliced",
-            "4 garlic cloves, finely sliced",
-            "1 tbsp finely chopped rosemary leaves, plus extra to sprinkle",
-            "2 x 400g cans chopped tomatoes",
-            "400g pasta, cooked, to serve"
+            "2 cucharaditas de aceite de oliva",
+            "1 paquete de 12 albóndigas de cordero ya preparadas (aproximadamente 450 g)",
+            "4 cebollas, finamente cortadas",
+            "4 dientes de ajo, finamente picados",
+            "1 cucharada de hojas de romero finamente picadas, más un poco más para espolvorear",
+            "2 latas de 400 g de tomates picados",
+            "400 g de pasta, cocida, para servir"
         ],
         "method": [
-            "Heat 1 tsp oil in a large frying pan. Add\r\nthe meatballs and cook, turning often,\r\nuntil browned. Remove from the pan.",
-            "Tip the onions into the pan with the\r\nremaining oil and a pinch of salt and cook\r\nuntil very soft, 10-15 mins. Add the garlic\r\nand rosemary and cook for 2 mins more.",
-            "Add the tomatoes and return meatballs\r\nto the pan. Simmer for 10 mins until the\r\nsauce has thickened and the meatballs\r\nare cooked through. Season and serve\r\nwith the pasta, sprinkle with rosemary."
+            "Calienta 1 cucharadita de aceite en una sartén grande. Añadir\r\nlas albóndigas y cocine, volteándolas con frecuencia,\r\nhasta que se dore. Retirar de la sartén.",
+            "Vierta las cebollas en la sartén con la\r\naceite restante y una pizca de sal y cocinar\r\nhasta que esté muy suave, de 10 a 15 minutos. Agrega el ajo\r\ny el romero y cocine por 2 minutos más.",
+            "Agrega los tomates y regresa las albóndigas.\r\na la sartén. Cocine a fuego lento durante 10 minutos hasta que\r\nla salsa se ha espesado y las albóndigas\r\nestán bien cocidos. Sazonar y servir\r\ncon la pasta, espolvorear con romero."
         ],
         "nutritional_info": {
             "kcal": "311",
@@ -1457,25 +1457,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/creamy-ham-leek-and-mushroom-spaghetti/",
-        "title": "[ES] Creamy ham, leek & mushroom spaghetti",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyCreamy pasta needn't be off the menu when you're watching your weight – this one's low-fat",
+        "title": "Espaguetis cremosos de jamón, puerro y champiñones",
+        "description": "Contiene carne de cerdo; la receta es solo para no musulmanes. La pasta cremosa no tiene por qué estar fuera del menú cuando estás cuidando tu peso; esta es baja en grasa.",
         "prep_time": "15 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 tsp olive oil",
-            "2 medium leeks, thinly sliced",
-            "200g chestnut mushrooms, sliced",
-            "2 garlic cloves, crushed",
-            "300g spaghetti",
-            "140g low-fat soft cheese (we used Philadelphia Light)",
-            "85g wafer-thin smoked ham, shredded",
-            "small pack basil",
-            "25g grated parmesan"
+            "2 cucharaditas de aceite de oliva",
+            "2 puerros medianos, en rodajas finas",
+            "200 g de champiñones castaños, en rodajas",
+            "2 dientes de ajo machacados",
+            "300 g de espaguetis",
+            "140 g de queso tierno bajo en grasa (nosotros usamos Philadelphia Light)",
+            "85 g de jamón ahumado fino como una oblea, rallado",
+            "paquete pequeño de albahaca",
+            "25 g de parmesano rallado"
         ],
         "method": [
-            "Heat the oil in a large saucepan. Stir\r\nin the leeks, 2 tbsp water and some\r\nseasoning, cover, then cook for 5 mins\r\nover a medium heat until softened. Add\r\nthe mushrooms and garlic, then cook for\r\n3 mins more. Meanwhile, cook the\r\nspaghetti according to pack instructions,\r\nthen drain, reserving a little of the\r\ncooking liquid.",
-            "Stir the soft cheese into the leek and\r\nmushroom mixture, adding enough of the\r\nreserved pasta liquid to give a sauce-like\r\nconsistency. Add the ham, basil leaves\r\nand Parmesan, then toss in the spaghetti."
+            "Calienta el aceite en una cacerola grande. Revuelva\r\nen los puerros, 2 cucharadas de agua y un poco\r\nsazona, tapa y luego cocina durante 5 minutos.\r\na fuego medio hasta que se ablanden. Añadir\r\nlos champiñones y el ajo, luego cocine por\r\n3 minutos más. Mientras tanto, cocine el\r\nespaguetis según las instrucciones del paquete,\r\nluego escurrir reservando un poco de la\r\nlíquido de cocción.",
+            "Agrega el queso tierno al puerro y\r\nmezcla de champiñones, agregando suficiente\r\nlíquido de pasta reservado para darle una apariencia de salsa\r\nconsistencia. Agrega el jamón, las hojas de albahaca.\r\ny parmesano, luego agregue los espaguetis."
         ],
         "nutritional_info": {
             "kcal": "384",
@@ -1492,31 +1492,31 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/superveg-pasta/",
-        "title": "[ES] Super-veg pasta",
-        "description": "(Translation pending) Get two of your five-a-day with this deliciously versatile sauce",
+        "title": "Pasta súper vegetal",
+        "description": "Obtén dos de tus cinco al día con esta salsa deliciosamente versátil",
         "prep_time": "15 mins Cook: 30 mins",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "2 red peppers, quartered and deseeded",
-            "2 tbsp olive oil",
-            "1 fennel bulb, roughly chopped",
-            "1 onion, roughly chopped",
-            "1 large carrot, roughly chopped",
-            "2 garlic cloves, crushed",
-            "¼ tsp crushed chillies",
-            "1 tsp fennel seeds",
-            "2 tbsp tomato purée",
-            "400g can chopped tomatoes",
-            "600ml vegetable stock",
-            "1 tsp caster sugar",
-            "small handful basil, leaves shredded",
-            "500g bag fresh egg pasta, cooked"
+            "2 pimientos rojos, cortados en cuartos y sin semillas",
+            "2 cucharadas de aceite de oliva",
+            "1 bulbo de hinojo, picado en trozos grandes",
+            "1 cebolla, picada en trozos grandes",
+            "1 zanahoria grande, picada en trozos grandes",
+            "2 dientes de ajo machacados",
+            "¼ cucharadita de chiles triturados",
+            "1 cucharadita de semillas de hinojo",
+            "2 cucharadas de puré de tomate",
+            "Lata de 400g de tomates picados",
+            "600 ml de caldo de verduras",
+            "1 cucharadita de azúcar en polvo",
+            "un puñado pequeño de albahaca, sus hojas ralladas",
+            "Bolsa de 500 g de pasta fresca al huevo, cocida"
         ],
         "method": [
-            "Heat the grill and pop the peppers,\r\nskin-side up, underneath for 10 mins\r\nor until beginning to char. Transfer to\r\na bowl, cover and set aside. When cool\r\nenough to handle, peel off the skin and\r\ncut the flesh into strips.",
-            "Heat the oil in a large saucepan and\r\ncook the fennel, onion and carrot for\r\n8-10 mins until softened. Stir in the garlic,\r\ncrushed chillies, fennel seeds and tomato\r\npurée, cook for 2 mins, then add the\r\ncanned tomatoes, stock and sugar.\r\nSimmer, uncovered, for 15 mins or until\r\nthe vegetables are completely soft.",
-            "Take out a couple of spoonfuls of the\r\nsauce (this will later add texture), then\r\nblend the rest in the saucepan until\r\nalmost smooth with a stick blender.\r\nSimmer for 5 mins to thicken, then stir in the reserved sauce, shredded basil\r\nand peppers. Serve with the pasta."
+            "Calienta la parrilla y revienta los pimientos.\r\ncon la piel hacia arriba, por debajo durante 10 minutos\r\no hasta que comience a carbonizarse. Transferir a\r\nen un bol, tapar y reservar. cuando esté frío\r\nsuficiente para manipular, pelar la piel y\r\ncortar la pulpa en tiras.",
+            "Calentar el aceite en una cacerola grande y\r\nCocine el hinojo, la cebolla y la zanahoria por\r\n8-10 minutos hasta que se ablanden. Agregue el ajo,\r\nchiles triturados, semillas de hinojo y tomate\r\nhacer puré, cocinar durante 2 minutos, luego agregar el\r\ntomates enlatados, caldo y azúcar.\r\nCocine a fuego lento, sin tapar, durante 15 minutos o hasta que\r\nlas verduras estén completamente blandas.",
+            "Saca un par de cucharadas de\r\nsalsa (esto luego agregará textura), luego\r\nlicuar el resto en la cacerola hasta\r\ncasi suave con una batidora de mano.\r\nCocine a fuego lento durante 5 minutos para que espese, luego agregue la salsa reservada y la albahaca rallada.\r\ny pimientos. Servir con la pasta."
         ],
         "nutritional_info": {
             "kcal": "323",
@@ -1533,25 +1533,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/20-minute-seafood-pasta/",
-        "title": "[ES] 20-minute seafood pasta",
-        "description": "(Translation pending) Make a low-fat, satisfying dish in minutes – ideal for Friday nights",
+        "title": "Pasta con mariscos de 20 minutos",
+        "description": "Prepare un plato saciante y bajo en grasas en minutos: ideal para los viernes por la noche",
         "prep_time": "",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 tbsp olive oil",
-            "1 onion, chopped",
-            "1 garlic clove, chopped",
-            "1 tsp paprika",
-            "400g can of chopped tomatoes",
-            "1l chicken stock (from a cube is fine)",
-            "300g spaghetti, roughly broken",
-            "240g pack frozen seafood mix, defrosted",
-            "handful of parsley leaves, chopped, and lemon wedges to serve"
+            "1 cucharada de aceite de oliva",
+            "1 cebolla, picada",
+            "1 diente de ajo, picado",
+            "1 cucharadita de pimentón",
+            "Lata de 400g de tomates picados",
+            "1 litro de caldo de pollo (en cubitos está bien)",
+            "300 g de espaguetis, partidos aproximadamente",
+            "Paquete de 240 g de mezcla de mariscos congelados y descongelados",
+            "un puñado de hojas de perejil picado y rodajas de limón para servir"
         ],
         "method": [
-            "Heat the oil in a wok or large frying pan, then cook the onion and garlic over a medium heat for 5 mins until soft. Add the paprika, tomatoes and stock, then bring to the boil.",
-            "Turn down the heat to a simmer, stir in the pasta and cook for 7 mins, stirring occasionally to stop the pasta from sticking. Stir in the seafood, cook for 3 mins more until it’s all heated through and the pasta is cooked, then season to taste. Sprinkle with parsley and serve with lemon wedges."
+            "Calienta el aceite en un wok o sartén grande, luego cocina la cebolla y el ajo a fuego medio durante 5 minutos hasta que estén tiernos. Añade el pimentón, los tomates y el caldo y deja que hierva.",
+            "Baje el fuego a fuego lento, agregue la pasta y cocine durante 7 minutos, revolviendo ocasionalmente para evitar que la pasta se pegue. Agregue los mariscos, cocine por 3 minutos más hasta que esté completamente caliente y la pasta cocida, luego sazone al gusto. Espolvorea con perejil y sirve con rodajas de limón."
         ],
         "nutritional_info": {
             "kcal": "370",
@@ -1568,25 +1568,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spicy-pasta-soup/",
-        "title": "[ES] Spicy pasta soup",
-        "description": "(Translation pending) Rustle up an Italian-style minestrone soup and individual tarts using ingredients from your storecupboard",
+        "title": "Sopa de pasta picante",
+        "description": "Prepare una sopa minestrone al estilo italiano y tartas individuales con ingredientes de su alacena.",
         "prep_time": "10 mins Cook: 35 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 tbsp olive oil, plus extra for drizzling",
-            "1 red onion, finely chopped",
-            "1 red chilli, deseeded and finely sliced",
-            "800g can whole plum tomatoes",
-            "1l vegetable stock",
-            "100g broken spaghetti",
-            "4 tbsp chopped pitted black olives",
-            "2 tbsp chopped capers, drained and rinsed",
-            "large handful basil leaves, roughly torn, or 1 tbsp pesto"
+            "1 cucharada de aceite de oliva, más un poco más para rociar",
+            "1 cebolla morada, finamente picada",
+            "1 chile rojo, sin semillas y cortado en rodajas finas",
+            "Lata de 800g de tomates pera enteros",
+            "1 litro de caldo de verduras",
+            "100 g de espaguetis partidos",
+            "4 cucharadas de aceitunas negras deshuesadas picadas",
+            "2 cucharadas de alcaparras picadas, escurridas y enjuagadas",
+            "un puñado grande de hojas de albahaca, cortadas en trozos grandes, o 1 cucharada de pesto"
         ],
         "method": [
-            "Heat the oil in a large heavy-based\r\nsaucepan. Add the onion and chilli,\r\nthen cook for 10 mins until softened.\r\nStir in the tomatoes, breaking up with\r\na spoon as you go, then pour in the\r\nstock. Cover, bring to the boil, remove\r\nthe lid, then simmer for 5 mins.",
-            "Add the spaghetti, then simmer for\r\n6-8 mins until it is just cooked. Stir in\r\nthe olives, capers and basil or pesto,\r\nthen serve drizzled with olive oil."
+            "Calienta el aceite en una olla grande de base pesada.\r\ncacerola. Agrega la cebolla y el chile,\r\nluego cocine durante 10 minutos hasta que se ablanden.\r\nAgregue los tomates, partiéndolos con\r\nuna cuchara a medida que avanza, luego vierta el\r\nvalores. Tapar, llevar a ebullición, retirar\r\ntapa y luego cocine a fuego lento durante 5 minutos.",
+            "Agregue los espaguetis y cocine a fuego lento durante\r\n6-8 minutos hasta que esté recién cocido. Agregue\r\nlas aceitunas, las alcaparras y la albahaca o pesto,\r\nluego sirva rociado con aceite de oliva."
         ],
         "nutritional_info": {
             "kcal": "218",
@@ -1603,21 +1603,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/creamy-cheese-and-tomato-macaroni/",
-        "title": "[ES] Creamy cheese & tomato macaroni",
-        "description": "(Translation pending) Try pasta instead of potatoes as a quick side-dish with chicken or steak",
+        "title": "Macarrones con queso cremoso y tomate",
+        "description": "Pruebe pasta en lugar de patatas como guarnición rápida con pollo o bistec.",
         "prep_time": "5 mins Cook: 12 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "300g macaroni, or other small pasta shapes",
-            "25g sundried tomatoes in oil, drained and roughly chopped",
-            "2 tbsp crème fraîche",
-            "1 tbsp tomato purée",
-            "1 tbsp parmesan, grated"
+            "300 g de macarrones u otras formas de pasta pequeñas",
+            "25 g de tomates secos en aceite, escurridos y picados",
+            "2 cucharadas de crema fresca",
+            "1 cucharada de puré de tomate",
+            "1 cucharada de parmesano rallado"
         ],
         "method": [
-            "Boil the pasta. Meanwhile, in a small food\r\nprocessor, blitz together the tomatoes, crème\r\nfraîche and tomato purée into a sauce. (If\r\nyou don’t have a small processor, finely chop\r\nthe tomatoes, then mix everything together.)",
-            "Drain the pasta, saving a little of the\r\ncooking water, then return to the pan with\r\nthe tomato sauce and half the cheese. Mix\r\ntogether until all the pasta is coated, then\r\nserve as a side dish, sprinkled with the remaining cheese."
+            "Hervir la pasta. Mientras tanto, en una pequeña comida.\r\nprocesador, mezcle los tomates, la crema\r\nfraîche y puré de tomate en una salsa. (Si\r\nno tienes procesador pequeño, pica finamente\r\nlos tomates, luego mezcle todo junto).",
+            "Escurrir la pasta guardando un poco de\r\nagua de cocción, luego regresar a la olla con\r\nla salsa de tomate y la mitad del queso. Mezclar\r\njuntos hasta que toda la pasta esté cubierta, luego\r\nsirva como guarnición, espolvoreado con el queso restante."
         ],
         "nutritional_info": {
             "kcal": "314",
@@ -1634,26 +1634,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/ham-and-olive-lasagne/",
-        "title": "[ES] Ham & olive lasagne",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyWhen all you really want is a plateful of comforting lasagne – this version is on the table in 30 minutes",
+        "title": "Lasaña de jamón y aceitunas",
+        "description": "Contiene carne de cerdo: la receta es solo para no musulmanes. Cuando lo único que realmente quieres es un plato lleno de reconfortante lasaña, esta versión está en la mesa en 30 minutos.",
         "prep_time": "10 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "250g fresh lasagne sheets",
-            "1 tbsp oil",
-            "1 fat garlic clove, crushed",
-            "2 x 400g cans chopped tomato with herbs",
-            "8 slices ham",
-            "generous handful green olives",
-            "2 eggs",
-            "150g pot mild natural yogurt (bio works well)",
-            "50g cheddar, grated, plus a handful extra for the top"
+            "250 g de láminas de lasaña fresca",
+            "1 cucharada de aceite",
+            "1 diente de ajo gordo, machacado",
+            "2 latas de 400 g de tomate picado con hierbas",
+            "8 lonchas de jamón",
+            "un puñado generoso de aceitunas verdes",
+            "2 huevos",
+            "Bote de 150 g de yogur natural suave (el bio funciona bien)",
+            "50 g de queso cheddar rallado, más un puñado extra para la parte superior"
         ],
         "method": [
-            "Heat oven to 190C/fan 170C/gas 5. Put the lasagne sheets into a large bowl and pour over just-boiled water. Leave to soak for 5 mins, then drain. Meanwhile, heat the oil in an ovenproof frying pan, then fry the garlic for 1 min. Add the tomatoes, then simmer for 5 mins until reduced a little. Season to taste, then tip into a bowl.",
-            "Layer the pasta sheets, ham (keep this in slices), tomato sauce and olives in the pan, making sure you have a few olives and some sauce on the top. Don’t be too neat about it, crumple the ham and let the pasta fold around the sauce and olives.",
-            "Beat the eggs, yogurt and most of the cheese together in a jug, season with salt and pepper, then pour over the pasta. Top\r\nwith extra cheese and black pepper, then bake for about 15 mins until the cheese is golden and the topping is set. Serve with a salad."
+            "Calentar el horno a 190C/ventilador 170C/gas 5. Coloque las láminas de lasaña en un tazón grande y viértalas sobre agua recién hervida. Dejar en remojo durante 5 minutos y luego escurrir. Mientras tanto, calentar el aceite en una sartén refractaria y sofreír los ajos durante 1 min. Agregue los tomates y cocine a fuego lento durante 5 minutos hasta que se reduzcan un poco. Sazone al gusto y luego viértalo en un tazón.",
+            "Coloque en capas las láminas de pasta, el jamón (manténgalo en rodajas), la salsa de tomate y las aceitunas en la sartén, asegurándose de tener algunas aceitunas y un poco de salsa encima. No seas demasiado pulcro, arruga el jamón y deja que la pasta se doble alrededor de la salsa y las aceitunas.",
+            "Batir los huevos, el yogur y la mayor parte del queso en una jarra, sazonar con sal y pimienta y luego verter sobre la pasta. arriba\r\ncon queso extra y pimienta negra, luego hornee durante unos 15 minutos hasta que el queso esté dorado y la cobertura cuaje. Servir con una ensalada."
         ],
         "nutritional_info": {
             "kcal": "346",
@@ -1670,24 +1670,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/creamy-linguine-with-ham-lemon-and-basil/",
-        "title": "[ES] Creamy linguine with ham, lemon & basil",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyKeep the kids happy with this easy, low-fat recipe that’s ready in under half an hour",
+        "title": "Linguini cremoso con jamón, limón y albahaca",
+        "description": "Contiene carne de cerdo: la receta es solo para no musulmanes. Mantenga contentos a los niños con esta receta fácil y baja en grasa que está lista en menos de media hora.",
         "prep_time": "10 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "400g linguine or spaghetti",
-            "90g pack prosciutto",
-            "1 tbsp olive oil",
-            "juice 1 lemon",
-            "2 egg yolks",
-            "3 tbsp crème fraîche",
-            "large handful basil leaves",
-            "large handful grated parmesan, plus extra to serve, if you like"
+            "400 g de linguini o espagueti",
+            "paquete de 90 g de jamón serrano",
+            "1 cucharada de aceite de oliva",
+            "jugo 1 limon",
+            "2 yemas de huevo",
+            "3 cucharadas de crema fresca",
+            "un puñado grande de hojas de albahaca",
+            "un puñado grande de parmesano rallado, más algo extra para servir, si lo desea"
         ],
         "method": [
-            "Cook the linguine. Meanwhile, tear the\r\nham into small pieces and fry in the olive\r\noil until golden and crisp.",
-            "Drain the pasta, reserving a little of the\r\ncooking water, then return to the pan.\r\nTip in the cooked ham. Mix together the\r\nlemon juice, egg yolks and crème fraîche,\r\nthen add this to the pan along with the\r\nbasil and Parmesan. Mix in with tongs,\r\nadding a little of the cooking water, if\r\nneeded, to make a creamy sauce that\r\ncoats the pasta. Serve with extra\r\nParmesan grated over the top, if you like."
+            "Cocine los linguini. Mientras tanto, rompa el\r\nJamón en trozos pequeños y sofreír en la aceituna.\r\naceite hasta que esté dorado y crujiente.",
+            "Escurrir la pasta reservando un poco de\r\nagua de cocción, luego regresar a la sartén.\r\nVierta el jamón cocido. Mezclar juntos el\r\nzumo de limón, yemas de huevo y nata fresca,\r\nluego agregue esto a la sartén junto con el\r\nalbahaca y parmesano. Mezclar con pinzas,\r\nañadiendo un poco del agua de cocción, si\r\nnecesario, para hacer una salsa cremosa que\r\ncubre la pasta. Servir con extra\r\nParmesano rallado por encima, si lo desea."
         ],
         "nutritional_info": {
             "kcal": "349",
@@ -1704,25 +1704,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/minestrone-pasta-pot/",
-        "title": "[ES] Minestrone pasta pot",
-        "description": "(Translation pending) A vegetarian favourite for under 5’s, minestrone pasta pot",
+        "title": "Olla para pasta minestrone",
+        "description": "Un plato de pasta minestrone favorito vegetariano para menores de 5 años",
         "prep_time": "15 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 tbsp olive oil",
-            "1 small onion, finely chopped",
-            "2 tbsp tomato purée",
-            "300g frozen mixed vegetables (including peas, sweetcorn, carrots and broccoli, but not the chunky stewpacks)",
-            "700ml hot vegetable stock",
-            "175g small pasta shapes, such as conchigliette",
-            "220g can baked beans",
-            "grated cheddar, to serve"
+            "2 cucharadas de aceite de oliva",
+            "1 cebolla pequeña, finamente picada",
+            "2 cucharadas de puré de tomate",
+            "300 g de verduras mixtas congeladas (incluidos guisantes, maíz dulce, zanahorias y brócoli, pero no los guisados ​​en trozos)",
+            "700 ml de caldo de verduras caliente",
+            "175 g de pasta pequeña, como por ejemplo conchigliette",
+            "Lata de 220 g de frijoles cocidos",
+            "queso cheddar rallado, para servir"
         ],
         "method": [
-            "Heat the olive oil in a\r\nsaucepan over a medium\r\nheat and gently fry the onion\r\nfor a few minutes until it starts\r\nto soften. Stir in the tomato\r\npurée, then tip in the frozen\r\nvegetables and pour in\r\nthe stock.",
-            "Bring to the boil, add the\r\npasta and stir. Cover and\r\nsimmer for 12-14 minutes\r\nor until the pasta is cooked.",
-            "Stir in the beans and heat\r\nthrough, then taste for\r\nseasoning. Serve hot, with\r\na bowl of grated cheddar\r\nfor sprinkling over the top."
+            "Calentar el aceite de oliva en un\r\ncacerola a fuego medio\r\ncalentar y sofreír la cebolla\r\ndurante unos minutos hasta que comience\r\npara suavizar. Agrega el tomate\r\nhaga puré y luego agregue el helado\r\nverduras y verter\r\nla acción.",
+            "Llevar a ebullición, añadir el\r\npasta y revuelva. Cubrir y\r\ncocine a fuego lento durante 12-14 minutos\r\no hasta que la pasta esté cocida.",
+            "Agregue los frijoles y caliente.\r\na través, luego pruebe\r\ncondimento. Servir caliente, con\r\nun plato de queso cheddar rallado\r\npara espolvorear por encima."
         ],
         "nutritional_info": {
             "kcal": "294",
@@ -1739,26 +1739,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/tenminute-pasta/",
-        "title": "[ES] Ten-minute pasta",
-        "description": "(Translation pending) This meal is quicker to get on the table than oven chips and it’s full of fresh vegetables – making it perfect for kids",
+        "title": "Ten-minute pasta",
+        "description": "Esta comida se pone en la mesa más rápido que las patatas fritas al horno y está llena de verduras frescas, lo que la hace perfecta para los niños.",
         "prep_time": "5 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
             "350g pasta",
-            "1 carrot, roughly chopped",
-            "½ small onion, roughly chopped",
-            "½ stick celery, roughly chopped",
-            "6-8 ripe plum tomato, roughly chopped",
-            "1 tsp dried oregano",
-            "1 tsp red pesto",
-            "2 tbsp raspberry vinegar",
-            "grated parmesan and basil leaves, to serve"
+            "1 zanahoria, picada en trozos grandes",
+            "½ cebolla pequeña, picada en trozos grandes",
+            "½ rama de apio, picado en trozos grandes",
+            "6-8 tomates ciruela maduros, picados en trozos grandes",
+            "1 cucharadita de orégano seco",
+            "1 cucharadita de pesto rojo",
+            "2 cucharadas de vinagre de frambuesa",
+            "parmesano rallado y hojas de albahaca, para servir"
         ],
         "method": [
-            "Cook the pasta according to the pack\r\ninstructions. Meanwhile, add everything\r\nelse apart from the parmesan and basil\r\nto a food processor and whizz together\r\nuntil you get a smooth paste.",
-            "Tip into a saucepan and bring\r\nto the boil, then reduce the\r\nheat to a simmer and\r\nleave to cook for 5 mins.",
-            "Drain the pasta, toss\r\ntogether with the\r\ntomato sauce, then\r\nserve with the\r\nparmesan and\r\nbasil leaves."
+            "Cocer la pasta según el paquete.\r\ninstrucciones. Mientras tanto, agrega todo\r\nmás aparte del parmesano y la albahaca\r\na un procesador de alimentos y mezclar\r\nhasta obtener una pasta suave.",
+            "Vierta en una cacerola y lleve\r\nhasta que hierva, luego reduzca la\r\ncalentar a fuego lento y\r\ndejar cocer durante 5 min.",
+            "Escurrir la pasta, mezclar\r\njunto con el\r\nsalsa de tomate, luego\r\nservir con el\r\nparmesano y\r\nhojas de albahaca."
         ],
         "nutritional_info": {
             "kcal": "344",
@@ -1775,29 +1775,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/green-bean-minestrone/",
-        "title": "[ES] Green bean minestrone",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyUsing a selection of green vegetables gives this soup a summery feel and contrasting textures",
+        "title": "Minestrone de judías verdes",
+        "description": "Contiene carne de cerdo: la receta es solo para no musulmanes. El uso de una selección de vegetales verdes le da a esta sopa una sensación veraniega y texturas contrastantes.",
         "prep_time": "20 mins Cook: 30 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 onion, finely chopped",
-            "1 garlic clove, finely chopped",
-            "1 carrot, finely chopped",
-            "1 celery stick, finely chopped",
-            "2 tbsp olive oil",
-            "70g pack cubetti di pancetta (optional)",
-            "1 bay leaf",
-            "1½ l vegetable or chicken stock",
-            "100g small pasta shapes, such as stelline or orzo",
-            "300g mixed runner, green and podded broad beans",
-            "100g/4oz spring cabbage, shredded",
-            "4 tbsp pesto",
-            "crusty bread, to serve"
+            "1 cebolla, finamente picada",
+            "1 diente de ajo, finamente picado",
+            "1 zanahoria, finamente picada",
+            "1 rama de apio, finamente picada",
+            "2 cucharadas de aceite de oliva",
+            "Paquete de 70 g de cubitos de tocino (opcional)",
+            "1 hoja de laurel",
+            "1½ litro de caldo de verduras o pollo",
+            "100 g de pasta pequeña, como stelline u orzo",
+            "300 g de habas mixtas, verdes y de vaina",
+            "100 g/4 oz de col tierna, rallada",
+            "4 cucharadas de pesto",
+            "pan crujiente, para servir"
         ],
         "method": [
-            "Fry the onion, garlic, carrot and celery\r\nin the olive oil in a large saucepan until\r\ntender but not browned. Scoop out and\r\nset aside. Fry the pancetta, if using, you\r\nwon’t need to add any more oil but keep\r\nthe heat low until it starts to give off fat.\r\nFry until browned but not too crisp. Tip\r\ninto a sieve and drain off any excess fat.\r\nPut the carrot mixture back into the pan\r\nwith the pancetta and add the bay leaf,\r\nplenty of seasoning and the stock. Bring\r\nto a simmer, add the pasta and cook\r\nfor 5 mins.",
-            "Top and tail the green and runner\r\nbeans, slice both into lengths that will\r\neasily fit on a spoon and add to the pot\r\nwith the broad beans. Cook for 3 mins,\r\nthen add the cabbage. Bring back to a\r\nsimmer and cook for 2 mins. Spoon the\r\npesto onto the top of the soup just\r\nbefore serving and serve with the bread."
+            "Sofreír la cebolla, el ajo, la zanahoria y el apio.\r\nen el aceite de oliva en una cacerola grande hasta\r\ntierno pero no dorado. Saque y\r\ndejar de lado. Fríe la panceta, si la usas,\r\nNo será necesario agregar más aceite, pero manténgalo\r\nel fuego bajo hasta que empiece a desprender grasa.\r\nFreír hasta que estén dorados pero no demasiado crujientes. consejo\r\nen un colador y escurrir el exceso de grasa.\r\nVuelva a poner la mezcla de zanahoria en la sartén.\r\ncon la panceta y añadir la hoja de laurel,\r\nmucho condimento y caldo. traer\r\na fuego lento, agregue la pasta y cocine\r\ndurante 5 min.",
+            "Arriba y detrás del green y el corredor.\r\nfrijoles, córtelos en trozos que\r\ncabe fácilmente en una cuchara y agréguelo a la olla\r\ncon las habas. Cocine por 3 minutos,\r\nluego agrega el repollo. traer de vuelta a un\r\ncocine a fuego lento y cocine por 2 minutos. Cuchara el\r\npesto encima de la sopa justo\r\nantes de servir y servir con el pan."
         ],
         "nutritional_info": {
             "kcal": "260",
@@ -1814,23 +1814,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/herby-mushroom-pasta/",
-        "title": "[ES] Herby mushroom pasta",
-        "description": "(Translation pending) A quick, low-fat idea for a midweek supper – good if you’re on a budget at around £1.15 a head",
+        "title": "Pasta con champiñones y hierbas",
+        "description": "Una idea rápida y baja en grasas para una cena entre semana: buena si tienes un presupuesto de alrededor de £1,15 por cabeza.",
         "prep_time": "5 mins Cook: 12 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "250g field or portobello mushrooms, thickly sliced",
-            "2 tsp wholegrain mustard",
-            "3 garlic cloves, sliced or crushed",
-            "150ml vegetable stock (from a cube is fine)",
-            "250g penne pasta (or other tube shapes)",
-            "3 tbsp flat-leaf parsley, chopped",
-            "zest 1 lemon"
+            "250 g de champiñones camperos o portobello, en rodajas gruesas",
+            "2 cucharaditas de mostaza integral",
+            "3 dientes de ajo, rebanados o machacados",
+            "150 ml de caldo de verduras (en cubitos está bien)",
+            "250 g de pasta penne (u otras formas de tubo)",
+            "3 cucharadas de perejil de hoja plana, picado",
+            "ralladura de 1 limón"
         ],
         "method": [
-            "Put the mushrooms, mustard, garlic and\r\nvegetable stock into a frying pan, bring to\r\nthe boil and simmer for 5 mins or until the\r\nstock has nearly all evaporated and the\r\nmushrooms are soft.",
-            "Meanwhile, cook the pasta according\r\nto pack instructions. Drain and toss with the\r\nmushrooms, parsley and lemon zest. Season\r\nto taste and serve straightaway."
+            "Poner los champiñones, la mostaza, el ajo y\r\ncaldo de verduras en una sartén, llevar a\r\nhervir y cocine a fuego lento durante 5 minutos o hasta que\r\ncasi todo el caldo se ha evaporado y el\r\nlos champiñones están suaves.",
+            "Mientras tanto, cocine la pasta según\r\npara empacar las instrucciones. Escurrir y mezclar con el\r\nchampiñones, perejil y ralladura de limón. Temporada\r\nal gusto y servir inmediatamente."
         ],
         "nutritional_info": {
             "kcal": "235",
@@ -1847,21 +1847,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/speedy-tuna-pasta-salad/",
-        "title": "[ES] Speedy tuna pasta salad",
-        "description": "(Translation pending) A quick pasta using leftovers from the night before. Makes a great packed lunch",
+        "title": "Ensalada rápida de pasta con atún",
+        "description": "Una pasta rápida con las sobras de la noche anterior. Hace un excelente almuerzo para llevar",
         "prep_time": "5 mins No cook",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 x 220g packs ready-cooked pasta (we used Dolmio Express), or 440g leftover cooked penne (about 200g dried)",
-            "100g can tuna in oil",
-            "400g can cannellini beans, (borlotti or butterbeans are also good)",
-            "1?2 red onion, finely chopped",
-            "zest and juice 1 lemon",
-            "large handful parsley"
+            "2 paquetes de 220 g de pasta preparada (nosotros usamos Dolmio Express), o 440 g de penne cocido sobrante (unos 200 g secos)",
+            "Lata de 100g de atún en aceite.",
+            "Lata de 400 g de judías cannellini (también son buenas las judías borlotti o butterbean)",
+            "1?2 cebolla morada, finamente picada",
+            "ralladura y jugo de 1 limón",
+            "un puñado grande de perejil"
         ],
         "method": [
-            "Microwave the cooked penne according to pack instructions. Tip into a bowl. Mix through the remaining ingredients (the\r\nwarm pasta will really soak up the flavours). If using chilled leftover pasta, simply mix everything together – it will still taste\r\ngreat. Can be kept in the fridge for up to 3 days."
+            "Cocine en el microondas el penne cocido según las instrucciones del paquete. Vierta en un tazón. Mezcle los ingredientes restantes (el\r\nla pasta caliente realmente absorberá los sabores). Si usa pasta sobrante fría, simplemente mezcle todo; aún tendrá sabor.\r\ngenial. Se puede conservar en el frigorífico hasta 3 días."
         ],
         "nutritional_info": {
             "kcal": "238",
@@ -1878,26 +1878,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/veggie-lasagne-0/",
-        "title": "[ES] Veggie lasagne",
-        "description": "(Translation pending) A light but luscious veggie lasagne to tickle your taste buds – it contains just 13g of fat compared to the more usual 19g",
+        "title": "lasaña vegetariana",
+        "description": "Una lasaña vegetal ligera pero deliciosa para deleitar tu paladar: contiene solo 13 g de grasa en comparación con los 19 g más habituales.",
         "prep_time": "15 mins Cook: 1 hrs",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 tbsp oil",
-            "1 onion, sliced",
-            "1 garlic clove, sliced",
-            "1 aubergine, cut into chunks",
-            "1 red pepper",
-            "8 plum tomatoes, halved",
-            "350ml passata",
-            "200g ready-cooked lasagne sheets",
-            "6 tbsp half-fat crème fraîche",
-            "2 tbsp grated parmesan (or vegetarian alternative)"
+            "2 cucharadas de aceite",
+            "1 cebolla, rebanada",
+            "1 diente de ajo, rebanado",
+            "1 berenjena, cortada en trozos",
+            "1 pimiento rojo",
+            "8 tomates pera, cortados por la mitad",
+            "350ml en puré",
+            "200 g de láminas de lasaña ya cocidas",
+            "6 cucharadas de crema fresca media grasa",
+            "2 cucharadas de parmesano rallado (o alternativa vegetariana)"
         ],
         "method": [
-            "Heat oven to 190C/fan 170C/gas 5. Toss oil and vegetables together and roast in a large, shallow tin for 35 mins until lightly charred. Spoon a layer of roasted veg over the bottom of a medium-size baking dish.",
-            "Pour over some passata and cover with a layer of lasagne sheets. Repeat layers to use up all the roasted veg and passata, finishing with a layer of lasagne. Use a spoon to dollop over the crème fraîche, then sprinkle with the Parmesan. Return to the oven for 25 mins, until the lasagne is heated through and the top is golden and bubbling."
+            "Caliente el horno a 190 ° C/ventilador 170 ° C/gas 5. Mezcle el aceite y las verduras y ase en una fuente grande y poco profunda durante 35 minutos hasta que estén ligeramente carbonizados. Coloque una capa de verduras asadas sobre el fondo de una fuente para hornear de tamaño mediano.",
+            "Vierta sobre un poco de passata y cubra con una capa de láminas de lasaña. Repita las capas para utilizar todas las verduras asadas y la passata, terminando con una capa de lasaña. Use una cuchara para verter la crème fraîche y luego espolvoree con el parmesano. Regrese al horno durante 25 minutos, hasta que la lasaña esté completamente caliente y la parte superior esté dorada y burbujeante."
         ],
         "nutritional_info": {
             "kcal": "279",
@@ -1914,22 +1914,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/favourite-pasta-salad/",
-        "title": "[ES] Favourite pasta salad",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyA low-fat, zesty salad, perfect for a summer lunchbox – vary with your favourite ingredients",
+        "title": "Ensalada de pasta favorita",
+        "description": "Contiene carne de cerdo; la receta es solo para no musulmanes. Una ensalada picante y baja en grasa, perfecta para una lonchera de verano; varía según tus ingredientes favoritos.",
         "prep_time": "10 mins Cook: 12 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "250g pasta shapes",
-            "140g frozen peas",
-            "pack parsley, chopped",
-            "small pack chives, snipped",
-            "zest and juice 1 lemon",
-            "2 tbsp olive oil",
-            "extra ingredients (see ideas below)"
+            "250 g de formas de pasta",
+            "140 g de guisantes congelados",
+            "paquete de perejil, picado",
+            "cebollino en paquete pequeño, cortado en tiras",
+            "ralladura y jugo de 1 limón",
+            "2 cucharadas de aceite de oliva",
+            "ingredientes adicionales (ver ideas a continuación)"
         ],
         "method": [
-            "Cook the pasta, adding\r\nthe peas for final 2 mins\r\ncooking time. Drain, rinse\r\nwith cold water to cool,\r\nthen drain again. Tip into\r\na bowl with the chopped\r\nherbs, lemon zest and\r\njuice, olive oil and plenty\r\nof seasoning and mix well.\r\nCover and chill, spooning\r\nout portions as and when.\r\nIf you're making this for one\r\nperson, by days 3 and 4 you'll\r\nneed to stir in a little olive oil\r\nor something creamy to\r\nloosen the pasta."
+            "Cocine la pasta, agregando\r\nlos guisantes durante los últimos 2 minutos\r\ntiempo de cocción. Escurrir, enjuagar\r\ncon agua fría para enfriar,\r\nluego escurrir nuevamente. Inclínate hacia\r\nun bol con lo picado\r\nhierbas, ralladura de limón y\r\nzumo, aceite de oliva y abundante\r\nde condimento y mezclar bien.\r\nCubra y enfríe, sirviendo con una cuchara.\r\nporciones cuando y como y cuando.\r\nSi estás haciendo esto para uno\r\npersona, para los días 3 y 4 podrás\r\nNecesito agregar un poco de aceite de oliva.\r\no algo cremoso para\r\naflojar la pasta."
         ],
         "nutritional_info": {
             "kcal": "292",
@@ -1946,24 +1946,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/tortellini-with-ricotta-spinach-and-bacon/",
-        "title": "[ES] Tortellini with ricotta, spinach & bacon",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyThis crunchy and creamy pasta is special enough for summer entertaining",
+        "title": "Tortellini con ricotta, espinacas y tocino",
+        "description": "Contiene carne de cerdo: la receta es solo para no musulmanes. Esta pasta crujiente y cremosa es lo suficientemente especial para el entretenimiento del verano.",
         "prep_time": "10 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "250g pack filled tortellini (we used ricotta & spinach)",
-            "2 rashers lean back bacon",
-            "25g walnuts pieces",
-            "zest ½ lemon, juice of 1",
-            "1 tbsp finely grated parmesan, plus extra for serving",
-            "1 tbsp olive oil, plus extra for serving",
-            "100g bag salad spinach",
-            "2 tbsp ricotta"
+            "Paquete de 250 g de tortellini rellenos (nosotros usamos ricotta y espinacas)",
+            "2 lonchas de tocino inclinado hacia atrás",
+            "25 g de nueces en trozos",
+            "ralladura de ½ limón, jugo de 1",
+            "1 cucharada de parmesano finamente rallado, más un poco más para servir",
+            "1 cucharada de aceite de oliva, más extra para servir",
+            "Bolsa de 100 g de espinacas para ensalada",
+            "2 cucharadas de ricota"
         ],
         "method": [
-            "Heat the grill. Boil the pasta according to\r\npack instructions, then tip into a colander\r\nand cool under gently running water.\r\nMeanwhile, grill the bacon on a baking tray\r\nuntil golden and crisp at the edges. When\r\nalmost ready, tip the walnuts onto the tray\r\nto toast a little. Snip the bacon into strips.",
-            "Mix the lemon zest and juice, Parmesan\r\nand oil in a large bowl. Season with pepper,\r\nthen tip in the spinach, tortellini, bacon\r\nand walnuts. Toss well, add the ricotta in\r\nsmall blobs, then gently toss. Season to taste,\r\nthen serve with a drizzle more oil and more\r\nParmesan, if you like."
+            "Calienta la parrilla. Hervir la pasta según\r\ninstrucciones del paquete, luego viértalo en un colador\r\ny enfriar con agua corriente suave.\r\nMientras tanto, asa el tocino en una bandeja para horno.\r\nhasta que estén dorados y crujientes en los bordes. cuando\r\nYa casi listo, vierte las nueces en la bandeja.\r\npara brindar un poco. Corta el tocino en tiras.",
+            "Mezclar la ralladura y el jugo de limón, el parmesano.\r\ny aceite en un tazón grande. Sazone con pimienta,\r\nluego agregue las espinacas, los tortellini y el tocino.\r\ny nueces. Mezcle bien, agregue la ricotta\r\npequeñas gotas, luego revuelva suavemente. Sazone al gusto,\r\nluego servir con un chorrito más de aceite y más\r\nParmesano, si quieres."
         ],
         "nutritional_info": {
             "kcal": "285",

@@ -1,30 +1,30 @@
 [
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/buddha-bowl-salad/",
-        "title": "[ES] Vegan salad bowl",
-        "description": "(Translation pending) Whip up an easy vegan salad, with beans, radish, pickled cabbage and couscous. Bursting with flavour, it makes a satisfying dinner or lunch on the go",
+        "title": "Ensaladera vegana",
+        "description": "Prepare una ensalada vegana fácil con frijoles, rábanos, repollo encurtido y cuscús. Rebosante de sabor, es una cena o un almuerzo satisfactorio para llevar.",
         "prep_time": "15 mins No cook",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "200g couscous",
-            "400g can mixed beans",
-            "1 tsp olive oil",
-            "1⁄2 tsp chilli flakes",
-            "3⁄4 small bunch of dill, torn into sprigs",
-            "2 watermelon radishes or 6 small ones, sliced",
-            "1⁄2 cucumber, peeled into ribbons",
-            "1 large red onion, finely sliced",
-            "1⁄4 small red cabbage, finely sliced",
-            "2 tbsp white wine vinegar or apple cider vinegar",
-            "1 tbsp caster sugar",
-            "1⁄4 small bunch of dill, leaves picked"
+            "200 g de cuscús",
+            "Lata de 400g de frijoles mixtos",
+            "1 cucharadita de aceite de oliva",
+            "1⁄2 cucharadita de hojuelas de chile",
+            "3⁄4 manojo pequeño de eneldo, partido en ramitas",
+            "2 rábanos sandía o 6 pequeños, en rodajas",
+            "1⁄2 pepino, pelado en tiras",
+            "1 cebolla morada grande, finamente cortada",
+            "1⁄4 col lombarda pequeña, cortada finamente",
+            "2 cucharadas de vinagre de vino blanco o vinagre de manzana",
+            "1 cucharada de azúcar en polvo",
+            "1⁄4 manojo pequeño de eneldo, con las hojas recogidas"
         ],
         "method": [
-            "First, make the pickle. Mix all the ingredients together in a large bowl with 1 tsp flaky sea salt, then cover and set aside until needed.",
-            "Mix the couscous with 280ml boiling water in a bowl, cover and leave for 4 mins, then fluff up with a fork. Set aside to cool slightly.",
-            "Meanwhile, drain and rinse the beans, tip into a bowl, then stir in the olive oil and chilli flakes along with a little seasoning.",
-            "Mix most of the dill through the couscous and season. To assemble, spoon the quick pickle, couscous, radishes, beans and cucumber into separate parts of each bowl. Top the pickle with the reserved dill and grind over some black pepper."
+            "Primero, haz el pepinillo. Mezcle todos los ingredientes en un tazón grande con 1 cucharadita de sal marina en escamas, luego cubra y reserve hasta que sea necesario.",
+            "Mezclar el cuscús con 280 ml de agua hirviendo en un bol, tapar y dejar reposar 4 minutos, luego esponjar con un tenedor. Dejar enfriar un poco.",
+            "Mientras tanto, escurra y enjuague los frijoles, viértalos en un tazón y luego agregue el aceite de oliva y las hojuelas de chile junto con un poco de condimento.",
+            "Mezcle la mayor parte del eneldo con el cuscús y sazone. Para armar, vierta el pepinillo encurtido, el cuscús, los rábanos, los frijoles y el pepino en partes separadas de cada tazón. Cubra el pepinillo con el eneldo reservado y muela un poco de pimienta negra."
         ],
         "nutritional_info": {
             "kcal": "327",
@@ -41,20 +41,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/pineapple-smoothie/",
-        "title": "[ES] Pineapple smoothie",
-        "description": "(Translation pending) Blend fresh pineapple and banana with lime juice to make this tangy pineapple smoothie. It’s great for breakfast and kids will love it too",
+        "title": "batido de piña",
+        "description": "Licue piña y plátano frescos con jugo de lima para preparar este batido de piña picante. Es genial para el desayuno y a los niños también les encantará.",
         "prep_time": "10 mins",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "150g pineapple, trimmed, peeled and chopped",
-            "1 small banana, peeled and sliced",
-            "1 lime, juiced",
-            "ice (optional)"
+            "150 g de piña, pelada, cortada y picada",
+            "1 plátano pequeño, pelado y rebanado",
+            "1 lima, exprimida",
+            "hielo (opcional)"
         ],
         "method": [
-            "Blitz the pineapple in ablenderwith the banana, lime juice and 50ml cold water until smooth.",
-            "Fill a tall glass with ice, if you like, pour over the smoothie and serve immediately."
+            "Mezcla la piña en licuadora con el plátano, el jugo de lima y 50 ml de agua fría hasta que quede suave.",
+            "Llena un vaso alto con hielo, si lo deseas, vierte sobre el batido y sirve inmediatamente."
         ],
         "nutritional_info": {
             "kcal": "140",
@@ -71,34 +71,34 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/coriander-salmon-with-curried-quinoa-pomegranate/",
-        "title": "[ES] Coriander salmon with curried quinoa & pomegranate",
-        "description": "(Translation pending) You should aim to eat oily fish at least once a week, as the beneficial omega-3 fatty acids that support heart health can’t be made by your body",
+        "title": "Salmón al cilantro con quinoa al curry y granada",
+        "description": "Debería intentar comer pescado azul al menos una vez a la semana, ya que el cuerpo no puede producir los ácidos grasos omega-3 beneficiosos que favorecen la salud del corazón.",
         "prep_time": "20 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "120g quinoa, rinsed",
-            "320g fine green beans, trimmed and cut into thirds",
-            "15g pack coriander",
-            "15g fresh ginger, peeled and chopped",
-            "1 lemon, juiced",
-            "½ tsp ground cumin",
-            "1 green or red chilli, seeds removed and chopped",
-            "1 tsp ground coriander",
-            "4 wild skinless salmon steaks (460g)",
-            "1 tbsp extra virgin olive oil",
-            "2-3 courgettes (320g), halved and sliced",
-            "2 red onions, finely chopped",
-            "2 tsp garam masala",
-            "2 tsp vegetable bouillon powder",
-            "400g can chickpeas, drained",
-            "150g pomegranate seeds"
+            "120 g de quinua, enjuagada",
+            "320 g de judías verdes finas, peladas y cortadas en tercios",
+            "paquete de 15 g de cilantro",
+            "15 g de jengibre fresco, pelado y picado",
+            "1 limón, exprimido",
+            "½ cucharadita de comino molido",
+            "1 chile verde o rojo, sin semillas y picado",
+            "1 cucharadita de cilantro molido",
+            "4 filetes de salmón salvaje sin piel (460g)",
+            "1 cucharada de aceite de oliva virgen extra",
+            "2-3 calabacines (320 g), partidos por la mitad y en rodajas",
+            "2 cebollas rojas, finamente picadas",
+            "2 cucharaditas de garam masala",
+            "2 cucharaditas de caldo de verduras en polvo",
+            "Lata de 400 g de garbanzos escurridos",
+            "150 g de semillas de granada"
         ],
         "method": [
-            "Heat the oven to 200C/180C fan/gas 6 and line a baking sheet with baking parchment. Boil a saucepan of water, add the quinoa and cook for 5 mins. Add the beans, bring back to the boil, then simmer for 10 mins. Remove from the heat and leave to stand for 5 mins, then drain, rinse and drain again.",
-            "Meanwhile, blitz the fresh coriander, ginger, lemon juice, cumin, chilli and ground coriander in a small bowl using a hand blender. Arrange the salmon steaks on the baking sheet, then spread a teaspoon of the coriander mix on each one, saving the rest for later. Bake for 8-10 mins, depending on the thickness of the salmon.",
-            "Heat the oil in a non-stick pan and stir-fry the courgettes and onions for 8-10 mins over a medium heat until softened and starting to colour. Stir in the garam masala, bouillon powder and remaining coriander mixture, then add the chickpeas and cook for a minute. Tip into a serving bowl and stir through the cooled quinoa, green beans and pomegranate seeds. Spoon half onto two plates and flake over 2 of the salmon fillets.",
-            "Reserve the remaining two portions of quinoa salad and salmon to eat cold for lunch the next day, if you like.Will keep chilled for up to two days."
+            "Calentar el horno a 200C/180C ventilador/gas 6 y forrar una bandeja para hornear con papel para hornear. Hervir una cacerola con agua, agregar la quinua y cocinar por 5 minutos. Agregue los frijoles, vuelva a hervir y cocine a fuego lento durante 10 minutos. Retirar del fuego y dejar reposar 5 minutos, luego escurrir, enjuagar y escurrir nuevamente.",
+            "Mientras tanto, mezcle el cilantro fresco, el jengibre, el jugo de limón, el comino, la guindilla y el cilantro molido en un tazón pequeño con una batidora de mano. Coloca los filetes de salmón en la bandeja para hornear, luego esparce una cucharadita de la mezcla de cilantro en cada uno y guarda el resto para más tarde. Hornee durante 8-10 minutos, dependiendo del grosor del salmón.",
+            "Calentar el aceite en una sartén antiadherente y sofreír los calabacines y la cebolla durante 8-10 minutos a fuego medio hasta que se ablanden y empiecen a tomar color. Agrega el garam masala, el caldo en polvo y el resto de la mezcla de cilantro, luego agrega los garbanzos y cocina por un minuto. Vierta en un tazón para servir y revuelva con la quinua enfriada, las judías verdes y las semillas de granada. Coloque la mitad en dos platos y desmenuce 2 de los filetes de salmón.",
+            "Reserve las dos porciones restantes de ensalada de quinua y salmón para comerlas frías en el almuerzo del día siguiente, si lo desea. Se mantendrán frías hasta por dos días."
         ],
         "nutritional_info": {
             "kcal": "526",
@@ -115,26 +115,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/pasta-salad-with-tuna-mayo/",
-        "title": "[ES] Pasta salad with tuna mayo",
-        "description": "(Translation pending) This is quick to throw together and perfect as a lunchbox feast whether you’re on a picnic or at your desk.",
+        "title": "Ensalada de pasta con mayonesa de atún",
+        "description": "Esto se prepara rápidamente y es perfecto como almuerzo para el almuerzo, ya sea que estés de picnic o en tu escritorio.",
         "prep_time": "20 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "250g wholemeal penne",
-            "240g bio yogurt",
-            "2 tsp English mustard powder",
-            "2 tbsp extra virgin olive oil",
-            "4tsp apple cider vinegar",
-            "1 red onion, finely chopped",
-            "handful of basil leaves, finely chopped",
-            "320g tuna in spring water",
-            "2 red peppers, deseeded and diced",
-            "340g can sweetcorn, drained"
+            "250 g de penne integral",
+            "240 g de yogur orgánico",
+            "2 cucharaditas de mostaza inglesa en polvo",
+            "2 cucharadas de aceite de oliva virgen extra",
+            "4 cucharaditas de vinagre de manzana",
+            "1 cebolla morada, finamente picada",
+            "un puñado de hojas de albahaca, finamente picadas",
+            "320g de atún en agua de manantial",
+            "2 pimientos rojos, sin semillas y cortados en cubitos",
+            "Lata de 340 g de maíz dulce, escurrido"
         ],
         "method": [
-            "Boil the pasta for 10 mins until al dente, then drain and rinse under cold running water. Drain again. Meanwhile, mix the yogurt, mustard, olive oil, vinegar, onion and basil together in a large bowl, then stir in the tuna, red peppers and sweetcorn.",
-            "Stir through the pasta and serve in bowls or pack into containers for work or a picnic.Will keep, covered, in the fridge to eat the next day."
+            "Hervir la pasta durante 10 minutos hasta que esté al dente, luego escurrir y enjuagar con agua fría. Escurrir nuevamente. Mientras tanto, mezcle el yogur, la mostaza, el aceite de oliva, el vinagre, la cebolla y la albahaca en un tazón grande, luego agregue el atún, los pimientos rojos y el maíz dulce.",
+            "Revuelva la pasta y sírvala en tazones o empaquete en recipientes para el trabajo o un picnic. Se mantendrá tapado en el refrigerador para comer al día siguiente."
         ],
         "nutritional_info": {
             "kcal": "444",
@@ -151,34 +151,34 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/feta-cakes-with-greek-salad/",
-        "title": "[ES] Feta cakes with Greek salad",
-        "description": "(Translation pending) Bring a little summer sunshine to your kitchen with these potato feta cakes served with a Greek salad. The herbs add plenty of flavour and valuable nutrients, like vitamin C and iron",
+        "title": "Tortitas de queso feta con ensalada griega",
+        "description": "Trae un poco de sol de verano a tu cocina con estos pasteles de papa y queso feta servidos con ensalada griega. Las hierbas aportan mucho sabor y valiosos nutrientes, como vitamina C y hierro.",
         "prep_time": "20 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "a drop of rapeseed oil, for the baking sheet",
-            "700g potatoes, peeled and cut into chunks",
-            "1 lemon, zested, half juiced",
-            "6 spring onions, very finely chopped",
-            "2 tbsp chopped mint",
-            "3 tbsp chopped parsley",
-            "100g feta, crumbled",
-            "1 large egg",
-            "6 tbsp wholemeal flour",
-            "½ tsp smoked paprika",
-            "320g tomatoes, cut into wedges",
-            "1 cucumber (about 320g), diced",
-            "1 red onion finely chopped",
-            "12 Kalamata olives, quartered",
-            "1-2 tbsp finely chopped mint",
-            "2 tsp lemon juice",
-            "2 tsp extra virgin olive oil"
+            "una gota de aceite de colza, para la bandeja para hornear",
+            "700 g de patatas peladas y cortadas en trozos",
+            "1 limón, rallado, medio jugo",
+            "6 cebolletas, muy finamente picadas",
+            "2 cucharadas de menta picada",
+            "3 cucharadas de perejil picado",
+            "100 g de queso feta, desmenuzado",
+            "1 huevo grande",
+            "6 cucharadas de harina integral",
+            "½ cucharadita de pimentón ahumado",
+            "320 g de tomates cortados en gajos",
+            "1 pepino (unos 320 g), cortado en cubitos",
+            "1 cebolla morada finamente picada",
+            "12 aceitunas Kalamata, en cuartos",
+            "1-2 cucharadas de menta finamente picada",
+            "2 cucharaditas de jugo de limón",
+            "2 cucharaditas de aceite de oliva virgen extra"
         ],
         "method": [
-            "Heat the oven to 200C/180C fan/gas 6 and oil a non-stick baking sheet. Bring a pan of water to the boil, add the potatoes and cook for 15-20 mins until tender. Drain very well, then return to the pan and mash with lots of black pepper, the lemon zest and juice, the spring onions, mint and 2 tbsp of the parsley. Stir through the feta.",
-            "Beat the egg in a shallow bowl, then mix the flour, paprika and remaining 1 tbsp parsley in another. Shape the potato mixture into eight cakes, then carefully coat all over in the egg, then the flour mix, reshaping them if you need to. Arrange the cakes on the baking sheet and bake for 15 mins until starting to turn golden. Use a palette knife to carefully turn each one over and bake for another 10-15 mins until golden.",
-            "Meanwhile, toss half the salad with half the lemon and oil. Serve with four cakes and chill the remainder for another day, tossing the remaining salad with the rest of the lemon and oil just before serving.Will keep, covered, for up to two days in the fridge. To reheat the cakes, cook on a baking tray at 200C/180C fan/gas 6 for 15-20 mins."
+            "Calentar el horno a 200C/180C ventilador/gas 6 y engrasar una bandeja para hornear antiadherente. Ponga a hervir agua en una cacerola, agregue las patatas y cocine durante 15-20 minutos hasta que estén tiernas. Escurrir muy bien, luego volver a la sartén y triturar con mucha pimienta negra, la ralladura y el jugo de limón, las cebolletas, la menta y 2 cucharadas de perejil. Revuelva el queso feta.",
+            "Batir el huevo en un recipiente poco profundo, luego mezclar la harina, el pimentón y la cucharada restante de perejil en otro. Forme ocho pasteles con la mezcla de papa, luego cúbralos con cuidado con el huevo y luego con la mezcla de harina, dándoles otra forma si es necesario. Coloque los pasteles en la bandeja para hornear y hornee por 15 minutos hasta que comiencen a dorarse. Use una espátula para darles la vuelta con cuidado a cada uno y hornee por otros 10-15 minutos hasta que estén dorados.",
+            "Mientras tanto, mezcla la mitad de la ensalada con la mitad del limón y el aceite. Sirva con cuatro pasteles y enfríe el resto para un día más, mezclando la ensalada restante con el resto del limón y el aceite justo antes de servir. Se mantendrá tapado hasta por dos días en el refrigerador. Para recalentar los pasteles, cocínelos en una bandeja para horno a 200C/180C ventilador/gas 6 durante 15-20 minutos."
         ],
         "nutritional_info": {
             "kcal": "371",
@@ -195,43 +195,43 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/lasagne/",
-        "title": "[ES] Lasagne",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyLittle is more satisfying than cooking a classic to perfection – Sarah Cook gives us a lesson in how to make lasagne",
+        "title": "lasaña",
+        "description": "Contiene carne de cerdo – la receta es solo para no musulmanes. Poco es más satisfactorio que cocinar un clásico a la perfección – Sarah Cook nos da una lección sobre cómo hacer lasaña",
         "prep_time": "1 hrs Cook: 3 hrs 10 mins Plus milk infusing",
         "cook_time": "",
         "serves": "8",
         "ingredients": [
-            "3 tbsp olive oil",
-            "2 celery sticks, finely chopped",
-            "1 onion, finely chopped",
-            "1 carrot (about 100g/4oz) finely chopped",
-            "3 garlic cloves, crushed",
-            "140g pack cubetti di pancetta",
-            "500g pack beef mince (we used 10% fat)",
-            "500g pack pork mince or British veal mince",
-            "200ml milk",
-            "2 x 400g cans chopped tomatoes",
-            "2 bay leaf",
-            "1 rosemary sprig",
-            "2 thyme sprigs",
-            "2 tsp dried oregano",
-            "2 beef stock cubes",
-            "500ml red wine",
-            "about 400g dried pasta sheets",
-            "50g Parmesan, finely grated",
-            "1½ l milk",
-            "1 onion, thickly sliced",
-            "3 bay leaf",
-            "3 cloves",
-            "100g butter",
-            "100g plain flour",
-            "good grating of nutmeg"
+            "3 cucharadas de aceite de oliva",
+            "2 ramas de apio, finamente picadas",
+            "1 cebolla, finamente picada",
+            "1 zanahoria (aproximadamente 100 g/4 oz) finamente picada",
+            "3 dientes de ajo machacados",
+            "Paquete de 140 g de cubitos de tocino",
+            "Paquete de 500 g de carne picada de ternera (nosotros utilizamos 10% de grasa)",
+            "Paquete de 500 g de carne picada de cerdo o ternera británica",
+            "200ml de leche",
+            "2 latas de 400 g de tomates picados",
+            "2 hojas de laurel",
+            "1 ramita de romero",
+            "2 ramitas de tomillo",
+            "2 cucharaditas de orégano seco",
+            "2 cubitos de caldo de res",
+            "500 ml de vino tinto",
+            "unos 400 g de láminas de pasta seca",
+            "50 g de parmesano, finamente rallado",
+            "1½ litro de leche",
+            "1 cebolla, en rodajas gruesas",
+            "3 hojas de laurel",
+            "3 dientes",
+            "100 g de mantequilla",
+            "100 g de harina común",
+            "buen rallado de nuez moscada"
         ],
         "method": [
-            "First infuse the milk for the béchamel sauce. Put the milk, onion, bay and cloves into a large saucepan and bring very gently just up to the boil. Turn off the heat and set aside for 1 hr to infuse.",
-            "For the meat sauce, put the oil, celery, onion, carrot, garlic and pancetta in another large saucepan. Gently cook together until the veg are soft but not coloured. Tip in all the mince, the milk and tomatoes. Using a wooden spoon, stir together and break up and mash the lumps of mince against the sides of the pan. When the mince is mostly broken down, stir in all the herbs, the stock cubes and wine, and bring to a simmer. Cover and cook for 1 hr, stirring occasionally to stop the bottom catching. Uncover and gently simmer for another 30 mins-1 hr until the meat is tender and saucy. Taste and season.",
-            "To finish the béchamel, strain the milk through a fine sieve into one or two jugs. Melt the butter in the same pan then, using a wooden spoon, mix in the flour and cook for 2 mins. Stir in the strained milk, a little at a time – the mix will thicken at first to a doughy paste, but keep going, adding milk gradually to avoid lumps. When all the milk is in, bring to a gentle simmer, stirring constantly (if you have lumps, give it a quick whisk). Gently bubble for a few mins until thickened. Season with salt, pepper and nutmeg.",
-            "Heat oven to 180C/160C fan/gas 4. Spread a spoonful of the meat sauce over the base of a roughly 3.5 litre baking dish. Cover with a single layer of pasta sheets, snapping them to fit if needed, then top with a quarter of the béchamel. Spoon over a third of the meat sauce and scatter over a little Parmesan. Repeat the layers – pasta, béchamel, meat and Parmesan – two more times to use all the meat sauce. Add a final layer of pasta, the last of the béchamel and remaining Parmesan. Sit the dish on a baking tray to catch spills and bake for 1 hr until bubbling, browned and crisp on top."
+            "Primero infusionamos la leche para la salsa bechamel. Ponga la leche, la cebolla, el laurel y los clavos en una cacerola grande y lleve muy suavemente hasta que hierva. Apagar el fuego y dejar reposar durante 1 hora para infundir.",
+            "Para la salsa de carne, poner en otra cacerola grande el aceite, el apio, la cebolla, la zanahoria, el ajo y la panceta. Cocine juntos suavemente hasta que las verduras estén suaves pero sin color. Vierta toda la carne picada, la leche y los tomates. Con una cuchara de madera, mezcle, rompa y triture los trozos de carne picada contra los lados de la sartén. Cuando la carne picada esté casi desmenuzada, agregue todas las hierbas, los cubitos de caldo y el vino, y deje hervir a fuego lento. Tape y cocine durante 1 hora, revolviendo ocasionalmente para evitar que se pegue el fondo. Destape y cocine a fuego lento durante otros 30 minutos a 1 hora hasta que la carne esté tierna y picante. Pruebe y sazone.",
+            "Para terminar la bechamel, colar la leche por un colador fino en una o dos jarras. Derrita la mantequilla en la misma sartén y luego, con una cuchara de madera, mezcle la harina y cocine por 2 minutos. Agregue la leche colada, poco a poco; la mezcla se espesará al principio hasta formar una pasta pastosa, pero continúe agregando leche gradualmente para evitar grumos. Cuando esté toda la leche, cocine a fuego lento, revolviendo constantemente (si tiene grumos, bata rápidamente). Burbujee suavemente durante unos minutos hasta que espese. Sazone con sal, pimienta y nuez moscada.",
+            "Calentar el horno a 180C/160C ventilador/gas 4. Extienda una cucharada de salsa de carne sobre la base de una fuente para horno de aproximadamente 3,5 litros. Cubra con una sola capa de láminas de pasta, partiéndolas para que quepan si es necesario, luego cubra con una cuarta parte de la bechamel. Vierta un tercio de la salsa de carne y esparza un poco de parmesano. Repite las capas (pasta, bechamel, carne y parmesano) dos veces más para usar toda la salsa de carne. Agrega una última capa de pasta, lo último de la bechamel y el resto del parmesano. Coloque el plato en una bandeja para hornear para recoger los derrames y hornee durante 1 hora hasta que burbujee, se dore y esté crujiente por encima."
         ],
         "nutritional_info": {
             "kcal": "794",
@@ -248,25 +248,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chocolate-brownie-cake-ice-cream/",
-        "title": "[ES] Chocolate brownie cake",
-        "description": "(Translation pending) The perfect cake for brownie lovers, try a big slice warm with some ice cream",
+        "title": "Pastel de brownie de chocolate",
+        "description": "El pastel perfecto para los amantes del brownie, prueba un trozo grande caliente con un poco de helado.",
         "prep_time": "20 mins Cook: 45 mins",
         "cook_time": "",
         "serves": "10",
         "ingredients": [
-            "175g unsalted butter, plus extra for greasing",
-            "225g dark chocolate, broken into pieces",
-            "200g caster sugar",
-            "3 medium eggs, separated",
-            "65g plain flour",
-            "50g chopped pecan nuts"
+            "175 g de mantequilla sin sal, más un poco para engrasar",
+            "225 g de chocolate amargo, partido en trozos",
+            "200 g de azúcar en polvo",
+            "3 huevos medianos, separados",
+            "65 g de harina común",
+            "50 g de nueces pecanas picadas"
         ],
         "method": [
-            "Heat oven to 180C/fan 160C/gas 4. Butter a 20-25cm cake tin and line with greaseproof paper.",
-            "Place 175g/6oz of the chocolate, plus the butter and sugar in a heavy-based pan and heat gently until melted, stirring occasionally. Leave to cool.",
-            "Whisk the egg yolks into the chocolate mixture, then add the flour, nuts and the remaining chocolate.",
-            "Whisk the egg whites until they form soft peaks, then gently, but thoroughly, fold into the chocolate mixture.",
-            "Pour into the prepared tin and bake in the centre of the oven for about 35-40 mins until crusty on top. Leave to cool, then run a knife around the sides and remove from the tin. Dust with icing sugar and serve warm with custard or ice cream or cold with cream."
+            "Calentar el horno a 180C/ventilador 160C/gas 4. Untar con mantequilla un molde para pastel de 20-25 cm y forrar con papel vegetal.",
+            "Coloque 175 g/6 oz de chocolate, más la mantequilla y el azúcar en una sartén de base pesada y caliente suavemente hasta que se derrita, revolviendo ocasionalmente. Dejar enfriar.",
+            "Batir las yemas de huevo con la mezcla de chocolate, luego agregar la harina, las nueces y el chocolate restante.",
+            "Batir las claras hasta que formen picos suaves y luego, suave pero bien, incorporarlas a la mezcla de chocolate.",
+            "Vierta en el molde preparado y hornee en el centro del horno durante unos 35-40 minutos hasta que esté crujiente por encima. Dejar enfriar, luego pasar un cuchillo por los lados y retirar del molde. Espolvorear con azúcar glas y servir caliente con natillas o helado o frío con nata."
         ],
         "nutritional_info": {
             "kcal": "405",
@@ -282,31 +282,31 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/rhubarb-crumble-muffins/",
-        "title": "[ES] Rhubarb crumble muffins",
-        "description": "(Translation pending) The flavours of a rhubarb crumble in the form of a  lovely moist muffin.",
+        "title": "Muffins crumble de ruibarbo",
+        "description": "Los sabores de un ruibarbo se desmoronan en forma de un delicioso panecillo húmedo.",
         "prep_time": "25 mins Cook: 18 mins",
         "cook_time": "",
         "serves": "12",
         "ingredients": [
-            "175g caster sugar",
-            "175g rhubarb, halved lengthways then diced",
-            "2 tbsp sunflower oil",
-            "1 egg",
-            "1 tsp vanilla extract",
-            "125ml buttermilk",
-            "200g plain flour",
-            "1 tsp baking powder",
-            "1 tsp bicarbonate of soda",
-            "50g light muscovado sugar",
-            "50g plain flour",
-            "25g porridge oats",
-            "1 tsp ground cinnamon",
-            "50g butter"
+            "175 g de azúcar en polvo",
+            "175 g de ruibarbo, cortado por la mitad a lo largo y luego cortado en cubitos",
+            "2 cucharadas de aceite de girasol",
+            "1 huevo",
+            "1 cucharadita de extracto de vainilla",
+            "125 ml de suero de leche",
+            "200 g de harina común",
+            "1 cucharadita de polvo para hornear",
+            "1 cucharadita de bicarbonato de sodio",
+            "50 g de azúcar mascabado light",
+            "50 g de harina común",
+            "25 g de gachas de avena",
+            "1 cucharadita de canela molida",
+            "50 g de mantequilla"
         ],
         "method": [
-            "Heat oven to 220C/200C fan/gas 7.\r\nLine a 12-hole muffin tin with paper\r\nmuffin cases. Stir the sugar and rhubarb\r\ntogether and set aside while you make\r\nthe crumble topping. Mix together the\r\nmuscovado sugar with the flour, oats\r\nand cinnamon, then rub in the butter\r\nuntil clumpy with your fingertips.",
-            "Stir the oil and egg, vanilla and\r\nbuttermilk into the sugary rhubarb\r\n(don’t worry if it’s a little bit juicy).\r\nNow, add the flour, baking powder\r\nand bicarbonate of soda and stir well.",
-            "Quickly spoon into the cases, then\r\nscatter each with a thick layer of the\r\ncrumble mixture. Bake for 15-18 mins\r\nuntil golden and a cocktail stick poked\r\ninto the centre of a muffin comes\r\nout clean. Cool on a wire rack."
+            "Calentar el horno a 220C/200C ventilador/gas 7.\r\nForrar un molde para muffins de 12 agujeros con papel.\r\ncajas de muffins. Revuelva el azúcar y el ruibarbo.\r\njuntos y reserve mientras hace\r\nla cobertura crumble. Mezclar juntos el\r\nazúcar mascabado con la harina, avena\r\ny canela, luego frote con la mantequilla\r\nhasta que quede grumoso con las yemas de los dedos.",
+            "Remueve el aceite y el huevo, la vainilla y\r\nsuero de leche en el ruibarbo azucarado\r\n(no os preocupéis si queda un poquito jugoso).\r\nAhora, agrega la harina, el polvo para hornear.\r\ny bicarbonato de sodio y revuelva bien.",
+            "Vierta rápidamente en las cajas y luego\r\nesparcir cada uno con una capa gruesa de\r\nmezcla desmenuzada. Hornee durante 15-18 minutos\r\nhasta que esté dorado y pinchado con un palito\r\nen el centro de un muffin viene\r\nsalir limpio. Dejar enfriar sobre una rejilla."
         ],
         "nutritional_info": {
             "kcal": "213",
@@ -323,32 +323,32 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/bobotie/",
-        "title": "[ES] Bobotie",
-        "description": "(Translation pending) Pronounced ba-boor-tea, the national dish of South Africa is a delicious mixture of curried meat and fruit with a creamy golden topping, not dissimilar to moussaka",
+        "title": "Bobotie",
+        "description": "El plato nacional de Sudáfrica, pronunciado ba-boor-tea, es una deliciosa mezcla de carne al curry y fruta con una cobertura cremosa y dorada, no muy diferente a la moussaka.",
         "prep_time": "30 mins Cook: 40 mins",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "2 slices white bread",
-            "2 onions, chopped",
-            "25g butter",
-            "2 garlic cloves, crushed",
-            "1kg packet lean minced beef",
-            "2 tbsp madras curry paste",
-            "1 tsp dried mixed herbs",
-            "3 cloves",
-            "5 allspice berries",
-            "2 tbsp peach or mango chutney",
-            "3 tbsp sultanas",
-            "6 bay leaves",
-            "300ml full-cream milk",
-            "2 large eggs"
+            "2 rebanadas de pan blanco",
+            "2 cebollas picadas",
+            "25 g de mantequilla",
+            "2 dientes de ajo machacados",
+            "Paquete de 1 kg de carne magra picada",
+            "2 cucharadas de pasta de curry madrás",
+            "1 cucharadita de hierbas secas mixtas",
+            "3 dientes",
+            "5 bayas de pimienta de Jamaica",
+            "2 cucharadas de chutney de melocotón o mango",
+            "3 cucharadas de pasas",
+            "6 hojas de laurel",
+            "300ml de leche entera",
+            "2 huevos grandes"
         ],
         "method": [
-            "Heat oven to 180C/fan 160C/gas 4. Pour cold water over the bread and set aside to soak.",
-            "Meanwhile, fry the onions in the butter, stirring regularly for 10 mins until they are soft and starting to colour. Add the garlic and beef and stir well, crushing the mince into fine grains until it changes colour. Stir in the curry paste, herbs, spices, chutney, sultanas and 2 of the bay leaves with 1 tsp salt and plenty of ground black pepper.",
-            "Cover and simmer for 10 mins. Squeeze the water from the bread, then beat into the meat mixture until well blended. Tip into an oval ovenproof dish (23 x 33cm and about 5-6cm deep). Press the mixture down well and smooth the top. You can make this and chill 1 day ahead.",
-            "For the topping, beat the milk and eggs with seasoning, then pour over the meat. Top with the remaining bay leaves and bake for 35-40 mins until the topping is set and starting to turn golden."
+            "Calentar el horno a 180C/ventilador 160C/gas 4. Vierta agua fría sobre el pan y déjelo en remojo.",
+            "Mientras tanto, sofreír las cebollas en la mantequilla, revolviendo regularmente durante 10 minutos hasta que estén suaves y empiecen a tomar color. Agrega el ajo y la carne y revuelve bien, triturando la carne picada en granos finos hasta que cambie de color. Agregue la pasta de curry, las hierbas, las especias, el chutney, las pasas y 2 hojas de laurel con 1 cucharadita de sal y abundante pimienta negra molida.",
+            "Tape y cocine a fuego lento durante 10 minutos. Exprime el agua del pan y luego incorpora la mezcla de carne hasta que esté bien mezclado. Vierta en una fuente ovalada para horno (23 x 33 cm y unos 5-6 cm de profundidad). Presiona bien la mezcla y alisa la parte superior. Puedes hacer esto y relajarte con 1 día de anticipación.",
+            "Para la cobertura, bata la leche y los huevos con el condimento y luego vierta sobre la carne. Cubra con las hojas de laurel restantes y hornee durante 35-40 minutos hasta que la cobertura esté firme y comience a dorarse."
         ],
         "nutritional_info": {
             "kcal": "386",
@@ -365,20 +365,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/dried-fruit-energy-nuggets/",
-        "title": "[ES] Dried fruit energy nuggets",
-        "description": "(Translation pending) Give your energy levels a real boost with these nutritionally-balanced healthy fruit bites",
+        "title": "Pepitas energéticas de frutos secos",
+        "description": "Dale un verdadero impulso a tus niveles de energía con estos bocados de frutas saludables y nutricionalmente equilibrados",
         "prep_time": "10 mins No cook",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "50g soft dried apricots",
-            "100g soft dried dates",
-            "50g dried cherries",
-            "2 tsp coconut oil",
-            "1 tbsp toasted sesame seed"
+            "50 g de orejones blandos",
+            "100 g de dátiles secos y blandos",
+            "50 g de cerezas secas",
+            "2 cucharaditas de aceite de coco",
+            "1 cucharada de semillas de sésamo tostadas"
         ],
         "method": [
-            "Whizz apricots with\r\ndates and\r\ncherries in a food processor until very\r\nfinely chopped. Tip into a bowl and use\r\nyour hands to work in coconut oil.\r\nShape the mix into walnut-sized balls,\r\nthen roll in sesame\r\nseeds. Store in an airtight container\r\nuntil you need a quick energy fix."
+            "Batir los albaricoques con\r\nfechas y\r\ncerezas en un procesador de alimentos hasta que estén muy\r\nfinamente picado. Vierta en un tazón y use\r\ntus manos para trabajar en aceite de coco.\r\nForme bolitas del tamaño de una nuez con la mezcla,\r\nluego enrollar en sésamo\r\nsemillas. Guardar en un recipiente hermético\r\nhasta que necesites una dosis rápida de energía."
         ],
         "nutritional_info": {
             "kcal": "113",
@@ -395,33 +395,33 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/thai-prawn-ginger-and-spring-onion-stirfry/",
-        "title": "[ES] Thai prawn, ginger & spring onion stir-fry",
-        "description": "(Translation pending) This stir-fry has a welcome spicy kick. Once you've made the paste, it takes only 10 minutes to cook",
+        "title": "Salteado tailandés de gambas, jengibre y cebolleta",
+        "description": "Este salteado tiene un toque picante bienvenido. Una vez que hayas hecho la pasta, solo tardarás 10 minutos en cocinarse.",
         "prep_time": "30 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "200g raw, peeled tiger prawns from a sustainable source",
-            "1 green Thai chilli, chopped",
-            "3 garlic cloves, 1 crushed and 2 finely sliced",
-            "1 bunch coriander, leaves and stalks separated",
-            "1 tbsp caster sugar",
-            "juice 1 lime",
-            "3 tbsp fish sauce",
-            "2 tbsp groundnut oil",
-            "3cm piece ginger, finely sliced, then shredded",
-            "8 spring onions, finely sliced",
-            "1 red pepper, thinly sliced",
-            "85g water chestnuts, sliced",
-            "100g beansprouts",
-            "1 tbsp soy sauce",
-            "egg or rice noodles, to serve",
-            "lime wedges, to serve"
+            "200 g de gambas tigre crudas y peladas de origen sostenible",
+            "1 chile tailandés verde, picado",
+            "3 dientes de ajo, 1 machacado y 2 finamente picados",
+            "1 manojo de cilantro, hojas y tallos separados",
+            "1 cucharada de azúcar en polvo",
+            "jugo 1 lima",
+            "3 cucharadas de salsa de pescado",
+            "2 cucharadas de aceite de maní",
+            "Un trozo de 3 cm de jengibre, cortado en rodajas finas y luego rallado",
+            "8 cebolletas, cortadas finamente",
+            "1 pimiento rojo, en rodajas finas",
+            "85 g de castañas de agua cortadas en rodajas",
+            "100 g de brotes de soja",
+            "1 cucharada de salsa de soja",
+            "fideos de huevo o arroz, para servir",
+            "gajos de lima, para servir"
         ],
         "method": [
-            "Put the prawns in a bowl. Put the chilli,\r\ncrushed garlic, coriander stalks (snip\r\nthese up using scissors first) and caster\r\nsugar in a spice grinder or small food\r\nprocessor and whizz together. Add half\r\nof the lime juice and the fish sauce, then\r\npour this over the prawns.",
-            "Heat 1 tbsp oil in a wok, add the ginger\r\nand spring onions and fry for 1 min. Add\r\nthe red pepper and fry for 1 min, until the\r\npepper starts to soften. Add the water\r\nchestnuts and bean sprouts, and toss\r\ntogether until the bean sprouts start to\r\nwilt. Add the soy sauce and a really good\r\ngrind of black pepper, then tip the lot into\r\na serving dish.",
-            "Heat the remaining oil in the wok and\r\nadd the prawns, lifting them out of their\r\njuices. Toss for 1-2 mins until they turn\r\npink, add the marinade and swirl the wok\r\nquickly, then tip the lot onto the veg. Snip\r\nover the coriander leaves and sprinkle on\r\nthe remaining lime. Serves over noodles\r\nwith extra lime for squeezing over."
+            "Pon las gambas en un bol. Pon el chile,\r\najo machacado, tallos de cilantro (cortar\r\nestos arriba usando tijeras primero) y rueda\r\nazúcar en un molinillo de especias o comida pequeña\r\nprocesador y mezclar juntos. Añadir la mitad\r\ndel jugo de lima y la salsa de pescado, luego\r\nvierte esto sobre las gambas.",
+            "Calienta 1 cucharada de aceite en un wok, agrega el jengibre.\r\ny las cebolletas y sofreír durante 1 min. Añadir\r\nel pimiento rojo y sofreír durante 1 min, hasta que\r\nla pimienta comienza a ablandarse. agrega el agua\r\ncastañas y brotes de soja, y revuelva\r\njuntos hasta que los brotes de frijol comiencen a\r\nmarchitarse. Agrega la salsa de soja y una muy buena\r\nmoler pimienta negra, luego verter todo en\r\nun plato para servir.",
+            "Calentar el aceite restante en el wok y\r\nañadir las gambas, sacándolas de su\r\njugos. Revuelva durante 1-2 minutos hasta que giren.\r\nrosa, agrega la marinada y revuelve el wok.\r\nrápidamente, luego vierta todo sobre las verduras. recortar\r\nsobre las hojas de cilantro y espolvorear\r\nla lima restante. Sirve sobre fideos\r\ncon lima extra para exprimir."
         ],
         "nutritional_info": {
             "kcal": "294",
@@ -438,23 +438,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/10-minute-couscous-salad/",
-        "title": "[ES] 10-minute couscous salad",
-        "description": "(Translation pending) This makes a great lunchbox filler for a day out and is equally good at home from the fridge",
+        "title": "Ensalada de cuscús de 10 minutos",
+        "description": "Esto es un excelente relleno para la lonchera para un día y es igualmente bueno en casa desde el refrigerador.",
         "prep_time": "10 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "100g couscous",
-            "200ml hot low salt vegetable stock (from a cube is fine)",
-            "2 spring onions",
-            "1 red pepper",
-            "½ cucumber",
-            "50g feta cheese, cubed",
-            "2 tbsp pesto",
-            "2 tbsp toasted pine nuts"
+            "100 g de cuscús",
+            "200 ml de caldo de verduras caliente bajo en sal (en cubitos está bien)",
+            "2 cebolletas",
+            "1 pimiento rojo",
+            "½ pepino",
+            "50 g de queso feta, en cubos",
+            "2 cucharadas de pesto",
+            "2 cucharadas de piñones tostados"
         ],
         "method": [
-            "Tip couscous into a large bowl, pour over\r\nstock. Cover, then leave for 10 mins, until\r\nfluffy and all the stock has been absorbed.\r\nMeanwhile, slice the onions and pepper\r\nand dice the cucumber. Add these to the\r\ncouscous, fork through pesto, crumble in\r\nfeta, then sprinkle over pine nuts to serve."
+            "Vierta el cuscús en un tazón grande y vierta\r\nvalores. Cubra, luego déjelo por 10 minutos, hasta que\r\nesponjosa y se haya absorbido todo el caldo.\r\nMientras tanto, cortar la cebolla y el pimiento.\r\ny cortar el pepino en dados. Añade estos al\r\ncuscús, pasar el pesto con un tenedor, desmenuzar\r\nqueso feta, luego espolvoree sobre piñones para servir."
         ],
         "nutritional_info": {
             "kcal": "327",
@@ -471,26 +471,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/watermelon-prawn-and-avocado-salad/",
-        "title": "[ES] Watermelon, prawn & avocado salad",
-        "description": "(Translation pending) Too hot to cook? This superhealthy salad makes a refreshing light lunch or starter",
+        "title": "Ensalada de sandía, gambas y aguacate",
+        "description": "¿Demasiado calor para cocinar? Esta ensalada súper saludable es un almuerzo o entrante ligero y refrescante.",
         "prep_time": "15 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 small red onion, finely chopped",
-            "1 fat garlic clove, crushed",
-            "1 small red chilli, finely chopped",
-            "juice 1 lime",
-            "1 tbsp rice or white wine vinegar",
-            "1 tsp caster sugar",
-            "watermelon wedge, deseeded and diced",
-            "1 avocado, diced",
-            "small bunch coriander leaves, chopped",
-            "200g cooked tiger prawns, defrosted if frozen"
+            "1 cebolla morada pequeña, finamente picada",
+            "1 diente de ajo gordo, machacado",
+            "1 chile rojo pequeño, finamente picado",
+            "jugo 1 lima",
+            "1 cucharada de arroz o vinagre de vino blanco",
+            "1 cucharadita de azúcar en polvo",
+            "rodaja de sandía, sin semillas y cortada en cubitos",
+            "1 aguacate, cortado en cubitos",
+            "manojo pequeño de hojas de cilantro, picadas",
+            "200 g de langostinos tigre cocidos, descongelados si están congelados"
         ],
         "method": [
-            "Put the onion in a medium bowl with\r\nthe garlic, chilli, lime juice, vinegar, sugar\r\nand some seasoning. Leave to marinate\r\nfor 10 mins.",
-            "Add the watermelon,\r\navocado, coriander and prawns, then\r\ntoss gently to serve."
+            "Pon la cebolla en un tazón mediano con\r\nel ajo, la guindilla, el zumo de lima, el vinagre y el azúcar\r\ny algo de condimento. dejar marinar\r\ndurante 10 min.",
+            "Agrega la sandía,\r\naguacate, cilantro y gambas, luego\r\nrevuelva suavemente para servir."
         ],
         "nutritional_info": {
             "kcal": "179",
@@ -507,25 +507,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/butternut-squash-soup-with-chilli-and-crme-frache/",
-        "title": "[ES] Butternut squash soup with chilli & crème fraîche",
-        "description": "(Translation pending) Come in from the cold to a warming bowlful of autumn",
+        "title": "Sopa de calabaza con chile y crema fresca",
+        "description": "Pasa del frío a un cálido cuenco de otoño",
         "prep_time": "15 mins Cook: 50 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 butternut squash, about 1kg, peeled and deseeded",
-            "2 tbsp olive oil",
-            "1 tbsp butter",
-            "2 onions, diced",
-            "1 garlic clove, thinly sliced",
-            "2 mild red chillies, deseeded and finely chopped",
-            "850ml hot vegetable stock",
-            "4 tbsp crème fraîche, plus more to serve"
+            "1 calabaza, aproximadamente 1 kg, pelada y sin semillas",
+            "2 cucharadas de aceite de oliva",
+            "1 cucharada de mantequilla",
+            "2 cebollas, picadas",
+            "1 diente de ajo, en rodajas finas",
+            "2 chiles rojos suaves, sin semillas y finamente picados",
+            "850 ml de caldo de verduras caliente",
+            "4 cucharadas de crema fresca y más para servir"
         ],
         "method": [
-            "Heat oven to 200C/180C fan/gas 6.\r\nCut the squash into large cubes, about\r\n4cm/1½in across, then toss in a large\r\nroasting tin with half the olive oil. Roast\r\nfor 30 mins, turning once during cooking,\r\nuntil golden and soft.",
-            "While the squash cooks, melt the\r\nbutter with the remaining oil in a large\r\nsaucepan, then add the onions, garlic and\r\n¾ of the chilli. Cover and cook on a very\r\nlow heat for 15-20 mins until the onions\r\nare completely soft.",
-            "Tip the squash into the pan, add the\r\nstock and the crème fraîche, then whizz\r\nwith a stick blender until smooth. For\r\na really silky soup, put the soup into a\r\nliquidiser and blitz it in batches. Return\r\nto the pan, gently reheat, then season to\r\ntaste. Serve the soup in bowls with swirls\r\nof crème fraîche and a scattering of the\r\nremaining chopped chilli."
+            "Calentar el horno a 200C/180C ventilador/gas 6.\r\nCortar la calabaza en cubos grandes, de aproximadamente\r\n4 cm/1½ pulgadas de ancho, luego agregue una\r\nfuente para asar con la mitad del aceite de oliva. asado\r\ndurante 30 minutos, volteando una vez durante la cocción,\r\nhasta que esté dorado y suave.",
+            "Mientras se cocina la calabaza, derrita la\r\nmantequilla con el aceite restante en una cacerola grande\r\ncacerola, luego agregue la cebolla, el ajo y\r\n¾ del chile. Tapar y cocinar a fuego muy\r\nfuego lento durante 15-20 minutos hasta que las cebollas\r\nson completamente suaves.",
+            "Vierta la calabaza en la sartén, agregue la\r\ncaldo y la crème fraîche, luego mezclar\r\ncon una batidora hasta que quede suave. Para\r\nuna sopa muy sedosa, ponga la sopa en un\r\nlicuadora y bátela en tandas. Regresar\r\na la sartén, recalentar suavemente y luego sazonar\r\ngusto. Sirve la sopa en tazones con remolinos.\r\nde crème fraîche y un poco de\r\nchile picado restante."
         ],
         "nutritional_info": {
             "kcal": "264",
@@ -542,24 +542,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chicken-rollups/",
-        "title": "[ES] Chicken roll-ups",
-        "description": "(Translation pending) Introduce young children to cooking by letting them make their own lunch, with this safe and simple recipe",
+        "title": "rollitos de pollo",
+        "description": "Introduzca a los niños pequeños a la cocina permitiéndoles preparar su propio almuerzo con esta receta sencilla y segura.",
         "prep_time": "10 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "1 wrap or tortilla",
-            "1-2 tbsp houmous",
-            "3 fat slices cooked chicken breast",
-            "¼ avocado, taken out of its skin",
-            "3 cherry tomatoes",
-            "cheddar, grated to make about 1 tbsp"
+            "1 wrap o tortilla",
+            "1-2 cucharadas de hummus",
+            "3 rebanadas gordas de pechuga de pollo cocida",
+            "¼ de aguacate, sin piel",
+            "3 tomates cherry",
+            "queso cheddar rallado para hacer aproximadamente 1 cucharada"
         ],
         "method": [
-            "Put a wrap on\r\na board or plate.\r\nSpread the houmous\r\nonto the middle of\r\nit using a spoon or\r\nbutter knife.",
-            "Tear up the\r\nchicken (orask a\r\ngrown-up helperto\r\ndo this) and put it in a\r\nline down the middle\r\nof the wrap. Chop\r\nthe avocado with a\r\nbutter knife (orask\r\nyour helper) and put\r\nit next to the chicken.",
-            "Squish the\r\ntomatoes\r\nonto the wrap by\r\nsqueezing them and\r\ntearing them in half\r\n(they might squirt,\r\nso mind your\r\nclothes). Sprinkle\r\non some cheese.",
-            "Roll up the wrap\r\nand press it\r\ndown firmly.Ask\r\nyour grown-up\r\nhelperto cut it in\r\nhalf for you."
+            "ponerle una envoltura\r\nuna tabla o plato.\r\nDifundir el hummus\r\nhacia el medio de\r\nusando una cuchara o\r\ncuchillo de mantequilla.",
+            "Rompe el\r\npollo (o pedir un\r\nayudante adulto\r\nhacer esto) y ponerlo en un\r\nlínea por el medio\r\nde la envoltura. picar\r\nel aguacate con un\r\ncuchillo de mantequilla (orask\r\ntu ayudante) y pon\r\njunto al pollo.",
+            "aplastar el\r\ntomates\r\nen la envoltura por\r\napretándolos y\r\npartiéndolos por la mitad\r\n(podrían chorrear,\r\nasí que cuida tu\r\nropa). espolvorear\r\nsobre un poco de queso.",
+            "Enrollar la envoltura\r\ny presiónelo\r\nabajo firmemente.Pregunte\r\ntu adulto\r\nayudante para cortarlo\r\nla mitad para ti."
         ],
         "nutritional_info": {
             "kcal": "428",
@@ -576,25 +576,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/vegetable-tagine-with-chickpeas-and-raisins/",
-        "title": "[ES] Vegetable tagine with chickpeas & raisins",
-        "description": "(Translation pending) We’ve made getting your five of day simple with this healthy tagine",
+        "title": "Tagine de verduras con garbanzos y pasas",
+        "description": "Hemos simplificado los cinco días con este saludable tagine",
         "prep_time": "10 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 tbsp olive oil",
-            "2 onions, chopped",
-            "½  tsp each ground cinnamon, coriander and cumin",
-            "2 large courgettes, cut into chunks",
-            "2 chopped tomatoes",
-            "400g can chickpeas, rinsed and drained",
-            "4 tbsp raisins",
-            "425ml vegetable stock",
-            "300g frozen peas",
-            "chopped coriander, to serve"
+            "2 cucharadas de aceite de oliva",
+            "2 cebollas picadas",
+            "½ cucharadita de canela molida, cilantro y comino",
+            "2 calabacines grandes, cortados en trozos",
+            "2 tomates picados",
+            "Lata de 400 g de garbanzos, enjuagados y escurridos",
+            "4 cucharadas de pasas",
+            "425 ml de caldo de verduras",
+            "300 g de guisantes congelados",
+            "cilantro picado, para servir"
         ],
         "method": [
-            "Heat the oil in a pan, then fry the onions for 5 mins until soft. Stir  \r\nin the spices. Add the courgettes, tomatoes, chickpeas, raisins and \r\nstock, then bring to the boil. Cover and simmer for 10 mins. Stir in \r\nthe peas and cook for 5 mins more. Sprinkle with coriander, to serve."
+            "Calentar el aceite en una sartén, luego sofreír las cebollas durante 5 minutos hasta que estén blandas. Revuelva  \r\nen las especias. Añade los calabacines, los tomates, los garbanzos, las pasas y \r\nCaldo, luego llevar a ebullición. Tape y cocine a fuego lento durante 10 minutos. Agregue \r\nlos guisantes y cocine por 5 minutos más. Espolvoree con cilantro para servir."
         ],
         "nutritional_info": {
             "kcal": "246",
@@ -611,20 +611,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/feta-and-semidried-tomato-omelette/",
-        "title": "[ES] Feta & semi-dried tomato omelette",
-        "description": "(Translation pending) Cooking up eggs with cheese and tomato makes for a super-quick meal for one that’s ready in 10 minutes",
+        "title": "Tortilla de queso feta y tomates semisecos",
+        "description": "Cocinar huevos con queso y tomate es una comida súper rápida que está lista en 10 minutos.",
         "prep_time": "5 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "1 tsp olive oil",
-            "2 eggs, lightly beaten",
-            "4 semi-dried tomatoes, roughly chopped",
-            "25g feta cheese, crumbled",
-            "mixed salad leaves, to serve"
+            "1 cucharadita de aceite de oliva",
+            "2 huevos, ligeramente batidos",
+            "4 tomates semisecos, picados en trozos grandes",
+            "25 g de queso feta, desmenuzado",
+            "hojas de ensalada mixtas, para servir"
         ],
         "method": [
-            "Heat the oil in a small frying pan, add\r\nthe eggs and cook, swirling the eggs\r\nwith a fork as they set. When the eggs\r\nare still slightly runny in the middle,\r\nscatter over the tomatoes and feta,\r\nthen fold the omelette in half. Cook for\r\n1 min more before sliding onto a plate.\r\nServe alongside a mixed leaf salad."
+            "Calentar el aceite en una sartén pequeña, agregar\r\nlos huevos y cocine, revolviendo los huevos\r\ncon un tenedor mientras se endurecen. cuando los huevos\r\ntodavía están ligeramente líquidos en el medio,\r\nesparcir sobre los tomates y el queso feta,\r\nluego dobla la tortilla por la mitad. cocinar para\r\n1 min más antes de deslizar sobre un plato.\r\nSirva junto con una ensalada de hojas mixtas."
         ],
         "nutritional_info": {
             "kcal": "266",
@@ -641,37 +641,37 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chilli-con-carne/",
-        "title": "[ES] Chilli con carne recipe",
-        "description": "(Translation pending) This great chilli recipe has to be one of the best dishes to serve to friends for a casual get-together. An easy sharing favourite that uses up storecupboard ingredients.",
+        "title": "Chilli con carne recipe",
+        "description": "Esta excelente receta de chile tiene que ser uno de los mejores platos para servir a amigos en una reunión informal. Un favorito fácil de compartir que utiliza todos los ingredientes de la despensa.",
         "prep_time": "10 mins Cook: 1 hrs",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 tbsp oil",
-            "1 large onion",
-            "1 red pepper",
-            "2 garlic cloves, peeled",
-            "1 heaped tsp hot chilli powder (or 1 level tbsp if you only have mild)",
-            "1 tsp paprika",
-            "1 tsp ground cumin",
-            "500g lean minced beef",
-            "1 beef stock cube",
-            "400g can chopped tomatoes",
-            "½  tsp dried marjoram",
-            "1 tsp sugar",
-            "2 tbsp tomato purée",
-            "410g can red kidney beans",
-            "plain boiled long grain rice, to serve",
-            "soured cream, to serve"
+            "1 cucharada de aceite",
+            "1 cebolla grande",
+            "1 pimiento rojo",
+            "2 dientes de ajo, pelados",
+            "1 cucharadita colmada de chile picante en polvo (o 1 cucharada rasa si solo tienes suave)",
+            "1 cucharadita de pimentón",
+            "1 cucharadita de comino molido",
+            "500 g de carne magra picada",
+            "1 cubito de caldo de res",
+            "Lata de 400g de tomates picados",
+            "½ cucharadita de mejorana seca",
+            "1 cucharadita de azúcar",
+            "2 cucharadas de puré de tomate",
+            "Lata de 410 g de judías rojas.",
+            "arroz de grano largo hervido, para servir",
+            "crema agria, para servir"
         ],
         "method": [
-            "Prepare your vegetables. Chop1 large onioninto small dice,\r\nabout 5mm square. The easiest\r\nway to do this is to cut the onion\r\nin half from root to tip, peel it\r\nand slice each half into thick\r\nmatchsticks lengthways, not\r\nquite cutting all the way to the\r\nroot end so they are still held\r\ntogether. Slice across the\r\nmatchsticks into neat dice. Cut1 red pepperin half\r\nlengthways, remove stalk and\r\nwash the seeds away, then chop. Peel and finely chop2 garlic cloves.",
-            "Start cooking. Put your pan on\r\nthe hob over a medium heat. Add\r\nthe oil and leave it for 1-2\r\nminutes until hot (a little\r\nlonger for an electric hob). Add\r\nthe onions and cook, stirring\r\nfairly frequently, for about\r\n5 minutes, or until the onions\r\nare soft, squidgy and slightly\r\ntranslucent. Tip in the garlic, red pepper,1 heaped tsp hot chilli powder or 1 level tbsp mild chilli powder, 1 tsp paprikaand1 tsp ground cumin. Give it a good stir, then\r\nleave it to cook for another 5\r\nminutes, stirring occasionally.",
-            "Brown the500g lean minced beef.Turn the heat\r\nup a bit, add the meat to the pan\r\nand break it up with your spoon\r\nor spatula. The mix should\r\nsizzle a bit when you add the\r\nmince. Keep stirring and\r\nprodding for at least 5 minutes,\r\nuntil all the mince is in\r\nuniform, mince-sized lumps\r\nand there are no more pink bits.\r\nMake sure you keep the heat hot\r\nenough for the meat to fry and\r\nbecome brown, rather than just\r\nstew.",
-            "Making the sauce. Crumble1 beef stock cubeinto300ml hot water. Pour this into the pan with the mince mixture. Open1 can of chopped tomatoes (400g can)and add these as well. Tip in½ tsp dried marjoramand1 tsp sugar, if using (see tip at the bottom), and add a good shake of salt and pepper. Squirt inabout 2 tbsp tomato\r\npuréeand stir the sauce well.",
-            "Simmer it gently. Bring the\r\nwhole thing to the boil, give it a\r\ngood stir and put a lid on the pan.\r\nTurn down the heat until it is\r\ngently bubbling and leave it for\r\n20 minutes. You should check\r\non the pan occasionally to stir it\r\nand make sure the sauce doesn’t\r\ncatch on the bottom of the pan or\r\nisn’t drying out. If it is, add a\r\ncouple of tablespoons of water\r\nand make sure that the heat\r\nreally is low enough. After\r\nsimmering gently, the saucy\r\nmince mixture should look\r\nthick, moist and juicy.",
-            "Bring on the beans. Drain and\r\nrinse1 can of red kidney beans (410g can)in a sieve and\r\nstir them into the chilli pot.\r\nBring to the boil again, and\r\ngently bubble without the lid for\r\nanother 10 minutes, adding a\r\nlittle more water if it looks too\r\ndry. Taste a bit of the chilli and\r\nseason. It will probably take a\r\nlot more seasoning than you\r\nthink. Now replace the lid, turn\r\noff the heat and leave your chilli\r\nto stand for 10 minutes before\r\nserving, and relax. Leaving\r\nyour chilli to stand is really\r\nimportant as it allows the\r\nflavours to mingle and the meat.",
-            "Serve withsoured creamandplain boiled long grain rice."
+            "Prepara tus verduras. Picar 1 cebolla grande en dados pequeños,\r\nunos 5 mm cuadrados. lo mas facil\r\nLa forma de hacerlo es cortando la cebolla.\r\npor la mitad desde la raíz hasta la punta, pélalo\r\ny cortar cada mitad en trozos gruesos\r\ncerillas a lo largo, no\r\nbastante cortante hasta el final\r\nextremo de la raíz para que todavía se mantengan\r\njuntos. Cortar a lo largo del\r\ncerillas en dados limpios. Cortar 1 pimiento rojo por la mitad\r\na lo largo, quitar el tallo y\r\nLave las semillas y luego pique. Pelar y picar finamente 2 dientes de ajo.",
+            "Empiece a cocinar. Pon tu sartén\r\nla encimera a fuego medio. Añadir\r\nel aceite y dejarlo durante 1-2\r\nminutos hasta que esté caliente (un poco\r\nmás tiempo para una placa eléctrica). Añadir\r\nlas cebollas y cocine, revolviendo\r\ncon bastante frecuencia, durante aproximadamente\r\n5 minutos, o hasta que las cebollas\r\nson suaves, resbaladizas y ligeramente\r\ntranslúcido. Agregue el ajo, el pimiento rojo, 1 cucharadita colmada de chile picante en polvo o 1 cucharada rasa de chile suave en polvo, 1 cucharadita de pimentón y 1 cucharadita de comino molido. Revuelve bien y luego\r\ndéjalo cocinar por otros 5\r\nminutos, revolviendo ocasionalmente.",
+            "Dorar los 500 g de carne magra picada. Bajar el fuego.\r\nsubir un poco, agregar la carne a la sartén\r\ny rómpelo con tu cuchara\r\no espátula. La mezcla debe\r\nchisporrotea un poco cuando agregas el\r\npicar. Sigue revolviendo y\r\npinchando durante al menos 5 minutos,\r\nhasta que esté toda la carne picada\r\ngrumos uniformes del tamaño de una carne picada\r\ny ya no quedan pedacitos rosados.\r\nAsegúrate de mantener el calor caliente.\r\nsuficiente para freír la carne y\r\nvolverse marrón, en lugar de solo\r\nguiso.",
+            "Hacer la salsa. Desmenuza 1 cubito de caldo de res en 300 ml de agua caliente. Vierta esto en la sartén con la mezcla de carne picada. Abre 1 lata de tomates picados (lata de 400 g) y añádelos también. Agregue ½ cucharadita de mejorana seca y 1 cucharadita de azúcar, si la usa (vea el consejo en la parte inferior), y agregue una buena pizca de sal y pimienta. Rocíe aproximadamente 2 cucharadas de tomate\r\nHaga puré y revuelva bien la salsa.",
+            "Cocine a fuego lento. trae el\r\ntodo hasta que hierva, darle un\r\nRevuelva bien y tape la sartén.\r\nBajar el fuego hasta que esté\r\nburbujear suavemente y dejarlo por\r\n20 minutos. deberías comprobar\r\nen la sartén de vez en cuando para revolverlo\r\ny asegúrate de que la salsa no\r\nse engancha en el fondo de la sartén o\r\nno se está secando. Si es así, agregue un\r\nun par de cucharadas de agua\r\ny asegúrate de que el calor\r\nrealmente es lo suficientemente bajo. después\r\nhirviendo a fuego lento, la salsa\r\nla mezcla de carne picada debe verse\r\nespeso, húmedo y jugoso.",
+            "Trae los frijoles. Escurrir y\r\nEnjuague 1 lata de frijoles rojos (lata de 410 g) en un colador y\r\nrevuélvelos en la olla de chile.\r\nLlevar nuevamente a ebullición y\r\nburbujee suavemente sin la tapa durante\r\notros 10 minutos, añadiendo un\r\nun poco más de agua si se ve demasiado\r\nseco. Prueba un poco de guindilla y\r\ntemporada. Probablemente tomará un\r\nmucho más condimento que tú\r\npiensa. Ahora vuelva a colocar la tapa, gire\r\napaga el fuego y deja tu chile\r\nreposar durante 10 minutos antes\r\nservir y relajarse. Dejando\r\ntu chile para reposar es realmente\r\nimportante ya que permite\r\nsabores para mezclar y la carne.",
+            "Sirva con crema agria y arroz de grano largo hervido."
         ],
         "nutritional_info": {
             "kcal": "387",
@@ -688,29 +688,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/cheeseburger-and-chips/",
-        "title": "[ES] Cheeseburger & chips",
-        "description": "(Translation pending) Homemade burgers and chips beat shop-bought every time. Why not make double and freeze a batch?",
+        "title": "Hamburguesa con queso y patatas fritas",
+        "description": "Las hamburguesas y patatas fritas caseras siempre superan a las compradas en la tienda. ¿Por qué no hacer el doble y congelar un lote?",
         "prep_time": "25 mins Cook: 45 mins",
         "cook_time": "",
         "serves": "10",
         "ingredients": [
-            "1¼kg lean beef mince",
-            "1 onion, finely chopped",
-            "140g breadcrumbs",
-            "100g mature cheddar, grated",
-            "small bunch parsley, chopped",
-            "1 tbsp Worcestershire sauce",
-            "1 egg, lightly beaten with a fork",
-            "1 tsp mild chilli powder",
-            "2½ kg bag of potatoes, cut into chunky chips",
-            "3 tbsp plain flour",
-            "10 tsp olive or sunflower oil",
-            "burger buns, lettuce, sliced red onion, tomatoes, gherkins, and sauces or relishes, to serve"
+            "1¼ kg de carne picada magra",
+            "1 cebolla, finamente picada",
+            "140 g de pan rallado",
+            "100 g de queso cheddar maduro, rallado",
+            "manojo pequeño de perejil, picado",
+            "1 cucharada de salsa inglesa",
+            "1 huevo, ligeramente batido con un tenedor",
+            "1 cucharadita de chile suave en polvo",
+            "Bolsa de 2½ kg de patatas cortadas en trozos grandes",
+            "3 cucharadas de harina común",
+            "10 cucharaditas de aceite de oliva o girasol",
+            "panecillos para hamburguesa, lechuga, cebolla morada en rodajas, tomates, pepinillos y salsas o condimentos, para servir"
         ],
         "method": [
-            "Tip the mince into a large bowl with\r\nthe onion, breadcrumbs, cheese, parsley,\r\nWorcestershire sauce, egg, chilli powder,\r\n½ tsp salt and some pepper. Mix together\r\nwell with your hands, then divide the\r\nmixture into 10 and shape into burgers.",
-            "Bring 2 large saucepans of water to\r\nthe boil (or prepare the chips in batches\r\nif you don’t have enough big pans). Add\r\nthe chips, bring the water back to the\r\nboil and set your timer for 3 mins. After\r\n3 mins, drain the potatoes well and tip\r\nonto one or two large kitchen-papercovered\r\ntrays. Scatter with the flour and some seasoning and gently toss to coat.",
-            "Freeze the burgers and chips (see\r\nfreezing tips, below) or, to cook straight\r\naway, heat oven to 200C/180C fan/gas 6.\r\nIn a baking tray, toss the chips in a little\r\noil, then roast for 35-40 mins until crisp\r\nand golden. Meanwhile, heat a griddle\r\npan, grill or barbecue until hot, then\r\ncook the burgers for about 5-8 mins\r\non each side, or until cooked to your\r\nliking. Sandwich the burgers in toasted\r\nbuns with salad and sauces, then serve\r\nwith the chips."
+            "Vierta la carne picada en un tazón grande con\r\nla cebolla, el pan rallado, el queso, el perejil,\r\nSalsa inglesa, huevo, chile en polvo,\r\n½ cucharadita de sal y un poco de pimienta. mezclar juntos\r\nbien con las manos, luego divide la\r\nmezcle hasta formar 10 y forme hamburguesas.",
+            "Lleve 2 cacerolas grandes con agua a\r\nhervir (o preparar las patatas fritas en tandas\r\nsi no tienes suficientes cacerolas grandes). Añadir\r\nlas patatas fritas, devuelva el agua al\r\nhierve y programa el cronómetro en 3 minutos. después\r\n3 min, escurrir bien las patatas y volcar\r\nen uno o dos grandes cubiertos con papel de cocina\r\nbandejas. Espolvoree con harina y un poco de condimento y revuelva suavemente para cubrir.",
+            "Congele las hamburguesas y las patatas fritas (ver\r\nconsejos para congelar, a continuación) o cocinar directamente\r\nde distancia, calentar el horno a 200C/180C ventilador/gas 6.\r\nEn una bandeja para horno, echa las patatas fritas un poco.\r\naceite, luego ase durante 35-40 minutos hasta que esté crujiente\r\ny dorado. Mientras tanto, calentar una plancha\r\nsartén, parrilla o barbacoa hasta que esté caliente, luego\r\nCocine las hamburguesas durante unos 5-8 minutos.\r\npor cada lado, o hasta que esté cocido a su gusto.\r\ngusto. Sandwich las hamburguesas en tostadas\r\nbollos con ensalada y salsas, luego servir\r\ncon las patatas fritas."
         ],
         "nutritional_info": {
             "kcal": "558",
@@ -726,23 +726,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/tuna-sweet-potato-jackets/",
-        "title": "[ES] Tuna sweet potato jackets",
-        "description": "(Translation pending) If your standby supper is baked potatoes with tuna, switch to sweet potatoes and a fresh, spicy topping – budget-friendly and low-fat too",
+        "title": "Chaquetas de boniato y atún",
+        "description": "Si su cena de reserva son papas al horno con atún, cámbiela por batatas y un aderezo fresco y picante, económico y bajo en grasas.",
         "prep_time": "10 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "4 small sweet potatoes (about 200g each)",
-            "185g can tuna in spring water, drained",
-            "½ red onion, finely sliced",
-            "1 small red chilli, deseeded and chopped",
-            "juice 1 lime",
-            "6 tbsp Greek yogurt",
-            "handful coriander leaves"
+            "4 batatas pequeñas (de unos 200 g cada una)",
+            "Lata de 185 g de atún en agua de manantial, escurrido",
+            "½ cebolla morada, cortada finamente",
+            "1 chile rojo pequeño, sin semillas y picado",
+            "jugo 1 lima",
+            "6 cucharadas de yogur griego",
+            "un puñado de hojas de cilantro"
         ],
         "method": [
-            "Scrub the sweet potatoes and prick all\r\nover with a fork. Place on a microwaveable\r\nplate and cook on High for 18-20 mins, or\r\nuntil tender. Split in half and place each\r\none, cut-side up, on a serving plate.",
-            "Flake the drained tuna with a fork\r\nand divide between the sweet potatoes.\r\nTop with the red onion and chilli, then\r\nsqueeze over the lime juice. Top with\r\na dollop of yogurt and scatter over the\r\ncoriander, to serve."
+            "Lavar los boniatos y pincharlos todos.\r\nencima con un tenedor. Colocar en un recipiente apto para microondas.\r\nplato y cocine a temperatura alta durante 18-20 minutos, o\r\nhasta que estén tiernos. Partir por la mitad y colocar cada uno.\r\nuno, con el lado cortado hacia arriba, en un plato para servir.",
+            "Desmenuzar el atún escurrido con un tenedor\r\ny dividir entre las batatas.\r\nCubra con la cebolla morada y el chile, luego\r\nexprime sobre el jugo de lima. Cubra con\r\nuna cucharada de yogur y esparcir por encima\r\ncilantro, para servir."
         ],
         "nutritional_info": {
             "kcal": "238",
@@ -759,24 +759,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/tuna-asparagus-and-white-bean-salad/",
-        "title": "[ES] Tuna, asparagus & white bean salad",
-        "description": "(Translation pending) A nourishing spring salad, ready in minutes",
+        "title": "Ensalada de atún, espárragos y judías blancas",
+        "description": "Una nutritiva ensalada primaveral, lista en minutos",
         "prep_time": "10 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 large bunch asparagus",
-            "2 x 200g cans yellowfin tuna steaks in water, drained",
-            "2 x 400g cans cannellini beans in water, drained",
-            "1 red onion, very finely chopped",
-            "2 tbsp capers",
-            "1 tbsp olive oil",
-            "1 tbsp red wine vinegar",
-            "2 tbsp tarragon, finely chopped"
+            "1 manojo grande de espárragos",
+            "2 latas de 200 g de filetes de atún aleta amarilla en agua, escurridos",
+            "2 latas de 400 g de judías cannellini en agua, escurridas",
+            "1 cebolla morada, muy finamente picada",
+            "2 cucharadas de alcaparras",
+            "1 cucharada de aceite de oliva",
+            "1 cucharada de vinagre de vino tinto",
+            "2 cucharadas de estragón, finamente picado"
         ],
         "method": [
-            "Cook the asparagus in a large pan of\r\nboiling water for 4-5 mins until tender.\r\nDrain well, cool under running water,\r\nthen cut into finger-length pieces. Toss\r\ntogether the tuna, beans, onion, capers\r\nand asparagus in a large serving bowl.",
-            "Mix the oil, vinegar and tarragon\r\ntogether, then pour over the salad.\r\nChill until ready to serve."
+            "Cocine los espárragos en una cacerola grande de\r\nagua hirviendo durante 4-5 minutos hasta que estén tiernas.\r\nEscurrir bien, enfriar con agua corriente,\r\nluego córtelo en trozos del largo de un dedo. tirar\r\njuntos el atún, frijoles, cebolla, alcaparras\r\ny los espárragos en un tazón grande para servir.",
+            "Mezclar el aceite, el vinagre y el estragón.\r\njuntos, luego vierta sobre la ensalada.\r\nEnfríe hasta que esté listo para servir."
         ],
         "nutritional_info": {
             "kcal": "275",
@@ -793,23 +793,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/warm-chicken-salad/",
-        "title": "[ES] Warm chicken salad",
-        "description": "(Translation pending) This chicken salad recipe makes a lovely main meal for a hot day, or take some to work and be the envy of your colleagues",
+        "title": "Ensalada tibia de pollo",
+        "description": "Esta receta de ensalada de pollo es un excelente plato principal para un día caluroso, o llévala al trabajo y sé la envidia de tus colegas.",
         "prep_time": "5 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "2 chicken breasts, cut into bite-size pieces",
-            "½ small baguette, cut into bite-size pieces",
-            "4 tbsp olive oil",
-            "1 tbsp balsamic vinegar",
-            "150g bag mixed salad leaves",
-            "1 x 250g pack cooked beetroot, cut into bite-size pieces",
-            "100g goat's cheese"
+            "2 pechugas de pollo, cortadas en trozos pequeños",
+            "½ baguette pequeña, cortada en trozos pequeños",
+            "4 cucharadas de aceite de oliva",
+            "1 cucharada de vinagre balsámico",
+            "Bolsa de 150 g de hojas de ensalada mixta",
+            "1 paquete de 250 g de remolacha cocida, cortada en trozos pequeños",
+            "100 g de queso de cabra"
         ],
         "method": [
-            "Heat oven to 200C/fan 180C/gas 6. Spread the chunks of chicken and baguette over a shallow roasting tray. Drizzle with\r\n2 tbsp olive oil and toss to coat. Season, then put in the oven for 15 mins until the chicken is cooked through and the bread is golden and crisp.",
-            "Whisk together the remaining olive oil and balsamic vinegar to make a dressing. Split the bag of leaves between two serving\r\nplates, add the beetroot, then scatter the cheese over. Toss with the warm chicken and bread, drizzle with the dressing, then serve straight away."
+            "Caliente el horno a 200 ° C/ventilador 180 ° C/gas 6. Extienda los trozos de pollo y la baguette sobre una bandeja para asar poco profunda. rociar con\r\n2 cucharadas de aceite de oliva y revuelva para cubrir. Sazone, luego póngalo en el horno durante 15 minutos hasta que el pollo esté bien cocido y el pan esté dorado y crujiente.",
+            "Batir el aceite de oliva restante y el vinagre balsámico para hacer un aderezo. Dividir la bolsa de hojas en dos porciones.\r\nplatos, agregue la remolacha y luego esparza el queso. Mezcle con el pollo tibio y el pan, rocíe con el aderezo y sirva de inmediato."
         ],
         "nutritional_info": {
             "kcal": "625",
@@ -826,25 +826,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/honey-muesli-with-raspberries-and-hazelnuts/",
-        "title": "[ES] Honey muesli with raspberries & hazelnuts",
-        "description": "(Translation pending) Make your own muesli and boost it with fresh fruit for a wholly satisfying and healthy breakfast to keep you going through the day",
+        "title": "Muesli de miel con frambuesas y avellanas",
+        "description": "Prepare su propio muesli y acompáñelo con fruta fresca para disfrutar de un desayuno completamente satisfactorio y saludable que le permitirá seguir adelante durante el día.",
         "prep_time": "20 mins Plus overnight soaking",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "225g porridge oats, jumbo ones give a good texture",
-            "125ml freshly squeezed orange juice",
-            "225ml natural yogurt, can be low fat",
-            "3 tbsp clear honey",
-            "finely grated zest of 1 lemon",
-            "2 red or pink dessert apples",
-            "2x 125g punnets raspberries",
-            "50g hazelnuts in their skins, lightly toasted and coarsely chopped",
-            "single cream, to serve (optional)"
+            "225 g de gachas de avena, las jumbo dan buena textura",
+            "125ml de zumo de naranja recién exprimido",
+            "225ml de yogur natural, puede ser bajo en grasas",
+            "3 cucharadas de miel clara",
+            "ralladura fina de 1 limón",
+            "2 manzanas de postre rojas o rosadas",
+            "2x canastillas de 125 g de frambuesas",
+            "50 g de avellanas con piel, ligeramente tostadas y picadas en trozos grandes",
+            "crema integral, para servir (opcional)"
         ],
         "method": [
-            "Mix oats, orange juice and 300ml/½ pint\r\ncold water in a bowl. Cover with cling film\r\nand leave in the fridge overnight.",
-            "The next morning, stir in the yogurt,\r\nhoney and lemon zest. Quarter and core\r\nthe apples, grate them in and stir well.\r\nSpoon into bowls and top with raspberries and toasted hazelnuts. Pour on a little\r\nsingle cream, if you like."
+            "Mezclar avena, zumo de naranja y 300ml/½ litro\r\nagua fría en un bol. Cubrir con film transparente\r\ny dejar en el frigorífico toda la noche.",
+            "A la mañana siguiente, agregue el yogur,\r\nmiel y ralladura de limón. Cuarto y núcleo\r\nlas manzanas, rallarlas y revolver bien.\r\nVierta en tazones y cubra con frambuesas y avellanas tostadas. Vierta un poco\r\ncrema única, si quieres."
         ],
         "nutritional_info": {
             "kcal": "274",
@@ -861,22 +861,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/turkey-and-spring-onion-wraps/",
-        "title": "[ES] Turkey & spring onion wraps",
-        "description": "(Translation pending) Give yourself a low-fat treat with these super-quick sandwich tortillas – a fab way of using up leftover turkey",
+        "title": "Wraps de pavo y cebolleta",
+        "description": "Date un capricho bajo en grasa con estas tortillas de sándwich súper rápidas: una manera fabulosa de aprovechar las sobras de pavo",
         "prep_time": "5 mins No cook",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 tbsp reduced-fat mayonnaise",
-            "2 tbsp pesto",
-            "4 curly lettuce leaves",
-            "250g cooked turkey, shredded",
-            "6 spring onions, shredded",
-            "12cm chunk cucumber,shredded",
-            "4 flour tortillas"
+            "2 cucharadas de mayonesa baja en grasa",
+            "2 cucharadas de pesto",
+            "4 hojas de lechuga rizada",
+            "250 g de pavo cocido y desmenuzado",
+            "6 cebolletas, ralladas",
+            "Pepino en trozos de 12 cm, rallado",
+            "4 tortillas de harina"
         ],
         "method": [
-            "Mix together the mayonnaise and pesto. Divide the lettuce leaves, turkey, spring onions and cucumber between the tortillas. Drizzle over the pesto dressing, roll up and eat."
+            "Mezclar la mayonesa y el pesto. Divida las hojas de lechuga, el pavo, las cebolletas y el pepino entre las tortillas. Rociar con el aderezo de pesto, enrollar y comer."
         ],
         "nutritional_info": {
             "kcal": "267",
@@ -893,18 +893,18 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/crisp-baked-potatoes/",
-        "title": "[ES] Crisp baked potatoes",
-        "description": "(Translation pending) Crisp-skinned, fluffy-fleshed jackets are a cheap and cheerful way to feed a crowd – great with beans and sausages",
+        "title": "Patatas crujientes al horno",
+        "description": "Las chaquetas de piel crujiente y carne esponjosa son una forma económica y alegre de alimentar a una multitud; excelentes con frijoles y salchichas.",
         "prep_time": "5 mins Cook: 1 hrs 20 mins",
         "cook_time": "",
         "serves": "8",
         "ingredients": [
-            "2 tsp vegetable oil",
-            "8 large baking potatoes",
-            "300ml pot soured cream"
+            "2 cucharaditas de aceite vegetal",
+            "8 patatas grandes para asar",
+            "Bote de 300 ml de crema agria"
         ],
         "method": [
-            "Heat oven to 220C/200C fan/gas 7. Rub\r\na little oil over each potato and put on\r\nthe top shelf of the oven. Bake for 20 mins,\r\nthen turn down the oven to 190C/170C fan/\r\ngas 5 and bake for 45 mins-1 hr more\r\nuntil the skin is crisp and the flesh soft.\r\nRemove from the oven. Make a cross\r\nin the centre of each potato, dollop over\r\nthe soured cream and serve."
+            "Calentar el horno a 220C/200C ventilador/gas 7. Frotar\r\nun poco de aceite sobre cada papa y poner\r\nel estante superior del horno. Hornee por 20 minutos,\r\nluego baje el horno a 190C/170C ventilador/\r\ngas 5 y hornee por 45 minutos-1 hora más\r\nhasta que la piel esté crujiente y la pulpa suave.\r\nRetirar del horno. hacer una cruz\r\nen el centro de cada papa, coloque una cucharada\r\nla crema agria y servir."
         ],
         "nutritional_info": {
             "kcal": "254",
@@ -920,27 +920,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/sticky-malt-loaves/",
-        "title": "[ES] Sticky malt loaves",
-        "description": "(Translation pending) There’s something very satisfying about a cup of tea with a slice of buttered malt loaf – this simple, good-for-you version makes two and improves on keeping",
+        "title": "Panes de malta pegajosos",
+        "description": "Hay algo muy satisfactorio en una taza de té con una rebanada de pan de malta con mantequilla: esta versión simple y saludable rinde dos y mejora la conservación.",
         "prep_time": "15 mins Cook: 50 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "sunflower oil, for greasing",
-            "150ml hot black tea",
-            "175g malt extract, plus extra for glazing (see tip)",
-            "85g dark muscovado sugar",
-            "300g mixed dried fruits",
-            "2 large eggs, beaten",
-            "250g plain flour",
-            "1 tsp baking powder",
-            "½  tsp bicarbonate of soda"
+            "aceite de girasol, para engrasar",
+            "150 ml de té negro caliente",
+            "175 g de extracto de malta, más algo extra para glasear (ver consejo)",
+            "85 g de azúcar mascabado oscuro",
+            "300 g de frutos secos mixtos",
+            "2 huevos grandes, batidos",
+            "250 g de harina común",
+            "1 cucharadita de polvo para hornear",
+            "½ cucharadita de bicarbonato de sodio"
         ],
         "method": [
-            "Heat oven to 150C/130C fan/gas 2. Line the base and ends of two greased 450g/1lb non-stick loaf tins with strips of baking parchment.",
-            "Pour the hot tea into a mixing bowl with the malt, sugar and dried fruit. Stir well, then add the eggs.",
-            "Tip in the flour, then quickly stir in the baking powder and bicarbonate of soda and pour into the prepared tins. Bake for 50 mins until firm and well risen. While still warm, brush with a little more malt to glaze and leave to cool.",
-            "Remove from the tins. If you can bear not to eat it straight away, it gets more sticky after wrapping and keeping for 2-5 days. Serve sliced and buttered, if you like."
+            "Caliente el horno a 150C/130C ventilador/gas 2. Forre la base y los extremos de dos moldes para pan antiadherentes de 450 g/1 libra engrasados ​​con tiras de papel para hornear.",
+            "Vierta el té caliente en un bol con la malta, el azúcar y los frutos secos. Revuelve bien y luego agrega los huevos.",
+            "Vierta la harina, luego agregue rápidamente el polvo de hornear y el bicarbonato de sodio y vierta en los moldes preparados. Hornee durante 50 minutos hasta que esté firme y bien leudado. Mientras aún esté caliente, untar con un poco más de malta para glasear y dejar enfriar.",
+            "Retirar de las latas. Si puede soportar no comerlo de inmediato, se volverá más pegajoso después de envolverlo y conservarlo durante 2 a 5 días. Sirva en rodajas y untado con mantequilla, si lo desea."
         ],
         "nutritional_info": {
             "kcal": "140",
@@ -957,22 +957,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/antipasti-peach-platter/",
-        "title": "[ES] Antipasti peach platter",
-        "description": "(Translation pending) An easy, no-cook summer platter that’s brilliant for entertaining",
+        "title": "Plato de antipasti de melocotón",
+        "description": "Un plato de verano fácil de cocinar y excelente para recibir invitados",
         "prep_time": "5 mins",
         "cook_time": "",
         "serves": "8",
         "ingredients": [
-            "4 of the ripest peaches, stoned and cut into eighths",
-            "12 slices prosciutto",
-            "50g chunk parmesan, shaved with a peeler",
-            "1 red chilli, deseeded and very finely chopped",
-            "2 handfuls rocket",
-            "very good-quality olive oil",
-            "grissini stick, to serve"
+            "4 de los duraznos más maduros, deshuesados ​​y cortados en octavos",
+            "12 rebanadas de prosciutto",
+            "50 g de parmesano en trozos, rallado con un pelador",
+            "1 chile rojo, sin semillas y muy finamente picado",
+            "2 puñados de rúcula",
+            "aceite de oliva de muy buena calidad",
+            "palito de grissini, para servir"
         ],
         "method": [
-            "Arrange the peaches, prosciutto and\r\nParmesan on a large platter, sprinkle\r\nover the chilli and scatter the rocket\r\nto finish. Just before serving, drizzle\r\nwith a little oil. Serve with breadsticks\r\nto add crunch."
+            "Disponer los melocotones, el prosciutto y\r\nqueso parmesano en un plato grande, espolvorear\r\nsobre la guindilla y esparcir la rúcula\r\npara terminar. Justo antes de servir, rocíe\r\ncon un poco de aceite. Servir con palitos de pan\r\npara agregar crujiente."
         ],
         "nutritional_info": {
             "kcal": "134",
@@ -989,20 +989,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/mocha-milkshake/",
-        "title": "[ES] Mocha milkshake",
-        "description": "(Translation pending) A decadent iced coffee for a sunny afternoon. Serve in tall glasses for a retro treat",
+        "title": "batido de moca",
+        "description": "Un delicioso café helado para una tarde soleada. Sirva en vasos altos para disfrutar de un capricho retro.",
         "prep_time": "10 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "85g plain chocolate, 70% or 80%",
-            "1 tbsp coffee granules",
-            "700ml milk",
-            "4 scoops vanilla ice cream, plus extra to serve (optional)"
+            "85 g de chocolate natural, 70% u 80%",
+            "1 cucharada de café granulado",
+            "700ml de leche",
+            "4 bolas de helado de vainilla, más extra para servir (opcional)"
         ],
         "method": [
-            "Roughly chop 75g of the chocolate and\r\nput into a large jug with the coffee. Bring\r\n300ml of the milk just to the boil, then\r\npour over the chocolate and coffee mix,\r\nstirring to melt. Once melted, cool.",
-            "Tip the cooled mocha milk into the\r\nblender with the ice cream and remaining\r\nmilk. Blitz until blended, then pour into\r\n4 tall glasses. Add an extra scoop of ice\r\ncream to each, if you like, then grate a\r\nlittle of the remaining chocolate on top."
+            "Picar aproximadamente 75 g de chocolate y\r\nPoner en una jarra grande con el café. traer\r\n300ml de leche justo a punto de hervir, luego\r\nvierta sobre la mezcla de chocolate y café,\r\nrevolviendo para derretir. Una vez derretido, enfriar.",
+            "Vierta la leche moca enfriada en el\r\nlicuadora con el helado y el resto\r\nleche. Mezcle hasta que se mezclen, luego vierta en\r\n4 vasos altos. Añade una bola extra de hielo.\r\nnata a cada uno, si se quiere, luego rallar un\r\nun poco del chocolate restante encima."
         ],
         "nutritional_info": {
             "kcal": "202",
@@ -1019,27 +1019,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/ultimate-vanilla-ice-cream/",
-        "title": "[ES] Ultimate vanilla ice cream",
-        "description": "(Translation pending) Is Angela Nilsen’s vanilla ice cream the smoothest, creamiest homemade ice cream in history?",
+        "title": "Helado de vainilla definitivo",
+        "description": "¿Es el helado de vainilla de Angela Nilsen el helado casero más suave y cremoso de la historia?",
         "prep_time": "",
         "cook_time": "",
         "serves": "8 big scoops",
         "ingredients": [
-            "284ml carton double cream",
-            "300ml full fat milk",
-            "115g golden caster sugar",
-            "1 vanilla pod",
-            "3 large free-range egg yolks",
-            "have lots of ice cubes at the ready"
+            "Caja de 284ml de crema doble.",
+            "300 ml de leche entera",
+            "115 g de azúcar en polvo dorado",
+            "1 vaina de vainilla",
+            "3 yemas de huevo camperas grandes",
+            "tenga muchos cubitos de hielo listos"
         ],
         "method": [
-            "Put the canister from the machine into the freezer a day before you want to make the ice cream. Next day, pour the cream and milk into a medium heavy-based pan, then tip in half the sugar. Slit the vanilla pod down its length with a small sharp knife and scoop out as many of the tiny black seeds as you can into the cream mixture. Cut the pod into three and drop it into the pan.",
-            "Heat the cream and milk over a low heat, stirring occasionally, until it almost boils – you’ll see a few bubbles at the edge. Take off the heat and set aside for 30 minutes so the vanilla can infuse.",
-            "Put the egg yolks into a bowl with the rest of the sugar and beat with an electric hand beater for about 2 minutes until the mixture has thickened, is paler in colour and falls in thick ribbons when you lift the beaters. Using a measuring jug, scoop out about 125ml/4fl oz of the cream mixture and beat into the egg yolks to slacken them. Reheat the cream until it just comes to the boil, take off the heat and stir in the egg yolk mixture.",
-            "Return the pan to a low heat and cook, stirring all the time with a wooden spoon, for 8-10 minutes, until the custard is thick enough to coat the back of the spoon. Watch that it doesn’t boil – as soon as you see any bubbles about to burst to the surface, it should be thick enough, so take the pan off the heat so the mixture doesn’t curdle.",
-            "Pour the custard into a heatproof bowl, then sit it in a bigger bowl one third full of iced water to cool (this takes about 20 minutes). Stir occasionally to stop a skin forming. Put the bowl of custard in the fridge for 3-4 hours, preferably overnight, so it gets really cold.",
-            "Get the ice cream machine running, scoop out the vanilla pod pieces, then slowly pour in the cold custard. Leave it to churn for 10-30 minutes (depending on your machine). When it stops, it is probably too soft to eat, so spoon into a plastic container, cover with cling film, then a lid, and freeze for a minimum of 3 hours. (It will keep in the freezer for 3 months but don’t take it out, then refreeze.) Remove from the freezer 15 minutes before serving.",
-            "To make it by hand: in step 1, heat the milk, vanilla, and half the\r\nsugar without the cream (the custard will be slightly thicker). At\r\nthe start of step 6, whip the cream so it’s light and floppy, not too\r\nstiff, and fold it into the cold custard. Freeze for 3-4 hours, stirring\r\nonce an hour until almost frozen, then freeze as above."
+            "Coloca el bote de la máquina en el congelador un día antes de que quieras hacer el helado. Al día siguiente, vierta la nata y la leche en una cacerola de base mediana y luego agregue la mitad del azúcar. Corta la vaina de vainilla a lo largo con un cuchillo pequeño y afilado y saca tantas pequeñas semillas negras como puedas en la mezcla de crema. Corta la vaina en tres y colócala en la sartén.",
+            "Calienta la nata y la leche a fuego lento, revolviendo de vez en cuando, hasta que casi hierva (verás unas burbujas en el borde). Retirar del fuego y dejar reposar durante 30 minutos para que se infunda la vainilla.",
+            "Pon las yemas en un bol con el resto del azúcar y bate con una batidora eléctrica de mano durante unos 2 minutos hasta que la mezcla espese, tenga un color más pálido y caiga en tiras gruesas al levantar las batidoras. Con una jarra medidora, saque unos 125 ml/4 onzas líquidas de la mezcla de crema y bátalas con las yemas de huevo para ablandarlas. Vuelva a calentar la nata hasta que hierva, retire del fuego y agregue la mezcla de yemas de huevo.",
+            "Regrese la sartén a fuego lento y cocine, revolviendo todo el tiempo con una cuchara de madera, durante 8 a 10 minutos, hasta que la crema esté lo suficientemente espesa como para cubrir el dorso de la cuchara. Vigila que no hierva; tan pronto como veas burbujas a punto de estallar en la superficie, debe estar lo suficientemente espesa, así que retira la sartén del fuego para que la mezcla no se cuaje.",
+            "Vierta la crema pastelera en un recipiente resistente al calor, luego colóquela en un recipiente más grande con un tercio de agua helada para que se enfríe (esto demora unos 20 minutos). Revuelva ocasionalmente para evitar que se forme costra. Pon el bol de natillas en el frigorífico durante 3-4 horas, preferiblemente durante la noche, para que se enfríe mucho.",
+            "Encienda la máquina de helado, saque los trozos de vaina de vainilla y luego vierta lentamente la crema fría. Déjelo batir durante 10 a 30 minutos (dependiendo de su máquina). Cuando se detenga, probablemente esté demasiado blando para comerlo, así que colóquelo en un recipiente de plástico, cúbralo con film transparente, luego con una tapa y congélelo durante un mínimo de 3 horas. (Se mantendrá en el congelador durante 3 meses, pero no lo saque y luego vuelva a congelarlo). Sáquelo del congelador 15 minutos antes de servir.",
+            "Para hacerlo a mano: en el paso 1, calentar la leche, la vainilla y la mitad del\r\nazúcar sin la nata (las natillas quedarán un poco más espesas). en\r\nAl comienzo del paso 6, bata la crema para que quede ligera y blanda, no demasiado.\r\ntieso e incorporarlo a la natilla fría. Congelar durante 3-4 horas, revolviendo.\r\nuna vez por hora hasta que esté casi congelado, luego congélelo como se indica arriba."
         ],
         "nutritional_info": {
             "kcal": "269",
@@ -1056,19 +1056,19 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/perfect-porridge/",
-        "title": "[ES] Perfect porridge",
-        "description": "(Translation pending) Perfect porridge for a healthy way to start the day",
+        "title": "Gachas perfectas",
+        "description": "Gachas perfectas para empezar el día de forma saludable",
         "prep_time": "5 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "50g porridge oats",
-            "350ml milk or water, or a mixture of the two",
-            "Greek yogurt, thinned with a little milk and clear honey, to serve"
+            "50 g de gachas de avena",
+            "350ml de leche o agua, o una mezcla de las dos",
+            "Yogur griego, diluido con un poco de leche y miel clara, para servir"
         ],
         "method": [
-            "Put the oats in a\r\nsaucepan, pour in the milk or water and\r\nsprinkle in a pinch of salt. Bring to the boil\r\nand simmer for 4-5 minutes, stirring from\r\ntime to time and watching carefully that it\r\ndoesn’t stick to the bottom of the pan. Or you can try this in a microwave. Mix the oats, milk or water\r\nand a pinch of salt in a large microwaveproof\r\nbowl, then microwave on High for 5\r\nminutes, stirring halfway through. Leave\r\nto stand for 2 minutes before eating.",
-            "To serve. Pour into bowls, spoon yogurt\r\non top and drizzle with honey."
+            "Pon la avena en un\r\ncazo, vierte la leche o el agua y\r\nespolvorea una pizca de sal. Llevar a ebullición\r\ny cocine a fuego lento durante 4-5 minutos, revolviendo\r\nde vez en cuando y vigilando atentamente que\r\nno se pega al fondo de la sartén. O puedes probar esto en un microondas. Mezclar la avena, la leche o el agua.\r\ny una pizca de sal en un recipiente grande apto para microondas.\r\ntazón, luego cocine en el microondas a temperatura alta durante 5\r\nminutos, revolviendo a la mitad. salir\r\ndejar reposar 2 minutos antes de comer.",
+            "Para servir. Vierta en tazones, vierta el yogur con una cuchara.\r\nencima y rociar con miel."
         ],
         "nutritional_info": {
             "kcal": "175",

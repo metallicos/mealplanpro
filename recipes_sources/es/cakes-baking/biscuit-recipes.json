@@ -1,23 +1,23 @@
 [
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/coconut-flour-cookies/",
-        "title": "[ES] Coconut flour cookies",
-        "description": "(Translation pending) Bake a batch of coconut cookies for the biscuit tin. They have a delicate coconut flavour and a texture similar to a macaroon. Add choc chips, if you like, too",
+        "title": "Galletas de harina de coco",
+        "description": "Hornea una tanda de galletas de coco para el molde de galletas. Tienen un delicado sabor a coco y una textura similar a la de un macarrón. Añade chips de chocolate, si quieres, también",
         "prep_time": "5 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "75g coconut flour",
-            "60g coconut oil, melted",
-            "2 eggs",
-            "2 tbsp peanut butter",
-            "60g light brown soft sugar",
-            "¼ tsp baking powder",
-            "2 tbsp chocolate chips (optional)"
+            "75 g de harina de coco",
+            "60 g de aceite de coco, derretido",
+            "2 huevos",
+            "2 cucharadas de mantequilla de maní",
+            "60 g de azúcar moreno blando",
+            "¼ cucharadita de polvo para hornear",
+            "2 cucharadas de chispas de chocolate (opcional)"
         ],
         "method": [
-            "Heat the oven to 180C/160C fan/gas 4 and line abaking traywith baking parchment. Put everything in a bowl and mix well until it's combined and has a wet sand-like consistency.",
-            "Form 10-12 balls of dough roughly the size of a walnut and put onto the baking tray a few centimetres apart. Push down to create a disc a couple of centimetres thick, then put in the oven and bake for 12-14 mins, until lightly golden. Allow to cool for 10 mins before removing to awire rackand cooling completely."
+            "Calentar el horno a 180C/160C ventilador/gas 4 y forrar una bandeja para hornear con papel para hornear. Pon todo en un bol y mezcla bien hasta que esté combinado y tenga una consistencia húmeda similar a la arena.",
+            "Forme de 10 a 12 bolas de masa aproximadamente del tamaño de una nuez y colóquelas en la bandeja para hornear a unos centímetros de distancia. Empuje hacia abajo para crear un disco de un par de centímetros de grosor, luego métalo en el horno y hornee durante 12-14 minutos, hasta que esté ligeramente dorado. Deje enfriar durante 10 minutos antes de retirarlo a una rejilla y enfriarlo por completo."
         ],
         "nutritional_info": {
             "kcal": "112",
@@ -34,24 +34,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/black-and-white-pinwheel-cookies/",
-        "title": "[ES] Black and white pinwheel cookies",
-        "description": "(Translation pending) Black and white biscuits are a classic among Christmas cookies. You can make them into a checkerboard pattern or as a beautiful spiral like these",
+        "title": "Galletas de molinete en blanco y negro",
+        "description": "Las galletas blancas y negras son un clásico entre las galletas navideñas. Puedes hacerlos en forma de tablero de ajedrez o como una hermosa espiral como estas.",
         "prep_time": "25 mins Cook: 12 mins plus cooling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "300g plain flour",
-            "100g icing sugar",
-            "8g vanilla sugar or 8g caster sugar, plus 1 tsp vanilla extract",
-            "1 egg, plus 1 egg white for glazing",
-            "125g butter, softened",
-            "1 tbsp cocoa",
-            "1 tbsp milk"
+            "300 g de harina común",
+            "100 g de azúcar glas",
+            "8 g de azúcar de vainilla o 8 g de azúcar en polvo, más 1 cucharadita de extracto de vainilla",
+            "1 huevo, más 1 clara para glasear",
+            "125 g de mantequilla, blanda",
+            "1 cucharada de cacao",
+            "1 cucharada de leche"
         ],
         "method": [
-            "Put the flour, icing sugar, vanilla sugar, a pinch of salt, egg and soft butter in a stand mixer and mix. Tip the dough onto a lightly floured worksurface and knead briefly by hand. Cut the dough in half. Wrap one half and chill for an hour. Knead the cocoa and milk into the other half. Wrap and chill for an hour.",
-            "Roll each batch of dough into a rectangle (about 30cm x 20cm) on a lightly floured worksurface. Coat the top of one layer with egg white then lift the other colour of dough on top and coat the top with egg white. Roll up tightly like a Swiss roll. Wrap and chill for 30 minutes.",
-            "Heat the oven to 175C/fan 155C/gas 3½. Line 2 baking sheets with baking parchment. Cut the dough into slices about 5mm thick with a sharp knife. Bake in batches for 10-12 minutes, but don’t let the pale dough darken as you want to keep the contrast. Allow to cool completely."
+            "Ponga la harina, el azúcar glas, el azúcar de vainilla, una pizca de sal, el huevo y la mantequilla blanda en una batidora y mezcle. Coloque la masa sobre una superficie de trabajo ligeramente enharinada y amase brevemente a mano. Corta la masa por la mitad. Envuelva la mitad y enfríe durante una hora. Amasar el cacao y la leche en la otra mitad. Envolver y enfriar durante una hora.",
+            "Enrolle cada lote de masa formando un rectángulo (de unos 30 cm x 20 cm) sobre una superficie de trabajo ligeramente enharinada. Cubra la parte superior de una capa con clara de huevo, luego levante el otro color de masa encima y cubra la parte superior con clara de huevo. Enrollar bien como si fuera un panecillo suizo. Envuelva y enfríe durante 30 minutos.",
+            "Calentar el horno a 175C/ventilador 155C/gas 3½. Forre 2 bandejas para hornear con papel para hornear. Cortar la masa en rodajas de unos 5 mm de grosor con un cuchillo afilado. Hornee en tandas durante 10 a 12 minutos, pero no deje que la masa pálida se oscurezca ya que desea mantener el contraste. Dejar enfriar por completo."
         ],
         "nutritional_info": {
             "kcal": "388",
@@ -68,24 +68,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/speculoos-cookies/",
-        "title": "[ES] Speculoos cookies",
-        "description": "(Translation pending) These delectable biscuits are easy to make and full of spice. Make a batch of these moreish bites for a thoughtful homemade gift for someone special",
+        "title": "galletas especuloas",
+        "description": "Estas deliciosas galletas son fáciles de hacer y están llenas de especias. Prepare un lote de estos deliciosos bocados para un maravilloso regalo casero para alguien especial.",
         "prep_time": "30 mins Cook: 8 mins plus cooling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "270g plain flour, plus a little for dusting",
-            "150g caster sugar",
-            "pinch baking powder",
-            "2 tsp speculoos spice (a mixture of cinnamon, cloves, coriander, ginger, cardamom and nutmeg), available online",
-            "100ml milk",
-            "100g butter, at room temperature",
-            "200g flaked almonds"
+            "270 g de harina común y un poco para espolvorear",
+            "150 g de azúcar en polvo",
+            "pizca de polvo para hornear",
+            "2 cucharaditas de especia speculoos (una mezcla de canela, clavo, cilantro, jengibre, cardamomo y nuez moscada), disponible en línea",
+            "100ml de leche",
+            "100 g de mantequilla, a temperatura ambiente",
+            "200 g de almendras laminadas"
         ],
         "method": [
-            "Mix the flour, sugar, a pinch of salt, the baking powder and spice in a bowl. Add 50ml of milk and the butter. Knead quickly into a smooth dough, then wrap in foil and chill for 1 hour.",
-            "Heat the oven to 200C/fan 180C/gas 6. Line 2-3 baking sheets with baking parchment. Sprinkle the baking parchment with the flaked almonds. Roll the dough out on a lightly floured worksurface to about 3mm thick. Cut into rectangles (about 4cm x 6cm). Put these on the trays and press them down lightly on the almonds. Brush the biscuits with the remaining milk and bake for 8 minutes, keeping an eye on them to make sure they don’t get too brown at the edges. Allow to cool.",
-            "Trim any almonds sticking out of the edges of the speculoos to neaten them.Store in an airtight container."
+            "Mezclar en un bol la harina, el azúcar, una pizca de sal, la levadura en polvo y las especias. Añade 50ml de leche y la mantequilla. Amasar rápidamente hasta obtener una masa suave, luego envolver en papel de aluminio y enfriar durante 1 hora.",
+            "Calienta el horno a 200C/ventilador 180C/gas 6. Forra 2-3 bandejas para hornear con papel para hornear. Espolvorea el papel de hornear con las almendras laminadas. Extienda la masa sobre una superficie de trabajo ligeramente enharinada hasta que tenga un grosor de unos 3 mm. Cortar en rectángulos (de unos 4 cm x 6 cm). Colóquelos en las bandejas y presiónelos ligeramente sobre las almendras. Pincelamos las galletas con el resto de la leche y horneamos durante 8 minutos, vigilándolas para que no se doren demasiado en los bordes. Dejar enfriar.",
+            "Recorta las almendras que sobresalgan de los bordes de los speculoos para limpiarlas y guárdalas en un recipiente hermético."
         ],
         "nutritional_info": {
             "kcal": "388",
@@ -102,31 +102,31 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/bonfire-night-cookies/",
-        "title": "[ES] Bonfire Night cookies",
-        "description": "(Translation pending) Celebrate Bonfire Night with these cute cookies. Decorate these autumnal spiced biscuits with iced firework designs",
+        "title": "Galletas de la noche de las hogueras",
+        "description": "Celebra la Noche de las Fogatas con estas lindas galletas. Decora estas galletas otoñales con especias con diseños de fuegos artificiales helados",
         "prep_time": "35 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "75g unsalted butter, softened",
-            "100g caster sugar",
-            "1 large egg",
-            "250g plain flour",
-            "2 tbsp cocoa powder, sifted",
-            "1 tsp ground cinnamon",
-            "1 tsp ground ginger",
-            "1 large egg white",
-            "250g icing sugar, sifted",
-            "½ tsp lemon juice",
-            "gel food colourings (we used blue, yellow and red)",
-            "star sprinkles (optional)"
+            "75 g de mantequilla sin sal, blanda",
+            "100 g de azúcar en polvo",
+            "1 huevo grande",
+            "250 g de harina común",
+            "2 cucharadas de cacao en polvo, tamizado",
+            "1 cucharadita de canela molida",
+            "1 cucharadita de jengibre molido",
+            "1 clara de huevo grande",
+            "250 g de azúcar glas tamizada",
+            "½ cucharadita de jugo de limón",
+            "colorantes alimentarios en gel (usamos azul, amarillo y rojo)",
+            "chispas de estrellas (opcional)"
         ],
         "method": [
-            "Beat the butter and sugar together with an electricwhiskfor 4-5 mins until light and fluffy. Beat in the egg until combined. Add the flour, cocoa powder, cinnamon and ginger, and continue to beat until the mixture comes together into a dough. Put the dough between two pieces of baking parchment and roll out to a 6mm thickness using arolling pin.",
-            "Heat the oven to 200C/180C fan/gas 6. Remove the top layer of parchment and cut out cookies using a 6cm round or star cutter. Re-roll the offcuts and continue to cut out cookies until all the dough has been used (you should get 20-22, depending on the cutter).",
-            "Arrange the cookies on a large baking sheet lined with baking parchment, spacing them at least 2cm apart (you may need two baking sheets). Bake for 7-10 mins until slightly golden at the edges. Leave to cool on the baking sheet for 10 mins, then transfer to awire rackto cool completely.",
-            "Once cool, make the icing. Beat the egg white with an electric whisk until just starting to froth up, about 1 min. Add the icing sugar, 1 tbsp at a time, whisking continuously at a medium-high speed until combined. Add the lemon juice and whisk to stiff peaks, about 5 mins – the icing should be shiny. Add more icing sugar if needed to help it stiffen up.",
-            "To decorate, divide the icing into bowls and colour with the gel food colourings (we left some icing white, then coloured three bowls with blue, yellow and red). Spoon the coloured icing into separatepiping bagsfitted with small round nozzles (or snip off the ends). Pipe lines on the biscuits to create firework-like ‘burst’ patterns or swirls. While the icing is wet, decorate with star sprinkles, if you like. Leave to set slightly, then serve.Will keep in an airtight container for up to a week."
+            "Batir la mantequilla y el azúcar con un batidor eléctrico durante 4-5 minutos hasta que esté suave y esponjoso. Batir el huevo hasta que esté combinado. Agrega la harina, el cacao en polvo, la canela y el jengibre y continúa batiendo hasta que la mezcla forme una masa. Coloque la masa entre dos trozos de papel para hornear y extiéndala hasta obtener un grosor de 6 mm con un rodillo.",
+            "Calentar el horno a 200C/180C ventilador/gas 6. Retire la capa superior de pergamino y corte las galletas con un cortador redondo o de estrella de 6 cm. Vuelva a enrollar los restos y continúe cortando galletas hasta que se haya usado toda la masa (debe obtener 20-22, dependiendo del cortador).",
+            "Coloque las galletas en una bandeja para hornear grande forrada con papel para hornear, espaciándolas al menos 2 cm (es posible que necesite dos bandejas para hornear). Hornee durante 7-10 minutos hasta que los bordes estén ligeramente dorados. Deje enfriar en la bandeja para hornear durante 10 minutos, luego transfiéralo a una rejilla para que se enfríe por completo.",
+            "Una vez frío, haz el glaseado. Batir la clara de huevo con una batidora eléctrica hasta que empiece a hacer espuma, aproximadamente 1 min. Agregue el azúcar glas, 1 cucharada a la vez, batiendo continuamente a velocidad media-alta hasta que se combinen. Agregue el jugo de limón y bata hasta obtener picos rígidos, aproximadamente 5 minutos; el glaseado debe estar brillante. Agregue más azúcar glas si es necesario para ayudar a que se endurezca.",
+            "Para decorar, divide el glaseado en tazones y colorea con los colorantes alimentarios en gel (dejamos un poco de glaseado blanco, luego coloreamos tres tazones con azul, amarillo y rojo). Coloque el glaseado de color en mangas pasteleras separadas equipadas con pequeñas boquillas redondas (o corte los extremos). Coloque líneas en las galletas para crear patrones o remolinos en forma de \"ráfagas\" similares a fuegos artificiales. Mientras el glaseado está húmedo, decora con chispas de estrellas, si lo deseas. Deje reposar un poco y luego sirva. Se conservará en un recipiente hermético hasta por una semana."
         ],
         "nutritional_info": {
             "kcal": "141",
@@ -143,27 +143,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/fruity-flapjack-cookies/",
-        "title": "[ES] Fruity flapjack cookies",
-        "description": "(Translation pending) Toast oats before mixing them into the dough to make these fruity cookies, a delicious hybrid of syrupy flapjacks and coconut macaroons",
+        "title": "Galletas flapjack con sabor a fruta",
+        "description": "Tuesta la avena antes de mezclarla con la masa para hacer estas galletas afrutadas, un delicioso híbrido de flapjacks almibarados y macarrones de coco.",
         "prep_time": "20 mins Cook: 40 mins",
         "cook_time": "",
         "serves": "12",
         "ingredients": [
-            "125g jumbo oats",
-            "150g softened butter",
-            "100g light muscovado sugar",
-            "1 egg",
-            "1 tbsp golden syrup",
-            "½ tsp vanilla extract",
-            "100g self-raising flour",
-            "100g mixed dried fruit or raisins",
-            "75g dried apricots, finely chopped",
-            "50g desiccated coconut",
-            "½ tsp ground cinnamon (optional)"
+            "125 g de avena gigante",
+            "150 g de mantequilla blanda",
+            "100 g de azúcar mascabado light",
+            "1 huevo",
+            "1 cucharada de almíbar dorado",
+            "½ cucharadita de extracto de vainilla",
+            "100 g de harina con levadura",
+            "100 g de frutos secos variados o pasas",
+            "75 g de orejones finamente picados",
+            "50 g de coco rallado",
+            "½ cucharadita de canela molida (opcional)"
         ],
         "method": [
-            "Heat the oven to 180C/160C fan/gas 4. Scatter the oats over abaking trayand bake for 20 mins, turning once until lightly browned. Remove from the oven and set aside to cool. Tip the butter and sugar into a bowl and beat with an electric whisk for 2 mins until fluffy. Crack in the egg and add the golden syrup and vanilla, then beat until completely combined. Scatter in the flour, all the dried fruit, the coconut, cinnamon (if using), the toasted oats and a pinch of salt. Beat again until everything is combined and you have a thick dough. Use the dough straightaway or cover and chill for up to two days.",
-            "Line two baking sheets with baking parchment and arrange six large spoonfuls of dough on each, well- spaced apart. Bake for 15 mins (or 18-20 mins if the dough is fridge-cold) until the cookies have spread and are brown at the edges but soft in the middle. Leave to cool on the baking sheet for 5 mins, then transfer to awire rackand leave to cool completely.Will keep in an airtight container or tin for up to five days."
+            "Calienta el horno a 180C/160C ventilador/gas 4. Esparce la avena sobre una bandeja para hornear y hornea durante 20 minutos, volteándola una vez hasta que esté ligeramente dorada. Retirar del horno y dejar enfriar. Vierta la mantequilla y el azúcar en un bol y bata con una batidora eléctrica durante 2 minutos hasta que quede esponjoso. Rompe el huevo y agrega el almíbar dorado y la vainilla, luego bate hasta que esté completamente combinado. Echar la harina, todos los frutos secos, el coco, la canela (si se usa), la avena tostada y una pizca de sal. Vuelve a batir hasta que todo esté combinado y tengas una masa espesa. Use la masa inmediatamente o tápela y enfríe por hasta dos días.",
+            "Forre dos bandejas para hornear con papel para hornear y coloque seis cucharadas grandes de masa en cada una, bien espaciadas. Hornee durante 15 minutos (o 18-20 minutos si la masa está fría en el refrigerador) hasta que las galletas se hayan extendido y estén doradas en los bordes pero suaves en el medio. Deje enfriar en la bandeja para hornear durante 5 minutos, luego transfiéralo a una rejilla y déjelo enfriar por completo. Se mantendrá en un recipiente o lata hermética hasta por cinco días."
         ],
         "nutritional_info": {
             "kcal": "247",
@@ -180,23 +180,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/vegan-peanut-butter-cookies/",
-        "title": "[ES] Vegan peanut butter cookies",
-        "description": "(Translation pending) Make some moreish vegan peanut butter cookies for a welcome mid-morning treat. Made with dairy-free ingredients, they’re sure to be loved by all",
+        "title": "Galletas veganas de mantequilla de maní",
+        "description": "Prepare unas deliciosas galletas veganas de mantequilla de maní como delicia de bienvenida a media mañana. Elaborados con ingredientes sin lácteos, seguramente a todos les encantarán.",
         "prep_time": "20 mins Cook: 15 mins plus chilling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "100g dairy-free margarine",
-            "100g caster sugar",
-            "2 tbsp vanilla paste",
-            "100g crunchy peanut butter",
-            "225g plain flour",
-            "3 tbsp roasted peanuts, split in half"
+            "100 g de margarina sin lácteos",
+            "100 g de azúcar en polvo",
+            "2 cucharadas de pasta de vainilla",
+            "100 g de mantequilla de maní crujiente",
+            "225 g de harina común",
+            "3 cucharadas de maní tostado, partido por la mitad"
         ],
         "method": [
-            "Beat the margarine, sugar and vanilla using an electricwhiskfor 1 min until pale and smooth, then mix in the peanut butter and flour until fully incorporated. Bring together into a smooth dough with your hands.",
-            "Roll outthe dough between two sheets of baking parchment until it’s about 1cm thick. If the dough is very soft (this will depend on the margarine used), chill for 45 mins until firmed slightly. Heat the oven to 160C/140C fan/gas 3 and line one large or two medium baking trays with baking parchment.",
-            "Cut circles out of the dough using an 8cm cookie cutter, placing the rounds on the lined baking trays. Press a few peanut halves, cut side-up, firmly into the tops of the biscuits. Bake for 12-15 mins until turning lightly golden around the edges. Leave to cool on the trays for 5 mins, then lift onto awire rackto cool completely."
+            "Batir la margarina, el azúcar y la vainilla con un batidor eléctrico durante 1 minuto hasta que estén pálidos y suaves, luego mezclar con la mantequilla de maní y la harina hasta que estén completamente incorporados. Con las manos, forme una masa suave.",
+            "Extienda la masa entre dos hojas de papel para hornear hasta que tenga aproximadamente 1 cm de espesor. Si la masa está muy blanda (esto dependerá de la margarina utilizada), enfriar durante 45 minutos hasta que se endurezca un poco. Calienta el horno a 160C/140C ventilador/gas 3 y forra una bandeja para hornear grande o dos medianas con papel para hornear.",
+            "Corta círculos de la masa con un cortador de galletas de 8 cm y colócalos en las bandejas para hornear forradas. Presione firmemente algunas mitades de maní, con el lado cortado hacia arriba, en la parte superior de las galletas. Hornee durante 12-15 minutos hasta que se doren ligeramente en los bordes. Deje enfriar en las bandejas durante 5 minutos, luego levántelo sobre una rejilla para que se enfríe por completo."
         ],
         "nutritional_info": {
             "kcal": "270",
@@ -213,25 +213,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/lusikkaleivat-finnish-spoon-biscuits/",
-        "title": "[ES] Lusikkaleivät (Finnish spoon biscuits)",
-        "description": "(Translation pending) Bake these delicate jam-filled biscuits at Christmas. They’re a Finnish festive tradition, and the secret to their delicious nutty flavour is the brown butter",
+        "title": "Galletas de cuchara finlandesas",
+        "description": "Hornea estas delicadas galletas rellenas de mermelada en Navidad. Son una tradición festiva finlandesa y el secreto de su delicioso sabor a nuez es la mantequilla marrón.",
         "prep_time": "1 hrs 15 mins Cook: 12 mins plus cooling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "200g unsalted butter",
-            "125g caster sugar",
-            "2 tsp vanilla sugar or 1 tsp vanilla paste",
-            "300g plain flour",
-            "1 tsp bicarbonate of soda",
-            "75g good-quality or homemade raspberry jam",
-            "50g caster sugar"
+            "200 g de mantequilla sin sal",
+            "125 g de azúcar en polvo",
+            "2 cucharaditas de azúcar de vainilla o 1 cucharadita de pasta de vainilla",
+            "300 g de harina común",
+            "1 cucharadita de bicarbonato de sodio",
+            "75 g de mermelada de frambuesa casera o de buena calidad",
+            "50 g de azúcar en polvo"
         ],
         "method": [
-            "Heat the oven to 195C/175C fan/gas 51/2 and line two baking sheets with baking parchment.",
-            "Melt the butter in asaucepanover a low heat and cook for 10 mins, stirring regularly, until it turns golden and smells slightly nutty. Keep an eye on the colour as the butter can burn quickly. Immediately pour the butter into a large bowl, add the sugar and vanilla, and mix thoroughly. Leave to cool a little, then sieve in the flour and bicarb.",
-            "Use a large teaspoon to scoop pieces of the mixture and mould them, pushing down slightly to flatten the tops and smoothing away the excess on the sides with a finger. Slide off the spoon and arrange on the prepared baking sheet, flat side down. Repeat with the remaining mixture. Bake for 10-12 mins until light golden. Leave to cool completely.",
-            "Spread a small amount of jam on the flat side of each biscuit. Sandwich with another biscuit. Tip the sugar onto a plate, then roll each of the biscuits in it to coat."
+            "Calienta el horno a 195C/175C ventilador/gas 51/2 y forra dos bandejas para hornear con papel para hornear.",
+            "Derrita la mantequilla en una cacerola a fuego lento y cocine durante 10 minutos, revolviendo regularmente, hasta que se dore y huela ligeramente a nuez. Vigila el color ya que la mantequilla puede quemarse rápidamente. Vierta inmediatamente la mantequilla en un tazón grande, agregue el azúcar y la vainilla y mezcle bien. Dejar enfriar un poco y luego colar la harina y el bicarbonato.",
+            "Use una cucharadita grande para sacar trozos de la mezcla y moldearlos, empujando ligeramente hacia abajo para aplanar la parte superior y alisando el exceso de los lados con un dedo. Retire la cuchara y colóquela en la bandeja para hornear preparada, con el lado plano hacia abajo. Repita con la mezcla restante. Hornee durante 10-12 minutos hasta que esté ligeramente dorado. Dejar enfriar por completo.",
+            "Unte una pequeña cantidad de mermelada en el lado plano de cada galleta. Sándwich con otra galleta. Vierta el azúcar en un plato y luego enrolle cada una de las galletas para cubrirlas."
         ],
         "nutritional_info": {
             "kcal": "117",
@@ -248,21 +248,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/soda-farls/",
-        "title": "[ES] Soda farls",
-        "description": "(Translation pending) Celebrate St Patrick’s Day with soda farls – an Irish soda bread flattened into a circle and divided into four ‘farls’. Eat warm with butter",
+        "title": "farlo de soda",
+        "description": "Celebre el Día de San Patricio con soda farls: un pan de soda irlandés aplanado en un círculo y dividido en cuatro \"farls\". Comer caliente con mantequilla.",
         "prep_time": "8 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "250g plain flour, plus extra for dusting",
-            "½ tsp salt",
-            "1 tsp sugar",
-            "1 heaped tsp bicarbonate of soda",
-            "225ml buttermilk"
+            "250 g de harina común y un poco más para espolvorear",
+            "½ cucharadita de sal",
+            "1 cucharadita de azúcar",
+            "1 cucharadita colmada de bicarbonato de sodio",
+            "225 ml de suero de leche"
         ],
         "method": [
-            "Tip the flour into a largebowland stir through the salt, sugar and bicarb. Make a well in the centre and pour in the buttermilk, then swiftly stir to combine. Tip onto a lightly floured surface and knead briefly.Rollinto a roughly 20cm circle and cut into quarters.",
-            "Heat a skillet or heavy-based frying pan over a low-medium heat. Add the farls and cook for 8-10 mins on each side, or until golden brown and cooked through. Remove from the heat and leave the farls to cool in the pan for 10 mins. Split open and eat warm with butter."
+            "Vierta la harina en un tazón grande y agregue la sal, el azúcar y el bicarbonato. Haga un hueco en el centro y vierta el suero de leche, luego revuelva rápidamente para combinar. Vierta sobre una superficie ligeramente enharinada y amase brevemente. Enrolle hasta formar un círculo de aproximadamente 20 cm y córtelo en cuartos.",
+            "Calienta una sartén o sartén de base pesada a fuego medio-bajo. Agregue los farls y cocine durante 8 a 10 minutos por cada lado, o hasta que estén dorados y bien cocidos. Retirar del fuego y dejar enfriar los farls en la sartén durante 10 minutos. Abrir y comer caliente con mantequilla."
         ],
         "nutritional_info": {
             "kcal": "255",
@@ -279,27 +279,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/cardamom-biscuits-nan-khatai/",
-        "title": "[ES] Cardamom biscuits (nan khatai)",
-        "description": "(Translation pending) Enjoy these traditional Indian cardamom biscuits with a mug of steamy masala chai. Nan khatai are notable for their crumbly texture and butter-rich flavour",
+        "title": "Galletas de cardamomo (no se comen)",
+        "description": "Disfrute de estas tradicionales galletas indias de cardamomo con una taza de masala chai humeante. Los Nan khatai se destacan por su textura quebradiza y su sabor rico en mantequilla.",
         "prep_time": "25 mins Cook: 20 mins plus chilling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "3 green cardamom pods",
-            "40g icing sugar",
-            "100g unsalted butter, at room temperature",
-            "70g self-raising white flour",
-            "25g gram flour",
-            "25g semolina",
-            "24 skin-on almonds or chopped pistachios"
+            "3 vainas de cardamomo verde",
+            "40 g de azúcar glas",
+            "100 g de mantequilla sin sal, a temperatura ambiente",
+            "70 g de harina blanca con levadura",
+            "25 gramos de harina",
+            "25 g de sémola",
+            "24 almendras con piel o pistachos picados"
         ],
         "method": [
-            "Split the cardamom pods and remove the seeds. Pound the seeds to a powder in apestle and mortarwith 1 tsp of the sugar.",
-            "Beat the butter until soft, then gradually add the remaining icing sugar and the ground cardamom. Continue beating until light and creamy, about 10 mins.",
-            "Sieve the flour and gram flour into a bowl andwhiskin the semolina and a pinch of salt. Stir into the butter and sugar in two increments. Gently bring everything together into a soft dough.",
-            "Roll the dough into small, marble-sized balls with your hands and arrange, spaced out, on baking trays lined with baking parchment.",
-            "Slightly flatten the top of each ball and press a whole almond or some chopped pistachios in the middle of each one. Chill for 20 mins.",
-            "Heat the oven to 160C/140C fan/gas 3. Bake the biscuits for about 20 mins or until golden. Leave to cool before storing in an airtight tin."
+            "Partir las vainas de cardamomo y quitar las semillas. Machaca las semillas hasta convertirlas en polvo en un mortero y con 1 cucharadita de azúcar.",
+            "Batir la mantequilla hasta que esté suave, luego agregar gradualmente el resto del azúcar glas y el cardamomo molido. Continúe batiendo hasta que esté suave y cremoso, aproximadamente 10 minutos.",
+            "Tamizar la harina y la harina de garbanzos en un bol y batir la sémola y una pizca de sal. Agregue la mantequilla y el azúcar en dos incrementos. Con cuidado, junte todo hasta obtener una masa suave.",
+            "Enrolle la masa en bolitas del tamaño de una canica con las manos y colóquelas, espaciadas, en bandejas para hornear forradas con papel para hornear.",
+            "Aplana ligeramente la parte superior de cada bola y presiona una almendra entera o unos pistachos picados en el medio de cada una. Enfriar durante 20 minutos.",
+            "Calienta el horno a 160C/140C ventilador/gas 3. Hornea las galletas durante unos 20 minutos o hasta que estén doradas. Dejar enfriar antes de guardar en una lata hermética."
         ],
         "nutritional_info": {
             "kcal": "63",
@@ -316,26 +316,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/florentines/",
-        "title": "[ES] Florentines",
-        "description": "(Translation pending) Enjoy these classic florentines at Christmas time. Jewelled with cherries and pistachios and coated in chocolate, these biscuits are the perfect festive gift",
+        "title": "florentinos",
+        "description": "Disfruta de estos clásicos florentinos en época navideña. Joyas con cerezas, pistachos y recubiertas de chocolate, estas galletas son el regalo festivo perfecto.",
         "prep_time": "25 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "50g salted butter",
-            "50g light muscovado sugar",
-            "50g golden syrup",
-            "50g plain flour",
-            "50g glacé cherries, chopped",
-            "75g flaked almonds",
-            "50g pistachios, chopped",
-            "2 oranges, zested",
-            "175g dark chocolate"
+            "50 g de mantequilla salada",
+            "50 g de azúcar mascabado light",
+            "50 g de almíbar dorado",
+            "50 g de harina común",
+            "50 g de cerezas glaseadas, picadas",
+            "75 g de almendras laminadas",
+            "50 g de pistachos picados",
+            "2 naranjas, ralladas",
+            "175 g de chocolate negro"
         ],
         "method": [
-            "Heat oven to 180C/160C/gas 4. Line two baking sheets with baking parchment.Melt the butter, sugar and golden syrup in a smallsaucepanover a low heat, stirring frequently. Remove from the heat andwhiskin the flour then add the cherries, flaked almonds, pistachios and orange zest.",
-            "Scoop 10 flat tbsp of the mixture onto the baking sheets, leaving room for them to spread. You will need to do these in batches. Bake for 10 mins until golden. Leave to cool for 2 mins until firm enough to lift onto awire rack. Cool completely. Repeat with the remaining mixture.",
-            "Melt the chocolate in a bowl over a simmering saucepan of water or in themicrowavein 30 second bursts. Turn the florentines over on the wire rack. Spoon chocolate onto the base of each florentine and gently spread to the edges. When the chocolate is firm enough to hold its shape, use a fork to draw wavy lines across the chocolate. Leave to set and then store in an airtight container."
+            "Caliente el horno a 180C/160C/gas 4. Forre dos bandejas para hornear con papel para hornear. Derrita la mantequilla, el azúcar y el almíbar dorado en una cacerola pequeña a fuego lento, revolviendo con frecuencia. Retirar del fuego y batir la harina, luego añadir las cerezas, las almendras laminadas, los pistachos y la ralladura de naranja.",
+            "Coloque 10 cucharadas planas de la mezcla sobre las bandejas para hornear, dejando espacio para que se esparzan. Deberá hacerlo en lotes. Hornee por 10 minutos hasta que esté dorado. Deje enfriar durante 2 minutos hasta que esté lo suficientemente firme como para colocarlo sobre una rejilla. Dejar enfriar por completo. Repita con la mezcla restante.",
+            "Derrita el chocolate en un bol sobre una cacerola con agua hirviendo o en el microondas en ráfagas de 30 segundos. Dar la vuelta a los florentinos sobre la rejilla. Vierta chocolate sobre la base de cada florentino y extiéndalo suavemente hasta los bordes. Cuando el chocolate esté lo suficientemente firme como para mantener su forma, use un tenedor para dibujar líneas onduladas a lo largo del chocolate. Deje reposar y luego guárdelo en un recipiente hermético."
         ],
         "nutritional_info": {
             "kcal": "138",
@@ -352,28 +352,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chocolate-orange-fudge-crinkle-biscuits/",
-        "title": "[ES] Chocolate orange fudge crinkle biscuits",
-        "description": "(Translation pending) Try baking these simple chocolate orange fudge crinkle biscuits with the kids. With an orange sugar coating, they’re great fun to make (and eat!)",
+        "title": "Galletas arrugadas de chocolate y naranja",
+        "description": "Intente hornear estas sencillas galletas arrugadas con chocolate y naranja con los niños. Con una capa de azúcar de naranja, son muy divertidos de preparar (¡y comer!)",
         "prep_time": "20 mins Cook: 10 mins plus 1 hr chilling (optional)",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "60g cocoa powder, sieved",
-            "230g caster sugar",
-            "60ml vegetable oil",
-            "2 large oranges, zested",
-            "2 large eggs",
-            "180g plain flour",
-            "1 tsp baking powder",
-            "few drops of orange food colouring, or use red and yellow",
-            "40g icing sugar"
+            "60 g de cacao en polvo tamizado",
+            "230 g de azúcar en polvo",
+            "60ml de aceite vegetal",
+            "2 naranjas grandes, ralladas",
+            "2 huevos grandes",
+            "180 g de harina común",
+            "1 cucharadita de polvo para hornear",
+            "unas gotas de colorante alimentario naranja, o utilice rojo y amarillo",
+            "40 g de azúcar glas"
         ],
         "method": [
-            "Mix the cocoa, 200g caster sugar and oil together with most of the orange zest. Whisk in the eggs one at a time, until fully combined.",
-            "Stir the flour, baking powder and a pinch of salt together in a separate bowl, then add to the cocoa mixture and mix until you form a soft dough. If the dough feels very soft, transfer it to the fridge and chill for 1 hr.",
-            "Heat the oven to 190C/170C fan/gas 5 and line a baking tray with baking parchment. Tip the remaining caster sugar into a small bowl. Add a drop of food colouring and stir it through the sugar until it’s all coloured – add more if you want a stronger colour. Stir in the icing sugar until all of the sugar is coloured, then stir in the remaining orange zest.",
-            "Form a heaped teaspoon of the dough into a ball, then roll in the sugar to coat, you might have to press the sugar on, particularly if you’ve chilled the dough. If the sugar is not sticking well, roll the balls of dough between your hands until the mixture warms up a little. Repeat with the remaining dough, then put, evenly spaced, on the baking tray.",
-            "Bake in the centre of the oven for 10 mins – they will crinkle as they cook. The biscuits will firm up as they cool so don’t overcook them. Transfer to a wire rack and leave to cool. Will keep for four days in a biscuit tin."
+            "Mezclar el cacao, 200 g de azúcar en polvo y el aceite junto con la mayor parte de la ralladura de naranja. Incorpora los huevos uno a la vez, hasta que estén completamente combinados.",
+            "Mezcle la harina, el polvo para hornear y una pizca de sal en un recipiente aparte, luego agregue a la mezcla de cacao y mezcle hasta formar una masa suave. Si la masa se siente muy suave, transfiérala al refrigerador y déjela enfriar durante 1 hora.",
+            "Calentar el horno a 190C/170C ventilador/gas 5 y forrar una bandeja para hornear con papel para hornear. Vierta el azúcar en polvo restante en un tazón pequeño. Añade una gota de colorante alimentario y revuélvelo con el azúcar hasta que tenga todo color; añade más si quieres un color más fuerte. Agregue el azúcar glas hasta que todo el azúcar adquiera color, luego agregue la ralladura de naranja restante.",
+            "Forme una bola con una cucharadita colmada de masa, luego enrolle el azúcar para cubrirla; es posible que tenga que presionar el azúcar, especialmente si ha enfriado la masa. Si el azúcar no se pega bien, enrolla las bolitas de masa entre tus manos hasta que la mezcla se caliente un poco. Repita con el resto de la masa, luego colóquela, espaciada uniformemente, en la bandeja para hornear.",
+            "Hornee en el centro del horno durante 10 minutos; se arrugarán mientras se cocinan. Las galletas se endurecerán a medida que se enfríen, así que no las cocines demasiado. Pasar a una rejilla y dejar enfriar. Se conservará durante cuatro días en una lata de galletas."
         ],
         "nutritional_info": {
             "kcal": "68",
@@ -390,25 +390,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chocolate-fudge-sprinkle-crinkle-biscuits/",
-        "title": "[ES] Chocolate fudge sprinkle-crinkle biscuits",
-        "description": "(Translation pending) Make a batch of these fun chocolate fudge sprinkle-crinkle biscuits. Kids will love helping out – especially decorating with sprinkles!",
+        "title": "Galletas arrugadas y espolvoreadas con dulce de chocolate",
+        "description": "Haga un lote de estas divertidas galletas arrugadas y espolvoreadas con dulce de chocolate. A los niños les encantará ayudar, ¡especialmente decorando con chispas!",
         "prep_time": "20 mins Cook: 10 mins plus 1 hr chilling (optional)",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "60g cocoa powder, sieved",
-            "200g caster sugar",
-            "60ml vegetable oil",
-            "2 large eggs",
-            "180g plain flour",
-            "1 tsp baking powder",
-            "1 small tub sprinkles"
+            "60 g de cacao en polvo tamizado",
+            "200 g de azúcar en polvo",
+            "60ml de aceite vegetal",
+            "2 huevos grandes",
+            "180 g de harina común",
+            "1 cucharadita de polvo para hornear",
+            "1 bote pequeño de chispitas"
         ],
         "method": [
-            "Mix the cocoa, caster sugar and oil together. Whisk in the eggs one at a time, until fully combined.",
-            "Mix the flour, baking powder and a pinch of salt together in a separate bowl, then add to the cocoa mixture and mix until you form a soft dough. If the dough feels very soft, transfer it to the fridge and chill for 1 hr.",
-            "Heat the oven to 190C/170C fan/gas 5 and line a baking tray with baking parchment. Tip the sprinkles into a shallow dish. Form a heaped teaspoon of the dough into a ball, then roll in the sprinkles to coat – you might have to press the sprinkles on, particularly if you’ve chilled the dough. If they’re not sticking well, roll the balls of dough between your hands until the mixture warms up a little. Repeat with the remaining dough, then put, evenly spaced, on the baking tray.",
-            "Bake in the centre of the oven for 10 mins – they will crinkle as they cook. The biscuits will firm up as they cool so don’t overcook them. Transfer to a wire rack and leave to cool. Will keep for four days in a biscuit tin."
+            "Mezclar el cacao, el azúcar en polvo y el aceite. Incorpora los huevos uno a la vez, hasta que estén completamente combinados.",
+            "Mezcle la harina, el polvo para hornear y una pizca de sal en un recipiente aparte, luego agregue a la mezcla de cacao y mezcle hasta formar una masa suave. Si la masa se siente muy suave, transfiérala al refrigerador y déjela enfriar durante 1 hora.",
+            "Calentar el horno a 190C/170C ventilador/gas 5 y forrar una bandeja para hornear con papel para hornear. Coloca las chispas en un plato poco profundo. Forme una bola con una cucharadita colmada de masa y luego enrolle las chispas para cubrirlas; es posible que tenga que presionar las chispas, especialmente si ha enfriado la masa. Si no se pegan bien, enrolla las bolas de masa entre tus manos hasta que la mezcla se caliente un poco. Repita con el resto de la masa, luego colóquela, espaciada uniformemente, en la bandeja para hornear.",
+            "Hornee en el centro del horno durante 10 minutos; se arrugarán mientras se cocinan. Las galletas se endurecerán a medida que se enfríen, así que no las cocines demasiado. Pasar a una rejilla y dejar enfriar. Se conservará durante cuatro días en una lata de galletas."
         ],
         "nutritional_info": {
             "kcal": "72",
@@ -425,24 +425,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/empire-biscuits/",
-        "title": "[ES] Empire biscuits",
-        "description": "(Translation pending) Make a batch of these easy empire biscuits and enjoy with a cuppa. Sandwich with raspberry jam and top with thick icing and a glacé cherry to finish",
+        "title": "galletas imperio",
+        "description": "Prepare un lote de estas sencillas galletas imperio y disfrútelas con una taza de té. Sándwich con mermelada de frambuesa y cúbralo con glaseado espeso y una cereza glaseada para terminar",
         "prep_time": "35 mins Cook: 12 mins plus chilling and setting",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "175g plain flour, plus extra for dusting",
-            "100g cold salted butter, cut into cubes",
-            "335g icing sugar",
-            "½ tsp vanilla extract",
-            "2 medium egg yolks",
-            "100g raspberry jam",
-            "50g glacé cherries, quartered"
+            "175 g de harina común y un poco más para espolvorear",
+            "100 g de mantequilla fría con sal, cortada en cubos",
+            "335 g de azúcar glas",
+            "½ cucharadita de extracto de vainilla",
+            "2 yemas de huevo medianas",
+            "100 g de mermelada de frambuesa",
+            "50 g de cerezas glaseadas, en cuartos"
         ],
         "method": [
-            "Put the flour, butter, 85g of the icing sugar, the vanilla and egg yolks in a food processor and pulse in bursts until combined (alternatively, rub together the butter and flour with your fingertips and mix in the sugar, vanilla and egg yolks). Add ½ tbsp water if the mix feels a little dry. Tip the rough mixture onto a work surface and briefly knead until the dough has come together. Wrap and chill for 30 mins.",
-            "Heat the oven to 180C/160C fan/gas 4. Line two baking sheets with baking parchment. Lightly dust your work surface with flour and roll the dough out to around 3mm thick. Cut 24 rounds from the dough with a 7cm cutter. Bring the remaining scraps of pastry together and reroll to make more biscuits. Line up the discs of dough on the baking sheets, then bake for 10-12 mins or until lightly golden brown around the edges. Transfer to a wire rack and leave to cool completely.",
-            "Mix the remaining icing sugar with 2-3 tsp of water to make a very thick icing. Spoon or pipe the icing over the top of half of the biscuits, leaving a border around the edge of each one. Top with a small piece of glacé cherry in the centre, then leave to set for 30 mins. Spread the jam over the un-iced biscuits and sandwich together with the iced halves. Will keep for two days in an airtight tin."
+            "Ponga la harina, la mantequilla, 85 g de azúcar glas, la vainilla y las yemas de huevo en un procesador de alimentos y presione en ráfagas hasta que se combinen (alternativamente, frote la mantequilla y la harina con las yemas de los dedos y mezcle el azúcar, la vainilla y las yemas de huevo). Agrega ½ cucharada de agua si la mezcla se siente un poco seca. Vierta la mezcla rugosa sobre una superficie de trabajo y amase brevemente hasta que la masa se una. Envuelva y enfríe durante 30 minutos.",
+            "Calienta el horno a 180C/160C ventilador/gas 4. Forra dos bandejas para hornear con papel para hornear. Espolvoree ligeramente la superficie de trabajo con harina y extienda la masa hasta que tenga un grosor de unos 3 mm. Corta 24 rodajas de masa con un cortador de 7 cm. Junte los restos de masa restantes y vuelva a enrollarlos para hacer más galletas. Alinee los discos de masa en las bandejas para hornear, luego hornee durante 10 a 12 minutos o hasta que los bordes estén ligeramente dorados. Pasar a una rejilla y dejar enfriar por completo.",
+            "Mezcle el azúcar glas restante con 2-3 cucharaditas de agua para hacer un glaseado muy espeso. Coloque o coloque el glaseado sobre la parte superior de la mitad de las galletas, dejando un borde alrededor del borde de cada una. Cubra con un pequeño trozo de cereza glaseada en el centro y luego déjelo reposar durante 30 minutos. Extienda la mermelada sobre las galletas sin hielo y haga un sándwich junto con las mitades heladas. Se conservará durante dos días en una lata hermética."
         ],
         "nutritional_info": {
             "kcal": "305",
@@ -459,32 +459,32 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/rhubarb-custard-sandwich-biscuits/",
-        "title": "[ES] Rhubarb & custard sandwich biscuits",
-        "description": "(Translation pending) Combine two retro treats in one delicious bite. These rhubarb and custard biscuits have a jammy centre, to bring a touch of nostalgia to an afternoon tea or bake sale",
+        "title": "Galletas tipo sándwich de ruibarbo y natillas",
+        "description": "Combina dos delicias retro en un delicioso bocado. Estas galletas de ruibarbo y natillas tienen un centro de mermelada, para darle un toque de nostalgia a una merienda o venta de pasteles.",
         "prep_time": "30 mins Cook: 35 mins plus cooling, chilling and optional overnight setting",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "175g unsalted butter, cubed",
-            "50g caster sugar",
-            "50g icing sugar",
-            "¼ tsp fine sea salt",
-            "250g plain flour, plus extra for dusting",
-            "50g custard powder",
-            "2 egg yolks",
-            "1 tbsp vanilla bean paste",
-            "200g rhubarb, trimmed and chopped",
-            "200g caster sugar",
-            "¼ lemon, juiced"
+            "175 g de mantequilla sin sal, en cubos",
+            "50 g de azúcar en polvo",
+            "50 g de azúcar glas",
+            "¼ cucharadita de sal marina fina",
+            "250 g de harina común y un poco más para espolvorear",
+            "50 g de natillas en polvo",
+            "2 yemas de huevo",
+            "1 cucharada de pasta de vainilla",
+            "200 g de ruibarbo, recortado y picado",
+            "200 g de azúcar en polvo",
+            "¼ de limón, en jugo"
         ],
         "method": [
-            "To make the jam, put the rhubarb, sugar and lemon juice in a pan over a medium heat. Bring to a simmer and cook for 15 mins, or until the rhubarb has broken down and released its liquid. Blitz using a hand blender until smooth, then simmer for another 5-10 mins until thick and jammy. To test it’s ready, run a wooden spoon over the base of the pan – it should leave a trail rather than filling in straightaway. Leave to cool (it will set more as it does), then chill until ready to use. Will keep in a sealed container or jar in the fridge for up to one week.",
-            "To make the biscuit dough, put the butter, both sugars and salt in a food processor and pulse a few times to a coarse paste. Scrape down the sides, then add the flour and custard powder and pulse again to a damp, sandy consistency. Add the egg yolks and vanilla and pulse again until the dough comes together into a ball. Add ½-1 tbsp water to bring it together, if needed. Tip the dough out, then wrap and put in the fridge to chill for at least 30 mins.",
-            "Roll the dough out on a floured surface to a 5mm thickness. Stamp out as many biscuits as you can using a 6mm round cutter – you should get about 32 in total.",
-            "Cut circles or hearts out of the centres of half the biscuits using the wide end of a plain piping nozzle (about 1.5cm), or a small heart cutter. Transfer all the biscuits to lined baking sheets, then transfer to the fridge and chill for 15 mins. You can also cook the cut-out shapes to make mini biscuits – if doing so, put these on their own baking sheet.",
-            "Heat the oven to 200C/180C fan/ gas 6, then bake the biscuits for 8-10 mins until golden (5-6 mins for the mini biscuits). Put on a wire rack and leave to cool completely.",
-            "Transfer the jam to a piping bag, snip off the end, and pipe a small layer of jam onto the plain biscuits (those without the centres cut out). Or, use a teaspoon. Spread the jam out – it may squidge out of the sides when sandwiching the biscuits, so don’t go too far to the edge.",
-            "Sandwich the remaining biscuits over the jam (don’t press down too firmly), then transfer to an airtight container in a single layer and leave to set overnight. This ensures the jam won’t leak when you bite into them, but they can be eaten straightaway if you can’t resist. Will keep in an airtight container for up to three days, but the biscuits will start to soften over time."
+            "Para hacer la mermelada, ponemos en una cacerola a fuego medio el ruibarbo, el azúcar y el zumo de limón. Llevar a fuego lento y cocinar durante 15 minutos, o hasta que el ruibarbo se descomponga y suelte su líquido. Mezcle con una batidora de mano hasta que quede suave, luego cocine a fuego lento durante otros 5 a 10 minutos hasta que esté espeso y mermelada. Para comprobar que está listo, pasa una cuchara de madera por la base de la sartén; debe dejar un rastro en lugar de llenarse inmediatamente. Deje enfriar (se endurecerá más a medida que lo haga), luego enfríe hasta que esté listo para usar. Se conservará en un recipiente o frasco sellado en el refrigerador hasta por una semana.",
+            "Para hacer la masa de galleta, ponga la mantequilla, el azúcar y la sal en un procesador de alimentos y presione varias veces hasta obtener una pasta gruesa. Raspe los lados, luego agregue la harina y las natillas en polvo y presione nuevamente hasta obtener una consistencia arenosa y húmeda. Agrega las yemas de huevo y la vainilla y pulsa nuevamente hasta que la masa forme una bola. Agregue ½-1 cucharada de agua para unirlo, si es necesario. Saque la masa, luego envuélvala y póngala en el refrigerador para que se enfríe durante al menos 30 minutos.",
+            "Extienda la masa sobre una superficie enharinada hasta que tenga un espesor de 5 mm. Elimina tantas galletas como puedas con un cortador redondo de 6 mm; deberías obtener unas 32 en total.",
+            "Corta círculos o corazones de los centros de la mitad de las galletas usando el extremo ancho de una boquilla para manga pastelera simple (aproximadamente 1,5 cm) o un cortador de corazones pequeño. Transfiera todas las galletas a bandejas para hornear forradas, luego transfiéralas al refrigerador y enfríe durante 15 minutos. También puedes cocinar las formas recortadas para hacer mini galletas; si lo haces, colócalas en su propia bandeja para hornear.",
+            "Calienta el horno a 200C/180C ventilador/gas 6, luego hornea las galletas durante 8-10 minutos hasta que estén doradas (5-6 minutos para las mini galletas). Poner sobre una rejilla y dejar enfriar por completo.",
+            "Transfiera la mermelada a una manga pastelera, corte el extremo y coloque una pequeña capa de mermelada sobre las galletas simples (aquellas sin los centros cortados). O use una cucharadita. Extienda la mermelada; puede salirse de los lados al intercalar las galletas, así que no llegue demasiado al borde.",
+            "Coloque las galletas restantes sobre la mermelada (no presione demasiado), luego transfiéralas a un recipiente hermético en una sola capa y déjelas reposar durante la noche. Esto garantiza que la mermelada no se derrame al morderlos, pero se pueden comer de inmediato si no puedes resistirte. Se mantendrán en un recipiente hermético hasta por tres días, pero las galletas comenzarán a ablandarse con el tiempo."
         ],
         "nutritional_info": {
             "kcal": "237",
@@ -501,22 +501,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chocolate-chip-shortbread/",
-        "title": "[ES] Chocolate chip shortbread",
-        "description": "(Translation pending) Bake a batch of these easy chocolate chip shortbreads to pair with your afternoon cup of tea. These simple sweet treats are perfect for sharing",
+        "title": "Galletas de chocolate con chispas de chocolate",
+        "description": "Hornee una tanda de estas sencillas galletas de mantequilla con chispas de chocolate para acompañar su taza de té de la tarde. Estos sencillos dulces son perfectos para compartir.",
         "prep_time": "20 mins Cook: 20 mins plus chilling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "300g plain flour",
-            "200g cold salted butter, cubed",
-            "1 large egg yolk",
-            "100g caster sugar plus extra to sprinkle",
-            "80g milk or dark chocolate chips"
+            "300 g de harina común",
+            "200 g de mantequilla salada fría, en cubos",
+            "1 yema de huevo grande",
+            "100 g de azúcar en polvo y un poco más para espolvorear",
+            "80 g de chispas de chocolate con leche o amargo"
         ],
         "method": [
-            "Sieve the flour into a large mixing bowl and add the butter. Rub the butter and flour between your fingers until the mixture looks like crumbs. Stir through the egg yolk, sugar and chocolate chips and squish everything together in the bowl to create a dough. Once it has begun to come together in the bowl tip out on to your work surface and form it into a flattened round puck shape, wrap and chill for 30 mins.",
-            "Preheat the oven to 170C/150C fan/gas 3. Line 2 baking sheets with baking parchment.",
-            "Roll out the dough in between two sheets of baking parchment until its 1cm thick. Remove the top sheet of parchment, and cut into 14 rounds with a 7cm round biscuit cutter. Re-roll any offcuts to make the most from your dough. Carefully transfer the rounds to your baking sheets using a palette knife or spatula, leaving some space in between them. Sprinkle each one with a little sugar. Bake in the oven for 15-20 mins or until lightly golden. Remove from the oven and allow to cool for 10 mins before transferring to a wire rack to cool completely."
+            "Tamiza la harina en un tazón grande y agrega la mantequilla. Frote la mantequilla y la harina entre los dedos hasta que la mezcla parezca migajas. Agrega la yema de huevo, el azúcar y las chispas de chocolate y aplasta todo en el bol para crear una masa. Una vez que haya comenzado a unirse en el tazón, colóquelo sobre la superficie de trabajo y déle forma de disco redondo y aplanado, envuélvalo y enfríe durante 30 minutos.",
+            "Precalienta el horno a 170C/150C ventilador/gas 3. Forra 2 bandejas para hornear con papel para hornear.",
+            "Extienda la masa entre dos hojas de papel para hornear hasta que tenga 1 cm de grosor. Retire la hoja superior de pergamino y córtela en 14 rondas con un cortador de galletas redondo de 7 cm. Vuelva a enrollar los restos para aprovechar al máximo la masa. Transfiera con cuidado las rondas a las bandejas para hornear con una espátula o una espátula, dejando algo de espacio entre ellas. Espolvorea cada uno con un poco de azúcar. Hornee en el horno durante 15-20 minutos o hasta que estén ligeramente dorados. Retirar del horno y dejar enfriar durante 10 minutos antes de transferirlo a una rejilla para que se enfríe por completo."
         ],
         "nutritional_info": {
             "kcal": "249",
@@ -533,25 +533,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chocolate-orange-cookies/",
-        "title": "[ES] Chocolate orange cookies",
-        "description": "(Translation pending) Top rich chocolate biscuits with candied orange peel to make these moreish bites. They make a great edible gift for Christmas",
+        "title": "Galletas de chocolate y naranja",
+        "description": "Cubra las ricas galletas de chocolate con cáscara de naranja confitada para hacer estos deliciosos bocados. Son un gran regalo comestible para Navidad.",
         "prep_time": "15 mins Cook: 15 mins plus 2 hrs chilling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "225g butter, softened",
-            "60g icing sugar",
-            "1 orange, zested and ½  juiced",
-            "300g self-raising flour",
-            "40g cocoa powder",
-            "175g dark chocolate, chopped",
-            "40g chopped candied orange peel",
-            "5 strips sugared candied orange peel, each cut into 5 pieces"
+            "225 g de mantequilla, blanda",
+            "60 g de azúcar glas",
+            "1 naranja, rallada y ½ en jugo",
+            "300 g de harina con levadura",
+            "40 g de cacao en polvo",
+            "175 g de chocolate amargo, picado",
+            "40 g de piel de naranja confitada picada",
+            "5 tiras de piel de naranja confitada y azucarada, cada una cortada en 5 trozos"
         ],
         "method": [
-            "Beat the butter with an electric whisk until it is light and fluffy, then beat in the icing sugar a little at a time, adding the orange zest and 1 tbsp orange juice. Beat in the flour and cocoa a little at a time, then mix in the chocolate and orange peel.",
-            "Divide the mixture into two, pat each into a rough log shape on a piece of non-stick wrap or baking parchment, then use the wrap to help you shape each piece into a log around 15cm long. Chill until firm, about 2 hrs (see tip, below).",
-            "Heat the oven to 180C/160C fan/gas 4. Line two baking sheets. Cut ½cm-thick cookies from the dough and lay them on the baking sheets, leaving space so they can puff up and spread. Put a piece of sugared candied orange on top of each. Bake for 10-15 mins or until the cookies are puffed. Cool on the sheets for a couple of mins before sliding them onto a wire rack. Will keep for two to three days in an airtight container."
+            "Batir la mantequilla con una batidora eléctrica hasta que esté suave y esponjosa, luego agregar el azúcar glas poco a poco, agregando la ralladura de naranja y 1 cucharada de jugo de naranja. Incorpora la harina y el cacao poco a poco, luego mezcla el chocolate y la piel de naranja.",
+            "Divida la mezcla en dos, déle palmaditas a cada pieza en forma de tronco sobre un trozo de papel film antiadherente o papel para hornear, luego use la envoltura para ayudarlo a darle forma a cada pieza en un tronco de aproximadamente 15 cm de largo. Enfríe hasta que esté firme, aproximadamente 2 horas (consulte el consejo a continuación).",
+            "Calienta el horno a 180C/160C ventilador/gas 4. Forra dos bandejas para hornear. Corta galletas de ½ cm de grosor de la masa y colócalas en las bandejas para hornear, dejando espacio para que se hinchen y se extiendan. Poner encima de cada uno un trozo de naranja confitada azucarada. Hornee durante 10-15 minutos o hasta que las galletas estén infladas. Deje enfriar las hojas durante un par de minutos antes de deslizarlas sobre una rejilla. Se conservará durante dos o tres días en un recipiente hermético."
         ],
         "nutritional_info": {
             "kcal": "172",
@@ -568,27 +568,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/gingerbread-cookies/",
-        "title": "[ES] Gingerbread cookies",
-        "description": "(Translation pending) Put your feet up and enjoy these moreish gingerbread cookies with a cuppa, made with aromatic cloves, ginger, cinnamon and rich black treacle",
+        "title": "galletas de jengibre",
+        "description": "Levante los pies y disfrute de estas deliciosas galletas de jengibre con una taza de té, hechas con clavo aromático, jengibre, canela y rica melaza negra.",
         "prep_time": "20 mins Cook: 12 mins plus chilling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "120g unsalted butter, softened",
-            "1½ tbsp black treacle",
-            "170g soft light brown sugar",
-            "½ tsp fine sea salt",
-            "1 medium egg",
-            "200g plain flour",
-            "¼ tsp bicarbonate of soda",
-            "¼ tsp ground cloves",
-            "1½ tsp ground ginger",
-            "½ tsp ground cinnamon",
-            "60g golden caster sugar"
+            "120 g de mantequilla sin sal, blanda",
+            "1½ cucharada de melaza negra",
+            "170 g de azúcar moreno claro y suave",
+            "½ cucharadita de sal marina fina",
+            "1 huevo mediano",
+            "200 g de harina común",
+            "¼ cucharadita de bicarbonato de sodio",
+            "¼ cucharadita de clavo molido",
+            "1½ cucharadita de jengibre molido",
+            "½ cucharadita de canela molida",
+            "60 g de azúcar en polvo dorado"
         ],
         "method": [
-            "Beat together the butter, treacle, brown sugar and salt in a large mixing bowl. Add the egg, then beat through all of the remaining dry ingredients apart from the caster sugar. Chill the mixture in the fridge for 1 hr.",
-            "Heat the oven to 200C/180C fan/gas 4. Line two baking sheets with baking parchment. Roll the mixture into 20 even-sized balls (weighing for accuracy, if you like). Tip the caster sugar onto a small plate, then add each ball and roll around to coat. Space each ball out on the baking sheets. Bake for 9-10 mins until golden brown. Leave to cool completely on a wire rack."
+            "Batir la mantequilla, la melaza, el azúcar moreno y la sal en un tazón grande. Agrega el huevo y luego bate todos los ingredientes secos restantes, excepto el azúcar en polvo. Enfriar la mezcla en el frigorífico durante 1 hora.",
+            "Calienta el horno a 200C/180C ventilador/gas 4. Forra dos bandejas para hornear con papel para hornear. Enrolle la mezcla en 20 bolas del mismo tamaño (si lo desea, pese para mayor precisión). Vierta el azúcar en polvo en un plato pequeño, luego agregue cada bola y gírela para cubrirla. Separe cada bola en las bandejas para hornear. Hornee durante 9-10 minutos hasta que estén dorados. Dejar enfriar completamente sobre una rejilla."
         ],
         "nutritional_info": {
             "kcal": "135",
@@ -605,24 +605,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chocolate-fudge-crinkle-biscuits/",
-        "title": "[ES] Chocolate fudge crinkle biscuits",
-        "description": "(Translation pending) Use storecupboard ingredients to make these moreish chocolate fudge crinkle biscuits. They make the perfect partner to a coffee as an afternoon treat",
+        "title": "Galletas arrugadas con dulce de chocolate",
+        "description": "Utilice ingredientes de la despensa para hacer estas deliciosas galletas arrugadas con dulce de chocolate. Son el compañero perfecto para un café como merienda.",
         "prep_time": "20 mins Cook: 10 mins plus 1 hr chilling (optional)",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "60g cocoa powder, sieved",
-            "200g caster sugar",
-            "60ml vegetable oil",
-            "2 large eggs",
-            "180g plain flour",
-            "1 tsp baking powder",
-            "70g icing sugar"
+            "60 g de cacao en polvo tamizado",
+            "200 g de azúcar en polvo",
+            "60ml de aceite vegetal",
+            "2 huevos grandes",
+            "180 g de harina común",
+            "1 cucharadita de polvo para hornear",
+            "70 g de azúcar glas"
         ],
         "method": [
-            "Mix the cocoa, caster sugar and oil together. Add the eggs one at a time, whisking until fully combined.",
-            "Stir the flour, baking powder and a pinch of salt together in a separate bowl, then add to the cocoa mixture and mix until a soft dough forms. If it feels soft, transfer to the fridge and chill for 1 hr. Heat the oven to 190C/170C fan/gas 5. Tip the icing sugar into a shallow dish. Form a heaped teaspoon of the dough into a ball, then roll in the sugar to coat. Repeat with the remaining dough, then put, evenly spaced, on a baking tray lined with baking parchment.",
-            "Bake in the centre of the oven for 10 mins – they will firm up as they cool. Transfer to a wire rack and leave to cool. Will keep for four days in a biscuit tin."
+            "Mezclar el cacao, el azúcar en polvo y el aceite. Agrega los huevos uno a la vez, batiendo hasta que estén completamente combinados.",
+            "Mezcle la harina, el polvo para hornear y una pizca de sal en un recipiente aparte, luego agregue a la mezcla de cacao y mezcle hasta que se forme una masa suave. Si se siente suave, transfiéralo al refrigerador y déjelo enfriar durante 1 hora. Calentar el horno a 190C/170C ventilador/gas 5. Vierta el azúcar glas en un plato poco profundo. Forme una bola con una cucharadita colmada de masa y luego enrolle el azúcar para cubrirla. Repita con el resto de la masa, luego colóquela, espaciada uniformemente, en una bandeja para hornear forrada con papel para hornear.",
+            "Hornee en el centro del horno durante 10 minutos; se endurecerán a medida que se enfríen. Pasar a una rejilla y dejar enfriar. Se conservará durante cuatro días en una lata de galletas."
         ],
         "nutritional_info": {
             "kcal": "67",
@@ -639,25 +639,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/ginger-biscuits/",
-        "title": "[ES] Ginger biscuits",
-        "description": "(Translation pending) Use fresh and ground ginger to make these moreish biscuits. They're perfect served with a cuppa for afternoon tea, or as a treat anytime",
+        "title": "galletas de jengibre",
+        "description": "Utilice jengibre fresco y molido para hacer estas deliciosas galletas. Son perfectos para acompañar una taza de té de la tarde o como capricho en cualquier momento.",
         "prep_time": "20 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "100g salted butter, cubed",
-            "75g light brown soft sugar",
-            "1 tbsp grated fresh ginger",
-            "100g golden syrup",
-            "250g self-raising flour",
-            "1½ tbsp ground ginger",
-            "1 tsp bicarbonate of soda",
-            "1 small egg yolk, beaten"
+            "100 g de mantequilla salada, en cubitos",
+            "75 g de azúcar moreno blando",
+            "1 cucharada de jengibre fresco rallado",
+            "100 g de almíbar dorado",
+            "250 g de harina con levadura",
+            "1½ cucharada de jengibre molido",
+            "1 cucharadita de bicarbonato de sodio",
+            "1 yema de huevo pequeña, batida"
         ],
         "method": [
-            "Heat the oven to 190C/170C fan/gas 5. Line two large baking trays with baking parchment. In a saucepan over a low heat, melt the butter, sugar, fresh ginger and golden syrup and leave to cool.",
-            "Mix the flour, ground ginger and bicarbonate of soda together in a bowl with a wooden spoon. Gradually stir in the cooled sugar mixture and the egg yolk and knead briefly to make a dough.",
-            "Roll the dough into 20g balls and put on the prepared baking trays with 3cm between each to allow for spreading. Bake for 8-10 mins until golden brown. Leave to cool on the trays for a min, then transfer to a cooling rack to cool completely."
+            "Calienta el horno a 190C/170C ventilador/gas 5. Forra dos bandejas para hornear grandes con papel para hornear. En un cazo a fuego lento derretir la mantequilla, el azúcar, el jengibre fresco y el almíbar dorado y dejar enfriar.",
+            "Mezclar la harina, el jengibre molido y el bicarbonato de sodio en un bol con una cuchara de madera. Agregue gradualmente la mezcla de azúcar enfriada y la yema de huevo y amase brevemente hasta formar una masa.",
+            "Enrolle la masa en bolas de 20 g y colóquelas en las bandejas para hornear preparadas con 3 cm entre cada una para permitir que se extienda. Hornee durante 8-10 minutos hasta que estén dorados. Deje enfriar en las bandejas durante un minuto, luego transfiéralo a una rejilla para enfriar por completo."
         ],
         "nutritional_info": {
             "kcal": "117",
@@ -674,27 +674,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/double-choc-peanut-butter-cookies/",
-        "title": "[ES] Double choc peanut butter cookies",
-        "description": "(Translation pending) What could be better with a glass of cold milk than a warm, gooey peanut butter cookie? These choc chunk treats are topped with crunchy chopped peanuts",
+        "title": "Galletas de mantequilla de maní con doble chocolate",
+        "description": "¿Qué podría ser mejor con un vaso de leche fría que una galleta de mantequilla de maní tibia y pegajosa? Estas delicias de chocolate están cubiertas con maní picado crujiente",
         "prep_time": "20 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "12",
         "ingredients": [
-            "100g unsalted butter, softened at room temperature",
-            "100g light brown sugar",
-            "100g caster sugar",
-            "1 egg, beaten",
-            "150g self-raising flour",
-            "2 tbsp cocoa powder",
-            "¼ tsp salt",
-            "200g milk chocolate, 150g chopped into chunks and 50g melted for drizzling",
-            "75g peanut butter (crunchy or smooth is fine)",
-            "handful of salted peanuts, roughly chopped",
-            "milk to serve, optional"
+            "100 g de mantequilla sin sal, ablandada a temperatura ambiente",
+            "100 g de azúcar moreno claro",
+            "100 g de azúcar en polvo",
+            "1 huevo batido",
+            "150 g de harina con levadura",
+            "2 cucharadas de cacao en polvo",
+            "¼ cucharadita de sal",
+            "200 g de chocolate con leche, 150 g cortados en trozos y 50 g derretidos para rociar",
+            "75 g de mantequilla de maní (crujiente o suave está bien)",
+            "un puñado de maní salado, picado en trozos grandes",
+            "leche para servir, opcional"
         ],
         "method": [
-            "Heat the oven to 180c/160 fan/gas mark 4 and line two baking trays with parchment. Using a food mixer or electric whisk beat the butter and sugar together until light and fluffy. Add in the egg and whisk to combine then beat in the flour, cocoa powder, salt and chocolate chunks until fully incorporated. Using a spoon swirl the peanut butter through the cookie dough.",
-            "Scoop the dough into 12 large cookies onto the two trays using a dessert spoon, leaving plenty of room between each cookie as they'll spread. Bake in the oven for 9-10 mins until still soft and melty in the middle. They will look underbaked but will harden once cool. Drizzle over the melted milk chocolate and top with a few chopped peanuts and a pinch of flaky sea salt. Serve with a glass of milk for dunking."
+            "Calienta el horno a 180c/160 ventilador/termostato de gas 4 y forra dos bandejas para hornear con papel pergamino. Con una batidora de alimentos o una batidora eléctrica, bata la mantequilla y el azúcar hasta que quede suave y esponjoso. Agregue el huevo y bata para combinar, luego agregue la harina, el cacao en polvo, la sal y los trozos de chocolate hasta que estén completamente incorporados. Con una cuchara, mezcle la mantequilla de maní con la masa para galletas.",
+            "Coloque la masa en 12 galletas grandes y colóquelas en las dos bandejas con una cuchara de postre, dejando suficiente espacio entre cada galleta a medida que se esparcen. Hornee en el horno durante 9-10 minutos hasta que aún esté suave y derretido en el medio. Parecerán poco cocidas, pero se endurecerán una vez que se enfríen. Rocíe sobre el chocolate con leche derretido y cubra con unos cacahuetes picados y una pizca de sal marina en escamas. Servir con un vaso de leche para mojar."
         ],
         "nutritional_info": {
             "kcal": "328",
@@ -711,31 +711,31 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/florentine-biscuits/",
-        "title": "[ES] Florentine biscuits",
-        "description": "(Translation pending) We've given the classic Florentine a chocolate covered biscuity base so they're perfect for dunking. Enjoy yourself or give as a homemade gift",
+        "title": "galletas florentinas",
+        "description": "Le hemos dado al clásico florentino una base de galleta cubierta de chocolate para que sean perfectos para mojar. Disfruta o regala algo hecho en casa",
         "prep_time": "55 mins Cook: 25 mins plus 1 hr chilling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "175g slightly salted butter, softened",
-            "85g golden caster sugar",
-            "½  tsp vanilla extract",
-            "225g plain flour, plus extra for dusting",
-            "¼ tsp ground cinnamon",
-            "50g butter",
-            "50g light brown soft sugar",
-            "50g golden syrup",
-            "½  tsp salt",
-            "50g plain flour",
-            "75g glacé cherries, chopped",
-            "75g flaked almonds",
-            "150g dark chocolate, chopped"
+            "175 g de mantequilla ligeramente salada, blanda",
+            "85 g de azúcar en polvo dorado",
+            "½ cucharadita de extracto de vainilla",
+            "225 g de harina común y un poco más para espolvorear",
+            "¼ cucharadita de canela molida",
+            "50 g de mantequilla",
+            "50 g de azúcar moreno blando",
+            "50 g de almíbar dorado",
+            "½ cucharadita de sal",
+            "50 g de harina común",
+            "75 g de cerezas glaseadas, picadas",
+            "75 g de almendras laminadas",
+            "150 g de chocolate amargo, picado"
         ],
         "method": [
-            "To make the biscuits, put the butter, sugar and vanilla in a bowl and beat with an electric whisk until creamy. Add the flour and cinnamon, and combine with a spatula to make a soft dough. Form into a ball, wrap in cling film and chill for at least 1 hr.",
-            "In a saucepan, melt the butter, sugar, golden syrup and salt. Remove from the heat and whisk in the flour, then stir in the cherries and almonds. Set aside to cool and firm up a little. Heat oven to 180C/160C fan/gas 4 and line a baking sheet with parchment.",
-            "Tip the dough onto a floured work surface and roll out to the thickness of a £1 coin. Using a 6cm fluted cookie cutter, stamp out as many circles as you can, then scrunch up the trimmings, re -roll and stamp out some more. Transfer to the baking sheet, and spoon some of the Florentine mixture onto each biscuit until it’s all used up. Bake on the middle shelf for 12-15 mins until the biscuits are golden and the topping has melted. Leave to cool on the sheet for at least 15 mins.",
-            "While the biscuits cool, melt the chocolate in a small heatproof bowl suspended over a pan of gently simmering water, or in short bursts in the microwave. Stir every 30 secs or so to ensure it doesn’t burn. Dip each biscuit about a third of the way into the chocolate, then return to the sheet to set. You may need to spoon the chocolate over the final few. Will keep for up to four days in a sealed container."
+            "Para hacer las galletas, poner en un bol la mantequilla, el azúcar y la vainilla y batir con unas varillas eléctricas hasta que estén cremosas. Agrega la harina y la canela y combina con una espátula para hacer una masa suave. Forme una bola, envuélvala en film transparente y déjela enfriar durante al menos 1 hora.",
+            "En un cazo derretir la mantequilla, el azúcar, el almíbar dorado y la sal. Retire del fuego y agregue la harina, luego agregue las cerezas y las almendras. Dejar enfriar y endurecer un poco. Caliente el horno a 180C/160C ventilador/gas 4 y forre una bandeja para hornear con pergamino.",
+            "Coloque la masa sobre una superficie de trabajo enharinada y extiéndala hasta obtener el grosor de una moneda de £1. Con un cortador de galletas acanalado de 6 cm, elimine tantos círculos como pueda, luego aplaste los recortes, vuelva a enrollarlos y elimine un poco más. Transfiera a la bandeja para hornear y vierta un poco de la mezcla florentina en cada galleta hasta que se acabe. Hornee en el estante del medio durante 12 a 15 minutos hasta que las galletas estén doradas y la cobertura se derrita. Dejar enfriar en la sábana durante al menos 15 minutos.",
+            "Mientras las galletas se enfrían, derrita el chocolate en un recipiente pequeño resistente al calor suspendido sobre una cacerola con agua hirviendo a fuego lento, o en ráfagas cortas en el microondas. Revuelva cada 30 segundos aproximadamente para asegurarse de que no se queme. Sumerja cada galleta aproximadamente un tercio del camino en el chocolate, luego vuelva a colocarla en la bandeja para que cuaje. Es posible que tengas que echar el chocolate sobre los últimos. Se conservará hasta por cuatro días en un recipiente sellado."
         ],
         "nutritional_info": {
             "kcal": "137",
@@ -752,30 +752,30 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/viennese-whirls/",
-        "title": "[ES] Viennese whirls",
-        "description": "(Translation pending) These elegant, buttery biscuits might look extra impressive but they're surprisingly easy to make. Dip in chocolate for an extra sweet treat",
+        "title": "remolinos vieneses",
+        "description": "Estas galletas elegantes y mantecosas pueden parecer muy impresionantes, pero son sorprendentemente fáciles de hacer. Sumérjalo en chocolate para darle un toque extra dulce",
         "prep_time": "45 mins Cook: 12 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "200g slightly salted butter, softened",
-            "50g icing sugar",
-            "2 tsp vanilla extract",
-            "200g plain flour",
-            "2 tsp cornflour",
-            "½  tsp baking powder",
-            "100g butter, softened",
-            "170g icing sugar",
-            "1 tsp vanilla extract",
-            "50g raspberry jam or strawberry jam"
+            "200 g de mantequilla ligeramente salada, blanda",
+            "50 g de azúcar glas",
+            "2 cucharaditas de extracto de vainilla",
+            "200 g de harina común",
+            "2 cucharaditas de harina de maíz",
+            "½ cucharadita de polvo para hornear",
+            "100 g de mantequilla, ablandada",
+            "170 g de azúcar glas",
+            "1 cucharadita de extracto de vainilla",
+            "50 g de mermelada de frambuesa o mermelada de fresa"
         ],
         "method": [
-            "Heat oven to 180C/160C fan/gas 4 and line 2 baking sheets with baking parchment. Put the butter and icing sugar in a large bowl and beat with an electric hand whisk for about 5 mins until pale and fluffy. Add the vanilla extract and beat again until fully incorporated.",
-            "Sift in the flour, cornflour and baking powder, and fold into the mixture using a spatula until combined (the dough should have a tacky consistency). Spoon the dough into a piping bag fitted with a large star-shaped nozzle. If all the mixture doesn’t fit, do it in 2 batches.",
-            "Pipe swirly circles 5cm diameter onto 2 baking sheets making sure there are 3cm spaces between each swirl.",
-            "Bake for 10-12 mins, swapping the trays over halfway through the cooking time so the biscuits are evenly baked, until pale golden and cooked through. Leave to cool on the baking sheets for a few mins, then transfer to wire racks.",
-            "While the biscuits cool, make the filling. Put the softened butter in a large mixing bowl and add the icing sugar. Stir together initially with a wooden spoon then switch to electric beaters or a whisk to get the buttercream fluffy and smooth. Add the vanilla extract and beat once more to combine. Transfer the buttercream to a piping bag and snip off the end.",
-            "Turn the biscuits over so their flat side is facing up then pipe buttercream over half of the biscuits and spread a little jam on the rest. Sandwich a jam covered biscuit together with a buttercream one and repeat until all the biscuits are used up."
+            "Caliente el horno a 180C/160C ventilador/gas 4 y forre 2 bandejas para hornear con papel para hornear. Ponga la mantequilla y el azúcar glas en un tazón grande y bata con una batidora eléctrica durante unos 5 minutos hasta que esté pálido y esponjoso. Agrega el extracto de vainilla y vuelve a batir hasta incorporar por completo.",
+            "Tamice la harina, la maicena y el polvo para hornear e incorpórelo a la mezcla con una espátula hasta que se combinen (la masa debe tener una consistencia pegajosa). Vierta la masa en una manga pastelera equipada con una boquilla grande en forma de estrella. Si no cabe toda la mezcla hacerlo en 2 tandas.",
+            "Coloque círculos en espiral de 5 cm de diámetro en 2 bandejas para hornear, asegurándose de que haya espacios de 3 cm entre cada espiral.",
+            "Hornee durante 10 a 12 minutos, cambiando las bandejas a la mitad del tiempo de cocción para que las galletas se horneen uniformemente, hasta que estén doradas y bien cocidas. Deje enfriar en las bandejas para hornear durante unos minutos, luego transfiéralo a rejillas.",
+            "Mientras las galletas se enfrían, prepara el relleno. Coloque la mantequilla blanda en un tazón grande y agregue el azúcar glas. Mezcle inicialmente con una cuchara de madera y luego cambie a batidoras eléctricas o un batidor para que la crema de mantequilla quede esponjosa y suave. Agrega el extracto de vainilla y bate una vez más para combinar. Transfiera la crema de mantequilla a una manga pastelera y corte el extremo.",
+            "Voltee las galletas para que su lado plano quede hacia arriba, luego coloque crema de mantequilla sobre la mitad de las galletas y esparza un poco de mermelada sobre el resto. Sandwich una galleta cubierta de mermelada junto con una de crema de mantequilla y repita hasta que se acaben todas las galletas."
         ],
         "nutritional_info": {
             "kcal": "405",
@@ -792,26 +792,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/oaty-hazelnut-cookies/",
-        "title": "[ES] Oaty hazelnut cookies",
-        "description": "(Translation pending) Soft and slightly chewy, these oaty cookies contain apple and maple syrup instead of sugar. They're packed with hazelnuts which are a good source of vitamins and minerals",
+        "title": "Galletas de avena y avellanas",
+        "description": "Suaves y ligeramente masticables, estas galletas de avena contienen jarabe de manzana y arce en lugar de azúcar. Están repletas de avellanas, que son una buena fuente de vitaminas y minerales.",
         "prep_time": "15 mins Cook: 30 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "50g butter, plus a little for greasing",
-            "2 tbsp maple syrup",
-            "1 dessert apple, unpeeled and coarsely grated (you need 85g)",
-            "1 tsp cinnamon",
-            "50g raisins",
-            "50g porridge oats",
-            "50g spelt flour",
-            "40g unblanched hazelnuts, cut into chunky slices",
-            "1 egg"
+            "50 g de mantequilla, más un poco para engrasar",
+            "2 cucharadas de jarabe de arce",
+            "1 manzana de postre, sin pelar y rallada gruesa (necesitas 85 g)",
+            "1 cucharadita de canela",
+            "50 g de pasas",
+            "50 g de gachas de avena",
+            "50 g de harina de espelta",
+            "40 g de avellanas sin blanquear, cortadas en rodajas gruesas",
+            "1 huevo"
         ],
         "method": [
-            "Heat oven to 180C/160C fan/gas 4 and lightly grease a non-stick baking tray (or line a normal baking tray with baking parchment). Tip the butter and syrup into a small non-stick pan and melt together, then add the apple and cook, stirring, over a medium heat until it softens, about 6-7 mins. Stir in the cinnamon and raisins.",
-            "Mix the oats, spelt flour, and hazelnuts in a bowl, pour in the apple mixture, then add the egg and beat everything together really well.",
-            "Spoon onto the baking tray, well spaced apart to make 9 mounds, then gently press into discs. Bake for 18-20 mins until golden, then cool on a wire rack. Will keep for 3 days in an airtight container or 6 weeks in the freezer."
+            "Caliente el horno a 180C/160C ventilador/gas 4 y engrase ligeramente una bandeja para hornear antiadherente (o forre una bandeja para hornear normal con papel para hornear). Vierta la mantequilla y el almíbar en una sartén pequeña antiadherente y derrita, luego agregue la manzana y cocine, revolviendo, a fuego medio hasta que se ablande, aproximadamente de 6 a 7 minutos. Agrega la canela y las pasas.",
+            "Mezcla en un bol la avena, la harina de espelta y las avellanas, vierte la mezcla de manzana, luego añade el huevo y bate todo muy bien.",
+            "Vierta en la bandeja para hornear, bien espaciados para formar 9 montículos, luego presione suavemente para formar discos. Hornee durante 18-20 minutos hasta que esté dorado, luego enfríe sobre una rejilla. Se conservará durante 3 días en un recipiente hermético o 6 semanas en el congelador."
         ],
         "nutritional_info": {
             "kcal": "146",
@@ -828,37 +828,37 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/white-rabbit-biscuits/",
-        "title": "[ES] White rabbit biscuits",
-        "description": "(Translation pending) These adorable bunny biscuits will hop off the plate faster than you can bake them. They make a great Easter activity for kids or an extra special gift",
+        "title": "Galletas de conejo blanco",
+        "description": "Estas adorables galletas de conejito saltarán del plato más rápido de lo que puedes hornearlas. Son una gran actividad de Pascua para niños o un regalo muy especial.",
         "prep_time": "1 hrs 10 mins Cook: 45 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "200g unsalted butter, at room temperature",
-            "400g plain flour",
-            "280g caster sugar",
-            "1 egg",
-            "¼ tsp vanilla extract",
-            "a pinch of salt",
-            "½  tsp cream of tartar",
-            "600g icing sugar",
-            "170g pack of desiccated coconut",
-            "pink food colouring gel",
-            "15 mini marshmallows",
-            "1 x rabbit head-shaped cookie cutter",
-            "1 x 7cm round cookie cutter",
-            "1 x 3cm round cookie cutter"
+            "200 g de mantequilla sin sal, a temperatura ambiente",
+            "400 g de harina común",
+            "280 g de azúcar en polvo",
+            "1 huevo",
+            "¼ cucharadita de extracto de vainilla",
+            "una pizca de sal",
+            "½ cucharadita de crémor tártaro",
+            "600 g de azúcar glas",
+            "Paquete de 170g de coco rallado",
+            "gel colorante alimentario rosa",
+            "15 mini malvaviscos",
+            "1 cortador de galletas con forma de cabeza de conejo.",
+            "1 cortador de galletas redondo de 7 cm.",
+            "1 cortador de galletas redondo de 3 cm."
         ],
         "method": [
-            "Heat oven to 180C/160C fan/gas 4. Lightly rub the butter and flour together with your fingertips until the mixture looks like fresh breadcrumbs.",
-            "Mix the sugar and egg together in another in a bowl with a whisk and when it is really well combined and runny add it to the flour mixture.",
-            "Add all the other ingredients and squish it together with your hands, keep working the dough until it’s smooth, soft and comes together in one piece.",
-            "Roll the dough out on a lightly floured surface with a rolling pin until it is about half a centimetre thick. Cut into shapes. We did 15 rabbit heads, 15 large circles and 30 mini circles.",
-            "Place your biscuits on baking sheets lined with baking paper and bake in batches for about 15 mins (or until they are lightly golden at the edges).",
-            "Let them cool in the tin for a few minutes before carefully transferring them to a wire rack to cool completely and become crisp.",
-            "While the biscuits cool mix enough cold water with the icing sugar to create a thick icing. Place a quarter of the icing in another bowl and add a very small amout of pink gel food colouring. Transfer both the white icing and the pink icing into disposable piping bags and snip off the end to make a very small nozzle on the pink icing and a wider one on the white icing.",
-            "Pipe white icing over the small round biscuits and leave to dry. Then pipe white icing to cover all of the large circular biscuits and the rabbit biscuits (be fairly sparing and spread it out with the back of a spoon – it doesn’t have to be neat on these ones). Once you’ve iced each one sprinkle generously with dessicated coconut before the icing dries.",
-            "Take the pink icing and use to create paws on the smaller circles then stick 2 of them onto each of the large circles using icing like glue. With the icing you have left, coat the marshmallows and cover those in coconut too before sticking them onto the middle of the larger circles to create a fluffy tail. Leave to set completely for about 15-20 mins then serve."
+            "Caliente el horno a 180C/160C ventilador/gas 4. Frote ligeramente la mantequilla y la harina con las yemas de los dedos hasta que la mezcla parezca pan rallado fresco.",
+            "Mezclar el azúcar y el huevo en otro bol con unas varillas y cuando esté muy bien combinado y líquido añadirlo a la mezcla de harina.",
+            "Agrega todos los demás ingredientes y aplástalo con las manos, sigue trabajando la masa hasta que esté suave, tersa y se una en una sola pieza.",
+            "Extiende la masa sobre una superficie ligeramente enharinada con un rodillo hasta que tenga aproximadamente medio centímetro de espesor. Cortar en formas. Hicimos 15 cabezas de conejo, 15 círculos grandes y 30 minicírculos.",
+            "Coloque las galletas en bandejas para hornear forradas con papel de hornear y hornee en tandas durante unos 15 minutos (o hasta que estén ligeramente doradas en los bordes).",
+            "Déjelos enfriar en el molde durante unos minutos antes de transferirlos con cuidado a una rejilla para que se enfríen por completo y queden crujientes.",
+            "Mientras las galletas se enfrían, mezcle suficiente agua fría con el azúcar glas para crear un glaseado espeso. Coloque una cuarta parte del glaseado en otro bol y agregue una cantidad muy pequeña de colorante alimentario en gel rosa. Transfiera tanto el glaseado blanco como el glaseado rosado a mangas pasteleras desechables y corte el extremo para hacer una boquilla muy pequeña en el glaseado rosado y una más ancha en el glaseado blanco.",
+            "Coloque glaseado blanco sobre las galletas pequeñas y redondas y déjelas secar. Luego, coloque glaseado blanco para cubrir todas las galletas circulares grandes y las galletas de conejo (sea bastante moderado y extiéndalo con el dorso de una cuchara; no es necesario que quede limpio en estas). Una vez que hayas glaseado cada uno, espolvorea generosamente con coco rallado antes de que se seque el glaseado.",
+            "Tome el glaseado rosa y úselo para crear patas en los círculos más pequeños, luego pegue 2 de ellos en cada uno de los círculos grandes usando glaseado como pegamento. Con el glaseado que te queda, cubre los malvaviscos y cúbrelos también con coco antes de pegarlos en el medio de los círculos más grandes para crear una cola esponjosa. Deje reposar completamente durante unos 15-20 minutos y luego sirva."
         ],
         "nutritional_info": {
             "kcal": "219",
@@ -875,36 +875,36 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/sugared-flower-shortbreads/",
-        "title": "[ES] Sugared flower shortbreads",
-        "description": "(Translation pending) These delicate shortbreads make a perfect gift. Given a floral hint with rosewater, you could also use orange blossom extract or dried lavender",
+        "title": "Galletas de mantequilla de flores azucaradas",
+        "description": "Estas delicadas galletas de mantequilla son un regalo perfecto. Si le das un toque floral con agua de rosas, también puedes utilizar extracto de flor de naranjo o lavanda seca.",
         "prep_time": "1 hrs Cook: 12 mins plus 3 hrs drying, 1 hr setting and chilling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "250g plain flour, plus extra for dusting",
-            "140g cold, slightly salted butter, cut into small cubes",
-            "85g white caster sugar",
-            "1 tsp vanilla extract",
-            "½  tsp rosewater (optional)",
-            "assortment of 15-20 edible flowers, unsprayed, (we used pansies, violas, primroses and rose petals - see tip)",
-            "50g caster sugar",
-            "1 egg white, beaten",
-            "300g royal icing sugar food colouring pastes (we used yellow, purple and pink)",
-            "edible shimmer dust (optional)",
-            "tweezers",
-            "1 small paintbrush",
-            "8cm biscuit cutter",
-            "1 disposable piping bag",
-            "1 fine writing piping nozzle",
-            "tissue paper and a pretty box, to wrap the biscuits in",
-            "First, check that any flowers you’ve picked from your garden are edible (visitrhs.org.ukif you’re unsure.) If you're buying the flowers, check that they're unsprayed (organic) and free from chemicals.To buy ready-crystallised flowers, tryeatmyflowers.co.uk."
+            "250 g de harina común y un poco más para espolvorear",
+            "140 g de mantequilla fría ligeramente salada, cortada en cubos pequeños",
+            "85 g de azúcar blanca en polvo",
+            "1 cucharadita de extracto de vainilla",
+            "½ cucharadita de agua de rosas (opcional)",
+            "surtido de 15-20 flores comestibles, sin rociar (usamos pensamientos, violas, prímulas y pétalos de rosa; consulte el consejo)",
+            "50 g de azúcar en polvo",
+            "1 clara de huevo batida",
+            "300 g de pasta colorante alimentaria de azúcar glas real (nosotros usamos amarillo, morado y rosa)",
+            "polvo brillante comestible (opcional)",
+            "pinzas",
+            "1 pincel pequeño",
+            "cortador de galletas de 8 cm",
+            "1 manga pastelera desechable",
+            "1 boquilla para escritura fina",
+            "papel de seda y una bonita caja, para envolver las galletas",
+            "Primero, verifique que las flores que haya recogido de su jardín sean comestibles (visitrhs.org.uk si no está seguro). Si va a comprar las flores, verifique que no estén rociadas (orgánicas) y que no contengan productos químicos. Para comprar flores ya cristalizadas, pruebeeatmyflowers.co.uk."
         ],
         "method": [
-            "Remove the stalks and any leaves from small flowers like violas or pansies, and carefully pull apart the roses to separate the petals. Place a sheet of baking parchment on your work surface. Sprinkle the caster sugar over a saucer, then lightly whisk the egg white in a small bowl. Holding a flower or petal with tweezers, use a small paintbrush to paint both sides with egg white. Spoon the sugar over, then shake off the excess and place on the parchment. Repeat with the remaining petals or flowers. Leave to dry for 3 hrs, or overnight if you can. Will keep in an airtight container for up to 1 month, but their colour may start to fade after a few weeks.",
-            "Tip the flour into a large bowl and add the butter. Use your fingertips to rub the butter into the flour until you have a damp, crumby texture. Pour in the sugar and gently mix in with your fingertips. Whisk the vanilla, rosewater and egg yolks together in a small bowl with a fork, then drizzle the mixture over the buttery flour. Mix again, squashing the crumbs together to form a dough. If the mixture is a little crumbly, drizzle over 1-2 tsp cold water, then mix again. Tip onto your work surface and knead very briefly until the dough looks even, with no streaks of egg. Wrap in cling film, pat into a round disc and chill for 30 mins.",
-            "Heat oven to 180C/160C fan/gas 4 and line two large baking trays with baking parchment. Remove the dough from the fridge – if it’s very firm, leave it at room temperature for 15 mins to soften. Lightly dust the work surface with flour, unwrap the dough and roll it to the thickness of a £1 coin. Stamp out 8cm disks with the fluted side of a biscuit cutter and transfer them to the baking trays. Bake for 10-12 mins, swapping the trays over halfway through cooking. Once lightly golden and firm, remove the biscuits from the oven. Leave to cool on the trays for 10 mins or until stable enough to transfer to a wire rack to cool completely.",
-            "Mix the icing sugar with enough water to make a thick icing. Divide the icing between as many bowls as the number of colours you’d like to use, and dye each one a pastel shade with a drop of food colouring. Transfer half of one of the icings to a disposable piping bag fitted with a fine writing nozzle. Pipe a ring around the outside of the biscuit and set aside to dry. Continue until you’ve iced a third of the biscuits (if you’re using three colours), then move on to the next colour, transferring any leftover icing back to its original bowl. Leave the biscuits to dry for 10-15 mins.",
-            "Add 2-3 tsp water to each icing to make it a little runnier. Spoon the icing onto the biscuits, matching the colour to the rings. Encourage the icing to flood the surface by easing it to the edges with your spoon – don’t be too generous with the icing as it may overspill when you add the flowers and petals. You can now dust the surface of each biscuit with a little shimmer dust, if you like, then top with the flowers. Leave the biscuits to set for at least 1 hr before wrapping in tissue paper in a pretty box. Will keep for up to 1 week."
+            "Retire los tallos y las hojas de las flores pequeñas, como las violas o los pensamientos, y separe con cuidado las rosas para separar los pétalos. Coloque una hoja de papel para hornear en su superficie de trabajo. Espolvorea el azúcar en polvo sobre un platillo y luego bate ligeramente la clara de huevo en un tazón pequeño. Sosteniendo una flor o un pétalo con unas pinzas, utiliza un pincel pequeño para pintar ambos lados con clara de huevo. Vierta el azúcar, luego sacuda el exceso y colóquelo sobre el pergamino. Repita con los pétalos o flores restantes. Déjalo secar durante 3 horas o toda la noche si puedes. Se mantendrán en un recipiente hermético hasta por 1 mes, pero su color puede comenzar a desvanecerse después de unas semanas.",
+            "Vierta la harina en un tazón grande y agregue la mantequilla. Use las yemas de los dedos para frotar la mantequilla con la harina hasta obtener una textura húmeda y quebradiza. Vierta el azúcar y mezcle suavemente con las yemas de los dedos. Batir la vainilla, el agua de rosas y las yemas de huevo en un tazón pequeño con un tenedor, luego rociar la mezcla sobre la harina mantecosa. Mezcle nuevamente, aplastando las migajas para formar una masa. Si la mezcla se desmorona un poco, rocíe 1-2 cucharaditas de agua fría y luego mezcle nuevamente. Vierta sobre la superficie de trabajo y amase muy brevemente hasta que la masa se vea uniforme, sin vetas de huevo. Envuélvalo en film transparente, forme un disco redondo y déjelo enfriar durante 30 minutos.",
+            "Caliente el horno a 180C/160C ventilador/gas 4 y forre dos bandejas para hornear grandes con papel para hornear. Saca la masa del frigorífico; si está muy firme, déjala a temperatura ambiente durante 15 minutos para que se ablande. Espolvoree ligeramente la superficie de trabajo con harina, desenvuelva la masa y extiéndala hasta obtener el grosor de una moneda de £1. Saca discos de 8 cm con el lado estriado de un cortador de galletas y transfiérelos a las bandejas para hornear. Hornee durante 10-12 minutos, intercambiando las bandejas a mitad de la cocción. Una vez ligeramente doradas y firmes, retiramos las galletas del horno. Deje enfriar en las bandejas durante 10 minutos o hasta que esté lo suficientemente estable como para transferirlo a una rejilla para que se enfríe por completo.",
+            "Mezclar el azúcar glas con suficiente agua para hacer un glaseado espeso. Divide el glaseado en tantos tazones como colores quieras usar y tiñe cada uno de un tono pastel con una gota de colorante alimentario. Transfiera la mitad de uno de los glaseados a una manga pastelera desechable equipada con una boquilla de escritura fina. Coloque un anillo alrededor del exterior de la galleta y déjela secar. Continúe hasta que haya glaseado un tercio de las galletas (si está usando tres colores), luego pase al siguiente color y transfiera el glaseado sobrante a su recipiente original. Deje secar las galletas durante 10-15 minutos.",
+            "Agregue 2-3 cucharaditas de agua a cada glaseado para que quede un poco más líquido. Vierta el glaseado sobre las galletas, haciendo coincidir el color con los aros. Haga que el glaseado inunde la superficie acercándolo hacia los bordes con la cuchara; no sea demasiado generoso con el glaseado, ya que puede derramarse cuando agregue las flores y los pétalos. Ahora puedes espolvorear la superficie de cada galleta con un poco de polvo brillante, si lo deseas, y luego cubrir con las flores. Deje reposar las galletas durante al menos 1 hora antes de envolverlas en papel de seda en una bonita caja. Se conservará hasta por 1 semana."
         ],
         "nutritional_info": {
             "kcal": "193",
@@ -921,26 +921,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/fortune-cookies/",
-        "title": "[ES] Fortune cookies",
-        "description": "(Translation pending) Fill homemade fortune cookies with personalised messages for a customised treat – ideal for any occasion, such as Chinese New Year, Christmas, Valentine's Day, birthdays and weddings",
+        "title": "galletas de la fortuna",
+        "description": "Llene galletas de la fortuna caseras con mensajes personalizados para un regalo personalizado, ideal para cualquier ocasión, como el Año Nuevo chino, Navidad, Día de San Valentín, cumpleaños y bodas.",
         "prep_time": "10 mins Cook: 10 mins plus chilling, cook time per batch",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "2 egg whites",
-            "1 tsp vanilla extract",
-            "1 tsp almond extract",
-            "3 tbsp sunflower oil",
-            "100g plain flour",
-            "2 tsp cornflour",
-            "100g caster sugar",
-            "1½  tbsp black sesame seeds"
+            "2 claras de huevo",
+            "1 cucharadita de extracto de vainilla",
+            "1 cucharadita de extracto de almendras",
+            "3 cucharadas de aceite de girasol",
+            "100 g de harina común",
+            "2 cucharaditas de harina de maíz",
+            "100 g de azúcar en polvo",
+            "1½ cucharada de semillas de sésamo negro"
         ],
         "method": [
-            "Preheat the oven to 180C/160 fan/gas 4 and line a large baking sheet with baking parchment, or use a silicone baking sheet. Write or print fortunes on paper measuring 6cm long by 1cm wide.",
-            "Put the egg whites, vanilla, almond extract, oil and 2 tsp cold water into a bowl and whisk with an electric hand whisk until frothy, 20-30 secs. Measure the flour, cornflour, sugar and a good pinch of salt into a bowl, then sift into the egg white mixture. Whisk everything together until you have a smooth batter-like consistency. Chill the mixture for 1 hr.",
-            "Next, put a tbsp of mixture onto the prepared baking sheet. Oil a metal spoon, then use the back of it to swirl the mixture out into a 8-10cm circle. Repeat with another tablespoon of the mixture, to create 2 cookies. Make sure there is space between each cookie as they will spread in the oven. It is best to only bake 2-3 cookies at a time, as you will need to shape them whilst they are hot. Sprinkle 1 of the cookies with black sesame seeds, then bake for 10-12 mins until the edges of the cookies turn golden.",
-            "One at a time remove the cookies with a palette knife once they are out the oven. You want them to still be soft so you can shape them so work quickly. Turn the cookie over so that the sesame seeds are face down and put the fortune in the middle of the circle. Fold the circle in half to secure the fortune and pinch the 2 edges together to seal. Pop the cookie on the rim of a mug or cup and very gently pull the 2 corners down to get the fortune cookie shape. Hold for 10 secs, then transfer the cookies to muffin tins so that they hold their shape whilst cooling completely. Repeat with the remaining cookie mixture."
+            "Precalienta el horno a 180C/160 ventilador/gas 4 y cubre una bandeja para hornear grande con papel para hornear, o usa una bandeja para hornear de silicona. Escribe o imprime fortunas en papel de 6 cm de largo por 1 cm de ancho.",
+            "Ponga las claras de huevo, la vainilla, el extracto de almendras, el aceite y 2 cucharaditas de agua fría en un bol y bata con un batidor eléctrico hasta que esté espumoso, 20-30 segundos. Mida la harina, la maicena, el azúcar y una buena pizca de sal en un bol, luego tamice con la mezcla de clara de huevo. Batir todo hasta obtener una consistencia suave, parecida a una masa. Enfríe la mezcla durante 1 hora.",
+            "Luego, ponga una cucharada de la mezcla en la bandeja para hornear preparada. Engrase una cuchara de metal y luego use el dorso para hacer girar la mezcla hasta formar un círculo de 8 a 10 cm. Repita con otra cucharada de la mezcla para crear 2 galletas. Asegúrate de que haya espacio entre cada galleta ya que se esparcirán en el horno. Lo mejor es hornear sólo 2 o 3 galletas a la vez, ya que tendrás que darles forma mientras estén calientes. Espolvorea 1 de las galletas con semillas de sésamo negro, luego hornea durante 10 a 12 minutos hasta que los bordes de las galletas se doren.",
+            "Retire las galletas una a la vez con una espátula una vez que estén fuera del horno. Quieres que aún estén suaves para poder darles forma y trabajar rápidamente. Dale la vuelta a la galleta para que las semillas de sésamo queden boca abajo y pon la fortuna en el medio del círculo. Dobla el círculo por la mitad para asegurar la fortuna y junta los 2 bordes para sellar. Coloca la galleta en el borde de una taza o vaso y tira muy suavemente de las 2 esquinas hacia abajo para obtener la forma de galleta de la fortuna. Mantenga durante 10 segundos, luego transfiera las galletas a moldes para muffins para que mantengan su forma mientras se enfrían por completo. Repita con la mezcla de galletas restante."
         ],
         "nutritional_info": {
             "kcal": "81",
@@ -957,26 +957,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/coconut-nice/",
-        "title": "[ES] Coconut Nice",
-        "description": "(Translation pending) Upgrade the classic Nice biscuit with a coconut cream icing and desiccated coconut topping – they’re vegan, too",
+        "title": "Coco agradable",
+        "description": "Mejora la clásica galleta Nice con glaseado de crema de coco y cobertura de coco rallado; también son veganas",
         "prep_time": "30 mins Cook: 40 mins (for all the batches)",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "1 tbsp linseeds",
-            "400g plain flour, plus extra for dusting",
-            "200g coconut oil",
-            "50g desiccated coconut",
-            "280g golden caster sugar",
-            "4 tbsp coconut cream",
-            "200-225g icing sugar",
-            "50g desiccated coconut"
+            "1 cucharada de linaza",
+            "400 g de harina común y un poco más para espolvorear",
+            "200 g de aceite de coco",
+            "50 g de coco rallado",
+            "280 g de azúcar en polvo dorado",
+            "4 cucharadas de crema de coco",
+            "200-225 g de azúcar glas",
+            "50 g de coco rallado"
         ],
         "method": [
-            "Heat oven to 180C/160C fan/gas 4. Put the linseeds in a small bowl and add 3 tbsp water. Leave to soak for 5-10 mins. Meanwhile, rub the flour and coconut oil together in a large mixing bowl until the coconut oil is well distributed and the mixture looks like fresh breadcrumbs. Stir in the desiccated coconut and set aside.",
-            "Tip the linseeds, together with their soaking water, into the bowl of a mini food processor and blitz until frothy. Add the sugar and blitz again until well mixed. Pour the linseed and sugar mixture into the flour and coconut oil and knead together to form a ball of dough. If the dough feels like it’s too dry and may crack when rolling out, add a little water, 1 tsp at a time.",
-            "Transfer the dough to a floured surface and roll it out to about the thickness of a £1 coin. Cut into 7cm x 4cm rectangles and place on a large baking sheet lined with baking parchment – make sure you leave 2-3cm between each biscuit. Bake in batches for 10-12 mins or until just starting to turn golden at the edges. Transfer to a wire rack using a palette knife or fish slice and leave to cool completely before decorating.",
-            "To decorate, mix together the coconut cream and enough icing sugar to make a thick paste. Transfer to a piping bag and pipe a thin line all around the outside edge of a biscuit, then dip the icing into the desiccated coconut. Repeat with all of the biscuits. Pipe the word ‘NICE’ onto the middle of each biscuit, then leave to set."
+            "Calentar el horno a 180C/160C ventilador/gas 4. Poner las semillas de lino en un tazón pequeño y agregar 3 cucharadas de agua. Dejar en remojo durante 5-10 minutos. Mientras tanto, frote la harina y el aceite de coco en un tazón grande hasta que el aceite de coco esté bien distribuido y la mezcla parezca pan rallado fresco. Agrega el coco rallado y reserva.",
+            "Vierta las semillas de lino, junto con el agua de remojo, en el recipiente de un mini procesador de alimentos y mezcle hasta que estén espumosas. Agrega el azúcar y bate nuevamente hasta que esté bien mezclado. Vierta la mezcla de linaza y azúcar en la harina y el aceite de coco y amase hasta formar una bola de masa. Si la masa se siente demasiado seca y puede agrietarse al extenderla, agregue un poco de agua, 1 cucharadita a la vez.",
+            "Transfiera la masa a una superficie enharinada y extiéndala hasta obtener aproximadamente el grosor de una moneda de £1. Córtelo en rectángulos de 7 cm x 4 cm y colóquelos en una bandeja para hornear grande forrada con papel para hornear; asegúrese de dejar 2-3 cm entre cada galleta. Hornee en tandas durante 10-12 minutos o hasta que empiecen a dorarse en los bordes. Transfiera a una rejilla con una espátula o una rodaja de pescado y déjelo enfriar por completo antes de decorar.",
+            "Para decorar, mezcla la crema de coco y suficiente azúcar glas para hacer una pasta espesa. Transfiera a una manga pastelera y haga una línea delgada alrededor del borde exterior de una galleta, luego sumerja el glaseado en el coco desecado. Repita con todas las galletas. Coloque la palabra \"NICE\" en el medio de cada galleta y luego déjela reposar."
         ],
         "nutritional_info": {
             "kcal": "174",
@@ -993,29 +993,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/lemon-sherbet-jammy-dodgers/",
-        "title": "[ES] Lemon sherbet jammy dodgers",
-        "description": "(Translation pending) Everyone’s favourite jam biscuit gets a zesty makeover – sandwich with lemon curd and sprinkle with sherbet for extra zing",
+        "title": "Dodgers con mermelada de sorbete de limón",
+        "description": "La galleta de mermelada favorita de todos se renueva con sabor: sándwich con cuajada de limón y espolvoreado con sorbete para darle más sabor.",
         "prep_time": "45 mins Cook: 15 mins plus chilling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "175g cold slightly salted butter, cubed",
-            "250g plain flour, plus extra for dusting",
-            "100g icing sugar",
-            "zest 1 lemon, plus 1-2 tsp juice",
-            "1 large egg yolk",
-            "23g pack sherbet (I used Dip Dab)",
-            "75g slightly salted butter, at room temperature",
-            "250g icing sugar",
-            "100g lemon curd"
+            "175 g de mantequilla fría ligeramente salada, en cubitos",
+            "250 g de harina común y un poco más para espolvorear",
+            "100 g de azúcar glas",
+            "ralladura de 1 limón, más 1-2 cucharaditas de jugo",
+            "1 yema de huevo grande",
+            "Paquete de 23 g de sorbete (yo usé Dip Dab)",
+            "75 g de mantequilla ligeramente salada, a temperatura ambiente",
+            "250 g de azúcar glas",
+            "100 g de cuajada de limón"
         ],
         "method": [
-            "In a food processor, whizz the butter, flour and a pinch of salt until the mixture resembles fine breadcrumbs. Add the sugar and lemon zest and whizz again. Add the lemon juice and egg yolk and blend until clumps of dough form around the blades. Keep blending, using the pulse button, until larger balls of dough have formed. Tip out the mixture onto a work surface and knead briefly to bring it together in a smooth ball – don’t overwork it or it will be tough. Cut the dough into 2 equal pieces and pat into flat discs, then wrap in cling film and chill for at least 30 mins. Line 2 baking sheets with baking parchment.",
-            "Remove the dough from the fridge 15 mins before you’re ready to roll it. Lightly flour your work surface and rolling pin. Unwrap 1 piece of dough and roll it out to the thickness of\r\na 50p piece. Use a 6cm cutter to stamp out discs (you should get about 15) and transfer to a baking sheet using a palette knife.",
-            "Unwrap and roll out the remaining dough to the same thickness. Stamp out 15 discs and transfer to the second baking sheet. Use a small round cutter (about 1cm) or the end of a piping nozzle to stamp holes from the middle of 15 of the biscuits. Loosely cover the trays with cling film and chill for 15 mins. Heat oven to 180C/160C fan/gas 4.",
-            "Bake the biscuits for 15 mins, swapping the trays over halfway through. Remove from the oven, leave to cool for 5 mins, then transfer to a wire rack and leave to cool completely.",
-            "Meanwhile, make the filling. Place the butter, sugar and half the lemon curd in a bowl. Mash together, then blend with an electric hand whisk. Transfer to a piping bag and snip off the end, making a 1cm opening. Place the remaining lemon curd in another piping bag and snip off the end to make a slightly smaller hole. Dust a little sherbet over the biscuits with a hole in the centre.",
-            "Pipe blobs of lemon filling in a ring shape onto each whole biscuit, leaving space in the centre to fill with lemon curd. Fill the middles, then sandwich a sherbet-dusted biscuit on top of each one. Store in a biscuit tin for 3 days."
+            "En un procesador de alimentos, bata la mantequilla, la harina y una pizca de sal hasta que la mezcla parezca pan rallado fino. Agrega el azúcar y la ralladura de limón y vuelve a batir. Agrega el jugo de limón y la yema de huevo y mezcla hasta que se formen grumos de masa alrededor de las cuchillas. Continúe mezclando, usando el botón de pulso, hasta que se formen bolas de masa más grandes. Vierta la mezcla sobre una superficie de trabajo y amase brevemente para formar una bola suave; no la trabaje demasiado o quedará dura. Corta la masa en 2 trozos iguales y forma discos planos, luego envuélvelos en film transparente y déjalos enfriar durante al menos 30 minutos. Forre 2 bandejas para hornear con papel para hornear.",
+            "Saca la masa del refrigerador 15 minutos antes de que estés listo para enrollarla. Enharine ligeramente la superficie de trabajo y el rodillo. Desenvuelva 1 trozo de masa y extiéndalo hasta obtener el grosor de\r\nuna pieza de 50 peniques. Utilice un cortador de 6 cm para estampar los discos (debe obtener unos 15) y transfiéralo a una bandeja para hornear con una espátula.",
+            "Desenvolver y extender la masa restante hasta obtener el mismo espesor. Sella 15 discos y transfiérelos a la segunda bandeja para hornear. Utilice un cortador redondo pequeño (de aproximadamente 1 cm) o el extremo de una boquilla para hacer agujeros en el centro de 15 galletas. Cubra sin apretar las bandejas con film transparente y déjelas enfriar durante 15 minutos. Calentar el horno a 180C/160C ventilador/gas 4.",
+            "Hornea las galletas durante 15 minutos, cambiando las bandejas a la mitad. Retirar del horno, dejar enfriar durante 5 minutos, luego transferir a una rejilla y dejar enfriar por completo.",
+            "Mientras tanto, haz el relleno. Coloca en un bol la mantequilla, el azúcar y la mitad de la cuajada de limón. Triture y luego mezcle con un batidor de mano eléctrico. Transfiera a una manga pastelera y corte el extremo, haciendo una abertura de 1 cm. Coloque la cuajada de limón restante en otra manga pastelera y corte el extremo para hacer un agujero un poco más pequeño. Espolvorea un poco de sorbete sobre las galletas con un agujero en el centro.",
+            "Coloque gotas de relleno de limón en forma de anillo sobre cada galleta entera, dejando espacio en el centro para rellenar con cuajada de limón. Llene los centros, luego coloque una galleta espolvoreada con sorbete encima de cada uno. Conservar en una lata de galletas durante 3 días."
         ],
         "nutritional_info": {
             "kcal": "151",
@@ -1032,24 +1032,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/anzac-biscuits/",
-        "title": "[ES] Anzac biscuits",
-        "description": "(Translation pending) These iconic biscuits were originally made to send to the ANZACs (Australian and New Zealand Army Corps) serving in Gallipoli",
+        "title": "galletas anzac",
+        "description": "Estas galletas icónicas se hicieron originalmente para enviarlas a los ANZAC (Cuerpo del Ejército de Australia y Nueva Zelanda) que sirven en Gallipoli.",
         "prep_time": "",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "85g porridge oats",
-            "85g desiccated coconut",
-            "100g plain flour",
-            "100g caster sugar",
-            "100g butter, plus extra butter for greasing",
-            "1 tbsp golden syrup",
-            "1 tsp bicarbonate of soda"
+            "85 g de gachas de avena",
+            "85 g de coco rallado",
+            "100 g de harina común",
+            "100 g de azúcar en polvo",
+            "100 g de mantequilla, más mantequilla extra para engrasar",
+            "1 cucharada de almíbar dorado",
+            "1 cucharadita de bicarbonato de sodio"
         ],
         "method": [
-            "Heat oven to 180C/fan 160C/gas 4. Put the oats, coconut, flour and sugar in a bowl. Melt the butter in a small\r\npan and stir in the golden syrup. Add the bicarbonate of soda to 2 tbsp boiling water, then stir into the\r\ngolden syrup and butter mixture.",
-            "Make a well in the middle of the dry ingredients and pour in the butter and golden syrup mixture. Stir gently\r\nto incorporate the dry ingredients.",
-            "Put dessertspoonfuls of the mixture on to buttered baking sheets, about 2.5cm/1in apart to allow room for spreading. Bake in batches for 8-10 mins until golden. Transfer to a wire rack to cool."
+            "Calentar el horno a 180C/ventilador 160C/gas 4. Poner en un bol la avena, el coco, la harina y el azúcar. Derretir la mantequilla en un pequeño\r\nsartén y agregue el almíbar dorado. Agregue el bicarbonato de sodio a 2 cucharadas de agua hirviendo, luego agregue el\r\nmezcla de almíbar dorado y mantequilla.",
+            "Haga un hueco en medio de los ingredientes secos y vierta la mezcla de mantequilla y almíbar dorado. Revuelva suavemente\r\npara incorporar los ingredientes secos.",
+            "Coloque cucharadas de postre de la mezcla en bandejas para hornear untadas con mantequilla, a una distancia de aproximadamente 2,5 cm / 1 pulgada para dejar espacio para untar. Hornee en tandas durante 8-10 minutos hasta que estén dorados. Transfiera a una rejilla para que se enfríe."
         ],
         "nutritional_info": {
             "kcal": "118",
@@ -1066,22 +1066,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/pistachio-and-cranberry-cookies/",
-        "title": "[ES] Pistachio & cranberry cookies",
-        "description": "(Translation pending) These crunchy, fruit & nut biscuits are sure to be a family favourite – make ahead and freeze, or wrap up for the perfect homemade gift",
+        "title": "Galletas de pistacho y arándanos",
+        "description": "Estas crujientes galletas de frutas y nueces seguramente serán las favoritas de la familia: prepárelas con anticipación y congélelas o envuélvalas para obtener el regalo casero perfecto.",
         "prep_time": "15 mins Cook: 15 mins Plus chilling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "175g butter, softened",
-            "85g golden caster sugar",
-            "½  tsp vanilla extract",
-            "225g plain flour",
-            "75g pistachios",
-            "75g dried cranberries"
+            "175 g de mantequilla, blanda",
+            "85 g de azúcar en polvo dorado",
+            "½ cucharadita de extracto de vainilla",
+            "225 g de harina común",
+            "75 g de pistachos",
+            "75 g de arándanos secos"
         ],
         "method": [
-            "Mix the butter, sugar and vanilla extract with a wooden spoon. stir in the flour, then tip in the pistachios and cranberries – you might need to get your hands in at this stage to bring the mix together as a dough. Halve the dough and shape each half into a log about 5cm across. Wrap in cling film, then chill for 1 hr or freeze for up to 3 months.",
-            "Heat oven to 180C/160C fan/gas 4. slice the logs into 1cm-thick rounds, place on a baking tray lined with baking parchment and bake for 12-15 mins. Cool completely on the tray."
+            "Mezclar la mantequilla, el azúcar y el extracto de vainilla con una cuchara de madera. agregue la harina, luego agregue los pistachos y los arándanos; es posible que necesite meter las manos en esta etapa para unir la mezcla como una masa. Corta la masa por la mitad y dale forma a cada mitad de un tronco de unos 5 cm de ancho. Envuélvalo en film transparente y luego enfríelo durante 1 hora o congélelo hasta por 3 meses.",
+            "Calentar el horno a 180C/160C ventilador/gas 4. Cortar los troncos en rodajas de 1 cm de grosor, colocarlos en una bandeja para hornear forrada con papel para hornear y hornear durante 12-15 minutos. Dejar enfriar completamente en la bandeja."
         ],
         "nutritional_info": {
             "kcal": "140",
@@ -1098,29 +1098,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/orange-oat-and-sultana-cookies/",
-        "title": "[ES] Orange, oat & sultana cookies",
-        "description": "(Translation pending) Cookies don’t have to be a guilty pleasure – these tasty treats from Leiths School of Food and Wine are superhealthy",
+        "title": "Galletas de naranja, avena y pasas",
+        "description": "Las galletas no tienen por qué ser un placer culpable: estas delicias de Leiths School of Food and Wine son súper saludables",
         "prep_time": "30 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "100g butter at room temperature",
-            "1 egg",
-            "50g mashed ripe banana",
-            "1 tsp vanilla extract",
-            "100g light soft brown sugar",
-            "½  tsp grated orange zest",
-            "100g wholemeal flour",
-            "¼ tsp salt",
-            "1 tsp baking powder",
-            "100g rolled oats",
-            "25g desiccated coconut",
-            "50g chopped walnuts",
-            "75g sultanas or dark chocolate chips"
+            "100 g de mantequilla a temperatura ambiente",
+            "1 huevo",
+            "50 g de plátano maduro triturado",
+            "1 cucharadita de extracto de vainilla",
+            "100 g de azúcar moreno suave y claro",
+            "½ cucharadita de ralladura de naranja",
+            "100 g de harina integral",
+            "¼ cucharadita de sal",
+            "1 cucharadita de polvo para hornear",
+            "100 g de copos de avena",
+            "25 g de coco rallado",
+            "50 g de nueces picadas",
+            "75 g de pasas o chispas de chocolate amargo"
         ],
         "method": [
-            "Heat oven to 180C/160C fan/gas 4.\r\nCream the butter and sugar together\r\nuntil well blended and smooth.\r\nGradually beat in the banana, vanilla\r\nextract and egg. Add the\r\nzest. Mix well with a wooden spoon\r\nuntil thoroughly blended.",
-            "In a large bowl, mix the flour, salt,\r\nbaking powder, oats, coconut,\r\nwalnuts and sultanas or chocolate\r\nchips. Stir the dry ingredients into\r\nthe wet and mix thoroughly until a\r\nthick dough is formed. Line a baking\r\nsheet with parchment. Drop heaped\r\ntbsps onto the sheet, leaving a 5cm\r\n(2in) space around each one, and\r\npress down lightly. Bake for 15-20\r\nmins until lightly browned. Cool."
+            "Calentar el horno a 180C/160C ventilador/gas 4.\r\nBatir la mantequilla y el azúcar\r\nhasta que esté bien mezclado y suave.\r\nIncorpora poco a poco el plátano, la vainilla\r\nextracto y huevo. Añade el\r\nentusiasmo. Mezclar bien con una cuchara de madera.\r\nhasta que esté bien mezclado.",
+            "En un bol grande, mezcle la harina, la sal,\r\nlevadura en polvo, avena, coco,\r\nnueces y pasas o chocolate\r\npatatas fritas. Agregue los ingredientes secos a\r\nhúmedo y mezcle bien hasta que quede\r\nSe forma una masa espesa. Forrar una hornada\r\nhoja con pergamino. gota colmada\r\ncucharadas en la sábana, dejando un espacio de 5 cm.\r\n(2 pulgadas) de espacio alrededor de cada uno, y\r\npresione ligeramente hacia abajo. Hornee por 15-20\r\nminutos hasta que esté ligeramente dorado. Fresco."
         ],
         "nutritional_info": {
             "kcal": "167",
@@ -1137,24 +1137,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/birthday-biscuits/",
-        "title": "[ES] Birthday biscuits",
-        "description": "(Translation pending) These ring biscuits are perfect for parties and work well in any shape, get the kids to help",
+        "title": "galletas de cumpleaños",
+        "description": "Estas galletas anulares son perfectas para fiestas y quedan bien en cualquier forma, pide que los niños te ayuden",
         "prep_time": "30 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "250g plain white flour",
-            "85g golden caster sugar",
-            "175g unsalted butter, at room temperature, cubed",
-            "2 tbsp lemon curd",
-            "250g white icing sugar",
-            "1 tbsp strawberry conserve (we used St Dalfour)"
+            "250 g de harina blanca normal",
+            "85 g de azúcar en polvo dorado",
+            "175 g de mantequilla sin sal, a temperatura ambiente, en cubos",
+            "2 cucharadas de cuajada de limón",
+            "250 g de azúcar glas blanca",
+            "1 cucharada de conserva de fresa (nosotros usamos St Dalfour)"
         ],
         "method": [
-            "Heat oven to 180C/fan 160C/gas 4.  \r\nPut the flour, sugar and butter into a food \r\nprocessor. Whizz until the mixture forms \r\ncrumbs, then pulse a little more until  \r\nit forms a ball.",
-            "Spread a large sheet of baking parchment \r\nover the work surface and turn the dough \r\nonto it. Dust with a little flour, then roll out to \r\nabout the thickness of two £1 coins. Stamp \r\nout 24 rounds using a 5cm round fluted \r\ncutter, then cut out the middles with the end \r\nof a piping nozzle. Carefully peel the rest of \r\nthe mixture away from the stamped shapes. \r\nLift onto baking sheets and bake for 10 mins \r\nuntil pale golden. Cool on a wire rack.",
-            "Put the lemon curd into a bowl with 2 tbsp \r\nboiling water and mix until smooth. Sieve in \r\n175g of the icing sugar; stir together to make \r\na smooth icing. Put the strawberry fruit spread \r\nin another bowl and add 2 tsp boiling water, \r\nmix, then sieve in the remaining icing sugar.",
-            "Spoon the lemon icing over the biscuits, \r\nthen drizzle or pipe over the pinky icing. Leave \r\nto set for at least 20 mins. Will keep for up to \r\n2 days in an airtight tin, longer if left un-iced."
+            "Calentar el horno a 180C/ventilador 160C/gas 4.  \r\nPoner la harina, el azúcar y la mantequilla en un alimento. \r\nprocesador. Batir hasta que se forme la mezcla. \r\nmigajas, luego presione un poco más hasta  \r\nforma una bola.",
+            "Extienda una hoja grande de papel para hornear. \r\nsobre la superficie de trabajo y voltear la masa \r\nsobre ello. Espolvorear con un poco de harina y extender hasta \r\naproximadamente del grosor de dos monedas de £1. Sello \r\nRealiza 24 rondas usando una ronda estriada de 5 cm. \r\ncortador, luego corte los centros con el extremo \r\nde una boquilla de tubería. Pele con cuidado el resto de \r\nla mezcla lejos de las formas estampadas. \r\nColóquelo en bandejas para hornear y hornee por 10 minutos. \r\nhasta que esté dorado pálido. Dejar enfriar sobre una rejilla.",
+            "Pon la cuajada de limón en un bol con 2 cucharadas. \r\nagua hirviendo y mezclar hasta que quede suave. tamiz en \r\n175 g de azúcar glas; mezclar para hacer \r\nun glaseado suave. Poner la crema de fruta de fresa. \r\nen otro bol y agregue 2 cucharaditas de agua hirviendo, \r\nmezcle, luego tamice el azúcar glas restante.",
+            "Vierta el glaseado de limón sobre las galletas. \r\nluego rocíe o coloque sobre el glaseado del meñique. salir \r\ndejar reposar durante al menos 20 minutos. Se mantendrá hasta \r\n2 días en una lata hermética, más tiempo si se deja sin hielo."
         ],
         "nutritional_info": {
             "kcal": "149",
@@ -1171,28 +1171,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/bumper-oat-cookies/",
-        "title": "[ES] Bumper oat cookies",
-        "description": "(Translation pending) Oaty, chewy, spicy cookies – ready in under an hour and great for tea time",
+        "title": "Galletas de avena ricas",
+        "description": "Galletas de avena, masticables y picantes: listas en menos de una hora y excelentes para la hora del té",
         "prep_time": "",
         "cook_time": "",
         "serves": "18",
         "ingredients": [
-            "175g butter",
-            "175g demerara sugar",
-            "100g golden syrup",
-            "85g plain flour",
-            "½ tsp bicarbonate of soda",
-            "250g porridge oats",
-            "1 tsp ground cinnamon",
-            "100g each of ready-to-eat dried apricots, chopped and stem ginger, chopped",
-            "75-80g pack dried sour cherries",
-            "2 tbsp boiling water",
-            "1 medium egg, beaten"
+            "175 g de mantequilla",
+            "175 g de azúcar demerara",
+            "100 g de almíbar dorado",
+            "85 g de harina común",
+            "½ cucharadita de bicarbonato de sodio",
+            "250 g de gachas de avena",
+            "1 cucharadita de canela molida",
+            "100 g cada uno de orejones listos para comer, picados y jengibre de tallo, picado",
+            "Paquete de 75-80 g de guindas secas",
+            "2 cucharadas de agua hirviendo",
+            "1 huevo mediano, batido"
         ],
         "method": [
-            "Heat the oven to 180C/fan160C/gas 4. Line several baking sheets with baking parchment or non-stick sheets. Warm the butter, sugar and golden syrup in a large saucepan over a medium heat until the butter has melted. Stir in the flour, bicarbonate of soda, oats, cinnamon, dried fruits and ginger, then the water and finally the egg. Leave to cool until easy to handle.",
-            "With dampened hands, shape the mixture into 18 large balls, then flatten them onto the baking sheets – allowing plenty of space for spreading – and bake for 15-20 mins until golden. (This will give a soft, chewy cookie. For a crisper one, reduce the heat to 160C/fan140C/gas 3 and bake for a further 5-10 mins.)",
-            "Allow the cookies to cool on the trays briefly, then lift onto to a cooling rack. Will keep in an airtight container, separated with baking parchment, for up to 1 week."
+            "Calienta el horno a 180C/ventilador 160C/gas 4. Forra varias bandejas para hornear con papel para hornear o bandejas antiadherentes. Calentar la mantequilla, el azúcar y el almíbar dorado en una cacerola grande a fuego medio hasta que la mantequilla se derrita. Agrega la harina, el bicarbonato, la avena, la canela, los frutos secos y el jengibre, luego el agua y finalmente el huevo. Dejar enfriar hasta que sea fácil de manipular.",
+            "Con las manos humedecidas, forme 18 bolas grandes con la mezcla, luego aplánelas sobre las bandejas para hornear (dejando suficiente espacio para untar) y hornee durante 15 a 20 minutos hasta que estén doradas. (Esto dará como resultado una galleta suave y masticable. Para obtener una más crujiente, reduzca el fuego a 160 °C/ventilador 140 °C/gas 3 y hornee durante 5 a 10 minutos más).",
+            "Deje que las galletas se enfríen brevemente en las bandejas, luego levántelas y colóquelas en una rejilla para enfriar. Se mantendrá en un recipiente hermético, separado con papel para hornear, hasta por 1 semana."
         ],
         "nutritional_info": {
             "kcal": "236",
@@ -1209,19 +1209,19 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/sugar-dusted-vanilla-shortbread/",
-        "title": "[ES] Sugar-dusted vanilla shortbread",
-        "description": "(Translation pending) Great for keeping the biscuit tin topped up over Christmas, these sweet shortbread thins make a perfect treat",
+        "title": "Galletas de vainilla espolvoreadas con azúcar",
+        "description": "Ideales para mantener la lata de galletas llena durante la Navidad, estas finas galletas de mantequilla dulces son un regalo perfecto.",
         "prep_time": "",
         "cook_time": "20 mins Plus chilling time",
         "serves": "35",
         "ingredients": [
-            "1 quantity vanilla shortbread dough (see below)",
-            "icing sugar, for dusting"
+            "1 cantidad de masa de mantequilla de vainilla (ver más abajo)",
+            "azúcar glas, para espolvorear"
         ],
         "method": [
-            "With your hands, roll the\r\ndough on a lightly floured\r\nsurface into a sausage\r\nshape about 25cm/9in long\r\nand 5cm/2½in in diameter.\r\nWrap the roll and chill for at\r\nleast 1 hour. (The roll can be\r\nfrozen for up to 6 weeks. To\r\nuse, remove from the freezer\r\nand allow to thaw for one\r\nhour at room temperature so\r\nthat the dough is soft enough\r\nto be sliced into biscuits.)",
-            "Preheat the oven to\r\n180C/gas 4/fan 160C and lightly grease 2 large baking\r\nsheets. Using a sharp knife,\r\ncut the dough into slices,\r\neach a generous 5mm/¼in\r\nthick, then arrange them\r\non the greased baking\r\nsheets, spacing the biscuits\r\nslightly apart so they have\r\na bit of room to spread as\r\nthey cook.",
-            "Bake for 20 minutes until\r\nthe biscuits are just turning\r\npale golden around the\r\nedges, then transfer to a\r\nwire rack to cool. Dust\r\ngenerously with icing sugar.\r\nThe biscuits will keep fresh\r\nfor up to one week stored in\r\nan airtight tin."
+            "Con las manos, haga rodar el\r\nmasa sobre una superficie ligeramente enharinada\r\nsuperficie en una salchicha\r\nforma de unos 25 cm/9 pulgadas de largo\r\ny 5 cm/2½ pulgadas de diámetro.\r\nEnvuelva el rollo y déjelo enfriar durante al menos\r\nmenos 1 hora. (El rollo puede ser\r\ncongelado por hasta 6 semanas. a\r\nusar, sacar del congelador\r\ny dejar descongelar por uno\r\nhora a temperatura ambiente para que\r\nque la masa quede lo suficientemente suave\r\npara cortarlo en galletas).",
+            "Precalienta el horno a\r\n180C/gas 4/ventilador 160C y engrase ligeramente 2 pasteles grandes\r\nhojas. Usando un cuchillo afilado,\r\ncortar la masa en rodajas,\r\ncada uno con un generoso tamaño de 5 mm/¼ pulg.\r\nde espesor, luego colóquelas\r\nsobre la hornada engrasada\r\nhojas, espaciando las galletas\r\nligeramente separados para que tengan\r\nun poco de espacio para difundirse como\r\nellos cocinan.",
+            "Hornee por 20 minutos hasta que\r\nlas galletas apenas están girando\r\ndorado pálido alrededor del\r\nbordes, luego transfiéralo a un\r\nrejilla para enfriar. polvo\r\ngenerosamente con azúcar glas.\r\nLas galletas se mantendrán frescas.\r\npor hasta una semana almacenado en\r\nuna lata hermética."
         ],
         "nutritional_info": {
             "kcal": "0",
@@ -1238,22 +1238,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/hanukkah-biscuits/",
-        "title": "[ES] Hanukkah biscuits",
-        "description": "(Translation pending) Good Food reader Danielle Brown shares her grandmother’s recipe for savoury Kaak biscuits, traditionally eaten during the Jewish holiday of Hanukkah",
+        "title": "galletas de jánuca",
+        "description": "La lectora de Good Food, Danielle Brown, comparte la receta de su abuela de las sabrosas galletas Kaak, que se comen tradicionalmente durante la festividad judía de Hanukkah.",
         "prep_time": "30 mins Cook: 25 mins Plus rising and cooling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "450g strong white flour",
-            "1 tsp caraway seed",
-            "7g sachet fast-action yeast",
-            "100g oil-based margarine, melted",
-            "1 egg, beaten"
+            "450 g de harina blanca fuerte",
+            "1 cucharadita de semilla de alcaravea",
+            "7 g de levadura de acción rápida en sobre",
+            "100 g de margarina a base de aceite, derretida",
+            "1 huevo batido"
         ],
         "method": [
-            "Place the flour, ½ tsp salt, caraway seeds and yeast in a large bowl. Make a well in the centre and pour in the melted margarine and 200ml warm water. Mix to combine all of the ingredients, adding more water or flour if needed, then knead for 2 mins to form a soft dough. Place in an oiled bowl, cover with cling film and leave in a warm place to rise for 1 hr.",
-            "Once doubled in size, knead the dough for 1 min, then divide the mixture into 12 balls. Cut each ball in half and roll each piece into a thin sausage shape. Twist the 2 pieces together, then join the ends to\r\nform a circle. Place on a lightly greased baking tray, cover with a tea towel and leave to rise again for 30 mins.",
-            "Heat oven to 200C/180C fan/gas 5. Brush the biscuits with a little beaten egg and bake for 10-15 mins until golden. Remove to cool on a wire rack, then turn the oven down to 110C/90C fan/gas 1?4. Once cool, return the biscuits to the oven and bake for a further 10 mins, then turn off the heat completely, leaving the biscuits in the oven to dry out for 2 hrs."
+            "Coloque la harina, ½ cucharadita de sal, las semillas de alcaravea y la levadura en un bol grande. Hacer un hueco en el centro y verter la margarina derretida y 200 ml de agua tibia. Mezcle para combinar todos los ingredientes, agregue más agua o harina si es necesario, luego amase durante 2 minutos para formar una masa suave. Colocar en un bol engrasado, cubrir con film transparente y dejar reposar en un lugar cálido durante 1 hora.",
+            "Una vez que haya duplicado su tamaño, amase la masa durante 1 minuto y luego divida la mezcla en 12 bolas. Corta cada bola por la mitad y enrolla cada pieza hasta darle forma de salchicha fina. Gira las 2 piezas juntas, luego une los extremos para\r\nformar un círculo. Colocar en una bandeja de horno ligeramente engrasada, cubrir con un paño de cocina y dejar reposar durante 30 minutos.",
+            "Calentar el horno a 200C/180C ventilador/gas 5. Untar las galletas con un poco de huevo batido y hornear durante 10-15 minutos hasta que estén doradas. Retirar para enfriar sobre una rejilla, luego bajar el horno a 110C/90C ventilador/gas 1?4. Una vez frías, regresa las galletas al horno y hornea por 10 minutos más, luego apaga el fuego por completo y deja que las galletas se sequen en el horno durante 2 horas."
         ],
         "nutritional_info": {
             "kcal": "198",
@@ -1270,27 +1270,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/fruity-christmas-biscotti/",
-        "title": "[ES] Fruity biscotti",
-        "description": "(Translation pending) The perfect make-ahead gift, these will keep for up to a month after baking and look really impressive",
+        "title": "galletas de frutas",
+        "description": "El regalo perfecto para preparar con anticipación, se conservarán hasta un mes después de hornearse y lucirán realmente impresionantes.",
         "prep_time": "15 mins Cook: 1 hrs",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "350g plain flour, plus extra for rolling",
-            "2 tsp baking powder",
-            "2 tsp mixed spice",
-            "250g golden caster sugar",
-            "3 eggs, beaten",
-            "coarsely grated zest 1 orange",
-            "85g raisins",
-            "85g dried cherries",
-            "50g blanched almonds",
-            "50g shelled pistachios"
+            "350 g de harina común y un poco más para enrollar",
+            "2 cucharaditas de polvo para hornear",
+            "2 cucharaditas de especias mixtas",
+            "250 g de azúcar en polvo dorado",
+            "3 huevos batidos",
+            "ralladura gruesa 1 naranja",
+            "85 g de pasas",
+            "85 g de cerezas secas",
+            "50 g de almendras blanqueadas",
+            "50 g de pistachos sin cáscara"
         ],
         "method": [
-            "Heat oven to 180C/fan 160C/gas 4. Line\r\n2 baking sheets with baking paper. Put the\r\nflour, baking powder, spice and sugar in a large\r\nbowl, then mix well. Stir in the eggs and zest\r\nuntil the mixture starts forming clumps, then\r\nbring the dough together with your hands – it\r\nwill seem dry at first but keep kneading until no\r\nfloury patches remain. Add the fruit and nuts,\r\nthen work them in until evenly distributed.",
-            "Turn the dough out onto a lightly floured\r\nsurface and divide into 4 pieces. With lightly\r\nfloured hands, roll each piece into a sausage\r\nabout 30cm long. Place 2 on each tray, well\r\nspaced apart. Bake for 25-30 mins until the\r\ndough has risen and spread and feels firm.\r\nIt should still look pale. Remove from the\r\noven, transfer to a wire rack for a few mins\r\nuntil cool enough to handle, then turn down\r\nthe oven to 140C/fan 120C/gas 1.",
-            "Using a bread knife, cut into slices about 1cm\r\nthick on the diagonal, then lay the slices flat on\r\nthe baking sheets. The biscuits can be cooled\r\nand frozen flat on the sheet at this point, then\r\nbagged and frozen for up to 2 months. Bake\r\nfor another 15 mins (20 mins if from frozen),\r\nturn over, then bake again for another 15 mins\r\nuntil dry and golden. Tip onto a wire rack to\r\ncool completely, then store in an airtight tin\r\nfor up to one month, or pack into boxes or\r\ncellophane bags if giving as gifts straightaway."
+            "Calentar el horno a 180C/ventilador 160C/gas 4. Línea\r\n2 bandejas para hornear con papel de horno. Pon el\r\nharina, levadura en polvo, especias y azúcar en una olla grande\r\ntazón, luego mezcle bien. Agregue los huevos y la ralladura.\r\nhasta que la mezcla comience a formar grumos, luego\r\njunte la masa con las manos – se\r\nParecerá seco al principio, pero sigue amasando hasta que ya no esté.\r\nquedan manchas harinosas. Añade las frutas y nueces,\r\nluego trabaje hasta que se distribuyan uniformemente.",
+            "Colocar la masa sobre una superficie ligeramente enharinada.\r\nsuperficie y dividir en 4 pedazos. con ligeramente\r\nCon las manos enharinadas, enrolle cada trozo hasta formar una salchicha.\r\nunos 30 cm de largo. Coloca 2 en cada bandeja, bien\r\nespaciados. Hornee durante 25-30 minutos hasta que\r\nla masa ha subido, se ha extendido y se siente firme.\r\nAún debería verse pálido. Quitar del\r\nHorno, transfiéralo a una rejilla durante unos minutos.\r\nhasta que esté lo suficientemente frío como para manipularlo, luego bájelo\r\nel horno a 140C/ventilador 120C/gas 1.",
+            "Con un cuchillo para pan, cortar en rodajas de aproximadamente 1 cm.\r\nde espesor en diagonal, luego coloque las rodajas planas\r\nlas bandejas para hornear. Las galletas se pueden enfriar.\r\ny congelado sobre la sábana en este punto, luego\r\nEmbolsado y congelado por hasta 2 meses. hornear\r\ndurante otros 15 minutos (20 minutos si está congelado),\r\nVoltee y hornee nuevamente por otros 15 minutos.\r\nhasta que esté seco y dorado. Vierta sobre una rejilla para\r\nDeje enfriar completamente y luego guárdelo en una lata hermética.\r\npor hasta un mes, o empacar en cajas o\r\nBolsas de celofán si se regalan de inmediato."
         ],
         "nutritional_info": {
             "kcal": "50",
@@ -1307,29 +1307,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/all-american-chocolate-chunk-cookies/",
-        "title": "[ES] All-American chocolate chunk cookies",
-        "description": "(Translation pending) Irresistible All-American chocolate chunk cookies",
+        "title": "Galletas con trozos de chocolate totalmente americanas",
+        "description": "Irresistibles galletas con trozos de chocolate totalmente americano",
         "prep_time": "",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "300g plain chocolate (about 55% cocoa solids)",
-            "100g bar milk chocolate",
-            "100g light muscovado sugar",
-            "85g butter, at room temperature",
-            "100g peanut butter, crunchy is best",
-            "1 medium egg",
-            "½ tsp vanilla extract",
-            "100g self-raising flour",
-            "100g large salted roasted peanuts"
+            "300 g de chocolate natural (aproximadamente 55 % de sólidos de cacao)",
+            "100 g de barra de chocolate con leche",
+            "100 g de azúcar mascabado light",
+            "85 g de mantequilla, a temperatura ambiente",
+            "100 g de mantequilla de maní, mejor crujiente",
+            "1 huevo mediano",
+            "½ cucharadita de extracto de vainilla",
+            "100 g de harina con levadura",
+            "100 g de maní tostado grande y salado"
         ],
         "method": [
-            "Preheat the oven to 180C/gas 4/fan 160C.Gather together and weigh all the ingredients.",
-            "Chop 200g/7oz of the plain chocolate into rough, irregular chunks. Chop the milk chocolate in the same way, but keep separate.",
-            "Break the remaining plain chocolate into a large heatproof mixing bowl. Melt in the microwave on medium for about 11?2 minutes (or over a pan of simmering water).",
-            "Stir the chocolate until melted, then tip in the sugar, butter, peanut butter, egg and vanilla and beat with a wooden spoon until well mixed. Stir in the flour, all the milk chocolate chunks, the nuts (no need to chop) and half the plain chocolate chunks. The mixture will feel quite soft, and drop easily from the spoon if you shake it.",
-            "Drop big spoonfuls in 12 piles on to 2 or 3 baking sheets, leaving room for them to spread (you may need to bake in batches). Stick the remaining chunks into the cookies (2-3 pieces in each).",
-            "Bake for 10-12 minutes until they are tinged very slightly darker around the edges. The smell will let you know they are ready. They will be soft in the middle, but will crisp up as they cool. (Cook for longer and you’ll have crisper cookies.) Let them cool and firm up for a few minutes on the baking sheet (they’ll break if you move them while still hot), then lift off with a wide spatula on to a cooling rack. They will keep crisp in an airtight tin for 3-4 days."
+            "Precalentar el horno a 180C/gas 4/ventilador 160C. Reunir y pesar todos los ingredientes.",
+            "Pica 200 g/7 oz de chocolate natural en trozos ásperos e irregulares. Picar el chocolate con leche de la misma forma, pero reservarlo por separado.",
+            "Rompe el chocolate natural restante en un tazón grande resistente al calor. Derrita en el microondas a temperatura media durante aproximadamente 11 a 2 minutos (o sobre una cacerola con agua hirviendo).",
+            "Revuelve el chocolate hasta que se derrita, luego agrega el azúcar, la mantequilla, la mantequilla de maní, el huevo y la vainilla y bate con una cuchara de madera hasta que esté bien mezclado. Agrega la harina, todos los trozos de chocolate con leche, las nueces (no es necesario picar) y la mitad de los trozos de chocolate natural. La mezcla se sentirá bastante suave y se caerá fácilmente de la cuchara si la agitas.",
+            "Deje caer cucharadas grandes en 12 montones sobre 2 o 3 bandejas para hornear, dejando espacio para que se extiendan (es posible que deba hornear en tandas). Introduce los trozos restantes en las galletas (2-3 trozos en cada uno).",
+            "Hornee durante 10-12 minutos hasta que se oscurezcan un poco alrededor de los bordes. El olor te hará saber que están listos. Quedarán suaves en el medio, pero se pondrán crujientes a medida que se enfríen. (Cocine por más tiempo y tendrá galletas más crujientes). Déjelas enfriar y endurecer durante unos minutos en la bandeja para hornear (se romperán si las mueve mientras aún están calientes), luego levántelas con una espátula ancha y colóquelas en una rejilla para enfriar. Se mantendrán crujientes en una lata hermética durante 3 o 4 días."
         ],
         "nutritional_info": {
             "kcal": "381",
@@ -1346,22 +1346,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/coconut-and-chocolate-macaroons/",
-        "title": "[ES] Coconut & chocolate macaroons",
-        "description": "(Translation pending) A delicious macaroon with the tropical taste of fresh coconut",
+        "title": "Macarrones de coco y chocolate",
+        "description": "Un delicioso macarrón con el sabor tropical del coco fresco.",
         "prep_time": "30 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "1 egg white",
-            "200g caster sugar",
-            "4 tbsp plain flour",
-            "200g coarsely grated fresh coconut (about 1 coconut in total)",
-            "150g bar dark chocolate, chopped"
+            "1 clara de huevo",
+            "200 g de azúcar en polvo",
+            "4 cucharadas de harina común",
+            "200 g de coco fresco rallado grueso (aproximadamente 1 coco en total)",
+            "150 g de barra de chocolate negro, picado"
         ],
         "method": [
-            "Heat the oven to 180C/fan 160C/gas 4. In a clean bowl, whisk the egg whites until stiff then gradually add the sugar, whisking continuously until thick and glossy. Sift in the flour, then fold into the egg whites with the coconut until completely combined.",
-            "Using an 8cm pastry cutter, squash spoonfuls of the mixture onto a baking tray lined with non-stick baking paper or silicone plastic sheets – you may need to do this in two batches.  Bake for 15-18 mins until golden around the edges and just starting to brown on top. Leave to cool, then transfer to a rack.",
-            "While the macaroons are cooling, melt the chocolate in a microwave or over a pan of hot water and leave to cool slightly. Cover the smooth side with chocolate and leave to set in the fridge. The macaroons will keep in an airtight container for 2 days."
+            "Calentar el horno a 180C/ventilador 160C/gas 4. En un recipiente limpio, bata las claras hasta que estén firmes y luego agregue gradualmente el azúcar, batiendo continuamente hasta que quede espesa y brillante. Tamizar la harina y luego incorporar las claras con el coco hasta que estén completamente combinados.",
+            "Con un cortador de masa de 8 cm, aplasta cucharadas de la mezcla en una bandeja para hornear forrada con papel de hornear antiadherente o láminas de plástico de silicona; es posible que tengas que hacerlo en dos tandas.  Hornee durante 15-18 minutos hasta que estén dorados en los bordes y empiecen a dorarse por encima. Deje enfriar y luego transfiéralo a una rejilla.",
+            "Mientras los macarrones se enfrían, derrita el chocolate en el microondas o sobre una cacerola con agua caliente y déjelo enfriar un poco. Cubrir el lado liso con chocolate y dejar reposar en el frigorífico. Los macarrones se conservarán en un recipiente hermético durante 2 días."
         ],
         "nutritional_info": {
             "kcal": "206",
@@ -1378,25 +1378,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/toffee-apple-cookies/",
-        "title": "[ES] Toffee apple cookies",
-        "description": "(Translation pending) These are truly delicious – crunchy round the edges, chewy in the centre",
+        "title": "Galletas de manzana y caramelo",
+        "description": "Son realmente deliciosos: crujientes en los bordes y masticables en el centro.",
         "prep_time": "15 mins Cook: 12 mins Plus cooling time",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "175g unsalted butter, at room temperature",
-            "140g golden caster sugar",
-            "2 egg yolks",
-            "50g ground almonds",
-            "85g chewy toffees, roughly chopped",
-            "85g/3oz ready-to-eat dried apple chunks, roughly chopped",
-            "225g self-raising flour",
-            "2 tbsp milk"
+            "175 g de mantequilla sin sal, a temperatura ambiente",
+            "140 g de azúcar en polvo dorado",
+            "2 yemas de huevo",
+            "50 g de almendras molidas",
+            "85 g de caramelos masticables, picados en trozos grandes",
+            "85 g/3 oz de trozos de manzana secos listos para comer, picados en trozos grandes",
+            "225 g de harina con levadura",
+            "2 cucharadas de leche"
         ],
         "method": [
-            "Preheat the oven to fan 170C/conventional 190C/gas 5. Using\r\nan electric whisk, beat together\r\nthe butter and sugar until pale\r\nand creamy.",
-            "Stir in the egg yolks, ground\r\nalmonds, toffees, dried apple and\r\nflour. Mix well together then roll into\r\nwalnut-sized balls.",
-            "Place well apart on two non-stick\r\nor lined baking sheets and flatten\r\nslightly with your hand. Brush with\r\nmilk and bake for 8-12 minutes until\r\ngolden. Leave to firm up for 5\r\nminutes, then transfer to a wire rack\r\nand leave to cool completely."
+            "Precalentar el horno a 170C ventilado/convencional 190C/gas 5. Usando\r\nuna batidora eléctrica, batir\r\nla mantequilla y el azúcar hasta que estén pálidas\r\ny cremoso.",
+            "Agregue las yemas de huevo molidas.\r\nalmendras, toffees, manzana seca y\r\nharina. Mezclar bien y luego enrollar\r\nbolitas del tamaño de una nuez.",
+            "Colóquelos bien separados sobre dos\r\no bandejas para hornear forradas y aplanar\r\nligeramente con la mano. Pincel con\r\nleche y hornee durante 8-12 minutos hasta que\r\ndorado. Dejar endurecer durante 5\r\nminutos, luego transfiéralo a una rejilla\r\ny dejar enfriar por completo."
         ],
         "nutritional_info": {
             "kcal": "148",
@@ -1413,26 +1413,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/blueberry-and-pecan-oaties/",
-        "title": "[ES] Blueberry & pecan oaties",
-        "description": "(Translation pending) Make double the quantity of this fruity cookie dough and freeze, so delicious home-baked biscuits are always close at hand",
+        "title": "Avena de arándanos y nueces",
+        "description": "Haga el doble de cantidad de esta masa para galletas afrutada y congélela, para tener siempre a mano deliciosas galletas caseras.",
         "prep_time": "20 mins Cook: 15 mins Plus chilling",
         "cook_time": "",
         "serves": "12 cookies",
         "ingredients": [
-            "175g plain flour, plus extra for dusting",
-            "½ tsp baking powder",
-            "85g porridge oats",
-            "175g golden caster sugar",
-            "1 tsp ground cinnamon",
-            "140g butter, chopped",
-            "70g pack dried blueberries (or use raisins or dried cranberries)",
-            "50g pecans, roughly broken",
-            "1 egg, beaten"
+            "175 g de harina común y un poco más para espolvorear",
+            "½ cucharadita de polvo para hornear",
+            "85 g de gachas de avena",
+            "175 g de azúcar en polvo dorado",
+            "1 cucharadita de canela molida",
+            "140 g de mantequilla picada",
+            "Paquete de 70 g de arándanos secos (o utilice pasas o arándanos secos)",
+            "50 g de nueces pecanas, partidas toscamente",
+            "1 huevo batido"
         ],
         "method": [
-            "Tip the flour, baking powder, oats,\r\nsugar and cinnamon into a bowl, then mix\r\nwell with your hands. Add the butter, then\r\nrub it into the mixture until it has disappeared.",
-            "Stir in the blueberries and pecans,\r\nadd the egg, then mix well with a cutlery\r\nknife or wooden spoon until it all comes\r\ntogether in a big ball. Lightly flour the work\r\nsurface, then roll the dough into a fat sausage\r\nabout 6cm across. Wrap in cling film, then\r\nchill in the fridge until solid.",
-            "To bake, heat oven to 180C/fan 160C/\r\ngas 4. Unwrap the cookie log, thickly slice\r\ninto discs, then arrange on baking sheets.\r\nBake for 15 mins (or a few mins more if\r\nfrom frozen) until golden, leave on the trays\r\nto harden, then cool completely on a wire\r\nrack before tucking in."
+            "Vierta la harina, el polvo para hornear, la avena,\r\nazúcar y canela en un tazón, luego mezcle\r\nbien con las manos. Agrega la mantequilla, luego\r\nfrótelo en la mezcla hasta que haya desaparecido.",
+            "Agregue los arándanos y las nueces,\r\nagregue el huevo, luego mezcle bien con un cubierto\r\ncuchillo o cuchara de madera hasta que venga todo\r\njuntos en una gran bola. Enharinar ligeramente la obra\r\nsuperficie, luego enrolle la masa hasta formar una salchicha\r\nunos 6 cm de ancho. Envuélvalo en film transparente y luego\r\nenfríe en el refrigerador hasta que esté sólido.",
+            "Para hornear, calentar el horno a 180C/ventilador 160C/\r\ngas 4. Desenvuelva el tronco de galleta, córtelo en rodajas gruesas\r\nen discos, luego colóquelos en bandejas para hornear.\r\nHornee durante 15 minutos (o unos minutos más si\r\ndesde congelado) hasta que esté dorado, dejar en las bandejas\r\nendurecer, luego enfriar completamente sobre un alambre\r\nrejilla antes de meterlo."
         ],
         "nutritional_info": {
             "kcal": "274",
@@ -1449,27 +1449,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/almond-and-lemon-curd-buttons/",
-        "title": "[ES] Almond & lemon curd buttons",
-        "description": "(Translation pending) Hidden inside these crumbly biscuits lies aheart of lemon curd, giving an unexpectedburst of flavour",
+        "title": "Botones de cuajada de almendras y limón",
+        "description": "Escondido dentro de estas galletas desmenuzables se encuentra un corazón de cuajada de limón, que le da una inesperada explosión de sabor.",
         "prep_time": "15 mins Cook: 15 mins Plus chilling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "250g butter, softened",
-            "140g golden caster sugar, plus extra",
-            "1 egg",
-            "1 tsp vanilla extract",
-            "zest 2 lemons",
-            "300g plain flour",
-            "100g ground almonds",
-            "a little milk, to seal",
-            "about 3 tbsp lemon curd",
-            "flaked almonds, for the top"
+            "250 g de mantequilla, ablandada",
+            "140 g de azúcar en polvo dorado, más extra",
+            "1 huevo",
+            "1 cucharadita de extracto de vainilla",
+            "ralladura de 2 limones",
+            "300 g de harina común",
+            "100 g de almendras molidas",
+            "un poco de leche, para sellar",
+            "aproximadamente 3 cucharadas de cuajada de limón",
+            "almendras en hojuelas, para la parte superior"
         ],
         "method": [
-            "Heat oven to 190C/fan 170C/gas 5.\r\nBeat the butter, sugar, egg, vanilla, zest\r\nand a pinch of salt in a large bowl until\r\nsmooth, then fold in the flour and ground\r\nalmonds. Shape into 2 rounds, flatten\r\nthem, then wrap in cling film and chill\r\nuntil firm, about 30 mins.",
-            "Roll out 1 piece of dough on a floured\r\nsurface to about £1 thickness, then\r\nstamp out rounds with a 7cm cutter.\r\nBrush all over with milk, then spoon\r\n20p-size blobs of lemon curd into the\r\nmiddle of half of the rounds.",
-            "Carefully lay the remaining rounds\r\non top of the lemon curd, then gently\r\npress around the edges with your fingers\r\nto seal. Scatter with a little caster sugar\r\nand the flaked almonds. Bake for 15 mins\r\nuntil light golden. Repeat with remaining\r\npastry, then squish any offcuts together\r\nand re-roll. You can freeze the biscuits\r\nbefore baking, but add up to 5 mins more\r\nto the cooking time."
+            "Calentar el horno a 190C/ventilador 170C/gas 5.\r\nBatir la mantequilla, el azúcar, el huevo, la vainilla y la ralladura.\r\ny una pizca de sal en un bol grande hasta que\r\nsuave, luego agregue la harina y el suelo\r\nalmendras. Forme 2 rondas y aplánelas.\r\nluego envuélvalos en film transparente y enfríelos.\r\nhasta que esté firme, unos 30 minutos.",
+            "Extienda 1 trozo de masa sobre una mesa enharinada.\r\nsuperficie hasta obtener aproximadamente £1 de espesor, luego\r\nSelle las rondas con un cortador de 7 cm.\r\nCepille todo con leche, luego vierta\r\ngotas de cuajada de limón del tamaño de 20 peniques en el\r\nmitad de la mitad de las rondas.",
+            "Coloque con cuidado las rondas restantes.\r\nencima de la cuajada de limón, luego suavemente\r\npresione alrededor de los bordes con los dedos\r\npara sellar. Espolvorear con un poco de azúcar en polvo\r\ny las almendras laminadas. Hornear por 15 minutos\r\nhasta que esté ligeramente dorado. Repita con el resto\r\nhojaldre, luego aplaste los restos\r\ny volver a rodar. Puedes congelar las galletas.\r\nantes de hornear, pero agregue hasta 5 minutos más\r\nal tiempo de cocción."
         ],
         "nutritional_info": {
             "kcal": "225",
@@ -1486,21 +1486,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/shortbread/",
-        "title": "[ES] Shortbread recipe",
-        "description": "(Translation pending) Bake these classic shortbread biscuits to wow a crowd. You only need four ingredients, but you can mix it up with lemon or orange zest, or try adding chopped pistachios",
+        "title": "Receta de galletas de mantequilla",
+        "description": "Hornea estas clásicas galletas de mantequilla para sorprender a la multitud. Solo necesitas cuatro ingredientes, pero puedes mezclarlo con ralladura de limón o naranja, o intentar agregar pistachos picados.",
         "prep_time": "15 mins Cook: 25 mins Plus chilling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "300g butter, softened",
-            "140g golden caster sugar, plus 4 tbsp",
-            "300g plain flour",
-            "140g rice flour"
+            "300 g de mantequilla blanda",
+            "140 g de azúcar en polvo dorado, más 4 cucharadas",
+            "300 g de harina común",
+            "140 g de harina de arroz"
         ],
         "method": [
-            "Place the butter and 140g sugar in a\r\nfood processor and whizz until smooth.\r\nTip in both the flours and a pinch of salt,\r\nthen whizz until mixture comes together.",
-            "Using your hands, roughly spread the\r\nmixture out in a 20 x 30 x 4cm baking tray.\r\nCover with cling film and smooth over\r\nuntil there are no wrinkles. Place in the\r\nfridge, uncooked, for at least 30 mins\r\nand up to 2 days.",
-            "Heat oven to 180C/160C fan/gas 4.\r\nRemove cling film, then lightly mark the\r\nshortbread all over with a fork. Sprinkle\r\nwith the remaining sugar, then bake for\r\n20-25 mins. Leave to cool in the tin, then\r\ncut into 24 thin slices. Shortbread will keep\r\nin an airtight container for up to 1 week."
+            "Coloque la mantequilla y 140 g de azúcar en un\r\nprocesador de alimentos y bata hasta que quede suave.\r\nIncorpora ambas harinas y una pizca de sal.\r\nluego mezcle hasta que la mezcla se una.",
+            "Con las manos, extienda aproximadamente la\r\nMezcle en una bandeja para hornear de 20 x 30 x 4 cm.\r\nCubrir con film transparente y alisar.\r\nhasta que no queden arrugas. Colocar en el\r\nrefrigerador, crudo, durante al menos 30 minutos\r\ny hasta 2 días.",
+            "Calentar el horno a 180C/160C ventilador/gas 4.\r\nRetire la película adhesiva y luego marque ligeramente el\r\ngalletas de mantequilla por todas partes con un tenedor. espolvorear\r\ncon el azúcar restante, luego hornee por\r\n20-25 minutos. Dejar enfriar en el molde y luego\r\ncortar en 24 rodajas finas. Las galletas de mantequilla se mantendrán\r\nen un recipiente hermético por hasta 1 semana."
         ],
         "nutritional_info": {
             "kcal": "188",
@@ -1517,24 +1517,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/gooey-chocolate-cherry-cookies/",
-        "title": "[ES] Gooey chocolate cherry cookies",
-        "description": "(Translation pending) If you like American-style cookies, you’ll lovethese pale, chewy delights. Plus, they can be baked from frozen",
+        "title": "Galletas pegajosas de chocolate y cereza",
+        "description": "Si te gustan las galletas al estilo americano, te encantarán estas delicias pálidas y masticables. Además, se pueden hornear congelados.",
         "prep_time": "15 mins Cook: 14 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "200g unsalted butter, at room temperature",
-            "85g light muscovado sugar",
-            "85g golden caster sugar",
-            "1 egg",
-            "225g self-raising flour",
-            "50g plain chocolate, 50-70% cocoa, roughly chopped",
-            "50g white chocolate, roughly chopped",
-            "85g natural colour glacé cherries, roughly chopped"
+            "200 g de mantequilla sin sal, a temperatura ambiente",
+            "85 g de azúcar mascabado light",
+            "85 g de azúcar en polvo dorado",
+            "1 huevo",
+            "225 g de harina con levadura",
+            "50 g de chocolate natural, 50-70 % de cacao, picado en trozos grandes",
+            "50 g de chocolate blanco, picado en trozos grandes",
+            "85 g de cerezas glaseadas de color natural, picadas en trozos grandes"
         ],
         "method": [
-            "Heat oven to 190C/fan 170C/gas 5.\r\nBeat the butter, sugars and egg until\r\nsmooth, then mix in the flour, chocolates\r\nand cherry pieces and ½ tsp salt. Spoon\r\nonto non-stick baking sheets in large\r\nrough blobs – you’ll get 20 out of this\r\nmix. Make sure they are well spaced as\r\nthe cookies grow substantially as they\r\nbake. The raw dough can be frozen.",
-            "Bake for 12-14 mins until just golden,\r\nbut still quite pale and soft in the middle.\r\nIf baking from frozen, give them a few\r\nmins more. Cool on the sheets for 5 mins,\r\nthen lift onto racks with a fish slice and\r\nleave to cool completely."
+            "Calentar el horno a 190C/ventilador 170C/gas 5.\r\nBatir la mantequilla, el azúcar y el huevo hasta\r\nsuave, luego mezcle la harina, los chocolates\r\ny trozos de cereza y ½ cucharadita de sal. Cuchara\r\nen bandejas para hornear antiadherentes en trozos grandes\r\nmanchas ásperas: obtendrás 20 de esto\r\nmezclar. Asegúrese de que estén bien espaciados\r\nlas galletas crecen sustancialmente a medida que\r\nhornear. La masa cruda se puede congelar.",
+            "Hornee durante 12-14 minutos hasta que esté dorado.\r\npero todavía bastante pálido y suave en el medio.\r\nSi hornea congelados, deles unos cuantos\r\nminutos más. Dejar enfriar en las sábanas durante 5 minutos.\r\nluego levántelo sobre las rejillas con una rodaja de pescado y\r\ndejar enfriar por completo."
         ],
         "nutritional_info": {
             "kcal": "186",

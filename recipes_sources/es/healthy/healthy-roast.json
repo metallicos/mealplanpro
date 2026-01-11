@@ -1,26 +1,26 @@
 [
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/whole-roast-chicken-with-braised-roots-peas/",
-        "title": "[ES] Whole roast chicken with braised roots & peas",
-        "description": "(Translation pending) Layer swede, potato and leeks to roast alongside a chicken for a healthy dinner. A whole chicken is budget-friendly as it can provide leftovers for the week",
+        "title": "Pollo entero asado con raíces y guisantes estofados",
+        "description": "Coloque capas de colinabo, patatas y puerros para asar junto con un pollo y disfrutar de una cena saludable. Un pollo entero es económico ya que puede proporcionar sobras para la semana.",
         "prep_time": "10 mins Cook: 50 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "800g medium potatoes, thinly sliced",
-            "1 large leek (about 350g), sliced",
-            "1 tbsp thyme leaves, plus the stalks",
-            "4 garlic cloves, chopped",
-            "500g swede, thinly sliced",
-            "450ml vegetable stock, made with 2 tsp bouillon powder",
-            "1 tbsp rapeseed oil",
-            "1.3kg whole chicken",
-            "320g frozen peas"
+            "800 g de patatas medianas, en rodajas finas",
+            "1 puerro grande (unos 350 g), en rodajas",
+            "1 cucharada de hojas de tomillo, más los tallos",
+            "4 dientes de ajo, picados",
+            "500 g de colinabo, en rodajas finas",
+            "450 ml de caldo de verduras, elaborado con 2 cucharaditas de caldo en polvo",
+            "1 cucharada de aceite de colza",
+            "1,3 kg de pollo entero",
+            "320 g de guisantes congelados"
         ],
         "method": [
-            "Heat the oven to 200C/180C fan/gas 6. Mix the potatoes, leeks, thyme, garlic and swede in a deep, non-stick roasting tin. Shake into an even layer. Pour in the stock and brush the veg with the oil. Roast for 20 mins.",
-            "Put the thyme stalks inside the chicken cavity. After 20 mins, sit the chicken on top of the veg and roast for 1 hr until cooked through. After 30 mins, check the potatoes – add 150ml water if they start to catch. Remove the chicken to a board to rest for 10 mins. Meanwhile, cook half the peas following pack instructions.",
-            "Carveoff the chicken legs and remove their skin, then serve with half the roast veg and the peas.Leave the remaining chicken and veg to cool, then keep chilled for up to three days. To prepare the leftovers, remove the skin from one of the breasts, and reheat it with the veg in the microwave until piping hot. Cook the remaining peas following pack instructions. Slice the breast and serve with the veg. Use the final breast for these spiced chicken egg wraps.This recipe is part of our free 7-day healthy diet plan. To access the full meal plan,click here."
+            "Calentar el horno a 200C/180C ventilador/gas 6. Mezclar las patatas, los puerros, el tomillo, el ajo y el nabo en una fuente para asar profunda y antiadherente. Agite hasta obtener una capa uniforme. Vierta el caldo y unte las verduras con el aceite. Ase durante 20 minutos.",
+            "Coloca los tallos de tomillo dentro de la cavidad del pollo. Después de 20 minutos, coloque el pollo encima de las verduras y ase durante 1 hora hasta que esté bien cocido. Después de 30 minutos, revisa las patatas; añade 150 ml de agua si empiezan a prenderse. Retire el pollo a una tabla para que repose durante 10 minutos. Mientras tanto, cocine la mitad de los guisantes siguiendo las instrucciones del paquete.",
+            "Corte las piernas de pollo y quíteles la piel, luego sírvalas con la mitad de las verduras asadas y los guisantes. Deje que el pollo y las verduras restantes se enfríen y luego manténgalos fríos por hasta tres días. Para preparar las sobras, retira la piel de una de las pechugas y recaliéntala con las verduras en el microondas hasta que esté bien caliente. Cocine los guisantes restantes siguiendo las instrucciones del paquete. Cortar la pechuga y servir con las verduras. Utilice la pechuga final para estos wraps de huevo de gallina con especias. Esta receta es parte de nuestro plan de dieta saludable gratuito de 7 días. Para acceder al plan de alimentación completo, haga clic aquí."
         ],
         "nutritional_info": {
             "kcal": "555",
@@ -37,29 +37,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/healthy-roast-dinner/",
-        "title": "[ES] Healthy roast dinner",
-        "description": "(Translation pending) Cook a healthy, low-fat version of roast beef for two, made with lean, juicy steak and roasted veg, plus gravy on the side",
+        "title": "Cena asada saludable",
+        "description": "Cocine una versión saludable y baja en grasa de rosbif para dos, hecha con carne magra y jugosa y verduras asadas, además de salsa como acompañamiento",
         "prep_time": "15 mins Cook: 50 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "285g medium potatoes, thickly sliced",
-            "4 small carrots (160g), halved lengthways",
-            "2 x 80g red onions, cut into quarters",
-            "170g large Brussels sprouts (about 8-10), trimmed",
-            "2½ tsp rapeseed oil",
-            "2 tsp thyme leaves",
-            "2 tsp balsamic vinegar",
-            "1 large garlic clove, finely grated",
-            "2 pinches of English mustard powder",
-            "170g thick, lean fillet steak",
-            "½ tsp vegetable bouillon powder"
+            "285 g de patatas medianas, en rodajas gruesas",
+            "4 zanahorias pequeñas (160 g), cortadas por la mitad a lo largo",
+            "2 x 80 g de cebollas moradas, cortadas en cuartos",
+            "170 g de coles de Bruselas grandes (unas 8-10), recortadas",
+            "2½ cucharaditas de aceite de colza",
+            "2 cucharaditas de hojas de tomillo",
+            "2 cucharaditas de vinagre balsámico",
+            "1 diente de ajo grande, finamente rallado",
+            "2 pizcas de mostaza inglesa en polvo",
+            "170 g de filete magro y grueso",
+            "½ cucharadita de caldo de verduras en polvo"
         ],
         "method": [
-            "Heat the oven to 180C/160C fan/gas 4. Bring a large pan of water to the boil and cook the potatoes for 5 mins. Drain, reserving the water.",
-            "Toss the potatoes, carrots, onions and sprouts with 2 tsp of the oil to coat. Arrange on a non-stick baking sheet, spaced apart. Scatter with 1 tsp of the thyme, grind over some black pepper, then roast for 30 mins.",
-            "Meanwhile, mix 1 tsp of the vinegar with the garlic, remaining thyme and oil, the mustard and plenty of black pepper. Rub this over the steak, put in a shallow dish and set aside. Mix the rest of the vinegar with the bouillon and 125ml of the reserved water from step 1, then set aside. After 30 mins, turn the veg over and roast for 15 mins more.",
-            "Meanwhile, heat a smallnon-stick frying panover a medium-high heat. Lift the steak out of the marinade, shake off the excess and fry for 2-3 mins on each side until cooked to your liking. Remove to a board and leave to rest. Pour the leftover marinade into the frying pan and bubble until thickened slightly to make a gravy. Slice the steak and serve with the roast veg and gravy on the side."
+            "Calentar el horno a 180C/160C ventilador/gas 4. Llevar a ebullición una cacerola grande con agua y cocinar las patatas durante 5 minutos. Escurrir reservando el agua.",
+            "Mezcle las patatas, las zanahorias, las cebollas y los brotes con 2 cucharaditas de aceite para cubrirlos. Colóquelos en una bandeja para hornear antiadherente, espaciados. Espolvoree con 1 cucharadita de tomillo, muela sobre un poco de pimienta negra y luego ase durante 30 minutos.",
+            "Mientras tanto, mezcla 1 cucharadita de vinagre con el ajo, el resto del tomillo y el aceite, la mostaza y abundante pimienta negra. Frote esto sobre el bistec, póngalo en un plato poco profundo y reserve. Mezclar el resto del vinagre con el caldo y 125ml del agua reservada del paso 1, luego reservar. Después de 30 minutos, dé la vuelta a las verduras y ase durante 15 minutos más.",
+            "Mientras tanto, calienta una pequeña sartén antiadherente a fuego medio-alto. Saque el bistec de la marinada, sacuda el exceso y fríalo durante 2-3 minutos por cada lado hasta que esté cocido a su gusto. Retirar a una tabla y dejar reposar. Vierta la marinada sobrante en la sartén y burbujee hasta que espese un poco para hacer una salsa. Corta el bistec en rodajas y sírvelo con las verduras asadas y la salsa a un lado."
         ],
         "nutritional_info": {
             "kcal": "370",
@@ -76,28 +76,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/pomegranate-brisket/",
-        "title": "[ES] Pomegranate brisket",
-        "description": "(Translation pending) Add the sour-sweet notes of pomegranate molasses to bring amazing depth of flavour to this slow-cooked beef dish. This is a popular dish at Jewish festivals",
+        "title": "pechuga de granada",
+        "description": "Agregue las notas agridulces de la melaza de granada para darle una increíble profundidad de sabor a este plato de carne de res cocido a fuego lento. Este es un plato popular en las fiestas judías.",
         "prep_time": "30 mins Cook: 3 hrs plus overnight marinating and resting",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "beef brisket (if rolled, unroll it)",
-            "red onions, finely sliced",
-            "½ pomegranate, seeds only",
-            "cooked giant couscous tossed through with 10g coriander leaves, a little urfa chilli, sliced cucumber and lemon zest (optional), to serve",
-            "120ml pomegranate molasses",
-            "60ml olive oil",
-            "2 tsp ras el hanout",
-            "4 garlic cloves, finely chopped",
-            "1 tsp urfa chilli flakes"
+            "pechuga de res (si está enrollada, desenróllela)",
+            "cebollas rojas, cortadas finamente",
+            "½ granada, solo semillas",
+            "cuscús gigante cocido mezclado con 10 g de hojas de cilantro, un poco de chile urfa, rodajas de pepino y ralladura de limón (opcional), para servir",
+            "120 ml de melaza de granada",
+            "60 ml de aceite de oliva",
+            "2 cucharaditas de primavera",
+            "4 dientes de ajo, finamente picados",
+            "1 cucharadita de hojuelas de chile urfa"
         ],
         "method": [
-            "Mix the marinade ingredients in a small bowl with ¾ tsp fine salt. Put the beef in a large, ovenproof dish. Pour half the marinade over the beef and spread evenly, then turn it over and pour the rest over the meat over the meat to coat. Cover and chill overnight.",
-            "Remove the meat from the fridge up to 1 hr before cooking to come up to room temperature. If it’s a hot day, you can reduce that to 30 mins. Heat the oven to 240C/220C fan/gas 9.",
-            "Turn the meat in the marinade to make sure it is well coated, leaving the fatty layer on the top. Put half the sliced onions underneath the meat and spread the rest over the top. Cover the dish loosely with foil, making sure it is properly covered.",
-            "Roast for 15 mins, then turn the oven down to 170C/150C fan/gas 3 and cook for a further 2 hrs 30 mins-3 hrs. Check it to see how tender it is – a fork should go in and come out easily and the meat should flake well, if not, put back in the oven for another 30 mins.",
-            "Rest the brisket for 15 mins, still covered with foil, then transfer to a board. Decorate with the pomegranate seeds. Serve with the giant couscous, if you like, or shred with two forks, then spoon over some of the pomegranate sauce, then serve with pitta bread and dips of your choice."
+            "Mezcle los ingredientes de la marinada en un tazón pequeño con ¾ de cucharadita de sal fina. Coloque la carne en una fuente grande para horno. Vierta la mitad de la marinada sobre la carne y extiéndala uniformemente, luego déle la vuelta y vierta el resto sobre la carne para cubrirla. Cubra y enfríe durante la noche.",
+            "Retire la carne del refrigerador hasta 1 hora antes de cocinarla para que alcance la temperatura ambiente. Si es un día caluroso, puedes reducirlo a 30 minutos. Calentar el horno a 240C/220C ventilador/gas 9.",
+            "Voltee la carne en la marinada para asegurarse de que esté bien cubierta, dejando la capa de grasa en la parte superior. Coloque la mitad de las cebollas cortadas debajo de la carne y esparza el resto por encima. Cubra el plato sin apretar con papel de aluminio, asegurándose de que esté bien cubierto.",
+            "Ase durante 15 minutos, luego baje el horno a 170C/150C ventilador/gas 3 y cocine durante 2 horas 30 minutos-3 horas más. Compruébalo para ver qué tan tierno está: un tenedor debe entrar y salir fácilmente y la carne debe desmenuzarse bien; si no, vuelve a colocarla en el horno por otros 30 minutos.",
+            "Deje reposar la pechuga durante 15 minutos, aún cubierta con papel de aluminio, luego transfiérala a una tabla. Decorar con las semillas de granada. Sirva con el cuscús gigante, si lo desea, o triture con dos tenedores, luego vierta un poco de salsa de granada y luego sirva con pan pita y salsas de su elección."
         ],
         "nutritional_info": {
             "kcal": "612",
@@ -114,29 +114,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/cajun-chicken-traybake-with-sweet-potato-wedges-chive-dip/",
-        "title": "[ES] Cajun chicken traybake with sweet potato wedges & chive dip",
-        "description": "(Translation pending) Sweet potatoes are never as crispy as regular potatoes, but they do add to your 5-a-day. We’ve used kefir in this recipe for its rich contribution of beneficial gut bacteria",
+        "title": "Pollo cajún horneado en bandeja con gajos de batata y salsa de cebollino",
+        "description": "Las batatas nunca son tan crujientes como las patatas normales, pero se suman a tus 5 al día. Hemos utilizado kéfir en esta receta por su rico aporte de bacterias intestinales beneficiosas.",
         "prep_time": "15 mins Cook: 45 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 tsp each of ground cumin and smoked paprika",
-            "1 tsp dried oregano",
-            "1 tbsp fresh thyme leaves or 1 tsp dried",
-            "8 skinless, boneless chicken thighs (900g)",
-            "1 red and 1 yellow pepper, deseeded and chopped",
-            "3 red onions, sliced into 1cm-thin wedges",
-            "2 celery sticks (125g) , finely chopped",
-            "1 tbsp rapeseed oil , plus 1 tsp",
-            "2 sweet potatoes (375g peeled weight), cut into 16 wedges",
-            "150g Kefir or bio yogurt",
-            "2 tbsp snipped chives"
+            "1 cucharadita de comino molido y 1 cucharadita de pimentón ahumado",
+            "1 cucharadita de orégano seco",
+            "1 cucharada de hojas de tomillo fresco o 1 cucharadita seca",
+            "8 muslos de pollo deshuesados ​​y sin piel (900 g)",
+            "1 pimiento rojo y 1 amarillo, sin semillas y picados",
+            "3 cebollas moradas, cortadas en gajos de 1 cm de grosor",
+            "2 ramas de apio (125 g), finamente picadas",
+            "1 cucharada de aceite de colza, más 1 cucharadita",
+            "2 batatas (375 g de peso peladas), cortadas en 16 gajos",
+            "150g kéfir o yogur bio",
+            "2 cucharadas de cebollino picado"
         ],
         "method": [
-            "Heat the oven to 200C/180C fan/gas 6. Mix the cumin, paprika, oregano and thyme together in a bowl, with a good grinding of black pepper. Set aside 1 tbsp for the potatoes. Use the rest to rub all over the chicken thighs.",
-            "Tip the peppers, onions and celery into a large roasting tin and toss with 1 tbsp oil. Spread out the veg so it cooks evenly, then nestle in the chicken. Cover with foil and roast for 40 mins.",
-            "Meanwhile, coat the potato wedges in the 1 tsp oil and remaining spices, and arrange well-spaced apart on a non-stick baking tray. Put in the oven, on a higher shelf, when you have 35 mins left for the chicken. Stir the kefir and chives together to make a dip, adding up to 1 tbsp water to loosen, if needed. Set aside.",
-            "Remove the roasting tin and potatoes from the oven and turn up the heat to 220C/200C fan/gas 7. Remove the chicken to a warm plate and leave to rest for 5 mins. Return the veg to the oven, uncovered, for 5-10 mins to colour a little. Serve half the wedges on plates with half of the chive dip and half the veg and chicken. Cover and chill the remaining portions.Will keep chilled for up to three days. To reheat, gently warm the potatoes in a non-stick frying pan, taking care they don’t burn. Heat the chicken until piping hot in a microwave or pan set over a medium heat. If freezing, leave to defrost fully before reheating in a pan over a medium heat until piping hot."
+            "Calentar el horno a 200C/180C ventilador/gas 6. Mezclar en un bol el comino, el pimentón, el orégano y el tomillo, con un buen molido de pimienta negra. Reserva 1 cucharada para las patatas. Usa el resto para frotar todos los muslos de pollo.",
+            "Coloque los pimientos, las cebollas y el apio en una fuente grande para asar y mezcle con 1 cucharada de aceite. Extienda las verduras para que se cocinen uniformemente y luego colóquelas en el pollo. Cubra con papel aluminio y ase durante 40 minutos.",
+            "Mientras tanto, cubra las rodajas de papa con 1 cucharadita de aceite y las especias restantes y colóquelas bien espaciadas en una bandeja para hornear antiadherente. Mételo en el horno, en un estante más alto, cuando te queden 35 min para el pollo. Revuelva el kéfir y las cebolletas para hacer una salsa, agregando hasta 1 cucharada de agua para aflojar, si es necesario. Dejar de lado.",
+            "Retire la fuente para asar y las patatas del horno y suba el fuego a 220C/200C ventilador/gas 7. Retire el pollo a un plato caliente y déjelo reposar durante 5 minutos. Regrese las verduras al horno, sin tapar, durante 5 a 10 minutos para que tomen un poco de color. Sirva la mitad de los gajos en platos con la mitad de la salsa de cebollino y la mitad de las verduras y el pollo. Cubra y enfríe las porciones restantes. Se mantendrá refrigerado hasta por tres días. Para recalentar, calienta suavemente las patatas en una sartén antiadherente, teniendo cuidado de que no se quemen. Calienta el pollo hasta que esté bien caliente en un microondas o en una sartén a fuego medio. Si se congela, déjelo descongelar completamente antes de recalentarlo en una sartén a fuego medio hasta que esté bien caliente."
         ],
         "nutritional_info": {
             "kcal": "510",
@@ -153,18 +153,18 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/air-fried-roast-potatoes/",
-        "title": "[ES] Air-fried roast potatoes",
-        "description": "(Translation pending) Make roast potatoes in an air fryer to get crispy roasties with a fluffy centre with ease. They make the perfect side dish for a Sunday roast",
+        "title": "Patatas asadas al aire",
+        "description": "Prepare papas asadas en una freidora para obtener asados ​​crujientes con un centro esponjoso con facilidad. Son el acompañamiento perfecto para un asado de domingo.",
         "prep_time": "10 mins Cook: 1 hrs",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1kg Maris Piper potatoes",
-            "1 tbsp sunflower or olive oil"
+            "1 kg de patatas Maris Piper",
+            "1 cucharada de aceite de girasol o de oliva"
         ],
         "method": [
-            "Cut the potatoes into evenly sized pieces, ensuring they're not too big. Steam for 5 mins in a steamer insert set over a pan of boiling water, or simmer gently for 5 mins. Drain well.",
-            "Tip the drained potatoes into the bottom of anair fryer. Add the oil and toss everything together to ensure the potatoes are well-coated. Set the fryer to cook for 30 mins using the paddle. Check the potatoes are cooked through, then cook for another 5-10 mins if they're not tender or brown enough. Season well."
+            "Corta las patatas en trozos del mismo tamaño, asegurándote de que no sean demasiado grandes. Cocine al vapor durante 5 minutos en una vaporera colocada sobre una olla con agua hirviendo, o cocine a fuego lento durante 5 minutos. Escurrir bien.",
+            "Coloque las papas escurridas en el fondo de una freidora. Agrega el aceite y mezcla todo para asegurarte de que las patatas queden bien cubiertas. Configure la freidora para cocinar durante 30 minutos usando la paleta. Verifique que las papas estén bien cocidas, luego cocínelas por otros 5 a 10 minutos si no están tiernas o lo suficientemente doradas. Sazone bien."
         ],
         "nutritional_info": {
             "kcal": "148",
@@ -181,30 +181,30 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/hazelnut-sage-crushed-butternut-squash/",
-        "title": "[ES] Hazelnut & sage crushed butternut squash",
-        "description": "(Translation pending) Add browned butter to crushed butternut squash for a wonderful nuttiness that works beautifully with hazelnuts. A versatile veggie side for roast dinners",
+        "title": "Calabaza triturada con avellanas y salvia",
+        "description": "Agregue mantequilla dorada a la calabaza triturada para obtener un maravilloso sabor a nuez que combina maravillosamente con las avellanas. Una guarnición vegetariana versátil para cenas asadas",
         "prep_time": "15 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "1 large butternut squash (about 1.2 kg), peeled, deseeded and cut into 3cm chunks",
-            "50g butter",
-            "1 tbsp finely chopped sage, plus a few whole leaves to serve",
-            "good grating of nutmeg",
-            "50g blanched hazelnuts, roughly chopped",
-            "1 large butternut squash (about 1.2 kg), peeled, deseeded and cut into 3cm chunks",
-            "50g butter",
-            "1 tbsp finely chopped sage, plus a few whole leaves to serve",
-            "good grating of nutmeg",
-            "50g blanched hazelnuts, roughly chopped"
+            "1 calabaza grande (aproximadamente 1,2 kg), pelada, sin semillas y cortada en trozos de 3 cm",
+            "50 g de mantequilla",
+            "1 cucharada de salvia finamente picada, más unas cuantas hojas enteras para servir",
+            "buen rallado de nuez moscada",
+            "50 g de avellanas blanqueadas, picadas en trozos grandes",
+            "1 calabaza grande (aproximadamente 1,2 kg), pelada, sin semillas y cortada en trozos de 3 cm",
+            "50 g de mantequilla",
+            "1 cucharada de salvia finamente picada, más unas cuantas hojas enteras para servir",
+            "buen rallado de nuez moscada",
+            "50 g de avellanas blanqueadas, picadas en trozos grandes"
         ],
         "method": [
-            "Tip the squash into a large microwavable bowl with 4 tbsp water and season. Cover with a microwaveable plate or lid andmicrowavefor 12-15 mins or until very tender.",
-            "Meanwhile, tip the butter into afrying panand melt over a medium heat. Allow to cook for 2-3 mins until golden brown with a biscuity smell. Add the whole sage leaves for the last minute to crisp up. Remove and set aside.",
-            "Crush the cooked squash with a potato masher and stir though most of the brown butter, the chopped sage, the nutmeg and a generous pinch of salt. Drizzle over the remaining butter and scatter with the hazelnuts and crispy whole sage leaves.",
-            "Tip the squash into a large microwavable bowl with 4 tbsp water and season. Cover with a microwaveable plate or lid andmicrowavefor 12-15 mins or until very tender.",
-            "Meanwhile, tip the butter into afrying panand melt over a medium heat. Allow to cook for 2-3 mins until golden brown with a biscuity smell. Add the whole sage leaves for the last minute to crisp up. Remove and set aside.",
-            "Crush the cooked squash with a potato masher and stir though most of the brown butter, the chopped sage, the nutmeg and a generous pinch of salt. Drizzle over the remaining butter and scatter with the hazelnuts and crispy whole sage leaves."
+            "Vierta la calabaza en un recipiente grande apto para microondas con 4 cucharadas de agua y sazone. Cubra con un plato o tapa apto para microondas y cocine en el microondas durante 12 a 15 minutos o hasta que esté muy tierno.",
+            "Mientras tanto, vierta la mantequilla en una sartén y derrita a fuego medio. Deje cocinar durante 2-3 minutos hasta que esté dorado y con olor a galleta. Agrega las hojas enteras de salvia durante el último minuto para que queden crujientes. Retirar y reservar.",
+            "Triture la calabaza cocida con un machacador de patatas y revuelva la mayor parte de la mantequilla dorada, la salvia picada, la nuez moscada y una pizca generosa de sal. Rocíe el resto de la mantequilla y espolvoree con las avellanas y las crujientes hojas de salvia enteras.",
+            "Vierta la calabaza en un recipiente grande apto para microondas con 4 cucharadas de agua y sazone. Cubra con un plato o tapa apto para microondas y cocine en el microondas durante 12 a 15 minutos o hasta que esté muy tierno.",
+            "Mientras tanto, vierta la mantequilla en una sartén y derrita a fuego medio. Deje cocinar durante 2-3 minutos hasta que esté dorado y con olor a galleta. Agrega las hojas enteras de salvia durante el último minuto para que queden crujientes. Retirar y reservar.",
+            "Triture la calabaza cocida con un machacador de patatas y revuelva la mayor parte de la mantequilla dorada, la salvia picada, la nuez moscada y una pizca generosa de sal. Rocíe el resto de la mantequilla y espolvoree con las avellanas y las crujientes hojas de salvia enteras."
         ],
         "nutritional_info": {
             "kcal": "186",
@@ -221,31 +221,31 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/creamy-baked-cauliflower-with-almond-crumbs/",
-        "title": "[ES] Creamy baked cauliflower with almond crumbs",
-        "description": "(Translation pending) Try our whole baked cauliflower with almonds crumbs for a great veggie centrepiece in a family feast. Crusty garlic bread works nicely alongside",
+        "title": "Coliflor al horno cremosa con migas de almendras",
+        "description": "Pruebe nuestra coliflor entera al horno con migas de almendras para obtener un excelente centro de mesa vegetariano en un festín familiar. El pan de ajo crujiente combina muy bien con",
         "prep_time": "15 mins Cook: 2 hrs",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 large cauliflower, outer leaves trimmed",
-            "4 tbsp rapeseed oil",
-            "2 onions, very finely chopped",
-            "3 garlic cloves, crushed",
-            "½ tsp ground mace",
-            "4 thyme sprigs, leaves picked from 2, 2 left whole",
-            "4 tbsp plain flour",
-            "750ml unsweetened almond milk",
-            "150ml soya cream",
-            "1 tbsp wholegrain mustard",
-            "25g dried breadcrumbs (ensure vegan-friendly, if needed)",
-            "2 tbsp flaked almonds",
-            "vegan garlic bread and a green salad with a lemony dressing, to serve"
+            "1 coliflor grande, con las hojas exteriores recortadas",
+            "4 cucharadas de aceite de colza",
+            "2 cebollas, muy finamente picadas",
+            "3 dientes de ajo machacados",
+            "½ cucharadita de maza molida",
+            "4 ramitas de tomillo, hojas recogidas de 2, 2 dejadas enteras",
+            "4 cucharadas de harina común",
+            "750 ml de leche de almendras sin azúcar",
+            "150ml de crema de soja",
+            "1 cucharada de mostaza integral",
+            "25 g de pan rallado seco (asegúrese de que sea apto para veganos, si es necesario)",
+            "2 cucharadas de almendras laminadas",
+            "pan de ajo vegano y ensalada verde con aderezo de limón, para servir"
         ],
         "method": [
-            "Heat the oven to 180C/160C fan/gas 4. Cut off enough of the cauliflower stalk so it sits flat, then cut a deep cross in the base of the stalk. Sit the cauliflower on a piece of foil, then rub over 1 tbsp oil. Sprinkle over 2 tbsp water, season well, then cover tightly with the foil, sealing the water and cauliflower inside the package. Put in a baking dish and cook for 1 hr 30 mins.",
-            "Meanwhile, cook the onions with a pinch of salt and 2 tbsp oil in a pan until soft and translucent. Stir in the garlic, mace, thyme leaves and flour and stir for 2 mins, then add the almond milk. Bring to a simmer, stirring, then season. When slightly thickened, remove from the heat and stir in the soya cream and mustard.",
-            "Rub the breadcrumbs with the remaining oil. Stir in the almonds.",
-            "Uncover the cauliflower and return to the dish. Pour the sauce all over the cauliflower and into the dish. Scatter the crumbs on top, and tear over the two whole thyme sprigs. Turn the oven up to 200C/180C fan/gas 6. Bake for 15-20 mins more, until the sauce is bubbling and thickened slightly, and the crumbs and cauliflower are golden. Cut into wedges and serve with a green salad and some garlic bread."
+            "Calienta el horno a 180C/160C ventilador/gas 4. Corta una cantidad suficiente del tallo de coliflor para que quede plano, luego corta una cruz profunda en la base del tallo. Coloque la coliflor sobre un trozo de papel de aluminio y luego frótela con 1 cucharada de aceite. Espolvoree 2 cucharadas de agua, sazone bien, luego cubra bien con papel de aluminio, sellando el agua y la coliflor dentro del paquete. Poner en una fuente para horno y cocinar durante 1 hora 30 minutos.",
+            "Mientras tanto, cocine las cebollas con una pizca de sal y 2 cucharadas de aceite en una sartén hasta que estén suaves y traslúcidas. Agregue el ajo, la macis, las hojas de tomillo y la harina y revuelva durante 2 minutos, luego agregue la leche de almendras. Llevar a fuego lento, revolviendo y luego sazonar. Cuando espese un poco, retirar del fuego y añadir la crema de soja y la mostaza.",
+            "Frote el pan rallado con el aceite restante. Agrega las almendras.",
+            "Destapa la coliflor y regresa al plato. Vierta la salsa por toda la coliflor y en el plato. Esparce las migas encima y corta las dos ramitas enteras de tomillo. Encienda el horno a 200C/180C ventilador/gas 6. Hornee durante 15-20 minutos más, hasta que la salsa burbujee y espese un poco, y las migajas y la coliflor estén doradas. Cortar en gajos y servir con ensalada verde y un poco de pan de ajo."
         ],
         "nutritional_info": {
             "kcal": "405",
@@ -262,29 +262,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/garlic-nduja-rice-stuffed-chicken/",
-        "title": "[ES] Garlic & nduja rice-stuffed chicken",
-        "description": "(Translation pending) Do something different with roast chicken by serving it with a rice-based stuffing packed with garlic and nduja flavours. It’s great with green veg and gravy, too",
+        "title": "Pollo relleno de arroz con ajo y nduja",
+        "description": "Haga algo diferente con el pollo asado sirviéndolo con un relleno a base de arroz lleno de sabores de ajo y nduja. También queda genial con verduras verdes y salsa",
         "prep_time": "20 mins Cook: 1 hrs 15 mins plus resting",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "4 tbsp olive oil",
-            "1 red onion, finely diced",
-            "5 garlic cloves, crushed",
-            "1½ tsp cumin",
-            "1 tsp red pepper flakes",
-            "½ tsp smoked paprika",
-            "30-40g nduja (or 50g chorizo), depending on how hot you like it",
-            "130g white or wholemeal long-grain rice, rinsed",
-            "60g unsalted butter",
-            "1 lemon, zested",
-            "1 whole chicken (approx 1.5kg)"
+            "4 cucharadas de aceite de oliva",
+            "1 cebolla morada, finamente picada",
+            "5 dientes de ajo machacados",
+            "1½ cucharadita de comino",
+            "1 cucharadita de hojuelas de pimiento rojo",
+            "½ cucharadita de pimentón ahumado",
+            "30-40 g de nduja (o 50 g de chorizo), según lo picante que te guste",
+            "130 g de arroz blanco o integral de grano largo, enjuagado",
+            "60 g de mantequilla sin sal",
+            "1 limón, rallado",
+            "1 pollo entero (aproximadamente 1,5 kg)"
         ],
         "method": [
-            "Heat half the oil in a largesaucepanover a medium heat and cook the onion until soft and starting to brown, about 10 mins. Stir in 3 crushed garlic cloves, 1 tsp of the cumin, the red pepper flakes, smoked paprika, ½ tsp black pepper and the nduja, breaking it up as you mix it in. Cook for a further 5 mins until the nduja has released its oils.",
-            "Stir in the rice until fully coated in the oil, then pour in 250ml water. Cook the rice, uncovered, following pack instructions until almost cooked but retaining some bite, then remove from the heat. Set aside.",
-            "Heat the oven to 200C/180C fan/gas 6. Mix the butter with the remaining garlic, lemon zest, remaining cumin and a small pinch of salt. Loosen the skin of the chicken breast using your hands, carefully, so as not to tear the skin. Work from the widest part of the bird and get close to the neck but not all the way through, and try to loosen the skin above the legs as well. Gently push the garlic butter under the skin as far as it will go. Stuff the cavity with the rice mixture, then tie the legs together to stop it from spilling out.",
-            "Rub the skin with the remaining oil and sprinkle with some salt. Roast the chicken for between 1 hr-1 hr 15 mins until cooked through and the juices run clear. Remove from the oven and set aside to rest for 10 mins before carving. Serve with green vegetables and a gravy made from the juices, if you like. Try one of ourgravy recipes here."
+            "Calienta la mitad del aceite en una cacerola grande a fuego medio y cocina la cebolla hasta que esté suave y comience a dorarse, aproximadamente 10 minutos. Agrega 3 dientes de ajo machacados, 1 cucharadita de comino, las hojuelas de pimiento rojo, el pimentón ahumado, ½ cucharadita de pimienta negra y la nduja, partiéndola mientras la mezclas. Cocine durante 5 minutos más hasta que la nduja haya soltado sus aceites.",
+            "Agregue el arroz hasta que esté completamente cubierto de aceite y luego vierta 250 ml de agua. Cocine el arroz, sin tapar, siguiendo las instrucciones del paquete hasta que esté casi cocido pero conservando algo de sabor, luego retírelo del fuego. Dejar de lado.",
+            "Calentar el horno a 200C/180C ventilador/gas 6. Mezclar la mantequilla con el ajo restante, la ralladura de limón, el comino restante y una pizca de sal. Afloje la piel de la pechuga de pollo con las manos, con cuidado, para no rasgar la piel. Trabaja desde la parte más ancha del ave y acércate al cuello, pero no completamente, y trata de aflojar la piel por encima de las patas también. Empuje suavemente la mantequilla de ajo debajo de la piel hasta donde pueda. Rellena la cavidad con la mezcla de arroz y luego ata las patas para evitar que se derrame.",
+            "Frote la piel con el aceite restante y espolvoree con un poco de sal. Ase el pollo entre 1 hora y 1 hora y 15 minutos hasta que esté bien cocido y el jugo salga claro. Retirar del horno y dejar reposar durante 10 minutos antes de cortar. Sirva con vegetales verdes y una salsa hecha con los jugos, si lo desea. Pruebe una de nuestras recetas de salsa aquí."
         ],
         "nutritional_info": {
             "kcal": "530",
@@ -301,27 +301,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/whole-truffle-roast-celeriac-with-cheese-sauce-hazelnuts/",
-        "title": "[ES] Whole truffle roast celeriac with cheese sauce & hazelnuts",
-        "description": "(Translation pending) Try this sensational whole truffle roast celeriac with creamy cheese sauce and hazelnuts. It makes a fantastic alternative vegetarian Christmas lunch or Sunday roast",
+        "title": "Apio nabo asado con trufa entera, salsa de queso y avellanas",
+        "description": "Prueba este sensacional apio nabo asado con trufa entera, con salsa cremosa de queso y avellanas. Es una fantástica alternativa vegetariana para el almuerzo navideño o el asado dominical.",
         "prep_time": "20 mins Cook: 2 hrs",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 large celeriac",
-            "2 tbsp truffle oil, plus extra for drizzling",
-            "3 garlic cloves, sliced",
-            "½ small bunch of sage, leaves picked",
-            "30g hazelnuts, toasted and chopped",
-            "40g butter",
-            "40g plain flour",
-            "350ml whole milk",
-            "100g vegetarian Italian-style hard cheese, grated",
-            "50ml double cream"
+            "1 apio nabo grande",
+            "2 cucharadas de aceite de trufa, más un poco más para rociar",
+            "3 dientes de ajo, rebanados",
+            "½ manojo pequeño de salvia, con las hojas recogidas",
+            "30 g de avellanas tostadas y picadas",
+            "40 g de mantequilla",
+            "40 g de harina común",
+            "350ml de leche entera",
+            "100 g de queso duro vegetariano estilo italiano, rallado",
+            "50ml de nata doble"
         ],
         "method": [
-            "Heat the oven to 180C/160C fan/gas 4. Layer a large sheet of baking parchment over a large sheet of foil, then put the celeriac in the centre. Rub all over with the truffle oil, then season well. Scatter over the garlic and sage leaves, then bring the edges of the parchment and foil up, scrunching together to seal make a parcel. Put in aroasting tinand roast for 2 hrs, or until tender and golden. Baste halfway through with an extra drizzle of truffle oil, if you like.",
-            "Meanwhile, make the sauce. Melt the butter in a saucepan until foaming, then add the flour and stir until smooth. Cook for 2 mins, then whisk in the milk, a little at a time, until fully incorporated and smooth and creamy.Whiskin the cheese and cream, then season to taste.",
-            "Cut the roasted celeriac into four wedges. Spoon over the cheese sauce and scatter with the hazelnuts."
+            "Calentar el horno a 180C/160C ventilador/gas 4. Coloque una capa grande de papel para hornear sobre una hoja grande de papel de aluminio, luego coloque el apio en el centro. Frote todo con aceite de trufa y luego sazone bien. Esparza sobre el ajo y las hojas de salvia, luego junte los bordes del pergamino y cúbralos con papel de aluminio, apretándolos para sellar y formar un paquete. Colóquelo en una fuente para asar y ase durante 2 horas o hasta que esté tierno y dorado. Rocíe a mitad de cocción con un chorrito extra de aceite de trufa, si lo desea.",
+            "Mientras tanto, haz la salsa. Derrita la mantequilla en una cacerola hasta que forme espuma, luego agregue la harina y revuelva hasta que quede suave. Cocine durante 2 minutos, luego agregue la leche, poco a poco, hasta que esté completamente incorporada y suave y cremosa. Bata el queso y la crema, luego sazone al gusto.",
+            "Corta el apio nabo asado en cuatro gajos. Vierta sobre la salsa de queso y espolvoree con las avellanas."
         ],
         "nutritional_info": {
             "kcal": "493",
@@ -338,36 +338,36 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/easy-vegan-nut-roast/",
-        "title": "[ES] Easy vegan nut roast",
-        "description": "(Translation pending) Enjoy this easy nut roast as a show-off veggie main course. With pomegranate, cranberries and chestnut mushrooms, it’s filled with winter flavours",
+        "title": "Asado de nueces vegano fácil",
+        "description": "Disfrute de este sencillo asado de nueces como plato principal vegetariano. Con granada, arándanos y champiñones castaños, está lleno de sabores invernales.",
         "prep_time": "45 mins Cook: 1 hrs 30 mins",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "2 tbsp milled flaxseed",
-            "400g butternut squash peeled, deseeded and cut into 3cm chunks",
-            "3 tbsp olive oil, plus extra for the tin",
-            "2 tbsp za’atar",
-            "2 tsp ground cumin",
-            "2 tbsp ground coriander",
-            "1 red onion, finely chopped",
-            "1 celery stick, finely chopped",
-            "250g chestnut mushrooms, finely chopped",
-            "1 garlic clove, crushed",
-            "2 tbsp miso paste",
-            "200g shelled pistachios roughly chopped, plus extra to serve",
-            "100g cooked chestnuts, finely chopped",
-            "100g fresh breadcrumbs",
-            "½ small bunch of parsley, finely chopped",
-            "200g fresh or frozen cranberries",
-            "4 tbsp light brown soft sugar",
-            "pomegranate seeds, to serve"
+            "2 cucharadas de linaza molida",
+            "400 g de calabaza pelada, sin semillas y cortada en trozos de 3 cm",
+            "3 cucharadas de aceite de oliva, más un extra para la lata",
+            "2 cucharadas de za'atar",
+            "2 cucharaditas de comino molido",
+            "2 cucharadas de cilantro molido",
+            "1 cebolla morada, finamente picada",
+            "1 rama de apio, finamente picada",
+            "250 g de champiñones castaños, finamente picados",
+            "1 diente de ajo, machacado",
+            "2 cucharadas de pasta de miso",
+            "200 g de pistachos sin cáscara picados, más un poco más para servir",
+            "100 g de castañas cocidas, finamente picadas",
+            "100 g de pan rallado fresco",
+            "½ manojo pequeño de perejil, finamente picado",
+            "200 g de arándanos frescos o congelados",
+            "4 cucharadas de azúcar moreno suave",
+            "semillas de granada, para servir"
         ],
         "method": [
-            "Combine the flaxseeds with 4 tbsp water in a small bowl, and leave to thicken. Heat the oven to 200C/180C fan/gas 6. Toss the squash in aroasting tinwith 1 tbsp olive oil, the za’atar, cumin and coriander. Cover the tin with foil and roast for 30-35 mins, or until the squash is tender but still holding its shape. Oil a 900g loaf tin and line with baking parchment.",
-            "Heat the remaining oil in a frying pan, and fry the onion, celery and mushrooms for 10-15 mins, or until softened. Stir in the garlic and miso paste.",
-            "Tip the pistachios, chestnuts, breadcrumbs and parsley into a bowl, then stir in the flaxseed mixture, fried veg and roasted squash. Season well.",
-            "Put the cranberries in a pan with the sugar and cook for 3-4 mins, or until the sugar has dissolved and the cranberries are just starting to soften. Spoon into the base of the loaf tin, then leave to stand for 5 mins to set slightly. Top with the nut roast mixture, patting it down firmly and smoothing the top with the back of a spoon. Cover with foil and bake for 25 mins, then uncover and bake for 25 mins more. Leave to rest for 15 mins, then invert onto a serving plate, removing the parchment. Top with extra chopped pistachios and pomegranate seeds, then serve."
+            "Combine las semillas de lino con 4 cucharadas de agua en un tazón pequeño y déjelas espesar. Calentar el horno a 200C/180C ventilador/gas 6. Mezcle la calabaza en una fuente para asar con 1 cucharada de aceite de oliva, el za'atar, el comino y el cilantro. Cubra el molde con papel de aluminio y ase durante 30-35 minutos, o hasta que la calabaza esté tierna pero aún mantenga su forma. Engrase un molde para pan de 900 g y cúbralo con papel para hornear.",
+            "Calienta el aceite restante en una sartén y fríe la cebolla, el apio y los champiñones durante 10 a 15 minutos o hasta que se ablanden. Agrega el ajo y la pasta de miso.",
+            "Vierta los pistachos, las castañas, el pan rallado y el perejil en un bol, luego agregue la mezcla de linaza, las verduras fritas y la calabaza asada. Sazone bien.",
+            "Coloque los arándanos en una sartén con el azúcar y cocine durante 3-4 minutos, o hasta que el azúcar se haya disuelto y los arándanos comiencen a ablandarse. Vierta en la base del molde para pan y luego déjelo reposar durante 5 minutos para que cuaje ligeramente. Cubra con la mezcla de nueces asadas, dándole palmaditas firmes y alisando la parte superior con el dorso de una cuchara. Cubra con papel aluminio y hornee por 25 minutos, luego destape y hornee por 25 minutos más. Dejar reposar durante 15 minutos, luego invertir en un plato para servir, quitando el pergamino. Cubra con pistachos extra picados y semillas de granada y luego sirva."
         ],
         "nutritional_info": {
             "kcal": "471",
@@ -384,35 +384,35 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/slow-roast-squash-garlic-lentils-harissa-yogurt/",
-        "title": "[ES] Slow-roast squash & garlic lentils with harissa yogurt",
-        "description": "(Translation pending) Bring out the sweet flavour of butternut squash by slow-roasting it and serving it with gently spiced lentils for a delicious veggie main",
+        "title": "Lentejas con calabaza y ajo asadas a fuego lento con yogur harissa",
+        "description": "Resalte el dulce sabor de la calabaza asándola a fuego lento y sirviéndola con lentejas ligeramente condimentadas para obtener un delicioso plato principal vegetal.",
         "prep_time": "5 mins Cook: 55 mins plus at least 2 hrs soaking",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "1 butternut squash, peeled, deseeded and cut into 2cm slices",
-            "8 garlic cloves, skin on",
-            "4 small shallots, skin on",
-            "3 bay leaves",
-            "a few sprigs of thyme",
-            "50ml rapeseed oil",
-            "handful of chopped coriander",
-            "150g green or puy lentils",
-            "1 bay leaf",
-            "1 garlic clove",
-            "drizzle of olive oil",
-            "6 tbsp thick Greek yogurt",
-            "1 tbsp tahini",
-            "1-2 tbsp rose harissa",
-            "2 tbsp pumpkin seeds",
-            "1 tsp cumin seeds",
-            "½  tsp rapeseed oil"
+            "1 calabaza, pelada, sin semillas y cortada en rodajas de 2 cm",
+            "8 dientes de ajo, con piel",
+            "4 chalotes pequeños, con piel",
+            "3 hojas de laurel",
+            "unas ramitas de tomillo",
+            "50 ml de aceite de colza",
+            "un puñado de cilantro picado",
+            "150 g de lentejas verdes o puy",
+            "1 hoja de laurel",
+            "1 diente de ajo",
+            "chorrito de aceite de oliva",
+            "6 cucharadas de yogur griego espeso",
+            "1 cucharada de tahini",
+            "1-2 cucharadas de rosa harissa",
+            "2 cucharadas de semillas de calabaza",
+            "1 cucharadita de semillas de comino",
+            "½ cucharadita de aceite de colza"
         ],
         "method": [
-            "First, prepare the lentils. Soak for at least 2 hrs or overnight. Heat the oven to 180C/160C fan/gas 4. Mix the squash, garlic, shallots, bay, thyme, oil and a pinch of sea salt in a roasting tin, cover with foil and roast for 45 mins. Remove the foil and roast for 10 mins more, until the veg is tender and caramelised at the edges. Remove from the oven and turn the heat up to 200C/180C fan/ gas 6. Toss the pumpkin seeds with the cumin, oil and a pinch of salt, and roast until popped, about 5-6 mins.",
-            "Meanwhile, put the lentils in a pan with the bay, garlic and a pinch of salt. Cover with water, bring to the boil, then simmer for 20-25 mins. Drain and remove the bay and garlic. Toss with the oil and black pepper.",
-            "Combine the yogurt and tahini Add the harissa to taste, then mix with the lentils. Squeeze the roasted shallots and garlic out of their skins and stir through the lentils along with a drizzle of oil from the tin.",
-            "Serve the squash on the lentils, sprinkled with the coriander and seeds, and the yogurt on the side."
+            "Primero, prepara las lentejas. Remojar durante al menos 2 horas o toda la noche. Calentar el horno a 180C/160C ventilador/gas 4. Mezcle la calabaza, el ajo, las chalotas, el laurel, el tomillo, el aceite y una pizca de sal marina en una fuente para asar, cubra con papel de aluminio y ase durante 45 minutos. Retire el papel de aluminio y ase durante 10 minutos más, hasta que las verduras estén tiernas y caramelizadas en los bordes. Retirar del horno y subir el fuego a 200C/180C ventilador/gas 6. Mezcle las semillas de calabaza con el comino, el aceite y una pizca de sal, y ase hasta que revienten, aproximadamente 5-6 minutos.",
+            "Mientras tanto, ponemos en una sartén las lentejas con el laurel, el ajo y una pizca de sal. Cubrir con agua, llevar a ebullición y luego cocinar a fuego lento durante 20-25 minutos. Escurrir y retirar el laurel y el ajo. Mezcle con el aceite y la pimienta negra.",
+            "Combine el yogur y el tahini. Agregue la harissa al gusto y luego mezcle con las lentejas. Exprima las chalotas asadas y el ajo sin piel y revuelva con las lentejas junto con un chorrito de aceite de la lata.",
+            "Sirve la calabaza sobre las lentejas, espolvoreada con cilantro y semillas, y el yogur a un lado."
         ],
         "nutritional_info": {
             "kcal": "475",
@@ -429,18 +429,18 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/how-roast-garlic/",
-        "title": "[ES] How to roast garlic",
-        "description": "(Translation pending) Keen to find out how to roast garlic? Once roasted, garlic becomes sweet and soft – perfect for soups, sauces and dips",
+        "title": "Cómo asar ajo",
+        "description": "¿Quieres saber cómo asar ajo? Una vez asado, el ajo se vuelve dulce y suave, perfecto para sopas, salsas y aderezos.",
         "prep_time": "2 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "1 whole garlic",
         "ingredients": [
-            "1 garlic bulb",
-            "1 tsp olive oil"
+            "1 cabeza de ajo",
+            "1 cucharadita de aceite de oliva"
         ],
         "method": [
-            "Heat the oven to 180C/160C fan/gas 4. Cut the top off the garlic bulb, exposing the tops of the garlic cloves. Put on a small square of foil, and rub with the olive oil. Season with salt and pepper. Scrunch up the foil to seal in the bulb.",
-            "Roast for 25-30 mins until soft when pressed, and the papery casing is light golden. Leave to cool for a few minutes before squeezing the soft roasted garlic out of their shells. Alternatively, take off all the papery casing and remove the cloves individually."
+            "Calienta el horno a 180C/160C ventilador/gas 4. Corta la parte superior del bulbo de ajo, dejando al descubierto la parte superior de los dientes de ajo. Coloque un pequeño cuadrado de papel de aluminio y frótelo con aceite de oliva. Sazone con sal y pimienta. Arruga el papel de aluminio para sellar el bulbo.",
+            "Ase durante 25-30 minutos hasta que esté suave al presionarlo y la cubierta de papel esté ligeramente dorada. Deje enfriar unos minutos antes de exprimir los ajos asados ​​suaves de sus cáscaras. Alternativamente, retire toda la envoltura de papel y retire los dientes individualmente."
         ],
         "nutritional_info": {
             "kcal": "16",
@@ -457,18 +457,18 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/lemonroasted-new-potatoes/",
-        "title": "[ES] Lemon-roasted new potatoes",
-        "description": "(Translation pending) A new way with potatoes that goes especially well with a seafood-based main",
+        "title": "Patatas nuevas asadas al limón",
+        "description": "Una nueva forma de preparar patatas que combina especialmente bien con un plato principal a base de marisco",
         "prep_time": "2 mins Cook: 35 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "450g new potatoes",
-            "zest 1 lemon",
-            "1 tbsp olive oil"
+            "450 g de patatas nuevas",
+            "ralladura de 1 limón",
+            "1 cucharada de aceite de oliva"
         ],
         "method": [
-            "Heat oven to 200C/fan 180C/gas 6. Tip the \r\npotatoes into a large pan of boiling water, \r\nwait for the water to boil again, then cook for  \r\n5 mins. Drain, tip back into the pan and shake \r\nwell to rough up the edges a little. Tip onto  \r\na baking tray, toss with the lemon zest, oil and \r\nsome flaky sea salt, then roast for 30 mins \r\nuntil golden and crisp."
+            "Calentar el horno a 200C/ventilador 180C/gas 6. Incline el \r\npatatas en una cacerola grande con agua hirviendo, \r\nEspere a que el agua hierva nuevamente y luego cocine por  \r\n5 minutos. Escurrir, volver a colocar en la sartén y agitar. \r\nBueno para raspar un poco los bordes. Consejo sobre  \r\nuna bandeja para horno, mezcle con la ralladura de limón, el aceite y \r\nun poco de sal marina en escamas y luego asar durante 30 minutos \r\nhasta que esté dorado y crujiente."
         ],
         "nutritional_info": {
             "kcal": "207",
@@ -485,31 +485,31 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/roast-chicken-with-couscous-and-pine-nut-stuffing/",
-        "title": "[ES] Roast chicken with couscous & pine nut stuffing",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyDelicious hot or cold and perfect for a picnic, this stuffed chicken will be a real family favourite",
+        "title": "Pollo asado con relleno de cuscús y piñones",
+        "description": "Contiene carne de cerdo: la receta es solo para no musulmanes. Delicioso frío o caliente y perfecto para un picnic, este pollo relleno será el verdadero favorito de la familia.",
         "prep_time": "40 mins Cook: 1 hrs 10 mins",
         "cook_time": "",
         "serves": "8",
         "ingredients": [
-            "100g couscous",
-            "175ml boiling chicken stock",
-            "50g butter",
-            "1 onion, finely chopped",
-            "1 garlic clove, crushed",
-            "100g pine nuts",
-            "140g dried apricots, roughly chopped",
-            "large handful parsley, roughly chopped",
-            "2 tbsp mint leaves, roughly chopped",
-            "1 lemon",
-            "1 egg, beaten",
-            "6 skinless chicken breasts",
-            "16 rashers streaky bacon"
+            "100 g de cuscús",
+            "175 ml de caldo de pollo hirviendo",
+            "50 g de mantequilla",
+            "1 cebolla, finamente picada",
+            "1 diente de ajo, machacado",
+            "100 g de piñones",
+            "140 g de orejones, picados en trozos grandes",
+            "un puñado grande de perejil, picado en trozos grandes",
+            "2 cucharadas de hojas de menta, picadas en trozos grandes",
+            "1 limon",
+            "1 huevo batido",
+            "6 pechugas de pollo sin piel",
+            "16 lonchas de tocino rayado"
         ],
         "method": [
-            "Put couscous in a large heatproof bowl, pour over stock, then cover with cling film for 5 mins until liquid is absorbed. Melt half the butter in a pan, then gently cook onion and garlic for 5-8 mins until soft. Set aside. Dry-fry pine nuts for a few mins until golden. Combine onions, pine nuts, apricots and herbs with couscous. Add a good squeeze of lemon\r\njuice, season, then stir in egg. Leave to cool.",
-            "Using the back of a knife, stretch rashers to 1½ times their original length. Lay, slightly overlapping, on a large sheet of foil to form a rectangle. Make a few slashes in the thickest part of each chicken breast and lay between 2 sheets of cling film. Use the base of a heavy pan to bash the chicken until about 1cm thick. Arrange chicken over the bacon, fitting\r\nso there are no gaps, but leave a border on longer sides. (This helps to roll up the chicken.)",
-            "Spoon stuffing over chicken in a strip along one of the longest sides. Using tin foil to help, roll bacon and chicken around stuffing like a log. Wrap tightly in foil, twisting the ends to secure, then chill for 2 hrs or up to 1 day.",
-            "Heat oven to 180C/fan 160C/gas 4. Place chicken, join-side down, in a roasting tray. Cook for 30 mins, then unwrap foil and brush roast with remaining butter. Cook, uncovered, for 20-30 mins more until cooked through, and the stuffing is hot (a metal skewer inserted into the chicken’s centre should come out hot). Cool and wrap in fresh foil to transport."
+            "Coloque el cuscús en un recipiente grande resistente al calor, vierta sobre el caldo y luego cubra con film transparente durante 5 minutos hasta que se absorba el líquido. Derrita la mitad de la mantequilla en una sartén, luego cocine suavemente la cebolla y el ajo durante 5 a 8 minutos hasta que estén tiernos. Dejar de lado. Freír los piñones durante unos minutos hasta que estén dorados. Combine cebollas, piñones, albaricoques y hierbas con cuscús. Añade un buen chorrito de limón.\r\njugo, sazone y luego agregue el huevo. Dejar enfriar.",
+            "Usando el dorso de un cuchillo, estire las lonchas hasta 1½ veces su longitud original. Colóquelos, ligeramente superpuestos, sobre una hoja grande de papel de aluminio para formar un rectángulo. Haga algunos cortes en la parte más gruesa de cada pechuga de pollo y colóquelos entre 2 hojas de film transparente. Utilice la base de una sartén pesada para machacar el pollo hasta que tenga aproximadamente 1 cm de espesor. Coloque el pollo sobre el tocino, encajando\r\npara que no queden huecos, pero deja un borde en los lados más largos. (Esto ayuda a enrollar el pollo).",
+            "Vierta el relleno sobre el pollo en tiras a lo largo de uno de los lados más largos. Usando papel de aluminio como ayuda, enrolle el tocino y el pollo alrededor del relleno como si fuera un tronco. Envuélvalo bien en papel de aluminio, girando los extremos para asegurarlo, luego enfríe durante 2 horas o hasta 1 día.",
+            "Caliente el horno a 180 C/ventilador 160 C/gas 4. Coloque el pollo, con las uniones hacia abajo, en una bandeja para asar. Cocine durante 30 minutos, luego desenvuelva el papel de aluminio y unte el asado con la mantequilla restante. Cocine, sin tapar, durante 20 a 30 minutos más hasta que esté bien cocido y el relleno esté caliente (una brocheta de metal insertada en el centro del pollo debe salir caliente). Deje enfriar y envuélvalo en papel de aluminio nuevo para transportar."
         ],
         "nutritional_info": {
             "kcal": "348",
@@ -526,23 +526,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/allinone-roast-chicken-and-veg/",
-        "title": "[ES] All-in-one roast chicken & veg",
-        "description": "(Translation pending) Fancy the flavour of a roast, but not the fat? Try this simple, healthy one-pan recipe",
+        "title": "Pollo asado y verduras todo en uno",
+        "description": "¿Te apetece el sabor de un asado, pero no la grasa? Pruebe esta receta sencilla y saludable en una sola sartén",
         "prep_time": "10 mins Cook: 50 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "8 baby new potatoes, halved",
-            "2 tsp olive oil",
-            "2 carrots, sliced",
-            "1 courgette, sliced",
-            "1 leek, sliced",
-            "1 tsp each chopped thyme and rosemary, plus a sprig or two",
-            "2 small skinless chicken breasts",
-            "150ml low-sodium chicken stock"
+            "8 patatas tiernas, cortadas por la mitad",
+            "2 cucharaditas de aceite de oliva",
+            "2 zanahorias, en rodajas",
+            "1 calabacín, en rodajas",
+            "1 puerro, rebanado",
+            "1 cucharadita de tomillo y romero picados, más una o dos ramitas",
+            "2 pechugas de pollo pequeñas sin piel",
+            "150 ml de caldo de pollo bajo en sodio"
         ],
         "method": [
-            "Heat oven to 200C/180C fan/gas 6. In a\r\nsmall roasting tray toss the potatoes with\r\nthe oil, carrots, courgette, leek, herbs\r\nand seasoning. Roast for 30 mins until\r\nstarting to brown. Remove from the\r\noven and give the veg a stir, nestle in\r\nthe chicken, then return to the oven\r\nfor 15 mins. Pour over the stock, then\r\ncook for 5 mins more or until the chicken\r\nand veg are cooked through."
+            "Calentar el horno a 200C/180C ventilador/gas 6. En un\r\nbandeja para asar pequeña mezcle las papas con\r\nel aceite, las zanahorias, el calabacín, el puerro, las hierbas\r\ny condimento. Ase durante 30 minutos hasta que\r\nempezando a dorarse. Quitar del\r\nhorno y revuelva las verduras, colóquelas en\r\nel pollo, luego regresar al horno\r\ndurante 15 min. Vierta sobre el caldo y luego\r\ncocina por 5 minutos más o hasta que el pollo\r\ny las verduras estén bien cocidas."
         ],
         "nutritional_info": {
             "kcal": "300",
@@ -559,27 +559,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spicy-chicken-with-mango-salad/",
-        "title": "[ES] Spicy chicken with mango salad",
-        "description": "(Translation pending) A superhealthy spicy perk-up for chicken",
+        "title": "Pollo picante con ensalada de mango",
+        "description": "Un estímulo picante y súper saludable para el pollo",
         "prep_time": "",
         "cook_time": "25 mins",
         "serves": "4",
         "ingredients": [
-            "4 skinless boneless chicken breasts",
-            "drizzle olive oil",
-            "1 tbsp garam masala",
-            "1 large ripe mango",
-            "½ cucumber",
-            "½ small red onion",
-            "handful fresh coriander leaves",
-            "4 tbsp soured cream or natural yogurt",
-            "grated zest and juice ½ lime",
-            "warm naan bread, to serve"
+            "4 pechugas de pollo deshuesadas y sin piel",
+            "rociar aceite de oliva",
+            "1 cucharada de garam masala",
+            "1 mango maduro grande",
+            "½ pepino",
+            "½ cebolla morada pequeña",
+            "un puñado de hojas frescas de cilantro",
+            "4 cucharadas de crema agria o yogur natural",
+            "ralladura y jugo ½ lima",
+            "pan naan caliente, para servir"
         ],
         "method": [
-            "Heat a griddle or frying pan until hot. Rub the chicken with oil, garam masala and a good pinch of salt. Cook for 6 minutes on each side or until slightly charred and cooked through.",
-            "Peel and slice the mango into slim wedges. Halve the cucumber lengthways and slice thickly at an angle. Thinly slice the onion. Toss the salad ingredients together with the coriander and pile onto plates.",
-            "Mix the soured cream or yogurt with the lime zest and juice, season and dollop beside the salad. Cut the chicken in half or into thirds diagonally, arrange next\r\nto the salad and serve with naan bread."
+            "Calienta una plancha o sartén hasta que esté caliente. Frote el pollo con aceite, garam masala y una buena pizca de sal. Cocine durante 6 minutos por cada lado o hasta que esté ligeramente carbonizado y bien cocido.",
+            "Pela y corta el mango en gajos finos. Corta el pepino por la mitad a lo largo y córtalo en rodajas gruesas en ángulo. Cortar la cebolla en rodajas finas. Mezcle los ingredientes de la ensalada con el cilantro y apílelos en platos.",
+            "Mezcle la crema agria o el yogur con la ralladura de lima y el jugo, sazone y vierta junto a la ensalada. Cortar el pollo por la mitad o en tercios en diagonal, disponer a continuación\r\na la ensalada y sírvala con pan naan."
         ],
         "nutritional_info": {
             "kcal": "262",
@@ -596,22 +596,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/roasted-root-vegetables/",
-        "title": "[ES] Roasted root vegetables",
-        "description": "(Translation pending) Root veg is a must with Sunday lunch and Christmas dinner, and this easy recipe is low-fat, superhealthy and high in fibre to boot",
+        "title": "Verduras de raíz asadas",
+        "description": "Las verduras de raíz son imprescindibles en el almuerzo del domingo y en la cena de Navidad, y esta receta fácil es baja en grasa, súper saludable y rica en fibra.",
         "prep_time": "15 mins Cook: 1 hrs",
         "cook_time": "",
         "serves": "8",
         "ingredients": [
-            "5 carrots, peeled and quartered",
-            "5 parsnips, peeled and quartered",
-            "1 celeriac, peeled and cut into 2cm cubes",
-            "½ a swede, peeled, cut into 2cm cubes",
-            "2 tbsp olive oil",
-            "1 garlic bulb, halved",
-            "clear honey, to drizzle"
+            "5 zanahorias, peladas y cortadas en cuartos",
+            "5 chirivías, peladas y cortadas en cuartos",
+            "1 apio nabo, pelado y cortado en cubos de 2 cm",
+            "½ colinabo, pelado y cortado en cubos de 2 cm",
+            "2 cucharadas de aceite de oliva",
+            "1 cabeza de ajo, partida por la mitad",
+            "miel clara, para rociar"
         ],
         "method": [
-            "Heat oven to 200C/180C fan/gas 6. Toss\r\nall the veg with the oil and garlic in a large\r\nroasting tin, then roast for 40 mins until\r\nstarting to soften and turn golden.\r\nRemove the tin from the oven, drizzle\r\nthe veg with honey and return to the\r\noven for 10-20 mins more until golden."
+            "Calentar el horno a 200C/180C ventilador/gas 6. Mezcle\r\ntodas las verduras con el aceite y el ajo en una cacerola grande\r\nfuente para asar, luego ase durante 40 minutos hasta que\r\ncomenzando a ablandarse y dorarse.\r\nRetirar el molde del horno, rociar\r\nlas verduras con miel y volver a la\r\nHornee por 10-20 minutos más hasta que esté dorado."
         ],
         "nutritional_info": {
             "kcal": "133",
@@ -628,28 +628,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/roast-fish-and-chips-with-orange-raita/",
-        "title": "[ES] Roast fish & chips with orange raita",
-        "description": "(Translation pending) A healthy treat to keep the whole family satisfied",
+        "title": "Pescado asado y patatas fritas con raita de naranja",
+        "description": "Un capricho saludable para mantener satisfecha a toda la familia",
         "prep_time": "1 hrs 10 mins Including 1 hour roasting",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "3 medium baking potatoes, scrubbed",
-            "2 medium sweet potatoes, scrubbed",
-            "2 tbsp chilli oil or olive oil",
-            "1 large orange",
-            "¼ cucumber, finely chopped",
-            "1 small red onion, finely chopped",
-            "1 tbsp chopped fresh mint",
-            "1 tbsp white wine vinegar",
-            "3 tbsp low-fat natural yogurt",
-            "4 white fish fillets, each weighing about 175g/6oz",
-            "½  tsp cumin seeds"
+            "3 patatas medianas para asar, lavadas",
+            "2 batatas medianas, lavadas",
+            "2 cucharadas de aceite de chile o aceite de oliva",
+            "1 naranja grande",
+            "¼ de pepino, finamente picado",
+            "1 cebolla morada pequeña, finamente picada",
+            "1 cucharada de menta fresca picada",
+            "1 cucharada de vinagre de vino blanco",
+            "3 cucharadas de yogur natural desnatado",
+            "4 filetes de pescado blanco, cada uno con un peso aproximado de 175 g/6 oz",
+            "½ cucharadita de semillas de comino"
         ],
         "method": [
-            "Preheat the oven to 200C/gas\r\n6/fan 180C. Cut each potato\r\nand sweet potato lengthways\r\ninto 6 or 8 wedges – no need to\r\npeel. Tip into a roasting pan\r\nand drizzle with the oil.\r\nSeason, toss well, then roast\r\nfor 40-45 minutes until tender,\r\nturning them halfway through.",
-            "Peel the orange with a sharp,\r\nserrated knife to remove the pith\r\n– do this over a bowl to catch\r\nthe juice, which you'll need later.\r\nCut out the segments, removing\r\nany membrane, then chop\r\nthem. Mix with the cucumber,\r\nonion, mint, vinegar and yogurt.\r\nAdd a little salt and pepper, then\r\nset aside, covered.",
-            "Brush a baking sheet with oil\r\nand put the fish on top. Season,\r\nsprinkle with the orange juice\r\nand the cumin. Roast above\r\nthe chips for 12-15 minutes\r\nuntil the chips are cooked.\r\nServe with the orange raita."
+            "Precalentar el horno a 200C/gas\r\n6/ventilador 180C. Corta cada papa\r\ny boniato a lo largo\r\nen 6 u 8 porciones, no es necesario\r\npelar. Vierta en una fuente para asar\r\ny rociar con el aceite.\r\nSazone, mezcle bien y luego ase\r\ndurante 40-45 minutos hasta que estén tiernos,\r\ndándoles la vuelta a la mitad.",
+            "Pelar la naranja con un cuchillo afilado,\r\ncuchillo de sierra para quitar la médula\r\n– haz esto sobre un tazón para atrapar\r\nel jugo, que necesitarás más tarde.\r\nRecortar los gajos, quitando\r\ncualquier membrana, luego picar\r\nellos. Mezclar con el pepino,\r\ncebolla, menta, vinagre y yogur.\r\nAgrega un poco de sal y pimienta, luego\r\nreservar, tapado.",
+            "Cepille una bandeja para hornear con aceite.\r\ny poner el pescado encima. temporada,\r\nespolvorear con el jugo de naranja\r\ny el comino. Asar arriba\r\nlas patatas fritas durante 12-15 minutos\r\nhasta que las patatas fritas estén cocidas.\r\nServir con la raita de naranja."
         ],
         "nutritional_info": {
             "kcal": "318",
@@ -666,31 +666,31 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/16645-foil-poached-salmon-with-herby-mayo/",
-        "title": "[ES] Foil-poached salmon with herby mayo",
-        "description": "(Translation pending) Learn how to poach a salmon perfectly with our step-by-step recipe – then serve with homemade chive, basil and dill mayonnaise",
+        "title": "Salmón escalfado en papel de aluminio con mayonesa de hierbas",
+        "description": "Aprende a escalfar un salmón a la perfección con nuestra receta paso a paso y luego sírvelo con mayonesa casera de cebollino, albahaca y eneldo.",
         "prep_time": "20 mins Cook: 1 hrs 30 mins Plus cooling",
         "cook_time": "",
         "serves": "10",
         "ingredients": [
-            "light olive oil, for greasing",
-            "3kg whole gutted and scaled salmon with the head removed",
-            "bunch of dill",
-            "1 shallot, halved and very thinly sliced",
-            "5 tbsp dry white wine, such as Sauvignon Blanc",
-            "2 tbsp snipped chives",
-            "2 tbsp chopped basil",
-            "500ml mayonnaise",
-            "watercress, cucumber, herbs and lemon wedges, to serve"
+            "aceite de oliva ligero, para engrasar",
+            "3 kg de salmón entero eviscerado y escamado sin cabeza",
+            "manojo de eneldo",
+            "1 chalota, partida por la mitad y en rodajas muy finas",
+            "5 cucharadas de vino blanco seco, como Sauvignon Blanc",
+            "2 cucharadas de cebollino picado",
+            "2 cucharadas de albahaca picada",
+            "500 ml de mayonesa",
+            "berros, pepino, hierbas y rodajas de limón, para servir"
         ],
         "method": [
-            "Heat oven to 150C/130C fan/\r\ngas 2. Place a large piece of\r\ndouble-width foil on top of\r\na large baking sheet and brush it\r\nwith oil, then put the salmon in the\r\ncentre. Tuck a few generous sprigs\r\nof dill and the shallots in the body\r\ncavity, then season.",
-            "Carefully bring up the sides of\r\nthe foil to surround the fish,\r\nseason well inside and out,\r\nthen pour over the wine.",
-            "Seal the foil all the way round,\r\nbut not too tightly on the fish\r\n– you need to give it a bit of\r\nspace within the parcel. Bake for\r\n1 hr 30 mins.",
-            "Once the salmon has cooked,\r\ncarefully unwrap the foil parcel\r\nand pull the dorsal fin on the\r\nspine of the fish. If the salmon is\r\nready, it should come away very\r\neasily. Reseal the parcel and leave to\r\ncool – it will carry on cooking a little\r\nmore as it cools. If you are not sure\r\nthat the salmon is cooked sufficiently,\r\nreturn it to the oven for 10 mins more.",
-            "When cold, carefully peel away\r\nthe skin from one side of the\r\nsalmon. You may need to use\r\na knife to get you started, but it\r\nshould peel away easily after that.\r\nLeave the cooked dill and shallot\r\nin place, as you may damage the\r\nflesh of the salmon if you try to\r\nremove them.",
-            "Use a knife to scrape off the\r\nbrown fatty flesh. It tastes\r\ndelicious but doesn’t look\r\nas attractive as the pink flesh\r\nunderneath. Carefully turn the\r\nsalmon over onto a platter and\r\nremove the skin and brown flesh\r\nfrom the other side.",
-            "To serve, carefully remove the\r\nfillets from one side of the fish,\r\nleaving behind the bones. You\r\nwill see that the fish has a natural\r\ndivide of 2 long fillets on each side.\r\nInsert your knife along the centre and\r\ncarefully ease off each fillet. Transfer\r\nthe fillets to a platter, bone-side up.",
-            "Lift up the central bone from\r\nthe remaining whole fish –\r\nit should come away in one\r\npiece – and remove the aromatics.\r\nEase the 2 remaining fillets apart and\r\nremove any pin bones. Reassemble\r\nthe salmon on the platter. Stir the\r\nherbs into your mayonnaise and\r\ngarnish the salmon with watercress,\r\ncucumber, herbs and lemon."
+            "Caliente el horno a 150C/ventilador de 130C/\r\ngas 2. Coloque un trozo grande de\r\npapel de aluminio de doble ancho encima\r\nuna bandeja para hornear grande y cepillarla\r\ncon aceite, luego poner el salmón en el\r\ncentro. Mete unas cuantas ramitas generosas\r\nde eneldo y chalotes en el cuerpo\r\ncavidad, luego sazone.",
+            "Levante con cuidado los lados de\r\nel papel de aluminio para rodear el pescado,\r\nsazone bien por dentro y por fuera,\r\nluego vierta sobre el vino.",
+            "Selle el papel de aluminio por todos lados,\r\npero no demasiado apretado sobre el pescado\r\n– hay que darle un poco de\r\nespacio dentro del paquete. Hornear para\r\n1 h 30 min.",
+            "Una vez que el salmón esté cocido,\r\ndesenvuelva con cuidado el paquete de aluminio\r\ny tirar de la aleta dorsal en el\r\nespina dorsal del pescado. Si el salmón es\r\nlisto, debería salir muy\r\nfácilmente. Vuelva a sellar el paquete y déjelo\r\nfrío – seguirá cocinándose un poco\r\nmás a medida que se enfría. Si no estas seguro\r\nque el salmón esté suficientemente cocido,\r\nregréselo al horno por 10 minutos más.",
+            "Cuando esté frío, despélelo con cuidado.\r\nla piel de un lado del\r\nsalmón. Es posible que necesites usar\r\nun cuchillo para empezar, pero\r\nDespués de eso, debería desprenderse fácilmente.\r\nDejar el eneldo cocido y la chalota\r\nen su lugar, ya que podría dañar el\r\ncarne del salmón si lo intentas\r\neliminarlos.",
+            "Utilice un cuchillo para raspar el\r\npulpa grasa de color marrón. sabe\r\ndelicioso pero no se ve\r\ntan atractivo como la carne rosada\r\ndebajo. Gire con cuidado el\r\nsalmón en un plato y\r\nquitar la piel y la pulpa dorada\r\ndesde el otro lado.",
+            "Para servir, retire con cuidado el\r\nfiletes de un lado del pescado,\r\ndejando atrás los huesos. tu\r\nVerás que el pez tiene un carácter natural.\r\nDivida 2 filetes largos a cada lado.\r\nInserta tu cuchillo a lo largo del centro y\r\nRetire con cuidado cada filete. Transferir\r\nColoque los filetes en un plato, con el hueso hacia arriba.",
+            "Levante el hueso central de\r\nel resto del pescado entero –\r\ndebería salir en uno\r\npieza – y quitar los aromáticos.\r\nSepare los 2 filetes restantes y\r\nretire las espinas. Volver a montar\r\nel salmón en el plato. Revuelva el\r\nhierbas en tu mayonesa y\r\nadornar el salmón con berros,\r\npepino, hierbas y limón."
         ],
         "nutritional_info": {
             "kcal": "548",
@@ -707,30 +707,30 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/potroast-beef-with-french-onion-gravy/",
-        "title": "[ES] Pot-roast beef with French onion gravy",
-        "description": "(Translation pending) Silverside and topside are cheaper and leaner cuts of meat, well-suited to slow-cooking. The stock and juices make a great sauce when combined with caramelised onions",
+        "title": "Carne asada con salsa de cebolla francesa",
+        "description": "El pejerrey y la parte superior son cortes de carne más baratos y magros, adecuados para la cocción lenta. El caldo y los jugos forman una salsa estupenda si se combinan con cebollas caramelizadas.",
         "prep_time": "15 mins Cook: 2 hrs 15 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1kg silverside or topside of beef, with no added fat (see tip, below)",
-            "2 tbsp olive oil",
-            "8 young carrots, tops trimmed (but leave a little, if you like)",
-            "1 celery stick, finely chopped",
-            "200ml white wine",
-            "600ml rich beef stock",
-            "2 bay leaves",
-            "500g onions",
-            "a few thyme sprigs",
-            "1 tsp butter",
-            "1 tsp light brown or light muscovado sugar",
-            "2 tsp plain flour"
+            "1 kg de pejerrey o parte superior de carne de res, sin grasa añadida (ver consejo a continuación)",
+            "2 cucharadas de aceite de oliva",
+            "8 zanahorias tiernas, sin la parte superior (pero deja un poco, si quieres)",
+            "1 rama de apio, finamente picada",
+            "200 ml de vino blanco",
+            "600 ml de caldo de ternera rico",
+            "2 hojas de laurel",
+            "500 g de cebollas",
+            "unas ramitas de tomillo",
+            "1 cucharadita de mantequilla",
+            "1 cucharadita de azúcar moreno claro o mascabado claro",
+            "2 cucharaditas de harina común"
         ],
         "method": [
-            "Heat oven to 160C/140C fan/gas 3.\r\nRub the meat with 1 tsp of the oil\r\nand plenty of seasoning. Heat a large\r\nflameproof casserole dish and brown\r\nthe meat all over for about 10 mins.\r\nMeanwhile, add 2 tsp oil to a frying\r\npan and fry the carrots and celery\r\nfor 10 mins until turning golden.",
-            "Lift the beef onto a plate, splash the\r\nwine into the hot casserole and boil for\r\n2 mins. Pour in the stock, return the\r\nbeef, then tuck in the carrots, celery\r\nand bay leaves, trying not to submerge\r\nthe carrots too much. Cover and cook\r\nin the oven for 2 hrs. (I like to turn the\r\nbeef halfway through cooking.)",
-            "Meanwhile, thinly slice the onions.\r\nHeat 1 tbsp oil in a pan and stir in the\r\nonions, thyme and some seasoning.\r\nCover and cook gently for 20 mins until\r\nthe onions are softened but not coloured.\r\nRemove the lid, turn up the heat, add\r\nthe butter and sugar, then let the onions\r\ncaramelise to a dark golden brown,\r\nstirring often. Remove the thyme sprigs,\r\nthen set aside.",
-            "When the beef is ready, it will be tender\r\nand easy to pull apart at the edges.\r\nRemove it from the casserole and snip\r\noff the strings. Reheat the onion pan, stir\r\nin the flour and cook for 1 min. Whisk the\r\nfloury onions into the beefy juices in the\r\ncasserole, to make a thick onion gravy.\r\nTaste for seasoning. Add the beef and\r\ncarrots back to the casserole, or slice the\r\nbeef and bring to the table on a platter,\r\nwith the carrots to the side and the\r\ngravy spooned over."
+            "Calentar el horno a 160C/140C ventilador/gas 3.\r\nFrote la carne con 1 cucharadita de aceite.\r\ny mucho condimento. Calentar una gran\r\ncazuela ignífuga y marrón\r\ntoda la carne durante unos 10 minutos.\r\nMientras tanto, añade 2 cucharaditas de aceite a una sartén.\r\nsartén y sofreír las zanahorias y el apio\r\ndurante 10 minutos hasta que se dore.",
+            "Levante la carne a un plato, salpique la\r\nvino en la cazuela caliente y hervir durante\r\n2 minutos. Vierta el caldo, devuelva el\r\ncarne, luego agregue las zanahorias, el apio\r\ny hojas de laurel, procurando no sumergirnos\r\nlas zanahorias demasiado. Cubrir y cocinar\r\nen el horno por 2 hrs. (Me gusta girar el\r\ncarne a la mitad de la cocción.)",
+            "Mientras tanto, corte las cebollas en rodajas finas.\r\nCalienta 1 cucharada de aceite en una sartén y agrega la\r\ncebolla, tomillo y algún condimento.\r\nTape y cocine a fuego lento durante 20 minutos hasta que\r\nlas cebollas están blandas pero no coloreadas.\r\nRetire la tapa, suba el fuego, agregue\r\nla mantequilla y el azúcar, luego dejar que la cebolla\r\ncaramelizar hasta obtener un color marrón dorado oscuro,\r\nrevolviendo con frecuencia. Retire las ramitas de tomillo,\r\nluego dejar a un lado.",
+            "Cuando la carne esté lista, estará tierna.\r\ny fácil de separar en los bordes.\r\nRetíralo de la cazuela y córtalo\r\nfuera de las cuerdas. Vuelva a calentar la sartén con cebolla, revuelva\r\nen la harina y cocinar por 1 min. batir el\r\ncebollas harinosas en los jugos carnosos del\r\ncazuela, para hacer una salsa espesa de cebolla.\r\nGusto por sazonar. Agrega la carne y\r\nDevolver las zanahorias a la cazuela o cortarlas en rodajas.\r\ncarne de res y llevar a la mesa en una fuente,\r\ncon las zanahorias a un lado y el\r\nsalsa vertida por encima."
         ],
         "nutritional_info": {
             "kcal": "487",
@@ -746,22 +746,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spiced-roast-beef/",
-        "title": "[ES] Spiced roast beef",
-        "description": "(Translation pending) Matt Tebbutt's roast beef combines spices and meltingly tender meat. It'll be just as good cold, too",
+        "title": "Carne asada especiada",
+        "description": "El rosbif de Matt Tebbutt combina especias y una carne tierna y derretida. También estará igual de bien frío.",
         "prep_time": "10 mins Cook: 1 hrs 50 mins Plus marinating overnight (cooking time varies)",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "1 tbsp juniper berries",
-            "1 tbsp coriander seeds",
-            "1 tbsp black peppercorns",
-            "1 tbsp allspice berries",
-            "2 tbsp olive oil",
-            "2kg-3kg (4lb 8oz-6lb 8oz) topside joint of beef - depending on the amount of leftovers you want"
+            "1 cucharada de bayas de enebro",
+            "1 cucharada de semillas de cilantro",
+            "1 cucharada de granos de pimienta negra",
+            "1 cucharada de bayas de pimienta de Jamaica",
+            "2 cucharadas de aceite de oliva",
+            "2 kg-3 kg (4 lb 8 oz-6 lb 8 oz) de trozo de carne de res, dependiendo de la cantidad de sobras que desee"
         ],
         "method": [
-            "Combine all the spices and ½ tbsp salt together in a pestle and mortar. Give everything a good grind, keeping a little of its coarseness. Rub the oil and then the ground spices all over the beef and massage in well. Cover and chill overnight to marinate.",
-            "Next day, heat oven to 190C/170C fan/gas 5. Weigh your joint and roast for 10 mins per 450g for rare meat and 15 mins per 450g for medium, plus an extra 20 mins. Cover and rest for 20 mins while you finish the salads, then slice and serve. Alternatively, roast the beef in the morning and serve at room temperature for dinner."
+            "Combine todas las especias y ½ cucharada de sal en un mortero. Muela bien todo, manteniendo un poco de su tosquedad. Frote el aceite y luego las especias molidas por toda la carne y masajee bien. Cubra y enfríe durante la noche para marinar.",
+            "Al día siguiente, caliente el horno a 190C/170C ventilador/gas 5. Pese el porro y ase durante 10 minutos por 450 g para carne poco hecha y 15 minutos por 450 g para carne mediana, más 20 minutos adicionales. Cubra y deje reposar durante 20 minutos mientras termina las ensaladas, luego corte y sirva. Alternativamente, ase la carne por la mañana y sírvala a temperatura ambiente para la cena."
         ],
         "nutritional_info": {
             "kcal": "396",
@@ -778,26 +778,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/seared-beef-with-wild-mushrooms-and-balsamic/",
-        "title": "[ES] Seared beef with wild mushrooms & balsamic",
-        "description": "(Translation pending) A classy main course for two, inspired by the Italian region of Emiglia-Romagna",
+        "title": "Ternera braseada con champiñones y balsámico",
+        "description": "Un plato principal elegante para dos, inspirado en la región italiana de Emiglia-Romaña",
         "prep_time": "15 mins Cook: 20 mins , plus marinating",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "400g piece beef fillet",
-            "2 tbsp olive oil",
-            "leaves from 1 rosemary sprig, bruised",
-            "1 garlic clove, crushed",
-            "2 tbsp butter",
-            "200g mixed wild mushrooms",
-            "200ml good beef stock",
-            "1 tsp balsamic vinegar, to serve"
+            "400 g de filete de ternera",
+            "2 cucharadas de aceite de oliva",
+            "hojas de 1 ramita de romero, machacadas",
+            "1 diente de ajo, machacado",
+            "2 cucharadas de mantequilla",
+            "200 g de champiñones silvestres variados",
+            "200ml de buen caldo de ternera",
+            "1 cucharadita de vinagre balsámico, para servir"
         ],
         "method": [
-            "Rub the beef with 1 tbsp oil, rosemary and\r\ngarlic, then leave in the fridge for at least 1 hr,\r\nor up to 24 hrs. Make sure the beef returns to\r\nroom temperature before you cook it.",
-            "Heat oven to 200C/fan 180C/gas 6. Heat\r\na non-stick, ovenproof frying pan or roasting\r\ntin until very hot. Rub most of the garlic and\r\nrosemary from the beef, season with black\r\npepper and flaky salt, then sear on all sides\r\nuntil dark brown and almost crusted – about\r\n5 mins in total. Transfer the pan to the oven,\r\nthen roast the beef for 10 mins for mediumrare.\r\nLeave to rest for a good 15 mins and\r\nkeep any juices.",
-            "While the meat rests, sauté the mushrooms.\r\nHeat 1 tbsp butter and the remaining oil in\r\na large frying pan, then tip in the mushrooms\r\nwith plenty of seasoning. Fry until golden\r\nand just softened, then tip into a bowl.",
-            "Add the stock to the mushroom pan, then\r\nreduce by two-thirds. Tip in the mushrooms\r\nand balsamic, then add the remaining butter\r\nand let it melt. Tip in any meat juices, then\r\nseason to taste and keep warm. Thickly slice\r\nthe beef and spoon over the sauce. Serve\r\nwith mash and spinach."
+            "Frote la carne con 1 cucharada de aceite, romero y\r\najo, luego dejar en el frigorífico al menos 1 hora,\r\no hasta 24 hrs. Asegúrese de que la carne vuelva a\r\ntemperatura ambiente antes de cocinarlo.",
+            "Calentar el horno a 200C/ventilador 180C/gas 6. Calentar\r\nuna sartén antiadherente apta para horno o para asar\r\nestaño hasta que esté muy caliente. Frote la mayor parte del ajo y\r\nromero de la carne, sazonar con negro\r\npimienta y sal en escamas, luego dorar por todos lados\r\nhasta que quede de color marrón oscuro y casi con costra – aproximadamente\r\n5 minutos en total. Transfiera la sartén al horno,\r\nluego ase la carne durante 10 minutos a fuego medio.\r\nDejar reposar unos buenos 15 minutos y\r\nconservar los jugos.",
+            "Mientras reposa la carne, salteamos los champiñones.\r\nCalienta 1 cucharada de mantequilla y el aceite restante en\r\nuna sartén grande, luego agregue los champiñones\r\ncon mucho condimento. Freír hasta que esté dorado\r\ny simplemente ablandado, luego viértalo en un tazón.",
+            "Agregue el caldo a la fuente para champiñones, luego\r\nreducir en dos tercios. Consejo en los champiñones\r\ny balsámico, luego agregue la mantequilla restante\r\ny dejar que se derrita. Agregue el jugo de la carne y luego\r\nsazone al gusto y mantenga caliente. rebanada gruesa\r\nla carne y vierta sobre la salsa. servir\r\ncon puré y espinacas."
         ],
         "nutritional_info": {
             "kcal": "526",
@@ -814,19 +814,19 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/crunchy-roast-potatoes/",
-        "title": "[ES] Crunchy roast potatoes",
-        "description": "(Translation pending) Crispy roast potatoes are an essential part of the perfect roast lunch. If you like parsnips, roast them in exactly the same way",
+        "title": "Patatas asadas crujientes",
+        "description": "Las patatas asadas crujientes son una parte esencial del almuerzo asado perfecto. Si te gustan las chirivías, ástalas exactamente de la misma manera.",
         "prep_time": "10 mins Cook: 1 hrs 10 mins",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "20 even-size potatoes, such as King Edwards, peeled and halved if large",
-            "200g jar goose fat",
-            "salt, to serve"
+            "20 papas de tamaño uniforme, como King Edwards, peladas y cortadas por la mitad si son grandes",
+            "Tarro de 200 g de grasa de ganso.",
+            "sal, para servir"
         ],
         "method": [
-            "Boil the potatoes for 10 mins, then\r\ndrain. Rough up their surfaces with\r\na fork or by shaking them in the pan\r\nwith the lid on.",
-            "Melt the goose fat in a large, thickbottomed\r\nroasting tin on top of the\r\nstove. Tip in the potatoes carefully and\r\nturn them until they are evenly coated\r\nin the fat. Place on the top shelf of the\r\noven (move the turkey down a shelf if\r\nnecessary) and roast for 1-1¼ hrs,\r\nturning every now and then, until crisp\r\nand golden. Sprinkle with salt to serve."
+            "Hervir las patatas durante 10 minutos y luego\r\ndrenar. Desbaste sus superficies con\r\ncon un tenedor o agitándolos en la sartén\r\ncon la tapa puesta.",
+            "Derretir la grasa de ganso en un recipiente grande de fondo grueso.\r\nfuente para asar encima de la\r\nestufa. Incorporar las patatas con cuidado y\r\ngírelos hasta que estén cubiertos uniformemente\r\nen la grasa. Colóquelo en el estante superior del\r\nhorno (mueva el pavo hacia abajo en un estante si\r\nnecesario) y ase durante 1-1¼ horas,\r\nvolteándolos de vez en cuando hasta que estén crujientes\r\ny dorado. Espolvorea con sal para servir."
         ],
         "nutritional_info": {
             "kcal": "233",

@@ -1,21 +1,21 @@
 [
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/gambas-al-ajillo/",
-        "title": "[ES] Gambas al ajillo",
-        "description": "(Translation pending) Whip up this tapas dish in no time, evoking the laid-back bars of the Spanish coast. Traditionally, it’s cooked in a flameproof terracotta dish",
+        "title": "Gambas al ajillo",
+        "description": "Prepare este plato de tapas en poco tiempo, evocando los bares tranquilos de la costa española. Tradicionalmente se cocina en una cazuela de terracota ignífuga.",
         "prep_time": "5 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "12 large raw prawns",
-            "3 garlic cloves , thinly sliced",
-            "100ml olive oil",
-            "3 dried cayenne chillies (or other dried chilli)",
-            "1 tbsp chopped flat-leaf parsley"
+            "12 langostinos crudos grandes",
+            "3 dientes de ajo, en rodajas finas",
+            "100 ml de aceite de oliva",
+            "3 chiles de cayena secos (u otro chile seco)",
+            "1 cucharada de perejil de hoja plana picado"
         ],
         "method": [
-            "Peel the prawns, leaving the tails intact, and, using a cocktail stick, remove the digestive tracts. Or, if you are using a frying pan rather than a terracotta pot, you can cook the prawns in their shells. Season with a little sea salt.",
-            "Put the garlic, olive oil and chillies in a flameproof terracotta pot or frying pan and set over a high heat. When the garlic starts to turn golden, add the prawns and cook for 1-2 mins on each side until just pink. Sprinkle over the chopped parsley and some freshly cracked black pepper, and serve immediately. If using a terracotta pot, you can take that straight to the table, but be careful with it as the oil and terracotta will remain hot for several minutes."
+            "Pelar las gambas dejando intactas las colas y, con la ayuda de un palillo, retirar los tractos digestivos. O, si utilizas una sartén en lugar de una olla de barro, puedes cocinar las gambas con cáscara. Sazona con un poco de sal marina.",
+            "Poner el ajo, el aceite de oliva y las guindillas en una cacerola o sartén de barro ignífugo y poner a fuego alto. Cuando el ajo comience a dorarse, agregue las gambas y cocine durante 1-2 minutos por cada lado hasta que estén rosadas. Espolvoree perejil picado y un poco de pimienta negra recién molida y sirva inmediatamente. Si utilizas una olla de barro, puedes llevarla directamente a la mesa, pero ten cuidado con ella porque el aceite y la barro permanecerán calientes durante varios minutos."
         ],
         "nutritional_info": {
             "kcal": "342",
@@ -32,27 +32,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/crema-catalana/",
-        "title": "[ES] Crema Catalana",
-        "description": "(Translation pending) It’s the citrus in the custard that sets apart this classic Spanish dessert, topped with golden, caramelised sugar. The perfect way to round off a tapas menu",
+        "title": "Crema Catalana",
+        "description": "Son los cítricos de la natilla los que distinguen a este clásico postre español, cubierto con azúcar dorado caramelizado. La manera perfecta de completar un menú de tapas",
         "prep_time": "10 mins Cook: 20 mins , plus 30 mins infusing, 1 hr cooling and overnight chilling",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "400ml whole milk",
-            "150ml double cream",
-            "1 cinnamon stick",
-            "1 orange , zest pared into strips",
-            "1 lemon , zest pared into strips",
-            "7 egg yolks (freeze the whites to use in another recipe)",
-            "100g caster sugar , plus 6 tbsp for the topping",
-            "45g cornflour"
+            "400ml de leche entera",
+            "150ml de nata doble",
+            "1 rama de canela",
+            "1 naranja, ralladura cortada en tiras",
+            "1 limón, ralladura cortada en tiras",
+            "7 yemas de huevo (congela las claras para usarlas en otra receta)",
+            "100 g de azúcar en polvo, más 6 cucharadas para la cobertura",
+            "45 g de harina de maíz"
         ],
         "method": [
-            "Put the milk, cream, cinnamon stick and all the citrus zest in a saucepan set over a medium heat. Cook, stirring often, until the milk is just steaming but not boiling, about 3-5 mins. Remove from the heat, cover with a plate and leave to infuse for at least 30 mins.",
-            "When the cream mixture has infused, whisk the egg yolks, sugar and cornflour together in a separate bowl for 3-5 mins, or until light and pale in colour. Pour the infused milk through a sieve into the egg mixture, whisking continuously. Return the mixture to the saucepan.",
-            "Put the saucepan over a medium-high heat and whisk for around 10-12 mins. The mixture should start thickening to a custard-like consistency – you can tell it’s ready by dipping a wooden spoon in the mixture, then running a finger through the mixture on the back of the spoon. If the line holds, it's ready. Sieve the mixture into a jug to remove any froth.",
-            "Divide the custard between six 150ml ramekins or small terracotta dishes, then leave to cool for 1 hr at room temperature until set with a slight wobble. Chill overnight.",
-            "Just before serving, sprinkle 1 tbsp caster sugar over the top of each ramekin and caramelise using a kitchen blowtorch. Alternatively, slide the ramekins under a hot grill until the sugar turns golden and starts to bubble. Serve straightaway."
+            "Poner en un cazo la leche, la nata, la ramita de canela y toda la ralladura de cítricos a fuego medio. Cocine, revolviendo con frecuencia, hasta que la leche esté humeando pero no hirviendo, aproximadamente de 3 a 5 minutos. Retirar del fuego, tapar con un plato y dejar infusionar durante al menos 30 minutos.",
+            "Cuando la mezcla de crema se haya infundido, bata las yemas de huevo, el azúcar y la harina de maíz en un recipiente aparte durante 3 a 5 minutos, o hasta que estén claras y de color pálido. Vierta la leche infundida a través de un colador en la mezcla de huevo, batiendo continuamente. Regresa la mezcla a la cacerola.",
+            "Pon la cacerola a fuego medio-alto y bate durante unos 10-12 minutos. La mezcla debe comenzar a espesarse hasta obtener una consistencia similar a la de una natilla; puedes saber que está lista sumergiendo una cuchara de madera en la mezcla y luego pasando un dedo por la mezcla en el dorso de la cuchara. Si la línea aguanta, está listo. Tamizar la mezcla en una jarra para eliminar la espuma.",
+            "Divida la natilla entre seis moldes de 150 ml o pequeños platos de terracota, luego déjela enfriar durante 1 hora a temperatura ambiente hasta que cuaje con una ligera oscilación. Enfriar durante la noche.",
+            "Justo antes de servir, espolvoree 1 cucharada de azúcar en polvo sobre cada molde y caramelice con un soplete de cocina. Alternativamente, deslice los moldes debajo de una parrilla caliente hasta que el azúcar se dore y comience a burbujear. Sirva de inmediato."
         ],
         "nutritional_info": {
             "kcal": "415",
@@ -69,28 +69,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/ensaimada/",
-        "title": "[ES] Ensaimada",
-        "description": "(Translation pending) Try this Spanish bake for a breakfast or afternoon treat to enjoy with coffee, or as a savoury snack. Its spiral shape is iconic, as is its featherlight texture",
+        "title": "Ensaimada",
+        "description": "Pruebe este horneado español como desayuno o merienda para disfrutar con café o como refrigerio salado. Su forma de espiral es icónica, al igual que su textura ligera como una pluma.",
         "prep_time": "50 mins Cook: 18 mins plus overnight proving",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "5g dried yeast (or 16g fresh yeast)",
-            "200g caster sugar",
-            "2 medium free-range eggs",
-            "600g strong white bread flour",
-            "vegetable oil , for the work surface and rolling pin",
-            "100g lard , softened (or 50g if using sobrasada as a filling)",
+            "5 g de levadura seca (o 16 g de levadura fresca)",
+            "200 g de azúcar en polvo",
+            "2 huevos medianos de corral",
+            "600 g de harina de pan blanca fuerte",
+            "Aceite vegetal, para la superficie de trabajo y el rodillo.",
+            "100 g de manteca de cerdo blanda (o 50 g si se utiliza sobrasada como relleno)",
             "50g sobrasada de Mallorca (cured, spreadable sausage)",
-            "200ml whipped cream",
-            "3 tbsp icing sugar (optional)"
+            "200 ml de nata montada",
+            "3 cucharadas de azúcar glas (opcional)"
         ],
         "method": [
-            "Pour 230ml lukewarm water into a bowl and add the yeast. Leave to stand for 3 mins, then add the caster sugar, eggs, flour and 1 tsp sea salt flakes. Mix together to form a dough, then knead for 10 mins in stand mixer using a dough hook (or 15 mins by hand) until the dough is elastic enough to be almost see-through when stretched. Cover and set aside to rest for 30 mins, then cut into four equal pieces. Transfer to a baking tray lined with baking parchment. Leave to rest for another 30 mins.",
-            "Oil the work surface and a rolling pin with vegetable oil. Working with one portion of dough at a time, flatten it against the surface using the palm of your hand, then roll it out into a thin rectangle, about 30 x 50cm. Let it rest for 2 mins while you spread a quarter of the lard over the top. (If you want to fill your pastry with sobrasada de Mallorca, mix 50g lard with the sobrasada, and spread this over the dough instead.) Pull one corner of the flattened dough and stretch it out as far as it will go without breaking. Repeat every 10cm or so around the dough rectangle in every direction until it reaches about 50 x 70cm.",
-            "Cut a strip from each of the shorter sides and lay these beside each other along one of the longer sides of the rectangle; this is what we call the heart of the ensaimada. From there, begin rolling the dough until you have a long pastry snake. Repeat with the remaining portions of dough.",
-            "Take the first roll of dough and stretch it until it is over a metre long. Then, roll it up into a spiral, leaving 1cm between each turn of the spiral so the dough can expand. Flatten a little and transfer to a baking sheet lined with baking parchment. Repeat with the remaining dough. Leave to rise in a warm place for at least 12 hrs, or ideally 24 hrs.",
-            "Heat the oven to 200C/180C fan/gas 6. Put the ensaimadas in the top third of the oven and immediately reduce the temperature to 180C/160C fan/gas 4. Bake for 18 mins until dark golden. Leave to cool on a wire rack. To fill your ensaimada with whipped cream, slice and open, then spread over the cream and close. Dust with a generous amount of icing sugar, if you like."
+            "Vierte 230ml de agua tibia en un bol y añade la levadura. Deje reposar durante 3 minutos, luego agregue el azúcar en polvo, los huevos, la harina y 1 cucharadita de sal marina en escamas. Mezcle para formar una masa, luego amase durante 10 minutos en una batidora de pie con un gancho para masa (o 15 minutos a mano) hasta que la masa esté lo suficientemente elástica como para ser casi transparente cuando se estire. Cubra y deje reposar durante 30 minutos, luego córtelo en cuatro trozos iguales. Transfiera a una bandeja para hornear forrada con papel para hornear. Dejar reposar otros 30 min.",
+            "Engrase la superficie de trabajo y un rodillo con aceite vegetal. Trabajando con una porción de masa a la vez, aplánela contra la superficie con la palma de la mano y luego extiéndala hasta formar un rectángulo delgado, de unos 30 x 50 cm. Déjalo reposar durante 2 minutos mientras esparces un cuarto de la manteca por encima. (Si quieres rellenar tu masa con sobrasada de Mallorca, mezcla 50 g de manteca de cerdo con la sobrasada y, en su lugar, espárcela sobre la masa). Tira de una esquina de la masa aplanada y estírala todo lo que puedas sin que se rompa. Repita aproximadamente cada 10 cm alrededor del rectángulo de masa en todas direcciones hasta que alcance unos 50 x 70 cm.",
+            "Corta una tira de cada uno de los lados más cortos y colócalas una al lado de la otra a lo largo de uno de los lados más largos del rectángulo; esto es lo que llamamos el corazón de la ensaimada. A partir de ahí, comienza a enrollar la masa hasta obtener una serpiente de hojaldre larga. Repita con las porciones restantes de masa.",
+            "Coge el primer rollo de masa y estíralo hasta que tenga más de un metro de largo. Luego, enróllala formando una espiral, dejando 1 cm entre cada vuelta de la espiral para que la masa se expanda. Aplana un poco y transfiérelo a una bandeja para hornear forrada con papel para hornear. Repita con la masa restante. Dejar reposar en un lugar cálido durante al menos 12 horas, o idealmente 24 horas.",
+            "Calentar el horno a 200C/180C ventilador/gas 6. Poner las ensaimadas en el tercio superior del horno y reducir inmediatamente la temperatura a 180C/160C ventilador/gas 4. Hornear durante 18 minutos hasta que estén doradas. Dejar enfriar sobre una rejilla. Para rellenar tu ensaimada con nata montada, corta y abre, luego extiende sobre la nata y cierra. Espolvoree con una cantidad generosa de azúcar glas, si lo desea."
         ],
         "nutritional_info": {
             "kcal": "1064.94",
@@ -107,29 +107,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/microwave-cheats-paella/",
-        "title": "[ES] Microwave cheat’s paella",
-        "description": "(Translation pending) Try this shortcut version of the Spanish classic paella, with chicken and chorizo for a midweek meal. The recipe is based on a microwave with a power of 750W",
+        "title": "Paella trampa al microondas",
+        "description": "Pruebe esta versión abreviada de la clásica paella española, con pollo y chorizo ​​para una comida entre semana. La receta se basa en un microondas con una potencia de 750W.",
         "prep_time": "15 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 tbsp olive oil",
-            "1 onion, finely chopped",
-            "2 garlic cloves, crushed or finely grated",
-            "700ml chicken stock",
-            "pinch of saffron (optional)",
-            "½ tbsp sweet smoked paprika",
-            "300g paella rice",
-            "200g chicken, thinly sliced",
-            "200g chorizo, chopped",
-            "150g frozen peas",
-            "½ lemon, juiced, plus wedges to serve",
-            "small handful of parsley, roughly chopped"
+            "1 cucharada de aceite de oliva",
+            "1 cebolla, finamente picada",
+            "2 dientes de ajo, machacados o finamente rallados",
+            "700 ml de caldo de pollo",
+            "pizca de azafrán (opcional)",
+            "½ cucharada de pimentón dulce ahumado",
+            "300 gramos de arroz para paella",
+            "200 g de pollo, en rodajas finas",
+            "200 g de chorizo, picado",
+            "150 g de guisantes congelados",
+            "½ limón, en jugo, más gajos para servir",
+            "un puñado pequeño de perejil, picado en trozos grandes"
         ],
         "method": [
-            "Put the olive oil, onion, garlic and a pinch of salt in a large microwaveable dish, mix well andheat on highfor 3 mins. Meanwhile, combine the chicken stock and saffron in a jug and leave to infuse for a couple of minutes.",
-            "Stir the paprika, rice, chicken and chorizo into the onions and garlic, then pour in the chicken stock and saffron before seasoning well. Cover and cook on high for 15 mins. Stir, cover and cook for a further 5 mins.",
-            "Uncover, being careful with the steam, then stir in the frozen peas and another 100ml water if it’s looking a little dry. Cook, uncovered, for 3 mins before drizzling with lemon juice and scattering over the parsley. Serve with lemon wedges for squeezing over."
+            "Ponga el aceite de oliva, la cebolla, el ajo y una pizca de sal en un plato grande apto para microondas, mezcle bien y caliente a temperatura alta durante 3 minutos. Mientras tanto, combine el caldo de pollo y el azafrán en una jarra y déjelo en infusión un par de minutos.",
+            "Agrega el pimentón, el arroz, el pollo y el chorizo ​​a la cebolla y el ajo, luego vierte el caldo de pollo y el azafrán antes de sazonar bien. Tape y cocine a temperatura alta durante 15 minutos. Revuelva, cubra y cocine por 5 minutos más.",
+            "Destape, teniendo cuidado con el vapor, luego agregue los guisantes congelados y otros 100 ml de agua si se ve un poco seco. Cocine, sin tapar, durante 3 minutos antes de rociar con jugo de limón y espolvorear sobre el perejil. Sirva con rodajas de limón para exprimir."
         ],
         "nutritional_info": {
             "kcal": "611",
@@ -146,31 +146,31 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/vegan-paella/",
-        "title": "[ES] Vegan paella",
-        "description": "(Translation pending) Achieve four of your 5-a-day with this vegan paella – it makes a satisfying yet low-calorie supper. We’ve included broad beans, a valuable source of plant protein",
+        "title": "paella vegana",
+        "description": "Consiga cuatro de sus cinco comidas al día con esta paella vegana: es una cena saciante pero baja en calorías. Hemos incluido habas, una valiosa fuente de proteína vegetal.",
         "prep_time": "20 mins Cook: 30 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 generous pinches of saffron",
-            "1 tbsp tomato purée",
-            "2 tsp vegetable bouillon powder",
-            "2 tbsp rapeseed oil",
-            "2 onions (320g), finely chopped",
-            "2 red peppers, deseeded and diced",
-            "3 garlic cloves, finely grated",
-            "2 tbsp soft thyme leaves",
-            "200g brown basmati rice",
-            "2 tsp smoked paprika",
-            "320g frozen broad beans",
-            "320g courgettes, halved and sliced",
-            "15g flat-leaf parsley, chopped",
-            "1 lemon, cut into wedges"
+            "2 pizcas generosas de azafrán",
+            "1 cucharada de puré de tomate",
+            "2 cucharaditas de caldo de verduras en polvo",
+            "2 cucharadas de aceite de colza",
+            "2 cebollas (320 g), finamente picadas",
+            "2 pimientos rojos, sin semillas y cortados en cubitos",
+            "3 dientes de ajo, finamente rallados",
+            "2 cucharadas de hojas suaves de tomillo",
+            "200 g de arroz basmati integral",
+            "2 cucharaditas de pimentón ahumado",
+            "320 g de habas congeladas",
+            "320 g de calabacines, partidos por la mitad y en rodajas",
+            "15 g de perejil de hoja plana, picado",
+            "1 limón, cortado en gajos"
         ],
         "method": [
-            "Put the kettle on to boil. Tip the saffron, tomato purée and bouillon powder into a large heatproof bowl, then pour over 1 litre boiling water and set aside.",
-            "Heat the oil in a largepaella panor frying pan over a medium heat and fry the onion for 5 mins, stirring often until starting to soften. Add the peppers, garlic and thyme, and cook for a few minutes more. Tip in the rice and paprika, and continue to cook, stirring for about a minute. Pour in the saffron stock, then cover and simmer for 10 mins.",
-            "Uncover and gently stir, then add the frozen beans and courgettes. Return to a simmer, then cover and cook for another 10 mins until the rice is tender and has absorbed the stock. Leave to stand for 5 mins, then stir in the parsley. Serve half the paella straightaway with lemon wedges for squeezing over.The other half will keep chilled for up to three days. To enjoy on another day, reheat in themicrowaveuntil piping hot throughout."
+            "Pon la tetera a hervir. Vierta el azafrán, el puré de tomate y el caldo en polvo en un recipiente grande resistente al calor, luego vierta sobre 1 litro de agua hirviendo y reserve.",
+            "Calentar el aceite en una paellera grande a fuego medio y sofreír la cebolla durante 5 minutos, revolviendo frecuentemente hasta que empiece a ablandarse. Agrega los pimientos, el ajo y el tomillo y cocina unos minutos más. Agregue el arroz y el pimentón y continúe cocinando, revolviendo durante aproximadamente un minuto. Vierta el caldo de azafrán, cubra y cocine a fuego lento durante 10 minutos.",
+            "Destape y revuelva suavemente, luego agregue los frijoles y los calabacines congelados. Vuelva a hervir a fuego lento, luego cubra y cocine por otros 10 minutos hasta que el arroz esté tierno y haya absorbido el caldo. Deje reposar durante 5 minutos y luego agregue el perejil. Sirva la mitad de la paella inmediatamente con rodajas de limón para exprimir. La otra mitad se mantendrá fría hasta por tres días. Para disfrutarlo otro día, recaliéntalo en el microondas hasta que esté bien caliente."
         ],
         "nutritional_info": {
             "kcal": "396",
@@ -187,28 +187,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/easy-spanish-chicken/",
-        "title": "[ES] Easy Spanish chicken",
-        "description": "(Translation pending) Enjoy our Spanish chicken recipe – a classic, comforting stew made with chicken thighs nestled in a tomato and smoked paprika sauce with chorizo and butter beans",
+        "title": "Pollo español fácil",
+        "description": "Disfrute de nuestra receta española de pollo: un guiso clásico y reconfortante hecho con muslos de pollo en salsa de tomate y pimentón ahumado con chorizo ​​y judías blancas.",
         "prep_time": "15 mins Cook: 1 hrs",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 tbsp extra virgin olive oil",
-            "1 onion, thinly sliced",
-            "150g chorizo, cut into rings",
-            "1 red pepper, deseeded and sliced into strips",
-            "1 yellow pepper, deseeded and sliced into strips",
-            "1 tsp sweet smoked paprika",
-            "4 garlic cloves, finely chopped",
-            "400g can chopped tomatoes",
-            "150g pitted green olives",
-            "400g can butter beans, drained and rinsed",
-            "8 bone-in, skin-on chicken thighs",
-            "small handful of flat-leaf parsley, chopped"
+            "2 cucharadas de aceite de oliva virgen extra",
+            "1 cebolla, en rodajas finas",
+            "150 g de chorizo ​​cortado en aros",
+            "1 pimiento rojo, sin semillas y cortado en tiras",
+            "1 pimiento amarillo, sin semillas y cortado en tiras",
+            "1 cucharadita de pimentón ahumado dulce",
+            "4 dientes de ajo, finamente picados",
+            "Lata de 400g de tomates picados",
+            "150 g de aceitunas verdes deshuesadas",
+            "Lata de 400 g de alubias, escurridas y enjuagadas",
+            "8 muslos de pollo con hueso y piel",
+            "un puñado pequeño de perejil de hoja plana, picado"
         ],
         "method": [
-            "Heat the oven to 200C/180C fan/gas 6. Heat the olive oil in a large ovenproof frying pan over a medium heat and fry the onion, chorizo and peppers along with a pinch of salt and pepper for 15 mins until the veg has softened and the chorizo has released its oils. Add the paprika and garlic, and cook for another few minutes until fragrant.",
-            "Tip in the chopped tomatoes, olives and butter beans, stir to combine and season. Nestle in the chicken thighs and season well. Transfer to the oven and bake for 40 mins until the chicken skin is crisp and the meat cooked through and tender. Scatter with the parsley and serve."
+            "Calentar el horno a 200C/180C ventilador/gas 6. Calentar el aceite de oliva en una sartén grande apta para horno a fuego medio y sofreír la cebolla, el chorizo ​​y los pimientos junto con una pizca de sal y pimienta durante 15 minutos hasta que las verduras se ablanden y el chorizo ​​haya soltado su aceite. Agregue el pimentón y el ajo y cocine por unos minutos más hasta que estén fragantes.",
+            "Agregue los tomates picados, las aceitunas y los frijoles, revuelva para combinar y sazone. Coloque los muslos de pollo y sazone bien. Transfiera al horno y hornee durante 40 minutos hasta que la piel del pollo esté crujiente y la carne bien cocida y tierna. Esparcir con el perejil y servir."
         ],
         "nutritional_info": {
             "kcal": "567",
@@ -225,27 +225,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chorizo-chickpea-summer-stew/",
-        "title": "[ES] Chorizo & chickpea summer stew",
-        "description": "(Translation pending) Combine tomatoes, chickpeas, red peppers and spinach with chorizo and smoked paprika to make this nutrient-packed family stew, rich in vitamin C and fibre",
+        "title": "Guiso de verano con chorizo ​​y garbanzos",
+        "description": "Combine tomates, garbanzos, pimientos rojos y espinacas con chorizo ​​y pimentón ahumado para preparar este guiso familiar lleno de nutrientes, rico en vitamina C y fibra.",
         "prep_time": "5 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 tbsp olive oil",
-            "2 garlic cloves, crushed",
-            "2 thyme sprigs",
-            "1 tbsp smoked paprika",
-            "200g chorizo ring, sliced into thin coins",
-            "1 tbsp sherry vinegar",
-            "600g cherry tomatoes, halved",
-            "450g jar roasted red peppers, drained and cut into large strips",
-            "100g spinach",
-            "2 x 400g cans chickpeas, drained",
-            "drizzle of extra virgin olive oil and crusty bread, to serve"
+            "1 cucharada de aceite de oliva",
+            "2 dientes de ajo machacados",
+            "2 ramitas de tomillo",
+            "1 cucharada de pimentón ahumado",
+            "200 g de aros de chorizo, cortados en monedas finas",
+            "1 cucharada de vinagre de jerez",
+            "600 g de tomates cherry partidos por la mitad",
+            "Tarro de 450 g de pimientos rojos asados, escurridos y cortados en tiras grandes",
+            "100 g de espinacas",
+            "2 latas de 400 g de garbanzos, escurridos",
+            "un chorrito de aceite de oliva virgen extra y pan crujiente, para servir"
         ],
         "method": [
-            "Heat the oil in a largefrying panover a medium heat, add the garlic, thyme and smoked paprika, and stir for a few minutes, then tip in the chorizo and stir for another couple of minutes until its oil is released. Splash in the sherry vinegar and let it bubble for a minute or so.",
-            "Add the tomatoes, peppers, spinach and chickpeas along with 100ml water and a pinch of seasoning. Bring to the boil, then reduce the heat to a simmer and cook until the tomatoes have softened and there is a thickened sauce, about 15 mins. Adjust the seasoning and finish with a drizzle of extra virgin olive oil. Serve with crusty bread."
+            "Calienta el aceite en una sartén grande a fuego medio, agrega el ajo, el tomillo y el pimentón ahumado y revuelve por unos minutos, luego vierte el chorizo ​​y revuelve por un par de minutos más hasta que suelte su aceite. Rocíe el vinagre de jerez y déjelo burbujear durante aproximadamente un minuto.",
+            "Añade los tomates, los pimientos, las espinacas y los garbanzos junto con 100ml de agua y una pizca de condimento. Deje hervir, luego reduzca el fuego a fuego lento y cocine hasta que los tomates se ablanden y quede una salsa espesa, aproximadamente 15 minutos. Rectifica la sazón y finaliza con un chorrito de aceite de oliva virgen extra. Servir con pan crujiente."
         ],
         "nutritional_info": {
             "kcal": "449",
@@ -262,31 +262,31 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/patatas-bravas-meatballs/",
-        "title": "[ES] Patatas bravas meatballs",
-        "description": "(Translation pending) Take inspiration from the classic tapas dish patatas bravas with this recipe. The addition of homemade pork meatballs makes it the ideal Friday night family treat",
+        "title": "Albóndigas de patatas bravas",
+        "description": "Inspírate en las clásicas tapas patatas bravas con esta receta. La adición de albóndigas de cerdo caseras lo convierte en el regalo familiar ideal para los viernes por la noche.",
         "prep_time": "35 mins Cook: 1 hrs 20 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "3½ tbsp olive oil",
-            "1 onion, finely chopped",
-            "3 garlic cloves, crushed",
-            "1½-2 tsp hot smoked paprika (depending on how spicy you like it)",
-            "400g can chopped tomatoes",
-            "2 tsp sugar",
-            "100g pitted black olives",
-            "400g pork mince",
-            "70g fresh breadcrumbs",
-            "1 egg yolk",
-            "pinch of chilli flakes",
-            "small bunch of parsley, finely chopped",
-            "1kg white potatoes, cut into 3cm cubes",
-            "aïoli, to serve (optional; see tip, below)"
+            "3½ cucharadas de aceite de oliva",
+            "1 cebolla, finamente picada",
+            "3 dientes de ajo machacados",
+            "1½-2 cucharaditas de pimentón ahumado picante (dependiendo de lo picante que te guste)",
+            "Lata de 400g de tomates picados",
+            "2 cucharaditas de azúcar",
+            "100 g de aceitunas negras deshuesadas",
+            "400 g de carne picada de cerdo",
+            "70 g de pan rallado fresco",
+            "1 yema de huevo",
+            "pizca de hojuelas de chile",
+            "manojo pequeño de perejil, finamente picado",
+            "1 kg de patatas blancas, cortadas en cubos de 3 cm",
+            "alioli, para servir (opcional; consulte el consejo a continuación)"
         ],
         "method": [
-            "Heat 1 tbsp olive oil in asaucepanand fry the onions with a pinch of salt for 10 mins until soft. Stir in two-thirds of the garlic and cook for 1 min more. Add the paprika and cook for another minute, then stir in the tomatoes and sugar. Season to taste. Cook for 15 mins until thickened. Remove from the heat, stir through the olives and set aside.",
-            "Heat the oven to 220C/200C fan/gas 8. Put the mince in a large bowl with the breadcrumbs, the rest of the garlic, the egg yolk, chilli flakes and half the parsley. Season. Mix using your hands until well combined. Divide into 12 pieces, weighing for accuracy if you like, then roll into meatballs. Cover and put in the fridge to chill while you prepare the potatoes.",
-            "Toss the potatoes in aroasting tinwith 1½ tbsp of the remaining oil and some seasoning. Roast for 40 mins until golden, tossing halfway through. Heat the rest of the oil in a frying pan over a medium-high heat and fry the meatballs for 5 mins, stirring until evenly browned. Add the meatballs to the tin with the potatoes and roast for 10 mins more. Reheat the tomato sauce, if needed, then spoon over the meatballs and potatoes. Top with the remaining chopped parsley and serve with some aïoli, if you like."
+            "Calienta 1 cucharada de aceite de oliva en una cacerola y fríe las cebollas con una pizca de sal durante 10 minutos hasta que estén blandas. Agrega dos tercios del ajo y cocina por 1 minuto más. Agregue el pimentón y cocine por un minuto más, luego agregue los tomates y el azúcar. Sazone al gusto. Cocine durante 15 minutos hasta que espese. Retirar del fuego, mezclar con las aceitunas y reservar.",
+            "Calentar el horno a 220C/200C ventilador/gas 8. Poner la carne picada en un bol grande con el pan rallado, el resto del ajo, la yema de huevo, las hojuelas de guindilla y la mitad del perejil. Estación. Mezclar con las manos hasta que esté bien combinado. Divídalo en 12 trozos, pese para mayor precisión si lo desea, luego enróllelo en albóndigas. Tapar y meter en el frigorífico para que se enfríe mientras preparas las patatas.",
+            "Mezcle las patatas en una fuente para asar con 1½ cucharada del aceite restante y un poco de condimento. Ase durante 40 minutos hasta que esté dorado, revolviendo a la mitad. Calienta el resto del aceite en una sartén a fuego medio-alto y fríe las albóndigas durante 5 minutos, revolviendo hasta que se doren uniformemente. Añade las albóndigas al molde con las patatas y asa durante 10 minutos más. Vuelva a calentar la salsa de tomate, si es necesario, luego vierta sobre las albóndigas y las patatas. Cubra con el perejil picado restante y sirva con un poco de alioli, si lo desea."
         ],
         "nutritional_info": {
             "kcal": "626",
@@ -303,32 +303,32 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/paella-mixta/",
-        "title": "[ES] Paella mixta",
-        "description": "(Translation pending) Try our version of paella, made with a combination of meat and seafood. With king prawns, mussels, chorizo and chicken, every forkful is a treat that’s reminiscent of Spanish holidays",
+        "title": "Paella mixta",
+        "description": "Prueba nuestra versión de paella, elaborada con una combinación de carnes y mariscos. Con langostinos, mejillones, chorizo ​​y pollo, cada bocado es una delicia que recuerda a las fiestas españolas.",
         "prep_time": "25 mins Cook: 50 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "400g can chopped tomatoes",
-            "600ml chicken stock",
-            "1 heaped tsp smoked paprika",
-            "2 pinches of saffron",
-            "1 onion, chopped",
-            "3 garlic cloves, crushed or finely chopped",
-            "4 tbsp olive oil",
-            "300g paella rice",
-            "4 skinless, boneless chicken thighs, cut in half",
-            "200g chorizo, sliced",
-            "85g frozen peas",
-            "150g raw king prawns, peeled if you like",
-            "250g mussels, cleaned",
-            "1 lemon, quartered (optional)"
+            "Lata de 400g de tomates picados",
+            "600 ml de caldo de pollo",
+            "1 cucharadita colmada de pimentón ahumado",
+            "2 pizcas de azafrán",
+            "1 cebolla, picada",
+            "3 dientes de ajo, machacados o finamente picados",
+            "4 cucharadas de aceite de oliva",
+            "300 gramos de arroz para paella",
+            "4 muslos de pollo deshuesados ​​y sin piel, cortados por la mitad",
+            "200 g de chorizo, en rodajas",
+            "85 g de guisantes congelados",
+            "150 g de langostinos crudos, pelados si quieres",
+            "250 g de mejillones limpios",
+            "1 limón, cortado en cuartos (opcional)"
         ],
         "method": [
-            "Heat the oven to 220C/200C fan/gas 7. Combine the tomatoes, stock, paprika and saffron in a large heatproof jug, then microwave for 5 mins on high, or until steaming hot. Or, heat in a pan on the hob.",
-            "Put the onion and garlic in a large ovenproof frying pan or roasting tin, drizzle over the olive oil and stir to coat. Roast for 20 mins, or until the veg is starting to brown.",
-            "Stir in the rice, chicken, chorizo and hot stock mix. Season and bake for 20 mins (don’t cover the pan).",
-            "Gently stir in the peas, dot over the prawns and press the mussels in, hinged-side down, so they’re standing up. Arrange the lemon wedges around the edge, if using. Bake for 5-10 mins more until the rice, chicken and prawns are cooked, and the mussels have opened (discard any that stay shut). Check for seasoning, and serve."
+            "Caliente el horno a 220C/200C ventilador/gas 7. Combine los tomates, el caldo, el pimentón y el azafrán en una jarra grande resistente al calor, luego cocine en el microondas durante 5 minutos a temperatura alta o hasta que esté humeante. O calentar en una sartén sobre la encimera.",
+            "Coloque la cebolla y el ajo en una sartén grande para horno o en una fuente para asar, rocíe con aceite de oliva y revuelva para cubrir. Ase durante 20 minutos o hasta que las verduras comiencen a dorarse.",
+            "Agregue la mezcla de arroz, pollo, chorizo ​​y caldo caliente. Sazone y hornee por 20 minutos (sin tapar la sartén).",
+            "Agregue suavemente los guisantes, salpique las gambas y presione los mejillones, con el lado con las bisagras hacia abajo, para que queden de pie. Coloque las rodajas de limón alrededor del borde, si las usa. Hornee durante 5-10 minutos más hasta que el arroz, el pollo y las gambas estén cocidos y los mejillones se hayan abierto (deseche los que queden cerrados). Comprobar la sazón y servir."
         ],
         "nutritional_info": {
             "kcal": "733",
@@ -345,24 +345,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/easiest-ever-paella/",
-        "title": "[ES] Easiest ever paella",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyThink paella's too much of a challenge? Think again, this easy recipe makes it foolproof and is full of fantastic flavour",
+        "title": "La paella más fácil",
+        "description": "Contiene carne de cerdo: la receta es solo para no musulmanes. ¿Crees que la paella es un gran desafío? Piénselo de nuevo, esta receta fácil la hace infalible y está llena de un sabor fantástico.",
         "prep_time": "5 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 tbsp olive oil",
-            "1 leek or onion, sliced",
-            "110g pack chorizo sausage, chopped",
-            "1 tsp turmeric",
-            "300g long grain rice",
-            "1l hot fish or chicken stock",
-            "200g frozen pea",
-            "400g frozen seafood mix, defrosted"
+            "1 cucharada de aceite de oliva",
+            "1 puerro o cebolla, en rodajas",
+            "Paquete de 110 g de chorizo, picado",
+            "1 cucharadita de cúrcuma",
+            "300 g de arroz de grano largo",
+            "1 litro de caldo de pescado o pollo caliente",
+            "200 g de guisantes congelados",
+            "400 g de mezcla de mariscos congelados y descongelados"
         ],
         "method": [
-            "Heat the oil in a deep frying pan, then soften the leek for 5 mins without browning. Add the chorizo and fry until it releases its oils. Stir in the turmeric and rice until coated by the oils, then pour in the stock. Bring to the boil, then simmer for 15 mins, stirring occasionally.",
-            "Tip in the peas and cook for 5 mins, then stir in the seafood to heat through for a final 1-2 mins cooking or until rice is cooked. Check for seasoning and serve immediately with lemon wedges."
+            "Calentar el aceite en una sartén honda y luego ablandar el puerro durante 5 minutos sin que se dore. Añade el chorizo ​​y sofríe hasta que suelte sus aceites. Agregue la cúrcuma y el arroz hasta que estén cubiertos por los aceites, luego vierta el caldo. Llevar a ebullición y luego cocinar a fuego lento durante 15 minutos, revolviendo ocasionalmente.",
+            "Agregue los guisantes y cocine durante 5 minutos, luego agregue los mariscos para calentarlos durante 1 a 2 minutos finales o hasta que el arroz esté cocido. Verifique la sazón y sirva inmediatamente con rodajas de limón."
         ],
         "nutritional_info": {
             "kcal": "518",
@@ -379,38 +379,38 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/roast-cod-with-paella-and-saffron-olive-oil/",
-        "title": "[ES] Roast cod with paella & saffron olive oil",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyImpress your friends with Jason Atherton’s luxurious shellfish rice, topped with juicy cod and drizzled with saffron",
+        "title": "Bacalao asado con paella y aceite de oliva con azafrán",
+        "description": "Contiene carne de cerdo: la receta es solo para no musulmanes. Impresiona a tus amigos con el lujoso arroz con mariscos de Jason Atherton, cubierto con jugoso bacalao y rociado con azafrán.",
         "prep_time": "20 mins Cook: 1 hrs",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "1 tbsp olive oil",
-            "200g raw chorizo, diced",
-            "3 large shallots, thinly sliced",
-            "3 garlic cloves, crushed",
-            "2 tsp smoked sweet paprika (pimenton)",
-            "300g paella rice",
-            "1l fish stock",
-            "knob of unsalted butter",
-            "300g prawns, chopped into bite-sized pieces",
-            "handful cooked, shelled mussels, plus 18 in their shells",
-            "juice ½ lemon (optional)",
-            "small bunch parsley, chopped",
-            "75ml extra-virgin olive oil",
-            "juice ½ lemon",
-            "pinch saffron threads",
-            "1 tbsp olive oil",
-            "knob of unsalted butter",
-            "6 x 175g/6oz cod fillets, skin on",
-            "squeeze lemon juice"
+            "1 cucharada de aceite de oliva",
+            "200 g de chorizo ​​crudo, cortado en cubitos",
+            "3 chalotes grandes, en rodajas finas",
+            "3 dientes de ajo machacados",
+            "2 cucharaditas de pimentón dulce ahumado (pimentón)",
+            "300 gramos de arroz para paella",
+            "1 litro de caldo de pescado",
+            "nuez de mantequilla sin sal",
+            "300 g de gambas picadas en trozos pequeños",
+            "un puñado de mejillones cocidos y sin cáscara, más 18 con cáscara",
+            "jugo de ½ limón (opcional)",
+            "manojo pequeño de perejil, picado",
+            "75 ml de aceite de oliva virgen extra",
+            "jugo ½ limón",
+            "pellizcar hebras de azafrán",
+            "1 cucharada de aceite de oliva",
+            "nuez de mantequilla sin sal",
+            "6 x 175 g/6 oz de filetes de bacalao, con piel",
+            "exprimir el jugo de limon"
         ],
         "method": [
-            "Heat oven to 180C/160C fan/gas 4.\r\nTo make the paella, put the olive oil,\r\nchorizo, shallots and garlic in a large\r\npan and fry for 7-8 mins until the chorizo\r\nreleases its oil and the shallots have\r\nsoftened. Add the paprika and cook,\r\nstirring, for 5 mins, then add the rice,\r\nmix well and cook for a few mins more.",
-            "Pour in 600ml of the stock, season and\r\nmix well to combine. Cover and put in\r\nthe oven for 15 mins. Uncover, give\r\neverything a good stir, then return to the\r\noven for 10 mins. When almost cooked,\r\nremove from the oven and spread onto\r\na tray to cool. Chill and reserve for later.You can make this a day ahead.",
-            "To make the saffron oil, whisk the\r\nolive oil and lemon juice together in\r\na small saucepan. Add the saffron and\r\nheat gently for 5 mins, then remove from\r\nthe heat and leave to infuse and cool.You can make this a day ahead.",
-            "Heat oven to 200C/180C fan/gas 6.\r\nFor the cod, put the olive oil and butter\r\nin an ovenproof frying pan over a high\r\nheat, but don’t let it burn. Season the\r\ncod with sea salt and black pepper, then\r\ncook, skin-side down, in the hot pan, for\r\n4 mins, then carefully turn the fish over\r\nand put the pan in the oven for a further\r\n3 mins, finishing with a little more sea\r\nsalt and a squeeze of lemon juice.",
-            "Meanwhile, put the paella back in the\r\npan, stir in the remaining fish stock and\r\ncook for 2 mins until completely heated\r\nthrough. Stir through a knob of butter,the prawns and shelled mussels. Taste,\r\nseason with lemon juice, salt and pepper\r\nif necessary, and finish with the chopped\r\nparsley. Serve with the roast cod,\r\nmussels in their shells and steamed\r\npurple broccoli or a green vegetable,\r\nif you like. Finally, drizzle everything\r\nwith the saffron dressing."
+            "Calentar el horno a 180C/160C ventilador/gas 4.\r\nPara hacer la paella, poner el aceite de oliva,\r\nchorizo, chalotas y ajo en una cacerola grande\r\nsartén y freír durante 7-8 minutos hasta que el chorizo\r\nsuelta su aceite y las chalotas tienen\r\nsuavizado. Agrega el pimentón y cocina,\r\nrevolviendo, durante 5 minutos, luego agregue el arroz,\r\nmezcle bien y cocine por unos minutos más.",
+            "Verter 600 ml de caldo, sazonar y\r\nmezcle bien para combinar. Cubrir y poner\r\nal horno por 15 min. descubrir, dar\r\ntodo bien revuelto, luego regresa al\r\nHorno por 10 min. Cuando esté casi cocido,\r\nRetirar del horno y extender sobre\r\nuna bandeja para enfriar. Enfríe y reserve para más tarde. Puede prepararlo con un día de anticipación.",
+            "Para hacer el aceite de azafrán, bata el\r\naceite de oliva y jugo de limón juntos en\r\nuna cacerola pequeña. Añade el azafrán y\r\ncalentar suavemente durante 5 minutos, luego retirar de\r\nEl calor y dejar infundir y enfriar. Puedes preparar esto con un día de anticipación.",
+            "Calentar el horno a 200C/180C ventilador/gas 6.\r\nPara el bacalao, poner el aceite de oliva y la mantequilla.\r\nen una sartén apta para horno a fuego alto\r\nCalienta, pero no dejes que se queme. Sazone el\r\nbacalao con sal marina y pimienta negra, luego\r\ncocine, con la piel hacia abajo, en la sartén caliente, durante\r\n4 minutos, luego voltea el pescado con cuidado.\r\ny mete la sartén en el horno un rato más.\r\n3 min, terminando con un poco más de mar.\r\nsal y un chorrito de zumo de limón.",
+            "Mientras tanto, volver a poner la paella en el\r\nsartén, agregue el caldo de pescado restante y\r\ncocine durante 2 minutos hasta que esté completamente caliente\r\na través. Revuelva con una nuez de mantequilla, las gambas y los mejillones sin cáscara. gusto,\r\nsazone con jugo de limón, sal y pimienta\r\nsi es necesario, y terminar con el troceado\r\nperejil. Servir con el bacalao asado,\r\nmejillones con concha y al vapor\r\nbrócoli morado o una verdura verde,\r\nsi quieres. Finalmente rociar todo\r\ncon el aderezo de azafrán."
         ],
         "nutritional_info": {
             "kcal": "660",
@@ -427,31 +427,31 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/churros-with-chocolate-dipping-sauce/",
-        "title": "[ES] Churros with chocolate dipping sauce",
-        "description": "(Translation pending) Try a fresh spin on doughnuts by piping them Spanish-style and serving with a thick and indulgent dark chocolate sauce",
+        "title": "Churros con salsa de chocolate",
+        "description": "Pruebe una nueva versión de las donas preparándolas al estilo español y sirviéndolas con una espesa y deliciosa salsa de chocolate amargo.",
         "prep_time": "",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "50g butter, melted",
-            "½  tsp vanilla extract",
-            "250g plain flour",
-            "1 tsp baking powder",
-            "about 1 litre sunflower oil",
-            "few chunks of bread",
-            "200g bar dark chocolate, not too bitter, broken into chunks",
-            "100ml double cream",
-            "100ml whole milk",
-            "3 tbsp golden syrup",
-            "½  tsp vanilla extract, if you have some",
-            "100g caster sugar",
-            "2 tsp cinnamon"
+            "50 g de mantequilla, derretida",
+            "½ cucharadita de extracto de vainilla",
+            "250 g de harina común",
+            "1 cucharadita de polvo para hornear",
+            "aproximadamente 1 litro de aceite de girasol",
+            "unos trozos de pan",
+            "200 g de barra de chocolate negro, no demasiado amargo, partido en trozos",
+            "100ml de nata doble",
+            "100ml de leche entera",
+            "3 cucharadas de almíbar dorado",
+            "½ cucharadita de extracto de vainilla, si tienes",
+            "100 g de azúcar en polvo",
+            "2 cucharaditas de canela"
         ],
         "method": [
-            "Boil the kettle, then measure 350ml boiling water into a jug and add the melted butter and vanilla extract. Sift the flour and baking powder into a big mixing bowl with a big pinch of salt. Make a well in the centre, then pour in the contents of the jug and very quickly beat into the flour with a wooden spoon until lump-free. Rest for 10-15 mins while you make the sauce.",
-            "Put all the sauce ingredients into a pan and gently melt together, stirring occasionally until you have a smooth shiny sauce. Keep warm on a low heat.",
-            "Fill a large deep saucepan one-third full of oil. Heat until a cube of bread browns in 45 seconds – 1 min. Cover a tray with kitchen paper and mix the caster sugar and cinnamon together.",
-            "Fit a star nozzle to a piping bag, 1.5-2cm wide is a good size. Fill with the rested dough, then pipe 2-3 strips directly into the pan, snipping off each dough strip with a pair of kitchen scissors. Fry until golden brown and crisp, then remove with a slotted spoon and drain on the kitchen paper-lined tray. Carry on cooking the rest of the dough in batches, sprinkling the cooked churros with some cinnamon sugar as you go. Once you’ve cooked all the churros, toss with any remaining cinnamon sugar and serve with the chocolate sauce, for dipping."
+            "Hervir la tetera, luego medir 350 ml de agua hirviendo en una jarra y agregar la mantequilla derretida y el extracto de vainilla. Tamiza la harina y el polvo para hornear en un tazón grande con una pizca grande de sal. Hacer un hueco en el centro, luego verter el contenido de la jarra y muy rápidamente incorporar la harina con una cuchara de madera hasta que no queden grumos. Reposa durante 10-15 minutos mientras preparas la salsa.",
+            "Coloque todos los ingredientes de la salsa en una sartén y derrítalos suavemente, revolviendo ocasionalmente hasta obtener una salsa suave y brillante. Mantener caliente a fuego lento.",
+            "Llene una cacerola grande y profunda hasta un tercio de su capacidad con aceite. Calienta hasta que un cubo de pan se dore en 45 segundos – 1 min. Cubre una bandeja con papel de cocina y mezcla el azúcar en polvo y la canela.",
+            "Coloque una boquilla de estrella en una manga pastelera; 1,5-2 cm de ancho es un buen tamaño. Rellene con la masa reposada, luego coloque 2-3 tiras directamente en el molde, cortando cada tira de masa con un par de tijeras de cocina. Freír hasta que estén doradas y crujientes, luego retirar con una espumadera y escurrir en la bandeja forrada con papel de cocina. Continúa cocinando el resto de la masa por tandas, espolvoreando sobre los churros cocidos un poco de azúcar con canela. Una vez que hayas cocinado todos los churros, mezcla con el resto del azúcar y canela y sirve con la salsa de chocolate para mojar."
         ],
         "nutritional_info": {
             "kcal": "185",
@@ -467,29 +467,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/19514-warm-salad-of-chicken-livers-smoked-paprika-sherry/",
-        "title": "[ES] Warm salad of chicken livers, smoked paprika & Sherry",
-        "description": "(Translation pending) A delicious warm salad, full of smoky, garlicky flavours",
+        "title": "Ensalada templada de hígados de pollo, pimentón ahumado y Jerez",
+        "description": "Una deliciosa ensalada tibia, llena de sabores ahumados y con ajo.",
         "prep_time": "10 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "100g bag blanched hazelnuts, minus 3 tbsp for the sauce, below",
-            "2 tbsp olive oil",
-            "small knob of butter",
-            "450g pack chicken livers, cut into bite-size pieces",
-            "125ml glass Oloroso sherry",
-            "juice ½ lemon",
-            "120g bag rocket salad",
-            "sherry vinegar, to dress the leaves",
-            "2 garlic cloves",
-            "20g pack flat-leaf parsley, leaves only",
-            "3 tbsp blanched hazelnuts",
-            "2 tsp hot smoked paprika",
-            "4 tbsp olive oil"
+            "Bolsa de 100 g de avellanas blanqueadas, menos 3 cucharadas para la salsa, abajo",
+            "2 cucharadas de aceite de oliva",
+            "pequeña nuez de mantequilla",
+            "Paquete de 450 g de hígados de pollo, cortados en trozos pequeños",
+            "Vaso 125ml Jerez Oloroso",
+            "jugo ½ limón",
+            "Bolsa de 120 g de ensalada de rúcula",
+            "vinagre de jerez, para aliñar las hojas",
+            "2 dientes de ajo",
+            "Paquete de 20 g de perejil de hoja plana, solo las hojas",
+            "3 cucharadas de avellanas blanqueadas",
+            "2 cucharaditas de pimentón ahumado picante",
+            "4 cucharadas de aceite de oliva"
         ],
         "method": [
-            "Put all the ingredients for the sauce\r\ninto a food processor, then whizz to a\r\nrough paste. Heat oven to 200C/180C fan/\r\ngas 6. Put the remaining hazelnuts onto a\r\nbaking sheet, roast for 5 mins until lightly\r\ntoasted, roughly chop, then set aside.",
-            "Now make the salad – add the olive oil\r\nand butter to a large frying pan over a\r\nmedium-high heat. Quickly fry the livers\r\nin 2 batches until browned, about 2 mins\r\nper batch. Add the Sherry, then bubble for\r\na few mins over a high heat. Stir in the\r\nsauce and allow it to thicken and heat\r\nthrough. Splash in the lemon juice, then\r\nseason to taste. Dress the salad leaves\r\nwith a little Sherry vinegar. Spoon the\r\nlivers and sauce onto serving plates,\r\nsprinkle with the toasted chopped\r\nhazelnuts, then scatter over the dressed\r\nsalad leaves and serve straightaway."
+            "Pon todos los ingredientes para la salsa.\r\nen un procesador de alimentos, luego pase a un\r\npasta rugosa. Caliente el horno a 200C/ventilador de 180C/\r\ngas 6. Poner el resto de las avellanas en una\r\nbandeja para hornear, ase durante 5 minutos hasta que esté ligeramente\r\ntostado, picado en trozos grandes y luego reservado.",
+            "Ahora haz la ensalada – agrega el aceite de oliva.\r\ny mantequilla en una sartén grande sobre una\r\nfuego medio-alto. Freír rápidamente los hígados.\r\nen 2 tandas hasta que se dore, aproximadamente 2 minutos\r\npor lote. Agregue el jerez, luego burbujee durante\r\nunos minutos a fuego alto. Agregue el\r\nSalsa y dejar espesar y calentar.\r\na través. Rocíe el jugo de limón y luego\r\nsazone al gusto. Viste las hojas de ensalada\r\ncon un poco de vinagre de Jerez. Cuchara el\r\nhígados y salsa en platos para servir,\r\nespolvorear con las tostadas picadas\r\navellanas, luego esparcirlas sobre el aderezo\r\nensala las hojas y sirve inmediatamente."
         ],
         "nutritional_info": {
             "kcal": "543",
@@ -506,26 +506,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spanish-chicken-pie/",
-        "title": "[ES] Spanish chicken pie",
-        "description": "(Translation pending) Roasted peppers, olives and paprika give this bake tons of flavour. It’s a great way to use up leftover cooked chicken too",
+        "title": "pastel de pollo español",
+        "description": "Los pimientos asados, las aceitunas y el pimentón le dan a este horneado mucho sabor. También es una excelente manera de aprovechar las sobras del pollo cocido.",
         "prep_time": "10 mins Cook: 30 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1kg potatoes, chopped",
-            "3 tsp paprika (use smoked paprika if you have it)",
-            "2 tsp olive oil",
-            "2 onions, sliced",
-            "2 garlic cloves, crushed",
-            "2 x 400g cans chopped tomatoes",
-            "300g cooked chicken, shredded",
-            "140g roasted peppers from a jar, sliced (we like Karyatis)",
-            "handful Kalamata olives, halved"
+            "1 kg de patatas picadas",
+            "3 cucharaditas de pimentón (use pimentón ahumado si lo tiene)",
+            "2 cucharaditas de aceite de oliva",
+            "2 cebollas, rebanadas",
+            "2 dientes de ajo machacados",
+            "2 latas de 400 g de tomates picados",
+            "300 g de pollo cocido y desmenuzado",
+            "140 g de pimientos asados ​​de un frasco, en rodajas (nos gustan los Karyatis)",
+            "un puñado de aceitunas Kalamata, partidas por la mitad"
         ],
         "method": [
-            "Heat oven to 200C/fan 180C/gas 6. Boil\r\nthe potatoes for 15-20 mins until tender.\r\nDrain, return to the pan, then mash with\r\nsome seasoning and 2 tsp of the paprika.",
-            "Meanwhile, heat the oil in a large pan,\r\nthen fry the onions and garlic for a few\r\nmins until softened. Stir in the remaining\r\npaprika for 1 min, add the tomatoes ,\r\nthen, bring to a simmer. Tip into a large\r\novenproof dish, then stir in the chicken,\r\npeppers, olives and some seasoning.",
-            "Spoon over the mash, then bake for\r\n15 mins until the mash is golden on\r\ntop and the sauce is bubbling."
+            "Calentar el horno a 200C/ventilador 180C/gas 6. Hervir\r\nlas patatas durante 15-20 minutos hasta que estén tiernas.\r\nEscurrir, volver a la sartén y luego triturar con\r\nun poco de condimento y 2 cucharaditas de pimentón.",
+            "Mientras tanto, calentar el aceite en una sartén grande,\r\nLuego sofreír la cebolla y el ajo durante unos\r\nminutos hasta que se ablanden. Agregue el resto\r\npimentón durante 1 min, añadir los tomates,\r\nluego, llevar a fuego lento. Incline hacia un gran\r\nfuente refractaria, luego agregue el pollo,\r\npimientos, aceitunas y algún condimento.",
+            "Vierta sobre el puré y luego hornee por\r\n15 minutos hasta que el puré esté dorado.\r\nencima y la salsa burbujea."
         ],
         "nutritional_info": {
             "kcal": "421",
@@ -542,27 +542,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spanish-seafood-rice/",
-        "title": "[ES] Spanish seafood rice",
-        "description": "(Translation pending) This quick version of paella is superhealthy, plus it’s all cooked in one pan so there’s minimal washing-up",
+        "title": "Arroz español con marisco",
+        "description": "Esta versión rápida de paella es súper saludable y, además, se cocina en una sola sartén, por lo que requiere un mínimo lavado.",
         "prep_time": "10 mins Cook: 35 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 tbsp olive oil",
-            "1 onion, finely chopped",
-            "1 red and 1 yellow pepper, deseeded and sliced",
-            "2 garlic cloves, sliced",
-            "250g paella rice",
-            "850ml hot vegetable stock (we used Kallo very low salt stock)",
-            "pinch saffron",
-            "400g seafood mix (we used a bag of frozen mixed seafood, defrosted before use)",
-            "juice ½ small lemon",
-            "small handful flat-leaf parsley, roughly chopped"
+            "1 cucharada de aceite de oliva",
+            "1 cebolla, finamente picada",
+            "1 pimiento rojo y 1 amarillo, sin semillas y en rodajas",
+            "2 dientes de ajo, rebanados",
+            "250 gramos de arroz para paella",
+            "850 ml de caldo de verduras caliente (nosotros utilizamos caldo Kallo muy bajo en sal)",
+            "pizca de azafrán",
+            "400 g de mezcla de mariscos (nosotros usamos una bolsa de mezcla de mariscos congelados, descongelados antes de usar)",
+            "jugo ½ limón pequeño",
+            "un puñado pequeño de perejil de hoja plana, picado en trozos grandes"
         ],
         "method": [
-            "Heat the oil in a large saucepan and\r\nsoften the onion for 6-7 mins. Add the\r\npepper and garlic, cook for 2 mins\r\nmore, then stir in the paella rice and\r\ncook for 1 min, stirring to coat.",
-            "Pour in the stock, add the saffron and\r\nbring to the boil. Cook, uncovered, at\r\na gentle bubble, for 20 mins, stirring\r\noccasionally until the rice is tender.",
-            "Stir in the seafood and lemon juice and\r\ncook for 2 mins or until piping hot and\r\ncompletely cooked through. Serve in\r\nwarm bowls scattered with the parsley."
+            "Calentar el aceite en una cacerola grande y\r\nAblanda la cebolla durante 6-7 minutos. Añade el\r\npimienta y ajo, cocine por 2 minutos\r\nmás, luego agregue el arroz para paella y\r\ncocine por 1 minuto, revolviendo para cubrir.",
+            "Verter el caldo, añadir el azafrán y\r\nllevar a ebullición. Cocine, descubierto, a\r\nuna suave burbuja, durante 20 minutos, revolviendo\r\nDe vez en cuando hasta que el arroz esté tierno.",
+            "Agregue los mariscos y el jugo de limón y\r\ncocine por 2 minutos o hasta que esté bien caliente y\r\ncompletamente cocido. servir en\r\ntazones calientes esparcidos con el perejil."
         ],
         "nutritional_info": {
             "kcal": "369",
@@ -579,21 +579,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/garlicky-prawns-with-sherry/",
-        "title": "[ES] Garlicky prawns with sherry",
-        "description": "(Translation pending) Seafood lovers will love this simple tapas-style recipe that’s low fat and quick to cook up",
+        "title": "Gambas al ajillo al jerez",
+        "description": "A los amantes de los mariscos les encantará esta sencilla receta estilo tapas, baja en grasas y rápida de cocinar.",
         "prep_time": "5 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "3 tbsp olive oil",
-            "3 garlic cloves, thinly sliced",
-            "400g large prawns, uncooked",
-            "2 tbsp dry sherry (fino)",
-            "handful parsley, chopped"
+            "3 cucharadas de aceite de oliva",
+            "3 dientes de ajo, en rodajas finas",
+            "400 g de gambas grandes, crudas",
+            "2 cucharadas de jerez seco (fino)",
+            "un puñado de perejil picado"
         ],
         "method": [
-            "Heat the olive oil in a large frying pan. Tip in the garlic slices and cook for a few secs.\r\nThen stir through the prawns and cook for a couple of mins until they start to turn pink.",
-            "Pour over the sherry and cook for a few mins more, just until the prawns are cooked\r\nthrough. Sprinkle with parsley before serving."
+            "Calienta el aceite de oliva en una sartén grande. Vierta las rodajas de ajo y cocine por unos segundos.\r\nLuego revuelve las gambas y cocina durante un par de minutos hasta que empiecen a ponerse rosadas.",
+            "Vierta sobre el jerez y cocine unos minutos más, hasta que las gambas estén cocidas.\r\na través. Espolvorea con perejil antes de servir."
         ],
         "nutritional_info": {
             "kcal": "108",
@@ -610,24 +610,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spiced-tortilla/",
-        "title": "[ES] Spiced tortilla",
-        "description": "(Translation pending) Perfect for dinners, lunches and snacks, this spiced tortilla is a great in-the-fridge standby for many occasions",
+        "title": "tortilla especiada",
+        "description": "Perfecta para cenas, almuerzos y refrigerios, esta tortilla especiada es un excelente recurso para guardar en el refrigerador en muchas ocasiones.",
         "prep_time": "5 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 tbsp sunflower oil",
-            "1 onion, sliced",
-            "1 red chilli, deseeded and shredded",
-            "2 tsp curry spices (we used coriander, cumin and turmeric)",
-            "300g cherry tomatoes",
-            "500g cooked potatoes, sliced",
-            "bunch coriander, stalks finely chopped, leaves roughly chopped",
-            "8 eggs, beaten"
+            "1 cucharada de aceite de girasol",
+            "1 cebolla, rebanada",
+            "1 chile rojo, sin semillas y rallado",
+            "2 cucharaditas de especias de curry (nosotros usamos cilantro, comino y cúrcuma)",
+            "300 g de tomates cherry",
+            "500 g de patatas cocidas, en rodajas",
+            "manojo de cilantro, tallos finamente picados y hojas picadas en trozos grandes",
+            "8 huevos batidos"
         ],
         "method": [
-            "Heat the oil in a large frying pan. Fry the onion and half the chilli for 5 mins until softened. Tip in the spices, fry for 1 min\r\nmore, then add the cherry tomatoes, potatoes and coriander stalks to the pan. Season the eggs well, pour over the top of the veg and leave to cook gently for 8-10 mins until almost set.",
-            "Heat the grill and flash the tortilla underneath for 1-2 mins until the top is set. Scatter the coriander leaves and remaining\r\nchilli over the top, slice into wedges and\r\nserve with a green salad."
+            "Calienta el aceite en una sartén grande. Freír la cebolla y la mitad del chile durante 5 minutos hasta que se ablanden. Incorpora las especias y fríe durante 1 min.\r\nmás, luego agrega los tomates cherry, las papas y los tallos de cilantro a la sartén. Sazone bien los huevos, viértalos sobre las verduras y déjelos cocinar a fuego lento durante 8-10 minutos hasta que estén casi cuajados.",
+            "Caliente la parrilla y cocine la tortilla por debajo durante 1-2 minutos hasta que la parte superior esté firme. Esparcir las hojas de cilantro y el resto.\r\nchile por encima, cortarlo en gajos y\r\nsirva con una ensalada verde."
         ],
         "nutritional_info": {
             "kcal": "327",
@@ -644,24 +644,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spanish-fig-almond-balls/",
-        "title": "[ES] Spanish fig & almond balls",
-        "description": "(Translation pending) A festive version of Pan deHigo, a dried fig cake that the Spanish traditionally eat with cheese and a drizzle of honey",
+        "title": "Bolas españolas de higos y almendras",
+        "description": "Una versión festiva del Pan de Higo, un pastel de higos secos que los españoles comen tradicionalmente con queso y un chorrito de miel.",
         "prep_time": "20 mins Plus drying time",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "100g whole almonds, toasted",
-            "500g pack dried whole figs, hard stalk and centre of base removed",
-            "85g dried apricots, chopped into small pieces",
-            "50g dried cranberries",
-            "1 tbsp brandy",
-            "1 tbsp clear honey",
-            "1 tsp ground cloves",
-            "100g sesame seeds, toasted"
+            "100 g de almendras enteras tostadas",
+            "Paquete de 500 g de higos enteros secos, sin el tallo duro ni el centro de la base",
+            "85 g de orejones cortados en trozos pequeños",
+            "50 g de arándanos secos",
+            "1 cucharada de brandy",
+            "1 cucharada de miel clara",
+            "1 cucharadita de clavo molido",
+            "100 g de semillas de sésamo tostadas"
         ],
         "method": [
-            "Whizz the almonds in a food processor until most are finely chopped, then tip into a large bowl. Roughly chop the figs, then whizz to \r\na smooth sticky paste. Scrape onto the almonds then, using your hands, mix together well with the dried fruit, brandy, honey and cloves.",
-            "Divide the mixture into 6 and roll into balls. Tip the sesame seeds onto a tray, then roll the balls in them until covered. Cover the tray loosely with a clean tea towel, then leave the fig balls to dry for a week before packaging. Will keep in a cool place for 2 months."
+            "Batir las almendras en un procesador de alimentos hasta que la mayoría esté finamente picada, luego verterlas en un tazón grande. Picar los higos en trozos grandes y luego batirlos hasta \r\nuna pasta suave y pegajosa. Raspe las almendras y luego, con las manos, mezcle bien con los frutos secos, el brandy, la miel y el clavo.",
+            "Divida la mezcla en 6 y forme bolitas. Coloca las semillas de sésamo en una bandeja y luego enrolla las bolas hasta cubrirlas. Cubra la bandeja sin apretar con un paño de cocina limpio y luego deje secar las bolas de higo durante una semana antes de empaquetarlas. Se mantendrá en un lugar fresco durante 2 meses."
         ],
         "nutritional_info": {
             "kcal": "306",
@@ -678,24 +678,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spanish-rice-and-prawn-one-pot/",
-        "title": "[ES] Spanish rice & prawn one-pot",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyA fast and easy meal filled with Mediterranean holiday flavours",
+        "title": "One-pot de arroz español y gambas",
+        "description": "Contiene carne de cerdo: la receta es solo para no musulmanes. Una comida rápida y fácil llena de sabores festivos mediterráneos.",
         "prep_time": "4 mins Cook: 16 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 onion, sliced",
-            "1 red and 1 green pepper, deseeded and sliced",
-            "50g chorizo, sliced",
-            "2 garlic cloves, crushed",
-            "1 tbsp olive oil",
-            "250g easy cook basmati rice (we used Tilda)",
-            "400g can chopped tomatoes",
-            "200g raw, peeled prawns, defrosted if frozen"
+            "1 cebolla, rebanada",
+            "1 pimiento rojo y 1 verde, sin semillas y en rodajas",
+            "50 g de chorizo, en rodajas",
+            "2 dientes de ajo machacados",
+            "1 cucharada de aceite de oliva",
+            "250 g de arroz basmati de cocción fácil (nosotros usamos Tilda)",
+            "Lata de 400g de tomates picados",
+            "200 g de gambas crudas peladas y descongeladas si están congeladas"
         ],
         "method": [
-            "Boil the kettle. In a non-stick frying or\r\nshallow pan with a lid, fry the onion,\r\npeppers, chorizo and garlic in the oil over\r\na high heat for 3 mins. Stir in the rice and\r\nchopped tomatoes with 500ml boiling\r\nwater, cover, then cook over a high heat\r\nfor 12 mins.",
-            "Uncover, then stir – the rice should be\r\nalmost tender. Stir in the prawns, with a\r\nsplash more water if the rice is looking\r\ndry, then cook for another min until the\r\nprawns are just pink and rice tender."
+            "Hervir la tetera. En una sartén antiadherente o\r\nsartén poco profunda con tapa, sofreír la cebolla,\r\npimientos, chorizo y ajo en el aceite sobre\r\na fuego alto durante 3 min. Agregue el arroz y\r\ntomates picados con 500ml hirviendo\r\nagua, tapar y luego cocinar a fuego alto\r\ndurante 12 min.",
+            "Destape y revuelva; el arroz debe estar\r\ncasi tierno. Agregue las gambas, con un\r\necha más agua si el arroz se ve\r\nsecar, luego cocinar por otro minuto hasta que\r\nlas gambas están rosadas y el arroz tierno."
         ],
         "nutritional_info": {
             "kcal": "356",
@@ -712,23 +712,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chorizo-and-chickpea-soup/",
-        "title": "[ES] Chorizo & chickpea soup",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlySizzling Chorizo & chickpea soup",
+        "title": "Sopa de chorizo ​​y garbanzos",
+        "description": "Contiene carne de cerdo: la receta es solo para no musulmanes. Sopa chisporroteante de chorizo ​​y garbanzos.",
         "prep_time": "5 mins Cook: 10 mins Ready in 15 minutes",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "400g can chopped tomatoes",
-            "110g pack of chorizo sausage (unsliced)",
-            "140g wedge Savoy cabbages",
-            "sprinkling dried chilli flakes",
-            "410g can chickpeas, drained and rinsed",
-            "1 chicken or vegetable stock cube",
-            "crusty bread or garlic bread, to serve"
+            "Lata de 400g de tomates picados",
+            "Paquete de 110 g de chorizo ​​(sin lonchas)",
+            "140 g de coles de Saboya en gajos",
+            "espolvorear hojuelas de chile seco",
+            "Lata de 410 g de garbanzos, escurridos y enjuagados.",
+            "1 cubito de caldo de pollo o verduras",
+            "pan crujiente o pan de ajo, para servir"
         ],
         "method": [
-            "Put a medium pan on the heat and tip  \r\nin the tomatoes, followed by a can of water. \r\nWhile the tomatoes are heating, quickly  \r\nchop the chorizo into chunky pieces \r\n(removing any skin) and shred the cabbage.",
-            "Pile the chorizo and cabbage into the pan \r\nwith the chilli flakes and chickpeas, then \r\ncrumble in the stock cube. Stir well, cover \r\nand leave to bubble over a high heat for \r\n6 mins or until the cabbage is just tender. \r\nLadle into bowls and eat with crusty or  \r\ngarlic bread."
+            "Pon una sartén mediana al fuego y vierte  \r\nen los tomates, seguido de una lata de agua. \r\nMientras los tomates se calientan, rápidamente  \r\npicar el chorizo en trozos grandes \r\n(quitando la piel) y desmenuzar la col.",
+            "Coloca el chorizo y el repollo en la sartén. \r\ncon las hojuelas de guindilla y los garbanzos, luego \r\ndesmenuzar en la pastilla de caldo. Revuelva bien, cubra \r\ny dejar burbujear a fuego alto durante \r\n6 minutos o hasta que el repollo esté tierno. \r\nSirva en tazones y cómelo con crujiente o  \r\npan de ajo."
         ],
         "nutritional_info": {
             "kcal": "366",
@@ -745,24 +745,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spanish-sardines-on-toast/",
-        "title": "[ES] Spanish sardines on toast",
-        "description": "(Translation pending) Enjoy the taste of the Med with this fresh, wholesome supper using an oily fish that's packed with omega-3 and a good, cheap storecupboard staple",
+        "title": "Sardinas españolas sobre tostadas",
+        "description": "Disfrute del sabor del Mediterráneo con esta cena fresca y saludable que utiliza un pescado azul rico en omega-3 y un alimento básico bueno y económico.",
         "prep_time": "5 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "1 tbsp olive oil",
-            "1 garlic clove, chopped",
-            "1 red chilli, deseeded and chopped",
-            "1 lemon, zest and juice",
-            "2 x 120g cans sardines in sunflower oil, drained",
-            "4 slices brown bread",
-            "half small bunch parsley, chopped"
+            "1 cucharada de aceite de oliva",
+            "1 diente de ajo, picado",
+            "1 chile rojo, sin semillas y picado",
+            "1 limón, ralladura y jugo",
+            "2 latas de 120 g de sardinas en aceite de girasol, escurridas",
+            "4 rebanadas de pan integral",
+            "medio manojo pequeño de perejil, picado"
         ],
         "method": [
-            "Heat the olive oil in a\r\nfrying pan, then sizzle\r\nthe garlic clove and red chilli. Add the lemon zest.",
-            "Add the\r\nsardines and heat\r\nthrough for a few mins until warm.",
-            "Toast the brown bread. Stir the parsley into the\r\nsardines, add a squeeze of lemon juice,\r\nthen divide between the toast and serve."
+            "Calentar el aceite de oliva en un\r\nsartén, luego chisporrotear\r\nel diente de ajo y la guindilla roja. Agrega la ralladura de limón.",
+            "Añade el\r\nsardinas y calor\r\ndurante unos minutos hasta que esté tibio.",
+            "Tostar el pan integral. Agrega el perejil al\r\nsardinas, añadir un chorrito de zumo de limón,\r\nluego dividir entre las tostadas y servir."
         ],
         "nutritional_info": {
             "kcal": "420",
@@ -779,24 +779,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chorizo-and-softboiled-egg-salad/",
-        "title": "[ES] Chorizo & soft-boiled egg salad",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyThis anytime summer salad will be on the table in just 30 minutes",
+        "title": "Ensalada de chorizo ​​y huevo pasado por agua",
+        "description": "Contiene carne de cerdo: la receta es solo para no musulmanes. Esta ensalada de verano en cualquier momento estará en la mesa en solo 30 minutos.",
         "prep_time": "15 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "500g bag baby new potatoes, halved",
-            "4 eggs",
-            "225g green beans, trimmed",
-            "225g chorizo ring, sliced",
-            "1 garlic clove, sliced",
-            "2 tbsp sherry vinegar",
-            "2 tbsp chopped parsley"
+            "Bolsa de 500 g de patatas nuevas cortadas por la mitad",
+            "4 huevos",
+            "225 g de judías verdes, peladas",
+            "225 g de aros de chorizo, en rodajas",
+            "1 diente de ajo, rebanado",
+            "2 cucharadas de vinagre de jerez",
+            "2 cucharadas de perejil picado"
         ],
         "method": [
-            "Cook the potatoes in a large pan of\r\nboiling salted water for 12 mins, adding\r\nthe eggs after 6 mins, and the beans\r\nfor the final 2 mins. Drain everything and\r\ncool the eggs under cold running water.",
-            "Meanwhile fry chorizo slices for\r\n1-2 mins, until beginning to crisp. Remove\r\nfrom the pan with a slotted spoon and\r\nset aside, leaving the oil from the chorizo\r\nin the pan. Add the garlic to the pan and\r\ncook gently for 1 min.",
-            "Remove the pan from the heat, stir\r\nin the vinegar and parsley, then toss\r\nwith the potatoes, beans, chorizo\r\nand seasoning. Shell the eggs, cut into\r\nquarters and add to the salad."
+            "Cocine las patatas en una cacerola grande de\r\nHervir agua con sal durante 12 minutos y agregar.\r\nlos huevos después de 6 minutos y los frijoles\r\ndurante los últimos 2 minutos. Escurrir todo y\r\nEnfríe los huevos con agua corriente fría.",
+            "Mientras tanto sofreír las lonchas de chorizo durante\r\n1-2 minutos, hasta que empiece a estar crujiente. Quitar\r\nde la sartén con una espumadera y\r\nreservar, dejando el aceite del chorizo\r\nen la sartén. Añade el ajo a la sartén y\r\ncocine a fuego lento durante 1 min.",
+            "Retire la sartén del fuego, revuelva\r\nen el vinagre y el perejil, luego mezcle\r\ncon las patatas, frijoles, chorizo\r\ny condimento. Pelar los huevos, cortarlos en\r\ncuartos y agregar a la ensalada."
         ],
         "nutritional_info": {
             "kcal": "374",
@@ -813,21 +813,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chorizo-potato-and-cheese-omelette/",
-        "title": "[ES] Chorizo, potato & cheese omelette",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyWhisk up your eggs with Spanish sausage and potato to make a decadent omelette lunch for one",
+        "title": "Tortilla de chorizo, patatas y queso",
+        "description": "Contiene carne de cerdo: la receta es solo para no musulmanes. Bata los huevos con salchicha española y patatas para preparar un delicioso almuerzo de tortilla para uno.",
         "prep_time": "8 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "1 small potato, cut into 2cm dice",
-            "1 tsp olive oil",
-            "50g chorizo, chopped",
-            "2-3 eggs",
-            "chopped parsley",
-            "25g grated cheddar"
+            "1 patata pequeña, cortada en dados de 2 cm",
+            "1 cucharadita de aceite de oliva",
+            "50 g de chorizo, picado",
+            "2-3 huevos",
+            "perejil picado",
+            "25 g de queso cheddar rallado"
         ],
         "method": [
-            "Cook the potato in boiling water for 8-10 mins or until tender. Drain and allow to steam-dry. Heat oil in an omelette pan, add chorizo and cook for 2 mins. Add the potato and cook for a further 5 mins until the potato starts to crisp. Spoon pan contents out, wipe pan and cook a 2 or 3-egg omelette in the same pan. When almost cooked, scatter with the chorizo and potato, parsley and cheese. Fold the omelette in the pan and cook for 1 min more to melt the cheese."
+            "Cocine la papa en agua hirviendo durante 8 a 10 minutos o hasta que esté tierna. Escurrir y dejar secar al vapor. Calienta el aceite en una sartén para tortilla, agrega el chorizo ​​y cocina por 2 minutos. Agregue la papa y cocine por 5 minutos más hasta que la papa comience a estar crujiente. Saque el contenido de la sartén, límpiela y cocine una tortilla de 2 o 3 huevos en la misma sartén. Cuando esté casi cocido, espolvorear con el chorizo ​​y la patata, el perejil y el queso. Dobla la tortilla en la sartén y cocina por 1 min más para derretir el queso."
         ],
         "nutritional_info": {
             "kcal": "602",
@@ -844,23 +844,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spanish-chicken/",
-        "title": "[ES] Spanish chicken",
-        "description": "(Translation pending) For maximum flavour and minimum washing up, try this tasty one-pot",
+        "title": "pollo español",
+        "description": "Para obtener el máximo sabor y un mínimo de lavado, pruebe este sabroso plato de una sola olla.",
         "prep_time": "15 mins Cook: 45 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "8 chicken thighs, skin on and bone in",
-            "3 onions, thinly sliced",
-            "2 tsp paprika",
-            "zest and juice 1 lemon",
-            "good handful parsley, roughly chopped",
-            "150ml stock",
-            "1 tbsp olive oil"
+            "8 muslos de pollo, con piel y hueso",
+            "3 cebollas, en rodajas finas",
+            "2 cucharaditas de pimentón",
+            "ralladura y jugo de 1 limón",
+            "un buen puñado de perejil, picado en trozos grandes",
+            "caldo de 150 ml",
+            "1 cucharada de aceite de oliva"
         ],
         "method": [
-            "Heat oven to 190C/170C fan/gas 5.\r\nPut all the ingredients into a large, wide\r\novenproof dish. Mix everything together\r\nwith your hands and season.",
-            "Bake for 45 mins, stirring the onions\r\nafter 20 mins, until the chicken is golden\r\nand the onions tender. Serve with rice."
+            "Calentar el horno a 190C/170C ventilador/gas 5.\r\nColoque todos los ingredientes en una fuente grande y ancha.\r\nfuente apta para horno. Mezclar todo junto\r\ncon tus manos y sazona.",
+            "Hornee por 45 minutos, revolviendo las cebollas.\r\ndespués de 20 minutos, hasta que el pollo esté dorado\r\ny las cebollas tiernas. Servir con arroz."
         ],
         "nutritional_info": {
             "kcal": "701",
@@ -877,22 +877,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chorizo-and-tomato-salad/",
-        "title": "[ES] Chorizo & tomato salad",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyThe combination of sweet, acidic tomatoes with salty, spicy chorizo and tangy sherry vinegar is a match made in heaven",
+        "title": "Ensalada de chorizo ​​y tomate",
+        "description": "Contiene carne de cerdo: la receta es solo para no musulmanes. La combinación de tomates dulces y ácidos con chorizo ​​salado y picante y vinagre de jerez picante es una combinación perfecta.",
         "prep_time": "5 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "3 ripe beef tomatoes, cut into wedges",
-            "½ red onion, thinly sliced",
-            "few thyme sprigs, leaves picked",
-            "1 tbsp sherry vinegar",
-            "2 tbsp extra-virgin olive oil",
-            "100g chorizo, sliced on the diagonal"
+            "3 tomates de res maduros, cortados en gajos",
+            "½ cebolla morada, cortada en rodajas finas",
+            "algunas ramitas de tomillo, hojas recogidas",
+            "1 cucharada de vinagre de jerez",
+            "2 cucharadas de aceite de oliva virgen extra",
+            "100 g de chorizo, cortado en diagonal"
         ],
         "method": [
-            "Put the tomatoes in a bowl with the\r\nonion and thyme. Season, then drizzle\r\nwith the vinegar and oil. Let the flavours\r\nmingle while you cook the chorizo.",
-            "In a hot, dry pan, fry the chorizo slices\r\nuntil browned on both sides. Serve the\r\ntomatoes with the fried chorizo, drizzled\r\nwith a little oil from the pan."
+            "Poner los tomates en un bol con el\r\ncebolla y tomillo. Sazonar y luego rociar\r\ncon el vinagre y el aceite. Deja que los sabores\r\nmézclalos mientras cocinas el chorizo.",
+            "En una sartén seca y caliente sofreír las rodajas de chorizo.\r\nhasta que se dore por ambos lados. servir el\r\ntomates con chorizo frito, rociados\r\ncon un poco de aceite de la sartén."
         ],
         "nutritional_info": {
             "kcal": "184",
@@ -909,21 +909,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/quick-gazpacho/",
-        "title": "[ES] Quick gazpacho",
-        "description": "(Translation pending) Packed with vitamin C, low fat and counts as two of your five a day – this should be on the menu every week!",
+        "title": "gazpacho rápido",
+        "description": "Repleto de vitamina C, bajo en grasas y cuenta como dos de cinco al día: ¡esto debería estar en el menú todas las semanas!",
         "prep_time": "",
         "cook_time": "10 mins No cook",
         "serves": "1",
         "ingredients": [
-            "250g passata",
-            "1 red pepper, deseeded and chopped",
-            "1 red chilli, deseeded and chopped",
-            "1 garlic clove, crushed",
-            "1 tsp sherry vinegar",
-            "juice ½ lime"
+            "250 g de puré",
+            "1 pimiento rojo, sin semillas y picado",
+            "1 chile rojo, sin semillas y picado",
+            "1 diente de ajo, machacado",
+            "1 cucharadita de vinagre de jerez",
+            "jugo ½ lima"
         ],
         "method": [
-            "In a blender (or with a stick blender), whizz \r\ntogether the passata, red pepper, chilli, garlic, \r\nsherry vinegar and lime juice until smooth. \r\nSeason to taste, then serve with ice cubes."
+            "En una licuadora (o con una batidora de mano), mezcle \r\njuntos la passata, el pimiento rojo, la guindilla, el ajo, \r\nvinagre de jerez y jugo de lima hasta que quede suave. \r\nSazone al gusto y luego sirva con cubitos de hielo."
         ],
         "nutritional_info": {
             "kcal": "126",
@@ -940,30 +940,30 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/prawns-with-romesco-sauce/",
-        "title": "[ES] Prawns with Romesco sauce",
-        "description": "(Translation pending) Succulent tiger prawns are spiced up with chilli and peppers in this Spanish-style tapas dish",
+        "title": "Gambas con salsa romesco",
+        "description": "Suculentos langostinos tigre condimentados con chile y pimientos en este plato de tapas al estilo español.",
         "prep_time": "",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "1 red pepper, preferably the long, thin skinned romano variety",
-            "3 fat garlic cloves",
-            "1 fat, fresh red chilli",
-            "1 large ripe tomato",
-            "10 shelled hazelnuts",
-            "10 blanched almonds",
-            "3 sprigs parsley",
-            "small slice day-old bread",
-            "8 tbsp olive oil",
-            "2 tbsp red wine vinegar",
-            "400g pack large, cooked, peeled tiger prawns, defrosted if frozen"
+            "1 pimiento rojo, preferiblemente del tipo romano, de piel larga y fina",
+            "3 dientes de ajo gordos",
+            "1 chile rojo fresco y graso",
+            "1 tomate maduro grande",
+            "10 avellanas sin cáscara",
+            "10 almendras blanqueadas",
+            "3 ramitas de perejil",
+            "rebanada pequeña de pan del día anterior",
+            "8 cucharadas de aceite de oliva",
+            "2 cucharadas de vinagre de vino tinto",
+            "Paquete de 400 g de langostinos tigre grandes, cocidos y pelados, descongelados si están congelados"
         ],
         "method": [
-            "Prepare ahead - halve the pepper lengthways and remove the seeds and stalk. Line a grill pan with foil and put the pepper halves, skin side up, on the grill pan with the whole garlic cloves, chilli and tomato. Grill for 2 minutes, turn the tomato, then grill for a further 2 minutes. Remove the tomato with a large spoon, then peel, quarter and remove the seeds. Then chop the tomato roughly.",
-            "Continue grilling the pepper, chilli and garlic for 4-5 minutes, until the pepper and chilli skins have blackened and the garlic is starting to soften (the garlic skin will start to split when it is ready). When cool enough to handle, peel and halve the chilli, and scrape out and discard the seeds. Peel the pepper and roughly chop both the pepper and chilli.",
-            "Spread nuts over the foil and grill until toasted. Finely chop the nuts and parsley in a food processor. Tip into a small bowl.",
-            "Heat 3 tablespoons of oil in a frying pan, add the pepper, garlic and chilli and fry for 3 minutes. Tear up the bread and add to the pan, turning it in the oil until lightly browned. Pulse in food processor with the tomatoes, salt, vinegar and oil until roughly chopped. Tip into a bowl. Leave to cool and store in fridge for up to 3 days.",
-            "On the day add the nuts and parsley to the sauce and mix. Serve in a small bowl on a plate with the peeled prawns. Supply cocktail sticks for spearing the prawns."
+            "Prepárese con anticipación: corte el pimiento por la mitad a lo largo y quítele las semillas y el tallo. Forre una sartén con papel de aluminio y coloque las mitades de pimiento, con la piel hacia arriba, en la sartén junto con los dientes de ajo enteros, la guindilla y el tomate. Ase durante 2 minutos, dé la vuelta al tomate y luego ase durante 2 minutos más. Retirar el tomate con una cuchara grande, luego pelarlo, cortarlo en cuartos y quitarle las semillas. Luego pica el tomate en trozos grandes.",
+            "Continúe asando el pimiento, el chile y el ajo durante 4-5 minutos, hasta que la piel del pimiento y el chile se hayan ennegrecido y el ajo comience a ablandarse (la piel del ajo comenzará a partirse cuando esté listo). Cuando esté lo suficientemente frío como para manipularlo, pele y corte el chile por la mitad, raspe y deseche las semillas. Pelar el pimiento y picar en trozos grandes tanto el pimiento como la guindilla.",
+            "Extienda las nueces sobre el papel de aluminio y cocine a la parrilla hasta que estén tostadas. Pica finamente las nueces y el perejil en un procesador de alimentos. Vierta en un tazón pequeño.",
+            "Calentar 3 cucharadas de aceite en una sartén, añadir el pimiento, el ajo y la guindilla y sofreír durante 3 minutos. Rompe el pan y agrégalo a la sartén, revolviendo en el aceite hasta que esté ligeramente dorado. Pulse en un procesador de alimentos con los tomates, la sal, el vinagre y el aceite hasta que estén picados en trozos grandes. Vierta en un tazón. Dejar enfriar y guardar en el frigorífico hasta por 3 días.",
+            "Ese mismo día añade las nueces y el perejil a la salsa y mezcla. Servir en un bol pequeño en un plato con las gambas peladas. Proporcione palitos de cóctel para pinchar las gambas."
         ],
         "nutritional_info": {
             "kcal": "0",
@@ -980,29 +980,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chickpea-chorizo-and-spinach-stew/",
-        "title": "[ES] Chickpea, chorizo & spinach stew",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyFor a healthy, warming supper that takeslittle effort or time, you can’t beat thissimple one-pan dish",
+        "title": "Guiso de garbanzos, chorizo ​​y espinacas",
+        "description": "Contiene carne de cerdo: la receta es solo para no musulmanes. Para una cena saludable y cálida que requiera poco esfuerzo y tiempo, no hay nada mejor que este sencillo plato de una sola sartén.",
         "prep_time": "15 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "3-4 tbsp extra-virgin olive oil",
-            "1 onion, chopped",
-            "1 carrot, finely diced",
-            "1 celery stick, finely diced",
-            "few thyme sprigs",
-            "2 bay leaves",
-            "2 garlic cloves, finely chopped",
-            "200g chorizo, diced",
-            "¼ tsp cinnamon",
-            "1 tsp hot smoked paprika",
-            "2 x 410g/14oz cans chickpeas, rinsed and drained",
-            "1-2 tbsp sherry vinegar",
-            "400g bag spinach leaves, washed and drained"
+            "3-4 cucharadas de aceite de oliva virgen extra",
+            "1 cebolla, picada",
+            "1 zanahoria, finamente picada",
+            "1 rama de apio, finamente picada",
+            "unas ramitas de tomillo",
+            "2 hojas de laurel",
+            "2 dientes de ajo, finamente picados",
+            "200 g de chorizo, cortado en cubitos",
+            "¼ cucharadita de canela",
+            "1 cucharadita de pimentón ahumado picante",
+            "2 latas de 410 g/14 oz de garbanzos, enjuagados y escurridos",
+            "1-2 cucharadas de vinagre de jerez",
+            "Bolsa de 400 g de hojas de espinaca, lavadas y escurridas."
         ],
         "method": [
-            "Heat the oil in a large pan, then gently\r\nfry the onion for 3-4 mins until it begins\r\nto soften. Stir in the carrot, celery, thyme\r\nand bay leaves. Season, then cook for\r\n2-3 mins, stirring occasionally. Add the\r\ngarlic, chorizo, cinnamon and smoked\r\npaprika. Gently fry until the vegetables\r\nsoften and the chorizo starts to release\r\nits oils and crisp up.",
-            "Stir in the chickpeas, vinegar and\r\n150ml water, then bring to a simmer for\r\n1-2 mins until the chickpeas have heated\r\nup. Add the spinach, then stir through the\r\nchickpeas until it wilts a little. Remove\r\nfrom the heat, season to taste, then\r\nserve warm with crusty bread."
+            "Caliente el aceite en una sartén grande y luego, suavemente\r\nsofreír la cebolla durante 3-4 minutos hasta que empiece\r\npara suavizar. Agregue la zanahoria, el apio y el tomillo.\r\ny hojas de laurel. Sazone, luego cocine por\r\n2-3 minutos, revolviendo ocasionalmente. Añade el\r\najo, chorizo, canela y ahumado\r\npimentón. Freír hasta que las verduras\r\nse ablanda y el chorizo empieza a soltarse\r\nsus aceites y quedar crujiente.",
+            "Agrega los garbanzos, el vinagre y\r\n150 ml de agua, luego llevar a fuego lento durante\r\n1-2 minutos hasta que los garbanzos se hayan calentado\r\narriba. Agregue las espinacas, luego revuelva con la\r\ngarbanzos hasta que se ablanden un poco. Quitar\r\ndel fuego, sazonar al gusto, luego\r\nsirva caliente con pan crujiente."
         ],
         "nutritional_info": {
             "kcal": "487",
@@ -1019,24 +1019,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/crispy-squid-with-capers/",
-        "title": "[ES] Crispy squid with capers",
-        "description": "(Translation pending) A hint of garlic mayo makes everything that little bit more delicious, and this crisp calamari is no exception",
+        "title": "Calamares crujientes con alcaparras",
+        "description": "Un toque de mayonesa de ajo hace que todo sea un poco más delicioso, y estos calamares crujientes no son una excepción.",
         "prep_time": "15 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "300g baby squid, cleaned",
-            "200g plain flour",
-            "2 tbsp capers, drained and finely chopped",
-            "1 garlic clove, crushed",
-            "5 tbsp mayonnaise",
-            "vegetable or sunflower oil, for frying",
-            "lemon wedges, to serve"
+            "300 g de chipirones limpios",
+            "200 g de harina común",
+            "2 cucharadas de alcaparras, escurridas y finamente picadas",
+            "1 diente de ajo, machacado",
+            "5 cucharadas de mayonesa",
+            "aceite vegetal o de girasol, para freír",
+            "rodajas de limón, para servir"
         ],
         "method": [
-            "Cut the squid into rings about ½cm thick. Tip the flour into a freezer bag and season well. Add the capers, then give everything a good shake to mix together. Tip the squid into the bag, then shake again until all the rings are well coated. Mix together the garlic and mayonnaise, then place in a serving bowl.",
-            "Pour some oil into a large pan until it comes about 7cm up the sides, but the pan is no more than a third full. Place over a medium heat and let the oil warm up. To test that the oil is ready, place a small piece of bread in the pan – it should sizzle when it touches the oil.",
-            "Remove a handful of squid from the flour and shake off any excess. Gently drop into\r\nthe oil, then cook for about 3 mins until crisp. Remove with a slotted spoon and\r\nplace on kitchen paper. Repeat with the remaining squid. Serve straight away with\r\nthe mayonnaise and lemon wedges."
+            "Cortar los calamares en aros de aproximadamente ½ cm de grosor. Vierta la harina en una bolsa para congelador y sazone bien. Agrega las alcaparras, luego agita todo bien para que se mezcle. Introduce los calamares en la bolsa y vuelve a agitar hasta que todos los aros queden bien cubiertos. Mezcle el ajo y la mayonesa y luego colóquelos en un tazón para servir.",
+            "Vierta un poco de aceite en una sartén grande hasta que suba unos 7 cm por los lados, pero la sartén no esté llena a más de un tercio. Coloca a fuego medio y deja que el aceite se caliente. Para comprobar que el aceite está listo, coloca un pequeño trozo de pan en la sartén; debe chisporrotear al tocar el aceite.",
+            "Retirar un puñado de calamares de la harina y sacudir el exceso. Caiga suavemente en\r\nel aceite, luego cocine durante unos 3 minutos hasta que esté crujiente. Retirar con una espumadera y\r\ncolocar sobre papel de cocina. Repita con los calamares restantes. Servir inmediatamente con\r\nla mayonesa y las rodajas de limón."
         ],
         "nutritional_info": {
             "kcal": "287",
@@ -1053,29 +1053,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chicken-with-saffron-raisins-and-pine-nuts/",
-        "title": "[ES] Chicken with saffron, raisins & pine nuts",
-        "description": "(Translation pending) This full-flavoured Spanish dish is great for the familyor entertaining friends midweek",
+        "title": "Pollo con azafrán, pasas y piñones",
+        "description": "Este plato español lleno de sabor es ideal para la familia o para recibir a amigos entre semana.",
         "prep_time": "10 mins Cook: 55 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1¼kg chicken, jointed and on the bone (ask your butcher to do this for you or see Know-how)",
-            "2 tbsp olive oil",
-            "2 onions, chopped",
-            "3 garlic cloves, chopped",
-            "good pinch of saffron (about 20 strands)",
-            "125ml glass dry sherry (such as Fino or Manzanilla)",
-            "200ml chicken stock",
-            "1 tbsp thyme leaves",
-            "50g raisins",
-            "2 tbsp pine nuts",
-            "handful chopped flat-leaf parsley, to serve"
+            "1¼kg de pollo, desarticulado y con hueso (pídelo a tu carnicero o consulta Know-how)",
+            "2 cucharadas de aceite de oliva",
+            "2 cebollas picadas",
+            "3 dientes de ajo, picados",
+            "una buena pizca de azafrán (unas 20 hebras)",
+            "125ml de vaso de jerez seco (como Fino o Manzanilla)",
+            "200 ml de caldo de pollo",
+            "1 cucharada de hojas de tomillo",
+            "50 g de pasas",
+            "2 cucharadas de piñones",
+            "un puñado de perejil de hoja plana picado, para servir"
         ],
         "method": [
-            "Heat a large frying pan on a high heat\r\nand season the chicken. Add the olive oil\r\nto the pan, then the chicken. Brown for\r\nabout 5 mins on each side, remove onto\r\na plate, then set aside.",
-            "Lower the heat to medium. In the\r\nremaining fat, fry the onions for\r\n3 mins, then add the garlic and saffron.\r\nCook for 3-4 mins more. Add the Sherry,\r\nthen simmer for 3-5 mins until syrupy.",
-            "Put the chicken leg pieces back into\r\nthe pan, tip in the stock, thyme and\r\nraisins, cover, then gently cook on a low\r\nheat for 20 mins. Add the breast meat\r\nand any juices left on the plate, simmer\r\nfor 10 mins more until cooked through\r\nand the sauce in the pan has reduced.",
-            "While the chicken is cooking, heat oven\r\nto 200C/180C fan/gas 6. Scatter the pine\r\nnuts over a baking sheet, then roast for\r\n10 mins until golden and toasted. Once\r\nthe chicken has cooked through, season\r\nto taste, scatter with pine nuts and\r\nparsley, then serve with rice."
+            "Calienta una sartén grande a fuego alto.\r\ny sazonar el pollo. Agrega el aceite de oliva\r\na la sartén, luego el pollo. Marrón para\r\nunos 5 minutos por cada lado, retirar\r\nun plato y luego reservar.",
+            "Baja el fuego a medio. en el\r\nresto de grasa, sofreír las cebollas\r\n3 minutos, luego añade el ajo y el azafrán.\r\nCocine por 3-4 minutos más. Añade el jerez,\r\nluego cocine a fuego lento durante 3-5 minutos hasta que esté almibarado.",
+            "Vuelva a colocar los trozos de muslo de pollo\r\nla sartén, verter el caldo, el tomillo y\r\npasas, tapar y cocinar suavemente a fuego lento.\r\ncalentar durante 20 min. Agrega la carne de pechuga\r\ny el jugo que quede en el plato, cocine a fuego lento\r\ndurante 10 minutos más hasta que esté bien cocido\r\ny la salsa de la sartén se ha reducido.",
+            "Mientras se cocina el pollo, calentar el horno.\r\na 200C/180C ventilador/gas 6. Esparcir el pino\r\nnueces sobre una bandeja para hornear, luego ástalas\r\n10 minutos hasta que estén doradas y tostadas. una vez\r\nel pollo esté bien cocido, sazone\r\nal gusto, espolvorear con piñones y\r\nperejil, luego sirva con arroz."
         ],
         "nutritional_info": {
             "kcal": "587",
@@ -1092,21 +1092,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/patatas-bravas/",
-        "title": "[ES] Patatas bravas",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyA classic tapas dish – cubes of potato in a spicy, tomato sauce",
+        "title": "Patatas bravas",
+        "description": "Contiene carne de cerdo; la receta es solo para no musulmanes. Un plato de tapas clásico: cubos de papa en salsa de tomate picante.",
         "prep_time": "35 mins Cook: 50 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "175g piece chorizo, sliced",
-            "350g sliced new potatoes",
-            "½ tsp cumin seed, 1 seeded",
-            "sliced fresh red chilli",
-            "1 chopped garlic clove",
-            "400g can chopped tomatoes"
+            "175 g de chorizo ​​en rodajas",
+            "350 g de patatas nuevas en rodajas",
+            "½ cucharadita de semilla de comino, 1 sin semillas",
+            "chile rojo fresco en rodajas",
+            "1 diente de ajo picado",
+            "Lata de 400g de tomates picados"
         ],
         "method": [
-            "Slice up the chorizo and dry fry in a large frying pan for a minute. Add the sliced new potatoes and cook for 5 minutes until golden. The add the cumin seeds, 1 seeded and sliced fresh red chilli and chopped garlic clove and cook for 2 minutes. Tip in the can of chopped tomatoes, and simmer for 10-15 minutes until the potatoes are tender."
+            "Cortar el chorizo ​​en rodajas y sofreírlo en una sartén grande durante un minuto. Agrega las patatas nuevas en rodajas y cocina durante 5 minutos hasta que estén doradas. Luego agregue las semillas de comino, 1 chile rojo fresco sin semillas y en rodajas y un diente de ajo picado y cocine por 2 minutos. Vierta la lata de tomates picados y cocine a fuego lento durante 10 a 15 minutos hasta que las patatas estén tiernas."
         ],
         "nutritional_info": {
             "kcal": "0",
@@ -1122,23 +1122,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spanish-tomato-bread-with-jamon-serrano/",
-        "title": "[ES] Spanish tomato bread with jamón Serrano",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyThese tasty tapas snacks are ready in just 5 minutes, the perfect accompaniment for a drinks party",
+        "title": "Pan español con tomate y jamón serrano",
+        "description": "Contiene carne de cerdo: la receta es solo para no musulmanes. Estas deliciosas tapas están listas en solo 5 minutos, el acompañamiento perfecto para una fiesta de bebidas.",
         "prep_time": "5 mins",
         "cook_time": "",
         "serves": "12",
         "ingredients": [
-            "4 ripe tomatoes, chopped",
-            "1 garlic clove, finely chopped",
-            "3 tbsp olive oil",
-            "salt",
-            "pepper",
-            "20 slices of baguette",
-            "5-6 slices serrano ham"
+            "4 tomates maduros, picados",
+            "1 diente de ajo, finamente picado",
+            "3 cucharadas de aceite de oliva",
+            "sal",
+            "pimienta",
+            "20 rebanadas de baguette",
+            "5-6 lonchas de jamón serrano"
         ],
         "method": [
-            "Mix together the chopped tomatoes, garlic glove, olive oil, salt and pepper. Keep in the fridge until needed.",
-            "To serve, toast 20 slices of baguette. Spoon a little tomato topping on to each piece of toast. Tear 5-6 slices of jamón serrano into pieces and put one piece on each slice of bread."
+            "Mezclar los tomates picados, el diente de ajo, el aceite de oliva, la sal y la pimienta. Mantener en el frigorífico hasta que sea necesario.",
+            "Para servir, tuesta 20 rebanadas de baguette. Coloque un poco de cobertura de tomate sobre cada tostada. Corta 5-6 rebanadas de jamón serrano en trozos y pon un trozo en cada rebanada de pan."
         ],
         "nutritional_info": {
             "kcal": "0",
@@ -1155,24 +1155,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spaghetti-with-spanish-flavours/",
-        "title": "[ES] Spaghetti with Spanish flavours",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyA 10 minute dish which infuses spaghetti with the flavours of Spain – you can make a vegetarian version too",
+        "title": "Espaguetis con sabores españoles",
+        "description": "Contiene carne de cerdo (la receta es solo para no musulmanes). Un plato de 10 minutos que infunde a los espaguetis los sabores de España; también puedes hacer una versión vegetariana.",
         "prep_time": "",
         "cook_time": "10 mins Ready in 10 minutes",
         "serves": "4",
         "ingredients": [
-            "80g pack sliced chorizo sausage",
-            "300g bag fresh spaghetti",
-            "20g pack flatleaf parsley (a good handful)",
-            "2 red peppers from a jar, in brine or oil",
-            "2 tbsp olive oil",
-            "50g finely grated fresh parmesan, plus extra to serve"
+            "Paquete de 80 g de chorizo ​​​​en lonchas",
+            "Bolsa de 300g de espaguetis frescos",
+            "Paquete de 20g de perejil de hoja plana (un buen puñado)",
+            "2 pimientos rojos de frasco, en salmuera o aceite",
+            "2 cucharadas de aceite de oliva",
+            "50 g de parmesano fresco finamente rallado, más un poco más para servir"
         ],
         "method": [
-            "Put a pan of water on over a high\r\nheat to boil. Meanwhile, snip the\r\nchorizo into strips with scissors,\r\nand chop the parsley and peppers\r\n(check for stray seeds first).",
-            "When the water is boiling briskly,\r\nadd the spaghetti with a good\r\nmeasure of salt, stir and return to\r\nthe boil. Cook for 3 minutes.",
-            "In a large frying pan, heat the oil,\r\nadd the chorizo and peppers and\r\nplenty of black pepper. Cook for a\r\nminute or so, until heated through\r\nand the juices are stained red from\r\nthe paprika in the chorizo. Scoop\r\nhalf a mugful of pasta water from\r\nthe pan, drain the remainder and\r\ntip the spaghetti into the frying pan.",
-            "Add the parsley and parmesan,\r\ntoss well and splash in the pasta\r\nwater, to moisten. Hand round extra\r\nparmesan at the table."
+            "Ponga una cacerola con agua a fuego alto.\r\ncalentar hasta hervir. Mientras tanto, corta el\r\nchorizo en tiras con unas tijeras,\r\ny picar el perejil y los pimientos\r\n(primero compruebe si hay semillas perdidas).",
+            "Cuando el agua hierva rápidamente,\r\nañade los espaguetis con un buen\r\nmedida de sal, remover y regresar a\r\nel hervor. Cocine por 3 minutos.",
+            "En una sartén grande calentar el aceite,\r\nañadir el chorizo y los pimientos y\r\nmucha pimienta negra. cocinar por un\r\nminuto más o menos, hasta que esté completamente caliente\r\ny los jugos se tiñen de rojo por\r\nel pimentón en el chorizo. primicia\r\nmedia taza de agua de pasta de\r\nla cacerola, escurrir el resto y\r\nColoca los espaguetis en la sartén.",
+            "Agrega el perejil y el parmesano,\r\nmezcle bien y agregue la pasta\r\nagua, para humedecer. Ronda de mano extra\r\nparmesano en la mesa."
         ],
         "nutritional_info": {
             "kcal": "444",

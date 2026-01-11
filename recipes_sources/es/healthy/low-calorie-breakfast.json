@@ -1,33 +1,33 @@
 [
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/salsa-verde-baked-eggs/",
-        "title": "[ES] Salsa verde baked eggs",
-        "description": "(Translation pending) Dunk flatbreads into these salsa verde baked eggs to soak up the lovely juices. Healthy and low in calories, it takes just 15 minutes to make",
+        "title": "Huevos al horno con salsa verde",
+        "description": "Sumerja panes planos en estos huevos horneados con salsa verde para absorber sus deliciosos jugos. Saludable y baja en calorías, se prepara en tan solo 15 minutos",
         "prep_time": "5 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "5 tbsp olive oil",
-            "1 tsp smoked paprika",
-            "1 tsp cumin seeds",
-            "400g can cherry tomatoes",
-            "200g fresh cherry tomatoes",
-            "2 garlic cloves",
-            "1 small bunch of parsley",
-            "1 small bunch of basil",
-            "½ small bunch of mint, leaves picked",
-            "2 tbsp capers",
+            "5 cucharadas de aceite de oliva",
+            "1 cucharadita de pimentón ahumado",
+            "1 cucharadita de semillas de comino",
+            "Lata de 400g de tomates cherry.",
+            "200 g de tomates cherry frescos",
+            "2 dientes de ajo",
+            "1 manojo pequeño de perejil",
+            "1 manojo pequeño de albahaca",
+            "½ manojo pequeño de menta, con las hojas recogidas",
+            "2 cucharadas de alcaparras",
             "1 tsp Dijon mustard",
-            "2 tbsp white wine vinegar",
-            "200g baby spinach, washed",
-            "4 eggs",
-            "½ tsp chilli flakes (optional)",
-            "flatbreads, to serve (optional)"
+            "2 cucharadas de vinagre de vino blanco",
+            "200 g de espinacas tiernas, lavadas",
+            "4 huevos",
+            "½ cucharadita de hojuelas de chile (opcional)",
+            "panes planos, para servir (opcional)"
         ],
         "method": [
-            "Drizzle 1 tbsp of the olive oil in afrying panor skillet, and fry the paprika and cumin for 30 seconds over a medium heat. Add the canned tomatoes and fresh tomatoes, bring to the boil, then simmer with a lid on over a medium heat for 5-6 mins until the tomatoes have softened.",
-            "Meanwhile, put the garlic, most of the parsley, the basil, mint, capers, mustard, white wine vinegar, 4 tbsp oil and 3 tbsp cold water in amini food processorand blitz to a smooth paste. Season.",
-            "Stir the spinach into the pan with the tomatoes until wilted (put the lid back on for a few minutes, then stir again to help it wilt). Make four dips in the mixture and gently crack an egg into each one. Cover with a lid and cook over a medium heat for 6-8 mins, or until the eggs are just set. Uncover the pan, then drizzle over the herby sauce. Scatter over the reserved parsley and chilli flakes, if using. Serve with flatbreads, if you like."
+            "Rocíe 1 cucharada de aceite de oliva en una sartén y fría el pimentón y el comino durante 30 segundos a fuego medio. Agregue los tomates enlatados y los tomates frescos, lleve a ebullición, luego cocine a fuego lento con tapa a fuego medio durante 5-6 minutos hasta que los tomates se ablanden.",
+            "Mientras tanto, ponga el ajo, la mayor parte del perejil, la albahaca, la menta, las alcaparras, la mostaza, el vinagre de vino blanco, 4 cucharadas de aceite y 3 cucharadas de agua fría en un mini procesador de alimentos y mezcle hasta obtener una pasta suave. Estación.",
+            "Agrega las espinacas a la sartén con los tomates hasta que se ablanden (vuelve a tapar durante unos minutos y luego revuelve nuevamente para ayudar a que se ablanden). Haga cuatro salsas en la mezcla y rompa suavemente un huevo en cada una. Cubra con una tapa y cocine a fuego medio durante 6-8 minutos, o hasta que los huevos estén listos. Destape la sartén y luego rocíe con la salsa de hierbas. Esparza sobre el perejil reservado y las hojuelas de chile, si las usa. Sirva con panes planos, si lo desea."
         ],
         "nutritional_info": {
             "kcal": "268",
@@ -44,19 +44,19 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/microwave-scrambled-eggs/",
-        "title": "[ES] Microwave scrambled eggs",
-        "description": "(Translation pending) Rustle up a delicious breakfast of scrambled eggs in no time – this protein-rich dish takes just four minutes in the microwave",
+        "title": "Huevos revueltos al microondas",
+        "description": "Prepare un delicioso desayuno con huevos revueltos en un abrir y cerrar de ojos: este plato rico en proteínas tarda solo cuatro minutos en el microondas.",
         "prep_time": "2 mins Cook: 2 mins",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "2 eggs",
-            "2 tbsp whole milk",
-            "toast, to serve"
+            "2 huevos",
+            "2 cucharadas de leche entera",
+            "tostadas, para servir"
         ],
         "method": [
-            "Use a fork to beat together the eggs, milk and a pinch of salt in a microwave-safe jug. Cook in themicrowaveon High for 30 seconds, then beat again and return to the microwave for another 30 seconds.",
-            "Beat again, breaking up any lumps of egg. Microwave for another 15 seconds, then beat again; the eggs will be loose at this stage so serve them straightaway if this is how you like them. If you prefer your eggs a little firmer, microwave for a further 15 seconds, beat, then serve."
+            "Utiliza un tenedor para batir los huevos, la leche y una pizca de sal en una jarra apta para microondas. Cocine en el microondas a potencia Alta durante 30 segundos, luego vuelva a batir y regrese al microondas por otros 30 segundos.",
+            "Vuelva a batir, rompiendo los grumos de huevo. Cocine en el microondas por otros 15 segundos, luego vuelva a batir; Los huevos estarán sueltos en esta etapa, así que sírvelos inmediatamente si así te gustan. Si prefieres que los huevos estén un poco más firmes, mételos en el microondas durante 15 segundos más, bate y luego sirve."
         ],
         "nutritional_info": {
             "kcal": "158",
@@ -73,26 +73,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/matzo-granola-with-coconut-cashew-cranberry/",
-        "title": "[ES] Matzo granola with coconut, cashew & cranberry",
-        "description": "(Translation pending) Enjoy this granola at breakfast during the Jewish festival of Passover, when many breads are off the menu. Try it sprinkled over a bowl of Greek yogurt and fruit",
+        "title": "Granola de matzá con coco, anacardos y arándanos",
+        "description": "Disfrute de esta granola en el desayuno durante la fiesta judía de Pesaj, cuando muchos panes están fuera del menú. Pruébalo espolvoreado sobre un bol de yogur griego y fruta.",
         "prep_time": "5 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "5 sheets matzo (any type: wholemeal, rye, spelt, gluten-free)",
-            "150g cashews, coarsely chopped",
-            "150g blanched or regular almonds, coarsely chopped",
-            "6 tbsp sunflower oil",
-            "80ml maple syrup",
-            "½ tsp ground cinnamon",
-            "75g coconut flakes",
-            "100g dried cranberries"
+            "5 hojas de matzá (cualquier tipo: integral, de centeno, de espelta, sin gluten)",
+            "150 g de anacardos, picados en trozos grandes",
+            "150 g de almendras blanqueadas o regulares, picadas en trozos grandes",
+            "6 cucharadas de aceite de girasol",
+            "80 ml de jarabe de arce",
+            "½ cucharadita de canela molida",
+            "75 g de hojuelas de coco",
+            "100 g de arándanos secos"
         ],
         "method": [
-            "Heat the oven to 200C/180C fan/gas 6 and line a baking sheet with baking parchment. Crumble the matzo into bite-sized pieces in a large bowl and mix with the chopped nuts.",
-            "Mix the sunflower oil, maple syrup, cinnamon and ½ tsp salt in a separate bowl, then pour this over the mixed dry ingredients. Mix well to coat and tip onto the baking sheet.",
-            "Bake for 10-15 mins, turning a couple of times so the granola browns evenly. After 10 mins, mix in the coconut flakes to cook for the final 5 mins. Keep an eye on it as it can quickly turn too dark. When it is golden-brown, remove from the oven and leave to cool on the baking sheet. It will crisp up as it cools. Stir in the cranberries, then transfer to a clean container when completely cool.",
-            "Serve with milk or Greek yogurt and chopped fruit. If you can stop snacking on it, there should be enough to get you through Passover."
+            "Calentar el horno a 200C/180C ventilador/gas 6 y forrar una bandeja para hornear con papel para hornear. Desmenuza la matzá en trozos pequeños en un tazón grande y mézclala con las nueces picadas.",
+            "Mezcle el aceite de girasol, el jarabe de arce, la canela y ½ cucharadita de sal en un recipiente aparte, luego viértalo sobre los ingredientes secos mezclados. Mezcle bien para cubrir y vierta sobre la bandeja para hornear.",
+            "Hornee durante 10 a 15 minutos, volteando un par de veces para que la granola se dore uniformemente. Después de 10 minutos, agregue las hojuelas de coco para cocinar durante los últimos 5 minutos. Esté atento a él, ya que rápidamente puede oscurecerse demasiado. Cuando esté dorado, sacar del horno y dejar enfriar en la bandeja del horno. Quedará crujiente a medida que se enfríe. Agregue los arándanos y luego transfiéralo a un recipiente limpio cuando esté completamente frío.",
+            "Servir con leche o yogur griego y fruta picada. Si puedes dejar de comerlo, debería haber suficiente para pasar la Pascua."
         ],
         "nutritional_info": {
             "kcal": "187",
@@ -109,24 +109,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/prawn-egg-on-toast/",
-        "title": "[ES] Prawn & egg on toast",
-        "description": "(Translation pending) Meet your new favourite brunch recipe: quick and easy prawn and egg mayonnaise on toast. Sprinkle with chives to finish",
+        "title": "Tostada de gambas y huevo",
+        "description": "Conoce tu nueva receta de brunch favorita: fácil y rápida mayonesa de gambas y huevo sobre tostada. Espolvorea con cebollino para terminar.",
         "prep_time": "10 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "3 eggs",
-            "250g peeled and cooked prawns (defrosted if frozen)",
-            "3 tbsp mayonnaise",
-            "1 lemon, juiced",
-            "4 thick slices white bread",
-            "butter, to serve",
-            "small bunch of chives, finely sliced, to serve"
+            "3 huevos",
+            "250 g de gambas peladas y cocidas (descongeladas si están congeladas)",
+            "3 cucharadas de mayonesa",
+            "1 limón, exprimido",
+            "4 rebanadas gruesas de pan blanco",
+            "mantequilla, para servir",
+            "manojo pequeño de cebollino, finamente picado, para servir"
         ],
         "method": [
-            "Bring a medium pan of water to the boil, then carefully lower in the eggs and cook for 9 mins. Remove to a bowl of iced water using a slotted spoon and leave to stand for 10 mins until cold. Peel, then finely chop.",
-            "Tip the chopped egg into a bowl along with the prawns. Stir in the mayonnaise and lemon juice, then season with salt and pepper.",
-            "Toastthe bread, then butter it. Spoon over the prawn and egg mayonnaise, then sprinkle with some chives and serve."
+            "Hierva una cacerola mediana con agua, luego agregue con cuidado los huevos y cocine durante 9 minutos. Retirar a un recipiente con agua helada con una espumadera y dejar reposar durante 10 minutos hasta que esté frío. Pelar y luego picar finamente.",
+            "Vierta el huevo picado en un bol junto con las gambas. Agrega la mayonesa y el jugo de limón, luego sazona con sal y pimienta.",
+            "Tostar el pan y luego untarlo con mantequilla. Vierta sobre la mayonesa de gambas y huevo, luego espolvoree con un poco de cebollino y sirva."
         ],
         "nutritional_info": {
             "kcal": "252",
@@ -143,28 +143,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/baked-eggs-with-spinach-tomatoes-ricotta-basil/",
-        "title": "[ES] Baked eggs with spinach, tomatoes, ricotta & basil",
-        "description": "(Translation pending) Serve this Italian-inspired take on a shakshuka for an easy brunch. If you’re not vegetarian, you could also add chorizo",
+        "title": "Huevos al horno con espinacas, tomates, ricotta y albahaca",
+        "description": "Sirva esta versión de shakshuka de inspiración italiana para un brunch sencillo. Si no eres vegetariano también puedes añadir chorizo",
         "prep_time": "10 mins Cook: 30 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "2 tbsp olive oil",
-            "1 onion, finely chopped",
-            "1 garlic clove, crushed",
-            "pinch of chilli flakes",
-            "3 x 400g cans finely chopped tomatoes (or blitz regular canned chopped tomatoes using a food processor or hand blender)",
-            "3 tbsp sundried tomato pesto (ensure vegetarian, if needed)",
-            "200g spinach, roughly chopped",
-            "8 eggs",
-            "100g ricotta",
-            "40g parmesan or vegetarian alternative, finely grated",
-            "handful of basil leaves",
-            "crusty bread or focaccia, to serve"
+            "2 cucharadas de aceite de oliva",
+            "1 cebolla, finamente picada",
+            "1 diente de ajo, machacado",
+            "pizca de hojuelas de chile",
+            "3 latas de 400 g de tomates finamente picados (o mezcle tomates picados enlatados normales con un procesador de alimentos o una batidora de mano)",
+            "3 cucharadas de pesto de tomates secos (asegúrese de que sea vegetariano, si es necesario)",
+            "200 g de espinacas, picadas en trozos grandes",
+            "8 huevos",
+            "100 g de ricota",
+            "40 g de parmesano o alternativa vegetariana, finamente rallado",
+            "un puñado de hojas de albahaca",
+            "pan crujiente o focaccia, para servir"
         ],
         "method": [
-            "Heat the oil in a large, shallow, flameproof casserole or frying pan over a low-medium heat and fry the onion with a pinch of salt for 10 mins until soft and translucent. Add the garlic and chilli flakes, and fry for 1 min more. Tip in the tomatoes, 1 tsp sugar and pesto. Season and simmer, uncovered, for 10 mins, stirring often. Tip in the spinach and cook for another 5 mins until wilted.",
-            "Heat the grill to high. Make eight gaps in the sauce with the back of a spoon and crack an egg into each. Dot over the ricotta and scatter with the parmesan. Cover and cook for 5 mins, then slide under the hot grill for a few minutes until the egg whites are set and the yolks runny. Scatter with the basil and serve with crusty bread for dunking."
+            "Calentar el aceite en una cacerola o sartén grande, poco profunda y ignífuga a fuego medio-bajo y sofreír la cebolla con una pizca de sal durante 10 minutos hasta que esté suave y traslúcida. Agrega el ajo y la guindilla en hojuelas y sofríe 1 min más. Agregue los tomates, 1 cucharadita de azúcar y el pesto. Sazone y cocine a fuego lento, sin tapar, durante 10 minutos, revolviendo con frecuencia. Agregue las espinacas y cocine por otros 5 minutos hasta que se ablanden.",
+            "Calienta la parrilla a fuego alto. Haga ocho huecos en la salsa con el dorso de una cuchara y rompa un huevo en cada uno. Salpique la ricota y espolvoree con el parmesano. Tape y cocine por 5 minutos, luego deslícelo debajo de la parrilla caliente durante unos minutos hasta que las claras estén cuajadas y las yemas líquidas. Espolvorea con albahaca y sirve con pan crujiente para mojar."
         ],
         "nutritional_info": {
             "kcal": "271",
@@ -181,21 +181,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/blueberry-smoothie-recipe/",
-        "title": "[ES] Blueberry smoothie recipe",
-        "description": "(Translation pending) Make a quick and simple blueberry smoothie with yogurt, banana and apple juice for busy mornings. You can easily make it vegan by using coconut yogurt",
+        "title": "Receta de batido de arándanos",
+        "description": "Prepare un batido de arándanos rápido y sencillo con yogur, plátano y jugo de manzana para las mañanas ocupadas. Puedes hacerlo vegano fácilmente usando yogur de coco.",
         "prep_time": "5 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "175g blueberries",
-            "1 small banana, sliced",
-            "1 tbsp natural or Greek yogurt",
-            "100ml apple juice, chilled",
-            "3-4 mint leaves (optional), plus extra to garnish"
+            "175 g de arándanos",
+            "1 plátano pequeño, en rodajas",
+            "1 cucharada de yogur natural o griego",
+            "100 ml de zumo de manzana, frío",
+            "3-4 hojas de menta (opcional), y más para decorar"
         ],
         "method": [
-            "Put the blueberries, banana, yogurt, apple juice and mint, if using, in ablenderand blitz until smooth. Add a splash of water if it seems too thick.",
-            "Pour the smoothie into a tall glass with a glass straw to serve. Garnish with a sprig of mint, if you like."
+            "Coloque los arándanos, el plátano, el yogur, el jugo de manzana y la menta, si los usa, en una licuadora y mezcle hasta que quede suave. Añade un chorrito de agua si te parece demasiado espesa.",
+            "Vierta el batido en un vaso alto con una pajita para servir. Adorne con una ramita de menta, si lo desea."
         ],
         "nutritional_info": {
             "kcal": "120",
@@ -212,24 +212,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/banana-overnight-oats/",
-        "title": "[ES] Banana overnight oats",
-        "description": "(Translation pending) Rustle up these easy overnight oats made with bananas, nut butter and almonds for a tasty breakfast. Prepped the night before, they’re ideal for busy mornings",
+        "title": "Avena con plátano durante la noche",
+        "description": "Prepare esta sencilla avena nocturna hecha con plátanos, mantequilla de nueces y almendras para un delicioso desayuno. Preparados la noche anterior, son ideales para mañanas ocupadas.",
         "prep_time": "5 mins plus overnight chilling (no cook)",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "2 bananas, peeled",
-            "100g porridge oats",
-            "¼ tsp ground cinnamon, plus a pinch to serve",
-            "1 tbsp maple syrup",
-            "300ml milk of your choice, plus a splash",
-            "2 tbsp peanut or almond butter, plus extra to serve",
-            "2 tbsp flaked or chopped almonds",
-            "2-4 tbsp natural yogurt, to serve (optional)"
+            "2 plátanos, pelados",
+            "100 g de gachas de avena",
+            "¼ cucharadita de canela molida, más una pizca para servir",
+            "1 cucharada de jarabe de arce",
+            "300ml de leche de tu elección, más un chorrito",
+            "2 cucharadas de mantequilla de maní o de almendras, más extra para servir",
+            "2 cucharadas de almendras laminadas o picadas",
+            "2-4 cucharadas de yogur natural, para servir (opcional)"
         ],
         "method": [
-            "Mash 1 banana in a bowl with a fork until smooth. Stir in the oats, cinnamon, maple syrup, milk and peanut butter. Mix well, then cover and chill overnight.",
-            "The next morning, stir the porridge, adding another splash of milk if the mixture is quite stiff. Divide between two bowls. Slice the remaining banana and scatter this over the porridge, drizzle with more nut butter and sprinkle over the almonds. Top with spoonfuls of yogurt, if using, and sprinkle with a pinch more cinnamon before serving."
+            "Triture 1 plátano en un bol con un tenedor hasta que quede suave. Agrega la avena, la canela, el jarabe de arce, la leche y la mantequilla de maní. Mezcle bien, luego cubra y enfríe durante la noche.",
+            "A la mañana siguiente, remueve la papilla, añadiendo otro chorrito de leche si la mezcla está bastante espesa. Dividir en dos tazones. Corta el plátano restante en rodajas y espárcelo sobre la papilla, rocía con más mantequilla de nueces y espolvorea sobre las almendras. Cubra con cucharadas de yogur, si lo usa, y espolvoree con una pizca más de canela antes de servir."
         ],
         "nutritional_info": {
             "kcal": "557",
@@ -246,20 +246,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/pineapple-smoothie/",
-        "title": "[ES] Pineapple smoothie",
-        "description": "(Translation pending) Blend fresh pineapple and banana with lime juice to make this tangy pineapple smoothie. It’s great for breakfast and kids will love it too",
+        "title": "batido de piña",
+        "description": "Licue piña y plátano frescos con jugo de lima para preparar este batido de piña picante. Es genial para el desayuno y a los niños también les encantará.",
         "prep_time": "10 mins",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "150g pineapple, trimmed, peeled and chopped",
-            "1 small banana, peeled and sliced",
-            "1 lime, juiced",
-            "ice (optional)"
+            "150 g de piña, pelada, cortada y picada",
+            "1 plátano pequeño, pelado y rebanado",
+            "1 lima, exprimida",
+            "hielo (opcional)"
         ],
         "method": [
-            "Blitz the pineapple in ablenderwith the banana, lime juice and 50ml cold water until smooth.",
-            "Fill a tall glass with ice, if you like, pour over the smoothie and serve immediately."
+            "Mezcla la piña en licuadora con el plátano, el jugo de lima y 50 ml de agua fría hasta que quede suave.",
+            "Llena un vaso alto con hielo, si lo deseas, vierte sobre el batido y sirve inmediatamente."
         ],
         "nutritional_info": {
             "kcal": "140",
@@ -276,26 +276,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/courgette-cheddar-cornbread/",
-        "title": "[ES] Courgette & cheddar cornbread",
-        "description": "(Translation pending) Enjoy this cheesy cornbread with a spicy chilli, or toasted and topped with poached eggs and grilled tomatoes for breakfast",
+        "title": "Pan de maíz con calabacín y queso cheddar",
+        "description": "Disfrute de este pan de maíz con queso y chile picante, o tostado y cubierto con huevos escalfados y tomates asados ​​para el desayuno.",
         "prep_time": "10 mins Cook: 40 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "75g butter, melted, plus extra for the tin",
-            "75g strong white bread flour",
-            "150g instant polenta",
-            "1 tbsp baking powder",
-            "3 eggs",
-            "350ml whole milk",
-            "100g mature cheddar, grated",
-            "2 small or 1 medium courgette (about 200g), trimmed and roughly grated"
+            "75 g de mantequilla derretida y un poco más para el molde",
+            "75 g de harina de pan blanca fuerte",
+            "150 g de polenta instantánea",
+            "1 cucharada de polvo para hornear",
+            "3 huevos",
+            "350ml de leche entera",
+            "100 g de queso cheddar maduro, rallado",
+            "2 calabacines pequeños o 1 mediano (unos 200 g), cortados y rallados"
         ],
         "method": [
-            "Heat the oven to 220C/200C fan/gas 7. Butter a 900g loaf tin and line with a wide strip of baking parchment. Mix the flour, polenta and baking powder in a bowl with 1 tsp of salt.",
-            "Whiskthe eggs, milk and melted butter in a jug. Pour into the dry ingredients and mix together. Stir in the cheese and courgettes. It will be quite runny at this stage but don’t worry, as the polenta gradually swells and soaks up the liquid in the oven.",
-            "Pour into the prepared loaf tin and bake for 15 mins, then turn the oven down to 200C/180C fan/gas 6 and cook for another 25-30 mins or until a skewer inserted in the middle of the loaf comes out clean (you can cover the top loosely with foil if starts to get dark too quickly).",
-            "Leave to cool completely in the tin, then turn out and slice."
+            "Calentar el horno a 220C/200C ventilador/gas 7. Untar con mantequilla un molde para pan de 900 g y forrar con una tira ancha de papel para hornear. Mezclar la harina, la polenta y el polvo para hornear en un bol con 1 cucharadita de sal.",
+            "Batir en una jarra los huevos, la leche y la mantequilla derretida. Vierta en los ingredientes secos y mezcle. Agrega el queso y los calabacines. En esta etapa estará bastante líquida, pero no te preocupes, ya que la polenta se hincha gradualmente y absorbe el líquido en el horno.",
+            "Vierta en el molde para pan preparado y hornee por 15 minutos, luego baje el horno a 200C/180C ventilador/gas 6 y cocine por otros 25-30 minutos o hasta que al insertar una brocheta en el medio del pan salga limpio (puede cubrir la parte superior sin apretar con papel de aluminio si comienza a oscurecerse demasiado rápido).",
+            "Dejar enfriar completamente en el molde, luego desmoldar y cortar en rodajas."
         ],
         "nutritional_info": {
             "kcal": "224",
@@ -312,25 +312,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/vanilla-cinnamon-breakfast-rice/",
-        "title": "[ES] Vanilla & cinnamon breakfast rice",
-        "description": "(Translation pending) Fancy a change from porridge? This healthy rice-based vanilla and cinnamon breakfast is topped with apricots and walnuts, and will fill you up for the morning",
+        "title": "Arroz de desayuno de vainilla y canela",
+        "description": "¿Te apetece cambiar las gachas de avena? Este saludable desayuno de vainilla y canela a base de arroz está cubierto con albaricoques y nueces y te llenará para la mañana.",
         "prep_time": "10 mins Cook: 35 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "200g wholemeal basmati rice",
-            "200ml whole milk",
-            "2 tsp vanilla extract",
-            "3 bay leaves",
-            "1 cinnamon stick",
-            "12 dried apricots split in half widthways (so they still look whole)",
-            "4 x 100ml pots bio yogurt",
-            "12 walnut halves, broken into pieces"
+            "200 g de arroz basmati integral",
+            "200ml de leche entera",
+            "2 cucharaditas de extracto de vainilla",
+            "3 hojas de laurel",
+            "1 rama de canela",
+            "12 orejones partidos por la mitad a lo ancho (para que se vean enteros)",
+            "4 botes de yogur bio de 100ml",
+            "12 mitades de nueces, partidas en pedazos"
         ],
         "method": [
-            "Tip the rice into a large, deep non-stick pan with 600ml water, the milk, vanilla, bay leaves and cinnamon stick. Bring to the boil, then cover with a lid and simmer for 25-30 mins until the rice is tender. Keep an eye on it to ensure it doesn’t boil dry towards the end of its cooking time.",
-            "Meanwhile, tip the apricots into a smallpanwith 300ml water and cook over a low-medium heat until tender, about 10-15 mins. Set aside.",
-            "Remove the bay leaves and cinnamon stick from the rice, then stir in half the yogurt. Both the rice and the apricots will keep chilled, separately, for up to 24 hrs. Spoon the rice into bowls and top with the remaining yogurt, the apricots and their juices and the walnuts.If you’ve prepared the rice and apricots the day before, eat cold or reheat until warm, adding a splash of milk to the rice to loosen."
+            "Vierta el arroz en una sartén antiadherente grande y profunda con 600 ml de agua, la leche, la vainilla, las hojas de laurel y la ramita de canela. Llevar a ebullición, luego tapar y cocinar a fuego lento durante 25-30 minutos hasta que el arroz esté tierno. Vigílelo para asegurarse de que no se seque hacia el final de su tiempo de cocción.",
+            "Mientras tanto, vierta los albaricoques en una cacerola pequeña con 300 ml de agua y cocine a fuego medio-bajo hasta que estén tiernos, unos 10-15 minutos. Dejar de lado.",
+            "Retire las hojas de laurel y la rama de canela del arroz y luego agregue la mitad del yogur. Tanto el arroz como los albaricoques se mantendrán fríos, por separado, hasta por 24 horas. Coloca el arroz en tazones y cubre con el resto del yogur, los albaricoques y su jugo y las nueces. Si has preparado el arroz y los albaricoques el día anterior, cómelos fríos o recaliéntalos hasta que estén tibios, añadiendo un chorrito de leche al arroz para que se suelte."
         ],
         "nutritional_info": {
             "kcal": "378",
@@ -347,34 +347,34 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/simit-pogaca/",
-        "title": "[ES] Simit poğaçaa",
-        "description": "(Translation pending) Make breakfast bun simit poğaça, filled with olives, cheese and herbs for all the flavours of a Turkish breakfast. They’re delicious served with a cup of tea",
+        "title": "imitar pastelería",
+        "description": "Prepare pan de desayuno simit poğaça, relleno de aceitunas, queso y hierbas para obtener todos los sabores de un desayuno turco. Están deliciosos servidos con una taza de té.",
         "prep_time": "1 hrs Cook: 30 mins plus at least 1 hr 30 mins proving and chilling",
         "cook_time": "",
         "serves": "22",
         "ingredients": [
-            "350ml whole milk",
-            "7g sachet fast-action dried yeast",
-            "2 tsp caster sugar",
-            "2 egg yolks (freeze the whites for another recipe)",
-            "500g strong white bread flour, plus extra for dusting",
-            "115g unsalted butter, at room temperature, cut into pieces",
-            "1 egg, beaten",
-            "1 tsp sesame seeds",
-            "1 tsp nigella seeds",
-            "125g marinated black olives, pitted and chopped (see tip, below)",
-            "125g feta, crumbled",
-            "125g cheddar, grated",
-            "½ small bunch of parsley, chopped",
-            "75g Turkish pepper paste"
+            "350ml de leche entera",
+            "Sobre de 7 g de levadura seca de acción rápida",
+            "2 cucharaditas de azúcar en polvo",
+            "2 yemas de huevo (congela las claras para otra receta)",
+            "500 g de harina de pan blanca fuerte, más un poco más para espolvorear",
+            "115 g de mantequilla sin sal, a temperatura ambiente, cortada en trozos",
+            "1 huevo batido",
+            "1 cucharadita de semillas de sésamo",
+            "1 cucharadita de semillas de nigella",
+            "125 g de aceitunas negras marinadas, deshuesadas y picadas (ver consejo a continuación)",
+            "125 g de queso feta, desmenuzado",
+            "125 g de queso cheddar rallado",
+            "½ manojo pequeño de perejil picado",
+            "75 g de pasta de pimienta turca"
         ],
         "method": [
-            "Heat the milk in a heatproof bowl in themicrowaveor in a pan over a low heat until lukewarm. Add the yeast and sugar, then leave to stand for 15 mins until frothy. Tip the egg yolks, flour, butter and ½ tsp salt into the bowl of a stand mixer fitted with a dough hook, and add the warm milk mixture. Knead for 10 mins – the dough should be tacky. Or, knead by hand for about 15 mins.",
-            "Cover and leave to prove for at least 1-2 hrs until doubled in size, or chill overnight. If you’re proving at room temperature, chill the dough for 30 mins after it has doubled to make it easier to work with.",
-            "Meanwhile, prepare the filling. Combine the olives, both the cheeses and the parsley, then set aside.Rollthe dough out on a lightly floured work surface into a large rectangle (about 46 x 30cm).",
-            "Spread the pepper paste all over the dough. With a long side facing you, scatter half the filling over the half of the rectangle that’s closest to you, then fold the other half over that to enclose the filling. Gently roll out the dough again to help the filling stick to the dough, then cut the rectangle vertically into 20 x 2½cm strips. Working with one strip at a time, fold the strip loosely in half, then holding it at both ends, twist, then gently pull the loose ends through the loop.",
-            "Heat the oven to 220C/200C fan/gas 8 and line a baking sheet with baking parchment. Lay the simit on the sheet and brush with the beaten egg. Sprinkle over the sesame and nigella seeds, then leave to rest on the baking sheet for about 20 mins.",
-            "Bake for 25-30 mins, or until golden brown. Leave to cool slightly on the sheet before serving."
+            "Calienta la leche en un recipiente resistente al calor en el microondas o en una sartén a fuego lento hasta que esté tibia. Agrega la levadura y el azúcar, luego deja reposar durante 15 minutos hasta que esté espumoso. Vierta las yemas de huevo, la harina, la mantequilla y ½ cucharadita de sal en el tazón de una batidora equipada con un gancho para masa y agregue la mezcla de leche tibia. Amasar durante 10 minutos; la masa debe quedar pegajosa. O amase a mano durante unos 15 minutos.",
+            "Cubra y déjelo reposar durante al menos 1 a 2 horas hasta que duplique su tamaño, o enfríelo durante la noche. Si está fermentando a temperatura ambiente, enfríe la masa durante 30 minutos después de que se haya duplicado para que sea más fácil trabajar con ella.",
+            "Mientras tanto, prepara el relleno. Combine las aceitunas, los quesos y el perejil y reserve. Extienda la masa sobre una superficie de trabajo ligeramente enharinada hasta formar un rectángulo grande (de unos 46 x 30 cm).",
+            "Extienda la pasta de pimiento por toda la masa. Con el lado largo hacia usted, esparza la mitad del relleno sobre la mitad del rectángulo más cercana a usted, luego doble la otra mitad sobre ella para encerrar el relleno. Vuelva a extender la masa con cuidado para ayudar a que el relleno se adhiera a la masa, luego corte el rectángulo verticalmente en tiras de 20 x 2½ cm. Trabajando con una tira a la vez, dóblela sin apretar por la mitad, luego sosteniéndola por ambos extremos, gírela y luego tire suavemente de los extremos sueltos a través del bucle.",
+            "Calentar el horno a 220C/200C ventilador/gas 8 y forrar una bandeja para hornear con papel para hornear. Colocar el simit sobre la sábana y pincelar con el huevo batido. Espolvoree sobre las semillas de sésamo y nigella, luego déjelas reposar en la bandeja para hornear durante unos 20 minutos.",
+            "Hornee durante 25-30 minutos o hasta que estén dorados. Dejar enfriar un poco en la bandeja antes de servir."
         ],
         "nutritional_info": {
             "kcal": "204",
@@ -391,20 +391,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chia-pudding/",
-        "title": "[ES] Chia pudding",
-        "description": "(Translation pending) Rustle up this simple ‘pudding’ for breakfast or dessert. Chia seeds are rich in protein, antioxidants and omega 3, as well as many other nutrients",
+        "title": "pudín de chía",
+        "description": "Prepare este sencillo \"pudín\" para el desayuno o el postre. Las semillas de chía son ricas en proteínas, antioxidantes y omega 3, además de muchos otros nutrientes.",
         "prep_time": "5 mins plus overnight chilling",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "2 tbsp chia seeds",
-            "125ml oat milk, or substitute for any nut milk, rice milk or dairy milk",
-            "2 tsp maple syrup, plus a drizzle to serve",
-            "fruit, such as berries, banana, kiwis or mango, to serve"
+            "2 cucharadas de semillas de chía",
+            "125 ml de leche de avena, o sustituto de cualquier leche de frutos secos, leche de arroz o leche de vaca",
+            "2 cucharaditas de jarabe de arce, más un chorrito para servir",
+            "fruta, como bayas, plátano, kiwis o mango, para servir"
         ],
         "method": [
-            "Combine the chia seeds, milk and 2 tsp maple syrup in a jar or bowl. Cover and chill overnight or for at least 8 hrs.",
-            "When ready to serve, top with fruit and a drizzle of maple syrup."
+            "Combine las semillas de chía, la leche y 2 cucharaditas de jarabe de arce en un frasco o tazón. Cubra y enfríe durante la noche o durante al menos 8 horas.",
+            "Cuando esté listo para servir, cubra con fruta y un chorrito de jarabe de arce."
         ],
         "nutritional_info": {
             "kcal": "230",
@@ -421,22 +421,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/easy-almond-mince-pie-puffs/",
-        "title": "[ES] Easy almond mince pie puffs",
-        "description": "(Translation pending) Make a Christmas staple with some homemade mince pies made with puff pastry. Serve for breakfast, or enjoy hot with vanilla ice cream for dessert",
+        "title": "Hojaldres fáciles de pastel de carne picada y almendras",
+        "description": "Haga un alimento básico navideño con algunos pasteles de carne hechos en casa con hojaldre. Sirva para el desayuno o disfrútelo caliente con helado de vainilla como postre.",
         "prep_time": "20 mins Cook: 15 mins plus cooling",
         "cook_time": "",
         "serves": "12",
         "ingredients": [
-            "320g sheet ready-rolled puff pastry",
-            "plain flour, for dusting",
-            "1 egg, beaten",
-            "150g mincemeat (vegetarian, if needed)",
-            "20g flaked almonds",
-            "icing sugar, for dusting"
+            "320 g de masa de hojaldre ya laminada",
+            "harina común, para espolvorear",
+            "1 huevo batido",
+            "150 g de carne picada (vegetariana, si es necesario)",
+            "20 g de almendras laminadas",
+            "azúcar glas, para espolvorear"
         ],
         "method": [
-            "Unroll the pastry on a lightly floured surface, and cut in half lengthways. Cut each half into six, so you have 12 squares. Working with one square at a time, fold in half diagonally to create a triangle. Lay the triangle out with the folded edge facing you. Cut a ½cm border along the other two edges, stopping just before the two cuts intersect. Carefully unfold the pastry, then brush the borders with a little beaten egg. Lift the far left corner of the pastry and fold it over to the right, pressing it down gently against the inner right corner to seal. Repeat from the far right corner of the pastry to the inner left corner. Arrange the pastries over two baking trays lined with baking parchment, and spoon 1 tsp mincemeat into the middle of each. Top each with a few flaked almonds.Will keep chilled for up to 24 hrs.",
-            "Heat the oven to 210C/190C fan/gas 6½. Brush the pastry with more egg and bake for 15-20 mins until puffed up and golden. Dust with icing sugar and enjoy warm, or leave to cool completely.Once cooled, will keep in an airtight container at room temperature for two days."
+            "Desenrolla la masa sobre una superficie ligeramente enharinada y córtala por la mitad a lo largo. Corta cada mitad en seis, para tener 12 cuadrados. Trabajando con un cuadrado a la vez, dóblelo por la mitad en diagonal para crear un triángulo. Extiende el triángulo con el borde doblado hacia ti. Corta un borde de ½ cm a lo largo de los otros dos bordes, deteniéndote justo antes de que los dos cortes se crucen. Desdobla la masa con cuidado y pincela los bordes con un poco de huevo batido. Levante la esquina izquierda de la masa y dóblela hacia la derecha, presionándola suavemente contra la esquina interior derecha para sellar. Repita desde la esquina derecha de la masa hasta la esquina interior izquierda. Coloque los pasteles en dos bandejas para hornear forradas con papel para hornear y vierta 1 cucharadita de carne picada en el medio de cada una. Cubra cada uno con algunas almendras en hojuelas. Se mantendrán fríos hasta por 24 horas.",
+            "Calentar el horno a 210C/190C ventilador/gas 6½. Unte la masa con más huevo y hornee durante 15-20 minutos hasta que esté inflada y dorada. Espolvoree con azúcar glas y disfrútelo tibio, o déjelo enfriar por completo. Una vez enfriado, se mantendrá en un recipiente hermético a temperatura ambiente durante dos días."
         ],
         "nutritional_info": {
             "kcal": "155",
@@ -453,18 +453,18 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/air-fryer-bacon/",
-        "title": "[ES] Air fryer bacon",
-        "description": "(Translation pending) Cook bacon in an air fryer to achieve a crispy texture with less fat. The perfect bacon sandwich starts here",
+        "title": "Tocino freidora",
+        "description": "Cocine el tocino en una freidora para lograr una textura crujiente con menos grasa. El sándwich de tocino perfecto comienza aquí",
         "prep_time": "2 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "6 rashers streaky bacon, or 3 rashers back bacon"
+            "6 lonchas de tocino rayado o 3 lonchas de tocino"
         ],
         "method": [
-            "Lay the bacon in a single layer in the base of anair fryer– be sure the layers aren't overlapping. The size of the air fryer basket will determine how many rashers you can cook at one time.",
-            "Set the air fryer to 200C and cook streaky bacon rashers for 6-10 mins – just-cooked bacon will take 6 mins, but crispier bacon will take 9-10 mins. Cook back bacon rashers for 4-8 mins, depending on your preference. If you are cooking in batches, remember that the second batch will usually be quicker as the air fryer has heated up.",
-            "Remove the bacon using tongs and put on kitchen paper to drain before serving."
+            "Coloque el tocino en una sola capa en la base de una freidora; asegúrese de que las capas no se superpongan. El tamaño de la canasta de la freidora determinará cuántas lonchas puede cocinar a la vez.",
+            "Configure la freidora a 200 ° C y cocine las lonchas de tocino rayadas durante 6 a 10 minutos; el tocino recién cocido tardará 6 minutos, pero el tocino más crujiente tardará entre 9 y 10 minutos. Cocine las lonchas de tocino durante 4 a 8 minutos, según su preferencia. Si está cocinando en tandas, recuerde que la segunda tanda generalmente será más rápida ya que la freidora se ha calentado.",
+            "Retire el tocino con unas pinzas y póngalo sobre papel de cocina para que escurra antes de servir."
         ],
         "nutritional_info": {
             "kcal": "74",
@@ -481,22 +481,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/kimchi-scrambled-eggs/",
-        "title": "[ES] Kimchi scrambled eggs",
-        "description": "(Translation pending) Make a gut-friendly brunch with scrambled eggs and kimchi served on toasted wholemeal bread. Sprinkle with spring onions and a pinch of togarashi to finish",
+        "title": "Huevos revueltos con kimchi",
+        "description": "Prepare un brunch saludable con huevos revueltos y kimchi servidos sobre pan integral tostado. Espolvorea con cebolletas y una pizca de togarashi para terminar.",
         "prep_time": "5 mins Cook: 3 mins",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "2 medium eggs",
-            "1 tbsp milk",
-            "40g kimchi",
-            "1 slice of wholemeal bread, toasted",
-            "1 spring onion, finely sliced",
-            "pinch of togarashi, to serve (optional)"
+            "2 huevos medianos",
+            "1 cucharada de leche",
+            "40 g de kimchi",
+            "1 rebanada de pan integral tostado",
+            "1 cebolla tierna, cortada finamente",
+            "pizca de togarashi, para servir (opcional)"
         ],
         "method": [
-            "Beat the eggs and milk together with a pinch of salt. Pour into a non-stick pan over a low heat. Leave untouched for 30 seconds, then lift the pan a little and swirl the eggs around. Cook for 2 mins more, then fold through the kimchi, breaking up the eggs to scramble them.",
-            "Serve the kimchi scrambled eggs on the toast, and top with the spring onion and tograshi, if using."
+            "Batir los huevos y la leche junto con una pizca de sal. Vierte en una sartén antiadherente a fuego lento. Déjelo intacto durante 30 segundos, luego levante un poco la sartén y agite los huevos. Cocine por 2 minutos más, luego doble el kimchi y rompa los huevos para revolverlos.",
+            "Sirva los huevos revueltos con kimchi sobre la tostada y cubra con la cebolleta y el tograshi, si los usa."
         ],
         "nutritional_info": {
             "kcal": "233",
@@ -513,21 +513,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/raspberry-almond-oat-breakfast-cookies/",
-        "title": "[ES] Raspberry, almond & oat breakfast cookies",
-        "description": "(Translation pending) Grab a few of these energy-boosting cookies for a quick breakfast, or offer as snacks to bridge the hunger gap before dinner. Enjoy with yogurt and fruit",
+        "title": "Galletas de desayuno de frambuesa, almendras y avena",
+        "description": "Tome algunas de estas galletas que aumentan la energía para un desayuno rápido u ofrézcalas como refrigerios para reducir el hambre antes de la cena. Disfruta con yogur y fruta.",
         "prep_time": "10 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "12 cookies",
         "ingredients": [
-            "2 ripe bananas, mashed",
-            "150g porridge oats",
-            "2 tbsp ground almonds",
-            "1⁄2 tsp cinnamon",
-            "100g raspberries (fresh or frozen)"
+            "2 plátanos maduros, triturados",
+            "150 g de gachas de avena",
+            "2 cucharadas de almendras molidas",
+            "1⁄2 cucharadita de canela",
+            "100 g de frambuesas (frescas o congeladas)"
         ],
         "method": [
-            "Heat the oven to 200C/180C fan/gas 4 and line two baking trays with baking parchment. Mix the banana, oats, almonds, cinnamon and a pinch of salt in a bowl to make a sticky dough. Gently stir through the raspberries, trying not to break them up. Scoop up tablespoons of the mixture and roll into balls, then place on a baking tray and flatten with your hand.",
-            "Bake for 15 mins until the cookies feel firm around the edges and are golden brown. Leave to cool. Will keep in an airtight container for up to three days."
+            "Calentar el horno a 200C/180C ventilador/gas 4 y forrar dos bandejas para hornear con papel para hornear. Mezclar en un bol el plátano, la avena, las almendras, la canela y una pizca de sal hasta formar una masa pegajosa. Revuelva suavemente las frambuesas, tratando de no romperlas. Tome cucharadas de la mezcla y forme bolitas, luego colóquelas en una bandeja para hornear y aplánelas con la mano.",
+            "Hornee durante 15 minutos hasta que las galletas se sientan firmes en los bordes y doradas. Dejar enfriar. Se mantendrá en un recipiente hermético hasta por tres días."
         ],
         "nutritional_info": {
             "kcal": "86",
@@ -544,26 +544,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/staffordshire-oatcakes-mushrooms/",
-        "title": "[ES] Staffordshire oatcakes with mushrooms",
-        "description": "(Translation pending) Cook savoury pancakes for breakfast using porridge oats. The recipe is vegan and healthy, too, providing folate, fibre, iron and two of your 5-a-day",
+        "title": "Tortitas de avena staffordshire con champiñones",
+        "description": "Cocine panqueques salados para el desayuno con gachas de avena. La receta es vegana y saludable además, ya que proporciona folato, fibra, hierro y dos de tus 5 al día.",
         "prep_time": "15 mins Cook: 20 mins plus at least 2 hrs proving",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "85g porridge oats",
-            "85g plain wholemeal flour",
-            "½  tsp dried yeast",
-            "4 tsp rapeseed oil",
-            "320g button mushrooms, sliced",
-            "4 tomatoes, each cut into 8 wedges",
-            "4 tbsp milled seeds with flax and chia",
-            "4 tbsp tahini",
-            "a few coriander sprigs, chopped"
+            "85 g de gachas de avena",
+            "85 g de harina integral normal",
+            "½ cucharadita de levadura seca",
+            "4 cucharaditas de aceite de colza",
+            "320 g de champiñones cortados en rodajas",
+            "4 tomates, cada uno cortado en 8 gajos",
+            "4 cucharadas de semillas molidas con lino y chía",
+            "4 cucharadas de tahini",
+            "unas ramitas de cilantro picadas"
         ],
         "method": [
-            "For the oatcakes, tip the oats and 350ml water into a bowl and blitz with a stick blender until smooth. Stir in the flour and yeast, cover and leave in the fridge overnight, or leave at room temperature for 2-3 hrs until bubbles appear.",
-            "Use kitchen paper to rub ½ tsp oil round a non-stick frying pan, then heat. Ladle in a quarter of the batter and swirl the pan to cover the base. Cook for 2 mins, then turn and cook for 2 mins more until golden. Make four oatcakes in the same way. If you're following our Healthy Diet Plan, chill two for another day. Will keep, covered in the fridge, for two days.",
-            "To make the topping for two oatcakes, heat 2 tsp oil in a non-stick pan, add 160g mushrooms and fry for 2-3 mins, stirring until softened. Stir in 2 tomatoes, then add 2 tbsp ground seeds and cook for 2 mins more. Reheat the oatcakes in a dry frying pan or the microwave if necessary, then spread each one with 1 tbsp tahini, the mushroom mixture and scatter with a little coriander before serving. On the second day, repeat step 3 with the remaining ingredients."
+            "Para los pasteles de avena, vierta la avena y 350 ml de agua en un bol y mezcle con una batidora hasta que quede suave. Agrega la harina y la levadura, tapa y deja en el frigorífico durante la noche, o déjalo a temperatura ambiente durante 2-3 horas hasta que aparezcan burbujas.",
+            "Utilice papel de cocina para frotar ½ cucharadita de aceite en una sartén antiadherente y luego caliente. Vierta una cuarta parte de la masa y gire la sartén para cubrir la base. Cocine por 2 minutos, luego dé vuelta y cocine por 2 minutos más hasta que esté dorado. Haz cuatro tortas de avena de la misma forma. Si sigues nuestro Plan de dieta saludable, deja enfriar dos para otro día. Se conserva tapado en el frigorífico durante dos días.",
+            "Para preparar la cobertura para dos pasteles de avena, caliente 2 cucharaditas de aceite en una sartén antiadherente, agregue 160 g de champiñones y fríalos durante 2-3 minutos, revolviendo hasta que se ablanden. Agregue 2 tomates, luego agregue 2 cucharadas de semillas molidas y cocine por 2 minutos más. Vuelva a calentar las galletas de avena en una sartén seca o en el microondas si es necesario, luego unte cada una con 1 cucharada de tahini, la mezcla de champiñones y espolvoree con un poco de cilantro antes de servir. El segundo día, repite el paso 3 con los ingredientes restantes."
         ],
         "nutritional_info": {
             "kcal": "353",
@@ -580,23 +580,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/banana-pancakes/",
-        "title": "[ES] Banana pancakes",
-        "description": "(Translation pending) Gluten-free banana pancakes you can whip up in just 10 minutes! Scatter with pecans and raspberries to enjoy a low-calorie yet indulgent breakfast",
+        "title": "Tortitas de plátano",
+        "description": "¡Panqueques de plátano sin gluten que puedes preparar en solo 10 minutos! Espolvoree con nueces y frambuesas para disfrutar de un desayuno bajo en calorías pero delicioso.",
         "prep_time": "5 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 large banana",
-            "2 medium eggs, beaten",
-            "pinch of baking powder (gluten-free if coeliac)",
-            "splash of vanilla extract",
-            "1 tsp oil",
-            "25g pecans, roughly chopped",
-            "125g raspberries"
+            "1 plátano grande",
+            "2 huevos medianos, batidos",
+            "una pizca de levadura en polvo (sin gluten si es celíaco)",
+            "chorrito de extracto de vainilla",
+            "1 cucharadita de aceite",
+            "25 g de nueces pecanas, picadas en trozos grandes",
+            "125 g de frambuesas"
         ],
         "method": [
-            "In a bowl, mash the banana with a fork until it resembles a thick purée. Stir in the eggs, baking powder and vanilla.",
-            "Heat a large non-stick frying pan or pancake pan over a medium heat and brush with half the oil. Using half the batter, spoon two pancakes into the pan, cook for 1-2 mins each side, then tip onto a plate. Repeat the process with the remaining oil and batter. Top the pancakes with the pecans and raspberries."
+            "En un bol, tritura el plátano con un tenedor hasta que parezca un puré espeso. Agrega los huevos, el polvo para hornear y la vainilla.",
+            "Calienta una sartén antiadherente grande o un molde para panqueques a fuego medio y unta con la mitad del aceite. Usando la mitad de la masa, coloque dos panqueques en la sartén, cocine durante 1-2 minutos por cada lado y luego viértalos en un plato. Repite el proceso con el aceite restante y la masa. Cubra los panqueques con las nueces y las frambuesas."
         ],
         "nutritional_info": {
             "kcal": "243",
@@ -613,25 +613,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/kale-tomato-poached-egg-toast/",
-        "title": "[ES] Kale, tomato & poached egg on toast",
-        "description": "(Translation pending) There's no tastier way to eat kale than smothered in a runny yolk and scattered with feta cheese. This veggie, low-calorie breakfast has it all!",
+        "title": "Tostada de kale, tomate y huevo escalfado",
+        "description": "No hay forma más sabrosa de comer col rizada que cubierta con una yema líquida y espolvoreada con queso feta. ¡Este desayuno vegetariano bajo en calorías lo tiene todo!",
         "prep_time": "2 mins Cook: 7 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "2 tsp oil",
-            "100g ready-chopped kale",
-            "1 garlic clove, crushed",
-            "½  tsp chilli flakes",
-            "2 large eggs",
-            "2 slices multigrain bread",
-            "50g cherry tomatoes, halved",
-            "15g feta, crumbled"
+            "2 cucharaditas de aceite",
+            "100 g de col rizada ya picada",
+            "1 diente de ajo, machacado",
+            "½ cucharadita de hojuelas de chile",
+            "2 huevos grandes",
+            "2 rebanadas de pan multigrano",
+            "50 g de tomates cherry partidos por la mitad",
+            "15 g de queso feta, desmenuzado"
         ],
         "method": [
-            "Bring a large pan of water to the boil. Heat the oil in a frying pan over a medium heat and add the kale, garlic and chilli flakes. Cook, stirring occasionally, for 4 mins until the kale begins to crisp and wilt to half its size. Set aside.",
-            "Adjust the heat so the water is at a rolling boil, then poach your eggs for 2 mins. Meanwhile, toast the bread.",
-            "Remove the poached eggs with a slotted spoon and top each piece of toast with half the kale, an egg, the cherry tomatoes and feta."
+            "Ponga a hervir una cacerola grande con agua. Calienta el aceite en una sartén a fuego medio y agrega la col rizada, el ajo y las hojuelas de chile. Cocine, revolviendo ocasionalmente, durante 4 minutos hasta que la col rizada comience a estar crujiente y se marchite a la mitad de su tamaño. Dejar de lado.",
+            "Ajuste el fuego para que el agua hierva y luego escalfe los huevos durante 2 minutos. Mientras tanto, tuesta el pan.",
+            "Retire los huevos escalfados con una espumadera y cubra cada tostada con la mitad de la col rizada, un huevo, los tomates cherry y el queso feta."
         ],
         "nutritional_info": {
             "kcal": "251",
@@ -648,23 +648,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/cardamom-peach-quinoa-porridge/",
-        "title": "[ES] Cardamom & peach quinoa porridge",
-        "description": "(Translation pending) A healthy breakfast of oats and quinoa with fresh ripe peach. Almond milk makes its suitable for dairy-free and vegan diets",
+        "title": "Gachas de cardamomo y melocotón y quinua",
+        "description": "Un desayuno saludable de avena y quinoa con melocotón fresco maduro. La leche de almendras la hace adecuada para dietas veganas y sin lácteos",
         "prep_time": "3 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "75g quinoa",
-            "25g porridge oats",
-            "4 cardamom pods",
-            "250ml unsweetened almond milk",
-            "2 ripe peaches, cut into slices",
-            "1 tsp maple syrup"
+            "75g de quinua",
+            "25 g de gachas de avena",
+            "4 vainas de cardamomo",
+            "250 ml de leche de almendras sin azúcar",
+            "2 duraznos maduros, cortados en rodajas",
+            "1 cucharadita de jarabe de arce"
         ],
         "method": [
-            "Put the quinoa, oats and cardamom pods in a small saucepan with 250ml water and 100ml of the almond milk. Bring to the boil, then simmer gently for 15 mins, stirring occasionally.",
-            "Pour in the remaining almond milk and cook for 5 mins more until creamy.",
-            "Remove the cardamom pods, spoon into bowls or jars, and top with the peaches and maple syrup."
+            "Poner la quinoa, la avena y las vainas de cardamomo en un cazo pequeño con 250ml de agua y 100ml de leche de almendras. Llevar a ebullición y luego cocinar a fuego lento durante 15 minutos, revolviendo ocasionalmente.",
+            "Vierta el resto de la leche de almendras y cocine por 5 minutos más hasta que esté cremoso.",
+            "Retire las vainas de cardamomo, vierta en tazones o frascos y cubra con los melocotones y el jarabe de arce."
         ],
         "nutritional_info": {
             "kcal": "231",
@@ -681,22 +681,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/ham-mushroom-spinach-frittata/",
-        "title": "[ES] Ham, mushroom & spinach frittata",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyTry a filling frittata that's low in calories and guaranteed to keep you going until lunch. Save half in the fridge overnight if you're cooking for one",
+        "title": "Frittata de jamón, champiñones y espinacas",
+        "description": "Contiene carne de cerdo: la receta es solo para no musulmanes. Pruebe una frittata abundante, baja en calorías y que le garantizará energía hasta el almuerzo. Guarda la mitad en el frigorífico durante la noche si vas a cocinar para uno",
         "prep_time": "4 mins Cook: 9 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 tsp oil",
-            "80g chestnut mushrooms, sliced",
-            "50g ham, diced",
-            "80g bag spinach",
-            "4 medium eggs, beaten",
-            "1 tbsp grated cheddar"
+            "1 cucharadita de aceite",
+            "80 g de champiñones castaños, en rodajas",
+            "50 g de jamón cortado en cubitos",
+            "80g bolsa de espinacas",
+            "4 huevos medianos, batidos",
+            "1 cucharada de queso cheddar rallado"
         ],
         "method": [
-            "Heat the grill to its highest setting. Heat the oil in an ovenproof frying pan over a medium-high heat. Tip in the mushrooms and fry for 2 mins until mostly softened. Stir in the ham and spinach, and cook for 1 min more until the spinach has wilted. Season well with black pepper and a pinch of salt.",
-            "Reduce the heat and pour over the eggs. Cook undisturbed for 3 mins until the eggs are mostly set. Sprinkle over the cheese and put under the grill for 2 mins. Serve hot or cold."
+            "Calienta la parrilla a su temperatura más alta. Calienta el aceite en una sartén apta para horno a fuego medio-alto. Vierta los champiñones y fríalos durante 2 minutos hasta que estén casi tiernos. Agregue el jamón y las espinacas y cocine por 1 minuto más hasta que las espinacas se ablanden. Sazone bien con pimienta negra y una pizca de sal.",
+            "Reducir el fuego y verter sobre los huevos. Cocine sin tocar durante 3 minutos hasta que los huevos estén casi cuajados. Espolvorear sobre el queso y poner bajo el grill durante 2 minutos. Servir caliente o frío."
         ],
         "nutritional_info": {
             "kcal": "226",
@@ -713,19 +713,19 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/banana-yogurt-pots/",
-        "title": "[ES] Banana yogurt pots",
-        "description": "(Translation pending) Ideal as a pudding, or make it for breakfast",
+        "title": "Tarritos de yogur de plátano",
+        "description": "Ideal como pudín o para el desayuno.",
         "prep_time": "5 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 x 450g tub thick yogurt",
-            "3-4 bananas cut into chunks",
-            "4 tbsp sort dark brown sugar",
-            "25g walnuts, toasted and chopped"
+            "1 tarrina de yogur espeso de 450 g",
+            "3-4 plátanos cortados en trozos",
+            "4 cucharadas de azúcar moreno oscuro",
+            "25 g de nueces tostadas y picadas"
         ],
         "method": [
-            "Dollop about 1 tbsp yogurt into the bottom of 4 small glasses. Add a layer of banana, then some more yogurt. Repeat the layers until the glasses are full. Scatter over the sugar and nuts, then leave in fridge for 20 mins until sugar has dissolved."
+            "Vierta aproximadamente 1 cucharada de yogur en el fondo de 4 vasos pequeños. Agrega una capa de plátano y luego un poco más de yogur. Repite las capas hasta llenar los vasos. Esparcir sobre el azúcar y las nueces y dejar en el frigorífico 20 minutos hasta que el azúcar se disuelva."
         ],
         "nutritional_info": {
             "kcal": "230",
@@ -742,19 +742,19 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/breakfast-smoothie/",
-        "title": "[ES] Breakfast smoothie",
-        "description": "(Translation pending) Make the most of the berry season with a glass of fruity goodness",
+        "title": "batido de desayuno",
+        "description": "Aprovecha al máximo la temporada de frutos rojos con una copa de delicias afrutadas",
         "prep_time": "5 mins",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "1 small ripe banana",
-            "about 140g blackberries, blueberries, raspberries or strawberries (or use a mix), plus extra to serve",
-            "apple juice or mineral water, optional",
-            "runny honey, to serve"
+            "1 plátano pequeño maduro",
+            "unos 140 g de moras, arándanos, frambuesas o fresas (o use una mezcla), más algo extra para servir",
+            "jugo de manzana o agua mineral, opcional",
+            "miel líquida, para servir"
         ],
         "method": [
-            "Slice the banana into your blender or food processor and add the berries of your choice. Whizz until smooth. With the blades whirring, pour in juice or water to make the consistency you like. Toss a few extra fruits on top, drizzle with honey and serve."
+            "Corta el plátano en tu licuadora o procesador de alimentos y agrega las bayas de tu elección. Batir hasta que quede suave. Con las cuchillas zumbando, vierte el jugo o agua para obtener la consistencia que desees. Agregue algunas frutas adicionales encima, rocíe con miel y sirva."
         ],
         "nutritional_info": {
             "kcal": "124",
@@ -771,32 +771,32 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/welsh-rarebit-muffins/",
-        "title": "[ES] Welsh rarebit muffins",
-        "description": "(Translation pending) Get the kids to help make these yummy muffins, perfect for lunchboxes",
+        "title": "Muffins raros galeses",
+        "description": "Haga que los niños le ayuden a preparar estos deliciosos muffins, perfectos para las loncheras",
         "prep_time": "15 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "12",
         "ingredients": [
-            "225g self-raising flour",
-            "50g plain flour",
-            "1 tsp baking powder",
-            "½ level tsp bicarbonate of soda",
-            "¼ tsp salt",
-            "½ level tsp mustard powder",
-            "100g strong cheese, half grated, half cubed",
-            "6 tbsp vegetable oil",
-            "150g Greek yogurt",
-            "125ml milk",
-            "1 egg",
-            "1 tbsp Worcestershire sauce"
+            "225 g de harina con levadura",
+            "50 g de harina común",
+            "1 cucharadita de polvo para hornear",
+            "½ cucharadita rasa de bicarbonato de sodio",
+            "¼ cucharadita de sal",
+            "½ cucharadita rasa de mostaza en polvo",
+            "100 g de queso fuerte, medio rallado y medio en cubos",
+            "6 cucharadas de aceite vegetal",
+            "150 g de yogur griego",
+            "125ml de leche",
+            "1 huevo",
+            "1 cucharada de salsa inglesa"
         ],
         "method": [
-            "Heat oven to 200C/fan 180C/gas 6.",
-            "Mix together the self-raising and plain flour, baking powder, bicarbonate of soda, salt and mustard powder in a bowl.",
-            "In a separate bowl, mix the cheese, oil, yogurt, milk, egg and Worcestershire sauce.",
-            "Combine all the ingredients and divide between the muffin cases in the muffin tin.",
-            "Place in the oven for 20-25 mins until golden. Remove and cool slightly on a rack.",
-            "What you need: Ask the kids to help get everything ready, weighing scales, measuring jug, fork, 2 mixing bowls, 12 paper muffin cases, muffin tin, cheese grater, sharp knife, tablespoon, cooling rack."
+            "Calentar el horno a 200C/ventilador 180C/gas 6.",
+            "Mezcle la harina con levadura y la normal, el polvo para hornear, el bicarbonato de sodio, la sal y la mostaza en polvo en un bol.",
+            "En un bol aparte, mezcla el queso, el aceite, el yogur, la leche, el huevo y la salsa inglesa.",
+            "Combine todos los ingredientes y divídalos entre los moldes para muffins en el molde para muffins.",
+            "Colocar en el horno durante 20-25 minutos hasta que esté dorado. Retirar y enfriar un poco sobre una rejilla.",
+            "Lo que necesita: Pídale a los niños que le ayuden a preparar todo: báscula, jarra medidora, tenedor, 2 tazones para mezclar, 12 moldes de papel para muffins, molde para muffins, rallador de queso, cuchillo afilado, cucharada y rejilla para enfriar."
         ],
         "nutritional_info": {
             "kcal": "189",
@@ -813,22 +813,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/veggie-breakfast-bakes/",
-        "title": "[ES] Veggie breakfast bakes",
-        "description": "(Translation pending) Hit 3 of your 5-a-day with this alternative fry-up – it's packed with vegetables and oven-baked",
+        "title": "Horneados de desayuno vegetarianos",
+        "description": "Haz 3 de tus 5 al día con esta fritura alternativa: está repleta de verduras y horneada",
         "prep_time": "15 mins Cook: 30 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "4 large field mushrooms",
-            "8 tomatoes, halved",
-            "1 garlic clove, thinly sliced",
-            "2 tsp olive oil",
-            "200g bag spinach",
-            "4 eggs"
+            "4 champiñones grandes",
+            "8 tomates, partidos por la mitad",
+            "1 diente de ajo, en rodajas finas",
+            "2 cucharaditas de aceite de oliva",
+            "200g bolsa de espinacas",
+            "4 huevos"
         ],
         "method": [
-            "Heat oven to 200C/180C fan/gas 6.\r\nPut the mushrooms and tomatoes into\r\n4 ovenproof dishes. Divide garlic between\r\nthe dishes, drizzle over the oil and some\r\nseasoning, then bake for 10 mins.",
-            "Meanwhile, put the spinach into a large\r\ncolander, then pour over a kettle of\r\nboiling water to wilt it. Squeeze out any\r\nexcess water, then add the spinach to\r\nthe dishes. Make a little gap between the\r\nvegetables and crack an egg into each\r\ndish. Return to the oven and cook for a\r\nfurther 8-10 mins or until the egg is\r\ncooked to your liking."
+            "Calentar el horno a 200C/180C ventilador/gas 6.\r\nPoner los champiñones y los tomates en\r\n4 fuentes para horno. Divida el ajo entre\r\nlos platos, rociar con aceite y un poco\r\nsazone, luego hornee por 10 minutos.",
+            "Mientras tanto, ponga las espinacas en una cacerola grande.\r\ncolador, luego vierta sobre una tetera de\r\nagua hirviendo para que se marchite. Exprime cualquier\r\nexceso de agua, luego agregue las espinacas a\r\nlos platos. Haga un pequeño espacio entre el\r\nverduras y cascar un huevo en cada una\r\nplato. Regrese al horno y cocine por un\r\n8-10 minutos más o hasta que el huevo esté\r\ncocinado a tu gusto."
         ],
         "nutritional_info": {
             "kcal": "127",
@@ -845,23 +845,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/cinnamon-porridge-with-banana-and-berries/",
-        "title": "[ES] Cinnamon porridge with banana & berries",
-        "description": "(Translation pending) Start the day in a superhealthy way with energy-boosting oats and fresh fruit",
+        "title": "Gachas de canela con plátano y frutos rojos",
+        "description": "Comience el día de una manera súper saludable con avena y fruta fresca que aumentan la energía",
         "prep_time": "15 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "100g porridge oats",
-            "½  tsp cinnamon, plus extra to serve",
-            "4 tsp demerara sugar",
-            "450ml skimmed milk",
-            "3 bananas, sliced",
-            "400g punnet strawberries, hulled and halved",
-            "150g pot fat-free natural yogurt"
+            "100 g de gachas de avena",
+            "½ cucharadita de canela, más un poco más para servir",
+            "4 cucharaditas de azúcar demerara",
+            "450 ml de leche desnatada",
+            "3 plátanos, en rodajas",
+            "400 g de fresas en canastilla, peladas y cortadas por la mitad",
+            "Bote de 150g de yogur natural sin grasa"
         ],
         "method": [
-            "In a medium-sized saucepan,\r\nmix the oats, cinnamon, sugar, milk\r\nand half the sliced bananas. Bring\r\nto the boil, stirring occasionally.\r\nTurn down the heat and cook\r\nfor 4-5 mins, stirring all the time.",
-            "Remove and divide between\r\n4 bowls, top with the remaining\r\nbanana, strawberries, a dollop of\r\nyogurt and a sprinkle of cinnamon."
+            "En una cacerola mediana,\r\nmezclar la avena, la canela, el azúcar, la leche\r\ny la mitad de los plátanos en rodajas. traer\r\nhasta que hierva, revolviendo ocasionalmente.\r\nBajar el fuego y cocinar.\r\ndurante 4-5 minutos, revolviendo todo el tiempo.",
+            "Retirar y dividir entre\r\n4 tazones, cubrir con el resto\r\nplátano, fresas, una cucharada de\r\nyogur y una pizca de canela."
         ],
         "nutritional_info": {
             "kcal": "266",
@@ -878,21 +878,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/dried-fruit-compote/",
-        "title": "[ES] Dried fruit compote",
-        "description": "(Translation pending) A healthy fruit compote with fat-free yoghurt for breakfast will keep your energy up until lunchtime",
+        "title": "Compota de frutos secos",
+        "description": "Una saludable compota de frutas con yogur sin grasa para el desayuno mantendrá tus energías hasta la hora del almuerzo",
         "prep_time": "5 mins Cook: 5 mins Plus cooling",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "140g dried fruits (we used apricots, cherries and sultanas)",
-            "½  tsp cinnamon",
-            "300ml apple juice",
-            "200g tub fat-free Greek yogurt",
-            "100g granola"
+            "140g de frutos secos (nosotros utilizamos albaricoques, cerezas y pasas)",
+            "½ cucharadita de canela",
+            "300ml de jugo de manzana",
+            "Tarrina de 200 g de yogur griego sin grasa",
+            "100 gramos de granola"
         ],
         "method": [
-            "Put the dried fruit into a small pan\r\nwith the cinnamon and apple juice, give\r\neverything a stir then simmer for 5 mins\r\nuntil the apple juice is syrupy. Remove\r\nfrom the heat and allow to cool.",
-            "Divide the yogurt between 4 bowls\r\nthen top with the compote and granola."
+            "Pon los frutos secos en una cacerola pequeña.\r\ncon la canela y el jugo de manzana, dar\r\nRevuelva todo y luego cocine a fuego lento durante 5 minutos.\r\nhasta que el jugo de manzana esté almibarado. Quitar\r\ndel fuego y dejar enfriar.",
+            "Divida el yogur en 4 tazones.\r\nluego cubra con la compota y la granola."
         ],
         "nutritional_info": {
             "kcal": "253",
@@ -909,23 +909,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/skinny-pepper-tomato-and-ham-omelette/",
-        "title": "[ES] Skinny pepper, tomato & ham omelette",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyIf you’re in need of a protein boost try making this healthy omelette for breakfast, using fewer yolks lowers the cholesterol",
+        "title": "Tortilla flaca de pimientos, tomate y jamón",
+        "description": "Contiene carne de cerdo: la receta es solo para no musulmanes. Si necesita un refuerzo de proteínas, intente preparar esta tortilla saludable para el desayuno; usar menos yemas reduce el colesterol.",
         "prep_time": "15 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "2 whole eggs and 3 egg whites",
-            "1 tsp olive oil",
-            "1 red pepper, deseeded and finely chopped",
-            "2 spring onions, white and green parts kept separate and finely chopped",
-            "few slices wafer-thin extra-lean ham, shredded",
-            "25g reduced-fat mature cheddar",
-            "wholemeal toast, to serve"
+            "2 huevos enteros y 3 claras",
+            "1 cucharadita de aceite de oliva",
+            "1 pimiento rojo, sin semillas y finamente picado",
+            "2 cebolletas, las partes blanca y verde separadas y finamente picadas",
+            "unas lonchas de jamón extra magro finas como una oblea, desmenuzadas",
+            "25 g de queso cheddar maduro bajo en grasa",
+            "tostadas integrales, para servir"
         ],
         "method": [
-            "Mix the eggs and egg whites\r\nwith some seasoning and set aside.\r\nHeat the oil in a medium non-stick\r\nfrying pan and cook the pepper for\r\n3-4 mins. Throw in the white parts\r\nof the spring onions and cook for\r\n1 min more. Pour in the eggs and\r\ncook over a medium heat until\r\nalmost completely set.",
-            "Sprinkle on the ham and cheese\r\nand continue cooking until just set\r\nin the centre, or flash it under a hot\r\ngrill if you like it more well done.\r\nServe straight from the pan with\r\nthe green part of the spring onion\r\nsprinkled on top and some\r\nwholemeal toast."
+            "Mezclar los huevos y las claras.\r\ncon un poco de condimento y reservar.\r\nCalentar el aceite en una sartén mediana antiadherente.\r\nsartén y cocinar el pimiento durante\r\n3-4 minutos. Echa las partes blancas.\r\nde las cebolletas y cocinar durante\r\n1 min más. Vierta los huevos y\r\ncocinar a fuego medio hasta que\r\ncasi completamente fijado.",
+            "Espolvorear sobre el jamón y el queso.\r\ny continúe cocinando hasta que esté listo\r\nen el centro o cocinarlo bajo fuego caliente.\r\nAsar si os gusta más bien hecho.\r\nServir directamente de la sartén con\r\nla parte verde de la cebolleta\r\nespolvoreado encima y un poco\r\ntostadas integrales."
         ],
         "nutritional_info": {
             "kcal": "206",
@@ -942,25 +942,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/hash-browns-with-mustard-and-smoked-salmon/",
-        "title": "[ES] Hash browns with mustard & smoked salmon",
-        "description": "(Translation pending) This brilliant brunch dish is especially sensational served with poached eggs",
+        "title": "Patatas fritas con mostaza y salmón ahumado",
+        "description": "Este brillante plato de brunch queda especialmente sensacional si se sirve con huevos escalfados.",
         "prep_time": "10 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 large potato (about350g/12oz), washed",
-            "1 tbsp plain flour",
-            "1 tbsp wholegrain mustard or horseradish sauce",
-            "knob of butter",
-            "1 tbsp sunflower oil",
-            "4 slices smoked salmon",
-            "soured cream or crème fraîche, to serve",
-            "chives, to serve"
+            "1 papa grande (aproximadamente 350 g/12 oz), lavada",
+            "1 cucharada de harina común",
+            "1 cucharada de mostaza integral o salsa de rábano picante",
+            "nuez de mantequilla",
+            "1 cucharada de aceite de girasol",
+            "4 lonchas de salmón ahumado",
+            "crema agria o crème fraîche, para servir",
+            "cebollino, para servir"
         ],
         "method": [
-            "Grate the unpeeled potato onto a clean tea towel. Bring up the edges of the towel, then squeeze over the sink to remove any excess water in the potatoes. Tip into a bowl and add the flour and mustard or horseradish. Season well and mix together.",
-            "Divide the mixture into 8 balls and flatten between your hands. Heat a large frying pan with the butter and oil, then add the\r\npotatoes to the pan. Cook for 2-3 mins on each side, over a medium heat, until golden.",
-            "Stack a couple of hash browns on each serving plate and top with a slice of smoked salmon, a dollop of soured cream or crème fraîche and some chives to serve."
+            "Ralla la patata sin pelar sobre un paño de cocina limpio. Levante los bordes de la toalla y luego exprímala sobre el fregadero para eliminar el exceso de agua de las patatas. Vierta en un bol y agregue la harina y la mostaza o rábano picante. Sazone bien y mezcle.",
+            "Divide la mezcla en 8 bolas y aplana entre tus manos. Calentar una sartén grande con la mantequilla y el aceite, luego agregar la\r\npatatas a la sartén. Cocine durante 2-3 minutos por cada lado, a fuego medio, hasta que estén dorados.",
+            "Coloque un par de croquetas de patata en cada plato para servir y cubra con una rodaja de salmón ahumado, una cucharada de crema agria o crème fraîche y algunas cebolletas para servir."
         ],
         "nutritional_info": {
             "kcal": "153",
@@ -977,22 +977,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/honey-nut-crunch-pears/",
-        "title": "[ES] Honey nut crunch pears",
-        "description": "(Translation pending) This simple idea makes a quick mid-week treat for all the family",
+        "title": "Peras crujientes con miel y nueces",
+        "description": "Esta sencilla idea es un regalo rápido a mitad de semana para toda la familia.",
         "prep_time": "5 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "4 ripe pears",
-            "knob of butter",
-            "½  tsp mixed spice",
-            "2 tbsp clear honey",
-            "50g cornflakes",
-            "25g toasted flaked almonds"
+            "4 peras maduras",
+            "nuez de mantequilla",
+            "½ cucharadita de mezcla de especias",
+            "2 cucharadas de miel clara",
+            "50 g de copos de maíz",
+            "25 g de almendras laminadas tostadas"
         ],
         "method": [
-            "Heat oven to 200C/fan 180/gas 6. Cut the pears in half lengthways, take out the core (see tip, left), then top with a small knob of butter and a sprinkling of the mixed spice. Sit the pears in a shallow baking dish, then roast for 5 mins until starting to soften. Meanwhile, heat the honey and another knob of butter in a large bowl in the microwave for 30 secs. Toss with the cornflakes and nuts.",
-            "Take the pears out of the oven, then top with the cornflake mix. Cook for another 5 mins or until the cornflakes take on a rich golden colour. Allow to cool for a few mins (the cornflakes crisp up again as they cool), then serve warm with ice cream."
+            "Caliente el horno a 200 ° C / ventilador 180 ° C / gas 6. Corte las peras por la mitad a lo largo, retire el corazón (ver consejo a la izquierda) y luego cubra con una pequeña cantidad de mantequilla y una pizca de la mezcla de especias. Coloque las peras en una fuente para hornear poco profunda y luego ase durante 5 minutos hasta que comiencen a ablandarse. Mientras tanto, calienta la miel y otra nuez de mantequilla en un bol grande en el microondas durante 30 segundos. Mezcle con los copos de maíz y las nueces.",
+            "Saca las peras del horno y luego cubre con la mezcla de copos de maíz. Cocine por otros 5 minutos o hasta que los copos de maíz adquieran un color dorado intenso. Deje que se enfríe durante unos minutos (los copos de maíz vuelven a quedar crujientes a medida que se enfrían) y luego sírvalos calientes con helado."
         ],
         "nutritional_info": {
             "kcal": "179",
@@ -1009,29 +1009,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/the-ultimate-makeover-blueberry-muffins/",
-        "title": "[ES] The ultimate makeover: Blueberry muffins",
-        "description": "(Translation pending) We’ve created a deliciously light version of this classic muffin that contains virtually no saturated fat",
+        "title": "El cambio de imagen definitivo: muffins de arándanos",
+        "description": "Hemos creado una versión deliciosamente ligera de este clásico muffin que prácticamente no contiene grasas saturadas.",
         "prep_time": "25 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "5 tbsp rapeseed oil",
-            "225g self-raising flour",
-            "115g wholemeal flour",
-            "2 tsp baking powder",
-            "zest ½ lemon and 1 tsp juice",
-            "85g golden caster sugar",
-            "50g light muscovado sugar",
-            "1 small very ripe banana with black skin (about 85g peeled weight)",
-            "1 egg",
-            "284ml pot buttermilk",
-            "225g fresh blueberries"
+            "5 cucharadas de aceite de colza",
+            "225 g de harina con levadura",
+            "115 g de harina integral",
+            "2 cucharaditas de polvo para hornear",
+            "ralladura de ½ limón y 1 cucharadita de jugo",
+            "85 g de azúcar en polvo dorado",
+            "50 g de azúcar mascabado light",
+            "1 plátano pequeño muy maduro con piel negra (unos 85 g de peso pelado)",
+            "1 huevo",
+            "Bote de 284 ml de suero de leche",
+            "225 g de arándanos frescos"
         ],
         "method": [
-            "Heat oven to 200C/180C fan/gas 6.\r\nUse 1 tsp oil to lightly oil a 12-hole muffin\r\ntin (or use paper cases). Mix both flours\r\nwith the baking powder and lemon zest.\r\nReserve 1 tbsp caster sugar, then stir the\r\nrest into the flour with the muscovado.",
-            "Mash the banana well. In another bowl\r\nbeat the egg, then stir in the banana,\r\nbuttermilk and oil. Using a large metal\r\nspoon, very lightly stir into the flour mix,\r\njust to combine. Over-mixing will make\r\nthe muffins tough. Toss in the blueberries\r\nand give just a few turns of the spoon to\r\ncarefully stir them in without crushing.",
-            "Spoon the mixture into the tin –\r\neach hole should be very full. Bake for\r\n20-25 mins until risen and golden.",
-            "Mix the reserved caster sugar with\r\nthe lemon juice. When the muffins are\r\ndone, remove from the oven, then brush\r\nwith the sugar and lemon mixture while\r\nthey are still hot. Gently loosen the edges\r\nof each muffin with a knife, then leave\r\nin the tin for 15 mins to cool a little as\r\nthey’re very delicate while hot. Remove\r\nto a wire rack. Best eaten the day of\r\nmaking, but will keep for up to 2 days."
+            "Calentar el horno a 200C/180C ventilador/gas 6.\r\nUse 1 cucharadita de aceite para engrasar ligeramente un muffin de 12 hoyos.\r\nhojalata (o utilice cajas de papel). Mezclar ambas harinas\r\ncon el polvo para hornear y la ralladura de limón.\r\nReserve 1 cucharada de azúcar en polvo y luego revuelva\r\nreposar en la harina con el moscovado.",
+            "Tritura bien el plátano. en otro cuenco\r\nbata el huevo, luego agregue el plátano,\r\nsuero de leche y aceite. Usando un metal grande\r\ncuchara, agregue muy ligeramente a la mezcla de harina,\r\nsolo para combinar. Mezclar demasiado hará\r\nlos muffins duros. Agregue los arándanos\r\ny darle unas cuantas vueltas de cuchara para\r\nrevuélvalos con cuidado sin aplastarlos.",
+            "Vierta la mezcla en la lata.\r\ncada hoyo debe estar muy lleno. Hornear para\r\n20-25 minutos hasta que suba y esté dorado.",
+            "Mezclar el azúcar en polvo reservado con\r\nel jugo de limón. Cuando los muffins están\r\nListo, sacar del horno y cepillar.\r\ncon la mezcla de azúcar y limón mientras\r\ntodavía están calientes. Afloje suavemente los bordes\r\nde cada muffin con un cuchillo, luego dejar\r\nen la lata durante 15 minutos para que se enfríe un poco\r\nson muy delicados cuando están calientes. Quitar\r\na una rejilla. Se come mejor el día de\r\npero se conservará hasta por 2 días."
         ],
         "nutritional_info": {
             "kcal": "206",
@@ -1047,26 +1047,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/full-english-frittata-with-smoky-beans/",
-        "title": "[ES] Full English frittata with smoky beans",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyThis healthy baked omelette with classic fry up ingredients is versatile enough for brunch or supper",
+        "title": "Frittata inglesa completa con frijoles ahumados",
+        "description": "Contiene carne de cerdo: la receta es solo para no musulmanes. Esta saludable tortilla horneada con ingredientes clásicos para freír es lo suficientemente versátil para el brunch o la cena.",
         "prep_time": "5 mins Cook: 30 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 low-fat sausages, sliced",
-            "4 rashers extra lean bacon, all fat removed, chopped",
-            "150g pack button mushrooms, halved, or larger ones quartered",
-            "8 egg whites, or use 350ml liquid egg whites from a carton",
-            "3 tbsp milk",
-            "140g cherry tomatoes, halved",
-            "2 x 400g cans reduced salt and sugar baked beans",
-            "1½  tsp smoked paprika",
-            "small bunch chives, snipped"
+            "2 salchichas bajas en grasa, en rodajas",
+            "4 lonchas de tocino extra magro, sin grasa, picado",
+            "Paquete de 150 g de champiñones, partidos por la mitad o más grandes en cuartos",
+            "8 claras de huevo, o utilizar 350 ml de claras de huevo líquidas de un cartón",
+            "3 cucharadas de leche",
+            "140 g de tomates cherry partidos por la mitad",
+            "2 latas de 400 g de alubias cocidas reducidas en sal y azúcar",
+            "1½ cucharadita de pimentón ahumado",
+            "cebollino en manojo pequeño, cortado en tiras"
         ],
         "method": [
-            "Heat oven to 180C/160C fan/gas 4. Line\r\na roasting tin about the size of A4 paper\r\nwith enough baking parchment to cover\r\nthe base and sides. Fry the sausages and\r\nbacon in a non-stick pan until golden,\r\nstirring them often to stop them sticking.\r\nScoop into the tin.",
-            "Place the pan back on the heat and fry\r\nthe mushrooms for about 5 mins until\r\ngolden, then add these to the tray, too.\r\nWhisk the egg whites with the milk and\r\nlots of seasoning. Pour into the tin, then\r\ndot the tomatoes on top.",
-            "Bake in the oven for 20-25 mins, until\r\nset. Meanwhile, tip the beans into a pan\r\nwith the paprika and heat through.\r\nScatter the frittata with the chives and\r\nserve with the beans on the side."
+            "Calentar el horno a 180C/160C ventilador/gas 4. Línea\r\nuna fuente para asar del tamaño de una hoja A4\r\ncon suficiente papel para hornear para cubrir\r\nla base y los lados. Freír las salchichas y\r\ntocino en una sartén antiadherente hasta que esté dorado,\r\nrevolviéndolos con frecuencia para evitar que se peguen.\r\nVierta en la lata.",
+            "Vuelve a poner la sartén al fuego y fríe.\r\nlos champiñones durante unos 5 minutos hasta que\r\ndorados, luego agrégalos a la bandeja también.\r\nBatir las claras con la leche y\r\nmucho condimento. Vierta en la lata, luego\r\nsalpique los tomates encima.",
+            "Hornee en el horno durante 20-25 minutos, hasta que\r\nconjunto. Mientras tanto, vierte los frijoles en una sartén.\r\ncon el pimentón y calentar bien.\r\nEsparcir la frittata con el cebollino y\r\nsirva con los frijoles a un lado."
         ],
         "nutritional_info": {
             "kcal": "268",
@@ -1082,23 +1082,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/full-of-fibre/",
-        "title": "[ES] High-fibre muesli",
-        "description": "(Translation pending) Make your own muesli packed with fibre and great flavour using jumbo oats for slow-release energy, linseed and apricots. An easy, healthy breakfast",
+        "title": "Muesli rico en fibra",
+        "description": "Haga su propio muesli lleno de fibra y gran sabor usando avena gigante para liberar energía lentamente, linaza y albaricoques. Un desayuno fácil y saludable",
         "prep_time": "15 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "300g jumbo oats",
-            "100g Allbran",
-            "25g wheatgerm",
-            "100g dark raisins",
-            "140g ready-to-eat apricots, snipped into chunks",
-            "50g golden linseeds"
+            "300 g de avena gigante",
+            "100g de Allbran",
+            "25 g de germen de trigo",
+            "100 g de pasas oscuras",
+            "140 g de albaricoques listos para comer, cortados en trozos",
+            "50 g de linaza dorada"
         ],
         "method": [
-            "Mix everything in a large bowl.",
-            "Pour lots of chilled milk\r\nover and let it soak while you make\r\ntea. If you want to sweeten it, grate\r\nover some unpeeled apple and\r\nsprinkle with dark muscovado sugar.",
-            "Store for up to 2 months, airtight."
+            "Mezclar todo en un bol grande.",
+            "Vierta mucha leche fría.\r\nvoltea y déjalo en remojo mientras haces\r\nté. Si quieres endulzarlo ralla\r\nsobre una manzana sin pelar y\r\nespolvorear con azúcar moscabado oscuro.",
+            "Almacenar hasta por 2 meses, herméticamente."
         ],
         "nutritional_info": {
             "kcal": "124",
@@ -1115,20 +1115,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/perfect-scrambled-eggs/",
-        "title": "[ES] Perfect scrambled eggs recipe",
-        "description": "(Translation pending) Learn how to make perfect scrambled eggs with this easy recipe. A quick breakfast packed with protein, courtesy of Bill Granger.",
+        "title": "Receta perfecta de huevos revueltos",
+        "description": "Aprende a hacer huevos revueltos perfectos con esta receta fácil. Un desayuno rápido repleto de proteínas, cortesía de Bill Granger.",
         "prep_time": "",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "2 large free range eggs",
-            "6 tbsp single cream or full cream milk",
-            "a knob of butter"
+            "2 huevos grandes de corral",
+            "6 cucharadas de nata entera o leche entera",
+            "una nuez de mantequilla"
         ],
         "method": [
-            "Lightly whisk the eggs, cream\r\nand a pinch of salt together\r\nuntil all the ingredients are just\r\ncombined and the mixture has\r\none consistency.",
-            "Heat a small non-stick frying\r\npan for a minute or so, then add\r\nthe butter and let it melt. Don’t\r\nallow the butter to brown or it\r\nwill discolour the eggs. Pour in\r\nthe egg mixture and let it sit,\r\nwithout stirring, for 20 seconds.\r\nStir with a wooden spoon, lifting\r\nand folding it over from the\r\nbottom of the pan. Let it sit for\r\nanother 10 seconds then stir\r\nand fold again.",
-            "Repeat until the eggs are\r\nsoftly set and slightly runny in\r\nplaces, then remove from the\r\nheat and leave for a few\r\nseconds to finish cooking.\r\nGive a final stir and serve the\r\nvelvety scramble without delay."
+            "Batir ligeramente los huevos, la nata.\r\ny una pizca de sal juntos\r\nhasta que todos los ingredientes estén justo\r\ncombinado y la mezcla tiene\r\nuna consistencia.",
+            "Calentar una pequeña fritura antiadherente.\r\nsartén durante aproximadamente un minuto, luego agregue\r\nla mantequilla y dejar que se derrita. no lo hagas\r\nDeje que la mantequilla se dore o\r\ndecolorará los huevos. Vierta\r\nla mezcla de huevo y dejar reposar,\r\nsin revolver, durante 20 segundos.\r\nRevuelva con una cuchara de madera, levantando\r\ny doblándolo desde el\r\nfondo de la sartén. Déjalo reposar\r\notros 10 segundos y luego revuelva\r\ny doblar de nuevo.",
+            "Repita hasta que los huevos estén\r\nde fraguado suave y ligeramente líquido en\r\nlugares, luego retírela del\r\ncalentar y dejar reposar unos\r\nsegundos para terminar de cocinar.\r\nRevuelva por última vez y sirva\r\nrevuelta aterciopelada sin demora."
         ],
         "nutritional_info": {
             "kcal": "254",
@@ -1145,19 +1145,19 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/perfect-porridge/",
-        "title": "[ES] Perfect porridge",
-        "description": "(Translation pending) Perfect porridge for a healthy way to start the day",
+        "title": "Gachas perfectas",
+        "description": "Gachas perfectas para empezar el día de forma saludable",
         "prep_time": "5 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "50g porridge oats",
-            "350ml milk or water, or a mixture of the two",
-            "Greek yogurt, thinned with a little milk and clear honey, to serve"
+            "50 g de gachas de avena",
+            "350ml de leche o agua, o una mezcla de las dos",
+            "Yogur griego, diluido con un poco de leche y miel clara, para servir"
         ],
         "method": [
-            "Put the oats in a\r\nsaucepan, pour in the milk or water and\r\nsprinkle in a pinch of salt. Bring to the boil\r\nand simmer for 4-5 minutes, stirring from\r\ntime to time and watching carefully that it\r\ndoesn’t stick to the bottom of the pan. Or you can try this in a microwave. Mix the oats, milk or water\r\nand a pinch of salt in a large microwaveproof\r\nbowl, then microwave on High for 5\r\nminutes, stirring halfway through. Leave\r\nto stand for 2 minutes before eating.",
-            "To serve. Pour into bowls, spoon yogurt\r\non top and drizzle with honey."
+            "Pon la avena en un\r\ncazo, vierte la leche o el agua y\r\nespolvorea una pizca de sal. Llevar a ebullición\r\ny cocine a fuego lento durante 4-5 minutos, revolviendo\r\nde vez en cuando y vigilando atentamente que\r\nno se pega al fondo de la sartén. O puedes probar esto en un microondas. Mezclar la avena, la leche o el agua.\r\ny una pizca de sal en un recipiente grande apto para microondas.\r\ntazón, luego cocine en el microondas a temperatura alta durante 5\r\nminutos, revolviendo a la mitad. salir\r\ndejar reposar 2 minutos antes de comer.",
+            "Para servir. Vierta en tazones, vierta el yogur con una cuchara.\r\nencima y rociar con miel."
         ],
         "nutritional_info": {
             "kcal": "175",

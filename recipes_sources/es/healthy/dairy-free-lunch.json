@@ -1,23 +1,23 @@
 [
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/vegan-leek-potato-soup/",
-        "title": "[ES] Vegan leek & potato soup",
-        "description": "(Translation pending) Try this dairy-free, plant-based twist on the classic leek and potato soup. Ideal for lunch or a starter, top with chopped chives and enjoy with crusty bread",
+        "title": "Sopa vegana de puerros y patatas",
+        "description": "Pruebe esta versión vegetal y sin lácteos de la clásica sopa de puerros y patatas. Ideal para el almuerzo o como entrante, cubra con cebollino picado y disfrútelo con pan crujiente.",
         "prep_time": "10 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 tbsp rapeseed oil, plus a drizzle to serve (optional)",
-            "2 large garlic cloves, chopped",
-            "500g leeks, thinly sliced",
-            "500g potatoes, cut into cubes",
-            "500ml vegan vegetable stock, made with 1½ tsp bouillon powder",
-            "500ml unsweetened almond milk",
-            "chopped chives and bread, to serve"
+            "1 cucharada de aceite de colza, más un chorrito para servir (opcional)",
+            "2 dientes de ajo grandes, picados",
+            "500 g de puerros, en rodajas finas",
+            "500 g de patatas cortadas en cubos",
+            "500 ml de caldo de verduras vegano, elaborado con 1½ cucharadita de caldo en polvo",
+            "500 ml de leche de almendras sin azúcar",
+            "cebollino picado y pan, para servir"
         ],
         "method": [
-            "Heat the oil in a large pan over a medium heat and fry the garlic and leeks, stirring, until the veg has started to soften. Add the potatoes and stock, then cover and simmer for 15 mins until the leeks and potatoes are soft.",
-            "Pour in the almond milk, then remove from the heat and blitz using ahand blenderuntil almost smooth, with a slightly chunky texture. Or, if you prefer, blitz until completely smooth. Reheat over a low heat if needed, then ladle into bowls and scatter with chives, drizzle with a little oil and serve with bread, if you like.Can be frozen for up to three months."
+            "Calienta el aceite en una sartén grande a fuego medio y fríe el ajo y los puerros, revolviendo, hasta que las verduras empiecen a ablandarse. Añade las patatas y el caldo, tapa y cocina a fuego lento durante 15 minutos hasta que los puerros y las patatas estén suaves.",
+            "Vierta la leche de almendras, luego retírela del fuego y mezcle con una batidora de mano hasta que esté casi suave y con una textura ligeramente grumosa. O, si lo prefieres, bate hasta que quede completamente suave. Vuelva a calentar a fuego lento si es necesario, luego sirva en tazones y espolvoree con cebollino, rocíe con un poco de aceite y sirva con pan, si lo desea. Se puede congelar hasta por tres meses."
         ],
         "nutritional_info": {
             "kcal": "170",
@@ -34,26 +34,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/vegan-kebabs/",
-        "title": "[ES] Vegan kebabs",
-        "description": "(Translation pending) Stuffed with marinated tempeh patties and pickled cabbage, these vegan kebabs are ready in just 16 minutes. They’re healthy, full of fibre and one of your five-a-day",
+        "title": "Brochetas veganas",
+        "description": "Rellenos con hamburguesas de tempeh marinadas y repollo encurtido, estos kebabs veganos están listos en solo 16 minutos. Son saludables, llenos de fibra y uno de tus cinco al día.",
         "prep_time": "10 mins Cook: 6 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "100g tempeh",
-            "2 tbsp olive oil",
-            "1 tbsp smoked paprika",
-            "1 tbsp dried oregano",
-            "2 tbsp vegan mayonnaise",
-            "½ small garlic clove, crushed",
-            "2 flatbreads",
-            "4 tbsp pickled red cabbage, drained",
-            "150g salad leaves"
+            "100 g de tempeh",
+            "2 cucharadas de aceite de oliva",
+            "1 cucharada de pimentón ahumado",
+            "1 cucharada de orégano seco",
+            "2 cucharadas de mayonesa vegana",
+            "½ diente de ajo pequeño, machacado",
+            "2 panes planos",
+            "4 cucharadas de col roja encurtida, escurrida",
+            "150 g de hojas de ensalada"
         ],
         "method": [
-            "Slicethe tempeh into 1⁄2cm thick slices. Mix 1 tbsp of the olive oil in a bowl with the paprika, oregano, a pinch of salt, crack of black pepper and 1 tbsp water. Add the tempeh, tossing to coat. Cover and leave in the fridge overnight if you can, or set aside at room temperature while you continue the recipe.",
-            "Beat the mayonnaise with 1⁄2 tbsp water and the crushed garlic in a small bowl. Heat the flatbreads in a dry pan over a medium heat for 30 seconds on each side. Slather the garlic mayonnaise over both flatbreads and top with the pickled cabbage and half the salad leaves.",
-            "Heat the remaining 1 tbsp oil in a large frying pan over a high heat. Fry the marinated tempeh for 2-3 mins on each side over a medium heat until crispy and browned. Pile on top of the flatbreads, fold over and serve alongside the remaining salad."
+            "Cortar el tempeh en rodajas de 1⁄2 cm de grosor. Mezclar 1 cucharada de aceite de oliva en un bol con el pimentón, el orégano, una pizca de sal, una pizca de pimienta negra y 1 cucharada de agua. Agregue el tempeh y revuelva para cubrir. Tapa y deja en el frigorífico toda la noche si puedes, o reserva a temperatura ambiente mientras continúas con la receta.",
+            "Batir la mayonesa con 1⁄2 cucharada de agua y el ajo machacado en un bol pequeño. Calienta los panes planos en una sartén seca a fuego medio durante 30 segundos por cada lado. Unte la mayonesa de ajo sobre ambos panes planos y cubra con el repollo encurtido y la mitad de las hojas de ensalada.",
+            "Calienta la cucharada de aceite restante en una sartén grande a fuego alto. Freír el tempeh marinado durante 2-3 minutos por cada lado a fuego medio hasta que esté crujiente y dorado. Apile encima de los panes planos, dóblelos y sirva junto con la ensalada restante."
         ],
         "nutritional_info": {
             "kcal": "516",
@@ -70,28 +70,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/monday-night-burgers-slaw/",
-        "title": "[ES] Monday night burgers & slaw",
-        "description": "(Translation pending) Sit down to an easy weeknight dinner of grilled vegan burgers served with a carrot and cabbage slaw. We’ve used Tesco Plant Chef Meat-Free Burgers for a speedy meal, ready in just 20 minutes",
+        "title": "Hamburguesas y ensalada del lunes por la noche",
+        "description": "Siéntese a disfrutar de una cena sencilla entre semana a base de hamburguesas veganas a la parrilla servidas con ensalada de zanahoria y repollo. Hemos utilizado las hamburguesas sin carne Tesco Plant Chef para una comida rápida, lista en solo 20 minutos.",
         "prep_time": "10 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "2 Tesco Plant Chef Meat-Free Burgers",
-            "2 burger buns, split",
-            "1 large vine tomato, sliced",
-            "small handful of rocket or spinach",
-            "¼ cabbage (white, red, sweetheart or spring greens), finely sliced",
-            "1 carrot, grated",
-            "½ red onion, finely sliced",
-            "4 tbsp vegan mayonnaise, plus extra to serve",
-            "squeeze of lemon juice",
+            "2 hamburguesas sin carne Tesco Plant Chef",
+            "2 panes para hamburguesa, partidos",
+            "1 tomate rama grande, rebanado",
+            "un puñado pequeño de rúcula o espinacas",
+            "¼ de repollo (blanco, rojo, verde o verde), finamente cortado",
+            "1 zanahoria rallada",
+            "½ cebolla morada, cortada finamente",
+            "4 cucharadas de mayonesa vegana, más extra para servir",
+            "chorrito de jugo de limón",
             "1 tsp Dijon mustard",
-            "small handful of chives, parsley or coriander, finely chopped"
+            "un puñado pequeño de cebollino, perejil o cilantro, finamente picado"
         ],
         "method": [
-            "Heat the grill to medium-high. Put the Tesco Plant Chef Meat-Free Burgers on a baking tray and grill for 4-5 mins each side until golden and crisp. Toast the buns cut-side up alongside the burgers on the tray for the last 2-3 mins.",
-            "Meanwhile, toss the slaw ingredients with some seasoning. Taste, and add a little more lemon or mustard, if you like.",
-            "Spread a little mayo on the burger bun bases, add a tomato slice and a burger. Add a spoonful of the slaw. Top with some rocket or spinach, and add the burger lids. Serve with the remaining slaw on the side."
+            "Calienta la parrilla a medio-alto. Coloque las hamburguesas sin carne Tesco Plant Chef en una bandeja para hornear y cocine a la parrilla durante 4-5 minutos por cada lado hasta que estén doradas y crujientes. Tuesta los panecillos con el lado cortado hacia arriba junto a las hamburguesas en la bandeja durante los últimos 2 o 3 minutos.",
+            "Mientras tanto, mezcle los ingredientes de la ensalada con un poco de condimento. Pruebe y agregue un poco más de limón o mostaza, si lo desea.",
+            "Unta un poco de mayonesa sobre las bases del pan de hamburguesa, agrega una rodaja de tomate y una hamburguesa. Agrega una cucharada de ensalada de repollo. Cubra con un poco de rúcula o espinacas y agregue las tapas de las hamburguesas. Sirva con la ensalada restante a un lado."
         ],
         "nutritional_info": {
             "kcal": "520",
@@ -108,30 +108,30 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/buddha-bowl-salad/",
-        "title": "[ES] Vegan salad bowl",
-        "description": "(Translation pending) Whip up an easy vegan salad, with beans, radish, pickled cabbage and couscous. Bursting with flavour, it makes a satisfying dinner or lunch on the go",
+        "title": "Ensaladera vegana",
+        "description": "Prepare una ensalada vegana fácil con frijoles, rábanos, repollo encurtido y cuscús. Rebosante de sabor, es una cena o un almuerzo satisfactorio para llevar.",
         "prep_time": "15 mins No cook",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "200g couscous",
-            "400g can mixed beans",
-            "1 tsp olive oil",
-            "1⁄2 tsp chilli flakes",
-            "3⁄4 small bunch of dill, torn into sprigs",
-            "2 watermelon radishes or 6 small ones, sliced",
-            "1⁄2 cucumber, peeled into ribbons",
-            "1 large red onion, finely sliced",
-            "1⁄4 small red cabbage, finely sliced",
-            "2 tbsp white wine vinegar or apple cider vinegar",
-            "1 tbsp caster sugar",
-            "1⁄4 small bunch of dill, leaves picked"
+            "200 g de cuscús",
+            "Lata de 400g de frijoles mixtos",
+            "1 cucharadita de aceite de oliva",
+            "1⁄2 cucharadita de hojuelas de chile",
+            "3⁄4 manojo pequeño de eneldo, partido en ramitas",
+            "2 rábanos sandía o 6 pequeños, en rodajas",
+            "1⁄2 pepino, pelado en tiras",
+            "1 cebolla morada grande, finamente cortada",
+            "1⁄4 col lombarda pequeña, cortada finamente",
+            "2 cucharadas de vinagre de vino blanco o vinagre de manzana",
+            "1 cucharada de azúcar en polvo",
+            "1⁄4 manojo pequeño de eneldo, con las hojas recogidas"
         ],
         "method": [
-            "First, make the pickle. Mix all the ingredients together in a large bowl with 1 tsp flaky sea salt, then cover and set aside until needed.",
-            "Mix the couscous with 280ml boiling water in a bowl, cover and leave for 4 mins, then fluff up with a fork. Set aside to cool slightly.",
-            "Meanwhile, drain and rinse the beans, tip into a bowl, then stir in the olive oil and chilli flakes along with a little seasoning.",
-            "Mix most of the dill through the couscous and season. To assemble, spoon the quick pickle, couscous, radishes, beans and cucumber into separate parts of each bowl. Top the pickle with the reserved dill and grind over some black pepper."
+            "Primero, haz el pepinillo. Mezcle todos los ingredientes en un tazón grande con 1 cucharadita de sal marina en escamas, luego cubra y reserve hasta que sea necesario.",
+            "Mezclar el cuscús con 280 ml de agua hirviendo en un bol, tapar y dejar reposar 4 minutos, luego esponjar con un tenedor. Dejar enfriar un poco.",
+            "Mientras tanto, escurra y enjuague los frijoles, viértalos en un tazón y luego agregue el aceite de oliva y las hojuelas de chile junto con un poco de condimento.",
+            "Mezcle la mayor parte del eneldo con el cuscús y sazone. Para armar, vierta el pepinillo encurtido, el cuscús, los rábanos, los frijoles y el pepino en partes separadas de cada tazón. Cubra el pepinillo con el eneldo reservado y muela un poco de pimienta negra."
         ],
         "nutritional_info": {
             "kcal": "327",
@@ -148,31 +148,31 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/one-pan-coconut-dhal/",
-        "title": "[ES] One-pan coconut dhal",
-        "description": "(Translation pending) Rustle up a versatile coconut dhal. It’s the most comforting vegan meal, all made in one pan, and it can also be used as a base to make other curries.",
+        "title": "Dhal de coco en una sartén",
+        "description": "Prepara un versátil dhal de coco. Es la comida vegana más reconfortante, todo preparado en una sola sartén, y también se puede utilizar como base para hacer otros curry.",
         "prep_time": "10 mins Cook: 45 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "300g red lentils",
-            "2 tbsp sunflower oil, plus extra for drizzling",
-            "2 onions, finely sliced",
-            "4 garlic cloves, crushed or finely chopped",
-            "thumb-sized piece of ginger, finely chopped",
-            "5 curry leaves (optional)",
-            "1 tsp mustard seeds",
-            "1 tsp cumin seeds",
-            "1 tsp coriander powder",
-            "1 tsp turmeric",
-            "1 dried red chilli, left whole",
-            "1 tbsp tomato purée",
-            "400g can coconut milk",
-            "coriander leaves, sliced ginger and sliced green chilli, to serve"
+            "300 g de lentejas rojas",
+            "2 cucharadas de aceite de girasol, más un poco más para rociar",
+            "2 cebollas, finamente cortadas",
+            "4 dientes de ajo, machacados o finamente picados",
+            "trozo de jengibre del tamaño de un pulgar, finamente picado",
+            "5 hojas de curry (opcional)",
+            "1 cucharadita de semillas de mostaza",
+            "1 cucharadita de semillas de comino",
+            "1 cucharadita de cilantro en polvo",
+            "1 cucharadita de cúrcuma",
+            "1 chile rojo seco, dejado entero",
+            "1 cucharada de puré de tomate",
+            "lata de 400g de leche de coco",
+            "hojas de cilantro, jengibre en rodajas y chile verde en rodajas, para servir"
         ],
         "method": [
-            "Rinse the lentils until the water runs clear, then drain. Heat the oil in a large, shallow pan and cook the onions over a low heat for 10 mins until starting to brown, adding more oil if the pan looks dry. Add the garlic and ginger, and cook for another 30 seconds. Scatter in the curry leaves, if using, and all the spices and cook for a few minutes more, then stir in the tomato purée and cook for a minute longer.",
-            "Stir in the lentils, ensuring they’re well coated in the spices, then pour over the coconut milk and 850ml water. Bring to the boil, stirring occasionally, then simmer for about 30 mins until the lentils are soft and soupy. Scoop out the whole chilli and discard, then season generously with salt. The dhal can now be left to cool, then frozen in portions, or as one batch in a largeplastic container. Defrost completely before reheating in a pan over a low heat, adding more water to loosen if needed.",
-            "Serve with a sprinkling of the coriander, sliced ginger and chilli, and drizzle with a bit more oil."
+            "Enjuague las lentejas hasta que el agua salga clara y luego escúrralas. Calienta el aceite en una sartén grande y poco profunda y cocina las cebollas a fuego lento durante 10 minutos hasta que empiecen a dorarse, añadiendo más aceite si la sartén parece seca. Agrega el ajo y el jengibre y cocina por otros 30 segundos. Esparza las hojas de curry, si las usa, y todas las especias y cocine por unos minutos más, luego agregue el puré de tomate y cocine por un minuto más.",
+            "Agrega las lentejas, asegurándote de que estén bien cubiertas con las especias, luego vierte sobre la leche de coco y 850 ml de agua. Llevar a ebullición, revolviendo ocasionalmente, luego cocinar a fuego lento durante unos 30 minutos hasta que las lentejas estén suaves y espesos. Saque todo el chile y deséchelo, luego sazone generosamente con sal. Ahora se puede dejar enfriar el dhal y luego congelarlo en porciones o como un solo lote en un recipiente de plástico grande. Descongela completamente antes de recalentar en una sartén a fuego lento, agregando más agua para aflojar si es necesario.",
+            "Sirva con una pizca de cilantro, jengibre en rodajas y chile, y rocíe con un poco más de aceite."
         ],
         "nutritional_info": {
             "kcal": "531",
@@ -189,29 +189,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/fridge-raid-soup/",
-        "title": "[ES] Fridge-raid soup",
-        "description": "(Translation pending) Make this soup recipe your own using up any bits and bobs you have. Make a tomatoey soup with leftover veg, then finish it with flavourful toppings",
+        "title": "Sopa de asalto al frigorífico",
+        "description": "Haz tuya esta receta de sopa usando todos los detalles que tengas. Prepare una sopa de tomate con las verduras sobrantes y termínela con aderezos sabrosos.",
         "prep_time": "15 mins Cook: 40 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 tbsp olive oil",
-            "1 onion, finely chopped",
-            "2 carrots, finely chopped",
-            "2 sticks of celery, finely chopped",
-            "4 garlic cloves, crushed",
-            "1 thyme sprig",
-            "1 tbsp tomato purée",
-            "1 litre vegetable or chicken stock",
-            "400g can chopped tomatoes",
-            "2 x 400g cans cannelini beans, drained",
-            "a large handful of green veg (about 150g, use any seasonal veg you have – courgette, green beans, chard, spinach etc), roughly chopped",
-            "1 large potato, peeled and cut into 2cm cubes",
-            "chopped parsley, crumbled feta, torn olives, chilli flakes (optional), extra virgin olive oil, crusty bread"
+            "2 cucharadas de aceite de oliva",
+            "1 cebolla, finamente picada",
+            "2 zanahorias, finamente picadas",
+            "2 ramas de apio, finamente picadas",
+            "4 dientes de ajo machacados",
+            "1 ramita de tomillo",
+            "1 cucharada de puré de tomate",
+            "1 litro de caldo de verduras o pollo",
+            "Lata de 400g de tomates picados",
+            "2 latas de 400 g de judías cannelini, escurridas",
+            "un puñado grande de verduras verdes (unos 150 g, utilice cualquier verdura de temporada que tenga: calabacín, judías verdes, acelgas, espinacas, etc.), picadas en trozos grandes",
+            "1 papa grande, pelada y cortada en cubos de 2 cm",
+            "perejil picado, queso feta desmenuzado, aceitunas trituradas, hojuelas de chile (opcional), aceite de oliva virgen extra, pan crujiente"
         ],
         "method": [
-            "Heat the oil in a largepanon a medium heat and cook the onion, carrot and celery until soft, about 10 mins, then add the garlic, thyme and tomato purée. Pour in the stock along with the tomatoes, reduce the heat to low and simmer for 10 mins.",
-            "Add the cannelini beans, the green veg and potato pieces, along with a generous pinch of seasoning. Cover and simmer for another 15-20 mins or so until the veg is tender and the soup has thickened. Top with some parsley, crumbled feta, olives, chilli flakes (for those who like spice) and a drizzle of extra virgin olive oil. Serve with crusty bread on the side for dunking."
+            "Calienta el aceite en una sartén grande a fuego medio y cocina la cebolla, la zanahoria y el apio hasta que estén suaves, unos 10 minutos, luego agrega el ajo, el tomillo y el puré de tomate. Vierta el caldo junto con los tomates, reduzca el fuego al mínimo y cocine a fuego lento durante 10 minutos.",
+            "Añade las judías cannelini, las verduras y los trozos de patata, junto con una pizca generosa de condimento. Tape y cocine a fuego lento durante otros 15-20 minutos más o menos hasta que las verduras estén tiernas y la sopa se haya espesado. Cubra con un poco de perejil, queso feta desmenuzado, aceitunas, hojuelas de chile (para quienes gustan de las especias) y un chorrito de aceite de oliva virgen extra. Sirva con pan crujiente a un lado para mojar."
         ],
         "nutritional_info": {
             "kcal": "434",
@@ -228,34 +228,34 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/coriander-salmon-with-curried-quinoa-pomegranate/",
-        "title": "[ES] Coriander salmon with curried quinoa & pomegranate",
-        "description": "(Translation pending) You should aim to eat oily fish at least once a week, as the beneficial omega-3 fatty acids that support heart health can’t be made by your body",
+        "title": "Salmón al cilantro con quinoa al curry y granada",
+        "description": "Debería intentar comer pescado azul al menos una vez a la semana, ya que el cuerpo no puede producir los ácidos grasos omega-3 beneficiosos que favorecen la salud del corazón.",
         "prep_time": "20 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "120g quinoa, rinsed",
-            "320g fine green beans, trimmed and cut into thirds",
-            "15g pack coriander",
-            "15g fresh ginger, peeled and chopped",
-            "1 lemon, juiced",
-            "½ tsp ground cumin",
-            "1 green or red chilli, seeds removed and chopped",
-            "1 tsp ground coriander",
-            "4 wild skinless salmon steaks (460g)",
-            "1 tbsp extra virgin olive oil",
-            "2-3 courgettes (320g), halved and sliced",
-            "2 red onions, finely chopped",
-            "2 tsp garam masala",
-            "2 tsp vegetable bouillon powder",
-            "400g can chickpeas, drained",
-            "150g pomegranate seeds"
+            "120 g de quinua, enjuagada",
+            "320 g de judías verdes finas, peladas y cortadas en tercios",
+            "paquete de 15 g de cilantro",
+            "15 g de jengibre fresco, pelado y picado",
+            "1 limón, exprimido",
+            "½ cucharadita de comino molido",
+            "1 chile verde o rojo, sin semillas y picado",
+            "1 cucharadita de cilantro molido",
+            "4 filetes de salmón salvaje sin piel (460g)",
+            "1 cucharada de aceite de oliva virgen extra",
+            "2-3 calabacines (320 g), partidos por la mitad y en rodajas",
+            "2 cebollas rojas, finamente picadas",
+            "2 cucharaditas de garam masala",
+            "2 cucharaditas de caldo de verduras en polvo",
+            "Lata de 400 g de garbanzos escurridos",
+            "150 g de semillas de granada"
         ],
         "method": [
-            "Heat the oven to 200C/180C fan/gas 6 and line a baking sheet with baking parchment. Boil a saucepan of water, add the quinoa and cook for 5 mins. Add the beans, bring back to the boil, then simmer for 10 mins. Remove from the heat and leave to stand for 5 mins, then drain, rinse and drain again.",
-            "Meanwhile, blitz the fresh coriander, ginger, lemon juice, cumin, chilli and ground coriander in a small bowl using a hand blender. Arrange the salmon steaks on the baking sheet, then spread a teaspoon of the coriander mix on each one, saving the rest for later. Bake for 8-10 mins, depending on the thickness of the salmon.",
-            "Heat the oil in a non-stick pan and stir-fry the courgettes and onions for 8-10 mins over a medium heat until softened and starting to colour. Stir in the garam masala, bouillon powder and remaining coriander mixture, then add the chickpeas and cook for a minute. Tip into a serving bowl and stir through the cooled quinoa, green beans and pomegranate seeds. Spoon half onto two plates and flake over 2 of the salmon fillets.",
-            "Reserve the remaining two portions of quinoa salad and salmon to eat cold for lunch the next day, if you like.Will keep chilled for up to two days."
+            "Calentar el horno a 200C/180C ventilador/gas 6 y forrar una bandeja para hornear con papel para hornear. Hervir una cacerola con agua, agregar la quinua y cocinar por 5 minutos. Agregue los frijoles, vuelva a hervir y cocine a fuego lento durante 10 minutos. Retirar del fuego y dejar reposar 5 minutos, luego escurrir, enjuagar y escurrir nuevamente.",
+            "Mientras tanto, mezcle el cilantro fresco, el jengibre, el jugo de limón, el comino, la guindilla y el cilantro molido en un tazón pequeño con una batidora de mano. Coloca los filetes de salmón en la bandeja para hornear, luego esparce una cucharadita de la mezcla de cilantro en cada uno y guarda el resto para más tarde. Hornee durante 8-10 minutos, dependiendo del grosor del salmón.",
+            "Calentar el aceite en una sartén antiadherente y sofreír los calabacines y la cebolla durante 8-10 minutos a fuego medio hasta que se ablanden y empiecen a tomar color. Agrega el garam masala, el caldo en polvo y el resto de la mezcla de cilantro, luego agrega los garbanzos y cocina por un minuto. Vierta en un tazón para servir y revuelva con la quinua enfriada, las judías verdes y las semillas de granada. Coloque la mitad en dos platos y desmenuce 2 de los filetes de salmón.",
+            "Reserve las dos porciones restantes de ensalada de quinua y salmón para comerlas frías en el almuerzo del día siguiente, si lo desea. Se mantendrán frías hasta por dos días."
         ],
         "nutritional_info": {
             "kcal": "526",
@@ -272,28 +272,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/giant-couscous-tomato-salad-with-zhoug-style-dressing/",
-        "title": "[ES] Giant couscous & tomato salad with zhoug-style dressing",
-        "description": "(Translation pending) Make this giant couscous and tomato salad as a summer side. Zhoug is a spicy, bright green Middle Eastern sauce that brings this dish alive",
+        "title": "Ensalada gigante de cuscús y tomate con aderezo estilo zhoug",
+        "description": "Prepare esta ensalada gigante de cuscús y tomate como acompañamiento de verano. Zhoug es una salsa picante de color verde brillante del Medio Oriente que le da vida a este plato.",
         "prep_time": "5 mins Cook: 15 mins plus cooling",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "4 large vine tomatoes, diced",
-            "½ red onion, finely chopped",
-            "150g giant couscous or fregola",
-            "½ small bunch of coriander, roughly chopped",
-            "handful of parsley leaves, roughly chopped",
-            "1 lemon, juiced",
-            "2 green chillies, chopped",
-            "1 garlic clove, roughly chopped",
-            "½ tsp ground cumin",
-            "½ tsp caster sugar",
-            "3 tbsp olive oil"
+            "4 tomates en rama grandes, cortados en cubitos",
+            "½ cebolla morada, finamente picada",
+            "150 g de cuscús gigante o fregola",
+            "½ manojo pequeño de cilantro, picado en trozos grandes",
+            "un puñado de hojas de perejil, picadas en trozos grandes",
+            "1 limón, exprimido",
+            "2 chiles verdes, picados",
+            "1 diente de ajo, picado en trozos grandes",
+            "½ cucharadita de comino molido",
+            "½ cucharadita de azúcar en polvo",
+            "3 cucharadas de aceite de oliva"
         ],
         "method": [
-            "Put the tomatoes and onion in a large bowl with ½ tsp sea salt. Toss and leave to sit.",
-            "Cook the couscous in a pan of boiling salted water for 8-10 mins until tender (don’t overcook it – you want it a bit under so it can soak up the juices from the tomato), then drain really well. Cool for 10 mins then toss with the tomato and onion mixture.",
-            "Blend all the dressing ingredients with 1 tbsp water and ½ tsp sea salt until smooth. Drizzle some over the couscous, then serve the rest on the side for people to help themselves."
+            "Pon los tomates y la cebolla en un bol grande con ½ cucharadita de sal marina. Mezclar y dejar reposar.",
+            "Cocine el cuscús en una cacerola con agua hirviendo con sal durante 8 a 10 minutos hasta que esté tierno (no lo cocine demasiado; lo desea un poco más bajo para que pueda absorber los jugos del tomate), luego escúrralo muy bien. Deje enfriar durante 10 minutos y luego mezcle con la mezcla de tomate y cebolla.",
+            "Licue todos los ingredientes del aderezo con 1 cucharada de agua y ½ cucharadita de sal marina hasta que quede suave. Rocíe un poco sobre el cuscús y luego sirva el resto a un lado para que la gente se sirva ellos mismos."
         ],
         "nutritional_info": {
             "kcal": "222",
@@ -310,25 +310,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spinach-with-chickpeas-pine-nuts-raisins/",
-        "title": "[ES] Spinach with chickpeas, pine nuts & raisins",
-        "description": "(Translation pending) Enjoy this simple spinach side dish with Spanish-style chicken dishes. Toasted almonds work well, too",
+        "title": "Espinacas con garbanzos, piñones y pasas",
+        "description": "Disfrute de esta sencilla guarnición de espinacas con platos de pollo al estilo español. Las almendras tostadas también funcionan bien",
         "prep_time": "5 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "2 tbsp olive oil, plus a drizzle",
-            "1 large long shallot, sliced",
-            "2 garlic cloves, crushed",
-            "½ tsp ground cumin",
-            "½ tsp smoked paprika",
-            "400g can chickpeas, drained",
-            "4 tbsp golden or flame raisins",
-            "200g spinach",
-            "2 tbsp toasted pine nuts"
+            "2 cucharadas de aceite de oliva, más un chorrito",
+            "1 chalota grande y larga, cortada en rodajas",
+            "2 dientes de ajo machacados",
+            "½ cucharadita de comino molido",
+            "½ cucharadita de pimentón ahumado",
+            "Lata de 400 g de garbanzos escurridos",
+            "4 cucharadas de pasas doradas o flameadas",
+            "200 g de espinacas",
+            "2 cucharadas de piñones tostados"
         ],
         "method": [
-            "Heat the olive oil in a large non-stick pan. Add the shallot and garlic, and cook until softened. Add the spices, chickpeas and raisins, and cook for 2 mins.",
-            "Tip in the spinach and cook until just wilted. Stir in the pine nuts and serve with an extra drizzle of oil."
+            "Calienta el aceite de oliva en una sartén antiadherente grande. Agregue la chalota y el ajo y cocine hasta que se ablanden. Agrega las especias, los garbanzos y las pasas y cocina por 2 minutos.",
+            "Vierta las espinacas y cocine hasta que se ablanden. Agrega los piñones y sirve con un chorrito extra de aceite."
         ],
         "nutritional_info": {
             "kcal": "280",
@@ -345,34 +345,34 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/tomato-coconut-curry/",
-        "title": "[ES] Tomato & coconut curry",
-        "description": "(Translation pending) Celebrate tomatoes – even better if they’re homegrown – with this juicy coconut curry, that brings plenty of colour and flavour to your plate",
+        "title": "Curry de tomate y coco",
+        "description": "Celebre los tomates (incluso mejor si son de cosecha propia) con este jugoso curry de coco que aporta mucho color y sabor a su plato.",
         "prep_time": "15 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 heaped tsp cumin seeds",
-            "1 heaped tsp coriander seeds",
-            "1 heaped tsp fennel seeds",
-            "2 tbsp sunflower or rapeseed oil",
-            "10 curry leaves",
-            "3 large onions, thinly sliced",
-            "1 heaped tsp black mustard seeds",
-            "½ tsp ground turmeric",
-            "1 tsp sea salt flakes",
-            "4 garlic cloves, crushed",
-            "1 green chilli, finely chopped",
-            "1kg large ripe tomatoes, cut into quarters",
-            "250g cherry or baby plum tomatoes",
-            "400ml can coconut milk",
-            "2 heaped tsp tamarind paste",
-            "2 heaped tsp brown or palm sugar",
-            "cooked rice, to serve"
+            "1 cucharadita colmada de semillas de comino",
+            "1 cucharadita colmada de semillas de cilantro",
+            "1 cucharadita colmada de semillas de hinojo",
+            "2 cucharadas de aceite de girasol o colza",
+            "10 hojas de curry",
+            "3 cebollas grandes, en rodajas finas",
+            "1 cucharadita colmada de semillas de mostaza negra",
+            "½ cucharadita de cúrcuma molida",
+            "1 cucharadita de sal marina en escamas",
+            "4 dientes de ajo machacados",
+            "1 chile verde, finamente picado",
+            "1 kg de tomates maduros grandes, cortados en cuartos",
+            "250 g de tomates cherry o pera pequeños",
+            "Lata de 400ml de leche de coco.",
+            "2 cucharaditas colmadas de pasta de tamarindo",
+            "2 cucharaditas colmadas de azúcar moreno o de palma",
+            "arroz cocido, para servir"
         ],
         "method": [
-            "Tip the cumin, coriander and fennel seeds into a large, dry frying pan set over a medium-high heat and toast until fragrant and lightly browned. Immediately remove from the heat, then roughly grind using apestle and mortaror spice grinder.",
-            "Drizzle the oil into the pan. Add the curry leaves and sizzle for a minute, then add the onions. Fry for around 5 mins until lightly golden. Add the mustard seeds, ground spice mixture, turmeric, salt, garlic and chilli, and fry for another couple of minutes. Tip in all of the tomatoes and fry for a further minute before adding the coconut milk, tamarind and sugar.",
-            "Simmer the curry for 25 mins until the tomatoes are really soft and the liquid has thickened a little. Taste for seasoning, and add a little more salt or sugar if needed. Serve hot with the rice."
+            "Vierta las semillas de comino, cilantro e hinojo en una sartén grande y seca a fuego medio-alto y tueste hasta que estén fragantes y ligeramente doradas. Retirar inmediatamente del fuego y luego triturar con un mortero y un molinillo de especias.",
+            "Rocíe el aceite en la sartén. Agrega las hojas de curry y cocina durante un minuto, luego agrega las cebollas. Freír durante unos 5 minutos hasta que estén ligeramente dorados. Agrega las semillas de mostaza, la mezcla de especias molidas, la cúrcuma, la sal, el ajo y la guindilla y sofríe un par de minutos más. Vierta todos los tomates y fríalos un minuto más antes de agregar la leche de coco, el tamarindo y el azúcar.",
+            "Cocine el curry a fuego lento durante 25 minutos hasta que los tomates estén muy suaves y el líquido se haya espesado un poco. Pruebe el condimento y agregue un poco más de sal o azúcar si es necesario. Servir caliente con el arroz."
         ],
         "nutritional_info": {
             "kcal": "376",
@@ -389,33 +389,33 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/classic-minestrone-soup/",
-        "title": "[ES] Classic minestrone soup",
-        "description": "(Translation pending) Whip up this classic Italian vegetable soup with a rich tomato base and pasta. It’s low in calories and packed with fibre and vitamin C",
+        "title": "Sopa minestrone clásica",
+        "description": "Prepare esta clásica sopa de verduras italiana con una rica base de tomate y pasta. Es bajo en calorías y rico en fibra y vitamina C.",
         "prep_time": "15 mins Cook: 50 mins",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "3 tbsp olive oil, plus extra to serve",
-            "1 onion, finely chopped",
-            "1 celery stick, finely chopped",
-            "1 carrot, peeled and finely chopped",
-            "1 courgette, finely chopped",
-            "70g diced smoked pancetta",
-            "1 large garlic clove, crushed",
-            "½ tsp dried oregano",
-            "1 x 400g can cannellini beans",
-            "1 x 400g can chopped tomatoes",
-            "2 tbsp tomato purée",
-            "1.2 litre vegetable stock",
-            "1 bay leaf",
-            "70g small pasta",
-            "100g greens - kale, chard or cavolo nero work well",
-            "handful of basil",
-            "finely grated parmesan, to serve"
+            "3 cucharadas de aceite de oliva, más extra para servir",
+            "1 cebolla, finamente picada",
+            "1 rama de apio, finamente picada",
+            "1 zanahoria, pelada y finamente picada",
+            "1 calabacín, finamente picado",
+            "70 g de panceta ahumada cortada en cubitos",
+            "1 diente de ajo grande, triturado",
+            "½ cucharadita de orégano seco",
+            "1 lata de 400 g de judías cannellini",
+            "1 lata de 400 g de tomates picados",
+            "2 cucharadas de puré de tomate",
+            "1,2 litros de caldo de verduras",
+            "1 hoja de laurel",
+            "70 g de pasta pequeña",
+            "100 g de verduras: col rizada, acelgas o cavolo nero funcionan bien",
+            "puñado de albahaca",
+            "parmesano finamente rallado, para servir"
         ],
         "method": [
-            "Heat the oil in a large saucepan orcasserolepot over a low-medium heat and gently fry the onion, celery, carrot, courgette and pancetta for 10 mins. Add the garlic and oregano, and cook for 1 min. Tip in the beans, chopped tomatoes, purée, stock and bay leaf. Season to taste. Bring to the simmer and cook for 30 mins.",
-            "Add the pasta and greens, and cook for a further 10 mins. Ladle into bowls and scatter with the basil and some parmesan."
+            "Calentar el aceite en una cacerola o cacerola grande a fuego medio-bajo y sofreír la cebolla, el apio, la zanahoria, el calabacín y la panceta durante 10 minutos. Agrega el ajo y el orégano y cocina por 1 min. Agregue los frijoles, los tomates picados, el puré, el caldo y la hoja de laurel. Sazone al gusto. Llevar a fuego lento y cocinar durante 30 minutos.",
+            "Agregue la pasta y las verduras y cocine por 10 minutos más. Sirva en tazones y esparza con la albahaca y un poco de parmesano."
         ],
         "nutritional_info": {
             "kcal": "225",
@@ -432,19 +432,19 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/french-fries/",
-        "title": "[ES] French fries",
-        "description": "(Translation pending) Perfect French fries with our easy recipe – you’ll end up with lightly golden, crisp fries. They’re great as a snack or side dish to a Friday night feast",
+        "title": "papas fritas",
+        "description": "Papas fritas perfectas con nuestra receta fácil: terminarás con papas fritas crujientes y ligeramente doradas. Son excelentes como refrigerio o guarnición para un banquete del viernes por la noche.",
         "prep_time": "30 mins plus at least 2 hrs soaking",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "1kg Maris Piper or King Edward potatoes",
-            "vegetable oil, for deep frying"
+            "1 kg de patatas Maris Piper o King Edward",
+            "aceite vegetal, para freír"
         ],
         "method": [
-            "Peelthe potatoes and cut into 1cm-thick batons. Put into a bowl of cold water and leave to soak for at least 2 hrs to remove the starch from the potatoes – this will help them crisp while frying.",
-            "Drain the potatoes well and pat dry with kitchen paper. Fill a deep pan no more than a third full with oil and heat to 140C, or until a cube of bread dropped in browns in 60 seconds. Fry the French fries in batches for 6 mins per batch until golden straw-coloured, cooked through and lightly crisp. Drain well on kitchen paper.",
-            "Turn the heat up until the oil reaches 180C, or a cube of bread browns in 30 seconds. Fry the French fries again for 2-3 mins per batch until lightly golden and really crisp. Drain on kitchen paper and immediately season with sea salt."
+            "Pelar las patatas y cortarlas en bastones de 1 cm de grosor. Poner en un recipiente con agua fría y dejar en remojo durante al menos 2 horas para quitar el almidón de las patatas; esto ayudará a que queden crujientes mientras se fríen.",
+            "Escurrir bien las patatas y secarlas con papel de cocina. Llene una sartén profunda con aceite a no más de un tercio de su capacidad y caliéntela a 140 ° C, o hasta que un cubo de pan se dore en 60 segundos. Freír las patatas fritas en tandas durante 6 minutos por tanda hasta que estén doradas, bien cocidas y ligeramente crujientes. Escurrir bien sobre papel de cocina.",
+            "Sube el fuego hasta que el aceite alcance los 180 ° C o un cubo de pan se dore en 30 segundos. Fríe las papas fritas nuevamente durante 2-3 minutos por tanda hasta que estén ligeramente doradas y muy crujientes. Escurrir sobre papel de cocina e inmediatamente sazonar con sal marina."
         ],
         "nutritional_info": {
             "kcal": "317",
@@ -461,23 +461,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/roast-peppers-with-jammy-eggs-almond-parsley-dressing/",
-        "title": "[ES] Roast peppers with ‘jammy’ eggs & almond & parsley dressing",
-        "description": "(Translation pending) Cook up a speedy lunch of roast peppers with soft eggs, served with an almond and parsley dressing. Enjoy with crusty bread",
+        "title": "Pimientos asados ​​con huevos 'mermelada' y aderezo de almendras y perejil",
+        "description": "Prepare un almuerzo rápido con pimientos asados ​​con huevos tiernos, servidos con aderezo de almendras y perejil. Disfruta con pan crujiente",
         "prep_time": "10 mins Cook: 8 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "20g blanched almonds, chopped",
-            "1 small bunch of flat-leaf parsley, chopped",
-            "1 large garlic clove, finely chopped",
-            "1 tbsp white balsamic vinegar or sherry vinegar",
-            "7 tbsp extra virgin olive oil",
-            "8 medium eggs",
-            "250g roasted red peppers from a jar, drained and sliced into strips crusty bread, to serve"
+            "20 g de almendras blanqueadas, picadas",
+            "1 manojo pequeño de perejil de hoja plana, picado",
+            "1 diente de ajo grande, finamente picado",
+            "1 cucharada de vinagre balsámico blanco o vinagre de jerez",
+            "7 cucharadas de aceite de oliva virgen extra",
+            "8 huevos medianos",
+            "250 g de pimientos rojos asados ​​de un frasco, escurridos y cortados en tiras de pan crujiente, para servir"
         ],
         "method": [
-            "Make the dressing by bashing the almonds, parsley, garlic and some seasoning together using apestle and mortar. You want to create a slightly chunky mixture. Stir in the vinegar and the olive oil, bashing gently as you go. Taste for seasoning, bearing in mind that the dressing can be quite strong as you are pouring it over eggs.",
-            "Boil a pan of water, add the eggs and cook for 7-8 mins. This will give you what some people call ‘jammy’ eggs – they are only just firm enough to be considered hard-boiled, and the very centre is still a little soft. Put the eggs in cold water, then peel them as soon as they’re warm enough to handle. Halve the eggs and arrange them on a serving plate. Season, then drape the peppers around the eggs and spoon the dressing over the top. Eat with some good crusty bread, while the eggs are still warm."
+            "Haga el aderezo machacando las almendras, el perejil, el ajo y un poco de condimento con un mortero y un mortero. Quieres crear una mezcla ligeramente espesa. Agrega el vinagre y el aceite de oliva, batiendo suavemente a medida que avanzas. Gusto por el condimento, teniendo en cuenta que el aderezo puede quedar bastante fuerte al echarlo sobre los huevos.",
+            "Hervir una cacerola con agua, agregar los huevos y cocinar durante 7-8 minutos. Esto le dará lo que algunas personas llaman huevos \"con mermelada\": son lo suficientemente firmes como para considerarse duros y el centro todavía está un poco blando. Pon los huevos en agua fría y luego pélalos tan pronto como estén lo suficientemente calientes como para manipularlos. Corta los huevos por la mitad y colócalos en un plato para servir. Sazone, luego coloque los pimientos alrededor de los huevos y vierta el aderezo por encima. Se come con un buen pan crujiente, mientras los huevos aún están calientes."
         ],
         "nutritional_info": {
             "kcal": "371",
@@ -494,30 +494,30 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chickpea-spinach-almond-butter-bowl/",
-        "title": "[ES] Chickpea, spinach & almond butter bowl",
-        "description": "(Translation pending) Combine chickpeas and spinach with almond butter and spices to make this veg-packed family supper. Ready in just 25 minutes, serve with rice",
+        "title": "Bowl de mantequilla de garbanzos, espinacas y almendras",
+        "description": "Combine garbanzos y espinacas con mantequilla de almendras y especias para preparar esta cena familiar repleta de verduras. Listo en sólo 25 minutos, sírvelo con arroz",
         "prep_time": "5 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "vegetable oil, for frying",
-            "1 large onion, finely chopped",
-            "3 garlic cloves, crushed",
-            "2½cm piece of ginger, peeled and grated",
-            "1 tsp ground coriander",
-            "2 tsp ground cumin",
-            "1 tsp ground turmeric",
-            "½ tsp fenugreek",
-            "400g can chickpeas, drained and rinsed",
-            "300ml vegetable stock",
-            "2 tbsp unsalted almond butter",
-            "200g spinach, roughly chopped",
-            "cooked rice, to serve"
+            "aceite vegetal, para freír",
+            "1 cebolla grande, finamente picada",
+            "3 dientes de ajo machacados",
+            "Trozo de jengibre de 2½ cm, pelado y rallado",
+            "1 cucharadita de cilantro molido",
+            "2 cucharaditas de comino molido",
+            "1 cucharadita de cúrcuma molida",
+            "½ cucharadita de fenogreco",
+            "Lata de 400 g de garbanzos, escurridos y enjuagados",
+            "300 ml de caldo de verduras",
+            "2 cucharadas de mantequilla de almendras sin sal",
+            "200 g de espinacas, picadas en trozos grandes",
+            "arroz cocido, para servir"
         ],
         "method": [
-            "Heat some oil in a pan over a medium heat and fry the onions for 5 mins. Add 50ml water and cook for 7 mins more until just brown. Add the garlic and ginger.",
-            "Combine the coriander, cumin, turmeric, fenugreek and some pepper with 2 tbsp water, and tip into the pan. Cook for 5 mins more, then stir in the chickpeas.",
-            "Stir in the stock and almond butter, then add the spinach and cook for 3-5 mins more until the spinach has wilted. Serve over rice."
+            "Calienta un poco de aceite en una sartén a fuego medio y sofríe la cebolla durante 5 minutos. Agregue 50 ml de agua y cocine por 7 minutos más hasta que se dore. Agrega el ajo y el jengibre.",
+            "Combine el cilantro, el comino, la cúrcuma, el fenogreco y un poco de pimienta con 2 cucharadas de agua y viértalo en la sartén. Cocine por 5 minutos más, luego agregue los garbanzos.",
+            "Agregue el caldo y la mantequilla de almendras, luego agregue las espinacas y cocine durante 3-5 minutos más hasta que las espinacas se ablanden. Sirva sobre arroz."
         ],
         "nutritional_info": {
             "kcal": "356",
@@ -534,35 +534,35 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chicken-ham-casserole-with-mustardy-dumplings/",
-        "title": "[ES] Chicken & ham casserole with mustardy dumplings",
-        "description": "(Translation pending) Serve mustardy dumplings with our chicken and ham casserole for a comforting and filling family feast. You can freeze any leftovers, too – if there are any!",
+        "title": "Cazuela de pollo y jamón con empanadillas de mostaza",
+        "description": "Sirva bolas de masa a la mostaza con nuestra cazuela de pollo y jamón para disfrutar de un reconfortante y abundante banquete familiar. También puedes congelar las sobras, ¡si las hay!",
         "prep_time": "20 mins Cook: 1 hrs 30 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "1 tbsp sunflower oil",
-            "1 tbsp butter",
-            "1 onion, chopped",
-            "2 leeks, thickly sliced",
-            "2 carrots, peeled and chopped",
-            "6 boneless, skinless chicken thighs, cut into chunky pieces",
-            "200ml cider",
-            "800ml hot chicken stock",
-            "½ bunch of thyme, tied",
-            "1 tbsp cornflour",
-            "150g ham hock or cooked gammon, shredded into chunky pieces",
-            "100g frozen peas",
-            "1 tbsp English or Dijon mustard",
-            "200g self-raising flour",
-            "¼ tsp baking powder",
-            "2 tbsp English mustard powder",
-            "100g suet or cold butter, grated",
-            "½ small bunch of parsley, finely chopped"
+            "1 cucharada de aceite de girasol",
+            "1 cucharada de mantequilla",
+            "1 cebolla, picada",
+            "2 puerros, en rodajas gruesas",
+            "2 zanahorias, peladas y picadas",
+            "6 muslos de pollo deshuesados ​​y sin piel, cortados en trozos grandes",
+            "200ml de sidra",
+            "800 ml de caldo de pollo caliente",
+            "½ manojo de tomillo, atado",
+            "1 cucharada de harina de maíz",
+            "150 g de corvejón o jamón cocido, desmenuzado en trozos grandes",
+            "100 g de guisantes congelados",
+            "1 cucharada de mostaza inglesa o de Dijon",
+            "200 g de harina con levadura",
+            "¼ cucharadita de polvo para hornear",
+            "2 cucharadas de mostaza inglesa en polvo",
+            "100 g de sebo o mantequilla fría rallada",
+            "½ manojo pequeño de perejil, finamente picado"
         ],
         "method": [
-            "Heat the oil and butter in an ovenproofcasseroleover a medium heat. Add the onion, leeks and carrots and a pinch of salt, and fry gently for 10 mins until softened and translucent. Add the chicken, turn up the heat and fry for 5 mins. Pour in the cider, cook for 3 mins, then pour in the chicken stock and add the bunch of thyme. Bring to a simmer, season to taste, then reduce to a low heat and cover the pan. Cook for 30 mins.",
-            "Heat the oven to 180C/160C fan gas 4. Make the dumplings by mixing together the flour, baking powder, mustard powder, the suet or butter, parsley and ½ tsp salt. Swiftly mix in 8-10 tbsp of water and bring together with your hands. The dough should be firm and pliable. Divide into eight equal-sized pieces, weighing for accuracy if you like.",
-            "Remove the bunch of thyme from the stew and discard. Spoon a little of the liquid into a bowl and mix with the cornflour, then stir the mixture into the casserole. Add the ham hock, peas and mustard. Arrange the dumplings on top of the stew, then put in the oven, covered, for 30 mins. Remove the lid and cook for a further 10 mins until the dumplings are puffed up and golden brown. Serve in bowls.To freeze the stew, leave to cool completely, then transfer to a freezerproof container. Will keep for up to three months. Defrost thoroughly, then reheat until piping hot."
+            "Calentar el aceite y la mantequilla en una cazuela apta para horno a fuego medio. Añade la cebolla, los puerros y las zanahorias y una pizca de sal y sofríe durante 10 minutos hasta que estén tiernos y traslúcidos. Agrega el pollo, sube el fuego y sofríe durante 5 minutos. Vierta la sidra, cocine por 3 minutos, luego vierta el caldo de pollo y agregue el manojo de tomillo. Llevar a fuego lento, sazonar al gusto, luego reducir a fuego lento y tapar la sartén. Cocine por 30 minutos.",
+            "Calienta el horno a 180C/160C con ventilador de gas 4. Haz las albóndigas mezclando la harina, el polvo para hornear, la mostaza en polvo, el sebo o mantequilla, el perejil y ½ cucharadita de sal. Mezcle rápidamente con 8-10 cucharadas de agua y junte con las manos. La masa debe quedar firme y maleable. Divídalo en ocho trozos del mismo tamaño y pese para mayor precisión si lo desea.",
+            "Retire el manojo de tomillo del guiso y deséchelo. Vierta un poco del líquido en un bol y mezcle con la maicena, luego agregue la mezcla a la cazuela. Añade el corvejón, los guisantes y la mostaza. Coloca las bolas de masa encima del guiso y luego mételas al horno tapadas durante 30 minutos. Retire la tapa y cocine por 10 minutos más hasta que las bolas de masa estén infladas y doradas. Sirva en tazones. Para congelar el guiso, déjelo enfriar por completo y luego transfiéralo a un recipiente apto para congelador. Se conservará hasta por tres meses. Descongele bien y luego vuelva a calentar hasta que esté bien caliente."
         ],
         "nutritional_info": {
             "kcal": "517",
@@ -579,24 +579,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/creamy-edamame-pesto-pasta-with-rocket-salad/",
-        "title": "[ES] Creamy edamame pesto pasta with rocket salad",
-        "description": "(Translation pending) Make a budget-friendly family meal with our quick and easy edamame pesto pasta. Use wholemeal spaghetti for added fibre if you prefer",
+        "title": "Pasta cremosa con pesto de edamame y ensalada de rúcula",
+        "description": "Prepare una comida familiar económica con nuestra rápida y fácil pasta con pesto de edamame. Use espaguetis integrales para agregar fibra si lo prefiere",
         "prep_time": "20 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "300g spaghetti",
-            "350g frozen edamame beans, shelled",
-            "50ml extra virgin olive oil",
-            "50g cashew nuts",
-            "2 garlic cloves",
-            "50g parmesan or vegetarian alternative, plus extra to serve",
-            "90g rocket leaves"
+            "300 g de espaguetis",
+            "350 g de frijoles edamame congelados, sin cáscara",
+            "50ml de aceite de oliva virgen extra",
+            "50 g de anacardos",
+            "2 dientes de ajo",
+            "50 g de parmesano o alternativa vegetariana, más extra para servir",
+            "90 g de hojas de rúcula"
         ],
         "method": [
-            "Cook the pasta following pack instructions. Meanwhile, put the frozen edamame in a bowl, pour over 2 tbsp of water and cook in themicrowaveon high for about 5 mins. Leave in the water, covered, for 2 mins more. Alternatively, simmer the edamame in a pan of boiling water for 2-3 mins.",
-            "To make the pesto, put 150g of the edamame, the oil, cashews, garlic, parmesan and some seasoning in ablenderand whizz to a smooth paste. You can add up to 6 tbsp water to help it blend if the mixture is too thick.",
-            "Once the pasta is cooked, stir in the pesto and the remaining edamame, then serve with the rocket on the side and an extra grating of cheese, if you like."
+            "Cocine la pasta siguiendo las instrucciones del paquete. Mientras tanto, coloque el edamame congelado en un bol, vierta 2 cucharadas de agua y cocine en el microondas a temperatura alta durante unos 5 minutos. Dejar en el agua tapado durante 2 minutos más. Alternativamente, cocine a fuego lento el edamame en una cacerola con agua hirviendo durante 2-3 minutos.",
+            "Para hacer el pesto, ponga 150 g de edamame, el aceite, los anacardos, el ajo, el parmesano y un poco de condimento en la mezcla y mezcle hasta obtener una pasta suave. Puede agregar hasta 6 cucharadas de agua para ayudar a que se mezcle si la mezcla está demasiado espesa.",
+            "Una vez que la pasta esté cocida, agregue el pesto y el resto del edamame, luego sirva con la rúcula a un lado y una ralladura extra de queso, si lo desea."
         ],
         "nutritional_info": {
             "kcal": "637",
@@ -613,25 +613,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/kale-apple-soup-walnuts/",
-        "title": "[ES] Kale & apple soup with walnuts",
-        "description": "(Translation pending) Make the most of seasonal kale and give this soup added depth with sweet apple and a crunchy walnut topping – perfect as a healthy lunch",
+        "title": "Sopa de col rizada y manzana con nueces",
+        "description": "Aprovecha al máximo la col rizada de temporada y dale profundidad a esta sopa con manzana dulce y una cobertura crujiente de nueces: perfecta como almuerzo saludable.",
         "prep_time": "20 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "8 walnut halves, broken into pieces",
-            "1 onion, finely chopped",
-            "2 carrots, coarsely grated",
-            "2 red apples, unpeeled and finely chopped",
-            "1 tbsp cider vinegar",
-            "500ml reduced-salt vegetable stock",
-            "200g kale, roughly chopped",
-            "20g pack of dried apple crisps (optional)"
+            "8 mitades de nueces, partidas en pedazos",
+            "1 cebolla, finamente picada",
+            "2 zanahorias, ralladas gruesas",
+            "2 manzanas rojas, sin pelar y finamente picadas",
+            "1 cucharada de vinagre de sidra",
+            "500 ml de caldo de verduras reducido en sal",
+            "200 g de col rizada, picada en trozos grandes",
+            "Paquete de 20 g de chips de manzana secos (opcional)"
         ],
         "method": [
-            "In a dry, non-stick frying pan, cook the walnut pieces for 2-3 mins until toasted, turning frequently so they don’t burn. Take off the heat and allow to cool.",
-            "Put the onion, carrots, apples, vinegar and stock in a large saucepan and bring to the boil. Reduce the heat and simmer for 10 mins, stirring occasionally.",
-            "Once the onion is translucent and the apples start to soften, add the kale and simmer for an additional 2 mins. Carefully transfer to a blender or liquidiser and blend until very smooth. Pour into bowls and serve topped with the toasted walnuts, and a sprinkling of apple crisps, if you like."
+            "En una sartén antiadherente seca, cocina los trozos de nuez durante 2-3 minutos hasta que estén tostados, volteándolos con frecuencia para que no se quemen. Retirar del fuego y dejar enfriar.",
+            "Poner la cebolla, las zanahorias, las manzanas, el vinagre y el caldo en una cacerola grande y llevar a ebullición. Reduzca el fuego y cocine a fuego lento durante 10 minutos, revolviendo ocasionalmente.",
+            "Una vez que la cebolla esté traslúcida y las manzanas comiencen a ablandarse, agregue la col rizada y cocine a fuego lento durante 2 minutos más. Transfiera con cuidado a una licuadora o licuadora y mezcle hasta que esté muy suave. Vierta en tazones y sirva cubierto con nueces tostadas y una pizca de patatas fritas, si lo desea."
         ],
         "nutritional_info": {
             "kcal": "403",
@@ -648,27 +648,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/winter-apple-squash-panzanella/",
-        "title": "[ES] Winter apple & squash panzanella",
-        "description": "(Translation pending) Give the classic Italian tomato and stale bread salad a seasonal twist with hazelnuts, cranberries, squash and apple",
+        "title": "Panzanella de invierno de manzana y calabaza",
+        "description": "Dale un toque de temporada a la clásica ensalada italiana de tomate y pan duro con avellanas, arándanos, calabaza y manzana.",
         "prep_time": "20 mins Cook: 40 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "½  large butternut squash, cut into chunks",
-            "4 tbsp extra virgin olive oil",
-            "6 sage leaves, chopped",
-            "2 apples, cored and sliced into slim wedges",
-            "3 tbsp clear honey",
-            "4 tbsp red wine vinegar",
-            "200g leftover crusty bread (we used ciabatta), torn into chunks",
-            "100g hazelnuts, roughly chopped",
-            "200g bag chopped kale",
-            "100g dried cranberries"
+            "½ calabaza grande, cortada en trozos",
+            "4 cucharadas de aceite de oliva virgen extra",
+            "6 hojas de salvia, picadas",
+            "2 manzanas, sin corazón y cortadas en gajos finos",
+            "3 cucharadas de miel clara",
+            "4 cucharadas de vinagre de vino tinto",
+            "200 g de pan crujiente sobrante (nosotros usamos ciabatta), cortado en trozos",
+            "100 g de avellanas, picadas en trozos grandes",
+            "Bolsa de 200 g de col rizada picada",
+            "100 g de arándanos secos"
         ],
         "method": [
-            "Heat oven to 200C/180C fan/gas 6. Put the squash on a baking tray, drizzle with 1 tbsp oil and scatter over the sage and some seasoning. Toss together, then bake for 30 mins.",
-            "Add the apple slices to the tray, drizzle over the honey and toss with the squash. Put the bread on a separate tray and return both trays to the oven. Bake for another 10-15 mins until the squash and apple are tender and starting to caramelise, and the bread is crisp. Meanwhile, toast the hazelnuts in a small pan until golden. Remove the trays from the oven and set aside to cool a little.",
-            "Whisk the remaining oil, the honey and vinegar in a large bowl with some seasoning. Add the kale, cranberries, hazelnuts, squash apples and toasted bread. Toss everything together, then transfer to a platter or plates to serve."
+            "Calentar el horno a 200C/180C ventilador/gas 6. Coloque la calabaza en una bandeja para hornear, rocíe con 1 cucharada de aceite y esparza sobre la salvia y un poco de condimento. Mezcle y luego hornee por 30 minutos.",
+            "Agrega las rodajas de manzana a la bandeja, rocía con la miel y mezcla con la calabaza. Pon el pan en una bandeja aparte y regresa ambas bandejas al horno. Hornee por otros 10-15 minutos hasta que la calabaza y la manzana estén tiernas y comiencen a caramelizarse, y el pan esté crujiente. Mientras tanto, tuesta las avellanas en una sartén pequeña hasta que estén doradas. Retirar las bandejas del horno y dejar enfriar un poco.",
+            "Batir el aceite restante, la miel y el vinagre en un bol grande con un poco de condimento. Agrega la col rizada, los arándanos, las avellanas, las calabazas y el pan tostado. Mezcle todo y luego transfiéralo a un plato o platos para servir."
         ],
         "nutritional_info": {
             "kcal": "648",
@@ -685,26 +685,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/egg-rocket-pizzas/",
-        "title": "[ES] Egg & rocket pizzas",
-        "description": "(Translation pending) Use seeded tortillas as pizza bases for a quick and healthy lunch – crack an egg in the centre and bake to boost protein intake",
+        "title": "Pizzas de huevo y rúcula",
+        "description": "Utilice tortillas sin semillas como base de pizza para un almuerzo rápido y saludable: rompa un huevo en el centro y hornee para aumentar la ingesta de proteínas.",
         "prep_time": "10 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "2 seeded wraps",
-            "a little olive oil, for brushing",
-            "1 roasted red pepper, from a jar",
-            "2 tomatoes",
-            "2 tbsp tomato purée",
-            "1 tbsp chopped dill",
-            "2 tbsp chopped parsley",
-            "2 eggs",
-            "65g pack rocket",
-            "½  red onion, very thinly sliced"
+            "2 wraps sin semillas",
+            "un poco de aceite de oliva, para cepillar",
+            "1 pimiento rojo asado, de un frasco",
+            "2 tomates",
+            "2 cucharadas de puré de tomate",
+            "1 cucharada de eneldo picado",
+            "2 cucharadas de perejil picado",
+            "2 huevos",
+            "Paquete de rúcula de 65 g.",
+            "½ cebolla morada, cortada en rodajas muy finas"
         ],
         "method": [
-            "Heat oven to 200C/180C fan/gas 6. Lay the tortillas on two baking sheets, brush sparingly with the oil then bake for 3 mins. Meanwhile chop the pepper and tomatoes and mix with the tomato purée, seasoning and herbs. Turn the tortillas over and spread with the tomato mixture, leaving the centre free from any large pieces of pepper or tomato.",
-            "Break an egg into the centre then return to the oven for 10 mins or until the egg is just set and the tortilla is crispy round the edges. Serve scattered with the rocket and onion."
+            "Caliente el horno a 200C/180C ventilador/gas 6. Coloque las tortillas en dos bandejas para hornear, unte con moderación con aceite y luego hornee durante 3 minutos. Mientras tanto, pique el pimiento y los tomates y mézclelos con el puré de tomate, los condimentos y las hierbas. Voltee las tortillas y unte con la mezcla de tomate, dejando el centro libre de trozos grandes de pimiento o tomate.",
+            "Rompe un huevo en el centro y luego regresa al horno por 10 minutos o hasta que el huevo esté listo y la tortilla esté crujiente en los bordes. Servir espolvoreado con la rúcula y la cebolla."
         ],
         "nutritional_info": {
             "kcal": "327",
@@ -720,26 +720,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spicy-chicken-avocado-wraps/",
-        "title": "[ES] Spicy chicken & avocado wraps",
-        "description": "(Translation pending) Pan-fry lean chicken breast with lime, chilli and garlic, then pile onto seeded tortilla wraps. Cool before assembling if packing for lunch",
+        "title": "Wraps picantes de pollo y aguacate",
+        "description": "Freír la pechuga de pollo magra con lima, chile y ajo y luego apilarla sobre tortillas sin semillas. Déjelo enfriar antes de armar si empaca para el almuerzo.",
         "prep_time": "5 mins Cook: 8 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 chicken breast (approx 180g), thinly sliced at an angle",
-            "generous squeeze juice ½  lime",
-            "½  tsp mild chilli powder",
-            "1 garlic clove, chopped",
-            "1 tsp olive oil",
-            "2 seeded wraps",
-            "1 avocado, halved and stoned",
-            "1 roasted red pepper from a jar, sliced",
-            "a few sprigs coriander, chopped"
+            "1 pechuga de pollo (aproximadamente 180 g), cortada en rodajas finas en ángulo",
+            "jugo generoso exprimido ½ lima",
+            "½ cucharadita de chile suave en polvo",
+            "1 diente de ajo, picado",
+            "1 cucharadita de aceite de oliva",
+            "2 wraps sin semillas",
+            "1 aguacate, partido por la mitad y sin hueso",
+            "1 pimiento rojo asado de un frasco, en rodajas",
+            "unas ramitas de cilantro picado"
         ],
         "method": [
-            "Mix the chicken with the lime juice, chilli powder and garlic.",
-            "Heat the oil in a non-stick frying pan then fry the chicken for a couple of mins – it will cook very quickly so keep an eye on it. Meanwhile, warm the wraps following the pack instructions or, if you have a gas hob, heat them over the flame to slightly char them. Do not let them dry out or they are difficult to roll.",
-            "Squash half an avocado onto each wrap, add the peppers to the pan to warm them through then pile onto the wraps with the chicken, and sprinkle over the coriander. Roll up, cut in half and eat with your fingers."
+            "Mezclar el pollo con el jugo de limón, el chile en polvo y el ajo.",
+            "Calienta el aceite en una sartén antiadherente y luego fríe el pollo durante un par de minutos; se cocinará muy rápido, así que mantente atento. Mientras tanto, calienta los wraps siguiendo las instrucciones del paquete o, si tienes placa de gas, caliéntalos al fuego para que se quemen ligeramente. No dejes que se sequen o serán difíciles de enrollar.",
+            "Aplasta medio aguacate en cada wrap, agrega los pimientos a la sartén para calentarlos, luego apila los wraps con el pollo y espolvorea sobre el cilantro. Enrollar, cortar por la mitad y comer con los dedos."
         ],
         "nutritional_info": {
             "kcal": "403",
@@ -755,27 +755,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/vietnamese-prawn-salad/",
-        "title": "[ES] Vietnamese prawn salad",
-        "description": "(Translation pending) Inspired by the Vietnamese dish, Bun xao, this fresh-tasting salad has very little fat but is so satisfying",
+        "title": "Ensalada de gambas vietnamita",
+        "description": "Inspirada en el plato vietnamita Bun xao, esta ensalada de sabor fresco tiene muy poca grasa pero es muy saciante.",
         "prep_time": "20 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 small garlic clove, finely chopped",
-            "1 small red chilli, deseeded and finely chopped",
-            "1 tbsp golden caster sugar",
-            "juice 2 limes",
-            "250g thin rice noodles",
-            "150g pack cooked tiger prawns, halved along their spine",
-            "½ cucumber, peeled, deseeded and cut into matchsticks",
-            "1 carrot, cut into matchsticks or grated",
-            "6 spring onions, shredded",
-            "handful coriander and/or mint leaves",
-            "1 tbsp roasted peanuts, chopped"
+            "1 diente de ajo pequeño, finamente picado",
+            "1 chile rojo pequeño, sin semillas y finamente picado",
+            "1 cucharada de azúcar en polvo dorada",
+            "jugo 2 limones",
+            "250 g de fideos de arroz finos",
+            "Paquete de 150 g de langostinos tigre cocidos, cortados por la mitad a lo largo del lomo",
+            "½ pepino, pelado, sin semillas y cortado en palitos",
+            "1 zanahoria, cortada en palitos o rallada",
+            "6 cebolletas, ralladas",
+            "un puñado de hojas de cilantro y/o menta",
+            "1 cucharada de maní tostado, picado"
         ],
         "method": [
-            "To make the dressing, mash the garlic,\r\nchilli and sugar using a pestle and mortar.\r\nAdd the lime juice and 3 tbsp water and\r\nstir together. Set aside.",
-            "Get the kettle on, put the noodles into\r\na bowl, then cover with boiling water.\r\nLeave to stand for 10 mins until tender,\r\nthen drain and divide between 2 bowls.\r\n3 Mix the prawns and veg together and\r\ndivide between the bowls, too. Finish by\r\ntopping each salad with the herbs and\r\npeanuts, then pour over the dressing\r\nto serve."
+            "Para hacer el aderezo, machaca el ajo,\r\nchile y azúcar con un mortero.\r\nAñade el jugo de lima y 3 cucharadas de agua y\r\nrevuelva juntos. Dejar de lado.",
+            "Enciende la tetera, pon los fideos en\r\nun bol y luego cubrir con agua hirviendo.\r\nDejar reposar 10 minutos hasta que esté tierno.\r\nluego escurrir y dividir en 2 tazones.\r\n3 Mezcle las gambas y las verduras y\r\ndivídalo también entre los tazones. Terminar por\r\ncubriendo cada ensalada con las hierbas y\r\nmaní, luego vierta sobre el aderezo\r\npara servir."
         ],
         "nutritional_info": {
             "kcal": "579",
@@ -792,29 +792,29 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/miso-prawn-skewers-with-veggie-rice-salad/",
-        "title": "[ES] Miso prawn skewers with veggie rice salad",
-        "description": "(Translation pending) For a new way with prawns, marinade in soya, serve as kebabs and team with healthy basmati",
+        "title": "Brochetas de gambas al miso con ensalada de arroz vegetal",
+        "description": "Para una nueva forma de preparar gambas, marinarlas en soja, servirlas como kebabs y combinarlas con un saludable basmati.",
         "prep_time": "15 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "200g brown basmati rice",
-            "175g mange tout",
-            "200g frozen soy beans",
-            "1½  tbsp sesame oil",
-            "4 spring onions, finely sliced",
-            "large handful coriander, roughly chopped",
-            "1 green chilli, finely diced",
-            "400g raw large peeled prawns",
-            "3 tbsp sweet miso paste (You'll find this with the Japanese ingredients. We used Clearspring white miso)",
+            "200 g de arroz basmati integral",
+            "175g come de todo",
+            "200 g de soja congelada",
+            "1½ cucharada de aceite de sésamo",
+            "4 cebolletas, cortadas finamente",
+            "un puñado grande de cilantro, picado en trozos grandes",
+            "1 chile verde, finamente picado",
+            "400 g de gambas grandes peladas crudas",
+            "3 cucharadas de pasta de miso dulce (la encontrarás con los ingredientes japoneses. Nosotros usamos miso blanco Clearspring)",
             "2 tsp soy sauce",
-            "2 tsp Japanese rice vinegar",
-            "2 tsp soft brown sugar"
+            "2 cucharaditas de vinagre de arroz japonés",
+            "2 cucharaditas de azúcar moreno suave"
         ],
         "method": [
-            "Place the brown rice in a pan with lots\r\nof cold water. Bring to the boil and simmer\r\nfor 20-25 mins or until tender. Meanwhile,\r\nsoak wooden skewers in some cold\r\nwater (to prevent them burning). Add the\r\nmangetout and soy beans to the rice for\r\nthe final 5 mins of cooking. Rinse under\r\ncold water, draining thoroughly.",
-            "Toss the rice with the sesame oil and\r\nmix in a large bowl with the spring\r\nonions, coriander, chilli and seasoning.",
-            "Heat a grill. Place the skewer\r\ningredients in a bowl with a few grinds of\r\nblack pepper. Give everything a good stir,\r\nmaking sure the prawns are well coated.\r\nThread prawns onto the skewers and lay\r\non a baking sheet. Grill for a couple of\r\nmins each side, turning, until prawns are\r\ncooked through. Serve with the rice salad\r\nand drizzle over any of the cooking juices."
+            "Coloca el arroz integral en una sartén con mucha\r\nde agua fría. Llevar a ebullición y cocinar a fuego lento.\r\ndurante 20-25 minutos o hasta que estén tiernos. Mientras tanto,\r\nRemojar las brochetas de madera en un poco de agua fría.\r\nagua (para evitar que se quemen). Añade el\r\ntirabeques y soja al arroz para\r\nlos últimos 5 minutos de cocción. Enjuague debajo\r\nagua fría, escurriendo bien.",
+            "Mezcle el arroz con el aceite de sésamo y\r\nmezclar en un tazón grande con la primavera\r\ncebolla, cilantro, chile y condimentos.",
+            "Calienta una parrilla. Coloca la brocheta\r\ningredientes en un bol con un poco de molienda\r\npimienta negra. Dale todo un buen revuelo,\r\nasegurándonos de que los langostinos queden bien cubiertos.\r\nEnsartar los langostinos en las brochetas y colocarlos\r\nen una bandeja para hornear. Asa por un par de\r\nminutos por cada lado, volteándolos, hasta que los langostinos estén\r\nbien cocido. Servir con la ensalada de arroz.\r\ny rocíe sobre cualquiera de los jugos de cocción."
         ],
         "nutritional_info": {
             "kcal": "410",
@@ -831,28 +831,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/cherry-tomato-thyme-and-bacon-flan/",
-        "title": "[ES] Cherry tomato, thyme & bacon flan",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyA filling and savoury dish especially suited to those on a dairy-free diet",
+        "title": "Flan de tomate cherry, tomillo y bacon",
+        "description": "Contiene carne de cerdo: la receta es solo para no musulmanes. Un plato sabroso y abundante especialmente adecuado para quienes siguen una dieta sin lácteos.",
         "prep_time": "35 mins Cook: 45 mins",
         "cook_time": "",
         "serves": "8",
         "ingredients": [
-            "50g wholemeal flour",
-            "85g vegetable baking margarine",
-            "100g plain flour",
-            "1 large egg, beaten",
-            "150g natural Yofu (a 100% dairy-free yogurt)",
-            "1 small onion, diced",
-            "1 tbsp vegetable oil",
-            "4 tbsp soya milk",
-            "leaves from 2 sprigs thyme, plus a few extra sprigs",
-            "150g cherry tomatoes, halved",
-            "2 thick-cut rashers unsmoked bacon, chopped"
+            "50 g de harina integral",
+            "85 g de margarina vegetal para hornear",
+            "100 g de harina común",
+            "1 huevo grande, batido",
+            "150g de Yofu natural (un yogur 100% sin lácteos)",
+            "1 cebolla pequeña, picada",
+            "1 cucharada de aceite vegetal",
+            "4 cucharadas de leche de soja",
+            "hojas de 2 ramitas de tomillo, más algunas ramitas adicionales",
+            "150 g de tomates cherry partidos por la mitad",
+            "2 lonchas gruesas de tocino sin ahumar, picado"
         ],
         "method": [
-            "Preheat the oven to 220C/gas 7/\r\nfan 200C. Put the flours in a bowl\r\nand rub in the margarine until it\r\nresembles breadcrumbs. Mix in\r\n4-5 tsp water to make a soft\r\ndough. Turn on to a lightly floured\r\nsurface, roll out and use to line a 20cm flan tin. Line with baking\r\nparchment, cover with baking\r\nbeans and bake for 5 minutes.\r\nRemove the paper and beans and\r\nbake for 5 minutes more. Allow to\r\ncool on a rack. Reduce the oven\r\nto 160C/gas 3/fan oven 140C.",
-            "Heat the oil in a pan and cook\r\nthe bacon and onion until crispy.\r\nRemove from the heat.",
-            "Mix the soya milk, Yofu,\r\neggs and thyme leaves. Season\r\nwell. Put the onion, bacon and\r\ntomatoes in the flan case. Add\r\nthe milk mixture and top with\r\nextra thyme sprigs on top. Bake\r\nfor 30 minutes until set."
+            "Precalentar el horno a 220C/gas 7/\r\nventilador 200C. Pon las harinas en un bol.\r\ny frotar con la margarina hasta que\r\nse parece al pan rallado. Mezclar\r\n4-5 cucharaditas de agua para suavizar\r\nmasa. Encender a fuego ligeramente enharinado.\r\nsuperficie, extender y utilizar para forrar un molde para flan de 20 cm. Línea con horneado\r\npergamino, cubrir con hornear\r\nfrijoles y hornee por 5 minutos.\r\nRetire el papel y los frijoles y\r\nhornee por 5 minutos más. Permitir\r\nenfriar sobre una rejilla. reducir el horno\r\na 160C/gas 3/horno con ventilador 140C.",
+            "Calentar el aceite en una sartén y cocinar.\r\nel tocino y la cebolla hasta que estén crujientes.\r\nRetirar del fuego.",
+            "Mezclar la leche de soja, Yofu,\r\nhuevos y hojas de tomillo. Temporada\r\nbueno. Poner la cebolla, el tocino y\r\ntomates en el caso del flan. Añadir\r\nla mezcla de leche y cubra con\r\nramitas adicionales de tomillo encima. hornear\r\ndurante 30 minutos hasta que cuaje."
         ],
         "nutritional_info": {
             "kcal": "302",
@@ -869,30 +869,30 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/squash-and-barley-salad-with-balsamic-vinaigrette/",
-        "title": "[ES] Squash & barley salad with balsamic vinaigrette",
-        "description": "(Translation pending) A flavour-packed, unusual salad that’s delicious warm or cold – works really well as part of a buffet",
+        "title": "Ensalada de calabaza y cebada con vinagreta balsámica",
+        "description": "Una ensalada inusual y llena de sabor, deliciosa tanto fría como caliente; funciona muy bien como parte de un buffet",
         "prep_time": "",
         "cook_time": "25 mins 5 mins, plus cooling",
         "serves": "8",
         "ingredients": [
-            "1 butternut squash, peeled and cut into long pieces",
-            "1 tbsp olive oil",
-            "250g pearl barley",
-            "300g Tenderstem broccoli, cut into medium-size pieces",
-            "100g SunBlush tomatoes, sliced",
-            "1 small red onion, diced",
-            "2 tbsp pumpkin seeds",
-            "1 tbsp small capers, rinsed",
-            "15 black olives, pitted",
-            "20g pack basil, chopped",
-            "5 tbsp balsamic vinegar",
-            "6 tbsp extra-virgin olive oil",
-            "1 tbsp Dijon mustard",
-            "1 garlic clove, finely chopped"
+            "1 calabaza, pelada y cortada en trozos largos",
+            "1 cucharada de aceite de oliva",
+            "250 g de cebada perlada",
+            "300 g de brócoli de tallo tierno, cortado en trozos medianos",
+            "100 g de tomates SunBlush, en rodajas",
+            "1 cebolla morada pequeña, picada",
+            "2 cucharadas de semillas de calabaza",
+            "1 cucharada de alcaparras pequeñas, enjuagadas",
+            "15 aceitunas negras, sin hueso",
+            "Paquete de 20 g de albahaca picada",
+            "5 cucharadas de vinagre balsámico",
+            "6 cucharadas de aceite de oliva virgen extra",
+            "1 cucharada de mostaza Dijon",
+            "1 diente de ajo, finamente picado"
         ],
         "method": [
-            "Heat oven to 200C/fan 180C/gas 6. Place\r\nthe squash on a baking tray and toss with\r\nolive oil. Roast for 20 mins. Meanwhile,\r\nboil the barley for about 25 mins in salted\r\nwater until tender, but al dente. While this is\r\nhappening, whisk the dressing ingredients in\r\na small bowl, then season with salt and pepper.\r\nDrain the barley, then tip it into a bowl and\r\npour over the dressing. Mix well and let it cool.",
-            "Boil the broccoli in salted water until just\r\ntender, then drain and rinse in cold water.\r\nDrain and pat dry. Add the broccoli and\r\nremaining ingredients to the barley and mix\r\nwell. This will keep for 3 days in the fridge\r\nand is delicious warm or cold."
+            "Calentar el horno a 200C/ventilador 180C/gas 6. Colocar\r\nla calabaza en una bandeja para hornear y mezcle con\r\naceite de oliva. Ase durante 20 minutos. Mientras tanto,\r\nhervir la cebada durante unos 25 minutos en sal\r\nagua hasta que esté tierna, pero al dente. Si bien esto es\r\nesto sucede, mezcle los ingredientes del aderezo\r\nun tazón pequeño, luego sazone con sal y pimienta.\r\nEscurre la cebada, luego viértela en un bol y\r\nvierta sobre el aderezo. Mezclar bien y dejar enfriar.",
+            "Hervir el brócoli en agua con sal hasta que\r\ntiernos, luego escurrir y enjuagar con agua fría.\r\nEscurrir y secar. Agrega el brócoli y\r\ningredientes restantes a la cebada y mezclar\r\nbueno. Esto se conservará durante 3 días en el frigorífico.\r\ny está delicioso caliente o frío."
         ],
         "nutritional_info": {
             "kcal": "301",
@@ -909,24 +909,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/quinoa-tabbouleh/",
-        "title": "[ES] Quinoa tabbouleh",
-        "description": "(Translation pending) Enjoy this nutrient-packed salad, with juicy tomatoes and cucumber, as a delicious and healthy lunch",
+        "title": "Tabulé de quinua",
+        "description": "Disfruta de esta ensalada llena de nutrientes, con jugosos tomates y pepino, como un delicioso y saludable almuerzo.",
         "prep_time": "20 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "200g quinoa",
-            "juice 1-2 lemons",
-            "4 tbsp olive oil",
-            "small bunch mint, chopped",
-            "small bunch flat-leaf parsley, chopped",
-            "bunch spring onions, sliced",
-            "½ cucumber, deseeded and diced",
-            "handful walnuts, chopped"
+            "200 g de quinua",
+            "jugo 1-2 limones",
+            "4 cucharadas de aceite de oliva",
+            "manojo pequeño de menta, picada",
+            "manojo pequeño de perejil de hoja plana, picado",
+            "manojo de cebolletas, en rodajas",
+            "½ pepino, sin semillas y cortado en cubitos",
+            "un puñado de nueces picadas"
         ],
         "method": [
-            "Rinse the quinoa well and place in a\r\npan with about double the volume of\r\nwater. Bring to the boil, cover, reduce\r\nthe heat and gently simmer for 10 mins\r\nor until the grain unwraps itself. Turn\r\noff the heat and leave to cool slightly,\r\nthen drain any remaining water.",
-            "Season the quinoa, stir in the lemon\r\njuice and oil and leave to cool fully. Stir\r\nin the other ingredients, then serve."
+            "Enjuague bien la quinua y colóquela en un\r\nsartén con aproximadamente el doble del volumen de\r\nagua. Llevar a ebullición, tapar, reducir.\r\nel fuego y cocine a fuego lento durante 10 minutos\r\no hasta que el grano se desenvuelva. girar\r\nRetirar del fuego y dejar enfriar un poco.\r\nluego drene el agua restante.",
+            "Sazone la quinua, agregue el limón.\r\nJugo y aceite y dejar enfriar por completo. Revuelva\r\nen los demás ingredientes y luego servir."
         ],
         "nutritional_info": {
             "kcal": "284",
@@ -942,22 +942,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/barbecued-fennel-with-black-olive-dressing/",
-        "title": "[ES] Barbecued fennel with black olive dressing",
-        "description": "(Translation pending) Slice fennel and chargrill it as the base to a salad dressed with Kalamata olives, parsley, basil and garlic",
+        "title": "Hinojo asado con aderezo de aceitunas negras",
+        "description": "Corte el hinojo en rodajas y cocínelo a la parrilla como base para una ensalada aderezada con aceitunas Kalamata, perejil, albahaca y ajo.",
         "prep_time": "10 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 fennel bulbs, sliced lengthways into 1cm-thick pieces",
-            "1½  tbsp olive oil",
-            "2 tbsp finely chopped black Kalamata olives",
-            "1 garlic clove, crushed",
-            "juice 1 lemon",
-            "small handful each parsley and basil, finely chopped"
+            "2 bulbos de hinojo, cortados a lo largo en trozos de 1 cm de grosor",
+            "1½ cucharada de aceite de oliva",
+            "2 cucharadas de aceitunas Kalamata negras finamente picadas",
+            "1 diente de ajo, machacado",
+            "jugo 1 limon",
+            "un puñado pequeño de perejil y albahaca, finamente picados"
         ],
         "method": [
-            "Heat a BBQ or griddle pan. Toss the\r\nfennel in 1 tbsp of the oil, coating well.\r\nCook for 5 mins on each side until\r\ngolden brown and charred.",
-            "To make the dressing, put the olives,\r\ngarlic, lemon juice and remaining oil\r\nin a bowl. Add the chopped herbs and\r\ncombine. Lay the fennel on a platter\r\nand pour over the dressing. Eat warm\r\nor at room temperature."
+            "Calienta una barbacoa o una plancha. Tira el\r\nhinojo en 1 cucharada de aceite, cubriendo bien.\r\nCocine durante 5 minutos por cada lado hasta que\r\ndorado y carbonizado.",
+            "Para hacer el aliño poner las aceitunas,\r\najo, jugo de limón y aceite restante\r\nen un bol. Añade las hierbas picadas y\r\ncombinar. Coloca el hinojo en una fuente.\r\ny verter sobre el aderezo. comer caliente\r\no a temperatura ambiente."
         ],
         "nutritional_info": {
             "kcal": "69",
@@ -974,25 +974,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/mediterranean-potato-salad/",
-        "title": "[ES] Mediterranean potato salad",
-        "description": "(Translation pending) Skip the mayo and go for an Italian-style olive oil dressing for warm new potatoes. Jazz them up with basil, Parmesan and sundried tomatoes",
+        "title": "Ensalada de patatas mediterránea",
+        "description": "Omita la mayonesa y opte por un aderezo de aceite de oliva al estilo italiano para patatas nuevas calientes. Dales sabor con albahaca, parmesano y tomates secos.",
         "prep_time": "10 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "1 tbsp olive oil",
-            "1 small onion, thinly sliced",
-            "1 garlic clove, crushed",
-            "1 tsp oregano, fresh or dried",
-            "½ x 400g can cherry tomatoes",
-            "100g roasted red peppers, from a jar, sliced",
-            "300g new potatoes, halved if large",
-            "25g black olives, sliced",
-            "handful basil leaves, torn"
+            "1 cucharada de aceite de oliva",
+            "1 cebolla pequeña, en rodajas finas",
+            "1 diente de ajo, machacado",
+            "1 cucharadita de orégano, fresco o seco",
+            "½ lata de 400 g de tomates cherry",
+            "100 g de pimientos rojos asados, de un frasco, en rodajas",
+            "300 g de patatas nuevas, partidas por la mitad si son grandes",
+            "25 g de aceitunas negras, en rodajas",
+            "un puñado de hojas de albahaca, rasgadas"
         ],
         "method": [
-            "Heat the oil in a saucepan, add the onion\r\nand cook for 5-10 mins until soft. Add the\r\ngarlic and oregano and cook for 1 min. Add\r\nthe tomatoes and peppers, season well\r\nand simmer gently for 10 mins.",
-            "Meanwhile, cook the potatoes in a pan\r\nof boiling salted water for 10-15 mins until\r\ntender. Drain well, mix with the sauce and\r\nserve warm, sprinkled with olives and basil."
+            "Calentar el aceite en una cacerola, agregar la cebolla.\r\ny cocine durante 5-10 minutos hasta que esté suave. Añade el\r\najo y orégano y cocinar por 1 min. Añadir\r\nlos tomates y los pimientos, sazonar bien\r\ny cocine a fuego lento durante 10 minutos.",
+            "Mientras tanto, cocine las patatas en una sartén.\r\nde agua hirviendo con sal durante 10-15 minutos hasta que\r\ntierno. Escurrir bien, mezclar con la salsa y\r\nsirva caliente, espolvoreado con aceitunas y albahaca."
         ],
         "nutritional_info": {
             "kcal": "178",
@@ -1009,30 +1009,30 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/prawn-and-pink-grapefruit-noodle-salad/",
-        "title": "[ES] Prawn & pink grapefruit noodle salad",
-        "description": "(Translation pending) Take a healthy Vietnamese approach to salads by using cold vermicelli noodles with a sweet dressing, shellfish, coriander and mint",
+        "title": "Ensalada de fideos con gambas y pomelo rosa",
+        "description": "Adopte un enfoque vietnamita saludable para las ensaladas utilizando fideos fríos con aderezo dulce, mariscos, cilantro y menta.",
         "prep_time": "25 mins No cook",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "200g thin rice noodles (vermicelli)",
-            "12 cherry tomatoes, halved",
-            "1 tbsp fish sauce",
-            "juice 1 lime",
-            "2 tsp palm sugar or soft brown sugar",
-            "1 large red chilli, ½ diced, ½ sliced",
-            "2 pink grapefruits, segmented",
-            "½ cucumber, peeled, deseeded and thinly sliced",
-            "2 carrots, cut into matchsticks",
-            "3 spring onions, thinly sliced",
-            "400g cooked large prawns",
-            "large handful mint, leaves picked",
-            "large handful coriander, leaves picked"
+            "200 g de fideos de arroz finos (fideos)",
+            "12 tomates cherry, cortados por la mitad",
+            "1 cucharada de salsa de pescado",
+            "jugo 1 lima",
+            "2 cucharaditas de azúcar de palma o azúcar moreno suave",
+            "1 chile rojo grande, ½ cortado en cubitos, ½ en rodajas",
+            "2 pomelos rosados, segmentados",
+            "½ pepino, pelado, sin semillas y cortado en rodajas finas",
+            "2 zanahorias, cortadas en palitos",
+            "3 cebolletas, cortadas en rodajas finas",
+            "400 g de gambas grandes cocidas",
+            "un puñado grande de menta, con las hojas recogidas",
+            "un puñado grande de cilantro, con las hojas recogidas"
         ],
         "method": [
-            "Put the noodles in a bowl, breaking\r\nthem up a little, and cover with boiling\r\nwater from the kettle. Leave to soak for\r\n10 mins until tender. Drain, rinse under\r\ncold running water, then leave the\r\nnoodles to drain thoroughly.",
-            "In the same bowl, lightly squash the\r\ncherry tomatoes – we used the end of\r\na rolling pin. Stir in the fish sauce, lime\r\njuice, sugar and diced chilli. Taste for the\r\nright balance of sweet, sour and spicy\r\n– adjust if necessary (see tip, below).",
-            "Toss through the noodles, then add\r\nall the remaining ingredients, except the\r\nsliced chilli. Season and give everything\r\na good stir, then divide the noodle salad\r\nbetween 6 serving dishes and sprinkle\r\nover the chilli before serving."
+            "Poner los fideos en un bol, rompiéndolos.\r\nsubirlas un poco y cubrir con agua hirviendo.\r\nagua de la tetera. Dejar en remojo durante\r\n10 minutos hasta que estén tiernos. Escurrir, enjuagar debajo\r\nagua corriente fría, luego deje el\r\nfideos para escurrir bien.",
+            "En el mismo bol aplastar ligeramente\r\ntomates cherry – usamos el final de\r\nun rodillo. Agregue la salsa de pescado, la lima.\r\njugo, azúcar y chile picado. gusto por el\r\nequilibrio adecuado entre dulce, ácido y picante\r\n– ajústelo si es necesario (consulte el consejo a continuación).",
+            "Mezcle los fideos y luego agregue\r\ntodos los ingredientes restantes, excepto el\r\nchile en rodajas. Sazona y dale todo\r\nRevuelva bien, luego divida la ensalada de fideos.\r\nentre 6 platos para servir y espolvorear\r\nsobre el chile antes de servir."
         ],
         "nutritional_info": {
             "kcal": "228",
@@ -1049,26 +1049,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/watermelon-prawn-and-avocado-salad/",
-        "title": "[ES] Watermelon, prawn & avocado salad",
-        "description": "(Translation pending) Too hot to cook? This superhealthy salad makes a refreshing light lunch or starter",
+        "title": "Ensalada de sandía, gambas y aguacate",
+        "description": "¿Demasiado calor para cocinar? Esta ensalada súper saludable es un almuerzo o entrante ligero y refrescante.",
         "prep_time": "15 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 small red onion, finely chopped",
-            "1 fat garlic clove, crushed",
-            "1 small red chilli, finely chopped",
-            "juice 1 lime",
-            "1 tbsp rice or white wine vinegar",
-            "1 tsp caster sugar",
-            "watermelon wedge, deseeded and diced",
-            "1 avocado, diced",
-            "small bunch coriander leaves, chopped",
-            "200g cooked tiger prawns, defrosted if frozen"
+            "1 cebolla morada pequeña, finamente picada",
+            "1 diente de ajo gordo, machacado",
+            "1 chile rojo pequeño, finamente picado",
+            "jugo 1 lima",
+            "1 cucharada de arroz o vinagre de vino blanco",
+            "1 cucharadita de azúcar en polvo",
+            "rodaja de sandía, sin semillas y cortada en cubitos",
+            "1 aguacate, cortado en cubitos",
+            "manojo pequeño de hojas de cilantro, picadas",
+            "200 g de langostinos tigre cocidos, descongelados si están congelados"
         ],
         "method": [
-            "Put the onion in a medium bowl with\r\nthe garlic, chilli, lime juice, vinegar, sugar\r\nand some seasoning. Leave to marinate\r\nfor 10 mins.",
-            "Add the watermelon,\r\navocado, coriander and prawns, then\r\ntoss gently to serve."
+            "Pon la cebolla en un tazón mediano con\r\nel ajo, la guindilla, el zumo de lima, el vinagre y el azúcar\r\ny algo de condimento. dejar marinar\r\ndurante 10 min.",
+            "Agrega la sandía,\r\naguacate, cilantro y gambas, luego\r\nrevuelva suavemente para servir."
         ],
         "nutritional_info": {
             "kcal": "179",
@@ -1085,25 +1085,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/fiveaday-tagine/",
-        "title": "[ES] 5-a-day tagine",
-        "description": "(Translation pending) Get your day's vegetable quota all in one go. Great for feeding a group, or freeze portions",
+        "title": "Tajín de 5 al día",
+        "description": "Obtén tu cuota de verduras del día de una sola vez. Ideal para alimentar a un grupo o congelar porciones",
         "prep_time": "10 mins Cook: 35 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "4 carrots, cut into chunks",
-            "4 small parsnips, or 3 large, cut into chunks",
-            "3 red onions, cut into wedges",
-            "2 red peppers, deseeded and cut into chunks",
-            "2 tbsp olive oil",
-            "1 tsp each ground cumin, paprika, cinnamon and mild chilli powder",
-            "400g can chopped tomatoes",
-            "2 small handfuls soft dried apricots",
-            "2 tsp honey"
+            "4 zanahorias, cortadas en trozos",
+            "4 chirivías pequeñas o 3 grandes, cortadas en trozos",
+            "3 cebollas moradas, cortadas en gajos",
+            "2 pimientos rojos, sin semillas y cortados en trozos",
+            "2 cucharadas de aceite de oliva",
+            "1 cucharadita de comino molido, pimentón, canela y chile suave en polvo",
+            "Lata de 400g de tomates picados",
+            "2 puñados pequeños de orejones tiernos",
+            "2 cucharaditas de miel"
         ],
         "method": [
-            "Heat oven to 200C/fan 180C/gas 6. Scatter\r\nthe veg over a couple of baking trays, drizzle\r\nwith half the oil, season, then rub the oil over\r\nthe veg with your hands to coat. Roast for\r\n30 mins until tender and beginning to brown.",
-            "Meanwhile, fry the spices in the remaining oil\r\nfor 1 min – they should sizzle and start to smell\r\naromatic. Tip in the tomatoes, apricots, honey\r\nand a can of water. Simmer for 5 mins until\r\nthe sauce is slightly reduced and the apricots\r\nplump, then stir in the veg and some seasoning.\r\nServe with couscous or jacket potatoes."
+            "Calentar el horno a 200C/ventilador 180C/gas 6. Esparcir\r\nlas verduras en un par de bandejas para hornear, rocíe\r\ncon la mitad del aceite, sazonar y luego frotar el aceite\r\nlas verduras con las manos para cubrirlas. asado para\r\n30 minutos hasta que estén tiernos y comiencen a dorarse.",
+            "Mientras tanto, sofreír las especias en el aceite restante.\r\ndurante 1 min – deberían chisporrotear y empezar a oler\r\naromático. Añade los tomates, los albaricoques y la miel.\r\ny una lata de agua. Cocine a fuego lento durante 5 minutos hasta que\r\nse reduce ligeramente la salsa y los albaricoques\r\nregordete, luego agregue las verduras y un poco de condimento.\r\nSirva con cuscús o patatas asadas."
         ],
         "nutritional_info": {
             "kcal": "272",
@@ -1119,28 +1119,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spiced-vegetable-pilaf/",
-        "title": "[ES] Spiced vegetable pilaf",
-        "description": "(Translation pending) Get four of your five-a-day in one colourful bowl. Vary the veg according to what’s in season",
+        "title": "Pilaf de verduras especiadas",
+        "description": "Obtenga cuatro de sus cinco al día en un tazón colorido. Varíe las verduras según la temporada.",
         "prep_time": "10 mins Cook: 40 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "6 carrots, cut lengthways into 6-8 wedges",
-            "3 red onions, cut into wedges",
-            "2 tbsp olive oil",
-            "2 tsp cumin seeds",
-            "4 cardamom pods",
-            "1 cinnamon stick",
-            "200g brown basmati rice, rinsed",
-            "400ml vegetable stock",
-            "400g can brown lentils, rinsed and drained",
-            "200g baby spinach",
-            "handful toasted flaked almonds, or a few whole almonds (optional)"
+            "6 zanahorias, cortadas a lo largo en 6-8 gajos",
+            "3 cebollas moradas, cortadas en gajos",
+            "2 cucharadas de aceite de oliva",
+            "2 cucharaditas de semillas de comino",
+            "4 vainas de cardamomo",
+            "1 rama de canela",
+            "200 g de arroz basmati integral, enjuagado",
+            "400 ml de caldo de verduras",
+            "Lata de 400 g de lentejas doradas, enjuagadas y escurridas",
+            "200 g de espinacas tiernas",
+            "un puñado de almendras tostadas en hojuelas o unas cuantas almendras enteras (opcional)"
         ],
         "method": [
-            "Heat oven to 200C/180C fan/gas 6.\r\nIn boiling water, cook carrots for 4 mins,\r\ntipping in onions for the last min of\r\ncooking. Drain and mix in a roasting tin\r\nwith 4 tsp oil, the cumin and seasoning.\r\nRoast for 30 mins, while you cook the rice.",
-            "Heat remaining 2 tsp oil in a large pan.\r\nAdd cardamom and cinnamon for 30 secs,\r\nthen add rice and toast for 1 min. Pour\r\nover stock and 100ml water, then simmer,\r\ncovered, for 25-30 mins, until rice is\r\ntender and the water absorbed. Remove\r\ncinnamon and cardamom.",
-            "Tip in lentils and fork through before\r\ntopping with spinach. Put lid back on and\r\ncook over a low heat, stirring once, until\r\nspinach has wilted and lentils heated\r\nthrough. Fork through again before\r\ntipping the cumin roasted veg onto the\r\ntop and sprinkling with almonds, if using."
+            "Calentar el horno a 200C/180C ventilador/gas 6.\r\nEn agua hirviendo, cocine las zanahorias durante 4 minutos,\r\nagregando cebollas durante el último minuto de\r\ncocinando. Escurrir y mezclar en una fuente para asar.\r\ncon 4 cucharaditas de aceite, el comino y el condimento.\r\nAse durante 30 minutos, mientras cocina el arroz.",
+            "Caliente las 2 cucharaditas de aceite restantes en una sartén grande.\r\nAgrega el cardamomo y la canela durante 30 segundos.\r\nluego agregue el arroz y tueste por 1 min. verter\r\nsobre caldo y 100 ml de agua, luego cocine a fuego lento,\r\ntapado, durante 25-30 minutos, hasta que el arroz esté\r\ntierna y el agua absorbida. Quitar\r\ncanela y cardamomo.",
+            "Vierta las lentejas y bifurque antes.\r\ncubriendo con espinacas. Vuelva a colocar la tapa y\r\ncocine a fuego lento, revolviendo una vez, hasta que\r\nlas espinacas se han marchitado y las lentejas se han calentado\r\na través. Bifurca de nuevo antes\r\nvolcar las verduras asadas con comino sobre el\r\ncubra y espolvoree con almendras, si las usa."
         ],
         "nutritional_info": {
             "kcal": "375",
@@ -1157,30 +1157,30 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/chunky-minestrone-soup/",
-        "title": "[ES] Chunky minestrone soup",
-        "description": "(Translation pending) The perfect solution to a cold night in? A warming bowl of this home-made chunky soup.",
+        "title": "Sopa minestrone con trozos",
+        "description": "¿La solución perfecta para una noche fría en casa? Un plato caliente de esta sopa con trozos casera.",
         "prep_time": "15 mins Cook: 30 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "3 large carrots, roughly chopped",
-            "1 large onion, roughly chopped",
-            "4 celery sticks, roughly chopped",
-            "1 tbsp olive oil",
-            "2 garlic cloves, crushed",
-            "2 large potatoes, cut into small dice",
-            "2 tbsp tomato purée",
-            "2l vegetable stock",
-            "400g can chopped tomatoes",
-            "400g can butter or cannellini beans",
-            "140g spaghetti, snapped into short lengths",
-            "1?2 head Savoy cabbage, shredded",
-            "crusty bread, to serve"
+            "3 zanahorias grandes, picadas en trozos grandes",
+            "1 cebolla grande, picada en trozos grandes",
+            "4 ramas de apio, picadas en trozos grandes",
+            "1 cucharada de aceite de oliva",
+            "2 dientes de ajo machacados",
+            "2 patatas grandes, cortadas en dados pequeños",
+            "2 cucharadas de puré de tomate",
+            "2 litros de caldo de verduras",
+            "Lata de 400g de tomates picados",
+            "Lata de 400 g de mantequilla o judías cannellini",
+            "140 g de espaguetis, cortados en trozos cortos",
+            "1 o 2 cabezas de col de Saboya, rallada",
+            "pan crujiente, para servir"
         ],
         "method": [
-            "In a food processor, whizz the carrots,\r\nonion and celery into small pieces. Heat the\r\noil in a pan, add the processed vegetables,\r\ngarlic and potatoes, then cook over a high\r\nheat for 5 mins until softened.",
-            "Stir in the tomato purée, stock and\r\ntomatoes. Bring to the boil, then turn down\r\nthe heat and simmer, covered, for 10 mins.",
-            "Tip in the beans and pasta, then cook for\r\na further 10 mins, adding the cabbage for\r\nthe final 2 mins. Season to taste and serve\r\nwith crusty bread."
+            "En un procesador de alimentos, licúa las zanahorias,\r\ncebolla y apio en trozos pequeños. Calentar el\r\naceite en una sartén, agregar las verduras procesadas,\r\najo y patatas, luego cocine a fuego alto\r\nCaliente durante 5 minutos hasta que se ablande.",
+            "Incorpora el puré de tomate, el caldo y\r\ntomates. Llevar a ebullición y luego bajar.\r\nEl fuego y cocine a fuego lento, tapado, durante 10 minutos.",
+            "Agregue los frijoles y la pasta, luego cocine por\r\n10 minutos más, añadiendo el repollo durante\r\nLos últimos 2 minutos. Sazone al gusto y sirva.\r\ncon pan crujiente."
         ],
         "nutritional_info": {
             "kcal": "420",
@@ -1196,26 +1196,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/warm-cauliflower-salad/",
-        "title": "[ES] Warm cauliflower salad",
-        "description": "(Translation pending) Cauliflower is often overlooked, but try it roasted in this winter salad for a plateful of crunchy goodness",
+        "title": "Ensalada tibia de coliflor",
+        "description": "A menudo se pasa por alto la coliflor, pero pruébala asada en esta ensalada de invierno para disfrutar de un plato lleno de delicias crujientes.",
         "prep_time": "15 mins Cook: 35 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 cauliflower, broken into florets",
-            "2 tbsp olive oil",
-            "1 red onion, thinly sliced",
-            "3 tbsp sherry vinegar",
-            "1½  tbsp honey",
-            "3 tbsp raisins",
-            "small bunch dill, snipped",
-            "3 tbsp toasted, flaked almonds",
-            "50g baby spinach"
+            "1 coliflor, partida en floretes",
+            "2 cucharadas de aceite de oliva",
+            "1 cebolla morada, en rodajas finas",
+            "3 cucharadas de vinagre de jerez",
+            "1½ cucharada de miel",
+            "3 cucharadas de pasas",
+            "manojo pequeño de eneldo, cortado",
+            "3 cucharadas de almendras tostadas y laminadas",
+            "50 g de espinacas tiernas"
         ],
         "method": [
-            "Heat oven to 200C/180C fan/gas 6.\r\nToss the cauliflower with the olive oil,\r\nseason and roast for 15 mins. Stir in\r\nthe red onion and carry on roasting\r\nfor 15-20 mins more until tender.",
-            "While the cauliflower is roasting,\r\nmix the vinegar, honey and raisins\r\nwith some seasoning.",
-            "When the cauliflower is done, stir\r\nin the dressing, dill, almonds and\r\nspinach, and serve."
+            "Calentar el horno a 200C/180C ventilador/gas 6.\r\nMezcle la coliflor con el aceite de oliva,\r\nsazone y ase durante 15 minutos. Agregue\r\nla cebolla morada y seguir asando\r\ndurante 15-20 minutos más hasta que estén tiernos.",
+            "Mientras se asa la coliflor,\r\nmezclar el vinagre, la miel y las pasas\r\ncon algún condimento.",
+            "Cuando la coliflor esté lista, revuelve\r\nen el aderezo, eneldo, almendras y\r\nespinacas y servir."
         ],
         "nutritional_info": {
             "kcal": "206",
@@ -1232,25 +1232,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/mixed-bean-and-wild-rice-salad/",
-        "title": "[ES] Mixed bean & wild rice salad",
-        "description": "(Translation pending) Reach into your storecupboard for pulses and sweetcorn to form the base for this simple side with hot, sweet dressing",
+        "title": "Ensalada mixta de frijoles y arroz salvaje",
+        "description": "Busque en su despensa legumbres y maíz dulce para formar la base de este acompañamiento sencillo con aderezo dulce y picante.",
         "prep_time": "10 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "8",
         "ingredients": [
-            "375g rice mix, we used brown basmati & wild rice",
-            "2 x 400g cans mixed beans, drained and rinsed",
-            "340g can sweetcorn, drained",
-            "1 small red onion, finely sliced",
-            "2 red peppers, deseeded and diced",
-            "zest and juice 1 lime",
-            "2 tsp honey",
-            "1 red chilli, deseeded and finely sliced",
-            "small bunch coriander, leaves picked"
+            "375 g de mezcla de arroz, usamos basmati integral y arroz salvaje",
+            "2 latas de 400 g de judías mixtas, escurridas y enjuagadas",
+            "Lata de 340 g de maíz dulce, escurrido",
+            "1 cebolla morada pequeña, finamente cortada",
+            "2 pimientos rojos, sin semillas y cortados en cubitos",
+            "ralladura y jugo de 1 lima",
+            "2 cucharaditas de miel",
+            "1 chile rojo, sin semillas y cortado en rodajas finas",
+            "cilantro en manojo pequeño, con las hojas recogidas"
         ],
         "method": [
-            "Cook rice following pack instructions.\r\nOnce cooked, rinse under cold water\r\nto cool down. Once cold combine in a\r\nbowl with the beans, sweetcorn, onion\r\nand red peppers.",
-            "Mix the lime zest and juice, honey and\r\nchilli. Pour over the rice mixture and mix\r\nwell, then season to taste. Stir through\r\nthe coriander leaves just before serving."
+            "Cocine el arroz siguiendo las instrucciones del paquete.\r\nUna vez cocido, enjuagar con agua fría.\r\npara enfriarse. Una vez frío combine en un\r\ntazón con los frijoles, el maíz dulce y la cebolla\r\ny pimientos rojos.",
+            "Mezclar la ralladura y el jugo de lima, la miel y\r\nchile. Vierta sobre la mezcla de arroz y mezcle.\r\nbueno, luego sazona al gusto. Revuelva\r\nel cilantro se va justo antes de servir."
         ],
         "nutritional_info": {
             "kcal": "367",
@@ -1267,26 +1267,26 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/jewelled-couscous/",
-        "title": "[ES] Jewelled couscous",
-        "description": "(Translation pending) Serve your grain with cucumber, apricot, peppers, olives and tomatoes then drizzle with lemon-infused oil for a mellow finish",
+        "title": "Cuscús enjoyado",
+        "description": "Sirva el grano con pepino, albaricoque, pimientos, aceitunas y tomates y luego rocíe con aceite de limón para darle un acabado suave.",
         "prep_time": "12 mins Plus soaking no cook",
         "cook_time": "",
         "serves": "10",
         "ingredients": [
-            "400g couscous",
-            "2 tbsp lemon-infused oil",
-            "500g soft dried apricots, chopped",
-            "1 cucumber, deseeded and chopped",
-            "1 large yellow pepper, deseeded and chopped",
-            "140g pitted black olives, chopped",
-            "140g sundried tomatoes, chopped",
-            "small bunch parsley, chopped",
-            "12 cherry tomatoes, halved"
+            "400 g de cuscús",
+            "2 cucharadas de aceite de limón",
+            "500 g de orejones blandos, picados",
+            "1 pepino, sin semillas y picado",
+            "1 pimiento amarillo grande, sin semillas y picado",
+            "140 g de aceitunas negras deshuesadas y picadas",
+            "140 g de tomates secos, picados",
+            "manojo pequeño de perejil, picado",
+            "12 tomates cherry, cortados por la mitad"
         ],
         "method": [
-            "Place the couscous in a bowl and cover\r\nwith 700ml boiling water. Cover with cling\r\nfilm and leave for 10 mins, until all the\r\nliquid has been absorbed.",
-            "Pour over the oil and some seasoning,\r\nmix and fluff up the couscous with a fork.",
-            "Gently stir through the remaining\r\ningredients and serve."
+            "Colocar el cuscús en un bol y tapar.\r\ncon 700ml de agua hirviendo. Cubrir con adhesivo\r\nfilmar y dejar actuar 10 min, hasta que esté todo\r\nEl líquido ha sido absorbido.",
+            "Vierta sobre el aceite y un poco de condimento.\r\nmezcle y esponje el cuscús con un tenedor.",
+            "Revuelva suavemente el resto\r\ningredientes y servir."
         ],
         "nutritional_info": {
             "kcal": "249",
@@ -1303,28 +1303,28 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/herby-celery-and-bulghar-salad/",
-        "title": "[ES] Herby celery & bulgur salad",
-        "description": "(Translation pending) This speedy salad will keep in the fridge for a few days – a great healthy lunch or snack to have on hand",
+        "title": "Ensalada de hierbas, apio y bulgur",
+        "description": "Esta ensalada rápida se conserva en el refrigerador durante unos días: es un excelente almuerzo o refrigerio saludable para tener a mano.",
         "prep_time": "30 mins No cook",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "200g bulgar wheat",
-            "1 bunch celery",
-            "1 dessert apple",
-            "juice 1 lemon",
-            "4 tbsp olive oil",
-            "handful toasted hazelnuts, roughly chopped",
-            "1 red chilli, deseeded and chopped",
-            "large handful pomegranate seeds",
-            "small bunch parsley, chopped",
-            "small bunch mint, chopped",
-            "small bunch tarragon, chopped"
+            "200 g de trigo búlgaro",
+            "1 manojo de apio",
+            "1 manzana de postre",
+            "jugo 1 limon",
+            "4 cucharadas de aceite de oliva",
+            "un puñado de avellanas tostadas, picadas en trozos grandes",
+            "1 chile rojo, sin semillas y picado",
+            "un puñado grande de semillas de granada",
+            "manojo pequeño de perejil, picado",
+            "manojo pequeño de menta, picada",
+            "estragón en manojo pequeño, picado"
         ],
         "method": [
-            "Put the bulghar wheat in a large\r\nbowl and just cover with boiling water.\r\nCover the bowl with cling film and leave\r\nfor 30 mins to absorb all the water.",
-            "Meanwhile, separate the sticks of\r\ncelery and set the leaves aside. Very\r\nfinely slice the celery and roughly chop\r\nthe leaves. Cut the apple into fine\r\nmatchsticks and toss in a little lemon\r\njuice. In a bowl, mix the remaining\r\nlemon juice with the oil and some\r\nseasoning to make a dressing.",
-            "Gently fluff up the bulghar with a fork.\r\nMix the sliced celery and apple through\r\nthe bulghar, followed by the nuts, chilli,\r\npomegranate seeds and herbs. Drizzle\r\nover the dressing and toss everything\r\ntogether gently. Scatter with the celery\r\nleaves and serve."
+            "Ponga el trigo búlgaro en una olla grande.\r\ntazón y simplemente cubra con agua hirviendo.\r\nCubrir el bol con film transparente y dejar\r\ndurante 30 minutos para absorber toda el agua.",
+            "Mientras tanto, separe los palitos de\r\napio y reserve las hojas. muy\r\nCortar finamente el apio y picarlo en trozos grandes.\r\nlas hojas. Cortar la manzana en finas\r\ncerillas y agregue un poco de limón\r\njugo. En un bol mezclar el resto\r\njugo de limón con el aceite y un poco\r\ncondimento para hacer un aderezo.",
+            "Esponje suavemente el bulghar con un tenedor.\r\nMezcle el apio en rodajas y la manzana.\r\nel búlgaro, seguido de las nueces, la guindilla,\r\nsemillas de granada y hierbas. llovizna\r\nsobre el aderezo y tirar todo\r\njuntos suavemente. Esparcir con el apio\r\ndeja y sirve."
         ],
         "nutritional_info": {
             "kcal": "229",
@@ -1341,22 +1341,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/miso-steak/",
-        "title": "[ES] Miso steak",
-        "description": "(Translation pending) Steak doesn’t have to be a heavy meal – give it a Japanese-style marinade for a low-fat supper",
+        "title": "filete de miso",
+        "description": "El bistec no tiene por qué ser una comida pesada: dale un adobo al estilo japonés para una cena baja en grasas.",
         "prep_time": "10 mins Cook: 10 mins Plus marinating",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "2 tbsp brown miso paste",
-            "1 tbsp dry sherry or sake",
-            "1 tbsp caster sugar",
-            "2 crushed garlic cloves",
-            "300g/11oz lean steak",
-            "baby spinach, sliced cucumber, celery, radish and toasted sesame seeds, to serve"
+            "2 cucharadas de pasta de miso marrón",
+            "1 cucharada de jerez seco o sake",
+            "1 cucharada de azúcar en polvo",
+            "2 dientes de ajo machacados",
+            "300 g/11 oz de filete magro",
+            "espinacas tiernas, pepino en rodajas, apio, rábano y semillas de sésamo tostadas, para servir"
         ],
         "method": [
-            "Tip the miso paste, Sherry or sake,\r\nsugar and garlic into a sealable food bag.\r\nSeason with a generous grinding of black\r\npepper, then squash it all together until\r\ncompletely mixed. Add the steak, gently\r\nmassage the marinade into the steak\r\nuntil completely coated, then seal the\r\nbag. Pop the bag into the fridge and leave\r\nfor at least 1 hr, but up to 2 days is fine.",
-            "To cook, heat a heavy-based frying pan,\r\ngriddle pan or barbecue until very hot.\r\nWipe the excess marinade off the steak,\r\nthen sear for 3 mins on each side for\r\nmedium-rare or a few mins longer if you\r\nprefer the meat more cooked. Set aside\r\nfor 1 min to rest. Carve the beef into\r\nthick slices and serve with a crunchy\r\nsalad made with the spinach, cucumber,\r\ncelery, radish and sesame seeds."
+            "Poner la pasta de miso, Jerez o sake,\r\nazúcar y ajo en una bolsa de comida con cierre hermético.\r\nSazone con una generosa molienda de negro.\r\npimienta, luego aplástalo todo junto hasta\r\ncompletamente mezclado. Añade el bistec, suavemente\r\nmasajear la marinada en el bistec\r\nhasta que esté completamente cubierto, luego selle el\r\nbolsa. Introduce la bolsa en el frigorífico y déjala\r\ndurante al menos 1 hora, pero hasta 2 días está bien.",
+            "Para cocinar, calentar una sartén de base pesada,\r\nsartén o barbacoa hasta que esté muy caliente.\r\nLimpia el exceso de marinada del bistec,\r\nluego dore durante 3 minutos por cada lado para\r\nmedio cocido o unos minutos más si\r\nPrefiero la carne más cocida. dejar de lado\r\ndurante 1 min para reposar. Cortar la carne en\r\nrebanadas gruesas y servir con un crujiente\r\nensalada hecha con espinacas, pepino,\r\napio, rábano y semillas de sésamo."
         ],
         "nutritional_info": {
             "kcal": "232",
@@ -1373,24 +1373,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/moroccan-turkey-salad/",
-        "title": "[ES] Moroccan turkey salad",
-        "description": "(Translation pending) Use up abundant roast meat in a healthy salad with aubergine, tomatoes, pomegranate and mint",
+        "title": "ensalada de pavo marroquí",
+        "description": "Aprovecha abundante carne asada en una saludable ensalada con berenjena, tomate, granada y menta",
         "prep_time": "20 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 pitta breads",
-            "2 tbsp olive oil",
-            "1 diced aubergine",
-            "1 tbsp harissa",
-            "250g halved cherry tomatoes",
-            "500g shredded leftover turkey breast",
-            "100g rocket",
-            "seeds 1 pomegranate or 110g tub pomegranate seeds",
-            "a few mint leaves"
+            "2 panes pita",
+            "2 cucharadas de aceite de oliva",
+            "1 berenjena picada",
+            "1 cucharada de harissa",
+            "250 g de tomates cherry partidos por la mitad",
+            "500 g de pechuga de pavo sobrante desmenuzada",
+            "100 g de rúcula",
+            "semillas 1 granada o 110 g de semillas de granada en tarrina",
+            "unas hojas de menta"
         ],
         "method": [
-            "Tear the pitta into pieces and fry in the olive oil until crisp. Tip into a bowl, then fry the aubergine for 10 mins until soft. Add to the pitta with the harissa, tomatoes, turkey and rocket. Toss well. Scatter over pomegranate seeds and mint leaves."
+            "Cortar el pan pita en trozos y freírlo en aceite de oliva hasta que esté crujiente. Vierta en un bol y fría la berenjena durante 10 minutos hasta que esté blanda. Agregue al pitta con la harissa, los tomates, el pavo y la rúcula. Mezcle bien. Esparcir sobre las semillas de granada y las hojas de menta."
         ],
         "nutritional_info": {
             "kcal": "360",
@@ -1406,25 +1406,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/crunchy-prawn-and-noodle-salad/",
-        "title": "[ES] Crunchy prawn & noodle salad",
-        "description": "(Translation pending) A vibrant Vietnamese-style seafood salad with coriander, carrots and spring onions",
+        "title": "Ensalada crujiente de gambas y fideos",
+        "description": "Una vibrante ensalada de mariscos al estilo vietnamita con cilantro, zanahorias y cebolletas",
         "prep_time": "15 mins No cook",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "100g rice noodles",
-            "2 small carrots, cut into thin matchsticks",
-            "2 spring onions, thinly sliced",
-            "small handful each coriander and mint, chopped",
-            "140g cooked prawns in chilli, lime and coriander (we used Waitrose)",
-            "2 tsp reduced-salt soy sauce",
-            "1 tsp fish sauce",
-            "2 tsp light soft brown sugar",
-            "zest and juice 1 lime"
+            "100 g de fideos de arroz",
+            "2 zanahorias pequeñas, cortadas en palitos finos",
+            "2 cebolletas, cortadas en rodajas finas",
+            "un puñado pequeño de cilantro y menta, picados",
+            "140 g de gambas cocidas en guindilla, lima y cilantro (nosotros utilizamos Waitrose)",
+            "2 cucharaditas de salsa de soja reducida en sal",
+            "1 cucharadita de salsa de pescado",
+            "2 cucharaditas de azúcar moreno suave y claro",
+            "ralladura y jugo de 1 lima"
         ],
         "method": [
-            "Soak the noodles in boiling water\r\nfollowing the pack instructions. Drain\r\nand run under cold water until cool, then\r\ndrain well again. Mix the noodles with\r\nthe carrots, spring onions, coriander,\r\nmint and prawns.",
-            "In a small bowl, whisk the remaining\r\ningredients together, pour over the\r\nnoodle salad and toss well to coat.\r\nStore in containers until ready to eat."
+            "Remojar los fideos en agua hirviendo.\r\nsiguiendo las instrucciones del paquete. Drenar\r\ny pasar por agua fría hasta que se enfríe, luego\r\nescurrir bien nuevamente. Mezclar los fideos con\r\nlas zanahorias, las cebolletas, el cilantro,\r\nmenta y gambas.",
+            "En un tazón pequeño, bata el resto\r\ningredientes juntos, verter sobre el\r\nensalada de fideos y revuelva bien para cubrir.\r\nGuárdelo en recipientes hasta que esté listo para comer."
         ],
         "nutritional_info": {
             "kcal": "316",
@@ -1441,27 +1441,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/prawn-pomegranate-and-grapefruit-salad/",
-        "title": "[ES] Prawn, pomegranate & grapefruit salad",
-        "description": "(Translation pending) Bypass bread croutons and a heavy cream dressing and instead serve up a crispy, fruity salad with shellfish",
+        "title": "Ensalada de gambas, granada y pomelo",
+        "description": "Evite los picatostes de pan y un aderezo de crema espesa y, en su lugar, sirva una ensalada crujiente y afrutada con mariscos.",
         "prep_time": "20 mins Plus marinating no cook",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "2 pink grapefruits, zest and juice from 1, segments cut from the other",
-            "2 tbsp olive oil",
-            "1 tbsp red wine vinegar",
-            "1 tsp caster sugar",
-            "2 tbsp chopped dill",
-            "300g cooked, peeled prawns",
-            "½ cucumber, halved lengthways, seeds scooped out with a teaspoon, diced",
-            "2 shallots, finely chopped",
-            "2 handfuls frisée, torn",
-            "2 handfuls rocket",
-            "100g pack pomegranate seeds"
+            "2 pomelos rosados, ralladura y jugo de 1, gajos cortados del otro",
+            "2 cucharadas de aceite de oliva",
+            "1 cucharada de vinagre de vino tinto",
+            "1 cucharadita de azúcar en polvo",
+            "2 cucharadas de eneldo picado",
+            "300 g de gambas cocidas y peladas",
+            "½ pepino, cortado por la mitad a lo largo, sin las semillas con una cucharadita, cortado en cubitos",
+            "2 chalotes, finamente picados",
+            "2 puñados rizados, desgarrados",
+            "2 puñados de rúcula",
+            "Paquete de 100 g de semillas de granada."
         ],
         "method": [
-            "Whisk together the grapefruit zest\r\nand juice, oil, vinegar, sugar and dill\r\nto make a dressing. Mix half with the\r\nprawns and allow to marinate for 10 mins.",
-            "Just before serving, gently toss the\r\ncucumber, shallots, frisée and rocket\r\nwith the remaining dressing. Add a pile\r\nto each of 6 starter plates, along with the\r\nprawns and grapefruit segments. Scatter\r\nover the pomegranate seeds and serve."
+            "Batir la ralladura de pomelo\r\ny jugo, aceite, vinagre, azúcar y eneldo\r\npara hacer un aderezo. Mezclar la mitad con el\r\nlos langostinos y dejar marinar durante 10 minutos.",
+            "Justo antes de servir, mezcle suavemente el\r\npepino, chalotas, frisée y rúcula\r\ncon el aderezo restante. Agregar una pila\r\na cada uno de los 6 platos iniciales, junto con el\r\ngambas y gajos de pomelo. dispersión\r\nsobre las semillas de granada y servir."
         ],
         "nutritional_info": {
             "kcal": "113",
@@ -1478,24 +1478,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/curried-squash-lentil-and-coconut-soup/",
-        "title": "[ES] Curried squash, lentil & coconut soup",
-        "description": "(Translation pending) Flavour up butternut squash with Indian spices for this warming and healthy vegetarian soup",
+        "title": "Sopa de calabaza al curry, lentejas y coco",
+        "description": "Dale sabor a la calabaza con especias indias para esta sopa vegetariana cálida y saludable.",
         "prep_time": "10 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "1 tbsp olive oil",
-            "1 butternut squash, peeled, deseeded and diced",
-            "200g carrots, diced",
-            "1 tbsp curry powder containing turmeric",
-            "100g red lentils",
-            "700ml vegetable stock",
-            "1 can reduced-fat coconut milk",
-            "coriander and naan bread, to serve"
+            "1 cucharada de aceite de oliva",
+            "1 calabaza, pelada, sin semillas y cortada en cubitos",
+            "200 g de zanahorias cortadas en cubitos",
+            "1 cucharada de curry en polvo que contenga cúrcuma",
+            "100 g de lentejas rojas",
+            "700 ml de caldo de verduras",
+            "1 lata de leche de coco baja en grasa",
+            "cilantro y pan naan, para servir"
         ],
         "method": [
-            "Heat the oil in a large saucepan, add\r\nthe squash and carrots, sizzle for 1 min,\r\nthen stir in the curry powder and cook\r\nfor 1 min more. Tip in the lentils, the\r\nvegetable stock and coconut milk\r\nand give everything a good stir. Bring\r\nto the boil, then turn the heat down\r\nand simmer for 15-18 mins until\r\neverything is tender.",
-            "Using a hand blender or in a food\r\nprocessor, blitz until as smooth as you\r\nlike. Season and serve scattered with\r\nroughly chopped coriander and some\r\nnaan bread alongside."
+            "Calentar el aceite en una cacerola grande, agregar\r\nla calabaza y las zanahorias, chisporrotear durante 1 min,\r\nluego agregue el curry en polvo y cocine\r\ndurante 1 min más. Echa las lentejas, las\r\ncaldo de verduras y leche de coco\r\ny revolver todo bien. traer\r\nhasta que hierva, luego baje el fuego\r\ny cocine a fuego lento durante 15-18 minutos hasta que\r\ntodo es tierno.",
+            "Usando una batidora de mano o en una comida\r\nprocesador, mezcle hasta que esté tan suave como usted\r\ncomo. Sazone y sirva esparcido con\r\ncilantro picado y un poco\r\npan naan al lado."
         ],
         "nutritional_info": {
             "kcal": "178",
@@ -1511,25 +1511,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/pasta-salad-with-tuna-capers-and-balsamic-dressing/",
-        "title": "[ES] Pasta salad with tuna, capers & balsamic dressing",
-        "description": "(Translation pending) Update tuna pasta salad by skipping the mayo and adding balsamic vinegar, olive oil, colourful tomatoes and celery",
+        "title": "Ensalada de pasta con atún, alcaparras y aderezo balsámico",
+        "description": "Actualice la ensalada de pasta con atún omitiendo la mayonesa y agregando vinagre balsámico, aceite de oliva, tomates coloridos y apio.",
         "prep_time": "10 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "350g orecchiette pasta",
-            "225g jar MSC approved tuna in spring water, drained",
-            "1 tbsp caper, drained",
-            "15 peppadew peppers from a jar, chopped",
-            "1 celery heart, sliced",
-            "140g yellow, red or a mixture of cherry tomatoes, halved",
-            "75ml balsamic vinegar",
-            "3 tbsp extra-virgin olive oil",
-            "100g bag rocket leaves",
-            "good handful basil leaves"
+            "350 g de pasta orecchiette",
+            "Tarro de 225 g de atún aprobado por MSC en agua de manantial, escurrido",
+            "1 cucharada de alcaparras, escurridas",
+            "15 pimientos peppadew de un frasco, picados",
+            "1 corazón de apio, rebanado",
+            "140 g de tomates cherry amarillos, rojos o una mezcla de tomates cortados por la mitad",
+            "75 ml de vinagre balsámico",
+            "3 cucharadas de aceite de oliva virgen extra",
+            "Bolsa de 100 g de hojas de rúcula.",
+            "un buen puñado de hojas de albahaca"
         ],
         "method": [
-            "Cook the pasta following pack\r\ninstructions, then drain and rinse in cold\r\nwater. After draining again, transfer to a\r\nlarge bowl. Add the remaining ingredients\r\nexcept the basil, season well, and toss to\r\ncombine. Scatter with basil and serve."
+            "Cocine la pasta siguiente paquete\r\ninstrucciones, luego escurrir y enjuagar en agua fría.\r\nagua. Después de drenar nuevamente, transferir a un\r\ntazón grande. Agrega los ingredientes restantes\r\nexcepto la albahaca, sazone bien y revuelva\r\ncombinar. Espolvorea con albahaca y sirve."
         ],
         "nutritional_info": {
             "kcal": "527",
@@ -1546,24 +1546,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spiced-carrot-and-lentil-soup/",
-        "title": "[ES] Spiced carrot & lentil soup",
-        "description": "(Translation pending) A delicious, spicy blend, packed full of iron and low fat to boot. It's ready in under half an hour or can be made in a slow cooker",
+        "title": "Sopa especiada de zanahoria y lentejas",
+        "description": "Una mezcla deliciosa y picante, repleta de hierro y, además, baja en grasas. Está listo en menos de media hora o se puede preparar en una olla de cocción lenta.",
         "prep_time": "10 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 tsp cumin seeds",
-            "pinch chilli flakes",
-            "2 tbsp olive oil",
-            "600g carrots, washed and coarsely grated (no need to peel)",
-            "140g split red lentils",
-            "1l hot vegetable stock (from a cube is fine)",
-            "125ml milk",
-            "plain yogurt and naan bread, to serve"
+            "2 cucharaditas de semillas de comino",
+            "pizca de hojuelas de chile",
+            "2 cucharadas de aceite de oliva",
+            "600 g de zanahorias lavadas y ralladas gruesas (no es necesario pelarlas)",
+            "140 g de lentejas rojas partidas",
+            "1 litro de caldo de verduras caliente (en cubitos está bien)",
+            "125ml de leche",
+            "yogur natural y pan naan, para servir"
         ],
         "method": [
-            "Heat a large saucepan and dry-fry the cumin seeds and chilli flakes for 1 min, or until they\r\nstart to jump around the pan and release their aromas. Scoop out about half of the seeds with\r\na spoon and set aside. Add the oil, carrot, lentils, stock and milk to the pan and bring to the boil. Simmer for 15 mins until the lentils have swollen and softened.",
-            "Whizz the soup with a stick blender or in a food processor until smooth (or leave it chunky if you prefer). Season to taste and finish with a dollop of yogurt and a sprinkling of the reserved toasted spices. Serve with warmed naan breads."
+            "Calienta una cacerola grande y fríe las semillas de comino y las hojuelas de chile durante 1 minuto, o hasta que\r\nEmpiezan a saltar por la sartén y a liberar sus aromas. Saque aproximadamente la mitad de las semillas con\r\nuna cuchara y reservar. Agrega el aceite, la zanahoria, las lentejas, el caldo y la leche a la sartén y deja hervir. Cocine a fuego lento durante 15 minutos hasta que las lentejas se hinchen y se ablanden.",
+            "Batir la sopa con una batidora o en un procesador de alimentos hasta que quede suave (o dejarla en trozos si lo prefiere). Sazone al gusto y termine con una cucharada de yogur y una pizca de las especias tostadas reservadas. Sirva con panes naan calientes."
         ],
         "nutritional_info": {
             "kcal": "238",

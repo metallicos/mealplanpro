@@ -1,28 +1,28 @@
 [
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/easy-ratatouille-with-poached-eggs/",
-        "title": "[ES] Easy ratatouille with poached eggs",
-        "description": "(Translation pending) This gutsy one-pot can mostly be prepared in advance – just crack in the eggs at the end",
+        "title": "Pisto fácil con huevos escalfados",
+        "description": "Esta valiente receta en una sola olla se puede preparar con anticipación: simplemente rompa los huevos al final.",
         "prep_time": "15 mins Cook: 50 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "1 tbsp olive oil",
-            "1 large onion, chopped",
-            "1 red or orange pepper, deseeded and thinly sliced",
-            "2 garlic cloves, finely chopped",
-            "1 tbsp chopped rosemary",
-            "1 aubergine, diced",
-            "2 courgettes, diced",
-            "400g can chopped tomatoes",
-            "1 tsp balsamic vinegar",
-            "4 large eggs",
-            "handful basil leaves"
+            "1 cucharada de aceite de oliva",
+            "1 cebolla grande, picada",
+            "1 pimiento rojo o naranja, sin semillas y en rodajas finas",
+            "2 dientes de ajo, finamente picados",
+            "1 cucharada de romero picado",
+            "1 berenjena, cortada en cubitos",
+            "2 calabacines, cortados en cubitos",
+            "Lata de 400g de tomates picados",
+            "1 cucharadita de vinagre balsámico",
+            "4 huevos grandes",
+            "un puñado de hojas de albahaca"
         ],
         "method": [
-            "Heat the oil in a large frying pan. Add\r\nthe onion, pepper, garlic and rosemary,\r\nthen cook for 5 mins, stirring frequently,\r\nuntil the onion has softened. Add the\r\naubergine and courgettes, then cook\r\nfor 2 mins more.",
-            "Add the tomatoes, then fill the can with\r\nwater, swirl it around and tip into the pan.\r\nBring to the boil, cover, then simmer for\r\n40 mins, uncovering after 20 mins, until\r\nreduced and pulpy.",
-            "Stir the vinegar into the ratatouille, then\r\nmake 4 spaces for the eggs. Crack an egg\r\ninto each hole and season with black\r\npepper. Cover, then cook for 2-5 mins\r\nuntil set as softly or firmly as you like.\r\nScatter over the basil and serve with\r\nsome crusty bread to mop up the juices."
+            "Calienta el aceite en una sartén grande. Añadir\r\nla cebolla, el pimiento, el ajo y el romero,\r\nluego cocine por 5 minutos, revolviendo frecuentemente,\r\nhasta que la cebolla se haya ablandado. Añade el\r\nberenjenas y calabacines, luego cocinar\r\ndurante 2 minutos más.",
+            "Agrega los tomates, luego llena la lata con\r\nagua, gírela y viértala en la sartén.\r\nLlevar a ebullición, tapar y cocinar a fuego lento durante\r\n40 min, destapando después de 20 min, hasta\r\nreducida y pulposa.",
+            "Agrega el vinagre al pisto y luego\r\nhaz 4 espacios para los huevos. romper un huevo\r\nen cada hoyo y sazone con negro\r\npimienta. Cubra, luego cocine durante 2-5 minutos.\r\nhasta que cuaje tan suave o firmemente como desee.\r\nEsparcir sobre la albahaca y servir con\r\nun poco de pan crujiente para absorber los jugos."
         ],
         "nutritional_info": {
             "kcal": "190",
@@ -39,21 +39,21 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/dippy-eggs-with-marmite-soldiers/",
-        "title": "[ES] Dippy eggs with Marmite soldiers",
-        "description": "(Translation pending) Start the day the right way, with this quick, easy and nutritious breakfast",
+        "title": "Huevos Dippy con soldados Marmite",
+        "description": "Empieza bien el día con este desayuno rápido, fácil y nutritivo",
         "prep_time": "5 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "2 eggs",
-            "4 slices wholemeal bread",
-            "a knob of butter",
-            "Marmite",
-            "mixed seeds"
+            "2 huevos",
+            "4 rebanadas de pan integral",
+            "una nuez de mantequilla",
+            "marmita",
+            "semillas mixtas"
         ],
         "method": [
-            "Bring a pan of water to a simmer. Add\r\n2 eggs, simmer for 2 mins if room temp,\r\n3 mins if fridge-cold, then turn off heat.\r\nCover the pan and leave for 2 mins more.",
-            "Meanwhile, toast 4 slices wholemeal\r\nbread and spread thinly with butter, then\r\nMarmite. To serve, cut into soldiers and\r\ndip into the egg, then a few mixed seeds."
+            "Lleve una cacerola con agua a fuego lento. Añadir\r\n2 huevos, cocine a fuego lento durante 2 minutos si está a temperatura ambiente,\r\n3 minutos si está frío en el refrigerador, luego apague el fuego.\r\nTapar la cacerola y dejar reposar 2 minutos más.",
+            "Mientras tanto, tuesta 4 rebanadas integrales.\r\npan y untar finamente con mantequilla, luego\r\nMarmita. Para servir, cortar en soldados y\r\nsumérjalo en el huevo y luego en algunas semillas mixtas."
         ],
         "nutritional_info": {
             "kcal": "372",
@@ -70,25 +70,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/cinnamon-berry-granola-bars/",
-        "title": "[ES] Cinnamon berry granola bars",
-        "description": "(Translation pending) These granola bars are great for lunchboxes, breakfast on the run or just with a cup of coffee",
+        "title": "Barras de granola con canela y frutos rojos",
+        "description": "Estas barras de granola son ideales para loncheras, desayunos para llevar o simplemente con una taza de café.",
         "prep_time": "15 mins Cook: 30 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "100g butter, plus extra for greasing",
-            "200g porridge oats",
-            "100g sunflower seeds",
-            "50g sesame seeds",
-            "50g chopped walnuts",
-            "3 tbsp honey",
-            "100g light muscovado sugar",
-            "1 tsp ground cinnamon",
-            "100g dried cranberries, cherries or blueberries, or a mix"
+            "100 g de mantequilla, más un poco para engrasar",
+            "200 g de gachas de avena",
+            "100 g de semillas de girasol",
+            "50 g de semillas de sésamo",
+            "50 g de nueces picadas",
+            "3 cucharadas de miel",
+            "100 g de azúcar mascabado light",
+            "1 cucharadita de canela molida",
+            "100 g de arándanos, cerezas o arándanos secos, o una mezcla"
         ],
         "method": [
-            "Heat oven to 160C/fan 140C/gas 3. Butter and line the base of a 18 x 25cm tin. Mix the oats, seeds and nuts in a roasting tin, then put in the oven for 5-10 mins to toast.",
-            "Meanwhile, warm the butter, honey and sugar in a pan, stirring until butter is melted. Add the oat mix, cinnamon and dried fruit, then mix until all the oats are well coated. Tip into the tin, press down lightly, then bake for 30 mins. Cool in tin, then cut into 12 bars."
+            "Calentar el horno a 160C/ventilador 140C/gas 3. Untar con mantequilla y forrar la base de un molde de 18 x 25 cm. Mezcle la avena, las semillas y las nueces en una fuente para asar, luego póngala en el horno durante 5 a 10 minutos para que se tuesten.",
+            "Mientras tanto, calienta la mantequilla, la miel y el azúcar en una sartén, revolviendo hasta que la mantequilla se derrita. Agrega la mezcla de avena, la canela y los frutos secos, luego mezcla hasta que toda la avena esté bien cubierta. Vierta en el molde, presione ligeramente y luego hornee por 30 minutos. Dejar enfriar en lata y luego cortar en 12 barras."
         ],
         "nutritional_info": {
             "kcal": "294",
@@ -105,19 +105,19 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/grapefruit-agave-and-pistachio-salad/",
-        "title": "[ES] Grapefruit, agave & pistachio salad",
-        "description": "(Translation pending) Fruit salads are quick to whip up and one of the healthiest ways to start the day – sweeten with a sugar alternative",
+        "title": "Ensalada de pomelo, agave y pistacho",
+        "description": "Las ensaladas de frutas se preparan rápidamente y son una de las formas más saludables de comenzar el día: endulzarlas con una alternativa al azúcar.",
         "prep_time": "5 mins No cook",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 pink grapefruit",
-            "1 white grapefruit",
-            "1 tbsp agave nectar",
-            "1 tsp chopped pistachio"
+            "1 pomelo rosado",
+            "1 pomelo blanco",
+            "1 cucharada de néctar de agave",
+            "1 cucharadita de pistacho picado"
         ],
         "method": [
-            "Segment grapefruits, removing as much of the pith as possible. Divide the segments between two bowls and top with with agave and pistachios."
+            "Segmente los pomelos, quitando la mayor cantidad de médula posible. Divida los gajos en dos tazones y cubra con agave y pistachos."
         ],
         "nutritional_info": {
             "kcal": "107",
@@ -134,19 +134,19 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/grapefruit-orange-and-apricot-salad/",
-        "title": "[ES] Grapefruit, orange & apricot salad",
-        "description": "(Translation pending) A super-simple fruit salad for breakfast and beyond, sweetened with honey and packed with nutrients",
+        "title": "Ensalada de pomelo, naranja y albaricoque",
+        "description": "Una ensalada de frutas súper sencilla para el desayuno y más, endulzada con miel y repleta de nutrientes.",
         "prep_time": "10 mins No cook",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 grapefruit, peel and pith cut away",
-            "4 oranges, peel and pith cut away",
-            "4 apricots, stoned and sliced",
-            "1 tbsp clear honey"
+            "2 pomelos, pelados y sin médula",
+            "4 naranjas, peladas y sin médula",
+            "4 albaricoques, deshuesados ​​y rebanados",
+            "1 cucharada de miel clara"
         ],
         "method": [
-            "Segment the grapefruits and oranges\r\ninto a large bowl to catch the juices. Stir\r\nin the apricots and honey, and serve."
+            "Segmentar los pomelos y las naranjas.\r\nen un tazón grande para recoger los jugos. Revuelva\r\nen los albaricoques y la miel y servir."
         ],
         "nutritional_info": {
             "kcal": "83",
@@ -163,22 +163,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/goats-cheese-pea-and-bean-frittata/",
-        "title": "[ES] Goat’s cheese, pea & bean frittata",
-        "description": "(Translation pending) This recipe is great for a standby supper, as you’ll probably find all the ingredients in your fridge",
+        "title": "Frittata de queso de cabra, guisantes y judías",
+        "description": "Esta receta es excelente para una cena de reserva, ya que probablemente encontrarás todos los ingredientes en tu refrigerador.",
         "prep_time": "5 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "300g mix frozen peas and beans",
-            "8 large eggs",
-            "splash of milk",
-            "100g log goat's cheese, the kind with rind, or use feta",
-            "1-2 tbsp chopped mint",
-            "a little oil"
+            "300 g de mezcla de guisantes y frijoles congelados",
+            "8 huevos grandes",
+            "chorrito de leche",
+            "100 g de queso de cabra en troncos, de esos con corteza, o utilizar queso feta",
+            "1-2 cucharadas de menta picada",
+            "un poco de aceite"
         ],
         "method": [
-            "Heat the grill to medium. Boil the peas\r\nand beans for 4 mins until just tender,\r\nthen drain well. Beat the eggs with a\r\nsplash of milk and some seasoning. Slice\r\n4 thin, round slices of goat’s cheese (you’ll\r\nuse about half the log), roughly chop or\r\ncrumble the rest into pieces, then stir this\r\ninto the eggs with the veg and mint.",
-            "Lightly oil an ovenproof shallow pan and place on the heat. Pour in the egg mix and gently cook on the hob for 8-10 mins until there is just a little un-set mix on the surface. Top with the slices of goat's cheese, then put under the grill, and grill until set, golden and the cheese is bubbling."
+            "Calienta la parrilla a fuego medio. hervir los guisantes\r\ny los frijoles durante 4 minutos hasta que estén tiernos,\r\nluego escurrir bien. Batir los huevos con un\r\nchorrito de leche y un poco de condimento. rebanada\r\n4 lonchas finas y redondas de queso de cabra (te\r\nuse aproximadamente la mitad del tronco), pique o\r\ndesmenuza el resto en pedazos, luego revuelve esto\r\nen los huevos con las verduras y la menta.",
+            "Engrase ligeramente una fuente poco profunda apta para horno y colóquela al fuego. Vierta la mezcla de huevo y cocine suavemente en la placa durante 8-10 minutos hasta que quede un poco de mezcla sin endurecer en la superficie. Cubra con las rebanadas de queso de cabra, luego póngalo debajo de la parrilla y cocine hasta que cuaje, esté dorado y el queso burbujee."
         ],
         "nutritional_info": {
             "kcal": "306",
@@ -195,24 +195,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/spicy-tomato-baked-eggs/",
-        "title": "[ES] Shakshuka",
-        "description": "(Translation pending) Vary this popular brunch dish by flavouring the simple tomato sauce with whatever you have to hand – curry powder, pesto or fresh herbs",
+        "title": "shakshuka",
+        "description": "Varíe este popular plato de brunch condimentando la sencilla salsa de tomate con lo que tenga a mano: curry en polvo, pesto o hierbas frescas.",
         "prep_time": "5 mins Cook: 20 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "1 tbsp olive oil",
-            "2 red onions, chopped",
-            "1 red chilli, deseeded and finely chopped",
-            "1 garlic clove, sliced",
-            "small bunch coriander, stalks and leaves chopped separately",
-            "2 400g cans cherry tomatoes",
-            "1 tsp caster sugar",
-            "4 eggs"
+            "1 cucharada de aceite de oliva",
+            "2 cebollas rojas, picadas",
+            "1 chile rojo, sin semillas y finamente picado",
+            "1 diente de ajo, rebanado",
+            "manojo pequeño de cilantro, tallos y hojas picados por separado",
+            "2 latas de 400g de tomates cherry",
+            "1 cucharadita de azúcar en polvo",
+            "4 huevos"
         ],
         "method": [
-            "Heat the oil in a frying pan that has a\r\nlid, then soften the onions, chilli, garlic and\r\ncoriander stalks for 5 mins until soft. Stir\r\nin the tomatoes and sugar, then bubble\r\nfor 8-10 mins until thick. Can be frozen for\r\n1 month.",
-            "Using the back of a large spoon, make\r\n4 dips in the sauce, then crack an egg into\r\neach one. Put a lid on the pan, then cook\r\nover a low heat for 6-8 mins, until the eggs\r\nare done to your liking. Scatter with the\r\ncoriander leaves and serve with crusty bread."
+            "Calentar el aceite en una sartén que tenga\r\ntapa, luego ablanda las cebollas, el chile, el ajo y\r\nlos tallos de cilantro durante 5 minutos hasta que estén tiernos. Revuelva\r\nen los tomates y el azúcar, luego burbujear\r\ndurante 8-10 minutos hasta que espese. Se puede congelar por\r\n1 mes.",
+            "Con el dorso de una cuchara grande, prepare\r\n4 salsas para mojar y luego cascar un huevo\r\ncada uno. Tapa la sartén y luego cocina.\r\na fuego lento durante 6-8 minutos, hasta que los huevos\r\nse hacen a tu gusto. Dispersarse con el\r\nhojas de cilantro y servir con pan crujiente."
         ],
         "nutritional_info": {
             "kcal": "340",
@@ -229,22 +229,22 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/veggie-breakfast-bakes/",
-        "title": "[ES] Veggie breakfast bakes",
-        "description": "(Translation pending) Hit 3 of your 5-a-day with this alternative fry-up – it's packed with vegetables and oven-baked",
+        "title": "Horneados de desayuno vegetarianos",
+        "description": "Haz 3 de tus 5 al día con esta fritura alternativa: está repleta de verduras y horneada",
         "prep_time": "15 mins Cook: 30 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "4 large field mushrooms",
-            "8 tomatoes, halved",
-            "1 garlic clove, thinly sliced",
-            "2 tsp olive oil",
-            "200g bag spinach",
-            "4 eggs"
+            "4 champiñones grandes",
+            "8 tomates, partidos por la mitad",
+            "1 diente de ajo, en rodajas finas",
+            "2 cucharaditas de aceite de oliva",
+            "200g bolsa de espinacas",
+            "4 huevos"
         ],
         "method": [
-            "Heat oven to 200C/180C fan/gas 6.\r\nPut the mushrooms and tomatoes into\r\n4 ovenproof dishes. Divide garlic between\r\nthe dishes, drizzle over the oil and some\r\nseasoning, then bake for 10 mins.",
-            "Meanwhile, put the spinach into a large\r\ncolander, then pour over a kettle of\r\nboiling water to wilt it. Squeeze out any\r\nexcess water, then add the spinach to\r\nthe dishes. Make a little gap between the\r\nvegetables and crack an egg into each\r\ndish. Return to the oven and cook for a\r\nfurther 8-10 mins or until the egg is\r\ncooked to your liking."
+            "Calentar el horno a 200C/180C ventilador/gas 6.\r\nPoner los champiñones y los tomates en\r\n4 fuentes para horno. Divida el ajo entre\r\nlos platos, rociar con aceite y un poco\r\nsazone, luego hornee por 10 minutos.",
+            "Mientras tanto, ponga las espinacas en una cacerola grande.\r\ncolador, luego vierta sobre una tetera de\r\nagua hirviendo para que se marchite. Exprime cualquier\r\nexceso de agua, luego agregue las espinacas a\r\nlos platos. Haga un pequeño espacio entre el\r\nverduras y cascar un huevo en cada una\r\nplato. Regrese al horno y cocine por un\r\n8-10 minutos más o hasta que el huevo esté\r\ncocinado a tu gusto."
         ],
         "nutritional_info": {
             "kcal": "127",
@@ -261,20 +261,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/feta-and-semidried-tomato-omelette/",
-        "title": "[ES] Feta & semi-dried tomato omelette",
-        "description": "(Translation pending) Cooking up eggs with cheese and tomato makes for a super-quick meal for one that’s ready in 10 minutes",
+        "title": "Tortilla de queso feta y tomates semisecos",
+        "description": "Cocinar huevos con queso y tomate es una comida súper rápida que está lista en 10 minutos.",
         "prep_time": "5 mins Cook: 5 mins",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "1 tsp olive oil",
-            "2 eggs, lightly beaten",
-            "4 semi-dried tomatoes, roughly chopped",
-            "25g feta cheese, crumbled",
-            "mixed salad leaves, to serve"
+            "1 cucharadita de aceite de oliva",
+            "2 huevos, ligeramente batidos",
+            "4 tomates semisecos, picados en trozos grandes",
+            "25 g de queso feta, desmenuzado",
+            "hojas de ensalada mixtas, para servir"
         ],
         "method": [
-            "Heat the oil in a small frying pan, add\r\nthe eggs and cook, swirling the eggs\r\nwith a fork as they set. When the eggs\r\nare still slightly runny in the middle,\r\nscatter over the tomatoes and feta,\r\nthen fold the omelette in half. Cook for\r\n1 min more before sliding onto a plate.\r\nServe alongside a mixed leaf salad."
+            "Calentar el aceite en una sartén pequeña, agregar\r\nlos huevos y cocine, revolviendo los huevos\r\ncon un tenedor mientras se endurecen. cuando los huevos\r\ntodavía están ligeramente líquidos en el medio,\r\nesparcir sobre los tomates y el queso feta,\r\nluego dobla la tortilla por la mitad. cocinar para\r\n1 min más antes de deslizar sobre un plato.\r\nSirva junto con una ensalada de hojas mixtas."
         ],
         "nutritional_info": {
             "kcal": "266",
@@ -291,20 +291,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/baked-eggs-with-spinach-and-tomato/",
-        "title": "[ES] Baked eggs with spinach & tomato",
-        "description": "(Translation pending) A rustic dish with a delicious combination of flavours and just four ingredients, try whipping it up for brunch",
+        "title": "Huevos al horno con espinacas y tomate",
+        "description": "Un platillo rústico con una deliciosa combinación de sabores y solo cuatro ingredientes, prueba a prepararlo para el brunch.",
         "prep_time": "5 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "100g bag spinach",
-            "400g can chopped tomatoes",
-            "1 tsp chilli flakes",
-            "4 eggs"
+            "100g bolsa de espinacas",
+            "Lata de 400g de tomates picados",
+            "1 cucharadita de hojuelas de chile",
+            "4 huevos"
         ],
         "method": [
-            "Heat oven to 200C/180C fan/gas 6. Put\r\nthe spinach into a colander, then pour\r\nover a kettle of boiling water to wilt the\r\nleaves. Squeeze out excess water and\r\ndivide between 4 small ovenproof dishes.",
-            "Mix the tomatoes with the chilli flakes\r\nand some seasoning, then add to the\r\ndishes with the spinach. Make a small\r\nwell in the centre of each and crack in\r\nan egg. Bake for 12-15 mins or more\r\ndepending on how you like your eggs.\r\nServe with crusty bread, if you like."
+            "Calentar el horno a 200C/180C ventilador/gas 6. Poner\r\nlas espinacas en un colador, luego vierte\r\nsobre una tetera con agua hirviendo para que se ablande\r\nhojas. Exprima el exceso de agua y\r\ndivida entre 4 fuentes pequeñas para horno.",
+            "Mezclar los tomates con las hojuelas de chile.\r\ny un poco de condimento, luego agregue a la\r\nplatos con espinacas. hacer un pequeño\r\nbien en el centro de cada uno y grieta\r\nun huevo. Hornee durante 12-15 minutos o más\r\ndependiendo de cómo te gusten tus huevos.\r\nSirva con pan crujiente, si lo desea."
         ],
         "nutritional_info": {
             "kcal": "114",
@@ -321,27 +321,27 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/turkish-onepan-eggs-and-peppers-menemen/",
-        "title": "[ES] Turkish one-pan eggs & peppers (Menemen)",
-        "description": "(Translation pending) This gutsy dish is genuine street food and a brilliantfamily dish for brunch, lunch or supper.",
+        "title": "Huevos y pimientos turcos en una sartén (Menemen)",
+        "description": "Este atrevido plato es auténtica comida callejera y un fantástico plato familiar para el brunch, el almuerzo o la cena.",
         "prep_time": "10 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "4",
         "ingredients": [
-            "2 tbsp olive oil",
-            "2 onions, sliced",
-            "1 red or green pepper, halved deseeded and sliced",
-            "1-2 red chillies, deseeded and sliced",
-            "400g can chopped tomatoes",
-            "1-2 tsp caster sugar",
-            "4 eggs",
-            "small bunch parsley, roughly chopped",
-            "6 tbsp thick, creamy yogurt",
-            "2 garlic cloves, crushed"
+            "2 cucharadas de aceite de oliva",
+            "2 cebollas, rebanadas",
+            "1 pimiento rojo o verde, cortado a la mitad, sin semillas y en rodajas",
+            "1-2 chiles rojos, sin semillas y rebanados",
+            "Lata de 400g de tomates picados",
+            "1-2 cucharaditas de azúcar en polvo",
+            "4 huevos",
+            "manojo pequeño de perejil, picado en trozos grandes",
+            "6 cucharadas de yogur espeso y cremoso",
+            "2 dientes de ajo machacados"
         ],
         "method": [
-            "Heat the oil in a heavy-based frying\r\npan. Stir in the onions, pepper and\r\nchillies. Cook until they begin to soften.\r\nAdd the tomatoes and sugar, mixing well.\r\nCook until the liquid has reduced, season.",
-            "Using a wooden spoon, create 4 pockets\r\nin the tomato mixture and crack the eggs\r\ninto them. Cover the pan and cook the\r\neggs over a low heat until just set.",
-            "Beat the yogurt with the garlic and\r\nseason. Sprinkle the menemen with\r\nparsley and serve from the frying pan\r\nwith a dollop of the garlic-flavoured yogurt."
+            "Calentar el aceite en una sartén de base pesada.\r\nsartén. Agregue las cebollas, el pimiento y\r\nchiles. Cocine hasta que comiencen a ablandarse.\r\nAgrega los tomates y el azúcar, mezclando bien.\r\nCocine hasta que el líquido haya reducido, sazone.",
+            "Con una cuchara de madera, crea 4 bolsillos.\r\nen la mezcla de tomate y cascar los huevos\r\nen ellos. Tapar la cacerola y cocinar el\r\nhuevos a fuego lento hasta que cuajen.",
+            "Batir el yogur con el ajo y\r\ntemporada. Espolvorea el menemen con\r\nperejil y servir de la sartén\r\ncon un chorrito de yogur con sabor a ajo."
         ],
         "nutritional_info": {
             "kcal": "222",
@@ -358,23 +358,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/apple-and-linseed-porridge/",
-        "title": "[ES] Apple & linseed porridge",
-        "description": "(Translation pending) Start the day the right way with a nutrient-packed oaty breakfast – full of stomach-friendly fibre, great for digestion",
+        "title": "Gachas de manzana y linaza",
+        "description": "Comience el día de la manera correcta con un desayuno con avena repleto de nutrientes, lleno de fibra beneficiosa para el estómago y excelente para la digestión.",
         "prep_time": "5 mins Cook: 6 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "100g porridge oats",
-            "2 eating apples, peeled and grated",
-            "½  tsp ground cinnamon, plus extra for sprinkling",
-            "500ml skimmed milk",
-            "2 tbsp ground linseeds",
-            "150ml pot probiotic yogurt",
-            "drizzle of honey or agave syrup"
+            "100 g de gachas de avena",
+            "2 manzanas para comer, peladas y ralladas",
+            "½ cucharadita de canela molida, más un poco más para espolvorear",
+            "500ml de leche desnatada",
+            "2 cucharadas de linaza molida",
+            "Bote de 150ml de yogur probiótico",
+            "un chorrito de miel o sirope de agave"
         ],
         "method": [
-            "In a medium saucepan, mix the oats,\r\napples, cinnamon and milk. Bring to\r\nthe boil, stirring occasionally, then turn\r\ndown the heat and cook for 4-5 mins,\r\nstirring constantly.",
-            "Stir in the ground linseeds, then\r\ndivide into 4 breakfast bowls. Top each\r\nwith a dollop of yogurt, a drizzle of\r\nhoney or agave syrup, and a sprinkle\r\nmore cinnamon."
+            "En una cacerola mediana, mezcle la avena,\r\nmanzanas, canela y leche. traer a\r\nhervir, revolviendo ocasionalmente, luego voltee\r\nbajar el fuego y cocinar durante 4-5 minutos,\r\nrevolviendo constantemente.",
+            "Agregue las semillas de lino molidas, luego\r\ndividir en 4 tazones de desayuno. Cubra cada uno\r\ncon un chorrito de yogur, un chorrito de\r\nmiel o jarabe de agave y una pizca\r\nmás canela."
         ],
         "nutritional_info": {
             "kcal": "236",
@@ -391,23 +391,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/skinny-pepper-tomato-and-ham-omelette/",
-        "title": "[ES] Skinny pepper, tomato & ham omelette",
-        "description": "(Translation pending) Contains pork – recipe is for non-Muslims onlyIf you’re in need of a protein boost try making this healthy omelette for breakfast, using fewer yolks lowers the cholesterol",
+        "title": "Tortilla flaca de pimientos, tomate y jamón",
+        "description": "Contiene carne de cerdo: la receta es solo para no musulmanes. Si necesita un refuerzo de proteínas, intente preparar esta tortilla saludable para el desayuno; usar menos yemas reduce el colesterol.",
         "prep_time": "15 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "2",
         "ingredients": [
-            "2 whole eggs and 3 egg whites",
-            "1 tsp olive oil",
-            "1 red pepper, deseeded and finely chopped",
-            "2 spring onions, white and green parts kept separate and finely chopped",
-            "few slices wafer-thin extra-lean ham, shredded",
-            "25g reduced-fat mature cheddar",
-            "wholemeal toast, to serve"
+            "2 huevos enteros y 3 claras",
+            "1 cucharadita de aceite de oliva",
+            "1 pimiento rojo, sin semillas y finamente picado",
+            "2 cebolletas, las partes blanca y verde separadas y finamente picadas",
+            "unas lonchas de jamón extra magro finas como una oblea, desmenuzadas",
+            "25 g de queso cheddar maduro bajo en grasa",
+            "tostadas integrales, para servir"
         ],
         "method": [
-            "Mix the eggs and egg whites\r\nwith some seasoning and set aside.\r\nHeat the oil in a medium non-stick\r\nfrying pan and cook the pepper for\r\n3-4 mins. Throw in the white parts\r\nof the spring onions and cook for\r\n1 min more. Pour in the eggs and\r\ncook over a medium heat until\r\nalmost completely set.",
-            "Sprinkle on the ham and cheese\r\nand continue cooking until just set\r\nin the centre, or flash it under a hot\r\ngrill if you like it more well done.\r\nServe straight from the pan with\r\nthe green part of the spring onion\r\nsprinkled on top and some\r\nwholemeal toast."
+            "Mezclar los huevos y las claras.\r\ncon un poco de condimento y reservar.\r\nCalentar el aceite en una sartén mediana antiadherente.\r\nsartén y cocinar el pimiento durante\r\n3-4 minutos. Echa las partes blancas.\r\nde las cebolletas y cocinar durante\r\n1 min más. Vierta los huevos y\r\ncocinar a fuego medio hasta que\r\ncasi completamente fijado.",
+            "Espolvorear sobre el jamón y el queso.\r\ny continúe cocinando hasta que esté listo\r\nen el centro o cocinarlo bajo fuego caliente.\r\nAsar si os gusta más bien hecho.\r\nServir directamente de la sartén con\r\nla parte verde de la cebolleta\r\nespolvoreado encima y un poco\r\ntostadas integrales."
         ],
         "nutritional_info": {
             "kcal": "206",
@@ -424,24 +424,24 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/on-the-run-breakfast-bars/",
-        "title": "[ES] On-the-run breakfast bars",
-        "description": "(Translation pending) No time for breakfast? Save time and money – make your own breakfast bars",
+        "title": "Barras de desayuno para llevar",
+        "description": "¿No hay tiempo para desayunar? Ahorre tiempo y dinero: haga sus propias barras de desayuno",
         "prep_time": "10 mins Cook: 30 mins",
         "cook_time": "",
         "serves": "12",
         "ingredients": [
-            "100g butter",
-            "3 tbsp golden syrup",
-            "85g demerara sugar",
-            "140g porridge oats",
-            "½ tsp ground cinnamon",
-            "50g desiccated coconut",
-            "2 tbsp linseeds, slightly crushed",
-            "1 tbsp sesame seeds",
-            "100g chopped hazelnuts"
+            "100 g de mantequilla",
+            "3 cucharadas de almíbar dorado",
+            "85 g de azúcar demerara",
+            "140 g de avena avena",
+            "½ cucharadita de canela molida",
+            "50 g de coco rallado",
+            "2 cucharadas de semillas de lino, ligeramente trituradas",
+            "1 cucharada de semillas de sésamo",
+            "100 g de avellanas picadas"
         ],
         "method": [
-            "Heat oven to 160C/fan 140C/gas 3. Butter a 22cm square baking tin. Melt the butter, syrup and sugar in a pan. Pour in the oats, cinnamon, coconut, seeds and nuts, mix and pour into tin. Bake for 30-35 mins. Leave to cool for 5 mins, then cut into slices. Will keep for 1 week in an airtight container."
+            "Caliente el horno a 160 ° C / ventilador 140 ° C / gas 3. Unte con mantequilla un molde para hornear cuadrado de 22 cm. Derretir la mantequilla, el almíbar y el azúcar en una sartén. Vierta la avena, la canela, el coco, las semillas y las nueces, mezcle y vierta en el molde. Hornee durante 30-35 minutos. Dejar enfriar durante 5 minutos y luego cortar en rodajas. Se conservará durante 1 semana en un recipiente hermético."
         ],
         "nutritional_info": {
             "kcal": "245",
@@ -458,25 +458,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/honey-muesli-with-raspberries-and-hazelnuts/",
-        "title": "[ES] Honey muesli with raspberries & hazelnuts",
-        "description": "(Translation pending) Make your own muesli and boost it with fresh fruit for a wholly satisfying and healthy breakfast to keep you going through the day",
+        "title": "Muesli de miel con frambuesas y avellanas",
+        "description": "Prepare su propio muesli y acompáñelo con fruta fresca para disfrutar de un desayuno completamente satisfactorio y saludable que le permitirá seguir adelante durante el día.",
         "prep_time": "20 mins Plus overnight soaking",
         "cook_time": "",
         "serves": "6",
         "ingredients": [
-            "225g porridge oats, jumbo ones give a good texture",
-            "125ml freshly squeezed orange juice",
-            "225ml natural yogurt, can be low fat",
-            "3 tbsp clear honey",
-            "finely grated zest of 1 lemon",
-            "2 red or pink dessert apples",
-            "2x 125g punnets raspberries",
-            "50g hazelnuts in their skins, lightly toasted and coarsely chopped",
-            "single cream, to serve (optional)"
+            "225 g de gachas de avena, las jumbo dan buena textura",
+            "125ml de zumo de naranja recién exprimido",
+            "225ml de yogur natural, puede ser bajo en grasas",
+            "3 cucharadas de miel clara",
+            "ralladura fina de 1 limón",
+            "2 manzanas de postre rojas o rosadas",
+            "2x canastillas de 125 g de frambuesas",
+            "50 g de avellanas con piel, ligeramente tostadas y picadas en trozos grandes",
+            "crema integral, para servir (opcional)"
         ],
         "method": [
-            "Mix oats, orange juice and 300ml/½ pint\r\ncold water in a bowl. Cover with cling film\r\nand leave in the fridge overnight.",
-            "The next morning, stir in the yogurt,\r\nhoney and lemon zest. Quarter and core\r\nthe apples, grate them in and stir well.\r\nSpoon into bowls and top with raspberries and toasted hazelnuts. Pour on a little\r\nsingle cream, if you like."
+            "Mezclar avena, zumo de naranja y 300ml/½ litro\r\nagua fría en un bol. Cubrir con film transparente\r\ny dejar en el frigorífico toda la noche.",
+            "A la mañana siguiente, agregue el yogur,\r\nmiel y ralladura de limón. Cuarto y núcleo\r\nlas manzanas, rallarlas y revolver bien.\r\nVierta en tazones y cubra con frambuesas y avellanas tostadas. Vierta un poco\r\ncrema única, si quieres."
         ],
         "nutritional_info": {
             "kcal": "274",
@@ -493,25 +493,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/crunchy-granola-with-berries-and-cherries/",
-        "title": "[ES] Crunchy granola with berries & cherries",
-        "description": "(Translation pending) Make your breakfast a fruity feast – this recipe is full of crunchy goodness",
+        "title": "Granola crujiente con frutos rojos y cerezas",
+        "description": "Haga de su desayuno un festín frutal: esta receta está llena de bondades crujientes",
         "prep_time": "20 mins Cook: 25 mins",
         "cook_time": "",
         "serves": "12",
         "ingredients": [
-            "175g mixed nuts (pecan halves and peanuts in their red skins)",
-            "450g rolled oats",
-            "50g sesame seeds",
-            "50g sunflower seeds",
-            "125ml sunflower oil",
-            "100ml runny honey (try one of the lightly flavoured flower ones)",
-            "half a 170g packet dried berries and cherry"
+            "175 g de nueces mixtas (mitades de nueces y maní con piel roja)",
+            "450 g de copos de avena",
+            "50 g de semillas de sésamo",
+            "50 g de semillas de girasol",
+            "125 ml de aceite de girasol",
+            "100 ml de miel líquida (prueba una de las de flores de sabor ligero)",
+            "medio paquete de 170 g de frutos secos y cerezas"
         ],
         "method": [
-            "Preheat the oven to 190C/Gas 5/fan\r\noven 170C. Halve some of the pecans, leave\r\nsome whole. Mix with peanuts, oats, sesame\r\nseeds, sunflower seeds and a pinch of salt in\r\na large bowl. In a jug, measure the oil and\r\npour into the mixture, then measure the\r\nhoney – it will slide out easily. Stir together\r\nwith a fork to break up any big clumps of oats.",
-            "Pour on to a large baking tray with\r\nsides, preferably non-stick, in a thin layer.\r\nBake for 20-25 minutes, stirring well at\r\nleast twice and bringing the mixture\r\nin from the edges, until it is golden.\r\nTransfer to a large bowl and leave to cool.",
-            "Mix in the berries and cherries\r\nand serve with plenty of chilled milk.",
-            "Store for up to 1 month in airtight container."
+            "Precalentar el horno a 190C/Gas 5/ventilador\r\nhorno 170C. Reducir a la mitad algunas de las nueces, dejar\r\nalgunos enteros. Mezclar con maní, avena, sésamo.\r\nsemillas, pipas de girasol y una pizca de sal en\r\nun tazón grande. En una jarra medir el aceite y\r\nvierta en la mezcla, luego mida la\r\ncariño, se deslizará fácilmente. Revuelva juntos\r\ncon un tenedor para romper los grumos grandes de avena.",
+            "Vierta en una bandeja para hornear grande con\r\nlados, preferiblemente antiadherentes, en una capa fina.\r\nHornee durante 20-25 minutos, revolviendo bien a\r\nal menos dos veces y llevando la mezcla\r\ndesde los bordes, hasta que esté dorado.\r\nTransfiera a un tazón grande y déjelo enfriar.",
+            "Incorpora las bayas y las cerezas.\r\ny servir con abundante leche fría.",
+            "Almacene por hasta 1 mes en un recipiente hermético."
         ],
         "nutritional_info": {
             "kcal": "409",
@@ -528,25 +528,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/tropical-treat/",
-        "title": "[ES] Tropical treat",
-        "description": "(Translation pending) Kick start your day with a fruit and nut muesli treat",
+        "title": "delicia tropical",
+        "description": "Empieza el día con un muesli de frutas y frutos secos",
         "prep_time": "20 mins Cook: 15 mins",
         "cook_time": "",
         "serves": "8",
         "ingredients": [
-            "250g jumbo oats",
-            "50g desiccated coconut",
-            "25g dark muscovado sugar",
-            "50g pumpkin seeds",
-            "100g mixture of chopped Brazil nuts and whole raw cashews",
-            "250g packet ready-to-eat tropical fruits",
-            "yogurt, fresh blueberries, sliced banana and honey to serve (optional)"
+            "250 g de avena gigante",
+            "50 g de coco rallado",
+            "25 g de azúcar mascabado oscuro",
+            "50 g de semillas de calabaza",
+            "100 g de mezcla de nueces de Brasil picadas y anacardos crudos enteros",
+            "Paquete de 250 g de frutas tropicales listas para comer",
+            "yogur, arándanos frescos, plátano en rodajas y miel para servir (opcional)"
         ],
         "method": [
-            "Preheat the oven to 200C/Gas\r\n6/fan oven 180C. Put oats, coconut,\r\nsugar and pumpkin seeds on a large\r\nbaking tray with sides, ideally nonstick.\r\nMix in sugar and break up\r\nlumps with fingers, then add nuts.",
-            "Bake for 15 minutes, stirring\r\nevery 5 minutes, until sugar starts\r\nto melt and nuts are lightly toasted.\r\nTip into a big bowl and leave to cool.",
-            "Snip bite-sized pieces of\r\ntropical fruits into the mixture. Serve\r\nwith chilled milk, yogurt and fruit",
-            "Store for up to 2 months, airtight."
+            "Precalentar el horno a 200C/Gas\r\n6/horno ventilado 180C. Ponle avena, coco,\r\nazúcar y semillas de calabaza en una gran\r\nbandeja para hornear con lados, idealmente antiadherente.\r\nIncorporar el azúcar y desmenuzar.\r\nHaga grumos con los dedos y luego agregue las nueces.",
+            "Hornee por 15 minutos, revolviendo\r\ncada 5 minutos, hasta que comience el azúcar\r\nhasta que se derrita y las nueces se tuesten ligeramente.\r\nVierta en un bol grande y déjelo enfriar.",
+            "Cortar trozos del tamaño de un bocado\r\nfrutas tropicales a la mezcla. servir\r\ncon leche fría, yogur y fruta",
+            "Almacenar hasta por 2 meses, herméticamente."
         ],
         "nutritional_info": {
             "kcal": "396",
@@ -563,23 +563,23 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/full-of-fibre/",
-        "title": "[ES] High-fibre muesli",
-        "description": "(Translation pending) Make your own muesli packed with fibre and great flavour using jumbo oats for slow-release energy, linseed and apricots. An easy, healthy breakfast",
+        "title": "Muesli rico en fibra",
+        "description": "Haga su propio muesli lleno de fibra y gran sabor usando avena gigante para liberar energía lentamente, linaza y albaricoques. Un desayuno fácil y saludable",
         "prep_time": "15 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "300g jumbo oats",
-            "100g Allbran",
-            "25g wheatgerm",
-            "100g dark raisins",
-            "140g ready-to-eat apricots, snipped into chunks",
-            "50g golden linseeds"
+            "300 g de avena gigante",
+            "100g de Allbran",
+            "25 g de germen de trigo",
+            "100 g de pasas oscuras",
+            "140 g de albaricoques listos para comer, cortados en trozos",
+            "50 g de linaza dorada"
         ],
         "method": [
-            "Mix everything in a large bowl.",
-            "Pour lots of chilled milk\r\nover and let it soak while you make\r\ntea. If you want to sweeten it, grate\r\nover some unpeeled apple and\r\nsprinkle with dark muscovado sugar.",
-            "Store for up to 2 months, airtight."
+            "Mezclar todo en un bol grande.",
+            "Vierta mucha leche fría.\r\nvoltea y déjalo en remojo mientras haces\r\nté. Si quieres endulzarlo ralla\r\nsobre una manzana sin pelar y\r\nespolvorear con azúcar moscabado oscuro.",
+            "Almacenar hasta por 2 meses, herméticamente."
         ],
         "nutritional_info": {
             "kcal": "124",
@@ -596,25 +596,25 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/fruit-oat-and-seed-bars/",
-        "title": "[ES] Fruit, oat & seed bars",
-        "description": "(Translation pending) A tasty twist on flapjacks with a lusciouslayer of apricots inside",
+        "title": "Barritas de frutas, avena y semillas",
+        "description": "Una versión sabrosa de los flapjacks con una deliciosa capa de albaricoques en su interior",
         "prep_time": "5 mins Cook: 40 mins",
         "cook_time": "",
         "serves": "",
         "ingredients": [
-            "140g light muscovado sugar",
-            "3 tbsp golden syrup",
-            "140g butter",
-            "250g rolled oats",
-            "85g raisins or sultanas",
-            "85g walnut pieces (or use your favourite nuts, roughly chopped)",
-            "50g sesame or mixed seeds",
-            "25g dried cranberries",
-            "50g ready-to-eat apricots, finely chopped"
+            "140 g de azúcar mascabado light",
+            "3 cucharadas de almíbar dorado",
+            "140 g de mantequilla",
+            "250 g de copos de avena",
+            "85 g de pasas o pasas",
+            "85 g de nueces en trozos (o use sus nueces favoritas, picadas en trozos grandes)",
+            "50 g de sésamo o semillas mixtas",
+            "25 g de arándanos secos",
+            "50 g de albaricoques listos para comer, finamente picados"
         ],
         "method": [
-            "Heat oven to 160C/fan 140C/gas 3.\r\nGently heat the sugar, golden syrup\r\nand butter in a pan until the sugar and\r\nbutter have both melted. Stir the oats,\r\nraisins, walnuts, seeds and cranberries\r\ninto the pan until coated in the butter.",
-            "Spoon half the oaty mix into a traybake\r\ntin (23 x 23cm or thereabouts). Scatter\r\nthe apricots over the top, then top with\r\nthe remaining oat mix. Pack the mix\r\ndown well and smooth with the back\r\nof a metal spoon. Bake for 35 mins\r\nor until dark golden. Leave to cool\r\ncompletely before cutting into 16 bars\r\nwith a sharp knife."
+            "Calentar el horno a 160C/ventilador 140C/gas 3.\r\nCalentar suavemente el azúcar, el almíbar dorado.\r\ny mantequilla en una sartén hasta que el azúcar y\r\nLa mantequilla se ha derretido. Revuelve la avena,\r\npasas, nueces, semillas y arándanos\r\nen la sartén hasta que esté cubierto de mantequilla.",
+            "Vierta la mitad de la mezcla de avena en una bandeja para hornear.\r\nhojalata (23 x 23 cm o más o menos). dispersión\r\nlos albaricoques por encima, luego cubra con\r\nel resto de la mezcla de avena. Empaca la mezcla\r\nabajo bien y suave con la espalda\r\nde una cuchara de metal. Hornear por 35 minutos\r\no hasta que esté dorado oscuro. dejar enfriar\r\ncompletamente antes de cortar en 16 barras\r\ncon un cuchillo afilado."
         ],
         "nutritional_info": {
             "kcal": "244",
@@ -631,20 +631,20 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/perfect-scrambled-eggs/",
-        "title": "[ES] Perfect scrambled eggs recipe",
-        "description": "(Translation pending) Learn how to make perfect scrambled eggs with this easy recipe. A quick breakfast packed with protein, courtesy of Bill Granger.",
+        "title": "Receta perfecta de huevos revueltos",
+        "description": "Aprende a hacer huevos revueltos perfectos con esta receta fácil. Un desayuno rápido repleto de proteínas, cortesía de Bill Granger.",
         "prep_time": "",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "2 large free range eggs",
-            "6 tbsp single cream or full cream milk",
-            "a knob of butter"
+            "2 huevos grandes de corral",
+            "6 cucharadas de nata entera o leche entera",
+            "una nuez de mantequilla"
         ],
         "method": [
-            "Lightly whisk the eggs, cream\r\nand a pinch of salt together\r\nuntil all the ingredients are just\r\ncombined and the mixture has\r\none consistency.",
-            "Heat a small non-stick frying\r\npan for a minute or so, then add\r\nthe butter and let it melt. Don’t\r\nallow the butter to brown or it\r\nwill discolour the eggs. Pour in\r\nthe egg mixture and let it sit,\r\nwithout stirring, for 20 seconds.\r\nStir with a wooden spoon, lifting\r\nand folding it over from the\r\nbottom of the pan. Let it sit for\r\nanother 10 seconds then stir\r\nand fold again.",
-            "Repeat until the eggs are\r\nsoftly set and slightly runny in\r\nplaces, then remove from the\r\nheat and leave for a few\r\nseconds to finish cooking.\r\nGive a final stir and serve the\r\nvelvety scramble without delay."
+            "Batir ligeramente los huevos, la nata.\r\ny una pizca de sal juntos\r\nhasta que todos los ingredientes estén justo\r\ncombinado y la mezcla tiene\r\nuna consistencia.",
+            "Calentar una pequeña fritura antiadherente.\r\nsartén durante aproximadamente un minuto, luego agregue\r\nla mantequilla y dejar que se derrita. no lo hagas\r\nDeje que la mantequilla se dore o\r\ndecolorará los huevos. Vierta\r\nla mezcla de huevo y dejar reposar,\r\nsin revolver, durante 20 segundos.\r\nRevuelva con una cuchara de madera, levantando\r\ny doblándolo desde el\r\nfondo de la sartén. Déjalo reposar\r\notros 10 segundos y luego revuelva\r\ny doblar de nuevo.",
+            "Repita hasta que los huevos estén\r\nde fraguado suave y ligeramente líquido en\r\nlugares, luego retírela del\r\ncalentar y dejar reposar unos\r\nsegundos para terminar de cocinar.\r\nRevuelva por última vez y sirva\r\nrevuelta aterciopelada sin demora."
         ],
         "nutritional_info": {
             "kcal": "254",
@@ -661,19 +661,19 @@
     },
     {
         "url": "https://www.bbcgoodfoodme.com/recipes/perfect-porridge/",
-        "title": "[ES] Perfect porridge",
-        "description": "(Translation pending) Perfect porridge for a healthy way to start the day",
+        "title": "Gachas perfectas",
+        "description": "Gachas perfectas para empezar el día de forma saludable",
         "prep_time": "5 mins Cook: 10 mins",
         "cook_time": "",
         "serves": "1",
         "ingredients": [
-            "50g porridge oats",
-            "350ml milk or water, or a mixture of the two",
-            "Greek yogurt, thinned with a little milk and clear honey, to serve"
+            "50 g de gachas de avena",
+            "350ml de leche o agua, o una mezcla de las dos",
+            "Yogur griego, diluido con un poco de leche y miel clara, para servir"
         ],
         "method": [
-            "Put the oats in a\r\nsaucepan, pour in the milk or water and\r\nsprinkle in a pinch of salt. Bring to the boil\r\nand simmer for 4-5 minutes, stirring from\r\ntime to time and watching carefully that it\r\ndoesn’t stick to the bottom of the pan. Or you can try this in a microwave. Mix the oats, milk or water\r\nand a pinch of salt in a large microwaveproof\r\nbowl, then microwave on High for 5\r\nminutes, stirring halfway through. Leave\r\nto stand for 2 minutes before eating.",
-            "To serve. Pour into bowls, spoon yogurt\r\non top and drizzle with honey."
+            "Pon la avena en un\r\ncazo, vierte la leche o el agua y\r\nespolvorea una pizca de sal. Llevar a ebullición\r\ny cocine a fuego lento durante 4-5 minutos, revolviendo\r\nde vez en cuando y vigilando atentamente que\r\nno se pega al fondo de la sartén. O puedes probar esto en un microondas. Mezclar la avena, la leche o el agua.\r\ny una pizca de sal en un recipiente grande apto para microondas.\r\ntazón, luego cocine en el microondas a temperatura alta durante 5\r\nminutos, revolviendo a la mitad. salir\r\ndejar reposar 2 minutos antes de comer.",
+            "Para servir. Vierta en tazones, vierta el yogur con una cuchara.\r\nencima y rociar con miel."
         ],
         "nutritional_info": {
             "kcal": "175",
