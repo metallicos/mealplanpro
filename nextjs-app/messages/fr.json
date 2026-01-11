@@ -140,7 +140,19 @@
         "carbs": "Glucides",
         "fat": "Lipides",
         "searchFood_placeholder": "Rechercher poulet, riz, oeufs...",
-        "searching": "Recherche en cours..."
+        "searching": "Recherche en cours...",
+        "grams": "Grammes",
+        "mainMeal": "Repas Principal",
+        "addToLog": "Ajouter au Journal",
+        "searchHint": "Recherchez un ingrédient pour voir les macros réelles",
+        "logWeightTitle": "Notez votre poids du jour (Optionnel)",
+        "saveWeight": "Enregistrer",
+        "portionSize": "Taille de Portion",
+        "unknown": "Inconnu",
+        "custom": "Personnalisé",
+        "editLogEntry": "Modifier l'Entrée",
+        "editLogHint": "Ajuster la portion recalculera les macros.",
+        "weightPlaceholder": "ex: 70.5"
     },
     "fasting": {
         "title": "Centre de Jeûne",

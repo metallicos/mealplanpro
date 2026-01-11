@@ -518,7 +518,7 @@ export default function MacrosPage() {
 
                         <div className="grid grid-cols-2 gap-4">
                             <div>
-                                <label className="form-label">Grams</label>
+                                <label className="form-label">{t('grams')}</label>
                                 <input
                                     type="number"
                                     className="form-input"
@@ -528,14 +528,14 @@ export default function MacrosPage() {
                                 />
                             </div>
                             <div>
-                                <label className="form-label">Meal Type</label>
+                                <label className="form-label">{t('mealType')}</label>
                                 <select
                                     className="form-input"
                                     value={mealType}
                                     onChange={(e) => setMealType(e.target.value as 'main' | 'snack')}
                                 >
-                                    <option value="main">Main Meal</option>
-                                    <option value="snack">Snack</option>
+                                    <option value="main">{t('mainMeal')}</option>
+                                    <option value="snack">{t('snack')}</option>
                                 </select>
                             </div>
                         </div>
@@ -569,27 +569,27 @@ export default function MacrosPage() {
                             className="btn-primary w-full flex items-center justify-center gap-2"
                             disabled={!selectedFood}
                         >
-                            <Plus className="w-5 h-5" /> Add to Log
+                            <Plus className="w-5 h-5" /> {t('addToLog')}
                         </button>
                     </div>
 
                     {/* Quick Add Removed - Use Search */}
                     <div className="mt-4 text-xs text-gray-500 text-center">
-                        Search for any ingredient to see real macro data
+                        {t('searchHint')}
                     </div>
                 </div>
 
                 {/* Today's Log */}
                 <div className="card">
                     <div className="flex items-center justify-between mb-4">
-                        <h3 className="font-semibold">Today's Log</h3>
+                        <h3 className="font-semibold">{t('todayLog')}</h3>
                         <span className="badge badge-primary">{logItems.length} items</span>
                     </div>
 
                     {logItems.length === 0 ? (
                         <div className="text-center py-12" style={{ color: 'var(--text-muted)' }}>
                             <div className="text-5xl mb-4 flex justify-center"><Utensils className="w-16 h-16 opacity-50" /></div>
-                            <p>No foods logged yet. Start adding!</p>
+                            <p>{t('noFoodsLogged')}</p>
                         </div>
                     ) : (
                         <div className="space-y-2">
@@ -643,21 +643,21 @@ export default function MacrosPage() {
 
             {/* Weight Tracking */}
             <div className="card mt-6">
-                <h3 className="font-semibold mb-4">Log Today's Weight (Optional)</h3>
+                <h3 className="font-semibold mb-4">{t('logWeightTitle')}</h3>
                 <div className="flex gap-4 items-end">
                     <div className="flex-1 max-w-xs">
                         <label className="form-label">Weight (kg)</label>
                         <input
                             type="number"
                             className="form-input"
-                            placeholder="e.g., 114.5"
+                            placeholder={t('weightPlaceholder')}
                             step="0.1"
                             value={weight || ''}
                             onChange={(e) => setWeight(parseFloat(e.target.value) || null)}
                         />
                     </div>
                     <button className="btn-secondary">
-                        Save Weight
+                        {t('saveWeight')}
                     </button>
                 </div>
             </div>
@@ -740,7 +740,7 @@ export default function MacrosPage() {
                         {/* Quantity Input Section */}
                         <div className="bg-white/5 rounded-2xl p-4 mb-6">
                             <label className="text-gray-400 text-xs font-bold uppercase tracking-widest mb-3 block text-center">
-                                Portion Size
+                                {t('portionSize')}
                             </label>
 
                             {/* Unit Toggle */}
@@ -758,7 +758,7 @@ export default function MacrosPage() {
                                         : 'text-gray-400 hover:text-white'
                                         }`}
                                 >
-                                    1 Serving ({scannedFood.serving_size || 'Unknown'})
+                                    1 Serving ({scannedFood.serving_size || t('unknown')})
                                 </button>
                                 <button
                                     onClick={() => setScannedGrams(100)} // Reset to 100g base for custom entry
@@ -767,7 +767,7 @@ export default function MacrosPage() {
                                         : 'text-gray-400 hover:text-white'
                                         }`}
                                 >
-                                    Custom (g)
+                                    {t('custom')} (g)
                                 </button>
                             </div>
 
@@ -790,7 +790,7 @@ export default function MacrosPage() {
                             disabled={!scannedGrams || scannedGrams <= 0}
                             className="w-full py-4 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-xl font-bold text-lg text-white shadow-lg shadow-cyan-900/40 disabled:opacity-50 disabled:grayscale transition-all active:scale-[0.98] mt-8"
                         >
-                            Add to Log
+                            {t('addToLog')}
                         </button>
                     </div>
                 </div>
@@ -808,16 +808,16 @@ export default function MacrosPage() {
                             onClick={(e) => e.stopPropagation()}
                         >
                             <div className="p-6">
-                                <h3 className="text-xl font-bold text-white mb-6">Edit Log Entry</h3>
+                                <h3 className="text-xl font-bold text-white mb-6">{t('editLogEntry')}</h3>
 
                                 <div className="mb-4">
                                     <div className="text-white font-medium mb-1">{editingLog.food_name}</div>
-                                    <div className="text-sm text-gray-400">Adjusting portion size will recalculate macros.</div>
+                                    <div className="text-sm text-gray-400">{t('editLogHint')}</div>
                                 </div>
 
                                 <div className="grid grid-cols-2 gap-4 mb-6">
                                     <div>
-                                        <label className="text-xs font-semibold text-gray-400 mb-1.5 block">Serving (g)</label>
+                                        <label className="text-xs font-semibold text-gray-400 mb-1.5 block">{t('servingSize')} (g)</label>
                                         <input
                                             type="number"
                                             className="w-full bg-[#0a0a0f] border border-gray-700 rounded-lg px-3 py-2.5 text-white focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition-all"
@@ -827,14 +827,14 @@ export default function MacrosPage() {
                                         />
                                     </div>
                                     <div>
-                                        <label className="text-xs font-semibold text-gray-400 mb-1.5 block">Meal Type</label>
+                                        <label className="text-xs font-semibold text-gray-400 mb-1.5 block">{t('mealType')}</label>
                                         <select
                                             className="w-full bg-[#0a0a0f] border border-gray-700 rounded-lg px-3 py-2.5 text-white focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition-all appearance-none"
                                             value={editMealType}
                                             onChange={(e) => setEditMealType(e.target.value as 'main' | 'snack')}
                                         >
-                                            <option value="main">Main Meal</option>
-                                            <option value="snack">Snack</option>
+                                            <option value="main">{t('mainMeal')}</option>
+                                            <option value="snack">{t('snack')}</option>
                                         </select>
                                     </div>
                                 </div>
@@ -845,13 +845,13 @@ export default function MacrosPage() {
                                         onClick={() => setEditingLog(null)}
                                         className="flex-1 py-3 rounded-xl bg-gray-800 hover:bg-gray-700 text-gray-300 font-medium transition-colors"
                                     >
-                                        Cancel
+                                        {tCommon('cancel')}
                                     </button>
                                     <button
                                         onClick={updateLog}
                                         className="flex-1 py-3 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-400 hover:to-cyan-400 text-white font-bold shadow-lg shadow-blue-500/20 transition-all hover:scale-[1.02]"
                                     >
-                                        Save Changes
+                                        {tCommon('save')}
                                     </button>
                                 </div>
                             </div>

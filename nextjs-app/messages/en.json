@@ -140,7 +140,19 @@
     "carbs": "Carbs",
     "fat": "Fat",
     "searchFood_placeholder": "Search chicken, rice, eggs...",
-    "searching": "Searching..."
+    "searching": "Searching...",
+    "grams": "Grams",
+    "mainMeal": "Main Meal",
+    "addToLog": "Add to Log",
+    "searchHint": "Search for any ingredient to see real macro data",
+    "logWeightTitle": "Log Today's Weight (Optional)",
+    "saveWeight": "Save Weight",
+    "portionSize": "Portion Size",
+    "unknown": "Unknown",
+    "custom": "Custom",
+    "editLogEntry": "Edit Log Entry",
+    "editLogHint": "Adjusting portion size will recalculate macros.",
+    "weightPlaceholder": "e.g., 70.5"
   },
   "fasting": {
     "title": "Fasting Hub",
