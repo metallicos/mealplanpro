@@ -13,8 +13,23 @@ export async function GET(request: Request) {
     }
 
     // Helper to translate text using OpenRouter
-    const translate = async (text: string | string[], targetLang: string, context: 'query' | 'results'): Promise<any> => {
+    const translate = async (text: string | string[], targetLangCode: string, context: 'query' | 'results'): Promise<any> => {
         if (!process.env.OPENROUTER_API_KEY) return text;
+
+        const langMap: Record<string, string> = {
+            'fr': 'French',
+            'es': 'Spanish',
+            'de': 'German',
+            'it': 'Italian',
+            'pt': 'Portuguese',
+            'ru': 'Russian',
+            'ja': 'Japanese',
+            'ko': 'Korean',
+            'zh': 'Chinese',
+            'en': 'English'
+        };
+
+        const targetLang = langMap[targetLangCode] || targetLangCode;
 
         try {
             const prompt = context === 'query'
