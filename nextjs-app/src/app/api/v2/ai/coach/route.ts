@@ -24,6 +24,10 @@ export async function POST(request: NextRequest) {
         const profiles = await query('SELECT * FROM user_profiles WHERE user_id = ?', [session.id]);
         const profile = (profiles as any[])[0] || {};
 
+        // Get Input Data
+        const body = await request.json().catch(() => ({}));
+        const locale = body.locale || 'en';
+
         // Get today's check-in (mood, sleep)
         const today = new Date().toISOString().split('T')[0];
         const checkins = await query('SELECT * FROM daily_checkins WHERE user_id = ? AND date = ?', [session.id, today]);
@@ -33,7 +37,9 @@ export async function POST(request: NextRequest) {
         const systemPrompt = `
         You are an elite, empathetic fitness coach for the application "MealPlan Pro".
         Your goal is to generate a personalized daily workout plan and a short motivational speech based on the user's current state.
-
+        
+        IMPORTANT: You must respond in the following language: ${locale === 'fr' ? 'French (Français)' : locale === 'es' ? 'Spanish (Español)' : 'English'}.
+        
         User Profile:
         - Fitness Level: ${profile.activity_level || 'Intermediate'}
         - Goals: ${JSON.stringify(profile.macros_goal) || 'General Health'}
@@ -52,13 +58,13 @@ export async function POST(request: NextRequest) {
         
         JSON Structure:
         {
-            "motivation": "string",
+            "motivation": "string (in ${locale})",
             "workouts": [
                 { "type": "Cardio", "duration": "20 min", "exercises": ["..."] },
                 { "type": "Strength", "duration": "45 min", "exercises": ["..."] },
                 { "type": "Mobility", "duration": "15 min", "exercises": ["..."] }
             ],
-            "recommendation": "Based on your sleep, we recommend option..."
+            "recommendation": "Based on your sleep, we recommend option... (in ${locale})"
         }
         `;
 

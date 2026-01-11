@@ -6,7 +6,7 @@ import {
     Target, Swords, Footprints, Flame, StretchHorizontal, Mountain,
     Home, TreePine, Building2, Check
 } from 'lucide-react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 // Sport types with Lucide icons and valid locations
 const SPORTS = [
@@ -61,6 +61,7 @@ interface AiResponse {
 
 export default function AiCoachWidget() {
     const t = useTranslations('coach');
+    const locale = useLocale();
     const [step, setStep] = useState<'loading' | 'checkin' | 'generating' | 'result'>('loading');
 
     // Check-in State
