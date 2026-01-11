@@ -7,7 +7,6 @@ import { useState, useEffect } from 'react';
 import SmartPlan from '@/components/SmartPlan';
 import WaterTracker from '@/components/WaterTracker';
 import FastingTimer from '@/components/FastingTimer';
-import FastingTimer from '@/components/FastingTimer';
 import OnboardingController from '@/components/OnboardingController';
 import {
   Flame,
