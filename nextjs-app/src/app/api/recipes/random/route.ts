@@ -5,17 +5,24 @@ export async function GET(request: NextRequest) {
     const searchParams = request.nextUrl.searchParams;
     const count = parseInt(searchParams.get('count') || '6');
     const healthyOnly = searchParams.get('healthy') === 'true';
+    const lang = searchParams.get('lang') || 'en';
 
     try {
-        // Get random recipes with translations (V2 schema)
+        // Get random recipes with translations (Requested Lang -> Fallback EN -> 'Untitled')
         const countInt = parseInt(count.toString());
 
         let sql = `
-            SELECT r.*, rt.title, rt.description, rt.ingredients_json, rt.method_json
+            SELECT r.*, 
+                   COALESCE(rt.title, rt_en.title, 'Untitled Recipe') as title,
+                   COALESCE(rt.description, rt_en.description, '') as description,
+                   COALESCE(rt.ingredients_json, rt_en.ingredients_json, '[]') as ingredients_json,
+                   COALESCE(rt.method_json, rt_en.method_json, '[]') as method_json
             FROM recipes r
-            LEFT JOIN recipe_translations rt ON r.id = rt.recipe_id AND rt.language_code = 'en'
+            LEFT JOIN recipe_translations rt ON r.id = rt.recipe_id AND rt.language_code = ?
+            LEFT JOIN recipe_translations rt_en ON r.id = rt_en.recipe_id AND rt_en.language_code = 'en'
         `;
-        const params: any[] = [];
+
+        const params: any[] = [lang];
 
         if (healthyOnly) {
             sql += ' WHERE is_healthy = 1';
