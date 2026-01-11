@@ -16,6 +16,7 @@ export async function GET(request: Request) {
     const translate = async (text: string | string[], targetLangCode: string, context: 'query' | 'results'): Promise<any> => {
         if (!process.env.OPENROUTER_API_KEY) return text;
 
+        const langCode = targetLangCode.split('-')[0].toLowerCase();
         const langMap: Record<string, string> = {
             'fr': 'French',
             'es': 'Spanish',
@@ -26,15 +27,26 @@ export async function GET(request: Request) {
             'ja': 'Japanese',
             'ko': 'Korean',
             'zh': 'Chinese',
-            'en': 'English'
+            'en': 'English',
+            'id': 'Indonesian',
+            'ms': 'Malay',
+            'hi': 'Hindi',
+            'ar': 'Arabic',
+            'tr': 'Turkish',
+            'nl': 'Dutch',
+            'pl': 'Polish',
+            'sv': 'Swedish',
+            'vi': 'Vietnamese',
+            'th': 'Thai'
         };
 
-        const targetLang = langMap[targetLangCode] || targetLangCode;
+        const targetLang = langMap[langCode] || targetLangCode;
+        console.log(`[Translation] Translating to: ${targetLang} (Code: ${targetLangCode})`);
 
         try {
             const prompt = context === 'query'
-                ? `Translate this food search term from ${targetLang} to English. Output ONLY the English term, nothing else. Term: "${text}"`
-                : `Translate these food ingredient names from English to ${targetLang}. Return ONLY a JSON object where keys are the English names and values are the ${targetLang} translations. Names: ${JSON.stringify(text)}`;
+                ? `Translate this food search term from ${targetLang} to English. Output ONLY the English term, nothing else. Do not correct the spelling if it changes the meaning. Term: "${text}"`
+                : `Translate these food ingredient names from English to ${targetLang}. Return ONLY a JSON object where keys are the English names and values are the ${targetLang} translations. Ensure the translations are accurate and specifically in ${targetLang}. If uncertain, keep the English name. Names: ${JSON.stringify(text)}`;
 
             const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
                 method: 'POST',
