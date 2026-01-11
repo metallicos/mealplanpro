@@ -85,7 +85,6 @@ export default function FastingTimer() {
     };
 
     return (
-    return (
         <div className="card relative overflow-hidden bg-gradient-to-br from-emerald-900/40 to-slate-900/40 backdrop-blur-md text-white border-none">
             {/* Progress Bar Background */}
             <div className="absolute top-0 left-0 w-full h-1 bg-emerald-900/30">
@@ -134,6 +133,5 @@ export default function FastingTimer() {
                 <p className="text-[10px] text-slate-500 mt-2 pl-1 leading-tight">{t('readyToStart')}</p>
             )}
         </div>
-    );
     );
 }
