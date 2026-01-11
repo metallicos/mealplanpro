@@ -29,6 +29,17 @@ export async function POST(request: NextRequest) {
         const profiles = await query('SELECT * FROM user_profiles WHERE user_id = ?', [session.id]);
         const profile = (profiles as any[])[0] || {};
 
+        // 1.1 Get Workout History (Last 5 sessions for progressive overload context)
+        const historyLogs = await query(
+            'SELECT * FROM completed_workouts WHERE user_id = ? ORDER BY date DESC LIMIT 5',
+            [session.id]
+        );
+        const history = (historyLogs as any[]).map(log => {
+            const feedback = JSON.parse(log.feedback_json || '{}');
+            const workout = JSON.parse(log.workout_json || '{}');
+            return `Date: ${log.date}, Workout: ${workout.title}, Difficulty Rating: ${feedback.rating}/5`;
+        }).join('\n');
+
         // Get Input Data
         const body = await request.json().catch(() => ({}));
         const locale = body.locale || 'en';
@@ -51,6 +62,9 @@ export async function POST(request: NextRequest) {
         - Fitness Level: ${profile.activity_level || 'Intermediate'}
         - Restrictions: ${profile.dietary_restrictions || 'None'}
         
+        Recent Training History (Use this for Progressive Overload):
+        ${history || 'No recent history yet.'}
+
         Today's Status:
         - Sleep: ${checkin.sleep_hours || '?'} hrs
         - Energy: ${checkin.energy_level || 5}/10
