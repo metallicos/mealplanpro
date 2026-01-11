@@ -2,7 +2,7 @@
 
 import { useState, useEffect, lazy, Suspense } from 'react';
 import { useUser } from '@/contexts/UserContext';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import {
     Utensils, Calendar, ChevronLeft, ChevronRight, Flame,
     Dumbbell, Wheat, Droplet, Bone, Zap, Banana, Leaf as Salt,
