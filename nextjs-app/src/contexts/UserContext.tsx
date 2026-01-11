@@ -28,6 +28,7 @@ export interface UserSettings {
     neck: number;
     waist: number;
     hip: number;
+    themePreference?: string;
 }
 
 interface UserContextType {
@@ -63,6 +64,7 @@ const defaultSettings: UserSettings = {
     proteinTarget: 150,
     carbsTarget: 200,
     fatTarget: 66,
+    themePreference: 'auto',
 };
 
 // Theme configurations - Vitality Theme (Emerald/Teal)
@@ -141,7 +143,7 @@ export function UserProvider({ children }: { children: ReactNode }) {
                     neck: data.neck || defaultSettings.neck,
                     waist: data.waist || defaultSettings.waist,
                     hip: data.hip || defaultSettings.hip,
-                    themePreference: data.themePreference || defaultSettings.themePreference,
+                    themePreference: data.themePreference || 'auto',
                 });
             }
         } catch (error) {
