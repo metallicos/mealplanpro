@@ -70,6 +70,7 @@ export default function MacrosPage() {
     const t = useTranslations('macros');
     const tDash = useTranslations('dashboard');
     const tCommon = useTranslations('common');
+    const locale = useLocale();
     const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split('T')[0]);
     const [logItems, setLogItems] = useState<LogItem[]>([]);
     const [searchQuery, setSearchQuery] = useState('');
@@ -124,7 +125,7 @@ export default function MacrosPage() {
         const timer = setTimeout(() => {
             if (searchQuery.length >= 2) {
                 setIsSearching(true);
-                fetch(`/api/ingredients/search?q=${encodeURIComponent(searchQuery)}`)
+                fetch(`/api/ingredients/search?q=${encodeURIComponent(searchQuery)}&lang=${tCommon('lang') || 'en'}`)
                     .then(res => res.json())
                     .then(data => {
                         setSearchResults(data.ingredients || []);

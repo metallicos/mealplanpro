@@ -6,15 +6,72 @@ const USDA_API_URL = 'https://api.nal.usda.gov/fdc/v1/foods/search';
 export async function GET(request: Request) {
     const { searchParams } = new URL(request.url);
     const query = searchParams.get('q');
+    const lang = searchParams.get('lang') || 'en';
 
     if (!query || query.length < 2) {
         return NextResponse.json({ ingredients: [] });
     }
 
+    // Helper to translate text using OpenRouter
+    const translate = async (text: string | string[], targetLang: string, context: 'query' | 'results'): Promise<any> => {
+        if (!process.env.OPENROUTER_API_KEY) return text;
+
+        try {
+            const prompt = context === 'query'
+                ? `Translate this food search term from ${targetLang} to English. Output ONLY the English term, nothing else. Term: "${text}"`
+                : `Translate these food ingredient names from English to ${targetLang}. Return ONLY a JSON object where keys are the English names and values are the ${targetLang} translations. Names: ${JSON.stringify(text)}`;
+
+            const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY}`,
+                    'HTTP-Referer': 'https://mealplanpro.app',
+                    'X-Title': 'MealPlan Pro',
+                },
+                body: JSON.stringify({
+                    model: 'google/gemini-2.0-flash-001',
+                    messages: [
+                        { role: 'system', content: context === 'query' ? 'You are a translator.' : 'You are a translator. JSON only.' },
+                        { role: 'user', content: prompt }
+                    ],
+                    response_format: context === 'results' ? { type: 'json_object' } : undefined
+                })
+            });
+
+            const data = await response.json();
+            const content = data.choices?.[0]?.message?.content?.trim();
+
+            if (!content) return text;
+
+            if (context === 'query') {
+                return content.replace(/['"]/g, '');
+            } else {
+                try {
+                    const jsonStr = content.replace(/```json/g, '').replace(/```/g, '').trim();
+                    return JSON.parse(jsonStr);
+                } catch (e) {
+                    console.error('Translation parse error', e);
+                    return {};
+                }
+            }
+        } catch (error) {
+            console.error('Translation error:', error);
+            return text;
+        }
+    };
+
     try {
         if (!USDA_API_KEY) {
             console.error('USDA_API_KEY is missing');
             return NextResponse.json({ ingredients: [], error: 'API Configuration Error' });
+        }
+
+        // 1. Translate Query if needed
+        let searchTerm = query;
+        if (lang !== 'en') {
+            searchTerm = await translate(query, lang, 'query');
+            console.log(`Translated query: ${query} -> ${searchTerm}`);
         }
 
         const cleanName = (name: string) => {
@@ -62,7 +119,7 @@ export async function GET(request: Request) {
 
         // Fetch ONLY Foundation data
         const response = await fetch(
-            `${USDA_API_URL}?query=${encodeURIComponent(query)}&dataType=Foundation&pageSize=50&api_key=${USDA_API_KEY}`
+            `${USDA_API_URL}?query=${encodeURIComponent(searchTerm)}&dataType=Foundation&pageSize=25&api_key=${USDA_API_KEY}`
         );
 
         if (!response.ok) {
@@ -87,7 +144,8 @@ export async function GET(request: Request) {
 
             return {
                 id: food.fdcId,
-                name: cleanedName,
+                name: cleanedName, // Keep English name for now
+                originalName: cleanedName,
                 // Macros (with Math.max already in getNutrient)
                 // Energy: Try 2047 (Atwater Specific) -> 2048 (Atwater General) -> 1008 (Kcal)
                 calories: getNutrient(2047) || getNutrient(2048) || getNutrient(1008) || 0,
@@ -109,43 +167,41 @@ export async function GET(request: Request) {
             };
         });
 
-        // 2. Deduplicate based on Cleaned Name and Data Quality
+        // Deduplicate and Sort (similar to before)
         const uniqueMap = new Map();
         rawIngredients.forEach((item: any) => {
-            // Filter out items with very generic "Unknown" names or empty names
             if (!item.name || item.name.length < 2) return;
-
-            // Update if not exists matching name
-            // (Foundation data is usually high quality, so first match is often fine)
+            // Favor items with shorter names or foundation data (which this is)
             if (!uniqueMap.has(item.name)) {
                 uniqueMap.set(item.name, item);
             }
         });
 
-        const ingredients = Array.from(uniqueMap.values());
+        let ingredients = Array.from(uniqueMap.values());
 
-        // 3. Sorting
-        const q = query.toLowerCase();
-        ingredients.sort((a: any, b: any) => {
+        // Sort by relevance to English term
+        const qLower = searchTerm.toLowerCase();
+        ingredients.sort((a, b) => {
             const nameA = a.name.toLowerCase();
             const nameB = b.name.toLowerCase();
-
-            // Exact match
-            if (nameA === q && nameB !== q) return -1;
-            if (nameB === q && nameA !== q) return 1;
-
-            // Starts with "Query (" (Noun priority with parens) e.g. "Rice (black)"
-            const nounA = nameA.startsWith(q + ' (');
-            const nounB = nameB.startsWith(q + ' (');
-            if (nounA && !nounB) return -1;
-            if (!nounB && nounA) return 1;
-
-            // Starts with
-            if (nameA.startsWith(q) && !nameB.startsWith(q)) return -1;
-            if (nameB.startsWith(q) && !nameA.startsWith(q)) return 1;
-
+            if (nameA === qLower && nameB !== qLower) return -1;
+            if (nameB === qLower && nameA !== qLower) return 1;
             return nameA.length - nameB.length;
         });
+
+        // Limit results before translation to save tokens/time
+        ingredients = ingredients.slice(0, 15);
+
+        // 2. Translate Results if needed
+        if (lang !== 'en' && ingredients.length > 0) {
+            const namesToTranslate = ingredients.map((i: any) => i.name);
+            const translations = await translate(namesToTranslate, lang, 'results');
+
+            ingredients = ingredients.map((item: any) => ({
+                ...item,
+                name: translations[item.name] || item.name // Apply translation or fallback to English
+            }));
+        }
 
         return NextResponse.json({ ingredients });
 
