@@ -321,64 +321,61 @@ export default function MealDetailsPage() {
                     {/* Review Form */}
                     {user && (
                         <form onSubmit={handleRate} className="bg-[var(--bg-secondary)]/50 p-6 rounded-2xl mb-8 border border-white/5">
-                            {/* Review Form */}
-                            {user && (
-                                <form onSubmit={handleRate} className="bg-[var(--bg-secondary)]/50 p-6 rounded-2xl mb-8 border border-white/5">
-                                    <h4 className="font-bold mb-4">{t('leaveReview')}</h4>
-                                    <div className="flex gap-2 mb-4">
-                                        {[1, 2, 3, 4, 5].map(star => (
-                                            <button
-                                                key={star}
-                                                type="button"
-                                                onClick={() => setUserRating(star)}
-                                                className="text-2xl transition-transform hover:scale-110"
-                                            >
-                                                <Star className={`w-8 h-8 ${star <= userRating ? 'text-yellow-400 fill-current' : 'text-gray-600'}`} />
-                                            </button>
-                                        ))}
-                                    </div>
-                                    <textarea
-                                        className="form-input w-full mb-4 bg-black/20"
-                                        placeholder="What did you think of this recipe?"
-                                        value={userComment}
-                                        onChange={e => setUserComment(e.target.value)}
-                                        rows={3}
-                                    />
+                            <h4 className="font-bold mb-4">{t('leaveReview')}</h4>
+                            <div className="flex gap-2 mb-4">
+                                {[1, 2, 3, 4, 5].map(star => (
                                     <button
-                                        type="submit"
-                                        disabled={submittingRating || userRating === 0}
-                                        className="btn-primary disabled:opacity-50"
+                                        key={star}
+                                        type="button"
+                                        onClick={() => setUserRating(star)}
+                                        className="text-2xl transition-transform hover:scale-110"
                                     >
-                                        {submittingRating ? tCommon('loading') : t('postReview')}
+                                        <Star className={`w-8 h-8 ${star <= userRating ? 'text-yellow-400 fill-current' : 'text-gray-600'}`} />
                                     </button>
-                                </form>
-                            )}
-
-                            {/* Reviews List */}
-                            <div className="space-y-6">
-                                {ratings.length === 0 ? (
-                                    <p className="text-gray-500 text-center py-4 flex items-center justify-center gap-2"><Utensils size={16} /> {t('noReviews')}</p>
-                                ) : (
-                                    ratings.map(review => (
-                                        <div key={review.id} className="border-b border-white/5 last:border-0 pb-6 last:pb-0">
-                                            <div className="flex justify-between items-start mb-2">
-                                                <div className="font-bold">{review.user_name}</div>
-                                                <div className="text-yellow-400 text-sm flex gap-0.5">
-                                                    {Array.from({ length: 5 }).map((_, i) => (
-                                                        <Star key={i} className={`w-3 h-3 ${i < review.rating ? 'fill-current' : 'text-gray-700'}`} />
-                                                    ))}
-                                                </div>
-                                            </div>
-                                            <div className="text-xs text-gray-500 mb-2">{new Date(review.created_at).toLocaleDateString()}</div>
-                                            <p className="text-gray-300 text-sm leading-relaxed">
-                                                {review.comment || <span className="italic text-gray-600">No comment provided</span>}
-                                            </p>
-                                        </div>
-                                    ))
-                                )}
+                                ))}
                             </div>
-                        </div>
+                            <textarea
+                                className="form-input w-full mb-4 bg-black/20"
+                                placeholder="What did you think of this recipe?"
+                                value={userComment}
+                                onChange={e => setUserComment(e.target.value)}
+                                rows={3}
+                            />
+                            <button
+                                type="submit"
+                                disabled={submittingRating || userRating === 0}
+                                className="btn-primary disabled:opacity-50"
+                            >
+                                {submittingRating ? tCommon('loading') : t('postReview')}
+                            </button>
+                        </form>
+                    )}
+
+                    {/* Reviews List */}
+                    <div className="space-y-6">
+                        {ratings.length === 0 ? (
+                            <p className="text-gray-500 text-center py-4 flex items-center justify-center gap-2"><Utensils size={16} /> {t('noReviews')}</p>
+                        ) : (
+                            ratings.map(review => (
+                                <div key={review.id} className="border-b border-white/5 last:border-0 pb-6 last:pb-0">
+                                    <div className="flex justify-between items-start mb-2">
+                                        <div className="font-bold">{review.user_name}</div>
+                                        <div className="text-yellow-400 text-sm flex gap-0.5">
+                                            {Array.from({ length: 5 }).map((_, i) => (
+                                                <Star key={i} className={`w-3 h-3 ${i < review.rating ? 'fill-current' : 'text-gray-700'}`} />
+                                            ))}
+                                        </div>
+                                    </div>
+                                    <div className="text-xs text-gray-500 mb-2">{new Date(review.created_at).toLocaleDateString()}</div>
+                                    <p className="text-gray-300 text-sm leading-relaxed">
+                                        {review.comment || <span className="italic text-gray-600">No comment provided</span>}
+                                    </p>
+                                </div>
+                            ))
+                        )}
+                    </div>
+                </div>
             </div>
-            </div>
-            );
+        </div>
+    );
 }
