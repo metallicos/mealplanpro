@@ -1,7 +1,7 @@
 'use client';
 
 import { useUser } from '@/contexts/UserContext';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import SmartPlan from '@/components/SmartPlan';
@@ -52,6 +52,7 @@ interface Recipe {
 export default function Dashboard() {
   const { user, theme, settings, isLoading } = useUser();
   const t = useTranslations('dashboard');
+  const locale = useLocale();
   const tFamily = useTranslations('family');
   const tCommon = useTranslations('common');
   const [randomMeals, setRandomMeals] = useState<Recipe[]>([]);

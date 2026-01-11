@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import { useUser } from '@/contexts/UserContext';
+import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { Heart, MessageCircle, Paperclip, Camera, X, Send, Loader2, ArrowRight } from 'lucide-react';
 
