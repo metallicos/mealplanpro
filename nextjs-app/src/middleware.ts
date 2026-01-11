@@ -28,7 +28,7 @@ export async function middleware(request: NextRequest) {
     }
 
     // ADMIN ROUTES: Only admin role can access
-    if (pathname.startsWith('/admin') && payload.role !== 'admin') {
+    if (pathname.startsWith('/admin') && payload?.role !== 'admin') {
         return NextResponse.redirect(new URL('/', request.url));
     }
 
