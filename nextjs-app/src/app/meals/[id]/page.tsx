@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
+import { useTranslations, useLocale } from 'next-intl';
 import { useUser } from '@/contexts/UserContext';
 import {
     ArrowLeft, Leaf, Tag, Star, Clock, Flame, Users,
@@ -40,6 +41,9 @@ export default function MealDetailsPage() {
     const { id } = useParams();
     const router = useRouter();
     const { user } = useUser();
+    const locale = useLocale();
+    const t = useTranslations('meals');
+    const tCommon = useTranslations('common');
 
     const [recipe, setRecipe] = useState<Recipe | null>(null);
     const [loading, setLoading] = useState(true);
@@ -56,7 +60,7 @@ export default function MealDetailsPage() {
         if (!id) return;
 
         // Fetch Recipe
-        fetch(`/api/recipes/${id}`)
+        fetch(`/api/recipes/${id}?lang=${locale}`)
             .then(res => {
                 if (!res.ok) throw new Error('Recipe not found');
                 return res.json();
@@ -131,7 +135,7 @@ export default function MealDetailsPage() {
             <h2 className="text-2xl font-bold mb-4 text-red-400 flex items-center justify-center gap-2">
                 <Info className="w-6 h-6" /> {error}
             </h2>
-            <Link href="/meals" className="btn-primary">Browse All Meals</Link>
+            <Link href="/meals" className="btn-primary">{t('browseMeals')}</Link>
         </div>
     );
 
@@ -193,7 +197,7 @@ export default function MealDetailsPage() {
 
             <div className="relative z-10 pt-[25vh] px-4 max-w-4xl mx-auto">
                 <Link href="/meals" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 bg-black/30 backdrop-blur-md px-4 py-2 rounded-full transition-all hover:bg-black/50">
-                    <ArrowLeft className="w-4 h-4" /> Back to Meals
+                    <ArrowLeft className="w-4 h-4" /> {t('backToMeals')}
                 </Link>
 
                 <div className="card shadow-2xl border-t border-white/10 relative overflow-hidden mb-8">
@@ -204,7 +208,7 @@ export default function MealDetailsPage() {
                         <div className="flex flex-wrap gap-2 mb-3">
                             {recipe!.isHealthy && (
                                 <span className="bg-green-500/20 text-green-400 text-xs font-bold px-2 py-1 rounded uppercase tracking-wider flex items-center gap-1">
-                                    <Leaf className="w-3 h-3" /> Healthy Choice
+                                    <Leaf className="w-3 h-3" /> {t('healthy')}
                                 </span>
                             )}
                             <span className="bg-white/10 text-gray-300 text-xs font-bold px-2 py-1 rounded uppercase tracking-wider flex items-center gap-1">
@@ -223,12 +227,12 @@ export default function MealDetailsPage() {
                         <div className="text-center">
                             <div className="text-2xl mb-1 flex justify-center"><Clock className="w-8 h-8 text-[var(--accent-secondary)]" /></div>
                             <div className="font-bold">{displayPrep}</div>
-                            <div className="text-xs text-gray-500">Prep Time</div>
+                            <div className="text-xs text-gray-500">{t('prepTime')}</div>
                         </div>
                         <div className="text-center">
                             <div className="text-2xl mb-1 flex justify-center"><Flame className="w-8 h-8 text-[var(--calories)]" /></div>
                             <div className="font-bold">{displayCook}</div>
-                            <div className="text-xs text-gray-500">Cook Time</div>
+                            <div className="text-xs text-gray-500">{t('cookTime')}</div>
                         </div>
                         <div className="text-center">
                             <div className="text-2xl mb-1 flex justify-center"><Users className="w-8 h-8 text-blue-400" /></div>
@@ -243,43 +247,42 @@ export default function MealDetailsPage() {
                                     className="w-6 h-6 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-xs"
                                 >+</button>
                             </div>
-                            <div className="text-xs text-gray-500">Servings</div>
+                            <div className="text-xs text-gray-500">{t('servings')}</div>
                         </div>
                         <div className="text-center">
                             <div className="text-2xl mb-1 flex justify-center"><Zap className="w-8 h-8 text-yellow-400" /></div>
                             <div className="font-bold text-[var(--calories)]">
                                 {Math.round(recipe!.kcal * (currentServings / (parseInt(recipe!.serves) || 1)))}
                             </div>
-                            <div className="text-xs text-gray-500">Total Kcal</div>
+                            <div className="text-xs text-gray-500">{tCommon('calories')}</div>
                         </div>
                     </div>
 
                     {/* Macros */}
                     <div className="mb-8">
                         <h3 className="font-bold text-lg mb-4 flex items-center gap-2">
-                            <Zap className="w-5 h-5 text-yellow-400" /> Nutrition per serving (Fixed)
+                            <Zap className="w-5 h-5 text-yellow-400" /> {t('nutritionPerServing')}
                         </h3>
                         <div className="grid grid-cols-3 gap-4">
                             <div className="bg-[var(--bg-secondary)] p-3 rounded-lg text-center">
                                 <div className="text-xl font-bold text-[var(--protein)]">{recipe!.protein}g</div>
-                                <div className="text-xs text-gray-400">Protein</div>
+                                <div className="text-xs text-gray-400">{tCommon('protein')}</div>
                             </div>
                             <div className="bg-[var(--bg-secondary)] p-3 rounded-lg text-center">
                                 <div className="text-xl font-bold text-[var(--carbs)]">{recipe!.carbs}g</div>
-                                <div className="text-xs text-gray-400">Carbs</div>
+                                <div className="text-xs text-gray-400">{tCommon('carbs')}</div>
                             </div>
                             <div className="bg-[var(--bg-secondary)] p-3 rounded-lg text-center">
                                 <div className="text-xl font-bold text-[var(--fat)]">{recipe!.fat}g</div>
-                                <div className="text-xs text-gray-400">Fat</div>
+                                <div className="text-xs text-gray-400">{tCommon('fat')}</div>
                             </div>
                         </div>
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-8">
                         {/* Ingredients */}
-                        {/* Ingredients */}
                         <div>
-                            <h3 className="font-bold text-xl mb-4 border-b border-white/10 pb-2 flex items-center gap-2"><Carrot className="w-5 h-5 text-orange-400" /> Ingredients</h3>
+                            <h3 className="font-bold text-xl mb-4 border-b border-white/10 pb-2 flex items-center gap-2"><Carrot className="w-5 h-5 text-orange-400" /> {t('ingredients')}</h3>
                             <ul className="space-y-3">
                                 {Array.isArray(recipe!.ingredients) && recipe!.ingredients.map((ing, i) => (
                                     <li key={i} className="flex items-start gap-3 text-sm md:text-base text-gray-300">
@@ -294,7 +297,7 @@ export default function MealDetailsPage() {
 
                         {/* Method */}
                         <div>
-                            <h3 className="font-bold text-xl mb-4 border-b border-white/10 pb-2 flex items-center gap-2"><Chef className="w-5 h-5 text-[var(--accent-secondary)]" /> Instructions</h3>
+                            <h3 className="font-bold text-xl mb-4 border-b border-white/10 pb-2 flex items-center gap-2"><Chef className="w-5 h-5 text-[var(--accent-secondary)]" /> {t('method')}</h3>
                             <div className="space-y-6">
                                 {Array.isArray(recipe!.method) && recipe!.method.map((step, i) => (
                                     <div key={i} className="relative pl-6">
@@ -312,67 +315,70 @@ export default function MealDetailsPage() {
                 {/* Ratings & Comments Section */}
                 <div className="card shadow-2xl border-t border-white/10">
                     <h3 className="font-bold text-2xl mb-6 flex items-center gap-2">
-                        <Star className="w-6 h-6 text-yellow-500 fill-current" /> Reviews <span className="text-base font-normal text-gray-500">({ratings.length})</span>
+                        <Star className="w-6 h-6 text-yellow-500 fill-current" /> {t('reviews')} <span className="text-base font-normal text-gray-500">({ratings.length})</span>
                     </h3>
 
                     {/* Review Form */}
                     {user && (
                         <form onSubmit={handleRate} className="bg-[var(--bg-secondary)]/50 p-6 rounded-2xl mb-8 border border-white/5">
-                            <h4 className="font-bold mb-4">Leave a Review</h4>
-                            <div className="flex gap-2 mb-4">
-                                {[1, 2, 3, 4, 5].map(star => (
-                                    <button
-                                        key={star}
-                                        type="button"
-                                        onClick={() => setUserRating(star)}
-                                        className="text-2xl transition-transform hover:scale-110"
-                                    >
-                                        <Star className={`w-8 h-8 ${star <= userRating ? 'text-yellow-400 fill-current' : 'text-gray-600'}`} />
-                                    </button>
-                                ))}
-                            </div>
-                            <textarea
-                                className="form-input w-full mb-4 bg-black/20"
-                                placeholder="What did you think of this recipe?"
-                                value={userComment}
-                                onChange={e => setUserComment(e.target.value)}
-                                rows={3}
-                            />
-                            <button
-                                type="submit"
-                                disabled={submittingRating || userRating === 0}
-                                className="btn-primary disabled:opacity-50"
-                            >
-                                {submittingRating ? 'Submitting...' : 'Submit Review'}
-                            </button>
-                        </form>
-                    )}
-
-                    {/* Reviews List */}
-                    <div className="space-y-6">
-                        {ratings.length === 0 ? (
-                            <p className="text-gray-500 text-center py-4 flex items-center justify-center gap-2"><Utensils size={16} /> No reviews yet. Be the first to try it!</p>
-                        ) : (
-                            ratings.map(review => (
-                                <div key={review.id} className="border-b border-white/5 last:border-0 pb-6 last:pb-0">
-                                    <div className="flex justify-between items-start mb-2">
-                                        <div className="font-bold">{review.user_name}</div>
-                                        <div className="text-yellow-400 text-sm flex gap-0.5">
-                                            {Array.from({ length: 5 }).map((_, i) => (
-                                                <Star key={i} className={`w-3 h-3 ${i < review.rating ? 'fill-current' : 'text-gray-700'}`} />
-                                            ))}
-                                        </div>
+                            {/* Review Form */}
+                            {user && (
+                                <form onSubmit={handleRate} className="bg-[var(--bg-secondary)]/50 p-6 rounded-2xl mb-8 border border-white/5">
+                                    <h4 className="font-bold mb-4">{t('leaveReview')}</h4>
+                                    <div className="flex gap-2 mb-4">
+                                        {[1, 2, 3, 4, 5].map(star => (
+                                            <button
+                                                key={star}
+                                                type="button"
+                                                onClick={() => setUserRating(star)}
+                                                className="text-2xl transition-transform hover:scale-110"
+                                            >
+                                                <Star className={`w-8 h-8 ${star <= userRating ? 'text-yellow-400 fill-current' : 'text-gray-600'}`} />
+                                            </button>
+                                        ))}
                                     </div>
-                                    <div className="text-xs text-gray-500 mb-2">{new Date(review.created_at).toLocaleDateString()}</div>
-                                    <p className="text-gray-300 text-sm leading-relaxed">
-                                        {review.comment || <span className="italic text-gray-600">No comment provided</span>}
-                                    </p>
-                                </div>
-                            ))
-                        )}
-                    </div>
-                </div>
+                                    <textarea
+                                        className="form-input w-full mb-4 bg-black/20"
+                                        placeholder="What did you think of this recipe?"
+                                        value={userComment}
+                                        onChange={e => setUserComment(e.target.value)}
+                                        rows={3}
+                                    />
+                                    <button
+                                        type="submit"
+                                        disabled={submittingRating || userRating === 0}
+                                        className="btn-primary disabled:opacity-50"
+                                    >
+                                        {submittingRating ? tCommon('loading') : t('postReview')}
+                                    </button>
+                                </form>
+                            )}
+
+                            {/* Reviews List */}
+                            <div className="space-y-6">
+                                {ratings.length === 0 ? (
+                                    <p className="text-gray-500 text-center py-4 flex items-center justify-center gap-2"><Utensils size={16} /> {t('noReviews')}</p>
+                                ) : (
+                                    ratings.map(review => (
+                                        <div key={review.id} className="border-b border-white/5 last:border-0 pb-6 last:pb-0">
+                                            <div className="flex justify-between items-start mb-2">
+                                                <div className="font-bold">{review.user_name}</div>
+                                                <div className="text-yellow-400 text-sm flex gap-0.5">
+                                                    {Array.from({ length: 5 }).map((_, i) => (
+                                                        <Star key={i} className={`w-3 h-3 ${i < review.rating ? 'fill-current' : 'text-gray-700'}`} />
+                                                    ))}
+                                                </div>
+                                            </div>
+                                            <div className="text-xs text-gray-500 mb-2">{new Date(review.created_at).toLocaleDateString()}</div>
+                                            <p className="text-gray-300 text-sm leading-relaxed">
+                                                {review.comment || <span className="italic text-gray-600">No comment provided</span>}
+                                            </p>
+                                        </div>
+                                    ))
+                                )}
+                            </div>
+                        </div>
             </div>
-        </div>
-    );
+            </div>
+            );
 }

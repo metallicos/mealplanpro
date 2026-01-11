@@ -8,20 +8,22 @@ export async function GET(
 ) {
     const params = await props.params;
     const { id } = params;
+    const searchParams = request.nextUrl.searchParams;
+    const lang = searchParams.get('lang') || 'en';
 
     try {
-        // Get recipe with translation (try EN, then FR fallback)
+        // Get recipe with translation (Requested Lang -> Fallback EN -> 'Untitled')
         const recipes = await query(`
             SELECT r.*, 
-                   COALESCE(rt.title, rt_fr.title, 'Untitled Recipe') as title,
-                   COALESCE(rt.description, rt_fr.description, '') as description,
-                   COALESCE(rt.ingredients_json, rt_fr.ingredients_json, '[]') as ingredients_json,
-                   COALESCE(rt.method_json, rt_fr.method_json, '[]') as method_json
+                   COALESCE(rt.title, rt_en.title, 'Untitled Recipe') as title,
+                   COALESCE(rt.description, rt_en.description, '') as description,
+                   COALESCE(rt.ingredients_json, rt_en.ingredients_json, '[]') as ingredients_json,
+                   COALESCE(rt.method_json, rt_en.method_json, '[]') as method_json
             FROM recipes r
-            LEFT JOIN recipe_translations rt ON r.id = rt.recipe_id AND rt.language_code = 'en'
-            LEFT JOIN recipe_translations rt_fr ON r.id = rt_fr.recipe_id AND rt_fr.language_code = 'fr'
+            LEFT JOIN recipe_translations rt ON r.id = rt.recipe_id AND rt.language_code = ?
+            LEFT JOIN recipe_translations rt_en ON r.id = rt_en.recipe_id AND rt_en.language_code = 'en'
             WHERE r.id = ?
-        `, [id]);
+        `, [lang, id]);
 
         if (!recipes || (recipes as unknown[]).length === 0) {
             return NextResponse.json(
