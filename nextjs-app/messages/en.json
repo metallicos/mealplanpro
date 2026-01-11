@@ -367,7 +367,14 @@
     "reply": "Reply",
     "share": "Share",
     "report": "Report",
-    "noPostsYet": "No posts yet. Be the first to share!"
+    "noPostsYet": "No posts yet. Be the first to share!",
+    "addComment": "Add to the discussion...",
+    "post": "Post",
+    "loginToComment": "Login to comment",
+    "noComments": "No comments yet. Start the conversation!",
+    "imageAttached": "Image attached",
+    "discussion": "Discussion",
+    "backToFeed": "Back to Feed"
   },
   "statistics": {
     "title": "Statistics",

@@ -25,6 +25,8 @@ interface PostDetails {
 }
 
 export default function ThreadPage() {
+    const t = useTranslations('forum');
+    const tCommon = useTranslations('common');
     const { id } = useParams();
     const router = useRouter();
     const [post, setPost] = useState<PostDetails | null>(null);
@@ -99,7 +101,7 @@ export default function ThreadPage() {
             <div className="sticky top-0 z-20 backdrop-blur-md bg-[var(--bg-primary)]/80 border-b border-white/5 px-4 py-3 mb-6">
                 <div className="max-w-4xl mx-auto flex items-center justify-between">
                     <Link href="/forum" className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors group">
-                        <span className="group-hover:-translate-x-1 transition-transform">←</span> Back to Feed
+                        <span className="group-hover:-translate-x-1 transition-transform">←</span> {t('backToFeed')}
                     </Link>
                     <h2 className="text-sm font-semibold truncate max-w-[200px] opacity-70">{post.title}</h2>
                 </div>
@@ -147,7 +149,7 @@ export default function ThreadPage() {
                     <div className="flex items-center justify-between pt-4 md:pt-6 border-t border-white/10">
                         <div className="flex items-center gap-6">
                             <div className="flex items-center gap-2 text-red-400 font-medium bg-red-400/10 px-3 py-1.5 md:px-4 md:py-2 rounded-full text-sm md:text-base">
-                                <Heart size={16} className="fill-current" /> {post.likes} Likes
+                                <Heart size={16} className="fill-current" /> {post.likes} {t('likes')}
                             </div>
                         </div>
                     </div>
@@ -155,8 +157,8 @@ export default function ThreadPage() {
 
                 {/* Comments Section */}
                 <div className="flex items-center gap-3 mb-6 md:mb-8">
-                    <h3 className="text-lg md:text-xl font-bold">Discussion</h3>
-                    <span className="bg-white/10 text-xs px-2 py-1 rounded-full text-gray-400">{comments.length} comments</span>
+                    <h3 className="text-lg md:text-xl font-bold">{t('discussion')}</h3>
+                    <span className="bg-white/10 text-xs px-2 py-1 rounded-full text-gray-400">{comments.length} {t('comments').toLowerCase()}</span>
                 </div>
 
                 <div className="space-y-4 md:space-y-6 mb-8">
@@ -181,7 +183,9 @@ export default function ThreadPage() {
                                                 <span className="text-[10px] bg-[var(--accent-primary)] text-white px-1.5 py-0.5 rounded ml-1">OP</span>
                                             )}
                                         </div>
-                                        <span className="text-[10px] md:text-xs text-[var(--text-muted)]">{new Date(comment.created_at).toLocaleString()}</span>
+                                        <div className="flex items-center gap-2">
+                                            <span className="text-[10px] md:text-xs text-[var(--text-muted)]">{new Date(comment.created_at).toLocaleString()}</span>
+                                        </div>
                                     </div>
                                     <p className="text-sm leading-relaxed text-gray-300">{comment.content}</p>
                                     {comment.image_url && (
@@ -201,7 +205,7 @@ export default function ThreadPage() {
                             <div className="w-12 h-12 mx-auto mb-2 opacity-30 flex items-center justify-center">
                                 <MessageCircle size={48} className="text-gray-600" />
                             </div>
-                            <p className="text-gray-500">No comments yet. Start the conversation!</p>
+                            <p className="text-gray-500">{t('noComments')}</p>
                         </div>
                     )}
                 </div>
@@ -217,14 +221,14 @@ export default function ThreadPage() {
                         <div className="flex-1">
                             <input
                                 className="w-full bg-transparent border-none text-white placeholder-gray-500 px-4 py-3 focus:ring-0 resize-none max-h-32"
-                                placeholder="Add to the discussion..."
+                                placeholder={t('addComment')}
                                 value={replyContent}
                                 onChange={e => setReplyContent(e.target.value)}
                                 required
                             />
                             {replyImage && (
                                 <div className="px-4 pb-2 flex items-center gap-2 text-xs text-[var(--accent-primary)]">
-                                    <Paperclip size={12} /> <span>Image attached</span>
+                                    <Paperclip size={12} /> <span>{t('imageAttached')}</span>
                                     <button type="button" onClick={() => setReplyImage(null)} className="hover:text-white"><X size={12} /></button>
                                 </div>
                             )}

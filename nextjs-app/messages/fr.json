@@ -358,7 +358,14 @@
         "reply": "Répondre",
         "share": "Partager",
         "report": "Signaler",
-        "noPostsYet": "Pas encore de posts. Soyez le premier à partager !"
+        "noPostsYet": "Pas encore de posts. Soyez le premier à partager !",
+        "addComment": "Ajouter à la discussion...",
+        "post": "Publier",
+        "loginToComment": "Connectez-vous pour commenter",
+        "noComments": "Pas encore de commentaires. Lancez la conversation !",
+        "imageAttached": "Image jointe",
+        "discussion": "Discussion",
+        "backToFeed": "Retour au fil"
     },
     "statistics": {
         "title": "Statistiques",
