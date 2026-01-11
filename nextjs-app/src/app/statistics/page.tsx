@@ -62,7 +62,15 @@ export default function StatisticsPage() {
                     id: b.id || 0,
                     week_start: b.month || '',
                     budget_amount: b.initial_budget || 0,
-                    items: b.items || []
+                    items: (b.items || []).map((item: any) => ({
+                        id: item.id,
+                        name: item.name,
+                        quantity: item.quantity || 1,
+                        // Use actual price if available (and purchased?), otherwise estimated
+                        price: item.actual_price || item.estimated_price_per_unit || 0,
+                        purchased: !!item.is_purchased,
+                        category: item.category || 'other'
+                    }))
                 }));
 
                 setGroceryData(mappedBudgets);
