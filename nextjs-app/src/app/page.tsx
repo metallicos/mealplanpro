@@ -220,14 +220,22 @@ export default function Dashboard() {
       </div>
 
       {/* V2 Health Widgets & Family */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
-        <FastingTimer />
-        <AiCoachWidget />
-        <WaterTracker />
+      {/* V2 Health Widgets & Family - High Density Layout */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-8">
+        {/* Left Column: Stacked Trackers */}
+        <div className="flex flex-col gap-4">
+          <FastingTimer />
+          <WaterTracker />
+        </div>
 
-        {/* Master User: Family Management */}
+        {/* Right Column: AI Coach (Full Height) */}
+        <div className="h-full">
+          <AiCoachWidget />
+        </div>
+
+        {/* Master User: Family Management (Full Width below) */}
         {user.role === 'master' && (
-          <div className="card border-emerald-500/30 bg-emerald-500/5 h-full">
+          <div className="lg:col-span-2 card border-emerald-500/30 bg-emerald-500/5 mt-2">
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
               <div>
                 <h3 className="text-lg font-semibold flex items-center gap-2">{tFamily('myFamily')} <Users size={20} /></h3>

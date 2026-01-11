@@ -164,168 +164,166 @@ export default function AiCoachWidget() {
     if (step === 'loading') return <div className="card h-full animate-pulse bg-slate-800 rounded-3xl min-h-[350px]"></div>;
 
     return (
-        <div className="card h-full flex flex-col justify-between bg-[#0F172A] border border-emerald-500/10 shadow-xl relative overflow-hidden rounded-3xl">
-            <div className="relative z-10 flex-1 flex flex-col p-4">
-                <div className="mb-4 flex items-center justify-between">
-                    <h3 className="text-base font-bold text-white flex items-center gap-2">
-                        <Heart className="text-emerald-400 fill-emerald-400/20" size={18} />
+        <div className="card h-full flex flex-col justify-between bg-[#0F172A] border border-emerald-500/10 shadow-xl relative overflow-hidden rounded-2xl p-4">
+            <div className="relative z-10 flex-1 flex flex-col">
+                <div className="flex items-center justify-between mb-3">
+                    <h3 className="text-sm font-bold text-white flex items-center gap-2">
+                        <Heart className="text-emerald-400 fill-emerald-400/20" size={16} />
                         {t('title')}
                     </h3>
                     <p className="text-[10px] text-slate-500">{t('subtitle')}</p>
                 </div>
 
                 {step === 'checkin' && (
-                    <div className="space-y-6 flex-1">
-                        {/* Sleep Slider */}
-                        <div className="space-y-3">
-                            <div className="flex justify-between text-[10px] font-bold tracking-widest text-slate-400">
-                                <label className="uppercase">{t('sleep')}</label>
-                                <span className="text-emerald-400">{sleep}H</span>
+                    <div className="space-y-4 flex-1">
+                        {/* Row 1: Vitals (Sleep, Mood, Energy) */}
+                        <div className="grid grid-cols-3 gap-2 bg-slate-800/30 p-2 rounded-xl border border-slate-700/50">
+                            {/* Sleep */}
+                            <div className="space-y-1">
+                                <div className="flex justify-between text-[8px] font-bold uppercase tracking-wider text-slate-400">
+                                    <label>{t('sleep')}</label>
+                                    <span className="text-emerald-400">{sleep}h</span>
+                                </div>
+                                <input
+                                    type="range" min="0" max="12" step="0.5"
+                                    value={sleep} onChange={e => setSleep(parseFloat(e.target.value))}
+                                    className="w-full h-1 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-emerald-500"
+                                />
                             </div>
-                            <input
-                                type="range" min="0" max="12" step="0.5"
-                                value={sleep} onChange={e => setSleep(parseFloat(e.target.value))}
-                                className="w-full h-1.5 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-emerald-500 hover:accent-emerald-400 transition-all"
-                            />
-                        </div>
-
-                        {/* Mood & Energy */}
-                        <div className="grid grid-cols-2 gap-4">
-                            <div className="space-y-2">
-                                <div className="flex justify-between text-[9px] font-bold tracking-widest text-slate-400">
-                                    <label className="uppercase">{t('mood')}</label>
-                                    <span className="text-emerald-400">{mood}/10</span>
+                            {/* Mood */}
+                            <div className="space-y-1">
+                                <div className="flex justify-between text-[8px] font-bold uppercase tracking-wider text-slate-400">
+                                    <label>{t('mood')}</label>
+                                    <span className="text-emerald-400">{mood}</span>
                                 </div>
                                 <input
                                     type="range" min="1" max="10"
                                     value={mood} onChange={e => setMood(parseInt(e.target.value))}
-                                    className="w-full h-1 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-emerald-500 hover:accent-emerald-400"
+                                    className="w-full h-1 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-emerald-500"
                                 />
                             </div>
-                            <div className="space-y-2">
-                                <div className="flex justify-between text-[9px] font-bold tracking-widest text-slate-400">
-                                    <label className="uppercase">{t('energy')}</label>
-                                    <span className="text-emerald-400">{energy}/10</span>
+                            {/* Energy */}
+                            <div className="space-y-1">
+                                <div className="flex justify-between text-[8px] font-bold uppercase tracking-wider text-slate-400">
+                                    <label>{t('energy')}</label>
+                                    <span className="text-emerald-400">{energy}</span>
                                 </div>
                                 <input
                                     type="range" min="1" max="10"
                                     value={energy} onChange={e => setEnergy(parseInt(e.target.value))}
-                                    className="w-full h-1 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-emerald-500 hover:accent-emerald-400"
+                                    className="w-full h-1 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-emerald-500"
                                 />
                             </div>
                         </div>
 
-                        {/* Training Location - Segmented Control */}
-                        <div className="space-y-3">
-                            <label className="text-[10px] uppercase font-bold tracking-widest text-slate-400 block">{t('trainingLocation')}</label>
-                            <div className="bg-slate-800/50 p-1 rounded-xl grid grid-cols-3 gap-1">
-                                {LOCATIONS.map(loc => (
+                        {/* Row 2: Location & Sport */}
+                        <div className="flex gap-2">
+                            {/* Location Selector (Vertical compact) */}
+                            <div className="flex-1 space-y-1">
+                                <label className="text-[8px] uppercase font-bold tracking-wider text-slate-500 ml-1">{t('trainingLocation')}</label>
+                                <div className="grid grid-cols-3 gap-1 bg-slate-800/30 p-1 rounded-lg">
+                                    {LOCATIONS.map(loc => (
+                                        <button
+                                            key={loc.id}
+                                            onClick={() => handleLocationChange(loc.id)}
+                                            className={`p-1.5 rounded-md flex justify-center transition-all ${location === loc.id
+                                                ? 'bg-emerald-500 text-white shadow'
+                                                : 'text-slate-400 hover:bg-slate-700/50'
+                                                }`}
+                                            title={t(`locations.${loc.id}`)}
+                                        >
+                                            <loc.Icon size={14} />
+                                        </button>
+                                    ))}
+                                </div>
+                            </div>
+
+                            {/* Generate Button (Right side) */}
+                            <button
+                                onClick={handleGenerate}
+                                className="flex-1 bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 text-white font-bold rounded-xl transition-all shadow-lg shadow-emerald-900/20 flex flex-col items-center justify-center gap-1 group"
+                            >
+                                <Zap size={18} className="fill-white/20 group-hover:scale-110 transition-transform" />
+                                <span className="text-[10px] uppercase tracking-wider">{t('generatePlan')}</span>
+                            </button>
+                        </div>
+
+                        {/* Sport Type Scrollable/Grid */}
+                        <div className="space-y-1">
+                            <label className="text-[8px] uppercase font-bold tracking-wider text-slate-500 ml-1">{t('sportType')}</label>
+                            <div className="grid grid-cols-6 gap-1.5">
+                                {availableSports.slice(0, 12).map(sport => (
                                     <button
-                                        key={loc.id}
-                                        onClick={() => handleLocationChange(loc.id)}
-                                        className={`py-2 rounded-lg text-xs font-medium flex flex-col items-center gap-1 transition-all ${location === loc.id
-                                            ? 'bg-emerald-500 text-white shadow-lg shadow-emerald-900/20'
-                                            : 'text-slate-400 hover:text-white hover:bg-white/5'
+                                        key={sport.id}
+                                        onClick={() => setSportType(sport.id)}
+                                        className={`aspect-square rounded-lg flex items-center justify-center transition-all ${sportType === sport.id
+                                            ? 'bg-emerald-500 text-white shadow-md'
+                                            : 'bg-slate-800/50 text-slate-400 hover:bg-slate-700'
                                             }`}
+                                        title={t(`sports.${sport.id}`)}
                                     >
-                                        <loc.Icon size={16} />
-                                        <span>{t(`locations.${loc.id}`)}</span>
+                                        <sport.Icon size={14} strokeWidth={2} />
                                     </button>
                                 ))}
                             </div>
                         </div>
 
-                        {/* Equipment (Collapsible) */}
+                        {/* Equipment (Collapsible, only for home) */}
                         {location === 'home' && (
-                            <div className="space-y-3 animate-fade-in-down">
-                                <label className="text-[10px] uppercase font-bold tracking-widest text-slate-400 block">{t('availableEquipment')}</label>
-                                <div className="flex flex-wrap gap-2">
+                            <div className="animate-fade-in-down">
+                                <div className="flex flex-wrap gap-1.5 h-12 overflow-y-auto pr-1 custom-scrollbar">
                                     {EQUIPMENT.map(item => (
                                         <button
                                             key={item}
                                             onClick={() => toggleEquipment(item)}
-                                            className={`px-3 py-1.5 rounded-full text-[10px] font-medium border transition-all flex items-center gap-1 ${equipment.includes(item)
-                                                ? 'bg-emerald-500/10 border-emerald-500 text-emerald-400'
-                                                : 'bg-slate-800 border-slate-700 text-slate-400 hover:border-slate-600'
+                                            className={`px-2 py-1 rounded-md text-[9px] font-medium border transition-all ${equipment.includes(item)
+                                                ? 'bg-emerald-500/20 border-emerald-500/50 text-emerald-300'
+                                                : 'bg-slate-800/50 border-slate-700 text-slate-500'
                                                 }`}
                                         >
-                                            {equipment.includes(item) && <Check size={10} />}
                                             {t(`equipment.${item}`)}
                                         </button>
                                     ))}
                                 </div>
                             </div>
                         )}
-
-                        {/* Sport Type Grid */}
-                        <div className="space-y-2">
-                            <label className="text-[9px] uppercase font-bold tracking-widest text-slate-400 block">{t('sportType')}</label>
-                            <div className="grid grid-cols-6 gap-1.5">
-                                {availableSports.map(sport => (
-                                    <button
-                                        key={sport.id}
-                                        onClick={() => setSportType(sport.id)}
-                                        className={`aspect-square rounded-lg flex flex-col items-center justify-center gap-1 transition-all w-full ${sportType === sport.id
-                                            ? 'bg-emerald-500 text-white shadow-lg shadow-emerald-500/20'
-                                            : 'bg-slate-800/50 text-slate-400 hover:bg-slate-700 hover:text-white'
-                                            }`}
-                                        title={t(`sports.${sport.id}`)}
-                                    >
-                                        <sport.Icon size={16} strokeWidth={1.5} />
-                                    </button>
-                                ))}
-                            </div>
-                        </div>
-
-                        {/* Generate Button */}
-                        <div className="mt-4 pt-4">
-                            <button
-                                onClick={handleGenerate}
-                                className="w-full py-2.5 bg-white hover:bg-emerald-50 text-emerald-950 font-bold rounded-lg transition-all shadow-lg shadow-white/5 flex items-center justify-center gap-2 group text-sm"
-                            >
-                                <span>{t('generatePlan')}</span>
-                                <Zap size={16} className="text-emerald-600 group-hover:scale-110 transition-transform" fill="currentColor" />
-                            </button>
-                        </div>
                     </div>
                 )}
 
                 {step === 'generating' && (
-                    <div className="flex-1 flex flex-col items-center justify-center text-center animate-pulse">
-                        <div className="w-20 h-20 rounded-full bg-emerald-500/10 flex items-center justify-center mb-6 border border-emerald-500/20">
-                            <Brain size={40} className="text-emerald-400 animate-bounce" />
+                    <div className="flex-1 flex flex-col items-center justify-center text-center animate-pulse min-h-[200px]">
+                        <div className="w-12 h-12 rounded-full bg-emerald-500/10 flex items-center justify-center mb-4 border border-emerald-500/20">
+                            <Brain size={24} className="text-emerald-400 animate-bounce" />
                         </div>
-                        <h4 className="text-emerald-100 font-bold text-lg mb-2">{t('analyzing')}</h4>
-                        <p className="text-sm text-slate-400 max-w-[80%] mx-auto leading-relaxed">{t('preparingPlan')}</p>
+                        <h4 className="text-emerald-100 font-bold text-sm mb-1">{t('analyzing')}</h4>
+                        <p className="text-xs text-slate-500">{t('preparingPlan')}</p>
                     </div>
                 )}
 
                 {step === 'result' && plan && (
-                    <div className="flex-1 animate-fade-in flex flex-col">
-                        <div className="bg-emerald-900/30 p-5 rounded-2xl mb-6 border border-emerald-500/20 relative">
-                            <div className="absolute -top-3 -left-3">
-                                <div className="bg-[#0F172A] p-1.5 rounded-full border border-emerald-500/20">
-                                    <Brain size={16} className="text-emerald-400" />
-                                </div>
+                    <div className="flex-1 animate-fade-in flex flex-col h-full">
+                        <div className="bg-emerald-900/20 p-3 rounded-xl mb-3 border border-emerald-500/10 flex gap-3 items-start">
+                            <div className="bg-emerald-500/10 p-1.5 rounded-full shrink-0">
+                                <Brain size={14} className="text-emerald-400" />
                             </div>
-                            <p className="text-lg font-medium text-emerald-100 leading-relaxed italic">"{plan.motivation}"</p>
-                            <div className="text-[10px] text-emerald-400/60 mt-3 text-right font-bold tracking-widest uppercase">— {t('yourCoach')}</div>
+                            <div>
+                                <p className="text-xs font-medium text-emerald-100 italic leading-relaxed">"{plan.motivation}"</p>
+                            </div>
                         </div>
 
-                        <div className="flex-1 space-y-3 overflow-y-auto max-h-[220px] pr-2 custom-scrollbar">
-                            <h4 className="font-bold text-white text-[10px] uppercase tracking-widest mb-2 sticky top-0 bg-[#0F172A] py-2 z-10">{t('workoutOptions')}</h4>
+                        <div className="flex-1 overflow-y-auto pr-1 custom-scrollbar space-y-2 max-h-[160px]">
                             {plan.workouts.map((w, i) => (
-                                <div key={i} className="group bg-slate-800/40 p-4 rounded-xl hover:bg-slate-800 transition-all border border-transparent hover:border-emerald-500/30 cursor-pointer">
-                                    <div className="flex justify-between items-center mb-2">
-                                        <div className="flex items-center gap-2">
-                                            <span className={`w-2 h-2 rounded-full ${w.type === 'Cardio' ? 'bg-orange-400' : w.type === 'Strength' ? 'bg-emerald-500' : 'bg-blue-400'}`}></span>
-                                            <span className="font-bold text-white text-sm">{w.type}</span>
+                                <div key={i} className="bg-slate-800/40 p-3 rounded-lg border border-transparent hover:border-emerald-500/20">
+                                    <div className="flex justify-between items-center mb-1">
+                                        <div className="flex items-center gap-1.5">
+                                            <span className={`w-1.5 h-1.5 rounded-full ${w.type === 'Cardio' ? 'bg-orange-400' : w.type === 'Strength' ? 'bg-emerald-500' : 'bg-blue-400'}`}></span>
+                                            <span className="font-bold text-slate-200 text-xs">{w.type}</span>
                                         </div>
-                                        <span className="text-[10px] font-bold bg-emerald-500/10 text-emerald-400 px-2.5 py-1 rounded-md border border-emerald-500/20 group-hover:bg-emerald-500 group-hover:text-emerald-950 transition-colors">
+                                        <span className="text-[9px] font-bold bg-emerald-500/10 text-emerald-400 px-1.5 py-0.5 rounded">
                                             {w.duration}
                                         </span>
                                     </div>
-                                    <p className="text-xs text-slate-400 leading-relaxed pl-4 border-l-2 border-slate-700 group-hover:border-emerald-500/50 transition-colors">
+                                    <p className="text-[10px] text-slate-400 leading-normal pl-3 border-l border-slate-700">
                                         {Array.isArray(w.exercises) ? w.exercises.join(' • ') : w.exercises}
                                     </p>
                                 </div>
@@ -334,7 +332,7 @@ export default function AiCoachWidget() {
 
                         <button
                             onClick={() => setStep('checkin')}
-                            className="mt-6 py-3 text-[10px] font-bold text-emerald-400 hover:text-white uppercase tracking-widest w-full text-center border-t border-slate-800 transition-colors"
+                            className="mt-3 py-2 text-[10px] font-bold text-slate-400 hover:text-emerald-400 uppercase tracking-widest w-full text-center border-t border-slate-800/50"
                         >
                             {t('updateCheckin')}
                         </button>
@@ -343,8 +341,8 @@ export default function AiCoachWidget() {
             </div>
 
             {/* Background Effects */}
-            <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-500/5 blur-[100px] rounded-full pointer-events-none"></div>
-            <div className="absolute bottom-0 left-0 w-48 h-48 bg-blue-500/5 blur-[80px] rounded-full pointer-events-none"></div>
+            <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/5 blur-[50px] rounded-full pointer-events-none"></div>
+            <div className="absolute bottom-0 left-0 w-32 h-32 bg-blue-500/5 blur-[50px] rounded-full pointer-events-none"></div>
         </div>
     );
 }

@@ -85,7 +85,8 @@ export default function FastingTimer() {
     };
 
     return (
-        <div className="card relative overflow-hidden bg-gradient-to-br from-emerald-900/40 to-slate-900/40 backdrop-blur-md text-white border-none h-full flex flex-col justify-between">
+    return (
+        <div className="card relative overflow-hidden bg-gradient-to-br from-emerald-900/40 to-slate-900/40 backdrop-blur-md text-white border-none">
             {/* Progress Bar Background */}
             <div className="absolute top-0 left-0 w-full h-1 bg-emerald-900/30">
                 <div
@@ -94,42 +95,45 @@ export default function FastingTimer() {
                 />
             </div>
 
-            <div>
-                <div className="flex justify-between items-start mb-2 gap-2">
-                    <h3 className="font-semibold text-base sm:text-lg flex items-center gap-2 text-emerald-100 min-w-0">
-                        {/* Timer Icon SVG */}
-                        <Timer className="w-5 h-5 text-emerald-400 flex-shrink-0" />
-                        <span className="truncate">{t('fastingTimer')}</span>
-                    </h3>
-                    <div className="text-xs px-2 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex-shrink-0 whitespace-nowrap">
-                        {t('goal')}: {goalHours}h
+            <div className="flex items-center justify-between gap-4 p-1">
+                {/* Left: Timer & Status */}
+                <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 mb-1">
+                        <Timer className="w-4 h-4 text-emerald-400" />
+                        <h3 className="font-semibold text-sm text-emerald-100">{t('fastingTimer')}</h3>
+                        {isFasting && (
+                            <span className={`text-[10px] px-1.5 py-0.5 rounded bg-emerald-500/20 border border-emerald-500/30 ${currentStage.color}`}>
+                                {currentStage.name}
+                            </span>
+                        )}
+                    </div>
+
+                    <div className="flex items-baseline gap-2">
+                        <span className="text-2xl font-mono font-bold tracking-tight">
+                            {isFasting ? formatTime(elapsedSeconds) : 'Ready'}
+                        </span>
+                        <span className="text-xs text-slate-400">
+                            / {goalHours}h {t('goal').toLowerCase()}
+                        </span>
                     </div>
                 </div>
 
-                <div className="text-center py-4">
-                    <div className="text-4xl font-mono font-bold tracking-wider mb-2">
-                        {isFasting ? formatTime(elapsedSeconds) : '--:--:--'}
-                    </div>
-                    {isFasting ? (
-                        <div className="animate-fade-in">
-                            <p className={`font-medium ${currentStage.color}`}>{currentStage.name}</p>
-                            <p className="text-xs text-slate-400">{currentStage.desc}</p>
-                        </div>
-                    ) : (
-                        <p className="text-sm text-slate-400">{t('readyToStart')}</p>
-                    )}
-                </div>
+                {/* Right: Action Button */}
+                <button
+                    onClick={handleToggle}
+                    className={`px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider transition-all whitespace-nowrap ${isFasting
+                        ? 'bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/30'
+                        : 'bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg shadow-emerald-500/20'
+                        }`}
+                >
+                    {isFasting ? t('endFast') : t('startFast')}
+                </button>
             </div>
 
-            <button
-                onClick={handleToggle}
-                className={`w-full py-3 rounded-lg font-medium transition-all ${isFasting
-                    ? 'bg-red-500/20 hover:bg-red-500/30 text-red-200 border border-red-500/30'
-                    : 'bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg shadow-emerald-500/20'
-                    }`}
-            >
-                {isFasting ? t('endFast') : t('startFast')}
-            </button>
+            {!isFasting && (
+                <p className="text-[10px] text-slate-500 mt-2 pl-1 leading-tight">{t('readyToStart')}</p>
+            )}
         </div>
+    );
     );
 }
