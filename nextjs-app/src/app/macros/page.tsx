@@ -67,11 +67,17 @@ interface ScannedFood {
 
 export default function MacrosPage() {
     const { theme, settings } = useUser();
+    // Helper to get local date string YYYY-MM-DD
+    const getToday = () => {
+        const d = new Date();
+        return new Date(d.getTime() - (d.getTimezoneOffset() * 60000)).toISOString().split('T')[0];
+    };
+
     const t = useTranslations('macros');
     const tDash = useTranslations('dashboard');
     const tCommon = useTranslations('common');
     const locale = useLocale();
-    const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split('T')[0]);
+    const [selectedDate, setSelectedDate] = useState(getToday());
     const [logItems, setLogItems] = useState<LogItem[]>([]);
     const [searchQuery, setSearchQuery] = useState('');
     const [searchResults, setSearchResults] = useState<Ingredient[]>([]);
@@ -335,14 +341,16 @@ export default function MacrosPage() {
                             onClick={() => {
                                 const d = new Date(selectedDate);
                                 d.setDate(d.getDate() - 1);
-                                setSelectedDate(d.toLocaleDateString('en-CA'));
+                                // Ensure we format back to YYYY-MM-DD properly
+                                const prev = new Date(d.getTime() - (d.getTimezoneOffset() * 60000)).toISOString().split('T')[0];
+                                setSelectedDate(prev);
                             }}
                         >
                             <ChevronLeft className="w-4 h-4" /> {t('previous')}
                         </button>
                         <button
                             className="btn-secondary"
-                            onClick={() => setSelectedDate(new Date().toLocaleDateString('en-CA'))}
+                            onClick={() => setSelectedDate(getToday())}
                         >
                             {tCommon('today')}
                         </button>
@@ -351,7 +359,8 @@ export default function MacrosPage() {
                             onClick={() => {
                                 const d = new Date(selectedDate);
                                 d.setDate(d.getDate() + 1);
-                                setSelectedDate(d.toISOString().split('T')[0]);
+                                const next = new Date(d.getTime() - (d.getTimezoneOffset() * 60000)).toISOString().split('T')[0];
+                                setSelectedDate(next);
                             }}
                         >
                             {t('next')} <ChevronRight className="w-4 h-4" />
