@@ -32,7 +32,7 @@ const navItems = [
     { href: '/meals', labelKey: 'mealLibrary', icon: BookOpen },
     { href: '/statistics', labelKey: 'statistics', icon: LineChart },
     { href: '/groceries', labelKey: 'groceryList', icon: ShoppingCart },
-    { href: '/forum', labelKey: 'forum', icon: MessageSquare },
+    { href: '/community', labelKey: 'forum', icon: MessageSquare },
     { href: '/profile', labelKey: 'profile', icon: User },
 ];
 

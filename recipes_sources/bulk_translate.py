@@ -4,7 +4,7 @@ import time
 from deep_translator import GoogleTranslator
 
 # Configuration
-TARGET_DIRS = ["fr", "es"]
+TARGET_DIRS = [ "es"]
 # Text fields we want to translate
 TEXT_FIELDS = ["title", "description", "strMeal", "strCategory", "strArea", "strInstructions"]
 # List fields we want to translate item by item

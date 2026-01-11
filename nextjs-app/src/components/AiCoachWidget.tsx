@@ -165,7 +165,7 @@ export default function AiCoachWidget() {
 
     return (
         <div className="card h-full flex flex-col justify-between bg-[#0F172A] border border-emerald-500/10 shadow-xl relative overflow-hidden rounded-3xl">
-            <div className="relative z-10 flex-1 flex flex-col p-6">
+            <div className="relative z-10 flex-1 flex flex-col p-4 sm:p-6">
                 <div className="mb-6">
                     <h3 className="text-lg font-bold text-white flex items-center gap-2">
                         <Heart className="text-emerald-400 fill-emerald-400/20" size={20} />
@@ -224,8 +224,8 @@ export default function AiCoachWidget() {
                                         key={loc.id}
                                         onClick={() => handleLocationChange(loc.id)}
                                         className={`py-2 rounded-lg text-xs font-medium flex flex-col items-center gap-1 transition-all ${location === loc.id
-                                                ? 'bg-emerald-500 text-white shadow-lg shadow-emerald-900/20'
-                                                : 'text-slate-400 hover:text-white hover:bg-white/5'
+                                            ? 'bg-emerald-500 text-white shadow-lg shadow-emerald-900/20'
+                                            : 'text-slate-400 hover:text-white hover:bg-white/5'
                                             }`}
                                     >
                                         <loc.Icon size={16} />
@@ -245,8 +245,8 @@ export default function AiCoachWidget() {
                                             key={item}
                                             onClick={() => toggleEquipment(item)}
                                             className={`px-3 py-1.5 rounded-full text-[10px] font-medium border transition-all flex items-center gap-1 ${equipment.includes(item)
-                                                    ? 'bg-emerald-500/10 border-emerald-500 text-emerald-400'
-                                                    : 'bg-slate-800 border-slate-700 text-slate-400 hover:border-slate-600'
+                                                ? 'bg-emerald-500/10 border-emerald-500 text-emerald-400'
+                                                : 'bg-slate-800 border-slate-700 text-slate-400 hover:border-slate-600'
                                                 }`}
                                         >
                                             {equipment.includes(item) && <Check size={10} />}
@@ -266,8 +266,8 @@ export default function AiCoachWidget() {
                                         key={sport.id}
                                         onClick={() => setSportType(sport.id)}
                                         className={`aspect-square rounded-xl flex flex-col items-center justify-center gap-1.5 transition-all w-full ${sportType === sport.id
-                                                ? 'bg-emerald-500 text-white shadow-lg shadow-emerald-500/20 scale-105'
-                                                : 'bg-slate-800/50 text-slate-400 hover:bg-slate-700 hover:text-white'
+                                            ? 'bg-emerald-500 text-white shadow-lg shadow-emerald-500/20 scale-105'
+                                            : 'bg-slate-800/50 text-slate-400 hover:bg-slate-700 hover:text-white'
                                             }`}
                                         title={t(`sports.${sport.id}`)}
                                     >

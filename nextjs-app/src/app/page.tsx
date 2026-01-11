@@ -219,38 +219,32 @@ export default function Dashboard() {
         </div>
       </div>
 
-      {/* V2 Health Widgets */}
-      <div className="flex flex-col lg:flex-row gap-6 mb-8">
-        <div className="w-full lg:w-1/3">
-          <WaterTracker />
-        </div>
-        <div className="w-full lg:w-1/3">
-          <FastingTimer />
-        </div>
-        <div className="w-full lg:w-1/3">
-          <AiCoachWidget />
-        </div>
-      </div>
+      {/* V2 Health Widgets & Family */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+        <FastingTimer />
+        <AiCoachWidget />
+        <WaterTracker />
 
-      {/* Master User: Family Management */}
-      {user.role === 'master' && (
-        <div className="card mb-6 border-emerald-500/30 bg-emerald-500/5">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
-            <div>
-              <h3 className="text-lg font-semibold flex items-center gap-2">{tFamily('myFamily')} <Users size={20} /></h3>
-              <p className="text-sm text-[var(--text-secondary)]">{tFamily('manageHousehold')}</p>
+        {/* Master User: Family Management */}
+        {user.role === 'master' && (
+          <div className="card border-emerald-500/30 bg-emerald-500/5 h-full">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
+              <div>
+                <h3 className="text-lg font-semibold flex items-center gap-2">{tFamily('myFamily')} <Users size={20} /></h3>
+                <p className="text-sm text-[var(--text-secondary)]">{tFamily('manageHousehold')}</p>
+              </div>
+              <button
+                onClick={() => setShowFamilyModal(true)}
+                className="btn-primary w-full sm:w-auto"
+              >
+                + {tFamily('addMember')}
+              </button>
             </div>
-            <button
-              onClick={() => setShowFamilyModal(true)}
-              className="btn-primary w-full sm:w-auto"
-            >
-              + {tFamily('addMember')}
-            </button>
-          </div>
 
-          <FamilyList refreshTrigger={familyRefreshTrigger} />
-        </div>
-      )}
+            <FamilyList refreshTrigger={familyRefreshTrigger} />
+          </div>
+        )}
+      </div>
 
       {/* Quick Actions */}
       <div className="card mb-6">
