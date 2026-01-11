@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react';
 import SmartPlan from '@/components/SmartPlan';
 import WaterTracker from '@/components/WaterTracker';
 import FastingTimer from '@/components/FastingTimer';
-import AiCoachWidget from '@/components/AiCoachWidget';
+import FastingTimer from '@/components/FastingTimer';
 import OnboardingController from '@/components/OnboardingController';
 import {
   Flame,
@@ -29,6 +29,7 @@ import {
   Leaf,
   Apple,
   Sparkles,
+  Heart,
   X
 } from 'lucide-react';
 
@@ -55,6 +56,7 @@ export default function Dashboard() {
   const locale = useLocale();
   const tFamily = useTranslations('family');
   const tCommon = useTranslations('common');
+  const tNav = useTranslations('nav');
   const [randomMeals, setRandomMeals] = useState<Recipe[]>([]);
   const [mealsLoading, setMealsLoading] = useState(true);
   const [stats, setStats] = useState({
@@ -221,18 +223,9 @@ export default function Dashboard() {
       </div>
 
       {/* V2 Health Widgets & Family */}
-      {/* V2 Health Widgets & Family - High Density Layout */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-8">
-        {/* Left Column: Stacked Trackers */}
-        <div className="flex flex-col gap-4">
-          <FastingTimer />
-          <WaterTracker />
-        </div>
-
-        {/* Right Column: AI Coach (Full Height) */}
-        <div className="h-full">
-          <AiCoachWidget />
-        </div>
+        <FastingTimer />
+        <WaterTracker />
 
         {/* Master User: Family Management (Full Width below) */}
         {user.role === 'master' && (
@@ -259,7 +252,10 @@ export default function Dashboard() {
       <div className="card mb-6">
         <h3 className="text-lg font-semibold mb-4">{t('quickActions')}</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          <Link href="/macros" className="btn-primary text-center justify-center">
+          <Link href="/coach" className="btn-primary text-center justify-center bg-gradient-to-r from-emerald-600 to-teal-600 border-none shadow-lg shadow-emerald-500/20">
+            <Heart size={18} /> {tNav('coach')}
+          </Link>
+          <Link href="/macros" className="btn-secondary text-center justify-center">
             <Plus size={18} /> {t('logFood')}
           </Link>
           <Link href="/calculator" className="btn-secondary text-center justify-center">
