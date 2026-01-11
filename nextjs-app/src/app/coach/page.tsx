@@ -1,12 +1,12 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import {
     Heart, Zap, Sun, Moon, Sparkles, ChevronRight,
     Dumbbell, PersonStanding, Waves, Bike,
     Target, Swords, Footprints, Flame, StretchHorizontal, Mountain,
-    Home, TreePine, Building2, Check
+    Home, TreePine, Building2, Check, Brain
 } from 'lucide-react';
 
 // Sport types with Lucide icons and valid locations
@@ -48,19 +48,32 @@ const EQUIPMENT = [
     'none',
 ];
 
+interface Exercise {
+    name: string;
+    sets: string;
+    reps: string;
+    rest: string;
+}
+
+interface Workout {
+    title: string;
+    duration: string;
+    difficulty: string;
+    exercises: Exercise[];
+}
+
 interface CoachPlan {
     motivation: string;
-    workouts: {
-        type: string;
-        duration: string;
-        exercises: string[];
-    }[];
+    workout: Workout;
     recommendation: string;
 }
 
 export default function CoachPage() {
     const t = useTranslations('coach');
+    const locale = useLocale();
     const [step, setStep] = useState<'loading' | 'checkin' | 'generating' | 'result'>('loading');
+
+    // Check-in State
     const [sleep, setSleep] = useState(7);
     const [mood, setMood] = useState(7);
     const [energy, setEnergy] = useState(7);
@@ -68,6 +81,8 @@ export default function CoachPage() {
     const [location, setLocation] = useState('gym');
     const [equipment, setEquipment] = useState<string[]>([]);
     const [notes, setNotes] = useState('');
+
+    // Result State
     const [plan, setPlan] = useState<CoachPlan | null>(null);
 
     // Get sports available for current location
@@ -128,13 +143,25 @@ export default function CoachPage() {
         });
 
         try {
-            const res = await fetch('/api/v2/ai/coach', { method: 'POST' });
+            const res = await fetch('/api/v2/ai/coach', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ locale: locale || 'en' })
+            });
+
             if (!res.ok) throw new Error('AI Error');
             const data = await res.json();
+
+            // Validation Check
+            if (!data || !data.workout) {
+                throw new Error('Invalid Data');
+            }
+
             setPlan(data);
             setStep('result');
         } catch (error) {
-            setStep('checkin');
+            console.error(error);
+            setStep('checkin'); // Or show error toast
         }
     };
 
@@ -176,16 +203,16 @@ export default function CoachPage() {
                             </label>
                             <input
                                 type="range"
-                                min="4"
-                                max="10"
+                                min="0"
+                                max="12"
                                 step="0.5"
                                 value={sleep}
                                 onChange={(e) => setSleep(parseFloat(e.target.value))}
                                 className="w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer accent-emerald-500"
                             />
                             <div className="flex justify-between text-xs text-gray-500 mt-1">
-                                <span>4h</span>
-                                <span>10h</span>
+                                <span>0h</span>
+                                <span>12h</span>
                             </div>
                         </div>
 
@@ -319,12 +346,12 @@ export default function CoachPage() {
             )}
 
             {step === 'result' && plan && (
-                <div className="space-y-6">
+                <div className="space-y-6 animate-fade-in">
                     {/* Motivation Card */}
                     <div className="card bg-gradient-to-br from-emerald-900/30 to-teal-900/30 border border-emerald-500/20">
                         <div className="flex items-start gap-4">
                             <div className="w-12 h-12 rounded-full bg-emerald-500/20 flex items-center justify-center flex-shrink-0">
-                                <Heart className="w-6 h-6 text-emerald-400" />
+                                <Brain className="w-6 h-6 text-emerald-400" />
                             </div>
                             <div>
                                 <h3 className="font-bold text-emerald-300 mb-2">{t('todaysMotivation')}</h3>
@@ -333,24 +360,43 @@ export default function CoachPage() {
                         </div>
                     </div>
 
-                    {/* Workouts */}
+                    {/* Single Workout Plan */}
                     <div className="card bg-gradient-to-br from-slate-900/80 to-slate-800/50 border border-white/5">
-                        <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
-                            <Dumbbell className="w-5 h-5 text-emerald-400" /> {t('workoutOptions')}
-                        </h3>
+                        <div className="flex justify-between items-center mb-6">
+                            <h3 className="text-xl font-bold flex items-center gap-2">
+                                <Dumbbell className="w-5 h-5 text-emerald-400" /> {plan.workout.title}
+                            </h3>
+                            <div className="flex gap-2">
+                                <span className="px-3 py-1 bg-emerald-500/10 text-emerald-400 rounded-full text-sm font-medium border border-emerald-500/20">
+                                    {plan.workout.duration}
+                                </span>
+                                <span className="px-3 py-1 bg-blue-500/10 text-blue-400 rounded-full text-sm font-medium border border-blue-500/20">
+                                    {plan.workout.difficulty}
+                                </span>
+                            </div>
+                        </div>
+
                         <div className="space-y-3">
-                            {plan.workouts.map((workout, i) => (
-                                <div key={i} className="p-4 bg-black/20 rounded-xl border border-white/5 hover:border-emerald-500/30 transition-colors cursor-pointer group">
-                                    <div className="flex items-center justify-between mb-2">
-                                        <span className="font-bold text-white">{workout.type}</span>
-                                        <span className="text-sm px-3 py-1 bg-emerald-500/20 text-emerald-300 rounded-full">{workout.duration}</span>
+                            {(plan.workout?.exercises && Array.isArray(plan.workout.exercises)) ? (
+                                plan.workout.exercises.map((ex, i) => (
+                                    <div key={i} className="flex flex-col sm:flex-row sm:items-center justify-between p-4 bg-black/20 rounded-xl border border-white/5 hover:border-emerald-500/30 transition-colors">
+                                        <div className="mb-2 sm:mb-0">
+                                            <p className="font-bold text-white text-lg">{ex.name || 'Exercise'}</p>
+                                            <p className="text-gray-400 text-sm">{(ex.sets || '3') + ' sets'} × {(ex.reps || '10') + ' reps'}</p>
+                                        </div>
+                                        <div className="flex items-center gap-2">
+                                            <span className="text-xs text-gray-500 uppercase font-bold tracking-wider">Rest</span>
+                                            <span className="px-2 py-1 bg-emerald-900/40 text-emerald-400 rounded font-mono text-sm border border-emerald-500/20">
+                                                {ex.rest || '60s'}
+                                            </span>
+                                        </div>
                                     </div>
-                                    <p className="text-sm text-gray-400">
-                                        {Array.isArray(workout.exercises) ? workout.exercises.join(' • ') : workout.exercises}
-                                    </p>
-                                    <ChevronRight className="w-5 h-5 text-gray-600 group-hover:text-emerald-400 transition-colors absolute right-4 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100" />
+                                ))
+                            ) : (
+                                <div className="p-4 text-center text-gray-400">
+                                    {plan.workout?.title ? 'Detailed exercises not available' : 'Loading workout data...'}
                                 </div>
-                            ))}
+                            )}
                         </div>
                     </div>
 
@@ -367,7 +413,7 @@ export default function CoachPage() {
                     {/* Regenerate Button */}
                     <button
                         onClick={() => setStep('checkin')}
-                        className="w-full py-3 bg-gray-800/50 hover:bg-gray-700/50 text-gray-300 rounded-xl font-medium transition-all border border-white/5"
+                        className="w-full py-4 bg-gray-800/50 hover:bg-gray-700/50 text-gray-300 rounded-xl font-medium transition-all border border-white/5 hover:text-white"
                     >
                         {t('updateCheckin')}
                     </button>
