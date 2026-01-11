@@ -34,12 +34,15 @@ export async function POST(request: NextRequest) {
         const checkin = (checkins as any[])[0] || {};
 
         // 2. Construct Prompt
+        const languageName = locale === 'fr' ? 'French (Français)' : locale === 'es' ? 'Spanish (Español)' : 'English';
+
         const systemPrompt = `
+        STRICT LANGUAGE REQUIREMENT: You MUST answer in ${languageName}.
+        If you answer in English when ${languageName} is requested, you fail.
+        
         You are an elite, empathetic fitness coach for the application "MealPlan Pro".
         Your goal is to generate a personalized daily workout plan and a short motivational speech based on the user's current state.
-        
-        IMPORTANT: You must respond in the following language: ${locale === 'fr' ? 'French (Français)' : locale === 'es' ? 'Spanish (Español)' : 'English'}.
-        
+
         User Profile:
         - Fitness Level: ${profile.activity_level || 'Intermediate'}
         - Goals: ${JSON.stringify(profile.macros_goal) || 'General Health'}
@@ -52,19 +55,19 @@ export async function POST(request: NextRequest) {
         - Notes: ${checkin.notes || 'None'}
 
         Requirements:
-        1. **Motivational Speech:** Short, human-like, referencing their specific situation (e.g., if bad sleep, be encouraging and suggest lighter load).
-        2. **Workout:** 3 options (Cardio, Strength, Mobility/Recovery). Detailed but concise exercises.
+        1. **Motivational Speech:** Short, human-like, referencing their specific situation. MUST BE IN ${languageName}.
+        2. **Workout:** 3 options (Cardio, Strength, Mobility/Recovery). Names can be standard but descriptions MUST BE IN ${languageName}.
         3. **Format:** RETURN ONLY RAW JSON. No markdown backticks.
         
         JSON Structure:
         {
-            "motivation": "string (in ${locale})",
+            "motivation": "string (in ${languageName})",
             "workouts": [
                 { "type": "Cardio", "duration": "20 min", "exercises": ["..."] },
                 { "type": "Strength", "duration": "45 min", "exercises": ["..."] },
                 { "type": "Mobility", "duration": "15 min", "exercises": ["..."] }
             ],
-            "recommendation": "Based on your sleep, we recommend option... (in ${locale})"
+            "recommendation": "Based on your sleep, we recommend option... (in ${languageName})"
         }
         `;
 
