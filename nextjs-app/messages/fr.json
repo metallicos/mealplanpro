@@ -505,4 +505,50 @@
         "fr": "Français",
         "es": "Español"
     }
+},
+"landing": {
+    "titlePart1": "Mangez Mieux.",
+    "titlePart2": "Progressez Plus.",
+    "subtitle": "Arrêtez de deviner votre nutrition. Obtenez des plans repas personnalisés, un suivi précis des macros et un coach IA qui s'adapte à votre métabolisme.",
+    "ctaStart": "Essai Gratuit",
+    "ctaCalc": "Calculer Besoins",
+    "noCreditCard": "Pas de carte requise",
+    "cancelAnytime": "Annulez à tout moment",
+    "aiCoach": "Coach Nutrition IA",
+    "aiCoachDesc": "Discutez avec votre coach IA pour ajuster vos plans, obtenir des recettes et rester motivé 24/7.",
+    "smartMeals": "Plans Repas Intelligents",
+    "smartMealsDesc": "Plans hebdomadaires générés automatiquement qui atteignent vos macros exacts avec vos aliments préférés.",
+    "workouts": "Intégration Entraînement",
+    "workoutsDesc": "Suivez vos entraînements et laissez votre plan nutritionnel s'adapter automatiquement à votre dépense énergétique.",
+    "calculator": {
+        "title": "Bilan Calorique Gratuit",
+        "desc": "Découvrez exactement ce que vous devez manger pour atteindre votre objectif.",
+        "gender": "Sexe",
+        "male": "Homme",
+        "female": "Femme",
+        "age": "Âge",
+        "height": "Taille (cm)",
+        "weight": "Poids (kg)",
+        "activity": "Niveau d'Activité",
+        "activitySedentary": "Sédentaire (Bureau)",
+        "activityLight": "Léger (1-3 jours)",
+        "activityModerate": "Modéré (3-5 jours)",
+        "activityActive": "Actif (6-7 jours)",
+        "goal": "Objectif",
+        "goalLoss": "Perdre du Gras",
+        "goalMaintain": "Maintenir le Poids",
+        "goalGain": "Prendre du Muscle",
+        "calculateBtn": "Calculer Mes Chiffres"
+    },
+    "results": {
+        "title": "Vos Résultats",
+        "targetDesc": "Basé sur votre profil: {age} ans, {weight}kg, {height}cm",
+        "dailyCalories": "Calories par Jour",
+        "maintenance": "Maintien",
+        "metabolicAge": "Âge Métabolique",
+        "unlock": "Débloquer Plan Complet",
+        "recalculate": "Recalculer",
+        "signupText": "Inscrivez-vous pour sauvegarder, voir votre répartition Protéines/Glucides/Lipides et accéder à votre plan 100% personnalisé."
+    }
+}
 }
