@@ -47,8 +47,25 @@ export default function StatisticsPage() {
             fetch('/api/groceries').then(r => r.json())
         ])
             .then(([weightData, groceryResult]) => {
-                setWeightLogs(weightData.logs || []);
-                setGroceryData(groceryResult.budgets || []);
+                // Fix: API returns array directly for weight logs
+                const logs = Array.isArray(weightData) ? weightData.map((log: any) => ({
+                    ...log,
+                    week_start: log.weekDate // Map weekDate to week_start
+                })) : (weightData.logs || []);
+                setWeightLogs(logs);
+
+                // Fix: API returns Record<string, Budget> for groceries
+                const budgets = Array.isArray(groceryResult) ? groceryResult :
+                    (groceryResult.budgets ? groceryResult.budgets : Object.values(groceryResult));
+
+                const mappedBudgets = budgets.map((b: any) => ({
+                    id: b.id || 0,
+                    week_start: b.month || '',
+                    budget_amount: b.initial_budget || 0,
+                    items: b.items || []
+                }));
+
+                setGroceryData(mappedBudgets);
             })
             .catch(console.error)
             .finally(() => setLoading(false));
