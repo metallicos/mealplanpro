@@ -362,7 +362,7 @@ export default function AiCoachWidget() {
                                 </div>
                                 {/* Exercises List */}
                                 <div className="p-2 space-y-2">
-                                    {plan?.workout?.exercises?.map((ex, i) => (
+                                    {Array.isArray(plan?.workout?.exercises) && plan.workout.exercises.map((ex, i) => (
                                         <div key={i} className="flex justify-between items-start text-xs border-b border-slate-700/50 pb-2 last:border-0 last:pb-0">
                                             <div>
                                                 <p className="font-bold text-slate-200">{ex.name}</p>
