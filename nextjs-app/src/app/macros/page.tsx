@@ -334,14 +334,14 @@ export default function MacrosPage() {
                             onClick={() => {
                                 const d = new Date(selectedDate);
                                 d.setDate(d.getDate() - 1);
-                                setSelectedDate(d.toISOString().split('T')[0]);
+                                setSelectedDate(d.toLocaleDateString('en-CA'));
                             }}
                         >
                             <ChevronLeft className="w-4 h-4" /> {t('previous')}
                         </button>
                         <button
                             className="btn-secondary"
-                            onClick={() => setSelectedDate(new Date().toISOString().split('T')[0])}
+                            onClick={() => setSelectedDate(new Date().toLocaleDateString('en-CA'))}
                         >
                             {tCommon('today')}
                         </button>
