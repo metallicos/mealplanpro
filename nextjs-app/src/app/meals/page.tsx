@@ -8,6 +8,7 @@ import {
     Dumbbell, Wheat, Droplet, Star, Clock, Users,
     Carrot, ChefHat as Chef, Info, BookOpen
 } from 'lucide-react';
+import { useTranslations, useLocale } from 'next-intl';
 
 interface Recipe {
     id: number;
@@ -93,6 +94,9 @@ const RecipeImage = ({ src, alt }: { src: string | null; alt: string }) => {
 const ITEMS_PER_PAGE = 12;
 
 export default function MealsPage() {
+    const t = useTranslations('meals');
+    const tCommon = useTranslations('common');
+    const locale = useLocale();
     const router = useRouter();
     const [recipes, setRecipes] = useState<Recipe[]>([]);
     const [loading, setLoading] = useState(true);
@@ -157,6 +161,7 @@ export default function MealsPage() {
             const params = new URLSearchParams({
                 page: String(page),
                 limit: String(ITEMS_PER_PAGE),
+                lang: locale
             });
 
             if (debouncedSearch) params.append('search', debouncedSearch);
@@ -254,13 +259,13 @@ export default function MealsPage() {
             <div className="mb-8">
                 <h1 className="page-title flex items-center gap-3">
                     <BookOpen className="w-8 h-8 text-[var(--accent-primary)]" />
-                    Meal Library
+                    {t('title')}
                 </h1>
                 <p className="page-subtitle">
-                    {stats.total.toLocaleString()} recipes •
-                    <span className="text-green-400 flex items-center gap-1 inline-flex">
-                        <Leaf className="w-3 h-3" /> {stats.healthy.toLocaleString()} healthy
-                    </span>
+                    {t('subtitle')} ({stats.total.toLocaleString()} {t('all').toLowerCase()} •
+                    <span className="text-green-400 flex items-center gap-1 inline-flex ml-1">
+                        <Leaf className="w-3 h-3" /> {stats.healthy.toLocaleString()} {t('healthy').toLowerCase()}
+                    </span>)
                 </p>
             </div>
 
@@ -271,7 +276,7 @@ export default function MealsPage() {
                     <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />
                     <input
                         type="text"
-                        placeholder="Search meals by name, description, or ingredient..."
+                        placeholder={t('searchMeals')}
                         className="form-input w-full pl-10"
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
@@ -296,13 +301,13 @@ export default function MealsPage() {
                             onChange={(e) => setShowHealthyOnly(e.target.checked)}
                             className="w-4 h-4 accent-green-500"
                         />
-                        <span className="text-sm flex items-center gap-1"><Leaf className="w-3 h-3" /> Healthy only</span>
+                        <span className="text-sm flex items-center gap-1"><Leaf className="w-3 h-3" /> {t('healthyOnly')}</span>
                     </label>
                 </div>
 
                 {/* Category Filters */}
                 <div className="mb-3">
-                    <p className="text-xs text-gray-400 mb-2">Category</p>
+                    <p className="text-xs text-gray-400 mb-2">{t('category')}</p>
                     <div className="flex gap-2 flex-wrap">
                         <button
                             onClick={() => setSelectedCategory('all')}
@@ -311,7 +316,7 @@ export default function MealsPage() {
                                 : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
                                 }`}
                         >
-                            <Globe className="w-3 h-3" /> All ({stats.total.toLocaleString()})
+                            <Globe className="w-3 h-3" /> {t('all')} ({stats.total.toLocaleString()})
                         </button>
                         {categories.map((cat) => (
                             <button
@@ -336,7 +341,7 @@ export default function MealsPage() {
                 {/* Subcategory Filters */}
                 {subcategories.length > 0 && (
                     <div>
-                        <p className="text-xs text-gray-400 mb-2">Subcategory</p>
+                        <p className="text-xs text-gray-400 mb-2">{t('subcategory')}</p>
                         <div className="flex gap-2 flex-wrap max-h-24 overflow-y-auto">
                             <button
                                 onClick={() => setSelectedSubcategory('all')}
@@ -345,7 +350,7 @@ export default function MealsPage() {
                                     : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
                                     }`}
                             >
-                                All
+                                {t('all')}
                             </button>
                             {subcategories.slice(0, 20).map((sub) => (
                                 <button
@@ -367,11 +372,11 @@ export default function MealsPage() {
             {/* Results count */}
             <div className="flex justify-between items-center mb-4">
                 <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
-                    {loading ? 'Loading...' : `Showing ${recipes.length} of ${total.toLocaleString()} meals`}
+                    {loading ? t('loading') : t('showingResults', { count: recipes.length, total: total.toLocaleString() })}
                 </p>
                 {totalPages > 1 && (
                     <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
-                        Page {page} of {totalPages}
+                        {t('pageInfo', { current: page, total: totalPages })}
                     </p>
                 )}
             </div>
@@ -384,7 +389,7 @@ export default function MealsPage() {
                         onClick={() => fetchRecipes()}
                         className="mt-4 text-violet-400 hover:text-violet-300 flex items-center justify-center gap-2"
                     >
-                        Try again
+                        {t('tryAgain')}
                     </button>
                 </div>
             )}
@@ -416,7 +421,7 @@ export default function MealsPage() {
                             {/* Healthy Badge */}
                             {meal.isHealthy && (
                                 <div className="absolute top-2 left-2 z-10 bg-green-500 text-white text-xs px-2 py-1 rounded-full font-medium shadow-lg flex items-center gap-1">
-                                    <Leaf className="w-3 h-3" /> Healthy
+                                    <Leaf className="w-3 h-3" /> {t('healthy')}
                                 </div>
                             )}
 
@@ -446,15 +451,15 @@ export default function MealsPage() {
                                 </div>
                                 <div>
                                     <div className="macro-value" style={{ color: 'var(--protein)' }}>{meal.protein}g</div>
-                                    <div className="macro-label">Protein</div>
+                                    <div className="macro-label">{tCommon('protein')}</div>
                                 </div>
                                 <div>
                                     <div className="macro-value" style={{ color: 'var(--carbs)' }}>{meal.carbs}g</div>
-                                    <div className="macro-label">Carbs</div>
+                                    <div className="macro-label">{tCommon('carbs')}</div>
                                 </div>
                                 <div>
                                     <div className="macro-value" style={{ color: 'var(--fat)' }}>{meal.fat}g</div>
-                                    <div className="macro-label">Fat</div>
+                                    <div className="macro-label">{tCommon('fat')}</div>
                                 </div>
                             </div>
                         </div>
@@ -469,7 +474,7 @@ export default function MealsPage() {
                         <div className="flex justify-center mb-4">
                             <Utensils className="w-16 h-16 text-gray-700" />
                         </div>
-                        <p className="text-gray-400">No meals found matching your criteria.</p>
+                        <p className="text-gray-400">{t('noResults')}</p>
                         <button
                             onClick={() => {
                                 setSearchQuery('');
@@ -478,7 +483,7 @@ export default function MealsPage() {
                             }}
                             className="mt-4 text-violet-400 hover:text-violet-300"
                         >
-                            Clear all filters
+                            {t('clearFilters')}
                         </button>
                     </div>
                 )
@@ -557,7 +562,7 @@ export default function MealsPage() {
                                     <div className="absolute top-4 left-4 flex gap-2">
                                         {selectedMeal.isHealthy && (
                                             <span className="bg-green-500 text-white text-sm px-3 py-1 rounded-full font-medium flex items-center gap-1">
-                                                <Leaf className="w-3 h-3" /> Healthy
+                                                <Leaf className="w-3 h-3" /> {t('healthy')}
                                             </span>
                                         )}
                                         <span className="bg-gray-800/80 text-white text-sm px-3 py-1 rounded-full capitalize">
@@ -585,7 +590,7 @@ export default function MealsPage() {
                                     {/* Quick Info */}
                                     <div className="flex gap-4 mb-6 text-sm">
                                         <span className="flex items-center gap-1 text-gray-300"><Clock className="w-4 h-4" /> {selectedMeal.prep_time || 'N/A'}</span>
-                                        <span className="flex items-center gap-1 text-gray-300"><Users className="w-4 h-4" /> {selectedMeal.serves || '?'} servings</span>
+                                        <span className="flex items-center gap-1 text-gray-300"><Users className="w-4 h-4" /> {selectedMeal.serves || '?'} {t('servings').toLowerCase()}</span>
                                     </div>
 
                                     {/* Nutritional Info */}
@@ -596,15 +601,15 @@ export default function MealsPage() {
                                         </div>
                                         <div className="text-center">
                                             <div className="text-xl font-bold" style={{ color: 'var(--protein)' }}>{selectedMeal.protein}g</div>
-                                            <div className="text-xs text-gray-400">Protein</div>
+                                            <div className="text-xs text-gray-400">{tCommon('protein')}</div>
                                         </div>
                                         <div className="text-center">
                                             <div className="text-xl font-bold" style={{ color: 'var(--carbs)' }}>{selectedMeal.carbs}g</div>
-                                            <div className="text-xs text-gray-400">Carbs</div>
+                                            <div className="text-xs text-gray-400">{tCommon('carbs')}</div>
                                         </div>
                                         <div className="text-center">
                                             <div className="text-xl font-bold" style={{ color: 'var(--fat)' }}>{selectedMeal.fat}g</div>
-                                            <div className="text-xs text-gray-400">Fat</div>
+                                            <div className="text-xs text-gray-400">{tCommon('fat')}</div>
                                         </div>
                                     </div>
 
@@ -629,7 +634,7 @@ export default function MealsPage() {
                                     {/* Ingredients */}
                                     <div className="mb-6">
                                         <h3 className="text-lg font-semibold mb-3 flex items-center gap-2 text-[var(--accent-secondary)]">
-                                            <Carrot className="w-5 h-5" /> Ingredients
+                                            <Carrot className="w-5 h-5" /> {t('ingredients')}
                                         </h3>
                                         <ul className="space-y-2">
                                             {selectedMeal.ingredients?.map((ing, i) => (
@@ -644,7 +649,7 @@ export default function MealsPage() {
                                     {/* Method/Instructions */}
                                     <div className="mb-6">
                                         <h3 className="text-lg font-semibold mb-3 flex items-center gap-2 text-[var(--accent-secondary)]">
-                                            <Chef className="w-5 h-5" /> Method
+                                            <Chef className="w-5 h-5" /> {t('method')}
                                         </h3>
                                         <ol className="space-y-3">
                                             {selectedMeal.method?.map((step, i) => (
@@ -664,7 +669,7 @@ export default function MealsPage() {
                                     {/* Ratings & Reviews */}
                                     <div className="mb-6">
                                         <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
-                                            <Star className="w-5 h-5 text-yellow-500 fill-current" /> Reviews ({ratings.length})
+                                            <Star className="w-5 h-5 text-yellow-500 fill-current" /> {t('reviews')} ({ratings.length})
                                         </h3>
 
                                         {/* Rating Form */}
@@ -694,7 +699,7 @@ export default function MealsPage() {
                                                 disabled={userRating === 0 || submittingRating}
                                                 className="btn-primary text-xs w-full disabled:opacity-50"
                                             >
-                                                {submittingRating ? 'Posting...' : 'Post Review'}
+                                                {submittingRating ? tCommon('loading') : t('postReview')}
                                             </button>
                                         </form>
 
@@ -717,7 +722,7 @@ export default function MealsPage() {
                                                 </div>
                                             ))}
                                             {ratings.length === 0 && (
-                                                <p className="text-sm text-gray-500 text-center py-2">No reviews yet. Be the first!</p>
+                                                <p className="text-sm text-gray-500 text-center py-2">{t('noReviews')}</p>
                                             )}
                                         </div>
                                     </div>

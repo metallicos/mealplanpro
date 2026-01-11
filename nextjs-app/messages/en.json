@@ -342,7 +342,12 @@
     "leaveReview": "Leave a Review",
     "postReview": "Post Review",
     "healthy": "Healthy",
-    "addToGroceryList": "Add to Grocery List"
+    "addToGroceryList": "Add to Grocery List",
+    "showingResults": "Showing {count} of {total} meals",
+    "pageInfo": "Page {current} of {total}",
+    "noResults": "No meals found matching your criteria.",
+    "clearFilters": "Clear all filters",
+    "tryAgain": "Try again"
   },
   "forum": {
     "title": "Community Forum",

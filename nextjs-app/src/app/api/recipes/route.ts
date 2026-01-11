@@ -40,14 +40,47 @@ export async function GET(request: NextRequest) {
             conditions.push('is_healthy = 1');
         }
 
+        // Filter out recipes without title or ingredients (in either target lang or EN)
+        // We need to check this AFTER the joins, but we can't do that easily in WHERE clause before JOINs are defined in the query...
+        // Wait, standard SQL allows filtering on joined tables in the WHERE clause even if the FROM is below? 
+        // No, the query structure here builds the WHERE string separately.
+        // But the main query uses `FROM recipes r LEFT JOIN ...`.
+        // So we can reference `rt.title` etc in the WHERE clause if we put the WHERE clause after the JOINs.
+        // The code constructs `whereClause` variable but puts it *before* the JOINs in the `countResult` query...
+        // Ah, `countResult` query (line 49) does NOT have the JOINs currently! 
+        // This is a bug in the existing count logic too if we filter by properties that might depend on translation (like title search).
+        // BUT, for now, let's fix the main query filtering first.
+        // Actually, to filter by "has title", we MUST join.
+        // So I need to update the COUNT query to also join, OR at least the main query.
+        // For efficiency, maybe just filter in the main query for now.
+        // User asked to "fix the meal page to show only meals having titles and ingredients".
+        // So I will add this condition to the main query's WHERE clause variables, but distinct for count vs list?
+        // References to `rt` or `rt_en` will fail in the COUNT query if it doesn't join.
+        // I should stick to `recipes` table checks if possible? No, title is in translations.
+        // So I MUST add JOINs to the count query if I want effective total count of *valid* recipes.
+
+        // Let's modify the construction to separate base filters from translation filters?
+        // Or just add the JOINs to the count query too.
+
+
         const whereClause = conditions.length > 0
             ? `WHERE ${conditions.join(' AND ')}`
             : '';
 
-        // Get total count
+        // Get total count (Distinct logic to avoid duplicates if any, though ID is unique)
+        // We need 'lang' for the join param.
+        const lang = searchParams.get('lang') || 'en';
+
+        // Params for count: [lang, ...existing_params] matches the ? placeholders in join + where
+        const countParams = [lang, ...params];
+
         const countResult = await query(
-            `SELECT COUNT(*) as total FROM recipes ${whereClause}`,
-            params
+            `SELECT COUNT(DISTINCT r.id) as total 
+             FROM recipes r 
+             LEFT JOIN recipe_translations rt ON r.id = rt.recipe_id AND rt.language_code = ?
+             LEFT JOIN recipe_translations rt_en ON r.id = rt_en.recipe_id AND rt_en.language_code = 'en'
+             ${whereClause}`,
+            countParams
         );
         const total = (countResult as { total: number }[])[0]?.total || 0;
 
@@ -62,8 +95,8 @@ export async function GET(request: NextRequest) {
         // Wait, schema_v2 moved string fields to translations. The base `recipes` table only has metadata.
         // So we MUST join.
 
-        // Let's assume current params include 'lang'.
-        const lang = searchParams.get('lang') || 'en';
+        // query used lang above
+
 
         const recipes = await query(
             `SELECT r.*, 
