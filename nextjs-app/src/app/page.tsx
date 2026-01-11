@@ -78,7 +78,7 @@ export default function Dashboard() {
   useEffect(() => {
     // 1. Fetch Random Meals
     setMealsLoading(true);
-    fetch('/api/recipes/random?count=6&healthy=true')
+    fetch(`/api/recipes/random?count=6&healthy=true&lang=${locale}`)
       .then(res => res.json())
       .then(data => setRandomMeals(data.recipes || []))
       .catch(err => console.error(err))
@@ -109,7 +109,7 @@ export default function Dashboard() {
         })
         .catch(err => console.error('Failed to fetch stats:', err));
     }
-  }, [user]);
+  }, [user, locale]);
 
   const getImageUrl = (meal: Recipe) => {
     if (meal.image_url) {
