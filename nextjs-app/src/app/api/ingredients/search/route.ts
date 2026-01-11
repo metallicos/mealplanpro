@@ -72,11 +72,18 @@ export async function GET(request: Request) {
             if (!content) return text;
 
             if (context === 'query') {
-                return content.replace(/['"]/g, '');
+                return content.replace(/['"]/g, '').trim();
             } else {
                 try {
-                    const jsonStr = content.replace(/```json/g, '').replace(/```/g, '').trim();
-                    return JSON.parse(jsonStr);
+                    // Robust JSON extraction: Find the first '{' and last '}'
+                    const start = content.indexOf('{');
+                    const end = content.lastIndexOf('}');
+
+                    if (start !== -1 && end !== -1) {
+                        const jsonStr = content.substring(start, end + 1);
+                        return JSON.parse(jsonStr);
+                    }
+                    throw new Error('No JSON object found in response');
                 } catch (e) {
                     console.error('Translation parse error', e);
                     return {};
@@ -84,7 +91,8 @@ export async function GET(request: Request) {
             }
         } catch (error) {
             console.error('Translation error:', error);
-            return text;
+            // Return empty object for results context to avoid type errors
+            return context === 'results' ? {} : text;
         }
     };
 
