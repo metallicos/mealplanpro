@@ -166,6 +166,12 @@ export default function AiCoachWidget() {
                 throw new Error('AI Error');
             }
             const data = await res.json();
+
+            // Validation Check
+            if (!data || !data.workout) {
+                throw new Error('Invalid Data');
+            }
+
             setPlan(data);
             setStep('result');
         } catch (error) {
@@ -339,7 +345,7 @@ export default function AiCoachWidget() {
                                 <Brain size={14} className="text-emerald-400" />
                             </div>
                             <div>
-                                <p className="text-xs font-medium text-emerald-100 italic leading-relaxed">"{plan.motivation}"</p>
+                                <p className="text-xs font-medium text-emerald-100 italic leading-relaxed">"{plan?.motivation}"</p>
                             </div>
                         </div>
 
@@ -348,15 +354,15 @@ export default function AiCoachWidget() {
                             <div className="bg-slate-800/40 rounded-lg border border-emerald-500/20 overflow-hidden">
                                 {/* Header */}
                                 <div className="bg-emerald-900/30 px-3 py-2 border-b border-emerald-500/20 flex justify-between items-center">
-                                    <h4 className="font-bold text-emerald-100 text-xs truncate max-w-[180px]">{plan.workout.title}</h4>
+                                    <h4 className="font-bold text-emerald-100 text-xs truncate max-w-[180px]">{plan?.workout?.title}</h4>
                                     <div className="flex gap-2">
-                                        <span className="text-[9px] bg-slate-800 px-1.5 py-0.5 rounded text-slate-300">{plan.workout.duration}</span>
-                                        <span className="text-[9px] bg-slate-800 px-1.5 py-0.5 rounded text-slate-300">{plan.workout.difficulty}</span>
+                                        <span className="text-[9px] bg-slate-800 px-1.5 py-0.5 rounded text-slate-300">{plan?.workout?.duration}</span>
+                                        <span className="text-[9px] bg-slate-800 px-1.5 py-0.5 rounded text-slate-300">{plan?.workout?.difficulty}</span>
                                     </div>
                                 </div>
                                 {/* Exercises List */}
                                 <div className="p-2 space-y-2">
-                                    {plan.workout.exercises.map((ex, i) => (
+                                    {plan?.workout?.exercises?.map((ex, i) => (
                                         <div key={i} className="flex justify-between items-start text-xs border-b border-slate-700/50 pb-2 last:border-0 last:pb-0">
                                             <div>
                                                 <p className="font-bold text-slate-200">{ex.name}</p>
@@ -372,7 +378,7 @@ export default function AiCoachWidget() {
                             <div className="mt-3 bg-blue-900/10 p-2 rounded-lg border border-blue-500/10">
                                 <p className="text-[10px] text-blue-200 leading-relaxed">
                                     <span className="font-bold text-blue-400">Tip: </span>
-                                    {plan.recommendation}
+                                    {plan?.recommendation}
                                 </p>
                             </div>
                         </div>
