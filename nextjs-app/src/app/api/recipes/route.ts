@@ -63,15 +63,17 @@ export async function GET(request: NextRequest) {
         // Or just add the JOINs to the count query too.
 
 
+        // Filter out recipes without title or ingredients (in either target lang or EN)
+        // We ensure that we have at least a title in one of the languages
+        conditions.push('(COALESCE(NULLIF(rt.title, ""), NULLIF(rt_en.title, "")) IS NOT NULL)');
+        conditions.push('(COALESCE(NULLIF(rt.ingredients_json, ""), NULLIF(rt_en.ingredients_json, ""), "[]") != "[]")');
+
         const whereClause = conditions.length > 0
             ? `WHERE ${conditions.join(' AND ')}`
             : '';
 
-        // Get total count (Distinct logic to avoid duplicates if any, though ID is unique)
-        // We need 'lang' for the join param.
+        // Get total count
         const lang = searchParams.get('lang') || 'en';
-
-        // Params for count: [lang, ...existing_params] matches the ? placeholders in join + where
         const countParams = [lang, ...params];
 
         const countResult = await query(
@@ -84,26 +86,12 @@ export async function GET(request: NextRequest) {
         );
         const total = (countResult as { total: number }[])[0]?.total || 0;
 
-        // Get recipes with pagination and ratings
-        // Create temp view or just join?
-        // SQLite: Join recipe_translations 
-        // We need to fallback. 
-        // Strategy: Join translations ON recipe_id AND language_code = ? 
-        // But if null, we need 'en'.
-        // Easier: Select * from recipes and LEFT JOIN translations. 
-        // In the map step, if translation title is null, we might need a fallback query or just use the base fields if we kept them. 
-        // Wait, schema_v2 moved string fields to translations. The base `recipes` table only has metadata.
-        // So we MUST join.
-
-        // query used lang above
-
-
         const recipes = await query(
             `SELECT r.*, 
-                    COALESCE(rt.title, rt_en.title) as title,
-                    COALESCE(rt.description, rt_en.description) as description,
-                    COALESCE(rt.ingredients_json, rt_en.ingredients_json) as ingredients,
-                    COALESCE(rt.method_json, rt_en.method_json) as method,
+                    COALESCE(NULLIF(rt.title, ''), NULLIF(rt_en.title, ''), 'Untitled Recipe') as title,
+                    COALESCE(NULLIF(rt.description, ''), NULLIF(rt_en.description, ''), '') as description,
+                    COALESCE(NULLIF(rt.ingredients_json, ''), NULLIF(rt_en.ingredients_json, ''), '[]') as ingredients,
+                    COALESCE(NULLIF(rt.method_json, ''), NULLIF(rt_en.method_json, ''), '[]') as method,
                     AVG(mr.rating) as avg_rating,
                     COUNT(mr.rating) as rating_count
              FROM recipes r
