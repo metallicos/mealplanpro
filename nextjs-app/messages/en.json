@@ -327,6 +327,7 @@
   "meals": {
     "title": "Meal Library",
     "subtitle": "Discover delicious and healthy recipes",
+    "loading": "Loading meals...",
     "searchMeals": "Search meals by name, description, or ingredient...",
     "healthyOnly": "Healthy only",
     "category": "Category",

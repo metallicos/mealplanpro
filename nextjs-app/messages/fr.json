@@ -318,6 +318,7 @@
     "meals": {
         "title": "Bibliothèque de Repas",
         "subtitle": "Découvrez des recettes délicieuses et saines",
+        "loading": "Chargement des repas...",
         "searchMeals": "Rechercher des repas par nom, description ou ingrédient...",
         "healthyOnly": "Sains uniquement",
         "category": "Catégorie",
