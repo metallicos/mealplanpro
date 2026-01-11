@@ -165,13 +165,13 @@ export default function AiCoachWidget() {
 
     return (
         <div className="card h-full flex flex-col justify-between bg-[#0F172A] border border-emerald-500/10 shadow-xl relative overflow-hidden rounded-3xl">
-            <div className="relative z-10 flex-1 flex flex-col p-4 sm:p-6">
-                <div className="mb-6">
-                    <h3 className="text-lg font-bold text-white flex items-center gap-2">
-                        <Heart className="text-emerald-400 fill-emerald-400/20" size={20} />
+            <div className="relative z-10 flex-1 flex flex-col p-4">
+                <div className="mb-4 flex items-center justify-between">
+                    <h3 className="text-base font-bold text-white flex items-center gap-2">
+                        <Heart className="text-emerald-400 fill-emerald-400/20" size={18} />
                         {t('title')}
                     </h3>
-                    <p className="text-xs text-slate-400">{t('subtitle')}</p>
+                    <p className="text-[10px] text-slate-500">{t('subtitle')}</p>
                 </div>
 
                 {step === 'checkin' && (
@@ -190,27 +190,27 @@ export default function AiCoachWidget() {
                         </div>
 
                         {/* Mood & Energy */}
-                        <div className="grid grid-cols-2 gap-6">
-                            <div className="space-y-3">
-                                <div className="flex justify-between text-[10px] font-bold tracking-widest text-slate-400">
+                        <div className="grid grid-cols-2 gap-4">
+                            <div className="space-y-2">
+                                <div className="flex justify-between text-[9px] font-bold tracking-widest text-slate-400">
                                     <label className="uppercase">{t('mood')}</label>
                                     <span className="text-emerald-400">{mood}/10</span>
                                 </div>
                                 <input
                                     type="range" min="1" max="10"
                                     value={mood} onChange={e => setMood(parseInt(e.target.value))}
-                                    className="w-full h-1.5 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-emerald-500 hover:accent-emerald-400"
+                                    className="w-full h-1 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-emerald-500 hover:accent-emerald-400"
                                 />
                             </div>
-                            <div className="space-y-3">
-                                <div className="flex justify-between text-[10px] font-bold tracking-widest text-slate-400">
+                            <div className="space-y-2">
+                                <div className="flex justify-between text-[9px] font-bold tracking-widest text-slate-400">
                                     <label className="uppercase">{t('energy')}</label>
                                     <span className="text-emerald-400">{energy}/10</span>
                                 </div>
                                 <input
                                     type="range" min="1" max="10"
                                     value={energy} onChange={e => setEnergy(parseInt(e.target.value))}
-                                    className="w-full h-1.5 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-emerald-500 hover:accent-emerald-400"
+                                    className="w-full h-1 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-emerald-500 hover:accent-emerald-400"
                                 />
                             </div>
                         </div>
@@ -258,21 +258,20 @@ export default function AiCoachWidget() {
                         )}
 
                         {/* Sport Type Grid */}
-                        <div className="space-y-3">
-                            <label className="text-[10px] uppercase font-bold tracking-widest text-slate-400 block">{t('sportType')}</label>
-                            <div className="grid grid-cols-4 sm:grid-cols-5 gap-2">
+                        <div className="space-y-2">
+                            <label className="text-[9px] uppercase font-bold tracking-widest text-slate-400 block">{t('sportType')}</label>
+                            <div className="grid grid-cols-6 gap-1.5">
                                 {availableSports.map(sport => (
                                     <button
                                         key={sport.id}
                                         onClick={() => setSportType(sport.id)}
-                                        className={`aspect-square rounded-xl flex flex-col items-center justify-center gap-1.5 transition-all w-full ${sportType === sport.id
-                                            ? 'bg-emerald-500 text-white shadow-lg shadow-emerald-500/20 scale-105'
+                                        className={`aspect-square rounded-lg flex flex-col items-center justify-center gap-1 transition-all w-full ${sportType === sport.id
+                                            ? 'bg-emerald-500 text-white shadow-lg shadow-emerald-500/20'
                                             : 'bg-slate-800/50 text-slate-400 hover:bg-slate-700 hover:text-white'
                                             }`}
                                         title={t(`sports.${sport.id}`)}
                                     >
-                                        <sport.Icon size={20} strokeWidth={1.5} />
-                                        <span className="text-[9px] font-medium truncate w-[90%] text-center">{t(`sports.${sport.id}`)}</span>
+                                        <sport.Icon size={16} strokeWidth={1.5} />
                                     </button>
                                 ))}
                             </div>
@@ -282,10 +281,10 @@ export default function AiCoachWidget() {
                         <div className="mt-4 pt-4">
                             <button
                                 onClick={handleGenerate}
-                                className="w-full py-3.5 bg-white hover:bg-emerald-50 text-emerald-950 font-bold rounded-xl transition-all shadow-lg shadow-white/5 flex items-center justify-center gap-2 group active:scale-[0.98]"
+                                className="w-full py-2.5 bg-white hover:bg-emerald-50 text-emerald-950 font-bold rounded-lg transition-all shadow-lg shadow-white/5 flex items-center justify-center gap-2 group text-sm"
                             >
                                 <span>{t('generatePlan')}</span>
-                                <Zap size={18} className="text-emerald-600 group-hover:scale-110 transition-transform" fill="currentColor" />
+                                <Zap size={16} className="text-emerald-600 group-hover:scale-110 transition-transform" fill="currentColor" />
                             </button>
                         </div>
                     </div>
