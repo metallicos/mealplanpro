@@ -85,6 +85,44 @@ export default function CoachPage() {
     // Result State
     const [plan, setPlan] = useState<CoachPlan | null>(null);
 
+    // Feedback State
+    const [showFeedback, setShowFeedback] = useState(false);
+    const [rating, setRating] = useState(5);
+    const [feedbackNotes, setFeedbackNotes] = useState('');
+    const [saving, setSaving] = useState(false);
+
+    const handleComplete = async () => {
+        setSaving(true);
+        try {
+            const today = new Date().toISOString().split('T')[0];
+            const res = await fetch('/api/v2/ai/coach/complete', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    date: today,
+                    workout: plan?.workout,
+                    rating,
+                    notes: feedbackNotes
+                })
+            });
+
+            if (res.ok) {
+                alert('Workout logged! Your coach will learn from this.');
+                setStep('checkin');
+                setShowFeedback(false);
+                setRating(5);
+                setFeedbackNotes('');
+            } else {
+                alert('Failed to save workout.');
+            }
+        } catch (error) {
+            console.error(error);
+            alert('Error saving workout.');
+        } finally {
+            setSaving(false);
+        }
+    };
+
     // Get sports available for current location
     const availableSports = SPORTS.filter(s => s.locations.includes(location));
 
@@ -177,7 +215,68 @@ export default function CoachPage() {
     }
 
     return (
-        <div className="animate-fade-in max-w-4xl mx-auto">
+        <div className="animate-fade-in max-w-4xl mx-auto relative">
+            {/* Feedback Modal */}
+            {showFeedback && (
+                <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-fade-in">
+                    <div className="bg-slate-900 border border-emerald-500/20 rounded-2xl p-6 max-w-sm w-full shadow-2xl">
+                        <h3 className="text-xl font-bold text-white mb-2 flex items-center gap-2">
+                            <Check className="w-6 h-6 text-emerald-400" /> Workout Complete!
+                        </h3>
+                        <p className="text-gray-400 text-sm mb-4">Rate your session difficulty to help your Coach adjust future training.</p>
+
+                        <div className="space-y-4">
+                            <div>
+                                <label className="text-xs font-bold text-gray-500 uppercase tracking-widest mb-2 block">Difficulty</label>
+                                <div className="flex justify-between bg-black/20 p-2 rounded-xl">
+                                    {[1, 2, 3, 4, 5].map(r => (
+                                        <button
+                                            key={r}
+                                            onClick={() => setRating(r)}
+                                            className={`w-10 h-10 rounded-lg font-bold transition-all ${rating === r
+                                                ? 'bg-emerald-500 text-white shadow-lg scale-110'
+                                                : 'text-gray-500 hover:bg-white/5'}`}
+                                        >
+                                            {r}
+                                        </button>
+                                    ))}
+                                </div>
+                                <div className="flex justify-between text-[10px] text-gray-500 mt-1 px-1">
+                                    <span>Too Easy</span>
+                                    <span>Perfect</span>
+                                    <span>Too Hard</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label className="text-xs font-bold text-gray-500 uppercase tracking-widest mb-2 block">Notes</label>
+                                <textarea
+                                    className="w-full bg-black/20 border border-white/10 rounded-xl p-3 text-sm text-white placeholder-gray-600 focus:outline-none focus:border-emerald-500/50"
+                                    placeholder="e.g. Added 5kg to squats, felt strong..."
+                                    rows={3}
+                                    value={feedbackNotes}
+                                    onChange={e => setFeedbackNotes(e.target.value)}
+                                />
+                            </div>
+
+                            <button
+                                onClick={handleComplete}
+                                disabled={saving}
+                                className="w-full py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl transition-all shadow-lg shadow-emerald-900/40 disabled:opacity-50"
+                            >
+                                {saving ? 'Saving...' : 'Save & Finish'}
+                            </button>
+                            <button
+                                onClick={() => setShowFeedback(false)}
+                                className="w-full py-2 text-gray-500 text-xs font-bold hover:text-white transition-colors"
+                            >
+                                Cancel
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            )}
+
             {/* Hero Header */}
             <div className="relative mb-8 py-8 px-6 rounded-3xl overflow-hidden bg-gradient-to-br from-emerald-900/40 to-teal-900/60 border border-emerald-500/20">
                 <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-emerald-600/20 via-transparent to-transparent"></div>
@@ -410,13 +509,21 @@ export default function CoachPage() {
                         </div>
                     )}
 
-                    {/* Regenerate Button */}
-                    <button
-                        onClick={() => setStep('checkin')}
-                        className="w-full py-4 bg-gray-800/50 hover:bg-gray-700/50 text-gray-300 rounded-xl font-medium transition-all border border-white/5 hover:text-white"
-                    >
-                        {t('updateCheckin')}
-                    </button>
+                    {/* Action Buttons */}
+                    <div className="grid grid-cols-2 gap-4">
+                        <button
+                            onClick={() => setShowFeedback(true)}
+                            className="w-full py-4 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white rounded-xl font-bold shadow-lg shadow-emerald-500/25 transition-all flex items-center justify-center gap-2"
+                        >
+                            <Check className="w-5 h-5" /> Complete Workout
+                        </button>
+                        <button
+                            onClick={() => setStep('checkin')}
+                            className="w-full py-4 bg-gray-800/50 hover:bg-gray-700/50 text-gray-300 rounded-xl font-medium transition-all border border-white/5 hover:text-white"
+                        >
+                            {t('updateCheckin')}
+                        </button>
+                    </div>
                 </div>
             )}
         </div>
