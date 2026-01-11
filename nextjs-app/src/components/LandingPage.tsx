@@ -73,18 +73,18 @@ export default function LandingPage() {
             </div>
 
             {/* Navbar */}
-            <nav className="relative z-10 container mx-auto px-6 py-6 flex items-center justify-between">
-                <div className="flex items-center gap-2 font-bold text-xl tracking-tight">
+            <nav className="relative z-10 container mx-auto px-4 md:px-6 py-4 md:py-6 flex items-center justify-between">
+                <div className="flex items-center gap-2 font-bold text-lg md:text-xl tracking-tight">
                     <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-cyan-500 to-emerald-500 flex items-center justify-center text-white">
                         <Utensils size={18} />
                     </div>
                     <span>MealPlan<span className="text-cyan-400">Pro</span></span>
                 </div>
-                <div className="flex gap-4">
-                    <Link href="/login" className="px-5 py-2.5 rounded-full text-sm font-medium text-gray-300 hover:text-white transition-colors">
+                <div className="flex items-center gap-2 md:gap-4">
+                    <Link href="/login" className="px-3 py-2 md:px-5 md:py-2.5 rounded-full text-xs md:text-sm font-medium text-gray-300 hover:text-white transition-colors">
                         Log In
                     </Link>
-                    <Link href="/signup" className="px-5 py-2.5 rounded-full bg-white text-black text-sm font-bold hover:bg-gray-100 transition-colors shadow-lg shadow-white/10">
+                    <Link href="/signup" className="px-4 py-2 md:px-5 md:py-2.5 rounded-full bg-white text-black text-xs md:text-sm font-bold hover:bg-gray-100 transition-colors shadow-lg shadow-white/10">
                         Sign Up
                     </Link>
                 </div>
