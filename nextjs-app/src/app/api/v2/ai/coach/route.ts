@@ -21,19 +21,9 @@ export async function POST(request: NextRequest) {
 
         const today = new Date().toISOString().split('T')[0];
 
-        // 0. Check Usage Quota (Max 3 per day)
-        const logs = await query(
-            'SELECT COUNT(*) as count FROM ai_workout_logs WHERE user_id = ? AND date = ?',
-            [session.id, today]
-        );
-        const usageCount = (logs as any[])[0]?.count || 0;
+        // Limit Check Removed
 
-        if (usageCount >= 3) {
-            return NextResponse.json({
-                error: 'Daily limit reached. You can generate up to 3 workouts per day.',
-                limitReached: true
-            }, { status: 429 });
-        }
+        // 1. Get User Context (Profile + Recent Logs)
 
         // 1. Get User Context (Profile + Recent Logs)
         const profiles = await query('SELECT * FROM user_profiles WHERE user_id = ?', [session.id]);
