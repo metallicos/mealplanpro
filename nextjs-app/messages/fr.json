@@ -131,7 +131,16 @@
         "sodium": "Sodium",
         "zinc": "Zinc",
         "fiber": "Fibres",
-        "sugar": "Sucres"
+        "sugar": "Sucres",
+        "selectDate": "Sélectionner une date",
+        "previous": "Précédent",
+        "next": "Suivant",
+        "calories": "Calories",
+        "protein": "Protéines",
+        "carbs": "Glucides",
+        "fat": "Lipides",
+        "searchFood_placeholder": "Rechercher poulet, riz, oeufs...",
+        "searching": "Recherche en cours..."
     },
     "fasting": {
         "title": "Centre de Jeûne",
