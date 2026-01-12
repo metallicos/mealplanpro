@@ -6,8 +6,9 @@ import { useTranslations } from 'next-intl';
 import {
     Timer, Clock, Zap, Heart, Brain, Sparkles,
     ChevronRight, Play, Pause, RotateCcw, Info,
-    TrendingUp, Award, Calendar, Check, X, Flame
+    TrendingUp, Award, Calendar, Check, X, Flame, Bell, BellOff
 } from 'lucide-react';
+import { fastingNotifications } from '@/lib/fastingNotifications';
 
 // Fasting Protocol Definitions
 const PROTOCOLS = [
@@ -70,13 +71,13 @@ const PROTOCOLS = [
 
 // Scientific Stages Data
 const STAGES = [
-    { hours: 0, name: 'stages_fed', desc: 'stages_fed.desc', color: 'text-gray-400', icon: '🍽️' },
-    { hours: 4, name: 'stages_early', desc: 'stages_early.desc', color: 'text-blue-400', icon: '📉' },
-    { hours: 8, name: 'stages_fat_burning', desc: 'stages_fat_burning.desc', color: 'text-orange-400', icon: '🔥' },
-    { hours: 12, name: 'stages_ketosis', desc: 'stages_ketosis.desc', color: 'text-amber-400', icon: '⚡' },
-    { hours: 16, name: 'stages_autophagy', desc: 'stages_autophagy.desc', color: 'text-emerald-400', icon: '🔄' },
-    { hours: 18, name: 'stages_deep_autophagy', desc: 'stages_deep_autophagy.desc', color: 'text-teal-400', icon: '✨' },
-    { hours: 24, name: 'stages_growth_hormone', desc: 'stages_growth_hormone.desc', color: 'text-purple-400', icon: '💪' },
+    { hours: 0, name: 'stages_fed.name', desc: 'stages_fed.desc', color: 'text-gray-400', icon: '🍽️' },
+    { hours: 4, name: 'stages_early.name', desc: 'stages_early.desc', color: 'text-blue-400', icon: '📉' },
+    { hours: 8, name: 'stages_fat_burning.name', desc: 'stages_fat_burning.desc', color: 'text-orange-400', icon: '🔥' },
+    { hours: 12, name: 'stages_ketosis.name', desc: 'stages_ketosis.desc', color: 'text-amber-400', icon: '⚡' },
+    { hours: 16, name: 'stages_autophagy.name', desc: 'stages_autophagy.desc', color: 'text-emerald-400', icon: '🔄' },
+    { hours: 18, name: 'stages_deep_autophagy.name', desc: 'stages_deep_autophagy.desc', color: 'text-teal-400', icon: '✨' },
+    { hours: 24, name: 'stages_growth_hormone.name', desc: 'stages_growth_hormone.desc', color: 'text-purple-400', icon: '💪' },
 ];
 
 export default function FastingPage() {
@@ -91,6 +92,7 @@ export default function FastingPage() {
     const [history, setHistory] = useState<any[]>([]);
     const [stats, setStats] = useState<any>(null);
     const [loadingHistory, setLoadingHistory] = useState(false);
+    const [notificationsEnabled, setNotificationsEnabled] = useState(false);
 
     useEffect(() => {
         // Fetch current fasting status
@@ -148,6 +150,14 @@ export default function FastingPage() {
                 const data = await res.json();
                 setIsFasting(true);
                 setStartTime(data.start_time);
+
+                // Schedule notifications if enabled
+                if (notificationsEnabled) {
+                    fastingNotifications.scheduleFastingNotifications(
+                        new Date(data.start_time),
+                        selectedProtocol.fasting
+                    );
+                }
             }
         } catch (error) {
             console.error('Failed to start fast:', error);
@@ -165,9 +175,23 @@ export default function FastingPage() {
                 setIsFasting(false);
                 setStartTime(null);
                 setElapsedSeconds(0);
+
+                // Cancel any pending notifications
+                fastingNotifications.cancelFastingNotifications();
+                fastingNotifications.clearProgressNotification();
             }
         } catch (error) {
             console.error('Failed to end fast:', error);
+        }
+    };
+
+    const toggleNotifications = async () => {
+        if (!notificationsEnabled) {
+            const granted = await fastingNotifications.requestPermission();
+            setNotificationsEnabled(granted);
+        } else {
+            setNotificationsEnabled(false);
+            fastingNotifications.cancelFastingNotifications();
         }
     };
 
@@ -311,7 +335,7 @@ export default function FastingPage() {
 
                             {/* Protocol Indicator */}
                             <div className={`px-4 py-2 rounded-full ${getColorClass(selectedProtocol.color, 'bg')}/20 ${getColorClass(selectedProtocol.color, 'text')} text-sm font-medium mb-6`}>
-                                {t(selectedProtocol.name)} ({selectedProtocol.fasting}:{selectedProtocol.eating})
+                                {selectedProtocol.name} ({selectedProtocol.fasting}:{selectedProtocol.eating})
                             </div>
 
                             {/* Action Button */}
@@ -331,6 +355,18 @@ export default function FastingPage() {
                                     <Play size={20} /> {t('startFast')}
                                 </button>
                             )}
+
+                            {/* Notification Toggle */}
+                            <button
+                                onClick={toggleNotifications}
+                                className={`mt-4 flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all ${notificationsEnabled
+                                    ? 'bg-purple-500/20 text-purple-300 border border-purple-500/30'
+                                    : 'bg-gray-800/50 text-gray-400 border border-gray-700 hover:text-white'
+                                    }`}
+                            >
+                                {notificationsEnabled ? <Bell size={16} /> : <BellOff size={16} />}
+                                {notificationsEnabled ? 'Notifications On' : 'Enable Notifications'}
+                            </button>
                         </div>
                     </div>
 
