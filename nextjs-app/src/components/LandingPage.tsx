@@ -39,6 +39,7 @@ export default function LandingPage() {
     } | null>(null);
 
     const [showLangMenu, setShowLangMenu] = useState(false);
+    const [showAuthMenu, setShowAuthMenu] = useState(false);
 
     const switchLanguage = (newLocale: string) => {
         document.cookie = `NEXT_LOCALE=${newLocale}; path=/; max-age=31536000`;
