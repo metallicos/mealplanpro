@@ -29,7 +29,10 @@ interface MonthlyBudget {
     items: GroceryItem[];
 }
 
+import { useTranslations } from 'next-intl';
+
 export default function GroceriesPage() {
+    const t = useTranslations('groceries');
     const { theme, settings } = useUser();
     const printRef = useRef<HTMLDivElement>(null);
 
@@ -305,11 +308,11 @@ export default function GroceriesPage() {
             },
         }));
 
-        alert(`${nextMonthItems.length} items copied to ${nextMonth}!`);
+        alert(`${nextMonthItems.length} ${t('itemsCopied')} ${nextMonth}!`);
     };
 
     const clearList = () => {
-        if (confirm('Clear all items from this month?')) {
+        if (confirm(t('confirmClear'))) {
             updateBudget({ items: [] });
         }
     };
@@ -320,7 +323,7 @@ export default function GroceriesPage() {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Grocery List - ${formatMonth(currentMonth)}</title>
+    <title>${t('printTitle')} - ${formatMonth(currentMonth)}</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: Arial, sans-serif; padding: 20px; font-size: 11pt; }
@@ -342,19 +345,22 @@ export default function GroceriesPage() {
     </style>
 </head>
 <body>
-    <h1>GROCERY LIST</h1>
+    <h1>${t('printTitle')}</h1>
     <p class="subtitle"><strong>${formatMonth(currentMonth)}</strong><br>
-    Budget: ${formatCurrency(currentBudget.initial_budget)} | Items: ${totalItems} | Purchased: ${purchasedItems}</p>
+    ${t('printBudget')
+                .replace('{budget}', formatCurrency(currentBudget.initial_budget))
+                .replace('{items}', totalItems.toString())
+                .replace('{purchased}', purchasedItems.toString())}</p>
     
     <table>
         <thead>
             <tr>
                 <th style="width:30px"></th>
-                <th>Item</th>
-                <th style="width:60px">Qty</th>
-                <th style="width:80px">Price</th>
-                <th style="width:100px">Status</th>
-                <th>Notes</th>
+                <th>${t('item')}</th>
+                <th style="width:60px">${t('qty')}</th>
+                <th style="width:80px">${t('price')}</th>
+                <th style="width:100px">${t('status')}</th>
+                <th>${t('notes')}</th>
             </tr>
         </thead>
         <tbody>
@@ -369,9 +375,9 @@ export default function GroceriesPage() {
                         <td>${item.quantity} ${item.default_unit}</td>
                         <td>${formatCurrency(Number(item.estimated_price_per_unit) * Number(item.quantity))}</td>
                         <td>
-                            ${item.is_out_of_stock ? '<span class="badge badge-oos">EPUISE</span>' : ''}
-                            ${item.buy_next_month ? '<span class="badge badge-next">NEXT</span>' : ''}
-                            ${item.actual_price !== null && item.actual_price !== undefined ? `Paid: ${formatCurrency(Number(item.actual_price))}` : ''}
+                            ${item.is_out_of_stock ? `<span class="badge badge-oos">${t('outOfStock').toUpperCase()}</span>` : ''}
+                            ${item.buy_next_month ? `<span class="badge badge-next">${t('buyNextMonth').toUpperCase()}</span>` : ''}
+                            ${item.actual_price !== null && item.actual_price !== undefined ? `${t('paid')}: ${formatCurrency(Number(item.actual_price))}` : ''}
                         </td>
                         <td style="font-size:9pt;font-style:italic">${item.comment || '-'}</td>
                     </tr>
@@ -382,13 +388,13 @@ export default function GroceriesPage() {
     
     <table class="summary">
         <tr>
-            <td><strong>Estimated:</strong> ${formatCurrency(estimatedCost)}</td>
-            <td><strong>Spent:</strong> ${formatCurrency(actualSpent)}</td>
-            <td style="text-align:right"><strong>REMAINING: ${formatCurrency(remainingBudget)}</strong></td>
+            <td><strong>${t('printEst')}:</strong> ${formatCurrency(estimatedCost)}</td>
+            <td><strong>${t('printSpent')}:</strong> ${formatCurrency(actualSpent)}</td>
+            <td style="text-align:right"><strong>${t('printRemaining')}: ${formatCurrency(remainingBudget)}</strong></td>
         </tr>
         <tr>
             <td colspan="3" style="font-size:9pt;padding-top:10px">
-                Out of Stock: ${outOfStockItems} | Buy Next Month: ${needNextMonth}
+                ${t('printOos').replace('{oos}', outOfStockItems.toString()).replace('{next}', needNextMonth.toString())}
             </td>
         </tr>
     </table>
@@ -571,20 +577,20 @@ export default function GroceriesPage() {
                 <div className="flex items-center gap-3">
                     <h1 className="page-title flex items-center gap-3">
                         <ShoppingCart className="w-8 h-8 text-[var(--accent-primary)]" />
-                        Grocery & Budget Manager
+                        {t('title')}
                     </h1>
                     {isSaving && (
                         <span className="text-sm px-2 py-1 rounded bg-blue-500/20 text-blue-400 animate-pulse">
-                            Saving...
+                            {t('saving')}
                         </span>
                     )}
                     {isLoaded && !isSaving && (
                         <span className="text-sm px-2 py-1 rounded bg-green-500/20 text-green-400 flex items-center gap-1">
-                            <Check className="w-3 h-3" /> Saved
+                            <Check className="w-3 h-3" /> {t('saved')}
                         </span>
                     )}
                 </div>
-                <p className="page-subtitle">Data is automatically saved. Switch months to view history.</p>
+                <p className="page-subtitle">{t('subtitle')}</p>
             </div>
 
             {/* Month & Budget Bar */}
@@ -592,7 +598,7 @@ export default function GroceriesPage() {
                 <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-3 sm:gap-4">
                     <div className="flex items-center gap-3">
                         <div>
-                            <label className="form-label text-xs sm:text-sm">Month</label>
+                            <label className="form-label text-xs sm:text-sm">{t('month')}</label>
                             <select
                                 className="form-input text-sm"
                                 value={currentMonth}
@@ -605,7 +611,7 @@ export default function GroceriesPage() {
                         </div>
 
                         <div className="flex-1">
-                            <label className="form-label text-xs sm:text-sm">Budget</label>
+                            <label className="form-label text-xs sm:text-sm">{t('budget')}</label>
                             <div className="flex items-center gap-2">
                                 <div
                                     className="text-lg sm:text-2xl font-bold cursor-pointer hover:opacity-80"
@@ -632,10 +638,10 @@ export default function GroceriesPage() {
 
                     <div className="flex gap-2 sm:ml-auto">
                         <button onClick={handlePrint} className="btn-secondary flex-1 sm:flex-none text-sm flex items-center justify-center gap-2">
-                            <Printer className="w-4 h-4" /> <span className="hidden sm:inline">Print</span>
+                            <Printer className="w-4 h-4" /> <span className="hidden sm:inline">{t('print')}</span>
                         </button>
                         <button onClick={copyToNextMonth} className="btn-secondary flex-1 sm:flex-none text-sm flex items-center justify-center gap-2">
-                            <Copy className="w-4 h-4" /> <span className="hidden sm:inline">Copy</span>
+                            <Copy className="w-4 h-4" /> <span className="hidden sm:inline">{t('copy')}</span>
                         </button>
                     </div>
                 </div>
@@ -645,23 +651,23 @@ export default function GroceriesPage() {
             <div className="grid grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-4 mb-4 no-print">
                 <div className="stat-card">
                     <div className="stat-value">{totalItems}</div>
-                    <div className="stat-label">Total Items</div>
+                    <div className="stat-label">{t('totalItems')}</div>
                 </div>
                 <div className="stat-card">
                     <div className="stat-value" style={{ color: 'var(--success)' }}>{purchasedItems}</div>
-                    <div className="stat-label">Purchased</div>
+                    <div className="stat-label">{t('purchased')}</div>
                 </div>
                 <div className="stat-card">
                     <div className="stat-value" style={{ color: 'var(--error)' }}>{outOfStockItems}</div>
-                    <div className="stat-label">Out of Stock</div>
+                    <div className="stat-label">{t('outOfStock')}</div>
                 </div>
                 <div className="stat-card">
                     <div className="stat-value" style={{ color: 'var(--warning)' }}>{needNextMonth}</div>
-                    <div className="stat-label">Buy Next Month</div>
+                    <div className="stat-label">{t('buyNextMonth')}</div>
                 </div>
                 <div className="stat-card">
                     <div className="stat-value">{formatCurrency(actualSpent)}</div>
-                    <div className="stat-label">Spent</div>
+                    <div className="stat-label">{t('spent')}</div>
                 </div>
                 <div className="stat-card">
                     <div
@@ -670,16 +676,16 @@ export default function GroceriesPage() {
                     >
                         {formatCurrency(remainingBudget)}
                     </div>
-                    <div className="stat-label">Remaining</div>
+                    <div className="stat-label">{t('remaining')}</div>
                 </div>
             </div>
 
             {/* Budget Progress Bar */}
             <div className="card mb-6 no-print">
                 <div className="flex items-center justify-between mb-2">
-                    <span className="font-medium">Budget Usage</span>
+                    <span className="font-medium">{t('budgetUsage')}</span>
                     <span className="text-sm" style={{ color: 'var(--text-muted)' }}>
-                        {Math.round((actualSpent / currentBudget.initial_budget) * 100)}% used
+                        {Math.round((actualSpent / currentBudget.initial_budget) * 100)}{t('used')}
                     </span>
                 </div>
                 <div className="h-4 rounded-full overflow-hidden" style={{ background: 'var(--bg-secondary)' }}>
@@ -694,8 +700,8 @@ export default function GroceriesPage() {
                     />
                 </div>
                 <div className="flex justify-between text-sm mt-2" style={{ color: 'var(--text-muted)' }}>
-                    <span>Est. Total: {formatCurrency(estimatedCost)}</span>
-                    <span>Budget: {formatCurrency(currentBudget.initial_budget)}</span>
+                    <span>{t('estTotal')}: {formatCurrency(estimatedCost)}</span>
+                    <span>{t('budget')}: {formatCurrency(currentBudget.initial_budget)}</span>
                 </div>
             </div>
 
@@ -703,13 +709,13 @@ export default function GroceriesPage() {
                 {/* Add Items Panel */}
                 <div className="order-2 lg:order-1 lg:col-span-1 no-print">
                     <div className="card lg:sticky lg:top-4">
-                        <h3 className="font-semibold mb-3 text-sm sm:text-base">Add Items</h3>
+                        <h3 className="font-semibold mb-3 text-sm sm:text-base">{t('addItemsTitle')}</h3>
 
                         {/* Search */}
                         <div className="relative mb-4">
                             <input
                                 type="text"
-                                placeholder="Search 300+ items..."
+                                placeholder={t('searchPlaceholder')}
                                 className="form-input"
                                 value={searchQuery}
                                 onChange={(e) => setSearchQuery(e.target.value)}
@@ -739,25 +745,25 @@ export default function GroceriesPage() {
                             onClick={() => setShowAddModal(true)}
                             className="btn-secondary w-full mb-2 flex items-center justify-center gap-2"
                         >
-                            <Plus className="w-4 h-4" /> Add Custom Item
+                            <Plus className="w-4 h-4" /> {t('addCustomItem')}
                         </button>
 
                         <button
                             onClick={() => setShowMultiSelectModal(true)}
                             className="btn-primary w-full mb-4"
                         >
-                            Browse & Select Multiple
+                            {t('browseMultiple')}
                         </button>
 
                         {/* Filter by Category */}
                         <div className="mb-4">
-                            <label className="form-label">Filter by Category</label>
+                            <label className="form-label">{t('filterCategory')}</label>
                             <select
                                 className="form-input"
                                 value={filterCategory}
                                 onChange={(e) => setFilterCategory(e.target.value)}
                             >
-                                <option value="all">All Categories</option>
+                                <option value="all">{t('allCategories')}</option>
                                 {Object.entries(categoryNames).map(([key, name]) => (
                                     <option key={key} value={key}>{name}</option>
                                 ))}
@@ -766,15 +772,15 @@ export default function GroceriesPage() {
 
                         {/* Filter by Stock */}
                         <div className="mb-4">
-                            <label className="form-label">Stock Status</label>
+                            <label className="form-label">{t('filterStock')}</label>
                             <select
                                 className="form-input"
                                 value={filterStock}
                                 onChange={(e) => setFilterStock(e.target.value as any)}
                             >
-                                <option value="all">All Items</option>
-                                <option value="out_of_stock">Out of Stock Only</option>
-                                <option value="in_stock">In Stock Only</option>
+                                <option value="all">{t('stockAll')}</option>
+                                <option value="out_of_stock">{t('stockOut')}</option>
+                                <option value="in_stock">{t('stockIn')}</option>
                             </select>
                         </div>
 
@@ -782,7 +788,7 @@ export default function GroceriesPage() {
                             onClick={clearList}
                             className="btn-secondary w-full text-red-400 border-red-400/30 hover:bg-red-400/10 flex items-center justify-center gap-2"
                         >
-                            <Trash2 className="w-4 h-4" /> Clear All
+                            <Trash2 className="w-4 h-4" /> {t('clearAll')}
                         </button>
                     </div>
                 </div>
@@ -798,16 +804,16 @@ export default function GroceriesPage() {
                         </div>
 
                         <div className="flex items-center justify-between mb-4 no-print">
-                            <h3 className="font-semibold">Shopping List</h3>
+                            <h3 className="font-semibold">{t('shoppingList')}</h3>
                             <span className="badge badge-primary">
-                                {purchasedItems}/{totalItems} done
+                                {purchasedItems}/{totalItems} {t('done')}
                             </span>
                         </div>
 
                         {items.length === 0 ? (
                             <div className="text-center py-12" style={{ color: 'var(--text-muted)' }}>
                                 <div className="text-5xl mb-4 flex justify-center"><ShoppingCart className="w-16 h-16 opacity-50" /></div>
-                                <p>No items yet. Search and add some groceries!</p>
+                                <p>{t('noItems')}</p>
                             </div>
                         ) : (
                             Object.entries(groupedItems).map(([category, categoryItems]) => (
@@ -851,7 +857,7 @@ export default function GroceriesPage() {
                                                             <span className="print-item-badges">
                                                                 {item.is_out_of_stock && (
                                                                     <span className="print-badge print-badge-oos text-xs px-2 py-0.5 rounded bg-red-500/20 text-red-400">
-                                                                        ÉPUISÉ
+                                                                        {t('outOfStock').toUpperCase()}
                                                                     </span>
                                                                 )}
                                                                 {item.buy_next_month && (
@@ -912,7 +918,7 @@ export default function GroceriesPage() {
                                 <span className="print-total">Remaining: {formatCurrency(remainingBudget)}</span>
                             </div>
                             <p style={{ marginTop: '10px', fontSize: '9pt' }}>
-                                Out of Stock: {outOfStockItems} items | Buy Next Month: {needNextMonth} items
+                                {t('outOfStock')}: {outOfStockItems} {t('item').toLowerCase()}(s) | {t('buyNextMonth')}: {needNextMonth} {t('item').toLowerCase()}(s)
                             </p>
                         </div>
                     </div>
@@ -923,11 +929,11 @@ export default function GroceriesPage() {
             {showAddModal && (
                 <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4 no-print">
                     <div className="card max-w-md w-full" onClick={(e) => e.stopPropagation()}>
-                        <h3 className="text-lg font-semibold mb-4">Add Custom Item</h3>
+                        <h3 className="text-lg font-semibold mb-4">{t('addCustomItem')}</h3>
 
                         <div className="space-y-4">
                             <div>
-                                <label className="form-label">Item Name</label>
+                                <label className="form-label">{t('itemName')}</label>
                                 <input
                                     type="text"
                                     className="form-input"
@@ -939,7 +945,7 @@ export default function GroceriesPage() {
 
                             <div className="grid grid-cols-2 gap-4">
                                 <div>
-                                    <label className="form-label">Quantity</label>
+                                    <label className="form-label">{t('qty')}</label>
                                     <input
                                         type="number"
                                         className="form-input"
@@ -949,7 +955,7 @@ export default function GroceriesPage() {
                                     />
                                 </div>
                                 <div>
-                                    <label className="form-label">Unit</label>
+                                    <label className="form-label">{t('unit')}</label>
                                     <select
                                         className="form-input"
                                         value={customItem.unit}
@@ -968,7 +974,7 @@ export default function GroceriesPage() {
                             </div>
 
                             <div>
-                                <label className="form-label">Category</label>
+                                <label className="form-label">{t('category')}</label>
                                 <select
                                     className="form-input"
                                     value={customItem.category}
@@ -981,7 +987,7 @@ export default function GroceriesPage() {
                             </div>
 
                             <div>
-                                <label className="form-label">Est. Price ({formatCurrency(0).replace('0.00', '').trim()})</label>
+                                <label className="form-label">{t('estPrice')} ({formatCurrency(0).replace('0.00', '').trim()})</label>
                                 <input
                                     type="number"
                                     className="form-input"
@@ -995,10 +1001,10 @@ export default function GroceriesPage() {
 
                         <div className="flex gap-3 mt-6">
                             <button onClick={() => setShowAddModal(false)} className="btn-secondary flex-1">
-                                Cancel
+                                {t('cancel')}
                             </button>
                             <button onClick={addCustomItem} className="btn-primary flex-1" disabled={!customItem.name}>
-                                Add Item
+                                {t('addItem')}
                             </button>
                         </div>
                     </div>
@@ -1009,10 +1015,10 @@ export default function GroceriesPage() {
             {showBudgetModal && (
                 <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4 no-print">
                     <div className="card max-w-sm w-full">
-                        <h3 className="text-lg font-semibold mb-4">Set Monthly Budget</h3>
+                        <h3 className="text-lg font-semibold mb-4">{t('setBudgetTitle')}</h3>
 
                         <div>
-                            <label className="form-label">Budget for {formatMonth(currentMonth)} ({formatCurrency(0).replace('0.00', '').trim()})</label>
+                            <label className="form-label">{t('budgetFor')} {formatMonth(currentMonth)} ({formatCurrency(0).replace('0.00', '').trim()})</label>
                             <input
                                 type="number"
                                 className="form-input"
@@ -1025,10 +1031,10 @@ export default function GroceriesPage() {
 
                         <div className="flex gap-3 mt-6">
                             <button onClick={() => setShowBudgetModal(false)} className="btn-secondary flex-1">
-                                Cancel
+                                {t('cancel')}
                             </button>
                             <button onClick={setBudgetAmount} className="btn-primary flex-1">
-                                Save Budget
+                                {t('saveBudget')}
                             </button>
                         </div>
                     </div>
@@ -1039,12 +1045,12 @@ export default function GroceriesPage() {
             {editingItem && (
                 <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4 no-print">
                     <div className="card max-w-md w-full">
-                        <h3 className="text-lg font-semibold mb-4">Edit: {editingItem.name}</h3>
+                        <h3 className="text-lg font-semibold mb-4">{t('editTitle')}: {editingItem.name}</h3>
 
                         <div className="space-y-4">
                             <div className="grid grid-cols-2 gap-4">
                                 <div>
-                                    <label className="form-label">Quantity</label>
+                                    <label className="form-label">{t('qty')}</label>
                                     <input
                                         type="number"
                                         className="form-input"
@@ -1057,12 +1063,12 @@ export default function GroceriesPage() {
                                     />
                                 </div>
                                 <div>
-                                    <label className="form-label">Actual Price ({formatCurrency(0).replace('0.00', '').trim()})</label>
+                                    <label className="form-label">{t('actualPrice')} ({formatCurrency(0).replace('0.00', '').trim()})</label>
                                     <input
                                         type="number"
                                         className="form-input"
                                         min="0"
-                                        placeholder="Enter after purchase"
+                                        placeholder={t('enterAfterPurchase')}
                                         value={editingItem.actual_price || ''}
                                         onChange={(e) => setEditingItem({
                                             ...editingItem,
@@ -1073,11 +1079,11 @@ export default function GroceriesPage() {
                             </div>
 
                             <div>
-                                <label className="form-label">Comment / Notes</label>
+                                <label className="form-label">{t('commentLabel')}</label>
                                 <textarea
                                     className="form-input"
                                     rows={2}
-                                    placeholder="e.g., Buy from specific store, check quality..."
+                                    placeholder={t('commentPlaceholder')}
                                     value={editingItem.comment}
                                     onChange={(e) => setEditingItem({
                                         ...editingItem,
@@ -1096,7 +1102,7 @@ export default function GroceriesPage() {
                                             is_out_of_stock: e.target.checked
                                         })}
                                     />
-                                    <span className="text-sm flex items-center gap-1"><AlertTriangle className="w-4 h-4" /> Out of Stock (Épuisé)</span>
+                                    <span className="text-sm flex items-center gap-1"><AlertTriangle className="w-4 h-4" /> {t('outOfStock')}</span>
                                 </label>
                             </div>
 
@@ -1111,14 +1117,14 @@ export default function GroceriesPage() {
                                         })}
                                         className="w-4 h-4"
                                     />
-                                    <span className="text-sm">📅 Buy Next Month</span>
+                                    <span className="text-sm">📅 {t('buyNextMonth')}</span>
                                 </label>
                             </div>
                         </div>
 
                         <div className="flex gap-3 mt-6">
                             <button onClick={() => setEditingItem(null)} className="btn-secondary flex-1">
-                                Cancel
+                                {t('cancel')}
                             </button>
                             <button
                                 onClick={() => {
@@ -1127,7 +1133,7 @@ export default function GroceriesPage() {
                                 }}
                                 className="btn-primary flex-1"
                             >
-                                Save Changes
+                                {t('saveChanges')}
                             </button>
                         </div>
                     </div>
@@ -1139,9 +1145,9 @@ export default function GroceriesPage() {
                 <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4 no-print">
                     <div className="card max-w-2xl w-full max-h-[80vh] flex flex-col">
                         <div className="flex items-center justify-between mb-4">
-                            <h3 className="text-lg font-semibold">Browse & Select Items</h3>
+                            <h3 className="text-lg font-semibold">{t('browseTitle')}</h3>
                             <span className="badge badge-primary">
-                                {selectedItems.size} selected
+                                {selectedItems.size} {t('selected')}
                             </span>
                         </div>
 
@@ -1193,7 +1199,7 @@ export default function GroceriesPage() {
                                                     </div>
                                                     <div className="text-xs text-gray-400">
                                                         {formatCurrency(item.estimated_price_per_unit)}/{item.default_unit}
-                                                        {alreadyAdded && ' (already added)'}
+                                                        {alreadyAdded && ` ${t('alreadyAdded')}`}
                                                     </div>
                                                 </div>
                                             </div>
@@ -1211,14 +1217,14 @@ export default function GroceriesPage() {
                                 }}
                                 className="btn-secondary flex-1"
                             >
-                                Cancel
+                                {t('cancel')}
                             </button>
                             <button
                                 onClick={addSelectedItems}
                                 className="btn-primary flex-1"
                                 disabled={selectedItems.size === 0}
                             >
-                                Add {selectedItems.size} Items
+                                {t('addNItems').replace('{count}', selectedItems.size.toString())}
                             </button>
                         </div>
                     </div>
