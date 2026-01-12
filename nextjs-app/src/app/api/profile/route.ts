@@ -81,6 +81,8 @@ export async function POST(request: Request) {
             ...settings
         } = body;
 
+        console.log('[API] Profile POST received:', { user_id, currency: settings.currency, full_body: body });
+
         // Allow updating specific user if provided and authorized, or default to self
         const targetUserId = user_id ? parseInt(user_id) : session.id;
 
@@ -127,8 +129,8 @@ export async function POST(request: Request) {
         await query(
             `INSERT INTO user_profiles 
              (user_id, weight, height, age, gender, activity_level, goal, 
-              daily_calorie_target, protein_target, carbs_target, fat_target, diet_mode, neck, waist, hip, avatar_url, facebook, instagram, twitter, theme_preference, currency)
-             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+              daily_calorie_target, protein_target, carbs_target, fat_target, diet_mode, neck, waist, hip, avatar_url, facebook, instagram, twitter, theme_preference, currency, preferred_currency)
+             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
              ON CONFLICT(user_id) DO UPDATE SET 
               weight = excluded.weight,
               height = excluded.height,
@@ -149,13 +151,14 @@ export async function POST(request: Request) {
               instagram = excluded.instagram,
               twitter = excluded.twitter,
               theme_preference = excluded.theme_preference,
-              currency = excluded.currency`,
+              currency = excluded.currency,
+              preferred_currency = excluded.currency`,
             [
                 targetUserId,
                 settings.weight || null,
                 settings.height || null,
                 settings.age || null,
-                settings.gender || null, // Ensure gender is passed if updated
+                settings.gender || null,
                 settings.activityLevel || null,
                 settings.goal || null,
                 settings.dailyCalorieTarget || null,
@@ -171,7 +174,8 @@ export async function POST(request: Request) {
                 settings.instagram || null,
                 settings.twitter || null,
                 settings.themePreference || 'auto',
-                settings.currency || 'USD'
+                settings.currency || 'USD',
+                settings.currency || 'USD' // Sync preferred_currency
             ]
         );
 

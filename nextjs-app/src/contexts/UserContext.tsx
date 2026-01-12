@@ -242,6 +242,7 @@ export function UserProvider({ children }: { children: ReactNode }) {
                     ...newSettings
                 }),
             });
+            console.log('[Context] Sending update:', { ...settings, ...newSettings });
 
             if (res.ok) {
                 const updated = { ...settings, ...newSettings };
