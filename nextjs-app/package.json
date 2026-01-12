@@ -9,6 +9,10 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/cli": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/ios": "^8.0.0",
     "@ericblade/quagga2": "^1.12.1",
     "@libsql/client": "^0.15.15",
     "bcryptjs": "^3.0.3",
