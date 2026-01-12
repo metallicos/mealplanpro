@@ -9,8 +9,15 @@ import { Globe } from 'lucide-react';
 
 export default function LoginPage() {
     const router = useRouter();
-    const { login } = useUser();
+    const { login, user } = useUser();
     const t = useTranslations('auth');
+
+    // Redirect if already logged in
+    useEffect(() => {
+        if (user) {
+            router.push('/');
+        }
+    }, [user, router]);
     const tCommon = useTranslations('common');
     const tLang = useTranslations('languages');
 

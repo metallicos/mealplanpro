@@ -11,7 +11,15 @@ export default function SignupPage() {
     const router = useRouter();
     const t = useTranslations('auth');
     const tCommon = useTranslations('common');
-    // const { login } = useUser();
+    const tCommon = useTranslations('common');
+    const { user } = useUser();
+
+    // Redirect if already logged in
+    useEffect(() => {
+        if (user) {
+            router.push('/');
+        }
+    }, [user, router]);
 
     const [formData, setFormData] = useState({
         full_name: '',
