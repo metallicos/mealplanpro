@@ -98,8 +98,10 @@ export default function Sidebar() {
                     <span className={`hamburger-line ${isOpen ? 'open' : ''}`}></span>
                 </button>
                 <div className="mobile-logo">
-                    <Utensils className="w-6 h-6 text-emerald-500" />
-                    <span>{tCommon('appName')}</span>
+                    <div className="w-8 h-8 rounded-full bg-cyan-500 flex items-center justify-center">
+                        <Utensils className="w-4 h-4 text-white" />
+                    </div>
+                    <span className="font-bold">MealPlan<span className="text-cyan-400">Pro</span></span>
                 </div>
                 <div className="mobile-user">
                     {user.fullName.split(' ')[0]}
@@ -117,10 +119,10 @@ export default function Sidebar() {
             {/* Sidebar */}
             <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
                 <div className="sidebar-logo">
-                    <div className="sidebar-logo-icon">
-                        <Utensils className="text-white" size={24} />
+                    <div className="w-10 h-10 rounded-full bg-cyan-500 flex items-center justify-center">
+                        <Utensils className="text-white" size={22} />
                     </div>
-                    <span className="sidebar-logo-text">{tCommon('appName')}</span>
+                    <span className="sidebar-logo-text">MealPlan<span className="text-cyan-400">Pro</span></span>
                 </div>
 
                 <nav className="flex-1">
