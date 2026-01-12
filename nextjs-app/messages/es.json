@@ -275,7 +275,6 @@
         "seconds": "segundos",
         "elapsed": "Transcurrido",
         "remaining": "Restante",
-        "completed": "Completado",
         "currentStage": "Etapa Actual",
         "nextStage": "Siguiente Etapa",
         "benefits": "Beneficios",
@@ -359,7 +358,7 @@
         "addToGroceryList": "Agregar a Lista de Compras",
         "rateThisMeal": "Califica esta comida",
         "writeComment": "Escribe un comentario...",
-        "showingResults": "Mostrando {count} de {total} comidas",
+        "showingResults": "Mostrando {count} de {total} comidas"
     },
     "forum": {
         "title": "Foro Comunitario",
