@@ -61,9 +61,19 @@ export default function LoginPage() {
     };
 
     return (
-        <div className="min-h-screen flex items-center justify-center p-4 bg-[var(--bg-primary)]">
+        <div
+            className="min-h-screen flex items-center justify-center p-4 bg-[var(--bg-primary)]"
+            style={{
+                paddingTop: 'calc(1rem + env(safe-area-inset-top))',
+                paddingBottom: 'calc(1rem + env(safe-area-inset-bottom))'
+            }}
+        >
             {/* Language Switcher - Top Right */}
-            <div className="absolute top-4 right-4 flex gap-1 p-1 rounded-lg" style={{ background: 'rgba(255,255,255,0.05)' }}>
+            <div className="absolute top-4 right-4 flex gap-1 p-1 rounded-lg z-20" style={{
+                background: 'rgba(255,255,255,0.05)',
+                top: 'calc(1rem + env(safe-area-inset-top))',
+                right: 'calc(1rem + env(safe-area-inset-right))'
+            }}>
                 <button
                     onClick={() => switchLanguage('en')}
                     className={`py-1.5 px-3 text-xs rounded transition-all flex items-center gap-1 ${currentLocale === 'en'

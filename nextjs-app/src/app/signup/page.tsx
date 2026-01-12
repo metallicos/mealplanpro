@@ -77,9 +77,22 @@ export default function SignupPage() {
     };
 
     return (
-        <div className="min-h-screen flex items-center justify-center p-4 bg-[var(--bg-primary)]">
+        <div
+            className="min-h-screen flex items-center justify-center p-4 bg-[var(--bg-primary)]"
+            style={{
+                paddingTop: 'calc(1rem + env(safe-area-inset-top))',
+                paddingBottom: 'calc(1rem + env(safe-area-inset-bottom))'
+            }}
+        >
             <div className="card w-full max-w-md p-8 animate-fade-in relative">
-                <Link href="/login" className="absolute top-8 left-8 text-gray-500 hover:text-white">
+                <Link
+                    href="/login"
+                    className="absolute top-8 left-8 text-gray-500 hover:text-white"
+                    style={{
+                        top: 'calc(2rem)', // Adjusted to be inside the card properly
+                        left: '2rem'
+                    }}
+                >
                     ← {t('back')}
                 </Link>
 
