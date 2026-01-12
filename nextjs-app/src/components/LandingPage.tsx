@@ -339,6 +339,80 @@ export default function LandingPage() {
                 </div>
             </div>
 
+            {/* How It Works Section */}
+            <div className="container mx-auto px-6 py-20 border-t border-white/5">
+                <div className="text-center mb-16">
+                    <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                        {locale === 'fr' ? 'Comment ça marche ?' : 'How It Works'}
+                    </h2>
+                    <p className="text-gray-400 max-w-2xl mx-auto">
+                        {locale === 'fr'
+                            ? 'Commencez votre transformation en 3 étapes simples'
+                            : 'Start your transformation in 3 simple steps'}
+                    </p>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    {/* Step 1 */}
+                    <div className="relative text-center group">
+                        <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg shadow-cyan-500/25 group-hover:scale-110 transition-transform">
+                            1
+                        </div>
+                        <h3 className="text-xl font-bold mb-3">{locale === 'fr' ? 'Créez votre compte' : 'Create Account'}</h3>
+                        <p className="text-gray-400 text-sm leading-relaxed">
+                            {locale === 'fr'
+                                ? 'Inscrivez-vous gratuitement et définissez vos objectifs personnels'
+                                : 'Sign up for free and set your personal goals'}
+                        </p>
+                    </div>
+                    {/* Step 2 */}
+                    <div className="relative text-center group">
+                        <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg shadow-emerald-500/25 group-hover:scale-110 transition-transform">
+                            2
+                        </div>
+                        <h3 className="text-xl font-bold mb-3">{locale === 'fr' ? 'Suivez vos repas' : 'Track Your Meals'}</h3>
+                        <p className="text-gray-400 text-sm leading-relaxed">
+                            {locale === 'fr'
+                                ? "Scannez les codes-barres ou recherchez les aliments pour un suivi facile"
+                                : 'Scan barcodes or search foods for easy tracking'}
+                        </p>
+                    </div>
+                    {/* Step 3 */}
+                    <div className="relative text-center group">
+                        <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg shadow-purple-500/25 group-hover:scale-110 transition-transform">
+                            3
+                        </div>
+                        <h3 className="text-xl font-bold mb-3">{locale === 'fr' ? 'Atteignez vos objectifs' : 'Reach Your Goals'}</h3>
+                        <p className="text-gray-400 text-sm leading-relaxed">
+                            {locale === 'fr'
+                                ? "Suivez vos progrès et laissez l'IA vous guider vers le succès"
+                                : 'Follow your progress and let AI guide you to success'}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            {/* Stats Counter Section */}
+            <div className="container mx-auto px-6 py-16">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                    <div className="p-6 rounded-2xl bg-white/5 border border-white/5">
+                        <div className="text-3xl md:text-4xl font-bold text-cyan-400 mb-2">10K+</div>
+                        <div className="text-sm text-gray-400">{locale === 'fr' ? 'Repas suivis' : 'Meals Tracked'}</div>
+                    </div>
+                    <div className="p-6 rounded-2xl bg-white/5 border border-white/5">
+                        <div className="text-3xl md:text-4xl font-bold text-emerald-400 mb-2">5K+</div>
+                        <div className="text-sm text-gray-400">{locale === 'fr' ? 'Utilisateurs actifs' : 'Active Users'}</div>
+                    </div>
+                    <div className="p-6 rounded-2xl bg-white/5 border border-white/5">
+                        <div className="text-3xl md:text-4xl font-bold text-purple-400 mb-2">98%</div>
+                        <div className="text-sm text-gray-400">{locale === 'fr' ? 'Satisfaction' : 'Satisfaction'}</div>
+                    </div>
+                    <div className="p-6 rounded-2xl bg-white/5 border border-white/5">
+                        <div className="text-3xl md:text-4xl font-bold text-amber-400 mb-2">24/7</div>
+                        <div className="text-sm text-gray-400">{locale === 'fr' ? 'Coach IA' : 'AI Coach'}</div>
+                    </div>
+                </div>
+            </div>
+
             {/* Features Preview */}
             <div className="container mx-auto px-6 py-20 border-t border-white/5">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
