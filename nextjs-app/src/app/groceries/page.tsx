@@ -30,8 +30,17 @@ interface MonthlyBudget {
 }
 
 export default function GroceriesPage() {
-    const { theme } = useUser();
+    const { theme, settings } = useUser();
     const printRef = useRef<HTMLDivElement>(null);
+
+    // Currency formatter
+    const formatCurrency = (amount: number) => {
+        return new Intl.NumberFormat(settings.currency === 'MAD' ? 'fr-MA' : 'en-US', {
+            style: 'currency',
+            currency: settings.currency || 'USD',
+            maximumFractionDigits: 0
+        }).format(amount);
+    };
 
     // Get current month
     const getCurrentMonth = () => {
@@ -335,7 +344,7 @@ export default function GroceriesPage() {
 <body>
     <h1>GROCERY LIST</h1>
     <p class="subtitle"><strong>${formatMonth(currentMonth)}</strong><br>
-    Budget: ${currentBudget.initial_budget.toLocaleString()} MAD | Items: ${totalItems} | Purchased: ${purchasedItems}</p>
+    Budget: ${formatCurrency(currentBudget.initial_budget)} | Items: ${totalItems} | Purchased: ${purchasedItems}</p>
     
     <table>
         <thead>
@@ -358,11 +367,11 @@ export default function GroceriesPage() {
                         <td style="text-align:center">${item.is_purchased ? '[X]' : '[ ]'}</td>
                         <td><strong>${item.name}</strong></td>
                         <td>${item.quantity} ${item.default_unit}</td>
-                        <td>${(Number(item.estimated_price_per_unit) * Number(item.quantity)).toFixed(0)} MAD</td>
+                        <td>${formatCurrency(Number(item.estimated_price_per_unit) * Number(item.quantity))}</td>
                         <td>
                             ${item.is_out_of_stock ? '<span class="badge badge-oos">EPUISE</span>' : ''}
                             ${item.buy_next_month ? '<span class="badge badge-next">NEXT</span>' : ''}
-                            ${item.actual_price !== null && item.actual_price !== undefined ? `Paid: ${Number(item.actual_price).toFixed(0)}` : ''}
+                            ${item.actual_price !== null && item.actual_price !== undefined ? `Paid: ${formatCurrency(Number(item.actual_price))}` : ''}
                         </td>
                         <td style="font-size:9pt;font-style:italic">${item.comment || '-'}</td>
                     </tr>
@@ -373,9 +382,9 @@ export default function GroceriesPage() {
     
     <table class="summary">
         <tr>
-            <td><strong>Estimated:</strong> ${estimatedCost.toLocaleString()} MAD</td>
-            <td><strong>Spent:</strong> ${actualSpent.toLocaleString()} MAD</td>
-            <td style="text-align:right"><strong>REMAINING: ${remainingBudget.toLocaleString()} MAD</strong></td>
+            <td><strong>Estimated:</strong> ${formatCurrency(estimatedCost)}</td>
+            <td><strong>Spent:</strong> ${formatCurrency(actualSpent)}</td>
+            <td style="text-align:right"><strong>REMAINING: ${formatCurrency(remainingBudget)}</strong></td>
         </tr>
         <tr>
             <td colspan="3" style="font-size:9pt;padding-top:10px">
@@ -606,7 +615,7 @@ export default function GroceriesPage() {
                                         setShowBudgetModal(true);
                                     }}
                                 >
-                                    {currentBudget.initial_budget.toLocaleString()} MAD
+                                    {formatCurrency(currentBudget.initial_budget)}
                                 </div>
                                 <button
                                     onClick={() => {
@@ -651,17 +660,17 @@ export default function GroceriesPage() {
                     <div className="stat-label">Buy Next Month</div>
                 </div>
                 <div className="stat-card">
-                    <div className="stat-value">{actualSpent.toLocaleString()}</div>
-                    <div className="stat-label">Spent (MAD)</div>
+                    <div className="stat-value">{formatCurrency(actualSpent)}</div>
+                    <div className="stat-label">Spent</div>
                 </div>
                 <div className="stat-card">
                     <div
                         className="stat-value"
                         style={{ color: remainingBudget >= 0 ? 'var(--success)' : 'var(--error)' }}
                     >
-                        {remainingBudget.toLocaleString()}
+                        {formatCurrency(remainingBudget)}
                     </div>
-                    <div className="stat-label">Remaining (MAD)</div>
+                    <div className="stat-label">Remaining</div>
                 </div>
             </div>
 
@@ -685,8 +694,8 @@ export default function GroceriesPage() {
                     />
                 </div>
                 <div className="flex justify-between text-sm mt-2" style={{ color: 'var(--text-muted)' }}>
-                    <span>Est. Total: {estimatedCost.toLocaleString()} MAD</span>
-                    <span>Budget: {currentBudget.initial_budget.toLocaleString()} MAD</span>
+                    <span>Est. Total: {formatCurrency(estimatedCost)}</span>
+                    <span>Budget: {formatCurrency(currentBudget.initial_budget)}</span>
                 </div>
             </div>
 
@@ -718,7 +727,7 @@ export default function GroceriesPage() {
                                                 {getCategoryIcon(item.category)} {item.name}
                                             </span>
                                             <span className="text-gray-500">
-                                                {item.estimated_price_per_unit} MAD/{item.default_unit}
+                                                {formatCurrency(item.estimated_price_per_unit)}/{item.default_unit}
                                             </span>
                                         </button>
                                     ))}
