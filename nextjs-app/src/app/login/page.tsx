@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import { useUser } from '@/contexts/UserContext';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
-import { Globe } from 'lucide-react';
+import { Globe, ArrowLeft } from 'lucide-react';
 
 export default function LoginPage() {
     const router = useRouter();
@@ -68,6 +68,19 @@ export default function LoginPage() {
                 paddingBottom: 'calc(1rem + env(safe-area-inset-bottom))'
             }}
         >
+            {/* Back to Home - Top Left */}
+            <Link
+                href="/"
+                className="absolute top-4 left-4 flex items-center gap-2 text-gray-400 hover:text-white transition-colors z-20"
+                style={{
+                    top: 'calc(1rem + env(safe-area-inset-top))',
+                    left: 'calc(1rem + env(safe-area-inset-left))'
+                }}
+            >
+                <ArrowLeft size={18} />
+                <span className="text-sm">{tCommon('home') || 'Home'}</span>
+            </Link>
+
             {/* Language Switcher - Top Right */}
             <div className="absolute top-4 right-4 flex gap-1 p-1 rounded-lg z-20" style={{
                 background: 'rgba(255,255,255,0.05)',
