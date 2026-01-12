@@ -137,7 +137,7 @@ export default function LandingPage() {
                 {/* Text Content */}
                 <div className="flex-1 text-center lg:text-left">
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-950/30 border border-cyan-500/20 text-cyan-400 text-xs font-bold uppercase tracking-wider mb-6 animate-fade-in">
-                        <Sparkles size={12} /> {t('subtitle').includes('IA') ? 'Nutrition IA' : 'AI-Powered Nutrition'}
+                        <Sparkles size={12} /> {locale === 'fr' ? 'Nutrition par IA' : 'AI-Powered Nutrition'}
                     </div>
                     <h1 className="text-5xl lg:text-7xl font-extrabold tracking-tight leading-[1.1] mb-6 animate-slide-up">
                         {t('titlePart1')}<br />
