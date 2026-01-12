@@ -927,6 +927,46 @@
         "fr": "Français",
         "es": "Español"
     },
+    "statistics": {
+        "title": "Votre Progression",
+        "subtitle": "Suivez votre parcours et voyez vos progrès, {name}.",
+        "loading": "Chargement de vos statistiques...",
+        "periods": {
+            "week": "7 Derniers Jours",
+            "month": "30 Derniers Jours",
+            "all": "Tout"
+        },
+        "cards": {
+            "weeksLogged": "Semaines Enregistrées",
+            "currentWeight": "Poids Actuel (kg)",
+            "weightChange": "Variation de Poids",
+            "shoppingCompleted": "Courses Terminées"
+        },
+        "budget": {
+            "title": "Budget Courses",
+            "totalBudget": "Budget Total",
+            "totalSpent": "Total Dépensé",
+            "remaining": "Restant",
+            "itemsPurchased": "Articles Achetés"
+        },
+        "categories": {
+            "title": "Top Catégories",
+            "itemsSuffix": "articles",
+            "noData": "Pas de données courses"
+        },
+        "weightTrend": {
+            "title": "Tendance de Poids",
+            "noLogs": "Aucun poids enregistré.",
+            "logPrompt": "Enregistrez votre poids dans le Calculateur pour voir les tendances.",
+            "weeklyWeight": "Poids Hebdomadaire"
+        },
+        "empty": {
+            "title": "Aucune Donnée",
+            "description": "Commencez à suivre votre poids et vos courses pour voir votre progression ici.",
+            "logWeight": "Noter Poids",
+            "addGroceries": "Ajouter Courses"
+        }
+    },
     "landing": {
         "titlePart1": "Mangez Mieux.",
         "titlePart2": "Progressez Plus.",

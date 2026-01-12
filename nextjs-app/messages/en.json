@@ -927,6 +927,46 @@
     "fr": "Français",
     "es": "Español"
   },
+  "statistics": {
+    "title": "Your Progress",
+    "subtitle": "Track your journey and see how far you've come, {name}.",
+    "loading": "Loading your statistics...",
+    "periods": {
+      "week": "Last 7 Days",
+      "month": "Last 30 Days",
+      "all": "All Time"
+    },
+    "cards": {
+      "weeksLogged": "Weeks Logged",
+      "currentWeight": "Current Weight (kg)",
+      "weightChange": "Weight Change",
+      "shoppingCompleted": "Shopping Completed"
+    },
+    "budget": {
+      "title": "Grocery Budget Overview",
+      "totalBudget": "Total Budget",
+      "totalSpent": "Total Spent",
+      "remaining": "Remaining",
+      "itemsPurchased": "Items Purchased"
+    },
+    "categories": {
+      "title": "Top Grocery Categories",
+      "itemsSuffix": "items",
+      "noData": "No grocery data yet"
+    },
+    "weightTrend": {
+      "title": "Weight Trend",
+      "noLogs": "No weight logs yet.",
+      "logPrompt": "Log your weight in the Calculator page to see trends.",
+      "weeklyWeight": "Weekly Weight"
+    },
+    "empty": {
+      "title": "No Data Yet",
+      "description": "Start tracking your weight and groceries to see your progress here.",
+      "logWeight": "Log Weight",
+      "addGroceries": "Add Groceries"
+    }
+  },
   "landing": {
     "titlePart1": "Eat Smarter.",
     "titlePart2": "Build Better.",

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useUser } from '@/contexts/UserContext';
+import { useTranslations } from 'next-intl';
 import {
     BarChart3, TrendingUp, Calendar, Scale, TrendingDown,
     ShoppingCart, DollarSign, Package, Activity
@@ -31,6 +32,7 @@ interface GroceryBudget {
 }
 
 export default function StatisticsPage() {
+    const t = useTranslations('statistics');
     const { user, theme, settings } = useUser();
     const [period, setPeriod] = useState<'week' | 'month' | 'all'>('month');
     const [loading, setLoading] = useState(true);
@@ -149,7 +151,7 @@ export default function StatisticsPage() {
             <div className="animate-fade-in flex items-center justify-center min-h-[50vh]">
                 <div className="text-center">
                     <div className="text-4xl mb-4 flex justify-center"><BarChart3 className="w-16 h-16 text-gray-700 animate-pulse" /></div>
-                    <p className="text-gray-400">Loading your statistics...</p>
+                    <p className="text-gray-400">{t('loading')}</p>
                 </div>
             </div>
         );
@@ -158,8 +160,8 @@ export default function StatisticsPage() {
     return (
         <div className="animate-fade-in">
             <div className="mb-8">
-                <h1 className="page-title flex items-center gap-3"><TrendingUp className="w-8 h-8 text-[var(--accent-primary)]" /> Your Progress</h1>
-                <p className="page-subtitle">Track your journey and see how far you've come, {user?.fullName}.</p>
+                <h1 className="page-title flex items-center gap-3"><TrendingUp className="w-8 h-8 text-[var(--accent-primary)]" /> {t('title')}</h1>
+                <p className="page-subtitle">{t('subtitle', { name: user?.fullName })}</p>
             </div>
 
             {/* Period Selector */}
@@ -175,7 +177,7 @@ export default function StatisticsPage() {
                                 }`}
                             style={period === p ? { background: theme.gradient } : {}}
                         >
-                            {p === 'week' ? 'Last 7 Days' : p === 'month' ? 'Last 30 Days' : 'All Time'}
+                            {t(`periods.${p}`)}
                         </button>
                     ))}
                 </div>
@@ -186,12 +188,12 @@ export default function StatisticsPage() {
                 <div className="stat-card">
                     <div className="text-4xl mb-2 flex justify-center"><Calendar className="w-8 h-8 text-[var(--accent-secondary)]" /></div>
                     <div className="stat-value">{stats.daysLogged}</div>
-                    <div className="stat-label">Weeks Logged</div>
+                    <div className="stat-label">{t('cards.weeksLogged')}</div>
                 </div>
                 <div className="stat-card">
                     <div className="text-4xl mb-2 flex justify-center"><Scale className="w-8 h-8 text-[var(--accent-primary)]" /></div>
                     <div className="stat-value">{stats.currentWeight || '—'}</div>
-                    <div className="stat-label">Current Weight (kg)</div>
+                    <div className="stat-label">{t('cards.currentWeight')}</div>
                 </div>
                 <div className="stat-card">
                     <div className="text-4xl mb-2 flex justify-center"><TrendingDown className="w-8 h-8 text-[var(--success)]" /></div>
@@ -201,37 +203,37 @@ export default function StatisticsPage() {
                     >
                         {stats.weightChange > 0 ? '+' : ''}{stats.weightChange || '—'} kg
                     </div>
-                    <div className="stat-label">Weight Change</div>
+                    <div className="stat-label">{t('cards.weightChange')}</div>
                 </div>
                 <div className="stat-card">
                     <div className="text-4xl mb-2 flex justify-center"><ShoppingCart className="w-8 h-8 text-blue-400" /></div>
                     <div className="stat-value">{stats.completionRate}%</div>
-                    <div className="stat-label">Shopping Completed</div>
+                    <div className="stat-label">{t('cards.shoppingCompleted')}</div>
                 </div>
             </div>
 
             {/* Budget Overview */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
                 <div className="card">
-                    <h3 className="font-semibold mb-4 flex items-center gap-2"><DollarSign className="w-5 h-5 text-green-400" /> Grocery Budget Overview</h3>
+                    <h3 className="font-semibold mb-4 flex items-center gap-2"><DollarSign className="w-5 h-5 text-green-400" /> {t('budget.title')}</h3>
                     <div className="space-y-4">
                         <div className="flex justify-between items-center">
-                            <span className="text-gray-400">Total Budget</span>
+                            <span className="text-gray-400">{t('budget.totalBudget')}</span>
                             <span className="font-bold text-lg">{formatCurrency(stats.totalBudget)}</span>
                         </div>
                         <div className="flex justify-between items-center">
-                            <span className="text-gray-400">Total Spent</span>
+                            <span className="text-gray-400">{t('budget.totalSpent')}</span>
                             <span className="font-bold text-lg" style={{ color: 'var(--error)' }}>{formatCurrency(stats.totalSpent)}</span>
                         </div>
                         <div className="flex justify-between items-center">
-                            <span className="text-gray-400">Remaining</span>
+                            <span className="text-gray-400">{t('budget.remaining')}</span>
                             <span className="font-bold text-lg" style={{ color: stats.budgetRemaining >= 0 ? 'var(--success)' : 'var(--error)' }}>
                                 {formatCurrency(stats.budgetRemaining)}
                             </span>
                         </div>
                         <div className="pt-4 border-t border-gray-700">
                             <div className="flex justify-between text-sm mb-2">
-                                <span className="text-gray-400">Items Purchased</span>
+                                <span className="text-gray-400">{t('budget.itemsPurchased')}</span>
                                 <span>{stats.purchasedItems} / {stats.totalItems}</span>
                             </div>
                             <div className="w-full bg-gray-700 rounded-full h-2">
@@ -249,7 +251,7 @@ export default function StatisticsPage() {
 
                 {/* Top Categories */}
                 <div className="card">
-                    <h3 className="font-semibold mb-4 flex items-center gap-2"><Package className="w-5 h-5 text-[var(--accent-secondary)]" /> Top Grocery Categories</h3>
+                    <h3 className="font-semibold mb-4 flex items-center gap-2"><Package className="w-5 h-5 text-[var(--accent-secondary)]" /> {t('categories.title')}</h3>
                     {stats.topCategories.length > 0 ? (
                         <div className="space-y-3">
                             {stats.topCategories.map(([category, count], i) => (
@@ -259,19 +261,19 @@ export default function StatisticsPage() {
                                         {i + 1}
                                     </span>
                                     <span className="flex-1 capitalize">{category}</span>
-                                    <span className="text-gray-400">{count} items</span>
+                                    <span className="text-gray-400">{count} {t('categories.itemsSuffix')}</span>
                                 </div>
                             ))}
                         </div>
                     ) : (
-                        <p className="text-gray-400 text-center py-8">No grocery data yet</p>
+                        <p className="text-gray-400 text-center py-8">{t('categories.noData')}</p>
                     )}
                 </div>
             </div>
 
             {/* Weight Trend Chart */}
             <div className="card mb-6">
-                <h3 className="font-semibold mb-4 flex items-center gap-2"><Scale className="w-5 h-5" /> Weight Trend</h3>
+                <h3 className="font-semibold mb-4 flex items-center gap-2"><Scale className="w-5 h-5" /> {t('weightTrend.title')}</h3>
                 {stats.weeklyWeights.length > 0 ? (
                     <div className="h-64">
                         <div className="flex items-end justify-between h-full gap-2">
@@ -299,15 +301,15 @@ export default function StatisticsPage() {
                 ) : (
                     <div className="text-center py-12">
                         <div className="flex justify-center mb-4"><Scale className="w-16 h-16 text-gray-700" /></div>
-                        <p className="text-gray-400">No weight logs yet.</p>
-                        <p className="text-sm text-gray-500 mt-1">Log your weight in the Calculator page to see trends.</p>
+                        <p className="text-gray-400">{t('weightTrend.noLogs')}</p>
+                        <p className="text-sm text-gray-500 mt-1">{t('weightTrend.logPrompt')}</p>
                     </div>
                 )}
                 {stats.weeklyWeights.length > 0 && (
                     <div className="flex items-center justify-center gap-4 mt-4 text-sm">
                         <div className="flex items-center gap-2">
                             <div className="w-3 h-3 rounded" style={{ background: theme.primary }} />
-                            <span style={{ color: 'var(--text-muted)' }}>Weekly Weight</span>
+                            <span style={{ color: 'var(--text-muted)' }}>{t('weightTrend.weeklyWeight')}</span>
                         </div>
 
                     </div>
@@ -318,11 +320,11 @@ export default function StatisticsPage() {
             {weightLogs.length === 0 && groceryData.length === 0 && (
                 <div className="card text-center py-12">
                     <div className="flex justify-center mb-4"><BarChart3 className="w-16 h-16 text-gray-700" /></div>
-                    <h3 className="text-xl font-semibold mb-2">No Data Yet</h3>
-                    <p className="text-gray-400 mb-4">Start tracking your weight and groceries to see your progress here.</p>
+                    <h3 className="text-xl font-semibold mb-2">{t('empty.title')}</h3>
+                    <p className="text-gray-400 mb-4">{t('empty.description')}</p>
                     <div className="flex gap-4 justify-center">
-                        <a href="/calculator" className="btn-primary px-6 py-2">Log Weight</a>
-                        <a href="/groceries" className="btn-secondary px-6 py-2">Add Groceries</a>
+                        <a href="/calculator" className="btn-primary px-6 py-2">{t('empty.logWeight')}</a>
+                        <a href="/groceries" className="btn-secondary px-6 py-2">{t('empty.addGroceries')}</a>
                     </div>
                 </div>
             )}
