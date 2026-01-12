@@ -4,10 +4,12 @@ import { useState, useEffect } from 'react';
 import { useUser } from '@/contexts/UserContext';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 import { Settings, Camera, Shuffle, Globe, Heart, MessageSquare, Trash2 } from 'lucide-react';
 
 export default function ProfilePage() {
     const { user, settings, updateSettings, isLoading } = useUser();
+    const t = useTranslations('profile');
 
     // Form state
     const [fullName, setFullName] = useState('');
@@ -136,20 +138,20 @@ export default function ProfilePage() {
 
     return (
         <div className="animate-fade-in max-w-4xl mx-auto p-4">
-            <h1 className="page-title mb-6 flex items-center gap-2">Profile Management <Settings size={24} className="text-violet-400" /></h1>
+            <h1 className="page-title mb-6 flex items-center gap-2">{t('management')} <Settings size={24} className="text-violet-400" /></h1>
 
             <div className="flex gap-4 mb-6 border-b border-gray-800">
                 <button
                     className={`pb-2 px-4 ${activeTab === 'profile' ? 'border-b-2 border-[var(--accent-primary)] text-white' : 'text-gray-400'}`}
                     onClick={() => setActiveTab('profile')}
                 >
-                    Edit Profile
+                    {t('editProfile')}
                 </button>
                 <button
                     className={`pb-2 px-4 ${activeTab === 'posts' ? 'border-b-2 border-[var(--accent-primary)] text-white' : 'text-gray-400'}`}
                     onClick={() => setActiveTab('posts')}
                 >
-                    My Posts
+                    {t('myPosts')}
                 </button>
             </div>
 
@@ -173,11 +175,11 @@ export default function ProfilePage() {
                             </div>
                             <div className="flex flex-col gap-2">
                                 <label className="btn-secondary text-xs py-2 cursor-pointer flex items-center gap-1 justify-center">
-                                    <Camera size={14} /> Upload Photo
+                                    <Camera size={14} /> {t('uploadPhoto')}
                                     <input type="file" className="hidden" accept="image/*" onChange={handleAvatarUpload} />
                                 </label>
                                 <button type="button" onClick={generateAvatar} className="text-xs text-[var(--accent-primary)] hover:underline flex items-center gap-1 justify-center">
-                                    <Shuffle size={12} /> Generate Random Avatar
+                                    <Shuffle size={12} /> {t('generateAvatar')}
                                 </button>
                             </div>
                         </div>
@@ -185,16 +187,17 @@ export default function ProfilePage() {
                         {/* Info */}
                         <form onSubmit={handleSubmit} className="flex-1 w-full space-y-4">
                             <div>
-                                <label className="form-label">Full Name</label>
+                                <label className="form-label">{t('fullName')}</label>
                                 <input type="text" className="form-input" value={fullName} onChange={e => setFullName(e.target.value)} required />
                             </div>
                             <div>
-                                <label className="form-label">Email</label>
+                                <label className="form-label">{t('email')}</label>
                                 <input type="email" className="form-input" value={email} onChange={e => setEmail(e.target.value)} required />
                             </div>
 
                             <hr className="border-gray-800 my-4" />
-                            <h3 className="font-semibold mb-2 flex items-center gap-2"><Globe size={16} /> Social Links</h3>
+                            <hr className="border-gray-800 my-4" />
+                            <h3 className="font-semibold mb-2 flex items-center gap-2"><Globe size={16} /> {t('socialLinks')}</h3>
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                                 <div>
                                     <label className="form-label text-xs">Facebook</label>
@@ -211,16 +214,16 @@ export default function ProfilePage() {
                             </div>
 
                             <hr className="border-gray-800 my-4" />
-                            <h3 className="font-semibold mb-4 flex items-center gap-2">App Theme</h3>
+                            <h3 className="font-semibold mb-4 flex items-center gap-2">{t('appTheme')}</h3>
                             <div className="flex flex-wrap gap-3 mb-2">
                                 {[
-                                    { id: 'auto', color: '#333', label: 'Auto (Gender)' },
-                                    { id: 'emerald', color: '#10b981', label: 'Emerald' },
-                                    { id: 'blue', color: '#3b82f6', label: 'Blue' },
-                                    { id: 'purple', color: '#8b5cf6', label: 'Purple' },
-                                    { id: 'pink', color: '#ec4899', label: 'Pink' },
-                                    { id: 'orange', color: '#f97316', label: 'Orange' },
-                                    { id: 'cyan', color: '#06b6d4', label: 'Cyan' },
+                                    { id: 'auto', color: '#333', label: t('themeAuto') },
+                                    { id: 'emerald', color: '#10b981', label: t('themeEmerald') },
+                                    { id: 'blue', color: '#3b82f6', label: t('themeBlue') },
+                                    { id: 'purple', color: '#8b5cf6', label: t('themePurple') },
+                                    { id: 'pink', color: '#ec4899', label: t('themePink') },
+                                    { id: 'orange', color: '#f97316', label: t('themeOrange') },
+                                    { id: 'cyan', color: '#06b6d4', label: t('themeCyan') },
                                 ].map((theme) => (
                                     <button
                                         key={theme.id}
@@ -237,10 +240,10 @@ export default function ProfilePage() {
                                     </button>
                                 ))}
                             </div>
-                            <p className="text-xs text-[var(--text-muted)] mb-4">Select your preferred accent color for the application.</p>
+                            <p className="text-xs text-[var(--text-muted)] mb-4">{t('accentColorDesc')}</p>
 
                             <hr className="border-gray-800 my-4" />
-                            <h3 className="font-semibold mb-2 flex items-center gap-2">Currency</h3>
+                            <h3 className="font-semibold mb-2 flex items-center gap-2">{t('currency')}</h3>
                             <div className="relative">
                                 <select
                                     className="w-full bg-[#1a1a24] border border-gray-700 rounded-lg px-4 py-3 outline-none focus:border-[var(--accent-primary)] transition-colors appearance-none cursor-pointer"
@@ -284,23 +287,23 @@ export default function ProfilePage() {
                                     <Globe size={16} />
                                 </div>
                             </div>
-                            <p className="text-xs text-[var(--text-muted)] mt-2 mb-4">This currency will be used for grocery prices and estimates.</p>
+                            <p className="text-xs text-[var(--text-muted)] mt-2 mb-4">{t('currencyDesc')}</p>
 
                             <hr className="border-gray-800 my-4" />
                             <div>
-                                <label className="form-label">New Password (optional)</label>
-                                <input type="password" className="form-input" value={password} onChange={e => setPassword(e.target.value)} minLength={6} placeholder="Leave blank to keep current" />
+                                <label className="form-label">{t('newPasswordOptional')}</label>
+                                <input type="password" className="form-input" value={password} onChange={e => setPassword(e.target.value)} minLength={6} placeholder={t('leaveBlank')} />
                             </div>
                             {password && (
                                 <div>
-                                    <label className="form-label">Confirm Password</label>
+                                    <label className="form-label">{t('confirmPassword')}</label>
                                     <input type="password" className="form-input" value={confirmPassword} onChange={e => setConfirmPassword(e.target.value)} required />
                                 </div>
                             )}
 
                             <div className="flex justify-end pt-4">
                                 <button type="submit" disabled={isSaving} className="btn-primary">
-                                    {isSaving ? 'Saving...' : 'Save Changes'}
+                                    {isSaving ? t('saving') : t('saveChanges')}
                                 </button>
                             </div>
                         </form>
@@ -309,7 +312,7 @@ export default function ProfilePage() {
             ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {myPosts.length === 0 ? (
-                        <div className="text-center py-12 text-gray-500 w-full col-span-2">You haven't posted anything yet.</div>
+                        <div className="text-center py-12 text-gray-500 w-full col-span-2">{t('noPosts')}</div>
                     ) : (
                         myPosts.map(post => (
                             <div key={post.id} className="card relative group">
@@ -328,7 +331,7 @@ export default function ProfilePage() {
                                     onClick={() => handleDeletePost(post.id)}
                                     className="absolute top-4 right-4 text-red-400 opacity-0 group-hover:opacity-100 transition-opacity hover:bg-red-500/10 p-2 rounded flex items-center gap-1"
                                 >
-                                    <Trash2 size={14} /> Delete
+                                    <Trash2 size={14} /> {t('delete')}
                                 </button>
                             </div>
                         ))
