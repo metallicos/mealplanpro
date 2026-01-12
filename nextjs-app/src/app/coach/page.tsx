@@ -234,8 +234,9 @@ export default function CoachPage() {
                                             key={r}
                                             onClick={() => setRating(r)}
                                             className={`w-10 h-10 rounded-lg font-bold transition-all ${rating === r
-                                                ? 'bg-emerald-500 text-white shadow-lg scale-110'
+                                                ? 'text-white shadow-lg scale-110'
                                                 : 'text-gray-500 hover:bg-white/5'}`}
+                                            style={rating === r ? { background: 'var(--accent-primary)' } : {}}
                                         >
                                             {r}
                                         </button>
@@ -262,7 +263,8 @@ export default function CoachPage() {
                             <button
                                 onClick={handleComplete}
                                 disabled={saving}
-                                className="w-full py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl transition-all shadow-lg shadow-emerald-900/40 disabled:opacity-50"
+                                className="w-full py-3 text-white font-bold rounded-xl transition-all shadow-lg disabled:opacity-50"
+                                style={{ background: 'var(--accent-primary)' }}
                             >
                                 {saving ? 'Saving...' : 'Save & Finish'}
                             </button>

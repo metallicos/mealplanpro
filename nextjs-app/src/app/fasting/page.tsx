@@ -226,9 +226,10 @@ export default function FastingPage() {
                         key={tab.id}
                         onClick={() => setActiveTab(tab.id as any)}
                         className={`flex items-center gap-2 px-4 py-2.5 rounded-xl font-medium transition-all whitespace-nowrap ${activeTab === tab.id
-                            ? 'bg-emerald-600 text-white shadow-lg shadow-emerald-500/25'
+                            ? 'text-white shadow-lg'
                             : 'bg-[var(--bg-secondary)] text-gray-400 hover:text-white hover:bg-[var(--bg-tertiary)]'
                             }`}
+                        style={activeTab === tab.id ? { background: 'var(--accent-primary)' } : {}}
                     >
                         <tab.icon size={18} />
                         {tab.label}
@@ -324,7 +325,8 @@ export default function FastingPage() {
                             ) : (
                                 <button
                                     onClick={handleStartFast}
-                                    className="flex items-center gap-2 px-8 py-3 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl font-medium transition-all shadow-lg shadow-emerald-500/25"
+                                    className="flex items-center gap-2 px-8 py-3 text-white rounded-xl font-medium transition-all shadow-lg"
+                                    style={{ background: 'var(--accent-primary)' }}
                                 >
                                     <Play size={20} /> {t('startFast')}
                                 </button>
