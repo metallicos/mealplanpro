@@ -16,43 +16,48 @@ export async function middleware(request: NextRequest) {
         return NextResponse.next();
     }
 
-    // 1. Run Intl Middleware to handle locale
-    // We only need it for pages, not APIs ideally, but next-intl usually handles both or we exclude api.
-    // However, our API routes are /api/... and likely don't need locale prefixes, but components might use headers.
-    // For now, let's run it.
+    // 1. Handle Locales
+    let path = pathname;
+    const locales = ['en', 'fr'];
+    for (const locale of locales) {
+        if (path.startsWith(`/${locale}/`) || path === `/${locale}`) {
+            path = path.replace(new RegExp(`^/${locale}`), '') || '/';
+            break;
+        }
+    }
 
-    // Note: next-intl middleware returns a response. We might need to capture it and then run auth.
-    // But auth might redirect.
-    // If auth redirects, we return that.
-    // If auth says "next", we return intlMiddleware(request).
+    // Skip API routes from auth checks if they don't need it (optional)
+    // But we usually want to protect /api routes too. 
+    // However, for page protection, we care about the normalized path.
 
     const token = request.cookies.get('session')?.value;
     const payload = token ? await verifyToken(token) : null;
 
     // LOGIN or SIGNUP PAGE: Redirect authenticated users to dashboard
-    if (pathname === '/login' || pathname === '/signup') {
+    // Normalized path check
+    if (path === '/login' || path === '/signup') {
         if (payload) {
             return NextResponse.redirect(new URL('/', request.url));
         }
-        // If not logged in, proceed. But we need to run intl middleware to ensure locale is set?
-        // If we just return next(), we miss locale handling.
+        // Proceed to next-intl middleware
         return intlMiddleware(request);
     }
 
-    // PROTECTED ROUTES: Redirect unauthenticated users to login
-    // Exclude root '/' because it's public now
-    if (!payload && pathname !== '/' && !pathname.startsWith('/login') && !pathname.startsWith('/signup')) {
-        // Allow public access to /
-    } else if (!payload && pathname !== '/') {
-        // This block logic is getting messy. Let's simplify.
-    }
+    // PROTECTED ROUTES:
+    // Public: /, /login, /signup, /api/auth/* (already skipped above)
+    // But note: /api routes shouldn't be redirected to /login usually, they should return 401. 
+    // We'll keep logic simple for pages.
 
-    // SIMPLIFIED LOGIC:
+    const isPublic = path === '/' || path.startsWith('/login') || path.startsWith('/signup') || path.startsWith('/api/public');
+    const isAdmin = path.startsWith('/admin');
 
-    const isPublic = pathname === '/' || pathname.startsWith('/login') || pathname.startsWith('/signup');
-    const isAdmin = pathname.startsWith('/admin');
-
+    // Only redirect pages. For API, let them handle it or return 401? 
+    // For now, consistent behavior:
     if (!isPublic && !payload) {
+        // If it's an API request, return 401 instead of redirecting
+        if (pathname.startsWith('/api/')) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+        }
         return NextResponse.redirect(new URL('/login', request.url));
     }
 
