@@ -549,6 +549,13 @@
     "unlock": "Unlock Full Macro Plan",
     "recalculate": "Recalculate",
     "signupText": "Sign up to save these results, get your Protein/Carb/Fat split, and access your 100% personalized meal plan."
+  },
+  "mobile": {
+    "title": "Get the App",
+    "desc": "Track your nutrition on the go. Syncs seamlessly across all your devices.",
+    "apple": "App Store",
+    "android": "Google Play",
+    "comingSoon": "Coming Soon"
   }
 }
 }

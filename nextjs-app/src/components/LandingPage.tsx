@@ -335,6 +335,52 @@ export default function LandingPage() {
                 </div>
             </div>
 
+            {/* Mobile App Download Footer */}
+            <footer className="container mx-auto px-6 py-12 lg:py-16 border-t border-white/5 text-center">
+                <div className="max-w-xl mx-auto">
+                    <h5 className="text-2xl font-bold mb-3">{t('mobile.title')}</h5>
+                    <p className="text-gray-400 text-sm mb-8">{t('mobile.desc')}</p>
+
+                    <div className="flex flex-col sm:flex-row justify-center gap-4">
+                        <button className="flex items-center justify-center gap-3 px-6 py-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors group">
+                            <span className="text-2xl"><AppleIcon /></span>
+                            <div className="text-left">
+                                <div className="text-[10px] uppercase tracking-wider text-gray-500 font-bold group-hover:text-cyan-400 transition-colors">{t('mobile.comingSoon')}</div>
+                                <div className="font-bold text-sm">{t('mobile.apple')}</div>
+                            </div>
+                        </button>
+                        <button className="flex items-center justify-center gap-3 px-6 py-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors group">
+                            <span className="text-2xl"><AndroidIcon /></span>
+                            <div className="text-left">
+                                <div className="text-[10px] uppercase tracking-wider text-gray-500 font-bold group-hover:text-emerald-400 transition-colors">{t('mobile.comingSoon')}</div>
+                                <div className="font-bold text-sm">{t('mobile.android')}</div>
+                            </div>
+                        </button>
+                    </div>
+
+                    <div className="mt-8 text-xs text-gray-600">
+                        © {new Date().getFullYear()} MealPlan Pro. All rights reserved.
+                    </div>
+                </div>
+            </footer>
+
         </div>
     );
+}
+
+// Simple icons for the footer
+function AppleIcon() {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+            <path d="M17.3,16.8c-1.6,2.3-2.9,4.4-4.8,4.4c-1.3,0-2.3-0.9-4-0.9c-1.8,0-2.8,0.9-4,0.9c-1.8,0-3.3-2-4.9-5.1 C-1.8,11.5,1.2,5.2,6.5,5.2c1.4,0,3.3,0.7,4.6,0.7c1.1,0,3.1-0.9,5-0.9c0.7,0,3.3,0.2,4.8,2.2c-4,2.2-3.4,7.9,0.5,9.6 C20.9,17.9,20.4,18.7,19.9,19.4L17.3,16.8z M12.8,3.2c0.8-1,1.3-2.3,1.3-3.2c0,0-2.9,0.2-4.1,2c-0.6,0.9-1.2,2.3-1.2,3.2 C8.8,5.4,11.8,5.2,12.8,3.2z" />
+        </svg>
+    )
+}
+
+function AndroidIcon() {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+            <path d="M17.523 15.3414C17.523 16.7025 16.5029 17.7552 15.0863 17.7552C13.6697 17.7552 12.6495 16.7025 12.6495 15.3414C12.6495 13.9803 13.6697 12.9276 15.0863 12.9276C16.5029 12.9276 17.523 13.9803 17.523 15.3414ZM8.93704 15.3414C8.93704 16.7025 7.91689 17.7552 6.50029 17.7552C5.0837 17.7552 4.06355 16.7025 4.06355 15.3414C4.06355 13.9803 5.0837 12.9276 6.50029 12.9276C7.91689 12.9276 8.93704 13.9803 8.93704 15.3414ZM22.5833 9.47164L24.8931 5.46781C25.043 5.20791 24.9531 4.87803 24.6932 4.72808C24.4334 4.57813 24.1035 4.66809 23.9535 4.92804L21.603 8.99595C19.1419 7.82865 16.3268 7.15197 13.2798 7.15197C10.2329 7.15197 7.41784 7.82865 4.95669 8.99595L2.60621 4.92804C2.45626 4.66809 2.12638 4.57813 1.86643 4.72808C1.60648 4.87803 1.51653 5.20791 1.66648 5.46781L3.97632 9.47164C1.57147 11.0825 -7.41285e-05 13.431 -7.41285e-05 16.037L-7.41285e-05 16.1491C-7.41285e-05 16.3075 0.12847 16.436 0.286944 16.436H26.2727C26.4312 16.436 26.5597 16.3075 26.5597 16.1491V16.037C26.5597 13.431 24.9882 11.0825 22.5833 9.47164Z" />
+        </svg>
+    )
 }
