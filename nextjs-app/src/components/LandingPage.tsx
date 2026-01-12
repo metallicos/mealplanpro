@@ -12,7 +12,10 @@ import {
     Dumbbell,
     Brain,
     Globe,
-    TrendingUp
+    TrendingUp,
+    User,
+    LogIn,
+    UserPlus
 } from 'lucide-react';
 
 export default function LandingPage() {
@@ -122,12 +125,34 @@ export default function LandingPage() {
 
                     <div className="h-6 w-px bg-white/10 mx-1 md:mx-2 hidden sm:block" />
 
-                    <Link href="/login" className="px-3 py-2 md:px-5 md:py-2.5 rounded-full text-xs md:text-sm font-medium text-gray-300 hover:text-white transition-colors">
-                        {tLang('en') === 'English' ? 'Log In' : 'Connexion'}
-                    </Link>
-                    <Link href="/signup" className="px-4 py-2 md:px-5 md:py-2.5 rounded-full bg-white text-black text-xs md:text-sm font-bold hover:bg-gray-100 transition-colors shadow-lg shadow-white/10">
-                        {tLang('en') === 'English' ? 'Sign Up' : 'Inscription'}
-                    </Link>
+                    {/* Auth Dropdown */}
+                    <div className="relative">
+                        <button
+                            onClick={() => setShowAuthMenu(!showAuthMenu)}
+                            className="p-2 rounded-full text-gray-400 hover:text-white hover:bg-white/10 transition-colors"
+                        >
+                            <User size={20} />
+                        </button>
+
+                        {showAuthMenu && (
+                            <div className="absolute top-full right-0 mt-2 w-40 bg-[#12121a] border border-white/10 rounded-xl shadow-xl overflow-hidden z-50">
+                                <Link
+                                    href="/login"
+                                    className="w-full text-left px-4 py-3 text-sm text-gray-300 hover:bg-white/5 hover:text-white transition-colors flex items-center gap-3"
+                                >
+                                    <LogIn size={16} />
+                                    {locale === 'fr' ? 'Connexion' : 'Log In'}
+                                </Link>
+                                <Link
+                                    href="/signup"
+                                    className="w-full text-left px-4 py-3 text-sm text-gray-300 hover:bg-white/5 hover:text-white transition-colors flex items-center gap-3"
+                                >
+                                    <UserPlus size={16} />
+                                    {locale === 'fr' ? 'Inscription' : 'Sign Up'}
+                                </Link>
+                            </div>
+                        )}
+                    </div>
                 </div>
             </nav>
 

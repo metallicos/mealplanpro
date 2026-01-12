@@ -78,7 +78,7 @@ export default function LoginPage() {
                 }}
             >
                 <ArrowLeft size={18} />
-                <span className="text-sm">{tCommon('home') || 'Home'}</span>
+                <span className="text-sm">←</span>
             </Link>
 
             {/* Language Switcher - Top Right */}
