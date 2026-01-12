@@ -98,10 +98,10 @@ export default function Sidebar() {
                     <span className={`hamburger-line ${isOpen ? 'open' : ''}`}></span>
                 </button>
                 <div className="mobile-logo">
-                    <div className="w-8 h-8 rounded-full bg-cyan-500 flex items-center justify-center">
+                    <div className="w-8 h-8 rounded-full flex items-center justify-center" style={{ background: 'var(--accent-primary)' }}>
                         <Utensils className="w-4 h-4 text-white" />
                     </div>
-                    <span className="font-bold">MealPlan<span className="text-cyan-400">Pro</span></span>
+                    <span className="font-bold">MealPlan<span style={{ color: 'var(--accent-primary)' }}>Pro</span></span>
                 </div>
                 <div className="mobile-user">
                     {user.fullName.split(' ')[0]}
@@ -119,10 +119,10 @@ export default function Sidebar() {
             {/* Sidebar */}
             <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
                 <div className="sidebar-logo">
-                    <div className="w-10 h-10 rounded-full bg-cyan-500 flex items-center justify-center">
+                    <div className="w-10 h-10 rounded-full flex items-center justify-center" style={{ background: 'var(--accent-primary)' }}>
                         <Utensils className="text-white" size={22} />
                     </div>
-                    <span className="sidebar-logo-text">MealPlan<span className="text-cyan-400">Pro</span></span>
+                    <span className="sidebar-logo-text">MealPlan<span style={{ color: 'var(--accent-primary)' }}>Pro</span></span>
                 </div>
 
                 <nav className="flex-1">
@@ -157,18 +157,20 @@ export default function Sidebar() {
                             <button
                                 onClick={() => switchLanguage('en')}
                                 className={`flex-1 py-2 px-1 text-xs font-medium rounded transition-all ${currentLocale === 'en'
-                                    ? 'bg-emerald-600 text-white'
+                                    ? 'text-white'
                                     : 'text-gray-400 hover:text-white hover:bg-white/10'
                                     }`}
+                                style={currentLocale === 'en' ? { background: 'var(--accent-primary)' } : {}}
                             >
                                 EN
                             </button>
                             <button
                                 onClick={() => switchLanguage('fr')}
                                 className={`flex-1 py-2 px-1 text-xs font-medium rounded transition-all ${currentLocale === 'fr'
-                                    ? 'bg-emerald-600 text-white'
+                                    ? 'text-white'
                                     : 'text-gray-400 hover:text-white hover:bg-white/10'
                                     }`}
+                                style={currentLocale === 'fr' ? { background: 'var(--accent-primary)' } : {}}
                             >
                                 FR
                             </button>

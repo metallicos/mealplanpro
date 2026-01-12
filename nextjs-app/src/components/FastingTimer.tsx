@@ -122,8 +122,9 @@ export default function FastingTimer() {
                     onClick={handleToggle}
                     className={`px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider transition-all whitespace-nowrap ${isFasting
                         ? 'bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/30'
-                        : 'bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg shadow-emerald-500/20'
+                        : 'text-white shadow-lg'
                         }`}
+                    style={!isFasting ? { background: 'var(--accent-primary)' } : {}}
                 >
                     {isFasting ? t('endFast') : t('startFast')}
                 </button>

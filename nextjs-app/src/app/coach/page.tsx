@@ -359,9 +359,10 @@ export default function CoachPage() {
                                         key={loc.id}
                                         onClick={() => handleLocationChange(loc.id)}
                                         className={`p-4 rounded-xl flex flex-col items-center gap-2 transition-all ${location === loc.id
-                                            ? 'bg-emerald-500 text-white shadow-lg shadow-emerald-500/25'
+                                            ? 'text-white shadow-lg'
                                             : 'bg-gray-800/50 hover:bg-gray-700/50 text-gray-300 border border-white/5'
                                             }`}
+                                        style={location === loc.id ? { background: 'var(--accent-primary)' } : {}}
                                     >
                                         <loc.Icon size={24} />
                                         <span className="text-sm font-medium">{t(`locations.${loc.id}`)}</span>
@@ -380,9 +381,10 @@ export default function CoachPage() {
                                             key={item}
                                             onClick={() => toggleEquipment(item)}
                                             className={`p-3 rounded-lg text-sm flex items-center gap-2 transition-all ${equipment.includes(item)
-                                                ? 'bg-emerald-500 text-white'
+                                                ? 'text-white'
                                                 : 'bg-gray-800/50 hover:bg-gray-700/50 text-gray-300 border border-white/5'
                                                 }`}
+                                            style={equipment.includes(item) ? { background: 'var(--accent-primary)' } : {}}
                                         >
                                             {equipment.includes(item) && <Check size={14} />}
                                             <span className="truncate">{t(`equipment.${item}`)}</span>
@@ -401,9 +403,10 @@ export default function CoachPage() {
                                         key={sport.id}
                                         onClick={() => setSportType(sport.id)}
                                         className={`p-3 rounded-xl flex flex-col items-center gap-2 transition-all ${sportType === sport.id
-                                            ? 'bg-emerald-500 text-white shadow-lg shadow-emerald-500/25'
+                                            ? 'text-white shadow-lg'
                                             : 'bg-gray-800/50 hover:bg-gray-700/50 text-gray-300 border border-white/5'
                                             }`}
+                                        style={sportType === sport.id ? { background: 'var(--accent-primary)' } : {}}
                                     >
                                         <sport.Icon size={20} />
                                         <span className="text-xs truncate w-full text-center">{t(`sports.${sport.id}`)}</span>
