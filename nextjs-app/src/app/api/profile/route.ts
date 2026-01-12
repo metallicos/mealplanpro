@@ -55,6 +55,7 @@ export async function GET(request: Request) {
             hip: data.hip || 0,
             avatar_url: data.avatar_url,
             themePreference: data.theme_preference || 'auto',
+            currency: data.currency || 'USD',
         });
     } catch (error) {
         console.error('GET /api/profile error:', error);
@@ -126,8 +127,8 @@ export async function POST(request: Request) {
         await query(
             `INSERT INTO user_profiles 
              (user_id, weight, height, age, gender, activity_level, goal, 
-              daily_calorie_target, protein_target, carbs_target, fat_target, diet_mode, neck, waist, hip, avatar_url, facebook, instagram, twitter, theme_preference)
-             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+              daily_calorie_target, protein_target, carbs_target, fat_target, diet_mode, neck, waist, hip, avatar_url, facebook, instagram, twitter, theme_preference, currency)
+             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
              ON CONFLICT(user_id) DO UPDATE SET 
               weight = excluded.weight,
               height = excluded.height,
@@ -147,7 +148,8 @@ export async function POST(request: Request) {
               facebook = excluded.facebook,
               instagram = excluded.instagram,
               twitter = excluded.twitter,
-              theme_preference = excluded.theme_preference`,
+              theme_preference = excluded.theme_preference,
+              currency = excluded.currency`,
             [
                 targetUserId,
                 settings.weight || null,
@@ -168,7 +170,8 @@ export async function POST(request: Request) {
                 settings.facebook || null,
                 settings.instagram || null,
                 settings.twitter || null,
-                settings.themePreference || 'auto'
+                settings.themePreference || 'auto',
+                settings.currency || 'USD'
             ]
         );
 

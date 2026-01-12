@@ -227,8 +227,8 @@ export default function ProfilePage() {
                                         type="button"
                                         onClick={() => updateSettings({ themePreference: theme.id })}
                                         className={`w-10 h-10 rounded-full flex items-center justify-center transition-all ${(settings.themePreference || 'auto') === theme.id
-                                                ? 'ring-2 ring-white scale-110'
-                                                : 'opacity-70 hover:opacity-100 hover:scale-105'
+                                            ? 'ring-2 ring-white scale-110'
+                                            : 'opacity-70 hover:opacity-100 hover:scale-105'
                                             }`}
                                         style={{ background: theme.id === 'auto' ? 'linear-gradient(to right, #10b981, #ec4899)' : theme.color }}
                                         title={theme.label}
@@ -238,6 +238,53 @@ export default function ProfilePage() {
                                 ))}
                             </div>
                             <p className="text-xs text-[var(--text-muted)] mb-4">Select your preferred accent color for the application.</p>
+
+                            <hr className="border-gray-800 my-4" />
+                            <h3 className="font-semibold mb-2 flex items-center gap-2">Currency</h3>
+                            <div className="relative">
+                                <select
+                                    className="w-full bg-[#1a1a24] border border-gray-700 rounded-lg px-4 py-3 outline-none focus:border-[var(--accent-primary)] transition-colors appearance-none cursor-pointer"
+                                    value={settings.currency || 'USD'}
+                                    onChange={(e) => updateSettings({ currency: e.target.value })}
+                                >
+                                    {[
+                                        { code: 'USD', name: 'US Dollar ($)' },
+                                        { code: 'EUR', name: 'Euro (€)' },
+                                        { code: 'GBP', name: 'British Pound (£)' },
+                                        { code: 'CAD', name: 'Canadian Dollar ($)' },
+                                        { code: 'AUD', name: 'Australian Dollar ($)' },
+                                        { code: 'JPY', name: 'Japanese Yen (¥)' },
+                                        { code: 'CNY', name: 'Chinese Yuan (¥)' },
+                                        { code: 'INR', name: 'Indian Rupee (₹)' },
+                                        { code: 'BRL', name: 'Brazilian Real (R$)' },
+                                        { code: 'RUB', name: 'Russian Ruble (₽)' },
+                                        { code: 'KRW', name: 'South Korean Won (₩)' },
+                                        { code: 'SGD', name: 'Singapore Dollar ($)' },
+                                        { code: 'NZD', name: 'New Zealand Dollar ($)' },
+                                        { code: 'MXN', name: 'Mexican Peso ($)' },
+                                        { code: 'HKD', name: 'Hong Kong Dollar ($)' },
+                                        { code: 'CHF', name: 'Swiss Franc (Fr)' },
+                                        { code: 'SEK', name: 'Swedish Krona (kr)' },
+                                        { code: 'NOK', name: 'Norwegian Krone (kr)' },
+                                        { code: 'DKK', name: 'Danish Krone (kr)' },
+                                        { code: 'PLN', name: 'Polish Złoty (zł)' },
+                                        { code: 'TRY', name: 'Turkish Lira (₺)' },
+                                        { code: 'ZAR', name: 'South African Rand (R)' },
+                                        { code: 'THB', name: 'Thai Baht (฿)' },
+                                        { code: 'IDR', name: 'Indonesian Rupiah (Rp)' },
+                                        { code: 'MYR', name: 'Malaysian Ringgit (RM)' },
+                                        { code: 'PHP', name: 'Philippine Peso (₱)' },
+                                        { code: 'VND', name: 'Vietnamese Dong (₫)' },
+                                        { code: 'MAD', name: 'Moroccan Dirham (MAD)' }
+                                    ].map(c => (
+                                        <option key={c.code} value={c.code}>{c.code} - {c.name}</option>
+                                    ))}
+                                </select>
+                                <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-gray-500">
+                                    <Globe size={16} />
+                                </div>
+                            </div>
+                            <p className="text-xs text-[var(--text-muted)] mt-2 mb-4">This currency will be used for grocery prices and estimates.</p>
 
                             <hr className="border-gray-800 my-4" />
                             <div>

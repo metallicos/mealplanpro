@@ -29,6 +29,7 @@ export interface UserSettings {
     waist: number;
     hip: number;
     themePreference?: string;
+    currency?: string;
 }
 
 interface UserContextType {
@@ -65,6 +66,7 @@ const defaultSettings: UserSettings = {
     carbsTarget: 200,
     fatTarget: 66,
     themePreference: 'auto',
+    currency: 'USD',
 };
 
 // Theme configurations - Vitality Theme (Emerald/Teal)
@@ -144,6 +146,7 @@ export function UserProvider({ children }: { children: ReactNode }) {
                     waist: data.waist || defaultSettings.waist,
                     hip: data.hip || defaultSettings.hip,
                     themePreference: data.themePreference || 'auto',
+                    currency: data.currency || 'USD',
                 });
             }
         } catch (error) {
