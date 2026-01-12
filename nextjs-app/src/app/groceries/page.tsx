@@ -12,8 +12,9 @@ import {
     SprayCan, Smile, Baby, Dog, Box
 } from 'lucide-react';
 
-interface GroceryItem extends GroceryItemTemplate {
+interface GroceryItem extends Omit<GroceryItemTemplate, 'id'> {
     id: number;
+    template_id?: string;
     quantity: number;
     is_purchased: boolean;
     is_out_of_stock: boolean;
@@ -43,6 +44,32 @@ export default function GroceriesPage() {
             currency: settings.currency || 'USD',
             maximumFractionDigits: 0
         }).format(amount);
+    };
+
+    // Helper to get translated item name
+    const getItemName = (item: GroceryItem | GroceryItemTemplate) => {
+        // If it has a template_id, try to translate it
+        if ('template_id' in item && item.template_id) {
+            return t(`items.${item.template_id}`);
+        }
+        // If it's a template (from search), use its id
+        // We know GroceryItemTemplate has id as string, GroceryItem has id as number
+        if ('id' in item && typeof item.id === 'string') {
+            return t(`items.${item.id}`);
+        }
+        // Fallback to name (custom items or missing translation)
+        return item.name;
+    };
+
+    // Helper to get translated category name
+    const getCategoryName = (categoryKey: string) => {
+        // Try to translate the category key
+        const translated = t(`categories.${categoryKey}`);
+        // If translation returns the key (meaning missing), fallback to English map or key
+        if (translated === `categories.${categoryKey}`) {
+            return categoryNames[categoryKey] || categoryKey;
+        }
+        return translated;
     };
 
     // Get current month
@@ -190,6 +217,7 @@ export default function GroceriesPage() {
         const newItem: GroceryItem = {
             ...template,
             id: Date.now(),
+            template_id: template.id,
             quantity: 1,
             is_purchased: false,
             is_out_of_stock: false,
@@ -730,7 +758,7 @@ export default function GroceriesPage() {
                                             className="w-full text-left px-4 py-2 hover:bg-gray-800 flex items-center justify-between text-sm"
                                         >
                                             <span className="flex items-center gap-2">
-                                                {getCategoryIcon(item.category)} {item.name}
+                                                {getCategoryIcon(item.category)} {getItemName(item)}
                                             </span>
                                             <span className="text-gray-500">
                                                 {formatCurrency(item.estimated_price_per_unit)}/{item.default_unit}
@@ -764,8 +792,8 @@ export default function GroceriesPage() {
                                 onChange={(e) => setFilterCategory(e.target.value)}
                             >
                                 <option value="all">{t('allCategories')}</option>
-                                {Object.entries(categoryNames).map(([key, name]) => (
-                                    <option key={key} value={key}>{name}</option>
+                                {Object.keys(categoryNames).map((key) => (
+                                    <option key={key} value={key}>{getCategoryName(key)}</option>
                                 ))}
                             </select>
                         </div>
@@ -819,7 +847,7 @@ export default function GroceriesPage() {
                             Object.entries(groupedItems).map(([category, categoryItems]) => (
                                 <div key={category} className="mb-6">
                                     <h4 className="print-category text-sm font-medium mb-2 flex items-center gap-2" style={{ color: 'var(--text-secondary)' }}>
-                                        {getCategoryIcon(category)} {categoryNames[category] || category}
+                                        {getCategoryIcon(category)} {getCategoryName(category)}
                                         <span className="badge badge-primary text-xs no-print">{categoryItems.length}</span>
                                     </h4>
                                     <div className="space-y-2">
@@ -852,7 +880,7 @@ export default function GroceriesPage() {
                                                     <div className="print-item-content flex-1 min-w-0">
                                                         <div className="flex items-center gap-2 flex-wrap">
                                                             <span className={`print-item-name font-medium ${item.is_purchased ? 'line-through purchased' : ''}`}>
-                                                                {item.name}
+                                                                {getItemName(item)}
                                                             </span>
                                                             <span className="print-item-badges">
                                                                 {item.is_out_of_stock && (
@@ -980,8 +1008,8 @@ export default function GroceriesPage() {
                                     value={customItem.category}
                                     onChange={(e) => setCustomItem({ ...customItem, category: e.target.value })}
                                 >
-                                    {Object.entries(categoryNames).map(([key, name]) => (
-                                        <option key={key} value={key}>{name}</option>
+                                    {Object.keys(categoryNames).map((key) => (
+                                        <option key={key} value={key}>{getCategoryName(key)}</option>
                                     ))}
                                 </select>
                             </div>
@@ -1045,7 +1073,7 @@ export default function GroceriesPage() {
             {editingItem && (
                 <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4 no-print">
                     <div className="card max-w-md w-full">
-                        <h3 className="text-lg font-semibold mb-4">{t('editTitle')}: {editingItem.name}</h3>
+                        <h3 className="text-lg font-semibold mb-4">{t('editTitle')}: {getItemName(editingItem)}</h3>
 
                         <div className="space-y-4">
                             <div className="grid grid-cols-2 gap-4">
