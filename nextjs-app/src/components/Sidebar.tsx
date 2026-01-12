@@ -99,7 +99,7 @@ export default function Sidebar() {
                 </button>
                 <div className="mobile-logo">
                     <Utensils className="w-6 h-6 text-emerald-500" />
-                    <span>{tCommon('appName')}</span>
+                    <span className="hidden xs:inline">{tCommon('appName')}</span>
                 </div>
                 <div className="mobile-user">
                     {user.fullName.split(' ')[0]}

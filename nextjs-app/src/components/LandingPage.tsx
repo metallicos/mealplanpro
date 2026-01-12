@@ -85,7 +85,7 @@ export default function LandingPage() {
             </div>
 
             {/* Navbar */}
-            <nav className="relative z-10 container mx-auto px-4 md:px-6 py-4 md:py-6 flex items-center justify-between">
+            <nav className="relative z-10 container mx-auto px-4 md:px-6 py-4 md:py-6 flex items-center justify-between pt-[calc(1rem+env(safe-area-inset-top))]">
                 <div className="flex items-center gap-2 font-bold text-lg md:text-xl tracking-tight">
                     <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-cyan-500 to-emerald-500 flex items-center justify-center text-white">
                         <Utensils size={18} />
