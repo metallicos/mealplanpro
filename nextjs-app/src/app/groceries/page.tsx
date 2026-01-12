@@ -864,11 +864,11 @@ export default function GroceriesPage() {
                                                         <div className="print-item-details text-sm flex items-center gap-3 mt-1" style={{ color: 'var(--text-muted)' }}>
                                                             <span>{item.quantity} {item.default_unit}</span>
                                                             <span>
-                                                                {(item.estimated_price_per_unit * item.quantity).toFixed(0)} MAD
+                                                                {formatCurrency(item.estimated_price_per_unit * item.quantity)}
                                                             </span>
                                                             {item.actual_price !== null && item.actual_price !== undefined && (
                                                                 <span style={{ color: 'var(--success)' }}>
-                                                                    (Paid: {Number(item.actual_price).toFixed(0)} MAD)
+                                                                    (Paid: {formatCurrency(Number(item.actual_price))})
                                                                 </span>
                                                             )}
                                                         </div>
@@ -907,9 +907,9 @@ export default function GroceriesPage() {
                         {/* Print Footer */}
                         <div className="print-footer hidden">
                             <div className="print-summary">
-                                <span>Estimated Total: <strong>{estimatedCost.toLocaleString()} MAD</strong></span>
-                                <span>Spent: <strong>{actualSpent.toLocaleString()} MAD</strong></span>
-                                <span className="print-total">Remaining: {remainingBudget.toLocaleString()} MAD</span>
+                                <span>Estimated Total: <strong>{formatCurrency(estimatedCost)}</strong></span>
+                                <span>Spent: <strong>{formatCurrency(actualSpent)}</strong></span>
+                                <span className="print-total">Remaining: {formatCurrency(remainingBudget)}</span>
                             </div>
                             <p style={{ marginTop: '10px', fontSize: '9pt' }}>
                                 Out of Stock: {outOfStockItems} items | Buy Next Month: {needNextMonth} items
@@ -981,7 +981,7 @@ export default function GroceriesPage() {
                             </div>
 
                             <div>
-                                <label className="form-label">Est. Price (MAD)</label>
+                                <label className="form-label">Est. Price ({formatCurrency(0).replace('0.00', '').trim()})</label>
                                 <input
                                     type="number"
                                     className="form-input"
@@ -1012,7 +1012,7 @@ export default function GroceriesPage() {
                         <h3 className="text-lg font-semibold mb-4">Set Monthly Budget</h3>
 
                         <div>
-                            <label className="form-label">Budget for {formatMonth(currentMonth)} (MAD)</label>
+                            <label className="form-label">Budget for {formatMonth(currentMonth)} ({formatCurrency(0).replace('0.00', '').trim()})</label>
                             <input
                                 type="number"
                                 className="form-input"
@@ -1057,7 +1057,7 @@ export default function GroceriesPage() {
                                     />
                                 </div>
                                 <div>
-                                    <label className="form-label">Actual Price (MAD)</label>
+                                    <label className="form-label">Actual Price ({formatCurrency(0).replace('0.00', '').trim()})</label>
                                     <input
                                         type="number"
                                         className="form-input"
@@ -1192,7 +1192,7 @@ export default function GroceriesPage() {
                                                         {item.name}
                                                     </div>
                                                     <div className="text-xs text-gray-400">
-                                                        {item.estimated_price_per_unit} MAD/{item.default_unit}
+                                                        {formatCurrency(item.estimated_price_per_unit)}/{item.default_unit}
                                                         {alreadyAdded && ' (already added)'}
                                                     </div>
                                                 </div>
@@ -1232,7 +1232,7 @@ export default function GroceriesPage() {
                     <strong>{formatMonth(currentMonth)}</strong>
                 </p>
                 <p style={{ textAlign: 'center', marginBottom: '15px', fontSize: '10pt' }}>
-                    Budget: {currentBudget.initial_budget.toLocaleString()} MAD |
+                    Budget: {formatCurrency(currentBudget.initial_budget)} |
                     Items: {totalItems} |
                     Purchased: {purchasedItems}
                 </p>
@@ -1266,11 +1266,11 @@ export default function GroceriesPage() {
                                             <strong>{item.name}</strong>
                                         </td>
                                         <td>{item.quantity} {item.default_unit}</td>
-                                        <td>{(Number(item.estimated_price_per_unit) * Number(item.quantity)).toFixed(0)} MAD</td>
+                                        <td>{formatCurrency(Number(item.estimated_price_per_unit) * Number(item.quantity))}</td>
                                         <td>
                                             {item.is_out_of_stock && <span className="status-badge status-oos">EPUISE</span>}
                                             {item.buy_next_month && <span className="status-badge status-next">NEXT</span>}
-                                            {item.actual_price !== null && item.actual_price !== undefined && `Paid: ${Number(item.actual_price).toFixed(0)}`}
+                                            {item.actual_price !== null && item.actual_price !== undefined && `Paid: ${formatCurrency(Number(item.actual_price))}`}
                                         </td>
                                         <td style={{ fontSize: '9pt', fontStyle: 'italic' }}>{item.comment || '-'}</td>
                                     </tr>
@@ -1283,9 +1283,9 @@ export default function GroceriesPage() {
                 <table className="print-summary-table">
                     <tbody>
                         <tr>
-                            <td><strong>Estimated Total:</strong> {estimatedCost.toLocaleString()} MAD</td>
-                            <td><strong>Spent:</strong> {actualSpent.toLocaleString()} MAD</td>
-                            <td style={{ textAlign: 'right' }}><strong>REMAINING: {remainingBudget.toLocaleString()} MAD</strong></td>
+                            <td><strong>Estimated Total:</strong> {formatCurrency(estimatedCost)}</td>
+                            <td><strong>Spent:</strong> {formatCurrency(actualSpent)}</td>
+                            <td style={{ textAlign: 'right' }}><strong>REMAINING: {formatCurrency(remainingBudget)}</strong></td>
                         </tr>
                         <tr>
                             <td colSpan={3} style={{ fontSize: '9pt', paddingTop: '10px' }}>

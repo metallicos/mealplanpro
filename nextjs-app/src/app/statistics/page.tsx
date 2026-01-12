@@ -31,11 +31,20 @@ interface GroceryBudget {
 }
 
 export default function StatisticsPage() {
-    const { user, theme } = useUser();
+    const { user, theme, settings } = useUser();
     const [period, setPeriod] = useState<'week' | 'month' | 'all'>('month');
     const [loading, setLoading] = useState(true);
     const [weightLogs, setWeightLogs] = useState<WeightLog[]>([]);
     const [groceryData, setGroceryData] = useState<GroceryBudget[]>([]);
+
+    // Currency formatter
+    const formatCurrency = (amount: number) => {
+        return new Intl.NumberFormat(settings.currency === 'MAD' ? 'fr-MA' : 'en-US', {
+            style: 'currency',
+            currency: settings.currency || 'USD',
+            maximumFractionDigits: 2
+        }).format(amount);
+    };
 
     // Fetch real data
     useEffect(() => {
@@ -208,16 +217,16 @@ export default function StatisticsPage() {
                     <div className="space-y-4">
                         <div className="flex justify-between items-center">
                             <span className="text-gray-400">Total Budget</span>
-                            <span className="font-bold text-lg">{stats.totalBudget.toFixed(2)} MAD</span>
+                            <span className="font-bold text-lg">{formatCurrency(stats.totalBudget)}</span>
                         </div>
                         <div className="flex justify-between items-center">
                             <span className="text-gray-400">Total Spent</span>
-                            <span className="font-bold text-lg" style={{ color: 'var(--error)' }}>{stats.totalSpent.toFixed(2)} MAD</span>
+                            <span className="font-bold text-lg" style={{ color: 'var(--error)' }}>{formatCurrency(stats.totalSpent)}</span>
                         </div>
                         <div className="flex justify-between items-center">
                             <span className="text-gray-400">Remaining</span>
                             <span className="font-bold text-lg" style={{ color: stats.budgetRemaining >= 0 ? 'var(--success)' : 'var(--error)' }}>
-                                {stats.budgetRemaining.toFixed(2)} MAD
+                                {formatCurrency(stats.budgetRemaining)}
                             </span>
                         </div>
                         <div className="pt-4 border-t border-gray-700">
