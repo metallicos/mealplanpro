@@ -41,8 +41,13 @@ export default function LandingPage() {
     const [showLangMenu, setShowLangMenu] = useState(false);
     const [showAuthMenu, setShowAuthMenu] = useState(false);
 
-    const switchLanguage = (newLocale: string) => {
-        document.cookie = `NEXT_LOCALE=${newLocale}; path=/; max-age=31536000`;
+    const switchLanguage = async (newLocale: string) => {
+        await fetch('/api/locale', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ locale: newLocale }),
+        });
+        setShowLangMenu(false);
         window.location.reload();
     };
 
