@@ -25,6 +25,10 @@
         "minutes": "min",
         "hours": "horas"
     },
+    "meta": {
+        "title": "MealPlan Pro | Nutrición Inteligente para Cada Meta",
+        "description": "Rastrea macros, planifica comidas y alcanza tus metas fitness - ya sea pérdida de grasa, ganancia muscular o mantenimiento."
+    },
     "nav": {
         "dashboard": "Panel",
         "trackMacros": "Seguir Macros",
@@ -61,7 +65,17 @@
         "familyNameDesc": "Crea un nuevo grupo familiar para tu hogar.",
         "creatingAccount": "Creando cuenta...",
         "alreadyHaveAccount": "¿Ya tienes cuenta?",
-        "logIn": "Iniciar sesión"
+        "logIn": "Iniciar sesión",
+        "placeholders": {
+            "email": "tu@ejemplo.com",
+            "password": "••••••••",
+            "fullName": "Juan Pérez",
+            "familyName": "ej. Los García"
+        },
+        "errors": {
+            "generic": "Algo salió mal",
+            "signupFailed": "Falló el registro"
+        }
     },
     "dashboard": {
         "welcomeBack": "¡Bienvenido de nuevo, {name}!",
@@ -342,7 +356,10 @@
         "leaveReview": "Dejar una Reseña",
         "postReview": "Publicar Reseña",
         "healthy": "Saludable",
-        "addToGroceryList": "Agregar a Lista de Compras"
+        "addToGroceryList": "Agregar a Lista de Compras",
+        "rateThisMeal": "Califica esta comida",
+        "writeComment": "Escribe un comentario...",
+        "showingResults": "Mostrando {count} de {total} comidas",
     },
     "forum": {
         "title": "Foro Comunitario",
@@ -406,7 +423,36 @@
         "language": "Idioma",
         "updateProfile": "Actualizar Perfil",
         "changePassword": "Cambiar Contraseña",
-        "deleteAccount": "Eliminar Cuenta"
+        "deleteAccount": "Eliminar Cuenta",
+        "management": "Gestión del Perfil",
+        "editProfile": "Editar Perfil",
+        "myPosts": "Mis Publicaciones",
+        "uploadPhoto": "Subir Foto",
+        "generateAvatar": "Generar Avatar Aleatorio",
+        "socialLinks": "Redes Sociales",
+        "appTheme": "Tema de la App",
+        "themeAuto": "Auto (Género)",
+        "themeEmerald": "Esmeralda",
+        "themeBlue": "Azul",
+        "themePurple": "Púrpura",
+        "themePink": "Rosa",
+        "themeOrange": "Naranja",
+        "themeCyan": "Cian",
+        "accentColorDesc": "Selecciona tu color de acento preferido para la aplicación.",
+        "currencyDesc": "Esta moneda se usará para precios y estimaciones.",
+        "newPasswordOptional": "Nueva Contraseña (opcional)",
+        "confirmPassword": "Confirmar Contraseña",
+        "leaveBlank": "Dejar en blanco para mantener la actual",
+        "saveChanges": "Guardar Cambios",
+        "saving": "Guardando...",
+        "passwordsDoNotMatch": "Las contraseñas no coinciden",
+        "updateSuccess": "¡Perfil actualizado con éxito!",
+        "updateFailed": "Error al actualizar perfil",
+        "errorOccurred": "Ocurrió un error",
+        "deletePostConfirm": "¿Estás seguro de que quieres eliminar esta publicación?",
+        "deletePostFailed": "Error al eliminar publicación",
+        "noPosts": "Aún no has publicado nada.",
+        "delete": "Eliminar"
     },
     "family": {
         "myFamily": "Mis Miembros Familiares",
@@ -418,7 +464,10 @@
         "addFamilyMember": "Agregar Miembro Familiar",
         "adding": "Agregando...",
         "email": "Correo Electrónico",
-        "password": "Contraseña"
+        "password": "Contraseña",
+        "errors": {
+            "addMemberFailed": "Error al agregar miembro"
+        }
     },
     "admin": {
         "title": "Administración del Sistema",
@@ -475,5 +524,57 @@
         "en": "English",
         "fr": "Français",
         "es": "Español"
+    },
+    "landing": {
+        "titlePart1": "Come Mejor.",
+        "titlePart2": "Construye Más.",
+        "description": "Deja de adivinar tu nutrición. Obtén planes de comidas personalizados al instante, seguimiento preciso de macros y un entrenador IA que se adapta a tu metabolismo.",
+        "ctaStart": "Prueba Gratis",
+        "ctaCalc": "Calcular Necesidades",
+        "noCreditCard": "No requiere tarjeta",
+        "cancelAnytime": "Cancela cuando quieras",
+        "aiCoach": "Entrenador de Nutrición IA",
+        "aiCoachDesc": "Chatea con tu entrenador personal de IA para ajustar planes, obtener recetas y mantener la motivación 24/7.",
+        "smartMeals": "Planes de Comidas Inteligentes",
+        "smartMealsDesc": "Planes semanales generados automáticamente que cumplen tus macros exactos usando ingredientes que realmente te gustan.",
+        "workouts": "Integración de Entrenamientos",
+        "workoutsDesc": "Registra tus entrenamientos y deja que tu plan de nutrición se adapte automáticamente a tu gasto energético.",
+        "calculator": {
+            "title": "Chequeo de Calorías Gratis",
+            "desc": "Descubre exactamente qué necesitas comer para alcanzar tu meta.",
+            "gender": "Género",
+            "male": "Hombre",
+            "female": "Mujer",
+            "age": "Edad",
+            "height": "Altura (cm)",
+            "weight": "Peso (kg)",
+            "activity": "Nivel de Actividad",
+            "activitySedentary": "Sedentario (Oficina)",
+            "activityLight": "Ligero (1-3 días)",
+            "activityModerate": "Moderado (3-5 días)",
+            "activityActive": "Activo (6-7 días)",
+            "goal": "Meta",
+            "goalLoss": "Perder Grasa",
+            "goalMaintain": "Mantener Peso",
+            "goalGain": "Ganar Músculo",
+            "calculateBtn": "Calcular Mis Números"
+        },
+        "results": {
+            "title": "Tus Resultados",
+            "targetDesc": "Basado en tu perfil de {age} años, {weight}kg, {height}cm",
+            "dailyCalories": "Calorías por Día",
+            "maintenance": "Mantenimiento",
+            "metabolicAge": "Edad Metabólica",
+            "unlock": "Desbloquear Plan Completo",
+            "recalculate": "Recalcular",
+            "signupText": "Regístrate para guardar estos resultados, obtener tu desglose de Proteína/Carbos/Grasa y acceder a tu plan de comidas 100% personalizado."
+        },
+        "mobile": {
+            "title": "Obtén la App",
+            "desc": "Sigue tu nutrición sobre la marcha. Sincronización perfecta en todos tus dispositivos.",
+            "apple": "App Store",
+            "android": "Google Play",
+            "comingSoon": "Próximamente"
+        }
     }
 }

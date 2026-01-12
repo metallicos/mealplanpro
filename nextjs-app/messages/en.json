@@ -29,6 +29,10 @@
     "carbs": "Carbs",
     "fat": "Fat"
   },
+  "meta": {
+    "title": "MealPlan Pro | Smart Nutrition for Any Goal",
+    "description": "Track macros, plan meals, and achieve your fitness goals - whether it's fat loss, muscle gain, or maintenance."
+  },
   "nav": {
     "dashboard": "Dashboard",
     "trackMacros": "Track Macros",
@@ -65,7 +69,17 @@
     "familyNameDesc": "Create a new family group for your household.",
     "creatingAccount": "Creating Account...",
     "alreadyHaveAccount": "Already have an account?",
-    "logIn": "Log in"
+    "logIn": "Log in",
+    "placeholders": {
+      "email": "yours@example.com",
+      "password": "••••••••",
+      "fullName": "John Doe",
+      "familyName": "e.g. The Smiths"
+    },
+    "errors": {
+      "generic": "Something went wrong",
+      "signupFailed": "Signup failed"
+    }
   },
   "dashboard": {
     "welcomeBack": "Welcome back, {name}!",
@@ -359,6 +373,8 @@
     "postReview": "Post Review",
     "healthy": "Healthy",
     "addToGroceryList": "Add to Grocery List",
+    "rateThisMeal": "Rate this meal",
+    "writeComment": "Write a comment...",
     "showingResults": "Showing {count} of {total} meals",
     "pageInfo": "Page {current} of {total}",
     "noResults": "No meals found matching your criteria.",
@@ -436,7 +452,36 @@
     "language": "Language",
     "updateProfile": "Update Profile",
     "changePassword": "Change Password",
-    "deleteAccount": "Delete Account"
+    "deleteAccount": "Delete Account",
+    "management": "Profile Management",
+    "editProfile": "Edit Profile",
+    "myPosts": "My Posts",
+    "uploadPhoto": "Upload Photo",
+    "generateAvatar": "Generate Random Avatar",
+    "socialLinks": "Social Links",
+    "appTheme": "App Theme",
+    "themeAuto": "Auto (Gender)",
+    "themeEmerald": "Emerald",
+    "themeBlue": "Blue",
+    "themePurple": "Purple",
+    "themePink": "Pink",
+    "themeOrange": "Orange",
+    "themeCyan": "Cyan",
+    "accentColorDesc": "Select your preferred accent color for the application.",
+    "currencyDesc": "This currency will be used for grocery prices and estimates.",
+    "newPasswordOptional": "New Password (optional)",
+    "confirmPassword": "Confirm Password",
+    "leaveBlank": "Leave blank to keep current",
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "passwordsDoNotMatch": "Passwords do not match",
+    "updateSuccess": "Profile updated successfully!",
+    "updateFailed": "Failed to update profile",
+    "errorOccurred": "An error occurred",
+    "deletePostConfirm": "Are you sure you want to delete this post?",
+    "deletePostFailed": "Failed to delete post",
+    "noPosts": "You haven't posted anything yet.",
+    "delete": "Delete"
   },
   "family": {
     "myFamily": "My Family Members",
@@ -448,7 +493,10 @@
     "addFamilyMember": "Add Family Member",
     "adding": "Adding...",
     "email": "Email",
-    "password": "Password"
+    "password": "Password",
+    "errors": {
+      "addMemberFailed": "Failed to add member"
+    }
   },
   "admin": {
     "title": "System Administration",

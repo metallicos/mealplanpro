@@ -29,6 +29,10 @@
         "carbs": "Glucides",
         "fat": "Lipides"
     },
+    "meta": {
+        "title": "MealPlan Pro | Nutrition Intelligente pour Tous Objectifs",
+        "description": "Suivez vos macros, planifiez vos repas et atteignez vos objectifs forme - perte de gras, gain de muscle, ou maintien."
+    },
     "nav": {
         "dashboard": "Tableau de bord",
         "trackMacros": "Suivi des Macros",
@@ -65,7 +69,17 @@
         "familyNameDesc": "Créez un nouveau groupe familial pour votre foyer.",
         "creatingAccount": "Création du compte...",
         "alreadyHaveAccount": "Vous avez déjà un compte ?",
-        "logIn": "Se connecter"
+        "logIn": "Se connecter",
+        "placeholders": {
+            "email": "vous@exemple.com",
+            "password": "••••••••",
+            "fullName": "Jean Dupont",
+            "familyName": "ex: Les Martin"
+        },
+        "errors": {
+            "generic": "Une erreur est survenue",
+            "signupFailed": "Inscription échouée"
+        }
     },
     "dashboard": {
         "welcomeBack": "Bon retour, {name} !",
@@ -359,6 +373,8 @@
         "postReview": "Publier l'Avis",
         "healthy": "Sain",
         "addToGroceryList": "Ajouter à la Liste de Courses",
+        "rateThisMeal": "Notez ce repas",
+        "writeComment": "Écrire un commentaire...",
         "showingResults": "Affichage de {count} sur {total} repas",
         "pageInfo": "Page {current} sur {total}",
         "noResults": "Aucun repas ne correspond à vos critères.",
@@ -436,7 +452,36 @@
         "language": "Langue",
         "updateProfile": "Mettre à Jour le Profil",
         "changePassword": "Changer le Mot de Passe",
-        "deleteAccount": "Supprimer le Compte"
+        "deleteAccount": "Supprimer le Compte",
+        "management": "Gestion du Profil",
+        "editProfile": "Modifier Profil",
+        "myPosts": "Mes Posts",
+        "uploadPhoto": "Télécharger Photo",
+        "generateAvatar": "Générer Avatar Aléatoire",
+        "socialLinks": "Réseaux Sociaux",
+        "appTheme": "Thème de l'App",
+        "themeAuto": "Auto (Genre)",
+        "themeEmerald": "Émeraude",
+        "themeBlue": "Bleu",
+        "themePurple": "Violet",
+        "themePink": "Rose",
+        "themeOrange": "Orange",
+        "themeCyan": "Cyan",
+        "accentColorDesc": "Sélectionnez votre couleur d'accent préférée pour l'application.",
+        "currencyDesc": "Cette devise sera utilisée pour les prix et estimations.",
+        "newPasswordOptional": "Nouveau Mot de Passe (optionnel)",
+        "confirmPassword": "Confirmer Mot de Passe",
+        "leaveBlank": "Laisser vide pour conserver l'actuel",
+        "saveChanges": "Enregistrer",
+        "saving": "Enregistrement...",
+        "passwordsDoNotMatch": "Les mots de passe ne correspondent pas",
+        "updateSuccess": "Profil mis à jour avec succès !",
+        "updateFailed": "Échec de la mise à jour du profil",
+        "errorOccurred": "Une erreur est survenue",
+        "deletePostConfirm": "Êtes-vous sûr de vouloir supprimer ce post ?",
+        "deletePostFailed": "Échec de la suppression du post",
+        "noPosts": "Vous n'avez encore rien publié.",
+        "delete": "Supprimer"
     },
     "family": {
         "myFamily": "Mes Membres de Famille",
@@ -448,7 +493,10 @@
         "addFamilyMember": "Ajouter un Membre de la Famille",
         "adding": "Ajout en cours...",
         "email": "E-mail",
-        "password": "Mot de passe"
+        "password": "Mot de passe",
+        "errors": {
+            "addMemberFailed": "Échec de l'ajout du membre"
+        }
     },
     "admin": {
         "title": "Administration Système",

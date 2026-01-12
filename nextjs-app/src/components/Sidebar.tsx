@@ -170,7 +170,15 @@ export default function Sidebar() {
                             >
                                 FR
                             </button>
-
+                            <button
+                                onClick={() => switchLanguage('es')}
+                                className={`flex-1 py-2 px-1 text-xs font-medium rounded transition-all ${currentLocale === 'es'
+                                    ? 'bg-emerald-600 text-white'
+                                    : 'text-gray-400 hover:text-white hover:bg-white/10'
+                                    }`}
+                            >
+                                ES
+                            </button>
                         </div>
                     </div>
 
