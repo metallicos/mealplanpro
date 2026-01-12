@@ -11,7 +11,7 @@ export default function SignupPage() {
     const router = useRouter();
     const t = useTranslations('auth');
     const tCommon = useTranslations('common');
-    const tCommon = useTranslations('common');
+    // const { login } = useUser();
     const { user } = useUser();
 
     // Redirect if already logged in
