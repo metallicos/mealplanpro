@@ -161,7 +161,7 @@ export default function StatisticsPage() {
         <div className="animate-fade-in">
             <div className="mb-8">
                 <h1 className="page-title flex items-center gap-3"><TrendingUp className="w-8 h-8 text-[var(--accent-primary)]" /> {t('title')}</h1>
-                <p className="page-subtitle">{t('subtitle', { name: user?.fullName })}</p>
+                <p className="page-subtitle">{t('subtitle', { name: user?.fullName || 'User' })}</p>
             </div>
 
             {/* Period Selector */}
