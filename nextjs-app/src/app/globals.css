@@ -1,8 +1,15 @@
 @import "tailwindcss";
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .animate-fade-in {
@@ -796,7 +803,7 @@ body {
   .main-content {
     margin-left: 0;
     padding: 1rem;
-    padding-top: calc(var(--mobile-header-height) + 1rem);
+    padding-top: calc(var(--mobile-header-height) + var(--safe-area-top) + 1rem);
     padding-bottom: calc(var(--safe-area-bottom) + 2rem);
   }
 }
