@@ -96,6 +96,7 @@ export default function ProfilePage() {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     user_id: user?.id,
+                    ...settings, // Include current settings to prevent overwriting with defaults
                     full_name: fullName,
                     email: email,
                     password: password || undefined,
