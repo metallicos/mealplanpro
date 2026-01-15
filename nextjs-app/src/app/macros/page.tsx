@@ -260,18 +260,34 @@ export default function MacrosPage() {
 
         // Helper to extract unit
         const extractUnit = (str: string) => {
-            const match = str.toLowerCase().match(/[0-9]+(\.[0-9]+)?\s*(ml|cl|l|g|kg)/);
+            const match = str.toLowerCase().match(/[0-9]+(\.[0-9]+)?\s*(ml|cl|dl|l|g|kg)/);
             if (match) return match[2];
             return null;
+        };
+
+        const getMultiplier = (u: string) => {
+            switch (u) {
+                case 'cl': return 10;
+                case 'dl': return 100;
+                case 'l': return 1000;
+                case 'kg': return 1000;
+                default: return 1;
+            }
         };
 
         // 1. Try explicit serving size
         if (food.serving_size) {
             const match = food.serving_size.match(/(\d+(\.\d+)?)/);
-            if (match) defaultGrams = parseFloat(match[0]);
-
-            const unit = extractUnit(food.serving_size);
-            if (unit) detectedUnit = unit;
+            if (match) {
+                const val = parseFloat(match[0]);
+                const unit = extractUnit(food.serving_size);
+                if (unit) {
+                    detectedUnit = unit;
+                    defaultGrams = val * getMultiplier(unit);
+                } else {
+                    defaultGrams = val;
+                }
+            }
         }
         // 2. Fallback to numeric product quantity (e.g. 500 from API)
         else if (food.product_quantity) {
@@ -285,10 +301,16 @@ export default function MacrosPage() {
         // 3. Fallback to string quantity (e.g. "500ml")
         else if (food.quantity) {
             const match = food.quantity.match(/(\d+(\.\d+)?)/);
-            if (match) defaultGrams = parseFloat(match[0]);
-
-            const unit = extractUnit(food.quantity);
-            if (unit) detectedUnit = unit;
+            if (match) {
+                const val = parseFloat(match[0]);
+                const unit = extractUnit(food.quantity);
+                if (unit) {
+                    detectedUnit = unit;
+                    defaultGrams = val * getMultiplier(unit);
+                } else {
+                    defaultGrams = val;
+                }
+            }
         }
 
         setScannedGrams(defaultGrams);
@@ -1134,8 +1156,14 @@ export default function MacrosPage() {
                                                 type="number"
                                                 inputMode="decimal"
                                                 className="w-full bg-transparent text-center text-4xl font-bold text-white outline-none placeholder-gray-700"
-                                                value={scannedGrams || ''}
-                                                onChange={(e) => setScannedGrams(parseFloat(e.target.value) || 0)}
+                                                value={(() => {
+                                                    const m = scannedUnit === 'cl' ? 10 : scannedUnit === 'dl' ? 100 : scannedUnit === 'l' ? 1000 : scannedUnit === 'kg' ? 1000 : 1;
+                                                    return Math.round((scannedGrams / m) * 100) / 100 || '';
+                                                })()}
+                                                onChange={(e) => {
+                                                    const m = scannedUnit === 'cl' ? 10 : scannedUnit === 'dl' ? 100 : scannedUnit === 'l' ? 1000 : scannedUnit === 'kg' ? 1000 : 1;
+                                                    setScannedGrams((parseFloat(e.target.value) || 0) * m);
+                                                }}
                                                 placeholder="0"
                                             />
                                             <div className="text-center text-xs text-[var(--accent-primary)] font-bold mt-1 uppercase">
