@@ -1060,174 +1060,177 @@ export default function MacrosPage() {
             {/* Scanned Food Result Modal */}
             {
                 scannedFood && (
-                    <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 pt-20 sm:pt-4">
+                    <div className="fixed inset-0 z-[9999] overflow-y-auto overflow-x-hidden">
                         {/* Backdrop */}
                         <div
-                            className="absolute inset-0 bg-black/60 backdrop-blur-xl animate-fade-in"
+                            className="fixed inset-0 bg-black/60 backdrop-blur-xl animate-fade-in"
                             onClick={() => setScannedFood(null)}
                         />
 
-                        {/* Modal Card */}
-                        <div className="relative w-full max-w-md bg-[#181824]/90 border border-white/10 shadow-2xl rounded-3xl overflow-hidden animate-scale-up max-h-[90vh] flex flex-col">
-                            {/* Header Image Background */}
-                            <div className="relative h-48 bg-gradient-to-b from-gray-800 to-[#181824] flex items-center justify-center overflow-hidden">
-                                {scannedFood!.image_url ? (
-                                    <>
-                                        <div
-                                            className="absolute inset-0 bg-cover bg-center opacity-30 blur-md"
-                                            style={{ backgroundImage: `url(${scannedFood!.image_url})` }}
-                                        />
-                                        <div
-                                            className="relative z-10 w-32 h-32 rounded-full border-4 border-[#181824] shadow-lg bg-cover bg-center"
-                                            style={{ backgroundImage: `url(${scannedFood!.image_url})` }}
-                                        />
-                                    </>
-                                ) : (
-                                    <Utensils className="w-16 h-16 text-gray-600" />
-                                )}
-                                <button
-                                    onClick={() => setScannedFood(null)}
-                                    className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-md hover:bg-black/60 transition-colors z-20"
-                                >
-                                    <X className="w-5 h-5" />
-                                </button>
-                            </div>
-
-                            {/* Content */}
-                            <div className="p-6 flex-1 overflow-y-auto">
-                                <div className="text-center mb-6">
-                                    <h3 className="text-2xl font-bold text-white mb-1 leading-tight">{scannedFood!.name}</h3>
-                                    {scannedFood!.brand && (
-                                        <p className="text-sm text-gray-400 font-medium tracking-wide uppercase">{scannedFood!.brand}</p>
-                                    )}
-                                    <div className="mt-2 text-xs font-mono text-gray-500 bg-white/5 py-1 px-3 rounded-full inline-block">
-                                        {scannedFood!.quantity || '100g base'}
-                                    </div>
-                                </div>
-
-                                {/* Quality Badges Grid */}
-                                <div className="grid grid-cols-2 gap-3 mb-8">
-                                    {scannedFood!.nutriscore && (
-                                        <div className="bg-white/5 rounded-xl p-3 flex flex-col items-center justify-center border border-white/5">
-                                            <span className="text-[10px] text-gray-400 uppercase tracking-widest mb-1">Nutri-Score</span>
-                                            <span className={`text-2xl font-black ${['a', 'b'].includes(scannedFood!.nutriscore!.toLowerCase()) ? 'text-green-400' :
-                                                scannedFood!.nutriscore!.toLowerCase() === 'c' ? 'text-yellow-400' : 'text-red-400'
-                                                }`}>
-                                                {scannedFood!.nutriscore!.toUpperCase()}
-                                            </span>
-                                        </div>
-                                    )}
-                                    {scannedFood!.nova_group && (
-                                        <div className="bg-white/5 rounded-xl p-3 flex flex-col items-center justify-center border border-white/5 relative group cursor-help" onClick={() => setShowNovaInfo(true)}>
-                                            <span className="text-[10px] text-gray-400 uppercase tracking-widest mb-1 flex items-center gap-1">
-                                                NOVA <Info className="w-3 h-3 opacity-50" />
-                                            </span>
-                                            <span className={`text-2xl font-black ${scannedFood!.nova_group === 1 ? 'text-green-400' :
-                                                scannedFood!.nova_group === 2 ? 'text-yellow-400' :
-                                                    scannedFood!.nova_group === 3 ? 'text-orange-400' : 'text-red-400'
-                                                }`}>
-                                                {scannedFood!.nova_group}
-                                            </span>
-                                            <span className="text-[9px] text-gray-400 uppercase font-bold text-center mt-1 leading-tight max-w-[80%]">
-                                                {t(`nova.badge.${scannedFood!.nova_group}`)}
-                                            </span>
-                                        </div>
-                                    )}
-                                </div>
-
-                                {/* Smart Portion Input */}
-                                <div className="bg-gradient-to-br from-white/5 to-transparent rounded-2xl p-5 mb-8 border border-white/5 relative overflow-hidden group">
-                                    <div className="absolute top-0 left-0 w-1 h-full bg-[var(--accent-primary)] opacity-50 group-hover:opacity-100 transition-opacity" />
-
-                                    <label className="text-gray-400 text-xs font-bold uppercase tracking-widest mb-4 block text-center">
-                                        {t('portionSize')}
-                                    </label>
-
-                                    <div className="flex items-center justify-center gap-4">
-                                        <button
-                                            className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-[var(--accent-primary)] transition-colors"
-                                            onClick={() => setScannedGrams(Math.max(0, scannedGrams - 50))}
-                                        >
-                                            <span className="text-xl font-bold">-</span>
-                                        </button>
-
-                                        <div className="relative min-w-[120px]">
-                                            <input
-                                                type="number"
-                                                inputMode="decimal"
-                                                className="w-full bg-transparent text-center text-4xl font-bold text-white outline-none placeholder-gray-700"
-                                                value={(() => {
-                                                    const m = scannedUnit === 'cl' ? 10 : scannedUnit === 'dl' ? 100 : scannedUnit === 'l' ? 1000 : scannedUnit === 'kg' ? 1000 : 1;
-                                                    return Math.round((scannedGrams / m) * 100) / 100 || '';
-                                                })()}
-                                                onChange={(e) => {
-                                                    const m = scannedUnit === 'cl' ? 10 : scannedUnit === 'dl' ? 100 : scannedUnit === 'l' ? 1000 : scannedUnit === 'kg' ? 1000 : 1;
-                                                    setScannedGrams((parseFloat(e.target.value) || 0) * m);
-                                                }}
-                                                placeholder="0"
+                        {/* Scrollable Content Wrapper */}
+                        <div className="min-h-full flex items-center justify-center p-4 pt-20 sm:pt-4 pointer-events-none">
+                            {/* Modal Card */}
+                            <div className="relative w-full max-w-md bg-[#181824]/90 border border-white/10 shadow-2xl rounded-3xl overflow-hidden animate-scale-up pointer-events-auto">
+                                {/* Header Image Background */}
+                                <div className="relative h-48 bg-gradient-to-b from-gray-800 to-[#181824] flex items-center justify-center overflow-hidden">
+                                    {scannedFood!.image_url ? (
+                                        <>
+                                            <div
+                                                className="absolute inset-0 bg-cover bg-center opacity-30 blur-md"
+                                                style={{ backgroundImage: `url(${scannedFood!.image_url})` }}
                                             />
-                                            <div className="text-center text-xs text-[var(--accent-primary)] font-bold mt-1 uppercase">
-                                                {/* Heuristic: display detected unit */}
-                                                {scannedUnit}
+                                            <div
+                                                className="relative z-10 w-32 h-32 rounded-full border-4 border-[#181824] shadow-lg bg-cover bg-center"
+                                                style={{ backgroundImage: `url(${scannedFood!.image_url})` }}
+                                            />
+                                        </>
+                                    ) : (
+                                        <Utensils className="w-16 h-16 text-gray-600" />
+                                    )}
+                                    <button
+                                        onClick={() => setScannedFood(null)}
+                                        className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-md hover:bg-black/60 transition-colors z-20"
+                                    >
+                                        <X className="w-5 h-5" />
+                                    </button>
+                                </div>
+
+                                {/* Content */}
+                                <div className="p-6 flex-1 overflow-y-auto">
+                                    <div className="text-center mb-6">
+                                        <h3 className="text-2xl font-bold text-white mb-1 leading-tight">{scannedFood!.name}</h3>
+                                        {scannedFood!.brand && (
+                                            <p className="text-sm text-gray-400 font-medium tracking-wide uppercase">{scannedFood!.brand}</p>
+                                        )}
+                                        <div className="mt-2 text-xs font-mono text-gray-500 bg-white/5 py-1 px-3 rounded-full inline-block">
+                                            {scannedFood!.quantity || '100g base'}
+                                        </div>
+                                    </div>
+
+                                    {/* Quality Badges Grid */}
+                                    <div className="grid grid-cols-2 gap-3 mb-8">
+                                        {scannedFood!.nutriscore && (
+                                            <div className="bg-white/5 rounded-xl p-3 flex flex-col items-center justify-center border border-white/5">
+                                                <span className="text-[10px] text-gray-400 uppercase tracking-widest mb-1">Nutri-Score</span>
+                                                <span className={`text-2xl font-black ${['a', 'b'].includes(scannedFood!.nutriscore!.toLowerCase()) ? 'text-green-400' :
+                                                    scannedFood!.nutriscore!.toLowerCase() === 'c' ? 'text-yellow-400' : 'text-red-400'
+                                                    }`}>
+                                                    {scannedFood!.nutriscore!.toUpperCase()}
+                                                </span>
                                             </div>
-                                        </div>
-
-                                        <button
-                                            className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-[var(--accent-primary)] transition-colors"
-                                            onClick={() => setScannedGrams(scannedGrams + 50)}
-                                        >
-                                            <span className="text-xl font-bold">+</span>
-                                        </button>
+                                        )}
+                                        {scannedFood!.nova_group && (
+                                            <div className="bg-white/5 rounded-xl p-3 flex flex-col items-center justify-center border border-white/5 relative group cursor-help" onClick={() => setShowNovaInfo(true)}>
+                                                <span className="text-[10px] text-gray-400 uppercase tracking-widest mb-1 flex items-center gap-1">
+                                                    NOVA <Info className="w-3 h-3 opacity-50" />
+                                                </span>
+                                                <span className={`text-2xl font-black ${scannedFood!.nova_group === 1 ? 'text-green-400' :
+                                                    scannedFood!.nova_group === 2 ? 'text-yellow-400' :
+                                                        scannedFood!.nova_group === 3 ? 'text-orange-400' : 'text-red-400'
+                                                    }`}>
+                                                    {scannedFood!.nova_group}
+                                                </span>
+                                                <span className="text-[9px] text-gray-400 uppercase font-bold text-center mt-1 leading-tight max-w-[80%]">
+                                                    {t(`nova.badge.${scannedFood!.nova_group}`)}
+                                                </span>
+                                            </div>
+                                        )}
                                     </div>
-                                </div>
 
-                                {/* Macros Summary */}
-                                <div className="grid grid-cols-4 gap-2 mb-8">
-                                    {[
-                                        { label: 'Kcal', val: Math.round(scannedFood!.calories_per_100g * (scannedGrams / 100)), color: '#ef4444' },
-                                        { label: 'Prot', val: Math.round(scannedFood!.protein_per_100g * (scannedGrams / 100)), color: '#3b82f6' },
-                                        { label: 'Carbs', val: Math.round(scannedFood!.carbs_per_100g * (scannedGrams / 100)), color: '#f59e0b' },
-                                        { label: 'Fat', val: Math.round(scannedFood!.fat_per_100g * (scannedGrams / 100)), color: '#a855f7' }
-                                    ].map((m, i) => (
-                                        <div key={i} className="text-center p-2 rounded-lg bg-white/5">
-                                            <div className="text-lg font-bold" style={{ color: m.color }}>{m.val}</div>
-                                            <div className="text-[10px] text-gray-500 uppercase font-bold">{m.label}</div>
-                                        </div>
-                                    ))}
-                                </div>
+                                    {/* Smart Portion Input */}
+                                    <div className="bg-gradient-to-br from-white/5 to-transparent rounded-2xl p-5 mb-8 border border-white/5 relative overflow-hidden group">
+                                        <div className="absolute top-0 left-0 w-1 h-full bg-[var(--accent-primary)] opacity-50 group-hover:opacity-100 transition-opacity" />
 
-                                {/* Detailed Analysis List */}
-                                {scannedFood!.nutrient_levels && (
-                                    <div className="space-y-3 mb-6">
-                                        <h4 className="text-sm font-bold text-gray-300 mb-2">Analysis</h4>
-                                        {Object.entries(scannedFood!.nutrient_levels!).map(([key, level]) => {
-                                            if (level === 'moderate') return null; // Keep it clean
-                                            const isHigh = level === 'high';
-                                            const isBad = isHigh && paramIsBadIfHigh(key);
+                                        <label className="text-gray-400 text-xs font-bold uppercase tracking-widest mb-4 block text-center">
+                                            {t('portionSize')}
+                                        </label>
 
-                                            return (
-                                                <div key={key} className={`flex items-center gap-3 p-3 rounded-lg border ${isBad ? 'bg-red-500/10 border-red-500/20' : 'bg-green-500/10 border-green-500/20'}`}>
-                                                    {isBad ? <AlertCircle className="w-5 h-5 text-red-400" /> : <CheckCircle className="w-5 h-5 text-green-400" />}
-                                                    <div className="flex-1">
-                                                        <div className="text-sm font-medium text-gray-200 capitalize">{key.replace('-', ' ')}</div>
-                                                        <div className="text-xs opacity-70 uppercase tracking-wider">{level}</div>
-                                                    </div>
+                                        <div className="flex items-center justify-center gap-4">
+                                            <button
+                                                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-[var(--accent-primary)] transition-colors"
+                                                onClick={() => setScannedGrams(Math.max(0, scannedGrams - 50))}
+                                            >
+                                                <span className="text-xl font-bold">-</span>
+                                            </button>
+
+                                            <div className="relative min-w-[120px]">
+                                                <input
+                                                    type="number"
+                                                    inputMode="decimal"
+                                                    className="w-full bg-transparent text-center text-4xl font-bold text-white outline-none placeholder-gray-700"
+                                                    value={(() => {
+                                                        const m = scannedUnit === 'cl' ? 10 : scannedUnit === 'dl' ? 100 : scannedUnit === 'l' ? 1000 : scannedUnit === 'kg' ? 1000 : 1;
+                                                        return Math.round((scannedGrams / m) * 100) / 100 || '';
+                                                    })()}
+                                                    onChange={(e) => {
+                                                        const m = scannedUnit === 'cl' ? 10 : scannedUnit === 'dl' ? 100 : scannedUnit === 'l' ? 1000 : scannedUnit === 'kg' ? 1000 : 1;
+                                                        setScannedGrams((parseFloat(e.target.value) || 0) * m);
+                                                    }}
+                                                    placeholder="0"
+                                                />
+                                                <div className="text-center text-xs text-[var(--accent-primary)] font-bold mt-1 uppercase">
+                                                    {/* Heuristic: display detected unit */}
+                                                    {scannedUnit}
                                                 </div>
-                                            );
-                                        })}
-                                    </div>
-                                )}
-                            </div>
+                                            </div>
 
-                            {/* Sticky Footer Action */}
-                            <div className="p-4 border-t border-white/5 bg-[#181824]">
-                                <button
-                                    onClick={addScannedToLog}
-                                    disabled={!scannedGrams || scannedGrams <= 0}
-                                    className="w-full py-4 rounded-xl bg-gradient-to-r from-[var(--accent-primary)] to-[var(--accent-secondary)] text-white font-bold text-lg shadow-lg shadow-[var(--accent-glow)] hover:scale-[1.02] active:scale-[0.98] transition-all disabled:opacity-50 disabled:grayscale"
-                                >
-                                    {t('addToLog')}
-                                </button>
+                                            <button
+                                                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-[var(--accent-primary)] transition-colors"
+                                                onClick={() => setScannedGrams(scannedGrams + 50)}
+                                            >
+                                                <span className="text-xl font-bold">+</span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    {/* Macros Summary */}
+                                    <div className="grid grid-cols-4 gap-2 mb-8">
+                                        {[
+                                            { label: 'Kcal', val: Math.round(scannedFood!.calories_per_100g * (scannedGrams / 100)), color: '#ef4444' },
+                                            { label: 'Prot', val: Math.round(scannedFood!.protein_per_100g * (scannedGrams / 100)), color: '#3b82f6' },
+                                            { label: 'Carbs', val: Math.round(scannedFood!.carbs_per_100g * (scannedGrams / 100)), color: '#f59e0b' },
+                                            { label: 'Fat', val: Math.round(scannedFood!.fat_per_100g * (scannedGrams / 100)), color: '#a855f7' }
+                                        ].map((m, i) => (
+                                            <div key={i} className="text-center p-2 rounded-lg bg-white/5">
+                                                <div className="text-lg font-bold" style={{ color: m.color }}>{m.val}</div>
+                                                <div className="text-[10px] text-gray-500 uppercase font-bold">{m.label}</div>
+                                            </div>
+                                        ))}
+                                    </div>
+
+                                    {/* Detailed Analysis List */}
+                                    {scannedFood!.nutrient_levels && (
+                                        <div className="space-y-3 mb-6">
+                                            <h4 className="text-sm font-bold text-gray-300 mb-2">Analysis</h4>
+                                            {Object.entries(scannedFood!.nutrient_levels!).map(([key, level]) => {
+                                                if (level === 'moderate') return null; // Keep it clean
+                                                const isHigh = level === 'high';
+                                                const isBad = isHigh && paramIsBadIfHigh(key);
+
+                                                return (
+                                                    <div key={key} className={`flex items-center gap-3 p-3 rounded-lg border ${isBad ? 'bg-red-500/10 border-red-500/20' : 'bg-green-500/10 border-green-500/20'}`}>
+                                                        {isBad ? <AlertCircle className="w-5 h-5 text-red-400" /> : <CheckCircle className="w-5 h-5 text-green-400" />}
+                                                        <div className="flex-1">
+                                                            <div className="text-sm font-medium text-gray-200 capitalize">{key.replace('-', ' ')}</div>
+                                                            <div className="text-xs opacity-70 uppercase tracking-wider">{level}</div>
+                                                        </div>
+                                                    </div>
+                                                );
+                                            })}
+                                        </div>
+                                    )}
+                                </div>
+
+                                {/* Sticky Footer Action */}
+                                <div className="p-4 border-t border-white/5 bg-[#181824]">
+                                    <button
+                                        onClick={addScannedToLog}
+                                        disabled={!scannedGrams || scannedGrams <= 0}
+                                        className="w-full py-4 rounded-xl bg-gradient-to-r from-[var(--accent-primary)] to-[var(--accent-secondary)] text-white font-bold text-lg shadow-lg shadow-[var(--accent-glow)] hover:scale-[1.02] active:scale-[0.98] transition-all disabled:opacity-50 disabled:grayscale"
+                                    >
+                                        {t('addToLog')}
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
