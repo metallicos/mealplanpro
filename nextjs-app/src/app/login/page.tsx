@@ -134,7 +134,12 @@ export default function LoginPage() {
                         />
                     </div>
                     <div>
-                        <label className="form-label block mb-1">{t('password')}</label>
+                        <div className="flex justify-between items-center mb-1">
+                            <label className="form-label">{t('password')}</label>
+                            <Link href="/forgot-password" className="text-xs text-violet-400 hover:text-violet-300">
+                                {t('forgotPassword') || 'Forgot password?'}
+                            </Link>
+                        </div>
                         <input
                             type="password"
                             className="form-input w-full"

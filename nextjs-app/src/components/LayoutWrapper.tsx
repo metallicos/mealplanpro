@@ -2,6 +2,7 @@
 
 import { useUser } from '@/contexts/UserContext';
 import Sidebar from '@/components/Sidebar';
+import { BackButtonHandler } from '@/hooks/useBackButton';
 
 export default function LayoutWrapper({ children }: { children: React.ReactNode }) {
     const { user, isLoading } = useUser();
@@ -13,11 +14,13 @@ export default function LayoutWrapper({ children }: { children: React.ReactNode 
     const showSidebar = !!user;
 
     return (
-        <div className="min-h-screen">
-            <Sidebar />
-            <main className={`main-content ${!showSidebar ? 'no-sidebar' : ''}`}>
-                {children}
-            </main>
-        </div>
+        <BackButtonHandler>
+            <div className="min-h-screen">
+                <Sidebar />
+                <main className={`main-content ${!showSidebar ? 'no-sidebar' : ''}`}>
+                    {children}
+                </main>
+            </div>
+        </BackButtonHandler>
     );
 }
