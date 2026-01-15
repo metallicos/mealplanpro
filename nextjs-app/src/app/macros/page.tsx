@@ -130,6 +130,7 @@ export default function MacrosPage() {
     const [scannedFood, setScannedFood] = useState<ScannedFood | null>(null);
     const [scannedGrams, setScannedGrams] = useState(100);
     const [scannedUnit, setScannedUnit] = useState('g');
+    const [showNovaInfo, setShowNovaInfo] = useState(false);
 
     // Use targets from user settings
     const targets = {
@@ -1095,13 +1096,23 @@ export default function MacrosPage() {
                                         </div>
                                     )}
                                     {scannedFood!.nova_group && (
-                                        <div className="bg-white/5 rounded-xl p-3 flex flex-col items-center justify-center border border-white/5">
-                                            <span className="text-[10px] text-gray-400 uppercase tracking-widest mb-1">NOVA</span>
+                                        <div className="bg-white/5 rounded-xl p-3 flex flex-col items-center justify-center border border-white/5 relative group cursor-help" onClick={() => setShowNovaInfo(true)}>
+                                            <span className="text-[10px] text-gray-400 uppercase tracking-widest mb-1 flex items-center gap-1">
+                                                NOVA <Info className="w-3 h-3 opacity-50" />
+                                            </span>
                                             <span className={`text-2xl font-black ${scannedFood!.nova_group === 1 ? 'text-green-400' :
                                                 scannedFood!.nova_group === 2 ? 'text-yellow-400' :
                                                     scannedFood!.nova_group === 3 ? 'text-orange-400' : 'text-red-400'
                                                 }`}>
                                                 {scannedFood!.nova_group}
+                                            </span>
+                                            <span className="text-[9px] text-gray-400 uppercase font-bold text-center mt-1 leading-tight max-w-[80%]">
+                                                {
+                                                    scannedFood!.nova_group === 1 ? 'Unprocessed' :
+                                                        scannedFood!.nova_group === 2 ? 'Ingredient' :
+                                                            scannedFood!.nova_group === 3 ? 'Processed' :
+                                                                'Ultra Processed'
+                                                }
                                             </span>
                                         </div>
                                     )}
@@ -1199,6 +1210,49 @@ export default function MacrosPage() {
                     </div>
                 )
             }
+
+            {/* NOVA Info Modal */}
+            {showNovaInfo && (
+                <div
+                    className="fixed inset-0 z-[10001] flex items-center justify-center p-4"
+                    onClick={() => setShowNovaInfo(false)}
+                >
+                    <div className="absolute inset-0 bg-black/80 backdrop-blur-md animate-fade-in" />
+                    <div
+                        className="relative w-full max-w-sm bg-[#181824] border border-white/10 rounded-3xl p-6 shadow-2xl animate-scale-up"
+                        onClick={e => e.stopPropagation()}
+                    >
+                        <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+                            <Info className="w-5 h-5 text-gray-400" />
+                            NOVA Groups
+                        </h3>
+                        <div className="space-y-3">
+                            {[
+                                { group: 1, color: 'text-green-400', bg: 'bg-green-500/10', border: 'border-green-500/20', label: 'Unprocessed or Minimally Processed', desc: 'Fruits, vegetables, eggs, milk, plain yogurt.' },
+                                { group: 2, color: 'text-yellow-400', bg: 'bg-yellow-500/10', border: 'border-yellow-500/20', label: 'Processed Culinary Ingredients', desc: 'Oils, butter, sugar, salt, spices.' },
+                                { group: 3, color: 'text-orange-400', bg: 'bg-orange-500/10', border: 'border-orange-500/20', label: 'Processed Foods', desc: 'Canned vegetables, cheese, fresh bread.' },
+                                { group: 4, color: 'text-red-400', bg: 'bg-red-500/10', border: 'border-red-500/20', label: 'Ultra-Processed Products', desc: 'Soft drinks, packaged snacks, reconstituted meat.' }
+                            ].map(nova => (
+                                <div key={nova.group} className={`p-3 rounded-xl border ${nova.border} ${nova.bg}`}>
+                                    <div className="flex items-center gap-3 mb-1">
+                                        <span className={`text-xl font-black ${nova.color}`}>{nova.group}</span>
+                                        <span className={`text-sm font-bold ${nova.color}`}>{nova.label}</span>
+                                    </div>
+                                    <p className="text-xs text-gray-400 leading-relaxed ml-7">
+                                        {nova.desc}
+                                    </p>
+                                </div>
+                            ))}
+                        </div>
+                        <button
+                            className="w-full mt-6 py-3 bg-white/10 hover:bg-white/20 rounded-xl text-white font-bold transition-colors"
+                            onClick={() => setShowNovaInfo(false)}
+                        >
+                            {tCommon('close')}
+                        </button>
+                    </div>
+                </div>
+            )}
         </>
     );
 }
