@@ -15,7 +15,7 @@ export async function middleware(request: NextRequest) {
 
     // SIMPLIFIED LOGIC:
 
-    const isPublic = pathname === '/' || pathname.startsWith('/login') || pathname.startsWith('/signup') || pathname.startsWith('/api/public') || pathname === '/api/locale';
+    const isPublic = pathname === '/' || pathname.startsWith('/login') || pathname.startsWith('/signup') || pathname.startsWith('/forgot-password') || pathname.startsWith('/reset-password') || pathname.startsWith('/api/public') || pathname === '/api/locale';
     const isAdmin = pathname.startsWith('/admin');
 
     if (!isPublic && !payload) {
