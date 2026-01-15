@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { Settings, Camera, Shuffle, Globe, Heart, MessageSquare, Trash2 } from 'lucide-react';
+import CustomSelect from '@/components/ui/CustomSelect';
 
 export default function ProfilePage() {
     const { user, settings, updateSettings, isLoading } = useUser();
@@ -246,12 +247,10 @@ export default function ProfilePage() {
                             <hr className="border-gray-800 my-4" />
                             <h3 className="font-semibold mb-2 flex items-center gap-2">{t('currency')}</h3>
                             <div className="relative">
-                                <select
-                                    className="w-full bg-[#1a1a24] border border-gray-700 rounded-lg px-4 py-3 outline-none focus:border-[var(--accent-primary)] transition-colors appearance-none cursor-pointer"
+                                <CustomSelect
                                     value={settings.currency || 'USD'}
-                                    onChange={(e) => updateSettings({ currency: e.target.value })}
-                                >
-                                    {[
+                                    onChange={(value) => updateSettings({ currency: value })}
+                                    options={[
                                         { code: 'USD', name: 'US Dollar ($)' },
                                         { code: 'EUR', name: 'Euro (€)' },
                                         { code: 'GBP', name: 'British Pound (£)' },
@@ -280,13 +279,11 @@ export default function ProfilePage() {
                                         { code: 'PHP', name: 'Philippine Peso (₱)' },
                                         { code: 'VND', name: 'Vietnamese Dong (₫)' },
                                         { code: 'MAD', name: 'Moroccan Dirham (MAD)' }
-                                    ].map(c => (
-                                        <option key={c.code} value={c.code}>{c.code} - {c.name}</option>
-                                    ))}
-                                </select>
-                                <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-gray-500">
-                                    <Globe size={16} />
-                                </div>
+                                    ].map(c => ({
+                                        value: c.code,
+                                        label: `${c.code} - ${c.name}`
+                                    }))}
+                                />
                             </div>
                             <p className="text-xs text-[var(--text-muted)] mt-2 mb-4">{t('currencyDesc')}</p>
 

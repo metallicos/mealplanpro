@@ -11,6 +11,7 @@ import {
     Milk, Droplet, Utensils, Coffee, Cookie, CakeSlice,
     SprayCan, Smile, Baby, Dog, Box
 } from 'lucide-react';
+import CustomSelect from '@/components/ui/CustomSelect';
 
 interface GroceryItem extends Omit<GroceryItemTemplate, 'id'> {
     id: number;
@@ -627,15 +628,12 @@ export default function GroceriesPage() {
                     <div className="flex items-center gap-3">
                         <div>
                             <label className="form-label text-xs sm:text-sm">{t('month')}</label>
-                            <select
-                                className="form-input text-sm"
+                            <CustomSelect
                                 value={currentMonth}
-                                onChange={(e) => setCurrentMonth(e.target.value)}
-                            >
-                                {availableMonths.map(m => (
-                                    <option key={m} value={m}>{formatMonth(m)}</option>
-                                ))}
-                            </select>
+                                onChange={(value) => setCurrentMonth(value)}
+                                options={availableMonths.map(m => ({ value: m, label: formatMonth(m) }))}
+                                className="min-w-[160px]"
+                            />
                         </div>
 
                         <div className="flex-1">
@@ -786,30 +784,28 @@ export default function GroceriesPage() {
                         {/* Filter by Category */}
                         <div className="mb-4">
                             <label className="form-label">{t('filterCategory')}</label>
-                            <select
-                                className="form-input"
+                            <CustomSelect
                                 value={filterCategory}
-                                onChange={(e) => setFilterCategory(e.target.value)}
-                            >
-                                <option value="all">{t('allCategories')}</option>
-                                {Object.keys(categoryNames).map((key) => (
-                                    <option key={key} value={key}>{getCategoryName(key)}</option>
-                                ))}
-                            </select>
+                                onChange={(value) => setFilterCategory(value)}
+                                options={[
+                                    { value: 'all', label: t('allCategories') },
+                                    ...Object.keys(categoryNames).map(key => ({ value: key, label: getCategoryName(key) }))
+                                ]}
+                            />
                         </div>
 
                         {/* Filter by Stock */}
                         <div className="mb-4">
                             <label className="form-label">{t('filterStock')}</label>
-                            <select
-                                className="form-input"
+                            <CustomSelect
                                 value={filterStock}
-                                onChange={(e) => setFilterStock(e.target.value as any)}
-                            >
-                                <option value="all">{t('stockAll')}</option>
-                                <option value="out_of_stock">{t('stockOut')}</option>
-                                <option value="in_stock">{t('stockIn')}</option>
-                            </select>
+                                onChange={(value) => setFilterStock(value as any)}
+                                options={[
+                                    { value: 'all', label: t('stockAll') },
+                                    { value: 'out_of_stock', label: t('stockOut') },
+                                    { value: 'in_stock', label: t('stockIn') }
+                                ]}
+                            />
                         </div>
 
                         <button
@@ -984,34 +980,21 @@ export default function GroceriesPage() {
                                 </div>
                                 <div>
                                     <label className="form-label">{t('unit')}</label>
-                                    <select
-                                        className="form-input"
+                                    <CustomSelect
                                         value={customItem.unit}
-                                        onChange={(e) => setCustomItem({ ...customItem, unit: e.target.value })}
-                                    >
-                                        <option value="kg">kg</option>
-                                        <option value="g">g</option>
-                                        <option value="pcs">pcs</option>
-                                        <option value="L">L</option>
-                                        <option value="ml">ml</option>
-                                        <option value="pack">pack</option>
-                                        <option value="bottle">bottle</option>
-                                        <option value="box">box</option>
-                                    </select>
+                                        onChange={(value) => setCustomItem({ ...customItem, unit: value })}
+                                        options={['kg', 'g', 'pcs', 'L', 'ml', 'pack', 'bottle', 'box'].map(u => ({ value: u, label: u }))}
+                                    />
                                 </div>
                             </div>
 
                             <div>
                                 <label className="form-label">{t('category')}</label>
-                                <select
-                                    className="form-input"
+                                <CustomSelect
                                     value={customItem.category}
-                                    onChange={(e) => setCustomItem({ ...customItem, category: e.target.value })}
-                                >
-                                    {Object.keys(categoryNames).map((key) => (
-                                        <option key={key} value={key}>{getCategoryName(key)}</option>
-                                    ))}
-                                </select>
+                                    onChange={(value) => setCustomItem({ ...customItem, category: value })}
+                                    options={Object.keys(categoryNames).map(key => ({ value: key, label: getCategoryName(key) }))}
+                                />
                             </div>
 
                             <div>

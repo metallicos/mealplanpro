@@ -6,6 +6,7 @@ import {
     Calculator, Check, Save, Lightbulb, TrendingUp,
     Dumbbell, Wheat, Droplet, Plus, Info, Activity, Target
 } from 'lucide-react';
+import CustomSelect from '@/components/ui/CustomSelect';
 
 interface WeightLog {
     id: number;
@@ -504,46 +505,46 @@ export default function CalculatorPage() {
 
                                 <div>
                                     <label className="form-label">Activity Level</label>
-                                    <select
-                                        className="form-input"
+                                    <CustomSelect
                                         value={formData.activity}
-                                        onChange={(e) => setFormData({ ...formData, activity: e.target.value })}
-                                    >
-                                        <option value="sedentary">Sedentary (desk job, little exercise)</option>
-                                        <option value="light">Light (light exercise 1-3x/week)</option>
-                                        <option value="moderate">Moderate (moderate exercise 3-5x/week)</option>
-                                        <option value="active">Active (hard exercise 6-7x/week)</option>
-                                        <option value="very_active">Very Active (athlete, physical job)</option>
-                                    </select>
+                                        onChange={(value) => setFormData({ ...formData, activity: value })}
+                                        options={[
+                                            { value: 'sedentary', label: 'Sedentary (desk job, little exercise)' },
+                                            { value: 'light', label: 'Light (light exercise 1-3x/week)' },
+                                            { value: 'moderate', label: 'Moderate (moderate exercise 3-5x/week)' },
+                                            { value: 'active', label: 'Active (hard exercise 6-7x/week)' },
+                                            { value: 'very_active', label: 'Very Active (athlete, physical job)' }
+                                        ]}
+                                    />
                                 </div>
 
                                 <div>
                                     <label className="form-label">Goal</label>
-                                    <select
-                                        className="form-input"
+                                    <CustomSelect
                                         value={formData.goal}
-                                        onChange={(e) => setFormData({ ...formData, goal: e.target.value })}
-                                    >
-                                        <option value="aggressive_loss">Aggressive Fat Loss (-1.0kg/week)</option>
-                                        <option value="fat_loss">Moderate Fat Loss (-0.5kg/week)</option>
-                                        <option value="slow_loss">Slow Fat Loss (-0.25kg/week)</option>
-                                        <option value="maintain">Maintain Weight</option>
-                                        <option value="lean_gain">Lean Muscle Gain (+0.3kg/week)</option>
-                                        <option value="muscle_gain">Maximum Muscle Building (+0.5kg/week)</option>
-                                    </select>
+                                        onChange={(value) => setFormData({ ...formData, goal: value })}
+                                        options={[
+                                            { value: 'aggressive_loss', label: 'Aggressive Fat Loss (-1.0kg/week)' },
+                                            { value: 'fat_loss', label: 'Moderate Fat Loss (-0.5kg/week)' },
+                                            { value: 'slow_loss', label: 'Slow Fat Loss (-0.25kg/week)' },
+                                            { value: 'maintain', label: 'Maintain Weight' },
+                                            { value: 'lean_gain', label: 'Lean Muscle Gain (+0.3kg/week)' },
+                                            { value: 'muscle_gain', label: 'Maximum Muscle Building (+0.5kg/week)' }
+                                        ]}
+                                    />
                                 </div>
 
                                 <div>
                                     <label className="form-label">Diet Mode Strategy (Scientific)</label>
-                                    <select
-                                        className="form-input"
+                                    <CustomSelect
                                         value={formData.dietMode}
-                                        onChange={(e) => setFormData({ ...formData, dietMode: e.target.value as 'normal' | 'low_carb' | 'keto' })}
-                                    >
-                                        <option value="normal">Normal (Balanced)</option>
-                                        <option value="low_carb">Low Carb (High Protein)</option>
-                                        <option value="keto">Ketogenic (Very Low Carb)</option>
-                                    </select>
+                                        onChange={(value) => setFormData({ ...formData, dietMode: value as 'normal' | 'low_carb' | 'keto' })}
+                                        options={[
+                                            { value: 'normal', label: 'Normal (Balanced)' },
+                                            { value: 'low_carb', label: 'Low Carb (High Protein)' },
+                                            { value: 'keto', label: 'Ketogenic (Very Low Carb)' }
+                                        ]}
+                                    />
                                     <p className="text-xs text-gray-500 mt-1">
                                         Strictly adjusts macros based on scientific protocols (Keto = max 30g Carbs).
                                     </p>
@@ -740,14 +741,14 @@ export default function CalculatorPage() {
                                 <div className="grid grid-cols-2 gap-4">
                                     <div>
                                         <label className="form-label">Gender</label>
-                                        <select
-                                            className="form-input"
+                                        <CustomSelect
                                             value={formData.gender}
-                                            onChange={(e) => setFormData({ ...formData, gender: e.target.value as 'male' | 'female' })}
-                                        >
-                                            <option value="male">Male</option>
-                                            <option value="female">Female</option>
-                                        </select>
+                                            onChange={(value) => setFormData({ ...formData, gender: value as 'male' | 'female' })}
+                                            options={[
+                                                { value: 'male', label: 'Male' },
+                                                { value: 'female', label: 'Female' }
+                                            ]}
+                                        />
                                     </div>
                                     <div>
                                         <label className="form-label">Height (cm)</label>
@@ -813,14 +814,14 @@ export default function CalculatorPage() {
                                 <div className="grid grid-cols-2 gap-4">
                                     <div>
                                         <label className="form-label">Gender</label>
-                                        <select
-                                            className="form-input"
+                                        <CustomSelect
                                             value={formData.gender}
-                                            onChange={(e) => setFormData({ ...formData, gender: e.target.value as 'male' | 'female' })}
-                                        >
-                                            <option value="male">Male</option>
-                                            <option value="female">Female</option>
-                                        </select>
+                                            onChange={(value) => setFormData({ ...formData, gender: value as 'male' | 'female' })}
+                                            options={[
+                                                { value: 'male', label: 'Male' },
+                                                { value: 'female', label: 'Female' }
+                                            ]}
+                                        />
                                     </div>
                                     <div>
                                         <label className="form-label">Height (cm)</label>

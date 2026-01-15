@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useUser } from '@/contexts/UserContext';
 import Link from 'next/link';
 import { MessageCircle, Sparkles, Search, Clock, Flame, Inbox, Heart, Share2, Camera, Send, Check, X } from 'lucide-react';
+import CustomSelect from '@/components/ui/CustomSelect';
 
 interface Post {
     id: number;
@@ -194,14 +195,15 @@ export default function CommunityPage() {
                             />
                         </div>
                         <div className="h-px md:h-auto md:w-px bg-white/10 mx-2"></div>
-                        <select
-                            className="bg-transparent border-none text-sm text-gray-300 focus:ring-0 cursor-pointer hover:text-white px-2 md:px-4 py-2"
+                        <CustomSelect
+                            className="min-w-[140px]"
                             value={sortBy}
-                            onChange={(e) => setSortBy(e.target.value as 'latest' | 'top')}
-                        >
-                            <option value="latest" className="bg-gray-900">Latest</option>
-                            <option value="top" className="bg-gray-900">Top Liked</option>
-                        </select>
+                            onChange={(value) => setSortBy(value as 'latest' | 'top')}
+                            options={[
+                                { value: 'latest', label: 'Latest' },
+                                { value: 'top', label: 'Top Liked' }
+                            ]}
+                        />
                     </div>
                 </div>
 
