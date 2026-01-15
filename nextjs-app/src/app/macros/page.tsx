@@ -3,6 +3,7 @@
 import { useState, useEffect, lazy, Suspense } from 'react';
 import { useUser } from '@/contexts/UserContext';
 import { useTranslations, useLocale } from 'next-intl';
+import { useRouter, useSearchParams, usePathname } from 'next/navigation';
 import {
     Utensils, Calendar, ChevronLeft, ChevronRight, Flame,
     Dumbbell, Wheat, Droplet, Bone, Zap, Banana, Leaf as Salt,
@@ -99,8 +100,33 @@ export default function MacrosPage() {
     const [mealType, setMealType] = useState<'main' | 'snack'>('main');
     const [weight, setWeight] = useState<number | null>(null);
 
-    // Barcode scanner state
-    const [showScanner, setShowScanner] = useState(false);
+    // Barcode scanner state (URL synced)
+    const router = useRouter();
+    const pathname = usePathname();
+    const searchParams = useSearchParams();
+
+    // Derive scanner state from URL
+    const showScanner = searchParams.get('scanner') === 'true';
+
+    const setShowScanner = (visible: boolean) => {
+        const params = new URLSearchParams(searchParams.toString());
+        if (visible) {
+            params.set('scanner', 'true');
+            router.push(`${pathname}?${params.toString()}`);
+        } else {
+            params.delete('scanner');
+            // Use replace instead of push when closing to avoid building history stack? 
+            // User wants "back" to close it. If we use push(open), then back() will go to previous URL (closed).
+            // So closing manually normally just goes back?
+            // If I manually click "X", I should probably router.back() if possible, or replace url.
+            // But if I replace URL, then 'forward' button might open logic.
+            // Simplest: just remove param.
+            // Wait, if user clicked "back" browser button, the param is removed automatically.
+            // If user clicks "X", we want to remove param.
+            router.push(`${pathname}?${params.toString()}`);
+        }
+    };
+
     const [scannedFood, setScannedFood] = useState<ScannedFood | null>(null);
     const [scannedGrams, setScannedGrams] = useState(100);
 
@@ -990,7 +1016,7 @@ export default function MacrosPage() {
             {/* Scanned Food Result Modal */}
             {
                 scannedFood && (
-                    <div className="fixed inset-0 z-[60] flex items-center justify-center p-4">
+                    <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 pt-20 sm:pt-4">
                         {/* Backdrop */}
                         <div
                             className="absolute inset-0 bg-black/60 backdrop-blur-xl animate-fade-in"
@@ -1041,7 +1067,7 @@ export default function MacrosPage() {
                                         <div className="bg-white/5 rounded-xl p-3 flex flex-col items-center justify-center border border-white/5">
                                             <span className="text-[10px] text-gray-400 uppercase tracking-widest mb-1">Nutri-Score</span>
                                             <span className={`text-2xl font-black ${['a', 'b'].includes(scannedFood!.nutriscore!.toLowerCase()) ? 'text-green-400' :
-                                                    scannedFood!.nutriscore!.toLowerCase() === 'c' ? 'text-yellow-400' : 'text-red-400'
+                                                scannedFood!.nutriscore!.toLowerCase() === 'c' ? 'text-yellow-400' : 'text-red-400'
                                                 }`}>
                                                 {scannedFood!.nutriscore!.toUpperCase()}
                                             </span>
@@ -1051,8 +1077,8 @@ export default function MacrosPage() {
                                         <div className="bg-white/5 rounded-xl p-3 flex flex-col items-center justify-center border border-white/5">
                                             <span className="text-[10px] text-gray-400 uppercase tracking-widest mb-1">NOVA</span>
                                             <span className={`text-2xl font-black ${scannedFood!.nova_group === 1 ? 'text-green-400' :
-                                                    scannedFood!.nova_group === 2 ? 'text-yellow-400' :
-                                                        scannedFood!.nova_group === 3 ? 'text-orange-400' : 'text-red-400'
+                                                scannedFood!.nova_group === 2 ? 'text-yellow-400' :
+                                                    scannedFood!.nova_group === 3 ? 'text-orange-400' : 'text-red-400'
                                                 }`}>
                                                 {scannedFood!.nova_group}
                                             </span>
