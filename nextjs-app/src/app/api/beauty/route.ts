@@ -25,12 +25,13 @@ interface EnrichedProduct {
 // Helper to fetch from a specific Open*Facts API
 async function fetchFromAPI(domain: string, barcode: string): Promise<any | null> {
     try {
-        const res = await fetch(`https://${domain}/api/v2/product/${barcode}.json`, {
+        const res = await fetch(`https://${domain}/api/v3/product/${barcode}.json`, {
             headers: { 'User-Agent': 'MealPlanPro/1.0' }
         });
         if (!res.ok) return null;
         const data = await res.json();
-        if (data.status === 1 && data.product) return data.product;
+        // v3 uses "success", v2 used 1. Check both to be safe during transition.
+        if ((data.status === 'success' || data.status === 1) && data.product) return data.product;
         return null;
     } catch (e) {
         return null; // Fail silently to try next API
