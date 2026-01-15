@@ -6,7 +6,8 @@ import { useTranslations, useLocale } from 'next-intl';
 import {
     Utensils, Calendar, ChevronLeft, ChevronRight, Flame,
     Dumbbell, Wheat, Droplet, Bone, Zap, Banana, Leaf as Salt,
-    Shield, Camera, Search, Plus, Edit2, Trash2, X
+    Shield, Camera, Search, Plus, Edit2, Trash2, X, Info,
+    AlertCircle, CheckCircle, Leaf
 } from 'lucide-react';
 
 // Lazy load the scanner to avoid SSR issues with Quagga
@@ -63,7 +64,16 @@ interface ScannedFood {
     fat_per_100g: number;
     fiber_per_100g: number;
     nutriscore: string | null;
+    nova_group: number | null;
+    nutrient_levels: Record<string, 'low' | 'moderate' | 'high'> | null;
+    ingredients_text: string | null;
 }
+
+// Helper to check if nutrient is negative
+const paramIsBadIfHigh = (key: string) => {
+    const negatives = ['fat', 'salt', 'saturated-fat', 'sugars', 'sodium'];
+    return negatives.includes(key);
+};
 
 export default function MacrosPage() {
     const { theme, settings } = useUser();
@@ -785,13 +795,88 @@ export default function MacrosPage() {
                         </div>
 
                         {/* Add Button */}
-                        <button
-                            onClick={addScannedToLog}
-                            disabled={!scannedGrams || scannedGrams <= 0}
-                            className="w-full py-4 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-xl font-bold text-lg text-white shadow-lg shadow-cyan-900/40 disabled:opacity-50 disabled:grayscale transition-all active:scale-[0.98] mt-8"
-                        >
-                            {t('addToLog')}
-                        </button>
+                        <div className="mt-8 bg-white/5 rounded-2xl p-4">
+                            <h4 className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-4 flex items-center gap-2">
+                                <Info className="w-4 h-4" /> Product Analysis
+                            </h4>
+
+                            {/* Quality Badges */}
+                            <div className="flex gap-4 mb-6">
+                                {scannedFood.nutriscore && (
+                                    <div className="flex-1 bg-black/40 rounded-xl p-3 flex flex-col items-center justify-center">
+                                        <div className="text-xs text-gray-500 mb-1">Nutri-Score</div>
+                                        <div className={`text-2xl font-black ${['a', 'b'].includes(scannedFood.nutriscore.toLowerCase()) ? 'text-green-500' :
+                                            scannedFood.nutriscore.toLowerCase() === 'c' ? 'text-yellow-500' :
+                                                'text-red-500'
+                                            }`}>
+                                            {scannedFood.nutriscore.toUpperCase()}
+                                        </div>
+                                    </div>
+                                )}
+                                {scannedFood.nova_group && (
+                                    <div className="flex-1 bg-black/40 rounded-xl p-3 flex flex-col items-center justify-center">
+                                        <div className="text-xs text-gray-500 mb-1">NOVA</div>
+                                        <div className={`text-2xl font-black ${scannedFood.nova_group === 1 ? 'text-green-500' :
+                                            scannedFood.nova_group === 2 ? 'text-yellow-500' :
+                                                scannedFood.nova_group === 3 ? 'text-orange-500' : 'text-red-500'
+                                            }`}>
+                                            {scannedFood.nova_group}
+                                        </div>
+                                    </div>
+                                )}
+                            </div>
+
+                            {/* Detailed Analysis */}
+                            {scannedFood.nutrient_levels && (
+                                <div className="space-y-2 mb-6">
+                                    {Object.entries(scannedFood.nutrient_levels).map(([key, level]) => {
+                                        const isHigh = level === 'high';
+                                        const isLow = level === 'low';
+                                        // Skip moderate for brevity if needed, or show all
+                                        if (level === 'moderate') return null;
+
+                                        return (
+                                            <div key={key} className="flex items-center gap-3 p-2 rounded-lg bg-black/20">
+                                                {isHigh ? (
+                                                    paramIsBadIfHigh(key) ? <AlertCircle className="w-5 h-5 text-red-500" /> : <CheckCircle className="w-5 h-5 text-green-500" />
+                                                ) : (
+                                                    <CheckCircle className="w-5 h-5 text-green-500" />
+                                                )}
+                                                <div className="flex-1">
+                                                    <div className="text-sm font-medium capitalize text-gray-200">
+                                                        {key.replace('-', ' ')}
+                                                    </div>
+                                                    <div className={`text-xs ${isHigh && paramIsBadIfHigh(key) ? 'text-red-400' : 'text-gray-500'}`}>
+                                                        {level.toUpperCase()}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        );
+                                    })}
+                                </div>
+                            )}
+
+                            {/* Ingredients */}
+                            {scannedFood.ingredients_text && (
+                                <div>
+                                    <div className="text-xs text-gray-500 mb-2">INGREDIENTS</div>
+                                    <p className="text-sm text-gray-300 leading-relaxed text-justify text-[13px]">
+                                        {scannedFood.ingredients_text}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+
+                        {/* Add Button Sticky at Bottom */}
+                        <div className="sticky bottom-0 pt-4 bg-gradient-to-t from-[#0a0a0f] to-transparent pb-safe-area-inset-bottom">
+                            <button
+                                onClick={addScannedToLog}
+                                disabled={!scannedGrams || scannedGrams <= 0}
+                                className="w-full py-4 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-xl font-bold text-lg text-white shadow-lg shadow-cyan-900/40 disabled:opacity-50 disabled:grayscale transition-all active:scale-[0.98]"
+                            >
+                                {t('addToLog')}
+                            </button>
+                        </div>
                     </div>
                 </div>
             )}

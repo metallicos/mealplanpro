@@ -10,7 +10,7 @@ export async function GET(request: NextRequest) {
 
     try {
         const response = await fetch(
-            `https://world.openfoodfacts.org/api/v0/product/${barcode}.json?fields=product_name,nutriments,ingredients_text,brands,image_url,serving_size,nutriscore_grade,product_name_en,image_front_url`,
+            `https://world.openfoodfacts.org/api/v0/product/${barcode}.json?fields=product_name,nutriments,ingredients_text,brands,image_url,serving_size,nutriscore_grade,nova_group,nutrient_levels,product_name_en,image_front_url`,
             {
                 headers: {
                     'User-Agent': 'MealPlanPro/1.0 (contact@mealplanpro.com)'
@@ -46,8 +46,10 @@ export async function GET(request: NextRequest) {
                 fiber_per_100g: nutriments['fiber_100g'] || 0,
                 sugar_per_100g: nutriments['sugars_100g'] || 0,
                 sodium_per_100g: nutriments['sodium_100g'] || 0,
-                // Nutri-score
+                // Quality Scores
                 nutriscore: product.nutriscore_grade || null,
+                nova_group: product.nova_group || null,
+                nutrient_levels: product.nutrient_levels || null,
                 // Ingredients
                 ingredients_text: product.ingredients_text || null,
             }

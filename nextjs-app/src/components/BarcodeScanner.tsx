@@ -40,6 +40,9 @@ interface NutritionData {
     fat_per_100g: number;
     fiber_per_100g: number;
     nutriscore: string | null;
+    nova_group: number | null;
+    nutrient_levels: Record<string, 'low' | 'moderate' | 'high'> | null;
+    ingredients_text: string | null;
 }
 
 interface BarcodeScannerProps {
