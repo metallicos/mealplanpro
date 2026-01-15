@@ -134,17 +134,6 @@ export default function MealsPage() {
         }
     }, [page, router, searchParams]);
 
-    // Reset to page 1 (updates URL too)
-    const resetToFirstPage = useCallback(() => {
-        if (page !== 1) {
-            setPageState(1);
-            const params = new URLSearchParams(searchParams.toString());
-            params.delete('page');
-            const newUrl = params.toString() ? `/meals?${params.toString()}` : '/meals';
-            router.replace(newUrl, { scroll: false });
-        }
-    }, [page, router, searchParams]);
-
     // Filters
     const [searchQuery, setSearchQuery] = useState('');
     const [debouncedSearch, setDebouncedSearch] = useState('');
@@ -169,10 +158,21 @@ export default function MealsPage() {
     useEffect(() => {
         const timer = setTimeout(() => {
             setDebouncedSearch(searchQuery);
-            if (searchQuery) resetToFirstPage(); // Reset to first page on search
         }, 300);
         return () => clearTimeout(timer);
-    }, [searchQuery, resetToFirstPage]);
+    }, [searchQuery]);
+
+    // Reset to page 1 when search changes
+    useEffect(() => {
+        if (debouncedSearch) {
+            setPageState(1);
+            // Update URL to remove page param
+            const params = new URLSearchParams(searchParams.toString());
+            params.delete('page');
+            const newUrl = params.toString() ? `/meals?${params.toString()}` : '/meals';
+            router.replace(newUrl, { scroll: false });
+        }
+    }, [debouncedSearch]);
 
     // Fetch categories
     useEffect(() => {
@@ -231,12 +231,12 @@ export default function MealsPage() {
     // Reset subcategory when category changes
     useEffect(() => {
         setSelectedSubcategory('all');
-        resetToFirstPage();
+        setPageState(1);
     }, [selectedCategory]);
 
     // Reset page on filter changes
     useEffect(() => {
-        resetToFirstPage();
+        setPageState(1);
     }, [showHealthyOnly, selectedSubcategory]);
 
     // Fetch ratings when meal selected
