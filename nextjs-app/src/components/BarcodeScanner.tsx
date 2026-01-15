@@ -213,7 +213,7 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
             <div className="flex-none p-4 flex justify-between items-center bg-black/80 backdrop-blur-md z-30 shadow-md">
                 <h2 className="font-bold text-lg text-white">Native Scanner</h2>
                 <div className="flex gap-4 items-center">
-                    {debugInfo && <span className="text-[10px] font-mono text-green-400 bg-green-900/30 px-2 py-1 rounded">{debugInfo}</span>}
+                    {/* Debug info removed */}
                     <button
                         onClick={() => {
                             stopCamera();

@@ -327,623 +327,837 @@ export default function MacrosPage() {
     };
 
     return (
-        <div className="animate-fade-in">
-            <div className="mb-8">
-                <h1 className="page-title flex items-center gap-3"><Utensils className="w-8 h-8 text-[var(--accent-primary)]" /> {t('title')}</h1>
-                <p className="page-subtitle">{t('subtitle')}</p>
-            </div>
+        <>
+            <div className="animate-fade-in">
+                <div className="mb-8">
+                    <h1 className="page-title flex items-center gap-3"><Utensils className="w-8 h-8 text-[var(--accent-primary)]" /> {t('title')}</h1>
+                    <p className="page-subtitle">{t('subtitle')}</p>
+                </div>
 
-            {/* Date Selector */}
-            <div className="card mb-6">
-                <div className="flex items-center gap-4 flex-wrap">
-                    <div>
-                        <label className="form-label">{t('selectDate')}</label>
-                        <input
-                            type="date"
-                            className="form-input"
-                            value={selectedDate}
-                            onChange={(e) => setSelectedDate(e.target.value)}
-                        />
-                    </div>
-                    <div className="flex gap-2">
-                        <button
-                            className="btn-secondary"
-                            onClick={() => {
-                                const d = new Date(selectedDate);
-                                d.setDate(d.getDate() - 1);
-                                // Ensure we format back to YYYY-MM-DD properly
-                                const prev = new Date(d.getTime() - (d.getTimezoneOffset() * 60000)).toISOString().split('T')[0];
-                                setSelectedDate(prev);
-                            }}
-                        >
-                            <ChevronLeft className="w-4 h-4" /> {t('previous')}
-                        </button>
-                        <button
-                            className="btn-secondary"
-                            onClick={() => setSelectedDate(getToday())}
-                        >
-                            {tCommon('today')}
-                        </button>
-                        <button
-                            className="btn-secondary"
-                            onClick={() => {
-                                const d = new Date(selectedDate);
-                                d.setDate(d.getDate() + 1);
-                                const next = new Date(d.getTime() - (d.getTimezoneOffset() * 60000)).toISOString().split('T')[0];
-                                setSelectedDate(next);
-                            }}
-                        >
-                            {t('next')} <ChevronRight className="w-4 h-4" />
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            {/* Stats */}
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
-                <div className="stat-card">
-                    <div className="text-4xl mb-2 flex justify-center"><Flame className="w-8 h-8 text-[var(--calories)]" /></div>
-                    <div className="stat-value">{Math.round(totals.calories)}</div>
-                    <div className="stat-label">{t('calories')}</div>
-                    <div className="progress-bar">
-                        <div
-                            className="progress-fill"
-                            style={{
-                                width: `${Math.min((totals.calories / targets.calories) * 100, 100)}%`,
-                                background: 'var(--calories)'
-                            }}
-                        />
-                    </div>
-                    <div className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>
-                        {targets.calories - Math.round(totals.calories)} {t('remaining')}
-                    </div>
-                </div>
-                <div className="stat-card">
-                    <div className="text-4xl mb-2 flex justify-center"><Dumbbell className="w-8 h-8 text-[var(--protein)]" /></div>
-                    <div className="stat-value">{Math.round(totals.protein)}g</div>
-                    <div className="stat-label">{t('protein')}</div>
-                    <div className="progress-bar">
-                        <div
-                            className="progress-fill"
-                            style={{
-                                width: `${Math.min((totals.protein / targets.protein) * 100, 100)}%`,
-                                background: 'var(--protein)'
-                            }}
-                        />
-                    </div>
-                </div>
-                <div className="stat-card">
-                    <div className="text-4xl mb-2 flex justify-center"><Wheat className="w-8 h-8 text-[var(--carbs)]" /></div>
-                    <div className="stat-value">{Math.round(totals.carbs)}g</div>
-                    <div className="stat-label">{t('carbs')}</div>
-                    <div className="progress-bar">
-                        <div
-                            className="progress-fill"
-                            style={{
-                                width: `${Math.min((totals.carbs / targets.carbs) * 100, 100)}%`,
-                                background: 'var(--carbs)'
-                            }}
-                        />
-                    </div>
-                </div>
-                <div className="stat-card">
-                    <div className="text-4xl mb-2 flex justify-center"><Droplet className="w-8 h-8 text-[var(--fat)]" /></div>
-                    <div className="stat-value">{Math.round(totals.fat)}g</div>
-                    <div className="stat-label">{t('fat')}</div>
-                    <div className="progress-bar">
-                        <div
-                            className="progress-fill"
-                            style={{
-                                width: `${Math.min((totals.fat / targets.fat) * 100, 100)}%`,
-                                background: 'var(--fat)'
-                            }}
-                        />
-                    </div>
-                </div>
-            </div>
-
-            {/* Minerals */}
-            <div className="card mb-6">
-                <h3 className="font-semibold mb-4 flex items-center gap-2"><Zap className="w-5 h-5 text-yellow-400" /> {t('micronutrients')}</h3>
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-                    <div className="text-center p-2 rounded bg-gray-800/50">
-                        <div className="text-xl flex justify-center mb-1"><Bone className="w-6 h-6 text-white" /></div>
-                        <div className="font-bold text-lg">{Math.round(totals.minerals.calcium)}mg</div>
-                        <div className="text-xs text-gray-400">{t('calcium')}</div>
-                    </div>
-                    <div className="text-center p-2 rounded bg-gray-800/50">
-                        <div className="text-xl flex justify-center mb-1"><Droplet className="w-6 h-6 text-red-500" /></div>
-                        <div className="font-bold text-lg">{totals.minerals.iron.toFixed(1)}mg</div>
-                        <div className="text-xs text-gray-400">{t('iron')}</div>
-                    </div>
-                    <div className="text-center p-2 rounded bg-gray-800/50">
-                        <div className="text-xl flex justify-center mb-1"><Zap className="w-6 h-6 text-yellow-500" /></div>
-                        <div className="font-bold text-lg">{Math.round(totals.minerals.magnesium)}mg</div>
-                        <div className="text-xs text-gray-400">{t('magnesium')}</div>
-                    </div>
-                    <div className="text-center p-2 rounded bg-gray-800/50">
-                        <div className="text-xl flex justify-center mb-1"><Banana className="w-6 h-6 text-yellow-300" /></div>
-                        <div className="font-bold text-lg">{Math.round(totals.minerals.potassium)}mg</div>
-                        <div className="text-xs text-gray-400">{t('potassium')}</div>
-                    </div>
-                    <div className="text-center p-2 rounded bg-gray-800/50">
-                        <div className="text-xl flex justify-center mb-1"><Salt className="w-6 h-6 text-white" /></div>
-                        <div className="font-bold text-lg">{Math.round(totals.minerals.sodium)}mg</div>
-                        <div className="text-xs text-gray-400">{t('sodium')}</div>
-                    </div>
-                    <div className="text-center p-2 rounded bg-gray-800/50">
-                        <div className="text-xl flex justify-center mb-1"><Shield className="w-6 h-6 text-gray-400" /></div>
-                        <div className="font-bold text-lg">{totals.minerals.zinc.toFixed(1)}mg</div>
-                        <div className="text-xs text-gray-400">{t('zinc')}</div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                {/* Add Food Form */}
-                <div className="card">
-                    <div className="flex items-center justify-between mb-4">
-                        <h3 className="font-semibold">{t('addFood')}</h3>
-                        <button
-                            onClick={() => setShowScanner(true)}
-                            className="btn-primary text-sm flex items-center gap-2"
-                        >
-                            <Camera className="w-4 h-4" /> {t('scanBarcode')}
-                        </button>
-                    </div>
-
-                    <div className="space-y-4">
-                        {/* Search */}
-                        <div className="relative">
-                            <label className="form-label">{t('searchFood')}</label>
+                {/* Date Selector */}
+                <div className="card mb-6">
+                    <div className="flex items-center gap-4 flex-wrap">
+                        <div>
+                            <label className="form-label">{t('selectDate')}</label>
                             <input
-                                type="text"
+                                type="date"
                                 className="form-input"
-                                placeholder={t('searchFood_placeholder')}
-                                value={searchQuery}
-                                onChange={(e) => {
-                                    setSearchQuery(e.target.value);
-                                    setSelectedFood(null);
-                                }}
+                                value={selectedDate}
+                                onChange={(e) => setSelectedDate(e.target.value)}
                             />
-
-                            {searchResults.length > 0 && !selectedFood && (
-                                <div className="absolute top-full left-0 right-0 mt-1 bg-gray-900 border border-gray-700 rounded-lg max-h-60 overflow-y-auto z-10 shadow-xl">
-                                    {isSearching && <div className="p-2 text-sm text-gray-500">{t('searching')}</div>}
-                                    {searchResults.map((food) => (
-                                        <button
-                                            key={food.id}
-                                            onClick={() => selectFood(food)}
-                                            className="w-full text-left px-4 py-2 hover:bg-gray-800"
-                                        >
-                                            <div className="font-medium">{food.name}</div>
-                                            <div className="text-xs text-gray-500">
-                                                {food.calories} kcal | {food.protein}g P | {food.carbs}g C | {food.fat}g F (per 100g)
-                                            </div>
-                                        </button>
-                                    ))}
-                                </div>
-                            )}
                         </div>
-
-                        <div className="grid grid-cols-2 gap-4">
-                            <div>
-                                <label className="form-label">{t('grams')}</label>
-                                <input
-                                    type="number"
-                                    className="form-input"
-                                    value={grams}
-                                    onChange={(e) => setGrams(parseInt(e.target.value) || 0)}
-                                    min="1"
-                                />
-                            </div>
-                            <div>
-                                <label className="form-label">{t('mealType')}</label>
-                                <select
-                                    className="form-input"
-                                    value={mealType}
-                                    onChange={(e) => setMealType(e.target.value as 'main' | 'snack')}
-                                >
-                                    <option value="main">{t('mainMeal')}</option>
-                                    <option value="snack">{t('snack')}</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        {/* Preview */}
-                        {preview && selectedFood && (
-                            <div className="p-4 rounded-lg" style={{ background: 'var(--bg-secondary)' }}>
-                                <div className="flex justify-between items-center mb-2">
-                                    <strong>{selectedFood.name}</strong>
-                                    <span className="text-sm" style={{ color: 'var(--text-muted)' }}>{grams}g</span>
-                                </div>
-                                <div className="grid grid-cols-4 gap-2 text-center text-sm">
-                                    <div>
-                                        <span style={{ color: 'var(--calories)' }}>{preview.calories}</span> kcal
-                                    </div>
-                                    <div>
-                                        <span style={{ color: 'var(--protein)' }}>{preview.protein}</span>g P
-                                    </div>
-                                    <div>
-                                        <span style={{ color: 'var(--carbs)' }}>{preview.carbs}</span>g C
-                                    </div>
-                                    <div>
-                                        <span style={{ color: 'var(--fat)' }}>{preview.fat}</span>g F
-                                    </div>
-                                </div>
-                            </div>
-                        )}
-
-                        <button
-                            onClick={addToLog}
-                            className="btn-primary w-full flex items-center justify-center gap-2"
-                            disabled={!selectedFood}
-                        >
-                            <Plus className="w-5 h-5" /> {t('addToLog')}
-                        </button>
-                    </div>
-
-                    {/* Quick Add Removed - Use Search */}
-                    <div className="mt-4 text-xs text-gray-500 text-center">
-                        {t('searchHint')}
-                    </div>
-                </div>
-
-                {/* Today's Log */}
-                <div className="card">
-                    <div className="flex items-center justify-between mb-4">
-                        <h3 className="font-semibold">{t('todayLog')}</h3>
-                        <span className="badge badge-primary">{logItems.length} items</span>
-                    </div>
-
-                    {logItems.length === 0 ? (
-                        <div className="text-center py-12" style={{ color: 'var(--text-muted)' }}>
-                            <div className="text-5xl mb-4 flex justify-center"><Utensils className="w-16 h-16 opacity-50" /></div>
-                            <p>{t('noFoodsLogged')}</p>
-                        </div>
-                    ) : (
-                        <div className="space-y-2">
-                            {logItems.map((item) => (
-                                <div key={item.id} className="log-item group relative">
-                                    <div className="flex-1">
-                                        <div className="log-item-name">{item.food_name}</div>
-                                        <div className="log-item-details">{item.grams}g • {item.meal_type}</div>
-                                    </div>
-                                    <div className="log-item-macros">
-                                        <div className="log-item-macro">
-                                            <div style={{ color: 'var(--calories)', fontWeight: 600 }}>{item.calories}</div>
-                                            <div className="text-xs" style={{ color: 'var(--text-muted)' }}>kcal</div>
-                                        </div>
-                                        <div className="log-item-macro">
-                                            <div style={{ color: 'var(--protein)', fontWeight: 600 }}>{item.protein}</div>
-                                            <div className="text-xs" style={{ color: 'var(--text-muted)' }}>P</div>
-                                        </div>
-                                        <div className="log-item-macro">
-                                            <div style={{ color: 'var(--carbs)', fontWeight: 600 }}>{item.carbs}</div>
-                                            <div className="text-xs" style={{ color: 'var(--text-muted)' }}>C</div>
-                                        </div>
-                                        <div className="log-item-macro">
-                                            <div style={{ color: 'var(--fat)', fontWeight: 600 }}>{item.fat}</div>
-                                            <div className="text-xs" style={{ color: 'var(--text-muted)' }}>F</div>
-                                        </div>
-                                    </div>
-
-                                    <div className="flex gap-2">
-                                        <button
-                                            onClick={() => startEdit(item)}
-                                            className="text-gray-400 hover:text-white p-1 rounded hover:bg-white/10"
-                                            title="Edit"
-                                        >
-                                            <Edit2 className="w-4 h-4" />
-                                        </button>
-                                        <button
-                                            onClick={() => removeFromLog(item.id)}
-                                            className="text-red-400 hover:text-red-300 p-1 rounded hover:bg-white/10"
-                                            title="Delete"
-                                        >
-                                            <Trash2 className="w-4 h-4" />
-                                        </button>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    )}
-                </div>
-            </div>
-
-            {/* Weight Tracking */}
-            <div className="card mt-6">
-                <h3 className="font-semibold mb-4">{t('logWeightTitle')}</h3>
-                <div className="flex gap-4 items-end">
-                    <div className="flex-1 max-w-xs">
-                        <label className="form-label">Weight (kg)</label>
-                        <input
-                            type="number"
-                            className="form-input"
-                            placeholder={t('weightPlaceholder')}
-                            step="0.1"
-                            value={weight || ''}
-                            onChange={(e) => setWeight(parseFloat(e.target.value) || null)}
-                        />
-                    </div>
-                    <button className="btn-secondary">
-                        {t('saveWeight')}
-                    </button>
-                </div>
-            </div>
-            {/* Barcode Scanner Modal */}
-            {showScanner && (
-                <Suspense fallback={
-                    <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center">
-                        <div className="text-white text-center">
-                            <div className="text-4xl mb-4 flex justify-center"><Camera className="w-12 h-12 w-12 h-12 animate-pulse" /></div>
-                            <p>Loading camera...</p>
-                        </div>
-                    </div>
-                }>
-                    <BarcodeScanner
-                        onScanResult={handleScanResult}
-                        onClose={() => setShowScanner(false)}
-                    />
-                </Suspense>
-            )}
-
-            {/* Scanned Food Result Modal */}
-            {scannedFood && (
-                <div className="fixed inset-0 bg-[#0a0a0f] z-[60] flex flex-col animate-fade-in overflow-y-auto">
-                    {/* Full Screen Header */}
-                    <div className="flex-none p-4 pb-2 flex items-center justify-between border-b border-white/5 sticky top-0 bg-[#0a0a0f]/95 backdrop-blur-md z-10">
-                        <button
-                            onClick={() => setScannedFood(null)}
-                            className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-white/10 text-white transition-colors text-2xl"
-                        >
-                            <X className="w-5 h-5" />
-                        </button>
-                        <div className="text-center">
-                            <h3 className="text-lg font-bold text-white leading-tight line-clamp-1 max-w-[200px] mx-auto">{scannedFood.name}</h3>
-                            {scannedFood.brand && (
-                                <p className="text-xs text-gray-400">{scannedFood.brand}</p>
-                            )}
-                        </div>
-                        <div className="w-10"></div> {/* Spacer for centering */}
-                    </div>
-
-                    <div className="flex-1 p-6 flex flex-col max-w-lg mx-auto w-full">
-                        {/* Product Image */}
-                        {scannedFood.image_url && (
-                            <div className="flex justify-center mb-6">
-                                <div
-                                    className="h-40 w-40 rounded-full bg-cover bg-center border-4 border-white/5 shadow-2xl"
-                                    style={{ backgroundImage: `url(${scannedFood.image_url})` }}
-                                />
-                            </div>
-                        )}
-
-                        {/* Nutrition Grid */}
-                        <div className="grid grid-cols-4 gap-2 text-center p-4 rounded-2xl mb-8 bg-white/5 border border-white/5">
-                            <div>
-                                <div className="text-2xl font-bold" style={{ color: '#ef4444' }}>
-                                    {Math.round(scannedFood.calories_per_100g * (scannedGrams / 100))}
-                                </div>
-                                <div className="text-[10px] text-gray-400 uppercase tracking-widest font-bold">kcal</div>
-                            </div>
-                            <div>
-                                <div className="text-xl font-bold" style={{ color: '#3b82f6' }}>
-                                    {Math.round(scannedFood.protein_per_100g * (scannedGrams / 100))}<span className="text-sm">g</span>
-                                </div>
-                                <div className="text-[10px] text-gray-400 uppercase tracking-widest font-bold">Prot</div>
-                            </div>
-                            <div>
-                                <div className="text-xl font-bold" style={{ color: '#f59e0b' }}>
-                                    {Math.round(scannedFood.carbs_per_100g * (scannedGrams / 100))}<span className="text-sm">g</span>
-                                </div>
-                                <div className="text-[10px] text-gray-400 uppercase tracking-widest font-bold">Carbs</div>
-                            </div>
-                            <div>
-                                <div className="text-xl font-bold" style={{ color: '#a855f7' }}>
-                                    {Math.round(scannedFood.fat_per_100g * (scannedGrams / 100))}<span className="text-sm">g</span>
-                                </div>
-                                <div className="text-[10px] text-gray-400 uppercase tracking-widest font-bold">Fat</div>
-                            </div>
-                        </div>
-
-                        {/* Quantity Input Section */}
-                        <div className="bg-white/5 rounded-2xl p-4 mb-6">
-                            <label className="text-gray-400 text-xs font-bold uppercase tracking-widest mb-3 block text-center">
-                                {t('portionSize')}
-                            </label>
-
-                            {/* Unit Toggle */}
-                            <div className="flex bg-black/40 p-1 rounded-xl mb-4">
-                                <button
-                                    onClick={() => {
-                                        // Serving logic: parse serving_size string "30 g" -> 30, or default 100
-                                        if (scannedFood.serving_size) {
-                                            const match = scannedFood.serving_size.match(/(\d+(\.\d+)?)/);
-                                            if (match) setScannedGrams(parseFloat(match[0]));
-                                        }
-                                    }}
-                                    className={`flex-1 py-2 rounded-lg text-sm font-bold transition-all ${(scannedFood.serving_size && scannedGrams === parseFloat(scannedFood.serving_size.match(/(\d+(\.\d+)?)/)?.[0] || '0'))
-                                        ? 'bg-cyan-600 text-white shadow-lg'
-                                        : 'text-gray-400 hover:text-white'
-                                        }`}
-                                >
-                                    1 Serving ({scannedFood.serving_size || t('unknown')})
-                                </button>
-                                <button
-                                    onClick={() => setScannedGrams(100)} // Reset to 100g base for custom entry
-                                    className={`flex-1 py-2 rounded-lg text-sm font-bold transition-all ${(!scannedFood.serving_size || scannedGrams !== parseFloat(scannedFood.serving_size.match(/(\d+(\.\d+)?)/)?.[0] || '0'))
-                                        ? 'bg-cyan-600 text-white shadow-lg'
-                                        : 'text-gray-400 hover:text-white'
-                                        }`}
-                                >
-                                    {t('custom')} (g)
-                                </button>
-                            </div>
-
-                            <div className="relative">
-                                <input
-                                    type="number"
-                                    inputMode="decimal"
-                                    className="w-full bg-black/40 border-2 border-transparent focus:border-cyan-500 rounded-xl px-4 py-4 text-center text-3xl font-bold text-white outline-none transition-all placeholder-gray-600"
-                                    value={scannedGrams || ''}
-                                    onChange={(e) => setScannedGrams(parseFloat(e.target.value) || 0)}
-                                    placeholder="0"
-                                />
-                                <span className="absolute right-6 top-1/2 -translate-y-1/2 text-gray-500 font-bold">g</span>
-                            </div>
-                        </div>
-
-                        {/* Add Button */}
-                        <div className="mt-8 bg-white/5 rounded-2xl p-4">
-                            <h4 className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-4 flex items-center gap-2">
-                                <Info className="w-4 h-4" /> Product Analysis
-                            </h4>
-
-                            {/* Quality Badges */}
-                            <div className="flex gap-4 mb-6">
-                                {scannedFood.nutriscore && (
-                                    <div className="flex-1 bg-black/40 rounded-xl p-3 flex flex-col items-center justify-center">
-                                        <div className="text-xs text-gray-500 mb-1">Nutri-Score</div>
-                                        <div className={`text-2xl font-black ${['a', 'b'].includes(scannedFood.nutriscore.toLowerCase()) ? 'text-green-500' :
-                                            scannedFood.nutriscore.toLowerCase() === 'c' ? 'text-yellow-500' :
-                                                'text-red-500'
-                                            }`}>
-                                            {scannedFood.nutriscore.toUpperCase()}
-                                        </div>
-                                    </div>
-                                )}
-                                {scannedFood.nova_group && (
-                                    <div className="flex-1 bg-black/40 rounded-xl p-3 flex flex-col items-center justify-center">
-                                        <div className="text-xs text-gray-500 mb-1">NOVA</div>
-                                        <div className={`text-2xl font-black ${scannedFood.nova_group === 1 ? 'text-green-500' :
-                                            scannedFood.nova_group === 2 ? 'text-yellow-500' :
-                                                scannedFood.nova_group === 3 ? 'text-orange-500' : 'text-red-500'
-                                            }`}>
-                                            {scannedFood.nova_group}
-                                        </div>
-                                    </div>
-                                )}
-                            </div>
-
-                            {/* Detailed Analysis */}
-                            {scannedFood.nutrient_levels && (
-                                <div className="space-y-2 mb-6">
-                                    {Object.entries(scannedFood.nutrient_levels).map(([key, level]) => {
-                                        const isHigh = level === 'high';
-                                        const isLow = level === 'low';
-                                        // Skip moderate for brevity if needed, or show all
-                                        if (level === 'moderate') return null;
-
-                                        return (
-                                            <div key={key} className="flex items-center gap-3 p-2 rounded-lg bg-black/20">
-                                                {isHigh ? (
-                                                    paramIsBadIfHigh(key) ? <AlertCircle className="w-5 h-5 text-red-500" /> : <CheckCircle className="w-5 h-5 text-green-500" />
-                                                ) : (
-                                                    <CheckCircle className="w-5 h-5 text-green-500" />
-                                                )}
-                                                <div className="flex-1">
-                                                    <div className="text-sm font-medium capitalize text-gray-200">
-                                                        {key.replace('-', ' ')}
-                                                    </div>
-                                                    <div className={`text-xs ${isHigh && paramIsBadIfHigh(key) ? 'text-red-400' : 'text-gray-500'}`}>
-                                                        {level.toUpperCase()}
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        );
-                                    })}
-                                </div>
-                            )}
-
-                            {/* Ingredients */}
-                            {scannedFood.ingredients_text && (
-                                <div>
-                                    <div className="text-xs text-gray-500 mb-2">INGREDIENTS</div>
-                                    <p className="text-sm text-gray-300 leading-relaxed text-justify text-[13px]">
-                                        {scannedFood.ingredients_text}
-                                    </p>
-                                </div>
-                            )}
-                        </div>
-
-                        {/* Add Button Sticky at Bottom */}
-                        <div className="sticky bottom-0 pt-4 bg-gradient-to-t from-[#0a0a0f] to-transparent pb-safe-area-inset-bottom">
+                        <div className="flex gap-2">
                             <button
-                                onClick={addScannedToLog}
-                                disabled={!scannedGrams || scannedGrams <= 0}
-                                className="w-full py-4 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-xl font-bold text-lg text-white shadow-lg shadow-cyan-900/40 disabled:opacity-50 disabled:grayscale transition-all active:scale-[0.98]"
+                                className="btn-secondary"
+                                onClick={() => {
+                                    const d = new Date(selectedDate);
+                                    d.setDate(d.getDate() - 1);
+                                    // Ensure we format back to YYYY-MM-DD properly
+                                    const prev = new Date(d.getTime() - (d.getTimezoneOffset() * 60000)).toISOString().split('T')[0];
+                                    setSelectedDate(prev);
+                                }}
                             >
-                                {t('addToLog')}
+                                <ChevronLeft className="w-4 h-4" /> {t('previous')}
+                            </button>
+                            <button
+                                className="btn-secondary"
+                                onClick={() => setSelectedDate(getToday())}
+                            >
+                                {tCommon('today')}
+                            </button>
+                            <button
+                                className="btn-secondary"
+                                onClick={() => {
+                                    const d = new Date(selectedDate);
+                                    d.setDate(d.getDate() + 1);
+                                    const next = new Date(d.getTime() - (d.getTimezoneOffset() * 60000)).toISOString().split('T')[0];
+                                    setSelectedDate(next);
+                                }}
+                            >
+                                {t('next')} <ChevronRight className="w-4 h-4" />
                             </button>
                         </div>
                     </div>
                 </div>
-            )}
 
-            {/* Edit Log Modal */}
-            {
-                editingLog && (
-                    <div
-                        className="fixed inset-0 bg-black/80 flex items-end sm:items-center justify-center z-[60] p-0 sm:p-4 animate-fade-in"
-                        onClick={() => setEditingLog(null)}
-                    >
+                {/* Stats */}
+                <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+                    <div className="stat-card">
+                        <div className="text-4xl mb-2 flex justify-center"><Flame className="w-8 h-8 text-[var(--calories)]" /></div>
+                        <div className="stat-value">{Math.round(totals.calories)}</div>
+                        <div className="stat-label">{t('calories')}</div>
+                        <div className="progress-bar">
+                            <div
+                                className="progress-fill"
+                                style={{
+                                    width: `${Math.min((totals.calories / targets.calories) * 100, 100)}%`,
+                                    background: 'var(--calories)'
+                                }}
+                            />
+                        </div>
+                        <div className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>
+                            {targets.calories - Math.round(totals.calories)} {t('remaining')}
+                        </div>
+                    </div>
+                    <div className="stat-card">
+                        <div className="text-4xl mb-2 flex justify-center"><Dumbbell className="w-8 h-8 text-[var(--protein)]" /></div>
+                        <div className="stat-value">{Math.round(totals.protein)}g</div>
+                        <div className="stat-label">{t('protein')}</div>
+                        <div className="progress-bar">
+                            <div
+                                className="progress-fill"
+                                style={{
+                                    width: `${Math.min((totals.protein / targets.protein) * 100, 100)}%`,
+                                    background: 'var(--protein)'
+                                }}
+                            />
+                        </div>
+                    </div>
+                    <div className="stat-card">
+                        <div className="text-4xl mb-2 flex justify-center"><Wheat className="w-8 h-8 text-[var(--carbs)]" /></div>
+                        <div className="stat-value">{Math.round(totals.carbs)}g</div>
+                        <div className="stat-label">{t('carbs')}</div>
+                        <div className="progress-bar">
+                            <div
+                                className="progress-fill"
+                                style={{
+                                    width: `${Math.min((totals.carbs / targets.carbs) * 100, 100)}%`,
+                                    background: 'var(--carbs)'
+                                }}
+                            />
+                        </div>
+                    </div>
+                    <div className="stat-card">
+                        <div className="text-4xl mb-2 flex justify-center"><Droplet className="w-8 h-8 text-[var(--fat)]" /></div>
+                        <div className="stat-value">{Math.round(totals.fat)}g</div>
+                        <div className="stat-label">{t('fat')}</div>
+                        <div className="progress-bar">
+                            <div
+                                className="progress-fill"
+                                style={{
+                                    width: `${Math.min((totals.fat / targets.fat) * 100, 100)}%`,
+                                    background: 'var(--fat)'
+                                }}
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                {/* Minerals */}
+                <div className="card mb-6">
+                    <h3 className="font-semibold mb-4 flex items-center gap-2"><Zap className="w-5 h-5 text-yellow-400" /> {t('micronutrients')}</h3>
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                        <div className="text-center p-2 rounded bg-gray-800/50">
+                            <div className="text-xl flex justify-center mb-1"><Bone className="w-6 h-6 text-white" /></div>
+                            <div className="font-bold text-lg">{Math.round(totals.minerals.calcium)}mg</div>
+                            <div className="text-xs text-gray-400">{t('calcium')}</div>
+                        </div>
+                        <div className="text-center p-2 rounded bg-gray-800/50">
+                            <div className="text-xl flex justify-center mb-1"><Droplet className="w-6 h-6 text-red-500" /></div>
+                            <div className="font-bold text-lg">{totals.minerals.iron.toFixed(1)}mg</div>
+                            <div className="text-xs text-gray-400">{t('iron')}</div>
+                        </div>
+                        <div className="text-center p-2 rounded bg-gray-800/50">
+                            <div className="text-xl flex justify-center mb-1"><Zap className="w-6 h-6 text-yellow-500" /></div>
+                            <div className="font-bold text-lg">{Math.round(totals.minerals.magnesium)}mg</div>
+                            <div className="text-xs text-gray-400">{t('magnesium')}</div>
+                        </div>
+                        <div className="text-center p-2 rounded bg-gray-800/50">
+                            <div className="text-xl flex justify-center mb-1"><Banana className="w-6 h-6 text-yellow-300" /></div>
+                            <div className="font-bold text-lg">{Math.round(totals.minerals.potassium)}mg</div>
+                            <div className="text-xs text-gray-400">{t('potassium')}</div>
+                        </div>
+                        <div className="text-center p-2 rounded bg-gray-800/50">
+                            <div className="text-xl flex justify-center mb-1"><Salt className="w-6 h-6 text-white" /></div>
+                            <div className="font-bold text-lg">{Math.round(totals.minerals.sodium)}mg</div>
+                            <div className="text-xs text-gray-400">{t('sodium')}</div>
+                        </div>
+                        <div className="text-center p-2 rounded bg-gray-800/50">
+                            <div className="text-xl flex justify-center mb-1"><Shield className="w-6 h-6 text-gray-400" /></div>
+                            <div className="font-bold text-lg">{totals.minerals.zinc.toFixed(1)}mg</div>
+                            <div className="text-xs text-gray-400">{t('zinc')}</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    {/* Add Food Form */}
+                    <div className="card">
+                        <div className="flex items-center justify-between mb-4">
+                            <h3 className="font-semibold">{t('addFood')}</h3>
+                            <button
+                                onClick={() => setShowScanner(true)}
+                                className="btn-primary text-sm flex items-center gap-2"
+                            >
+                                <Camera className="w-4 h-4" /> {t('scanBarcode')}
+                            </button>
+                        </div>
+
+                        <div className="space-y-4">
+                            {/* Search */}
+                            <div className="relative">
+                                <label className="form-label">{t('searchFood')}</label>
+                                <input
+                                    type="text"
+                                    className="form-input"
+                                    placeholder={t('searchFood_placeholder')}
+                                    value={searchQuery}
+                                    onChange={(e) => {
+                                        setSearchQuery(e.target.value);
+                                        setSelectedFood(null);
+                                    }}
+                                />
+
+                                {searchResults.length > 0 && !selectedFood && (
+                                    <div className="absolute top-full left-0 right-0 mt-1 bg-gray-900 border border-gray-700 rounded-lg max-h-60 overflow-y-auto z-10 shadow-xl">
+                                        {isSearching && <div className="p-2 text-sm text-gray-500">{t('searching')}</div>}
+                                        {searchResults.map((food) => (
+                                            <button
+                                                key={food.id}
+                                                onClick={() => selectFood(food)}
+                                                className="w-full text-left px-4 py-2 hover:bg-gray-800"
+                                            >
+                                                <div className="font-medium">{food.name}</div>
+                                                <div className="text-xs text-gray-500">
+                                                    {food.calories} kcal | {food.protein}g P | {food.carbs}g C | {food.fat}g F (per 100g)
+                                                </div>
+                                            </button>
+                                        ))}
+                                    </div>
+                                )}
+                            </div>
+
+                            <div className="grid grid-cols-2 gap-4">
+                                <div>
+                                    <label className="form-label">{t('grams')}</label>
+                                    <input
+                                        type="number"
+                                        className="form-input"
+                                        value={grams}
+                                        onChange={(e) => setGrams(parseInt(e.target.value) || 0)}
+                                        min="1"
+                                    />
+                                </div>
+                                <div>
+                                    <label className="form-label">{t('mealType')}</label>
+                                    <select
+                                        className="form-input"
+                                        value={mealType}
+                                        onChange={(e) => setMealType(e.target.value as 'main' | 'snack')}
+                                    >
+                                        <option value="main">{t('mainMeal')}</option>
+                                        <option value="snack">{t('snack')}</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            {/* Preview */}
+                            {preview && selectedFood && (
+                                <div className="p-4 rounded-lg" style={{ background: 'var(--bg-secondary)' }}>
+                                    <div className="flex justify-between items-center mb-2">
+                                        <strong>{selectedFood.name}</strong>
+                                        <span className="text-sm" style={{ color: 'var(--text-muted)' }}>{grams}g</span>
+                                    </div>
+                                    <div className="grid grid-cols-4 gap-2 text-center text-sm">
+                                        <div>
+                                            <span style={{ color: 'var(--calories)' }}>{preview.calories}</span> kcal
+                                        </div>
+                                        <div>
+                                            <span style={{ color: 'var(--protein)' }}>{preview.protein}</span>g P
+                                        </div>
+                                        <div>
+                                            <span style={{ color: 'var(--carbs)' }}>{preview.carbs}</span>g C
+                                        </div>
+                                        <div>
+                                            <span style={{ color: 'var(--fat)' }}>{preview.fat}</span>g F
+                                        </div>
+                                    </div>
+                                </div>
+                            )}
+
+                            <button
+                                onClick={addToLog}
+                                className="btn-primary w-full flex items-center justify-center gap-2"
+                                disabled={!selectedFood}
+                            >
+                                <Plus className="w-5 h-5" /> {t('addToLog')}
+                            </button>
+                        </div>
+
+                        {/* Quick Add Removed - Use Search */}
+                        <div className="mt-4 text-xs text-gray-500 text-center">
+                            {t('searchHint')}
+                        </div>
+                    </div>
+
+                    {/* Today's Log */}
+                    <div className="card">
+                        <div className="flex items-center justify-between mb-4">
+                            <h3 className="font-semibold">{t('todayLog')}</h3>
+                            <span className="badge badge-primary">{logItems.length} items</span>
+                        </div>
+
+                        {logItems.length === 0 ? (
+                            <div className="text-center py-12" style={{ color: 'var(--text-muted)' }}>
+                                <div className="text-5xl mb-4 flex justify-center"><Utensils className="w-16 h-16 opacity-50" /></div>
+                                <p>{t('noFoodsLogged')}</p>
+                            </div>
+                        ) : (
+                            <div className="space-y-2">
+                                {logItems.map((item) => (
+                                    <div key={item.id} className="log-item group relative">
+                                        <div className="flex-1">
+                                            <div className="log-item-name">{item.food_name}</div>
+                                            <div className="log-item-details">{item.grams}g • {item.meal_type}</div>
+                                        </div>
+                                        <div className="log-item-macros">
+                                            <div className="log-item-macro">
+                                                <div style={{ color: 'var(--calories)', fontWeight: 600 }}>{item.calories}</div>
+                                                <div className="text-xs" style={{ color: 'var(--text-muted)' }}>kcal</div>
+                                            </div>
+                                            <div className="log-item-macro">
+                                                <div style={{ color: 'var(--protein)', fontWeight: 600 }}>{item.protein}</div>
+                                                <div className="text-xs" style={{ color: 'var(--text-muted)' }}>P</div>
+                                            </div>
+                                            <div className="log-item-macro">
+                                                <div style={{ color: 'var(--carbs)', fontWeight: 600 }}>{item.carbs}</div>
+                                                <div className="text-xs" style={{ color: 'var(--text-muted)' }}>C</div>
+                                            </div>
+                                            <div className="log-item-macro">
+                                                <div style={{ color: 'var(--fat)', fontWeight: 600 }}>{item.fat}</div>
+                                                <div className="text-xs" style={{ color: 'var(--text-muted)' }}>F</div>
+                                            </div>
+                                        </div>
+
+                                        <div className="flex gap-2">
+                                            <button
+                                                onClick={() => startEdit(item)}
+                                                className="text-gray-400 hover:text-white p-1 rounded hover:bg-white/10"
+                                                title="Edit"
+                                            >
+                                                <Edit2 className="w-4 h-4" />
+                                            </button>
+                                            <button
+                                                onClick={() => removeFromLog(item.id)}
+                                                className="text-red-400 hover:text-red-300 p-1 rounded hover:bg-white/10"
+                                                title="Delete"
+                                            >
+                                                <Trash2 className="w-4 h-4" />
+                                            </button>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        )}
+                    </div>
+                </div>
+
+                {/* Weight Tracking */}
+                <div className="card mt-6">
+                    <h3 className="font-semibold mb-4">{t('logWeightTitle')}</h3>
+                    <div className="flex gap-4 items-end">
+                        <div className="flex-1 max-w-xs">
+                            <label className="form-label">Weight (kg)</label>
+                            <input
+                                type="number"
+                                className="form-input"
+                                placeholder={t('weightPlaceholder')}
+                                step="0.1"
+                                value={weight || ''}
+                                onChange={(e) => setWeight(parseFloat(e.target.value) || null)}
+                            />
+                        </div>
+                        <button className="btn-secondary">
+                            {t('saveWeight')}
+                        </button>
+                    </div>
+                </div>
+                {/* Barcode Scanner Modal */}
+                {showScanner && (
+                    <Suspense fallback={
+                        <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center">
+                            <div className="text-white text-center">
+                                <div className="text-4xl mb-4 flex justify-center"><Camera className="w-12 h-12 w-12 h-12 animate-pulse" /></div>
+                                <p>Loading camera...</p>
+                            </div>
+                        </div>
+                    }>
+                        <BarcodeScanner
+                            onScanResult={handleScanResult}
+                            onClose={() => setShowScanner(false)}
+                        />
+                    </Suspense>
+                )}
+
+                {/* Scanned Food Result Modal */}
+                {scannedFood && (
+                    <div className="fixed inset-0 bg-[#0a0a0f] z-[60] flex flex-col animate-fade-in overflow-y-auto">
+                        {/* Full Screen Header */}
+                        <div className="flex-none p-4 pb-2 flex items-center justify-between border-b border-white/5 sticky top-0 bg-[#0a0a0f]/95 backdrop-blur-md z-10">
+                            <button
+                                onClick={() => setScannedFood(null)}
+                                className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-white/10 text-white transition-colors text-2xl"
+                            >
+                                <X className="w-5 h-5" />
+                            </button>
+                            <div className="text-center">
+                                <h3 className="text-lg font-bold text-white leading-tight line-clamp-1 max-w-[200px] mx-auto">{scannedFood.name}</h3>
+                                {scannedFood.brand && (
+                                    <p className="text-xs text-gray-400">{scannedFood.brand}</p>
+                                )}
+                            </div>
+                            <div className="w-10"></div> {/* Spacer for centering */}
+                        </div>
+
+                        <div className="flex-1 p-6 flex flex-col max-w-lg mx-auto w-full">
+                            {/* Product Image */}
+                            {scannedFood.image_url && (
+                                <div className="flex justify-center mb-6">
+                                    <div
+                                        className="h-40 w-40 rounded-full bg-cover bg-center border-4 border-white/5 shadow-2xl"
+                                        style={{ backgroundImage: `url(${scannedFood.image_url})` }}
+                                    />
+                                </div>
+                            )}
+
+                            {/* Nutrition Grid */}
+                            <div className="grid grid-cols-4 gap-2 text-center p-4 rounded-2xl mb-8 bg-white/5 border border-white/5">
+                                <div>
+                                    <div className="text-2xl font-bold" style={{ color: '#ef4444' }}>
+                                        {Math.round(scannedFood.calories_per_100g * (scannedGrams / 100))}
+                                    </div>
+                                    <div className="text-[10px] text-gray-400 uppercase tracking-widest font-bold">kcal</div>
+                                </div>
+                                <div>
+                                    <div className="text-xl font-bold" style={{ color: '#3b82f6' }}>
+                                        {Math.round(scannedFood.protein_per_100g * (scannedGrams / 100))}<span className="text-sm">g</span>
+                                    </div>
+                                    <div className="text-[10px] text-gray-400 uppercase tracking-widest font-bold">Prot</div>
+                                </div>
+                                <div>
+                                    <div className="text-xl font-bold" style={{ color: '#f59e0b' }}>
+                                        {Math.round(scannedFood.carbs_per_100g * (scannedGrams / 100))}<span className="text-sm">g</span>
+                                    </div>
+                                    <div className="text-[10px] text-gray-400 uppercase tracking-widest font-bold">Carbs</div>
+                                </div>
+                                <div>
+                                    <div className="text-xl font-bold" style={{ color: '#a855f7' }}>
+                                        {Math.round(scannedFood.fat_per_100g * (scannedGrams / 100))}<span className="text-sm">g</span>
+                                    </div>
+                                    <div className="text-[10px] text-gray-400 uppercase tracking-widest font-bold">Fat</div>
+                                </div>
+                            </div>
+
+                            {/* Quantity Input Section */}
+                            <div className="bg-white/5 rounded-2xl p-4 mb-6">
+                                <label className="text-gray-400 text-xs font-bold uppercase tracking-widest mb-3 block text-center">
+                                    {t('portionSize')}
+                                </label>
+
+                                {/* Unit Toggle */}
+                                <div className="flex bg-black/40 p-1 rounded-xl mb-4">
+                                    <button
+                                        onClick={() => {
+                                            // Serving logic: parse serving_size string "30 g" -> 30, or default 100
+                                            if (scannedFood.serving_size) {
+                                                const match = scannedFood.serving_size.match(/(\d+(\.\d+)?)/);
+                                                if (match) setScannedGrams(parseFloat(match[0]));
+                                            }
+                                        }}
+                                        className={`flex-1 py-2 rounded-lg text-sm font-bold transition-all ${(scannedFood.serving_size && scannedGrams === parseFloat(scannedFood.serving_size.match(/(\d+(\.\d+)?)/)?.[0] || '0'))
+                                            ? 'bg-cyan-600 text-white shadow-lg'
+                                            : 'text-gray-400 hover:text-white'
+                                            }`}
+                                    >
+                                        1 Serving ({scannedFood.serving_size || t('unknown')})
+                                    </button>
+                                    <button
+                                        onClick={() => setScannedGrams(100)} // Reset to 100g base for custom entry
+                                        className={`flex-1 py-2 rounded-lg text-sm font-bold transition-all ${(!scannedFood.serving_size || scannedGrams !== parseFloat(scannedFood.serving_size.match(/(\d+(\.\d+)?)/)?.[0] || '0'))
+                                            ? 'bg-cyan-600 text-white shadow-lg'
+                                            : 'text-gray-400 hover:text-white'
+                                            }`}
+                                    >
+                                        {t('custom')} (g)
+                                    </button>
+                                </div>
+
+                                <div className="relative">
+                                    <input
+                                        type="number"
+                                        inputMode="decimal"
+                                        className="w-full bg-black/40 border-2 border-transparent focus:border-cyan-500 rounded-xl px-4 py-4 text-center text-3xl font-bold text-white outline-none transition-all placeholder-gray-600"
+                                        value={scannedGrams || ''}
+                                        onChange={(e) => setScannedGrams(parseFloat(e.target.value) || 0)}
+                                        placeholder="0"
+                                    />
+                                    <span className="absolute right-6 top-1/2 -translate-y-1/2 text-gray-500 font-bold">g</span>
+                                </div>
+                            </div>
+
+                            {/* Add Button */}
+                            <div className="mt-8 bg-white/5 rounded-2xl p-4">
+                                <h4 className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-4 flex items-center gap-2">
+                                    <Info className="w-4 h-4" /> Product Analysis
+                                </h4>
+
+                                {/* Quality Badges */}
+                                <div className="flex gap-4 mb-6">
+                                    {scannedFood.nutriscore && (
+                                        <div className="flex-1 bg-black/40 rounded-xl p-3 flex flex-col items-center justify-center">
+                                            <div className="text-xs text-gray-500 mb-1">Nutri-Score</div>
+                                            <div className={`text-2xl font-black ${['a', 'b'].includes(scannedFood.nutriscore.toLowerCase()) ? 'text-green-500' :
+                                                scannedFood.nutriscore.toLowerCase() === 'c' ? 'text-yellow-500' :
+                                                    'text-red-500'
+                                                }`}>
+                                                {scannedFood.nutriscore.toUpperCase()}
+                                            </div>
+                                        </div>
+                                    )}
+                                    {scannedFood.nova_group && (
+                                        <div className="flex-1 bg-black/40 rounded-xl p-3 flex flex-col items-center justify-center">
+                                            <div className="text-xs text-gray-500 mb-1">NOVA</div>
+                                            <div className={`text-2xl font-black ${scannedFood.nova_group === 1 ? 'text-green-500' :
+                                                scannedFood.nova_group === 2 ? 'text-yellow-500' :
+                                                    scannedFood.nova_group === 3 ? 'text-orange-500' : 'text-red-500'
+                                                }`}>
+                                                {scannedFood.nova_group}
+                                            </div>
+                                        </div>
+                                    )}
+                                </div>
+
+                                {/* Detailed Analysis */}
+                                {scannedFood.nutrient_levels && (
+                                    <div className="space-y-2 mb-6">
+                                        {Object.entries(scannedFood.nutrient_levels).map(([key, level]) => {
+                                            const isHigh = level === 'high';
+                                            const isLow = level === 'low';
+                                            // Skip moderate for brevity if needed, or show all
+                                            if (level === 'moderate') return null;
+
+                                            return (
+                                                <div key={key} className="flex items-center gap-3 p-2 rounded-lg bg-black/20">
+                                                    {isHigh ? (
+                                                        paramIsBadIfHigh(key) ? <AlertCircle className="w-5 h-5 text-red-500" /> : <CheckCircle className="w-5 h-5 text-green-500" />
+                                                    ) : (
+                                                        <CheckCircle className="w-5 h-5 text-green-500" />
+                                                    )}
+                                                    <div className="flex-1">
+                                                        <div className="text-sm font-medium capitalize text-gray-200">
+                                                            {key.replace('-', ' ')}
+                                                        </div>
+                                                        <div className={`text-xs ${isHigh && paramIsBadIfHigh(key) ? 'text-red-400' : 'text-gray-500'}`}>
+                                                            {level.toUpperCase()}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            );
+                                        })}
+                                    </div>
+                                )}
+
+                                {/* Ingredients */}
+                                {scannedFood.ingredients_text && (
+                                    <div>
+                                        <div className="text-xs text-gray-500 mb-2">INGREDIENTS</div>
+                                        <p className="text-sm text-gray-300 leading-relaxed text-justify text-[13px]">
+                                            {scannedFood.ingredients_text}
+                                        </p>
+                                    </div>
+                                )}
+                            </div>
+
+                            {/* Add Button Sticky at Bottom */}
+                            <div className="sticky bottom-0 pt-4 bg-gradient-to-t from-[#0a0a0f] to-transparent pb-safe-area-inset-bottom">
+                                <button
+                                    onClick={addScannedToLog}
+                                    disabled={!scannedGrams || scannedGrams <= 0}
+                                    className="w-full py-4 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-xl font-bold text-lg text-white shadow-lg shadow-cyan-900/40 disabled:opacity-50 disabled:grayscale transition-all active:scale-[0.98]"
+                                >
+                                    {t('addToLog')}
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                )}
+
+                {/* Edit Log Modal */}
+                {
+                    editingLog && (
                         <div
-                            className="card w-full sm:max-w-sm max-h-[85dvh] overflow-y-auto border-t border-white/10 shadow-2xl bg-[#181824] rounded-t-2xl sm:rounded-xl animate-slide-up-mobile"
-                            onClick={(e) => e.stopPropagation()}
+                            className="fixed inset-0 bg-black/80 flex items-end sm:items-center justify-center z-[60] p-0 sm:p-4 animate-fade-in"
+                            onClick={() => setEditingLog(null)}
                         >
-                            <div className="p-6">
-                                <h3 className="text-xl font-bold text-white mb-6">{t('editLogEntry')}</h3>
+                            <div
+                                className="card w-full sm:max-w-sm max-h-[85dvh] overflow-y-auto border-t border-white/10 shadow-2xl bg-[#181824] rounded-t-2xl sm:rounded-xl animate-slide-up-mobile"
+                                onClick={(e) => e.stopPropagation()}
+                            >
+                                <div className="p-6">
+                                    <h3 className="text-xl font-bold text-white mb-6">{t('editLogEntry')}</h3>
 
-                                <div className="mb-4">
-                                    <div className="text-white font-medium mb-1">{editingLog.food_name}</div>
-                                    <div className="text-sm text-gray-400">{t('editLogHint')}</div>
-                                </div>
-
-                                <div className="grid grid-cols-2 gap-4 mb-6">
-                                    <div>
-                                        <label className="text-xs font-semibold text-gray-400 mb-1.5 block">{t('servingSize')} (g)</label>
-                                        <input
-                                            type="number"
-                                            className="w-full bg-[#0a0a0f] border border-gray-700 rounded-lg px-3 py-2.5 text-white focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition-all"
-                                            value={editGrams}
-                                            onChange={(e) => setEditGrams(parseInt(e.target.value) || 0)}
-                                            min="1"
-                                        />
+                                    <div className="mb-4">
+                                        <div className="text-white font-medium mb-1">{editingLog.food_name}</div>
+                                        <div className="text-sm text-gray-400">{t('editLogHint')}</div>
                                     </div>
-                                    <div>
-                                        <label className="text-xs font-semibold text-gray-400 mb-1.5 block">{t('mealType')}</label>
-                                        <select
-                                            className="w-full bg-[#0a0a0f] border border-gray-700 rounded-lg px-3 py-2.5 text-white focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition-all appearance-none"
-                                            value={editMealType}
-                                            onChange={(e) => setEditMealType(e.target.value as 'main' | 'snack')}
+
+                                    <div className="grid grid-cols-2 gap-4 mb-6">
+                                        <div>
+                                            <label className="text-xs font-semibold text-gray-400 mb-1.5 block">{t('servingSize')} (g)</label>
+                                            <input
+                                                type="number"
+                                                className="w-full bg-[#0a0a0f] border border-gray-700 rounded-lg px-3 py-2.5 text-white focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition-all"
+                                                value={editGrams}
+                                                onChange={(e) => setEditGrams(parseInt(e.target.value) || 0)}
+                                                min="1"
+                                            />
+                                        </div>
+                                        <div>
+                                            <label className="text-xs font-semibold text-gray-400 mb-1.5 block">{t('mealType')}</label>
+                                            <select
+                                                className="w-full bg-[#0a0a0f] border border-gray-700 rounded-lg px-3 py-2.5 text-white focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition-all appearance-none"
+                                                value={editMealType}
+                                                onChange={(e) => setEditMealType(e.target.value as 'main' | 'snack')}
+                                            >
+                                                <option value="main">{t('mainMeal')}</option>
+                                                <option value="snack">{t('snack')}</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    {/* Actions */}
+                                    <div className="flex gap-3 pt-2">
+                                        <button
+                                            onClick={() => setEditingLog(null)}
+                                            className="flex-1 py-3 rounded-xl bg-gray-800 hover:bg-gray-700 text-gray-300 font-medium transition-colors"
                                         >
-                                            <option value="main">{t('mainMeal')}</option>
-                                            <option value="snack">{t('snack')}</option>
-                                        </select>
+                                            {tCommon('cancel')}
+                                        </button>
+                                        <button
+                                            onClick={updateLog}
+                                            className="flex-1 py-3 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-400 hover:to-cyan-400 text-white font-bold shadow-lg shadow-blue-500/20 transition-all hover:scale-[1.02]"
+                                        >
+                                            {tCommon('save')}
+                                        </button>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    )
+                }
+            </div >
 
-                                {/* Actions */}
-                                <div className="flex gap-3 pt-2">
+            {/* Barcode Scanner Modal - Outside animation container for fixed positioning */}
+            {
+                showScanner && (
+                    <Suspense fallback={
+                        <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center">
+                            <div className="text-white text-center">
+                                <div className="text-4xl mb-4 flex justify-center"><Camera className="w-12 h-12 w-12 h-12 animate-pulse" /></div>
+                                <p>Loading camera...</p>
+                            </div>
+                        </div>
+                    }>
+                        <BarcodeScanner
+                            onScanResult={handleScanResult}
+                            onClose={() => setShowScanner(false)}
+                        />
+                    </Suspense>
+                )
+            }
+
+            {/* Scanned Food Result Modal */}
+            {
+                scannedFood && (
+                    <div className="fixed inset-0 bg-[#0a0a0f] z-[60] flex flex-col animate-fade-in overflow-y-auto">
+                        {/* Full Screen Header */}
+                        <div className="flex-none p-4 pb-2 flex items-center justify-between border-b border-white/5 sticky top-0 bg-[#0a0a0f]/95 backdrop-blur-md z-10">
+                            <button
+                                onClick={() => setScannedFood(null)}
+                                className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-white/10 text-white transition-colors text-2xl"
+                            >
+                                <X className="w-5 h-5" />
+                            </button>
+                            <div className="text-center">
+                                <h3 className="text-lg font-bold text-white leading-tight line-clamp-1 max-w-[200px] mx-auto">{scannedFood!.name}</h3>
+                                {scannedFood!.brand && (
+                                    <p className="text-xs text-gray-400">{scannedFood!.brand}</p>
+                                )}
+                            </div>
+                            <div className="w-10"></div> {/* Spacer for centering */}
+                        </div>
+
+                        <div className="flex-1 p-6 flex flex-col max-w-lg mx-auto w-full">
+                            {/* Product Image */}
+                            {scannedFood!.image_url && (
+                                <div className="flex justify-center mb-6">
+                                    <div
+                                        className="h-40 w-40 rounded-full bg-cover bg-center border-4 border-white/5 shadow-2xl"
+                                        style={{ backgroundImage: `url(${scannedFood!.image_url})` }}
+                                    />
+                                </div>
+                            )}
+
+                            {/* Nutrition Grid */}
+                            <div className="grid grid-cols-4 gap-2 text-center p-4 rounded-2xl mb-8 bg-white/5 border border-white/5">
+                                <div>
+                                    <div className="text-2xl font-bold" style={{ color: '#ef4444' }}>
+                                        {Math.round(scannedFood!.calories_per_100g * (scannedGrams / 100))}
+                                    </div>
+                                    <div className="text-[10px] text-gray-400 uppercase tracking-widest font-bold">kcal</div>
+                                </div>
+                                <div>
+                                    <div className="text-xl font-bold" style={{ color: '#3b82f6' }}>
+                                        {Math.round(scannedFood!.protein_per_100g * (scannedGrams / 100))}<span className="text-sm">g</span>
+                                    </div>
+                                    <div className="text-[10px] text-gray-400 uppercase tracking-widest font-bold">Prot</div>
+                                </div>
+                                <div>
+                                    <div className="text-xl font-bold" style={{ color: '#f59e0b' }}>
+                                        {Math.round(scannedFood!.carbs_per_100g * (scannedGrams / 100))}<span className="text-sm">g</span>
+                                    </div>
+                                    <div className="text-[10px] text-gray-400 uppercase tracking-widest font-bold">Carbs</div>
+                                </div>
+                                <div>
+                                    <div className="text-xl font-bold" style={{ color: '#a855f7' }}>
+                                        {Math.round(scannedFood!.fat_per_100g * (scannedGrams / 100))}<span className="text-sm">g</span>
+                                    </div>
+                                    <div className="text-[10px] text-gray-400 uppercase tracking-widest font-bold">Fat</div>
+                                </div>
+                            </div>
+
+                            {/* Quantity Input Section */}
+                            <div className="bg-white/5 rounded-2xl p-4 mb-6">
+                                <label className="text-gray-400 text-xs font-bold uppercase tracking-widest mb-3 block text-center">
+                                    {t('portionSize')}
+                                </label>
+
+                                {/* Unit Toggle */}
+                                <div className="flex bg-black/40 p-1 rounded-xl mb-4">
                                     <button
-                                        onClick={() => setEditingLog(null)}
-                                        className="flex-1 py-3 rounded-xl bg-gray-800 hover:bg-gray-700 text-gray-300 font-medium transition-colors"
+                                        onClick={() => {
+                                            // Serving logic: parse serving_size string "30 g" -> 30, or default 100
+                                            if (scannedFood!.serving_size) {
+                                                const match = scannedFood!.serving_size.match(/(\d+(\.\d+)?)/);
+                                                if (match) setScannedGrams(parseFloat(match[0]));
+                                            }
+                                        }}
+                                        className={`flex-1 py-2 rounded-lg text-sm font-bold transition-all ${(scannedFood!.serving_size && scannedGrams === parseFloat(scannedFood!.serving_size.match(/(\d+(\.\d+)?)/)?.[0] || '0'))
+                                            ? 'bg-cyan-600 text-white shadow-lg'
+                                            : 'text-gray-400 hover:text-white'
+                                            }`}
                                     >
-                                        {tCommon('cancel')}
+                                        1 Serving ({scannedFood!.serving_size || t('unknown')})
                                     </button>
                                     <button
-                                        onClick={updateLog}
-                                        className="flex-1 py-3 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-400 hover:to-cyan-400 text-white font-bold shadow-lg shadow-blue-500/20 transition-all hover:scale-[1.02]"
+                                        onClick={() => setScannedGrams(100)} // Reset to 100g base for custom entry
+                                        className={`flex-1 py-2 rounded-lg text-sm font-bold transition-all ${(!scannedFood!.serving_size || scannedGrams !== parseFloat(scannedFood!.serving_size.match(/(\d+(\.\d+)?)/)?.[0] || '0'))
+                                            ? 'bg-cyan-600 text-white shadow-lg'
+                                            : 'text-gray-400 hover:text-white'
+                                            }`}
                                     >
-                                        {tCommon('save')}
+                                        {t('custom')} (g)
                                     </button>
                                 </div>
+
+                                <div className="relative">
+                                    <input
+                                        type="number"
+                                        inputMode="decimal"
+                                        className="w-full bg-black/40 border-2 border-transparent focus:border-cyan-500 rounded-xl px-4 py-4 text-center text-3xl font-bold text-white outline-none transition-all placeholder-gray-600"
+                                        value={scannedGrams || ''}
+                                        onChange={(e) => setScannedGrams(parseFloat(e.target.value) || 0)}
+                                        placeholder="0"
+                                    />
+                                    <span className="absolute right-6 top-1/2 -translate-y-1/2 text-gray-500 font-bold">g</span>
+                                </div>
+                            </div>
+
+                            <div className="mt-8 bg-white/5 rounded-2xl p-4">
+                                <h4 className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-4 flex items-center gap-2">
+                                    <Info className="w-4 h-4" /> Product Analysis
+                                </h4>
+
+                                {/* Quality Badges */}
+                                <div className="flex gap-4 mb-6">
+                                    {scannedFood!.nutriscore && (
+                                        <div className="flex-1 bg-black/40 rounded-xl p-3 flex flex-col items-center justify-center">
+                                            <div className="text-xs text-gray-500 mb-1">Nutri-Score</div>
+                                            <div className={`text-2xl font-black ${['a', 'b'].includes(scannedFood!.nutriscore!.toLowerCase()) ? 'text-green-500' :
+                                                scannedFood!.nutriscore!.toLowerCase() === 'c' ? 'text-yellow-500' :
+                                                    'text-red-500'
+                                                }`}>
+                                                {scannedFood!.nutriscore!.toUpperCase()}
+                                            </div>
+                                        </div>
+                                    )}
+                                    {scannedFood!.nova_group && (
+                                        <div className="flex-1 bg-black/40 rounded-xl p-3 flex flex-col items-center justify-center">
+                                            <div className="text-xs text-gray-500 mb-1">NOVA</div>
+                                            <div className={`text-2xl font-black ${scannedFood!.nova_group === 1 ? 'text-green-500' :
+                                                scannedFood!.nova_group === 2 ? 'text-yellow-500' :
+                                                    scannedFood!.nova_group === 3 ? 'text-orange-500' : 'text-red-500'
+                                                }`}>
+                                                {scannedFood!.nova_group}
+                                            </div>
+                                        </div>
+                                    )}
+                                </div>
+
+                                {/* Detailed Analysis */}
+                                {scannedFood!.nutrient_levels && (
+                                    <div className="space-y-2 mb-6">
+                                        {Object.entries(scannedFood!.nutrient_levels!).map(([key, level]) => {
+                                            const isHigh = level === 'high';
+                                            // Skip moderate for brevity if needed, or show all
+                                            if (level === 'moderate') return null;
+
+                                            return (
+                                                <div key={key} className="flex items-center gap-3 p-2 rounded-lg bg-black/20">
+                                                    {isHigh ? (
+                                                        paramIsBadIfHigh(key) ? <AlertCircle className="w-5 h-5 text-red-500" /> : <CheckCircle className="w-5 h-5 text-green-500" />
+                                                    ) : (
+                                                        <CheckCircle className="w-5 h-5 text-green-500" />
+                                                    )}
+                                                    <div className="flex-1">
+                                                        <div className="text-sm font-medium capitalize text-gray-200">
+                                                            {key.replace('-', ' ')}
+                                                        </div>
+                                                        <div className={`text-xs ${isHigh && paramIsBadIfHigh(key) ? 'text-red-400' : 'text-gray-500'}`}>
+                                                            {level.toUpperCase()}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            );
+                                        })}
+                                    </div>
+                                )}
+
+                                {/* Ingredients */}
+                                {scannedFood!.ingredients_text && (
+                                    <div>
+                                        <div className="text-xs text-gray-500 mb-2">INGREDIENTS</div>
+                                        <p className="text-sm text-gray-300 leading-relaxed text-justify text-[13px]">
+                                            {scannedFood!.ingredients_text}
+                                        </p>
+                                    </div>
+                                )}
+                            </div>
+
+                            {/* Add Button Sticky at Bottom */}
+                            <div className="sticky bottom-0 pt-4 bg-gradient-to-t from-[#0a0a0f] to-transparent pb-safe-area-inset-bottom">
+                                <button
+                                    onClick={addScannedToLog}
+                                    disabled={!scannedGrams || scannedGrams <= 0}
+                                    className="w-full py-4 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-xl font-bold text-lg text-white shadow-lg shadow-cyan-900/40 disabled:opacity-50 disabled:grayscale transition-all active:scale-[0.98]"
+                                >
+                                    {t('addToLog')}
+                                </button>
                             </div>
                         </div>
                     </div>
                 )
             }
-        </div >
+        </>
     );
 }
