@@ -44,7 +44,8 @@
     "groceryList": "Grocery List",
     "forum": "Community Forum",
     "adminPanel": "Admin Panel",
-    "profile": "Profile"
+    "profile": "Profile",
+    "macros": "Food"
   },
   "auth": {
     "signIn": "Sign In",

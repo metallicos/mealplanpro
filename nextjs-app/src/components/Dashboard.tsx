@@ -250,7 +250,7 @@ export default function Dashboard() {
               <Sparkles size={28} />
             </div>
             <div>
-              <h3 className="text-lg font-bold text-white mb-1">Universal Scanner</h3>
+              <h3 className="text-lg font-bold text-white mb-1">Home & Health Scanner</h3>
               <p className="text-xs text-gray-400">Cosmetics, Household & more</p>
             </div>
             <div className="ml-auto bg-white/10 p-2 rounded-full">
