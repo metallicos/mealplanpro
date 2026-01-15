@@ -1107,12 +1107,7 @@ export default function MacrosPage() {
                                                 {scannedFood!.nova_group}
                                             </span>
                                             <span className="text-[9px] text-gray-400 uppercase font-bold text-center mt-1 leading-tight max-w-[80%]">
-                                                {
-                                                    scannedFood!.nova_group === 1 ? 'Unprocessed' :
-                                                        scannedFood!.nova_group === 2 ? 'Ingredient' :
-                                                            scannedFood!.nova_group === 3 ? 'Processed' :
-                                                                'Ultra Processed'
-                                                }
+                                                {t(`nova.badge.${scannedFood!.nova_group}`)}
                                             </span>
                                         </div>
                                     )}
@@ -1224,22 +1219,24 @@ export default function MacrosPage() {
                     >
                         <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
                             <Info className="w-5 h-5 text-gray-400" />
-                            NOVA Groups
+                            {t('nova.title')}
                         </h3>
                         <div className="space-y-3">
                             {[
-                                { group: 1, color: 'text-green-400', bg: 'bg-green-500/10', border: 'border-green-500/20', label: 'Unprocessed or Minimally Processed', desc: 'Fruits, vegetables, eggs, milk, plain yogurt.' },
-                                { group: 2, color: 'text-yellow-400', bg: 'bg-yellow-500/10', border: 'border-yellow-500/20', label: 'Processed Culinary Ingredients', desc: 'Oils, butter, sugar, salt, spices.' },
-                                { group: 3, color: 'text-orange-400', bg: 'bg-orange-500/10', border: 'border-orange-500/20', label: 'Processed Foods', desc: 'Canned vegetables, cheese, fresh bread.' },
-                                { group: 4, color: 'text-red-400', bg: 'bg-red-500/10', border: 'border-red-500/20', label: 'Ultra-Processed Products', desc: 'Soft drinks, packaged snacks, reconstituted meat.' }
+                                { group: 1, color: 'text-green-400', bg: 'bg-green-500/10', border: 'border-green-500/20' },
+                                { group: 2, color: 'text-yellow-400', bg: 'bg-yellow-500/10', border: 'border-yellow-500/20' },
+                                { group: 3, color: 'text-orange-400', bg: 'bg-orange-500/10', border: 'border-orange-500/20' },
+                                { group: 4, color: 'text-red-400', bg: 'bg-red-500/10', border: 'border-red-500/20' }
                             ].map(nova => (
                                 <div key={nova.group} className={`p-3 rounded-xl border ${nova.border} ${nova.bg}`}>
                                     <div className="flex items-center gap-3 mb-1">
                                         <span className={`text-xl font-black ${nova.color}`}>{nova.group}</span>
-                                        <span className={`text-sm font-bold ${nova.color}`}>{nova.label}</span>
+                                        <span className={`text-sm font-bold ${nova.color}`}>
+                                            {t(`nova.groups.${nova.group}.label`)}
+                                        </span>
                                     </div>
                                     <p className="text-xs text-gray-400 leading-relaxed ml-7">
-                                        {nova.desc}
+                                        {t(`nova.groups.${nova.group}.desc`)}
                                     </p>
                                 </div>
                             ))}

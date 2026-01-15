@@ -166,7 +166,34 @@
         "custom": "Personnalisé",
         "editLogEntry": "Modifier l'Entrée",
         "editLogHint": "Ajuster la portion recalculera les macros.",
-        "weightPlaceholder": "ex: 70.5"
+        "weightPlaceholder": "ex: 70.5",
+        "nova": {
+            "title": "Groupes NOVA",
+            "groups": {
+                "1": {
+                    "label": "Peu ou pas transformé",
+                    "desc": "Fruits, légumes, œufs, lait, yaourt nature."
+                },
+                "2": {
+                    "label": "Ingrédients Culinaires Transformés",
+                    "desc": "Huiles, beurre, sucre, sel, épices."
+                },
+                "3": {
+                    "label": "Aliments Transformés",
+                    "desc": "Légumes en conserve, fromage, pain frais."
+                },
+                "4": {
+                    "label": "Produits Ultra-Transformés",
+                    "desc": "Sodas, snacks emballés, viande reconstituée."
+                }
+            },
+            "badge": {
+                "1": "Non Transformé",
+                "2": "Ingrédient",
+                "3": "Transformé",
+                "4": "Ultra Transformé"
+            }
+        }
     },
     "fasting": {
         "title": "Centre de Jeûne",

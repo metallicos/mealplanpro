@@ -166,7 +166,34 @@
     "custom": "Custom",
     "editLogEntry": "Edit Log Entry",
     "editLogHint": "Adjusting portion size will recalculate macros.",
-    "weightPlaceholder": "e.g., 70.5"
+    "weightPlaceholder": "e.g., 70.5",
+    "nova": {
+      "title": "NOVA Groups",
+      "groups": {
+        "1": {
+          "label": "Unprocessed or Minimally Processed",
+          "desc": "Fruits, vegetables, eggs, milk, plain yogurt."
+        },
+        "2": {
+          "label": "Processed Culinary Ingredients",
+          "desc": "Oils, butter, sugar, salt, spices."
+        },
+        "3": {
+          "label": "Processed Foods",
+          "desc": "Canned vegetables, cheese, fresh bread."
+        },
+        "4": {
+          "label": "Ultra-Processed Products",
+          "desc": "Soft drinks, packaged snacks, reconstituted meat."
+        }
+      },
+      "badge": {
+        "1": "Unprocessed",
+        "2": "Ingredient",
+        "3": "Processed",
+        "4": "Ultra Processed"
+      }
+    }
   },
   "fasting": {
     "title": "Fasting Hub",
