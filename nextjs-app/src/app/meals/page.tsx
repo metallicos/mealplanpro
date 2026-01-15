@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import {
     Search, X, Leaf, Globe, CakeSlice, Moon, Folder,
@@ -141,6 +141,9 @@ export default function MealsPage() {
     const [selectedSubcategory, setSelectedSubcategory] = useState<string>('all');
     const [showHealthyOnly, setShowHealthyOnly] = useState(false);
 
+    // Ref to track first render for filters
+    const isFirstRender = useRef(true);
+
     // Categories
     const [categories, setCategories] = useState<Category[]>([]);
     const [subcategories, setSubcategories] = useState<Subcategory[]>([]);
@@ -230,12 +233,17 @@ export default function MealsPage() {
 
     // Reset subcategory when category changes
     useEffect(() => {
+        if (isFirstRender.current) return;
         setSelectedSubcategory('all');
         setPageState(1);
     }, [selectedCategory]);
 
     // Reset page on filter changes
     useEffect(() => {
+        if (isFirstRender.current) {
+            isFirstRender.current = false;
+            return;
+        }
         setPageState(1);
     }, [showHealthyOnly, selectedSubcategory]);
 
