@@ -28,22 +28,32 @@ export async function GET(request: Request) {
         const p = data.product;
 
         // Count additives (e.g. number of ingredients starting with 'e' or known additives)
-        // OBF usually provides 'additives_n' or 'additives_tags'
         const additivesCount = p.additives_n || p.additives_tags?.length || 0;
+
+        // Better ingredients extraction
+        const ingredientsText = p.ingredients_text ||
+            p.ingredients_text_en ||
+            p.ingredients_text_fr ||
+            p.ingredients_text_with_allergens ||
+            null;
 
         // Check for specific tags
         const isVegan = p.ingredients_analysis_tags?.includes('en:vegan') ||
-            p.ingredients_analysis_tags?.includes('en:vegan-status-unknown'); // Optimistic or just check tags
+            p.ingredients_analysis_tags?.includes('en:vegan-status-unknown') ||
+            p.labels_tags?.includes('en:vegan') ||
+            false;
+
         const hasPalmOil = p.ingredients_from_palm_oil_n > 0 ||
             p.ingredients_from_or_that_may_be_from_palm_oil_n > 0;
 
         const product = {
             barcode: p.code,
-            name: p.product_name || 'Unknown Product',
+            name: p.product_name || p.product_name_en || p.product_name_fr || 'Unknown Product',
             brand: p.brands || p.brands_tags?.[0] || 'Unknown Brand',
-            image_url: p.image_front_url || p.image_small_url || null,
+            image_url: p.image_front_url || p.image_small_url || p.image_url || null,
+            image_ingredients_url: p.image_ingredients_url || null,
             quantity: p.quantity || null,
-            ingredients_text: p.ingredients_text || null,
+            ingredients_text: ingredientsText,
             additives_count: additivesCount,
             has_palm_oil: hasPalmOil,
             is_vegan: isVegan,

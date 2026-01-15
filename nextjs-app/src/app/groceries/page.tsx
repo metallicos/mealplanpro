@@ -9,8 +9,9 @@ import {
     Plus, Check, AlertTriangle, Calendar, DollarSign,
     Package, List, Edit2, Beef, Wheat, Carrot, Apple,
     Milk, Droplet, Utensils, Coffee, Cookie, CakeSlice,
-    SprayCan, Smile, Baby, Dog, Box, Scan, X, Info
+    SprayCan, Smile, Baby, Dog, Box, Scan, X, Info, Camera
 } from 'lucide-react';
+import { Suspense } from 'react';
 import CustomSelect from '@/components/ui/CustomSelect';
 import BarcodeScanner from '@/components/BarcodeScanner';
 
@@ -1326,16 +1327,25 @@ export default function GroceriesPage() {
             {/* Cosmetic Scanner Modal */}
             {
                 showScanner && (
-                    <div className="fixed inset-0 z-[100] flex flex-col bg-black">
-                        <BarcodeScanner
-                            onScanResult={(data) => {
-                                setScannedBeautyProduct(data);
-                                setShowScanner(false);
-                            }}
-                            onClose={() => setShowScanner(false)}
-                            apiEndpoint="/api/beauty"
-                        />
-                    </div>
+                    <Suspense fallback={
+                        <div className="fixed inset-0 bg-black/90 z-[100] flex items-center justify-center">
+                            <div className="text-white text-center">
+                                <div className="text-4xl mb-4 flex justify-center"><Camera className="w-12 h-12 w-12 h-12 animate-pulse" /></div>
+                                <p>Loading camera...</p>
+                            </div>
+                        </div>
+                    }>
+                        <div className="fixed inset-0 z-[100] flex flex-col bg-black">
+                            <BarcodeScanner
+                                onScanResult={(data) => {
+                                    setScannedBeautyProduct(data);
+                                    setShowScanner(false);
+                                }}
+                                onClose={() => setShowScanner(false)}
+                                apiEndpoint="/api/beauty"
+                            />
+                        </div>
+                    </Suspense>
                 )
             }
 
@@ -1422,9 +1432,28 @@ export default function GroceriesPage() {
                                                 {scannedBeautyProduct.ingredients_text}
                                             </p>
                                         </div>
+                                    ) : scannedBeautyProduct.image_ingredients_url ? (
+                                        <div className="bg-white/5 rounded-xl p-4 border border-white/5">
+                                            <h4 className="text-xs uppercase text-gray-500 font-bold mb-2 flex items-center gap-2">
+                                                <List className="w-3 h-3" /> Ingredients (Image)
+                                            </h4>
+                                            <img
+                                                src={scannedBeautyProduct.image_ingredients_url}
+                                                alt="Ingredients List"
+                                                className="w-full rounded-lg opacity-80 hover:opacity-100 transition-opacity"
+                                            />
+                                        </div>
                                     ) : (
-                                        <div className="text-center py-4">
-                                            <p className="text-sm text-gray-500 italic">No ingredients list available.</p>
+                                        <div className="text-center py-8 opacity-50">
+                                            <p className="italic">No ingredients list available.</p>
+                                            <a
+                                                href={`https://world.openbeautyfacts.org/product/${scannedBeautyProduct.barcode}`}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="text-xs text-purple-400 hover:text-purple-300 mt-2 inline-block underline"
+                                            >
+                                                View on OpenBeautyFacts
+                                            </a>
                                         </div>
                                     )}
 
