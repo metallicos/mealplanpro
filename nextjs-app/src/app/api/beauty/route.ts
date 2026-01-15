@@ -15,7 +15,7 @@ interface EnrichedProduct {
     categories: string;
     source: 'beauty' | 'product' | 'food';
     score: number;
-    risk_level: 'excellent' | 'good' | 'poor' | 'bad';
+    risk_level: 'excellent' | 'good' | 'poor' | 'bad' | 'unknown';
     analysis: {
         positives: string[];
         negatives: string[];
@@ -38,7 +38,13 @@ async function fetchFromAPI(domain: string, barcode: string): Promise<any | null
 }
 
 // Scoring Engine (Yuka-style approximation)
-function calculateScore(p: any): { score: number, positives: string[], negatives: string[] } {
+function calculateScore(p: any): { score: number | null, positives: string[], negatives: string[] } {
+    // If we have absolutely no data to judge, return null score
+    // Checks for empty ingredients text AND empty additives tags AND no NutriScore data
+    if (!p.ingredients_text && (!p.additives_tags || p.additives_tags.length === 0) && !p.nutriscore_data) {
+        return { score: null, positives: [], negatives: [] };
+    }
+
     let score = 100;
     const positives: string[] = [];
     const negatives: string[] = [];
@@ -60,14 +66,15 @@ function calculateScore(p: any): { score: number, positives: string[], negatives
         score -= (additives.length * 5);
         if (additives.length > 3) negatives.push(`${additives.length} Additives (Moderate Risk)`);
     } else {
-        positives.push('No Additives');
+        positives.push('No Additives Found');
     }
 
     // 2. Palm Oil
     if (p.ingredients_from_palm_oil_n > 0 || p.ingredients_from_or_that_may_be_from_palm_oil_n > 0) {
         score -= 15;
         negatives.push('Contains Palm Oil');
-    } else {
+    } else if (p.ingredients_text) {
+        // Only credit "Palm Oil Free" if we actually have ingredients to check
         positives.push('Palm Oil Free');
     }
 
@@ -90,6 +97,12 @@ function calculateScore(p: any): { score: number, positives: string[], negatives
     }
     if (p.labels_tags?.includes('en:vegan')) {
         positives.push('Vegan');
+    }
+
+    // If we only have a name/image but NO analysis data, fallback to unknown
+    // Double check to ensure we don't give a 100 score for nothing
+    if (positives.length === 0 && negatives.length === 0) {
+        return { score: null, positives: [], negatives: [] };
     }
 
     // Clamp score
@@ -135,9 +148,12 @@ export async function GET(request: Request) {
     const p = productData;
     const { score, positives, negatives } = calculateScore(p);
 
-    const riskLevel = score >= 75 ? 'excellent' :
-        score >= 50 ? 'good' :
-            score >= 25 ? 'poor' : 'bad';
+    let riskLevel = 'unknown';
+    if (score !== null) {
+        riskLevel = score >= 75 ? 'excellent' :
+            score >= 50 ? 'good' :
+                score >= 25 ? 'poor' : 'bad';
+    }
 
     const ingredientsText = p.ingredients_text ||
         p.ingredients_text_en ||
@@ -157,8 +173,8 @@ export async function GET(request: Request) {
         is_vegan: p.labels_tags?.includes('en:vegan') || false,
         categories: p.categories || '',
         source,
-        score,
-        risk_level: riskLevel,
+        score: score ?? -1, // Use -1 to represent unknown/null on frontend
+        risk_level: riskLevel as any,
         analysis: { positives, negatives }
     };
 

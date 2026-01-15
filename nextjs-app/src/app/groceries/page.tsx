@@ -1398,21 +1398,23 @@ export default function GroceriesPage() {
                                     <div className="flex items-center justify-between mb-6 bg-white/5 p-4 rounded-2xl border border-white/10">
                                         <div className="flex items-center gap-4">
                                             {/* Score Circle */}
-                                            <div className={`w-16 h-16 rounded-full flex items-center justify-center border-4 text-xl font-black ${scannedBeautyProduct.score >= 75 ? 'border-green-500 text-green-400' :
+                                            <div className={`w-16 h-16 rounded-full flex items-center justify-center border-4 text-xl font-black ${scannedBeautyProduct.score === -1 ? 'border-gray-500 text-gray-400' :
+                                                scannedBeautyProduct.score >= 75 ? 'border-green-500 text-green-400' :
                                                     scannedBeautyProduct.score >= 50 ? 'border-yellow-500 text-yellow-400' :
                                                         scannedBeautyProduct.score >= 25 ? 'border-orange-500 text-orange-400' :
                                                             'border-red-500 text-red-500'
                                                 }`}>
-                                                {scannedBeautyProduct.score}
+                                                {scannedBeautyProduct.score === -1 ? '?' : scannedBeautyProduct.score}
                                             </div>
                                             <div>
                                                 <div className="text-xs uppercase text-gray-500 font-bold tracking-wider mb-0.5">Safety Score</div>
-                                                <div className={`text-lg font-bold capitalize ${scannedBeautyProduct.score >= 75 ? 'text-green-400' :
+                                                <div className={`text-lg font-bold capitalize ${scannedBeautyProduct.score === -1 ? 'text-gray-400' :
+                                                    scannedBeautyProduct.score >= 75 ? 'text-green-400' :
                                                         scannedBeautyProduct.score >= 50 ? 'text-yellow-400' :
                                                             scannedBeautyProduct.score >= 25 ? 'text-orange-400' :
                                                                 'text-red-500'
                                                     }`}>
-                                                    {scannedBeautyProduct.risk_level}
+                                                    {scannedBeautyProduct.risk_level === 'unknown' ? 'Insufficient Data' : scannedBeautyProduct.risk_level}
                                                 </div>
                                             </div>
                                         </div>
@@ -1445,6 +1447,11 @@ export default function GroceriesPage() {
                                                 <span>{item}</span>
                                             </div>
                                         ))}
+                                        {scannedBeautyProduct.score === -1 && (
+                                            <div className="text-sm text-gray-500 italic p-2 text-center">
+                                                Not enough information to calculate a safety score.
+                                            </div>
+                                        )}
                                     </div>
 
                                     {/* Ingredients */}
@@ -1472,12 +1479,12 @@ export default function GroceriesPage() {
                                         <div className="text-center py-8 opacity-50">
                                             <p className="italic">No ingredients list available.</p>
                                             <a
-                                                href={`https://world.openbeautyfacts.org/product/${scannedBeautyProduct.barcode}`}
+                                                href={`https://world.open${scannedBeautyProduct.source === 'beauty' ? 'beauty' : scannedBeautyProduct.source === 'product' ? 'products' : 'food'}facts.org/product/${scannedBeautyProduct.barcode}`}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 className="text-xs text-purple-400 hover:text-purple-300 mt-2 inline-block underline"
                                             >
-                                                View on OpenBeautyFacts
+                                                View on Open{scannedBeautyProduct.source === 'beauty' ? 'Beauty' : scannedBeautyProduct.source === 'product' ? 'Products' : 'Food'}Facts
                                             </a>
                                         </div>
                                     )}
