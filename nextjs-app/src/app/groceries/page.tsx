@@ -9,9 +9,10 @@ import {
     Plus, Check, AlertTriangle, Calendar, DollarSign,
     Package, List, Edit2, Beef, Wheat, Carrot, Apple,
     Milk, Droplet, Utensils, Coffee, Cookie, CakeSlice,
-    SprayCan, Smile, Baby, Dog, Box
+    SprayCan, Smile, Baby, Dog, Box, Scan, X, Info
 } from 'lucide-react';
 import CustomSelect from '@/components/ui/CustomSelect';
+import BarcodeScanner from '@/components/BarcodeScanner';
 
 interface GroceryItem extends Omit<GroceryItemTemplate, 'id'> {
     id: number;
@@ -100,6 +101,8 @@ export default function GroceriesPage() {
     const [selectedItems, setSelectedItems] = useState<Set<string>>(new Set());
     const [isLoaded, setIsLoaded] = useState(false);
     const [isSaving, setIsSaving] = useState(false);
+    const [showScanner, setShowScanner] = useState(false);
+    const [scannedBeautyProduct, setScannedBeautyProduct] = useState<any | null>(null);
     const saveTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
     // Load from database
@@ -663,6 +666,13 @@ export default function GroceriesPage() {
                     </div>
 
                     <div className="flex gap-2 sm:ml-auto">
+                        <button
+                            onClick={() => setShowScanner(true)}
+                            className="bg-gradient-to-r from-pink-600 to-purple-600 text-white rounded-xl flex-1 sm:flex-none text-sm flex items-center justify-center gap-2 px-4 shadow-lg shadow-pink-900/40 hover:scale-105 transition-transform group"
+                        >
+                            <Scan className="w-4 h-4 group-hover:rotate-12 transition-transform" />
+                            <span className="hidden sm:inline">Check Product</span>
+                        </button>
                         <button onClick={handlePrint} className="btn-secondary flex-1 sm:flex-none text-sm flex items-center justify-center gap-2">
                             <Printer className="w-4 h-4" /> <span className="hidden sm:inline">{t('print')}</span>
                         </button>
@@ -1312,6 +1322,118 @@ export default function GroceriesPage() {
                     </tbody>
                 </table>
             </div>
+
+            {/* Cosmetic Scanner Modal */}
+            {
+                showScanner && (
+                    <div className="fixed inset-0 z-[100] flex flex-col bg-black">
+                        <BarcodeScanner
+                            onScanResult={(data) => {
+                                setScannedBeautyProduct(data);
+                                setShowScanner(false);
+                            }}
+                            onClose={() => setShowScanner(false)}
+                            apiEndpoint="/api/beauty"
+                        />
+                    </div>
+                )
+            }
+
+            {/* Cosmetic Product Result Modal */}
+            {
+                scannedBeautyProduct && (
+                    <div className="fixed inset-0 z-[101] overflow-y-auto overflow-x-hidden">
+                        <div
+                            className="fixed inset-0 bg-black/80 backdrop-blur-xl animate-fade-in"
+                            onClick={() => setScannedBeautyProduct(null)}
+                        />
+
+                        <div className="min-h-full flex items-center justify-center p-4 pt-20 sm:pt-4 pointer-events-none">
+                            <div className="relative w-full max-w-md bg-[#181824] border border-white/10 shadow-2xl rounded-3xl overflow-hidden animate-scale-up pointer-events-auto">
+
+                                {/* Header Image */}
+                                <div className="relative h-48 bg-gradient-to-b from-gray-800 to-[#181824] flex items-center justify-center overflow-hidden">
+                                    {scannedBeautyProduct.image_url ? (
+                                        <>
+                                            <div
+                                                className="absolute inset-0 bg-cover bg-center opacity-30 blur-md"
+                                                style={{ backgroundImage: `url(${scannedBeautyProduct.image_url})` }}
+                                            />
+                                            <img
+                                                src={scannedBeautyProduct.image_url}
+                                                alt={scannedBeautyProduct.name}
+                                                className="relative z-10 h-full w-auto object-contain p-4 drop-shadow-2xl"
+                                            />
+                                        </>
+                                    ) : (
+                                        <SprayCan className="w-16 h-16 text-gray-600" />
+                                    )}
+                                    <button
+                                        onClick={() => setScannedBeautyProduct(null)}
+                                        className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-md hover:bg-black/60 transition-colors z-20"
+                                    >
+                                        <X className="w-5 h-5" />
+                                    </button>
+                                </div>
+
+                                <div className="p-6">
+                                    <div className="text-center mb-6">
+                                        <h3 className="text-2xl font-bold text-white mb-1 leading-tight">{scannedBeautyProduct.name}</h3>
+                                        {scannedBeautyProduct.brand && (
+                                            <p className="text-purple-400 font-medium">{scannedBeautyProduct.brand}</p>
+                                        )}
+                                    </div>
+
+                                    {/* Analysis Grid */}
+                                    <div className="grid grid-cols-2 gap-4 mb-6">
+                                        <div className={`p-4 rounded-2xl border flex flex-col items-center justify-center text-center ${scannedBeautyProduct.additives_count === 0 ? 'bg-green-500/10 border-green-500/20 text-green-400' :
+                                            scannedBeautyProduct.additives_count < 3 ? 'bg-green-500/10 border-green-500/20 text-green-400' :
+                                                scannedBeautyProduct.additives_count < 6 ? 'bg-yellow-500/10 border-yellow-500/20 text-yellow-400' :
+                                                    'bg-red-500/10 border-red-500/20 text-red-400'
+                                            }`}>
+                                            <span className="text-3xl font-black mb-1">{scannedBeautyProduct.additives_count}</span>
+                                            <span className="text-xs uppercase font-bold tracking-wider">Additives</span>
+                                        </div>
+
+                                        <div className={`p-4 rounded-2xl border flex flex-col items-center justify-center text-center ${scannedBeautyProduct.has_palm_oil ? 'bg-red-500/10 border-red-500/20 text-red-400' :
+                                            'bg-green-500/10 border-green-500/20 text-green-400'
+                                            }`}>
+                                            {scannedBeautyProduct.has_palm_oil ? (
+                                                <>
+                                                    <AlertTriangle className="w-8 h-8 mb-1" />
+                                                    <span className="text-xs uppercase font-bold tracking-wider">Palm Oil</span>
+                                                </>
+                                            ) : (
+                                                <>
+                                                    <Check className="w-8 h-8 mb-1" />
+                                                    <span className="text-xs uppercase font-bold tracking-wider">No Palm Oil</span>
+                                                </>
+                                            )}
+                                        </div>
+                                    </div>
+
+                                    {/* Ingredients */}
+                                    {scannedBeautyProduct.ingredients_text ? (
+                                        <div className="bg-white/5 rounded-xl p-4 border border-white/5">
+                                            <h4 className="text-xs uppercase text-gray-500 font-bold mb-2 flex items-center gap-2">
+                                                <List className="w-3 h-3" /> Ingredients
+                                            </h4>
+                                            <p className="text-xs text-gray-300 leading-relaxed font-mono">
+                                                {scannedBeautyProduct.ingredients_text}
+                                            </p>
+                                        </div>
+                                    ) : (
+                                        <div className="text-center py-4">
+                                            <p className="text-sm text-gray-500 italic">No ingredients list available.</p>
+                                        </div>
+                                    )}
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                )
+            }
         </div>
     );
 }

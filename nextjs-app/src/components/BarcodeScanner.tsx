@@ -48,11 +48,12 @@ interface NutritionData {
 }
 
 interface BarcodeScannerProps {
-    onScanResult: (data: NutritionData) => void;
+    onScanResult: (data: any) => void;
     onClose: () => void;
+    apiEndpoint?: string;
 }
 
-export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScannerProps) {
+export default function BarcodeScanner({ onScanResult, onClose, apiEndpoint = '/api/nutrition' }: BarcodeScannerProps) {
     const [mode, setMode] = useState<'camera' | 'manual'>('camera');
     const [barcodeInput, setBarcodeInput] = useState('');
     const [isProcessing, setIsProcessing] = useState(false);
@@ -175,7 +176,7 @@ export default function BarcodeScanner({ onScanResult, onClose }: BarcodeScanner
         if (navigator.vibrate) navigator.vibrate(200);
 
         try {
-            const response = await fetch(`/api/nutrition?barcode=${barcode}`);
+            const response = await fetch(`${apiEndpoint}?barcode=${barcode}`);
             const data = await response.json();
 
             if (data.found) {
