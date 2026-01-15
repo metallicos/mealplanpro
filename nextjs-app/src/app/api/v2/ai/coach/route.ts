@@ -44,6 +44,8 @@ export async function POST(request: NextRequest) {
         const body = await request.json().catch(() => ({}));
         const locale = body.locale || 'en';
         const crossfitLevel = body.crossfit_level || null;
+        const gymWorkoutType = body.gym_workout_type || null;
+        const muscleGroup = body.muscle_group || null;
 
         // Get today's check-in (mood, sleep, sport type preference)
         const checkins = await query('SELECT * FROM daily_checkins WHERE user_id = ? AND date = ?', [session.id, today]);
@@ -76,6 +78,27 @@ export async function POST(request: NextRequest) {
 
         // Check if this is a CrossFit workout
         const isCrossfit = sportType === 'crossfit' && crossfitLevel;
+
+        // Check if this is a gym/musculation workout with specific options
+        const isGym = sportType === 'gym' && gymWorkoutType;
+
+        // Map muscle group to workout focus
+        const muscleGroupMap: Record<string, string> = {
+            'push': 'PUSH DAY - Focus on Chest, Shoulders, and Triceps',
+            'pull': 'PULL DAY - Focus on Back and Biceps',
+            'legs': 'LEG DAY - Focus on Quads, Hamstrings, Glutes, and Calves',
+            'upper': 'UPPER BODY - Full upper body workout',
+            'lower': 'LOWER BODY - Full lower body workout',
+            'arms': 'ARM DAY - Focus on Biceps and Triceps',
+            'chest': 'CHEST DAY - Focus on Pectorals',
+            'back': 'BACK DAY - Focus on Lats, Traps, and Rhomboids',
+            'shoulders': 'SHOULDER DAY - Focus on All Deltoid Heads',
+            'core': 'CORE DAY - Focus on Abs and Obliques',
+            'glutes': 'GLUTE DAY - Focus on Glute Max, Med, and Min',
+            'coach': 'COACH PICK - Choose the best muscle group based on their recent training'
+        };
+
+        const workoutFocus = muscleGroup ? muscleGroupMap[muscleGroup] || 'COACH PICK' : 'FULL BODY';
 
         // CrossFit-specific prompt
         const crossfitPrompt = `
@@ -170,10 +193,6 @@ You are Coach Alex, an elite personal trainer with 15 years of experience. You'r
 
 TODAY IS: ${dayOfWeek}
 
-You are Coach Alex, an elite personal trainer with 15 years of experience. You're warm, encouraging, but also push people to their limits. You speak like a real human coach - casual, motivating, sometimes funny.
-
-TODAY IS: ${dayOfWeek}
-
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 👤 YOUR CLIENT TODAY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -191,7 +210,14 @@ TODAY IS: ${dayOfWeek}
 • Training At: ${location.toUpperCase()}
 ${location === 'home' && equipmentList.length > 0 ? `• Equipment Available: ${equipmentList.join(', ')}` : ''}
 ${checkin.notes ? `• Notes From Client: "${checkin.notes}"` : ''}
-
+${isGym ? `
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🏋️ GYM WORKOUT REQUEST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Workout Type: ${gymWorkoutType === 'fullbody' ? 'FULL BODY' : 'SPLIT TRAINING'}
+${gymWorkoutType === 'split' ? `• SPECIFIC FOCUS: ${workoutFocus}
+• IMPORTANT: The client specifically requested this muscle group. You MUST create a workout targeting ONLY these muscles.` : '• Create a balanced full body workout hitting all major muscle groups.'}
+` : ''}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📅 RECENT TRAINING (Last 3 Sessions)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -202,8 +228,12 @@ Recent workout types: ${recentFocus}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🎯 YOUR MISSION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
+${isGym && gymWorkoutType === 'split' ? `
+**CRITICAL**: The client has specifically requested: ${workoutFocus}
+You MUST create a workout that targets ONLY these muscle groups. Do NOT include exercises for other body parts.
+` : `
 1. **DON'T REPEAT** - Look at their recent workouts. If they did legs yesterday, DO NOT give them legs today. Vary the muscle groups.
+`}
 
 2. **MATCH THEIR SPORT** - They chose ${sportType}. Design a workout that fits this:
    - gym = muscle building, compound lifts, isolation work

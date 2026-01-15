@@ -97,6 +97,10 @@ export default function CoachPage() {
     const [notes, setNotes] = useState('');
     const [crossfitLevel, setCrossfitLevel] = useState<'beginner' | 'intermediate' | 'advanced'>('intermediate');
 
+    // Gym/Musculation specific state
+    const [gymWorkoutType, setGymWorkoutType] = useState<'fullbody' | 'split'>('split');
+    const [muscleGroup, setMuscleGroup] = useState<string>('push');
+
     // Result State
     const [plan, setPlan] = useState<CoachPlan | null>(null);
 
@@ -192,7 +196,9 @@ export default function CoachPage() {
                 training_location: location,
                 equipment: location === 'home' ? equipment : [],
                 notes,
-                crossfit_level: sportType === 'crossfit' ? crossfitLevel : null
+                crossfit_level: sportType === 'crossfit' ? crossfitLevel : null,
+                gym_workout_type: sportType === 'gym' ? gymWorkoutType : null,
+                muscle_group: sportType === 'gym' && gymWorkoutType === 'split' ? muscleGroup : null
             })
         });
 
@@ -202,7 +208,9 @@ export default function CoachPage() {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     locale: locale || 'en',
-                    crossfit_level: sportType === 'crossfit' ? crossfitLevel : null
+                    crossfit_level: sportType === 'crossfit' ? crossfitLevel : null,
+                    gym_workout_type: sportType === 'gym' ? gymWorkoutType : null,
+                    muscle_group: sportType === 'gym' && gymWorkoutType === 'split' ? muscleGroup : null
                 })
             });
 
@@ -465,6 +473,81 @@ export default function CoachPage() {
                                         </button>
                                     ))}
                                 </div>
+                            </div>
+                        )}
+
+                        {/* Gym/Musculation Options - Only show when gym is selected */}
+                        {sportType === 'gym' && (
+                            <div className="animate-fade-in space-y-4">
+                                {/* Full Body vs Split */}
+                                <div>
+                                    <label className="text-sm font-medium text-gray-300 mb-3 block flex items-center gap-2">
+                                        <Dumbbell className="w-4 h-4 text-blue-400" />
+                                        Workout Type
+                                    </label>
+                                    <div className="grid grid-cols-2 gap-3">
+                                        <button
+                                            onClick={() => setGymWorkoutType('fullbody')}
+                                            className={`p-4 rounded-xl flex flex-col items-center gap-2 transition-all ${gymWorkoutType === 'fullbody'
+                                                ? 'text-white shadow-lg border-2 border-blue-500 bg-blue-600'
+                                                : 'bg-gray-800/50 hover:bg-gray-700/50 text-gray-300 border border-white/5'
+                                                }`}
+                                        >
+                                            <span className="text-2xl">🏋️</span>
+                                            <span className="text-sm font-bold">Full Body</span>
+                                            <span className="text-[10px] text-gray-400">Train everything</span>
+                                        </button>
+                                        <button
+                                            onClick={() => setGymWorkoutType('split')}
+                                            className={`p-4 rounded-xl flex flex-col items-center gap-2 transition-all ${gymWorkoutType === 'split'
+                                                ? 'text-white shadow-lg border-2 border-purple-500 bg-purple-600'
+                                                : 'bg-gray-800/50 hover:bg-gray-700/50 text-gray-300 border border-white/5'
+                                                }`}
+                                        >
+                                            <span className="text-2xl">💪</span>
+                                            <span className="text-sm font-bold">Split</span>
+                                            <span className="text-[10px] text-gray-400">Focus on one area</span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                {/* Muscle Group Selector - Only show when Split is selected */}
+                                {gymWorkoutType === 'split' && (
+                                    <div className="animate-fade-in">
+                                        <label className="text-sm font-medium text-gray-300 mb-3 block">
+                                            Which muscle group today?
+                                        </label>
+                                        <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
+                                            {[
+                                                { id: 'push', label: 'Push', emoji: '🫸', desc: 'Chest, Shoulders, Triceps' },
+                                                { id: 'pull', label: 'Pull', emoji: '🫷', desc: 'Back, Biceps' },
+                                                { id: 'legs', label: 'Legs', emoji: '🦵', desc: 'Quads, Hamstrings, Glutes' },
+                                                { id: 'upper', label: 'Upper', emoji: '💪', desc: 'Full Upper Body' },
+                                                { id: 'lower', label: 'Lower', emoji: '🦿', desc: 'Full Lower Body' },
+                                                { id: 'arms', label: 'Arms', emoji: '💪', desc: 'Biceps & Triceps' },
+                                                { id: 'chest', label: 'Chest', emoji: '🫁', desc: 'Pecs Focus' },
+                                                { id: 'back', label: 'Back', emoji: '🔙', desc: 'Lats, Traps, Rhomboids' },
+                                                { id: 'shoulders', label: 'Shoulders', emoji: '🏔️', desc: 'Delts Focus' },
+                                                { id: 'core', label: 'Core', emoji: '🎯', desc: 'Abs & Obliques' },
+                                                { id: 'glutes', label: 'Glutes', emoji: '🍑', desc: 'Booty Builder' },
+                                                { id: 'coach', label: 'Coach Pick', emoji: '🧠', desc: 'AI Decides' },
+                                            ].map(group => (
+                                                <button
+                                                    key={group.id}
+                                                    onClick={() => setMuscleGroup(group.id)}
+                                                    className={`p-3 rounded-xl flex flex-col items-center gap-1 transition-all ${muscleGroup === group.id
+                                                        ? 'text-white shadow-lg'
+                                                        : 'bg-gray-800/50 hover:bg-gray-700/50 text-gray-300 border border-white/5'
+                                                        }`}
+                                                    style={muscleGroup === group.id ? { background: 'var(--accent-primary)' } : {}}
+                                                >
+                                                    <span className="text-xl">{group.emoji}</span>
+                                                    <span className="text-xs font-bold">{group.label}</span>
+                                                </button>
+                                            ))}
+                                        </div>
+                                    </div>
+                                )}
                             </div>
                         )}
 
