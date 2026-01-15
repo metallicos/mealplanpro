@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import { useRouter, usePathname } from 'next/navigation';
+import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 import { Capacitor } from '@capacitor/core';
 import { App } from '@capacitor/app';
 
@@ -15,6 +15,7 @@ const EXIT_TIMEOUT = 2000;
 export function useBackButton() {
     const router = useRouter();
     const pathname = usePathname();
+    const searchParams = useSearchParams();
     const lastBackPressRef = useRef<number>(0);
     const toastTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
@@ -58,8 +59,29 @@ export function useBackButton() {
             // Pages where back should exit the app (dashboard is at root '/')
             const exitPages = ['/'];
 
-            // Pages where back should go to dashboard (root '/')
-            const toDashboardPages = ['/coach', '/fasting', '/macros', '/meals', '/statistics', '/profile'];
+            // Pages where back should go to dashboard (root '/') - except meals which has special handling
+            const toDashboardPages = ['/coach', '/fasting', '/macros', '/statistics', '/profile'];
+
+            // Special handling for meals page with pagination
+            if (pathname === '/meals') {
+                const currentPage = parseInt(searchParams.get('page') || '1', 10);
+                if (currentPage > 1) {
+                    // Go to previous page
+                    const prevPage = currentPage - 1;
+                    const newUrl = prevPage === 1 ? '/meals' : `/meals?page=${prevPage}`;
+                    router.push(newUrl);
+                    return;
+                }
+                // On page 1, go to dashboard
+                router.push('/');
+                return;
+            }
+
+            // For meal detail pages, use browser back (which preserves pagination)
+            if (pathname.startsWith('/meals/')) {
+                router.back();
+                return;
+            }
 
             if (exitPages.includes(pathname)) {
                 const now = Date.now();
@@ -91,7 +113,7 @@ export function useBackButton() {
                 clearTimeout(toastTimeoutRef.current);
             }
         };
-    }, [pathname, router]);
+    }, [pathname, router, searchParams]);
 }
 
 /**
@@ -101,3 +123,4 @@ export function BackButtonHandler({ children }: { children: React.ReactNode }) {
     useBackButton();
     return <>{children}</>;
 }
+

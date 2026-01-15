@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import {
     Search, X, Leaf, Globe, CakeSlice, Moon, Folder,
     ChevronLeft, ChevronRight, Utensils, Flame,
@@ -98,14 +98,52 @@ export default function MealsPage() {
     const tCommon = useTranslations('common');
     const locale = useLocale();
     const router = useRouter();
+    const searchParams = useSearchParams();
     const [recipes, setRecipes] = useState<Recipe[]>([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
 
-    // Pagination
-    const [page, setPage] = useState(1);
+    // Pagination - sync with URL
+    const urlPage = parseInt(searchParams.get('page') || '1', 10);
+    const [page, setPageState] = useState(urlPage);
     const [totalPages, setTotalPages] = useState(1);
     const [total, setTotal] = useState(0);
+
+    // Sync page state with URL on mount and URL changes
+    useEffect(() => {
+        const newPage = parseInt(searchParams.get('page') || '1', 10);
+        if (newPage !== page && newPage >= 1) {
+            setPageState(newPage);
+        }
+    }, [searchParams]);
+
+    // Function to update page - updates both state and URL
+    const setPage = useCallback((newPage: number | ((prev: number) => number)) => {
+        const nextPage = typeof newPage === 'function' ? newPage(page) : newPage;
+        if (nextPage >= 1) {
+            setPageState(nextPage);
+            // Update URL without full navigation (keeps scroll position)
+            const params = new URLSearchParams(searchParams.toString());
+            if (nextPage === 1) {
+                params.delete('page');
+            } else {
+                params.set('page', String(nextPage));
+            }
+            const newUrl = params.toString() ? `/meals?${params.toString()}` : '/meals';
+            router.push(newUrl, { scroll: false });
+        }
+    }, [page, router, searchParams]);
+
+    // Reset to page 1 (updates URL too)
+    const resetToFirstPage = useCallback(() => {
+        if (page !== 1) {
+            setPageState(1);
+            const params = new URLSearchParams(searchParams.toString());
+            params.delete('page');
+            const newUrl = params.toString() ? `/meals?${params.toString()}` : '/meals';
+            router.replace(newUrl, { scroll: false });
+        }
+    }, [page, router, searchParams]);
 
     // Filters
     const [searchQuery, setSearchQuery] = useState('');
@@ -131,10 +169,10 @@ export default function MealsPage() {
     useEffect(() => {
         const timer = setTimeout(() => {
             setDebouncedSearch(searchQuery);
-            setPage(1); // Reset to first page on search
+            if (searchQuery) resetToFirstPage(); // Reset to first page on search
         }, 300);
         return () => clearTimeout(timer);
-    }, [searchQuery]);
+    }, [searchQuery, resetToFirstPage]);
 
     // Fetch categories
     useEffect(() => {
@@ -193,12 +231,12 @@ export default function MealsPage() {
     // Reset subcategory when category changes
     useEffect(() => {
         setSelectedSubcategory('all');
-        setPage(1);
+        resetToFirstPage();
     }, [selectedCategory]);
 
     // Reset page on filter changes
     useEffect(() => {
-        setPage(1);
+        resetToFirstPage();
     }, [showHealthyOnly, selectedSubcategory]);
 
     // Fetch ratings when meal selected

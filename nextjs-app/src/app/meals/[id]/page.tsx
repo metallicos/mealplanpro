@@ -196,9 +196,12 @@ export default function MealDetailsPage() {
             </div>
 
             <div className="relative z-10 pt-[25vh] px-4 max-w-4xl mx-auto">
-                <Link href="/meals" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 bg-black/30 backdrop-blur-md px-4 py-2 rounded-full transition-all hover:bg-black/50">
+                <button
+                    onClick={() => router.back()}
+                    className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 bg-black/30 backdrop-blur-md px-4 py-2 rounded-full transition-all hover:bg-black/50"
+                >
                     <ArrowLeft className="w-4 h-4" /> {t('backToMeals')}
-                </Link>
+                </button>
 
                 <div className="card shadow-2xl border-t border-white/10 relative overflow-hidden mb-8">
                     {/* Decorative Top Border */}
