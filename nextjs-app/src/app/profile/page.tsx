@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { Settings, Camera, Shuffle, Globe, Heart, MessageSquare, Trash2 } from 'lucide-react';
 import CustomSelect from '@/components/ui/CustomSelect';
+import FamilyManager from '@/components/FamilyManager';
 
 export default function ProfilePage() {
     const { user, settings, updateSettings, isLoading } = useUser();
@@ -60,7 +61,6 @@ export default function ProfilePage() {
     }, [activeTab, user]);
 
     const handleAvatarUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
-        // ... (unchanged)
         const file = e.target.files?.[0];
         if (!file) return;
 
@@ -158,154 +158,158 @@ export default function ProfilePage() {
             </div>
 
             {activeTab === 'profile' ? (
-                <div className="card p-6 max-w-2xl mx-auto">
-                    {message && (
-                        <div className={`p-4 rounded-lg mb-6 ${message.type === 'success' ? 'bg-green-500/20 text-green-400' : 'bg-red-500/20 text-red-400'}`}>
-                            {message.text}
-                        </div>
-                    )}
+                <div className="max-w-2xl mx-auto space-y-6">
+                    <div className="card p-6">
+                        {message && (
+                            <div className={`p-4 rounded-lg mb-6 ${message.type === 'success' ? 'bg-green-500/20 text-green-400' : 'bg-red-500/20 text-red-400'}`}>
+                                {message.text}
+                            </div>
+                        )}
 
-                    <div className="flex flex-col md:flex-row gap-8 mb-8 items-center md:items-start">
-                        {/* Avatar */}
-                        <div className="text-center">
-                            <div className="w-32 h-32 rounded-full overflow-hidden bg-gray-700 mx-auto mb-4 border-4 border-[var(--accent-primary)] relative">
-                                {avatarUrl ? (
-                                    <Image src={avatarUrl} alt="Avatar" width={128} height={128} className="object-cover w-full h-full" unoptimized />
-                                ) : (
-                                    <div className="w-full h-full flex items-center justify-center text-4xl">{user.fullName?.[0]}</div>
-                                )}
-                            </div>
-                            <div className="flex flex-col gap-2">
-                                <label className="btn-secondary text-xs py-2 cursor-pointer flex items-center gap-1 justify-center">
-                                    <Camera size={14} /> {t('uploadPhoto')}
-                                    <input type="file" className="hidden" accept="image/*" onChange={handleAvatarUpload} />
-                                </label>
-                                <button type="button" onClick={generateAvatar} className="text-xs text-[var(--accent-primary)] hover:underline flex items-center gap-1 justify-center">
-                                    <Shuffle size={12} /> {t('generateAvatar')}
-                                </button>
-                            </div>
-                        </div>
-
-                        {/* Info */}
-                        <form onSubmit={handleSubmit} className="flex-1 w-full space-y-4">
-                            <div>
-                                <label className="form-label">{t('fullName')}</label>
-                                <input type="text" className="form-input" value={fullName} onChange={e => setFullName(e.target.value)} required />
-                            </div>
-                            <div>
-                                <label className="form-label">{t('email')}</label>
-                                <input type="email" className="form-input" value={email} onChange={e => setEmail(e.target.value)} required />
-                            </div>
-
-                            <hr className="border-gray-800 my-4" />
-                            <hr className="border-gray-800 my-4" />
-                            <h3 className="font-semibold mb-2 flex items-center gap-2"><Globe size={16} /> {t('socialLinks')}</h3>
-                            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                                <div>
-                                    <label className="form-label text-xs">Facebook</label>
-                                    <input className="form-input text-sm" placeholder="URL" value={facebook} onChange={e => setFacebook(e.target.value)} />
+                        <div className="flex flex-col md:flex-row gap-8 mb-8 items-center md:items-start">
+                            {/* Avatar */}
+                            <div className="text-center">
+                                <div className="w-32 h-32 rounded-full overflow-hidden bg-gray-700 mx-auto mb-4 border-4 border-[var(--accent-primary)] relative">
+                                    {avatarUrl ? (
+                                        <Image src={avatarUrl} alt="Avatar" width={128} height={128} className="object-cover w-full h-full" unoptimized />
+                                    ) : (
+                                        <div className="w-full h-full flex items-center justify-center text-4xl">{user.fullName?.[0]}</div>
+                                    )}
                                 </div>
-                                <div>
-                                    <label className="form-label text-xs">Instagram</label>
-                                    <input className="form-input text-sm" placeholder="URL" value={instagram} onChange={e => setInstagram(e.target.value)} />
-                                </div>
-                                <div>
-                                    <label className="form-label text-xs">Twitter/X</label>
-                                    <input className="form-input text-sm" placeholder="URL" value={twitter} onChange={e => setTwitter(e.target.value)} />
-                                </div>
-                            </div>
-
-                            <hr className="border-gray-800 my-4" />
-                            <h3 className="font-semibold mb-4 flex items-center gap-2">{t('appTheme')}</h3>
-                            <div className="flex flex-wrap gap-3 mb-2">
-                                {[
-                                    { id: 'auto', color: '#333', label: t('themeAuto') },
-                                    { id: 'emerald', color: '#10b981', label: t('themeEmerald') },
-                                    { id: 'blue', color: '#3b82f6', label: t('themeBlue') },
-                                    { id: 'purple', color: '#8b5cf6', label: t('themePurple') },
-                                    { id: 'pink', color: '#ec4899', label: t('themePink') },
-                                    { id: 'orange', color: '#f97316', label: t('themeOrange') },
-                                    { id: 'cyan', color: '#06b6d4', label: t('themeCyan') },
-                                ].map((theme) => (
-                                    <button
-                                        key={theme.id}
-                                        type="button"
-                                        onClick={() => updateSettings({ themePreference: theme.id })}
-                                        className={`w-10 h-10 rounded-full flex items-center justify-center transition-all ${(settings.themePreference || 'auto') === theme.id
-                                            ? 'ring-2 ring-white scale-110'
-                                            : 'opacity-70 hover:opacity-100 hover:scale-105'
-                                            }`}
-                                        style={{ background: theme.id === 'auto' ? 'linear-gradient(to right, #10b981, #ec4899)' : theme.color }}
-                                        title={theme.label}
-                                    >
-                                        {(settings.themePreference || 'auto') === theme.id && <div className="w-3 h-3 bg-white rounded-full shadow-md" />}
+                                <div className="flex flex-col gap-2">
+                                    <label className="btn-secondary text-xs py-2 cursor-pointer flex items-center gap-1 justify-center">
+                                        <Camera size={14} /> {t('uploadPhoto')}
+                                        <input type="file" className="hidden" accept="image/*" onChange={handleAvatarUpload} />
+                                    </label>
+                                    <button type="button" onClick={generateAvatar} className="text-xs text-[var(--accent-primary)] hover:underline flex items-center gap-1 justify-center">
+                                        <Shuffle size={12} /> {t('generateAvatar')}
                                     </button>
-                                ))}
-                            </div>
-                            <p className="text-xs text-[var(--text-muted)] mb-4">{t('accentColorDesc')}</p>
-
-                            <hr className="border-gray-800 my-4" />
-                            <h3 className="font-semibold mb-2 flex items-center gap-2">{t('currency')}</h3>
-                            <div className="relative">
-                                <CustomSelect
-                                    value={settings.currency || 'USD'}
-                                    onChange={(value) => updateSettings({ currency: value })}
-                                    options={[
-                                        { code: 'USD', name: 'US Dollar ($)' },
-                                        { code: 'EUR', name: 'Euro (€)' },
-                                        { code: 'GBP', name: 'British Pound (£)' },
-                                        { code: 'CAD', name: 'Canadian Dollar ($)' },
-                                        { code: 'AUD', name: 'Australian Dollar ($)' },
-                                        { code: 'JPY', name: 'Japanese Yen (¥)' },
-                                        { code: 'CNY', name: 'Chinese Yuan (¥)' },
-                                        { code: 'INR', name: 'Indian Rupee (₹)' },
-                                        { code: 'BRL', name: 'Brazilian Real (R$)' },
-                                        { code: 'RUB', name: 'Russian Ruble (₽)' },
-                                        { code: 'KRW', name: 'South Korean Won (₩)' },
-                                        { code: 'SGD', name: 'Singapore Dollar ($)' },
-                                        { code: 'NZD', name: 'New Zealand Dollar ($)' },
-                                        { code: 'MXN', name: 'Mexican Peso ($)' },
-                                        { code: 'HKD', name: 'Hong Kong Dollar ($)' },
-                                        { code: 'CHF', name: 'Swiss Franc (Fr)' },
-                                        { code: 'SEK', name: 'Swedish Krona (kr)' },
-                                        { code: 'NOK', name: 'Norwegian Krone (kr)' },
-                                        { code: 'DKK', name: 'Danish Krone (kr)' },
-                                        { code: 'PLN', name: 'Polish Złoty (zł)' },
-                                        { code: 'TRY', name: 'Turkish Lira (₺)' },
-                                        { code: 'ZAR', name: 'South African Rand (R)' },
-                                        { code: 'THB', name: 'Thai Baht (฿)' },
-                                        { code: 'IDR', name: 'Indonesian Rupiah (Rp)' },
-                                        { code: 'MYR', name: 'Malaysian Ringgit (RM)' },
-                                        { code: 'PHP', name: 'Philippine Peso (₱)' },
-                                        { code: 'VND', name: 'Vietnamese Dong (₫)' },
-                                        { code: 'MAD', name: 'Moroccan Dirham (MAD)' }
-                                    ].map(c => ({
-                                        value: c.code,
-                                        label: `${c.code} - ${c.name}`
-                                    }))}
-                                />
-                            </div>
-                            <p className="text-xs text-[var(--text-muted)] mt-2 mb-4">{t('currencyDesc')}</p>
-
-                            <hr className="border-gray-800 my-4" />
-                            <div>
-                                <label className="form-label">{t('newPasswordOptional')}</label>
-                                <input type="password" className="form-input" value={password} onChange={e => setPassword(e.target.value)} minLength={6} placeholder={t('leaveBlank')} />
-                            </div>
-                            {password && (
-                                <div>
-                                    <label className="form-label">{t('confirmPassword')}</label>
-                                    <input type="password" className="form-input" value={confirmPassword} onChange={e => setConfirmPassword(e.target.value)} required />
                                 </div>
-                            )}
-
-                            <div className="flex justify-end pt-4">
-                                <button type="submit" disabled={isSaving} className="btn-primary">
-                                    {isSaving ? t('saving') : t('saveChanges')}
-                                </button>
                             </div>
-                        </form>
+
+                            {/* Info */}
+                            <form onSubmit={handleSubmit} className="flex-1 w-full space-y-4">
+                                <div>
+                                    <label className="form-label">{t('fullName')}</label>
+                                    <input type="text" className="form-input" value={fullName} onChange={e => setFullName(e.target.value)} required />
+                                </div>
+                                <div>
+                                    <label className="form-label">{t('email')}</label>
+                                    <input type="email" className="form-input" value={email} onChange={e => setEmail(e.target.value)} required />
+                                </div>
+
+                                <hr className="border-gray-800 my-4" />
+                                <h3 className="font-semibold mb-2 flex items-center gap-2"><Globe size={16} /> {t('socialLinks')}</h3>
+                                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                    <div>
+                                        <label className="form-label text-xs">Facebook</label>
+                                        <input className="form-input text-sm" placeholder="URL" value={facebook} onChange={e => setFacebook(e.target.value)} />
+                                    </div>
+                                    <div>
+                                        <label className="form-label text-xs">Instagram</label>
+                                        <input className="form-input text-sm" placeholder="URL" value={instagram} onChange={e => setInstagram(e.target.value)} />
+                                    </div>
+                                    <div>
+                                        <label className="form-label text-xs">Twitter/X</label>
+                                        <input className="form-input text-sm" placeholder="URL" value={twitter} onChange={e => setTwitter(e.target.value)} />
+                                    </div>
+                                </div>
+
+                                <hr className="border-gray-800 my-4" />
+                                <h3 className="font-semibold mb-4 flex items-center gap-2">{t('appTheme')}</h3>
+                                <div className="flex flex-wrap gap-3 mb-2">
+                                    {[
+                                        { id: 'auto', color: '#333', label: t('themeAuto') },
+                                        { id: 'emerald', color: '#10b981', label: t('themeEmerald') },
+                                        { id: 'blue', color: '#3b82f6', label: t('themeBlue') },
+                                        { id: 'purple', color: '#8b5cf6', label: t('themePurple') },
+                                        { id: 'pink', color: '#ec4899', label: t('themePink') },
+                                        { id: 'orange', color: '#f97316', label: t('themeOrange') },
+                                        { id: 'cyan', color: '#06b6d4', label: t('themeCyan') },
+                                    ].map((theme) => (
+                                        <button
+                                            key={theme.id}
+                                            type="button"
+                                            onClick={() => updateSettings({ themePreference: theme.id })}
+                                            className={`w-10 h-10 rounded-full flex items-center justify-center transition-all ${(settings.themePreference || 'auto') === theme.id
+                                                ? 'ring-2 ring-white scale-110'
+                                                : 'opacity-70 hover:opacity-100 hover:scale-105'
+                                                }`}
+                                            style={{ background: theme.id === 'auto' ? 'linear-gradient(to right, #10b981, #ec4899)' : theme.color }}
+                                            title={theme.label}
+                                        >
+                                            {(settings.themePreference || 'auto') === theme.id && <div className="w-3 h-3 bg-white rounded-full shadow-md" />}
+                                        </button>
+                                    ))}
+                                </div>
+                                <p className="text-xs text-[var(--text-muted)] mb-4">{t('accentColorDesc')}</p>
+
+                                <hr className="border-gray-800 my-4" />
+                                <h3 className="font-semibold mb-2 flex items-center gap-2">{t('currency')}</h3>
+                                <div className="relative">
+                                    <CustomSelect
+                                        value={settings.currency || 'USD'}
+                                        onChange={(value) => updateSettings({ currency: value })}
+                                        options={[
+                                            { code: 'USD', name: 'US Dollar ($)' },
+                                            { code: 'EUR', name: 'Euro (€)' },
+                                            { code: 'GBP', name: 'British Pound (£)' },
+                                            { code: 'CAD', name: 'Canadian Dollar ($)' },
+                                            { code: 'AUD', name: 'Australian Dollar ($)' },
+                                            { code: 'JPY', name: 'Japanese Yen (¥)' },
+                                            { code: 'CNY', name: 'Chinese Yuan (¥)' },
+                                            { code: 'INR', name: 'Indian Rupee (₹)' },
+                                            { code: 'BRL', name: 'Brazilian Real (R$)' },
+                                            { code: 'RUB', name: 'Russian Ruble (₽)' },
+                                            { code: 'KRW', name: 'South Korean Won (₩)' },
+                                            { code: 'SGD', name: 'Singapore Dollar ($)' },
+                                            { code: 'NZD', name: 'New Zealand Dollar ($)' },
+                                            { code: 'MXN', name: 'Mexican Peso ($)' },
+                                            { code: 'HKD', name: 'Hong Kong Dollar ($)' },
+                                            { code: 'CHF', name: 'Swiss Franc (Fr)' },
+                                            { code: 'SEK', name: 'Swedish Krona (kr)' },
+                                            { code: 'NOK', name: 'Norwegian Krone (kr)' },
+                                            { code: 'DKK', name: 'Danish Krone (kr)' },
+                                            { code: 'PLN', name: 'Polish Złoty (zł)' },
+                                            { code: 'TRY', name: 'Turkish Lira (₺)' },
+                                            { code: 'ZAR', name: 'South African Rand (R)' },
+                                            { code: 'THB', name: 'Thai Baht (฿)' },
+                                            { code: 'IDR', name: 'Indonesian Rupiah (Rp)' },
+                                            { code: 'MYR', name: 'Malaysian Ringgit (RM)' },
+                                            { code: 'PHP', name: 'Philippine Peso (₱)' },
+                                            { code: 'VND', name: 'Vietnamese Dong (₫)' },
+                                            { code: 'MAD', name: 'Moroccan Dirham (MAD)' }
+                                        ].map(c => ({
+                                            value: c.code,
+                                            label: `${c.code} - ${c.name}`
+                                        }))}
+                                    />
+                                </div>
+                                <p className="text-xs text-[var(--text-muted)] mt-2 mb-4">{t('currencyDesc')}</p>
+
+                                <hr className="border-gray-800 my-4" />
+                                <div>
+                                    <label className="form-label">{t('newPasswordOptional')}</label>
+                                    <input type="password" className="form-input" value={password} onChange={e => setPassword(e.target.value)} minLength={6} placeholder={t('leaveBlank')} />
+                                </div>
+                                {password && (
+                                    <div>
+                                        <label className="form-label">{t('confirmPassword')}</label>
+                                        <input type="password" className="form-input" value={confirmPassword} onChange={e => setConfirmPassword(e.target.value)} required />
+                                    </div>
+                                )}
+
+                                <div className="flex justify-end pt-4">
+                                    <button type="submit" disabled={isSaving} className="btn-primary">
+                                        {isSaving ? t('saving') : t('saveChanges')}
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
+
+                    {/* Family Management Section */}
+                    <FamilyManager />
                 </div>
             ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
