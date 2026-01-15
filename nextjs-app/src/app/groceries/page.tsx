@@ -1394,32 +1394,57 @@ export default function GroceriesPage() {
                                         )}
                                     </div>
 
-                                    {/* Analysis Grid */}
-                                    <div className="grid grid-cols-2 gap-4 mb-6">
-                                        <div className={`p-4 rounded-2xl border flex flex-col items-center justify-center text-center ${scannedBeautyProduct.additives_count === 0 ? 'bg-green-500/10 border-green-500/20 text-green-400' :
-                                            scannedBeautyProduct.additives_count < 3 ? 'bg-green-500/10 border-green-500/20 text-green-400' :
-                                                scannedBeautyProduct.additives_count < 6 ? 'bg-yellow-500/10 border-yellow-500/20 text-yellow-400' :
-                                                    'bg-red-500/10 border-red-500/20 text-red-400'
-                                            }`}>
-                                            <span className="text-3xl font-black mb-1">{scannedBeautyProduct.additives_count}</span>
-                                            <span className="text-xs uppercase font-bold tracking-wider">Additives</span>
+                                    {/* Score & Risk Level */}
+                                    <div className="flex items-center justify-between mb-6 bg-white/5 p-4 rounded-2xl border border-white/10">
+                                        <div className="flex items-center gap-4">
+                                            {/* Score Circle */}
+                                            <div className={`w-16 h-16 rounded-full flex items-center justify-center border-4 text-xl font-black ${scannedBeautyProduct.score >= 75 ? 'border-green-500 text-green-400' :
+                                                    scannedBeautyProduct.score >= 50 ? 'border-yellow-500 text-yellow-400' :
+                                                        scannedBeautyProduct.score >= 25 ? 'border-orange-500 text-orange-400' :
+                                                            'border-red-500 text-red-500'
+                                                }`}>
+                                                {scannedBeautyProduct.score}
+                                            </div>
+                                            <div>
+                                                <div className="text-xs uppercase text-gray-500 font-bold tracking-wider mb-0.5">Safety Score</div>
+                                                <div className={`text-lg font-bold capitalize ${scannedBeautyProduct.score >= 75 ? 'text-green-400' :
+                                                        scannedBeautyProduct.score >= 50 ? 'text-yellow-400' :
+                                                            scannedBeautyProduct.score >= 25 ? 'text-orange-400' :
+                                                                'text-red-500'
+                                                    }`}>
+                                                    {scannedBeautyProduct.risk_level}
+                                                </div>
+                                            </div>
                                         </div>
 
-                                        <div className={`p-4 rounded-2xl border flex flex-col items-center justify-center text-center ${scannedBeautyProduct.has_palm_oil ? 'bg-red-500/10 border-red-500/20 text-red-400' :
-                                            'bg-green-500/10 border-green-500/20 text-green-400'
-                                            }`}>
-                                            {scannedBeautyProduct.has_palm_oil ? (
-                                                <>
-                                                    <AlertTriangle className="w-8 h-8 mb-1" />
-                                                    <span className="text-xs uppercase font-bold tracking-wider">Palm Oil</span>
-                                                </>
-                                            ) : (
-                                                <>
-                                                    <Check className="w-8 h-8 mb-1" />
-                                                    <span className="text-xs uppercase font-bold tracking-wider">No Palm Oil</span>
-                                                </>
-                                            )}
+                                        {/* Source Badge */}
+                                        <div className="text-right">
+                                            <div className="text-[10px] uppercase text-gray-600 font-bold mb-1">Source</div>
+                                            <span className="text-xs px-2 py-1 rounded bg-white/10 text-gray-300 font-mono">
+                                                {scannedBeautyProduct.source === 'beauty' ? 'Cosmetics' :
+                                                    scannedBeautyProduct.source === 'product' ? 'Household' : 'Food'}
+                                            </span>
                                         </div>
+                                    </div>
+
+                                    {/* Analysis List (Positives / Negatives) */}
+                                    <div className="space-y-3 mb-6">
+                                        {scannedBeautyProduct.analysis?.negatives?.map((item: string, i: number) => (
+                                            <div key={`neg-${i}`} className="flex items-start gap-3 text-sm text-gray-300">
+                                                <div className="mt-0.5 w-5 h-5 rounded-full bg-red-500/20 text-red-500 flex items-center justify-center shrink-0">
+                                                    <X className="w-3 h-3" />
+                                                </div>
+                                                <span>{item}</span>
+                                            </div>
+                                        ))}
+                                        {scannedBeautyProduct.analysis?.positives?.map((item: string, i: number) => (
+                                            <div key={`pos-${i}`} className="flex items-start gap-3 text-sm text-gray-300">
+                                                <div className="mt-0.5 w-5 h-5 rounded-full bg-green-500/20 text-green-500 flex items-center justify-center shrink-0">
+                                                    <Check className="w-3 h-3" />
+                                                </div>
+                                                <span>{item}</span>
+                                            </div>
+                                        ))}
                                     </div>
 
                                     {/* Ingredients */}
