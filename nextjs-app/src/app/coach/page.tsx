@@ -55,11 +55,25 @@ interface Exercise {
     rest: string;
 }
 
+// CrossFit WOD specific interfaces
+interface CrossFitWOD {
+    format: string; // "For time" or "AMRAP X min" etc.
+    movements: string[]; // List of movements with reps
+    weights: {
+        female: string;
+        male: string;
+    };
+    stimulus: string;
+    strategy: string;
+}
+
 interface Workout {
     title: string;
     duration: string;
     difficulty: string;
-    exercises: Exercise[];
+    exercises?: Exercise[];
+    // CrossFit specific fields
+    crossfit?: CrossFitWOD;
 }
 
 interface CoachPlan {
@@ -81,6 +95,7 @@ export default function CoachPage() {
     const [location, setLocation] = useState('gym');
     const [equipment, setEquipment] = useState<string[]>([]);
     const [notes, setNotes] = useState('');
+    const [crossfitLevel, setCrossfitLevel] = useState<'beginner' | 'intermediate' | 'advanced'>('intermediate');
 
     // Result State
     const [plan, setPlan] = useState<CoachPlan | null>(null);
@@ -176,7 +191,8 @@ export default function CoachPage() {
                 sport_type: sportType,
                 training_location: location,
                 equipment: location === 'home' ? equipment : [],
-                notes
+                notes,
+                crossfit_level: sportType === 'crossfit' ? crossfitLevel : null
             })
         });
 
@@ -184,7 +200,10 @@ export default function CoachPage() {
             const res = await fetch('/api/v2/ai/coach', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ locale: locale || 'en' })
+                body: JSON.stringify({
+                    locale: locale || 'en',
+                    crossfit_level: sportType === 'crossfit' ? crossfitLevel : null
+                })
             });
 
             if (!res.ok) throw new Error('AI Error');
@@ -415,6 +434,40 @@ export default function CoachPage() {
                             </div>
                         </div>
 
+                        {/* CrossFit Level Selector - Only show when CrossFit is selected */}
+                        {sportType === 'crossfit' && (
+                            <div className="animate-fade-in">
+                                <label className="text-sm font-medium text-gray-300 mb-3 block flex items-center gap-2">
+                                    <Flame className="w-4 h-4 text-orange-400" />
+                                    CrossFit Level
+                                </label>
+                                <div className="grid grid-cols-3 gap-3">
+                                    {(['beginner', 'intermediate', 'advanced'] as const).map(level => (
+                                        <button
+                                            key={level}
+                                            onClick={() => setCrossfitLevel(level)}
+                                            className={`p-4 rounded-xl flex flex-col items-center gap-2 transition-all ${crossfitLevel === level
+                                                ? 'text-white shadow-lg border-2'
+                                                : 'bg-gray-800/50 hover:bg-gray-700/50 text-gray-300 border border-white/5'
+                                                }`}
+                                            style={crossfitLevel === level ? {
+                                                background: level === 'beginner' ? '#22c55e' : level === 'intermediate' ? '#f59e0b' : '#ef4444',
+                                                borderColor: level === 'beginner' ? '#22c55e' : level === 'intermediate' ? '#f59e0b' : '#ef4444'
+                                            } : {}}
+                                        >
+                                            <span className="text-2xl">
+                                                {level === 'beginner' ? '🌱' : level === 'intermediate' ? '💪' : '🔥'}
+                                            </span>
+                                            <span className="text-sm font-bold capitalize">{level}</span>
+                                            <span className="text-[10px] text-gray-400">
+                                                {level === 'beginner' ? 'Scaled WOD' : level === 'intermediate' ? 'Standard WOD' : 'RX/Competition'}
+                                            </span>
+                                        </button>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+
                         {/* Notes */}
                         <div>
                             <label className="text-sm font-medium text-gray-300 mb-2 block">{t('notes')}</label>
@@ -480,28 +533,71 @@ export default function CoachPage() {
                             </div>
                         </div>
 
-                        <div className="space-y-3">
-                            {(plan.workout?.exercises && Array.isArray(plan.workout.exercises)) ? (
-                                plan.workout.exercises.map((ex, i) => (
-                                    <div key={i} className="flex flex-col sm:flex-row sm:items-center justify-between p-4 bg-black/20 rounded-xl border border-white/5 hover:border-emerald-500/30 transition-colors">
-                                        <div className="mb-2 sm:mb-0">
-                                            <p className="font-bold text-white text-lg">{ex.name || 'Exercise'}</p>
-                                            <p className="text-gray-400 text-sm">{(ex.sets || '3') + ' sets'} × {(ex.reps || '10') + ' reps'}</p>
-                                        </div>
-                                        <div className="flex items-center gap-2">
-                                            <span className="text-xs text-gray-500 uppercase font-bold tracking-wider">Rest</span>
-                                            <span className="px-2 py-1 bg-emerald-900/40 text-emerald-400 rounded font-mono text-sm border border-emerald-500/20">
-                                                {ex.rest || '60s'}
-                                            </span>
-                                        </div>
-                                    </div>
-                                ))
-                            ) : (
-                                <div className="p-4 text-center text-gray-400">
-                                    {plan.workout?.title ? 'Detailed exercises not available' : 'Loading workout data...'}
+                        {/* CrossFit WOD Format */}
+                        {plan.workout?.crossfit ? (
+                            <div className="space-y-4">
+                                {/* WOD Format Header */}
+                                <div className="p-4 bg-orange-500/10 border border-orange-500/30 rounded-xl">
+                                    <p className="text-xl font-bold text-orange-300 font-mono">
+                                        {plan.workout.crossfit.format}
+                                    </p>
                                 </div>
-                            )}
-                        </div>
+
+                                {/* Movements List */}
+                                <div className="p-4 bg-black/30 rounded-xl border border-white/10">
+                                    <div className="space-y-2 font-mono text-lg">
+                                        {plan.workout.crossfit.movements.map((movement, i) => (
+                                            <p key={i} className="text-white">{movement}</p>
+                                        ))}
+                                    </div>
+                                </div>
+
+                                {/* Weights */}
+                                <div className="flex gap-4">
+                                    <div className="flex-1 p-3 bg-pink-500/10 border border-pink-500/30 rounded-xl text-center">
+                                        <span className="text-2xl">♀</span>
+                                        <p className="text-pink-300 font-bold mt-1">{plan.workout.crossfit.weights.female}</p>
+                                    </div>
+                                    <div className="flex-1 p-3 bg-blue-500/10 border border-blue-500/30 rounded-xl text-center">
+                                        <span className="text-2xl">♂</span>
+                                        <p className="text-blue-300 font-bold mt-1">{plan.workout.crossfit.weights.male}</p>
+                                    </div>
+                                </div>
+
+                                {/* Stimulus & Strategy */}
+                                <div className="p-4 bg-gradient-to-br from-purple-900/20 to-indigo-900/20 border border-purple-500/20 rounded-xl">
+                                    <h4 className="font-bold text-purple-300 mb-2 flex items-center gap-2">
+                                        <Target className="w-4 h-4" /> Stimulus & Strategy
+                                    </h4>
+                                    <p className="text-gray-300 text-sm mb-3">{plan.workout.crossfit.stimulus}</p>
+                                    <p className="text-gray-400 text-sm italic">{plan.workout.crossfit.strategy}</p>
+                                </div>
+                            </div>
+                        ) : (
+                            /* Regular Exercises */
+                            <div className="space-y-3">
+                                {(plan.workout?.exercises && Array.isArray(plan.workout.exercises)) ? (
+                                    plan.workout.exercises.map((ex, i) => (
+                                        <div key={i} className="flex flex-col sm:flex-row sm:items-center justify-between p-4 bg-black/20 rounded-xl border border-white/5 hover:border-emerald-500/30 transition-colors">
+                                            <div className="mb-2 sm:mb-0">
+                                                <p className="font-bold text-white text-lg">{ex.name || 'Exercise'}</p>
+                                                <p className="text-gray-400 text-sm">{(ex.sets || '3') + ' sets'} × {(ex.reps || '10') + ' reps'}</p>
+                                            </div>
+                                            <div className="flex items-center gap-2">
+                                                <span className="text-xs text-gray-500 uppercase font-bold tracking-wider">Rest</span>
+                                                <span className="px-2 py-1 bg-emerald-900/40 text-emerald-400 rounded font-mono text-sm border border-emerald-500/20">
+                                                    {ex.rest || '60s'}
+                                                </span>
+                                            </div>
+                                        </div>
+                                    ))
+                                ) : (
+                                    <div className="p-4 text-center text-gray-400">
+                                        {plan.workout?.title ? 'Detailed exercises not available' : 'Loading workout data...'}
+                                    </div>
+                                )}
+                            </div>
+                        )}
                     </div>
 
                     {/* Recommendation */}

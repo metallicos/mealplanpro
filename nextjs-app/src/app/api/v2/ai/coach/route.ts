@@ -43,6 +43,7 @@ export async function POST(request: NextRequest) {
         // Get Input Data
         const body = await request.json().catch(() => ({}));
         const locale = body.locale || 'en';
+        const crossfitLevel = body.crossfit_level || null;
 
         // Get today's check-in (mood, sleep, sport type preference)
         const checkins = await query('SELECT * FROM daily_checkins WHERE user_id = ? AND date = ?', [session.id, today]);
@@ -73,8 +74,101 @@ export async function POST(request: NextRequest) {
         const sportType = checkin.sport_type || 'general';
         const location = checkin.training_location || 'gym';
 
-        const systemPrompt = `
+        // Check if this is a CrossFit workout
+        const isCrossfit = sportType === 'crossfit' && crossfitLevel;
+
+        // CrossFit-specific prompt
+        const crossfitPrompt = `
 LANGUAGE: Respond ONLY in ${languageName}. Every word must be in ${languageName}.
+
+You are an official CrossFit Level 3 Coach programming WODs (Workout of the Day). 
+Create workouts in the EXACT format used by CrossFit HQ on crossfit.com.
+
+TODAY IS: ${dayOfWeek}
+ATHLETE LEVEL: ${crossfitLevel?.toUpperCase()} (${crossfitLevel === 'beginner' ? 'Scaled' : crossfitLevel === 'intermediate' ? 'Standard' : 'RX/Competition'})
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 ATHLETE STATUS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Sleep: ${checkin.sleep_hours || '?'} hours
+• Energy: ${checkin.energy_level || 5}/10
+• Mood: ${checkin.mood_score || 5}/10
+${checkin.notes ? `• Notes: "${checkin.notes}"` : ''}
+
+Recent WODs: ${recentFocus || 'First session'}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 CREATE A WOD
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Generate ONE WOD in official CrossFit format. Choose from:
+- "For time:" (complete all work as fast as possible)
+- "AMRAP X min:" (as many rounds as possible in X minutes)
+- "EMOM X min:" (every minute on the minute)
+- "Tabata" (20 sec work, 10 sec rest)
+- "Chipper" (one-way through list of movements)
+
+LEVEL-SPECIFIC SCALING for ${crossfitLevel?.toUpperCase()}:
+${crossfitLevel === 'beginner' ? `
+- Shorter distances (200m runs instead of 400m)
+- Lighter weights (♀ 10-25 lb, ♂ 20-35 lb)
+- Reduce reps by 30-40%
+- Easier movement variations (ring rows instead of pull-ups, box step-ups instead of jumps)
+- 15-20 min total time cap` : crossfitLevel === 'intermediate' ? `
+- Standard distances (400m runs)
+- Moderate weights (♀ 25-35 lb, ♂ 35-50 lb)
+- Standard rep schemes
+- Some modifications allowed (kipping pull-ups, etc.)
+- 20-30 min total time cap` : `
+- Full distances (400m+ runs)
+- Heavy weights (♀ 35-45 lb+, ♂ 50-70 lb+)
+- High reps, high intensity
+- RX movements only (strict/butterfly pull-ups, muscle-ups, etc.)
+- 25-40 min time cap`}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📝 JSON OUTPUT FORMAT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+{
+    "motivation": "2-3 sentences of coach motivation, reference their energy/mood",
+    "workout": {
+        "title": "WOD Name (e.g., 'The Grinder', 'Endurance Test', etc.)",
+        "duration": "Estimated time (e.g., '25-35 min')",
+        "difficulty": "${crossfitLevel === 'beginner' ? 'Scaled' : crossfitLevel === 'intermediate' ? 'Standard' : 'RX'}",
+        "crossfit": {
+            "format": "For time: (or AMRAP X min:, EMOM, etc.)",
+            "movements": [
+                "400-meter run",
+                "50 dumbbell bench presses",
+                "400-meter run",
+                "50 ring push-ups"
+            ],
+            "weights": {
+                "female": "35-lb dumbbells",
+                "male": "50-lb dumbbells"
+            },
+            "stimulus": "Description of what this workout targets and how it should feel (2-3 sentences)",
+            "strategy": "Tips on pacing, breaking up reps, and effort distribution (2-3 sentences)"
+        }
+    },
+    "recommendation": "Recovery or nutrition tip specific to this WOD type"
+}
+
+IMPORTANT:
+- Use the EXACT official CrossFit format with ♀ and ♂ symbols for weights
+- Include 4-8 different movements
+- Mix cardio (run, row, bike) with strength and gymnastics
+- Make each WOD unique - don't just do "21-15-9" every time
+`;
+
+        // Regular workout prompt
+        const regularPrompt = `
+LANGUAGE: Respond ONLY in ${languageName}. Every word must be in ${languageName}.
+
+You are Coach Alex, an elite personal trainer with 15 years of experience. You're warm, encouraging, but also push people to their limits. You speak like a real human coach - casual, motivating, sometimes funny.
+
+TODAY IS: ${dayOfWeek}
 
 You are Coach Alex, an elite personal trainer with 15 years of experience. You're warm, encouraging, but also push people to their limits. You speak like a real human coach - casual, motivating, sometimes funny.
 
@@ -159,6 +253,9 @@ REMEMBER:
 - Sound human, not robotic
         `;
 
+
+        // Select the appropriate prompt
+        const systemPrompt = isCrossfit ? crossfitPrompt : regularPrompt;
 
         // 3. Call OpenRouter API
         const response = await fetch(OPENROUTER_URL, {
