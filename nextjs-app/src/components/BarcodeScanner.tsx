@@ -43,6 +43,8 @@ interface NutritionData {
     nova_group: number | null;
     nutrient_levels: Record<string, 'low' | 'moderate' | 'high'> | null;
     ingredients_text: string | null;
+    quantity: string | null;
+    product_quantity: number | null;
 }
 
 interface BarcodeScannerProps {
