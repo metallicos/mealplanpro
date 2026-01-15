@@ -129,6 +129,7 @@ export default function MacrosPage() {
 
     const [scannedFood, setScannedFood] = useState<ScannedFood | null>(null);
     const [scannedGrams, setScannedGrams] = useState(100);
+    const [scannedUnit, setScannedUnit] = useState('g');
 
     // Use targets from user settings
     const targets = {
@@ -252,25 +253,45 @@ export default function MacrosPage() {
     const handleScanResult = (food: ScannedFood) => {
         setScannedFood(food);
 
-        // Smart Serving Logic
+        // Smart Serving & Unit Logic
         let defaultGrams = 100; // Default fallback
+        let detectedUnit = 'g';
+
+        // Helper to extract unit
+        const extractUnit = (str: string) => {
+            const match = str.toLowerCase().match(/[0-9]+(\.[0-9]+)?\s*(ml|cl|l|g|kg)/);
+            if (match) return match[2];
+            return null;
+        };
 
         // 1. Try explicit serving size
         if (food.serving_size) {
             const match = food.serving_size.match(/(\d+(\.\d+)?)/);
             if (match) defaultGrams = parseFloat(match[0]);
+
+            const unit = extractUnit(food.serving_size);
+            if (unit) detectedUnit = unit;
         }
         // 2. Fallback to numeric product quantity (e.g. 500 from API)
         else if (food.product_quantity) {
             defaultGrams = food.product_quantity;
+            // Usually if product_quantity is present, unit might be in quantity string
+            if (food.quantity) {
+                const unit = extractUnit(food.quantity);
+                if (unit) detectedUnit = unit;
+            }
         }
         // 3. Fallback to string quantity (e.g. "500ml")
         else if (food.quantity) {
             const match = food.quantity.match(/(\d+(\.\d+)?)/);
             if (match) defaultGrams = parseFloat(match[0]);
+
+            const unit = extractUnit(food.quantity);
+            if (unit) detectedUnit = unit;
         }
 
         setScannedGrams(defaultGrams);
+        setScannedUnit(detectedUnit);
         setShowScanner(false);
     };
 
@@ -825,7 +846,7 @@ export default function MacrosPage() {
                                             : 'text-gray-400 hover:text-white'
                                             }`}
                                     >
-                                        {t('custom')} (g)
+                                        {t('custom')} ({scannedUnit})
                                     </button>
                                 </div>
 
@@ -838,7 +859,7 @@ export default function MacrosPage() {
                                         onChange={(e) => setScannedGrams(parseFloat(e.target.value) || 0)}
                                         placeholder="0"
                                     />
-                                    <span className="absolute right-6 top-1/2 -translate-y-1/2 text-gray-500 font-bold">g</span>
+                                    <span className="absolute right-6 top-1/2 -translate-y-1/2 text-gray-500 font-bold">{scannedUnit}</span>
                                 </div>
                             </div>
 
@@ -1112,8 +1133,8 @@ export default function MacrosPage() {
                                                 placeholder="0"
                                             />
                                             <div className="text-center text-xs text-[var(--accent-primary)] font-bold mt-1 uppercase">
-                                                {/* Heuristic: if quantity has 'ml', show ml, else g */}
-                                                {(scannedFood!.quantity?.toLowerCase().includes('ml') || scannedFood!.serving_size?.toLowerCase().includes('ml')) ? 'ml / g' : 'grams'}
+                                                {/* Heuristic: display detected unit */}
+                                                {scannedUnit}
                                             </div>
                                         </div>
 
