@@ -262,12 +262,12 @@ export default function Dashboard() {
 
       {/* V2 Health Widgets */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-8">
-        <FastingTimer />
         <WaterTracker />
+        <FastingTimer />
       </div>
 
       {/* Quick Actions */}
-      <div className="card mb-6">
+      <div className="card mb-6 hidden md:block">
         <h3 className="text-lg font-semibold mb-4">{t('quickActions')}</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           <Link href="/coach" className="btn-primary text-center justify-center bg-gradient-to-r from-emerald-600 to-teal-600 border-none shadow-lg shadow-emerald-500/20">
