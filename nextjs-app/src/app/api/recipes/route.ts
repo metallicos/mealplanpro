@@ -21,9 +21,14 @@ export async function GET(request: NextRequest) {
         const params: (string | number)[] = [];
 
         if (search) {
-            conditions.push('(title LIKE ? OR description LIKE ? OR ingredients LIKE ?)');
+            conditions.push(`(
+                rt.title LIKE ? OR rt_en.title LIKE ? OR 
+                rt.description LIKE ? OR rt_en.description LIKE ? OR 
+                rt.ingredients_json LIKE ? OR rt_en.ingredients_json LIKE ?
+            )`);
             const searchPattern = `%${search}%`;
-            params.push(searchPattern, searchPattern, searchPattern);
+            // Push pattern 6 times for the 6 placeholders
+            params.push(searchPattern, searchPattern, searchPattern, searchPattern, searchPattern, searchPattern);
         }
 
         if (category && category !== 'all') {

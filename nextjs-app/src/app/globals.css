@@ -99,6 +99,7 @@ html,
 body {
   overflow-x: hidden;
   max-width: 100vw;
+  color-scheme: dark; /* Ensures native UI components (like selects) are dark */
 }
 
 body {
@@ -112,6 +113,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
   position: relative;
+}
+
+/* Ensure select options are readable */
+select option {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
 }
 
 /* Cards */
