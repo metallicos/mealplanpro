@@ -4,12 +4,19 @@ import { query } from '../src/lib/db';
 async function migrate() {
     console.log('Starting migration...');
     try {
-        // Add username column
+        // Add username column (SQLite doesn't support adding UNIQUE directly)
         try {
-            await query('ALTER TABLE users ADD COLUMN username TEXT UNIQUE');
+            await query('ALTER TABLE users ADD COLUMN username TEXT');
             console.log('✅ Added username column');
         } catch (e: any) {
             console.log('ℹ️  username column skip:', e.message);
+        }
+
+        try {
+            await query('CREATE UNIQUE INDEX IF NOT EXISTS idx_users_username ON users(username)');
+            console.log('✅ Created unique index for username');
+        } catch (e: any) {
+            console.log('ℹ️  username index skip:', e.message);
         }
 
         // Add newsletter_subscribed column

@@ -311,13 +311,17 @@ export default function AdminPage() {
         <div className="animate-fade-in">
             {/* Header */}
             <div className="mb-8">
-                <h1 className="page-title flex flex-wrap items-center gap-2 text-2xl sm:text-3xl">
+                <h1 className="page-title flex flex-wrap items-center gap-2 text-2xl sm:text-3xl mb-2">
                     Admin Dashboard <Settings size={24} className="text-violet-400" />
                 </h1>
-                <div className="flex justify-between items-end">
-                    <p className="page-subtitle text-sm sm:text-base">Manage users, contacts, newsletter, and system settings</p>
-                    <Link href="/admin/settings" className="flex items-center gap-2 text-sm text-gray-400 hover:text-white bg-white/5 hover:bg-white/10 px-3 py-1.5 rounded-lg transition-colors">
-                        <Settings size={16} /> SMTP Settings
+                <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+                    <p className="page-subtitle text-sm sm:text-base text-gray-400">Manage users, contacts, newsletter, and system settings</p>
+                    <Link
+                        href="/admin/settings"
+                        className="flex items-center justify-center gap-2 text-sm font-medium text-white bg-violet-600 hover:bg-violet-700 px-4 py-2 rounded-lg transition-colors shadow-lg shadow-violet-900/20"
+                    >
+                        <Settings size={18} />
+                        SMTP Configuration
                     </Link>
                 </div>
             </div>
