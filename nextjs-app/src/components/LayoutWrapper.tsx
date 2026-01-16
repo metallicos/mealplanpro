@@ -3,6 +3,7 @@
 import { useUser } from '@/contexts/UserContext';
 import Sidebar from '@/components/Sidebar';
 import { BackButtonHandler } from '@/hooks/useBackButton';
+import { useAnalytics } from '@/hooks/useAnalytics';
 import { useEffect, useState } from 'react';
 import { Network } from '@capacitor/network';
 import OfflinePage from './OfflinePage';
@@ -10,6 +11,9 @@ import OfflinePage from './OfflinePage';
 export default function LayoutWrapper({ children }: { children: React.ReactNode }) {
     const { user, isLoading } = useUser();
     const [isOnline, setIsOnline] = useState(true);
+
+    // Track page views for analytics
+    useAnalytics({ userId: user?.id, enabled: !isLoading });
 
     useEffect(() => {
         // Initial check
