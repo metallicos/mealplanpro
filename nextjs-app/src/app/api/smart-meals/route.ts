@@ -1,11 +1,27 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { query } from '@/lib/db';
 import { getSession } from '@/lib/auth';
+import { checkUsageLimit, incrementUsage } from '@/lib/subscription';
 
 export async function POST(request: NextRequest) {
     const auth = await getSession();
     if (!auth) {
         return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    }
+
+    // Check usage limit (2/week for free users, unlimited for premium/trial)
+    const usage = await checkUsageLimit(auth.id, 'smart_plan');
+    if (!usage.allowed) {
+        return NextResponse.json({
+            error: 'limit_reached',
+            message: 'Weekly Smart Plan limit reached. Upgrade to Premium for unlimited access!',
+            remaining: 0,
+            limit: usage.limit,
+            isPremium: usage.isPremium,
+            isTrialing: usage.isTrialing,
+            trialDaysRemaining: usage.trialDaysRemaining,
+            upgradeRequired: true
+        }, { status: 429 });
     }
 
     try {
@@ -107,6 +123,9 @@ export async function POST(request: NextRequest) {
             }
         }
 
+        // Increment feature usage count
+        await incrementUsage(auth.id, 'smart_plan');
+
         return NextResponse.json({
             date: date || new Date().toISOString().split('T')[0],
             targets: {
@@ -115,7 +134,13 @@ export async function POST(request: NextRequest) {
                 carbs: profile.carbs_target,
                 fat: profile.fat_target
             },
-            meals: mealPlan
+            meals: mealPlan,
+            usage: {
+                remaining: usage.remaining - 1,
+                limit: usage.limit,
+                isPremium: usage.isPremium,
+                isTrialing: usage.isTrialing,
+            }
         });
 
     } catch (error) {

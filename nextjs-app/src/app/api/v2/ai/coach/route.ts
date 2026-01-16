@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getSession } from '@/lib/auth';
 import { query } from '@/lib/db';
+import { checkUsageLimit, incrementUsage } from '@/lib/subscription';
 
 const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
 // Using a reliable model via OpenRouter. 
@@ -14,16 +15,27 @@ export async function POST(request: NextRequest) {
             return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
         }
 
+        // Check usage limit (2/day for free users, unlimited for premium/trial)
+        const usage = await checkUsageLimit(session.id, 'coach');
+        if (!usage.allowed) {
+            return NextResponse.json({
+                error: 'limit_reached',
+                message: 'Daily AI Coach limit reached. Upgrade to Premium for unlimited access!',
+                remaining: 0,
+                limit: usage.limit,
+                isPremium: usage.isPremium,
+                isTrialing: usage.isTrialing,
+                trialDaysRemaining: usage.trialDaysRemaining,
+                upgradeRequired: true
+            }, { status: 429 });
+        }
+
         if (!OPENROUTER_API_KEY) {
             console.error('OPENROUTER_API_KEY is missing');
             return NextResponse.json({ error: 'AI Service Config Error' }, { status: 500 });
         }
 
         const today = new Date().toISOString().split('T')[0];
-
-        // Limit Check Removed
-
-        // 1. Get User Context (Profile + Recent Logs)
 
         // 1. Get User Context (Profile + Recent Logs)
         const profiles = await query('SELECT * FROM user_profiles WHERE user_id = ?', [session.id]);
@@ -325,7 +337,18 @@ REMEMBER:
             [session.id, today, MODEL]
         );
 
-        return NextResponse.json(result);
+        // 5. Increment feature usage count
+        await incrementUsage(session.id, 'coach');
+
+        return NextResponse.json({
+            ...result,
+            usage: {
+                remaining: usage.remaining - 1,
+                limit: usage.limit,
+                isPremium: usage.isPremium,
+                isTrialing: usage.isTrialing,
+            }
+        });
 
     } catch (error) {
         console.error('AI Coach API Error:', error);

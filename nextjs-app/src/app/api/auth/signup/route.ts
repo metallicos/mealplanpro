@@ -3,6 +3,7 @@ import { query } from '@/lib/db';
 import { hashPassword, signToken, setSession } from '@/lib/auth';
 import { sendEmail } from '@/lib/email';
 import { welcomeEmail } from '@/lib/email-templates';
+import { createTrialSubscription } from '@/lib/subscription';
 
 export async function POST(request: NextRequest) {
     try {
@@ -60,6 +61,14 @@ export async function POST(request: NextRequest) {
         await query(`
             INSERT INTO user_profiles (user_id, gender) VALUES (?, ?)
         `, [userId, gender || 'male']);
+
+        // 7. Create Trial Subscription (14-day free premium access)
+        try {
+            await createTrialSubscription(userId, 14);
+        } catch (subError) {
+            console.error('Failed to create trial subscription:', subError);
+            // Don't block signup on subscription creation failure
+        }
 
         // 7. Auto Login
         const token = await signToken({

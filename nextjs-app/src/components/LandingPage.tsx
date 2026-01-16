@@ -440,6 +440,98 @@ export default function LandingPage() {
                 </div>
             </div>
 
+            {/* Pricing Section */}
+            <div id="pricing" className="container mx-auto px-6 py-20 border-t border-white/5">
+                <div className="text-center mb-16">
+                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-950/30 border border-amber-500/20 text-amber-400 text-xs font-bold uppercase tracking-wider mb-6">
+                        <Sparkles size={12} /> {locale === 'fr' ? 'Essai gratuit' : 'Free Trial'}
+                    </div>
+                    <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                        {locale === 'fr' ? 'Choisissez votre plan' : 'Choose Your Plan'}
+                    </h2>
+                    <p className="text-gray-400 max-w-2xl mx-auto">
+                        {locale === 'fr'
+                            ? 'Commencez avec un essai gratuit de 14 jours. Pas de carte de crédit requise.'
+                            : 'Start with a 14-day free trial. No credit card required.'}
+                    </p>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    {/* Free Plan */}
+                    <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
+                        <div className="text-lg font-bold mb-2">{locale === 'fr' ? 'Gratuit' : 'Free'}</div>
+                        <div className="text-3xl font-bold mb-6">$0<span className="text-sm text-gray-400">/month</span></div>
+
+                        <ul className="space-y-3 mb-8">
+                            {[
+                                { text: locale === 'fr' ? 'Planification repas manuelle' : 'Manual meal planning', included: true },
+                                { text: locale === 'fr' ? 'Suivi des calories' : 'Calorie tracking', included: true },
+                                { text: locale === 'fr' ? 'Accès aux recettes' : 'Recipe access', included: true },
+                                { text: locale === 'fr' ? 'Coach IA (2/jour)' : 'AI Coach (2/day)', included: true },
+                                { text: locale === 'fr' ? 'Plans intelligents (2/semaine)' : 'Smart Plans (2/week)', included: true },
+                                { text: locale === 'fr' ? 'Coach IA illimité' : 'Unlimited AI Coach', included: false },
+                                { text: locale === 'fr' ? 'Plans intelligents illimités' : 'Unlimited Smart Plans', included: false },
+                                { text: locale === 'fr' ? 'Sans publicité' : 'Ad-free', included: false },
+                            ].map((item, i) => (
+                                <li key={i} className={`flex items-center gap-3 text-sm ${item.included ? 'text-gray-300' : 'text-gray-600'}`}>
+                                    {item.included ? (
+                                        <CheckCircle2 className="w-5 h-5 text-emerald-500 flex-shrink-0" />
+                                    ) : (
+                                        <span className="w-5 h-5 flex items-center justify-center text-gray-600">✕</span>
+                                    )}
+                                    {item.text}
+                                </li>
+                            ))}
+                        </ul>
+
+                        <Link
+                            href="/signup"
+                            className="block w-full py-3 text-center rounded-xl bg-white/10 hover:bg-white/20 text-white font-medium transition-colors"
+                        >
+                            {locale === 'fr' ? 'Commencer gratuitement' : 'Start Free'}
+                        </Link>
+                    </div>
+
+                    {/* Premium Plan */}
+                    <div className="p-6 rounded-2xl bg-gradient-to-br from-amber-500/10 to-orange-500/10 border-2 border-amber-500/30 relative">
+                        <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-amber-500 to-orange-500 text-white text-xs font-bold uppercase">
+                            {locale === 'fr' ? 'Populaire' : 'Most Popular'}
+                        </div>
+
+                        <div className="text-lg font-bold mb-2 text-amber-400">Premium</div>
+                        <div className="text-3xl font-bold mb-1">$2.99<span className="text-sm text-gray-400">/month</span></div>
+                        <p className="text-xs text-gray-500 mb-6">{locale === 'fr' ? 'ou 29 MAD/mois' : 'or 29 MAD/month'}</p>
+
+                        <ul className="space-y-3 mb-8">
+                            {[
+                                { text: locale === 'fr' ? 'Tout du plan gratuit' : 'Everything in Free', included: true },
+                                { text: locale === 'fr' ? 'Coach IA illimité' : 'Unlimited AI Coach', included: true, highlight: true },
+                                { text: locale === 'fr' ? 'Plans intelligents illimités' : 'Unlimited Smart Plans', included: true, highlight: true },
+                                { text: locale === 'fr' ? 'Statistiques avancées' : 'Advanced statistics', included: true },
+                                { text: locale === 'fr' ? 'Export PDF' : 'PDF exports', included: true },
+                                { text: locale === 'fr' ? 'Sans publicité' : 'Ad-free experience', included: true },
+                                { text: locale === 'fr' ? 'Support prioritaire' : 'Priority support', included: true },
+                            ].map((item, i) => (
+                                <li key={i} className={`flex items-center gap-3 text-sm ${item.highlight ? 'text-amber-300 font-medium' : 'text-gray-300'}`}>
+                                    <CheckCircle2 className={`w-5 h-5 flex-shrink-0 ${item.highlight ? 'text-amber-400' : 'text-emerald-500'}`} />
+                                    {item.text}
+                                </li>
+                            ))}
+                        </ul>
+
+                        <Link
+                            href="/signup"
+                            className="block w-full py-3 text-center rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-white font-bold transition-all shadow-lg shadow-amber-500/25"
+                        >
+                            {locale === 'fr' ? 'Essai gratuit 14 jours' : 'Start 14-Day Free Trial'}
+                        </Link>
+                        <p className="text-center text-xs text-gray-500 mt-3">
+                            {locale === 'fr' ? 'Pas de carte requise • Annulez à tout moment' : 'No credit card required • Cancel anytime'}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
             {/* Newsletter Section */}
             <div className="container mx-auto px-6 py-16 border-t border-white/5">
                 <div className="max-w-2xl mx-auto text-center">
