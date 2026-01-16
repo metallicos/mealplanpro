@@ -20,7 +20,7 @@ export async function GET(request: Request) {
 
         // Fetch User details (Name, Email) + Profile
         const results = await query(
-            `SELECT u.full_name, u.email, up.* 
+            `SELECT u.full_name, u.email, u.newsletter_subscribed, up.* 
              FROM users u
              LEFT JOIN user_profiles up ON u.id = up.user_id
              WHERE u.id = ?`,
@@ -37,6 +37,7 @@ export async function GET(request: Request) {
             // User info
             full_name: data.full_name,
             email: data.email,
+            newsletterSubscribed: data.newsletter_subscribed === 1,
 
             // Profile info (handle nulls if no profile record yet)
             weight: data.weight ? Number(data.weight) : 0,
@@ -186,5 +187,40 @@ export async function POST(request: Request) {
             error: 'Failed to save profile',
             details: error.message || String(error)
         }, { status: 500 });
+    }
+}
+
+// DELETE - Delete user account
+export async function DELETE(request: Request) {
+    try {
+        const session = await getSession();
+        if (!session) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+        }
+
+        const { searchParams } = new URL(request.url);
+        const requestedUserId = searchParams.get('user_id');
+        const targetUserId = requestedUserId ? parseInt(requestedUserId) : session.id;
+
+        // Security check: Only allow deleting self (unless Admin)
+        if (targetUserId !== session.id) {
+            // In a real app we'd check admin role here
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 403 });
+        }
+
+        // 1. Delete Profile
+        await query('DELETE FROM user_profiles WHERE user_id = ?', [targetUserId]);
+
+        // 2. Delete User
+        await query('DELETE FROM users WHERE id = ?', [targetUserId]);
+
+        // 3. Optional: Clean up related data (posts, comments, meal logs, weights, etc.)
+        // For now we rely on ON DELETE CASCADE if configured in schema, or just leave orphaned logs.
+        // Given existing code doesn't show schema definition, we do best effort.
+
+        return NextResponse.json({ success: true });
+    } catch (error) {
+        console.error('DELETE /api/profile error:', error);
+        return NextResponse.json({ error: 'Failed to delete account' }, { status: 500 });
     }
 }

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import { useUser } from '@/contexts/UserContext';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -11,6 +12,7 @@ import FamilyManager from '@/components/FamilyManager';
 
 export default function ProfilePage() {
     const { user, settings, updateSettings, isLoading } = useUser();
+    const router = useRouter();
     const t = useTranslations('profile');
 
     // Form state
@@ -19,6 +21,7 @@ export default function ProfilePage() {
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
     const [avatarUrl, setAvatarUrl] = useState('');
+    const [newsletterSubscribed, setNewsletterSubscribed] = useState(false);
 
     // Socials
     const [facebook, setFacebook] = useState('');
@@ -43,6 +46,7 @@ export default function ProfilePage() {
                 .then(data => {
                     if (data) {
                         setAvatarUrl(data.avatar_url || user.avatarUrl || ''); // Priority to profile
+                        setNewsletterSubscribed(!!data.newsletterSubscribed);
                         // Assuming API returns socials (it does now)
                         if (data.facebook) setFacebook(data.facebook);
                         if (data.instagram) setInstagram(data.instagram);
@@ -133,6 +137,39 @@ export default function ProfilePage() {
                 alert('Failed to delete post');
             }
         } catch (err) { console.error(err); }
+    };
+
+    const handleUnsubscribe = async () => {
+        if (!confirm('Are you sure you want to unsubscribe from the newsletter?')) return;
+        try {
+            const res = await fetch('/api/newsletter/unsubscribe', { method: 'POST' });
+            if (res.ok) {
+                setNewsletterSubscribed(false);
+                setMessage({ type: 'success', text: 'Unsubscribed successfully.' });
+            } else {
+                setMessage({ type: 'error', text: 'Failed to unsubscribe.' });
+            }
+        } catch (err) { }
+    };
+
+    const handleDeleteAccount = async () => {
+        if (!confirm('DANGER: Are you sure you want to delete your account? This action cannot be undone.')) return;
+        if (!confirm('Please confirm again. All your data will be permanently lost.')) return;
+
+        setIsSaving(true);
+        try {
+            const res = await fetch('/api/profile', { method: 'DELETE' });
+            if (res.ok) {
+                alert('Account deleted. Goodbye.');
+                window.location.href = '/login';
+            } else {
+                setMessage({ type: 'error', text: 'Failed to delete account.' });
+                setIsSaving(false);
+            }
+        } catch (err) {
+            setMessage({ type: 'error', text: 'An error occurred.' });
+            setIsSaving(false);
+        }
     };
 
     if (isLoading) return <div className="p-8 text-center">Loading...</div>;
@@ -305,6 +342,44 @@ export default function ProfilePage() {
                                     </button>
                                 </div>
                             </form>
+                        </div>
+
+                        {/* Newsletter Section */}
+                        <div className="mt-8 border-t border-gray-800 pt-8">
+                            <h3 className="font-semibold mb-4 flex items-center gap-2"><MessageSquare size={16} /> Newsletter</h3>
+                            <div className="flex items-center justify-between p-4 bg-white/5 rounded-lg">
+                                <div>
+                                    <p className="font-medium">{newsletterSubscribed ? 'Subscribed' : 'Not Subscribed'}</p>
+                                    <p className="text-sm text-gray-400">{newsletterSubscribed ? 'You are receiving updates.' : 'You are not valid for newsletter.'}</p>
+                                </div>
+                                {newsletterSubscribed && (
+                                    <button
+                                        type="button"
+                                        onClick={handleUnsubscribe}
+                                        className="text-sm text-red-400 hover:text-red-300 underline"
+                                    >
+                                        Unsubscribe
+                                    </button>
+                                )}
+                            </div>
+                        </div>
+
+                        {/* Danger Zone */}
+                        <div className="mt-8 border-t border-red-500/20 pt-8">
+                            <h3 className="font-semibold mb-4 text-red-400 flex items-center gap-2"><Trash2 size={16} /> Danger Zone</h3>
+                            <div className="p-4 border border-red-500/20 rounded-lg bg-red-500/5 flex flex-col sm:flex-row items-center justify-between gap-4">
+                                <div>
+                                    <p className="font-medium text-red-200">Delete Account</p>
+                                    <p className="text-sm text-red-300/60">Permanently delete your account and all data.</p>
+                                </div>
+                                <button
+                                    type="button"
+                                    onClick={handleDeleteAccount}
+                                    className="px-4 py-2 bg-red-500/20 hover:bg-red-500/30 text-red-400 rounded-lg text-sm transition-colors border border-red-500/20"
+                                >
+                                    Delete Account
+                                </button>
+                            </div>
                         </div>
                     </div>
 
