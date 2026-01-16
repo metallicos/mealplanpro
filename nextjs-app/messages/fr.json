@@ -44,9 +44,11 @@
         "groceryList": "Liste de Courses",
         "forum": "Forum Communautaire",
         "adminPanel": "Panneau Admin",
-        "profile": "Profil"
+        "profile": "Profil",
+        "macros": "Alimentation"
     },
     "auth": {
+        "username": "Nom d'utilisateur",
         "signIn": "Connexion",
         "signInToAccount": "Connectez-vous à votre compte",
         "email": "E-mail",

@@ -48,6 +48,7 @@
     "macros": "Food"
   },
   "auth": {
+    "username": "Username",
     "signIn": "Sign In",
     "signInToAccount": "Sign in to your account",
     "email": "Email",
