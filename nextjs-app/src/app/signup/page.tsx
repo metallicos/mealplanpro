@@ -23,6 +23,7 @@ export default function SignupPage() {
 
     const [formData, setFormData] = useState({
         full_name: '',
+        username: '',
         email: '',
         password: '',
         family_name: '',
@@ -116,6 +117,17 @@ export default function SignupPage() {
                             value={formData.full_name}
                             onChange={(e) => setFormData({ ...formData, full_name: e.target.value })}
                             placeholder="John Doe"
+                            required
+                        />
+                    </div>
+                    <div>
+                        <label className="form-label block mb-1">{t('username') || 'Username'}</label>
+                        <input
+                            type="text"
+                            className="form-input w-full"
+                            value={formData.username}
+                            onChange={(e) => setFormData({ ...formData, username: e.target.value })}
+                            placeholder="johndoe123"
                             required
                         />
                     </div>

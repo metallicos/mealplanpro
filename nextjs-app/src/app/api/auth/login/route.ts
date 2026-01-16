@@ -10,9 +10,11 @@ export async function POST(request: Request) {
             return NextResponse.json({ error: 'Email and password are required' }, { status: 400 });
         }
 
+        const normalizedEmail = email.toLowerCase();
+
         const users = await query<any[]>(
             'SELECT * FROM users WHERE email = ?',
-            [email]
+            [normalizedEmail]
         );
 
         if (users.length === 0) {

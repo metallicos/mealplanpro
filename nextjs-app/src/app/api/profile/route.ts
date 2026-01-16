@@ -190,6 +190,8 @@ export async function POST(request: Request) {
     }
 }
 
+import { clearSession } from '@/lib/auth';
+
 // DELETE - Delete user account
 export async function DELETE(request: Request) {
     try {
@@ -214,9 +216,8 @@ export async function DELETE(request: Request) {
         // 2. Delete User
         await query('DELETE FROM users WHERE id = ?', [targetUserId]);
 
-        // 3. Optional: Clean up related data (posts, comments, meal logs, weights, etc.)
-        // For now we rely on ON DELETE CASCADE if configured in schema, or just leave orphaned logs.
-        // Given existing code doesn't show schema definition, we do best effort.
+        // 3. Clear Session (Logout)
+        await clearSession();
 
         return NextResponse.json({ success: true });
     } catch (error) {

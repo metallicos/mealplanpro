@@ -1,12 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { query } from '@/lib/db';
 import { hashPassword, signToken, setSession } from '@/lib/auth';
+import { sendEmail } from '@/lib/email';
+import { welcomeEmail } from '@/lib/email-templates';
 
 export async function POST(request: NextRequest) {
     try {
-        const { email, password, full_name, family_name, gender, acceptTerms, newsletter } = await request.json();
+        const { email, password, full_name, family_name, gender, acceptTerms, newsletter, username } = await request.json();
 
-        if (!email || !password || !full_name) {
+        if (!email || !password || !full_name || !username) {
             return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
         }
 
@@ -14,22 +16,26 @@ export async function POST(request: NextRequest) {
             return NextResponse.json({ error: 'You must accept the Terms of Service' }, { status: 400 });
         }
 
-        // 1. Check if email exists
-        const existingUsers = await query('SELECT id FROM users WHERE email = ?', [email]);
+        const normalizedEmail = email.toLowerCase();
+
+        // 1. Check if email or username exists
+        const existingUsers = await query('SELECT id FROM users WHERE email = ? OR username = ?', [normalizedEmail, username]);
         if ((existingUsers as any[]).length > 0) {
-            return NextResponse.json({ error: 'Email already registered' }, { status: 409 }); // 409 Conflict
+            const exists = (existingUsers as any[])[0];
+            // Basic check, could be more specific
+            return NextResponse.json({ error: 'Email or Username already registered' }, { status: 409 });
         }
 
         // 2. Hash password
         const hashedPassword = await hashPassword(password);
 
-        // 3. Create User with newsletter and terms acceptance
+        // 3. Create User
         const termsAcceptedAt = new Date().toISOString();
         const userResult = await query(`
-            INSERT INTO users (email, password_hash, full_name, role, newsletter_subscribed, terms_accepted_at) 
-            VALUES (?, ?, ?, 'master', ?, ?)
+            INSERT INTO users (email, username, password_hash, full_name, role, newsletter_subscribed, terms_accepted_at) 
+            VALUES (?, ?, ?, ?, 'master', ?, ?)
             RETURNING id
-        `, [email, hashedPassword, full_name, newsletter ? 1 : 0, termsAcceptedAt]);
+        `, [normalizedEmail, username, hashedPassword, full_name, newsletter ? 1 : 0, termsAcceptedAt]);
 
         const userId = (userResult as any[])[0]?.id;
 
@@ -58,14 +64,26 @@ export async function POST(request: NextRequest) {
         // 7. Auto Login
         const token = await signToken({
             id: userId,
-            email,
+            email: normalizedEmail,
             role: 'master',
             householdId
         });
 
         await setSession(token);
 
-        return NextResponse.json({ success: true, user: { id: userId, email, full_name, role: 'master', householdId } });
+        // 8. Send Welcome Email
+        try {
+            await sendEmail(
+                normalizedEmail,
+                'Welcome to Meal Plan Pro!',
+                welcomeEmail(full_name, normalizedEmail) // Using full name for welcome, but username is stored
+            );
+        } catch (emailError) {
+            console.error('Failed to send welcome email:', emailError);
+            // Don't block signup on email failure
+        }
+
+        return NextResponse.json({ success: true, user: { id: userId, email: normalizedEmail, username, full_name, role: 'master', householdId } });
 
     } catch (error) {
         console.error('Signup error:', error);

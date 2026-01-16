@@ -21,11 +21,14 @@ PRAGMA foreign_keys = ON;
 -- 1. Create Users Table
 CREATE TABLE users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
+    username TEXT UNIQUE, -- Added username
     email TEXT UNIQUE NOT NULL,
     password_hash TEXT NOT NULL,
     full_name TEXT,
     role TEXT NOT NULL CHECK(role IN ('admin', 'master', 'member')),
     household_id INTEGER,
+    newsletter_subscribed INTEGER DEFAULT 0, -- Added tracking
+    terms_accepted_at TEXT, -- Added tracking
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (household_id) REFERENCES households(id) ON DELETE SET NULL
 );
