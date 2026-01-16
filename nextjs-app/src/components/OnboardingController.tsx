@@ -10,9 +10,15 @@ export default function OnboardingController() {
     const [hasChecked, setHasChecked] = useState(false);
 
     useEffect(() => {
-        // Skip if user is still loading or if user is admin
+        // Skip if user is still loading
         if (isUserLoading) return;
-        if (user?.role === 'admin') {
+
+        // Skip if no user logged in or if user is admin
+        if (!user) {
+            setHasChecked(true);
+            return;
+        }
+        if (user.role === 'admin') {
             setHasChecked(true);
             return;
         }
@@ -32,10 +38,13 @@ export default function OnboardingController() {
             try {
                 const res = await fetch('/api/v2/user/profile');
                 if (res.status === 404) {
+                    // No profile exists - show onboarding
                     setShowOnboarding(true);
                 } else if (res.ok) {
-                    const profile = await res.json();
-                    if (!profile.profile?.goals) {
+                    const data = await res.json();
+                    // Check if profile is incomplete (no goals set)
+                    // The API returns { found: true, profile: { goals: ... } }
+                    if (!data.profile?.goals) {
                         setShowOnboarding(true);
                     }
                 }

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Target, Activity, Apple, Check, TrendingDown, Scale, Dumbbell, X } from 'lucide-react';
+import { Target, Activity, Apple, Check, TrendingDown, Scale, Dumbbell, Sparkles, ArrowRight, Zap } from 'lucide-react';
 
 interface OnboardingModalProps {
     isOpen: boolean;
@@ -69,28 +69,33 @@ export default function OnboardingModal({ isOpen, onComplete, onDismiss }: Onboa
             <div className="bg-[#1e1e24] w-full max-w-lg rounded-2xl border border-white/10 shadow-2xl overflow-hidden flex flex-col max-h-[90vh]">
 
                 {/* Header */}
-                <div className="p-6 border-b border-white/5 bg-white/5">
-                    <div className="flex items-center gap-3 mb-2">
-                        <div className="w-10 h-10 rounded-full bg-gradient-to-r from-cyan-500 to-violet-500 flex items-center justify-center text-white">
-                            {step === 1 && <Activity />}
-                            {step === 2 && <Target />}
-                            {step === 3 && <Apple />}
+                <div className="p-6 border-b border-white/5 bg-gradient-to-r from-cyan-500/10 to-violet-500/10">
+                    <div className="flex items-center gap-3 mb-3">
+                        <div className="w-12 h-12 rounded-xl bg-gradient-to-r from-cyan-500 to-violet-500 flex items-center justify-center text-white shadow-lg shadow-violet-500/30 transition-transform hover:scale-105">
+                            {step === 1 && <Activity size={24} />}
+                            {step === 2 && <Target size={24} />}
+                            {step === 3 && <Sparkles size={24} />}
                         </div>
                         <div>
                             <h2 className="text-xl font-bold text-white">
-                                {step === 1 && "About You"}
-                                {step === 2 && "Your Goals"}
-                                {step === 3 && "Preferences"}
+                                {step === 1 && "Let's Get to Know You"}
+                                {step === 2 && "What's Your Mission?"}
+                                {step === 3 && "Final Touches"}
                             </h2>
-                            <p className="text-sm text-gray-400">Step {step} of 3</p>
+                            <p className="text-sm text-gray-400">Step {step} of 3 — Personalized just for you</p>
                         </div>
                     </div>
-                    {/* Progress Bar */}
-                    <div className="w-full bg-white/10 h-1 mt-2 rounded-full overflow-hidden">
+                    {/* Progress Bar with glow */}
+                    <div className="w-full bg-white/10 h-2 rounded-full overflow-hidden">
                         <div
-                            className="h-full bg-gradient-to-r from-cyan-500 to-violet-500 transition-all duration-300"
+                            className="h-full bg-gradient-to-r from-cyan-500 to-violet-500 transition-all duration-500 ease-out shadow-lg shadow-cyan-500/50"
                             style={{ width: `${(step / 3) * 100}%` }}
                         />
+                    </div>
+                    <div className="flex justify-between mt-2 text-xs text-gray-500">
+                        <span className={step >= 1 ? 'text-cyan-400' : ''}>Profile</span>
+                        <span className={step >= 2 ? 'text-violet-400' : ''}>Goals</span>
+                        <span className={step >= 3 ? 'text-emerald-400' : ''}>Preferences</span>
                     </div>
                 </div>
 
@@ -201,11 +206,10 @@ export default function OnboardingModal({ isOpen, onComplete, onDismiss }: Onboa
                                     <select
                                         value={formData.preferred_language}
                                         onChange={(e) => updateField('preferred_language', e.target.value)}
-                                        className="w-full bg-black/20 border border-white/10 rounded-lg p-2 text-sm text-white focus:outline-none focus:border-violet-500"
+                                        className="w-full bg-black/20 border border-white/10 rounded-lg p-2.5 text-sm text-white focus:outline-none focus:border-cyan-500 transition-colors"
                                     >
                                         <option value="en">English</option>
                                         <option value="fr">Français</option>
-                                        <option value="es">Español</option>
                                     </select>
                                 </div>
                                 <div>
