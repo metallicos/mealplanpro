@@ -7,7 +7,7 @@ import { useRouter } from 'next/navigation';
 import {
     Settings, Users, Mail, CreditCard, Utensils, Home,
     ChevronRight, TrendingUp, Clock, AlertCircle, Crown,
-    FileText, Sparkles, Server, Shield
+    FileText, Sparkles, Server, Shield, Activity
 } from 'lucide-react';
 
 interface DashboardStats {
@@ -114,6 +114,13 @@ export default function AdminDashboard() {
     ];
 
     const settingsSections = [
+        {
+            title: 'Analytics & Monitoring',
+            description: 'View traffic, subscriptions, and revenue metrics',
+            icon: Activity,
+            href: '/admin/analytics',
+            color: 'cyan'
+        },
         {
             title: 'Email Configuration',
             description: 'Configure SMTP settings for email delivery',
