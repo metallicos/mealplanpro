@@ -86,14 +86,10 @@ export default function SignupPage() {
                 paddingBottom: 'calc(1rem + env(safe-area-inset-bottom))'
             }}
         >
-            <div className="card w-full max-w-md p-8 animate-fade-in relative">
+            <div className="card w-full max-w-md p-8 animate-fade-in">
                 <Link
                     href="/login"
-                    className="absolute top-8 left-8 text-gray-500 hover:text-white"
-                    style={{
-                        top: 'calc(2rem)', // Adjusted to be inside the card properly
-                        left: '2rem'
-                    }}
+                    className="inline-flex items-center gap-1 text-gray-500 hover:text-white text-sm mb-6 transition-colors"
                 >
                     ← {t('back')}
                 </Link>
