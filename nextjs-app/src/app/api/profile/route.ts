@@ -210,13 +210,25 @@ export async function DELETE(request: Request) {
             return NextResponse.json({ error: 'Unauthorized' }, { status: 403 });
         }
 
-        // 1. Delete Profile
+        // 1. Break Cyclic Dependency: Handle Household
+        // If user is a master, delete the household first. 
+        // This triggers CASCADE on budgets/items and SET NULL on member's household_id.
+        const households = await query<any[]>('SELECT id FROM households WHERE master_user_id = ?', [targetUserId]);
+        if (households.length > 0) {
+            await query('DELETE FROM households WHERE master_user_id = ?', [targetUserId]);
+        }
+
+        // 2. Also manually nullify household_id for the user just in case (though step 1 should do it if they were master)
+        // If they were just a member, this isn't strictly needed for deletion, but good for cleanup if constraint is weird.
+        await query('UPDATE users SET household_id = NULL WHERE id = ?', [targetUserId]);
+
+        // 3. Delete Profile
         await query('DELETE FROM user_profiles WHERE user_id = ?', [targetUserId]);
 
-        // 2. Delete User
+        // 4. Delete User
         await query('DELETE FROM users WHERE id = ?', [targetUserId]);
 
-        // 3. Clear Session (Logout)
+        // 5. Clear Session (Logout)
         await clearSession();
 
         return NextResponse.json({ success: true });

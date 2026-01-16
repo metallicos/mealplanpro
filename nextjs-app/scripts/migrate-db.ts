@@ -28,6 +28,19 @@ async function migrate() {
             console.log('ℹ️  terms_accepted_at column skip:', e.message);
         }
 
+        // Create system_settings table
+        try {
+            await query(`
+                CREATE TABLE IF NOT EXISTS system_settings (
+                    key TEXT PRIMARY KEY,
+                    value TEXT
+                )
+            `);
+            console.log('✅ Created system_settings table');
+        } catch (e: any) {
+            console.log('ℹ️  system_settings table skip:', e.message);
+        }
+
         console.log('Migration completed.');
     } catch (error) {
         console.error('Migration failed:', error);

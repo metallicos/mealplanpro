@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 import { useUser } from '@/contexts/UserContext';
 import {
     Settings, Users, Mail, Newspaper, Utensils, X, Search,
@@ -313,7 +314,12 @@ export default function AdminPage() {
                 <h1 className="page-title flex flex-wrap items-center gap-2 text-2xl sm:text-3xl">
                     Admin Dashboard <Settings size={24} className="text-violet-400" />
                 </h1>
-                <p className="page-subtitle text-sm sm:text-base">Manage users, contacts, newsletter, and system settings</p>
+                <div className="flex justify-between items-end">
+                    <p className="page-subtitle text-sm sm:text-base">Manage users, contacts, newsletter, and system settings</p>
+                    <Link href="/admin/settings" className="flex items-center gap-2 text-sm text-gray-400 hover:text-white bg-white/5 hover:bg-white/10 px-3 py-1.5 rounded-lg transition-colors">
+                        <Settings size={16} /> SMTP Settings
+                    </Link>
+                </div>
             </div>
 
             {/* Tabs */}
@@ -436,7 +442,7 @@ export default function AdminPage() {
                         )}
 
                         {/* Contacts Tab */}
-                {activeTab === 'contacts' && (
+                        {activeTab === 'contacts' && (
                             <div>
                                 <div className="p-4 border-b border-white/10">
                                     <h3 className="font-semibold">Contact Enquiries</h3>

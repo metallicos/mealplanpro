@@ -18,6 +18,12 @@ DROP TABLE IF EXISTS forum_likes;
 
 PRAGMA foreign_keys = ON;
 
+-- 0. Create System Settings Table (NEW)
+CREATE TABLE system_settings (
+    key TEXT PRIMARY KEY,
+    value TEXT
+);
+
 -- 1. Create Users Table
 CREATE TABLE users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
