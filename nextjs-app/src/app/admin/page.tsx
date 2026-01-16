@@ -79,15 +79,23 @@ export default function AdminPage() {
     const [error, setError] = useState('');
     const [isSubmitting, setIsSubmitting] = useState(false);
 
-    // Meals specific states
+    // Pagination states for all tabs
+    const ITEMS_PER_PAGE = 10;
+    const [usersPage, setUsersPage] = useState(1);
+    const [contactsPage, setContactsPage] = useState(1);
+    const [householdsPage, setHouseholdsPage] = useState(1);
     const [mealsPage, setMealsPage] = useState(1);
     const [mealsCategory, setMealsCategory] = useState('all');
+
+    // Edit modals
+    const [editingUser, setEditingUser] = useState<User | null>(null);
+    const [showCreateUser, setShowCreateUser] = useState(false);
+    const [userForm, setUserForm] = useState({ email: '', full_name: '', password: '', role: 'user' });
     const [editingMeal, setEditingMeal] = useState<Meal | null>(null);
     const [mealForm, setMealForm] = useState({
         title: '', description: '', category: 'other', calories: 0,
         protein: 0, carbs: 0, fat: 0, is_healthy: false
     });
-    const MEALS_PER_PAGE = 10;
 
     useEffect(() => {
         if (!isUserLoading) {
@@ -178,12 +186,10 @@ export default function AdminPage() {
         u.full_name?.toLowerCase().includes(searchQuery.toLowerCase())
     );
 
-    // Meals filtering and pagination
+    // Meals filtering
     const filteredMeals = meals
         .filter(m => mealsCategory === 'all' || m.category === mealsCategory)
         .filter(m => m.title?.toLowerCase().includes(searchQuery.toLowerCase()));
-    const totalMealsPages = Math.ceil(filteredMeals.length / MEALS_PER_PAGE);
-    const paginatedMeals = filteredMeals.slice((mealsPage - 1) * MEALS_PER_PAGE, mealsPage * MEALS_PER_PAGE);
     const mealCategories = [...new Set(meals.map(m => m.category).filter(Boolean))];
 
     const handleEditMeal = (meal: Meal) => {
@@ -218,7 +224,77 @@ export default function AdminPage() {
         }
     };
 
+    // User CRUD handlers
+    const handleEditUser = (user: User) => {
+        setEditingUser(user);
+        setUserForm({ email: user.email, full_name: user.full_name || '', password: '', role: user.role });
+    };
+
+    const handleSaveUser = async () => {
+        setIsSubmitting(true);
+        setError('');
+        try {
+            if (editingUser) {
+                await fetch(`/api/admin/users/${editingUser.id}`, {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(userForm)
+                });
+                setEditingUser(null);
+            } else {
+                const res = await fetch('/api/admin/users', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(userForm)
+                });
+                if (!res.ok) {
+                    const data = await res.json();
+                    setError(data.error || 'Failed to create user');
+                    return;
+                }
+                setShowCreateUser(false);
+            }
+            setUserForm({ email: '', full_name: '', password: '', role: 'user' });
+            loadData();
+        } catch (err) {
+            console.error('Failed to save user', err);
+        } finally {
+            setIsSubmitting(false);
+        }
+    };
+
+    const handleDeleteUser = async (id: number) => {
+        if (!confirm('Delete this user? This cannot be undone.')) return;
+        await fetch(`/api/admin/users/${id}`, { method: 'DELETE' });
+        loadData();
+    };
+
+    const handleDeleteHousehold = async (id: number) => {
+        if (!confirm('Delete this household? Members will be unassigned.')) return;
+        await fetch(`/api/admin/households/${id}`, { method: 'DELETE' });
+        loadData();
+    };
+
+    // Pagination computed values for all tabs
+    const paginatedUsers = filteredUsers.slice((usersPage - 1) * ITEMS_PER_PAGE, usersPage * ITEMS_PER_PAGE);
+    const totalUsersPages = Math.ceil(filteredUsers.length / ITEMS_PER_PAGE);
+
+    const filteredContacts = contacts.filter(c =>
+        c.name?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        c.email?.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+    const paginatedContacts = filteredContacts.slice((contactsPage - 1) * ITEMS_PER_PAGE, contactsPage * ITEMS_PER_PAGE);
+    const totalContactsPages = Math.ceil(filteredContacts.length / ITEMS_PER_PAGE);
+
+    const paginatedHouseholds = households.slice((householdsPage - 1) * ITEMS_PER_PAGE, householdsPage * ITEMS_PER_PAGE);
+    const totalHouseholdsPages = Math.ceil(households.length / ITEMS_PER_PAGE);
+
+    const totalMealsPages = Math.ceil(filteredMeals.length / ITEMS_PER_PAGE);
+    const paginatedMeals = filteredMeals.slice((mealsPage - 1) * ITEMS_PER_PAGE, mealsPage * ITEMS_PER_PAGE);
+
     const newsletterSubscribers = users.filter(u => u.newsletter_subscribed === 1);
+    const paginatedNewsletter = newsletterSubscribers.slice((usersPage - 1) * ITEMS_PER_PAGE, usersPage * ITEMS_PER_PAGE);
+    const totalNewsletterPages = Math.ceil(newsletterSubscribers.length / ITEMS_PER_PAGE);
 
     if (isUserLoading) return <div className="p-8 text-center">Loading...</div>;
 
@@ -272,17 +348,25 @@ export default function AdminPage() {
                         {/* Users Tab */}
                         {activeTab === 'users' && (
                             <div>
-                                <div className="p-4 border-b border-white/10 flex items-center justify-between">
+                                <div className="p-4 border-b border-white/10 flex flex-wrap items-center justify-between gap-4">
                                     <h3 className="font-semibold">All Users ({filteredUsers.length})</h3>
-                                    <div className="relative">
-                                        <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
-                                        <input
-                                            type="text"
-                                            placeholder="Search users..."
-                                            className="pl-10 pr-4 py-2 bg-black/30 border border-white/10 rounded-lg text-sm outline-none focus:border-violet-500"
-                                            value={searchQuery}
-                                            onChange={(e) => setSearchQuery(e.target.value)}
-                                        />
+                                    <div className="flex items-center gap-3">
+                                        <div className="relative">
+                                            <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
+                                            <input
+                                                type="text"
+                                                placeholder="Search users..."
+                                                className="pl-10 pr-4 py-2 bg-black/30 border border-white/10 rounded-lg text-sm outline-none focus:border-violet-500"
+                                                value={searchQuery}
+                                                onChange={(e) => { setSearchQuery(e.target.value); setUsersPage(1); }}
+                                            />
+                                        </div>
+                                        <button
+                                            onClick={() => { setShowCreateUser(true); setUserForm({ email: '', full_name: '', password: '', role: 'user' }); }}
+                                            className="btn-primary text-sm flex items-center gap-2"
+                                        >
+                                            <Plus size={16} /> Add User
+                                        </button>
                                     </div>
                                 </div>
                                 <table className="w-full text-left">
@@ -293,10 +377,11 @@ export default function AdminPage() {
                                             <th className="p-4">Role</th>
                                             <th className="p-4">Newsletter</th>
                                             <th className="p-4">Joined</th>
+                                            <th className="p-4">Actions</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        {filteredUsers.map(u => (
+                                        {paginatedUsers.map(u => (
                                             <tr key={u.id} className="border-b border-white/5 hover:bg-white/5">
                                                 <td className="p-4 font-medium">{u.full_name || 'N/A'}</td>
                                                 <td className="p-4 text-gray-400">{u.email}</td>
@@ -318,10 +403,33 @@ export default function AdminPage() {
                                                 <td className="p-4 text-sm text-gray-400">
                                                     {new Date(u.created_at).toLocaleDateString()}
                                                 </td>
+                                                <td className="p-4">
+                                                    <div className="flex items-center gap-1">
+                                                        <button onClick={() => handleEditUser(u)} className="p-2 hover:bg-violet-500/20 text-violet-400 rounded-lg" title="Edit">
+                                                            <Edit size={16} />
+                                                        </button>
+                                                        <button onClick={() => handleDeleteUser(u.id)} className="p-2 hover:bg-red-500/20 text-red-400 rounded-lg" title="Delete">
+                                                            <Trash2 size={16} />
+                                                        </button>
+                                                    </div>
+                                                </td>
                                             </tr>
                                         ))}
                                     </tbody>
                                 </table>
+                                {totalUsersPages > 1 && (
+                                    <div className="p-4 border-t border-white/10 flex items-center justify-between">
+                                        <div className="text-sm text-gray-400">Page {usersPage} of {totalUsersPages}</div>
+                                        <div className="flex items-center gap-2">
+                                            <button onClick={() => setUsersPage(p => Math.max(1, p - 1))} disabled={usersPage === 1} className="p-2 rounded-lg hover:bg-white/10 disabled:opacity-30">
+                                                <ChevronLeft size={18} />
+                                            </button>
+                                            <button onClick={() => setUsersPage(p => Math.min(totalUsersPages, p + 1))} disabled={usersPage === totalUsersPages} className="p-2 rounded-lg hover:bg-white/10 disabled:opacity-30">
+                                                <ChevronRight size={18} />
+                                            </button>
+                                        </div>
+                                    </div>
+                                )}
                             </div>
                         )}
 
@@ -828,6 +936,49 @@ export default function AdminPage() {
                                 </button>
                                 <button onClick={handleSaveMeal} className="btn-primary" disabled={isSubmitting}>
                                     {isSubmitting ? 'Saving...' : 'Save Changes'}
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            )}
+
+            {/* User Create/Edit Modal */}
+            {(showCreateUser || editingUser) && (
+                <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+                    <div className="card w-full max-w-md animate-fade-in">
+                        <div className="flex items-center justify-between mb-4">
+                            <h2 className="text-xl font-bold">{editingUser ? 'Edit User' : 'Create User'}</h2>
+                            <button onClick={() => { setShowCreateUser(false); setEditingUser(null); }} className="text-gray-400 hover:text-white">
+                                <X size={20} />
+                            </button>
+                        </div>
+                        {error && <div className="mb-4 p-3 bg-red-500/20 border border-red-500/40 rounded-lg text-red-400 text-sm">{error}</div>}
+                        <div className="space-y-4">
+                            <div>
+                                <label className="form-label">Full Name</label>
+                                <input type="text" className="form-input w-full" value={userForm.full_name} onChange={e => setUserForm({ ...userForm, full_name: e.target.value })} />
+                            </div>
+                            <div>
+                                <label className="form-label">Email</label>
+                                <input type="email" className="form-input w-full" value={userForm.email} onChange={e => setUserForm({ ...userForm, email: e.target.value })} required />
+                            </div>
+                            <div>
+                                <label className="form-label">Password {editingUser && <span className="text-gray-500">(leave blank to keep current)</span>}</label>
+                                <input type="password" className="form-input w-full" value={userForm.password} onChange={e => setUserForm({ ...userForm, password: e.target.value })} />
+                            </div>
+                            <div>
+                                <label className="form-label">Role</label>
+                                <select className="form-input w-full" value={userForm.role} onChange={e => setUserForm({ ...userForm, role: e.target.value })}>
+                                    <option value="user">User</option>
+                                    <option value="master">Master</option>
+                                    <option value="admin">Admin</option>
+                                </select>
+                            </div>
+                            <div className="pt-4 flex justify-end gap-3">
+                                <button onClick={() => { setShowCreateUser(false); setEditingUser(null); }} className="px-4 py-2 rounded-lg hover:bg-white/10">Cancel</button>
+                                <button onClick={handleSaveUser} className="btn-primary" disabled={isSubmitting}>
+                                    {isSubmitting ? 'Saving...' : editingUser ? 'Save Changes' : 'Create User'}
                                 </button>
                             </div>
                         </div>
