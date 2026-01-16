@@ -440,32 +440,111 @@ export default function LandingPage() {
                 </div>
             </div>
 
-            {/* Mobile App Download Footer */}
-            <footer className="container mx-auto px-6 py-12 lg:py-16 border-t border-white/5 text-center">
-                <div className="max-w-xl mx-auto">
-                    <h5 className="text-2xl font-bold mb-3">{t('mobile.title')}</h5>
-                    <p className="text-gray-400 text-sm mb-8">{t('mobile.desc')}</p>
+            {/* Newsletter Section */}
+            <div className="container mx-auto px-6 py-16 border-t border-white/5">
+                <div className="max-w-2xl mx-auto text-center">
+                    <h5 className="text-2xl md:text-3xl font-bold mb-3">
+                        {locale === 'fr' ? 'Restez informé' : 'Stay in the Loop'}
+                    </h5>
+                    <p className="text-gray-400 text-sm mb-8">
+                        {locale === 'fr'
+                            ? 'Recevez des conseils nutrition, des recettes saines et des mises à jour produit directement dans votre boîte mail.'
+                            : 'Get nutrition tips, healthy recipes, and product updates delivered to your inbox.'}
+                    </p>
+                    <form
+                        onSubmit={(e) => {
+                            e.preventDefault();
+                            alert(locale === 'fr' ? 'Merci de votre inscription !' : 'Thanks for subscribing!');
+                        }}
+                        className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto"
+                    >
+                        <input
+                            type="email"
+                            required
+                            placeholder={locale === 'fr' ? 'Votre email' : 'Your email address'}
+                            className="flex-1 bg-[#12121a] border border-white/10 rounded-xl px-4 py-3 outline-none focus:border-cyan-500 transition-colors"
+                        />
+                        <button
+                            type="submit"
+                            className="px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-emerald-500 text-white font-bold hover:scale-105 transition-transform whitespace-nowrap"
+                        >
+                            {locale === 'fr' ? "S'inscrire" : 'Subscribe'}
+                        </button>
+                    </form>
+                    <p className="text-xs text-gray-600 mt-4">
+                        {locale === 'fr'
+                            ? 'Pas de spam. Désabonnez-vous à tout moment.'
+                            : 'No spam. Unsubscribe anytime.'}
+                    </p>
+                </div>
+            </div>
 
-                    <div className="flex flex-col sm:flex-row justify-center gap-4">
-                        <button className="flex items-center justify-center gap-3 px-6 py-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors group">
-                            <span className="text-2xl"><AppleIcon /></span>
-                            <div className="text-left">
-                                <div className="text-[10px] uppercase tracking-wider text-gray-500 font-bold group-hover:text-cyan-400 transition-colors">{t('mobile.comingSoon')}</div>
-                                <div className="font-bold text-sm">{t('mobile.apple')}</div>
+            {/* Footer */}
+            <footer className="container mx-auto px-6 py-12 lg:py-16 border-t border-white/5">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+                    {/* Brand */}
+                    <div>
+                        <div className="flex items-center gap-2 font-bold text-xl mb-4">
+                            <div className="w-8 h-8 rounded-full bg-cyan-500 flex items-center justify-center text-white">
+                                <Utensils size={18} />
                             </div>
-                        </button>
-                        <button className="flex items-center justify-center gap-3 px-6 py-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors group">
-                            <span className="text-2xl"><AndroidIcon /></span>
-                            <div className="text-left">
-                                <div className="text-[10px] uppercase tracking-wider text-gray-500 font-bold group-hover:text-emerald-400 transition-colors">{t('mobile.comingSoon')}</div>
-                                <div className="font-bold text-sm">{t('mobile.android')}</div>
-                            </div>
-                        </button>
+                            <span>MealPlan<span className="text-cyan-400">Pro</span></span>
+                        </div>
+                        <p className="text-gray-400 text-sm leading-relaxed">
+                            {locale === 'fr'
+                                ? 'Votre compagnon nutrition intelligent pour atteindre vos objectifs santé.'
+                                : 'Your intelligent nutrition companion for achieving your health goals.'}
+                        </p>
                     </div>
 
-                    <div className="mt-8 text-xs text-gray-600">
-                        © {new Date().getFullYear()} MealPlan Pro. All rights reserved.
+                    {/* Legal Links */}
+                    <div>
+                        <h6 className="font-semibold mb-4 text-gray-300">
+                            {locale === 'fr' ? 'Légal' : 'Legal'}
+                        </h6>
+                        <ul className="space-y-2 text-sm">
+                            <li>
+                                <Link href="/privacy-policy" className="text-gray-400 hover:text-white transition-colors">
+                                    {locale === 'fr' ? 'Politique de confidentialité' : 'Privacy Policy'}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/terms" className="text-gray-400 hover:text-white transition-colors">
+                                    {locale === 'fr' ? "Conditions d'utilisation" : 'Terms of Service'}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/contact" className="text-gray-400 hover:text-white transition-colors">
+                                    {locale === 'fr' ? 'Nous contacter' : 'Contact Us'}
+                                </Link>
+                            </li>
+                        </ul>
                     </div>
+
+                    {/* Mobile Apps */}
+                    <div>
+                        <h6 className="font-semibold mb-4 text-gray-300">{t('mobile.title')}</h6>
+                        <div className="flex flex-col gap-3">
+                            <button className="flex items-center gap-3 px-4 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors group">
+                                <span className="text-xl"><AppleIcon /></span>
+                                <div className="text-left">
+                                    <div className="text-[10px] uppercase tracking-wider text-gray-500 font-bold">{t('mobile.comingSoon')}</div>
+                                    <div className="font-bold text-sm">{t('mobile.apple')}</div>
+                                </div>
+                            </button>
+                            <button className="flex items-center gap-3 px-4 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors group">
+                                <span className="text-xl"><AndroidIcon /></span>
+                                <div className="text-left">
+                                    <div className="text-[10px] uppercase tracking-wider text-gray-500 font-bold">{t('mobile.comingSoon')}</div>
+                                    <div className="font-bold text-sm">{t('mobile.android')}</div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="pt-8 border-t border-white/5 text-center text-xs text-gray-600">
+                    © {new Date().getFullYear()} MealPlan Pro. All rights reserved.
                 </div>
             </footer>
 

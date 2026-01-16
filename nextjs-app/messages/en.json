@@ -71,6 +71,11 @@
     "creatingAccount": "Creating Account...",
     "alreadyHaveAccount": "Already have an account?",
     "logIn": "Log in",
+    "iAccept": "I accept the",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "and": "and",
+    "subscribeNewsletter": "Subscribe to our newsletter for nutrition tips and updates",
     "placeholders": {
       "email": "yours@example.com",
       "password": "••••••••",

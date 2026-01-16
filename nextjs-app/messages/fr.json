@@ -70,6 +70,11 @@
         "creatingAccount": "Création du compte...",
         "alreadyHaveAccount": "Vous avez déjà un compte ?",
         "logIn": "Se connecter",
+        "iAccept": "J'accepte les",
+        "termsOfService": "Conditions d'utilisation",
+        "privacyPolicy": "Politique de confidentialité",
+        "and": "et la",
+        "subscribeNewsletter": "S'inscrire à notre newsletter pour recevoir des conseils nutrition",
         "placeholders": {
             "email": "vous@exemple.com",
             "password": "••••••••",

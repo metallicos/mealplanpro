@@ -4,10 +4,14 @@ import { hashPassword, signToken, setSession } from '@/lib/auth';
 
 export async function POST(request: NextRequest) {
     try {
-        const { email, password, full_name, family_name, gender } = await request.json();
+        const { email, password, full_name, family_name, gender, acceptTerms, newsletter } = await request.json();
 
         if (!email || !password || !full_name) {
             return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
+        }
+
+        if (!acceptTerms) {
+            return NextResponse.json({ error: 'You must accept the Terms of Service' }, { status: 400 });
         }
 
         // 1. Check if email exists
@@ -19,16 +23,13 @@ export async function POST(request: NextRequest) {
         // 2. Hash password
         const hashedPassword = await hashPassword(password);
 
-        // 3. Create User (initially without household_id)
-        // Note: SQLite CREATE INSERT returning ID via separate query if needed, 
-        // but libraries often handle returning. 
-        // My 'query' wrapper returns the result. If using simplified wrapper, I might need to fetch last_insert_rowid via `RETURNING id` if supported or separate query.
-        // SQLite supports RETURNING since 3.35. Assuming libSql supports it.
+        // 3. Create User with newsletter and terms acceptance
+        const termsAcceptedAt = new Date().toISOString();
         const userResult = await query(`
-            INSERT INTO users (email, password_hash, full_name, role) 
-            VALUES (?, ?, ?, 'master')
+            INSERT INTO users (email, password_hash, full_name, role, newsletter_subscribed, terms_accepted_at) 
+            VALUES (?, ?, ?, 'master', ?, ?)
             RETURNING id
-        `, [email, hashedPassword, full_name]);
+        `, [email, hashedPassword, full_name, newsletter ? 1 : 0, termsAcceptedAt]);
 
         const userId = (userResult as any[])[0]?.id;
 

@@ -26,7 +26,9 @@ export default function SignupPage() {
         email: '',
         password: '',
         family_name: '',
-        gender: 'male'
+        gender: 'male',
+        acceptTerms: false,
+        newsletter: false
     });
     const [error, setError] = useState('');
     const [isLoading, setIsLoading] = useState(false);
@@ -183,10 +185,46 @@ export default function SignupPage() {
                         />
                     </div>
 
+                    {/* Terms & Newsletter Checkboxes */}
+                    <div className="space-y-3 pt-4 border-t border-gray-800">
+                        <label className="flex items-start gap-3 cursor-pointer group">
+                            <input
+                                type="checkbox"
+                                required
+                                checked={formData.acceptTerms}
+                                onChange={(e) => setFormData({ ...formData, acceptTerms: e.target.checked })}
+                                className="mt-1 w-4 h-4 rounded border-gray-600 bg-gray-800 text-violet-500 focus:ring-violet-500 cursor-pointer"
+                            />
+                            <span className="text-sm text-gray-400 group-hover:text-gray-300">
+                                {t('iAccept')}{' '}
+                                <Link href="/terms" className="text-violet-400 hover:text-violet-300 underline" target="_blank">
+                                    {t('termsOfService')}
+                                </Link>{' '}
+                                {t('and')}{' '}
+                                <Link href="/privacy-policy" className="text-violet-400 hover:text-violet-300 underline" target="_blank">
+                                    {t('privacyPolicy')}
+                                </Link>
+                                <span className="text-red-400 ml-1">*</span>
+                            </span>
+                        </label>
+
+                        <label className="flex items-start gap-3 cursor-pointer group">
+                            <input
+                                type="checkbox"
+                                checked={formData.newsletter}
+                                onChange={(e) => setFormData({ ...formData, newsletter: e.target.checked })}
+                                className="mt-1 w-4 h-4 rounded border-gray-600 bg-gray-800 text-violet-500 focus:ring-violet-500 cursor-pointer"
+                            />
+                            <span className="text-sm text-gray-400 group-hover:text-gray-300">
+                                {t('subscribeNewsletter')}
+                            </span>
+                        </label>
+                    </div>
+
                     <button
                         type="submit"
                         className="btn-primary w-full py-3 mt-4"
-                        disabled={isLoading}
+                        disabled={isLoading || !formData.acceptTerms}
                     >
                         {isLoading ? t('creatingAccount') : t('signUp')}
                     </button>
