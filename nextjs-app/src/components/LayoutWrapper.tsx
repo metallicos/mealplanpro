@@ -3,15 +3,35 @@
 import { useUser } from '@/contexts/UserContext';
 import Sidebar from '@/components/Sidebar';
 import { BackButtonHandler } from '@/hooks/useBackButton';
+import { useEffect, useState } from 'react';
+import { Network } from '@capacitor/network';
+import OfflinePage from './OfflinePage';
 
 export default function LayoutWrapper({ children }: { children: React.ReactNode }) {
     const { user, isLoading } = useUser();
+    const [isOnline, setIsOnline] = useState(true);
 
-    // While loading, we can show a spinner or just render the content without sidebar to avoid flicker
-    // However, for better UX on protected routes, we might want to wait. 
-    // But since this wraps everything, let's just default to "no sidebar" state if loading or no user.
+    useEffect(() => {
+        // Initial check
+        Network.getStatus().then(status => {
+            setIsOnline(status.connected);
+        });
+
+        // Listen for changes
+        const listener = Network.addListener('networkStatusChange', status => {
+            setIsOnline(status.connected);
+        });
+
+        return () => {
+            listener.then(handle => handle.remove());
+        };
+    }, []);
 
     const showSidebar = !!user;
+
+    if (!isOnline) {
+        return <OfflinePage onRetry={() => Network.getStatus().then(s => setIsOnline(s.connected))} />;
+    }
 
     return (
         <BackButtonHandler>

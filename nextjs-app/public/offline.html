@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>No Connection</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #030712;
+      color: #f8fafc;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .icon-container {
+      margin-bottom: 2rem;
+      position: relative;
+    }
+
+    .icon-bg {
+      background-color: #0f172a;
+      border: 1px solid #1e293b;
+      border-radius: 50%;
+      padding: 1.5rem;
+      box-shadow: 0 0 20px rgba(16, 185, 129, 0.1);
+    }
+
+    .icon {
+      width: 64px;
+      height: 64px;
+      color: #10b981;
+    }
+
+    h1 {
+      font-size: 1.875rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, #10b981 0%, #14b8a6 50%, #06b6d4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      color: #94a3b8;
+      margin-bottom: 2rem;
+      max-width: 300px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="icon-container">
+    <div class="icon-bg">
+      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+        <line x1="1" y1="1" x2="23" y2="23"></line>
+        <path d="M16.72 11.06A10.94 10.94 0 0 1 19 12.55"></path>
+        <path d="M5 12.55a10.94 10.94 0 0 1 5.17-2.39"></path>
+        <path d="M10.71 5.05A16 16 0 0 1 22.58 9"></path>
+        <path d="M1.42 9a15.91 15.91 0 0 1 4.7-2.88"></path>
+        <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+        <line x1="12" y1="20" x2="12.01" y2="20"></line>
+      </svg>
+    </div>
+  </div>
+  <h1>No Connection</h1>
+  <p>It looks like you're offline. Please check your internet connection and try again.</p>
+
+  <script>
+    // Configuration
+    const TARGET_URL = 'https://mealplanpro-snowy.vercel.app';
+    const CHECK_INTERVAL = 3000; // 3 seconds
+
+    function checkConnection() {
+      if (navigator.onLine) {
+        // Double check with a fetch to ensure we actually have internet
+        // mode: 'no-cors' allows us to ping even if CORS is not set up on the target for this origin
+        fetch(TARGET_URL, { mode: 'no-cors', method: 'HEAD' })
+          .then(() => {
+            // Connection successful, redirect
+            window.location.href = TARGET_URL;
+          })
+          .catch(() => {
+            // Still failing to fetch, keep waiting
+            console.log('Still offline...');
+          });
+      }
+    }
+
+    // Start polling
+    setInterval(checkConnection, CHECK_INTERVAL);
+
+    // Also check immediately when the window gains focus or online event fires
+    window.addEventListener('online', checkConnection);
+    window.addEventListener('focus', checkConnection);
+  </script>
+</body>
+
+</html>

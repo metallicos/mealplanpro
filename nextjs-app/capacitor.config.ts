@@ -8,7 +8,8 @@ const config: CapacitorConfig = {
     // Replace this with your actual Vercel URL
     url: 'https://mealplanpro-snowy.vercel.app',
     cleartext: true,
-    allowNavigation: ['mealplanpro-snowy.vercel.app']
+    allowNavigation: ['mealplanpro-snowy.vercel.app'],
+    errorPath: 'offline.html'
   }
 };
 
