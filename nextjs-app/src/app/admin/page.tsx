@@ -5,7 +5,8 @@ import { useRouter } from 'next/navigation';
 import { useUser } from '@/contexts/UserContext';
 import {
     Settings, Users, Mail, Newspaper, Utensils, X, Search,
-    CheckCircle2, AlertCircle, Trash2, Edit, Eye, Download
+    CheckCircle2, AlertCircle, Trash2, Edit, Eye, Download,
+    ChevronLeft, ChevronRight, Plus
 } from 'lucide-react';
 
 interface User {
@@ -77,6 +78,16 @@ export default function AdminPage() {
     });
     const [error, setError] = useState('');
     const [isSubmitting, setIsSubmitting] = useState(false);
+
+    // Meals specific states
+    const [mealsPage, setMealsPage] = useState(1);
+    const [mealsCategory, setMealsCategory] = useState('all');
+    const [editingMeal, setEditingMeal] = useState<Meal | null>(null);
+    const [mealForm, setMealForm] = useState({
+        title: '', description: '', category: 'other', calories: 0,
+        protein: 0, carbs: 0, fat: 0, is_healthy: false
+    });
+    const MEALS_PER_PAGE = 10;
 
     useEffect(() => {
         if (!isUserLoading) {
@@ -166,6 +177,46 @@ export default function AdminPage() {
         u.email.toLowerCase().includes(searchQuery.toLowerCase()) ||
         u.full_name?.toLowerCase().includes(searchQuery.toLowerCase())
     );
+
+    // Meals filtering and pagination
+    const filteredMeals = meals
+        .filter(m => mealsCategory === 'all' || m.category === mealsCategory)
+        .filter(m => m.title?.toLowerCase().includes(searchQuery.toLowerCase()));
+    const totalMealsPages = Math.ceil(filteredMeals.length / MEALS_PER_PAGE);
+    const paginatedMeals = filteredMeals.slice((mealsPage - 1) * MEALS_PER_PAGE, mealsPage * MEALS_PER_PAGE);
+    const mealCategories = [...new Set(meals.map(m => m.category).filter(Boolean))];
+
+    const handleEditMeal = (meal: Meal) => {
+        setEditingMeal(meal);
+        setMealForm({
+            title: meal.title || '',
+            description: meal.description || '',
+            category: meal.category || 'other',
+            calories: meal.calories || 0,
+            protein: meal.protein || 0,
+            carbs: meal.carbs || 0,
+            fat: meal.fat || 0,
+            is_healthy: meal.is_healthy === 1
+        });
+    };
+
+    const handleSaveMeal = async () => {
+        if (!editingMeal) return;
+        setIsSubmitting(true);
+        try {
+            await fetch(`/api/admin/meals/${editingMeal.id}`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(mealForm)
+            });
+            setEditingMeal(null);
+            loadData();
+        } catch (err) {
+            console.error('Failed to save meal', err);
+        } finally {
+            setIsSubmitting(false);
+        }
+    };
 
     const newsletterSubscribers = users.filter(u => u.newsletter_subscribed === 1);
 
@@ -421,9 +472,19 @@ export default function AdminPage() {
                         {/* Meals Tab */}
                         {activeTab === 'meals' && (
                             <div>
-                                <div className="p-4 border-b border-white/10 flex items-center justify-between">
-                                    <h3 className="font-semibold">Meals / Recipes ({meals.length})</h3>
-                                    <div className="flex items-center gap-3">
+                                <div className="p-4 border-b border-white/10 flex flex-wrap items-center justify-between gap-4">
+                                    <h3 className="font-semibold">Meals / Recipes ({filteredMeals.length})</h3>
+                                    <div className="flex items-center gap-3 flex-wrap">
+                                        <select
+                                            value={mealsCategory}
+                                            onChange={(e) => { setMealsCategory(e.target.value); setMealsPage(1); }}
+                                            className="bg-black/30 border border-white/10 rounded-lg px-3 py-2 text-sm outline-none focus:border-cyan-500"
+                                        >
+                                            <option value="all">All Categories</option>
+                                            {mealCategories.map(cat => (
+                                                <option key={cat} value={cat} className="capitalize">{cat}</option>
+                                            ))}
+                                        </select>
                                         <div className="relative">
                                             <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
                                             <input
@@ -431,31 +492,30 @@ export default function AdminPage() {
                                                 placeholder="Search meals..."
                                                 className="pl-10 pr-4 py-2 bg-black/30 border border-white/10 rounded-lg text-sm outline-none focus:border-cyan-500"
                                                 value={searchQuery}
-                                                onChange={(e) => setSearchQuery(e.target.value)}
+                                                onChange={(e) => { setSearchQuery(e.target.value); setMealsPage(1); }}
                                             />
                                         </div>
                                     </div>
                                 </div>
-                                {meals.length === 0 ? (
+                                {paginatedMeals.length === 0 ? (
                                     <div className="p-8 text-center text-gray-400">No meals found</div>
                                 ) : (
-                                    <table className="w-full text-left">
-                                        <thead>
-                                            <tr className="border-b border-white/10 text-gray-400 text-sm">
-                                                <th className="p-4">Title</th>
-                                                <th className="p-4">Category</th>
-                                                <th className="p-4">Calories</th>
-                                                <th className="p-4">Macros (P/C/F)</th>
-                                                <th className="p-4">Healthy</th>
-                                                <th className="p-4">Actions</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {meals
-                                                .filter(m => m.title?.toLowerCase().includes(searchQuery.toLowerCase()))
-                                                .map(m => (
+                                    <>
+                                        <table className="w-full text-left">
+                                            <thead>
+                                                <tr className="border-b border-white/10 text-gray-400 text-sm">
+                                                    <th className="p-4">Title</th>
+                                                    <th className="p-4">Category</th>
+                                                    <th className="p-4">Calories</th>
+                                                    <th className="p-4">Macros (P/C/F)</th>
+                                                    <th className="p-4">Healthy</th>
+                                                    <th className="p-4">Actions</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                {paginatedMeals.map(m => (
                                                     <tr key={m.id} className="border-b border-white/5 hover:bg-white/5">
-                                                        <td className="p-4 font-medium">{m.title || 'Untitled'}</td>
+                                                        <td className="p-4 font-medium max-w-[200px] truncate">{m.title || 'Untitled'}</td>
                                                         <td className="p-4 text-gray-400 capitalize">{m.category || 'other'}</td>
                                                         <td className="p-4">
                                                             <span className="text-cyan-400">{m.calories || 0}</span>
@@ -476,10 +536,17 @@ export default function AdminPage() {
                                                             )}
                                                         </td>
                                                         <td className="p-4">
-                                                            <div className="flex items-center gap-2">
+                                                            <div className="flex items-center gap-1">
+                                                                <button
+                                                                    onClick={() => handleEditMeal(m)}
+                                                                    className="p-2 hover:bg-violet-500/20 text-violet-400 rounded-lg transition-colors"
+                                                                    title="Edit"
+                                                                >
+                                                                    <Edit size={16} />
+                                                                </button>
                                                                 <button
                                                                     onClick={async () => {
-                                                                        if (confirm('Are you sure you want to delete this meal?')) {
+                                                                        if (confirm('Delete this meal?')) {
                                                                             await fetch(`/api/admin/meals/${m.id}`, { method: 'DELETE' });
                                                                             loadData();
                                                                         }
@@ -493,8 +560,46 @@ export default function AdminPage() {
                                                         </td>
                                                     </tr>
                                                 ))}
-                                        </tbody>
-                                    </table>
+                                            </tbody>
+                                        </table>
+                                        {/* Pagination */}
+                                        {totalMealsPages > 1 && (
+                                            <div className="p-4 border-t border-white/10 flex items-center justify-between">
+                                                <div className="text-sm text-gray-400">
+                                                    Page {mealsPage} of {totalMealsPages} ({filteredMeals.length} total)
+                                                </div>
+                                                <div className="flex items-center gap-2">
+                                                    <button
+                                                        onClick={() => setMealsPage(p => Math.max(1, p - 1))}
+                                                        disabled={mealsPage === 1}
+                                                        className="p-2 rounded-lg hover:bg-white/10 disabled:opacity-30 disabled:cursor-not-allowed"
+                                                    >
+                                                        <ChevronLeft size={18} />
+                                                    </button>
+                                                    {Array.from({ length: Math.min(5, totalMealsPages) }, (_, i) => {
+                                                        const page = mealsPage <= 3 ? i + 1 : mealsPage - 2 + i;
+                                                        if (page > totalMealsPages) return null;
+                                                        return (
+                                                            <button
+                                                                key={page}
+                                                                onClick={() => setMealsPage(page)}
+                                                                className={`w-8 h-8 rounded-lg text-sm ${mealsPage === page ? 'bg-violet-600 text-white' : 'hover:bg-white/10'}`}
+                                                            >
+                                                                {page}
+                                                            </button>
+                                                        );
+                                                    })}
+                                                    <button
+                                                        onClick={() => setMealsPage(p => Math.min(totalMealsPages, p + 1))}
+                                                        disabled={mealsPage === totalMealsPages}
+                                                        className="p-2 rounded-lg hover:bg-white/10 disabled:opacity-30 disabled:cursor-not-allowed"
+                                                    >
+                                                        <ChevronRight size={18} />
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        )}
+                                    </>
                                 )}
                             </div>
                         )}
@@ -620,6 +725,112 @@ export default function AdminPage() {
                                 </button>
                             </div>
                         </form>
+                    </div>
+                </div>
+            )}
+
+            {/* Edit Meal Modal */}
+            {editingMeal && (
+                <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+                    <div className="card w-full max-w-lg animate-fade-in max-h-[90vh] overflow-y-auto">
+                        <div className="flex items-center justify-between mb-4">
+                            <h2 className="text-xl font-bold">Edit Meal</h2>
+                            <button onClick={() => setEditingMeal(null)} className="text-gray-400 hover:text-white">
+                                <X size={20} />
+                            </button>
+                        </div>
+                        <div className="space-y-4">
+                            <div>
+                                <label className="form-label">Title</label>
+                                <input
+                                    type="text"
+                                    className="form-input w-full"
+                                    value={mealForm.title}
+                                    onChange={e => setMealForm({ ...mealForm, title: e.target.value })}
+                                />
+                            </div>
+                            <div>
+                                <label className="form-label">Description</label>
+                                <textarea
+                                    className="form-input w-full h-20"
+                                    value={mealForm.description}
+                                    onChange={e => setMealForm({ ...mealForm, description: e.target.value })}
+                                />
+                            </div>
+                            <div className="grid grid-cols-2 gap-4">
+                                <div>
+                                    <label className="form-label">Category</label>
+                                    <select
+                                        className="form-input w-full"
+                                        value={mealForm.category}
+                                        onChange={e => setMealForm({ ...mealForm, category: e.target.value })}
+                                    >
+                                        <option value="breakfast">Breakfast</option>
+                                        <option value="lunch">Lunch</option>
+                                        <option value="dinner">Dinner</option>
+                                        <option value="snack">Snack</option>
+                                        <option value="dessert">Dessert</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label className="form-label">Calories</label>
+                                    <input
+                                        type="number"
+                                        className="form-input w-full"
+                                        value={mealForm.calories}
+                                        onChange={e => setMealForm({ ...mealForm, calories: parseInt(e.target.value) || 0 })}
+                                    />
+                                </div>
+                            </div>
+                            <div className="grid grid-cols-3 gap-4">
+                                <div>
+                                    <label className="form-label">Protein (g)</label>
+                                    <input
+                                        type="number"
+                                        className="form-input w-full"
+                                        value={mealForm.protein}
+                                        onChange={e => setMealForm({ ...mealForm, protein: parseInt(e.target.value) || 0 })}
+                                    />
+                                </div>
+                                <div>
+                                    <label className="form-label">Carbs (g)</label>
+                                    <input
+                                        type="number"
+                                        className="form-input w-full"
+                                        value={mealForm.carbs}
+                                        onChange={e => setMealForm({ ...mealForm, carbs: parseInt(e.target.value) || 0 })}
+                                    />
+                                </div>
+                                <div>
+                                    <label className="form-label">Fat (g)</label>
+                                    <input
+                                        type="number"
+                                        className="form-input w-full"
+                                        value={mealForm.fat}
+                                        onChange={e => setMealForm({ ...mealForm, fat: parseInt(e.target.value) || 0 })}
+                                    />
+                                </div>
+                            </div>
+                            <div className="flex items-center gap-3">
+                                <input
+                                    type="checkbox"
+                                    id="is_healthy"
+                                    checked={mealForm.is_healthy}
+                                    onChange={e => setMealForm({ ...mealForm, is_healthy: e.target.checked })}
+                                    className="w-4 h-4 rounded"
+                                />
+                                <label htmlFor="is_healthy" className="text-sm">Mark as Healthy</label>
+                            </div>
+                            <div className="pt-4 flex justify-end gap-3">
+                                <button onClick={() => setEditingMeal(null)} className="px-4 py-2 rounded-lg hover:bg-white/10">
+                                    Cancel
+                                </button>
+                                <button onClick={handleSaveMeal} className="btn-primary" disabled={isSubmitting}>
+                                    {isSubmitting ? 'Saving...' : 'Save Changes'}
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             )}
