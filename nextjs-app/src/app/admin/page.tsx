@@ -310,10 +310,10 @@ export default function AdminPage() {
         <div className="animate-fade-in">
             {/* Header */}
             <div className="mb-8">
-                <h1 className="page-title flex items-center gap-2">
+                <h1 className="page-title flex flex-wrap items-center gap-2 text-2xl sm:text-3xl">
                     Admin Dashboard <Settings size={24} className="text-violet-400" />
                 </h1>
-                <p className="page-subtitle">Manage users, contacts, newsletter, and system settings</p>
+                <p className="page-subtitle text-sm sm:text-base">Manage users, contacts, newsletter, and system settings</p>
             </div>
 
             {/* Tabs */}
@@ -348,75 +348,77 @@ export default function AdminPage() {
                         {/* Users Tab */}
                         {activeTab === 'users' && (
                             <div>
-                                <div className="p-4 border-b border-white/10 flex flex-wrap items-center justify-between gap-4">
-                                    <h3 className="font-semibold">All Users ({filteredUsers.length})</h3>
-                                    <div className="flex items-center gap-3">
-                                        <div className="relative">
+                                <div className="p-4 border-b border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
+                                    <h3 className="font-semibold text-lg">All Users ({filteredUsers.length})</h3>
+                                    <div className="flex flex-col sm:flex-row items-center gap-3 w-full md:w-auto">
+                                        <div className="relative w-full sm:w-auto">
                                             <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
                                             <input
                                                 type="text"
                                                 placeholder="Search users..."
-                                                className="pl-10 pr-4 py-2 bg-black/30 border border-white/10 rounded-lg text-sm outline-none focus:border-violet-500"
+                                                className="pl-10 pr-4 py-2 bg-black/30 border border-white/10 rounded-lg text-sm outline-none focus:border-violet-500 w-full"
                                                 value={searchQuery}
                                                 onChange={(e) => { setSearchQuery(e.target.value); setUsersPage(1); }}
                                             />
                                         </div>
                                         <button
                                             onClick={() => { setShowCreateUser(true); setUserForm({ email: '', full_name: '', password: '', role: 'user' }); }}
-                                            className="btn-primary text-sm flex items-center gap-2"
+                                            className="btn-primary text-sm flex items-center gap-2 w-full sm:w-auto justify-center"
                                         >
                                             <Plus size={16} /> Add User
                                         </button>
                                     </div>
                                 </div>
-                                <table className="w-full text-left">
-                                    <thead>
-                                        <tr className="border-b border-white/10 text-gray-400 text-sm">
-                                            <th className="p-4">Name</th>
-                                            <th className="p-4">Email</th>
-                                            <th className="p-4">Role</th>
-                                            <th className="p-4">Newsletter</th>
-                                            <th className="p-4">Joined</th>
-                                            <th className="p-4">Actions</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        {paginatedUsers.map(u => (
-                                            <tr key={u.id} className="border-b border-white/5 hover:bg-white/5">
-                                                <td className="p-4 font-medium">{u.full_name || 'N/A'}</td>
-                                                <td className="p-4 text-gray-400">{u.email}</td>
-                                                <td className="p-4">
-                                                    <span className={`px-2 py-1 rounded text-xs font-bold ${u.role === 'admin' ? 'bg-red-500/20 text-red-400' :
-                                                        u.role === 'master' ? 'bg-violet-500/20 text-violet-400' :
-                                                            'bg-gray-500/20 text-gray-400'
-                                                        }`}>
-                                                        {u.role}
-                                                    </span>
-                                                </td>
-                                                <td className="p-4">
-                                                    {u.newsletter_subscribed ? (
-                                                        <CheckCircle2 size={18} className="text-emerald-400" />
-                                                    ) : (
-                                                        <X size={18} className="text-gray-500" />
-                                                    )}
-                                                </td>
-                                                <td className="p-4 text-sm text-gray-400">
-                                                    {new Date(u.created_at).toLocaleDateString()}
-                                                </td>
-                                                <td className="p-4">
-                                                    <div className="flex items-center gap-1">
-                                                        <button onClick={() => handleEditUser(u)} className="p-2 hover:bg-violet-500/20 text-violet-400 rounded-lg" title="Edit">
-                                                            <Edit size={16} />
-                                                        </button>
-                                                        <button onClick={() => handleDeleteUser(u.id)} className="p-2 hover:bg-red-500/20 text-red-400 rounded-lg" title="Delete">
-                                                            <Trash2 size={16} />
-                                                        </button>
-                                                    </div>
-                                                </td>
+                                <div className="overflow-x-auto">
+                                    <table className="w-full text-left min-w-[800px]">
+                                        <thead>
+                                            <tr className="border-b border-white/10 text-gray-400 text-sm">
+                                                <th className="p-4">Name</th>
+                                                <th className="p-4">Email</th>
+                                                <th className="p-4">Role</th>
+                                                <th className="p-4">Newsletter</th>
+                                                <th className="p-4">Joined</th>
+                                                <th className="p-4">Actions</th>
                                             </tr>
-                                        ))}
-                                    </tbody>
-                                </table>
+                                        </thead>
+                                        <tbody>
+                                            {paginatedUsers.map(u => (
+                                                <tr key={u.id} className="border-b border-white/5 hover:bg-white/5">
+                                                    <td className="p-4 font-medium">{u.full_name || 'N/A'}</td>
+                                                    <td className="p-4 text-gray-400">{u.email}</td>
+                                                    <td className="p-4">
+                                                        <span className={`px-2 py-1 rounded text-xs font-bold ${u.role === 'admin' ? 'bg-red-500/20 text-red-400' :
+                                                            u.role === 'master' ? 'bg-violet-500/20 text-violet-400' :
+                                                                'bg-gray-500/20 text-gray-400'
+                                                            }`}>
+                                                            {u.role}
+                                                        </span>
+                                                    </td>
+                                                    <td className="p-4">
+                                                        {u.newsletter_subscribed ? (
+                                                            <CheckCircle2 size={18} className="text-emerald-400" />
+                                                        ) : (
+                                                            <X size={18} className="text-gray-500" />
+                                                        )}
+                                                    </td>
+                                                    <td className="p-4 text-sm text-gray-400">
+                                                        {new Date(u.created_at).toLocaleDateString()}
+                                                    </td>
+                                                    <td className="p-4">
+                                                        <div className="flex items-center gap-1">
+                                                            <button onClick={() => handleEditUser(u)} className="p-2 hover:bg-violet-500/20 text-violet-400 rounded-lg" title="Edit">
+                                                                <Edit size={16} />
+                                                            </button>
+                                                            <button onClick={() => handleDeleteUser(u.id)} className="p-2 hover:bg-red-500/20 text-red-400 rounded-lg" title="Delete">
+                                                                <Trash2 size={16} />
+                                                            </button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            ))}
+                                        </tbody>
+                                    </table>
+                                </div>
                                 {totalUsersPages > 1 && (
                                     <div className="p-4 border-t border-white/10 flex items-center justify-between">
                                         <div className="text-sm text-gray-400">Page {usersPage} of {totalUsersPages}</div>
@@ -434,7 +436,7 @@ export default function AdminPage() {
                         )}
 
                         {/* Contacts Tab */}
-                        {activeTab === 'contacts' && (
+                {activeTab === 'contacts' && (
                             <div>
                                 <div className="p-4 border-b border-white/10">
                                     <h3 className="font-semibold">Contact Enquiries</h3>
@@ -442,54 +444,57 @@ export default function AdminPage() {
                                 {contacts.length === 0 ? (
                                     <div className="p-8 text-center text-gray-400">No contact submissions yet</div>
                                 ) : (
-                                    <table className="w-full text-left">
-                                        <thead>
-                                            <tr className="border-b border-white/10 text-gray-400 text-sm">
-                                                <th className="p-4">Status</th>
-                                                <th className="p-4">From</th>
-                                                <th className="p-4">Subject</th>
-                                                <th className="p-4">Date</th>
-                                                <th className="p-4">Actions</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {contacts.map(c => (
-                                                <tr key={c.id} className="border-b border-white/5 hover:bg-white/5">
-                                                    <td className="p-4">
-                                                        {c.status === 'new' ? (
-                                                            <span className="flex items-center gap-1 text-amber-400 text-sm">
-                                                                <AlertCircle size={14} /> New
-                                                            </span>
-                                                        ) : (
-                                                            <span className="flex items-center gap-1 text-emerald-400 text-sm">
-                                                                <CheckCircle2 size={14} /> Resolved
-                                                            </span>
-                                                        )}
-                                                    </td>
-                                                    <td className="p-4">
-                                                        <div className="font-medium">{c.name}</div>
-                                                        <div className="text-xs text-gray-400">{c.email}</div>
-                                                    </td>
-                                                    <td className="p-4 text-gray-300">{c.subject}</td>
-                                                    <td className="p-4 text-sm text-gray-400">
-                                                        {new Date(c.created_at).toLocaleDateString()}
-                                                    </td>
-                                                    <td className="p-4">
-                                                        <button
-                                                            onClick={() => setViewingContact(c)}
-                                                            className="p-2 hover:bg-white/10 rounded-lg transition-colors"
-                                                        >
-                                                            <Eye size={16} />
-                                                        </button>
-                                                    </td>
+                                    <div className="overflow-x-auto">
+                                        <table className="w-full text-left min-w-[600px]">
+                                            <thead>
+                                                <tr className="border-b border-white/10 text-gray-400 text-sm">
+                                                    <th className="p-4">Status</th>
+                                                    <th className="p-4">From</th>
+                                                    <th className="p-4">Subject</th>
+                                                    <th className="p-4">Date</th>
+                                                    <th className="p-4">Actions</th>
                                                 </tr>
-                                            ))}
-                                        </tbody>
-                                    </table>
+                                            </thead>
+                                            <tbody>
+                                                {contacts.map(c => (
+                                                    <tr key={c.id} className="border-b border-white/5 hover:bg-white/5">
+                                                        <td className="p-4">
+                                                            {c.status === 'new' ? (
+                                                                <span className="flex items-center gap-1 text-amber-400 text-sm">
+                                                                    <AlertCircle size={14} /> New
+                                                                </span>
+                                                            ) : (
+                                                                <span className="flex items-center gap-1 text-emerald-400 text-sm">
+                                                                    <CheckCircle2 size={14} /> Resolved
+                                                                </span>
+                                                            )}
+                                                        </td>
+                                                        <td className="p-4">
+                                                            <div className="font-medium">{c.name}</div>
+                                                            <div className="text-xs text-gray-400">{c.email}</div>
+                                                        </td>
+                                                        <td className="p-4 text-gray-300">{c.subject}</td>
+                                                        <td className="p-4 text-sm text-gray-400">
+                                                            {new Date(c.created_at).toLocaleDateString()}
+                                                        </td>
+                                                        <td className="p-4">
+                                                            <button
+                                                                onClick={() => setViewingContact(c)}
+                                                                className="p-2 hover:bg-white/10 rounded-lg transition-colors"
+                                                            >
+                                                                <Eye size={16} />
+                                                            </button>
+                                                        </td>
+                                                    </tr>
+                                                ))}
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 )}
                             </div>
                         )}
 
+                        {/* Newsletter Tab */}
                         {/* Newsletter Tab */}
                         {activeTab === 'newsletter' && (
                             <div>
@@ -505,26 +510,28 @@ export default function AdminPage() {
                                 {newsletterSubscribers.length === 0 ? (
                                     <div className="p-8 text-center text-gray-400">No newsletter subscribers yet</div>
                                 ) : (
-                                    <table className="w-full text-left">
-                                        <thead>
-                                            <tr className="border-b border-white/10 text-gray-400 text-sm">
-                                                <th className="p-4">Name</th>
-                                                <th className="p-4">Email</th>
-                                                <th className="p-4">Subscribed Date</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {newsletterSubscribers.map(u => (
-                                                <tr key={u.id} className="border-b border-white/5 hover:bg-white/5">
-                                                    <td className="p-4 font-medium">{u.full_name || 'N/A'}</td>
-                                                    <td className="p-4 text-gray-400">{u.email}</td>
-                                                    <td className="p-4 text-sm text-gray-400">
-                                                        {new Date(u.created_at).toLocaleDateString()}
-                                                    </td>
+                                    <div className="overflow-x-auto">
+                                        <table className="w-full text-left min-w-[500px]">
+                                            <thead>
+                                                <tr className="border-b border-white/10 text-gray-400 text-sm">
+                                                    <th className="p-4">Name</th>
+                                                    <th className="p-4">Email</th>
+                                                    <th className="p-4">Subscribed Date</th>
                                                 </tr>
-                                            ))}
-                                        </tbody>
-                                    </table>
+                                            </thead>
+                                            <tbody>
+                                                {newsletterSubscribers.map(u => (
+                                                    <tr key={u.id} className="border-b border-white/5 hover:bg-white/5">
+                                                        <td className="p-4 font-medium">{u.full_name || 'N/A'}</td>
+                                                        <td className="p-4 text-gray-400">{u.email}</td>
+                                                        <td className="p-4 text-sm text-gray-400">
+                                                            {new Date(u.created_at).toLocaleDateString()}
+                                                        </td>
+                                                    </tr>
+                                                ))}
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 )}
                             </div>
                         )}
@@ -544,35 +551,37 @@ export default function AdminPage() {
                                 {households.length === 0 ? (
                                     <div className="p-8 text-center text-gray-400">No households found</div>
                                 ) : (
-                                    <table className="w-full text-left">
-                                        <thead>
-                                            <tr className="border-b border-white/10 text-gray-400 text-sm">
-                                                <th className="p-4">Household</th>
-                                                <th className="p-4">Master User</th>
-                                                <th className="p-4">Members</th>
-                                                <th className="p-4">Created</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {households.map(h => (
-                                                <tr key={h.id} className="border-b border-white/5 hover:bg-white/5">
-                                                    <td className="p-4 font-medium">{h.name}</td>
-                                                    <td className="p-4">
-                                                        <div>{h.master_name}</div>
-                                                        <div className="text-xs text-gray-400">{h.master_email}</div>
-                                                    </td>
-                                                    <td className="p-4">
-                                                        <span className="bg-violet-500/20 text-violet-300 px-2 py-1 rounded text-xs">
-                                                            {h.member_count}
-                                                        </span>
-                                                    </td>
-                                                    <td className="p-4 text-sm text-gray-400">
-                                                        {new Date(h.created_at).toLocaleDateString()}
-                                                    </td>
+                                    <div className="overflow-x-auto">
+                                        <table className="w-full text-left min-w-[600px]">
+                                            <thead>
+                                                <tr className="border-b border-white/10 text-gray-400 text-sm">
+                                                    <th className="p-4">Household</th>
+                                                    <th className="p-4">Master User</th>
+                                                    <th className="p-4">Members</th>
+                                                    <th className="p-4">Created</th>
                                                 </tr>
-                                            ))}
-                                        </tbody>
-                                    </table>
+                                            </thead>
+                                            <tbody>
+                                                {households.map(h => (
+                                                    <tr key={h.id} className="border-b border-white/5 hover:bg-white/5">
+                                                        <td className="p-4 font-medium">{h.name}</td>
+                                                        <td className="p-4">
+                                                            <div>{h.master_name}</div>
+                                                            <div className="text-xs text-gray-400">{h.master_email}</div>
+                                                        </td>
+                                                        <td className="p-4">
+                                                            <span className="bg-violet-500/20 text-violet-300 px-2 py-1 rounded text-xs">
+                                                                {h.member_count}
+                                                            </span>
+                                                        </td>
+                                                        <td className="p-4 text-sm text-gray-400">
+                                                            {new Date(h.created_at).toLocaleDateString()}
+                                                        </td>
+                                                    </tr>
+                                                ))}
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 )}
                             </div>
                         )}
@@ -582,23 +591,23 @@ export default function AdminPage() {
                             <div>
                                 <div className="p-4 border-b border-white/10 flex flex-wrap items-center justify-between gap-4">
                                     <h3 className="font-semibold">Meals / Recipes ({filteredMeals.length})</h3>
-                                    <div className="flex items-center gap-3 flex-wrap">
+                                    <div className="flex flex-col sm:flex-row items-center gap-3 flex-wrap w-full md:w-auto">
                                         <select
                                             value={mealsCategory}
                                             onChange={(e) => { setMealsCategory(e.target.value); setMealsPage(1); }}
-                                            className="bg-black/30 border border-white/10 rounded-lg px-3 py-2 text-sm outline-none focus:border-cyan-500"
+                                            className="bg-black/30 border border-white/10 rounded-lg px-3 py-2 text-sm outline-none focus:border-cyan-500 w-full sm:w-auto"
                                         >
                                             <option value="all">All Categories</option>
                                             {mealCategories.map(cat => (
                                                 <option key={cat} value={cat} className="capitalize">{cat}</option>
                                             ))}
                                         </select>
-                                        <div className="relative">
+                                        <div className="relative w-full sm:w-auto">
                                             <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
                                             <input
                                                 type="text"
                                                 placeholder="Search meals..."
-                                                className="pl-10 pr-4 py-2 bg-black/30 border border-white/10 rounded-lg text-sm outline-none focus:border-cyan-500"
+                                                className="pl-10 pr-4 py-2 bg-black/30 border border-white/10 rounded-lg text-sm outline-none focus:border-cyan-500 w-full"
                                                 value={searchQuery}
                                                 onChange={(e) => { setSearchQuery(e.target.value); setMealsPage(1); }}
                                             />
@@ -609,67 +618,69 @@ export default function AdminPage() {
                                     <div className="p-8 text-center text-gray-400">No meals found</div>
                                 ) : (
                                     <>
-                                        <table className="w-full text-left">
-                                            <thead>
-                                                <tr className="border-b border-white/10 text-gray-400 text-sm">
-                                                    <th className="p-4">Title</th>
-                                                    <th className="p-4">Category</th>
-                                                    <th className="p-4">Calories</th>
-                                                    <th className="p-4">Macros (P/C/F)</th>
-                                                    <th className="p-4">Healthy</th>
-                                                    <th className="p-4">Actions</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                {paginatedMeals.map(m => (
-                                                    <tr key={m.id} className="border-b border-white/5 hover:bg-white/5">
-                                                        <td className="p-4 font-medium max-w-[200px] truncate">{m.title || 'Untitled'}</td>
-                                                        <td className="p-4 text-gray-400 capitalize">{m.category || 'other'}</td>
-                                                        <td className="p-4">
-                                                            <span className="text-cyan-400">{m.calories || 0}</span>
-                                                            <span className="text-gray-500 text-xs ml-1">kcal</span>
-                                                        </td>
-                                                        <td className="p-4 text-sm">
-                                                            <span className="text-red-400">{m.protein || 0}g</span>
-                                                            {' / '}
-                                                            <span className="text-yellow-400">{m.carbs || 0}g</span>
-                                                            {' / '}
-                                                            <span className="text-orange-400">{m.fat || 0}g</span>
-                                                        </td>
-                                                        <td className="p-4">
-                                                            {m.is_healthy ? (
-                                                                <CheckCircle2 size={18} className="text-emerald-400" />
-                                                            ) : (
-                                                                <X size={18} className="text-gray-500" />
-                                                            )}
-                                                        </td>
-                                                        <td className="p-4">
-                                                            <div className="flex items-center gap-1">
-                                                                <button
-                                                                    onClick={() => handleEditMeal(m)}
-                                                                    className="p-2 hover:bg-violet-500/20 text-violet-400 rounded-lg transition-colors"
-                                                                    title="Edit"
-                                                                >
-                                                                    <Edit size={16} />
-                                                                </button>
-                                                                <button
-                                                                    onClick={async () => {
-                                                                        if (confirm('Delete this meal?')) {
-                                                                            await fetch(`/api/admin/meals/${m.id}`, { method: 'DELETE' });
-                                                                            loadData();
-                                                                        }
-                                                                    }}
-                                                                    className="p-2 hover:bg-red-500/20 text-red-400 rounded-lg transition-colors"
-                                                                    title="Delete"
-                                                                >
-                                                                    <Trash2 size={16} />
-                                                                </button>
-                                                            </div>
-                                                        </td>
+                                        <div className="overflow-x-auto">
+                                            <table className="w-full text-left min-w-[800px]">
+                                                <thead>
+                                                    <tr className="border-b border-white/10 text-gray-400 text-sm">
+                                                        <th className="p-4">Title</th>
+                                                        <th className="p-4">Category</th>
+                                                        <th className="p-4">Calories</th>
+                                                        <th className="p-4">Macros (P/C/F)</th>
+                                                        <th className="p-4">Healthy</th>
+                                                        <th className="p-4">Actions</th>
                                                     </tr>
-                                                ))}
-                                            </tbody>
-                                        </table>
+                                                </thead>
+                                                <tbody>
+                                                    {paginatedMeals.map(m => (
+                                                        <tr key={m.id} className="border-b border-white/5 hover:bg-white/5">
+                                                            <td className="p-4 font-medium max-w-[200px] truncate">{m.title || 'Untitled'}</td>
+                                                            <td className="p-4 text-gray-400 capitalize">{m.category || 'other'}</td>
+                                                            <td className="p-4">
+                                                                <span className="text-cyan-400">{m.calories || 0}</span>
+                                                                <span className="text-gray-500 text-xs ml-1">kcal</span>
+                                                            </td>
+                                                            <td className="p-4 text-sm">
+                                                                <span className="text-red-400">{m.protein || 0}g</span>
+                                                                {' / '}
+                                                                <span className="text-yellow-400">{m.carbs || 0}g</span>
+                                                                {' / '}
+                                                                <span className="text-orange-400">{m.fat || 0}g</span>
+                                                            </td>
+                                                            <td className="p-4">
+                                                                {m.is_healthy ? (
+                                                                    <CheckCircle2 size={18} className="text-emerald-400" />
+                                                                ) : (
+                                                                    <X size={18} className="text-gray-500" />
+                                                                )}
+                                                            </td>
+                                                            <td className="p-4">
+                                                                <div className="flex items-center gap-1">
+                                                                    <button
+                                                                        onClick={() => handleEditMeal(m)}
+                                                                        className="p-2 hover:bg-violet-500/20 text-violet-400 rounded-lg transition-colors"
+                                                                        title="Edit"
+                                                                    >
+                                                                        <Edit size={16} />
+                                                                    </button>
+                                                                    <button
+                                                                        onClick={async () => {
+                                                                            if (confirm('Delete this meal?')) {
+                                                                                await fetch(`/api/admin/meals/${m.id}`, { method: 'DELETE' });
+                                                                                loadData();
+                                                                            }
+                                                                        }}
+                                                                        className="p-2 hover:bg-red-500/20 text-red-400 rounded-lg transition-colors"
+                                                                        title="Delete"
+                                                                    >
+                                                                        <Trash2 size={16} />
+                                                                    </button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    ))}
+                                                </tbody>
+                                            </table>
+                                        </div>
                                         {/* Pagination */}
                                         {totalMealsPages > 1 && (
                                             <div className="p-4 border-t border-white/10 flex items-center justify-between">
@@ -715,276 +726,282 @@ export default function AdminPage() {
                 )}
             </div>
 
-            {/* View Contact Modal */}
-            {viewingContact && (
-                <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4">
-                    <div className="card w-full max-w-lg animate-fade-in">
-                        <div className="flex items-center justify-between mb-4">
-                            <h2 className="text-xl font-bold">Contact Details</h2>
-                            <button onClick={() => setViewingContact(null)} className="text-gray-400 hover:text-white">
-                                <X size={18} />
-                            </button>
-                        </div>
-                        <div className="space-y-4">
-                            <div>
-                                <div className="text-xs text-gray-400 mb-1">From</div>
-                                <div className="font-medium">{viewingContact.name}</div>
-                                <div className="text-sm text-gray-400">{viewingContact.email}</div>
+            {
+                viewingContact && (
+                    <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+                        <div className="card w-[95%] sm:w-full max-w-lg animate-fade-in max-h-[90vh] overflow-y-auto">
+                            <div className="flex items-center justify-between mb-4">
+                                <h2 className="text-xl font-bold">Contact Details</h2>
+                                <button onClick={() => setViewingContact(null)} className="text-gray-400 hover:text-white">
+                                    <X size={18} />
+                                </button>
                             </div>
-                            <div>
-                                <div className="text-xs text-gray-400 mb-1">Subject</div>
-                                <div className="font-medium capitalize">{viewingContact.subject}</div>
-                            </div>
-                            <div>
-                                <div className="text-xs text-gray-400 mb-1">Message</div>
-                                <div className="bg-black/30 p-4 rounded-lg text-gray-300 whitespace-pre-wrap">
-                                    {viewingContact.message}
+                            <div className="space-y-4">
+                                <div>
+                                    <div className="text-xs text-gray-400 mb-1">From</div>
+                                    <div className="font-medium">{viewingContact.name}</div>
+                                    <div className="text-sm text-gray-400">{viewingContact.email}</div>
+                                </div>
+                                <div>
+                                    <div className="text-xs text-gray-400 mb-1">Subject</div>
+                                    <div className="font-medium capitalize">{viewingContact.subject}</div>
+                                </div>
+                                <div>
+                                    <div className="text-xs text-gray-400 mb-1">Message</div>
+                                    <div className="bg-black/30 p-4 rounded-lg text-gray-300 whitespace-pre-wrap">
+                                        {viewingContact.message}
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className="text-xs text-gray-400 mb-1">Received</div>
+                                    <div className="text-sm">{new Date(viewingContact.created_at).toLocaleString()}</div>
                                 </div>
                             </div>
-                            <div>
-                                <div className="text-xs text-gray-400 mb-1">Received</div>
-                                <div className="text-sm">{new Date(viewingContact.created_at).toLocaleString()}</div>
-                            </div>
-                        </div>
-                        <div className="mt-6 flex justify-end gap-3">
-                            <button
-                                onClick={() => setViewingContact(null)}
-                                className="px-4 py-2 rounded-lg hover:bg-white/10"
-                            >
-                                Close
-                            </button>
-                            {viewingContact.status === 'new' && (
+                            <div className="mt-6 flex justify-end gap-3">
                                 <button
-                                    onClick={() => handleMarkContactResolved(viewingContact.id)}
-                                    className="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 rounded-lg flex items-center gap-2"
+                                    onClick={() => setViewingContact(null)}
+                                    className="px-4 py-2 rounded-lg hover:bg-white/10"
                                 >
-                                    <CheckCircle2 size={16} /> Mark Resolved
+                                    Close
                                 </button>
-                            )}
+                                {viewingContact.status === 'new' && (
+                                    <button
+                                        onClick={() => handleMarkContactResolved(viewingContact.id)}
+                                        className="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 rounded-lg flex items-center gap-2"
+                                    >
+                                        <CheckCircle2 size={16} /> Mark Resolved
+                                    </button>
+                                )}
+                            </div>
                         </div>
                     </div>
-                </div>
-            )}
+                )
+            }
 
-            {/* Create Household Modal */}
-            {showCreateHousehold && (
-                <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4">
-                    <div className="card w-full max-w-lg animate-fade-in">
-                        <div className="flex items-center justify-between mb-6">
-                            <h2 className="text-xl font-bold">Create Master Account</h2>
-                            <button onClick={() => setShowCreateHousehold(false)} className="text-gray-400 hover:text-white">
-                                <X size={18} />
-                            </button>
+            {
+                showCreateHousehold && (
+                    <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+                        <div className="card w-[95%] sm:w-full max-w-lg animate-fade-in max-h-[90vh] overflow-y-auto">
+                            <div className="flex items-center justify-between mb-6">
+                                <h2 className="text-xl font-bold">Create Master Account</h2>
+                                <button onClick={() => setShowCreateHousehold(false)} className="text-gray-400 hover:text-white">
+                                    <X size={18} />
+                                </button>
+                            </div>
+                            {error && (
+                                <div className="bg-red-500/10 border border-red-500/20 text-red-500 p-3 rounded-lg mb-4 text-sm">
+                                    {error}
+                                </div>
+                            )}
+                            <form onSubmit={handleCreateHousehold} className="space-y-4">
+                                <div>
+                                    <label className="form-label">Household Name</label>
+                                    <input
+                                        type="text"
+                                        className="form-input w-full"
+                                        value={formData.householdName}
+                                        onChange={e => setFormData({ ...formData, householdName: e.target.value })}
+                                        required
+                                    />
+                                </div>
+                                <div>
+                                    <label className="form-label">Master Full Name</label>
+                                    <input
+                                        type="text"
+                                        className="form-input w-full"
+                                        value={formData.fullName}
+                                        onChange={e => setFormData({ ...formData, fullName: e.target.value })}
+                                        required
+                                    />
+                                </div>
+                                <div className="grid grid-cols-2 gap-4">
+                                    <div>
+                                        <label className="form-label">Email</label>
+                                        <input
+                                            type="email"
+                                            className="form-input w-full"
+                                            value={formData.email}
+                                            onChange={e => setFormData({ ...formData, email: e.target.value })}
+                                            required
+                                        />
+                                    </div>
+                                    <div>
+                                        <label className="form-label">Password</label>
+                                        <input
+                                            type="password"
+                                            className="form-input w-full"
+                                            value={formData.password}
+                                            onChange={e => setFormData({ ...formData, password: e.target.value })}
+                                            required
+                                        />
+                                    </div>
+                                </div>
+                                <div className="pt-4 flex justify-end gap-3">
+                                    <button type="button" onClick={() => setShowCreateHousehold(false)} className="px-4 py-2 rounded-lg hover:bg-white/10">
+                                        Cancel
+                                    </button>
+                                    <button type="submit" className="btn-primary" disabled={isSubmitting}>
+                                        {isSubmitting ? 'Creating...' : 'Create Account'}
+                                    </button>
+                                </div>
+                            </form>
                         </div>
-                        {error && (
-                            <div className="bg-red-500/10 border border-red-500/20 text-red-500 p-3 rounded-lg mb-4 text-sm">
-                                {error}
-                            </div>
-                        )}
-                        <form onSubmit={handleCreateHousehold} className="space-y-4">
-                            <div>
-                                <label className="form-label">Household Name</label>
-                                <input
-                                    type="text"
-                                    className="form-input w-full"
-                                    value={formData.householdName}
-                                    onChange={e => setFormData({ ...formData, householdName: e.target.value })}
-                                    required
-                                />
-                            </div>
-                            <div>
-                                <label className="form-label">Master Full Name</label>
-                                <input
-                                    type="text"
-                                    className="form-input w-full"
-                                    value={formData.fullName}
-                                    onChange={e => setFormData({ ...formData, fullName: e.target.value })}
-                                    required
-                                />
-                            </div>
-                            <div className="grid grid-cols-2 gap-4">
-                                <div>
-                                    <label className="form-label">Email</label>
-                                    <input
-                                        type="email"
-                                        className="form-input w-full"
-                                        value={formData.email}
-                                        onChange={e => setFormData({ ...formData, email: e.target.value })}
-                                        required
-                                    />
-                                </div>
-                                <div>
-                                    <label className="form-label">Password</label>
-                                    <input
-                                        type="password"
-                                        className="form-input w-full"
-                                        value={formData.password}
-                                        onChange={e => setFormData({ ...formData, password: e.target.value })}
-                                        required
-                                    />
-                                </div>
-                            </div>
-                            <div className="pt-4 flex justify-end gap-3">
-                                <button type="button" onClick={() => setShowCreateHousehold(false)} className="px-4 py-2 rounded-lg hover:bg-white/10">
-                                    Cancel
-                                </button>
-                                <button type="submit" className="btn-primary" disabled={isSubmitting}>
-                                    {isSubmitting ? 'Creating...' : 'Create Account'}
-                                </button>
-                            </div>
-                        </form>
                     </div>
-                </div>
-            )}
+                )
+            }
 
             {/* Edit Meal Modal */}
-            {editingMeal && (
-                <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4">
-                    <div className="card w-full max-w-lg animate-fade-in max-h-[90vh] overflow-y-auto">
-                        <div className="flex items-center justify-between mb-4">
-                            <h2 className="text-xl font-bold">Edit Meal</h2>
-                            <button onClick={() => setEditingMeal(null)} className="text-gray-400 hover:text-white">
-                                <X size={20} />
-                            </button>
-                        </div>
-                        <div className="space-y-4">
-                            <div>
-                                <label className="form-label">Title</label>
-                                <input
-                                    type="text"
-                                    className="form-input w-full"
-                                    value={mealForm.title}
-                                    onChange={e => setMealForm({ ...mealForm, title: e.target.value })}
-                                />
-                            </div>
-                            <div>
-                                <label className="form-label">Description</label>
-                                <textarea
-                                    className="form-input w-full h-20"
-                                    value={mealForm.description}
-                                    onChange={e => setMealForm({ ...mealForm, description: e.target.value })}
-                                />
-                            </div>
-                            <div className="grid grid-cols-2 gap-4">
-                                <div>
-                                    <label className="form-label">Category</label>
-                                    <select
-                                        className="form-input w-full"
-                                        value={mealForm.category}
-                                        onChange={e => setMealForm({ ...mealForm, category: e.target.value })}
-                                    >
-                                        <option value="breakfast">Breakfast</option>
-                                        <option value="lunch">Lunch</option>
-                                        <option value="dinner">Dinner</option>
-                                        <option value="snack">Snack</option>
-                                        <option value="dessert">Dessert</option>
-                                        <option value="other">Other</option>
-                                    </select>
-                                </div>
-                                <div>
-                                    <label className="form-label">Calories</label>
-                                    <input
-                                        type="number"
-                                        className="form-input w-full"
-                                        value={mealForm.calories}
-                                        onChange={e => setMealForm({ ...mealForm, calories: parseInt(e.target.value) || 0 })}
-                                    />
-                                </div>
-                            </div>
-                            <div className="grid grid-cols-3 gap-4">
-                                <div>
-                                    <label className="form-label">Protein (g)</label>
-                                    <input
-                                        type="number"
-                                        className="form-input w-full"
-                                        value={mealForm.protein}
-                                        onChange={e => setMealForm({ ...mealForm, protein: parseInt(e.target.value) || 0 })}
-                                    />
-                                </div>
-                                <div>
-                                    <label className="form-label">Carbs (g)</label>
-                                    <input
-                                        type="number"
-                                        className="form-input w-full"
-                                        value={mealForm.carbs}
-                                        onChange={e => setMealForm({ ...mealForm, carbs: parseInt(e.target.value) || 0 })}
-                                    />
-                                </div>
-                                <div>
-                                    <label className="form-label">Fat (g)</label>
-                                    <input
-                                        type="number"
-                                        className="form-input w-full"
-                                        value={mealForm.fat}
-                                        onChange={e => setMealForm({ ...mealForm, fat: parseInt(e.target.value) || 0 })}
-                                    />
-                                </div>
-                            </div>
-                            <div className="flex items-center gap-3">
-                                <input
-                                    type="checkbox"
-                                    id="is_healthy"
-                                    checked={mealForm.is_healthy}
-                                    onChange={e => setMealForm({ ...mealForm, is_healthy: e.target.checked })}
-                                    className="w-4 h-4 rounded"
-                                />
-                                <label htmlFor="is_healthy" className="text-sm">Mark as Healthy</label>
-                            </div>
-                            <div className="pt-4 flex justify-end gap-3">
-                                <button onClick={() => setEditingMeal(null)} className="px-4 py-2 rounded-lg hover:bg-white/10">
-                                    Cancel
+            {
+                editingMeal && (
+                    <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+                        <div className="card w-full max-w-lg animate-fade-in max-h-[90vh] overflow-y-auto">
+                            <div className="flex items-center justify-between mb-4">
+                                <h2 className="text-xl font-bold">Edit Meal</h2>
+                                <button onClick={() => setEditingMeal(null)} className="text-gray-400 hover:text-white">
+                                    <X size={20} />
                                 </button>
-                                <button onClick={handleSaveMeal} className="btn-primary" disabled={isSubmitting}>
-                                    {isSubmitting ? 'Saving...' : 'Save Changes'}
-                                </button>
+                            </div>
+                            <div className="space-y-4">
+                                <div>
+                                    <label className="form-label">Title</label>
+                                    <input
+                                        type="text"
+                                        className="form-input w-full"
+                                        value={mealForm.title}
+                                        onChange={e => setMealForm({ ...mealForm, title: e.target.value })}
+                                    />
+                                </div>
+                                <div>
+                                    <label className="form-label">Description</label>
+                                    <textarea
+                                        className="form-input w-full h-20"
+                                        value={mealForm.description}
+                                        onChange={e => setMealForm({ ...mealForm, description: e.target.value })}
+                                    />
+                                </div>
+                                <div className="grid grid-cols-2 gap-4">
+                                    <div>
+                                        <label className="form-label">Category</label>
+                                        <select
+                                            className="form-input w-full"
+                                            value={mealForm.category}
+                                            onChange={e => setMealForm({ ...mealForm, category: e.target.value })}
+                                        >
+                                            <option value="breakfast">Breakfast</option>
+                                            <option value="lunch">Lunch</option>
+                                            <option value="dinner">Dinner</option>
+                                            <option value="snack">Snack</option>
+                                            <option value="dessert">Dessert</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label className="form-label">Calories</label>
+                                        <input
+                                            type="number"
+                                            className="form-input w-full"
+                                            value={mealForm.calories}
+                                            onChange={e => setMealForm({ ...mealForm, calories: parseInt(e.target.value) || 0 })}
+                                        />
+                                    </div>
+                                </div>
+                                <div className="grid grid-cols-3 gap-4">
+                                    <div>
+                                        <label className="form-label">Protein (g)</label>
+                                        <input
+                                            type="number"
+                                            className="form-input w-full"
+                                            value={mealForm.protein}
+                                            onChange={e => setMealForm({ ...mealForm, protein: parseInt(e.target.value) || 0 })}
+                                        />
+                                    </div>
+                                    <div>
+                                        <label className="form-label">Carbs (g)</label>
+                                        <input
+                                            type="number"
+                                            className="form-input w-full"
+                                            value={mealForm.carbs}
+                                            onChange={e => setMealForm({ ...mealForm, carbs: parseInt(e.target.value) || 0 })}
+                                        />
+                                    </div>
+                                    <div>
+                                        <label className="form-label">Fat (g)</label>
+                                        <input
+                                            type="number"
+                                            className="form-input w-full"
+                                            value={mealForm.fat}
+                                            onChange={e => setMealForm({ ...mealForm, fat: parseInt(e.target.value) || 0 })}
+                                        />
+                                    </div>
+                                </div>
+                                <div className="flex items-center gap-3">
+                                    <input
+                                        type="checkbox"
+                                        id="is_healthy"
+                                        checked={mealForm.is_healthy}
+                                        onChange={e => setMealForm({ ...mealForm, is_healthy: e.target.checked })}
+                                        className="w-4 h-4 rounded"
+                                    />
+                                    <label htmlFor="is_healthy" className="text-sm">Mark as Healthy</label>
+                                </div>
+                                <div className="pt-4 flex justify-end gap-3">
+                                    <button onClick={() => setEditingMeal(null)} className="px-4 py-2 rounded-lg hover:bg-white/10">
+                                        Cancel
+                                    </button>
+                                    <button onClick={handleSaveMeal} className="btn-primary" disabled={isSubmitting}>
+                                        {isSubmitting ? 'Saving...' : 'Save Changes'}
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            )}
+                )
+            }
 
             {/* User Create/Edit Modal */}
-            {(showCreateUser || editingUser) && (
-                <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4">
-                    <div className="card w-full max-w-md animate-fade-in">
-                        <div className="flex items-center justify-between mb-4">
-                            <h2 className="text-xl font-bold">{editingUser ? 'Edit User' : 'Create User'}</h2>
-                            <button onClick={() => { setShowCreateUser(false); setEditingUser(null); }} className="text-gray-400 hover:text-white">
-                                <X size={20} />
-                            </button>
-                        </div>
-                        {error && <div className="mb-4 p-3 bg-red-500/20 border border-red-500/40 rounded-lg text-red-400 text-sm">{error}</div>}
-                        <div className="space-y-4">
-                            <div>
-                                <label className="form-label">Full Name</label>
-                                <input type="text" className="form-input w-full" value={userForm.full_name} onChange={e => setUserForm({ ...userForm, full_name: e.target.value })} />
-                            </div>
-                            <div>
-                                <label className="form-label">Email</label>
-                                <input type="email" className="form-input w-full" value={userForm.email} onChange={e => setUserForm({ ...userForm, email: e.target.value })} required />
-                            </div>
-                            <div>
-                                <label className="form-label">Password {editingUser && <span className="text-gray-500">(leave blank to keep current)</span>}</label>
-                                <input type="password" className="form-input w-full" value={userForm.password} onChange={e => setUserForm({ ...userForm, password: e.target.value })} />
-                            </div>
-                            <div>
-                                <label className="form-label">Role</label>
-                                <select className="form-input w-full" value={userForm.role} onChange={e => setUserForm({ ...userForm, role: e.target.value })}>
-                                    <option value="user">User</option>
-                                    <option value="master">Master</option>
-                                    <option value="admin">Admin</option>
-                                </select>
-                            </div>
-                            <div className="pt-4 flex justify-end gap-3">
-                                <button onClick={() => { setShowCreateUser(false); setEditingUser(null); }} className="px-4 py-2 rounded-lg hover:bg-white/10">Cancel</button>
-                                <button onClick={handleSaveUser} className="btn-primary" disabled={isSubmitting}>
-                                    {isSubmitting ? 'Saving...' : editingUser ? 'Save Changes' : 'Create User'}
+            {
+                (showCreateUser || editingUser) && (
+                    <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+                        <div className="card w-full max-w-md animate-fade-in">
+                            <div className="flex items-center justify-between mb-4">
+                                <h2 className="text-xl font-bold">{editingUser ? 'Edit User' : 'Create User'}</h2>
+                                <button onClick={() => { setShowCreateUser(false); setEditingUser(null); }} className="text-gray-400 hover:text-white">
+                                    <X size={20} />
                                 </button>
+                            </div>
+                            {error && <div className="mb-4 p-3 bg-red-500/20 border border-red-500/40 rounded-lg text-red-400 text-sm">{error}</div>}
+                            <div className="space-y-4">
+                                <div>
+                                    <label className="form-label">Full Name</label>
+                                    <input type="text" className="form-input w-full" value={userForm.full_name} onChange={e => setUserForm({ ...userForm, full_name: e.target.value })} />
+                                </div>
+                                <div>
+                                    <label className="form-label">Email</label>
+                                    <input type="email" className="form-input w-full" value={userForm.email} onChange={e => setUserForm({ ...userForm, email: e.target.value })} required />
+                                </div>
+                                <div>
+                                    <label className="form-label">Password {editingUser && <span className="text-gray-500">(leave blank to keep current)</span>}</label>
+                                    <input type="password" className="form-input w-full" value={userForm.password} onChange={e => setUserForm({ ...userForm, password: e.target.value })} />
+                                </div>
+                                <div>
+                                    <label className="form-label">Role</label>
+                                    <select className="form-input w-full" value={userForm.role} onChange={e => setUserForm({ ...userForm, role: e.target.value })}>
+                                        <option value="user">User</option>
+                                        <option value="master">Master</option>
+                                        <option value="admin">Admin</option>
+                                    </select>
+                                </div>
+                                <div className="pt-4 flex justify-end gap-3">
+                                    <button onClick={() => { setShowCreateUser(false); setEditingUser(null); }} className="px-4 py-2 rounded-lg hover:bg-white/10">Cancel</button>
+                                    <button onClick={handleSaveUser} className="btn-primary" disabled={isSubmitting}>
+                                        {isSubmitting ? 'Saving...' : editingUser ? 'Save Changes' : 'Create User'}
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            )}
-        </div>
+                )
+            }
+        </div >
     );
 }
