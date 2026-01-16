@@ -1,14 +1,15 @@
 'use client';
 
 import { useState } from 'react';
-import { Target, Activity, Apple, Check, TrendingDown, Scale, Dumbbell } from 'lucide-react';
+import { Target, Activity, Apple, Check, TrendingDown, Scale, Dumbbell, X } from 'lucide-react';
 
 interface OnboardingModalProps {
     isOpen: boolean;
     onComplete: () => void;
+    onDismiss?: () => void;
 }
 
-export default function OnboardingModal({ isOpen, onComplete }: OnboardingModalProps) {
+export default function OnboardingModal({ isOpen, onComplete, onDismiss }: OnboardingModalProps) {
     const [step, setStep] = useState(1);
     const [loading, setLoading] = useState(false);
 
@@ -70,7 +71,7 @@ export default function OnboardingModal({ isOpen, onComplete }: OnboardingModalP
                 {/* Header */}
                 <div className="p-6 border-b border-white/5 bg-white/5">
                     <div className="flex items-center gap-3 mb-2">
-                        <div className="w-10 h-10 rounded-full bg-violet-600 flex items-center justify-center text-white">
+                        <div className="w-10 h-10 rounded-full bg-gradient-to-r from-cyan-500 to-violet-500 flex items-center justify-center text-white">
                             {step === 1 && <Activity />}
                             {step === 2 && <Target />}
                             {step === 3 && <Apple />}
@@ -87,7 +88,7 @@ export default function OnboardingModal({ isOpen, onComplete }: OnboardingModalP
                     {/* Progress Bar */}
                     <div className="w-full bg-white/10 h-1 mt-2 rounded-full overflow-hidden">
                         <div
-                            className="h-full bg-violet-500 transition-all duration-300"
+                            className="h-full bg-gradient-to-r from-cyan-500 to-violet-500 transition-all duration-300"
                             style={{ width: `${(step / 3) * 100}%` }}
                         />
                     </div>
@@ -106,7 +107,7 @@ export default function OnboardingModal({ isOpen, onComplete }: OnboardingModalP
                                             key={g}
                                             onClick={() => updateField('gender', g)}
                                             className={`p-3 rounded-lg border text-sm capitalize transition-colors ${formData.gender === g
-                                                ? 'bg-violet-600 border-violet-500 text-white'
+                                                ? 'bg-gradient-to-r from-cyan-600 to-violet-600 border-cyan-500 text-white'
                                                 : 'bg-white/5 border-white/10 text-gray-400 hover:bg-white/10'
                                                 }`}
                                         >
@@ -129,7 +130,7 @@ export default function OnboardingModal({ isOpen, onComplete }: OnboardingModalP
                                             key={opt.val}
                                             onClick={() => updateField('activity_level', opt.val)}
                                             className={`w-full p-3 rounded-lg border text-left flex items-center justify-between transition-colors ${formData.activity_level === opt.val
-                                                ? 'bg-violet-600/20 border-violet-500 text-white'
+                                                ? 'bg-cyan-600/20 border-cyan-500 text-white'
                                                 : 'bg-white/5 border-white/10 text-gray-400 hover:bg-white/10'
                                                 }`}
                                         >
@@ -159,7 +160,7 @@ export default function OnboardingModal({ isOpen, onComplete }: OnboardingModalP
                                             key={opt.val}
                                             onClick={() => updateField('goals', opt.val)}
                                             className={`w-full p-4 rounded-xl border text-left transition-all ${formData.goals === opt.val
-                                                ? 'bg-gradient-to-r from-violet-600 to-indigo-600 text-white border-transparent shadow-lg'
+                                                ? 'bg-gradient-to-r from-cyan-600 to-violet-600 text-white border-transparent shadow-lg shadow-cyan-500/20'
                                                 : 'bg-white/5 border-white/10 text-gray-300 hover:bg-white/10'
                                                 }`}
                                         >
@@ -226,32 +227,42 @@ export default function OnboardingModal({ isOpen, onComplete }: OnboardingModalP
                 </div>
 
                 {/* Footer */}
-                <div className="p-6 border-t border-white/5 bg-black/20 flex justify-between items-center">
-                    {step > 1 ? (
-                        <button
-                            onClick={handleBack}
-                            className="text-gray-400 hover:text-white text-sm"
-                        >
-                            Back
-                        </button>
-                    ) : (
-                        <div></div>
-                    )}
+                <div className="p-6 border-t border-white/5 bg-black/20">
+                    <div className="flex justify-between items-center">
+                        {step > 1 ? (
+                            <button
+                                onClick={handleBack}
+                                className="text-gray-400 hover:text-white text-sm"
+                            >
+                                Back
+                            </button>
+                        ) : (
+                            <div></div>
+                        )}
 
-                    {step < 3 ? (
+                        {step < 3 ? (
+                            <button
+                                onClick={handleNext}
+                                className="px-6 py-2 rounded-lg bg-white text-black font-semibold hover:bg-gray-200 transition-colors"
+                            >
+                                Next
+                            </button>
+                        ) : (
+                            <button
+                                onClick={handleSubmit}
+                                disabled={loading}
+                                className="px-6 py-2 rounded-lg bg-gradient-to-r from-cyan-600 to-violet-600 text-white font-semibold hover:shadow-lg hover:shadow-cyan-500/20 transition-all disabled:opacity-50 flex items-center gap-2"
+                            >
+                                {loading ? 'Saving...' : 'Finish Setup'}
+                            </button>
+                        )}
+                    </div>
+                    {onDismiss && (
                         <button
-                            onClick={handleNext}
-                            className="px-6 py-2 rounded-lg bg-white text-black font-semibold hover:bg-gray-200 transition-colors"
+                            onClick={onDismiss}
+                            className="w-full mt-4 text-center text-sm text-gray-500 hover:text-gray-300 transition-colors"
                         >
-                            Next
-                        </button>
-                    ) : (
-                        <button
-                            onClick={handleSubmit}
-                            disabled={loading}
-                            className="px-6 py-2 rounded-lg bg-violet-600 text-white font-semibold hover:bg-violet-700 transition-colors disabled:opacity-50 flex items-center gap-2"
-                        >
-                            {loading ? 'Saving...' : 'Finish Setup'}
+                            I'll do this later
                         </button>
                     )}
                 </div>

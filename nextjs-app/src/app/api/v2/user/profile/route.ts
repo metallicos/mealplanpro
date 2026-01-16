@@ -68,20 +68,20 @@ export async function POST(req: NextRequest) {
             macros.protein = 180;
         }
 
-        // Upsert profile
-        // SQLite doesn't support ON DUPLICATE KEY UPDATE, using ON CONFLICT (user_id) DO UPDATE
+        // Upsert profile - include goals field
         await query(
             `INSERT INTO user_profiles (
-        user_id, gender, activity_level, dietary_restrictions, macros_goal, 
-        preferred_language, preferred_currency
-      ) VALUES (?, ?, ?, ?, ?, ?, ?)
-      ON CONFLICT(user_id) DO UPDATE SET
-        gender = excluded.gender,
-        activity_level = excluded.activity_level,
-        dietary_restrictions = excluded.dietary_restrictions,
-        macros_goal = excluded.macros_goal,
-        preferred_language = excluded.preferred_language,
-        preferred_currency = excluded.preferred_currency`,
+                user_id, gender, activity_level, dietary_restrictions, macros_goal, 
+                preferred_language, preferred_currency, goals
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT(user_id) DO UPDATE SET
+                gender = excluded.gender,
+                activity_level = excluded.activity_level,
+                dietary_restrictions = excluded.dietary_restrictions,
+                macros_goal = excluded.macros_goal,
+                preferred_language = excluded.preferred_language,
+                preferred_currency = excluded.preferred_currency,
+                goals = excluded.goals`,
             [
                 session.id,
                 gender,
@@ -89,7 +89,8 @@ export async function POST(req: NextRequest) {
                 JSON.stringify(dietary_restrictions || []),
                 JSON.stringify(macros),
                 preferred_language || 'en',
-                preferred_currency || 'USD'
+                preferred_currency || 'USD',
+                goals || 'maintain'
             ]
         );
 

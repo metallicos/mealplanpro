@@ -3,6 +3,7 @@
 import { useUser } from '@/contexts/UserContext';
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import SmartPlan from '@/components/SmartPlan';
 import WaterTracker from '@/components/WaterTracker';
@@ -52,6 +53,7 @@ interface Recipe {
 
 export default function Dashboard() {
   const { user, theme, settings, isLoading } = useUser();
+  const router = useRouter();
   const t = useTranslations('dashboard');
   const locale = useLocale();
   const tFamily = useTranslations('family');
@@ -65,6 +67,13 @@ export default function Dashboard() {
     carbs: 0,
     fat: 0,
   });
+
+  // Redirect admin users to admin dashboard
+  useEffect(() => {
+    if (!isLoading && user?.role === 'admin') {
+      router.replace('/admin');
+    }
+  }, [user, isLoading, router]);
 
   // Use targets from user settings
   const targets = {

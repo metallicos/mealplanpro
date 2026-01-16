@@ -17,16 +17,25 @@ export default function OnboardingController() {
             return;
         }
 
+        // Check if dismissed recently (within 24 hours)
+        const dismissed = localStorage.getItem('onboarding_dismissed');
+        if (dismissed) {
+            const dismissedTime = parseInt(dismissed);
+            const hoursSince = (Date.now() - dismissedTime) / (1000 * 60 * 60);
+            if (hoursSince < 24) {
+                setHasChecked(true);
+                return;
+            }
+        }
+
         const checkProfile = async () => {
             try {
                 const res = await fetch('/api/v2/user/profile');
                 if (res.status === 404) {
-                    // Profile doesn't exist - show onboarding
                     setShowOnboarding(true);
                 } else if (res.ok) {
                     const profile = await res.json();
-                    // Check if profile is incomplete (no goals set)
-                    if (!profile.goals) {
+                    if (!profile.profile?.goals) {
                         setShowOnboarding(true);
                     }
                 }
@@ -42,14 +51,19 @@ export default function OnboardingController() {
 
     if (!hasChecked || isUserLoading) return null;
 
+    const handleDismiss = () => {
+        localStorage.setItem('onboarding_dismissed', Date.now().toString());
+        setShowOnboarding(false);
+    };
+
     return (
         <OnboardingModal
             isOpen={showOnboarding}
             onComplete={() => {
                 setShowOnboarding(false);
-                // Reload to refresh dashboard with personalized data
                 window.location.reload();
             }}
+            onDismiss={handleDismiss}
         />
     );
 }
