@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, Mail, Send, CheckCircle2, Loader2 } from 'lucide-react';
+import { ArrowLeft, Mail, Send, CheckCircle2, Loader2, Clock, Globe } from 'lucide-react';
 
 export default function ContactPage() {
     const [formData, setFormData] = useState({
@@ -147,7 +147,7 @@ export default function ContactPage() {
                         <button
                             type="submit"
                             disabled={isSubmitting}
-                            className="w-full py-4 rounded-xl bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold hover:shadow-lg hover:shadow-purple-500/25 transition-all active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                            className="w-full py-4 rounded-xl bg-gradient-to-r from-cyan-600 to-emerald-600 text-white font-bold hover:shadow-lg hover:shadow-cyan-500/25 transition-all active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                         >
                             {isSubmitting ? (
                                 <>
@@ -164,17 +164,23 @@ export default function ContactPage() {
 
                 <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                     <div className="p-6 rounded-xl bg-white/5 border border-white/5">
-                        <div className="text-2xl mb-2">📧</div>
+                        <div className="w-12 h-12 rounded-xl bg-cyan-500/20 flex items-center justify-center text-cyan-400 mx-auto mb-3">
+                            <Mail size={24} />
+                        </div>
                         <div className="font-semibold mb-1">Email</div>
                         <div className="text-sm text-gray-400">support@mealplanpro.app</div>
                     </div>
                     <div className="p-6 rounded-xl bg-white/5 border border-white/5">
-                        <div className="text-2xl mb-2">⏰</div>
+                        <div className="w-12 h-12 rounded-xl bg-violet-500/20 flex items-center justify-center text-violet-400 mx-auto mb-3">
+                            <Clock size={24} />
+                        </div>
                         <div className="font-semibold mb-1">Response Time</div>
                         <div className="text-sm text-gray-400">24-48 hours</div>
                     </div>
                     <div className="p-6 rounded-xl bg-white/5 border border-white/5">
-                        <div className="text-2xl mb-2">🌍</div>
+                        <div className="w-12 h-12 rounded-xl bg-emerald-500/20 flex items-center justify-center text-emerald-400 mx-auto mb-3">
+                            <Globe size={24} />
+                        </div>
                         <div className="font-semibold mb-1">Location</div>
                         <div className="text-sm text-gray-400">Worldwide Support</div>
                     </div>
