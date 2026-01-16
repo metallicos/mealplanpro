@@ -68,12 +68,12 @@ export async function POST(req: NextRequest) {
             macros.protein = 180;
         }
 
-        // Upsert profile - include goals field
+        // Upsert profile - include goals and onboarding_completed field
         await query(
             `INSERT INTO user_profiles (
                 user_id, gender, activity_level, dietary_restrictions, macros_goal, 
-                preferred_language, preferred_currency, goals
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                preferred_language, preferred_currency, goals, onboarding_completed
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, 1)
             ON CONFLICT(user_id) DO UPDATE SET
                 gender = excluded.gender,
                 activity_level = excluded.activity_level,
@@ -81,7 +81,8 @@ export async function POST(req: NextRequest) {
                 macros_goal = excluded.macros_goal,
                 preferred_language = excluded.preferred_language,
                 preferred_currency = excluded.preferred_currency,
-                goals = excluded.goals`,
+                goals = excluded.goals,
+                onboarding_completed = 1`,
             [
                 session.id,
                 gender,

@@ -54,13 +54,12 @@ export default function OnboardingController() {
                 } else if (res.ok) {
                     const data = await res.json();
                     console.log('[Onboarding] Profile data:', data);
-                    // Check if profile is incomplete (no goals set)
-                    // The API returns { found: true, profile: { goals: ... } }
-                    if (!data.profile?.goals) {
-                        console.log('[Onboarding] Profile incomplete, showing onboarding');
+                    // Check if onboarding was completed
+                    if (!data.profile?.onboarding_completed) {
+                        console.log('[Onboarding] Onboarding not completed, showing');
                         setShowOnboarding(true);
                     } else {
-                        console.log('[Onboarding] Profile complete, not showing');
+                        console.log('[Onboarding] Onboarding already completed');
                     }
                 }
             } catch (error) {
