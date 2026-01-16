@@ -20,7 +20,10 @@ import {
     Home,
     Globe,
     Timer,
-    Heart
+    Heart,
+    Users,
+    Mail,
+    Newspaper
 } from 'lucide-react';
 
 const navItems = [
@@ -34,6 +37,16 @@ const navItems = [
     { href: '/groceries', labelKey: 'groceryList', icon: ShoppingCart },
     { href: '/forum', labelKey: 'forum', icon: MessageSquare },
     { href: '/profile', labelKey: 'profile', icon: User },
+];
+
+// Admin-specific navigation items
+const adminNavItems = [
+    { href: '/admin', label: 'Dashboard', icon: LayoutDashboard, tab: null },
+    { href: '/admin?tab=users', label: 'Users', icon: Users, tab: 'users' },
+    { href: '/admin?tab=contacts', label: 'Contacts', icon: Mail, tab: 'contacts' },
+    { href: '/admin?tab=newsletter', label: 'Newsletter', icon: Newspaper, tab: 'newsletter' },
+    { href: '/admin?tab=households', label: 'Households', icon: Home, tab: 'households' },
+    { href: '/admin?tab=meals', label: 'Meals', icon: Utensils, tab: 'meals' },
 ];
 
 export default function Sidebar() {
@@ -126,27 +139,36 @@ export default function Sidebar() {
                 </div>
 
                 <nav className="flex-1">
-                    {navItems.map((item) => (
-                        <Link
-                            key={item.href}
-                            href={item.href}
-                            className={`nav-item ${pathname === item.href ? 'active' : ''}`}
-                            onClick={() => setIsOpen(false)}
-                        >
-                            <span className="nav-item-icon"><item.icon size={20} /></span>
-                            <span>{t(item.labelKey)}</span>
-                        </Link>
-                    ))}
-
-                    {user.role === 'admin' && (
-                        <Link
-                            href="/admin"
-                            className={`nav-item ${pathname === '/admin' ? 'active' : ''}`}
-                            onClick={() => setIsOpen(false)}
-                        >
-                            <span className="nav-item-icon"><Settings size={20} /></span>
-                            <span>{t('adminPanel')}</span>
-                        </Link>
+                    {user.role === 'admin' ? (
+                        // Admin navigation
+                        <>
+                            {adminNavItems.map((item) => (
+                                <Link
+                                    key={item.href}
+                                    href={item.href}
+                                    className={`nav-item ${pathname === '/admin' && (!item.tab || pathname.includes(item.tab)) ? 'active' : ''}`}
+                                    onClick={() => setIsOpen(false)}
+                                >
+                                    <span className="nav-item-icon"><item.icon size={20} /></span>
+                                    <span>{item.label}</span>
+                                </Link>
+                            ))}
+                        </>
+                    ) : (
+                        // Regular user navigation
+                        <>
+                            {navItems.map((item) => (
+                                <Link
+                                    key={item.href}
+                                    href={item.href}
+                                    className={`nav-item ${pathname === item.href ? 'active' : ''}`}
+                                    onClick={() => setIsOpen(false)}
+                                >
+                                    <span className="nav-item-icon"><item.icon size={20} /></span>
+                                    <span>{t(item.labelKey)}</span>
+                                </Link>
+                            ))}
+                        </>
                     )}
                 </nav>
 
