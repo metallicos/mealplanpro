@@ -37,7 +37,21 @@ interface Household {
     created_at: string;
 }
 
-type Tab = 'users' | 'contacts' | 'newsletter' | 'households';
+interface Meal {
+    id: number;
+    title: string;
+    description: string;
+    category: string;
+    calories: number;
+    protein: number;
+    carbs: number;
+    fat: number;
+    image_url: string;
+    is_healthy: number;
+    created_at: string;
+}
+
+type Tab = 'users' | 'contacts' | 'newsletter' | 'households' | 'meals';
 
 export default function AdminPage() {
     const { user, isLoading: isUserLoading } = useUser();
@@ -50,6 +64,7 @@ export default function AdminPage() {
     const [users, setUsers] = useState<User[]>([]);
     const [contacts, setContacts] = useState<ContactSubmission[]>([]);
     const [households, setHouseholds] = useState<Household[]>([]);
+    const [meals, setMeals] = useState<Meal[]>([]);
 
     // Modal states
     const [showCreateHousehold, setShowCreateHousehold] = useState(false);
@@ -87,6 +102,10 @@ export default function AdminPage() {
             if (activeTab === 'households') {
                 const res = await fetch('/api/admin/households');
                 if (res.ok) setHouseholds(await res.json());
+            }
+            if (activeTab === 'meals') {
+                const res = await fetch('/api/admin/meals');
+                if (res.ok) setMeals(await res.json());
             }
         } catch (error) {
             console.error('Failed to load data', error);
@@ -157,6 +176,7 @@ export default function AdminPage() {
         { id: 'contacts' as Tab, label: 'Contact Enquiries', icon: Mail, count: contacts.filter(c => c.status === 'new').length },
         { id: 'newsletter' as Tab, label: 'Newsletter', icon: Newspaper, count: newsletterSubscribers.length },
         { id: 'households' as Tab, label: 'Households', icon: Settings, count: households.length },
+        { id: 'meals' as Tab, label: 'Meals', icon: Utensils, count: meals.length },
     ];
 
     return (
@@ -392,6 +412,87 @@ export default function AdminPage() {
                                                     </td>
                                                 </tr>
                                             ))}
+                                        </tbody>
+                                    </table>
+                                )}
+                            </div>
+                        )}
+
+                        {/* Meals Tab */}
+                        {activeTab === 'meals' && (
+                            <div>
+                                <div className="p-4 border-b border-white/10 flex items-center justify-between">
+                                    <h3 className="font-semibold">Meals / Recipes ({meals.length})</h3>
+                                    <div className="flex items-center gap-3">
+                                        <div className="relative">
+                                            <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
+                                            <input
+                                                type="text"
+                                                placeholder="Search meals..."
+                                                className="pl-10 pr-4 py-2 bg-black/30 border border-white/10 rounded-lg text-sm outline-none focus:border-cyan-500"
+                                                value={searchQuery}
+                                                onChange={(e) => setSearchQuery(e.target.value)}
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                {meals.length === 0 ? (
+                                    <div className="p-8 text-center text-gray-400">No meals found</div>
+                                ) : (
+                                    <table className="w-full text-left">
+                                        <thead>
+                                            <tr className="border-b border-white/10 text-gray-400 text-sm">
+                                                <th className="p-4">Title</th>
+                                                <th className="p-4">Category</th>
+                                                <th className="p-4">Calories</th>
+                                                <th className="p-4">Macros (P/C/F)</th>
+                                                <th className="p-4">Healthy</th>
+                                                <th className="p-4">Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {meals
+                                                .filter(m => m.title?.toLowerCase().includes(searchQuery.toLowerCase()))
+                                                .map(m => (
+                                                    <tr key={m.id} className="border-b border-white/5 hover:bg-white/5">
+                                                        <td className="p-4 font-medium">{m.title || 'Untitled'}</td>
+                                                        <td className="p-4 text-gray-400 capitalize">{m.category || 'other'}</td>
+                                                        <td className="p-4">
+                                                            <span className="text-cyan-400">{m.calories || 0}</span>
+                                                            <span className="text-gray-500 text-xs ml-1">kcal</span>
+                                                        </td>
+                                                        <td className="p-4 text-sm">
+                                                            <span className="text-red-400">{m.protein || 0}g</span>
+                                                            {' / '}
+                                                            <span className="text-yellow-400">{m.carbs || 0}g</span>
+                                                            {' / '}
+                                                            <span className="text-orange-400">{m.fat || 0}g</span>
+                                                        </td>
+                                                        <td className="p-4">
+                                                            {m.is_healthy ? (
+                                                                <CheckCircle2 size={18} className="text-emerald-400" />
+                                                            ) : (
+                                                                <X size={18} className="text-gray-500" />
+                                                            )}
+                                                        </td>
+                                                        <td className="p-4">
+                                                            <div className="flex items-center gap-2">
+                                                                <button
+                                                                    onClick={async () => {
+                                                                        if (confirm('Are you sure you want to delete this meal?')) {
+                                                                            await fetch(`/api/admin/meals/${m.id}`, { method: 'DELETE' });
+                                                                            loadData();
+                                                                        }
+                                                                    }}
+                                                                    className="p-2 hover:bg-red-500/20 text-red-400 rounded-lg transition-colors"
+                                                                    title="Delete"
+                                                                >
+                                                                    <Trash2 size={16} />
+                                                                </button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                ))}
                                         </tbody>
                                     </table>
                                 )}
