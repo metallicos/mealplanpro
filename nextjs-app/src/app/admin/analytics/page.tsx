@@ -387,23 +387,6 @@ export default function AnalyticsDashboard() {
                     </div>
                 )}
             </div>
-
-            {/* Integration Note */}
-            <div className="mt-8 p-4 rounded-lg bg-violet-500/10 border border-violet-500/30">
-                <h3 className="font-medium text-violet-400 mb-2">Setup Instructions</h3>
-                <p className="text-sm text-gray-300 mb-3">
-                    To start collecting analytics, add the tracking hook to your root layout:
-                </p>
-                <pre className="bg-black/50 p-3 rounded text-sm text-gray-300 overflow-x-auto">
-                    {`// In your layout or app component:
-import { useAnalytics } from '@/hooks/useAnalytics';
-
-function MyApp({ children }) {
-  useAnalytics({ userId: user?.id });
-  return children;
-}`}
-                </pre>
-            </div>
         </div>
     );
 }
