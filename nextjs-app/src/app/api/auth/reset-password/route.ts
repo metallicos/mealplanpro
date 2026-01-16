@@ -13,7 +13,7 @@ export async function POST(request: NextRequest) {
         }
 
         // Check if user exists
-        const users = await query('SELECT id, email, name FROM users WHERE email = ?', [email.toLowerCase()]);
+        const users = await query('SELECT id, email FROM users WHERE email = ?', [email.toLowerCase()]);
         const user = (users as any[])[0];
 
         if (!user) {
