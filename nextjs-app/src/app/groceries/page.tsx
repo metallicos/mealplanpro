@@ -744,7 +744,7 @@ export default function GroceriesPage() {
 
             <div className="flex flex-col lg:grid lg:grid-cols-3 gap-4 lg:gap-6">
                 {/* Add Items Panel */}
-                <div className="order-2 lg:order-1 lg:col-span-1 no-print">
+                <div className="order-2 lg:order-2 lg:col-span-1 no-print">
                     <div className="card lg:sticky lg:top-4">
                         <h3 className="font-semibold mb-3 text-sm sm:text-base">{t('addItemsTitle')}</h3>
 
@@ -829,7 +829,7 @@ export default function GroceriesPage() {
                 </div>
 
                 {/* Shopping List */}
-                <div className="order-1 lg:order-2 lg:col-span-2">
+                <div className="order-1 lg:order-1 lg:col-span-2">
                     <div className="card print-area" ref={printRef}>
                         {/* Print Header */}
                         <div className="print-header hidden">
